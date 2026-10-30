@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-30",
+  "scope": "首次内容推送核验时点；后续托管说明和待办另随文档提交推送。",
+  "repository": "https://github.com/279905028/Suika3",
+  "visibility": "public",
+  "defaultBranch": "main",
+  "localContentCommit": "d2eafcbeac390b447166453e552bb138d676ac40",
+  "remoteMainCommit": "d2eafcbeac390b447166453e552bb138d676ac40",
+  "commitsMatch": true,
+  "trackedFilesAtVerification": 1807,
+  "trackingBranch": "origin/main",
+  "pushSucceeded": true,
+  "separateResourceBackupCreated": false,
+  "untrackedParallelWorkPreserved": [
+    "assets/sources/20261030-cover-options/",
+    "qa/cover-options-20261030/"
+  ],
+  "validation": [
+    "git diff --cached --check：通过",
+    "git fsck --no-reflogs：通过",
+    "上传前有限密钥特征扫描：未命中",
+    "无超过100 MiB的待上传文件"
+  ],
+  "notValidated": [
+    "未新增游戏构建或运行验收",
+    "未新增浏览器、手机真机或原生平台验收",
+    "未发布游戏或上传大素材/SDK/运行包"
+  ]
+}
