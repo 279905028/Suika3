@@ -6,7 +6,7 @@
 
 - [x] 按用户选择准备`v1.1.0-beta.1`：网页包、实验性macOS／Windows x64／ARM64包和本版冻结输入归档；补齐启动、旧档、已知问题与随包许可说明，见[发布说明](docs/releases/v1.1.0-beta.1.md)。
 - [x] 当前快照／文件分类、16项产物与5份ZIP逐文件校验通过；解压网页包的Chrome27项及随包HTTP9项通过。测试使用独立存储，玩家旧档保留，见[本批记录](qa/github-release-20261030/发布记录.md)。
-- [ ] 提交推送当前源码、创建预览标签及Release，核对GitHub附件指纹并回写发布结果。
+- [x] 当前源码已同步至GitHub；[`v1.1.0-beta.1`预览Release](https://github.com/279905028/Suika3/releases/tag/v1.1.0-beta.1)已公开，标签固定源码`4561eb2`，8个附件的GitHub服务器SHA-256／大小全部一致。发布回执见[远端核验](qa/github-release-20261030/release-verification.json)。
 - 未完成范围：既有Firefox、正文／CG问题；Safari、手机真机、完整原生与长期压力验收；签名／公证；公网在线试玩；本版冻结输入以外的全量历史资源备份。本次预览发布不代表上述范围通过。
 
 ## 2026-10-30 逐段筛定与立绘补全

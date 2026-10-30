@@ -1,5 +1,7 @@
 # Release附件
 
+[GitHub预览版 v1.1.0-beta.1](https://github.com/279905028/Suika3/releases/tag/v1.1.0-beta.1)已公开，8个附件的服务器SHA-256已与本机核对。
+
 `v1.1.0-beta.1-release/`：网页、实验性macOS／Windows双架构、冻结输入五份ZIP与校验和。由`dist/v1.1.0-beta.1/`生成并逐项校验；解压网页Chrome27项通过。详见[发布说明](../docs/releases/v1.1.0-beta.1.md)和[验证记录](../qa/github-release-20261030/发布记录.md)。原生完整运行仍未验，以下本机预览和历史候选保留。
 
 # 当前候选

@@ -4,7 +4,7 @@
 
 源码托管：[GitHub · 279905028/Suika3](https://github.com/279905028/Suika3)（公开，`main`）。仓库保存源码、文档、资源元数据和必要证据；新检出副本需另行恢复大素材、SDK等外部资源，见[Git文件管理](docs/Git文件管理.md)。
 
-预览发布准备：**v1.1.0-beta.1**，提供网页及实验性macOS／Windows包，见[下载与启动说明](docs/releases/v1.1.0-beta.1.md)和[本批验证](qa/github-release-20261030/发布记录.md)。新版请重新开始，旧档保留；GitHub源码包需另配构建输入才能完整重建。
+已发布：[**v1.1.0-beta.1 预览版下载**](https://github.com/279905028/Suika3/releases/tag/v1.1.0-beta.1)，提供网页及实验性macOS／Windows包，见[下载与启动说明](docs/releases/v1.1.0-beta.1.md)和[本批验证](qa/github-release-20261030/发布记录.md)。新版请重新开始，旧档保留；GitHub源码包需另配构建输入才能完整重建。
 
 当前已迁入六线正文并调整孟遥婚姻线：陈晟为丈夫，关系结局为秘密继续或彻底断开。叶岚保留普通游戏队友身份，独立路线、选择入口和结局已取消。正文与开发资料由此目录维护，旧工程保留为来源。
 
