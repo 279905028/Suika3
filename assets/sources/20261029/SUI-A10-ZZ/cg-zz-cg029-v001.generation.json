@@ -1,0 +1,192 @@
+{
+  "id": "CG029",
+  "title": "男朋友不是客人",
+  "package": "SUI-A10-ZZ",
+  "stem": "cg-zz-cg029-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A03/work-serious",
+    "A08/bg-huisheng-306-operating-night",
+    "PRE/prop-shared-handheld-food-boxes-reference-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-serious-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-operating-night-v003.png",
+    "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：周栀B青衬衫黑裙工作版，认真神情\n图3：A08/bg-huisheng-306-operating-night，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：按镜头单取瓶水、装奶布袋、烧饼纸袋、箱子、两份早餐或消费单纸背；不整板入画、不补品牌、日期与金额。\n核心画面：回声306最后一晚，周栀工作裙装、认真克制站在沙发一侧，文文牛仔衣在另一边，两人有明确距离。她说出边界但不画文字。消费单已经交回前台不在手里，麦克风仍在桌上尚未拿起。没有情侣站位、亲吻或官宣。\n衣装/形态硬约束：周栀工作神态，保持当日衣装连续；文文B\n当拍道具：消费单已交还前台；她此句后才拿起麦克风\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；CG025双麦一支扣腿；CG027未付单只露纸背避免杜撰数额；CG029单已退前台且尚未拿麦，不能照搬两件在手。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG029",
+    "kind": "retained-selection",
+    "title": "男朋友不是客人",
+    "originalTitle": "男朋友不是客人",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+        "line": 491,
+        "anchor": "“这张单我不接。你要找的是我，就别这样叫。”"
+      }
+    ],
+    "time": "第30天，回声最后夜，ZZ06的B段",
+    "routeGroup": "ZZ",
+    "source": {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "line": 491,
+      "paragraph": "TEXT_d5adaebb6a02048684b4",
+      "scope": "ZZ06-01/B",
+      "nearestNode": null,
+      "quote": "“这张单我不接。你要找的是我，就别这样叫。”",
+      "conditions": [
+        "ZZ06-01=B"
+      ],
+      "sourceSha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "matchText": "“这张单我不接。你要找的是我，就别这样叫。”",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、周栀",
+      "offscreenOrRemote": "乔哥/前台/同桌人在场但可画外"
+    },
+    "wardrobeAndForm": "周栀工作神态，保持当日衣装连续；文文B",
+    "propState": "消费单已交还前台；她此句后才拿起麦克风",
+    "composition": "周栀没有站到文文旁边，明确说不接这张单；非甜蜜官宣合影。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "zhouzhi"
+        }
+      ],
+      "requiredExpressions": [
+        "ZZ06-01=B"
+      ]
+    },
+    "reviewNotes": "A段不能出现本镜；不画手持已交还的单子，也不画双方拥抱。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A03/work-serious"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_d5adaebb6a02048684b4_1",
+      "visiblePageIds": [
+        "TEXT_d5adaebb6a02048684b4_1"
+      ],
+      "exitBeforeId": "TEXT_f4274463a35d56441f8d_1",
+      "snapshotBefore": "第30天，回声最后夜，ZZ06的B段；文文、周栀；周栀工作神态，保持当日衣装连续；文文B；消费单已交还前台；她此句后才拿起麦克风",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "A段不能出现本镜；不画手持已交还的单子，也不画双方拥抱。"
+    },
+    "production": {
+      "package": "SUI-A10-ZZ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huisheng-306",
+        "owner": "SUI-A08",
+        "name": "回声306",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-306-operating-night-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huisheng-306-cleared-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-huisheng-sales",
+        "owner": "SUI-A08",
+        "name": "回声酒/果盘/消费单/麦克风/屏幕",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huisheng-306",
+        "owner": "SUI-A08",
+        "name": "回声306",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-306-operating-night-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huisheng-306-cleared-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huisheng-306-operating-night"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-huisheng-sales",
+        "owner": "SUI-A08",
+        "name": "回声酒/果盘/消费单/麦克风/屏幕",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-huisheng-306-operating-night",
+          "A08/bg-huisheng-corridor-operating-day",
+          "PRE/prop-shared-handheld-food-boxes-reference-v001"
+        ],
+        "frameUse": "CG025双麦一支扣腿；CG027未付单只露纸背避免杜撰数额；CG029单已退前台且尚未拿麦，不能照搬两件在手。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A03/work-serious",
+      "A08/bg-huisheng-306-operating-night",
+      "A08/bg-huisheng-corridor-operating-day",
+      "PRE/prop-shared-handheld-food-boxes-reference-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg029-v001.png",
+  "sourceSha256": "0a8cb2d5ecdc00e470daf4ffa17e13f6c84d99645d6858f85a4b8abfd1918f1f",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-41c3e4aa-b9d5-4a07-8881-4092cbaea00f.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-serious-v001.png",
+      "sha256": "6e0f76a6fe8957aa4efde902b168bdfc262a6607fec9c4fa366895c614b8f779"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-operating-night-v003.png",
+      "sha256": "e9c7c9123ec50f03ed0cf7f46f1a317d93b27160024fa835bb798e168d7c56df"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png",
+      "sha256": "fe005261bc1755bfb928461c53e8c1a673c1a11edaf3ffd977c2b887c12e3a30"
+    }
+  ],
+  "runtimeAdopted": false
+}

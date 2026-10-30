@@ -1,0 +1,334 @@
+{
+  "task": "SUI-A02",
+  "rules": {
+    "endingContinue": "XM07-01=A & XM08-01=A",
+    "endingSeparate": "XM07-01=B | XM08-01=B",
+    "day60Departure": "所有组合均去成都；第67—91天电话/视频不得表现小满仍在毕节实体出场",
+    "helmets": "第53天卖车交钥匙，随后两顶头盔寄店；第91天防尘袋状态由A08固定场景/CG配合",
+    "skirt": "第30天，及膝A字裙长度是用户确认设计；上大腿截幅不显示膝或裙摆",
+    "noAutomaticEpilogueAppearance": "后日谈不因结局标签自动增加小满现场立绘"
+  },
+  "assets": [
+    {
+      "assetId": "char-xiaoman-base",
+      "key": "base",
+      "label": "基础 · 微笑",
+      "kind": "base",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 365,
+          "quote": "我点头。她笑着走了。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "默认砖红夹克/白内搭/深色牛仔裤；无额外道具。不同衣装、电话与视频镜头不自动套用。",
+      "clothing": "base",
+      "sourceFile": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-serious",
+      "key": "serious",
+      "label": "认真",
+      "kind": "expression",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 177,
+          "quote": "后面的二十分钟，她没再讲笑话。我看她一小撮一小撮地剪，刚想转头，肩膀就被她按住。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "夹克衣装的专注对话；第22天卷袖、含发夹及实际剪发动作仍以专门镜头为准。",
+      "clothing": "base",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-serious-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-serious-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-displeased",
+      "key": "displeased",
+      "label": "不悦",
+      "kind": "expression",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 99,
+          "quote": "“我还气着。”她没有松手，“别以为我肯跟你吃饭，就没事了。”",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        },
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 448,
+          "quote": "小满问哪天就知道了。我说回来以前。她没有再问，低头把汤勺搁好，连刚才没讲完的店里趣事也没继续。",
+          "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "第14天被骗后、第15天仍生气的对话；不是喜剧怒脸，也不代表已原谅。",
+      "clothing": "base",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-displeased-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-displeased-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-embarrassed",
+      "key": "embarrassed",
+      "label": "窘迫",
+      "kind": "expression",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 189,
+          "quote": "她捡起夹子，耳朵红了一点。“我叫你看头发。”",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 337,
+          "quote": "她没答。我让她把那句改了，她当着我的面发进群里，说刚才吹牛，在贵阳没谈，别再替我们往前编。阿俊立刻回了一串笑，她把屏幕锁上，脸红得比亲吻时更厉害。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "耳红/目光短暂移开；第22天仅作表情参考，不能替代含发夹及卷袖动作；裙装需保持衣装连续。",
+      "clothing": "base",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-embarrassed-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-embarrassed-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-hesitant",
+      "key": "hesitant",
+      "label": "犹豫",
+      "kind": "expression",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 761,
+          "quote": "我看着她。她把本子合好，终于没再说回来就好了。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "第60天共同段的迟疑；不能单凭此图判定继续或分开。",
+      "clothing": "base",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-hesitant-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-hesitant-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-downcast",
+      "key": "downcast",
+      "label": "低落",
+      "kind": "expression",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 835,
+          "quote": "她看着我，眼睛红了，却没靠过来。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "XM07-01=B & XM08-01=A"
+        }
+      ],
+      "useRestriction": "BA分开段的表情依据；通用悲伤可经逐拍复核复用，不给BA追加拥抱、亲吻或复合。",
+      "clothing": "base",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-downcast-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-downcast-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-practice-notebook",
+      "key": "practice-notebook",
+      "label": "手持练习本",
+      "kind": "action",
+      "requirementKeys": [
+        "char-xiaoman",
+        "prop-xiaoman-practice-kit"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 83,
+          "quote": "我笑了一下，她把本子合上，才跟着笑了半声。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "闭合、无字的旧练习本；适合第15天预约交流收尾。不是打开错误页、报名材料或车站交还照片的动作。",
+      "clothing": "base",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-two-helmets",
+      "key": "two-helmets",
+      "label": "双头盔 · 低落",
+      "kind": "action",
+      "requirementKeys": [
+        "char-xiaoman",
+        "prop-xiaoman-helmets"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 707,
+          "quote": "等款到账，她把备用钥匙一并交了。女人问贴纸能不能撕，她说都卖你了，随便。说完立刻转过身，抱着两顶头盔往另一边走。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "第53天交车后抱两顶头盔；无钥匙。两顶灰色头盔是本包道具造型，不能据此补写原文颜色；寄店后不继续让她随身携带。",
+      "clothing": "base",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-work-apron",
+      "key": "work-apron",
+      "label": "工作围裙 · 剪刀/梳子",
+      "kind": "outfit-action",
+      "requirementKeys": [
+        "char-xiaoman",
+        "prop-xiaoman-tools"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 241,
+          "quote": "门外有人按了两下喇叭。小满关掉水，在围裙上擦手，先冲外面喊：“催命啊，没看见有人？”",
+          "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919",
+          "condition": "ALL"
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 25,
+          "quote": "剪刀只动了几下。她让阿姨自己梳一遍，确认头发往平时的方向落，才解开围布。阿姨转了两次头，问下回来了找哪个。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "白T/深灰围裙，闭合剪刀与梳子；用于理发店职业形象及道具连续性。擦手、举镜、剪发接触动作不由这张静态持物图代替。",
+      "clothing": "work-apron",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-old-sweatshirt",
+      "key": "old-sweatshirt",
+      "label": "旧卫衣",
+      "kind": "outfit",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 571,
+          "quote": "她骂了句烦，把夹子扔进箱子。我站起身，等她。她找了半天外套，穿上又脱掉，最后穿着店里的旧卫衣出了门。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "XM07-01=A"
+        }
+      ],
+      "useRestriction": "用户选择深灰无图案圆领旧卫衣及原深色牛仔裤；仅按第40天A段衣装依据，不自动沿用到B段或整条后续路线。",
+      "clothing": "old-sweatshirt",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-old-sweatshirt-base-v001.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-old-sweatshirt-base-v001.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    },
+    {
+      "assetId": "char-xiaoman-skirt",
+      "key": "skirt",
+      "label": "第30天 · 裙装",
+      "kind": "outfit",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 379,
+          "quote": "小满一把把我从最后一排拽到旁边。有人喊女孩子往前蹲，她说裙子不好蹲，叫那人自己往下矮一点。毛狼笑着调镜头，她又把我皱掉的衣领拉平。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "useRestriction": "用户选择深灰黑色及膝A字裙，保留夹克/白内搭。上大腿截幅不显示裙摆与膝；及膝长度为后续全身/CG约束，本图不冒充全身长度验收。",
+      "clothing": "skirt",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-skirt-base-v002.png",
+      "reviewWebP": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-skirt-base-v002.webp",
+      "approvedBase": "char-xiaoman-base",
+      "currentProjectAdopted": false,
+      "runtimeBinding": null
+    }
+  ],
+  "externalShotNeeds": [
+    {
+      "need": "第22天含夹子、卷袖、手镜及剪发接触近景",
+      "owner": "A09/A10-XM，必要立绘变体再回A02",
+      "state": "镜头复核范围；不冒充本批静态职业持物图"
+    },
+    {
+      "need": "练习本错误页、报名材料及第22天剪发照片内容",
+      "owner": "A09/A10-XM；可读文字由正文/U给定",
+      "state": "本批仅闭合无字本，未编造内容"
+    },
+    {
+      "need": "两顶头盔的寄店/防尘袋、车辆及车钥匙交接环境",
+      "owner": "A08固定物/A09/A10-XM；头盔造型引用A02同版",
+      "state": "本批只交持物两顶版本，不生成背景或绑定"
+    },
+    {
+      "need": "成都视频的夹发、湿发和寝室构图",
+      "owner": "A09/A10-XM，按实际镜头决定",
+      "state": "电话/消息可用文字；不得使用本批站立图冒充毕节实体出场"
+    }
+  ]
+}

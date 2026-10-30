@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-10-30T01:30:52.187Z",
+  "inputInspectionReadOnly": true,
+  "version": "sui-i01-20261030-v2",
+  "completionStatus": "incomplete-pending-visual-review-and-final-handoff",
+  "interfaceValidation": {
+    "passed": true,
+    "inputFingerprint": "afa872e9c6f5160c0f8600155700edbb1467a818de70070f75bd4c78a2bc12c9",
+    "priorFingerprint": "afa872e9c6f5160c0f8600155700edbb1467a818de70070f75bd4c78a2bc12c9",
+    "unchanged": true,
+    "files": 680,
+    "complete": true,
+    "assets": 212,
+    "bindings": 3086,
+    "cg": 60
+  },
+  "sourceCoverage": {
+    "textPages": 3021,
+    "choices": 65,
+    "unbound": [],
+    "unexpected": [],
+    "scenes": 378,
+    "sceneErrors": []
+  },
+  "assetAudit": {
+    "approvalDecision": "approved",
+    "assetIdsMatch": true,
+    "proposalFingerprintMatches": true,
+    "derivativeMismatches": [],
+    "excluded": 30
+  },
+  "staticReview": {
+    "status": "rendered-awaiting-visual-review",
+    "sheets": 13,
+    "sheetHashMismatches": [],
+    "geometryFailures": [],
+    "pixelEvidenceMatches": true,
+    "visualReviewPerformedInThisAudit": false,
+    "fullPixelDecodePerformedInThisAudit": false
+  },
+  "missingFinalDeliverables": [
+    "snapshot.json",
+    "freeze-report.json",
+    "visual-review.json",
+    "交接.md"
+  ],
+  "notTested": [
+    "全分支穷举重跑",
+    "新版组合目视复核",
+    "引擎运行",
+    "游戏浏览器",
+    "手机真机",
+    "电脑原生",
+    "发布"
+  ]
+}

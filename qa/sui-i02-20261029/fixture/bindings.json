@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "SUI-I-1",
+  "version": "i02-diagnostic-fixture-1",
+  "scope": {
+    "kind": "diagnostic",
+    "description": "仅验证I02加载/演出/恢复的三张真实图技术负载；非剧情采用或I01正式绑定",
+    "missing": [
+      "I01冻结采用清单与完整演出绑定尚未交接",
+      "完整60项真实CG注册/全作负载与六线逐段演出未验证"
+    ]
+  },
+  "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+  "manifestSha256": "a418e8a6485972e9c8451e1100950c5c5efc862c2fb5d31317c9266b519f0328",
+  "sourceHashes": {
+    "scenario/routes.json": "21ee8f439e511b86f6c56174a86c68ee292abb076abbd777ab672e19cf235d32",
+    "scenario/第一章-回到毕节.md": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+    "scenario/第二章-十四天.md": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+    "scenario/第三章-选一条路.md": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8",
+    "scenario/罗小满-练习本.md": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+    "scenario/周栀-十一点四十七分.md": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+    "scenario/孟遥-旧题.md": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+    "scenario/飘-空白页.md": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+    "scenario/黄球球-门后.md": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+    "scenario/朋友与职业-夜班.md": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+    "scenario/跨路线-第36天的消息.md": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+    "scenario/后日谈-他们的日子.md": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+    "scenario/后日谈-未写完的安排.md": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+  },
+  "bindings": [
+    {
+      "bindingId": "diagnostic-scene",
+      "anchor": {
+        "nodeId": "TEXT_12e9affe350b12038970_1",
+        "file": "scenario/第一章-回到毕节.md",
+        "sha256": "4e0e26e3766a387948d48353124eb3a7d2a5d8b81bf40e29b80be61445b07b67"
+      },
+      "condition": "ALL",
+      "routeIds": [],
+      "enter": {
+        "background": {
+          "assetId": "bg-bijie-arrival-platform-day-rain",
+          "layer": "bg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498,
+          "form": null,
+          "costume": null
+        },
+        "characters": [
+          {
+            "assetId": "char-xiaoman-base",
+            "layer": "center",
+            "x": 451,
+            "y": 50,
+            "scale": 0.37,
+            "form": "human",
+            "costume": "diagnostic-base"
+          }
+        ],
+        "props": [],
+        "cg": null
+      },
+      "exit": {
+        "at": "next-node",
+        "restore": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-base",
+              "layer": "center",
+              "x": 451,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "diagnostic-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        }
+      },
+      "cgId": null,
+      "fullView": false,
+      "restrictions": [
+        "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+      ]
+    },
+    {
+      "bindingId": "diagnostic-cg",
+      "anchor": {
+        "nodeId": "TEXT_f5354c41d01bf0d95a4c_1",
+        "file": "scenario/第一章-回到毕节.md",
+        "sha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf"
+      },
+      "condition": "ALL",
+      "routeIds": [],
+      "enter": {
+        "background": {
+          "assetId": "bg-bijie-arrival-platform-day-rain",
+          "layer": "bg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498,
+          "form": null,
+          "costume": null
+        },
+        "characters": [
+          {
+            "assetId": "char-xiaoman-base",
+            "layer": "center",
+            "x": 451,
+            "y": 50,
+            "scale": 0.37,
+            "form": "human",
+            "costume": "diagnostic-base"
+          }
+        ],
+        "props": [],
+        "cg": {
+          "assetId": "cg-common-cg001",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498,
+          "form": null,
+          "costume": null
+        }
+      },
+      "exit": {
+        "at": "next-node",
+        "restore": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-base",
+              "layer": "center",
+              "x": 451,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "diagnostic-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        }
+      },
+      "cgId": "CG001",
+      "fullView": true,
+      "restrictions": [
+        "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+      ]
+    },
+    {
+      "bindingId": "diagnostic-clear-character",
+      "anchor": {
+        "nodeId": "TEXT_04f2fe2301318a26493d_1",
+        "file": "scenario/第一章-回到毕节.md",
+        "sha256": "16cf3ad3132326553ba8769f1bee29286d22c19e8b7c27734e46d68c0c2481c3"
+      },
+      "condition": "ALL",
+      "routeIds": [],
+      "enter": {
+        "background": {
+          "assetId": "bg-bijie-arrival-platform-day-rain",
+          "layer": "bg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498,
+          "form": null,
+          "costume": null
+        },
+        "characters": [],
+        "props": [],
+        "cg": null
+      },
+      "exit": {
+        "at": "next-node",
+        "restore": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-base",
+              "layer": "center",
+              "x": 451,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "diagnostic-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        }
+      },
+      "cgId": null,
+      "fullView": false,
+      "restrictions": [
+        "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+      ]
+    },
+    {
+      "bindingId": "diagnostic-scene-return",
+      "anchor": {
+        "nodeId": "TEXT_982d9ac0f683c6bbb52b_1",
+        "file": "scenario/第一章-回到毕节.md",
+        "sha256": "edecb9a34780b494cd4159d7d3178c865317a03139e6bfdb0c98e4352def73bb"
+      },
+      "condition": "ALL",
+      "routeIds": [],
+      "enter": {
+        "background": {
+          "assetId": "bg-bijie-arrival-platform-day-rain",
+          "layer": "bg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498,
+          "form": null,
+          "costume": null
+        },
+        "characters": [
+          {
+            "assetId": "char-xiaoman-base",
+            "layer": "center",
+            "x": 451,
+            "y": 50,
+            "scale": 0.37,
+            "form": "human",
+            "costume": "diagnostic-base"
+          }
+        ],
+        "props": [],
+        "cg": null
+      },
+      "exit": {
+        "at": "next-node",
+        "restore": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-base",
+              "layer": "center",
+              "x": 451,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "diagnostic-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        }
+      },
+      "cgId": null,
+      "fullView": false,
+      "restrictions": [
+        "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+      ]
+    },
+    {
+      "bindingId": "diagnostic-first-choice",
+      "anchor": {
+        "nodeId": "C01-01",
+        "file": "scenario/第一章-回到毕节.md",
+        "sha256": "7c277944a63a0ec5b68a0921e6eabae1ed6a610f7c0c930be59d89818cd17ab0"
+      },
+      "condition": "ALL",
+      "routeIds": [],
+      "enter": {
+        "background": {
+          "assetId": "bg-bijie-arrival-platform-day-rain",
+          "layer": "bg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498,
+          "form": null,
+          "costume": null
+        },
+        "characters": [],
+        "props": [],
+        "cg": null
+      },
+      "exit": {
+        "at": "next-node",
+        "restore": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-base",
+              "layer": "center",
+              "x": 451,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "diagnostic-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        }
+      },
+      "cgId": null,
+      "fullView": false,
+      "restrictions": [
+        "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+      ]
+    }
+  ]
+}

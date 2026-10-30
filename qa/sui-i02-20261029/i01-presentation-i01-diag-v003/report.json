@@ -1,0 +1,642 @@
+{
+  "scope": "当前212资源I01限定拍点诊断包的自然正文演出/CG/图库/读档；不是全作演出验收",
+  "version": "i01-diag-v003",
+  "runtimeBuildId": "bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+  "checks": [
+    {
+      "name": "未遇见CG时图鉴保持锁定",
+      "pass": true
+    },
+    {
+      "name": "真实图库显示60项的第10页，未遇见项目保持锁定",
+      "pass": true
+    },
+    {
+      "name": "自然正文第2段实际显示毛狼与站台并保存",
+      "pass": true,
+      "details": "TEXT_f5354c41d01bf0d95a4c_1"
+    },
+    {
+      "name": "第4段CG首可见帧解锁，键盘/点击全图开关均不推进原段",
+      "pass": true,
+      "details": "TEXT_982d9ac0f683c6bbb52b_1"
+    },
+    {
+      "name": "下一节点按声明退场且隐藏人物",
+      "pass": true,
+      "details": "TEXT_d21f786e12142417e468_1"
+    },
+    {
+      "name": "手动档恢复CG与全图查看",
+      "pass": true
+    },
+    {
+      "name": "手动档恢复背景/人物/站位",
+      "pass": true
+    },
+    {
+      "name": "关闭浏览器重开后CG存档与全图恢复",
+      "pass": true
+    },
+    {
+      "name": "仅自然遇见CG001解锁，图库详情可用；其余59项未声称解锁",
+      "pass": true
+    },
+    {
+      "name": "新游戏恢复中性开场，不继承旧CG舞台",
+      "pass": true
+    },
+    {
+      "name": "原生/浏览器错误为零",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "shots": [
+    {
+      "name": "01-gallery-locked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/01-gallery-locked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02-locked-click",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/02-locked-click.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02b-gallery-page10",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/02b-gallery-page10.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b6a4ee692771ff3922484156ee899ad4d2c4543dd8a1c651d7d942790453e0c4"
+    },
+    {
+      "name": "00-neutral-opening",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/00-neutral-opening.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "381d4aeb499e4b7b2cc3682ea4587a7db4d73dd66ba22aa287314a1b51dc147b"
+    },
+    {
+      "name": "03-character",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/03-character.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "83195ec4fb48b021595c2a366a0e171e8441e9c7a71382c574caaae46df0939b"
+    },
+    {
+      "name": "03b-scene-exit-neutral",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/03b-scene-exit-neutral.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "79afea73e5de16712e6cec04af4dd948d0331dc9bf4f453871c26592b169df57"
+    },
+    {
+      "name": "04-cg",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/04-cg.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b2481e9198e1e15524858e762025928265ab711ef4c6e4ca16aa0943d2779ad6"
+    },
+    {
+      "name": "05-cg-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/05-cg-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "05b-touch-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/05b-touch-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "06-exit-hidden",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/06-exit-hidden.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "88628a62e3b02da35f3000a0d1306a87d96b05f124dbbdcdda9cbc3aa07e74bd"
+    },
+    {
+      "name": "07-cg-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/07-cg-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "28a4857961603f86229cb964637aa2b964f83a296fa148499689b74dd7c3f5ff"
+    },
+    {
+      "name": "08-cg-loaded-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/08-cg-loaded-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "09-character-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/09-character-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "11f3e07cbf16848b0c74ddeec725f67e3fe2e9b8eb30826241b56e3450acf7e5"
+    },
+    {
+      "name": "10-cg-reopened",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/10-cg-reopened.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "7d8a4c187fb9f5c604fce3b029a85a6c534774f740d62fb7a813e08fd2d9c893"
+    },
+    {
+      "name": "11-cg-reopened-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/11-cg-reopened-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "12-gallery-unlocked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/12-gallery-unlocked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "3a1985065b07d7acaf5de2c328e7bd8c2aed03773f92731214f8b2331e4f562c"
+    },
+    {
+      "name": "13-gallery-detail",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-presentation-i01-diag-v003/13-gallery-detail.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "1927d884d56737a6093f2f90f065539f4000d10447a9f07f7dfd8c7b0432bba7"
+    }
+  ],
+  "logs": [
+    "SUI_E|ready|bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|enter|binding=i01-state-TEXT_f5354c41d01bf0d95a4c_1-3|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=0|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=1|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|exit|binding=i01-state-TEXT_f5354c41d01bf0d95a4c_1-3|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_E|save|slot=0|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|enter|binding=i01-state-TEXT_982d9ac0f683c6bbb52b_1-1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|save|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|save|slot=0|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|exit|binding=i01-state-TEXT_982d9ac0f683c6bbb52b_1-1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|save|slot=0|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|load|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|load|slot=1|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|ready|bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "SUI_E|title",
+    "SUI_E|load|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+  ],
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suii-presentation-pN7uNg",
+  "inputs": {
+    "adopted": 212,
+    "cues": 174,
+    "cg": {
+      "bindingId": "i01-cg-common-cg001-TEXT_982d9ac0f683c6bbb52b",
+      "assetId": "cg-common-cg001",
+      "source": {
+        "path": "scenario/第一章-回到毕节.md",
+        "paragraphId": "TEXT_982d9ac0f683c6bbb52b",
+        "contextAnchor": "### 第1天｜你带了个拖拉机",
+        "lineHint": 21,
+        "quote": "挂电话以后，毛狼把轮子放进我掌心。",
+        "quoteSha256": "edecb9a34780b494cd4159d7d3178c865317a03139e6bfdb0c98e4352def73bb",
+        "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      },
+      "conditions": {
+        "entryGates": [],
+        "requiredExpressions": []
+      },
+      "display": {
+        "layer": 30,
+        "slot": "cg",
+        "mode": "contain",
+        "x": 0.34006376195532084,
+        "y": 0,
+        "scale": 0.7651434643995749,
+        "width": 1279.3198724760894,
+        "height": 720,
+        "matte": "#10181c",
+        "crop": false,
+        "hideAtChoice": true,
+        "fullViewWithinSameParagraph": true
+      },
+      "enter": {
+        "phase": "before-first-page",
+        "cursor": "TEXT_982d9ac0f683c6bbb52b_1"
+      },
+      "visiblePageIds": [
+        "TEXT_982d9ac0f683c6bbb52b_1"
+      ],
+      "exit": {
+        "phase": "before-any-cursor-outside-visible-pages",
+        "lexicalNextCursor": "TEXT_d21f786e12142417e468_1",
+        "restore": "resolve-destination-base-scene",
+        "clear": [
+          "asset",
+          "form",
+          "wardrobe",
+          "props",
+          "cg"
+        ],
+        "doNotWaitForLexicalSuccessor": true
+      },
+      "restore": {
+        "target": "destination-cursor",
+        "baseScene": "resolve-all-non-cg-bindings-at-destination",
+        "missingBackground": {
+          "color": "#10181c"
+        },
+        "missingCharacters": [],
+        "missingProps": [],
+        "cg": null,
+        "formAndWardrobe": "from-destination-asset-only",
+        "neverCarryAcrossParagraph": true
+      },
+      "save": {
+        "stablePageOnly": true,
+        "fields": [
+          "bindingId",
+          "cursor",
+          "assetId",
+          "baseScene",
+          "cgId",
+          "viewMode"
+        ],
+        "validate": [
+          "interface",
+          "manifest",
+          "binding",
+          "source",
+          "conditions"
+        ],
+        "recomputeOnLoad": true,
+        "rollback": "resolve-restored-cursor",
+        "restart": "clear-all-layers"
+      },
+      "cgId": "CG001",
+      "sceneFacts": {
+        "before": "第1天，返乡站台；文文、毛狼；两人沿A07已选日常服；掌心与毛狼半身为主；坏行李箱、脱落轮子；电话已挂断",
+        "wardrobeAndForm": "两人沿A07已选日常服；掌心与毛狼半身为主",
+        "propState": "坏行李箱、脱落轮子；电话已挂断",
+        "special": "此拍后才蹲下试拧；不预先画成修复箱。"
+      },
+      "gallery": {
+        "id": "CG001",
+        "unlock": "on-actual-first-visible-frame",
+        "variable": "sui_cg_CG001",
+        "global": true,
+        "registrationUnlocks": false,
+        "rollbackRelocks": false
+      },
+      "reveal": {
+        "hide": [
+          "message",
+          "name",
+          "menu",
+          "auto-status"
+        ],
+        "sameParagraphOnly": true,
+        "addsPage": false
+      }
+    },
+    "scene": [
+      {
+        "bindingId": "i01-bg-bijie-arrival-platform-day-rain-TEXT_f5354c41d01bf0d95a4c",
+        "assetId": "bg-bijie-arrival-platform-day-rain",
+        "source": {
+          "path": "scenario/第一章-回到毕节.md",
+          "paragraphId": "TEXT_f5354c41d01bf0d95a4c",
+          "contextAnchor": "### 第1天｜你带了个拖拉机",
+          "lineHint": 17,
+          "quote": "轮子滚下站台，被毛狼一脚踩住。他低头看看轮子，又看看我。电话那头问我是不是文文，我说是，毛狼正要喊，听见“逾期”两个字，把嘴闭上了。",
+          "quoteSha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf",
+          "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+        },
+        "conditions": {
+          "entryGates": [],
+          "requiredExpressions": []
+        },
+        "display": {
+          "layer": 0,
+          "slot": "background",
+          "mode": "contain",
+          "x": 0.34006376195532084,
+          "y": 0,
+          "scale": 0.7651434643995749,
+          "width": 1279.3198724760894,
+          "height": 720,
+          "matte": "#10181c",
+          "crop": false,
+          "hideAtChoice": true,
+          "fullViewWithinSameParagraph": true
+        },
+        "enter": {
+          "phase": "before-first-page",
+          "cursor": "TEXT_f5354c41d01bf0d95a4c_1"
+        },
+        "visiblePageIds": [
+          "TEXT_f5354c41d01bf0d95a4c_1"
+        ],
+        "exit": {
+          "phase": "before-any-cursor-outside-visible-pages",
+          "lexicalNextCursor": "TEXT_04f2fe2301318a26493d_1",
+          "restore": "resolve-destination-base-scene",
+          "clear": [
+            "asset",
+            "form",
+            "wardrobe",
+            "props",
+            "cg"
+          ],
+          "doNotWaitForLexicalSuccessor": true
+        },
+        "restore": {
+          "target": "destination-cursor",
+          "baseScene": "resolve-all-non-cg-bindings-at-destination",
+          "missingBackground": {
+            "color": "#10181c"
+          },
+          "missingCharacters": [],
+          "missingProps": [],
+          "cg": null,
+          "formAndWardrobe": "from-destination-asset-only",
+          "neverCarryAcrossParagraph": true
+        },
+        "save": {
+          "stablePageOnly": true,
+          "fields": [
+            "bindingId",
+            "cursor",
+            "assetId",
+            "baseScene",
+            "cgId",
+            "viewMode"
+          ],
+          "validate": [
+            "interface",
+            "manifest",
+            "binding",
+            "source",
+            "conditions"
+          ],
+          "recomputeOnLoad": true,
+          "rollback": "resolve-restored-cursor",
+          "restart": "clear-all-layers"
+        },
+        "decisionBasis": "人工逐项选用上游anchors[0]；按当前IR推导完整条件"
+      },
+      {
+        "bindingId": "i01-maolang-base-TEXT_f5354c41d01bf0d95a4c",
+        "assetId": "maolang-base",
+        "source": {
+          "path": "scenario/第一章-回到毕节.md",
+          "paragraphId": "TEXT_f5354c41d01bf0d95a4c",
+          "contextAnchor": "### 第1天｜你带了个拖拉机",
+          "lineHint": 17,
+          "quote": "轮子滚下站台，被毛狼一脚踩住。他低头看看轮子，又看看我。电话那头问我是不是文文，我说是，毛狼正要喊，听见“逾期”两个字，把嘴闭上了。",
+          "quoteSha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf",
+          "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+        },
+        "conditions": {
+          "entryGates": [],
+          "requiredExpressions": []
+        },
+        "display": {
+          "layer": 10,
+          "slot": "character-center",
+          "mode": "portrait",
+          "x": 445.44,
+          "y": 42,
+          "scale": 0.38,
+          "width": 389.12,
+          "height": 583.6800000000001,
+          "crop": false,
+          "hideAtChoice": true,
+          "fullViewWithinSameParagraph": true
+        },
+        "enter": {
+          "phase": "before-first-page",
+          "cursor": "TEXT_f5354c41d01bf0d95a4c_1"
+        },
+        "visiblePageIds": [
+          "TEXT_f5354c41d01bf0d95a4c_1"
+        ],
+        "exit": {
+          "phase": "before-any-cursor-outside-visible-pages",
+          "lexicalNextCursor": "TEXT_04f2fe2301318a26493d_1",
+          "restore": "resolve-destination-base-scene",
+          "clear": [
+            "asset",
+            "form",
+            "wardrobe",
+            "props",
+            "cg"
+          ],
+          "doNotWaitForLexicalSuccessor": true
+        },
+        "restore": {
+          "target": "destination-cursor",
+          "baseScene": "resolve-all-non-cg-bindings-at-destination",
+          "missingBackground": {
+            "color": "#10181c"
+          },
+          "missingCharacters": [],
+          "missingProps": [],
+          "cg": null,
+          "formAndWardrobe": "from-destination-asset-only",
+          "neverCarryAcrossParagraph": true
+        },
+        "save": {
+          "stablePageOnly": true,
+          "fields": [
+            "bindingId",
+            "cursor",
+            "assetId",
+            "baseScene",
+            "cgId",
+            "viewMode"
+          ],
+          "validate": [
+            "interface",
+            "manifest",
+            "binding",
+            "source",
+            "conditions"
+          ],
+          "recomputeOnLoad": true,
+          "rollback": "resolve-restored-cursor",
+          "restart": "clear-all-layers"
+        },
+        "decisionBasis": "I01逐拍回读当前正文重选锚点；原件与上游记录保留"
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "status": "pass"
+}

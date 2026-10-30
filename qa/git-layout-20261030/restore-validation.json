@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "temporaryGitIndexAndCheckout": "passed",
+    "requiredArchivesRestored": {
+      "checked": 642,
+      "failures": []
+    },
+    "offlineCompileAndFrozenInputValidation": {
+      "validatedFiles": 879,
+      "assets": 212,
+      "bindings": 3086,
+      "counts": {
+        "files": 12,
+        "choices": 65,
+        "options": 134,
+        "endings": 14,
+        "pages": 3021,
+        "nodes": 3415
+      }
+    },
+    "missingModifiedAndNonExecutableArchiveRejected": "passed"
+  },
+  "gitCandidateFilesIncludingReports": 1729,
+  "gitCandidateBytesIncludingReports": 145911960,
+  "separateBackupCreated": false,
+  "projectGitInitialized": false,
+  "boundary": "仅临时目录恢复、字节/权限校验与离线编译；未运行引擎、浏览器、手机或发布。临时副本验证后清理。"
+}

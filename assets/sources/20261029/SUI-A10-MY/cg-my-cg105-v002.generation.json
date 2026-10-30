@@ -1,0 +1,158 @@
+{
+  "id": "CG105",
+  "title": "取消单独的提醒",
+  "package": "SUI-A10-MY",
+  "stem": "cg-my-cg105-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "PRE/prop-wenwen-personal-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-MY/cg-my-cg105-v001.png",
+    "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg107-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. Recompose the image as a FIRST PERSON POV close-up. Show ONLY the holder's two hands with washed blue denim jacket cuffs and a single black smartphone front, no face or head or torso portrait. The owner and viewer share the same viewpoint looking down at the front display. Palm behind phone, fingers curl at edges, no fingers laid across text, no rear camera array on the display side. Reference 2 gives the correct hands-and-phone perspective only; its cafe, cup, time and reminder content must not be copied. The screen and hands occupy the upper central two-thirds. Only the phone interface changes: contact heading exactly “孟遥”, rows “置顶” and “提醒”, both switches OFF in grey with the knob at the left; a small “聊天记录” entry remains. No deletion, blocking or meeting invitation. No dates or other invented text. Background is a neutral blurred tabletop with no recognizable location. 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG105",
+    "kind": "approved-addition",
+    "title": "取消单独的提醒",
+    "originalTitle": null,
+    "originalSources": [],
+    "time": "第91天，MY-E2最后电话后",
+    "routeGroup": "MY",
+    "source": {
+      "path": "scenario/孟遥-旧题.md",
+      "line": 950,
+      "paragraph": "TEXT_ce77d3fcfb1f6d77d130",
+      "scope": "MY-E2",
+      "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+      "quote": "挂断前，她叫了最后一声文文。我答应，随后说再见。她也说了。我等手心不再都是汗，才取消置顶，关掉单独的提醒。",
+      "conditions": [
+        "MY07-01=B|MY09-01=B"
+      ],
+      "sourceSha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+      "matchText": "才取消置顶，关掉单独的提醒。",
+      "oldAnchorExact": false
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文",
+      "offscreenOrRemote": "孟遥电话已结束；陈晟不知情不另演发现"
+    },
+    "wardrobeAndForm": "文文B手/袖",
+    "propState": "手机取消置顶及单独提醒；不删除历史或照片",
+    "composition": "手从通话收束到取消置顶；不画重约、拉黑、抹掉旧情。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "mengyao"
+        }
+      ],
+      "requiredExpressions": [
+        "MY07-01=B|MY09-01=B"
+      ]
+    },
+    "reviewNotes": "AB/BA/BB都可；不放归还红笔/包裹，因为仅AB有这一历史。",
+    "referenceKeys": [
+      "A07/wenwen-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_ce77d3fcfb1f6d77d130_1",
+      "visiblePageIds": [
+        "TEXT_ce77d3fcfb1f6d77d130_1"
+      ],
+      "exitBeforeId": "TEXT_755c5862a2b47224fd3d_1",
+      "snapshotBefore": "第91天，MY-E2最后电话后；文文；文文B手/袖；手机取消置顶及单独提醒；不删除历史或照片",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "AB/BA/BB都可；不放归还红笔/包裹，因为仅AB有这一历史。"
+    },
+    "production": {
+      "package": "SUI-A10-MY",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "selectionMethod": "用户委托助手选择",
+      "approvalRecord": "qa/SUI-A09-selection-20261029/selection-decision.json",
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": "补三个断开组合的共同收束，避免只用AB寄物代表整个MY-E2。",
+    "previousCandidateId": "A09-C05",
+    "previousPendingDependencies": [
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-message-screen-cg105",
+        "owner": "SUI-A10-MY",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "待补当拍参考；非已放行资源",
+        "templateKey": "prop-message-screen",
+        "previousRequirementId": "prop-message-screen-a09-c05"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-wenwen-personal-kit-v001"
+        ],
+        "frameUse": "只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。"
+      }
+    ],
+    "internalWorkItems": [
+      {
+        "requirementId": "prop-message-screen-cg105",
+        "owner": "SUI-A10-MY",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "in-package-production-work",
+        "templateKey": "prop-message-screen",
+        "previousRequirementId": "prop-message-screen-a09-c05",
+        "frameUse": "手机取消置顶及单独提醒；不删除历史或照片；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+        "referenceKeys": []
+      }
+    ],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "PRE/prop-wenwen-personal-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "手机屏幕须朝向持有者",
+  "sourceFile": "assets/sources/20261029/SUI-A10-MY/cg-my-cg105-v002.png",
+  "sourceSha256": "9e4e678de461a7ac4c175133b73618fb78bdcafd436841bc94b223305a94209d",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-a10e9cc7-d7d1-4a79-b6c0-5288c27f8956.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-MY/cg-my-cg105-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg105-v001.png",
+      "sha256": "84e6cef4d1264cf69a567bf2414c28a8fc188a8a4af2b8caa80c7ca0c926d1f2"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg107-v001.png",
+      "sha256": "7c4b7fabb0640962b44dbad4266123e56dbda4587af620e3217342404ec69e48"
+    }
+  ],
+  "runtimeAdopted": false
+}

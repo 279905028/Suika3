@@ -1,0 +1,210 @@
+{
+  "id": "CG026",
+  "title": "同样的一下袖口",
+  "package": "SUI-A10-ZZ",
+  "stem": "cg-zz-cg026-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A03/base",
+    "A08/bg-huisheng-corridor-operating-day",
+    "PRE/prop-zhouzhi-private-kit-v001",
+    "PRE/prop-qiaoge-cuff-reference-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A07/prop-qiaoge-cuff-reference-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：周栀B，长深棕发、青衬衫、黑裤，私人版\n图3：A08/bg-huisheng-corridor-operating-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：私人资料箱、摊位线框/纸背、耳饰、发圈、手机套和折伞，按当拍选择；折伞为借还链，不与CG039长柄伞混同。\n图5：CG026仅乔哥前臂袖口造型，不建立其脸、年龄或独立人物立绘。\n核心画面：回声门口手部近景，周栀青衬衫的手帮乔哥压平翻起的深灰外套白内袖口；乔哥仅前臂不露脸。文文牛仔袖握折伞在一侧，和被整理袖口的人明确不同。手机套按参考可在周栀另一手边，人物头脸可不入画。\n衣装/形态硬约束：周栀B脸型；当日工作衣装只用现有已选基准，乔哥不露脸\n当拍道具：手机套、翻起袖口；文文握伞\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。；仅乔哥翻起袖口与前臂；由周栀压平，不用文文牛仔袖替代，不新增脸。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG026",
+    "kind": "retained-selection",
+    "title": "同样的一下袖口",
+    "originalTitle": "同样的一下袖口",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+        "line": 157,
+        "anchor": "她随后出来递手机套，看见便替他压下去，也捏了那一下。"
+      }
+    ],
+    "time": "第22天，回声门口工作中",
+    "routeGroup": "ZZ",
+    "source": {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "line": 157,
+      "paragraph": "TEXT_32eb83682d17086eb359",
+      "scope": "### 剧情简介",
+      "nearestNode": null,
+      "quote": "过了几分钟，乔哥出来接电话，袖口翻着。她随后出来递手机套，看见便替他压下去，也捏了那一下。",
+      "conditions": [],
+      "sourceSha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "matchText": "她随后出来递手机套，看见便替他压下去，也捏了那一下。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "周栀、乔哥的袖口/手；文文视点",
+      "offscreenOrRemote": "包房客人画外"
+    },
+    "wardrobeAndForm": "周栀B脸型；当日工作衣装只用现有已选基准，乔哥不露脸",
+    "propState": "手机套、翻起袖口；文文握伞",
+    "composition": "周栀压平乔哥袖口的手部紧景；不把手替换成文文。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "zhouzhi"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "乔哥外形未定，只申请必要袖口/手部参考；若扩大成露脸构图须先A07定稿。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A03/base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_32eb83682d17086eb359_1",
+      "visiblePageIds": [
+        "TEXT_32eb83682d17086eb359_1"
+      ],
+      "exitBeforeId": "TEXT_e288d10995e6ddbb287a_1",
+      "snapshotBefore": "第22天，回声门口工作中；周栀、乔哥的袖口/手；文文视点；周栀B脸型；当日工作衣装只用现有已选基准，乔哥不露脸；手机套、翻起袖口；文文握伞",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "乔哥外形未定，只申请必要袖口/手部参考；若扩大成露脸构图须先A07定稿。"
+    },
+    "production": {
+      "package": "SUI-A10-ZZ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huisheng-corridor",
+        "owner": "SUI-A08",
+        "name": "回声前台/走廊/楼梯",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-corridor-operating-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huisheng-corridor-locked-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-zhouzhi-personal-box",
+        "owner": "SUI-A03",
+        "name": "私人物品箱/折伞/耳饰/发圈",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "char-qiaoge",
+        "owner": "SUI-A07",
+        "name": "乔哥",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huisheng-corridor",
+        "owner": "SUI-A08",
+        "name": "回声前台/走廊/楼梯",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-corridor-operating-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huisheng-corridor-locked-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huisheng-corridor-operating-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-zhouzhi-personal-box",
+        "owner": "SUI-A03",
+        "name": "私人物品箱/折伞/耳饰/发圈",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-zhouzhi-private-kit-v001"
+        ],
+        "frameUse": "按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。"
+      },
+      {
+        "requirementId": "char-qiaoge",
+        "owner": "SUI-A07",
+        "name": "乔哥",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-qiaoge-cuff-reference-v001"
+        ],
+        "frameUse": "仅乔哥翻起袖口与前臂；由周栀压平，不用文文牛仔袖替代，不新增脸。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A03/base",
+      "A08/bg-huisheng-corridor-operating-day",
+      "PRE/prop-zhouzhi-private-kit-v001",
+      "PRE/prop-qiaoge-cuff-reference-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg026-v001.png",
+  "sourceSha256": "9b76565e503c34c7007adf12da5f9430c9fa46079fa75bb855955d7890712c63",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-dd7fef84-02e7-4d74-a623-92788e9d194e.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+      "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.png",
+      "sha256": "f6488b418fdf55e1f31cf2194987719affd1fbfd2a41e2863d1e37265932da12"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png",
+      "sha256": "88f91476d6dc74bc2951d3f9d537d1032a7db95417cab6a472925531505468cc"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A07/prop-qiaoge-cuff-reference-v001.png",
+      "sha256": "c939b79e5a279661836966e84d158da4c1e71da8529b226e545947d824394d56"
+    }
+  ],
+  "runtimeAdopted": false
+}

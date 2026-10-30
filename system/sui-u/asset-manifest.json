@@ -1,0 +1,2175 @@
+{
+  "schemaVersion": 1,
+  "canvas": [
+    1280,
+    720
+  ],
+  "style": "用户选定：雨夜青灰，横屏优先",
+  "runtimeEncoding": "PNG：当前Wasm的WebP红蓝通道问题；无损WebP逐像素相等，暂不接入GUI",
+  "generator": "system/sui-u/source/build.py",
+  "assets": [
+    {
+      "name": "title",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/title.png",
+          "bytes": 85310,
+          "sha256": "1c2beabfd1f9366322c852d4d4cd37773e4a828449cedcb3ab14cebbb08c97a7"
+        },
+        {
+          "path": "system/sui-u/webp/title.webp",
+          "bytes": 47954,
+          "sha256": "af53662a2074373740c7e97cbd250374c1a27b7b3e36c6de0eae84ab1a5402fc"
+        }
+      ]
+    },
+    {
+      "name": "reading-backdrop",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/reading-backdrop.png",
+          "bytes": 54208,
+          "sha256": "4223df8b5ff83cfafa5d7af5c2225824a0fac3340a8cc74e9de5cc9ac9135b7a"
+        },
+        {
+          "path": "system/sui-u/webp/reading-backdrop.webp",
+          "bytes": 34012,
+          "sha256": "7b8e6ff95ff3669f1e1af76a0f9869e009512b2ce4f570ffce006d8e29db4cff"
+        }
+      ]
+    },
+    {
+      "name": "start-idle",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/start-idle.png",
+          "bytes": 3396,
+          "sha256": "7218a7c3aba9334cf7c01d82073f91a4e19113082c92f2694bf7dd8a4b010356"
+        },
+        {
+          "path": "system/sui-u/webp/start-idle.webp",
+          "bytes": 1102,
+          "sha256": "7e8545223b6ddb9fdcaa38a474b487b3c8f1306a7372166d8db23ae8c8efbf07"
+        }
+      ]
+    },
+    {
+      "name": "start-hover",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/start-hover.png",
+          "bytes": 3429,
+          "sha256": "aa9a6120f220444787156901d6e14c9e017b1b613dc4d81a64b78008c044c596"
+        },
+        {
+          "path": "system/sui-u/webp/start-hover.webp",
+          "bytes": 1124,
+          "sha256": "b5190552f3c881ce5ebf40a607523b45f4c180dc607d1f075acfedeea778053b"
+        }
+      ]
+    },
+    {
+      "name": "start-press",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/start-press.png",
+          "bytes": 3373,
+          "sha256": "d3cdf9523d76d682ec334230eb181aa061de667cda2d96c613c8fd37b7fc6f99"
+        },
+        {
+          "path": "system/sui-u/webp/start-press.webp",
+          "bytes": 1092,
+          "sha256": "d2158e5cac01063897d1cb9f71cc10ee930cc6f3fc3b65fd4abccc41596775fe"
+        }
+      ]
+    },
+    {
+      "name": "continue-idle",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/continue-idle.png",
+          "bytes": 4716,
+          "sha256": "be929c336b7f5b5c940a949e1ee55ba1d4c4e1eba66f84a979ea6bfefe05a643"
+        },
+        {
+          "path": "system/sui-u/webp/continue-idle.webp",
+          "bytes": 1396,
+          "sha256": "d87d62c7b29fda8adb759333e63095508ba86fe0c178e2a54ebffea177678d2a"
+        }
+      ]
+    },
+    {
+      "name": "continue-hover",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/continue-hover.png",
+          "bytes": 4223,
+          "sha256": "c2f10dd0e5213213b86b0962bde8b29b1af30dea96905fda2fa6bb43e3cccdc4"
+        },
+        {
+          "path": "system/sui-u/webp/continue-hover.webp",
+          "bytes": 1372,
+          "sha256": "37a88c641d8931db8d06edff4b3d742b4cdfe584c37ec5a96c7b085969cf02f0"
+        }
+      ]
+    },
+    {
+      "name": "continue-press",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/continue-press.png",
+          "bytes": 4230,
+          "sha256": "d84a9efcccd1737343189f8ecd687c97511ccc299031fe1aca71ee9dee20d791"
+        },
+        {
+          "path": "system/sui-u/webp/continue-press.webp",
+          "bytes": 1338,
+          "sha256": "abf75a1bb28e8b99d7228f6d0a9312f9324c5eaac39a18bc49f632969a8335dc"
+        }
+      ]
+    },
+    {
+      "name": "settings-idle",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/settings-idle.png",
+          "bytes": 1884,
+          "sha256": "52e3c8be6e833384a88b8bae2e76eeb0260943e279cc2a49ad0af718caa58dd7"
+        },
+        {
+          "path": "system/sui-u/webp/settings-idle.webp",
+          "bytes": 648,
+          "sha256": "9f7d31bae829debf9429e7756d31aa84fbc38e3cfd5522f5714b94bea4e6bf81"
+        }
+      ]
+    },
+    {
+      "name": "settings-hover",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/settings-hover.png",
+          "bytes": 1749,
+          "sha256": "e9e3350e555b395d7381cc1355fb7ff33ca25e1e90288239ee8d8d3797e61a91"
+        },
+        {
+          "path": "system/sui-u/webp/settings-hover.webp",
+          "bytes": 622,
+          "sha256": "8b2798b49f8dea954c67a4368cbbd5aeb9c8caec4a36c27687093441ac992eb5"
+        }
+      ]
+    },
+    {
+      "name": "settings-press",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/settings-press.png",
+          "bytes": 1747,
+          "sha256": "10c869c5a922253785e19c53f892fde3bd213058a2db72113d2862abc3fe3bd2"
+        },
+        {
+          "path": "system/sui-u/webp/settings-press.webp",
+          "bytes": 612,
+          "sha256": "d186b8a6f61f40532c5b652ba2122d27016afafa65b2e98802ff5e68d25ee112"
+        }
+      ]
+    },
+    {
+      "name": "gallery-idle",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/gallery-idle.png",
+          "bytes": 2263,
+          "sha256": "a73a43f6d421be70d32914f4b74fdc761dab47802adb314cd71453bbe42cb4be"
+        },
+        {
+          "path": "system/sui-u/webp/gallery-idle.webp",
+          "bytes": 742,
+          "sha256": "a9bb444cef80e1bce9c84e7cf254845ba693ea9f76d8bcc0a36222c9fe682d99"
+        }
+      ]
+    },
+    {
+      "name": "gallery-hover",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/gallery-hover.png",
+          "bytes": 2077,
+          "sha256": "cc1245d39a5030cec9a9851b686295281a34c8e3a32f45f3abb1616e4363dec7"
+        },
+        {
+          "path": "system/sui-u/webp/gallery-hover.webp",
+          "bytes": 722,
+          "sha256": "e18db798d8775e856d15a07b71bf1d97bfa41454a4c00e5f895f101d3f1435a1"
+        }
+      ]
+    },
+    {
+      "name": "gallery-press",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/gallery-press.png",
+          "bytes": 2055,
+          "sha256": "b0ce156d315556c2fc5b03dc9ed4f5f3fb3b0a29eaa624d00e89ead2f0253173"
+        },
+        {
+          "path": "system/sui-u/webp/gallery-press.webp",
+          "bytes": 708,
+          "sha256": "74df6d337157a354f19d691b66b712c23fc5da68e7289d8737d138f79419ebe6"
+        }
+      ]
+    },
+    {
+      "name": "back-idle",
+      "width": 136,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/back-idle.png",
+          "bytes": 1651,
+          "sha256": "93cd389fea6fcf7849b27a157e22f559d8cce35c3e872d8f7994c20ad15e444b"
+        },
+        {
+          "path": "system/sui-u/webp/back-idle.webp",
+          "bytes": 600,
+          "sha256": "c958e9c27590c38ff122f27665575f79b18903389f62963b8e2a176be376cc86"
+        }
+      ]
+    },
+    {
+      "name": "back-hover",
+      "width": 136,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/back-hover.png",
+          "bytes": 1550,
+          "sha256": "c0a10488ae92be995419b17eb76f0af354b6c01201de4b7a25f5141bd792c521"
+        },
+        {
+          "path": "system/sui-u/webp/back-hover.webp",
+          "bytes": 576,
+          "sha256": "c02c554bafe1136c29fb8477a248e1f95950812fa02bfb9000644b24ca7f5b2d"
+        }
+      ]
+    },
+    {
+      "name": "back-press",
+      "width": 136,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/back-press.png",
+          "bytes": 1544,
+          "sha256": "657cbe3b8264786fd69a7f03a0b4643c2eb9ed871813d54dbacbd5d29d93cd03"
+        },
+        {
+          "path": "system/sui-u/webp/back-press.webp",
+          "bytes": 566,
+          "sha256": "cc3fb52686b6d335b77dbcc216ea65effb990cf184b8bf1111a13e1387597cb7"
+        }
+      ]
+    },
+    {
+      "name": "menu-idle",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/menu-idle.png",
+          "bytes": 2107,
+          "sha256": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579"
+        },
+        {
+          "path": "system/sui-u/webp/menu-idle.webp",
+          "bytes": 702,
+          "sha256": "ba2f735328e0e8915f67cc3272142f5b3d02a7ed83fc480a476b86f786787de2"
+        }
+      ]
+    },
+    {
+      "name": "menu-hover",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/menu-hover.png",
+          "bytes": 1958,
+          "sha256": "ce32609bd911bc57ee8e767eec985ab847bd4e200cda940b6bf4f9d2b7e1b765"
+        },
+        {
+          "path": "system/sui-u/webp/menu-hover.webp",
+          "bytes": 680,
+          "sha256": "bb8e45b5fa599e52f3aa10077cca647061c901c03a51897b4cde2f3bd73376ee"
+        }
+      ]
+    },
+    {
+      "name": "menu-press",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/menu-press.png",
+          "bytes": 1931,
+          "sha256": "5afa5e7b559fdd42ccc296ef6093dbee2ddc27c461d5846ae3c7bc6f86e21afa"
+        },
+        {
+          "path": "system/sui-u/webp/menu-press.webp",
+          "bytes": 680,
+          "sha256": "f0acd8c9629846d5556b9236aec6687c3d53831ba5b502a434acd02ecfb02280"
+        }
+      ]
+    },
+    {
+      "name": "previous-idle",
+      "width": 176,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/previous-idle.png",
+          "bytes": 1461,
+          "sha256": "4d1eb68a1b61f0e3df8897445060b6411225bb360271b84c9d7717e7ba17dc75"
+        },
+        {
+          "path": "system/sui-u/webp/previous-idle.webp",
+          "bytes": 524,
+          "sha256": "0f188c0f2388c63cf3ebe951d7aca9e25402b2a1b4ec3dbfcd0d204c905d0a01"
+        }
+      ]
+    },
+    {
+      "name": "previous-hover",
+      "width": 176,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/previous-hover.png",
+          "bytes": 1344,
+          "sha256": "05a90d2b043d9cab855483b919bcee6d7bc0078f33eb0f5c19ce84822162e8b8"
+        },
+        {
+          "path": "system/sui-u/webp/previous-hover.webp",
+          "bytes": 500,
+          "sha256": "bff301b94f19d14bfc15cc1afd7b92501bef82eac90cf1ff135a600b382b2298"
+        }
+      ]
+    },
+    {
+      "name": "previous-press",
+      "width": 176,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/previous-press.png",
+          "bytes": 1338,
+          "sha256": "b89bce40e850266037eefe3fd9da1ca112932efca33472eb1f481cd8318f35a5"
+        },
+        {
+          "path": "system/sui-u/webp/previous-press.webp",
+          "bytes": 496,
+          "sha256": "009e1d4b58f1b1fbaeed8ebf545407a376ba51971ef893c1df2e82683686c2d9"
+        }
+      ]
+    },
+    {
+      "name": "next-idle",
+      "width": 176,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/next-idle.png",
+          "bytes": 1671,
+          "sha256": "5a3e166bb61c5e536d8ab1184742afed6edeb3447b613edebb84f1ad6bf3f41a"
+        },
+        {
+          "path": "system/sui-u/webp/next-idle.webp",
+          "bytes": 568,
+          "sha256": "7b08ed58c45dae7580e0a40fce7e4aeabae9c72b820586b83c38e87cf25d9b2f"
+        }
+      ]
+    },
+    {
+      "name": "next-hover",
+      "width": 176,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/next-hover.png",
+          "bytes": 1543,
+          "sha256": "5dc55508c94983f20cbf17faf7464729c3601e5ed7f1d5cc7c0d41b83a4d5530"
+        },
+        {
+          "path": "system/sui-u/webp/next-hover.webp",
+          "bytes": 540,
+          "sha256": "b902896dfc130f9a19bb56481519baae1701a51907aa542654e029ec7c1cb49d"
+        }
+      ]
+    },
+    {
+      "name": "next-press",
+      "width": 176,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/next-press.png",
+          "bytes": 1534,
+          "sha256": "006f38a791a5c151395a458c98a779753a54edbd9ffa6964331a48320163ea19"
+        },
+        {
+          "path": "system/sui-u/webp/next-press.webp",
+          "bytes": 538,
+          "sha256": "4a0ab068c13bc3ac2f21400705a8ce44a918bc4aef674df62d45f18e3800bb27"
+        }
+      ]
+    },
+    {
+      "name": "confirm-idle",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/confirm-idle.png",
+          "bytes": 4599,
+          "sha256": "abd1cb4352482b6cb3952a1ae664a179c730138f8c1a481c3331c911adf510e5"
+        },
+        {
+          "path": "system/sui-u/webp/confirm-idle.webp",
+          "bytes": 1516,
+          "sha256": "364462f8e764f5b38986dd95004533e2ec0a56bbe3b2848fe59c7ede5f56ab28"
+        }
+      ]
+    },
+    {
+      "name": "confirm-hover",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/confirm-hover.png",
+          "bytes": 4633,
+          "sha256": "1003862d42aedbff2210e40f9d121e93ee6122065a4534a3a8bc22634126068f"
+        },
+        {
+          "path": "system/sui-u/webp/confirm-hover.webp",
+          "bytes": 1538,
+          "sha256": "f9b0995059519786fb59d9b07d33a1599bf8aa6dd8420ec769b17fd2d12e4a10"
+        }
+      ]
+    },
+    {
+      "name": "confirm-press",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/confirm-press.png",
+          "bytes": 4544,
+          "sha256": "69692ea6290a41a12a61205ae55e1510b674d18d395e3cae5a8b3bd9fe401e2f"
+        },
+        {
+          "path": "system/sui-u/webp/confirm-press.webp",
+          "bytes": 1500,
+          "sha256": "750214a920871dd1aeb9ed682c034d63472963f9cec43bc11c1cf8cdd09537e3"
+        }
+      ]
+    },
+    {
+      "name": "cancel-idle",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/cancel-idle.png",
+          "bytes": 4635,
+          "sha256": "9cb6b336e2720e7ebddc9a9c89a5d7d907d1f15dc0cd2e6783dee3b9d1e9ed35"
+        },
+        {
+          "path": "system/sui-u/webp/cancel-idle.webp",
+          "bytes": 1392,
+          "sha256": "cfecdfa3606f60820689e1598c8ff60f53278c57559806864f84bc2791b48ed4"
+        }
+      ]
+    },
+    {
+      "name": "cancel-hover",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/cancel-hover.png",
+          "bytes": 4145,
+          "sha256": "449d8f7fe0b581fb9e45a59337f78562cd98f2fab6fe505072cde2a3f011a8d2"
+        },
+        {
+          "path": "system/sui-u/webp/cancel-hover.webp",
+          "bytes": 1366,
+          "sha256": "75c50ee8609dddb6cfe1f43f54b486451b562b4beb7d88cdab26f1e039e44ee1"
+        }
+      ]
+    },
+    {
+      "name": "cancel-press",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/cancel-press.png",
+          "bytes": 4150,
+          "sha256": "a4196b2e19b7cd0ddd022777a40e5119ee3227726776a805d5635915bb967dff"
+        },
+        {
+          "path": "system/sui-u/webp/cancel-press.webp",
+          "bytes": 1334,
+          "sha256": "b97e092fcdcdec0f1f4d220fb95b12d725a0cb120a615286eddb3d8b70f86284"
+        }
+      ]
+    },
+    {
+      "name": "reset-idle",
+      "width": 200,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/reset-idle.png",
+          "bytes": 4993,
+          "sha256": "d4aafb1de5670d7555a4de5c36faf92b672fbde8884e6d04e40ffbcf744a51d8"
+        },
+        {
+          "path": "system/sui-u/webp/reset-idle.webp",
+          "bytes": 1546,
+          "sha256": "2ca8e4d948085d1acf0f5163cf05dff3847f445140699aee10023eb883b0d48b"
+        }
+      ]
+    },
+    {
+      "name": "reset-hover",
+      "width": 200,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/reset-hover.png",
+          "bytes": 4451,
+          "sha256": "a266b8dd63e3a0a467b4e984a124d84e915fddedde4ffcf6d58ff7d4ce666ae9"
+        },
+        {
+          "path": "system/sui-u/webp/reset-hover.webp",
+          "bytes": 1516,
+          "sha256": "fdda0777be1f62dc051d16a04aed6a477d6c7bd7e8ee127380ec451d13ab27fa"
+        }
+      ]
+    },
+    {
+      "name": "reset-press",
+      "width": 200,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/reset-press.png",
+          "bytes": 4442,
+          "sha256": "0b1461ac89dc72b3e85c59398de190bb36274ea42903231be8924e2361079d12"
+        },
+        {
+          "path": "system/sui-u/webp/reset-press.webp",
+          "bytes": 1490,
+          "sha256": "11f4fd2d9fa28829cee3e16e730be486775b2210ea2b24b6ba7edf83d3d7b88e"
+        }
+      ]
+    },
+    {
+      "name": "fullscreen-idle",
+      "width": 200,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/fullscreen-idle.png",
+          "bytes": 3570,
+          "sha256": "09e5da7519a14502c7f9ab0220307f72e50f55d794cb1befca382ed2bf835efa"
+        },
+        {
+          "path": "system/sui-u/webp/fullscreen-idle.webp",
+          "bytes": 1118,
+          "sha256": "1378594cf1105ae047d8c933c40b3a463a0d1c58e03c55bed99a70ad7aef9075"
+        }
+      ]
+    },
+    {
+      "name": "fullscreen-hover",
+      "width": 200,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/fullscreen-hover.png",
+          "bytes": 3253,
+          "sha256": "2c8ac5097fac4858ed2f5e4d891196ac7dc2ca12fb884f70512146407de265a5"
+        },
+        {
+          "path": "system/sui-u/webp/fullscreen-hover.webp",
+          "bytes": 1090,
+          "sha256": "b564c172c732fe14d43d16597709f3558b5b0ed7c845fea7bf6fd9e27aee3f81"
+        }
+      ]
+    },
+    {
+      "name": "fullscreen-press",
+      "width": 200,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/fullscreen-press.png",
+          "bytes": 3243,
+          "sha256": "9425968c19c7f948f9c1cc78b429a86a2edac38e3eb0e293176f058bab205fac"
+        },
+        {
+          "path": "system/sui-u/webp/fullscreen-press.webp",
+          "bytes": 1074,
+          "sha256": "854896b8dbe81547b7e289e87d591e5f56d3af8a03b98650a07c462812c67b44"
+        }
+      ]
+    },
+    {
+      "name": "message",
+      "width": 1184,
+      "height": 206,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/message.png",
+          "bytes": 1508,
+          "sha256": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412"
+        },
+        {
+          "path": "system/sui-u/webp/message.webp",
+          "bytes": 136,
+          "sha256": "996cdc87807d20b8d41e445cfc0824958353dc2412c59f5bc011e4d453c35242"
+        }
+      ]
+    },
+    {
+      "name": "name",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/name.png",
+          "bytes": 220,
+          "sha256": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8"
+        },
+        {
+          "path": "system/sui-u/webp/name.webp",
+          "bytes": 84,
+          "sha256": "5172d6486e0a3c42cb5b22df8a1149da758fa5246338407d4dad9f1561f85fa2"
+        }
+      ]
+    },
+    {
+      "name": "advance-1",
+      "width": 24,
+      "height": 24,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/advance-1.png",
+          "bytes": 162,
+          "sha256": "6e0e84a3dd60651e36a7a67414c59b82bd059bba41995f8d7d2624f321d37e15"
+        },
+        {
+          "path": "system/sui-u/webp/advance-1.webp",
+          "bytes": 70,
+          "sha256": "9b924e63c9573b319d78adb2753a39969ddd36e9194283e604af0e7ed17c597a"
+        }
+      ]
+    },
+    {
+      "name": "advance-2",
+      "width": 24,
+      "height": 24,
+      "alpha": [
+        0,
+        120
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/advance-2.png",
+          "bytes": 161,
+          "sha256": "b0bc3fce05938534d0149f69e66dd7345980d0c3063d94ded028c5b3ab3a5d3f"
+        },
+        {
+          "path": "system/sui-u/webp/advance-2.webp",
+          "bytes": 70,
+          "sha256": "ae82563cc6577c8ace41cb904ba27c0bc1c72e5546238d7a58053fe1cf1f681e"
+        }
+      ]
+    },
+    {
+      "name": "auto",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/auto.png",
+          "bytes": 3217,
+          "sha256": "f28013f4ea0bcbc02cd84f4bef7c5cde67e790060da6cf590c0df7540fc33fd7"
+        },
+        {
+          "path": "system/sui-u/webp/auto.webp",
+          "bytes": 1056,
+          "sha256": "eeb392376e8c694e54666168264d87223856b9f36aa347c44427657b11153021"
+        }
+      ]
+    },
+    {
+      "name": "skip",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/skip.png",
+          "bytes": 4533,
+          "sha256": "6b9a8672e8b2b7a50994d50c0c8ba8abee060a7aca58da768b77925915bf6d43"
+        },
+        {
+          "path": "system/sui-u/webp/skip.webp",
+          "bytes": 1388,
+          "sha256": "bc3cad843615b43958a17b3c90967502625e7f7a0c65379abdc3a5ad3c797b62"
+        }
+      ]
+    },
+    {
+      "name": "choice-idle",
+      "width": 1040,
+      "height": 88,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/choice-idle.png",
+          "bytes": 687,
+          "sha256": "b2c14b3c06b084fb236b65cb77e671e2c7271604319196b9e1b3a2401615dc07"
+        },
+        {
+          "path": "system/sui-u/webp/choice-idle.webp",
+          "bytes": 110,
+          "sha256": "9cc67e722be0e54db7915d13706ffd6521dbeb1088692dd4327d8af229e84a64"
+        }
+      ]
+    },
+    {
+      "name": "choice-hover",
+      "width": 1040,
+      "height": 88,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/choice-hover.png",
+          "bytes": 697,
+          "sha256": "0aa507c64d2084e17d6bc2ad8a01dc6bcde1c3e53903cb1f92e697323ee0d741"
+        },
+        {
+          "path": "system/sui-u/webp/choice-hover.webp",
+          "bytes": 108,
+          "sha256": "611238833f81523dae1ef6c2bcbab8013a2ca17d2bf2b89f6618803b10b17aa4"
+        }
+      ]
+    },
+    {
+      "name": "save",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save.png",
+          "bytes": 27116,
+          "sha256": "eeb369ab803cdcc39b4501dabdb08b0a00e33024707bbc61db7facbe713ac37e"
+        },
+        {
+          "path": "system/sui-u/webp/save.webp",
+          "bytes": 8220,
+          "sha256": "b12ec5f95d2e009d668b165e6db1aebc0d5c70a9c4534f3b7557fb52235ea5e0"
+        }
+      ]
+    },
+    {
+      "name": "load",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/load.png",
+          "bytes": 24015,
+          "sha256": "0c72e420c05839841164bbeb34fbe35fa0abbac3b4bdb76d5f821d93994b469f"
+        },
+        {
+          "path": "system/sui-u/webp/load.webp",
+          "bytes": 7170,
+          "sha256": "1e18ce1712e2fc15688010040362c8983e2f5561cedc59f399514a04ce6529d3"
+        }
+      ]
+    },
+    {
+      "name": "history",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/history.png",
+          "bytes": 25112,
+          "sha256": "7880124602fbe55a0ab6e4729ab7a742b77bcb41bd6aa1772fce020da58327e9"
+        },
+        {
+          "path": "system/sui-u/webp/history.webp",
+          "bytes": 7710,
+          "sha256": "0cf25454e11c58ed73f8c1e4e8f4918e84dedbcc95a70ecbfba5e81204de7809"
+        }
+      ]
+    },
+    {
+      "name": "sysmenu",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/sysmenu.png",
+          "bytes": 20928,
+          "sha256": "f42ce9c9dd2e429dbc34595c1496d8cdad53eccc604c4de0854f1c43b91dd7d6"
+        },
+        {
+          "path": "system/sui-u/webp/sysmenu.webp",
+          "bytes": 6110,
+          "sha256": "ea786a6fdb077729a066dd601abdda7f7ad5058c3915be1fbd2702c8639c0ef9"
+        }
+      ]
+    },
+    {
+      "name": "gallery-base",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/gallery-base.png",
+          "bytes": 19893,
+          "sha256": "7d02b57579c689760b1c35c4c93d958f38aacb1386f083ac2a76dbe260370df2"
+        },
+        {
+          "path": "system/sui-u/webp/gallery-base.webp",
+          "bytes": 5994,
+          "sha256": "d50fc5cf26037f9c330f33a23210de06e6b7ea0199a345c5f56500ce81cdf84a"
+        }
+      ]
+    },
+    {
+      "name": "gallery-view",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/gallery-view.png",
+          "bytes": 18586,
+          "sha256": "cb1a7b4e76b58b1fcf0636bf59d8240795636303267927f288c91f7b554dde0f"
+        },
+        {
+          "path": "system/sui-u/webp/gallery-view.webp",
+          "bytes": 5238,
+          "sha256": "5db81612604558def241870cd458b345851b70393d2b19e27c2e2dfeb0915832"
+        }
+      ]
+    },
+    {
+      "name": "save-item-idle",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-idle.png",
+          "bytes": 951,
+          "sha256": "ffdd0b719fd1a0fed28340cb76abf560a3c75eec585b3de1f63f461d067c09a8"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-idle.webp",
+          "bytes": 104,
+          "sha256": "d93dafa127d5f8d08f736c3234d5b8866ef0dcbf3d0d2770367998a747c6b487"
+        }
+      ]
+    },
+    {
+      "name": "save-item-hover",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-hover.png",
+          "bytes": 956,
+          "sha256": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-hover.webp",
+          "bytes": 110,
+          "sha256": "85fbcc95b3aa8251ffb04e99b14b75c959e374d296faf29e69d3ec959f317a58"
+        }
+      ]
+    },
+    {
+      "name": "save-item-press",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-press.png",
+          "bytes": 956,
+          "sha256": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-press.webp",
+          "bytes": 110,
+          "sha256": "85fbcc95b3aa8251ffb04e99b14b75c959e374d296faf29e69d3ec959f317a58"
+        }
+      ]
+    },
+    {
+      "name": "save-item-0-idle",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-0-idle.png",
+          "bytes": 2760,
+          "sha256": "f1784745d2f1a1d644e95c23646c2704f926aae00b33a404b550d5b65868a46a"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-0-idle.webp",
+          "bytes": 786,
+          "sha256": "8e98dd2d3337de084620cc2e8092a262c15cdc1f1568bd8e89925552272192d7"
+        }
+      ]
+    },
+    {
+      "name": "save-item-0-hover",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-0-hover.png",
+          "bytes": 2761,
+          "sha256": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-0-hover.webp",
+          "bytes": 738,
+          "sha256": "cf84319cccf831ae3f1b364483d0da9c9ae0d785aa8abc28ef613bd6703d9d8d"
+        }
+      ]
+    },
+    {
+      "name": "save-item-0-press",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-0-press.png",
+          "bytes": 2761,
+          "sha256": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-0-press.webp",
+          "bytes": 738,
+          "sha256": "cf84319cccf831ae3f1b364483d0da9c9ae0d785aa8abc28ef613bd6703d9d8d"
+        }
+      ]
+    },
+    {
+      "name": "save-item-1-idle",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-1-idle.png",
+          "bytes": 3493,
+          "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-1-idle.webp",
+          "bytes": 968,
+          "sha256": "fe29a682a936a666c9427d8b2b4cf1023f2ed3ad593ffc00d9670e0bab7a53e8"
+        }
+      ]
+    },
+    {
+      "name": "save-item-1-hover",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-1-hover.png",
+          "bytes": 3427,
+          "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-1-hover.webp",
+          "bytes": 910,
+          "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64"
+        }
+      ]
+    },
+    {
+      "name": "save-item-1-press",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-1-press.png",
+          "bytes": 3427,
+          "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-1-press.webp",
+          "bytes": 910,
+          "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64"
+        }
+      ]
+    },
+    {
+      "name": "save-item-2-idle",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-2-idle.png",
+          "bytes": 3493,
+          "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-2-idle.webp",
+          "bytes": 968,
+          "sha256": "fe29a682a936a666c9427d8b2b4cf1023f2ed3ad593ffc00d9670e0bab7a53e8"
+        }
+      ]
+    },
+    {
+      "name": "save-item-2-hover",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-2-hover.png",
+          "bytes": 3427,
+          "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-2-hover.webp",
+          "bytes": 910,
+          "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64"
+        }
+      ]
+    },
+    {
+      "name": "save-item-2-press",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-2-press.png",
+          "bytes": 3427,
+          "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-2-press.webp",
+          "bytes": 910,
+          "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64"
+        }
+      ]
+    },
+    {
+      "name": "save-item-3-idle",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-3-idle.png",
+          "bytes": 3493,
+          "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-3-idle.webp",
+          "bytes": 968,
+          "sha256": "fe29a682a936a666c9427d8b2b4cf1023f2ed3ad593ffc00d9670e0bab7a53e8"
+        }
+      ]
+    },
+    {
+      "name": "save-item-3-hover",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-3-hover.png",
+          "bytes": 3427,
+          "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-3-hover.webp",
+          "bytes": 910,
+          "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64"
+        }
+      ]
+    },
+    {
+      "name": "save-item-3-press",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/save-item-3-press.png",
+          "bytes": 3427,
+          "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+        },
+        {
+          "path": "system/sui-u/webp/save-item-3-press.webp",
+          "bytes": 910,
+          "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64"
+        }
+      ]
+    },
+    {
+      "name": "auto-save",
+      "width": 556,
+      "height": 220,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/auto-save.png",
+          "bytes": 15773,
+          "sha256": "93d361c2eb068f0e8a27cec5fa22478265446c4440cb01e50c37fa68ade9ab91"
+        },
+        {
+          "path": "system/sui-u/webp/auto-save.webp",
+          "bytes": 6166,
+          "sha256": "470f12b90ca44dc2f2be4e18742e2a603623ddb0bb88aa62fea3701cbe328685"
+        }
+      ]
+    },
+    {
+      "name": "history-item-idle",
+      "width": 1080,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/history-item-idle.png",
+          "bytes": 1412,
+          "sha256": "35a7b5fa4c3e8639355c644002dc927db2edfb67e6575de44de9ae5caaec1252"
+        },
+        {
+          "path": "system/sui-u/webp/history-item-idle.webp",
+          "bytes": 114,
+          "sha256": "a79e0207fa1c2eeeb34b706395e7f398928abb33f8cf0592bdbaa3b5ce49ad4d"
+        }
+      ]
+    },
+    {
+      "name": "history-item-hover",
+      "width": 1080,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/history-item-hover.png",
+          "bytes": 1416,
+          "sha256": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf"
+        },
+        {
+          "path": "system/sui-u/webp/history-item-hover.webp",
+          "bytes": 120,
+          "sha256": "2012129a34237c10cba16b1059a50f8455a1d6040025cb4bed5dc079f27e7d3a"
+        }
+      ]
+    },
+    {
+      "name": "history-item-press",
+      "width": 1080,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/history-item-press.png",
+          "bytes": 1416,
+          "sha256": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf"
+        },
+        {
+          "path": "system/sui-u/webp/history-item-press.webp",
+          "bytes": 120,
+          "sha256": "2012129a34237c10cba16b1059a50f8455a1d6040025cb4bed5dc079f27e7d3a"
+        }
+      ]
+    },
+    {
+      "name": "scroll-idle",
+      "width": 24,
+      "height": 424,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/scroll-idle.png",
+          "bytes": 245,
+          "sha256": "0df6eaa09efdd2b0a71c2ea2ee86332a2df324ed4b26f4f5ba9e489de2c7279f"
+        },
+        {
+          "path": "system/sui-u/webp/scroll-idle.webp",
+          "bytes": 52,
+          "sha256": "3dcf5d3296bdbfbd79cc2f0f2c4d76da494447ddb2329be4987b20c960355a5f"
+        }
+      ]
+    },
+    {
+      "name": "scroll-hover",
+      "width": 24,
+      "height": 424,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/scroll-hover.png",
+          "bytes": 246,
+          "sha256": "e1b29e1954b5a0e62ac07f11bbbc30bbbc20c84499c0e92d74731d9cd3b530b3"
+        },
+        {
+          "path": "system/sui-u/webp/scroll-hover.webp",
+          "bytes": 52,
+          "sha256": "2f983bfff47fc4a013c0f4b751228f89aa58bc8614028e91421c00b90cec8eda"
+        }
+      ]
+    },
+    {
+      "name": "scroll-knob",
+      "width": 24,
+      "height": 44,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/scroll-knob.png",
+          "bytes": 166,
+          "sha256": "f5b197668d75e3d1a45cf77176a2417217105d016b84035861c1047d7cc755be"
+        },
+        {
+          "path": "system/sui-u/webp/scroll-knob.webp",
+          "bytes": 68,
+          "sha256": "8503801d300d6718f2661517397bbb1e6f64d5aa8eb4e3a896aafdf9b8a07c81"
+        }
+      ]
+    },
+    {
+      "name": "slider-idle",
+      "width": 440,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/slider-idle.png",
+          "bytes": 192,
+          "sha256": "5e9d1b013dd8575ca3dfa709fddbeb49f9a216ca74f708b85e27ce5d0e7c1b8b"
+        },
+        {
+          "path": "system/sui-u/webp/slider-idle.webp",
+          "bytes": 56,
+          "sha256": "3720b02bd3228ec7b2ff817223de784873fd76e681e10e3f61443a09143a585e"
+        }
+      ]
+    },
+    {
+      "name": "slider-hover",
+      "width": 440,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/slider-hover.png",
+          "bytes": 192,
+          "sha256": "2f10e38a7f0938dd8d2d9012f3b001e9b8f0260fc07cb9aa1c112a654412e0c7"
+        },
+        {
+          "path": "system/sui-u/webp/slider-hover.webp",
+          "bytes": 56,
+          "sha256": "87b374d49e2ff153bf24d2f73dedc04da6c9cad9051df53e8d26da2feed9f162"
+        }
+      ]
+    },
+    {
+      "name": "slider-knob",
+      "width": 32,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/slider-knob.png",
+          "bytes": 162,
+          "sha256": "e98abcdd04d52ace4fd1b0630a45cfc9b1bd690b9d22ddef856d281610c724ed"
+        },
+        {
+          "path": "system/sui-u/webp/slider-knob.webp",
+          "bytes": 70,
+          "sha256": "892752d94a534c872b0a90ad85990ae97dcbf85857ace5ea203ed577dbe37bc9"
+        }
+      ]
+    },
+    {
+      "name": "preview",
+      "width": 440,
+      "height": 112,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/preview.png",
+          "bytes": 444,
+          "sha256": "bba817b97ba51e2bf014b6757c3b7a54c57b5567b00f8dae03fcfff52ddaaee8"
+        },
+        {
+          "path": "system/sui-u/webp/preview.webp",
+          "bytes": 58,
+          "sha256": "7a3c261082f5ec2b776f0397271d56e8aa45fd9f5c67fec655302accaac6c461"
+        }
+      ]
+    },
+    {
+      "name": "config",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/config.png",
+          "bytes": 46352,
+          "sha256": "adb49bd6fd368af865e780cb8b2c164552332d5a5fd4f3ec455949e1e8f330b7"
+        },
+        {
+          "path": "system/sui-u/webp/config.webp",
+          "bytes": 15332,
+          "sha256": "75f28e50bb38beae52a1aeef68d71f826d1d9af7396ab391d1abf707466a2a60"
+        }
+      ]
+    },
+    {
+      "name": "nav-save-idle",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-save-idle.png",
+          "bytes": 3684,
+          "sha256": "676d509295e0ae1a501b8b623fbc68c8e4aae984103975813714416e45d69f37"
+        },
+        {
+          "path": "system/sui-u/webp/nav-save-idle.webp",
+          "bytes": 1128,
+          "sha256": "ee2ed4269f32b25b275d455c070ecc307c1ba06fa06be566df7beaa2cdbcc932"
+        }
+      ]
+    },
+    {
+      "name": "nav-save-hover",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-save-hover.png",
+          "bytes": 3341,
+          "sha256": "77a6bb67f5969b2e3f2a7e032e93e0f07751d698d906075bf6bd9e938f4c73ba"
+        },
+        {
+          "path": "system/sui-u/webp/nav-save-hover.webp",
+          "bytes": 1106,
+          "sha256": "a37a453ef37f2d32bf94cc06a5bdeeb73270df085e272b1b94af52e04712e060"
+        }
+      ]
+    },
+    {
+      "name": "nav-save-press",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-save-press.png",
+          "bytes": 3289,
+          "sha256": "01f200aec437ba5ba05c7d4be7a1755a94490fe97acd9faac7e2f081ad7be957"
+        },
+        {
+          "path": "system/sui-u/webp/nav-save-press.webp",
+          "bytes": 1078,
+          "sha256": "d555cb39d7a3a4241d9933c866c00eaab58d0024639f79b16f1b37d572a1abea"
+        }
+      ]
+    },
+    {
+      "name": "nav-load-idle",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-load-idle.png",
+          "bytes": 4356,
+          "sha256": "5c9231f367fea73240456036c3a8913135f07c446428a4f9a59af4dcb8aa5e47"
+        },
+        {
+          "path": "system/sui-u/webp/nav-load-idle.webp",
+          "bytes": 1280,
+          "sha256": "64f06e5dc330ca14ffa3cb5855965734ff92ac745f9f51a0b2ef7085fc7e16b1"
+        }
+      ]
+    },
+    {
+      "name": "nav-load-hover",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-load-hover.png",
+          "bytes": 3901,
+          "sha256": "90d077d73cae021f8288a231199cbe591b3327ddcdf30f5caff8e06558c4ceda"
+        },
+        {
+          "path": "system/sui-u/webp/nav-load-hover.webp",
+          "bytes": 1262,
+          "sha256": "e28fc94f0a40967cc6fac35e3ea99e9e568ecedd4ea17ff4bf9115ffc365603f"
+        }
+      ]
+    },
+    {
+      "name": "nav-load-press",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-load-press.png",
+          "bytes": 3839,
+          "sha256": "893473355ae9a348e4fbaee128e04645aee2d1b7919974eb383b577c9a9e929b"
+        },
+        {
+          "path": "system/sui-u/webp/nav-load-press.webp",
+          "bytes": 1236,
+          "sha256": "8cb5ff5c89511236470649dba559ee604b10418082634346c77eb14f18993694"
+        }
+      ]
+    },
+    {
+      "name": "nav-history-idle",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-history-idle.png",
+          "bytes": 3535,
+          "sha256": "03c9ba86fac3a353971bd35edb73c06cc5ae0c5892f0925bd1b8e89cf9b33706"
+        },
+        {
+          "path": "system/sui-u/webp/nav-history-idle.webp",
+          "bytes": 1058,
+          "sha256": "999c716b5b3583bc29bd08596c4b03a033d44ef6cb7b7079f68b2a33a78ebb01"
+        }
+      ]
+    },
+    {
+      "name": "nav-history-hover",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-history-hover.png",
+          "bytes": 3225,
+          "sha256": "c577eb2d3a387f0c2bfe43201698d0881bc451e0e50c91c9d9af4692511bd2bb"
+        },
+        {
+          "path": "system/sui-u/webp/nav-history-hover.webp",
+          "bytes": 1036,
+          "sha256": "25dd4be58d389d23614744494f54860d23a6b3035391daa72bb115d34d682ce7"
+        }
+      ]
+    },
+    {
+      "name": "nav-history-press",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-history-press.png",
+          "bytes": 3204,
+          "sha256": "b8929d1f17bbd56c3c0d3fd0de1151944c838bfa9e6c537a703cbb76de3bdfa0"
+        },
+        {
+          "path": "system/sui-u/webp/nav-history-press.webp",
+          "bytes": 1018,
+          "sha256": "274e09248ee0e2ddf5dc325533845753c3ff2c27005a03e34cfb36d20a2ffd7a"
+        }
+      ]
+    },
+    {
+      "name": "nav-auto-idle",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-auto-idle.png",
+          "bytes": 3598,
+          "sha256": "7b641055aecbc5a4abb0d14780877ec35c0a6f8e155b75ed08e202507b65b5c7"
+        },
+        {
+          "path": "system/sui-u/webp/nav-auto-idle.webp",
+          "bytes": 1090,
+          "sha256": "53a1e48e52048a1602cbbb9d36c89741c09a85cf0b1f5eef236a85989d38da15"
+        }
+      ]
+    },
+    {
+      "name": "nav-auto-hover",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-auto-hover.png",
+          "bytes": 3274,
+          "sha256": "d6045b7ec8257456ff9d03706122b28962244af2cafb321de1d42d6f10f3114d"
+        },
+        {
+          "path": "system/sui-u/webp/nav-auto-hover.webp",
+          "bytes": 1070,
+          "sha256": "483a8abc7abda269b0132fb5c778827603150651f4638132afc6eac17fadb42b"
+        }
+      ]
+    },
+    {
+      "name": "nav-auto-press",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-auto-press.png",
+          "bytes": 3253,
+          "sha256": "740b4e21fca3444419c680864a010304cafcbcf9b07010989672c3e6a14db1ef"
+        },
+        {
+          "path": "system/sui-u/webp/nav-auto-press.webp",
+          "bytes": 1034,
+          "sha256": "ee3cf3f02f68420348483c542f854bc1079fbf8780f8a561a7ed0ec603df8248"
+        }
+      ]
+    },
+    {
+      "name": "nav-skip-idle",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-skip-idle.png",
+          "bytes": 3727,
+          "sha256": "cfccf22ac2ca0ade983205306c03da7dcb25cb2d077acc293488636e69009909"
+        },
+        {
+          "path": "system/sui-u/webp/nav-skip-idle.webp",
+          "bytes": 1116,
+          "sha256": "2156a58b24c3558a03254bfdefed5c870068dc7ca13da2eab06c52d3c885df6b"
+        }
+      ]
+    },
+    {
+      "name": "nav-skip-hover",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-skip-hover.png",
+          "bytes": 3407,
+          "sha256": "ede13dbab843bcef1864c725380b1935d0362a7a011e4be96ef6b25c01772fcb"
+        },
+        {
+          "path": "system/sui-u/webp/nav-skip-hover.webp",
+          "bytes": 1102,
+          "sha256": "a561124b1a2c338649b705eb7269ca8c6500134b6317204e09912ae7cc6e2e92"
+        }
+      ]
+    },
+    {
+      "name": "nav-skip-press",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-skip-press.png",
+          "bytes": 3381,
+          "sha256": "6055019de58be3b2f9a71ae4b262cdff295009874f49127203d1c9e591ae211a"
+        },
+        {
+          "path": "system/sui-u/webp/nav-skip-press.webp",
+          "bytes": 1076,
+          "sha256": "0030d4005fe818a3a0ccf0355c45e579b0185e0fd2c1eb64800a37828249e961"
+        }
+      ]
+    },
+    {
+      "name": "nav-config-idle",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-config-idle.png",
+          "bytes": 3936,
+          "sha256": "3f5bc511412427ea41dba12bb315dd80584511b137adcd1314770f9911154f24"
+        },
+        {
+          "path": "system/sui-u/webp/nav-config-idle.webp",
+          "bytes": 1136,
+          "sha256": "12927c98a86c5c69c5ef6d35d3df65c28dcb6506853a0412353062c2ef66ffac"
+        }
+      ]
+    },
+    {
+      "name": "nav-config-hover",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-config-hover.png",
+          "bytes": 3586,
+          "sha256": "03ac187769c756926e26aaafce158357791812828dde493c23714f697361bb79"
+        },
+        {
+          "path": "system/sui-u/webp/nav-config-hover.webp",
+          "bytes": 1120,
+          "sha256": "e8ba8312796193ffaeead9e2b9a1e5ff55f399d7719e83e6ceee9ae417ac1556"
+        }
+      ]
+    },
+    {
+      "name": "nav-config-press",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-config-press.png",
+          "bytes": 3580,
+          "sha256": "13c45c27c56176f436c09127b3f370add4c6c8e52661b983598686020b1c3bd2"
+        },
+        {
+          "path": "system/sui-u/webp/nav-config-press.webp",
+          "bytes": 1092,
+          "sha256": "2ec7089abe2ecfc4fd507e7c57273be9c8b6352df92b9b6b9eb2eed746076dc4"
+        }
+      ]
+    },
+    {
+      "name": "nav-title-idle",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-title-idle.png",
+          "bytes": 3695,
+          "sha256": "40dd3363ef1ea9cab8fd39b35e21ba4bf6a22f3d4deafbb3702c9f901c9abdae"
+        },
+        {
+          "path": "system/sui-u/webp/nav-title-idle.webp",
+          "bytes": 1126,
+          "sha256": "1c9c3a46cbb27bfb0d2a0a2b89ad697493192908025e19f2c94923474c6e03cc"
+        }
+      ]
+    },
+    {
+      "name": "nav-title-hover",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-title-hover.png",
+          "bytes": 3374,
+          "sha256": "03b587ebc8ccd7eedb33bce4b52c6831262b6615f79593ece5bc4a8cc7658df1"
+        },
+        {
+          "path": "system/sui-u/webp/nav-title-hover.webp",
+          "bytes": 1086,
+          "sha256": "5d064ca370709db6fb47c2d225771118693a3f1b9e755c5b3456f8731cbcdbe2"
+        }
+      ]
+    },
+    {
+      "name": "nav-title-press",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/nav-title-press.png",
+          "bytes": 3337,
+          "sha256": "592eaf23f172d78b17edd8bc822d76eb127de2158a35cf98667fcbf0752c0890"
+        },
+        {
+          "path": "system/sui-u/webp/nav-title-press.webp",
+          "bytes": 1074,
+          "sha256": "b3703de4d311c27a2e827ca5d3d0665c88823015cdef4cd70995ed623bcb1592"
+        }
+      ]
+    },
+    {
+      "name": "title-confirm",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        248,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/title-confirm.png",
+          "bytes": 20580,
+          "sha256": "90caa9f801c5ff02eb4bed3e8da7828145d9787b9cc80d3c5b334d177a9ab0f5"
+        },
+        {
+          "path": "system/sui-u/webp/title-confirm.webp",
+          "bytes": 5644,
+          "sha256": "5d1fa9ccfee1b1bb13b5d3ee8bc09730146e4e82a17cf5410e4228faa431a9fe"
+        }
+      ]
+    },
+    {
+      "name": "cg-locked",
+      "width": 352,
+      "height": 184,
+      "alpha": [
+        255,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/cg-locked.png",
+          "bytes": 3743,
+          "sha256": "69016dbc066d482ec5670336fb26f8aadf595c6b884b3dbbbf4531e8b1572523"
+        },
+        {
+          "path": "system/sui-u/webp/cg-locked.webp",
+          "bytes": 1104,
+          "sha256": "8f92dd5dc108fe4ab7dc8a21839004504eb2719b6035fef3a39e3e95183ce388"
+        }
+      ]
+    },
+    {
+      "name": "cg-focus",
+      "width": 352,
+      "height": 184,
+      "alpha": [
+        0,
+        255
+      ],
+      "files": [
+        {
+          "path": "system/sui-u/png/cg-focus.png",
+          "bytes": 598,
+          "sha256": "82b90cdf0fb9f4b59ff694d41eb4c7e0b9f64d9108be4734dc99b5169c2f8c59"
+        },
+        {
+          "path": "system/sui-u/webp/cg-focus.webp",
+          "bytes": 60,
+          "sha256": "d7a5d4607aaec0f9a05446f2f78e7a23e6f11427d7f9adbd36f2c0b449414ded"
+        }
+      ]
+    }
+  ]
+}

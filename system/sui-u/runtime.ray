@@ -1,0 +1,65 @@
+// Call before Suika.update(). Open the visible menu in one tap even while text types.
+// The suspended native tag and all story/save state remain owned by Suika/E.
+var suiMenuPointerDown = false;
+var suiSettingsRestored = false;
+var suiSettingsText = 0.5;
+var suiSettingsAuto = 0.5;
+var suiSettingsDirty = false;
+var suiSettingsChangedAt = 0;
+var suiSettingsPointerDown = false;
+
+func suiUIRestoreReadingSettings() {
+    if (Suika.checkVariableExists({name: "sui_ui_text_speed"})) {
+        var speed = Suika.getVariableFloat({name: "sui_ui_text_speed"});
+        if (speed >= 0.0 && speed <= 1.0) Suika.setTextSpeed({speed: speed});
+    }
+    if (Suika.checkVariableExists({name: "sui_ui_auto_speed"})) {
+        var speed = Suika.getVariableFloat({name: "sui_ui_auto_speed"});
+        if (speed >= 0.0 && speed <= 1.0) Suika.setAutoSpeed({speed: speed});
+    }
+    suiSettingsText = Suika.getTextSpeed();
+    suiSettingsAuto = Suika.getAutoSpeed();
+    suiSettingsRestored = true;
+}
+func suiUISaveReadingSettings() {
+    Suika.setVariableFloat({name: "sui_ui_text_speed", value: suiSettingsText});
+    Suika.setVariableFloat({name: "sui_ui_auto_speed", value: suiSettingsAuto});
+    Suika.makeVariableGlobal({name: "sui_ui_text_speed", isGlobal: true});
+    Suika.makeVariableGlobal({name: "sui_ui_auto_speed", isGlobal: true});
+    if (Suika.executeSaveGlobal()) suiSettingsDirty = false;
+}
+func suiUIUpdate() {
+    if (suiHistoryActive) suiHistoryUpdate();
+    var down = Engine.isMouseLeftPressed || Suika.isMouseLeftPressed() || Suika.isMouseDragging();
+    // Short touch start/end may both arrive between render frames.
+    var click = (down && !suiMenuPointerDown) || Suika.isMouseLeftClicked();
+    suiMenuPointerDown = down;
+    if (!click || suiGalleryActive || Suika.isGUIRunning()) return;
+    var tag = Suika.getTagName();
+    if (tag != "text" && tag != "choose") return;
+    if (Engine.mousePosX < 1104 || Engine.mousePosX >= 1232 || Engine.mousePosY < 24 || Engine.mousePosY >= 80) return;
+    if (!Suika.loadGUIFile({file: "system/sui-u/gui/sysmenu.gui", isSys: true})) return;
+    Suika.clearInputState();
+    Suika.startGUI();
+}
+// Call after Suika.update(). A six-option layout occupies the reading area.
+func suiUIAfterUpdate() {
+    suiHistoryAfterUpdate();
+    // This SDK persists audio sliders but does not persist these two runtime speeds.
+    if (!suiSettingsRestored) suiUIRestoreReadingSettings();
+    var textSpeed = Suika.getTextSpeed();
+    var autoSpeed = Suika.getAutoSpeed();
+    if (textSpeed != suiSettingsText || autoSpeed != suiSettingsAuto) {
+        suiSettingsText = textSpeed;
+        suiSettingsAuto = autoSpeed;
+        suiSettingsDirty = true;
+        suiSettingsChangedAt = Engine.millisec;
+    }
+    var down = Engine.isMouseLeftPressed;
+    if (suiSettingsDirty && ((suiSettingsPointerDown && !down) || Engine.millisec-suiSettingsChangedAt >= 180)) suiUISaveReadingSettings();
+    suiSettingsPointerDown = down;
+    if (!Suika.isGUIRunning() && Suika.getTagName() == "choose") {
+        Suika.showMessageBox({show: false});
+        Suika.showNameBox({show: false});
+    }
+}

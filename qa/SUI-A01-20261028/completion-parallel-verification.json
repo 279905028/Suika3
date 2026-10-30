@@ -1,0 +1,88 @@
+{
+  "task": "SUI-A01",
+  "status": "fail",
+  "checks": [
+    {
+      "name": "需求键与唯一责任包",
+      "status": "pass",
+      "issues": [],
+      "detail": 115
+    },
+    {
+      "name": "逐项来源指纹及原文锚点",
+      "status": "pass",
+      "issues": [],
+      "detail": 239
+    },
+    {
+      "name": "12份实际正文覆盖",
+      "status": "pass",
+      "issues": [],
+      "detail": [
+        "scenario/后日谈-他们的日子.md",
+        "scenario/后日谈-未写完的安排.md",
+        "scenario/周栀-十一点四十七分.md",
+        "scenario/孟遥-旧题.md",
+        "scenario/朋友与职业-夜班.md",
+        "scenario/第一章-回到毕节.md",
+        "scenario/第三章-选一条路.md",
+        "scenario/第二章-十四天.md",
+        "scenario/罗小满-练习本.md",
+        "scenario/跨路线-第36天的消息.md",
+        "scenario/飘-空白页.md",
+        "scenario/黄球球-门后.md"
+      ]
+    },
+    {
+      "name": "精确白名单与未自动采用",
+      "status": "pass",
+      "issues": [],
+      "detail": 203
+    },
+    {
+      "name": "既有示例位图保护",
+      "status": "pass",
+      "issues": [],
+      "detail": 530
+    },
+    {
+      "name": "本次收尾根入口与原CG选择保护",
+      "status": "fail",
+      "issues": [
+        "main.ray"
+      ],
+      "detail": 4
+    },
+    {
+      "name": "CG选择保全与无制作放行",
+      "status": "pass",
+      "issues": [],
+      "detail": {
+        "original": 60,
+        "retained": 52,
+        "retired": 8,
+        "replacementUndecided": 8,
+        "productionReady": 0
+      }
+    },
+    {
+      "name": "SUI-U横屏接口对齐",
+      "status": "pass",
+      "issues": [],
+      "detail": null
+    },
+    {
+      "name": "人读需求表与JSON一致",
+      "status": "pass",
+      "issues": [],
+      "detail": null
+    },
+    {
+      "name": "A01交付本地链接",
+      "status": "pass",
+      "issues": [],
+      "detail": null
+    }
+  ],
+  "scope": "资源索引、元数据、来源保护、文档与接口一致性；未重新运行引擎或浏览器"
+}

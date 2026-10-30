@@ -1,0 +1,16 @@
+{
+  "manifestPath": "qa/sui-i02-20261029/fixture/manifest.json",
+  "bindingsPath": "qa/sui-i02-20261029/fixture/bindings.json",
+  "snapshotPath": "qa/sui-i02-20261029/fixture/snapshot.json",
+  "inputFingerprint": "f5722d193412e19615feea4cec7ca72a355597d1c32eb1295e2be53f3dfc7c93",
+  "assets": 3,
+  "bindings": 5,
+  "scope": {
+    "kind": "diagnostic",
+    "description": "仅验证I02加载/演出/恢复的三张真实图技术负载；非剧情采用或I01正式绑定",
+    "missing": [
+      "I01冻结采用清单与完整演出绑定尚未交接",
+      "完整60项真实CG注册/全作负载与六线逐段演出未验证"
+    ]
+  }
+}

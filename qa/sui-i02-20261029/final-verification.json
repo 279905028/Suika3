@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "task": "SUI-I02",
+  "version": "i01-diag-v003",
+  "status": "technical-diagnostic-passed-full-candidate-blocked",
+  "candidate": {
+    "path": "qa/sui-i02-20261029/i01-diag-v003/candidate-manifest.json",
+    "sha256": "40bced50eb4cd3264fcb6c7cc22810fb036ccc24c8424c2cd663c90b91d2defb",
+    "bytes": 232590
+  },
+  "inputFingerprint": "89d144cb84197f4e1e0733e06067f0c49701aa398f7238af1e358db10aa1c748",
+  "runtimeBuildIds": {
+    "web": "bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "desktop": "4f4bbea5552b9a278d07c4ed90b6ddfb5fcdf859f8bdea0a9616d92b4dcff118"
+  },
+  "reports": [
+    {
+      "path": "qa/sui-i02-20261029/browser-report-i01-diag-v003.json",
+      "sha256": "016aee9248f26d6653c57b351a595e1137cdf223caaa89a1fb5758398b54259f",
+      "bytes": 147507
+    },
+    {
+      "path": "qa/sui-i02-20261029/browser-visual-i01-diag-v003.json",
+      "sha256": "cb947661a4735177d960bdfc5f26e4be31993cfdcc83c0c288010737f1e7dea4",
+      "bytes": 6688
+    },
+    {
+      "path": "qa/sui-i02-20261029/i01-presentation-i01-diag-v003/report.json",
+      "sha256": "9b1179dbd81e61c611027005352d294cc1672be1343a64cc27d2b3e439e2798a",
+      "bytes": 21893
+    },
+    {
+      "path": "qa/sui-i02-20261029/i01-presentation-i01-diag-v003/color-report.json",
+      "sha256": "db87a7373df45690476e6426f97497787124ae0cc0496bc1be7cecb279d0f8d0",
+      "bytes": 21827
+    },
+    {
+      "path": "qa/sui-i02-20261029/i01-presentation-i01-diag-v003/visual-review.json",
+      "sha256": "5b2130efc3516eeb91f9eb4c68b400a1ecfa2858b244f0f5d86e9b79ddddea5e",
+      "bytes": 682
+    },
+    {
+      "path": "qa/sui-i02-20261029/presentation-review-i01-diag-v003-report.json",
+      "sha256": "a2e7deb919ded84c143272f31d3a2d5df17e9a5a7a6ccc98e0fa12a9b1d0039e",
+      "bytes": 5352
+    },
+    {
+      "path": "qa/sui-i02-20261029/rebuild-i01-diag-v003-report.json",
+      "sha256": "05736ab3d1d0baefd5cf3a565545b2cb4c6fd207f1a2c8bf98a5eadacc590ae0",
+      "bytes": 863
+    },
+    {
+      "path": "qa/sui-i02-20261029/package-verify-i01-diag-v003.json",
+      "sha256": "72167ef2d314628667504fd2f73462c68c08d6499d83928845b5e4e49ce1c474",
+      "bytes": 895
+    },
+    {
+      "path": "qa/sui-i02-20261029/protected-report.json",
+      "sha256": "442997d61b6f096685407b16d96a5a6b801929ea1e5b57a02be7430f7e9de555",
+      "bytes": 199
+    },
+    {
+      "path": "qa/sui-i02-20261029/interface-test-report.json",
+      "sha256": "361fc686f311cab3106b5f6f54d93e482c01de11318d9b2a093aca4b97ee6cd8",
+      "bytes": 4522
+    },
+    {
+      "path": "qa/sui-i02-20261029/interface-i01-test-report.json",
+      "sha256": "784d32e6d9f067d3002602d132fe1a9c4b4abda32270079cb9398f1a682fc8ec",
+      "bytes": 3403
+    },
+    {
+      "path": "qa/sui-i02-20261029/cue-check-report.json",
+      "sha256": "b3ba14ee6e4f116d7d36e6c761511688768daa4b9564d9f39681b2f9af4c5ec7",
+      "bytes": 11805
+    },
+    {
+      "path": "qa/sui-i02-20261029/audit-compiler-report.json",
+      "sha256": "aaf7bcf364a6b1caeed260f5207ec8705d48fd9dd299ae35458bca608c486dee",
+      "bytes": 155184
+    },
+    {
+      "path": "qa/sui-i02-20261029/audit-contract-summary.json",
+      "sha256": "417631e5b7cd67760ca0b4114fca9223501b10e2f491b00d3e9b2e5690162627",
+      "bytes": 3222
+    }
+  ],
+  "scope": {
+    "kind": "diagnostic",
+    "description": "用户批准的212项WebP；限定拍点绑定及批准备用；不宣称全正文连续演出；仅I02限定拍点诊断与接口适配",
+    "missing": [
+      "I02共同接口未对齐",
+      "全正文连续背景/人物演出未覆盖；中性空场仅为诊断回退默认值，不是正式演出批准"
+    ]
+  },
+  "producerHandoff": false,
+  "actual": {
+    "webBrowser": "通过本批声明初验范围",
+    "mobileViewport": "通过尺寸触摸与旋转模拟",
+    "mobilePhysical": "未测",
+    "desktopPackaging": "通过文件和重建检查",
+    "desktopNative": "未测",
+    "release": "未执行",
+    "naturalCGUnlocked": [
+      "CG001"
+    ],
+    "all212Rendered": "未逐张运行",
+    "all60Unlocks": "未逐镜运行"
+  },
+  "blockers": [
+    "I01尚未交出双方确认的最终冻结交接",
+    "I01限定拍点覆盖，不允许以中性空场代替正式连续演出；fullCandidateAllowed=false"
+  ]
+}

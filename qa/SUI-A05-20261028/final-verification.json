@@ -1,0 +1,122 @@
+{
+  "task": "SUI-A05",
+  "date": "2026-10-29",
+  "passed": true,
+  "checkCount": 18,
+  "passCount": 18,
+  "packageChecksSeparate": {
+    "passed": 132,
+    "total": 132
+  },
+  "checks": [
+    {
+      "id": "input-before.json:protected-inputs",
+      "passed": true,
+      "detail": {
+        "total": 39,
+        "unchanged": 38,
+        "unexpectedChanges": []
+      }
+    },
+    {
+      "id": "resume-before.json:protected-inputs",
+      "passed": true,
+      "detail": {
+        "total": 43,
+        "unchanged": 42,
+        "unexpectedChanges": []
+      }
+    },
+    {
+      "id": "todo-only-A05-and-update-date",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "historical-input-copies",
+      "passed": true,
+      "detail": {
+        "count": 12
+      }
+    },
+    {
+      "id": "inherited-B-byte-identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "generation-originals-byte-identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "19-final-records-unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "final-files-match-checked-hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "132-package-checks-pass",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "19-exact-lossless-records",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "18-candidates-no-adoption",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "retired-manual-excluded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "76-four-tone-and-14-ui-previews",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "current-contract-snapshot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "five-requirement-families-registered",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "15-scene-asset-references-valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "current-source-lines-and-hashes",
+      "passed": true,
+      "detail": {
+        "referencesChecked": 51
+      }
+    },
+    {
+      "id": "handoff-local-links-exist",
+      "passed": true,
+      "detail": {
+        "linksChecked": 133,
+        "broken": []
+      }
+    }
+  ],
+  "evidenceLayer": "文件、元数据、来源及链接；目视记录另列，未运行游戏",
+  "runtimeAdoptedCount": 0,
+  "photoAssetsProduced": 0,
+  "manifestFileCount": 212
+}

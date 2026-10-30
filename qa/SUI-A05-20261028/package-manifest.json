@@ -1,0 +1,1067 @@
+{
+  "task": "SUI-A05",
+  "date": "2026-10-29",
+  "scope": "本包原件、衍生、资料和QA；不作为最终运行采用清单。自身与收尾报告不递归记录。",
+  "files": [
+    {
+      "path": "assets/sources/20261028/SUI-A05/option-a/char-piao-human-base-painterly-v001.png",
+      "bytes": 1834423,
+      "sha256": "d362cfa61058a574849d3e41a155bd280ca8ca496a32e2c6424d00f9bee98540"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/option-a/char-piao-human-base-painterly-v001.webp",
+      "bytes": 1100808,
+      "sha256": "24fe6f85667e46c6a16e485c505b85b5bed5e028cf80ffdf3e0c3405705de937"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/action-booklet.txt",
+      "bytes": 1837,
+      "sha256": "78c9a655e3257e8b5a2a7409879ae5427fd2073c6e695161de6377ee859b6832"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/action-camera.txt",
+      "bytes": 1850,
+      "sha256": "ea571ef2fc51a7b49c00ae37e42bd3409fce316b632b33f04e7d14e30430a968"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/action-knot.txt",
+      "bytes": 1997,
+      "sha256": "41a505409e5ef8514f5a46f1adeb9a47e0ad58e881305f5aa17b4776539b9a88"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/booklet-tools.txt",
+      "bytes": 749,
+      "sha256": "e6be059ef798c0842775fb4116fd1b5c001f153a0d79a2de538bb85a3c83f30c"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/booklet.txt",
+      "bytes": 937,
+      "sha256": "4148938223712539419922c14e16f4da5d3970044c47aada926c6f22c2447b55"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/camera-bag.txt",
+      "bytes": 759,
+      "sha256": "affc4ecf868b832761080dddca9b8857e4de5141663f734b4e1cb781f891ba22"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/camera-manual-v002.txt",
+      "bytes": 827,
+      "sha256": "091010165c9de00a7d0a4fc95c1070220fec826388a2488be2a356d59a615ae3"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/camera-manual.txt",
+      "bytes": 804,
+      "sha256": "e3441780cc655212412ea8cfa78fbd7dd9ec8fec4d727ee9525408776ffe051c"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/camera.txt",
+      "bytes": 835,
+      "sha256": "df5200373d923464008361eacacc44c65f5c6d3348295f07624f6998b7d34d40"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/prompts/option-a.txt",
+      "bytes": 1319,
+      "sha256": "28b34160600915bdd7827eaadfb19f4ccb4a15ef0366459082d4f474a526d20e"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.png",
+      "bytes": 1445060,
+      "sha256": "29085fbde8c8a2d0d6c53a229203f84089b196aa754a167af6108b8d2b9d0ffe"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.webp",
+      "bytes": 828296,
+      "sha256": "ef3b0efb8a20a3087f7b54abdd56c6cf3198e304d97b64753471946579850c54"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.png",
+      "bytes": 1606818,
+      "sha256": "764de42dbd7c96b8bfc8e029e9abbbf64e4f001c4462f534a9369c8db8b5284c"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.webp",
+      "bytes": 938448,
+      "sha256": "a43f370793b9056b814621ec2f44ac9d20ce99cd02acf5e1b75d07d780471d25"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-bag-slipknot-v001.png",
+      "bytes": 1856216,
+      "sha256": "fd5c467c0265ffc557096a2d697690c355023ea1303e8d6b57a4eac4dddf3f39"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-bag-slipknot-v001.webp",
+      "bytes": 1060710,
+      "sha256": "2073d5f86b8126455271bae9aa65bdffc87b8716c16982103c30ec77260d0858"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-manual-v001.png",
+      "bytes": 1318322,
+      "sha256": "5ecb2aab5a50949cb55510909707aae15464c2b497f9f29686128e15dd3d0de8"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-manual-v002.png",
+      "bytes": 1367628,
+      "sha256": "410d6545d5717395b683fd0e0d8131940528122eec91fa56469861c74d9fa69d"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-manual-v002.webp",
+      "bytes": 772356,
+      "sha256": "f22df2cb9d5d1293d5a923694074edab45bc9bec8687ca30be075d225c2b740d"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+      "bytes": 1794786,
+      "sha256": "3ef42bec24964195c3c70e4b21f8fca7655a958d07823882d9a7d7f11266bc9d"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.webp",
+      "bytes": 1077946,
+      "sha256": "6a13aad578daf1f6ed52a67d103b4d6e890acc45445ed16630b6c1ff447ddca0"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-explaining.png",
+      "bytes": 1737209,
+      "sha256": "3119053c176305cd377581298eaee1770e59d8d49ca19ff6ba036cbd3e6d9536"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-thinking.png",
+      "bytes": 1701347,
+      "sha256": "cc21a362d7e3d603569eefabd61fafe15cecea56d88ac306c8124649c1d22d20"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-wave.png",
+      "bytes": 1783463,
+      "sha256": "b5daee1f1d2276abacf1162c374c5af3ed7afd29100a41509d07ad14a2279a27"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-base.png",
+      "bytes": 1743396,
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-displeased.png",
+      "bytes": 1733929,
+      "sha256": "8a6c4f152a6f24022c0c096f34f44aa088e4929cad56ce9ff50df55166375113"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-downcast.png",
+      "bytes": 1714700,
+      "sha256": "53a3c303f5bf797f3d5e9a6da7feed1a68e314057c5d71edb44602d93b2a2cb3"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-hesitant.png",
+      "bytes": 1713205,
+      "sha256": "8b8b1ebc9fb997c9a367c216375f502fc5f87dd8965e42c0228ca5e4c8c8df6b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-serious.png",
+      "bytes": 1728340,
+      "sha256": "bc5ebcf28f7dee480141be2acca34821b575e2e31533d977437cd825af3170cf"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-smile.png",
+      "bytes": 1723413,
+      "sha256": "fba298b4c572bb6d9293f0fef2f5dbc865ae44a9156eefcd86db0e03ec5c4b6b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-surprised.png",
+      "bytes": 1731259,
+      "sha256": "c49627dfb66433258082197dfb18aeeabf068021e65b2eb779de7a91034a81ba"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/piao-character-manifest.json",
+      "bytes": 16550,
+      "sha256": "d172e801efa8223debf02d7bbe713675317c7afa9d01557d0e8524d154c8a711"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+      "bytes": 22920,
+      "sha256": "a2c169601691821b1db5f031ff4d6e8db305c617a65adda97d6d6032de671c0b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-booklet-v001.png",
+      "bytes": 1831256,
+      "sha256": "fa4ac8ae30e1185844f5ecc17418230411cf883f377873c124b348fae1c916c1"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-booklet-v001.webp",
+      "bytes": 1103484,
+      "sha256": "66bbc42d3fbbec2431d6234d9fc9046c9cfcf3a8e41d47a71d362e394019a871"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-camera-v001.png",
+      "bytes": 1882705,
+      "sha256": "d5d5a15b5d5e54f3d955def4bb3f0f83fbd23e262e830dc133a34170fbcf781e"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-camera-v001.webp",
+      "bytes": 1128536,
+      "sha256": "709539895b8ee4264c20a9e82b7e7c636a99840049d2e107e565b807e6874c7a"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-explaining-v001.png",
+      "bytes": 1737209,
+      "sha256": "3119053c176305cd377581298eaee1770e59d8d49ca19ff6ba036cbd3e6d9536"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-explaining-v001.webp",
+      "bytes": 1049770,
+      "sha256": "86b0f0d947b0aa5cd2880c5fc3c8f23e45191643ccd9597aaeacf9e7d0d5b7e9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-knot-v001.png",
+      "bytes": 1882122,
+      "sha256": "d37b161098a7f97f1f5c40c0c6dab5f171a87073f489d3cf2d064c085b577b9e"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-knot-v001.webp",
+      "bytes": 1144340,
+      "sha256": "5184894ab98866f803011bf42253fab43d3add6bb6cd31cc5e254d524c258b22"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-thinking-v001.png",
+      "bytes": 1701347,
+      "sha256": "cc21a362d7e3d603569eefabd61fafe15cecea56d88ac306c8124649c1d22d20"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-thinking-v001.webp",
+      "bytes": 1026222,
+      "sha256": "c74718334036f4bf745b24b6bd6cf75235eaf57747b8d4fd9b21ce6ee3351580"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-wave-v001.png",
+      "bytes": 1783463,
+      "sha256": "b5daee1f1d2276abacf1162c374c5af3ed7afd29100a41509d07ad14a2279a27"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-wave-v001.webp",
+      "bytes": 1088234,
+      "sha256": "b663071a870f41f5b9807791a2f450d1e129e889d97c2e4e268c4aee9a217855"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "bytes": 1743396,
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.webp",
+      "bytes": 1041008,
+      "sha256": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-displeased-v001.png",
+      "bytes": 1733929,
+      "sha256": "8a6c4f152a6f24022c0c096f34f44aa088e4929cad56ce9ff50df55166375113"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-displeased-v001.webp",
+      "bytes": 1043816,
+      "sha256": "84b1e4f7ade9ad54ecc494533b3c1416bcdafd8da21f84f094af818013c2bd6c"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-downcast-v001.png",
+      "bytes": 1714700,
+      "sha256": "53a3c303f5bf797f3d5e9a6da7feed1a68e314057c5d71edb44602d93b2a2cb3"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-downcast-v001.webp",
+      "bytes": 1031710,
+      "sha256": "7771a367045d1be0220a541e874f8da9d9dc987efb8951204985019175a2c935"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-hesitant-v001.png",
+      "bytes": 1713205,
+      "sha256": "8b8b1ebc9fb997c9a367c216375f502fc5f87dd8965e42c0228ca5e4c8c8df6b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-hesitant-v001.webp",
+      "bytes": 1032888,
+      "sha256": "a2f8e0cee954d0f239a7309128238815d79beefe99eed32fbde6f3cfd3ca24f7"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-serious-v001.png",
+      "bytes": 1728340,
+      "sha256": "bc5ebcf28f7dee480141be2acca34821b575e2e31533d977437cd825af3170cf"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-serious-v001.webp",
+      "bytes": 1035166,
+      "sha256": "34cbd86ac2d7aa1c7a97142473930d33cb6de2f9452d56c6626975f72661ba63"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-smile-v001.png",
+      "bytes": 1723413,
+      "sha256": "fba298b4c572bb6d9293f0fef2f5dbc865ae44a9156eefcd86db0e03ec5c4b6b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-smile-v001.webp",
+      "bytes": 1039722,
+      "sha256": "355c50ef180390f75489275417c41101d8045ddee082ebdc1a3c94d0c8581c53"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-surprised-v001.png",
+      "bytes": 1731259,
+      "sha256": "c49627dfb66433258082197dfb18aeeabf068021e65b2eb779de7a91034a81ba"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-surprised-v001.webp",
+      "bytes": 1040172,
+      "sha256": "e93d6d0f92058a27d9c218e970c512c7bad7aae37842ca9dfa51333ae2192834"
+    },
+    {
+      "path": "docs/美术/SUI-A05.md",
+      "bytes": 6145,
+      "sha256": "f894c229f154a714e356b7268d100c96f87dc0055e5aa2cab578bac1872ead96"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/approval.json",
+      "bytes": 693,
+      "sha256": "00abd33534d273c97e0dfef2d0c85ed370dbcf3e2270ed7f3184ca0e1d6054fb"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/asset-specs.json",
+      "bytes": 21799,
+      "sha256": "9b401e8343f343af2252b24464454477050c05b28bb6596b4a01feb846c0a977"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/branch-usage.json",
+      "bytes": 24416,
+      "sha256": "b90007cb0db64351e1d26d54c5b1f0d4464281c7a2b9bcde2281eb6332eb45f1"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/build-package.py",
+      "bytes": 15088,
+      "sha256": "dffa6f9a0222b677b75b73b0e575805e5ce5777be7681cbc509f2775fc606d95"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/finalize-package.py",
+      "bytes": 9625,
+      "sha256": "66ed213267d413bc180ec92145cf470615d888052f79f647df322aa947ac0a98"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/gallery.html",
+      "bytes": 16644,
+      "sha256": "e834f55ea44a73a60a854f353f58b30e8029bda62e70c3666e13ffb68cd0550a"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/generation-jobs.json",
+      "bytes": 6486,
+      "sha256": "5249577c3dab0ed68fa15f02e8f2b9df976eac3c92d415dc8c64a09203590b51"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/input-before.json",
+      "bytes": 12365,
+      "sha256": "c8b943933a10091916edc47ff6417d83cef9618ec334e213a1c4e685692c92c0"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/package-candidates.json",
+      "bytes": 10034,
+      "sha256": "fb073da07bbed9834350610b279b00e05d46852cd59c5426e1a790ec850cd6ab"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/pixel-comparison.json",
+      "bytes": 3779,
+      "sha256": "ab29a18a507ccd231d2e974dd385f2cbb25da450b4cabe1ae2a9a74edbb80a86"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/prepare-records.py",
+      "bytes": 10315,
+      "sha256": "6e6ef95f75ab4accdefa27a15cab42fda27b02492e07e1fe8a9b27aa7c6efef7"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/edge-review-black.png",
+      "bytes": 1735676,
+      "sha256": "3ba0ca918d55cdd264078ce0dcf806d58e1cc8596a196cb04a1b8aba000601c7"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/edge-review-day.png",
+      "bytes": 1748176,
+      "sha256": "71ae8fb9a36c0642f21068b62c1a4d8941ac17208c4fef938d246a5b77c82531"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/edge-review-night.png",
+      "bytes": 1732679,
+      "sha256": "0258f535e805bd6333bb7338630bb1588b1e2d25ad72090b280b4eedd3c48fda"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/edge-review-white.png",
+      "bytes": 1751594,
+      "sha256": "3b5872db55d9f466e07dd437cdcd66a04e87c9eae5a6691dfaa5283dfdffa44f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/inherited-black.jpg",
+      "bytes": 241439,
+      "sha256": "7f72abc0dcaa61b0769f8e56f1e6a884e20524da0b21bd36beae745f5a9127c7"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/inherited-day.jpg",
+      "bytes": 238154,
+      "sha256": "dfc54dea53227b9411cff7eef78c541abb9968ca8154b08cf2e477acca4343a7"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/inherited-night.jpg",
+      "bytes": 239185,
+      "sha256": "e6100bdd64f0fd698298a03bab1d2ea7822f34238bf186e21bf836b5fff78856"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/inherited-white.jpg",
+      "bytes": 242166,
+      "sha256": "76a2481d341d42a62eba5952e2d0f478ebcc74a5e454b157a5c31e73b100e14c"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-booklet-black.png",
+      "bytes": 310549,
+      "sha256": "8c34ab4e539ab2faf8398015e899b90da64f2199e546c3c5442b4eeb23daf27c"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-booklet-day.png",
+      "bytes": 313699,
+      "sha256": "b7c788363b6f1a8a8552ac9591e115196d2afeeaafd8594c12ddf6fa77f12ef7"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-booklet-faces-detail.png",
+      "bytes": 196504,
+      "sha256": "51a684476212f74f06404fcaf778a8f7aff4db2fd3d062e85610a2cd38d3709f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-booklet-hands-detail.png",
+      "bytes": 557410,
+      "sha256": "2577593db72a2e610b9f3b297f13d362e21edeb3e1103106947b0a3bda4e9e0b"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-booklet-night.png",
+      "bytes": 310166,
+      "sha256": "effba666bcb093d7e3582186d5351527254966e7ff8b55b05173658b5f72116b"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-booklet-ui.png",
+      "bytes": 249572,
+      "sha256": "ba4688863aa05e45032d5316daaf7fd514fa2fea6a514b7dadb3e2c404b5a2ac"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-booklet-white.png",
+      "bytes": 313968,
+      "sha256": "082b46ed9608534ff05b64cc627efce97af0d87798352547791ebc2f84f8e090"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-camera-black.png",
+      "bytes": 316044,
+      "sha256": "d86ba0d68ce2dccc4c9e070226a9bc08d8a381488daf43149538450aa21c2155"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-camera-day.png",
+      "bytes": 319054,
+      "sha256": "7a00388251c9d2d05f04e60b87e04b24d984a5cbd7dd73cafc840b8a4b07abaa"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-camera-faces-detail.png",
+      "bytes": 197342,
+      "sha256": "76eb298674f7ba495c8e32243be88c43eda10ded6f6f6e2bdf1e36d1637a60cc"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-camera-hands-detail.png",
+      "bytes": 588896,
+      "sha256": "e293c47292915f145eb81e762f038d027afdf00c4513b186f58409fc2901d8d4"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-camera-night.png",
+      "bytes": 315565,
+      "sha256": "e025ec5716800eddadfb2419a92c8263aaeb5a441a53032fadeb14ed87a14cc4"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-camera-ui.png",
+      "bytes": 251293,
+      "sha256": "cfa56fcd7e3cf1719c326383a8bbc87851702bf57f71d2636814d3a0208dd83c"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-camera-white.png",
+      "bytes": 319195,
+      "sha256": "93342dd89ecb13c934bca84429301464d8db47a3fd462cb1257b8e994c3719b8"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-explaining-black.png",
+      "bytes": 293945,
+      "sha256": "d1a045da8075b33a1467747ceaf355a5d64404da387ae21b5ab8791f897ee324"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-explaining-day.png",
+      "bytes": 296074,
+      "sha256": "f90b8bd9c30fe33a24412f992337d0e8839da3a6161c2414e1ebff763ef0b58e"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-explaining-faces-detail.png",
+      "bytes": 190356,
+      "sha256": "ceea861aadeb346ee7feb40d1e7c8458d9cf6aef823f7589906ee4b3bb1042dd"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-explaining-hands-detail.png",
+      "bytes": 491229,
+      "sha256": "6f3e96b417d3fab05c8dd9f9e365e582623181ce89700b8c0a58832bd821a88e"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-explaining-night.png",
+      "bytes": 293751,
+      "sha256": "184355f5ca05178772887609ebbd036e17ce60235e0583b9544c4ee30f65c654"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-explaining-ui.png",
+      "bytes": 238639,
+      "sha256": "fa8b1ed4ed693adcb816ce880acac2b3f9f7345a688aa202f0d2fbd43ab39057"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-explaining-white.png",
+      "bytes": 296061,
+      "sha256": "53f2ca6204cdad38a7d494af4052410e805ba23880cb1da334ec921f278cfa8d"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-knot-black.png",
+      "bytes": 319199,
+      "sha256": "8409aae24e3f29fc454367fef4170a827d6b57784c5c1bc4bc261c4337954372"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-knot-day.png",
+      "bytes": 323342,
+      "sha256": "fab189815652c613651d804e1ec9a8a4ffd5a58edfa747e7381b4531e6f471c6"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-knot-faces-detail.png",
+      "bytes": 190708,
+      "sha256": "b40fa64d40744280a2821e7a3dbcb20d7ccff0953428dec61c0e17bca09f099d"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-knot-hands-detail.png",
+      "bytes": 568671,
+      "sha256": "ed06c83894197d8cf02a7295eef639d93cbf1e54cb5297393912a1ea9db66758"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-knot-night.png",
+      "bytes": 319081,
+      "sha256": "e9661d923e87b8e94d568ea5f3e12cb3fb1c4d95c7bf37d44d7f84a79220c71f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-knot-ui.png",
+      "bytes": 253173,
+      "sha256": "76f90df8019f522f6e19bf059460f48fb6f6fd95c99d0fe353c4faf60cb5ba4a"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-knot-white.png",
+      "bytes": 323172,
+      "sha256": "f4c4294e2b968d8895df2a6ade887ed126aff6929b28aa641b97dba44d93a8d4"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-thinking-black.png",
+      "bytes": 287458,
+      "sha256": "b31455af207ab98a8a317898f5f9309e9f12c762b61839db94780e88b833f0ec"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-thinking-day.png",
+      "bytes": 290278,
+      "sha256": "22ffa25e79a99a351bff200096c6d9a39f2db2bc661c30609112e78d8d8315ec"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-thinking-faces-detail.png",
+      "bytes": 188030,
+      "sha256": "dbb6acb6b6c2d2b062d8af2babe017e3c1570e95c16de9c31c70243857a8e655"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-thinking-hands-detail.png",
+      "bytes": 467047,
+      "sha256": "11ec804397a0034f93333ff87558f2395195d20cd3f279d9637def2c5f1c6212"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-thinking-night.png",
+      "bytes": 287438,
+      "sha256": "e8d245aaef3011164f1863a4dffb17eab58ac96c4bad365a0347582e7cd1102c"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-thinking-ui.png",
+      "bytes": 233145,
+      "sha256": "25a45a145ff82d12cf714cf7656d2c75c93e1dcb4e536585f417c0f1876eefb0"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-thinking-white.png",
+      "bytes": 290061,
+      "sha256": "b0d7f02503405dc986bde283d697f06f33f69bee15b7934b4e690fbe933afc43"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-wave-black.png",
+      "bytes": 297452,
+      "sha256": "d69cb03b9d3475a6c2342dc8490c83bb425a4c99a9f6c9a0a166ecaf5748e1cb"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-wave-day.png",
+      "bytes": 299054,
+      "sha256": "719be24e23dee30798a8b5f797e9fffea83302129df1230ad71cda454afbed3a"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-wave-faces-detail.png",
+      "bytes": 194598,
+      "sha256": "b8780121daf94fc08bcd6b5308679969f6763140a8c947ee7fb2d191ba888544"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-wave-hands-detail.png",
+      "bytes": 508776,
+      "sha256": "86f8ee05f9e7d317c521ccf81ae341508e6911d6e97155d33b96f4773de23a4f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-wave-night.png",
+      "bytes": 297423,
+      "sha256": "a733c6f7d61527d37b06dda57b8b59098315f44a416beab8c92ea0e050439733"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-wave-ui.png",
+      "bytes": 240066,
+      "sha256": "2e585c336d9ee957db12d93f942068ade9389b9bf5297a922173a5057e8c443a"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-action-wave-white.png",
+      "bytes": 299164,
+      "sha256": "e39233d55bb292ce6f6a818944a5fe2a56c682b334744676f5db9fddd503d929"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-base-black.png",
+      "bytes": 292359,
+      "sha256": "724855021f832a69737c6b4cc03b02a10e1b25724ed6c29840a8a979bba1f719"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-base-day.png",
+      "bytes": 295148,
+      "sha256": "b84e8d90c5ec0f3356fd8123eb9ebc8b0f31677bb36dcc8c2444baf859b49e26"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-base-faces-detail.png",
+      "bytes": 192031,
+      "sha256": "14e9c27ee4647b1d02e9938a0a8ccbe6f5c8df858dc2d6d5ab892024d12939f3"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-base-hands-detail.png",
+      "bytes": 481388,
+      "sha256": "86608187d85f550c49104fd45380b1db0eb6d857e814c7a038bc395f9fb5d7ef"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-base-night.png",
+      "bytes": 291566,
+      "sha256": "d5acca28e7c0a2e7b8023529622e252f50f050a1edb94f99082ae04267f60f2b"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-base-ui.png",
+      "bytes": 238788,
+      "sha256": "10ba75e1db3734c9bc3246902bb8416a36af995e58edc81643e29188c7e1acc6"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-base-white.png",
+      "bytes": 295518,
+      "sha256": "ecef8e479a1927587ba096537526a77f480a9664e3548d0bc878119990b3fe29"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-displeased-black.png",
+      "bytes": 292473,
+      "sha256": "ad42962eb2d805036db9bff9499dc417acc8c84e12a6e865437d98c531636d5a"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-displeased-day.png",
+      "bytes": 294847,
+      "sha256": "21dff4e730ccb993a6a142c2cbe67d913ae36a4d537f92d90c18849d2e66c6ee"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-displeased-faces-detail.png",
+      "bytes": 189939,
+      "sha256": "21076436446e1b43928aae55d00eb8bf4063834e450f35c10e77949e6d792e33"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-displeased-hands-detail.png",
+      "bytes": 474910,
+      "sha256": "b4ea0bf69dfd3941a5522d98475230549507c55bd277d29cd4192d43c3584572"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-displeased-night.png",
+      "bytes": 292338,
+      "sha256": "e14b84f10e7e4c095e940527334f13935ba63c44303305944eb4f0bb19435d8d"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-displeased-ui.png",
+      "bytes": 238253,
+      "sha256": "049101568b4b3f0a63a6c87e21f67ffffe160cea141072380a974a9da558486e"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-displeased-white.png",
+      "bytes": 294730,
+      "sha256": "293f1afe298d5835ee860ab3caf4fde9d128a592329c268b0faf64ddd38afae8"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-downcast-black.png",
+      "bytes": 291040,
+      "sha256": "191c3065b784bbc97a146fc849cd70f74b01a9833b239fa39846b4d523bcbce2"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-downcast-day.png",
+      "bytes": 293156,
+      "sha256": "fb852ed082f7a5ab7447425f496fe39865f7b2d60196bb50c157a0a9b2c2aacd"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-downcast-faces-detail.png",
+      "bytes": 185312,
+      "sha256": "ccfcf8cdde99e72010bc5643382dd39d3af92a18051dcc60f410957e72e00a9b"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-downcast-hands-detail.png",
+      "bytes": 470150,
+      "sha256": "b2ee212949df8e9d0d07a832c33919e7d26d0783ff42956894ccdf9e30a6e753"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-downcast-night.png",
+      "bytes": 290538,
+      "sha256": "bc92d163fb97e807def9dd9ad7f770d6c6be74d9fb048c409198d0f152a012b9"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-downcast-ui.png",
+      "bytes": 236580,
+      "sha256": "a615004b2a3ac672103daf6025efaab898d2df1e6cb39426434edbaa546c41c9"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-downcast-white.png",
+      "bytes": 293404,
+      "sha256": "cc8adeb94b1f03e31cb5a38125cb73e7e8261b01df00b51ccb1b1f89ca6ef7d0"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-black.png",
+      "bytes": 291403,
+      "sha256": "fbb2c50dfda00515c27e9df2b18c41f237e87bd3f48113bfb41440e03e3a28c4"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-day.png",
+      "bytes": 293686,
+      "sha256": "e11c32b5b9a14b5c85ba29daf5928f64c405121ff9b96d455fdfa8fcb1259099"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-faces-detail.png",
+      "bytes": 184861,
+      "sha256": "2abbebd2392b763a9a7854afd6db3b86c5c88da0e5a4895e1b4289de78ea17e8"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-hands-detail.png",
+      "bytes": 465790,
+      "sha256": "5be1af7de103b09a44b570908f501012935d1782313c0e6b5d819e94358b1b35"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-night.png",
+      "bytes": 291381,
+      "sha256": "3bf3bd5717005a550b00ba4602aa95ee44890adcdb381ade497b132feefd9ea6"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-ui.png",
+      "bytes": 237118,
+      "sha256": "34d8ae9358f6a88385fdac1810e090b6114e1750dd0cc24f8d03cdf8ea0b2ccc"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-white.png",
+      "bytes": 293508,
+      "sha256": "438c246472061a2ebf46a04de847efee0a7167ad36548c191b113aa95e974c76"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-serious-black.png",
+      "bytes": 291506,
+      "sha256": "e7765d303ceef5549310891f4ca17a1600e52bc7dcfd5a796a13b45658ef68cb"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-serious-day.png",
+      "bytes": 294078,
+      "sha256": "7b78e8081ec555d4661c71048c32ce90df2025e9fd0c0e7393aeb231aec86bd4"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-serious-faces-detail.png",
+      "bytes": 183942,
+      "sha256": "353d431c6f93eab08981f68edcb0a77820cbbbcc8aad9841d63494cd02876184"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-serious-hands-detail.png",
+      "bytes": 474920,
+      "sha256": "f1df1b41ac3c18a465e502ab737c8695b9c99d664a1c36e6d6335db9ba83c5c5"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-serious-night.png",
+      "bytes": 290978,
+      "sha256": "cb1fcb8aa6a410a26d7cd9dd83736ef6ffcedb414d7fb994ea6b7983cf3a95c9"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-serious-ui.png",
+      "bytes": 236220,
+      "sha256": "eb90e256ec374bf337b73af82e6f9ae59bd3f93f9e8f3144e910dcf94de4f614"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-serious-white.png",
+      "bytes": 294340,
+      "sha256": "b9346ea128cb652db902c1beb2d34cc3684dce66b3f9c8e13a98d322a56b6ceb"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-smile-black.png",
+      "bytes": 291751,
+      "sha256": "693061731d07e3902b8861a8445cf3990469d7966e83cb746aaf91b850c7684d"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-smile-day.png",
+      "bytes": 293928,
+      "sha256": "c2eddd53d046e485a4391d794e72ed0f6d522973e805c7f8ffca59d0b24632d0"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-smile-faces-detail.png",
+      "bytes": 186868,
+      "sha256": "386c5c1cdcb7e69f955ffbee0bdedf61622a2a6e65576ae4ca57942b9ea20faa"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-smile-hands-detail.png",
+      "bytes": 470550,
+      "sha256": "e7fa31a27836d7ebcaee8e0d2992b95b7108bb29f001a31e7d9bc10ef02e3030"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-smile-night.png",
+      "bytes": 291104,
+      "sha256": "c59defebd23dcc0fa7a2147caba76e6a4c7cdce2285b6fc3bad171ea580296d2"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-smile-ui.png",
+      "bytes": 236895,
+      "sha256": "05ebf63b76c9f6cc361432ab0a3e279dd80be090f8c35c9ee93ad37db7dfb19f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-smile-white.png",
+      "bytes": 294139,
+      "sha256": "a37e82c562e4635ae5a4bc9997d199fbf7025110bbfff8105f3f683100791806"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-surprised-black.png",
+      "bytes": 292985,
+      "sha256": "ab1e9a37a563ac7d0228c2e9e0787786975a0898d2974e51e223262d35e398cb"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-surprised-day.png",
+      "bytes": 295235,
+      "sha256": "963bc10a3b76252bbf355ac17673847460e26079e17a497acf7264f7d4fbe2c5"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-surprised-faces-detail.png",
+      "bytes": 188086,
+      "sha256": "952b23f905e5bb93bb414b3e3e30b95b8fb4dfdd3aeee40d90167ea65e53b73a"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-surprised-hands-detail.png",
+      "bytes": 473193,
+      "sha256": "f5006c3ff9bd20ccfae1d54af1f62aa6a38d2177196ed34a09ae5bf0a8db9d4f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-surprised-night.png",
+      "bytes": 292905,
+      "sha256": "6817e79dbf585ab28f58ba2e0d198c787e31e9d9d09a6a79bec408c699bf15ec"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-surprised-ui.png",
+      "bytes": 237513,
+      "sha256": "6a2d0815cdec39e4b5c8cfaceca8c65504aae9238ec71a52af1017302c98740f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-expression-surprised-white.png",
+      "bytes": 295432,
+      "sha256": "c4a7764c80ac2baf50dd5f14361bf36e624710f4bf9c75148737bf0138db1b6a"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-faces-detail-sheet.png",
+      "bytes": 1871196,
+      "sha256": "4ce826442c3dc5d546ece3b11ec01a5caf0eb970e9faf501d6a8e2beca595409"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-hands-detail-sheet.png",
+      "bytes": 1456890,
+      "sha256": "eaa8098c294224ad925e4e2d9f544752a2cc72be4226880728e378156b0a5f9b"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-option-a-black.png",
+      "bytes": 310047,
+      "sha256": "aa493901f4e055c048c24a841d4ae7b5f56b9948ba2ed5d712d5c84953126173"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-option-a-day.png",
+      "bytes": 314010,
+      "sha256": "29174a9f0214721486faf1fea42fd9e638307463cf17c783e6501f35f11e9417"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-option-a-night.png",
+      "bytes": 310364,
+      "sha256": "c2ff19847d7a5ccee8e830ca096324a6756eaf910bc69477d824cdda3533ee2f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-option-a-ui.png",
+      "bytes": 250881,
+      "sha256": "e356089fba9028725c1c1840d762fea7a2de0480ad77fa522614824963f2ffce"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-option-a-white.png",
+      "bytes": 313381,
+      "sha256": "493ca56660cd038c238d22b253a4cec54c791ff9abde98b8d99dec8b94ae833e"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-options-a-b.png",
+      "bytes": 562781,
+      "sha256": "343ffaa0397cf4d12aad141359967aa53a295702332e529d6a27c0eb28522e0a"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-booklet-black.png",
+      "bytes": 180343,
+      "sha256": "de0467958c027b1c6141635d9ad1351adaa55fdef124de155e716d4ddaee1d0e"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-booklet-day.png",
+      "bytes": 178224,
+      "sha256": "01df66e4c770f3123ad0ee22ba649311a186542e4dd421385a1e6e4b8ffde6f0"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-booklet-night.png",
+      "bytes": 181675,
+      "sha256": "7b8f4268d0bb1b2fc9ecf931ec70284d7002018d09c492cf3fdf63a97569bac4"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-booklet-tools-black.png",
+      "bytes": 222712,
+      "sha256": "41ed4a118d45094ac7d3ed242fc27c5473e0e90e3d3d633c56f0a744fdc057ee"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-booklet-tools-day.png",
+      "bytes": 228692,
+      "sha256": "0ef8c07afae2ca0ae408a3a4b642e10b42b1b3e95ba4f0f1ae6e4454007cb197"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-booklet-tools-night.png",
+      "bytes": 224374,
+      "sha256": "13f76cc758d1ed28fa8d37166782004721382c7c142175e750b06aaca5cc69b4"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-booklet-tools-white.png",
+      "bytes": 226491,
+      "sha256": "27ddd25f9f68fcefd77a1c8b3b0c7e10aa8190290ef183ea5be04b37069bea19"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-booklet-white.png",
+      "bytes": 178757,
+      "sha256": "8839d5fdb073b0736516713a6211f9ff7049acaea1cbdbe36f7a28e1051cc96b"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-bag-black.png",
+      "bytes": 224974,
+      "sha256": "ebcf3c0f479df9513d2722e7f23c0b9354dd7c1b05ced647bcc5b654bc3f549f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-bag-day.png",
+      "bytes": 236958,
+      "sha256": "ce98df47e62aa505d88837b500e1970564107208e6df440d381ca14073a5d3ba"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-bag-night.png",
+      "bytes": 226587,
+      "sha256": "e1328e7accfc05165c6cd03c4162f4aa18fc6848dc95e313d1fc46f480ea1f10"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-bag-white.png",
+      "bytes": 233855,
+      "sha256": "25c3dc69a994bd8123e9ffe82ae877491841039d2f7e324e5f7f69b20656ff76"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-black.png",
+      "bytes": 254592,
+      "sha256": "a8b188e9b83bb620b5a747f873ac01779f577039e45db9d9268d062709e4ae38"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-day.png",
+      "bytes": 263322,
+      "sha256": "5f2112f49db7fb00948b76fb7bd39bd0d7c9c61ee46f52983d82539c4b786cfd"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-manual-black.png",
+      "bytes": 188996,
+      "sha256": "dac8d2b053b6202139d3697854e35fe6f1fd24132f5de34deae74e78907ab604"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-manual-day.png",
+      "bytes": 188478,
+      "sha256": "436432aa1c54640cbad32edde928d7af4c272a6d3c8b5c9f7445716d9438c4fc"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-manual-night.png",
+      "bytes": 190354,
+      "sha256": "8c80b7cb588027079fc41183b5df344c65149990d342f76a22d83026a01d1628"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-manual-white.png",
+      "bytes": 187551,
+      "sha256": "b068307e48001b62ce1e4bd921fe971b5d74994e4b5f39fc562130921d896102"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-night.png",
+      "bytes": 257246,
+      "sha256": "1874ed4757e0172f81793d26bcc2dca160f5b8466c1daf8bf9250956e0fca7c2"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-prop-camera-white.png",
+      "bytes": 261648,
+      "sha256": "e57a3eb509f872fb2776dd53cebb0b38b4f58d3c37fbae2c010041a654e03693"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-props-sheet.png",
+      "bytes": 688788,
+      "sha256": "41a8cdb505064b50fbbc9c45318f6b40396caf9cf216febea61ff38bec13fecd"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/previews/piao-selected-b-sheet.png",
+      "bytes": 1297984,
+      "sha256": "f1dea7117cfcf63a59eef5e4eb50d2f50b30b5571521c76ffb3c6f96474d7496"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/production-plan.json",
+      "bytes": 616,
+      "sha256": "4fd9b6c1e6c255f2d81c5c47d628e07eb57002ea785e5782cc86d09d5aa25dca"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/resource-records.json",
+      "bytes": 90965,
+      "sha256": "918ee9e6248d8e46fa42f02a6926514c5bd48c20e67ed34ff6c785f23101ac04"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/resume-before.json",
+      "bytes": 9123,
+      "sha256": "3cae9714a72ae50d25596b682e2178df1f23f2c2e16c21bf8a30a79162961b2b"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/retained-revisions.json",
+      "bytes": 343,
+      "sha256": "1b2f81e96b3075f5df2b73e648128671590ec33cfca36c7a8efc8c5020b8ca72"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/source-preservation.json",
+      "bytes": 28753,
+      "sha256": "d5958be9e8145523441f8be60c100a6738d8acdcb06991d74543723240e1f4ec"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/todo-before-final-update.txt",
+      "bytes": 12868,
+      "sha256": "25babc2b17f48bfdb676a1519c3dbc23e9710120759c39511d28fa7c006abd0b"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/todo-update.diff",
+      "bytes": 3533,
+      "sha256": "78131d8e202e3cc04fc8ddec24af1a3c1df34669144c3e185081e98e6cbfab1f"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/verification.json",
+      "bytes": 32559,
+      "sha256": "e627c4edea348cba25c7fb76f90a67b4b8c9fc0ff5dddd2778d9e668487c11af"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/visual-review.md",
+      "bytes": 2444,
+      "sha256": "49df18a5f4e1251ef2765d327f40a2921f91e7ffb560202b0ffcfd045dbb4c13"
+    },
+    {
+      "path": "qa/SUI-A05-20261028/交接.md",
+      "bytes": 3922,
+      "sha256": "4146569cbc4e50215a1372f8bbdfa38192009924e0b1393c28f9110cca6d22f8"
+    }
+  ]
+}

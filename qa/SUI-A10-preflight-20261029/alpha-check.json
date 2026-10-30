@@ -1,0 +1,25 @@
+{
+  "status": "pass-for-reference",
+  "composites": [
+    {
+      "assetId": "char-xiaoman-morning-white-tee-v001",
+      "proof": "qa/SUI-A10-preflight-20261029/char-xiaoman-morning-white-tee-v001-four-backgrounds.jpg",
+      "alphaUnchanged": true,
+      "backgroundSources": [
+        "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-mirror-day-v001.png",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-night-v001.png"
+      ]
+    },
+    {
+      "assetId": "char-piao-knotted-shirt-v001",
+      "proof": "qa/SUI-A10-preflight-20261029/char-piao-knotted-shirt-v001-four-backgrounds.jpg",
+      "alphaUnchanged": true,
+      "backgroundSources": [
+        "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-mirror-day-v001.png",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-night-v001.png"
+      ]
+    }
+  ],
+  "note": "保留生成原始alpha 0..254，不人为拉满；仅供衣装参考，不作为新运行立绘。",
+  "observations": "两图白/黑/昼/夜合成无明显残余底色或矩形边，发丝和衣边连续；alpha 0..254原样保留。"
+}

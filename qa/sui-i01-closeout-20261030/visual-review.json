@@ -1,0 +1,273 @@
+{
+  "version": "sui-i01-20261030-v2",
+  "status": "passed",
+  "completedAt": "2026-10-30T01:45:27.920Z",
+  "reviewer": "Codex 静态目视复核",
+  "method": "逐张打开13张原尺寸联系表，查看60个CG的底层、正文、全图、退出四态及49个人物或道具组合的无UI、阅读两态；结合A11采用限制核对，不等同真实引擎显示。",
+  "inputs": {
+    "manifest": {
+      "path": "assets/current/manifest.json",
+      "sha256": "fcca43f96572dbf5e599d3546a6b3a619ad7563d0cb31e62823f6d5425ba14c7"
+    },
+    "bindings": {
+      "path": "docs/整合/bindings.json",
+      "sha256": "83a4543c32499ac87dca0bae7340c5c0ebbcc33c32617600578ddc809a97529b"
+    }
+  },
+  "staticEvidence": {
+    "path": "qa/sui-i01-20261030/static-checks.json",
+    "sha256": "f328c8b93eda8a32c0733d5b2eb51f4f08d388a9ab7075da6f53879bf08e9921"
+  },
+  "cgFrames": 60,
+  "portraitStates": 49,
+  "sheets": [
+    {
+      "path": "qa/sui-i01-20261030/static/cg-lifecycle-01.jpg",
+      "sha256": "7f177b054d24a09cdebcfcb6a14446d0b15cd88441c17c0a05d8df40ea59813a",
+      "bindingIds": [
+        "i01v2-TEXT_982d9ac0f683c6bbb52b_1",
+        "i01v2-TEXT_b146152f9c2cd5032d9c_1",
+        "i01v2-TEXT_a07381924dc58f65c10e_1",
+        "i01v2-TEXT_4819007b6dae9d4939ef_1",
+        "i01v2-TEXT_4083f0f1962301f787b8_1",
+        "i01v2-TEXT_37ae574bb29e6e759d23_1",
+        "i01v2-TEXT_5ff8ee51f163da3bfd9e_1",
+        "i01v2-TEXT_dfd17a493a3da18fbefa_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "共通8镜：面部及主要互动可辨；正文框覆盖下方桌面或手部时，全图态完整呈现；退出列与底图列一致。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/cg-lifecycle-02.jpg",
+      "sha256": "f4abae2f0a2ec9d3cb27ab84012851d3a6e766e58cca49078b9fd8d02da644fa",
+      "bindingIds": [
+        "i01v2-TEXT_ff80c158a4e8aea129ea_1",
+        "i01v2-TEXT_349bbd636dd0285613f4_1",
+        "i01v2-TEXT_c517df625419350bc668_1",
+        "i01v2-TEXT_6f3a9c2e24bb2b0249dc_1",
+        "i01v2-TEXT_ffed693f46ad088fe05a_1",
+        "i01v2-TEXT_e43f8d1f3ad28c71dd2e_1",
+        "i01v2-TEXT_afa0e8aec5daf88bcc0e_1",
+        "i01v2-TEXT_9f585d37b274e081bfb9_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "黄球球球形及小满7镜：球形和面部位置可辨；电话、头盔及身体下部在全图态完整；退出无CG残留。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/cg-lifecycle-03.jpg",
+      "sha256": "83baeecff348fd16fa5462d9349ed42e1b2683207210bceace92ebcf3ee5c1c3",
+      "bindingIds": [
+        "i01v2-TEXT_c0c246e6602a331d74d0_1",
+        "i01v2-TEXT_431d8d6e59b99db62fa9_1",
+        "i01v2-TEXT_32eb83682d17086eb359_1",
+        "i01v2-TEXT_454348ea35e72c123ff1_1",
+        "i01v2-TEXT_d5adaebb6a02048684b4_1",
+        "i01v2-TEXT_08e301bea9bccee059ff_1",
+        "i01v2-TEXT_27f15df2b2c7561adb19_1",
+        "i01v2-TEXT_47f9259b458e623c6304_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "小满补镜及周栀7镜：手机与袖口近景构图保持；CG031全图态露出右上墙钟；周栀立绘恢复与进入底层一致。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/cg-lifecycle-04.jpg",
+      "sha256": "78e93dce2cfa712c1d2db6ac188629ca1d11f5119c544c69494098a77c801533",
+      "bindingIds": [
+        "i01v2-TEXT_00d5e6f3ceef4e29a376_1",
+        "i01v2-TEXT_75d2d054d2c51b1e04ac_1",
+        "i01v2-TEXT_c5939dd00be5a8cdcac2_1",
+        "i01v2-TEXT_441acd5fb534c8110254_1",
+        "i01v2-TEXT_9cee64e108444b68c28a_1",
+        "i01v2-TEXT_fc16baf6ae9fe5fe3153_1",
+        "i01v2-TEXT_084160cf4694ed9842a3_1",
+        "i01v2-TEXT_53d5636157ba164261f5_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "周栀补镜及孟遥6镜：教案、书本、手机和抽屉细节可在全图查看；陈晟恢复为持文件立绘，没有残留CG人物层。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/cg-lifecycle-05.jpg",
+      "sha256": "3f2d90ac0e26abec9465117ece5ced7488db3ef25296adecb60c65e8619954ec",
+      "bindingIds": [
+        "i01v2-TEXT_ce77d3fcfb1f6d77d130_1",
+        "i01v2-TEXT_5f25d466606fcd42bbc7_1",
+        "i01v2-TEXT_f1554fe119acce25cfb7_1",
+        "i01v2-TEXT_5e09854527cf7e1dc63f_1",
+        "i01v2-TEXT_d8e71554c5715bee4d23_1",
+        "i01v2-TEXT_6ce47f13b6e9644759dd_1",
+        "i01v2-TEXT_cae3a9fccf2afba7965a_1",
+        "i01v2-TEXT_c84f638688ba74e20f84_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "孟遥断开及飘7镜：手机、册子和绳子等细节在全图态可见；阅读态面部保持；退出恢复对应环境或已声明文字镜头。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/cg-lifecycle-06.jpg",
+      "sha256": "b0cd1195fe406af1ce35c9edb3a56d7a7f2ba3b8da148bb21e1e5c56c6d02bfb",
+      "bindingIds": [
+        "i01v2-TEXT_c53b12871762b040a997_1",
+        "i01v2-TEXT_2adf895574811f376eff_1",
+        "i01v2-TEXT_4b3ab211d11587023b3a_1",
+        "i01v2-TEXT_711a2e20991bd597f014_1",
+        "i01v2-TEXT_81fc3fa477ede2d92569_1",
+        "i01v2-TEXT_3d133bc56ed5cf453822_1",
+        "i01v2-TEXT_72bae733fe2921c670ed_1",
+        "i01v2-TEXT_1db48adc1539a4ce4e83_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "飘2镜及黄球球6镜：相机、消息、杯子与钥匙在全图态完整；人形与球形按对应镜头显示；CG078退出保留声明的人形立绘。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/cg-lifecycle-07.jpg",
+      "sha256": "beece8de47132bc9875b275a0ccb81beae37737ee522b15f1abb854939abe756",
+      "bindingIds": [
+        "i01v2-TEXT_79f9678b042e98d36f81_1",
+        "i01v2-TEXT_96a13ee7a1a126431b6e_1",
+        "i01v2-TEXT_fca2127205304c438691_1",
+        "i01v2-TEXT_1949d86d7610a2cd43c1_1",
+        "i01v2-TEXT_9bb4ee135ee19001b268_1",
+        "i01v2-TEXT_b67671d88bece3f5583f_1",
+        "i01v2-TEXT_cf288afb6b2269ece28c_1",
+        "i01v2-TEXT_ec150235248a63b092af_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "黄球球补镜、朋友线及公共事件：闹钟、纸箱、早餐、合影人物可辨；手部或桌面被正文框遮盖的部分由全图呈现；退出层正确。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/cg-lifecycle-08.jpg",
+      "sha256": "8923456a6806a9469c7df004e3ebd5b67ab5e9d6c0625c110e5b172dedb91783",
+      "bindingIds": [
+        "i01v2-TEXT_9a33f96549bca26d81d5_1",
+        "i01v2-TEXT_94e7790667ee74878026_1",
+        "i01v2-TEXT_df7556e6cce79be1b906_1",
+        "i01v2-TEXT_68920ef27f80c60a3e09_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "双后日谈4镜：饭桌人物与手机消息镜头分开；CG100前后为文字镜头，无在场婚礼人物；所有镜头全图态无正文框。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/portrait-composites-01.jpg",
+      "sha256": "4a48975806a58700211a34ff9b8b466c266de70f9acf1e4d32438e47d545c19b",
+      "bindingIds": [
+        "i01v2-TEXT_f5354c41d01bf0d95a4c_1",
+        "i01v2-TEXT_5a932c18fef16d486adb_1",
+        "i01v2-TEXT_f86bfb5a296cb775f8e4_1",
+        "i01v2-TEXT_a54ebb4c348873a18238_1",
+        "i01v2-TEXT_b680428548c0cd01fcd4_1",
+        "i01v2-TEXT_5dee090af4037c0f452d_1",
+        "i01v2-TEXT_f55affe0b23ad2f7e11f_1",
+        "i01v2-TEXT_33d0bfb4c28d214c25a3_1",
+        "i01v2-TEXT_9e1006d6a250a53e06d8_1",
+        "i01v2-TEXT_909cd878fb414722c0bc_1",
+        "i01v2-TEXT_3c85d3c582c849c53d6d_1",
+        "i01v2-TEXT_2fbbcdb87a901c2e0607_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "人物道具组合1：毛狼、师匠、孟遥、叶岚、小满面部均在正文框上方；相机为独立特写，透明轮廓无明显矩形底色。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/portrait-composites-02.jpg",
+      "sha256": "72a6dc649a59be6d9c32b198cbdcd955e6c19a84b993e8e84cad3fbfd0373199",
+      "bindingIds": [
+        "i01v2-TEXT_df2f074b609454a72dbb_1",
+        "i01v2-TEXT_1c052e698bf5f556f8e5_1",
+        "i01v2-TEXT_9aa1c6255a1c0cc35fd9_1",
+        "i01v2-TEXT_905d0d497a8466179694_1",
+        "i01v2-TEXT_49f2b9054366f8792bd7_1",
+        "i01v2-TEXT_454348ea35e72c123ff1_1",
+        "i01v2-TEXT_fb59a374e063659a38c0_1",
+        "i01v2-TEXT_cc5b3eb146e6424e2e0d_1",
+        "i01v2-TEXT_904b69f4da3c18817eb8_1",
+        "i01v2-TEXT_27f15df2b2c7561adb19_1",
+        "i01v2-TEXT_20cdf2fe3ec64feb457e_1",
+        "i01v2-TEXT_154015aef2a13bdba6bf_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "人物道具组合2：小满衣装、头盔与周栀衣装、杯子、计划纸差分可辨；面部不受正文框遮挡，当前缩放下无明显透明边缘异常。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/portrait-composites-03.jpg",
+      "sha256": "b6cd01f1d01f4c85f55d900b33a74015e1cd2bb3d3fc023d4e4d069800b7f4c5",
+      "bindingIds": [
+        "i01v2-TEXT_fb08bdb62b6e25a43351_1",
+        "i01v2-TEXT_c5939dd00be5a8cdcac2_1",
+        "i01v2-TEXT_1babded436ff01edd8a5_1",
+        "i01v2-TEXT_f7655a022022c0778e45_1",
+        "i01v2-TEXT_81341acbf5d34000e1b1_1",
+        "i01v2-TEXT_7de6808ec98f624e8bfa_1",
+        "i01v2-TEXT_fc16baf6ae9fe5fe3153_1",
+        "i01v2-TEXT_9d67e3d4955669d11ccd_1",
+        "i01v2-TEXT_e67667e3b8055007e466_1",
+        "i01v2-TEXT_f51a5ce3db89b06fcfb0_1",
+        "i01v2-TEXT_3f656220812587fdc0a8_1",
+        "i01v2-TEXT_55510c45ffbe3b7cdae2_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "人物道具组合3：周栀围裙、孟遥表情、陈晟三类持物及教案、书、手机支架可辨；道具特写位于正文框上方，未当作自然尺寸摆件。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/portrait-composites-04.jpg",
+      "sha256": "a88b4f739680fa7d19d87c0bc5267004be04eb2ee44ef2a5c9bf9d275cf3e8b3",
+      "bindingIds": [
+        "i01v2-TEXT_841fa1d9146e4b6c987b_1",
+        "i01v2-TEXT_b693cd7bcaa642bdd5aa_1",
+        "i01v2-TEXT_20a6d0e0f7c2089d06ee_1",
+        "i01v2-TEXT_38d6dce0b293c4846ad9_1",
+        "i01v2-TEXT_f1ea86ba8d09433da040_1",
+        "i01v2-TEXT_9e44bdca51d4b9e13073_1",
+        "i01v2-TEXT_3d133bc56ed5cf453822_1",
+        "i01v2-TEXT_b02417856dd2f9af57d2_1",
+        "i01v2-TEXT_7360ae14ec3a3a5aa1ee_1",
+        "i01v2-TEXT_b867ef70f5cd497cbad4_1",
+        "i01v2-TEXT_f1ea1c0d75d769c40000_1",
+        "i01v2-TEXT_e9ba8663c8a3c610d975_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "人物道具组合4：飘册子和人物、黄球球球形人形、师匠毛狼差分均可辨；房间小球按已批准记录仅为道具，不表示黄球球形态。"
+    },
+    {
+      "path": "qa/sui-i01-20261030/static/portrait-composites-05.jpg",
+      "sha256": "52f88f705d3f68bfea3e86d7ac1f345e91f05317f5a291b30bc046efa909abb7",
+      "bindingIds": [
+        "i01v2-TEXT_892eaabd29aea1b5341c_1"
+      ],
+      "status": "passed",
+      "actuallyViewed": true,
+      "observation": "人物道具组合5：毛狼麦克风包、肩带和面部可辨；正文框下的下身为正常阅读遮挡，其余灰色区域只是联系表空格。"
+    }
+  ],
+  "geometry": {
+    "existingCriticalRects": 28,
+    "aboveMessage": true
+  },
+  "pixelAndAlphaEvidence": {
+    "path": "qa/sui-i01-20261029/static-checks.json",
+    "sha256": "88f04a57b09631577f5e874bf352d2db9ef6a28cfebf1e7cb79a082b14b55279",
+    "method": "212图原字节未变，沿用原图/衍生RGBA实测及A11四底证据；本次新增连续场景组合，不宣称重复全量人工四底复核"
+  },
+  "blockers": [],
+  "handoffRequirements": [
+    "CG阅读态的正文框可遮挡下方手部、桌面和物件；必须保留同段全图查看，隐藏正文、姓名、菜单且不推进剧情。",
+    "CG031的墙钟以及CG070、CG100、CG105、CG107的手机细节须可在全图态检查；画面文字不能承担未声明的新分支事实。",
+    "黄球球房间背景中的普通小球属于既有道具；角色形态只由当前绑定人物层和剧情条件决定。",
+    "人物只按已声明单拍出镜；道具按放大的独立特写使用，不自动继承到下一拍。",
+    "CG图鉴只在实际显示后解锁，登记与静态审阅均不解锁；恢复与全图交互由I02/Q实测。"
+  ],
+  "limits": [
+    "联系表目视与已有几何、像素证据完成I01离线检查；本轮不重复212图全量像素解码或四底图检查。",
+    "13张联系表是离线合成，不能证明引擎加载、WebP保色、实际图鉴解锁或存档恢复。",
+    "浏览器、手机真机、电脑原生、资源压力及发布仍由I02/Q另验。"
+  ]
+}

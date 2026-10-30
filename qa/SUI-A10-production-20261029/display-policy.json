@@ -1,0 +1,497 @@
+{
+  "policy": "A10-CG-REVEAL-v1",
+  "scope": "A10交接给E的逐镜展示要求；未实现运行绑定",
+  "canvas": [
+    1280,
+    720
+  ],
+  "artReveal": {
+    "message": "hidden",
+    "name": "hidden",
+    "menu": "hidden",
+    "cg": "full-frame contain",
+    "purpose": "无界面遮挡查看整幅动作与道具；文本仍在同一A09段页中阅读，不新增剧情页、选项或时序。"
+  },
+  "reading": {
+    "use": "SUI-U已交付正文/姓名/菜单",
+    "messageRect": [
+      48,
+      490,
+      1184,
+      206
+    ],
+    "nameRect": [
+      76,
+      442,
+      240,
+      48
+    ],
+    "menuRect": [
+      1104,
+      24,
+      128,
+      56
+    ],
+    "note": "静态合成已生成；关键物件有遮挡时不得作为唯一观图状态。"
+  },
+  "lifecycle": "A09-ONE-PARAGRAPH-v1 unchanged",
+  "loadRollback": "复核原段条件及来源，恢复CG编号、页相位、进入前快照；临时界面显隐由E验证，不改剧情变量。",
+  "shots": [
+    {
+      "id": "CG001",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg001-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG001.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG001.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG004",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg004-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG004.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG004.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG005",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg005-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG005.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG005.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG006",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg006-v003.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG006.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG006.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG007",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg007-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG007.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG007.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG008",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg008-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG008.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG008.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG010",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg010-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG010.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG010.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG011",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg011-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG011.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG011.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG012",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg012-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG012.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG012.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG014",
+      "source": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg014-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG014.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG014.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG015",
+      "source": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v004.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG015.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG015.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG016",
+      "source": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg016-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG016.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG016.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG019",
+      "source": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg019-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG019.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG019.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG020",
+      "source": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg020-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG020.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG020.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG022",
+      "source": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg022-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG022.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG022.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG023",
+      "source": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG023.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG023.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG025",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg025-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG025.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG025.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG026",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg026-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG026.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG026.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG027",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg027-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG027.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG027.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG029",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg029-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG029.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG029.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG031",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg031-v004.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG031.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG031.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG032",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg032-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG032.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG032.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG034",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg034-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG034.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG034.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG035",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg035-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG035.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG035.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG038",
+      "source": "assets/sources/20261029/SUI-A10-MY/cg-my-cg038-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG038.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG038.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG039",
+      "source": "assets/sources/20261029/SUI-A10-MY/cg-my-cg039-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG039.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG039.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG040",
+      "source": "assets/sources/20261029/SUI-A10-MY/cg-my-cg040-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG040.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG040.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG041",
+      "source": "assets/sources/20261029/SUI-A10-MY/cg-my-cg041-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG041.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG041.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG044",
+      "source": "assets/sources/20261029/SUI-A10-MY/cg-my-cg044-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG044.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG044.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG061",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg061-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG061.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG061.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG062",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg062-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG062.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG062.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG063",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg063-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG063.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG063.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG066",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg066-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG066.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG066.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG067",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg067-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG067.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG067.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG068",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg068-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG068.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG068.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG069",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg069-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG069.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG069.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG070",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg070-v003.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG070.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG070.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG073",
+      "source": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg073-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG073.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG073.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG075",
+      "source": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg075-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG075.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG075.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG077",
+      "source": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg077-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG077.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG077.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG078",
+      "source": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG078.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG078.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG079",
+      "source": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg079-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG079.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG079.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG082",
+      "source": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg082-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG082.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG082.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG086",
+      "source": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG086.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG086.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG090",
+      "source": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg090-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG090.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG090.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG091",
+      "source": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg091-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG091.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG091.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG094",
+      "source": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg094-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG094.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG094.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG095",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg095-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG095.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG095.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG096",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg096-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG096.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG096.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG098",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg098-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG098.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG098.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG099",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg099-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG099.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG099.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG100",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg100-v003.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG100.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG100.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG101",
+      "source": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg101-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG101.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG101.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG102",
+      "source": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg102-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG102.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG102.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG103",
+      "source": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg103-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG103.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG103.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG104",
+      "source": "assets/sources/20261029/SUI-A10-MY/cg-my-cg104-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG104.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG104.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG105",
+      "source": "assets/sources/20261029/SUI-A10-MY/cg-my-cg105-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG105.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG105.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG106",
+      "source": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg106-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG106.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG106.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG107",
+      "source": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg107-v001.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG107.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG107.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    },
+    {
+      "id": "CG108",
+      "source": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v002.png",
+      "fullFrame": "qa/SUI-A10-production-20261029/previews/CG108.png",
+      "readingOverlay": "qa/SUI-A10-production-20261029/ui-reading/CG108.png",
+      "displayRequirement": "支持同段隐藏正文/姓名/菜单查看完整CG；离开原段即清CG并恢复原场景"
+    }
+  ],
+  "uiEvidence": {
+    "interfacePath": "system/sui-u/integration.json",
+    "interfaceSha256": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3",
+    "assets": [
+      {
+        "path": "system/sui-u/png/message.png",
+        "sha256": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412",
+        "rect": [
+          48,
+          490,
+          1184,
+          206
+        ]
+      },
+      {
+        "path": "system/sui-u/png/name.png",
+        "sha256": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8",
+        "rect": [
+          76,
+          442,
+          240,
+          48
+        ]
+      },
+      {
+        "path": "system/sui-u/png/menu-idle.png",
+        "sha256": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579",
+        "rect": [
+          1104,
+          24,
+          128,
+          56
+        ]
+      }
+    ]
+  }
+}

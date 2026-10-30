@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "version": "i01-diag-v003",
+  "inputFingerprint": "89d144cb84197f4e1e0733e06067f0c49701aa398f7238af1e358db10aa1c748",
+  "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+  "checks": [
+    "wasm/stage/main.ray",
+    "wasm/stage/start.novel",
+    "wasm/stage/config.ini",
+    "wasm/runtime-positions.json",
+    "wasm/web/assets.arc",
+    "wasm/web/index.html",
+    "wasm/web/shell.js",
+    "wasm/web/shell.css",
+    "desktop/stage/main.ray",
+    "desktop/stage/start.novel",
+    "desktop/stage/config.ini",
+    "desktop/runtime-positions.json",
+    "desktop/web/assets.arc",
+    "desktop/web/index.html",
+    "desktop/web/shell.js",
+    "desktop/web/shell.css"
+  ],
+  "scope": "两端从同一冻结输入重新编译打包，16个最终脚本/位置/网页与资源产物逐字节一致；非运行验收"
+}

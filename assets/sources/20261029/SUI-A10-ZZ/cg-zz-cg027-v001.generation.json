@@ -1,0 +1,213 @@
+{
+  "id": "CG027",
+  "title": "隔在两人之间的单子",
+  "package": "SUI-A10-ZZ",
+  "stem": "cg-zz-cg027-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A03/base",
+    "A08/bg-huisheng-corridor-operating-day",
+    "PRE/prop-shared-handheld-food-boxes-reference-v001",
+    "PRE/prop-zhouzhi-private-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：周栀B，长深棕发、青衬衫、黑裤，私人版\n图3：A08/bg-huisheng-corridor-operating-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：按镜头单取瓶水、装奶布袋、烧饼纸袋、箱子、两份早餐或消费单纸背；不整板入画、不补品牌、日期与金额。\n图5：私人资料箱、摊位线框/纸背、耳饰、发圈、手机套和折伞，按当拍选择；折伞为借还链，不与CG039长柄伞混同。\n核心画面：回声前台二人中近景，休半天的周栀青衬衫与文文隔着一张未付款消费单说话，单子在桌面两人之间只纸背/斜线格不写金额；折伞放边。她平视，动作没有撤掉单子，没有替他付钱或拥抱。\n衣装/形态硬约束：周栀休半天，B私人版，不能套当班陪酒姿态\n当拍道具：未付款消费单、伞\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；CG025双麦一支扣腿；CG027未付单只露纸背避免杜撰数额；CG029单已退前台且尚未拿麦，不能照搬两件在手。；按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG027",
+    "kind": "retained-selection",
+    "title": "隔在两人之间的单子",
+    "originalTitle": "隔在两人之间的单子",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+        "line": 189,
+        "anchor": "那张单子挡在我们中间，前台还在等我确认。"
+      }
+    ],
+    "time": "第24天，回声前台",
+    "routeGroup": "ZZ",
+    "source": {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "line": 189,
+      "paragraph": "TEXT_454348ea35e72c123ff1",
+      "scope": "### 剧情简介",
+      "nearestNode": null,
+      "quote": "她今天本来就没上班。那张单子挡在我们中间，前台还在等我确认。我突然想起乔哥说下回还找她，自己竟用了差不多的办法，只是更不熟练。",
+      "conditions": [],
+      "sourceSha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "matchText": "那张单子挡在我们中间，前台还在等我确认。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、周栀；前台递单手可画外",
+      "offscreenOrRemote": "乔哥不在该拍"
+    },
+    "wardrobeAndForm": "周栀休半天，B私人版，不能套当班陪酒姿态",
+    "propState": "未付款消费单、伞",
+    "composition": "单子隔在两人之间；撤单尚在下一段。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "zhouzhi"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "不得写已付款、小费金额或假消费项目；不要提前把单子画成撤销回执。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A03/base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_454348ea35e72c123ff1_1",
+      "visiblePageIds": [
+        "TEXT_454348ea35e72c123ff1_1"
+      ],
+      "exitBeforeId": "TEXT_10bcc885289930e4c906_1",
+      "snapshotBefore": "第24天，回声前台；文文、周栀；前台递单手可画外；周栀休半天，B私人版，不能套当班陪酒姿态；未付款消费单、伞",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "不得写已付款、小费金额或假消费项目；不要提前把单子画成撤销回执。"
+    },
+    "production": {
+      "package": "SUI-A10-ZZ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huisheng-corridor",
+        "owner": "SUI-A08",
+        "name": "回声前台/走廊/楼梯",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-corridor-operating-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huisheng-corridor-locked-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-huisheng-sales",
+        "owner": "SUI-A08",
+        "name": "回声酒/果盘/消费单/麦克风/屏幕",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-zhouzhi-personal-box",
+        "owner": "SUI-A03",
+        "name": "私人物品箱/折伞/耳饰/发圈",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huisheng-corridor",
+        "owner": "SUI-A08",
+        "name": "回声前台/走廊/楼梯",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-corridor-operating-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huisheng-corridor-locked-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huisheng-corridor-operating-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-huisheng-sales",
+        "owner": "SUI-A08",
+        "name": "回声酒/果盘/消费单/麦克风/屏幕",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-huisheng-306-operating-night",
+          "A08/bg-huisheng-corridor-operating-day",
+          "PRE/prop-shared-handheld-food-boxes-reference-v001"
+        ],
+        "frameUse": "CG025双麦一支扣腿；CG027未付单只露纸背避免杜撰数额；CG029单已退前台且尚未拿麦，不能照搬两件在手。"
+      },
+      {
+        "requirementId": "prop-zhouzhi-personal-box",
+        "owner": "SUI-A03",
+        "name": "私人物品箱/折伞/耳饰/发圈",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-zhouzhi-private-kit-v001"
+        ],
+        "frameUse": "按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A03/base",
+      "A08/bg-huisheng-corridor-operating-day",
+      "A08/bg-huisheng-306-operating-night",
+      "PRE/prop-shared-handheld-food-boxes-reference-v001",
+      "PRE/prop-zhouzhi-private-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg027-v001.png",
+  "sourceSha256": "7e1c16e7fcf0e73ce3b0d849a659226f8c355bde6c40edf2746cdea7d2c8b811",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-e608fa9c-ac2f-472d-8cbc-884c9d4aebc6.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+      "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.png",
+      "sha256": "f6488b418fdf55e1f31cf2194987719affd1fbfd2a41e2863d1e37265932da12"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png",
+      "sha256": "fe005261bc1755bfb928461c53e8c1a673c1a11edaf3ffd977c2b887c12e3a30"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png",
+      "sha256": "88f91476d6dc74bc2951d3f9d537d1032a7db95417cab6a472925531505468cc"
+    }
+  ],
+  "runtimeAdopted": false
+}

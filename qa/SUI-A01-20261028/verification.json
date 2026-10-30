@@ -1,0 +1,112 @@
+{
+  "task": "SUI-A01",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "需求键与唯一责任包",
+      "status": "pass",
+      "issues": [],
+      "detail": 115
+    },
+    {
+      "name": "逐项来源指纹及原文锚点",
+      "status": "pass",
+      "issues": [],
+      "detail": 239
+    },
+    {
+      "name": "12份实际正文覆盖",
+      "status": "pass",
+      "issues": [],
+      "detail": [
+        "scenario/后日谈-他们的日子.md",
+        "scenario/后日谈-未写完的安排.md",
+        "scenario/周栀-十一点四十七分.md",
+        "scenario/孟遥-旧题.md",
+        "scenario/朋友与职业-夜班.md",
+        "scenario/第一章-回到毕节.md",
+        "scenario/第三章-选一条路.md",
+        "scenario/第二章-十四天.md",
+        "scenario/罗小满-练习本.md",
+        "scenario/跨路线-第36天的消息.md",
+        "scenario/飘-空白页.md",
+        "scenario/黄球球-门后.md"
+      ]
+    },
+    {
+      "name": "精确白名单与未自动采用",
+      "status": "pass",
+      "issues": [],
+      "detail": 203
+    },
+    {
+      "name": "既有示例位图保护",
+      "status": "pass",
+      "issues": [],
+      "detail": 530
+    },
+    {
+      "name": "本次收尾正文人物与原CG选择保护",
+      "status": "pass",
+      "issues": [],
+      "detail": 27
+    },
+    {
+      "name": "CG选择保全与无制作放行",
+      "status": "pass",
+      "issues": [],
+      "detail": {
+        "original": 60,
+        "retained": 52,
+        "retired": 8,
+        "replacementUndecided": 8,
+        "productionReady": 0
+      }
+    },
+    {
+      "name": "SUI-U横屏接口对齐",
+      "status": "pass",
+      "issues": [],
+      "detail": null
+    },
+    {
+      "name": "人读需求表与JSON一致",
+      "status": "pass",
+      "issues": [],
+      "detail": null
+    },
+    {
+      "name": "A01交付本地链接",
+      "status": "pass",
+      "issues": [],
+      "detail": null
+    }
+  ],
+  "parallelRuntimeObservations": [
+    {
+      "path": "config.ini",
+      "beforeSha256": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5",
+      "currentSha256": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5",
+      "changed": false,
+      "owner": "SUI-E",
+      "writtenByA01": false
+    },
+    {
+      "path": "main.ray",
+      "beforeSha256": "e85f1227d91e4a626622210b7d873e54a1cbd638892f9549b27f0bcd8bf378d5",
+      "currentSha256": "486aaee626fd65f8ce4a5b4d3a73db4f71ca5d8c8611be1fe139cd09f0f76bcf",
+      "changed": true,
+      "owner": "SUI-E",
+      "writtenByA01": false
+    },
+    {
+      "path": "start.novel",
+      "beforeSha256": "6e6153398e0fd16847e84c486117d50d10a70ef171f92d82499519a8d3536723",
+      "currentSha256": "6e6153398e0fd16847e84c486117d50d10a70ef171f92d82499519a8d3536723",
+      "changed": false,
+      "owner": "SUI-E",
+      "writtenByA01": false
+    }
+  ],
+  "scope": "资源索引、元数据、来源保护、文档与接口一致性；SUI-E根入口只记并行快照，不验不变或运行；未重新运行引擎或浏览器"
+}

@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path'),os=require('os'),assert=require('assert/strict');
+const {chromium}=require('/Users/yipin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const version=process.argv[2],port=Number(process.argv[3]),dir=path.join(__dirname,version,'asset-probe'),m=require(path.join(dir,'manifest.json'));fs.mkdirSync(path.join(dir,'screenshots'),{recursive:true});
+const report={version,scope:m.scope,sourceRuntimeBuildId:m.sourceRuntimeBuildId,assets:[],errors:[],logs:[]};
+(async()=>{let ctx,p;try{ctx=await chromium.launchPersistentContext(fs.mkdtempSync(path.join(os.tmpdir(),'sui-i02-assets-')),{channel:'chrome',headless:true,viewport:{width:1280,height:800},deviceScaleFactor:1});p=ctx.pages()[0];p.on('console',c=>{if(c.text().startsWith('SUI_I|'))report.logs.push(c.text());if(c.type()==='error')report.errors.push(c.text());});p.on('pageerror',e=>report.errors.push(e.message));p.on('dialog',async d=>{report.errors.push(d.message());await d.dismiss()});
+await p.goto('http://127.0.0.1:'+port);await p.waitForFunction(()=>suie.events.includes('SUI_E|title'),null,{timeout:45000});await p.waitForTimeout(350);const rect=await p.locator('#canvas').boundingBox();await p.mouse.click(rect.x+240*rect.width/1280,rect.y+386*rect.height/720,{delay:80});await p.mouse.move(1275,790);
+for(let i=0;i<m.assets.length;i++){
+ await p.waitForFunction(i=>suie.events.some(l=>l.startsWith('SUI_I|probe-asset|index='+i+'|')),i,{timeout:30000});await p.waitForTimeout(70);assert.equal(report.errors.length,0,report.errors.join('\n'));assert(!report.logs.some(l=>l.includes('|FAIL=')));
+ const file=String(i).padStart(3,'0')+'.png';await p.locator('#canvas').screenshot({path:path.join(dir,'screenshots',file)});report.assets.push({index:i,assetId:m.assets[i].assetId,screenshot:'screenshots/'+file});
+ await p.locator('#canvas').focus();await p.keyboard.press('g',{delay:50});if(i%20===0)console.log('PASS asset '+i+' '+m.assets[i].assetId);
+}
+await p.waitForFunction(()=>suie.events.includes('SUI_I|probe-done'));assert.equal(report.logs.filter(l=>l.includes('|pass=dimensions-')).length,212);report.nativeStateChecks=report.logs.filter(l=>l.includes('|probe-check|')&&!l.includes('dimensions'));assert.equal(report.nativeStateChecks.length,7);report.status='pass';
+}catch(e){report.status='fail';report.failure=e.stack;console.error(e);if(p)await p.screenshot({path:path.join(dir,'failure.png')}).catch(()=>{});process.exitCode=1;}finally{fs.writeFileSync(path.join(dir,'report.json'),JSON.stringify(report,null,2)+'\n');if(ctx)await ctx.close();}})();

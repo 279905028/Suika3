@@ -1,0 +1,770 @@
+{
+  "scope": "本包输出；输出清单自身不递归计入",
+  "files": [
+    {
+      "path": "assets/sources/20261028/SUI-A04/option-a/char-mengyao-human-teaching-base-v001.png",
+      "bytes": 2207987,
+      "sha256": "1627e9c5387810b77cdece8373dfa22fdeee795a728825fc079db97537d1c9dd"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/option-a/char-mengyao-human-teaching-base-v001.webp",
+      "bytes": 1361388,
+      "sha256": "d7c703da519d2901d13c55d43b3407b52357011889df4884d820b748b5256f8f"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/option-b/char-mengyao-human-teaching-base-v001.png",
+      "bytes": 2213504,
+      "sha256": "9593c68b6685e784f695673b79b49aadc05076e5ae3624ee13d392d54e9cf8e7"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/option-b/char-mengyao-human-teaching-base-v001.webp",
+      "bytes": 1361798,
+      "sha256": "fdb9f0ed914e6afe120c1f5fdbcf71ea6859d1341472f51ce39273d83f997586"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/book-box.txt",
+      "bytes": 1589,
+      "sha256": "c819eeab110e13091d1283aea4e0cc61264c5e5de0c2899d643f791aa7e4e34b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/borrowed-book.txt",
+      "bytes": 819,
+      "sha256": "66442d3b8cdaac4233dd5fb7fe94d2115132e7aedef7e7f617d7e9a8ec486ee1"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/casual-jacket.txt",
+      "bytes": 1530,
+      "sha256": "e74743ae3269cc987e302e6ea8c199cf2f8a0ae349d1c31430199564616cc483"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/expression-downcast.txt",
+      "bytes": 1243,
+      "sha256": "b6684652ac9d7a3459332265db3fae609260a668d08ae6938d82e1925d3a56dd"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/expression-hesitant.txt",
+      "bytes": 1207,
+      "sha256": "3897798c99dddde246d2b9ae7008c2c1aa3877023eb8036ba8102fd2d7062231"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/expression-serious.txt",
+      "bytes": 1211,
+      "sha256": "98aac05ca492a7e85c67868cf48f0bde7adbebd73c47cfcf3de14b25c475435f"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/expression-smile-clean-v002.txt",
+      "bytes": 1462,
+      "sha256": "57e0680327b682d7dda6d8e4325af2cc8c1869cbd34e790a056c056aa41a373e"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/expression-smile.txt",
+      "bytes": 1203,
+      "sha256": "1816ecc37f73bd5fcfffa41693222e45c5dd81946fead070e0e0ccc52a2031f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/expression-tired.txt",
+      "bytes": 1222,
+      "sha256": "83d10fd722b181f930cbdee9d5576c5782171d5e25b12619cee56f9efb109c35"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/neutral.txt",
+      "bytes": 1417,
+      "sha256": "0f3c9b5f5afddb3f7c73cbd92f0d0f51caac19aeabbb2599728e4fa73754de6f"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/option-a.txt",
+      "bytes": 2921,
+      "sha256": "f7373ddc32b5b6cbd7f0d96cd4bdac00b258230b7bb231a9411b854be89eee14"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/option-b.txt",
+      "bytes": 2942,
+      "sha256": "741cdd96f620ad3eb9c931d7142935e30c15916a0b2ee9c8e6c79cebe22a6cf9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/phone-stand.txt",
+      "bytes": 859,
+      "sha256": "dbba21b1f0809ff843bdc0586f3dff5ad50c69e88e3b90466018f75a214b831e"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/workbook-cover.txt",
+      "bytes": 1046,
+      "sha256": "f844abeb7749713a18d1b1b42607bdf1dc72053a13d22bc6b9e7a69e58f1ac22"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/prompts/workbook-page.txt",
+      "bytes": 1046,
+      "sha256": "6b75471511c303ebe8fcaa9faea0eef420570733578a183cf218f49bb1e31144"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-borrowed-book-v001.png",
+      "bytes": 2067965,
+      "sha256": "ad05dd1570ef35575ff6658d2edb6e5eb0420f24f4a40ac7cd9689696dff3746"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-borrowed-book-v001.webp",
+      "bytes": 1140656,
+      "sha256": "fb745f28ca82a7a6c7f1e675946704c26a10f16acd9e85d0323a2ce37312fb1e"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-phone-stand-v001.png",
+      "bytes": 747693,
+      "sha256": "dda3784c7e42d7fc4b25612e8d6113c32e557352ec6066e0a3ef6c07fdee17c2"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-phone-stand-v001.webp",
+      "bytes": 411350,
+      "sha256": "7947d230f54f822d6d65f27e83863517b979f9c67ad1016ad548565547eb4997"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-workbook-cover-v001.png",
+      "bytes": 1807304,
+      "sha256": "7ba2fc0b30527abd1563dd8ace907d083754bb6693163d42d850394d5a0cb589"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-workbook-cover-v001.webp",
+      "bytes": 1152202,
+      "sha256": "2eb536f574c4d7d3b01b803fb3cb89ea5b48b012848c0655380f9c9af2d21f9f"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-workbook-page-v001.png",
+      "bytes": 1807217,
+      "sha256": "9c4be7ac2e7ef16d2e650279f6a1d8bc3b27db38c5b70aa15da58fc86a544c9c"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-workbook-page-v001.webp",
+      "bytes": 1149554,
+      "sha256": "d3334abf9f725f9eff5912407190824493ccae711ef25a7dcd6f02de618f7b27"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-downcast-v001.png",
+      "bytes": 2094041,
+      "sha256": "454117a0c5ee3d1a3fea9401269bf3ac083df75b86b653fdf83a692034f21ee3"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-downcast-v001.webp",
+      "bytes": 1277828,
+      "sha256": "eddf4dc15d0811969cfca724a2584e20ac38281bb3bb1e8701147194261a4423"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-hesitant-v001.png",
+      "bytes": 2079591,
+      "sha256": "eda9f4bb911e8def720de41008ca75a35e212f3b554f6719e623847050b5dee0"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-hesitant-v001.webp",
+      "bytes": 1268696,
+      "sha256": "ec50a8d89e9c244d4356958527762748ab7302ed5aaf2e995593a28b0ef3c1cd"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-serious-v001.png",
+      "bytes": 2104052,
+      "sha256": "040af85e7e008b240d7a31a86557c02003c4404dcb7884863d7878dd49a41142"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-serious-v001.webp",
+      "bytes": 1287516,
+      "sha256": "0cce43572a02e0bfab61a8850312f255d81e65b7fe168faa39051932410a0e50"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-smile-v001.png",
+      "bytes": 2244943,
+      "sha256": "03a099603f69e28cdbf68ce3e3a5c3830b1d8a773a8f8407869281a9e94d420b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-smile-v001.webp",
+      "bytes": 1410380,
+      "sha256": "a68872dff51114986be739ce6cb68573da3b700cb2c586050b2c4b131a503934"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-smile-v002.png",
+      "bytes": 2131242,
+      "sha256": "0add3941f3f49bd36a2a2434060eeb28e1008560a4d7382a7ffc96e8a2390d78"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-smile-v002.webp",
+      "bytes": 1299612,
+      "sha256": "0218ab381725ea90c907201252f826bf110255e9754e79d15fb4a5931fb94ce2"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-tired-v001.png",
+      "bytes": 2106746,
+      "sha256": "58e5b2ff6cd1cd93d2075a4059e75053fcfadde20ea70334c8162ce77b435363"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-tired-v001.webp",
+      "bytes": 1284152,
+      "sha256": "8d4d7aee915cadc07a96a2dde9c5a8f4a3b6879116ec16de27f8b7173ee0824e"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.png",
+      "bytes": 2149989,
+      "sha256": "2d36c1d622e1e9637bb90b22fcd31d58a1462194745410463f446fc515777a22"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.webp",
+      "bytes": 1313170,
+      "sha256": "26b139e65a8012e9e072a196f54f09b948e974873562939f12caf7ba6e1043c9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-book-box-neutral-v001.png",
+      "bytes": 2229480,
+      "sha256": "e180965f07abf7f87e057aa0222fc2610e7fc7b72dc86df8567d56d8ca9279b2"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-book-box-neutral-v001.webp",
+      "bytes": 1372040,
+      "sha256": "2944fc4ffe11e3c7a09fcdb0a8c08e0fbf1769b8efb6e1771834b6734365a6e1"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-casual-jacket-neutral-v001.png",
+      "bytes": 2104960,
+      "sha256": "cab71b8b723356ac055a1948a1dda98f68824fe0605da303b56530314ef45b17"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-casual-jacket-neutral-v001.webp",
+      "bytes": 1289224,
+      "sha256": "1054261af60d545472fb4450f1d714c877f27d13e9edbe507608bbaf539b611b"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/approval.json",
+      "bytes": 623,
+      "sha256": "1974e5c1eb4cee1adca0da55d13d8d25a1642653e2bf429dbaf6fb74cd774ff5"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/asset-specs.json",
+      "bytes": 23987,
+      "sha256": "724521ce02fe4bb9cdeb29a522bc419b7c93a2b5c664267dee4132b396d50d66"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/generation-failures.json",
+      "bytes": 262,
+      "sha256": "eb0ba8db5f94099993ed0225166d1249f588a9f09df94bc9b40d396d837f8c17"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/generation-jobs.json",
+      "bytes": 8953,
+      "sha256": "886210dd2ff985022cdf7eff6e707e411c17ce23857607a5239d16a34a1de319"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/handoff-verification.json",
+      "bytes": 350,
+      "sha256": "37fba3cb6c9eaa91f584f349bace619236ac2a16a4a2dfac33dd7930f113e20c"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/input-before.json",
+      "bytes": 255301,
+      "sha256": "8eadc771469b15e62c4859764fe8737b22daad530f606fb814b7c19241bdd3c1"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/inspect-art.py",
+      "bytes": 16168,
+      "sha256": "12b169927d70a628a819d7dbebd8227040b0afbd9ebaed227b6212a4734f9e92"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/option-a-initial-night.jpg",
+      "bytes": 97719,
+      "sha256": "bea973e8e38a84d05024f66b4fabafc80b11bc164df6d8b915e7aa7832dd9262"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/option-a-initial-white.jpg",
+      "bytes": 97718,
+      "sha256": "5cd2dd985e4454685f67e1f1a506c6f4d6cf342d8f165447bcbe6285b384ddc2"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/package-candidates.json",
+      "bytes": 7710,
+      "sha256": "69163413251a008f217554cf807f83a2e835b783fb6b680b96cc2f5cb5a31d08"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/pixel-comparison-v001.json",
+      "bytes": 3356,
+      "sha256": "470c5d985c161d8675e26a566bc070677116057a330f2fbd17fdfa49afe0aa12"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/pixel-comparison.json",
+      "bytes": 3356,
+      "sha256": "470c5d985c161d8675e26a566bc070677116057a330f2fbd17fdfa49afe0aa12"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-downcast-black.png",
+      "bytes": 381942,
+      "sha256": "fa48b0b482d9384880543cb860f548a5b18f32e76e3372980865b8b5db25b8d7"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-downcast-day.png",
+      "bytes": 382570,
+      "sha256": "9e077c6b96861856bdaa140e21be5e9354a464ddcdf66e12511d90fb11a5029a"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-downcast-night.png",
+      "bytes": 381478,
+      "sha256": "90d6d1a53ba4c48cf8faf726078e895952cfb526cf490a2028afd5b0b1112c9f"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-downcast-ui.png",
+      "bytes": 290086,
+      "sha256": "aec318b0434ebbc362e3b783d6207f9e8a43515227bf9fe3ddf5c006bd38f307"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-downcast-white.png",
+      "bytes": 383438,
+      "sha256": "90c5435fbf1dc5bba9f99a305d7365585854f2dc86c470ab9cd98471b53abe72"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-hesitant-black.png",
+      "bytes": 381698,
+      "sha256": "5b908c3d7e973129927ef42732356cc6988a5815d5b4f314573f0c68d3a5e761"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-hesitant-day.png",
+      "bytes": 381902,
+      "sha256": "7ce53021d6b3766b01da816377900ef6ec9b24de927e3c88bbfc6232949a66bc"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-hesitant-night.png",
+      "bytes": 381169,
+      "sha256": "098c6903b9719a6e25a2c663495abde106da82c6d233ba05ea7228e11fee5594"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-hesitant-ui.png",
+      "bytes": 290395,
+      "sha256": "a90c7b5aec0b3e21296aef9903b5bd667142e191c611dc111829908664fa8566"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-hesitant-white.png",
+      "bytes": 382652,
+      "sha256": "3c5b1f4afb6c1cf7f5b39dd02df7bf66c029de116cf512a90f0cdbd3f5eb8cc3"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-serious-black.png",
+      "bytes": 384309,
+      "sha256": "c250e1017a6d0e8a4bba2822964067c435951c52a5a526e570638be28274274c"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-serious-day.png",
+      "bytes": 384402,
+      "sha256": "ac94da3fdcd196d05eb421a3fc8b826c4c864fbdf9deee2262b0ebbb9522d528"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-serious-night.png",
+      "bytes": 383411,
+      "sha256": "639a5beda28cf1f5b45cc63d56bb9127d20b40071ec252fb63fd9fd59a9c3566"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-serious-ui.png",
+      "bytes": 290745,
+      "sha256": "6b84d50eee22434363f6406ef8e068972691bff9f5867ba347299858015f028d"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-serious-white.png",
+      "bytes": 385750,
+      "sha256": "f0f1447f83608ee09cce1e3487df19566f755ceb66d7ae8f7208b0f88a6a0dfd"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-smile-black.png",
+      "bytes": 392073,
+      "sha256": "3ea5650c4657fa5b17d7837e91f45ff12329413d515c01b0ff4554a45ccb1ed6"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-smile-day.png",
+      "bytes": 390767,
+      "sha256": "0099c4d6b53426330e3686f6235b7542ea5a3bf4693a4a8813def0ba7b81aed1"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-smile-night.png",
+      "bytes": 391819,
+      "sha256": "4c4ff3d58d50bcbd24d929f0715bbd9a35857d4f43a3a1d8f8082aa832255e99"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-smile-ui.png",
+      "bytes": 297803,
+      "sha256": "c1e7c544d33d12d0eadea35a510993c78fea8e8502da31ed886d151e00745424"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-smile-white.png",
+      "bytes": 392023,
+      "sha256": "d97d80622fab7cec0040050ca7ebfc5185157ced94bbcd3f472a743c1cb58475"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-tired-black.png",
+      "bytes": 385172,
+      "sha256": "126b5e368122a33d50815410febe1868c795f857c1dbd45be182852ed8d9b4bf"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-tired-day.png",
+      "bytes": 384973,
+      "sha256": "bdf2e4db16b7facd63a7e0cfa02ab5e15c28d17b15cbe2da5ca8af75dfa274b8"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-tired-night.png",
+      "bytes": 384457,
+      "sha256": "0d4b4436fbfa326c6aee8667220182a53090090da0a088f263b0bd6697fe752c"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-tired-ui.png",
+      "bytes": 291910,
+      "sha256": "67b96d4c19f37f2b5a70a910def1c89b8c19af8d121a4f842eba9928354b0320"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-expression-tired-white.png",
+      "bytes": 386220,
+      "sha256": "33c6ab9f20a1f7703fa9b811b967f688904291951b55be2f43f104ae59d804a5"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-neutral-black.png",
+      "bytes": 386582,
+      "sha256": "84034586fecd0e2211f08d51f0fa54510de8eb0a3d7b358ae0a5a1f8649d0dfd"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-neutral-day.png",
+      "bytes": 387254,
+      "sha256": "88ecf98a38b1d82a3ee20655ce5589a6bea0ddb5f59107f53eba9af28d303f70"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-neutral-night.png",
+      "bytes": 386564,
+      "sha256": "a26660f4bff565811ae6a37ce1cbd8548a9158e27ed3b0a5e2ef5ae932a8cc9a"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-neutral-ui.png",
+      "bytes": 290881,
+      "sha256": "6a865b5dd426486a55144ef37af68caead09a036e6638a35418177690e545738"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-base-neutral-white.png",
+      "bytes": 388414,
+      "sha256": "e0f3865e48e5bc92f9b92768e6dc08dec5ef7ce9085ce342d592d7a7b643fe23"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-book-box-black.png",
+      "bytes": 400135,
+      "sha256": "28d8e81ca167fb4aeb845e57242d9d83afc294c868d60e6261a0992275dd012a"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-book-box-day.png",
+      "bytes": 399839,
+      "sha256": "53fe7f897e1a576bda21736ebed9572bd91ec2abd337ebc1ecea493e393b2a28"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-book-box-night.png",
+      "bytes": 399454,
+      "sha256": "7db127493ea19f8a81c6b53ea75b72a1546a0ada3d1d5a795a4fdcf52410ef22"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-book-box-ui.png",
+      "bytes": 299566,
+      "sha256": "fb7580bf6d2ee6ff4e41f3eb45e0785816939ab6a2c983d7d8a80f1c956e1bb9"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-book-box-white.png",
+      "bytes": 401108,
+      "sha256": "d3659b02a95d0d600731978ac5d4dc235d3d9929f7c39a177c08aae7360d6432"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-casual-jacket-black.png",
+      "bytes": 368519,
+      "sha256": "34b9d22ace77415d74236e96760fb1493a6638ae830c6c1190db2abdca8da32d"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-casual-jacket-day.png",
+      "bytes": 369365,
+      "sha256": "d476a1fea782ea6dcf99362c80af13c2b9fdef2963593ba1344119961ad6164e"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-casual-jacket-night.png",
+      "bytes": 368170,
+      "sha256": "fa099c189ac7f39bd2acb782d20dbeacda2872981bb9422b9e9413658c201055"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-casual-jacket-ui.png",
+      "bytes": 284841,
+      "sha256": "e1f212c4219e6f6dc3aea090b05ff1d0e9876874725d397ae4a31d984c72443f"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-casual-jacket-white.png",
+      "bytes": 370268,
+      "sha256": "7d993f599ec489850ab4347fed7428b42f70a6e63b374032f11dc4e75327afc3"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-base-black.png",
+      "bytes": 387690,
+      "sha256": "c51ba31484a7bc426890b6fc84beb93dd7f5d465a78ac11586985613cdfd357c"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-base-day.png",
+      "bytes": 388855,
+      "sha256": "7f80a0e5fd6d7b4cfd9d7bf95a531274ffa687e99e8742418b732b4d262e6afb"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-base-night.png",
+      "bytes": 387254,
+      "sha256": "8aa6722ff31e5ad44b9d66b622d1f0f7ec6c043abb4b9dbd406f5f472fed8027"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-base-ui.png",
+      "bytes": 292442,
+      "sha256": "2145d18a6f07b218598c3b031cdf9ef08ea08a182848bbc33d8b448682015dca"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-base-white.png",
+      "bytes": 390032,
+      "sha256": "24cf0457b6180c7e1639194f74bd79d5c290b8e3a0d489e7f88754a7edd618a1"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-option-b-black.png",
+      "bytes": 390832,
+      "sha256": "3278f5f4ea4ebfce109829f084e02b1b9ddebd9ae24c79ac69c44796d60c6a75"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-option-b-day.png",
+      "bytes": 391990,
+      "sha256": "274180c98fbdf5f70d96c7ea4b753734c333ee12779ab3309602debbaa460fcf"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-option-b-night.png",
+      "bytes": 390495,
+      "sha256": "16c6f9bde9672e3397b44652f67d47f28242c6deacd8560cbeac1510b26a0e80"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-option-b-ui.png",
+      "bytes": 292029,
+      "sha256": "fc27fcb99b07017b3c95300520dac573f3987724064f4588e17daf8671f501e2"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-option-b-white.png",
+      "bytes": 392897,
+      "sha256": "b86d849f7576744d3f00aa92c8b75968819f9df159a5d009b384d1bf2afc38e3"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/edge-audit-black-before-smile-repair.png",
+      "bytes": 1165256,
+      "sha256": "e528d680b40211c5054df9e6e798d3c7e64b59c4d24b2da9341440b3d280766e"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/edge-audit-black.png",
+      "bytes": 1155700,
+      "sha256": "79c02d966b244921730d3f02e3d9859a8d1461e21c75226b4056ab92dce59cfd"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/edge-audit-day.png",
+      "bytes": 1159007,
+      "sha256": "e2f6b99bb97b5c6e04b2ff4505c508152c02f9e0e442e71259ad66892afa38dc"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/edge-audit-night.png",
+      "bytes": 1160321,
+      "sha256": "5bcb445d9a83bfb639ad3e3544082a3e886a08a2642d2e5bce0188abb93519fb"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/edge-audit-white-before-smile-repair.png",
+      "bytes": 1182868,
+      "sha256": "acef048715619292f8bd58d9f041ee5f7a6a597758d38311f67535a31ebeaafd"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/edge-audit-white.png",
+      "bytes": 1162024,
+      "sha256": "6326e4aafa8f481dbfbdbed4c67d373e26b075334cef7dc56d9fcc124ee2ebde"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/mengyao-expression-faces.png",
+      "bytes": 809711,
+      "sha256": "8a86cb5ef24d840509e98f7b51f36f5871147b23713bdbff4636596dc34d393c"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/mengyao-options-a-b.png",
+      "bytes": 732258,
+      "sha256": "60ba39f11749925f230ae98c9e7eb9ac90ad3411648bf7c2ae2f66be45bb4952"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/mengyao-props-sheet.png",
+      "bytes": 790081,
+      "sha256": "8726c60df7731ed85ac09a8d17e7161ff63d4402119249dc2b041c50b9842e59"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/mengyao-selected-a-sheet.png",
+      "bytes": 1310153,
+      "sha256": "b80206924eb20f6043c0c599a84c6c577b728e7811335bc831aa3e8cca129c7b"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/option-a-black.png",
+      "bytes": 387690,
+      "sha256": "c51ba31484a7bc426890b6fc84beb93dd7f5d465a78ac11586985613cdfd357c"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/option-a-day.png",
+      "bytes": 388855,
+      "sha256": "7f80a0e5fd6d7b4cfd9d7bf95a531274ffa687e99e8742418b732b4d262e6afb"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/option-a-night.png",
+      "bytes": 387254,
+      "sha256": "8aa6722ff31e5ad44b9d66b622d1f0f7ec6c043abb4b9dbd406f5f472fed8027"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/option-a-white.png",
+      "bytes": 390032,
+      "sha256": "24cf0457b6180c7e1639194f74bd79d5c290b8e3a0d489e7f88754a7edd618a1"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/option-b-black.png",
+      "bytes": 390832,
+      "sha256": "3278f5f4ea4ebfce109829f084e02b1b9ddebd9ae24c79ac69c44796d60c6a75"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/option-b-day.png",
+      "bytes": 391990,
+      "sha256": "274180c98fbdf5f70d96c7ea4b753734c333ee12779ab3309602debbaa460fcf"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/option-b-night.png",
+      "bytes": 390495,
+      "sha256": "16c6f9bde9672e3397b44652f67d47f28242c6deacd8560cbeac1510b26a0e80"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/option-b-white.png",
+      "bytes": 392897,
+      "sha256": "b86d849f7576744d3f00aa92c8b75968819f9df159a5d009b384d1bf2afc38e3"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-borrowed-book-black.png",
+      "bytes": 226814,
+      "sha256": "7518088c518f0cabec8141537f1b181e593a88a0d0730b72798b358d1568c8ed"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-borrowed-book-day.png",
+      "bytes": 228841,
+      "sha256": "e9112eac1a6e706274e97753656c939a7a06f4297a143a03cfdac395735957d7"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-borrowed-book-night.png",
+      "bytes": 226869,
+      "sha256": "d864ae817976056a0cf98e7251490db1d94e24a81b3ef91b1ecf5ff99eec9b39"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-borrowed-book-white.png",
+      "bytes": 229204,
+      "sha256": "798b50fce666235a3fee330eecc24ae0e2284a9200d253565a47bd3975b6989e"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-phone-stand-black.png",
+      "bytes": 104628,
+      "sha256": "a718b45983570438ab4a4fc03128e5f9d8ed9260260e8b9e608a57ed8ee414e8"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-phone-stand-day.png",
+      "bytes": 112181,
+      "sha256": "7a913cfa5ac6b7cea3f5443ab3ce7b148b7c653688142f41f7a9fcaf509c598e"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-phone-stand-night.png",
+      "bytes": 106715,
+      "sha256": "9de0c4a6ca4dbe892fce37d65adff6401e68e433303ef194618c7a61263b17f2"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-phone-stand-white.png",
+      "bytes": 111900,
+      "sha256": "a97c7185e17106cdd4b0f4ba8f127eab491454a2c475fe702e8a719345fb4222"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-workbook-cover-black.png",
+      "bytes": 240272,
+      "sha256": "258e9fe9dbaa7bdffc362f4f8093a1ff8b1a89ecf5918820e23724f72df985e5"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-workbook-cover-day.png",
+      "bytes": 242024,
+      "sha256": "1a044248c229b12d4a5342b49000296134d80e196461e25e89febbc2637a6991"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-workbook-cover-night.png",
+      "bytes": 240397,
+      "sha256": "507c7a81f3872109ee30380e9c0ea7039941e6693657151fe91240167d16b834"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-workbook-cover-white.png",
+      "bytes": 242218,
+      "sha256": "3e9cdda358a6bcb5bba42d639f24d94a1d11f3aed8bdd06bd5615772b5bc574a"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-workbook-page-black.png",
+      "bytes": 240779,
+      "sha256": "eed13b5408a8e9da2f7f6451177f280775a60b11afbca6506f603676c6846dd3"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-workbook-page-day.png",
+      "bytes": 242631,
+      "sha256": "73bbacba35624d3235d4038f7a7e7bc6005a1b085adae39d624415aa65b61ba0"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-workbook-page-night.png",
+      "bytes": 241378,
+      "sha256": "2b3ecc9c61569817278808e24976a6fbf642fb9b6f392596b93b7e0b35ecec99"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/prop-mengyao-workbook-page-white.png",
+      "bytes": 242746,
+      "sha256": "e48bf57c027bd6e59d4604e165a491218ebe72bfe32588a0712c19df29774c26"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/smile-v002-four-backgrounds.png",
+      "bytes": 1229795,
+      "sha256": "70f9b9e5994cdf1017db2fbcf64b6a06c3966a7d137c92439f86d351de4d349c"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/previews/ui-all-character-review.png",
+      "bytes": 898413,
+      "sha256": "dfff4549509bd32cf7bfa99a10294feac8e6d36d7e8d21aa92bcf713ee09170f"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/production-plan.json",
+      "bytes": 743,
+      "sha256": "1498b6471598349ff236835e55879316bc33704279bfbdcbc43f057ba61cbd60"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/prop-text.json",
+      "bytes": 552,
+      "sha256": "4623d0a5b68d1202a5ebe81766745e8ccba471e65a0812a0b941ba3b04aead98"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/resource-records.json",
+      "bytes": 96721,
+      "sha256": "2d104b0f045f98eb7c48e883db376b9b7ded73039b8e999ed72cd4356731e6ae"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/retained-revisions.json",
+      "bytes": 727,
+      "sha256": "650ab2c62934f2606bf6b424e3d8b32f0b5813937d2825fc5a486f032e7ce074"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/source-preservation.json",
+      "bytes": 391,
+      "sha256": "a52c5161ee693b6eda60e920e861c835c61e72fda794baaa1e058656d58a347a"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/verification-before-smile-repair.json",
+      "bytes": 10152,
+      "sha256": "b600cecd2400a7e3eec9ded852cbd3d3dce81b1d23e7f72dd3abdfed30fa6765"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/verification.json",
+      "bytes": 15345,
+      "sha256": "c0fe2e351a79d1074b137635f388bda95f43ebbaf354b638706e0b5398e7ebbe"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/visual-review.md",
+      "bytes": 3896,
+      "sha256": "820fb9660866837784cfe72953096bcf3702ef9e7740bf16eeab0657ad892d21"
+    },
+    {
+      "path": "qa/SUI-A04-20261028/交接.md",
+      "bytes": 3713,
+      "sha256": "cc16a87b300b6c7c6c10c4734cb77ea0749ab0f39a707cba7c6209adcc8c9ccf"
+    },
+    {
+      "path": "docs/美术/SUI-A04.md",
+      "bytes": 7438,
+      "sha256": "7cfeae73cb6b6a2e583cbb74ef860d561708d72d173f621daccb5403eb5847c8"
+    }
+  ]
+}

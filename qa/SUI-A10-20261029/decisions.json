@@ -1,0 +1,32 @@
+{
+  "task": "SUI-A10",
+  "date": "2026-10-29",
+  "scope": "CG制作前置确认；不代表图片制作、上游放行或运行采用",
+  "originalRequest": "完成 SUI-A10 CG制作",
+  "wardrobe": {
+    "question": "三处 CG 的衣装尚未确定：CG019 小满次晨催账、CG044 孟遥河边靠肩、CG061 毛狼演出后聚餐。是否分别沿用小满已选白色内搭（肩部近景）、孟遥日常教学服、毛狼演出西装？这只确定画面衣装，不新增剧情。",
+    "userReply": "按这三项方案制作",
+    "choices": [
+      {"shot": "CG019", "requirementId": "pose-xm-morning", "owner": "SUI-A02", "choice": "小满已选白色内搭，肩部近景；不另设睡衣、内衣或裸露"},
+      {"shot": "CG044", "requirementId": "pose-my-day44", "owner": "SUI-A04", "choice": "孟遥日常教学服；不自动套用第28天私人外套"},
+      {"shot": "CG061", "requirementId": "pose-maolang-aftershow", "owner": "SUI-A07", "choice": "毛狼演出西装；不新增换衣剧情"}
+    ]
+  },
+  "productionGate": {
+    "question": "现有 A08 场景图仍在复核，部分普通手持道具也缺单独定稿。是否由我逐镜检查场景参考，并按正文补齐无品牌道具设计，统一登记到 CG 制作记录？已有角色和道具定稿继续保留。",
+    "userReply": "等上游全部定稿后再制作",
+    "mode": "wait-for-all-upstream",
+    "allowPartialShotProduction": false,
+    "allowUnapprovedUpstreamDrafts": false,
+    "allowA10ToFillUpstreamDesigns": false,
+    "wardrobeChoicesRemainConfirmed": true,
+    "requiredBeforeProduction": [
+      "A02至A08与本选集有关的人物、衣装、场景及道具全部有定稿依据和实际版本映射",
+      "A09核对当前正文、条件与全部引用版本后放行60镜",
+      "本批确认的三处衣装保留，不重复申请相同确认"
+    ],
+    "internalA10Work": "普通游戏屏幕及8个电话/消息/日历画内局部属于A10自身制作，不要求上游先制作，也不构成循环前置；等全体上游放行后随相应CG制作。"
+  },
+  "generatedCgCount": 0,
+  "runtimeAdoptedCount": 0
+}

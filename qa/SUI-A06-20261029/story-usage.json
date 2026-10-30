@@ -1,0 +1,212 @@
+{
+  "date": "2026-10-29",
+  "task": "SUI-A06",
+  "scope": "制作及后续演出约束，尚未绑定运行",
+  "items": [
+    {
+      "key": "orb-base",
+      "form": "orb",
+      "scope": "相识后至第55天17:00以前；门未开时不能强行展示",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 29,
+        "quote": "塑料凳上还是那个黄色圆球，深眉毛，大眼睛，红嘴抿得很平。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/selected/orb/char-huangqiuqiu-orb-base-neutral-v001.png"
+    },
+    {
+      "key": "orb-amused",
+      "form": "orb",
+      "scope": "剥橘子或第40天调收音机后的短暂笑意；仅覆盖表情，持橘子当拍待A08道具版本；不表示关系保证",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 73,
+        "quote": "她扭头笑了，手里的那半个还没动。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/orb/char-huangqiuqiu-orb-expression-amused-v001.png"
+    },
+    {
+      "key": "orb-serious",
+      "form": "orb",
+      "scope": "第34天说清边界；仍保留圆眼短红嘴",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 379,
+        "quote": "扫我的，就容易一点？",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/orb/char-huangqiuqiu-orb-expression-serious-v001.png"
+    },
+    {
+      "key": "orb-downcast",
+      "form": "orb",
+      "scope": "相识初期受冷落后的失落；不增加眼泪或伤病",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 39,
+        "quote": "她没替我接一句没关系。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/orb/char-huangqiuqiu-orb-expression-downcast-v001.png"
+    },
+    {
+      "key": "orb-wave",
+      "form": "orb",
+      "scope": "第47天共同段告别抬手；不新增人体躯干或脚",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 497,
+        "quote": "她把自己的手也抬起来。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/orb/char-huangqiuqiu-orb-action-wave-v001.png"
+    },
+    {
+      "key": "human-toy-base",
+      "form": "human",
+      "scope": "第55天17:00自主呈现；HQ07两项均可用；后续持物按正文",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 511,
+        "quote": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/selected/human/char-huangqiuqiu-human-toy-base-v001.png"
+    },
+    {
+      "key": "human-neutral",
+      "form": "human",
+      "scope": "第55天17:00起的普通交谈，无持续持有依据时用空手；本锚点的持纸当拍须用A08核定道具",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 708,
+        "quote": "还是人形，外套拉链只拉到一半，另一只手拿着我的纸。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-base-neutral-v001.png"
+    },
+    {
+      "key": "human-serious",
+      "form": "human",
+      "scope": "第75天拒绝默认同居等边界谈话；两个关系分支均保持人形",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 782,
+        "quote": "我能听你讲。可你不能把房子没了，接成以后就住我这里。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-expression-serious-v001.png"
+    },
+    {
+      "key": "human-downcast",
+      "form": "human",
+      "scope": "第60天门外受限后的低落；不画昏迷、消失、伤病或退回球形",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 597,
+        "quote": "她看着门口，眼睛红了，却不肯转头让我先安慰。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-expression-downcast-v001.png"
+    },
+    {
+      "key": "human-tearful",
+      "form": "human",
+      "scope": "HQ08=A且HQ07=B明确落泪；或HQ08=B且HQ07=A告别段。仅覆盖含泪表情，擦泪与双人拥抱动作另行制作；落泪不恢复关系",
+      "anchor": {
+        "path": "scenario/黄球球-门后.md",
+        "line": 642,
+        "quote": "她听着，眼泪落下来，自己抹掉，不让我靠过去。",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-expression-tearful-v001.png"
+    },
+    {
+      "key": "human-chin",
+      "form": "human",
+      "scope": "保留已确认托腮习惯；普通交谈动作候选，不强指定未描写托腮的拍点",
+      "anchor": {
+        "path": "docs/人物/黄球球.md",
+        "line": 28,
+        "quote": "变身后保留她的名字、成年女性身份、声音、干巴巴的吐槽与托腮习惯",
+        "sha256": "7f4dd819d01e8dd442ac736290d6b12c7e1337bca73a7e8c7525dc6cddb9cab1"
+      },
+      "production": "制作完成，包内检查见asset-check.json；运行未绑定",
+      "file": "assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-action-chin-v001.png"
+    }
+  ],
+  "formRules": {
+    "orbReveal": {
+      "path": "scenario/第二章-十四天.md",
+      "line": 556,
+      "quote": "蓝色凳子上坐着一个黄色圆球",
+      "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+    },
+    "humanStart": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 507,
+      "quote": "第55天下午四点五十七，我已经到了后院。等到五点，才敲那三下。",
+      "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+    },
+    "noReversion": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 605,
+      "quote": "人形没有变，她仍站在我眼前",
+      "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+    },
+    "ending1": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 877,
+      "quote": "还是第55天以后那副我已经熟悉的模样",
+      "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+    },
+    "ending2": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 917,
+      "quote": "最后见面时她仍是人形，亲手把杯子包好，交回我手里。",
+      "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+    },
+    "gate": "C01-02=A且C02-01=A；相识正式开门后显示球形；人形时点不由恋爱选择控制",
+    "ending": "HQ07-01与HQ08-01均A为HQ-E1；其余为HQ-E2；均human",
+    "priorIntimacy": "第55、57天在HQ08之前的共同段；不能因最终AB/BA/BB抹除已发生的亲密",
+    "phone": "无自己的手机和通信设定；第24天短暂看的是文文手机，不登记为她的道具",
+    "restore": "球形正方形contain，人形腰部截幅；选择界面先隐藏或弱化人物，恢复按正文状态决定形态、表情和道具"
+  },
+  "otherOwners": [
+    {
+      "id": "prop-hq-tableware",
+      "owner": "SUI-A08",
+      "scope": "写名双杯、铅笔、纸条和信封；未取得A08版本前不另造持物图"
+    },
+    {
+      "id": "prop-hq-room-fixed",
+      "owner": "SUI-A08",
+      "scope": "收音机、墙钟、沙发、矮桌和普通黄色小球；小球道具与她本人分开"
+    },
+    {
+      "id": "prop-shared-food-boxes",
+      "owner": "SUI-A08",
+      "scope": "食品及餐具按共用道具核定"
+    }
+  ],
+  "excluded": [
+    "未放行CG",
+    "新下装或全身",
+    "公开街道或婚宴现身",
+    "眼伤或疾病推断",
+    "玩偶棒魔法功能",
+    "变身作为恋爱奖励"
+  ]
+}

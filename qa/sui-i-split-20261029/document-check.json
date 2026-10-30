@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-29",
+  "scope": "仅任务拆分与文档核对，不是实现或运行验收",
+  "checks": {
+    "exactlyTwoIntegrationRows": true,
+    "twoDispatchInstructions": true,
+    "bothExecutionTasksPending": true,
+    "singleWriterAndFinalJoinDocumented": true,
+    "protectedInputsUnchanged": true,
+    "noIntegrationOutputsCreated": true,
+    "localDocumentLinksResolve": true
+  },
+  "protectedFiles": 63,
+  "changedProtectedFiles": [],
+  "localLinksChecked": 99,
+  "missingLinks": [],
+  "documentHashes": {
+    "docs/开发计划.md": "341354696a7625092024e163e069beef7e5dded68cee2916667a85892b077741",
+    "docs/SUI-I整合子任务.md": "5f996daee6c2b2bc600b9f854bf24dc0b1a725e23c51999566919da98c56cf80",
+    "docs/SUI-A美术子任务.md": "a9f6ffc4a1ff5dd426968b01f23eb0aef0da0eac439587147c9dc374c0795680",
+    "TODO-v1.1.md": "d638a5d1640fa5d7888eb4c0631ecd50b1b1043e3b40c720928583aabcd4df27",
+    "qa/sui-i-split-20261029/交接.md": "f48c3e5edc2b11cdd89c9a3aa560966994f805b6eaca97bb12fdf61cadd94d01"
+  },
+  "notPerformed": [
+    "正文全量审校",
+    "资源格式及合成检查",
+    "资源采用",
+    "引擎运行",
+    "浏览器运行",
+    "手机真机",
+    "电脑原生",
+    "发布"
+  ]
+}

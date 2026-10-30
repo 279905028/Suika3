@@ -1,0 +1,100 @@
+"""SUI-A07 本包人物与逐拍用途；路径、原文锚点在 finalize.py 中实查。"""
+from pathlib import Path
+
+SOURCE = 'assets/sources/20261029/SUI-A07'
+COMMON1 = 'scenario/第一章-回到毕节.md'
+COMMON2 = 'scenario/第二章-十四天.md'
+FR = 'scenario/朋友与职业-夜班.md'
+MY = 'scenario/孟遥-旧题.md'
+PI = 'scenario/飘-空白页.md'
+
+def item(key, character, label, file, anchor_path, quote, condition, exit_rule, requirements=None, **extra):
+    return dict(key=key, character=character, label=label, file=file,
+                anchorPath=anchor_path, quote=quote, condition=condition, exitRule=exit_rule,
+                requirementIds=requirements or ['char-'+character], **extra)
+
+ASSETS = [
+    item('wenwen-base','wenwen','文文 · B形象 / CG参考',
+         'wenwen/approved-basis/char-wenwen-base-reference-v001.png', 'docs/人物/文文.md',
+         '2026-10-26用户确认采用小镇青年B方案',
+         '贯穿六线的第一人称主角；仅作外形、衣袖和CG人物连续性参考，默认不显示常驻主角立绘。',
+         '由A09确定具体镜头；不可将参考图直接登记为全部对话的常驻演出。',
+         inherited='wenwen/references/tc-char-wenwen-human-base.webp', face=[290,30,380,440]),
+    item('maolang-base','maolang','毛狼 · D基础 / 轻松',
+         'maolang/approved-basis/char-maolang-base-v001.png','docs/人物/毛狼.md','采用用户选定的 Option D',
+         '日常朋友对话或群像参考；不因微笑推断飘关系，也不自动套用婚后状态。',
+         '冲突转认真；演出现场换西装；文字/电话提及时不表示本人在场。',
+         inherited='maolang/references/tc-char-maolang-human-base.webp', face=[350,70,350,410]),
+    item('maolang-serious','maolang','毛狼 · 认真 / 受伤',
+         'maolang/variants/char-maolang-serious-v001.png',FR,'话筒包挂在他肩上，背带扭着',
+         'FR第25天被冒犯、PI第21天停止追求等需要克制边界的对话；若台词要求话筒包，改用持包版。',
+         '离开冲突或人物退场后退出；不以此图自动判断友情/恋爱结局。',face=[350,70,350,410]),
+    item('maolang-stage','maolang','毛狼 · 演出西装',
+         'maolang/variants/char-maolang-stage-v001.png',FR,'毛狼的西装袖口太长',
+         'FR04-01=A商场演出现场；B仅在文文实际观看的视频内作演出参考，不在网吧伪装本人到场。',
+         '结束演出场景后恢复对应日常衣装；不作婚礼西装。',face=[350,70,350,410]),
+    item('maolang-mic-bag','maolang','毛狼 · 话筒包',
+         'maolang/variants/char-maolang-mic-bag-v001.png',FR,'毛狼正抱着话筒包进门',
+         'FR第25天进店及后门争执期间；同版个人话筒包，神态克制。',
+         '包离手/离开这段持物动作时退出；舞台话筒与音箱归A08。',
+         ['char-maolang','prop-maolang-performance-kit'],face=[350,70,350,410], action=[280,570,550,490]),
+    item('shijiang-base','shijiang','师匠 · A基础',
+         'shijiang/approved-basis/char-shijiang-base-v001.png','docs/人物/师匠.md','采用用户选定的 Option A',
+         '网吧老板的普通对话；保留已确认帽、眼镜、图案白T和运动短裤。',
+         '离店后不在纯电话/群聊场景表现肉身在场。',
+         inherited='shijiang/references/tc-char-shijiang-human-base.webp',face=[320,0,400,420]),
+    item('shijiang-serious','shijiang','师匠 · 认真',
+         'shijiang/variants/char-shijiang-serious-v001.png',FR,'先让开，别拿手去挡抽屉',
+         'FR03-01=A讲工作应对办法或工资/雇佣边界对话；不画愤怒威胁或家庭背景。',
+         '转轻松交流时恢复基础；FR转店不扩散到其他路线。',face=[320,0,400,420]),
+    item('shijiang-calculator','shijiang','师匠 · 计算器',
+         'shijiang/variants/char-shijiang-calculator-v002.png',COMMON2,'师匠把计算器放下',
+         '第二章第9天放下计算器之前或正文明确算账的动作；实体按键与空白显示屏，不造金额。',
+         '“把计算器放下”这一拍立即退持物图；工资结清与友情状态分别处理。',
+         ['char-shijiang','prop-shijiang-handheld'],face=[320,0,400,420],action=[160,490,500,430]),
+    item('yelan-a','yelan','叶岚 · A比较稿（未选）',
+         'yelan/option-a/char-yelan-base-v001.png',COMMON2,'这是我第一次在线下见她',
+         '用户未选的独立设计比较；不进入交付候选集合。','始终不作正式演出候选。',comparisonOnly=True,face=[330,35,370,410]),
+    item('yelan-b','yelan','叶岚 · B基础（已选）',
+         'yelan/option-b/char-yelan-base-v001.png',COMMON2,'这是我第一次在线下见她',
+         '第12天线下普通队友见面，短直发、灰蓝针织衫；群聊不表示实际在场。',
+         '离开面馆/转为群消息时退出；第14天聚餐明确不参加，不画进去。',face=[320,30,400,425]),
+    item('yelan-serious','yelan','叶岚 · 平静认真',
+         'yelan/variants/char-yelan-serious-v001.png',COMMON2,'“那换一个。”',
+         '第12天制止“大领导”玩笑、说明队友边界；普通朋友，不编码好感或路线资格。',
+         '话题缓和恢复基础；不补婚姻、恋爱或旧独立路线情节。',face=[320,30,400,425]),
+    item('yelan-phone','yelan','叶岚 · 工作电话',
+         'yelan/variants/char-yelan-phone-v001.png',COMMON2,'叶岚在门口接工作电话',
+         '第12天面馆门口接工作电话；普通手机，不显示通知或可读屏幕内容。',
+         '坐下加入饭局时退出通话姿势；不能把远程群聊当成本人在网吧。',face=[300,30,460,450],action=[570,190,240,470]),
+    item('chensheng-a','chensheng','陈晟 · A比较稿（未选）',
+         'chensheng/option-a/char-chensheng-base-v001.png',MY,'穿一件洗得有点发白的深色外套',
+         '未选的独立外形比较稿。','始终不作正式演出候选。',comparisonOnly=True,face=[340,30,350,440]),
+    item('chensheng-b','chensheng','陈晟 · B基础（已选）',
+         'chensheng/option-b/char-chensheng-base-v001.png',MY,'陈晟站在门口',
+         '第27天首次被介绍后及正文明确在场的普通交流；现任丈夫，设备维护，不指定精确年龄。',
+         '只被电话/文字提及时不显示在场；不提前泄露第27天婚姻介绍。',face=[340,25,350,430]),
+    item('chensheng-documents','chensheng','陈晟 · 文件袋',
+         'chensheng/variants/char-chensheng-documents-v001.png',MY,'他拿着文件袋，见我们出来',
+         '第27天机构门口，资料为路线图；只见纸背，不造可读内容、婚姻证件或印章。',
+         '孟遥接过文件袋时退出，交回后才可再次使用。',
+         ['char-chensheng','prop-chensheng-handheld'],face=[340,25,350,430],action=[240,600,570,470]),
+    item('chensheng-book-bag','chensheng','陈晟 · 布袋装书',
+         'chensheng/variants/char-chensheng-book-bag-v001.png',MY,'又从车里拿来一个布袋',
+         '第34天薄袋换为布袋之后、仍提着书袋的镜头；普通随手帮忙，婚姻持续。',
+         '放下袋子、翻书等动作换图；不拿本图代替孟遥的书箱。',
+         ['char-chensheng','prop-chensheng-handheld'],face=[340,25,350,430],action=[300,550,550,670]),
+    item('chensheng-cable','chensheng','陈晟 · 送电源线',
+         'chensheng/variants/char-chensheng-cable-v001.png',MY,'陈晟这时送来她落在住处的电源线',
+         '第75天仅MY07-01=B，机构公开交接场景；送线与平常晚饭安排，无揭穿或对峙。',
+         '电源线交到孟遥手里后退出；MY07=A的私密试讲不加载这段人物到场。',
+         ['char-chensheng','prop-chensheng-handheld'],face=[340,25,350,430],action=[230,570,570,480]),
+]
+
+# 只为镜头准备独立角色键；用户本轮明确不制作这些人物形象。
+EXTRA_GROUPS = {
+ 'char-extras-salon': [('salon-manager','理发店店长'),('salon-customer-aunt','理发店阿姨顾客'),('salon-newcomer','理发店新人'),('xiaoman-shorthaired-friend','小满短发朋友')],
+ 'char-extras-school': [('training-manager','培训机构负责人'),('training-parent','家长'),('training-student','学生'),('training-colleague','同事'),('book-courier','快递员')],
+ 'char-extras-work': [('echo-owner','回声老板'),('echo-receptionist','回声前台'),('event-organizer','演出负责人'),('cafe-customer','网吧顾客'),('moving-worker','搬运工人'),('sign-repairer','修招牌人员')],
+ 'char-extras-everyday': [('restaurant-staff','餐馆店员'),('convenience-cashier','便利店收银员'),('housing-clerk','房屋办事人员'),('photo-shop-staff','照片店员')],
+}

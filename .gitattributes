@@ -1,0 +1,13 @@
+# 冻结快照按原字节校验。禁止Git自动换行转换，不做批量格式化。
+* -text
+
+# 普通Git中的少量GUI图、音效及必要QA图按二进制处理。
+*.png binary
+*.webp binary
+*.jpg binary
+*.jpeg binary
+*.ogg binary
+*.wav binary
+*.mp3 binary
+
+# 本轮采用独立资源清单方案，未配置Git LFS过滤器。

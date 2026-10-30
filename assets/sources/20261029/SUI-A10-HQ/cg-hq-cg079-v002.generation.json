@@ -1,0 +1,178 @@
+{
+  "id": "CG079",
+  "title": "第二次由她靠近",
+  "package": "SUI-A10-HQ",
+  "stem": "cg-hq-cg079-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A06/sui-a06-human-neutral-v001-png",
+    "A08/bg-huangqiuqiu-room-day"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg079-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 保留成年黄球球和文文额头相抵的脸、白眼罩在图像右侧、发型、衣装、背景。重画所有可见手臂使关系唯一清楚：只保留一只文文的手从蓝牛仔袖伸出轻放她肩边；黄球球只用一只手握住这只手的手腕，手与臂连接到她的浅色袖口。她另一只手、文文另一只手完全在画外。画面总共只出现这两只手，禁止多余手指、断腕、自己的双手互握。肩上近景，不新增下装。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG079",
+    "kind": "retained-selection",
+    "title": "第二次由她靠近",
+    "originalTitle": "第二次由她靠近",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+        "line": 539,
+        "anchor": "第二次是她靠过来。"
+      }
+    ],
+    "time": "第57天房内，第二次靠近",
+    "routeGroup": "HQ",
+    "source": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 545,
+      "paragraph": "TEXT_72bae733fe2921c670ed",
+      "scope": "### 剧情简介",
+      "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+      "quote": "第二次是她靠过来。我原本撑在沙发边的手被她牵到肩侧，她把额头抵着我，声音很近，问我还要不要一直僵着。",
+      "conditions": [],
+      "sourceSha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "matchText": "第二次是她靠过来。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、黄球球人形",
+      "offscreenOrRemote": "门外脚步在下一段，只保留声响"
+    },
+    "wardrobeAndForm": "人形B空手，同版眼部遮片；文文外套尚未脱，肩上近景",
+    "propState": "湿纸巾已放下，文文的手被牵到她肩侧",
+    "composition": "额头相抵、她主动靠近；不把玩偶棒或纸巾留在抓握手里。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "huangqiuqiu"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "共同段允许所有结局组合；不要求未来AA，也不画此拍之后才脱去的外套。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-human-neutral-v001-png"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_72bae733fe2921c670ed_1",
+      "visiblePageIds": [
+        "TEXT_72bae733fe2921c670ed_1"
+      ],
+      "exitBeforeId": "TEXT_9d242da04f3837579693_1",
+      "snapshotBefore": "第57天房内，第二次靠近；文文、黄球球人形；人形B空手，同版眼部遮片；文文外套尚未脱，肩上近景；湿纸巾已放下，文文的手被牵到她肩侧",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "共同段允许所有结局组合；不要求未来AA，也不画此拍之后才脱去的外套。"
+    },
+    "production": {
+      "package": "SUI-A10-HQ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-hq-room-fixed",
+        "owner": "SUI-A08",
+        "name": "收音机/墙钟/沙发/矮桌/普通黄色小球",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-hq-room-fixed",
+        "owner": "SUI-A08",
+        "name": "收音机/墙钟/沙发/矮桌/普通黄色小球",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "房内固定家具按既有布局；肩上近景，纸巾已放下，不把普通黄色小球当角色替身。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-human-neutral-v001-png",
+      "A08/bg-huangqiuqiu-room-day"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "消除多出的手，明确她握他的手腕",
+  "sourceFile": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg079-v002.png",
+  "sourceSha256": "3fe27bd07061509acdbb624c5952d30584a4e57768b00c2cd60317d286fd7fce",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-5782edc3-10f2-47d7-a44e-335b81e1d7a3.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg079-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg079-v001.png",
+      "sha256": "ee53ed6fb842c6ff07e7d6b533e9274fb9f91fb424046e83eadbef02aafa9f60"
+    }
+  ],
+  "runtimeAdopted": false
+}

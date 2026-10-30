@@ -1,0 +1,181 @@
+{
+  "id": "CG078",
+  "title": "她自己的另一种样子",
+  "package": "SUI-A10-HQ",
+  "stem": "cg-hq-cg078-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A06/sui-a06-human-toy-base-v001-png",
+    "A08/bg-huangqiuqiu-room-day",
+    "A08/bg-old-netcafe-yard-door-open-afternoon"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 保留同一成年黄球球B脸、短金发、图像右侧白眼罩、浅色上衣、项链、手中逗猫棒和文文牛仔袖握门把。修正空间：镜头从院子外朝打开的房门看，她站门槛里面，背后是普通房间室内墙面和暗部，不能在她背后再出现室外院落或天空。收紧到腰以上，不画裤子、裙子或任何新下装。门框在两侧，文文只露靠镜头的手。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG078",
+    "kind": "retained-selection",
+    "title": "她自己的另一种样子",
+    "originalTitle": "她自己的另一种样子",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+        "line": 505,
+        "anchor": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。"
+      }
+    ],
+    "time": "第55天17:00，自主呈人形",
+    "routeGroup": "HQ",
+    "source": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 511,
+      "paragraph": "TEXT_3d133bc56ed5cf453822",
+      "scope": "### 剧情简介",
+      "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+      "quote": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。黑色颈饰贴着脖颈，右侧眼睛上是白色遮片，手里握着那根浅色的圆脸玩偶棒。",
+      "conditions": [],
+      "sourceSha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "matchText": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文视点、黄球球人形",
+      "offscreenOrRemote": "无公开路人"
+    },
+    "wardrobeAndForm": "人形B：棕齐刘海、米灰外套/白印花上衣、黑颈饰、画面右白遮片；腰上截幅",
+    "propState": "浅色圆脸玩偶棒在手，门把手",
+    "composition": "房门内腰上首次人形构图；不补裤裙/腿，不推断遮片病史。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "huangqiuqiu"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "HQ07的A/B均显示；不是选择奖励，玩偶无魔法功能；后续普通镜不默认持棒。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-human-toy-base-v001-png"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_3d133bc56ed5cf453822_1",
+      "visiblePageIds": [
+        "TEXT_3d133bc56ed5cf453822_1"
+      ],
+      "exitBeforeId": "TEXT_deae9b2b8a74fb363e20_1",
+      "snapshotBefore": "第55天17:00，自主呈人形；文文视点、黄球球人形；人形B：棕齐刘海、米灰外套/白印花上衣、黑颈饰、画面右白遮片；腰上截幅；浅色圆脸玩偶棒在手，门把手",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "HQ07的A/B均显示；不是选择奖励，玩偶无魔法功能；后续普通镜不默认持棒。"
+    },
+    "production": {
+      "package": "SUI-A10-HQ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-yard-fixed",
+        "owner": "SUI-A08",
+        "name": "蓝塑料凳/坏拖把/水桶/门框/白花",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-yard-fixed",
+        "owner": "SUI-A08",
+        "name": "蓝塑料凳/坏拖把/水桶/门框/白花",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-old-netcafe-yard-door-open-afternoon",
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "只取门框/门把和蓝凳的既有组件；CG012另一凳尚未搬近；CG078腰上人形，不把黄球球放到公开街道。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-human-toy-base-v001-png",
+      "A08/bg-huangqiuqiu-room-day",
+      "A08/bg-old-netcafe-yard-door-open-afternoon"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "人形须站门内并保持腰上裁切",
+  "sourceFile": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v002.png",
+  "sourceSha256": "a03f7691d0dbd62e6f9a3b7cf67bbefa1907ac56d23b19a4e34ffdc30700db11",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-c562507d-0b6d-4415-b96b-88240c607c35.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v001.png",
+      "sha256": "332f09943a6a24342f10fbb4eaa3b38d9112c505bebbe65e15eb30e915e01d79"
+    }
+  ],
+  "runtimeAdopted": false
+}

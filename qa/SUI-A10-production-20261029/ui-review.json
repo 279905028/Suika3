@@ -1,0 +1,554 @@
+{
+  "scope": "A10制作包静态合成复核；不等于游戏浏览器、引擎或手机真机验收",
+  "evidence": "逐张检查60份image_gen原输出及返修版；本轮再查看7包完整图和7包实际U叠层联系表，共120个合成视图。",
+  "uiAssets": "system/sui-u/png/message.png, name.png, menu-idle.png",
+  "textFixture": "30px/44px，原段前108字内最多3行；用于遮挡检查，不冒称正式分页结果。",
+  "count": 60,
+  "fullFrameVisualPass": 60,
+  "defaultOverlayReviewed": 60,
+  "defaultOverlayUnconditionallyApproved": false,
+  "requiredPolicy": "A10-CG-REVEAL-v1",
+  "runtimeDisplayImplementation": "pending-E",
+  "shots": [
+    {
+      "id": "CG001",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg001-v001.png",
+      "selectedSha256": "7836e63fd115178ebb0ae1b15a7abf73147a67ecca31021c69d7f58b21ad8b09",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "文字框压住掌心下沿，坏轮与交手须全图看。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG004",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg004-v001.png",
+      "selectedSha256": "add17b08495bb22a303b6409d4eb5afe223a13e481dc394c994f368e84f05a8f",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "文字框压住练习本下半页及抚页手。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG005",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg005-v002.png",
+      "selectedSha256": "f867fdc5343e9e4499072bf2611dcfeadbcea23e6c8266e2e5d529e82977d80b",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "脸与掀帘手可见，奶袋和水瓶下部受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG006",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg006-v003.png",
+      "selectedSha256": "009d0f23a6e2281bea5dfbc804265e2aba1b4224c324fef51e285ac36dfcf8a6",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "四个游戏角色可见，键盘操作手和设备下缘受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG007",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg007-v001.png",
+      "selectedSha256": "4ccaa07b3a76fead4e97201effacd4bea8b09e83e3cdccb59d832e969a4a3bc6",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "折摊位图与手下部受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG008",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg008-v001.png",
+      "selectedSha256": "89c5c886478a2bb162880c24b79ed1c9b4ffdcd84df954453e4437a5926bf3eb",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "打开册子下页与推书动作受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG010",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg010-v001.png",
+      "selectedSha256": "31c99d7dcdf0975419428f672a05ddd0ab08b85911d206fcde985399ee573e55",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "卷海报下部与门口手势受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG011",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg011-v002.png",
+      "selectedSha256": "ccc58f23cdd0623776aa052646982c0b1b59dce6f42e5a4c67d6ba406f5cfb78",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "手机扣桌、膝上头盔及桌面受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG012",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg012-v001.png",
+      "selectedSha256": "94996f364d3b0ac8c2fbd7800c94e45e13fba426060ad449e3a60476e4bccca0",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "球脸可见，托腮手下缘与蓝凳受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG014",
+      "selectedSource": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg014-v002.png",
+      "selectedSha256": "d9628b4a17ad12f70dbe346cf1ac4a9485a82f469c4536603dc6f28e4bd5c624",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "围布上发夹受遮；镜中目光可见。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG015",
+      "selectedSource": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v004.png",
+      "selectedSha256": "3b49d067a31a6beca4a34a18f17d5ee48b3f8b55b18152ae9e56ede3e302c37c",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "后颈捻碎发手与毛巾受遮；脸与睫毛在上方。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG016",
+      "selectedSource": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg016-v001.png",
+      "selectedSha256": "2ae73ca58a9b391457d7a9443f480ac7a1e1425df65ef49afa403a8bf5b3855f",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "亲吻可见，抓前襟手下缘受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG019",
+      "selectedSource": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg019-v001.png",
+      "selectedSha256": "a56cf849d9fc0bf5f199ee8e8c46d63e07d1a41e38c151263d0074da53461eeb",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "脸与通话手机可见，文字框仅覆盖肩胸下部。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG020",
+      "selectedSource": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg020-v001.png",
+      "selectedSha256": "9729cbfac6eff3fe584bbacd3edc0d2af4d049bf1c54846d3af01dc1a13c597f",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "两顶头盔下半、提带动作受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG022",
+      "selectedSource": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg022-v001.png",
+      "selectedSha256": "05f9f4a7e6b75fe3245cd244debfe57c8126d5bb7089b81b2589f815e60c3a46",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "二人面部可见，领口手下沿和箱子受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG023",
+      "selectedSource": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.png",
+      "selectedSha256": "ed27c92642a3df992865cd5651b8fcbc44f2a1122e4b19e40668c10524196273",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "挡脸本与视频脸可见，手机下边和手受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG025",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg025-v001.png",
+      "selectedSha256": "1b338825c57d8cc4e2caa27686f90a5c3ad23b4e60cbbc6aad2a7f8b6b1813ec",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "腿上麦克风与袖边瓜子壳受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG026",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg026-v001.png",
+      "selectedSha256": "9b76565e503c34c7007adf12da5f9430c9fa46079fa75bb855955d7890712c63",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "压袖口主体可见，文文握折伞手下缘受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG027",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg027-v001.png",
+      "selectedSha256": "7e1c16e7fcf0e73ce3b0d849a659226f8c355bde6c40edf2746cdea7d2c8b811",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "桌面消费单被正文框覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG029",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg029-v001.png",
+      "selectedSha256": "0a8cb2d5ecdc00e470daf4ffa17e13f6c84d99645d6858f85a4b8abfd1918f1f",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "人物距离可见，桌面麦克风被覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG031",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg031-v004.png",
+      "selectedSha256": "40f41b96e157480ed02a64c2b727fdb18639daa4091ff807599f6d2efe5b04d4",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "右上菜单遮停钟右上表盘；正文框遮搬空区域与箱子下缘。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG032",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg032-v001.png",
+      "selectedSha256": "12cb431449cf6db7ac8e3f47ad8be80f75ee49affd4cd43905a99176b3ec48d1",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "递折伞主体可见，接伞手下缘受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG034",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg034-v001.png",
+      "selectedSha256": "2fb53df1542bf2e4e81b65bc682b61aa2d5c95b33d9b4cfd84f25c12e66e5cbd",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "递杯下沿与拉箱手受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG035",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg035-v001.png",
+      "selectedSha256": "3593e7e8b6666a1e0feadc94fd8d939e831a986120a91b2bfbf4d1af720b0c3f",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "手机语音和通知袋被正文框覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG038",
+      "selectedSource": "assets/sources/20261029/SUI-A10-MY/cg-my-cg038-v001.png",
+      "selectedSha256": "fa636da8d8d4be56e6afbb25b242bb056d135bfcbb10f7dda930c8e1399b01ec",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "册子姓名分数可见，册子下缘及文文接近的手受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG039",
+      "selectedSource": "assets/sources/20261029/SUI-A10-MY/cg-my-cg039-v001.png",
+      "selectedSha256": "678aafa896cdb98d00f6e82e5c3bbd8d60f6ba663876e5670820a94ef47f8e6a",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "挽臂与握伞手下部受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG040",
+      "selectedSource": "assets/sources/20261029/SUI-A10-MY/cg-my-cg040-v002.png",
+      "selectedSha256": "ce971ce68fccc86f8dd370ee442fed28ef88eca7aff7867af7e5021b5a273457",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "落桌夹子、手机支架及摸手机手被覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG041",
+      "selectedSource": "assets/sources/20261029/SUI-A10-MY/cg-my-cg041-v001.png",
+      "selectedSha256": "6e82ce5e0912cd860887c66ec6043d38c3904c0c5801715710e8c74521d3c664",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "挪旁纸箱受遮；三人脸及文件袋在上方。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG044",
+      "selectedSource": "assets/sources/20261029/SUI-A10-MY/cg-my-cg044-v001.png",
+      "selectedSha256": "9b8f45cb2a1556b83c36301591d78301bc9ade6b724b2f44a52e20efe030cb57",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "两只烧饼与递饼手受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG061",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg061-v002.png",
+      "selectedSha256": "a01b791464762fa8b35647a1f12283b4d66fe8d6bbeb316e25bcb741640c5ac5",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "相机/抬离快门的手指与毛狼露出的脸可见；已放低的手受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG062",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg062-v001.png",
+      "selectedSha256": "979061d5e19f68328542f9be9afedd4236f65b252cf378aca35b1a1c4cd82940",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "歪裁海报边与放下的剪刀受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG063",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg063-v001.png",
+      "selectedSha256": "a987cac0f4207649747b993127dede4ba8648494af45484d284131dfc5625c56",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "重新拿勺子的手与凉糕碗被覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG066",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg066-v001.png",
+      "selectedSha256": "fe385bed1cae6f892f1070aedad2592a790f2cdb6013390d8b8317348f0c7a8e",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "落下散纸与地上纸张被正文框覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG067",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg067-v001.png",
+      "selectedSha256": "6a20c2345908411c43f6be4ab07ec9b51e9fdb7819cffbfa5c4186eb8bae047b",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "湿绳下段及绕绳手下部受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG068",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg068-v002.png",
+      "selectedSha256": "1b92bef902ca611ecfbdb8c9b8f2ddca57b1359352f3777de08b03b2a11b5f77",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "手与相机交接主体可见，相机带下部受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG069",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg069-v001.png",
+      "selectedSha256": "a950dd737160914e7bcd89aea0078962302f4bd17061031bc86f8e5ce1c09a2e",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "拥抱下方手与旅行袋被覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG070",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg070-v003.png",
+      "selectedSha256": "4570d79e3d265e7a0aac0b734af02780eda1b2e4040e240c3b09ea23fc1a9b44",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "桌面两张照片、发出照片及回复均可见，持机手下部受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG073",
+      "selectedSource": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg073-v001.png",
+      "selectedSha256": "d542030aae1a6053c7a6684c302d95be7d33e12206311c2c9dddad6f34dedbbe",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "杯底姓名及写字动作下缘受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG075",
+      "selectedSource": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg075-v001.png",
+      "selectedSha256": "ad9d8122078dec1a821ec79b9ee321f0e643b3538936993ecfe1cf154fc38c94",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "照片上部可见，手机下方和触屏手下缘受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG077",
+      "selectedSource": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg077-v002.png",
+      "selectedSha256": "c8e8687acf260c19aec21230039550ea764f6320fa028ac8d6e98bb80c95fa15",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "唯一小手与文文手背下部受遮，餐盒及扣手机受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG078",
+      "selectedSource": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v002.png",
+      "selectedSha256": "a03f7691d0dbd62e6f9a3b7cf67bbefa1907ac56d23b19a4e34ffdc30700db11",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "白眼罩、脸、玩偶头可见，握门把和玩偶棒下部受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG079",
+      "selectedSource": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg079-v002.png",
+      "selectedSha256": "3fe27bd07061509acdbb624c5952d30584a4e57768b00c2cd60317d286fd7fce",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "额头与肩边两只手均可见，正文框覆盖下方服装。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG082",
+      "selectedSource": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg082-v001.png",
+      "selectedSha256": "0dc5683395ab72ab8e34bf9140e2b1b88f993254b8bc34713c1f60b17076e780",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "仍可用的单把钥匙被正文框覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG086",
+      "selectedSource": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v002.png",
+      "selectedSha256": "4dd48f873f80fce9f7468d4b4253dac14fb5ebf5b258d0ed13500b95b0a15910",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "纸箱底与柜台间隙、卷尺被正文框覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG090",
+      "selectedSource": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg090-v001.png",
+      "selectedSha256": "931a4ac97c8a2f7abdf1134074903f07623b45e68b778385a956effc51b17334",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "擦灰印的手和空白台面被覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG091",
+      "selectedSource": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg091-v001.png",
+      "selectedSha256": "c2803d9134fbbb37db8c92a9d5bc5a0fca56d858ed25a5263ddccaffff6aeb42",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "毛狼握鼠标的手受遮，空文档屏幕可见。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG094",
+      "selectedSource": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg094-v001.png",
+      "selectedSha256": "eff27f0afac2366488bd1c4c627faf28f0122a5e85fac711b865421236b3fe71",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "记录本、笔和无新消息手机被覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG095",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg095-v002.png",
+      "selectedSha256": "739e36696eccf07ba4ac82b17bd35ed82291c3f646b8a1bbea278638442ca2cc",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "推回饭碗与手受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG096",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg096-v002.png",
+      "selectedSha256": "f219ea05744f895ed14f2d149b779c433c07697b8fd9e6498fb51bd835e28c57",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "记数纸、笔尖及纸上划线受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG098",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg098-v001.png",
+      "selectedSha256": "dcdc49bfb0b5580696b9eae8b69381ecb50cd2b5b35aa8e8d35ab011ae629297",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "毛狼移椅动作受遮，右上菜单接近他的额头。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG099",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg099-v001.png",
+      "selectedSha256": "e0d7553bfe85fab1846de73b576b9624b94b56508e6b317df2a68a08603d4ed5",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "擦水渍动作与册子下缘受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG100",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg100-v003.png",
+      "selectedSha256": "22961a13b59fdd2d62bd0bf2af547e6813588eeee3204ce5e904025091f3a17e",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "婚讯及附件可读，最下回复和持机手靠近文字框上沿。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG101",
+      "selectedSource": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg101-v001.png",
+      "selectedSha256": "b49b823fc988d2759e0b555e67c3d5e15369f83ea51a792edd2cbd3848f82f84",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "包带松结、记事本下缘受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG102",
+      "selectedSource": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg102-v002.png",
+      "selectedSha256": "f4c67b641ff606a5025c5d961113b268fac294e45f3f21f52dfc1ceb890ef1a2",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "旧照耳周缺口可见，发送箭头与手机下边受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG103",
+      "selectedSource": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg103-v002.png",
+      "selectedSha256": "7b1ef1d23aff7646c72bb3f9ed2359e9b42078e25ab67962a780e36b8a28ba8d",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "捋袖口的真实手与倒影手位于正文框区域。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG104",
+      "selectedSource": "assets/sources/20261029/SUI-A10-MY/cg-my-cg104-v001.png",
+      "selectedSha256": "d7a6777fcb11cb668cd0a3192539cdc6582c137002f8a743ba0d58004ece48b2",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "红笔入抽屉、旧练习册与留空日程主要区域被覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG105",
+      "selectedSource": "assets/sources/20261029/SUI-A10-MY/cg-my-cg105-v002.png",
+      "selectedSha256": "9e4e678de461a7ac4c175133b73618fb78bdcafd436841bc94b223305a94209d",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "置顶/提醒关闭和历史入口可读，只有机身及双手下部受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG106",
+      "selectedSource": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg106-v001.png",
+      "selectedSha256": "ff61804e620980892dfdc9dfcb3b35f9b75ce1dd5b2e644c3e041fffe217e723",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "册子共同黑痕、入抽屉动作被覆盖。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG107",
+      "selectedSource": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg107-v001.png",
+      "selectedSha256": "7c4b7fabb0640962b44dbad4266123e56dbda4587af620e3217342404ec69e48",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "旧提醒关闭/工作提醒保留及柜中杯均可见；机身和双手下方受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    },
+    {
+      "id": "CG108",
+      "selectedSource": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v002.png",
+      "selectedSha256": "4c6db0003622ef621ee5eb780b7d462025cb2cb1f29ee7228c95700170478ab6",
+      "fullFrame": "pass-static-visual",
+      "readingOverlay": "reviewed-with-obstruction-note",
+      "obstructionNote": "严格两份早餐及递交动作可见，台阶照片纸袋受遮。",
+      "requiredDisplay": "同段支持隐藏正文、姓名、菜单查看全图；不延长原A09段，不增加页面，不改条件或剧情状态。"
+    }
+  ]
+}

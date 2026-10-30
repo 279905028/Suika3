@@ -1,0 +1,790 @@
+{
+  "date": "2026-10-29",
+  "purpose": "CG上游补充参考；不是最终CG或运行采用",
+  "generatedOriginals": 21,
+  "selectedReferences": 19,
+  "runtimeAdopted": 0,
+  "records": [
+    {
+      "assetId": "bg-my-riverside-afternoon-v001",
+      "owner": "SUI-A08",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A08/bg-my-riverside-afternoon-v001.png",
+      "sourceSha256": "6d93a0a6ffa67f7a9e2510b05d335ca704cb6dc06bb67166311252f58e2822ab",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "bg-my-riverside"
+      ],
+      "shots": [
+        "CG044"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A08/bg-my-riverside-afternoon-v001.generation.json",
+      "generationRecordSha256": "55696296bbc561d815803f97aec6bd61a2a703d2a7fb4d404447b4b2820c8be3",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A08/bg-my-riverside-afternoon-v001.webp",
+      "derivativeSha256": "dabe1387df9e3ed91d37549ac45d28780d22d219bd5ebf591a3bb4da212229b5",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "CG044第44天下午河边局部；不得替代为第38天租屋楼下长凳。无人物或新增地名。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-xiaoman-open-practice-kit-v001",
+      "owner": "SUI-A02",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.png",
+      "sourceSha256": "7044e8aeb32ba258dc05913164aac934d9e157696d643c566c767026b31cc62b",
+      "size": [
+        1672,
+        940
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-xiaoman-practice-kit",
+        "prop-xiaoman-tools",
+        "prop-xm-phone"
+      ],
+      "shots": [
+        "CG004",
+        "CG014",
+        "CG019",
+        "CG023"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.generation.json",
+      "generationRecordSha256": "892e558e90d8b69aec1c5093207896dd86c143bdc780b5b82903c37c757bdd88",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.webp",
+      "derivativeSha256": "2dfe6bcdf97063ae23472c55d6d0062c567297380e46bbd1e9047a7d760f8514",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "只按镜头取打开练习页、报名表背面、发夹或小满浅灰手机；不整板入镜，不填日期/学费。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "photo-xiaoman-wenwen-day22-haircut-v001",
+      "owner": "SUI-A02",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A02/photo-xiaoman-wenwen-day22-haircut-v001.png",
+      "sourceSha256": "313549e22377f27ed6fddf222400413d96de69d8ac50fc98d27a5ea813bef0cd",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-xiaoman-practice-kit"
+      ],
+      "shots": [
+        "CG102"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A02/photo-xiaoman-wenwen-day22-haircut-v001.generation.json",
+      "generationRecordSha256": "168806cba7fa37230dafb050ad364bb4b5031dffc352a69c83c6fd9d6ccbc39d",
+      "runtimeAdopted": false,
+      "status": "superseded-not-for-production",
+      "reason": "耳前剪短处不够明确，已返修为v002；保留原件，不作生产参考。"
+    },
+    {
+      "assetId": "char-xiaoman-morning-white-tee-v001",
+      "owner": "SUI-A02",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A02/char-xiaoman-morning-white-tee-v001.png",
+      "sourceSha256": "4affaa1ed2ae495aee55abc462dfc91397cb66522daef5a6aeaef475688578a8",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "requirements": [
+        "pose-xm-morning"
+      ],
+      "shots": [
+        "CG019"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A02/char-xiaoman-morning-white-tee-v001.generation.json",
+      "generationRecordSha256": "0db84053dc8be582d3eb765c782b081d77a8a5497cb342e2230570550b71e265",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A02/char-xiaoman-morning-white-tee-v001.webp",
+      "derivativeSha256": "f50a2bda290432e5c02eabce2dca81201db046ba407ddcbc2ba9c0cc0d7988c4",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "用户确认白色内搭；CG019只取肩部近景与脸发基准，不照抄全身姿势。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-zhouzhi-private-kit-v001",
+      "owner": "SUI-A03",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png",
+      "sourceSha256": "88f91476d6dc74bc2951d3f9d537d1032a7db95417cab6a472925531505468cc",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-zhouzhi-planning",
+        "prop-zhouzhi-personal-box"
+      ],
+      "shots": [
+        "CG007",
+        "CG026",
+        "CG027",
+        "CG031",
+        "CG032"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.generation.json",
+      "generationRecordSha256": "e9aca7d017e4ad7c7dfe698c9c52597cb7c16bec30d2b95e4ff9587d6b10da7d",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.webp",
+      "derivativeSha256": "de1611e23fb69ff9631f86adcab7d99c5a875fd3853cb2335546d8cdbbffeaf5",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "私人资料箱、摊位线框/纸背、耳饰、发圈、手机套和折伞，按当拍选择；折伞为借还链，不与CG039长柄伞混同。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "char-piao-knotted-shirt-v001",
+      "owner": "SUI-A05",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A05/char-piao-knotted-shirt-v001.png",
+      "sourceSha256": "07a17d48fc3896c65bffe7e4668686bfa989d298b307c4d7cf9beccb16ebc43d",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "requirements": [
+        "prop-piao-knots"
+      ],
+      "shots": [
+        "CG008"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A05/char-piao-knotted-shirt-v001.generation.json",
+      "generationRecordSha256": "4f6e070b58f75569351ac6027be9223f389f602b9f0179d1cecf75692c12bc6d",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A05/char-piao-knotted-shirt-v001.webp",
+      "derivativeSha256": "f026c13d49370a1e64e6a627ad6e6adb79f8caf91008879c056c0bf4bed36b6c",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "CG008同B脸型白衬衫衣摆结，不露腹，不据此给其他日期强加衣摆结。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-piao-knots-reference-v001",
+      "owner": "SUI-A05",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v001.png",
+      "sourceSha256": "d615b84009f0037e1adddc01de903f2eb859a76510fe9c54560f1462852211a4",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-piao-knots"
+      ],
+      "shots": [
+        "CG063",
+        "CG067",
+        "CG068",
+        "CG096"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v001.generation.json",
+      "generationRecordSha256": "b4bf0e2be87a44b2f9c693078bc48c166155fa35847ca684a810e799822b3474",
+      "runtimeAdopted": false,
+      "status": "superseded-not-for-production",
+      "reason": "布袋误呈束口袋，已返修为手提袋v002；保留原件，不作生产参考。"
+    },
+    {
+      "assetId": "photo-piao-table-hands-v001",
+      "owner": "SUI-A05",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-table-hands-v001.png",
+      "sourceSha256": "43fb2b1c3cee3ead8391625300b0b7203b529e111f4b418fcdd7d7a111519852",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-piao-photos"
+      ],
+      "shots": [
+        "CG070"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-table-hands-v001.generation.json",
+      "generationRecordSha256": "1c2968229a954f0225bcdf650b2156c20f14cf860960b1efca970cc8f28f0d18",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-table-hands-v001.webp",
+      "derivativeSha256": "ac44a89580d86e29058beb0fd6cb772e1c0ddff88282cf461e744d769def9f79",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "按共同段毛狼护腕手推杯向画外；后续文文回复保留此前推茶往来，不改成当下实时同桌，不补未知露脸成员。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "photo-piao-oldstreet-after-rain-v001",
+      "owner": "SUI-A05",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-oldstreet-after-rain-v001.png",
+      "sourceSha256": "3751dd7078b3f8680b13bcfba2f84c21c7293b53de0c5ba88c2ba0d6c765c3e2",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-piao-photos"
+      ],
+      "shots": [
+        "CG070"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-oldstreet-after-rain-v001.generation.json",
+      "generationRecordSha256": "4cc96ac089df05d246ccb48b8b0bbfdcb15b668390fde60be675754ca801136a",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-oldstreet-after-rain-v001.webp",
+      "derivativeSha256": "da84064e87a9a7fcf4518701ddfce296da712d150bbc8d54c78c949ac5fc94b9",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "沿A08老街顺序与材质；只用正面，不编造背面拍摄日期和参数。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-piao-last-page-black-mark-v001",
+      "owner": "SUI-A05",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-last-page-black-mark-v001.png",
+      "sourceSha256": "c7c5326e89609e42042c0cb67ff1bfebcc9a22ced7ee8b0ead97a03c0ccc2eae",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-piao-booklet-kit"
+      ],
+      "shots": [
+        "CG106"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-last-page-black-mark-v001.generation.json",
+      "generationRecordSha256": "ad7e59bab55fd08654785cfae4251d125144da540d89d9905e8094e24812d745",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-last-page-black-mark-v001.webp",
+      "derivativeSha256": "847ceddcc96f61ceb96aae475d61acd8b3d8a9c0f9a3731026a7f4e4d1b2728a",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "仅末页共同句“我过得好。”的黑痕紧局部；分支文字在裁外，非整页空白。CG106主体为收册入抽屉。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-piao-epilogue-paper-kit-v001",
+      "owner": "SUI-A05",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-epilogue-paper-kit-v001.png",
+      "sourceSha256": "2e700f7e8902e385b3b2430bbf54de960861cd79ccf66166cdd5e1d5d9b805de",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-piao-epilogue-pages"
+      ],
+      "shots": [
+        "CG096",
+        "CG099"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-epilogue-paper-kit-v001.generation.json",
+      "generationRecordSha256": "8f3333d2d8aecabf920b99debe768f8dfa04449f3472a8ce4c72b24b71e466d8",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-epilogue-paper-kit-v001.webp",
+      "derivativeSha256": "ad4263fa24b827656b01709f2851874bbb4373954cff404c4a58b12bf9a5b6de",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "CG096斜拍纸背，金额/地点/检查日期不入画；CG099闭合新改册子，非婚礼纪念册。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-wenwen-personal-kit-v001",
+      "owner": "SUI-A07",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png",
+      "sourceSha256": "b9abeb96d46f97a4cae9bc7f40b34d15f828c27f13c531e5eeaa0e4c3fa6def2",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-wenwen-luggage",
+        "prop-wenwen-keyring",
+        "prop-wenwen-phone",
+        "prop-wenwen-housing-papers",
+        "prop-my-umbrella"
+      ],
+      "shots": [
+        "CG001",
+        "CG035",
+        "CG039",
+        "CG070",
+        "CG075",
+        "CG082",
+        "CG100",
+        "CG102",
+        "CG105",
+        "CG107"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.generation.json",
+      "generationRecordSha256": "d789f752aba43b059b21db97ccb20f87d213fda7a157ad730664f30e056c372f",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.webp",
+      "derivativeSha256": "bf834a88d1a661805330419ee468dc85f21ee0467091ad2381f8f02faaa33308",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "道具多视图不表示多部手机。CG001坏轮未修；CG082只保留当拍仍可用租屋钥匙，不复制板上的全部钥匙。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-maolang-performance-papers-v001",
+      "owner": "SUI-A07",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A07/prop-maolang-performance-papers-v001.png",
+      "sourceSha256": "57178a05181802627db64f995ffeb088ce04572b80fbf086a1f2d82080d204dd",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-maolang-performance-kit"
+      ],
+      "shots": [
+        "CG010",
+        "CG062",
+        "CG091"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A07/prop-maolang-performance-papers-v001.generation.json",
+      "generationRecordSha256": "1f4fc7946731140a3a38e9699b96966d3c762bc8f4cce66d48c640c14ae2c725",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A07/prop-maolang-performance-papers-v001.webp",
+      "derivativeSha256": "9906b04574798b41f317801d1b6b5e63db25e6938a374287e38bdd7b277464f3",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "卷起白边海报/歪裁边/串词白背分镜取用；演出单只远景纸背，不编第三行姓名以外的名单与档期；CG091删除私事页，不把文案重印。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-qiaoge-cuff-reference-v001",
+      "owner": "SUI-A07",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A07/prop-qiaoge-cuff-reference-v001.png",
+      "sourceSha256": "c939b79e5a279661836966e84d158da4c1e71da8529b226e545947d824394d56",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "char-qiaoge"
+      ],
+      "shots": [
+        "CG026"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A07/prop-qiaoge-cuff-reference-v001.generation.json",
+      "generationRecordSha256": "019f0f28c842da6c6aafd129b2cd0b7a455339786dd0c27a730c40859661bd64",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A07/prop-qiaoge-cuff-reference-v001.webp",
+      "derivativeSha256": "d7ee0e81a460252ffb374143be607b09504263ca59e363593a3c65d43116fe05",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "CG026仅乔哥前臂袖口造型，不建立其脸、年龄或独立人物立绘。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-piao-knots-reference-v002",
+      "owner": "SUI-A05",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v002.png",
+      "sourceSha256": "f2664bb403036d59e1f2ae2658268e7f3dae89bf3eb57ae82941e5aa8cb3feb1",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-piao-knots"
+      ],
+      "shots": [
+        "CG063",
+        "CG067",
+        "CG068",
+        "CG096"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v002.generation.json",
+      "generationRecordSha256": "50bf65bd4b28a642524942e7d7dccbe61cdb0093b43d4bb6bcd1de4af442a98c",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v002.webp",
+      "derivativeSha256": "c56644cf50a60bb7a3a36a337b5afe47a84921b3d1446064bef0efd1147e0220",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "湿绳供CG067；手提布袋及结供CG096；CG068结对象未明，只参考手结姿态，不指定布袋或新增绳种。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "photo-xiaoman-wenwen-day22-haircut-v002",
+      "owner": "SUI-A02",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A02/photo-xiaoman-wenwen-day22-haircut-v002.png",
+      "sourceSha256": "38a821e05d58e402caf7150599b864884a7ff96de4e3d20506db374b11643e7f",
+      "size": [
+        1122,
+        1402
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-xiaoman-practice-kit"
+      ],
+      "shots": [
+        "CG102"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A02/photo-xiaoman-wenwen-day22-haircut-v002.generation.json",
+      "generationRecordSha256": "10bd1eb351aa7d90318dd2c2c1f9e4c7f68a9902d61c2fc1aa8ec10ebe01f1c3",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A02/photo-xiaoman-wenwen-day22-haircut-v002.webp",
+      "derivativeSha256": "3e7f8d12a24b1533121a5368ff015a037ff02f627467f461030d7cf534046403",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "CG102原始侧面照，耳前发际有轻微不齐缺口，保留耳周；不可美化修齐，不是第91天新拍。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "photo-hq-yard-whiteflowers-blurred-v001",
+      "owner": "SUI-A08",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A08/photo-hq-yard-whiteflowers-blurred-v001.png",
+      "sourceSha256": "3966f8ddb8773c1f6784c1bf3fc9c2ae02a804b6515cd1e517fd1b7ab4babecc",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-yard-fixed"
+      ],
+      "shots": [
+        "CG075"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A08/photo-hq-yard-whiteflowers-blurred-v001.generation.json",
+      "generationRecordSha256": "03c0c22561cb13bbc65825132e7724676f07267a7220c8f476a604723b94379a",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A08/photo-hq-yard-whiteflowers-blurred-v001.webp",
+      "derivativeSha256": "3fcf34abe7bff512d7201c58a9fe22b5920f0061dbaa7988311a6fe0d0fa7b7d",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "CG075文文手机内的墙根小白花照片，半幅失焦；不据此给黄球球手机或公开出院。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-extras-tools-reference-v001",
+      "owner": "SUI-A07",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A07/prop-extras-tools-reference-v001.png",
+      "sourceSha256": "375c1d81f3c7d488126d2c14e4eb8ba1bd98183c53e50e5493bd59749ec65739",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-extras-handheld"
+      ],
+      "shots": [
+        "CG086"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A07/prop-extras-tools-reference-v001.generation.json",
+      "generationRecordSha256": "d6719da839d225b23503088496dc5f98354076c4cca8f5b984212bccbb71e4c5",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A07/prop-extras-tools-reference-v001.webp",
+      "derivativeSha256": "4537c3f3053bcdcd6ccb1ee818f164a16da2e9a1e2828c2fec03992d90748a79",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "CG086柜台边卷尺；扳手仅存结构参考，不增加当拍维修动作。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-salon-washbasin-reference-v001",
+      "owner": "SUI-A08",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A08/prop-salon-washbasin-reference-v001.png",
+      "sourceSha256": "5d0a7438de4de32cce8b4bf12922a94d8038912545e2cecba042f244c4c978d9",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "bg-salon-bijie",
+        "prop-salon-fixed"
+      ],
+      "shots": [
+        "CG015"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A08/prop-salon-washbasin-reference-v001.generation.json",
+      "generationRecordSha256": "eb2e102dcace8e2835a9a3acef2241a0caa4c069dbc3fa587b2f15c354e38811",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A08/prop-salon-washbasin-reference-v001.webp",
+      "derivativeSha256": "e687400829d7ba1eece24d149f2d6b914a9c86297d7bc4be75a8a091795c851a",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "CG015沿原店黑洗头盆近景，补清颈托、龙头、喷头和卷毛巾，不把远景理发椅当洗头姿势。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-station-travel-bags-reference-v001",
+      "owner": "SUI-A08",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A08/prop-station-travel-bags-reference-v001.png",
+      "sourceSha256": "4d09df424b36e1dfcb1110ed58125460af6de31f8e2b275962921f3c5149ee6e",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-transport-packing"
+      ],
+      "shots": [
+        "CG022",
+        "CG034",
+        "CG069"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A08/prop-station-travel-bags-reference-v001.generation.json",
+      "generationRecordSha256": "b73f4a56e0946db235babf2c3322bde30302a680a41261c252eae1280af555f8",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A08/prop-station-travel-bags-reference-v001.webp",
+      "derivativeSha256": "e6a4e103c8bba575b9755b243883aacfedcf291d54e2d3ab9cd153edd852fd17",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "左灰蓝箱供CG022小满，中灰布箱供CG034周栀，右棕旅行包供CG069飘；各人物持有独立物件，轮子完好，不借文文坏箱替代。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    },
+    {
+      "assetId": "prop-shared-handheld-food-boxes-reference-v001",
+      "owner": "SUI-A08",
+      "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png",
+      "sourceSha256": "fe005261bc1755bfb928461c53e8c1a673c1a11edaf3ffd977c2b887c12e3a30",
+      "size": [
+        1672,
+        941
+      ],
+      "mode": "RGB",
+      "alphaExtrema": [
+        255,
+        255
+      ],
+      "requirements": [
+        "prop-shared-food-boxes",
+        "prop-netcafe-counter-equipment",
+        "prop-huisheng-sales"
+      ],
+      "shots": [
+        "CG005",
+        "CG027",
+        "CG035",
+        "CG041",
+        "CG044",
+        "CG077",
+        "CG086",
+        "CG108"
+      ],
+      "generationRecord": "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.generation.json",
+      "generationRecordSha256": "9f6f7f330caf3de768b6be3a693845552600c26f0abc173e77ccc532da405713",
+      "runtimeAdopted": false,
+      "derivativeFile": "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.webp",
+      "derivativeSha256": "974be6e69c39a39f4d828ac228d2f9daaecf26dcd907311949bfc2d622bcfe41",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "decodedRGBAEqual": true
+      },
+      "status": "reference-frozen-for-cg-production",
+      "usage": "按镜头单取瓶水、装奶布袋、烧饼纸袋、箱子、两份早餐或消费单纸背；不整板入画、不补品牌、日期与金额。",
+      "visualReview": "qa/SUI-A10-preflight-20261029/visual-review.json"
+    }
+  ],
+  "status": "cg-production-reference-frozen"
+}

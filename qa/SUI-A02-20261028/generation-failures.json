@@ -1,0 +1,20 @@
+[
+  {
+    "id": "old-sweatshirt",
+    "attempt": 1,
+    "reason": "image generation failed: connection failed: error sending request",
+    "outputProduced": false,
+    "nextAction": "重试内置工具，不使用CLI/API回退",
+    "resolved": true,
+    "resolution": "内置工具重试成功，old-sweatshirt-v001已归档"
+  },
+  {
+    "id": "skirt",
+    "attempt": 1,
+    "reason": "视觉检查：裙摆在大腿处可见，未遵从用户所选及膝A字裙",
+    "preservedFile": "assets/sources/20261028/SUI-A02/rejected/char-xiaoman-human-skirt-short-rejected-v001.png",
+    "nextAction": "只修正裙长，保留人物与衣装其余部分",
+    "resolved": true,
+    "resolution": "裙装v002修正，v001隔离，当前交付清单仅含v002"
+  }
+]

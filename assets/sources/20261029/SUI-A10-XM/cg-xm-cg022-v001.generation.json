@@ -1,0 +1,191 @@
+{
+  "id": "CG022",
+  "title": "这次没观众",
+  "package": "SUI-A10-XM",
+  "stem": "cg-xm-cg022-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A02/char-xiaoman-base",
+    "A08/bg-departure-station-morning-rain",
+    "PRE/prop-station-travel-bags-reference-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-departure-station/bg-departure-station-morning-rain-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A08/prop-station-travel-bags-reference-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：小满A同脸、浅金短发、砖红双条纹夹克白内搭\n图3：A08/bg-departure-station-morning-rain，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：左灰蓝箱供CG022小满，中灰布箱供CG034周栀，右棕旅行包供CG069飘；各人物持有独立物件，轮子完好，不借文文坏箱替代。\n核心画面：车站雨棚下成年小满与文文肩上中近景，她抓住他的牛仔外套领口、抬眼认真确认，二人有呼吸距离，尚未接吻。她的灰蓝绑带箱在脚边下方模糊露角、绑带收齐。不存在观众、其他女主或已检票远去的分身。\n衣装/形态硬约束：小满A日常版，文文B外套\n当拍道具：拉住领口；脚边行李箱绑带已收好\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；CG022取左灰蓝箱、绑带已收；CG034取中灰布箱由周栀自拖；CG069取右棕旅行包，飘已收回脚边。彼此是独立物件，不用文文坏箱或汽车后备箱替代。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG022",
+    "kind": "retained-selection",
+    "title": "这次没观众",
+    "originalTitle": "这次没观众",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+        "line": 799,
+        "anchor": "“这次没观众。”她说，“还认不认？”"
+      }
+    ],
+    "time": "第60天车站",
+    "routeGroup": "XM",
+    "source": {
+      "path": "scenario/罗小满-练习本.md",
+      "line": 805,
+      "paragraph": "TEXT_afa0e8aec5daf88bcc0e",
+      "scope": "XM08-01/COMMON",
+      "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+      "quote": "“这次没观众。”她说，“还认不认？”",
+      "conditions": [
+        "XM07-01=A&XM08-01=A"
+      ],
+      "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "matchText": "“这次没观众。”她说，“还认不认？”",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、罗小满",
+      "offscreenOrRemote": "广播；其他旅客画外"
+    },
+    "wardrobeAndForm": "小满A日常版，文文B外套",
+    "propState": "拉住领口；脚边行李箱绑带已收好",
+    "composition": "拉领口近景，对应“还认不认”而非提前显示下一段接吻。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "xiaoman"
+        }
+      ],
+      "requiredExpressions": [
+        "XM07-01=A&XM08-01=A"
+      ]
+    },
+    "reviewNotes": "AB拥抱/BA交照片/BB无拥抱均不能复用此镜；不画已售电动车和寄存头盔。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_afa0e8aec5daf88bcc0e_1",
+      "visiblePageIds": [
+        "TEXT_afa0e8aec5daf88bcc0e_1"
+      ],
+      "exitBeforeId": "TEXT_8911b6b6bab29d2929d0_1",
+      "snapshotBefore": "第60天车站；文文、罗小满；小满A日常版，文文B外套；拉住领口；脚边行李箱绑带已收好",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "AB拥抱/BA交照片/BB无拥抱均不能复用此镜；不画已售电动车和寄存头盔。"
+    },
+    "production": {
+      "package": "SUI-A10-XM",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-departure-station",
+        "owner": "SUI-A08",
+        "name": "出发车站/候车棚",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-departure-station-morning-rain-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-transport-packing",
+        "owner": "SUI-A08",
+        "name": "公交/车后备厢/搬运板材",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "prop-transport-packing-car-trunk-day-v001",
+            "status": "planned"
+          }
+        ]
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-departure-station",
+        "owner": "SUI-A08",
+        "name": "出发车站/候车棚",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-departure-station-morning-rain-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-departure-station-morning-rain"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-transport-packing",
+        "owner": "SUI-A08",
+        "name": "公交/车后备厢/搬运板材",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "prop-transport-packing-car-trunk-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "PRE/prop-station-travel-bags-reference-v001"
+        ],
+        "frameUse": "CG022取左灰蓝箱、绑带已收；CG034取中灰布箱由周栀自拖；CG069取右棕旅行包，飘已收回脚边。彼此是独立物件，不用文文坏箱或汽车后备箱替代。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base",
+      "A08/bg-departure-station-morning-rain",
+      "PRE/prop-station-travel-bags-reference-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg022-v001.png",
+  "sourceSha256": "05f9f4a7e6b75fe3245cd244debfe57c8126d5bb7089b81b2589f815e60c3a46",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-2c03eac5-20aa-4677-a54d-0b50b53dff17.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+      "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-departure-station/bg-departure-station-morning-rain-v001.png",
+      "sha256": "99ac287ef3b651ba24114721a720a49668a027abdc5cf03e9fe1fc1e0667cf44"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A08/prop-station-travel-bags-reference-v001.png",
+      "sha256": "4d09df424b36e1dfcb1110ed58125460af6de31f8e2b275962921f3c5149ee6e"
+    }
+  ],
+  "runtimeAdopted": false
+}

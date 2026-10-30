@@ -1,0 +1,203 @@
+{
+  "id": "CG015",
+  "title": "洗头池上的几秒",
+  "package": "SUI-A10-XM",
+  "stem": "cg-xm-cg015-v003",
+  "version": "v003",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A02/char-xiaoman-work-apron",
+    "A08/bg-salon-bijie-washbasin-day",
+    "PRE/prop-salon-washbasin-reference-v001",
+    "PRE/prop-xiaoman-open-practice-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v002.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 只修正一滴水的位置：擦去小满图像左边眼睛上的水滴，在图像右边眼睛（小满本人的左眼）下睫毛挂一滴小水珠。保留双眼自然神态、脸、浅金短发、衣装、捻后颈碎发的手、仰躺文文和洗头池。两人的其他脸部均没有明显水珠。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG015",
+    "kind": "retained-selection",
+    "title": "洗头池上的几秒",
+    "originalTitle": "洗头池上的几秒",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+        "line": 205,
+        "anchor": "我看见她左边睫毛上沾了一点水。"
+      }
+    ],
+    "time": "第22天剪完冲碎发",
+    "routeGroup": "XM",
+    "source": {
+      "path": "scenario/罗小满-练习本.md",
+      "line": 205,
+      "paragraph": "TEXT_c517df625419350bc668",
+      "scope": "XM04-01/COMMON",
+      "nearestNode": null,
+      "quote": "我忍着没动。她的手从毛巾边伸进去，把那根扎人的碎发捻掉。再睁眼，她正低着头，离我很近。我看见她左边睫毛上沾了一点水。",
+      "conditions": [],
+      "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "matchText": "我看见她左边睫毛上沾了一点水。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、罗小满",
+      "offscreenOrRemote": "其他人画外"
+    },
+    "wardrobeAndForm": "小满延续同日工作版；文文湿短发、仰躺洗头池",
+    "propState": "卷毛巾、洗头池；睫毛一滴水",
+    "composition": "文文仰视小满低头近景，手在后颈捻掉碎发；不是接吻。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "xiaoman"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "起身碰下巴在后段；本拍不能提前坐起。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-work-apron"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_c517df625419350bc668_1",
+      "visiblePageIds": [
+        "TEXT_c517df625419350bc668_1"
+      ],
+      "exitBeforeId": "TEXT_36e616e9a7c5c41f4bc7_1",
+      "snapshotBefore": "第22天剪完冲碎发；文文、罗小满；小满延续同日工作版；文文湿短发、仰躺洗头池；卷毛巾、洗头池；睫毛一滴水",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "起身碰下巴在后段；本拍不能提前坐起。"
+    },
+    "production": {
+      "package": "SUI-A10-XM",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-salon-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节理发店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-salon-bijie-mirror-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-salon-bijie-washbasin-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-salon-bijie-day91-mirror-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-salon-fixed",
+        "owner": "SUI-A08",
+        "name": "理发椅/洗头池/围布/价目表/假头",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-xiaoman-tools",
+        "owner": "SUI-A02",
+        "name": "剪刀/梳子/手镜/发夹/剪刀包",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-salon-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节理发店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-salon-bijie-mirror-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-salon-bijie-washbasin-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-salon-bijie-day91-mirror-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-salon-bijie-washbasin-day",
+          "PRE/prop-salon-washbasin-reference-v001"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-salon-fixed",
+        "owner": "SUI-A08",
+        "name": "理发椅/洗头池/围布/价目表/假头",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-salon-bijie-washbasin-day",
+          "PRE/prop-salon-washbasin-reference-v001"
+        ],
+        "frameUse": "镜台/围布/洗头池/卷毛巾从对应镜台或洗头池版本取用，CG015不是镜台坐姿。"
+      },
+      {
+        "requirementId": "prop-xiaoman-tools",
+        "owner": "SUI-A02",
+        "name": "剪刀/梳子/手镜/发夹/剪刀包",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A02/char-xiaoman-work-apron",
+          "PRE/prop-xiaoman-open-practice-kit-v001"
+        ],
+        "frameUse": "CG014发夹已落围布，剪刀梳子按工作基准；CG015仰躺洗头池，毛巾不凭空变围巾。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-work-apron",
+      "A08/bg-salon-bijie-washbasin-day",
+      "PRE/prop-salon-washbasin-reference-v001",
+      "PRE/prop-xiaoman-open-practice-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "水滴在小满本人左眼睫毛",
+  "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v003.png",
+  "sourceSha256": "b3658829b2dc9e8af1b6ae207bda7093a653b30c668c99a705c74aee92f42c20",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-2fec2384-c307-47fc-9ad5-13f1ebd6d99c.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v002.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v002.png",
+      "sha256": "b4a3d27d82baa9c533c21c8a645f55e7d5b0d76eb7353f1633cfda7f19728236"
+    }
+  ],
+  "runtimeAdopted": false
+}

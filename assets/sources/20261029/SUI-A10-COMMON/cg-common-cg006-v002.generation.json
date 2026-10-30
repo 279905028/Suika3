@@ -1,0 +1,195 @@
+{
+  "id": "CG006",
+  "title": "屏幕上只剩她的角色",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg006-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A08/bg-old-netcafe-counter-day"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg006-v001.png"
+  ],
+  "prompt": "Use case: compositing. 以此图的同一电脑、键盘、耳机与文文牛仔袖手为连续性参考，重构为极紧的横向16:9屏幕及操作手特写。电脑屏幕占画面上中部大约75%，底部有键盘局部与牛仔袖双手，文文的脸和后脑不入画。屏幕外不出现窗户、其他机位、柜台或任何可识别的实体房间，画面边缘是设备黑框与浅景深桌面。游戏为原创无品牌组队场景，四名普通游戏角色之一停在画面角落，其余三人在场景另一边；不画真人头像、不加恋爱图标，不需要文字。保留自然材质、细腻半写实CG风格，完整单幅画面，无拼图、标题或水印。",
+  "shot": {
+    "id": "CG006",
+    "kind": "retained-selection",
+    "title": "屏幕上只剩她的角色",
+    "originalTitle": "屏幕上只剩她的角色",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+        "line": 385,
+        "anchor": "她笑到一半忽然静了音，画面里的角色还站在我旁边，几秒后才动。"
+      }
+    ],
+    "time": "第5天休班，游戏中",
+    "routeGroup": "COMMON",
+    "source": {
+      "path": "scenario/第一章-回到毕节.md",
+      "line": 367,
+      "paragraph": "TEXT_4819007b6dae9d4939ef",
+      "scope": "### 第5—7天｜有人要去贵阳",
+      "nearestNode": null,
+      "quote": "快赢时她忽然没了声音，角色停在角落。队伍输了，毛狼还在喊再一局。我听见她麦里很轻的一句“文件刚发了，您刷新看看”，随后传来鼠标连点的声音。",
+      "conditions": [],
+      "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "matchText": "快赢时她忽然没了声音，角色停在角落。",
+      "oldAnchorExact": false
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文的屏幕/操作手",
+      "offscreenOrRemote": "叶岚、毛狼、师匠均为队内声音；不据语音推定同室"
+    },
+    "wardrobeAndForm": "仅文文手/袖沿B；叶岚实体形象不需要",
+    "propState": "电脑、耳机；叶岚游戏角色停在角落",
+    "composition": "使用新版停在角落的队友屏幕；原“只剩她/站在我旁边”构图不再成立。",
+    "conditions": {
+      "entryGates": [],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "旧锚点已删除；镜头内部不画叶岚人脸、暧昧双人头像或独立恋爱提示。具体实体地点正文未说死，采用设备紧局部，A08柜台参考只约束设备，不认定人在网吧。",
+    "referenceKeys": [
+      "A07/wenwen-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_4819007b6dae9d4939ef_1",
+      "visiblePageIds": [
+        "TEXT_4819007b6dae9d4939ef_1"
+      ],
+      "exitBeforeId": "TEXT_761573324dadd36653a9_1",
+      "snapshotBefore": "第5天休班，游戏中；文文的屏幕/操作手；仅文文手/袖沿B；叶岚实体形象不需要；电脑、耳机；叶岚游戏角色停在角落",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "旧锚点已删除；镜头内部不画叶岚人脸、暧昧双人头像或独立恋爱提示。具体实体地点正文未说死，采用设备紧局部，A08柜台参考只约束设备，不认定人在网吧。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-old-netcafe-counter",
+        "owner": "SUI-A08",
+        "name": "旧网吧柜台/机位",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-old-netcafe-counter-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-clearing-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-handover-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-netcafe-counter-equipment",
+        "owner": "SUI-A08",
+        "name": "网吧电脑/键盘/打印机/冰柜/收银/监控",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-game-screen",
+        "owner": "SUI-A10-COMMON",
+        "name": "普通组队游戏屏幕草图",
+        "reason": "仅根据角色停在角落及语音暂停制作无品牌草图，不补具体游戏名、头像或恋爱UI。",
+        "status": "待补当拍参考；非已放行资源"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-old-netcafe-counter",
+        "owner": "SUI-A08",
+        "name": "旧网吧柜台/机位",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-old-netcafe-counter-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-clearing-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-handover-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-old-netcafe-counter-day"
+        ],
+        "frameUse": "仅取电脑/桌面紧局部，不据该参考认定实体地点在网吧；当前正文没有指定房间。"
+      },
+      {
+        "requirementId": "prop-netcafe-counter-equipment",
+        "owner": "SUI-A08",
+        "name": "网吧电脑/键盘/打印机/冰柜/收银/监控",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-old-netcafe-counter-day"
+        ],
+        "frameUse": "只取旧网吧电脑/键盘/打印机/柜台固定设备；CG086饮料箱取补充板；CG006紧屏幕不据此认定所在地，CG091用空文字页而非私事原文。"
+      }
+    ],
+    "internalWorkItems": [
+      {
+        "requirementId": "prop-game-screen",
+        "owner": "SUI-A10-COMMON",
+        "name": "普通组队游戏屏幕草图",
+        "reason": "仅根据角色停在角落及语音暂停制作无品牌草图，不补具体游戏名、头像或恋爱UI。",
+        "status": "in-package-production-work",
+        "frameUse": "电脑、耳机；叶岚游戏角色停在角落；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+        "referenceKeys": []
+      }
+    ],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A08/bg-old-netcafe-counter-day"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "不得由参考网吧推定实体所在地点",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg006-v002.png",
+  "sourceSha256": "60f759c532d0b8994b2bf9c09739c8a44e46ad6de194b287dc2b6eff49a78ed3",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-c7718f91-1239-45de-aa6f-c615ec95e1dd.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg006-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg006-v001.png",
+      "sha256": "65ba2d82175cd522ce497c74b350080ad616a1108858dc11dcba1f8ef648eecb"
+    }
+  ],
+  "runtimeAdopted": false
+}

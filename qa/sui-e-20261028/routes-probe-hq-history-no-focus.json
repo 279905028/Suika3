@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-28",
+  "layer": "同一SUI-E正式候选的Suika3 Wasm全程原生输入烟测；非全篇人工审读、真机、电脑分发或发布验收",
+  "runtimeBuildId": "f5981a273004321c835cd75559a5a93dd1c64dd45be39974d386a78d85755880",
+  "contentBuildId": "596f0899b92924f517ee354678e8792e68870cb2b38ecf61742302252ef84103",
+  "webHashes": {
+    "assets.arc": "fbc8b2473402f5b9ea3e806e5b3718a12739bb2110aff6e61711f7db38206fe3",
+    "index.html": "fa74b45f2a88e5ef4a8c49b132aa5fbc1c3895a835ef5888328a083ba1d9261a",
+    "shell.css": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a",
+    "shell.js": "c8c2aa1ea87c85b29f3c4f7d76c8c2676cf62e2b01edd05fb49ec4737a9f3270"
+  },
+  "checks": [],
+  "results": [
+    {
+      "name": "huangqiuqiu/HIGH/AA",
+      "status": "fail",
+      "inputMethod": "ordinary Enter keydown/keyup events and Playwright mouse clicks; no native state injection",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "A",
+        "HQ08-01": "A",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "expected": {
+        "route": "huangqiuqiu",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "HQ-E1",
+        "epilogue": "EP-HIGH",
+        "event": "0",
+        "return": ""
+      },
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/qa/sui-e-20261028/verify-routes.cjs:70:15)\n    at async worker (/Users/yipin/Desktop/Suika3/qa/sui-e-20261028/verify-routes.cjs:144:90)\n    at async /Users/yipin/Desktop/Suika3/qa/sui-e-20261028/verify-routes.cjs:145:3",
+      "elapsedMs": 121848,
+      "clicks": [],
+      "decisions": [],
+      "nativeEnterChoices": 0,
+      "logs": [
+        "SUI_E|ready|f5981a273004321c835cd75559a5a93dd1c64dd45be39974d386a78d85755880",
+        "SUI_E|title",
+        "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+        "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+        "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+        "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+        "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+        "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+        "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+        "SUI_E|stable|cursor=TEXT_e1427ee34fcf2aeca819_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+        "SUI_E|stable|cursor=TEXT_080c170244eff617925d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+        "SUI_E|stable|cursor=TEXT_eba83339c178c009eff6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+        "SUI_E|stable|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+        "SUI_E|stable|cursor=TEXT_e83b5f0a4167ec40ee58_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+        "SUI_E|stable|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+        "SUI_E|stable|cursor=TEXT_3fe55dfb2dd63fbb3b0e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=69",
+        "SUI_E|stable|cursor=TEXT_945c8830453c2fe27c64_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=73",
+        "SUI_E|stable|cursor=TEXT_7b5cf5dd9537e65579e1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=77",
+        "SUI_E|stable|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+        "SUI_E|stable|cursor=TEXT_cf9813a6bde4d424ec26_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=85",
+        "SUI_E|save|slot=0|cursor=TEXT_cf9813a6bde4d424ec26_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=85",
+        "SUI_E|stable|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+        "SUI_E|stable|cursor=TEXT_f79bca9d3ad4ce89cc75_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=93",
+        "SUI_E|stable|cursor=TEXT_0f8e774a8dc5b1ba5070_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=97",
+        "SUI_E|stable|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+        "SUI_E|stable|cursor=TEXT_093d48020869574e10bb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=105",
+        "SUI_E|stable|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+        "SUI_E|stable|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+        "SUI_E|stable|cursor=TEXT_c63983d8a92b2d07edb4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=117",
+        "SUI_E|stable|cursor=TEXT_bc2c686eef08f9474502_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=121",
+        "SUI_E|stable|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+        "SUI_E|stable|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+        "SUI_E|save|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+        "SUI_E|checkpoint|choice=C01-01|slot=11|generation=1|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+        "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+        "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133"
+      ],
+      "errors": [],
+      "screenshots": [
+        "routes-probe-hq-huangqiuqiu-HIGH-AA-failure.png"
+      ]
+    }
+  ],
+  "screenshots": [
+    "routes-probe-hq-huangqiuqiu-HIGH-AA-failure.png"
+  ],
+  "errors": [
+    {
+      "case": "huangqiuqiu/HIGH/AA",
+      "error": "page.waitForFunction: Timeout 120000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/qa/sui-e-20261028/verify-routes.cjs:70:15)\n    at async worker (/Users/yipin/Desktop/Suika3/qa/sui-e-20261028/verify-routes.cjs:144:90)\n    at async /Users/yipin/Desktop/Suika3/qa/sui-e-20261028/verify-routes.cjs:145:3"
+    }
+  ],
+  "browser": "156.0.8078.49",
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(report.results.every(r=>r.status==='pass'))\n\n    at /Users/yipin/Desktop/Suika3/qa/sui-e-20261028/verify-routes.cjs:146:62",
+  "finishedAt": "2026-10-28T09:22:19.395Z"
+}

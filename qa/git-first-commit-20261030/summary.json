@@ -1,0 +1,41 @@
+{
+  "scope": "生成报告前的工作树；报告自身不计入本轮盘点",
+  "stats": {
+    "git": {
+      "files": 1732,
+      "bytes": 145916368
+    },
+    "archive": {
+      "files": 4335,
+      "bytes": 4771069202
+    },
+    "ignore": {
+      "files": 30665,
+      "bytes": 73593396498
+    },
+    "review": {
+      "files": 0,
+      "bytes": 0
+    }
+  },
+  "rootRepositoryInitialized": false,
+  "projectGitAttributesPreserveBytes": true,
+  "inputManifests": [
+    "build/sui-i02-20261030-v1/input-manifest.json",
+    "build/sui-i02-20261030-v2/input-manifest.json",
+    "build/sui-i02-20261030-v3/input-manifest.json",
+    "build/sui-i02-20261030-v4/input-manifest.json",
+    "build/sui-i02-20261030-v5/input-manifest.json",
+    "build/sui-i02-20261030-v6/input-manifest.json",
+    "build/sui-i02-20261030-v7/input-manifest.json"
+  ],
+  "inputCoverage": {
+    "archive": 642,
+    "git": 509
+  },
+  "uncoveredInputs": [],
+  "snapshotEntriesChecked": 878,
+  "snapshotHashMismatches": [],
+  "separateBackupCreated": false,
+  "unclassifiedFiles": []
+}

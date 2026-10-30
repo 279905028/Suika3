@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "task": "SUI-I01",
+  "version": "sui-i01-20261030-v2",
+  "completedAt": "2026-10-30T01:47:27.429Z",
+  "snapshot": {
+    "path": "qa/sui-i01-closeout-20261030/snapshot.json",
+    "sha256": "c28bd0400df90f37879e1451c47c36aef29807a2a98c93bdfbf46ac2948c02b6"
+  },
+  "inputFingerprint": "1755f68e6c2e7219ee3e61fee98e8df102ee1760d3ffb52c12a08bae2f0768ab",
+  "scope": {
+    "kind": "complete",
+    "description": "I01全正文声明式场景：六线、共通、第36天及双后日谈；持续背景、逐拍人物/道具特写、60CG；未明场所/远程/过渡使用逐项注明的文字镜头。范围不含I02引擎与Q验收。",
+    "missing": []
+  },
+  "counts": {
+    "assets": 212,
+    "bindings": 3086,
+    "cg": 60,
+    "snapshotFiles": 878,
+    "validatedFiles": 879
+  },
+  "visualReview": {
+    "path": "qa/sui-i01-closeout-20261030/visual-review.json",
+    "sha256": "9cb9be2a8af9d2d78cf025dfa248919ca58d022f9f0fe7d04065a511890f7e97"
+  },
+  "validation": {
+    "path": "qa/sui-i01-closeout-20261030/validation.json",
+    "sha256": "41bf33cf4319db1f4fb52f10cabc3bc4e9c073c48faa1373e3e9be02e855f40d"
+  },
+  "notTested": [
+    "引擎运行",
+    "游戏浏览器",
+    "手机真机",
+    "电脑原生",
+    "发布"
+  ]
+}

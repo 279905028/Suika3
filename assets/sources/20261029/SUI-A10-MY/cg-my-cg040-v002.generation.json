@@ -1,0 +1,185 @@
+{
+  "id": "CG040",
+  "title": "试讲播完以后",
+  "package": "SUI-A10-MY",
+  "stem": "cg-my-cg040-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A04/char-mengyao-human-base-neutral",
+    "A04/prop-mengyao-phone-stand",
+    "A08/bg-mengyao-bijie-school-classroom-day"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-MY/cg-my-cg040-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 保持两名成年人的额头轻抵、脸和衣装、手摸向手机支架的动作。把孟遥后脑固定头发的黑色小发夹移到桌边、手机支架旁清晰可见；低马尾保留但稍松，不新增第二个发夹。桌边夹子尚未拾起。手机显示已停止的普通试讲播放器暗屏，无录像内容或可读时间。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG040",
+    "kind": "retained-selection",
+    "title": "试讲播完以后",
+    "originalTitle": "试讲播完以后",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/孟遥-旧题.md",
+        "line": 255,
+        "anchor": "我们分开时，试讲的视频已经播完。"
+      }
+    ],
+    "time": "第27日17:30之后、下楼之前，试讲结束",
+    "routeGroup": "MY",
+    "source": {
+      "path": "scenario/孟遥-旧题.md",
+      "line": 255,
+      "paragraph": "TEXT_9cee64e108444b68c28a",
+      "scope": "### 剧情简介",
+      "nearestNode": null,
+      "quote": "分开时，视频已经播完。她额头抵着我的，呼吸还没稳，手却先摸到手机。屏幕亮起来，她看见时间，坐直，把掉到桌边的夹子拾起来。",
+      "conditions": [],
+      "sourceSha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+      "matchText": "分开时，视频已经播完。她额头抵着我的",
+      "oldAnchorExact": false
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、孟遥",
+      "offscreenOrRemote": "陈晟在楼下约定处，尚未被介绍，不入此图"
+    },
+    "wardrobeAndForm": "孟遥A教学衣装，文文B领口",
+    "propState": "试讲手机/支架，夹子掉桌边；视频已播完",
+    "composition": "两人额头相抵的瞬间，手机只表现试讲结束；不画私密录像或已知婚姻后的公开关系。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "mengyao"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "旧句重定位到新段；同段后半孟遥看时间坐直，画面取前半，离段即退，不能持续到丈夫到场。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A04/char-mengyao-human-base-neutral",
+      "A04/prop-mengyao-phone-stand"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_9cee64e108444b68c28a_1",
+      "visiblePageIds": [
+        "TEXT_9cee64e108444b68c28a_1"
+      ],
+      "exitBeforeId": "TEXT_ef25a76df0f150d28bf0_1",
+      "snapshotBefore": "第27日17:30之后、下楼之前，试讲结束；文文、孟遥；孟遥A教学衣装，文文B领口；试讲手机/支架，夹子掉桌边；视频已播完",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "旧句重定位到新段；同段后半孟遥看时间坐直，画面取前半，离段即退，不能持续到丈夫到场。"
+    },
+    "production": {
+      "package": "SUI-A10-MY",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-mengyao-bijie-school",
+        "owner": "SUI-A08",
+        "name": "孟遥毕节培训机构",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-mengyao-bijie-school-classroom-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-mengyao-bijie-school-corridor-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-mengyao-bijie-school-entrance-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-mengyao-teaching-kit",
+        "owner": "SUI-A04",
+        "name": "教案/课表/讲义/文件夹/红笔/租房纸",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-mengyao-bijie-school",
+        "owner": "SUI-A08",
+        "name": "孟遥毕节培训机构",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-mengyao-bijie-school-classroom-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-mengyao-bijie-school-corridor-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-mengyao-bijie-school-entrance-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-mengyao-bijie-school-classroom-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-mengyao-teaching-kit",
+        "owner": "SUI-A04",
+        "name": "教案/课表/讲义/文件夹/红笔/租房纸",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A04/char-mengyao-human-teaching-base",
+          "A04/prop-mengyao-phone-stand",
+          "A04/prop-mengyao-workbook-cover"
+        ],
+        "frameUse": "CG040手机支架与夹子沿教学版，视频已播完；CG104红笔沿教学定稿、收抽屉，旧练习册放另一侧，不当成已归还。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A04/char-mengyao-human-base-neutral",
+      "A04/prop-mengyao-phone-stand",
+      "A08/bg-mengyao-bijie-school-classroom-day",
+      "A04/char-mengyao-human-teaching-base",
+      "A04/prop-mengyao-workbook-cover"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "掉桌边的夹子须可见",
+  "sourceFile": "assets/sources/20261029/SUI-A10-MY/cg-my-cg040-v002.png",
+  "sourceSha256": "ce971ce68fccc86f8dd370ee442fed28ef88eca7aff7867af7e5021b5a273457",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-289aee5f-5e44-4d31-b45e-4d0d20f72548.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-MY/cg-my-cg040-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg040-v001.png",
+      "sha256": "51e7e1d32baab569ac442ffbeb93cb39bb56adb44db795152052686f04d2c016"
+    }
+  ],
+  "runtimeAdopted": false
+}

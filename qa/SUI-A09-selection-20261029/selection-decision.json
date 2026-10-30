@@ -1,0 +1,82 @@
+{
+  "task": "SUI-A09补选集成",
+  "date": "2026-10-29",
+  "authorization": {
+    "type": "user-delegated-selection",
+    "userMessage": "补充你觉的需要加入的CG",
+    "interpretation": "用户授权助手判断并补充；本次采纳此前已交付的8项候选，恢复原60项选择目标，不代表用户逐图审批了尚未制作的画面。"
+  },
+  "scope": "确认选择和正式编号，合并制作归属及图鉴空槽；不生成图片、不绑定演出、不发布",
+  "choices": [
+    {
+      "candidateId": "A09-C01",
+      "id": "CG101",
+      "title": "先问这件事能告诉谁",
+      "reason": "补目前五条非飘路线公共事件的三人镜头，CG067仅覆盖飘本线。",
+      "package": "SUI-A10-COMMON"
+    },
+    {
+      "candidateId": "A09-C02",
+      "id": "CG102",
+      "title": "没裁掉的失败处",
+      "reason": "补小满分开结局的视觉收束，与CG023继续线视频形成差别。",
+      "package": "SUI-A10-XM"
+    },
+    {
+      "candidateId": "A09-C03",
+      "id": "CG103",
+      "title": "自己把袖口捋平",
+      "reason": "呼应CG026袖口动作，补周栀分开结局并突出文文自己生活。",
+      "package": "SUI-A10-ZZ"
+    },
+    {
+      "candidateId": "A09-C04",
+      "id": "CG104",
+      "title": "第98天先留空",
+      "reason": "补孟遥继续结局的当下代价，现有五镜均发生在最终选择前。",
+      "package": "SUI-A10-MY"
+    },
+    {
+      "candidateId": "A09-C05",
+      "id": "CG105",
+      "title": "取消单独的提醒",
+      "reason": "补三个断开组合的共同收束，避免只用AB寄物代表整个MY-E2。",
+      "package": "SUI-A10-MY"
+    },
+    {
+      "candidateId": "A09-C06",
+      "id": "CG106",
+      "title": "最后一页不再等确认",
+      "reason": "补飘HIGH分开结局，区分LOW朋友结局CG070。",
+      "package": "SUI-A10-PI"
+    },
+    {
+      "candidateId": "A09-C07",
+      "id": "CG107",
+      "title": "五点不再等的提醒",
+      "reason": "补黄球球分开结局，同时保留她自主生活与人形持续。",
+      "package": "SUI-A10-HQ"
+    },
+    {
+      "candidateId": "A09-C08",
+      "id": "CG108",
+      "title": "两份早饭，不假装人齐",
+      "reason": "补朋友线继续结局，与CG094的新柜台疏远结局相对。",
+      "package": "SUI-A10-FR"
+    }
+  ],
+  "selectionCountBefore": 52,
+  "selectionCountAfter": 60,
+  "retiredIdsUnchanged": [
+    "CG049",
+    "CG050",
+    "CG052",
+    "CG053",
+    "CG055",
+    "CG057",
+    "CG058",
+    "CG060"
+  ],
+  "productionApproved": false,
+  "runtimeArtAdopted": false
+}

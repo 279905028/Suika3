@@ -1,0 +1,105 @@
+# SUI-U · generated from source/build.py
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+    saveslots: 4;
+}
+
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: system/sui-u/png/save.png;
+}
+BACK {
+    id: 30;
+    type: cancel;
+    x: 1080;
+    y: 32;
+    image-idle: system/sui-u/png/back-idle.png;
+    image-hover: system/sui-u/png/back-hover.png;
+    image-press: system/sui-u/png/back-press.png;
+}
+AUTO {
+    id: 10;
+    type: noaction;
+    x: 64;
+    y: 146;
+    image-idle: system/sui-u/png/auto-save.png;
+}
+SLOT1 {
+    id: 2;
+    type: save;
+    x: 660;
+    y: 146;
+    image-idle: system/sui-u/png/save-item-1-idle.png;
+    image-hover: system/sui-u/png/save-item-1-hover.png;
+    image-press: system/sui-u/png/save-item-1-press.png;
+    index: 1;
+    index-x: 20;
+    index-y: 12;
+    date-x: 232;
+    date-y: 16;
+    thumb-x: 20;
+    thumb-y: 78;
+    thumb-width: 192;
+    thumb-height: 108;
+    chapter-x: 232;
+    chapter-y: 72;
+    msg-x: 232;
+    msg-y: 112;
+    margin-right: 20;
+    margin-bottom: 20;
+}
+SLOT2 {
+    id: 3;
+    type: save;
+    x: 64;
+    y: 388;
+    image-idle: system/sui-u/png/save-item-2-idle.png;
+    image-hover: system/sui-u/png/save-item-2-hover.png;
+    image-press: system/sui-u/png/save-item-2-press.png;
+    index: 2;
+    index-x: 20;
+    index-y: 12;
+    date-x: 232;
+    date-y: 16;
+    thumb-x: 20;
+    thumb-y: 78;
+    thumb-width: 192;
+    thumb-height: 108;
+    chapter-x: 232;
+    chapter-y: 72;
+    msg-x: 232;
+    msg-y: 112;
+    margin-right: 20;
+    margin-bottom: 20;
+}
+SLOT3 {
+    id: 4;
+    type: save;
+    x: 660;
+    y: 388;
+    image-idle: system/sui-u/png/save-item-3-idle.png;
+    image-hover: system/sui-u/png/save-item-3-hover.png;
+    image-press: system/sui-u/png/save-item-3-press.png;
+    index: 3;
+    index-x: 20;
+    index-y: 12;
+    date-x: 232;
+    date-y: 16;
+    thumb-x: 20;
+    thumb-y: 78;
+    thumb-width: 192;
+    thumb-height: 108;
+    chapter-x: 232;
+    chapter-y: 72;
+    msg-x: 232;
+    msg-y: 112;
+    margin-right: 20;
+    margin-bottom: 20;
+}

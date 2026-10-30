@@ -1,0 +1,143 @@
+{
+  "task": "SUI-A02",
+  "reviewDate": "2026-10-29",
+  "layer": "本批离线视觉初检；不是用户逐图批准或引擎验收",
+  "evidence": [
+    "contact-sheet.png",
+    "head-consistency.png",
+    "composite-check-1.png",
+    "composite-check-2.png",
+    "composite-check-3.png",
+    "ui-contact-sheet.png"
+  ],
+  "method": "查看统一脸部区域、全图、44个白黑昼夜合成与11个SUI-U静态组合；结合每张生成原件的可见细节。",
+  "assets": [
+    {
+      "assetId": "char-xiaoman-base",
+      "variant": "base",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "保持已选A的浅金短发、脸型、砖红双条纹夹克、白T与深色牛仔裤。",
+      "userApprovedThisExactImage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-serious",
+      "variant": "serious",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "闭唇专注，默认衣装；不能替代实际接触剪发动作。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-displeased",
+      "variant": "displeased",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "眉间收紧、嘴角收住，保留成年比例，无夸张怒脸。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-embarrassed",
+      "variant": "embarrassed",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "耳颊微红、目光移开，仍为同一人物；未添加装饰符号。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-hesitant",
+      "variant": "hesitant",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "眉眼与嘴部表现迟疑；不据此翻转路线。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-downcast",
+      "variant": "downcast",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "眼睑与嘴角低落，没有夸张哭泣或新增剧情。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-practice-notebook",
+      "variant": "practice-notebook",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "闭合旧本无可读文字，双手可辨，持物不遮脸；没有把材料或照片画在封面。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-two-helmets",
+      "variant": "two-helmets",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "v002已去微笑；恰为两顶头盔，手部与带扣可辨，无钥匙。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-work-apron",
+      "variant": "work-apron",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "同一脸型/发型，白T、深灰围裙；可辨的剪刀和梳子，无多余持物。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-old-sweatshirt",
+      "variant": "old-sweatshirt",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "符合所选深灰无图案圆领旧卫衣、原牛仔裤，无破洞或故事外标识。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "assetId": "char-xiaoman-skirt",
+      "variant": "skirt",
+      "faceHairBody": "通过（视觉判断）",
+      "visibleHandsAndProps": "未见明显畸形、数量错误或手持物融成背景",
+      "whiteBlackDayNight": "通过：未见明显底色残留/色边",
+      "staticReadingUI": "通过：脸部与关键持物在正文框上方",
+      "notes": "v002裙装延伸到画外，无短裙摆和裸露大腿；该截幅未验全身及膝长度。",
+      "userApprovedThisExactImage": false,
+      "runtimeAdopted": false
+    }
+  ],
+  "limits": [
+    "阴影与光照仍须在A08真实场景中逐镜复核",
+    "六选项态不作运行通过结论",
+    "裙长在上大腿截幅外，后续全身/CG须遵从及膝约定",
+    "不同衣装的表情不直接作脸部贴片复用"
+  ]
+}

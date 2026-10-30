@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "SUI-I-1",
+  "version": "i02-diagnostic-fixture-1",
+  "scope": {
+    "kind": "diagnostic",
+    "description": "仅验证I02加载/演出/恢复的三张真实图技术负载；非剧情采用或I01正式绑定",
+    "missing": [
+      "I01冻结采用清单与完整演出绑定尚未交接",
+      "完整60项真实CG注册/全作负载与六线逐段演出未验证"
+    ]
+  },
+  "interfaceSha256": "855d61be98cc7c19bb3e39c386c80715bf9ece5de6c22f68744fafd3efac5984",
+  "manifest": {
+    "path": "qa/sui-i02-20261029/fixture/manifest.json",
+    "sha256": "a418e8a6485972e9c8451e1100950c5c5efc862c2fb5d31317c9266b519f0328"
+  },
+  "bindings": {
+    "path": "qa/sui-i02-20261029/fixture/bindings.json",
+    "sha256": "42a48a77fbd26eac134a79cbc03cce36e8a235665b4ad8327a24a2e7918d9fa6"
+  },
+  "files": [
+    {
+      "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+      "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-bijie-arrival-platform/bg-bijie-arrival-platform-day-rain-v001.png",
+      "sha256": "bb62c6c2a3ad2438b9c5399fea5762932ba0f29e0d030aed5da263170d507bdb"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg001-v001.png",
+      "sha256": "7836e63fd115178ebb0ae1b15a7abf73147a67ecca31021c69d7f58b21ad8b09"
+    },
+    {
+      "path": "docs/整合/interface-v1.json",
+      "sha256": "855d61be98cc7c19bb3e39c386c80715bf9ece5de6c22f68744fafd3efac5984"
+    },
+    {
+      "path": "qa/SUI-A11-20261029/pending-adoption.json",
+      "sha256": "c6b529444c028a9267debe45f090c014bc9c6b08cfd42200446eacbca05c2f44"
+    },
+    {
+      "path": "qa/sui-i02-20261029/fixture/bindings.json",
+      "sha256": "42a48a77fbd26eac134a79cbc03cce36e8a235665b4ad8327a24a2e7918d9fa6"
+    },
+    {
+      "path": "qa/sui-i02-20261029/fixture/manifest.json",
+      "sha256": "a418e8a6485972e9c8451e1100950c5c5efc862c2fb5d31317c9266b519f0328"
+    },
+    {
+      "path": "qa/sui-i02-20261029/fixture/resources/bg-bijie-arrival-platform-day-rain.webp",
+      "sha256": "2297a928a8ed6835879d50bdbc86976bcb896290a4554e8e3405790ff95b724b"
+    },
+    {
+      "path": "qa/sui-i02-20261029/fixture/resources/cg-common-cg001.webp",
+      "sha256": "d8510b2fb3e547956f19ce7fd6ef808aa3ae52ab59486bb0ece02500b525b1e6"
+    },
+    {
+      "path": "qa/sui-i02-20261029/fixture/resources/char-xiaoman-base.webp",
+      "sha256": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab"
+    }
+  ],
+  "missing": [
+    "I01冻结采用清单与完整演出绑定尚未交接",
+    "完整60项真实CG注册/全作负载与六线逐段演出未验证"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "CG100",
+  "title": "只在群里收到婚讯",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg100-v003",
+  "version": "v003",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "PRE/prop-wenwen-personal-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg100-v002.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Only replace the three circular chat-avatar pictures on the smartphone screen with simple solid grey circles containing an identical generic white head-and-shoulder placeholder icon. No flowers, landscapes, photos, real faces or account identity. Preserve the exact message text 我们结婚了, 谢谢, 收到, the unopened generic photo attachment, the phone, hands, blue denim cuffs and entire scene. No other changes.",
+  "shot": {
+    "id": "CG100",
+    "kind": "retained-selection",
+    "title": "只在群里收到婚讯",
+    "originalTitle": "只在群里收到婚讯",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+        "line": 147,
+        "anchor": "两年后，群里收到了毛狼与飘的婚讯，配文写着“我们结婚了”。"
+      }
+    ],
+    "time": "HIGH后日谈，两年后，FR-E2群消息",
+    "routeGroup": "PM",
+    "source": {
+      "path": "scenario/后日谈-他们的日子.md",
+      "line": 151,
+      "paragraph": "TEXT_94e7790667ee74878026",
+      "scope": "### 两年后｜饭还没凉",
+      "nearestNode": "<!-- NODE EP-HIGH -->",
+      "quote": "两年后，群里收到了毛狼与飘的婚讯，配文写着“我们结婚了”。两个人一起发的，照片也在同一条消息下面。我把祝福发过去，毛狼回谢谢，飘跟了一句收到。",
+      "conditions": [
+        "PIAO_RELATION=HIGH",
+        "ENDING!=PI-E1",
+        "ENDING=FR-E2"
+      ],
+      "sourceSha256": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+      "matchText": "两年后，群里收到了毛狼与飘的婚讯，配文写着“我们结婚了”。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文的手/手机",
+      "offscreenOrRemote": "毛狼与飘只在群消息，婚讯照片为远程附件"
+    },
+    "wardrobeAndForm": "文文B袖；不画其赴宴，也不自动设计婚纱",
+    "propState": "群消息“我们结婚了”，同条照片附件、祝福短回复",
+    "composition": "只画手机消息和未展开照片附件框；照片具体场景/服装未给，不擅制婚礼照。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "epilogue",
+          "value": "后日谈-他们的日子.md"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=HIGH",
+        "ENDING!=PI-E1",
+        "ENDING=FR-E2"
+      ]
+    },
+    "reviewNotes": "若要展开照片，须另确认具体画面；本版本保留附件信息即可，不恢复友情或现场视角。",
+    "referenceKeys": [
+      "A07/wenwen-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_94e7790667ee74878026_1",
+      "visiblePageIds": [
+        "TEXT_94e7790667ee74878026_1"
+      ],
+      "exitBeforeId": "TEXT_0e72aea71de1cb6361a3_1",
+      "snapshotBefore": "HIGH后日谈，两年后，FR-E2群消息；文文的手/手机；文文B袖；不画其赴宴，也不自动设计婚纱；群消息“我们结婚了”，同条照片附件、祝福短回复",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "若要展开照片，须另确认具体画面；本版本保留附件信息即可，不恢复友情或现场视角。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-message-screen-cg100",
+        "owner": "SUI-A10-COMMON",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "待补当拍参考；非已放行资源",
+        "templateKey": "prop-message-screen"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-wenwen-personal-kit-v001"
+        ],
+        "frameUse": "只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。"
+      }
+    ],
+    "internalWorkItems": [
+      {
+        "requirementId": "prop-message-screen-cg100",
+        "owner": "SUI-A10-COMMON",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "in-package-production-work",
+        "templateKey": "prop-message-screen",
+        "frameUse": "群消息“我们结婚了”，同条照片附件、祝福短回复；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+        "referenceKeys": []
+      }
+    ],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "PRE/prop-wenwen-personal-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "未给头像改为无身份通用占位",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg100-v003.png",
+  "sourceSha256": "22961a13b59fdd2d62bd0bf2af547e6813588eeee3204ce5e904025091f3a17e",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-01bad5dc-b4d9-40d5-9ff0-5ac95b21f5fb.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg100-v002.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg100-v002.png",
+      "sha256": "9e9cd584c1a5b05f7930c6d1c4422facad713f4cdd57c9e20aa815b933f9a0fe"
+    }
+  ],
+  "runtimeAdopted": false
+}

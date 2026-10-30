@@ -1,0 +1,172 @@
+{
+  "id": "CG001",
+  "title": "坏轮子的返乡",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg001-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A07/maolang-base",
+    "A08/bg-bijie-arrival-platform-day-rain",
+    "PRE/prop-wenwen-personal-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-bijie-arrival-platform/bg-bijie-arrival-platform-day-rain-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：毛狼D日常身份，黑图案T，黑护腕\n图3：A08/bg-bijie-arrival-platform-day-rain，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：道具多视图不表示多部手机。CG001坏轮未修；CG082只保留当拍仍可用租屋钥匙，不复制板上的全部钥匙。\n核心画面：第一人称近景，文文牛仔袖的掌心位于上中部，毛狼右手正把脱下的黑色箱轮放入掌心，毛狼半身自然在右后方、轻微无奈；坏箱置于侧下方，雨棚背景，电话已挂断，箱轮未修。\n衣装/形态硬约束：两人沿A07已选日常服；掌心与毛狼半身为主\n当拍道具：坏行李箱、脱落轮子；电话已挂断\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；CG001仅坏轮箱/脱落轮子，尚未修复；CG082仅旧包与袋中换洗物，不搬入同住。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG001",
+    "kind": "retained-selection",
+    "title": "坏轮子的返乡",
+    "originalTitle": "坏轮子的返乡",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+        "line": 21,
+        "anchor": "挂电话以后，毛狼把轮子放进我掌心。"
+      }
+    ],
+    "time": "第1天，返乡站台",
+    "routeGroup": "COMMON",
+    "source": {
+      "path": "scenario/第一章-回到毕节.md",
+      "line": 21,
+      "paragraph": "TEXT_982d9ac0f683c6bbb52b",
+      "scope": "### 第1天｜你带了个拖拉机",
+      "nearestNode": null,
+      "quote": "挂电话以后，毛狼把轮子放进我掌心。",
+      "conditions": [],
+      "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "matchText": "挂电话以后，毛狼把轮子放进我掌心。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、毛狼",
+      "offscreenOrRemote": "银行来电已结束；路人不需具名面孔"
+    },
+    "wardrobeAndForm": "两人沿A07已选日常服；掌心与毛狼半身为主",
+    "propState": "坏行李箱、脱落轮子；电话已挂断",
+    "composition": "轮子交到文文掌心，毛狼没有修好或接回；背景是抵达雨棚。",
+    "conditions": {
+      "entryGates": [],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "此拍后才蹲下试拧；不预先画成修复箱。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A07/maolang-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_982d9ac0f683c6bbb52b_1",
+      "visiblePageIds": [
+        "TEXT_982d9ac0f683c6bbb52b_1"
+      ],
+      "exitBeforeId": "TEXT_d21f786e12142417e468_1",
+      "snapshotBefore": "第1天，返乡站台；文文、毛狼；两人沿A07已选日常服；掌心与毛狼半身为主；坏行李箱、脱落轮子；电话已挂断",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "此拍后才蹲下试拧；不预先画成修复箱。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-bijie-arrival-platform",
+        "owner": "SUI-A08",
+        "name": "毕节抵达站台/雨棚",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-bijie-arrival-platform-day-rain-v001",
+            "status": "generated-awaiting-qa"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-wenwen-luggage",
+        "owner": "SUI-A07",
+        "name": "坏轮箱/修复箱/旧包",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-bijie-arrival-platform",
+        "owner": "SUI-A08",
+        "name": "毕节抵达站台/雨棚",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-bijie-arrival-platform-day-rain-v001",
+            "status": "generated-awaiting-qa"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-bijie-arrival-platform-day-rain"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-wenwen-luggage",
+        "owner": "SUI-A07",
+        "name": "坏轮箱/修复箱/旧包",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-wenwen-personal-kit-v001"
+        ],
+        "frameUse": "CG001仅坏轮箱/脱落轮子，尚未修复；CG082仅旧包与袋中换洗物，不搬入同住。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A07/maolang-base",
+      "A08/bg-bijie-arrival-platform-day-rain",
+      "PRE/prop-wenwen-personal-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg001-v001.png",
+  "sourceSha256": "7836e63fd115178ebb0ae1b15a7abf73147a67ecca31021c69d7f58b21ad8b09",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-28dee581-99c5-481c-a1e3-3580ae504039.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+      "sha256": "e6cf30699797672c913c70bb1bbe3eb18505de94948d878999fc7e67dd85c6b8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-bijie-arrival-platform/bg-bijie-arrival-platform-day-rain-v001.png",
+      "sha256": "bb62c6c2a3ad2438b9c5399fea5762932ba0f29e0d030aed5da263170d507bdb"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png",
+      "sha256": "b9abeb96d46f97a4cae9bc7f40b34d15f828c27f13c531e5eeaa0e4c3fa6def2"
+    }
+  ],
+  "runtimeAdopted": false
+}

@@ -1,0 +1,189 @@
+{
+  "id": "CG067",
+  "title": "先把话说清楚",
+  "package": "SUI-A10-PI",
+  "stem": "cg-pi-cg067-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A05/piao-base",
+    "A08/bg-noodle-shop-day",
+    "PRE/prop-piao-knots-reference-v002"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v002.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：飘B成年女性，黑低马尾、黑滚边白短袖、红细绳、浅酒窝\n图3：A08/bg-noodle-shop-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：湿绳供CG067；手提布袋及结供CG096；CG068结对象未明，只参考手结姿态，不指定布袋或新增绳种。\n核心画面：面馆门外台阶手部近景，飘唯一打结动作是刚捡起的细湿绳绕手指又松开，红绳手腕/白滚边袖可见，文文牛仔袖在对侧。未讲出消息、没有毛狼、相机包或孕肚，仍是双人单独谈话前。\n衣装/形态硬约束：飘B，身形不因怀孕被擅自改造\n当拍道具：从台阶捡起的湿绳，绕手指后松开\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；CG067湿绳；CG096手提布袋带结。CG063碗勺近景无衣角结特写；CG068正文未明打结对象，镜头限手与相机，对象保持画外，不把参考袋子补入。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG067",
+    "kind": "retained-selection",
+    "title": "先把话说清楚",
+    "originalTitle": "先把话说清楚",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+        "line": 1204,
+        "anchor": "第36天，她约我到面馆门外。台阶上有一段被雨打湿的绳子，她捡起来，绕在手指上，又松开。"
+      }
+    ],
+    "time": "LOW第36天，本线面馆门外",
+    "routeGroup": "PI",
+    "source": {
+      "path": "scenario/飘-空白页.md",
+      "line": 1208,
+      "paragraph": "TEXT_c84f638688ba74e20f84",
+      "scope": "PI-LOW-D36",
+      "nearestNode": "<!-- NODE PI-LOW-D36 -->",
+      "quote": "第36天，她约我到面馆门外。台阶上有一段被雨打湿的绳子，她捡起来，绕在手指上，又松开。",
+      "conditions": [
+        "PIAO_RELATION=LOW"
+      ],
+      "sourceSha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "matchText": "第36天，她约我到面馆门外。台阶上有一段被雨打湿的绳子，她捡起来，绕在手指上，又松开。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、飘",
+      "offscreenOrRemote": "毛狼没有在本拍到场"
+    },
+    "wardrobeAndForm": "飘B，身形不因怀孕被擅自改造",
+    "propState": "从台阶捡起的湿绳，绕手指后松开",
+    "composition": "飘与文文双人谈话前的手部近景；她还未说出怀孕消息。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "piao"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=LOW"
+      ]
+    },
+    "reviewNotes": "仅PI本线，不复用五线公共事件；本镜绳是湿绳，公共事件是相机包带；PI-L06选项尚未发生。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_c84f638688ba74e20f84_1",
+      "visiblePageIds": [
+        "TEXT_c84f638688ba74e20f84_1"
+      ],
+      "exitBeforeId": "TEXT_552141c31728b924f001_1",
+      "snapshotBefore": "LOW第36天，本线面馆门外；文文、飘；飘B，身形不因怀孕被擅自改造；从台阶捡起的湿绳，绕手指后松开",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "仅PI本线，不复用五线公共事件；本镜绳是湿绳，公共事件是相机包带；PI-L06选项尚未发生。"
+    },
+    "production": {
+      "package": "SUI-A10-PI",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-noodle-shop",
+        "owner": "SUI-A08",
+        "name": "面馆/早餐店/门外台阶",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-noodle-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-noodle-shop-front-dawn-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-piao-knots",
+        "owner": "SUI-A05",
+        "name": "布袋/布条/衣角结/发绳",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-noodle-shop",
+        "owner": "SUI-A08",
+        "name": "面馆/早餐店/门外台阶",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-noodle-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-noodle-shop-front-dawn-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-noodle-shop-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-piao-knots",
+        "owner": "SUI-A05",
+        "name": "布袋/布条/衣角结/发绳",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-piao-knots-reference-v002"
+        ],
+        "frameUse": "CG067湿绳；CG096手提布袋带结。CG063碗勺近景无衣角结特写；CG068正文未明打结对象，镜头限手与相机，对象保持画外，不把参考袋子补入。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A08/bg-noodle-shop-day",
+      "PRE/prop-piao-knots-reference-v002"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg067-v001.png",
+  "sourceSha256": "6a20c2345908411c43f6be4ab07ec9b51e9fdb7819cffbfa5c4186eb8bae047b",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-e08a3050-053c-4632-81f0-e21857846025.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-day-v001.png",
+      "sha256": "b24b63d7caf5f398391b779e48a2a9cfffa9527940590436d74a512ee2f3e839"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v002.png",
+      "sha256": "f2664bb403036d59e1f2ae2658268e7f3dae89bf3eb57ae82941e5aa8cb3feb1"
+    }
+  ],
+  "runtimeAdopted": false
+}

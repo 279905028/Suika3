@@ -1,0 +1,2553 @@
+{
+  "schemaVersion": "SUI-A02-1",
+  "ownerTask": "SUI-A02",
+  "scope": "11张包内图及无损审阅副本；运行衍生由A11另行确认",
+  "currentProjectAdopted": false,
+  "records": [
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-base",
+      "kind": "base",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "base",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 365,
+          "quote": "我点头。她笑着走了。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-164ceea3-ac43-4efd-88e9-508e8d2b942f.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/prompts.md",
+      "sourceFile": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.webp",
+      "sha256Source": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+      "sha256Derivative": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1493464,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          35,
+          0,
+          969,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 568486,
+        "partialPixels": 1004378,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 556
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": null,
+          "propAboveDialogue": null,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "本聊天：Option A基础图已确认"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2386131,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            35,
+            0,
+            969,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 568486,
+          "partialPixels": 1004378,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 556
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6"
+      },
+      "useRestriction": "默认砖红夹克/白内搭/深色牛仔裤；无额外道具。不同衣装、电话与视频镜头不自动套用。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-serious",
+      "kind": "expression",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "serious",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 177,
+          "quote": "后面的二十分钟，她没再讲笑话。我看她一小撮一小撮地剪，刚想转头，肩膀就被她按住。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-7b6edaee-c7f1-4482-b788-3455d82f40eb.png",
+          "sha256": "93d5723bf97ee0af5d3f997e04a8ab3aef85e679a741d5a74e9516c0116dbb8b",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-serious-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-serious-v001.webp",
+      "sha256Source": "93d5723bf97ee0af5d3f997e04a8ab3aef85e679a741d5a74e9516c0116dbb8b",
+      "sha256Derivative": "5b007454d7ac54049f26355ba1d527929c57988b9d7326a3e459f9044b2f43f9",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1452744,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          992,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 566917,
+        "partialPixels": 1005947,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 557
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": null,
+          "propAboveDialogue": null,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2306342,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            992,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 566917,
+          "partialPixels": 1005947,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 557
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "93d5723bf97ee0af5d3f997e04a8ab3aef85e679a741d5a74e9516c0116dbb8b"
+      },
+      "useRestriction": "夹克衣装的专注对话；第22天卷袖、含发夹及实际剪发动作仍以专门镜头为准。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-displeased",
+      "kind": "expression",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "displeased",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 99,
+          "quote": "“我还气着。”她没有松手，“别以为我肯跟你吃饭，就没事了。”",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        },
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 448,
+          "quote": "小满问哪天就知道了。我说回来以前。她没有再问，低头把汤勺搁好，连刚才没讲完的店里趣事也没继续。",
+          "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-88274b28-167a-4e45-bcdf-0e0576d81796.png",
+          "sha256": "f13b0f0b7389f36b34166df2e1e13513f53a11b77d4a0e317507b085fb322ad1",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-displeased-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-displeased-v001.webp",
+      "sha256Source": "f13b0f0b7389f36b34166df2e1e13513f53a11b77d4a0e317507b085fb322ad1",
+      "sha256Derivative": "9c0b92a1352a6489bc8d25dc744fe2295ae9cf71e81f33b0abe59412ba7e59c6",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1453110,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 555319,
+        "partialPixels": 1017545,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 555
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": null,
+          "propAboveDialogue": null,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2325876,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1023,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 555319,
+          "partialPixels": 1017545,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 555
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "f13b0f0b7389f36b34166df2e1e13513f53a11b77d4a0e317507b085fb322ad1"
+      },
+      "useRestriction": "第14天被骗后、第15天仍生气的对话；不是喜剧怒脸，也不代表已原谅。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-embarrassed",
+      "kind": "expression",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "embarrassed",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 189,
+          "quote": "她捡起夹子，耳朵红了一点。“我叫你看头发。”",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 337,
+          "quote": "她没答。我让她把那句改了，她当着我的面发进群里，说刚才吹牛，在贵阳没谈，别再替我们往前编。阿俊立刻回了一串笑，她把屏幕锁上，脸红得比亲吻时更厉害。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-196e1ccc-61c9-4bb8-8f51-8f2ff4eef5cd.png",
+          "sha256": "ced1f830b64adedad3078950ccc56b55f6511dbab4b62dda7dd3c3aff01a0c22",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-embarrassed-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-embarrassed-v001.webp",
+      "sha256Source": "ced1f830b64adedad3078950ccc56b55f6511dbab4b62dda7dd3c3aff01a0c22",
+      "sha256Derivative": "6b70cb8419392cd6b77bbacb368c8eb01f63d4cbccce4037e9d3636f3ecb53b3",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1451144,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1004,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 562895,
+        "partialPixels": 1009969,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 558
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": null,
+          "propAboveDialogue": null,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2303633,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1004,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 562895,
+          "partialPixels": 1009969,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 558
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "ced1f830b64adedad3078950ccc56b55f6511dbab4b62dda7dd3c3aff01a0c22"
+      },
+      "useRestriction": "耳红/目光短暂移开；第22天仅作表情参考，不能替代含发夹及卷袖动作；裙装需保持衣装连续。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-hesitant",
+      "kind": "expression",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "hesitant",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 761,
+          "quote": "我看着她。她把本子合好，终于没再说回来就好了。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-7ac2363f-696c-485b-a741-a2b69e5a6b9a.png",
+          "sha256": "578ceb7cc4debd5c07a321c68bbb4623011354324dbd5bb5a8596bd8904040bc",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-hesitant-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-hesitant-v001.webp",
+      "sha256Source": "578ceb7cc4debd5c07a321c68bbb4623011354324dbd5bb5a8596bd8904040bc",
+      "sha256Derivative": "bf55fbc53b2d59c96d0cebff6667af0ab581d35647604123a0f2c211dd8d755b",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1452548,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1010,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 558571,
+        "partialPixels": 1014293,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 556
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": null,
+          "propAboveDialogue": null,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2323811,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1010,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 558571,
+          "partialPixels": 1014293,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 556
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "578ceb7cc4debd5c07a321c68bbb4623011354324dbd5bb5a8596bd8904040bc"
+      },
+      "useRestriction": "第60天共同段的迟疑；不能单凭此图判定继续或分开。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-downcast",
+      "kind": "expression",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "downcast",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 835,
+          "quote": "她看着我，眼睛红了，却没靠过来。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "XM07-01=B & XM08-01=A"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-3930c2a6-517f-41a4-af52-5d59f6d1105d.png",
+          "sha256": "953e7525bd016cf0b5ff9cfc04335781165931e96050e5470e0ce67515b02e84",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-downcast-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-expression-downcast-v001.webp",
+      "sha256Source": "953e7525bd016cf0b5ff9cfc04335781165931e96050e5470e0ce67515b02e84",
+      "sha256Derivative": "b61cc8e4348ad341d55e52b5e1ee2fee841e79d0c716e05ed1d32bd47f565dbb",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1461444,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          1,
+          998,
+          1535
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 564684,
+        "partialPixels": 1008180,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 557
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": null,
+          "propAboveDialogue": null,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2315081,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            1,
+            998,
+            1535
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 564684,
+          "partialPixels": 1008180,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 557
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "953e7525bd016cf0b5ff9cfc04335781165931e96050e5470e0ce67515b02e84"
+      },
+      "useRestriction": "BA分开段的表情依据；通用悲伤可经逐拍复核复用，不给BA追加拥抱、亲吻或复合。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-practice-notebook",
+      "kind": "action",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "practice-notebook",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman",
+        "prop-xiaoman-practice-kit"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 83,
+          "quote": "我笑了一下，她把本子合上，才跟着笑了半声。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-a20ade42-6424-4a93-865f-4b10d1a21b89.png",
+          "sha256": "69336079d9c8e9339f70b87181a32234552f59d301e27e1e9b2e84c1573d99ae",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.webp",
+      "sha256Source": "69336079d9c8e9339f70b87181a32234552f59d301e27e1e9b2e84c1573d99ae",
+      "sha256Derivative": "a3c4432b326aa60dc6048a4d6098782d34838eb4ad41f697bbd0d9ee882f5f58",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1509744,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          35,
+          0,
+          939,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 597240,
+        "partialPixels": 975624,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 553
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": [
+          520,
+          610,
+          210,
+          280
+        ],
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": [
+            643.4,
+            275.7,
+            77.7,
+            103.6
+          ],
+          "propAboveDialogue": true,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2407496,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            35,
+            0,
+            939,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 597240,
+          "partialPixels": 975624,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 553
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "69336079d9c8e9339f70b87181a32234552f59d301e27e1e9b2e84c1573d99ae"
+      },
+      "useRestriction": "闭合、无字的旧练习本；适合第15天预约交流收尾。不是打开错误页、报名材料或车站交还照片的动作。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-two-helmets",
+      "kind": "action",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "two-helmets",
+      "version": "v002",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman",
+        "prop-xiaoman-helmets"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 707,
+          "quote": "等款到账，她把备用钥匙一并交了。女人问贴纸能不能撕，她说都卖你了，随便。说完立刻转过身，抱着两顶头盔往另一边走。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-98a69d63-8694-4536-9a45-8edd047303e3.png",
+          "sha256": "d6a25b846ec16dee30f09582d9b471078951a4af5ef9fc7830efbe33e9f93a26",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v001.png",
+          "sha256": "7d14b9b226a882712ee688afe2b66914377e72bc3b23b188503690f9e03f3856",
+          "role": "返修直接输入；旧版只追溯，不作采用"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.webp",
+      "sha256Source": "d6a25b846ec16dee30f09582d9b471078951a4af5ef9fc7830efbe33e9f93a26",
+      "sha256Derivative": "8efd9b26850d19f41db89d525151b12e61499d375b368583b1b10e158a24a162",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1505158,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          5,
+          1024,
+          1531
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 551259,
+        "partialPixels": 1021605,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 563
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": [
+          185,
+          680,
+          795,
+          480
+        ],
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": [
+            519.45,
+            301.6,
+            294.15,
+            177.6
+          ],
+          "propAboveDialogue": true,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": "v001：头盔表情不适配卖车后",
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2380478,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            5,
+            1024,
+            1531
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 551259,
+          "partialPixels": 1021605,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 563
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "d6a25b846ec16dee30f09582d9b471078951a4af5ef9fc7830efbe33e9f93a26"
+      },
+      "useRestriction": "第53天交车后抱两顶头盔；无钥匙。两顶灰色头盔是本包道具造型，不能据此补写原文颜色；寄店后不继续让她随身携带。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-work-apron",
+      "kind": "outfit-action",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "work-apron",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman",
+        "prop-xiaoman-tools"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 241,
+          "quote": "门外有人按了两下喇叭。小满关掉水，在围裙上擦手，先冲外面喊：“催命啊，没看见有人？”",
+          "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919",
+          "condition": "ALL"
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 25,
+          "quote": "剪刀只动了几下。她让阿姨自己梳一遍，确认头发往平时的方向落，才解开围布。阿姨转了两次头，问下回来了找哪个。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-87cebca0-73d3-4124-830c-79337714e286.png",
+          "sha256": "32c0da1ec64b65b36c8501e1d05dd3f08f87036c6de545cc320985d3cda121ea",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.webp",
+      "sha256Source": "32c0da1ec64b65b36c8501e1d05dd3f08f87036c6de545cc320985d3cda121ea",
+      "sha256Derivative": "7a46c1ac2d3db02e3a35970d90eab87f81c2dd9f3037b80fe7043e07826f89c2",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1283518,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          996,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 751150,
+        "partialPixels": 821714,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 554
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": [
+          350,
+          550,
+          500,
+          330
+        ],
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": [
+            580.5,
+            253.5,
+            185.0,
+            122.1
+          ],
+          "propAboveDialogue": true,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2120497,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            996,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 751150,
+          "partialPixels": 821714,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 554
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "32c0da1ec64b65b36c8501e1d05dd3f08f87036c6de545cc320985d3cda121ea"
+      },
+      "useRestriction": "白T/深灰围裙，闭合剪刀与梳子；用于理发店职业形象及道具连续性。擦手、举镜、剪发接触动作不由这张静态持物图代替。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-old-sweatshirt",
+      "kind": "outfit",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "old-sweatshirt",
+      "version": "v001",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 571,
+          "quote": "她骂了句烦，把夹子扔进箱子。我站起身，等她。她找了半天外套，穿上又脱掉，最后穿着店里的旧卫衣出了门。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "XM07-01=A"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-b9d13eb8-1f7d-47aa-a2f0-e5f5a7caea43.png",
+          "sha256": "a5cee490da03e9faf93a5efdc60181b9eea2adbf447c1701d0b7119ea521e9ac",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-old-sweatshirt-base-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-old-sweatshirt-base-v001.webp",
+      "sha256Source": "a5cee490da03e9faf93a5efdc60181b9eea2adbf447c1701d0b7119ea521e9ac",
+      "sha256Derivative": "8e036d42bba78a22f4c8f9b3b45604019a37bdce1b06d0a4bbcf0a348b224df6",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1499742,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          60,
+          0,
+          932,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 631392,
+        "partialPixels": 941472,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 563
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": null,
+          "propAboveDialogue": null,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2366546,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            60,
+            0,
+            932,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 631392,
+          "partialPixels": 941472,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 563
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "a5cee490da03e9faf93a5efdc60181b9eea2adbf447c1701d0b7119ea521e9ac"
+      },
+      "useRestriction": "用户选择深灰无图案圆领旧卫衣及原深色牛仔裤；仅按第40天A段衣装依据，不自动沿用到B段或整条后续路线。"
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "A02包内源稿与无损审阅副本；不是运行采用或全局采用清单",
+      "assetId": "char-xiaoman-skirt",
+      "kind": "outfit",
+      "ownerTask": "SUI-A02",
+      "characterOrSceneKey": "xiaoman",
+      "form": "human",
+      "variant": "skirt",
+      "version": "v002",
+      "status": "制作完成；待A11接收/逐图采用审定",
+      "requirementKeys": [
+        "char-xiaoman"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 379,
+          "quote": "小满一把把我从最后一排拽到旁边。有人喊女孩子往前蹲，她说裙子不好蹲，叫那人自己往下矮一点。毛狼笑着调镜头，她又把我皱掉的衣领拉平。",
+          "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+          "condition": "ALL"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A02/references/xiaoman-face-v2-reference.png",
+          "sha256": "a576591f1b2a93c0c20eae946085ff3b1f404f143055a49dee6871f995d76a70",
+          "role": "既有外形基线；白名单单文件引用"
+        },
+        {
+          "path": "/Users/yipin/.codex/generated_images/01a1818e-d822-7e72-a250-c92582af47ea/exec-9fb1198f-b067-4497-9cda-28cfecd35de8.png",
+          "sha256": "15eda1f46142e87db7aa6b1489cf97aa2a175341cc261f72a63164d5c26b76a6",
+          "role": "内置image_gen原始输出；本工程有等字节副本"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+          "role": "用户已选A基础；差分外形与画法约束"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/rejected/char-xiaoman-human-skirt-short-rejected-v001.png",
+          "sha256": "3e40f5165b69c663a91310dae05ca7540fb98538d09e4cb033cad5440bb59cfe",
+          "role": "返修直接输入；旧版只追溯，不作采用"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A02-20261028/generation-requests.json",
+      "sourceFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-skirt-base-v002.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-skirt-base-v002.webp",
+      "sha256Source": "15eda1f46142e87db7aa6b1489cf97aa2a175341cc261f72a63164d5c26b76a6",
+      "sha256Derivative": "4ac96f7dae3340a9b53362a13659d3175abc62d2d1ec291f743e7bf4fcc37e4e",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1399632,
+      "orientation": 1,
+      "colorSpace": "sRGB ICC",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          993,
+          1536
+        ],
+        "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+        "transparentPixels": 554999,
+        "partialPixels": 1017865,
+        "opaquePixels": 0,
+        "cornerValues": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "edgePixelsAbove128": {
+          "left": 0,
+          "right": 0,
+          "top": 0,
+          "bottom": 712
+        }
+      },
+      "encoding": {
+        "tool": "Pillow / libwebp",
+        "version": "12.3.0 / 1.6.0",
+        "lossless": true,
+        "quality": null,
+        "method": 6,
+        "exact": true,
+        "profileProcess": "未标记源RGB按sRGB解释并嵌入标准ICC；无像素转换；PNG原件不变"
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+        "pivot": [
+          540,
+          480
+        ],
+        "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+        "criticalRect": [
+          350,
+          128,
+          355,
+          330
+        ],
+        "criticalPropRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "scale": null,
+        "staticPreview": {
+          "placement": {
+            "canvas": [
+              1280,
+              720
+            ],
+            "scale": 0.37,
+            "imageTop": 50,
+            "imageLeft": 451,
+            "criticalFaceRect": [
+              350,
+              128,
+              355,
+              330
+            ],
+            "pivot": [
+              540,
+              480
+            ],
+            "pivotMeaning": "共同颈口排版基准；不是脚底，不直接用作NovelML坐标",
+            "scope": "本批静态合成候选排版，未冻结引擎槽位"
+          },
+          "faceRectOnCanvas": [
+            580.5,
+            97.36,
+            131.35,
+            122.1
+          ],
+          "faceAboveDialogue": true,
+          "propRectOnCanvas": null,
+          "propAboveDialogue": null,
+          "sixChoiceCoversCharacter": true,
+          "choiceHandling": "六选项时隐藏/淡出立绘或按E/U另排；本批静态正文合成不等于选择态运行通过"
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "XM"
+        ],
+        "sceneNodeIds": [],
+        "condition": "逐项依据storyAnchors；不得从情绪图推导路线状态",
+        "enter": "待E/I根据正文稳定ID绑定；当前仅离线映射",
+        "exitAndRestore": "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/罗小满.md",
+          "本聊天：用户选定Option A；旧卫衣和裙型分别已选择"
+        ],
+        "imageEvidence": [
+          "在已确认Option A基础上制作；本批视觉检查，未伪造用户逐图批准"
+        ],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA字节一致",
+        "compositeWhiteBlackDayNight": "通过（本批离线视觉初检；见qa/SUI-A02-20261028/visual-review.json）",
+        "engine": "未测",
+        "browser": "未测游戏；仅离线审阅页另记",
+        "physicalPhone": "未测",
+        "desktop": "未测游戏",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11正式格式接收与采用审定",
+        "SUI-I唯一导入",
+        "E/I演出及状态恢复绑定",
+        "Q引擎/浏览器/手机真机/桌面验收"
+      ],
+      "supersedes": "v001：短裙不符合及膝设计，已隔离",
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 2197546,
+        "orientation": 1,
+        "colorSpace": "未标记RGB；本批按sRGB解释，不改源图",
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            993,
+            1536
+          ],
+          "coordinateBasis": "源图/衍生图像素；[x,y,width,height]",
+          "transparentPixels": 554999,
+          "partialPixels": 1017865,
+          "opaquePixels": 0,
+          "cornerValues": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "edgePixelsAbove128": {
+            "left": 0,
+            "right": 0,
+            "top": 0,
+            "bottom": 712
+          }
+        },
+        "rgbaDecodedBytes": 6291456,
+        "sha256": "15eda1f46142e87db7aa6b1489cf97aa2a175341cc261f72a63164d5c26b76a6"
+      },
+      "useRestriction": "用户选择深灰黑色及膝A字裙，保留夹克/白内搭。上大腿截幅不显示裙摆与膝；及膝长度为后续全身/CG约束，本图不冒充全身长度验收。"
+    }
+  ]
+}

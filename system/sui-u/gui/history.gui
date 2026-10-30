@@ -1,0 +1,25 @@
+# SUI-U · generated from source/build.py
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+}
+
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: system/sui-u/png/history.png;
+}
+BACK {
+    id: 1;
+    type: cancel;
+    x: 1080;
+    y: 32;
+    image-idle: system/sui-u/png/back-idle.png;
+    image-hover: system/sui-u/png/back-hover.png;
+    image-press: system/sui-u/png/back-press.png;
+}

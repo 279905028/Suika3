@@ -1,0 +1,218 @@
+{
+  "id": "CG075",
+  "title": "糊掉一半的小白花",
+  "package": "SUI-A10-HQ",
+  "stem": "cg-hq-cg075-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A06/sui-a06-orb-base-v001-png",
+    "A08/bg-huangqiuqiu-room-day",
+    "PRE/photo-hq-yard-whiteflowers-blurred-v001",
+    "PRE/prop-wenwen-personal-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261029/SUI-A06/selected/orb/char-huangqiuqiu-orb-base-neutral-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A08/photo-hq-yard-whiteflowers-blurred-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：黄球球球形A，一只小手；无躯干、腿或第二手\n图3：A08/bg-huangqiuqiu-room-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：CG075文文手机内的墙根小白花照片，半幅失焦；不据此给黄球球手机或公开出院。\n图5：道具多视图不表示多部手机。CG001坏轮未修；CG082只保留当拍仍可用租屋钥匙，不复制板上的全部钥匙。\n核心画面：球形黄球球与手机近景，黄色圆球一只小手挡住文文黑手机屏幕的一部分，文文牛仔袖手协助放大。屏幕用参考半糊小白花原片，另一半白花仍可见；她没有自己的手机、没有人形胳膊腿。\n衣装/形态硬约束：球形A；一只小手操作，非人形\n当拍道具：文文手机、小白花模糊照片\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；仅文文手机内的小白花糊照；小手挡一部分屏幕，不新造黄球球手机或人形。；只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG075",
+    "kind": "retained-selection",
+    "title": "糊掉一半的小白花",
+    "originalTitle": "糊掉一半的小白花",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+        "line": 161,
+        "anchor": "照片糊了一半，她拿着我的手机看，想放大，又被自己的小手挡住。"
+      }
+    ],
+    "time": "第24天，房内看小白花照片",
+    "routeGroup": "HQ",
+    "source": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 161,
+      "paragraph": "TEXT_711a2e20991bd597f014",
+      "scope": "HQ04-01/COMMON",
+      "nearestNode": null,
+      "quote": "第24天，我拍到了那簇白花。照片糊了一半，她拿着我的手机看，想放大，又被自己的小手挡住。我按她说的位置放大，她嫌我放太大，两个人折腾了一会儿才看清。",
+      "conditions": [],
+      "sourceSha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "matchText": "照片糊了一半，她拿着我的手机看，想放大，又被自己的小手挡住。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、黄球球球形",
+      "offscreenOrRemote": "其他人画外"
+    },
+    "wardrobeAndForm": "球形A；一只小手操作，非人形",
+    "propState": "文文手机、小白花模糊照片",
+    "composition": "球形小手挡住屏幕局部，文文按她要求调整放大。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "huangqiuqiu"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "黄球球没有自有手机；这张是花，不偷拍她，不画门外公开活动。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-orb-base-v001-png"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_711a2e20991bd597f014_1",
+      "visiblePageIds": [
+        "TEXT_711a2e20991bd597f014_1"
+      ],
+      "exitBeforeId": "TEXT_38bc958a69945f90e3bb_1",
+      "snapshotBefore": "第24天，房内看小白花照片；文文、黄球球球形；球形A；一只小手操作，非人形；文文手机、小白花模糊照片",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "黄球球没有自有手机；这张是花，不偷拍她，不画门外公开活动。"
+    },
+    "production": {
+      "package": "SUI-A10-HQ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-yard-fixed",
+        "owner": "SUI-A08",
+        "name": "蓝塑料凳/坏拖把/水桶/门框/白花",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-yard-fixed",
+        "owner": "SUI-A08",
+        "name": "蓝塑料凳/坏拖把/水桶/门框/白花",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/photo-hq-yard-whiteflowers-blurred-v001"
+        ],
+        "frameUse": "仅文文手机内的小白花糊照；小手挡一部分屏幕，不新造黄球球手机或人形。"
+      },
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-wenwen-personal-kit-v001"
+        ],
+        "frameUse": "只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-orb-base-v001-png",
+      "A08/bg-huangqiuqiu-room-day",
+      "PRE/photo-hq-yard-whiteflowers-blurred-v001",
+      "PRE/prop-wenwen-personal-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg075-v001.png",
+  "sourceSha256": "ad9d8122078dec1a821ec79b9ee321f0e643b3538936993ecfe1cf154fc38c94",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-3416bf33-8c49-41ed-b7e3-0e582c4b0dba.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A06/selected/orb/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "sha256": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.png",
+      "sha256": "3857e5fd500a7d0ef8141ac7feda63a6e9edd98e6d81313886d38cd0ac2ea870"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A08/photo-hq-yard-whiteflowers-blurred-v001.png",
+      "sha256": "3966f8ddb8773c1f6784c1bf3fc9c2ae02a804b6515cd1e517fd1b7ab4babecc"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png",
+      "sha256": "b9abeb96d46f97a4cae9bc7f40b34d15f828c27f13c531e5eeaa0e4c3fa6def2"
+    }
+  ],
+  "runtimeAdopted": false
+}

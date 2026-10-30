@@ -1,0 +1,208 @@
+{
+  "id": "CG031",
+  "title": "把不走的钟留在原处",
+  "package": "SUI-A10-ZZ",
+  "stem": "cg-zz-cg031-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A03/base",
+    "A08/bg-huisheng-306-cleared-day",
+    "A08/prop-huisheng-stopped-clock-1147-reference",
+    "PRE/prop-zhouzhi-private-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg031-v001.png",
+    "assets/sources/20261029/SUI-A08/prop-huisheng-stopped-clock/prop-huisheng-stopped-clock-1147-reference-v002.png"
+  ],
+  "prompt": "Use case: precise-object-edit. 编辑图1，仅校正墙上圆钟的表盘和指针，使用图2已定稿钟的精确11:47读数与样式。长分针指向9之后第二个分钟刻度（47分），位于9与10之间稍微朝上；短时针位于11与12之间，接近12但仍在12左侧，不竖直指12。红秒针保持向下。保留图1钟在墙上的位置、透视、大小和旧木框，其余人物身份脸发、衣装、清空茶几后的306、箱子与镜子、光线、横向画幅全部保持。不要在画面上另加数字时间或说明文字。",
+  "shot": {
+    "id": "CG031",
+    "kind": "retained-selection",
+    "title": "把不走的钟留在原处",
+    "originalTitle": "把不走的钟留在原处",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+        "line": 661,
+        "anchor": "她说老板叫大家能用的拿走，我问她要不要。"
+      }
+    ],
+    "time": "第36天之后、45天之前；取最后私人物品日，正文未定具体日号",
+    "routeGroup": "ZZ",
+    "source": {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "line": 667,
+      "paragraph": "TEXT_08e301bea9bccee059ff",
+      "scope": "ZZ07-01/COMMON",
+      "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+      "quote": "楼下有人催搬沙发。周栀没立刻走，抬头看那只停在十一点四十七分的钟。她说老板叫大家能用的拿走，我问她要不要。她摇头，说不想把一只不走的钟又挂到新地方。",
+      "conditions": [],
+      "sourceSha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "matchText": "她说老板叫大家能用的拿走，我问她要不要。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、周栀",
+      "offscreenOrRemote": "楼下搬运者画外"
+    },
+    "wardrobeAndForm": "周栀B私人版；文文B",
+    "propState": "11:47停钟仍挂原处；茶几已搬走、残镜和箱子",
+    "composition": "周栀仰看旧钟，没有摘走；停业后的306。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "zhouzhi"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "不沿用旧第32天标签，不画回声继续营业；紧随A亲密/B保持距离不能混拍。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A03/base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_08e301bea9bccee059ff_1",
+      "visiblePageIds": [
+        "TEXT_08e301bea9bccee059ff_1"
+      ],
+      "exitBeforeId": "BRANCH_2fa02fd8187e486f8c00",
+      "snapshotBefore": "第36天之后、45天之前；取最后私人物品日，正文未定具体日号；文文、周栀；周栀B私人版；文文B；11:47停钟仍挂原处；茶几已搬走、残镜和箱子",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "不沿用旧第32天标签，不画回声继续营业；紧随A亲密/B保持距离不能混拍。"
+    },
+    "production": {
+      "package": "SUI-A10-ZZ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huisheng-306",
+        "owner": "SUI-A08",
+        "name": "回声306",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-306-operating-night-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huisheng-306-cleared-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-huisheng-stopped-clock",
+        "owner": "SUI-A08",
+        "name": "回声11:47停钟",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "prop-huisheng-stopped-clock-1147-reference-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-zhouzhi-personal-box",
+        "owner": "SUI-A03",
+        "name": "私人物品箱/折伞/耳饰/发圈",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huisheng-306",
+        "owner": "SUI-A08",
+        "name": "回声306",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-306-operating-night-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huisheng-306-cleared-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huisheng-306-cleared-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-huisheng-stopped-clock",
+        "owner": "SUI-A08",
+        "name": "回声11:47停钟",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "prop-huisheng-stopped-clock-1147-reference-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/prop-huisheng-stopped-clock-1147-reference",
+          "A08/bg-huisheng-306-cleared-day"
+        ],
+        "frameUse": "采用v002指针停钟11:47，与空306局部绑定；钟仍挂原处未摘，茶几已搬走。"
+      },
+      {
+        "requirementId": "prop-zhouzhi-personal-box",
+        "owner": "SUI-A03",
+        "name": "私人物品箱/折伞/耳饰/发圈",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-zhouzhi-private-kit-v001"
+        ],
+        "frameUse": "按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A03/base",
+      "A08/bg-huisheng-306-cleared-day",
+      "A08/prop-huisheng-stopped-clock-1147-reference",
+      "PRE/prop-zhouzhi-private-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "停钟精确11:47",
+  "sourceFile": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg031-v002.png",
+  "sourceSha256": "c2a48a2e8169b24fff0a7f5356a66a1d98106d0c6cdb7dd50b33ce5290cf0076",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-12a7db80-4049-4cb0-9ac1-0fc63551b48b.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg031-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg031-v001.png",
+      "sha256": "56ba78d542f945ddd104096d75c96e4e96a7c1bb2c78416afbbd5c4adda673f4"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/prop-huisheng-stopped-clock/prop-huisheng-stopped-clock-1147-reference-v002.png",
+      "sha256": "d1e04832e5126c561325e36e56d688847d29d16da94fe3543717259d59e8a02f"
+    }
+  ],
+  "runtimeAdopted": false
+}

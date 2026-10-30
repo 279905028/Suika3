@@ -1,0 +1,766 @@
+{
+  "task": "SUI-A10制作前置",
+  "date": "2026-10-29",
+  "status": "pass",
+  "scope": "正文解析、文件/资源记录指纹与等待队列检查；不是全路线回归、图片制作或引擎验收",
+  "parseCounts": [
+    {
+      "pageSize": 120,
+      "textPages": 3021
+    },
+    {
+      "pageSize": 108,
+      "textPages": 3021
+    }
+  ],
+  "checks": [
+    {
+      "name": "60镜唯一且与当前正式选集一致",
+      "pass": true
+    },
+    {
+      "name": "未复活8个取消编号",
+      "pass": true
+    },
+    {
+      "name": "遵守等全部上游定稿的全体开工条件",
+      "pass": true
+    },
+    {
+      "name": "三处衣装确认均落入对应镜头",
+      "pass": true
+    },
+    {
+      "name": "A09输入未漂移",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A02/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A02/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A02/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A02/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A03/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-smile-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A03/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-casual-tied-tired-cup-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A03/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-neutral-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A03/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-serious-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261028/SUI-A03/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A04-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A04/option-a/char-mengyao-human-teaching-base-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A04-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A04/props/prop-mengyao-phone-stand-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A04-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A04/props/prop-mengyao-workbook-cover-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A04-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A05-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A05-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A05-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A05-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261028/SUI-A05/props/prop-piao-camera-bag-slipknot-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 qa/SUI-A05-20261028/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-base-neutral-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A06/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A06/selected/human/char-huangqiuqiu-human-toy-base-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A06/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A06/selected/orb/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A06/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A07/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-documents-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A07/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A07/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-serious-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A07/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A07/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-serious-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A07/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "参考图指纹 assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "pass": true
+    },
+    {
+      "name": "资源记录指纹 assets/sources/20261029/SUI-A07/resource-records.json",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG001 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG004 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG005 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG006 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG007 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG008 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG010 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG011 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG011 上下文指纹 scenario/第二章-十四天.md",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG012 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG014 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG015 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG016 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG019 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG020 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG022 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG023 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG025 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG026 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG027 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG029 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG031 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG032 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG034 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG035 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG038 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG039 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG040 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG041 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG044 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG061 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG062 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG063 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG066 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG067 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG068 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG069 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG070 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG073 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG075 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG077 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG078 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG079 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG082 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG086 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG090 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG091 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG094 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG095 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG096 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG098 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG099 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG100 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG101 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG102 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG103 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG104 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG105 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG106 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG107 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "120字素 CG108 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG001 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG004 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG005 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG006 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG007 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG008 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG010 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG011 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG011 上下文指纹 scenario/第二章-十四天.md",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG012 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG014 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG015 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG016 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG019 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG020 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG022 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG023 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG025 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG026 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG027 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG029 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG031 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG032 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG034 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG035 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG038 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG039 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG040 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG041 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG044 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG061 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG062 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG063 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG066 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG067 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG068 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG069 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG070 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG073 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG075 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG077 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG078 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG079 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG082 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG086 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG090 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG091 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG094 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG095 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG096 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG098 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG099 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG100 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG101 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG102 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG103 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG104 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG105 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG106 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG107 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "108字素 CG108 正文/页相位/进出场",
+      "pass": true
+    },
+    {
+      "name": "受保护输入指纹不变",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "summary": {
+    "checks": 184,
+    "passed": 184,
+    "protectedInputs": 314
+  },
+  "notTested": [
+    "CG图像生成与视觉检查",
+    "正式图像采用或演出绑定",
+    "引擎/浏览器/手机真机/电脑原生运行",
+    "发布"
+  ]
+}

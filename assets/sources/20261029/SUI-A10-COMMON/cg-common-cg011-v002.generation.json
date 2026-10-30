@@ -1,0 +1,200 @@
+{
+  "id": "CG011",
+  "title": "饭桌上说出拍卖",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg011-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "CG011-identity-board",
+    "A02/char-xiaoman-two-helmets",
+    "A08/bg-friends-meal-shop-evening"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg011-v001.png"
+  ],
+  "prompt": "Use case: precise-object-edit. 只修正饭桌左前方文文手边的黑色手机：将其翻成屏幕朝下、黑色磨砂背壳朝上，可见小型后摄镜头，不显示任何亮屏、通知或文字。保持原手机位置和大小。严格保留五个人物的身份、脸、姿势、衣装、文文正在说话、四人倾听、小满膝上的头盔、菜碗和场景光线，不增加第六个人，不改构图，不加文字水印。",
+  "shot": {
+    "id": "CG011",
+    "kind": "retained-selection",
+    "title": "饭桌上说出拍卖",
+    "originalTitle": "饭桌上说出拍卖",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/第二章-十四天.md",
+        "line": 437,
+        "anchor": "“房子要拍卖。日子已经定了。”"
+      }
+    ],
+    "time": "第14天聚餐，拍卖坦白",
+    "routeGroup": "COMMON",
+    "source": {
+      "path": "scenario/第二章-十四天.md",
+      "line": 436,
+      "paragraph": "TEXT_dfd17a493a3da18fbefa",
+      "scope": "### 第13—14天｜没有那间客房",
+      "nearestNode": null,
+      "quote": "“房子要拍卖。日子已经定了。”",
+      "conditions": [],
+      "sourceSha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+      "matchText": "“房子要拍卖。日子已经定了。”",
+      "oldAnchorExact": true
+    },
+    "contextSources": [
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 400,
+        "quote": "毛狼来了，说今天终于不用打七个电话。我替他把湿椅子擦干，没反驳。小满和飘先到，周栀上班前坐一会儿；孟遥晚课结束才来，叶岚当天有事，提前说了不参加。",
+        "sourceSha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      }
+    ],
+    "cast": {
+      "present": "文文、毛狼、罗小满、飘、周栀；孟遥晚课后到",
+      "offscreenOrRemote": "叶岚明确缺席；师匠未列席，不加；店员之后端汤"
+    },
+    "wardrobeAndForm": "五位可辨人物沿各已选日常版；孟遥仅作为晚到席位，不擅定此句已抵达",
+    "propState": "菜、碗筷、飘册子/相机、小满膝上头盔；文文手机扣桌",
+    "composition": "文文与毛狼/小满反应为主体，周栀和飘可入画；孟遥席位/画外处理，避免自定到场时刻。",
+    "conditions": {
+      "entryGates": [],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "去除旧叶岚恋爱群像。正文只说孟遥晚课后才来，没有给到达拍点；不得强画此句全员到齐。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A07/maolang-base",
+      "A02/char-xiaoman-base",
+      "A05/piao-base",
+      "A03/base",
+      "A04/char-mengyao-human-base-neutral",
+      "A02/char-xiaoman-two-helmets"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_dfd17a493a3da18fbefa_1",
+      "visiblePageIds": [
+        "TEXT_dfd17a493a3da18fbefa_1"
+      ],
+      "exitBeforeId": "TEXT_435dce200626b2591346_1",
+      "snapshotBefore": "第14天聚餐，拍卖坦白；文文、毛狼、罗小满、飘、周栀；孟遥晚课后到；五位可辨人物沿各已选日常版；孟遥仅作为晚到席位，不擅定此句已抵达；菜、碗筷、飘册子/相机、小满膝上头盔；文文手机扣桌",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "去除旧叶岚恋爱群像。正文只说孟遥晚课后才来，没有给到达拍点；不得强画此句全员到齐。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-xiaoman-helmets",
+        "owner": "SUI-A02",
+        "name": "两顶头盔及车钥匙",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-evening"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-evening"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      },
+      {
+        "requirementId": "prop-xiaoman-helmets",
+        "owner": "SUI-A02",
+        "name": "两顶头盔及车钥匙",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A02/char-xiaoman-two-helmets"
+        ],
+        "frameUse": "只取两顶头盔造型；CG011只放小满膝上所需头盔，不沿用卖车后抱姿；CG020为卖车后双头盔。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A07/maolang-base",
+      "A02/char-xiaoman-base",
+      "A05/piao-base",
+      "A03/base",
+      "A04/char-mengyao-human-base-neutral",
+      "A02/char-xiaoman-two-helmets",
+      "A08/bg-friends-meal-shop-evening"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "手机应扣桌",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg011-v002.png",
+  "sourceSha256": "ccc58f23cdd0623776aa052646982c0b1b59dce6f42e5a4c67d6ba406f5cfb78",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-223101c4-16c9-463e-8fc5-1259201053e2.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg011-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg011-v001.png",
+      "sha256": "a6797f7f2d6f89ef10e2ce141cd3467570202fe2883c195760defbbfbbe67491"
+    }
+  ],
+  "runtimeAdopted": false
+}

@@ -1,0 +1,173 @@
+{
+  "task": "SUI-I02",
+  "version": "sui-i02-20261030-v7",
+  "status": "PASS_SCOPED_WEB_CANDIDATE",
+  "completedAt": "2026-10-30T03:38:58.571Z",
+  "scope": "正式完整资源候选构建与网页运行初验；交SUI-Q独立验收",
+  "inputFingerprint": "9b05fdc1cb81cdbbce25c24e22f169f4e9255aa9f846c5bda8c96e8b4fe712c5",
+  "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+  "runtimeBuildIds": {
+    "web": "0652c9148f5d0ec6d8c3fbb385ab0bad51907dfee0db07a03fe4617289ab27d5",
+    "desktop": "8ab6dc9772c3b1aebd71bf8c3dae64776e58bb69a02cb1dc4be6ec3e9b9a4e8b"
+  },
+  "producerSnapshot": {
+    "path": "qa/sui-i01-closeout-20261030/snapshot.json",
+    "sha256": "c28bd0400df90f37879e1451c47c36aef29807a2a98c93bdfbf46ac2948c02b6"
+  },
+  "counts": {
+    "files": 12,
+    "choices": 65,
+    "options": 134,
+    "endings": 14,
+    "pages": 3021,
+    "nodes": 3415,
+    "assets": 212,
+    "bindings": 3086,
+    "gallerySource": 60,
+    "frozenInputs": 1151,
+    "browserChecks": 19,
+    "menuTimingChecks": 4,
+    "presentationChecks": 11,
+    "completeNativeWasmPaths": 16,
+    "narrativePages": 11976,
+    "actualChoiceClicks": 370,
+    "actualCG": 60,
+    "decodedAssetProbe": 212,
+    "colorProbes": 2176,
+    "restorePixelPairs": 8,
+    "exactRebuiltFiles": 16,
+    "protectedInputs": 1130
+  },
+  "assets": {
+    "adopted": 212,
+    "usedByBindings": 174,
+    "reserve": 38,
+    "textOnlyNodes": 420
+  },
+  "packageCheck": {
+    "pass": true,
+    "version": "sui-i02-20261030-v7",
+    "mode": "candidate",
+    "scope": {
+      "kind": "complete",
+      "description": "I01全正文声明式场景：六线、共通、第36天及双后日谈；持续背景、逐拍人物/道具特写、60CG；未明场所/远程/过渡使用逐项注明的文字镜头。范围不含I02引擎与Q验收。",
+      "missing": []
+    },
+    "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+    "inputFingerprint": "9b05fdc1cb81cdbbce25c24e22f169f4e9255aa9f846c5bda8c96e8b4fe712c5",
+    "outputs": 14,
+    "bytes": 1389762866,
+    "runtimeBuildIds": {
+      "web": "0652c9148f5d0ec6d8c3fbb385ab0bad51907dfee0db07a03fe4617289ab27d5",
+      "desktop": "8ab6dc9772c3b1aebd71bf8c3dae64776e58bb69a02cb1dc4be6ec3e9b9a4e8b"
+    },
+    "nativeArchiveIdentical": true
+  },
+  "packages": [
+    {
+      "platform": "web",
+      "path": "sui-i02-20261030-v7-web.zip",
+      "bytes": 345740498,
+      "sha256": "f1b01c0fba7b721338c875929e064d65a14e349ca157cb70cc059784a5abaaaa"
+    },
+    {
+      "platform": "macos",
+      "path": "sui-i02-20261030-v7-macos.zip",
+      "bytes": 351107638,
+      "sha256": "d4be4fc1781502c293ac1bc1751ff1901a3576f6cff3f64ccb2dbecbd792e941"
+    },
+    {
+      "platform": "windows-x64",
+      "path": "sui-i02-20261030-v7-windows-x64.zip",
+      "bytes": 346967467,
+      "sha256": "d2d62c009fe4ca48e720985450d1b399de9d98d8260c5709588d2a63fe1832d4"
+    },
+    {
+      "platform": "windows-arm64",
+      "path": "sui-i02-20261030-v7-windows-arm64.zip",
+      "bytes": 346893751,
+      "sha256": "4bbadae4aae5a97afe57a70077116c196d29d331f94f6f346bbc75d250527253"
+    }
+  ],
+  "webLaunchSample": {
+    "coldProfile": true,
+    "navigationToTitleMs": 2132,
+    "wasmHeapBytes": 536870912,
+    "jsHeap": {
+      "usedJSHeapSize": 695998822,
+      "totalJSHeapSize": 697247222,
+      "jsHeapSizeLimit": 4395630592
+    },
+    "resourceTiming": [
+      {
+        "name": "http://127.0.0.1:49244/assets.arc",
+        "duration": 504.5,
+        "transferSize": 343501275,
+        "decodedBodySize": 343500975
+      }
+    ],
+    "metricScope": "桌面Chrome本机回环单次读取，不是进程峰值或手机负载"
+  },
+  "evidence": [
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/browser-report.json",
+      "sha256": "bc42344d78c376329c4efbbabc38d34b7dd8692fab42971751abee5f6339d3e8"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/presentation/report.json",
+      "sha256": "737f8c8f5551bb713794dbdb402bef84174d0683d6753e6672646daad085e973"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/presentation/color-report.json",
+      "sha256": "4cd18ee5e1e082a41d188713780b26ab00d3e5f128fbf27dd69bf038c1b538f0"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/routes/routes-report.json",
+      "sha256": "15f7c98e150977a84f26d12f243e672e76cc26e52e9bf1dff421847f24e6a141"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/asset-probe/report.json",
+      "sha256": "0f8d4c14a2ef5913075a57aac4c0d1a5ae3ae25d737a13358727b793eebbf0c5"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/all-colors.json",
+      "sha256": "51d97f39d88494ffe2cca8fd7d65c61454875d824e54f15ecba28756ab8186db"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/state-audit.json",
+      "sha256": "83e7589f80d9f1bed4f1afcd60a112035aeba2e1b4f449191c4cb9bbbb6d2205"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/restoration-pixels.json",
+      "sha256": "9ee660b830fd335fe6f73b0afbbeb539fe932b357354dd4c1eef464f01ab6860"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/restoration-final/routes-report.json",
+      "sha256": "27ed247ae6683b0aae3fae257b189abfd1ceb2804c3e6291075fc3730e933e81"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/menu/report.json",
+      "sha256": "6fc75001e8d547c931f57698ff4d9f57d71ab9aa444e7c8444027ddc183cc237"
+    },
+    {
+      "path": "qa/sui-i02-20261030/sui-i02-20261030-v7/menu/back-report.json",
+      "sha256": "5b4acd082f5cdf89b81d9f5bdb7eeabcd330a2caabf5105f4c1d9872710a3da4"
+    }
+  ],
+  "notTested": [
+    "SUI-Q全篇与全分支独立人工验收",
+    "每处衣装/形态/道具的人工逐拍确认",
+    "手机真机",
+    "Safari与Firefox",
+    "macOS与Windows原生运行",
+    "长期压力/峰值内存/移动网络及全GUI零持续时间合成点击稳定性",
+    "签名公证/安装包封装/发布"
+  ],
+  "notes": [
+    "60CG在16条独立自然路径中实际显示、首次可见帧解锁并打开全图；并非仅静态可达性。",
+    "212项全量渲染为独立派生探针，其中38项备用未声称在正式剧情出场。",
+    "v1/v2函数超限，v3/v4/v6菜单操作回归未完成，v5构建锚点检查拒绝；均保留为排错证据。仅本记录指定版本交付。",
+    "最终生成菜单将返回按钮移出阅读菜单入口的点击范围；未修改U源文件。四种菜单入口点击时长及四类演出存读档/刷新恢复通过。全GUI均使用0ms合成脉冲的压力尝试曾漏掉一次读取，留Q压力范围，原始失败记录保留。",
+    "正式候选清单内生成时未测字段保留，后验结果以本记录为准。"
+  ]
+}

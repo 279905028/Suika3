@@ -1,0 +1,588 @@
+[
+  {
+    "assetId": "char-mengyao-human-teaching-base",
+    "file": "assets/sources/20261028/SUI-A04/option-a/char-mengyao-human-teaching-base-v001.png",
+    "label": "A定稿／教案与红笔",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao",
+      "prop-mengyao-teaching-kit"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 23,
+        "heading": "完整内容",
+        "nearestNode": null,
+        "quote": "负责人出来，把她叫到旁边，小声说先认个表达不清，别在走廊争。我站在楼梯拐角，看见她拿着考勤表，手指把纸边折起，又压平。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 618,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "她来时带着备课本，进门先放到桌上，说明早还得回机构。我看见本子旁边的手机，问陈晟知道她在这里吗。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 632,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "门关以后，杯子还多着一只，红笔落在她刚才放备课本的位置。我发消息问要不要送回，她说还有备用，下次再拿。后来几次碰面都没想起，它便一直留在抽屉里。我把杯子洗干净，放回平时的位置。昨夜确实发生过，可它没有替我换来她生活里的称呼，也没有替她取消丈夫。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "usage": "普通教学/核课表；MY07=A第56天红笔遗落后不能将同一红笔画成已取回；笑容不表示公开复合。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/option-a.txt",
+    "option": "A",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-teaching-option-b",
+    "file": "assets/sources/20261028/SUI-A04/option-b/char-mengyao-human-teaching-base-v001.png",
+    "label": "B对照／未选",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao",
+      "prop-mengyao-teaching-kit"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 23,
+        "heading": "完整内容",
+        "nearestNode": null,
+        "quote": "负责人出来，把她叫到旁边，小声说先认个表达不清，别在走廊争。我站在楼梯拐角，看见她拿着考勤表，手指把纸边折起，又压平。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 618,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "她来时带着备课本，进门先放到桌上，说明早还得回机构。我看见本子旁边的手机，问陈晟知道她在这里吗。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 632,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "门关以后，杯子还多着一只，红笔落在她刚才放备课本的位置。我发消息问要不要送回，她说还有备用，下次再拿。后来几次碰面都没想起，它便一直留在抽屉里。我把杯子洗干净，放回平时的位置。昨夜确实发生过，可它没有替我换来她生活里的称呼，也没有替她取消丈夫。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "usage": "仅保留独立A/B比较，不采用。",
+    "version": "v001",
+    "status": "未选比较稿",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/option-b.txt",
+    "option": "B",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-base-neutral",
+    "file": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.png",
+    "label": "通用／平静空手",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      }
+    ],
+    "usage": "按实际在场使用；电话仅作明确通话提示，不表示人物到场。所有分支可用，不恢复亲密。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/neutral.txt",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-base-expression-tired",
+    "file": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-tired-v001.png",
+    "label": "表情／疲惫",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      }
+    ],
+    "usage": "普通下课疲倦与生活压力；不解释为疾病或新增经历。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/expression-tired.txt",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-base-expression-downcast",
+    "file": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-downcast-v001.png",
+    "label": "表情／低落",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      }
+    ],
+    "usage": "MY07=B停止私见及断开收束；BA保持停止，不新增身体接触。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/expression-downcast.txt",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-base-expression-hesitant",
+    "file": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-hesitant-v001.png",
+    "label": "表情／迟疑",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      }
+    ],
+    "usage": "婚姻揭露后的困难谈话；不以眼神暗示离婚或恢复约见。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/expression-hesitant.txt",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-base-expression-serious",
+    "file": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-serious-v001.png",
+    "label": "表情／认真",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      }
+    ],
+    "usage": "退费争执、核课表、收入与生活边界。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/expression-serious.txt",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-base-expression-smile",
+    "file": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-smile-v002.png",
+    "label": "表情／熟悉微笑",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      }
+    ],
+    "usage": "重逢、借书与熟人调侃；微笑不等于同意继续。",
+    "version": "v002",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/expression-smile-clean-v002.txt",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    },
+    "supersedes": {
+      "version": "v001",
+      "sourceFile": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-expression-smile-v001.png",
+      "reason": "透明外缘云状残留；v001保留，交付改用v002"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-casual-jacket",
+    "file": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-casual-jacket-neutral-v001.png",
+    "label": "衣装／私人外套",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      }
+    ],
+    "usage": "第28天饮品店，正文明确没穿上课衬衫；不自动作为全部私人场景衣装。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/casual-jacket.txt",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "char-mengyao-human-book-box",
+    "file": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-book-box-neutral-v001.png",
+    "label": "动作／书箱交接",
+    "kind": "character",
+    "requirementKeys": [
+      "char-mengyao",
+      "prop-mengyao-book-box"
+    ],
+    "storyAnchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 67,
+        "heading": "完整内容",
+        "nearestNode": null,
+        "quote": "第21天，她清旧书，问我要不要去看看。我带去一只结实的纸箱，她说尺寸正好，把散在桌下的书搬进来，翻到中间时，从里面抽出一本英语练习册。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 935,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "我们核过，没有东西需要互寄。空袋和讲义已经交回，借书在机构，练习册本来就属于我。没有物品可谈，话反而更难接下去。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "usage": "第21/34/56/59/60天按实际搬书取用；有内容物的书箱，不代替空书袋，不删除陈晟在场。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/book-box.txt",
+    "criticalRects": {
+      "face": [
+        285,
+        140,
+        380,
+        340
+      ],
+      "handsOrProp": [
+        100,
+        700,
+        770,
+        475
+      ],
+      "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+    }
+  },
+  {
+    "assetId": "prop-mengyao-workbook-cover",
+    "file": "assets/sources/20261028/SUI-A04/props/prop-mengyao-workbook-cover-v001.png",
+    "label": "旧练习册／封面",
+    "kind": "personal-prop",
+    "requirementKeys": [
+      "prop-mengyao-old-workbook"
+    ],
+    "storyAnchors": [
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 69,
+        "heading": "完整内容",
+        "nearestNode": null,
+        "quote": "封面有我的名字。四十八分，旁边还写着六十。我伸手想拿，她先翻给我看：“别再说我给你改分。第二次重做的。”",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 907,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "我把寄书的单号发给她。包里只有借书，旧练习册是早已还给我的，留在我这里。她说收到了单号，又问第56天落在我桌边的红笔能不能一起寄。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "usage": "封面仅文文、48及60；第21天已交还文文，全部结局保留；不是借书。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/workbook-cover.txt"
+  },
+  {
+    "assetId": "prop-mengyao-workbook-page",
+    "file": "assets/sources/20261028/SUI-A04/props/prop-mengyao-workbook-page-v001.png",
+    "label": "旧练习册／红叉内页",
+    "kind": "personal-prop",
+    "requirementKeys": [
+      "prop-mengyao-old-workbook"
+    ],
+    "storyAnchors": [
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 69,
+        "heading": "完整内容",
+        "nearestNode": null,
+        "quote": "封面有我的名字。四十八分，旁边还写着六十。我伸手想拿，她先翻给我看：“别再说我给你改分。第二次重做的。”",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 907,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "我把寄书的单号发给她。包里只有借书，旧练习册是早已还给我的，留在我这里。她说收到了单号，又问第56天落在我桌边的红笔能不能一起寄。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "usage": "内页旧约定“周六六点，桥头见。”及红叉；属于过去，不新增邀约或日期。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/workbook-page.txt"
+  },
+  {
+    "assetId": "prop-mengyao-borrowed-book",
+    "file": "assets/sources/20261028/SUI-A04/props/prop-mengyao-borrowed-book-v001.png",
+    "label": "借书／独立书签",
+    "kind": "personal-prop",
+    "requirementKeys": [
+      "prop-mengyao-borrowed-book"
+    ],
+    "storyAnchors": [
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 111,
+        "heading": "完整内容",
+        "nearestNode": null,
+        "quote": "我抱着练习册站起来。她送到楼梯口，又想起箱里一本觉得我会喜欢的书，问要不要借去看。我说要，她便回去取，回来时手机正在响。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 742,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "我把书交到机构前台，写下孟遥的名字。她刚好下课，看见我，说书已经收到了，问房子的交接怎样。我说钥匙交了，账还得核。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 907,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "我把寄书的单号发给她。包里只有借书，旧练习册是早已还给我的，留在我这里。她说收到了单号，又问第56天落在我桌边的红笔能不能一起寄。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "usage": "MY07=B第75天前台归还；AB第91天寄回；AA仍留文文；不要与旧练习册混用。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/borrowed-book.txt"
+  },
+  {
+    "assetId": "prop-mengyao-phone-stand",
+    "file": "assets/sources/20261028/SUI-A04/props/prop-mengyao-phone-stand-v001.png",
+    "label": "试讲手机／桌面支架",
+    "kind": "personal-prop",
+    "requirementKeys": [
+      "prop-mengyao-video-phone"
+    ],
+    "storyAnchors": [
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 235,
+        "heading": "完整内容",
+        "nearestNode": null,
+        "quote": "孟遥发来消息，说自己到了。五点半的提醒一响，我收起手机，过了马路。进门时她正在调支架，问我是不是跑上来的，我说没有，心里有点乱。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 730,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "她把新录的发出去，前一份私下存到本机，没有再发送。我看着文件缩略图，忽然明白保留下来和能够存在于她的生活里，是两回事。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "usage": "第27天试讲；第75天私密录制仅MY07=A，MY07=B无贵阳住处录像；无私密缩略图。",
+    "version": "v001",
+    "status": "制作完成，待A11复核及I采用",
+    "promptOrProcessRecord": "assets/sources/20261028/SUI-A04/prompts/phone-stand.txt"
+  }
+]

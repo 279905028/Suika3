@@ -1,0 +1,255 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SUI-I01 声明式数据合同 v1",
+  "version": "sui-i01-data-v1",
+  "status": "I01-producer-contract-pending-I02-alignment",
+  "canvas": [
+    1280,
+    720
+  ],
+  "manifest": {
+    "type": "object",
+    "required": [
+      "schemaVersion",
+      "revision",
+      "scope",
+      "approval",
+      "records",
+      "excluded"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "schemaVersion": {
+        "type": "string"
+      },
+      "revision": {
+        "type": "string"
+      },
+      "scope": {
+        "type": "string"
+      },
+      "approval": {
+        "type": "object"
+      },
+      "records": {
+        "type": "array"
+      },
+      "excluded": {
+        "type": "array"
+      }
+    }
+  },
+  "bindings": {
+    "type": "object",
+    "required": [
+      "schemaVersion",
+      "revision",
+      "pageSize",
+      "sourceHashes",
+      "manifest",
+      "interfaceStatus",
+      "semantics",
+      "bindings",
+      "reserves",
+      "candidatePolicy"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "schemaVersion": {
+        "type": "string"
+      },
+      "revision": {
+        "type": "string"
+      },
+      "pageSize": {
+        "type": "number"
+      },
+      "sourceHashes": {
+        "type": "object"
+      },
+      "manifest": {
+        "type": "object"
+      },
+      "interfaceStatus": {
+        "type": "string"
+      },
+      "semantics": {
+        "type": "object"
+      },
+      "bindings": {
+        "type": "array"
+      },
+      "reserves": {
+        "type": "array"
+      },
+      "candidatePolicy": {
+        "type": "object"
+      }
+    }
+  },
+  "asset": {
+    "type": "object",
+    "required": [
+      "assetId",
+      "type",
+      "version",
+      "package",
+      "source",
+      "runtime",
+      "derivativeSource",
+      "encoding",
+      "approval",
+      "a11",
+      "provenance",
+      "usage",
+      "placement",
+      "criticalRegions",
+      "sourcePlacement",
+      "adoptionStatus",
+      "runtimeVerified",
+      "bindingIds"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "assetId": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "version": {
+        "type": "string"
+      },
+      "package": {
+        "type": "string"
+      },
+      "source": {
+        "type": "object"
+      },
+      "runtime": {
+        "type": "object"
+      },
+      "derivativeSource": {
+        "type": "object"
+      },
+      "encoding": {
+        "type": "object"
+      },
+      "approval": {
+        "type": "object"
+      },
+      "a11": {
+        "type": "object"
+      },
+      "provenance": {
+        "type": "object"
+      },
+      "usage": {
+        "type": "object"
+      },
+      "placement": {
+        "type": "object"
+      },
+      "criticalRegions": {
+        "type": "object"
+      },
+      "sourcePlacement": {
+        "type": "object"
+      },
+      "adoptionStatus": {
+        "type": "string"
+      },
+      "runtimeVerified": {
+        "type": "boolean"
+      },
+      "bindingIds": {
+        "type": "array"
+      }
+    }
+  },
+  "binding": {
+    "type": "object",
+    "required": [
+      "bindingId",
+      "assetId",
+      "source",
+      "conditions",
+      "display",
+      "enter",
+      "visiblePageIds",
+      "exit",
+      "restore",
+      "save"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "bindingId": {
+        "type": "string"
+      },
+      "assetId": {
+        "type": "string"
+      },
+      "source": {
+        "type": "object"
+      },
+      "conditions": {
+        "type": "object"
+      },
+      "display": {
+        "type": "object"
+      },
+      "enter": {
+        "type": "object"
+      },
+      "visiblePageIds": {
+        "type": "array"
+      },
+      "exit": {
+        "type": "object"
+      },
+      "restore": {
+        "type": "object"
+      },
+      "save": {
+        "type": "object"
+      },
+      "cgId": {
+        "type": "string"
+      },
+      "sceneFacts": {
+        "type": "object"
+      },
+      "gallery": {
+        "type": "object"
+      },
+      "reveal": {
+        "type": "object"
+      },
+      "decisionBasis": {
+        "type": "string"
+      }
+    }
+  },
+  "rules": {
+    "conditions": "沿用tools/compiler/parse.cjs：= != & |；&优先；不支持括号；只在游标命中后读取已访问状态",
+    "source": "file + paragraphId + quoteSha256 + sourceSha256；lineHint只作提示",
+    "unknownVersion": "reject",
+    "unknownAsset": "reject",
+    "unknownCondition": "reject",
+    "sourceDrift": "reject",
+    "unapprovedAsset": "reject",
+    "cancelledCG": "reject",
+    "duplicateSlot": "reject",
+    "missingState": "reject",
+    "unboundCursor": "显式中性底色、人物/道具/CG为空；不得推测上一场继续",
+    "exit": "离开visiblePageIds即清除并重算目标页全部图层；lexicalNextCursor只作来源验证",
+    "cg": "以CG覆盖基础层；同段全图查看不新增正文页；实际可见帧才解锁",
+    "restore": "读档/回退重算目标游标并校验资源和正文版本；图鉴全局解锁不回退",
+    "fullCandidate": "必须检查candidatePolicy.fullCandidateAllowed；false时不得输出完整候选。"
+  },
+  "notImplemented": [
+    "I02运行执行器",
+    "正式NovelML生成",
+    "存档/回退/手机原生验收"
+  ]
+}

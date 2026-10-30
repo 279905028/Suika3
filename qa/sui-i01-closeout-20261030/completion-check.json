@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-30T01:51:09.471Z",
+  "version": "sui-i01-20261030-v2",
+  "snapshot": {
+    "path": "qa/sui-i01-closeout-20261030/snapshot.json",
+    "sha256": "c28bd0400df90f37879e1451c47c36aef29807a2a98c93bdfbf46ac2948c02b6"
+  },
+  "freezeReport": {
+    "path": "qa/sui-i01-closeout-20261030/freeze-report.json",
+    "sha256": "c0eef17aca2cd2cc26fc077b8650e0ab3251fa6207bc4b10c4033ce13e86210a"
+  },
+  "inputFingerprint": "1755f68e6c2e7219ee3e61fee98e8df102ee1760d3ffb52c12a08bae2f0768ab",
+  "checks": {
+    "frozenInputsUnchanged": 878,
+    "validatedFiles": 879,
+    "protectedHistoricalQAUnchanged": 63,
+    "protectedSourceInputsUnchanged": 465,
+    "repeatFreezeRejectedWithoutMutation": true,
+    "toolCheckFingerprintsCurrent": true,
+    "documentLinksValid": true,
+    "todoI01Complete": true
+  },
+  "documents": [
+    {
+      "path": "TODO-v1.1.md",
+      "sha256": "17ffc2f8c75f71b7fa19edebb71db0069c520feffd543ed3a42e588e464ade26"
+    },
+    {
+      "path": "docs/整合/SUI-I01.md",
+      "sha256": "1d27d5a1d1be61a998566dc7c94af203aea2d92b372b278bb1015ce2ad03e9c7"
+    },
+    {
+      "path": "qa/sui-i01-closeout-20261030/交接.md",
+      "sha256": "5202557730bf8c7b9914b154dbeddfe1825bec4401b5758cd34140c36ab958fe"
+    }
+  ],
+  "scope": "I01离线收尾；本次最终复核不新增引擎、浏览器、真机或发布验收"
+}

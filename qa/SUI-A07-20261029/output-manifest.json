@@ -1,0 +1,718 @@
+{
+  "task": "SUI-A07",
+  "date": "2026-10-29",
+  "scope": "本包最终输出快照；不含本清单自身、缓存或共享根TODO",
+  "fileCount": 142,
+  "files": [
+    {
+      "path": "docs/美术/SUI-A07.md",
+      "bytes": 7001,
+      "sha256": "d1edaabadf771fdac0b043967553d088999ce67ab8a1ce12f66fed2be0b460c4"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/option-a/char-chensheng-base-v001.png",
+      "bytes": 2040939,
+      "sha256": "9cc25e8b2eeec9065d8f294b28cee50b84ff56a221d36c72eff1c304b2fd2a94"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/option-a/char-chensheng-base-v001.webp",
+      "bytes": 1295114,
+      "sha256": "932230fd7d411dbb2509b29874edcea08763d786de6ed38f91b006505e056af8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png",
+      "bytes": 2028992,
+      "sha256": "cb8fffea59934535fd13b1968424bfadc74ea75119053ba2ef8f6e90cb5f99b8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.webp",
+      "bytes": 1316252,
+      "sha256": "e7cca72df6e6325eb0a782d1afe108da15f44d0864747eb67f3b9136b4d19cfa"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-a.txt",
+      "bytes": 1878,
+      "sha256": "c2f7356219d0348b794e529e182f7501bc247a5d97230fea83c620227dd0b6f9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-b.txt",
+      "bytes": 1763,
+      "sha256": "4cbbec51b21cfc73d18d2fcdad6b453b30e268c3b2e454cec1dde002c3b058ba"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-book-bag.txt",
+      "bytes": 1271,
+      "sha256": "fccfcddca03c3fafbf641577ee007de932849e9b1832b0c397b210b20a2c44c4"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-cable.txt",
+      "bytes": 1168,
+      "sha256": "06e57dc954c1c95501ccb2fd33c8d7baf8cf10580065fbd7acd5607297453156"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-documents.txt",
+      "bytes": 1412,
+      "sha256": "2d1a14177f8db8d7206f9b0841a34113832b2ca463c9ffc06b76afd075ba12eb"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/prompts/option-a.txt",
+      "bytes": 1878,
+      "sha256": "c2f7356219d0348b794e529e182f7501bc247a5d97230fea83c620227dd0b6f9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-book-bag-v001.png",
+      "bytes": 2104111,
+      "sha256": "c61832bba4547ced17a60480c79df6d577120c3b4ed249a09cfc902461e8b448"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-book-bag-v001.webp",
+      "bytes": 1317230,
+      "sha256": "25e660b83dbb488ed9d42759fcd1008a7aa50a8c64b109023569a5cabcc5b5a4"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-cable-v001.png",
+      "bytes": 1995577,
+      "sha256": "08cc75d48f6b6d1bb227230baf1bff84939378e496a3659d201b0d7956d699e6"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-cable-v001.webp",
+      "bytes": 1240316,
+      "sha256": "65981042ef3b05945cc25c29c452fea13b605b43b7947cc84d01651719f5a3e2"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-documents-v001.png",
+      "bytes": 2033081,
+      "sha256": "a21c7bea6d20244ab09c39e01cebf1fa8704c069d68466bd3394949430bfe7d8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-documents-v001.webp",
+      "bytes": 1252006,
+      "sha256": "6b026d4b84d596cec522749d4cf3e103abec983d5c45f7e76a12de193810deb9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+      "bytes": 1186539,
+      "sha256": "e6cf30699797672c913c70bb1bbe3eb18505de94948d878999fc7e67dd85c6b8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.webp",
+      "bytes": 730922,
+      "sha256": "a5af61df74e79682885f201154ab4989f0f8632a1344494bf472911e0362ee88"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/prompts/maolang-mic-bag.txt",
+      "bytes": 1250,
+      "sha256": "25fb07a0afbcee940928200b115f34bd8c78c5424740f631c0943d93f61cebc5"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/prompts/maolang-serious.txt",
+      "bytes": 1227,
+      "sha256": "6a0f307f3338eabb903fd6ac82a446cbdf7ed485c541cb974fcf7e00e0981008"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/prompts/maolang-stage.txt",
+      "bytes": 1213,
+      "sha256": "b1b27844dd386fc00188d658eb82909d2d7b6aa75fde2de3ea6ecfa5c4247469"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/references/tc-char-maolang-human-base.webp",
+      "bytes": 730662,
+      "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-mic-bag-v001.png",
+      "bytes": 1715595,
+      "sha256": "3ae78dae4cdc3807d2d453a3ccdb54a179561db0def722bfe69475ec7f37611e"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-mic-bag-v001.webp",
+      "bytes": 1058626,
+      "sha256": "ac2a120cf4e5107f0c374c982bd30f1afd85daf5d4a2c6d541d262ced3e2b7cb"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-serious-v001.png",
+      "bytes": 1713421,
+      "sha256": "61eb82b0eeecdbc8a0013d47b31d8ac805be1e43afe62955dec15ce4cc6bff93"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-serious-v001.webp",
+      "bytes": 1065774,
+      "sha256": "529f8f9bc63736911f78e350bf9e8ec281af52895595a5f9d2bb573c0159e945"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-stage-v001.png",
+      "bytes": 1678229,
+      "sha256": "849924037e6038b945c8a3159be66b7e094510f6b8f3c88e5d075dfedde8aee3"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-stage-v001.webp",
+      "bytes": 1031586,
+      "sha256": "848ddbe9ac91a1a6a3618cdfc2b9675427e2d4af636225d32eccd7b61c6c2352"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/resource-records.json",
+      "bytes": 62759,
+      "sha256": "9cc38e73406968066208374df3efecef038b68d642fca347db1d825db4dde222"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.png",
+      "bytes": 1521097,
+      "sha256": "35cae277350641c67349e5a49f9a39f0d92fe3060834b1bdfc2a7fad3ac9a8e2"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.webp",
+      "bytes": 931896,
+      "sha256": "8210ca3e73de49f8851747ea9af487331e9ae0b1f9baf1a6fdc13a02fc49f922"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/prompts/shijiang-calculator-rejected-v001.txt",
+      "bytes": 1158,
+      "sha256": "fffda502af8ad1de5d5dec88ee91e866cf0bc1f1e036600d77990e95fd8d43ea"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/prompts/shijiang-calculator.txt",
+      "bytes": 1412,
+      "sha256": "bab97bd5f71d4f0de8527a024b36e7952f640af31c7cc06c0531899e7818fa7b"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/prompts/shijiang-serious.txt",
+      "bytes": 1056,
+      "sha256": "c2c2e3211fd68847fae139635553db14b2ee25b2ae33abd691cb6c348a59e8d8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/references/tc-char-shijiang-human-base.webp",
+      "bytes": 932076,
+      "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/retained-revisions/char-shijiang-calculator-v001.png",
+      "bytes": 1979416,
+      "sha256": "a76ebe9c473a44a309a733599874b7e0368807c243e47dbb2739b1e65c05a4e2"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-calculator-v002.png",
+      "bytes": 1946158,
+      "sha256": "b4489225b8afc60e359bb6c7aca987f0bdfa485a8d0aeb0f6e59429649f9c90d"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-calculator-v002.webp",
+      "bytes": 1173264,
+      "sha256": "7c35df6a4d350e64eee0022e6735a8ae94dd581c4abd02525db8002ae0c6ea4f"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-serious-v001.png",
+      "bytes": 1978848,
+      "sha256": "7748ac214b1eed2f925b2c5f4ea636623ff33461c24644b6b8d098eca9e02217"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-serious-v001.webp",
+      "bytes": 1187384,
+      "sha256": "00b22e85f2bf64c6310e8c4ffd5fd353ca147216613c73f25e3f23bd497244bb"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/source-references.json",
+      "bytes": 1932,
+      "sha256": "07d097629dd9fffa97f84ebeffbc726c8d6983467640b6e2f928a3623fca6fab"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "bytes": 2088278,
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.webp",
+      "bytes": 1351946,
+      "sha256": "83e0be332751d53ae2f96a1fecf50df0ae8ac5fb778bc465178400f46b57d108"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/references/tc-char-wenwen-human-base.webp",
+      "bytes": 1351162,
+      "sha256": "4594966f89e7304b040592d0d5684a654fbeb25ad19c97e7deecf945e736a507"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/option-a/char-yelan-base-v001.png",
+      "bytes": 1826825,
+      "sha256": "c9d51d426cb5c1fcf20d1f49bc886966ef619560e52dcc4c5fef30402c4cc10f"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/option-a/char-yelan-base-v001.webp",
+      "bytes": 1127982,
+      "sha256": "9361e63d1050f92ab081bbffdf2aab1adaae35bd477e7b7a17eb138042775cb8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/option-b/char-yelan-base-v001.png",
+      "bytes": 2262692,
+      "sha256": "aee6bb67f73879abb1b29436f8d5dea39b56aff92d9d51fd67c61a4e6575b382"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/option-b/char-yelan-base-v001.webp",
+      "bytes": 1379250,
+      "sha256": "8a8f6a94ef5cc429f901bc96129e9134f48aae82f3921bc30cbcb883c4f13f30"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/prompts/yelan-a.txt",
+      "bytes": 1530,
+      "sha256": "39f589e4d5499803c187e5e754f9a64e5b9b528bb0b833199a3617b52b9e2207"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/prompts/yelan-b.txt",
+      "bytes": 1525,
+      "sha256": "c780420bee023b66dad4c5972dd75e285f8b015c9c455e96cdd33441c2ac7e2b"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/prompts/yelan-phone.txt",
+      "bytes": 1087,
+      "sha256": "3c7f1280bbb990e0af70748467625dfe2da0fa71dd4c626c114dd3c8fb483575"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/prompts/yelan-serious.txt",
+      "bytes": 931,
+      "sha256": "980225e078bbf571bcc587753e0a130c2e4eb2c88336175abaf93522a56c36bb"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/variants/char-yelan-phone-v001.png",
+      "bytes": 2261670,
+      "sha256": "229b786c6e85fbfebe2212fa050e33d6e50eb602d12130de66577a5d8c5abdd8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/variants/char-yelan-phone-v001.webp",
+      "bytes": 1364770,
+      "sha256": "cc826548ff5fbaf78ea3034370a8c29dc4cd06e946810449ab94ad30fb07bff0"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/variants/char-yelan-serious-v001.png",
+      "bytes": 2189693,
+      "sha256": "7467cd2df8a475b23e8291295ddd02666160b1b54e282705915dafac03effeef"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/yelan/variants/char-yelan-serious-v001.webp",
+      "bytes": 1318146,
+      "sha256": "164a54497f8cef5ea58fb90b230f105d24c2a507806dc7ca11c39fb9022852e0"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/approval.json",
+      "bytes": 1232,
+      "sha256": "55b7085edbdaa6b95e9c5bb822fd74f05bf362bb07eb4ae929c26527c4bb21ab"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/build-review.py",
+      "bytes": 3687,
+      "sha256": "f627981bbe40b6a5ac2680fff7133cb63aa170a3938ae41d97a01b02e5339fdd"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/catalog.py",
+      "bytes": 8891,
+      "sha256": "5dbad1f86f41a95fd1b7bb92b6cd4e41e1b2e9260213e7a2772c6c1a6598fddd"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/check-handoff.py",
+      "bytes": 3434,
+      "sha256": "1efc14678177d6646eeab0c47015ebdc81eccf4fd7014da178fb0c13c95248d4"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/checkpoints/before-concurrent-edit/requirement-decisions.json",
+      "bytes": 32510,
+      "sha256": "e42a81fb826f3862be13d31cf17945da2f2d93d433aaef6e75c41f71a0c7159b"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/checkpoints/before-concurrent-edit/resource-records.json",
+      "bytes": 62759,
+      "sha256": "a1cbedbee8028778f388dd604f0b257c94a4d03496dea70abab201d0c7443b98"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/checkpoints/before-concurrent-edit/source-preservation.json",
+      "bytes": 11612,
+      "sha256": "8e8c9962d53357fbf1143dbe2680969b903fd1373fbb11122344c4eb885e8c52"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/checkpoints/before-concurrent-edit/story-usage.json",
+      "bytes": 11973,
+      "sha256": "71e9d50fdaa75d0278d36fc7c4f4aaa3f76f088eb4b42f9159602e754412762d"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/checkpoints/before-concurrent-edit/verification.json",
+      "bytes": 7336,
+      "sha256": "d4363ead358769a37b5d9ce9ced8c0a4d0470935ddc0d8ad31554b2fcd545f53"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/chensheng-options-a-b.jpg",
+      "bytes": 247300,
+      "sha256": "480addc3eafe410c09df45702c5e214ce6451fb37a2d5ba9311a9e9451987975"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/chensheng-a.jpg",
+      "bytes": 202090,
+      "sha256": "df1ad3a44d1d5f15a63afadb9844b5a4784a2d025966e725a4855e91d23ae148"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/chensheng-b.jpg",
+      "bytes": 203206,
+      "sha256": "3b976a575df004761cab6430a4eda01cf3a92cd61c60cb8c0666b950537e4d3e"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/chensheng-book-bag.jpg",
+      "bytes": 215975,
+      "sha256": "57b3d1268a74b0bb00f09526778acdf0c5846cf1e19896ee963a9cdaef624f43"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/chensheng-cable.jpg",
+      "bytes": 204078,
+      "sha256": "ab9f942a985166eb7efd2e9341dbee9ed9c20d926683e4cc8e3dd570889527a7"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/chensheng-documents.jpg",
+      "bytes": 207123,
+      "sha256": "2123cc7ac179f780eecee94e21f0f0c963e84b75bb29173ace0b27be5b54725c"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/maolang-base.jpg",
+      "bytes": 183809,
+      "sha256": "03af9710d959db5ace4f364f1c0215ccf31b2ffb4332b7a903e3f5e536c61b20"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/maolang-mic-bag.jpg",
+      "bytes": 188476,
+      "sha256": "49bd61914bc67b5d8ccf843fd8513ad86feb454822581b36ccd0c3e3129e2eb8"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/maolang-serious.jpg",
+      "bytes": 191167,
+      "sha256": "027df2ee38a4c8fd3ca2731e10e6774a5426837cc49c6aa8248b5ee0915f9e71"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/maolang-stage.jpg",
+      "bytes": 167094,
+      "sha256": "7219c67d46e8ff5f52b261ff040e5493637553fe32a94ffbb59bb613db9bbb87"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/shijiang-base.jpg",
+      "bytes": 242943,
+      "sha256": "5c755fc4fb78e7be6ff120585160d6234c2553a71bbfb2cffeb9357b40159081"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/shijiang-calculator.jpg",
+      "bytes": 241987,
+      "sha256": "cdf048eb227e3a26d2ec3995434ae176a90bd44f83641a20d090c2b0f3546da0"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/shijiang-serious.jpg",
+      "bytes": 251087,
+      "sha256": "d786759091b7bc52a30510622958e1c6641aac0a85df49b0c7c2bbf1887d7a6e"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/wenwen-base.jpg",
+      "bytes": 327232,
+      "sha256": "f619de708c001a86859ee20f00a657655efd812cb31b7c7f810571d27467e0d9"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/yelan-a.jpg",
+      "bytes": 173347,
+      "sha256": "8990e31877e5c99d4bbe0638189cb12055c935671a282f9c491495d35950e5e6"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/yelan-b.jpg",
+      "bytes": 218803,
+      "sha256": "2a3195eb718aa5debfd7afa937b3e42e0586532914cfa22c3f7e96ebe4298d4a"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/yelan-phone.jpg",
+      "bytes": 224996,
+      "sha256": "182e1226c4051dbd75eb2d27b59204412623caa62488651ca9526488a187f423"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/composites/yelan-serious.jpg",
+      "bytes": 223275,
+      "sha256": "74c441d9a63b9c64967e864fe8ef80681936b6661643ba5adf49a490430bea10"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/concurrent-input-review.json",
+      "bytes": 2773,
+      "sha256": "a521f9b0c44d6a952973b67645886e3a099387c7ad7c243ea65d4082c47e7c1e"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/existing-base-review.jpg",
+      "bytes": 185197,
+      "sha256": "6eed83987e064575c4b07ae0a0fb2027e6e7e81983010a45fd43f83b0695ea63"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/finalize.py",
+      "bytes": 13294,
+      "sha256": "5e022cb45ae6e82402d1f66d037483f03660c0ad3ae87561e58aec4ab68992c6"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/generation-jobs.json",
+      "bytes": 26103,
+      "sha256": "ad400400d60f630f7e4a69a36b9403529333b85877b7c66a8f3c65038a3f10ef"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/handoff-check.json",
+      "bytes": 9856,
+      "sha256": "51317def9926dc0fc3c6d4b55dfe909c5075d9a8278e92e26264ad1d521b8b14"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/index.html",
+      "bytes": 9624,
+      "sha256": "839e8964723fd72f7496da80250881bba77664952bf69008a37945219e797381"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/input-before.json",
+      "bytes": 8028,
+      "sha256": "b27ce9c9f48c9ef9cbb06a1161b50d7717d8c8cc9d2107b25dc0bb8ba0d0929a"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/chensheng-book-bag.json",
+      "bytes": 1684,
+      "sha256": "9facb2cc1513069812b43f8791285461a990d01c11f16a928e9df8788857037f"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/chensheng-cable.json",
+      "bytes": 1600,
+      "sha256": "2e366a835a75404633f2813280dd2e4bbef73e23eb2de12e271512806fea6f3c"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/chensheng-documents.json",
+      "bytes": 1828,
+      "sha256": "51b81b3b2c02165d36dd41864b581e179cff4ab96732b0cda1e7c9d1b92e885b"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/maolang-mic-bag.json",
+      "bytes": 1681,
+      "sha256": "26fa3bb50c58a16d979a5bf28ed104ee915abbe64dc46a7b9fb292596b82b8cc"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/maolang-serious.json",
+      "bytes": 1633,
+      "sha256": "c54c37cbbb51ad68a203f7f96bf9d3b904c98bf14127cd9a2be2822b508cffa7"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/maolang-stage.json",
+      "bytes": 1615,
+      "sha256": "7657a5c7122bc72f14263d9700e1febd2d0b366635d0ab91e888ec33c33a1af2"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/shijiang-calculator-rejected-v001.json",
+      "bytes": 1640,
+      "sha256": "330ff1df579eb6f0a73aa4a51c9ced59a8c8ec6e3304f135d0ecbfc7d56877c6"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/shijiang-calculator.json",
+      "bytes": 1865,
+      "sha256": "99c3e6fa92fec020b3adb4b7f156ba7fa0cc29215e54ce48ada23e4455b27c7e"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/shijiang-serious.json",
+      "bytes": 1467,
+      "sha256": "a1230e6cf60058703242b47a6c51f0fa571079b1866aee2aceca08ce39d2f9d1"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/yelan-a.json",
+      "bytes": 1828,
+      "sha256": "324d84430eb693cab42ae792d4879da60f8c9e24c4d569802319c17a32565572"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/yelan-b.json",
+      "bytes": 1824,
+      "sha256": "e0bd2cab9d3fa45d5e7db919e85e536f438b27e642483b1143a690bda89dc8e8"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/yelan-phone.json",
+      "bytes": 1495,
+      "sha256": "28d21a12456dbab1301bc845761f55c27c8587e75581d778fdf487441a81fac2"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/jobs/yelan-serious.json",
+      "bytes": 1318,
+      "sha256": "369f7a7665df1dc9521d443d761be337e793d0871fb49c0457e532e805d07c64"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/package-candidates.json",
+      "bytes": 11283,
+      "sha256": "b4e13c861066387ac77df22d172f812cdc3ed0abf6813bc7fff238a698b274d9"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/all.jpg",
+      "bytes": 756669,
+      "sha256": "9625548e035eca39c1223f2944863ad83a1c6b2757fcfa6df202ffba177f24fc"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/chensheng.jpg",
+      "bytes": 198704,
+      "sha256": "724efaf854cd85826990013300d2ee3956f945d0bdf8bd7c885e2bdd154282e0"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/faces.jpg",
+      "bytes": 450942,
+      "sha256": "f4f1dc4a092039a9fc80b8835f8409c79cbc51a9db703e5748ee52251d0eab59"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/five-bases.jpg",
+      "bytes": 255902,
+      "sha256": "5d506e7179fa2a2798de9601c1e6b53905eefadfd1c646b99ef8a4d83e6bf2a9"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/maolang.jpg",
+      "bytes": 179895,
+      "sha256": "338ce3c883c9c4ecbf2690857003854827386bec3ad7a1911c44fe319ba87b12"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/shijiang.jpg",
+      "bytes": 166749,
+      "sha256": "46cb869bda442ab91631c0473ea3faa71e83aefc92b43a705cab753da7794b01"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/ui-contact.jpg",
+      "bytes": 526425,
+      "sha256": "1916db6b4617495f03e3a9e394c9fb15882185a56901c78650e747c3e139c67b"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/wenwen.jpg",
+      "bytes": 76174,
+      "sha256": "63536268d308b6fa901f38e38b47bb45ef369650345600cfb31a4cae3ba7bee2"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/previews/yelan.jpg",
+      "bytes": 154302,
+      "sha256": "bae14ded922bb62d6520852afafc5e20768e28c5cbf4ae771059954c0895438a"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/requirement-decisions.json",
+      "bytes": 32510,
+      "sha256": "1f379536c34c61022a6a36fb0024c45035fb8fd507f0d6f9dbf46939fe7b0df0"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/requirements-input.json",
+      "bytes": 33139,
+      "sha256": "e7912c894d4cd504726cfc17ebacf786b63088a2d75b0ff93095537aac964bd7"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/retained-revisions.json",
+      "bytes": 679,
+      "sha256": "e556c3f42530a578cca97192c116aef51ceebeceec1bf4d0303d8f1025460be1"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/save-generated.py",
+      "bytes": 1161,
+      "sha256": "f4b3fa79f2e6e418b567e6a6ce93b0e9e056ce8efd077df719d8b9233ced65ce"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/source-preservation.json",
+      "bytes": 14566,
+      "sha256": "2ad21e73d4e2cf8bdd1b933bc6771905ec0d1a4947bebee1fd270f8cc56266e9"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/story-usage.json",
+      "bytes": 11973,
+      "sha256": "9f7ab1a326f7c497065df83ceed1c79e6641a6a8dabe858bdea8c5b6ad46b96d"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/chensheng-b.jpg",
+      "bytes": 98853,
+      "sha256": "820492050782126deda85140c8d46b77192fe275b6839a1dc7b95c6dfc32a7ec"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/chensheng-book-bag.jpg",
+      "bytes": 101977,
+      "sha256": "26cdd309532af8f94e4a3f500bd2f588a7af8369de22dbb8b8f92f0d69e9134c"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/chensheng-cable.jpg",
+      "bytes": 99464,
+      "sha256": "a927e3c033f6721f49398ea310db8afa19a797dc693ddb060831fe87eacaaa24"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/chensheng-documents.jpg",
+      "bytes": 99232,
+      "sha256": "28376aa886ec864b51b2a889fa46a58b537375a6e917d3bbc3a740837275cb27"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/maolang-base.jpg",
+      "bytes": 96059,
+      "sha256": "68374ffccd6ce41e280fad6d296087c5a7d447807f392b4e8b5820c0b80cc9d5"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/maolang-mic-bag.jpg",
+      "bytes": 96593,
+      "sha256": "46289eed3769167ba8db9302f7deefeab46d7fde02ba80854528ef4ffb4bd237"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/maolang-serious.jpg",
+      "bytes": 96903,
+      "sha256": "52985b073a7e95a5b00500bf10d8e9301ba0ccb1071735d74279e065469ba5e9"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/maolang-stage.jpg",
+      "bytes": 91629,
+      "sha256": "23f045466cfee461ee94282bbd66742c0c84f0fc2076bbc7f9104c6da1fcb9e0"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/shijiang-base.jpg",
+      "bytes": 105649,
+      "sha256": "d85bd7750af3f923238b41a120a29858f788b518dbce7c6dedc09f095e70a532"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/shijiang-calculator.jpg",
+      "bytes": 105737,
+      "sha256": "f5f61ceb294b9ee6bfe22a431130b3263c7c81011fc086f00e0ed8f41030e31d"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/shijiang-serious.jpg",
+      "bytes": 106341,
+      "sha256": "a3ba304ae49303adf11c069eaffe01e470cfbb909b9ddead0c3aecb385a54e82"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/six-choices-occlusion.jpg",
+      "bytes": 157267,
+      "sha256": "8eba05052f4f9e0299210c886ef629f59543fe7db7888996789396c65e56470b"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/wenwen-base.jpg",
+      "bytes": 122851,
+      "sha256": "64d232107e5f9a66c2f9941ca05be9c919889c9f7b2d986f0496fc864982a57e"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/yelan-b.jpg",
+      "bytes": 101720,
+      "sha256": "698456599a01f74af8b3c49a392d996871dab3f5b14f1386ae3b379ac7dc9981"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/yelan-phone.jpg",
+      "bytes": 102269,
+      "sha256": "c40faf2c5912ee3ac9944d1277087d663a6e746583f5d7a43e3217c55d7f353f"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/ui-static/yelan-serious.jpg",
+      "bytes": 102133,
+      "sha256": "3860aab7f5bb4f3fe75718c7f828a786f94aa330a75eb85e7f467d93e50fc373"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/verification.json",
+      "bytes": 7372,
+      "sha256": "9a846cc412a12cd31cbab81ab24062104727fb8e5f8a1925770e086c95dfc34d"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/visual-review.md",
+      "bytes": 2658,
+      "sha256": "54d98ee810931a299fd8be8e500115053c39a8bc3c01616f2681a5ae812c117d"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/yelan-options-a-b.jpg",
+      "bytes": 238014,
+      "sha256": "e6229d319094112539d56722c090abcac0cf1894eaa06eb2e36739fdfab3862e"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/交接.md",
+      "bytes": 4053,
+      "sha256": "62ef06cc552c82ecc530bd864a38aa3a43eb8dbec3befc9be453fa519ce9c102"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/逐人需求与交付.md",
+      "bytes": 6386,
+      "sha256": "4395ddb13507a0a8db4d86049127c64b47f2b344565d6b4297be08b03ddffe1b"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/道具连续性.md",
+      "bytes": 2574,
+      "sha256": "1fa73ad609b6c3c6071bd77485cd38b43f024b200de385d08841e14587e750b6"
+    }
+  ]
+}

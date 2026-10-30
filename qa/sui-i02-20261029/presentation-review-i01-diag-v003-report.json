@@ -1,0 +1,179 @@
+{
+  "task": "SUI-I02",
+  "scope": "从最终integrateI01(args).ray抽取执行函数体的独立JS语义复核；不是原生引擎或浏览器验收",
+  "adaptedRaySha256": "fb4fb2c532c05cbef7171ab73697ded6553bad09a8066566745837609b253e7a",
+  "sourceHashes": {
+    "tools/integration/runtime/i01-compose.cjs": "8cdb5dac0faa5b208c86387ce2607185a5c95bad66f171172349d0a6fe40581e",
+    "tools/integration/runtime/presentation.cjs": "a017f10723e8ba373f98c8ae5ea0855ce76c2b056250e61339c1a7cf75045a7b",
+    "tools/integration/runtime/presentation.ray": "f035d88df90f374d727f09ce58a1235573021941d579a74b992956c953df4bad",
+    "docs/整合/bindings.json": "2a035c1177e2648b112be42d05c2be743ca83aa926027bd58fe8a44b21d45114"
+  },
+  "passed": 20,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "修复：有CG的游标不能用inactive/empty绕过",
+      "status": "pass",
+      "accepted": false,
+      "error": "presentation-invalid-save",
+      "predicateCalls": 2,
+      "appliedState": null
+    },
+    {
+      "name": "合法CG active/state按目标游标唯一条件重算",
+      "status": "pass",
+      "accepted": true,
+      "error": null,
+      "predicateCalls": 2,
+      "appliedState": "i01-state-TEXT_982d9ac0f683c6bbb52b_1-1:enter"
+    },
+    {
+      "name": "active与state错误组合被拒绝",
+      "status": "pass",
+      "accepted": false,
+      "error": "presentation-invalid-save",
+      "predicateCalls": 2,
+      "appliedState": null
+    },
+    {
+      "name": "未知active被拒绝",
+      "status": "pass",
+      "accepted": false,
+      "error": "presentation-invalid-save",
+      "predicateCalls": 2,
+      "appliedState": null
+    },
+    {
+      "name": "同游标错误mask0不能绕过实际CG条件",
+      "status": "pass",
+      "accepted": false,
+      "error": "presentation-invalid-save",
+      "predicateCalls": 2,
+      "appliedState": null
+    },
+    {
+      "name": "未绑定游标允许规范中性场",
+      "status": "pass",
+      "accepted": true,
+      "error": null,
+      "predicateCalls": 0,
+      "appliedState": "empty"
+    },
+    {
+      "name": "未绑定游标拒绝其他binding的restore状态",
+      "status": "pass",
+      "accepted": false,
+      "error": "presentation-invalid-save",
+      "predicateCalls": 0,
+      "appliedState": null
+    },
+    {
+      "name": "未绑定游标拒绝残留active",
+      "status": "pass",
+      "accepted": false,
+      "error": "presentation-invalid-save",
+      "predicateCalls": 0,
+      "appliedState": null
+    },
+    {
+      "name": "修复：共享事件缺返回帧拒绝",
+      "status": "pass",
+      "matched": false,
+      "error": "cue-shared-return-invalid"
+    },
+    {
+      "name": "修复：共享事件未知路线拒绝",
+      "status": "pass",
+      "matched": false,
+      "error": "cue-shared-route-invalid"
+    },
+    {
+      "name": "共享事件错误返回帧拒绝",
+      "status": "pass",
+      "matched": false,
+      "error": "cue-shared-return-invalid"
+    },
+    {
+      "name": "共享事件合法返回帧通过",
+      "status": "pass",
+      "matched": true,
+      "error": null
+    },
+    {
+      "name": "共享事件缺未冻结关系拒绝",
+      "status": "pass",
+      "matched": false,
+      "error": "relation-unfrozen-or-invalid"
+    },
+    {
+      "name": "修复：后日谈未知值拒绝",
+      "status": "pass",
+      "matched": false,
+      "error": "cue-epilogue-invalid"
+    },
+    {
+      "name": "修复：后日谈未分派拒绝",
+      "status": "pass",
+      "matched": false,
+      "error": "cue-epilogue-invalid"
+    },
+    {
+      "name": "后日谈缺状态拒绝",
+      "status": "pass",
+      "matched": false,
+      "error": "cue-epilogue-invalid"
+    },
+    {
+      "name": "后日谈合法条件通过",
+      "status": "pass",
+      "matched": true,
+      "error": null
+    },
+    {
+      "name": "合法另一后日谈仅不命中不报错",
+      "status": "pass",
+      "matched": false,
+      "error": null
+    },
+    {
+      "name": "未访问的必需选择拒绝",
+      "status": "pass",
+      "matched": false,
+      "error": "unvisited-or-invalid:MY07-01"
+    },
+    {
+      "name": "合法但不同分支不命中",
+      "status": "pass",
+      "matched": false,
+      "error": null
+    }
+  ],
+  "candidate": {
+    "version": "i01-diag-v003",
+    "inputFingerprint": "89d144cb84197f4e1e0733e06067f0c49701aa398f7238af1e358db10aa1c748",
+    "manifestPath": "qa/sui-i02-20261029/i01-diag-v003/candidate-manifest.json",
+    "manifestSha256": "40bced50eb4cd3264fcb6c7cc22810fb036ccc24c8424c2cd663c90b91d2defb",
+    "sourceChecks": [
+      {
+        "path": "tools/integration/runtime/i01-compose.cjs",
+        "sha256": "8cdb5dac0faa5b208c86387ce2607185a5c95bad66f171172349d0a6fe40581e",
+        "match": true
+      },
+      {
+        "path": "tools/integration/runtime/presentation.cjs",
+        "sha256": "a017f10723e8ba373f98c8ae5ea0855ce76c2b056250e61339c1a7cf75045a7b",
+        "match": true
+      },
+      {
+        "path": "tools/integration/runtime/presentation.ray",
+        "sha256": "f035d88df90f374d727f09ce58a1235573021941d579a74b992956c953df4bad",
+        "match": true
+      },
+      {
+        "path": "docs/整合/bindings.json",
+        "sha256": "2a035c1177e2648b112be42d05c2be743ca83aa926027bd58fe8a44b21d45114",
+        "match": true
+      }
+    ]
+  }
+}

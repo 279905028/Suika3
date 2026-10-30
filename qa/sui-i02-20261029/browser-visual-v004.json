@@ -1,0 +1,15 @@
+{
+  "status": "fail",
+  "build": "d4363b4105917e4860adc8b418c2ca140f411308b17062eee030883070c63d38",
+  "method": "actual screenshot visual review",
+  "reviewer": "SUI-I02 QA agent",
+  "automatedFlowChecks": 19,
+  "automatedErrors": 0,
+  "issue": "选择页只有背景和菜单，选择框及文字不可见，坐标点击仍可推进",
+  "screenshots": [
+    "browser-screenshots-v004/04-first-choice.png",
+    "browser-screenshots-v004/07-mobile-landscape.png",
+    "browser-screenshots-v004/09-final-choice.png"
+  ],
+  "releaseConclusion": "自动流程pass不可作为整体验收；待运行显示修复及同候选复测"
+}

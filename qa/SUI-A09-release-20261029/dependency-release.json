@@ -1,0 +1,840 @@
+{
+  "upstreamRequirements": 60,
+  "requirements": {
+    "bg-bijie-arrival-platform": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG001"
+      ],
+      "referenceKeys": [
+        "A08/bg-bijie-arrival-platform-day-rain"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-wenwen-luggage": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG001",
+        "CG082"
+      ],
+      "referenceKeys": [
+        "PRE/prop-wenwen-personal-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-salon-bijie": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG004",
+        "CG014",
+        "CG015"
+      ],
+      "referenceKeys": [
+        "A08/bg-salon-bijie-mirror-day",
+        "A08/bg-salon-bijie-washbasin-day",
+        "PRE/prop-salon-washbasin-reference-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-xiaoman-practice-kit": {
+      "owner": "SUI-A02",
+      "shots": [
+        "CG004",
+        "CG023",
+        "CG102"
+      ],
+      "referenceKeys": [
+        "PRE/prop-xiaoman-open-practice-kit-v001",
+        "A02/char-xiaoman-practice-notebook",
+        "PRE/photo-xiaoman-wenwen-day22-haircut-v002"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-convenience-bijie": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG005"
+      ],
+      "referenceKeys": [
+        "A08/bg-convenience-bijie-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-shared-food-boxes": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG005",
+        "CG007",
+        "CG011",
+        "CG016",
+        "CG035",
+        "CG038",
+        "CG041",
+        "CG044",
+        "CG061",
+        "CG063",
+        "CG077",
+        "CG095",
+        "CG098",
+        "CG099",
+        "CG108"
+      ],
+      "referenceKeys": [
+        "A08/bg-convenience-bijie-day",
+        "PRE/prop-shared-handheld-food-boxes-reference-v001",
+        "A08/bg-noodle-shop-day",
+        "A08/bg-friends-meal-shop-evening",
+        "A08/bg-bbq-xiaoman-friends-stall-night",
+        "A08/bg-bridge-shaobing-day",
+        "A04/book-box",
+        "A08/bg-mengyao-bijie-school-entrance-day",
+        "A08/bg-lianggao-shop-day",
+        "A08/prop-netcafe-mealbox-open-reference",
+        "A08/bg-huangqiuqiu-room-day",
+        "A08/bg-friends-meal-shop-day",
+        "A08/bg-old-netcafe-milk-tea-fr-day91"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-old-netcafe-counter": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG006",
+        "CG010",
+        "CG062",
+        "CG086",
+        "CG090",
+        "CG091",
+        "CG107"
+      ],
+      "referenceKeys": [
+        "A08/bg-old-netcafe-counter-day",
+        "A08/bg-old-netcafe-counter-night"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-netcafe-counter-equipment": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG006",
+        "CG086",
+        "CG091"
+      ],
+      "referenceKeys": [
+        "A08/bg-old-netcafe-counter-day",
+        "PRE/prop-shared-handheld-food-boxes-reference-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-noodle-shop": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG007",
+        "CG067",
+        "CG101"
+      ],
+      "referenceKeys": [
+        "A08/bg-noodle-shop-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-zhouzhi-planning": {
+      "owner": "SUI-A03",
+      "shots": [
+        "CG007"
+      ],
+      "referenceKeys": [
+        "PRE/prop-zhouzhi-private-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-friends-meal-shop": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG008",
+        "CG011",
+        "CG061",
+        "CG095",
+        "CG096",
+        "CG098",
+        "CG099"
+      ],
+      "referenceKeys": [
+        "A08/bg-friends-meal-shop-evening",
+        "A08/bg-friends-meal-shop-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-piao-knots": {
+      "owner": "SUI-A05",
+      "shots": [
+        "CG008",
+        "CG063",
+        "CG067",
+        "CG068",
+        "CG096",
+        "CG101"
+      ],
+      "referenceKeys": [
+        "PRE/char-piao-knotted-shirt-v001",
+        "PRE/prop-piao-knots-reference-v002",
+        "A05/piao-prop-camera-bag"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-maolang-performance-kit": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG010",
+        "CG062",
+        "CG086",
+        "CG091"
+      ],
+      "referenceKeys": [
+        "PRE/prop-maolang-performance-papers-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-xiaoman-helmets": {
+      "owner": "SUI-A02",
+      "shots": [
+        "CG011",
+        "CG020"
+      ],
+      "referenceKeys": [
+        "A02/char-xiaoman-two-helmets"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-huangqiuqiu-room": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG012",
+        "CG073",
+        "CG075",
+        "CG077",
+        "CG078",
+        "CG079",
+        "CG082"
+      ],
+      "referenceKeys": [
+        "A08/bg-huangqiuqiu-room-night",
+        "A08/bg-huangqiuqiu-room-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-yard-fixed": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG012",
+        "CG075",
+        "CG078"
+      ],
+      "referenceKeys": [
+        "A08/bg-old-netcafe-yard-door-ajar-night",
+        "A08/bg-huangqiuqiu-room-night",
+        "PRE/photo-hq-yard-whiteflowers-blurred-v001",
+        "A08/bg-old-netcafe-yard-door-open-afternoon",
+        "A08/bg-huangqiuqiu-room-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-xiaoman-tools": {
+      "owner": "SUI-A02",
+      "shots": [
+        "CG014",
+        "CG015"
+      ],
+      "referenceKeys": [
+        "A02/char-xiaoman-work-apron",
+        "PRE/prop-xiaoman-open-practice-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-salon-fixed": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG014",
+        "CG015"
+      ],
+      "referenceKeys": [
+        "A08/bg-salon-bijie-mirror-day",
+        "A08/bg-salon-bijie-washbasin-day",
+        "PRE/prop-salon-washbasin-reference-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-bbq-xiaoman-friends": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG016"
+      ],
+      "referenceKeys": [
+        "A08/bg-bbq-xiaoman-friends-stall-night"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-wenwen-bijie-rental": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG019",
+        "CG035",
+        "CG104",
+        "CG106"
+      ],
+      "referenceKeys": [
+        "A08/bg-wenwen-bijie-rental-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "pose-xm-morning": {
+      "owner": "SUI-A02",
+      "shots": [
+        "CG019"
+      ],
+      "referenceKeys": [
+        "PRE/char-xiaoman-morning-white-tee-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-xm-phone": {
+      "owner": "SUI-A02",
+      "shots": [
+        "CG019"
+      ],
+      "referenceKeys": [
+        "PRE/prop-xiaoman-open-practice-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-bus-stop-bijie": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG020"
+      ],
+      "referenceKeys": [
+        "A08/bg-bus-stop-bijie-stop-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-departure-station": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG022",
+        "CG034",
+        "CG069"
+      ],
+      "referenceKeys": [
+        "A08/bg-departure-station-morning-rain"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-transport-packing": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG022",
+        "CG034",
+        "CG069"
+      ],
+      "referenceKeys": [
+        "PRE/prop-station-travel-bags-reference-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-chengdu-salon-study": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG023"
+      ],
+      "referenceKeys": [
+        "A08/bg-chengdu-salon-study-screen-reference-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-bijie-slope-street": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG023"
+      ],
+      "referenceKeys": [
+        "A08/bg-bijie-slope-street-day-overcast"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-huisheng-306": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG025",
+        "CG029",
+        "CG031"
+      ],
+      "referenceKeys": [
+        "A08/bg-huisheng-306-operating-night",
+        "A08/bg-huisheng-306-cleared-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-huisheng-sales": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG025",
+        "CG027",
+        "CG029"
+      ],
+      "referenceKeys": [
+        "A08/bg-huisheng-306-operating-night",
+        "A08/bg-huisheng-corridor-operating-day",
+        "PRE/prop-shared-handheld-food-boxes-reference-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-huisheng-corridor": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG026",
+        "CG027",
+        "CG103"
+      ],
+      "referenceKeys": [
+        "A08/bg-huisheng-corridor-operating-day",
+        "A08/bg-huisheng-corridor-locked-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-zhouzhi-personal-box": {
+      "owner": "SUI-A03",
+      "shots": [
+        "CG026",
+        "CG027",
+        "CG031",
+        "CG032"
+      ],
+      "referenceKeys": [
+        "PRE/prop-zhouzhi-private-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "char-qiaoge": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG026"
+      ],
+      "referenceKeys": [
+        "PRE/prop-qiaoge-cuff-reference-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-huisheng-stopped-clock": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG031"
+      ],
+      "referenceKeys": [
+        "A08/prop-huisheng-stopped-clock-1147-reference",
+        "A08/bg-huisheng-306-cleared-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-zhouzhi-other-venue": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG032"
+      ],
+      "referenceKeys": [
+        "A08/bg-zhouzhi-other-venue-evening"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-zhouzhi-blue-rim-cup": {
+      "owner": "SUI-A03",
+      "shots": [
+        "CG034"
+      ],
+      "referenceKeys": [
+        "A03/tied-tired-cup"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-wenwen-phone": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG035",
+        "CG070",
+        "CG075",
+        "CG100",
+        "CG102",
+        "CG105",
+        "CG107"
+      ],
+      "referenceKeys": [
+        "PRE/prop-wenwen-personal-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-wenwen-housing-papers": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG035"
+      ],
+      "referenceKeys": [
+        "PRE/prop-wenwen-personal-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-mengyao-book-box": {
+      "owner": "SUI-A04",
+      "shots": [
+        "CG038"
+      ],
+      "referenceKeys": [
+        "A04/book-box",
+        "A04/prop-mengyao-workbook-cover"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-bridge-shaobing": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG039"
+      ],
+      "referenceKeys": [
+        "A08/bg-bridge-shaobing-eaves-rain"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-my-umbrella": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG039"
+      ],
+      "referenceKeys": [
+        "PRE/prop-wenwen-personal-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-mengyao-bijie-school": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG040",
+        "CG041"
+      ],
+      "referenceKeys": [
+        "A08/bg-mengyao-bijie-school-classroom-day",
+        "A08/bg-mengyao-bijie-school-entrance-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-mengyao-teaching-kit": {
+      "owner": "SUI-A04",
+      "shots": [
+        "CG040",
+        "CG104"
+      ],
+      "referenceKeys": [
+        "A04/char-mengyao-human-teaching-base",
+        "A04/prop-mengyao-phone-stand",
+        "A04/prop-mengyao-workbook-cover"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-chensheng-handheld": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG041"
+      ],
+      "referenceKeys": [
+        "A07/chensheng-documents"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-my-riverside": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG044"
+      ],
+      "referenceKeys": [
+        "PRE/bg-my-riverside-afternoon-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "pose-my-day44": {
+      "owner": "SUI-A04",
+      "shots": [
+        "CG044"
+      ],
+      "referenceKeys": [
+        "A04/char-mengyao-human-teaching-base"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-piao-photos": {
+      "owner": "SUI-A05",
+      "shots": [
+        "CG061",
+        "CG068",
+        "CG070",
+        "CG098"
+      ],
+      "referenceKeys": [
+        "A05/piao-prop-camera",
+        "PRE/photo-piao-table-hands-v001",
+        "PRE/photo-piao-oldstreet-after-rain-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "pose-maolang-aftershow": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG061"
+      ],
+      "referenceKeys": [
+        "A07/maolang-stage"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-lianggao-shop": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG063"
+      ],
+      "referenceKeys": [
+        "A08/bg-lianggao-shop-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-piao-bijie-room": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG066"
+      ],
+      "referenceKeys": [
+        "A08/bg-piao-bijie-room-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-piao-booklet-kit": {
+      "owner": "SUI-A05",
+      "shots": [
+        "CG066",
+        "CG101",
+        "CG106"
+      ],
+      "referenceKeys": [
+        "A05/piao-prop-booklet",
+        "A05/piao-prop-booklet-tools",
+        "A05/piao-prop-camera-bag",
+        "PRE/prop-piao-last-page-black-mark-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-hq-tableware": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG073",
+        "CG077",
+        "CG107"
+      ],
+      "referenceKeys": [
+        "A08/prop-hq-tableware-name-and-blank-reference"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-hq-room-fixed": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG079"
+      ],
+      "referenceKeys": [
+        "A08/bg-huangqiuqiu-room-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-wenwen-keyring": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG082"
+      ],
+      "referenceKeys": [
+        "PRE/prop-wenwen-personal-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-extras-handheld": {
+      "owner": "SUI-A07",
+      "shots": [
+        "CG086"
+      ],
+      "referenceKeys": [
+        "PRE/prop-extras-tools-reference-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-netcafe-console": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG090"
+      ],
+      "referenceKeys": [
+        "A08/prop-netcafe-console-reference",
+        "A08/bg-old-netcafe-counter-day"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-new-netcafe": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG094"
+      ],
+      "referenceKeys": [
+        "A08/bg-new-netcafe-counter-night"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-netcafe-records": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG094"
+      ],
+      "referenceKeys": [
+        "A08/prop-netcafe-records-blank-reference",
+        "A08/bg-new-netcafe-counter-night"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-piao-epilogue-pages": {
+      "owner": "SUI-A05",
+      "shots": [
+        "CG096",
+        "CG099"
+      ],
+      "referenceKeys": [
+        "PRE/prop-piao-epilogue-paper-kit-v001"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "bg-old-netcafe-milk-tea": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG108"
+      ],
+      "referenceKeys": [
+        "A08/bg-old-netcafe-milk-tea-fr-day91"
+      ],
+      "status": "resolved-reference-frozen"
+    },
+    "prop-netcafe-cat-drawing": {
+      "owner": "SUI-A08",
+      "shots": [
+        "CG108"
+      ],
+      "referenceKeys": [
+        "A08/prop-netcafe-cat-drawing-wall-reference"
+      ],
+      "status": "resolved-reference-frozen"
+    }
+  },
+  "internalWorkItems": [
+    {
+      "requirementId": "prop-game-screen",
+      "owner": "SUI-A10-COMMON",
+      "name": "普通组队游戏屏幕草图",
+      "reason": "仅根据角色停在角落及语音暂停制作无品牌草图，不补具体游戏名、头像或恋爱UI。",
+      "status": "in-package-production-work",
+      "frameUse": "电脑、耳机；叶岚游戏角色停在角落；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG006"
+    },
+    {
+      "requirementId": "prop-message-screen-cg023",
+      "owner": "SUI-A10-XM",
+      "name": "电话/消息/日历局部草图",
+      "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+      "status": "in-package-production-work",
+      "templateKey": "prop-message-screen",
+      "frameUse": "手机视频、打开再挡脸的练习本；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG023"
+    },
+    {
+      "requirementId": "prop-message-screen-cg035",
+      "owner": "SUI-A10-ZZ",
+      "name": "电话/消息/日历局部草图",
+      "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+      "status": "in-package-production-work",
+      "templateKey": "prop-message-screen",
+      "frameUse": "烧饼纸袋、通知袋、放手边的通话手机；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG035"
+    },
+    {
+      "requirementId": "prop-message-screen-cg070",
+      "owner": "SUI-A10-PI",
+      "name": "电话/消息/日历局部草图",
+      "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+      "status": "in-package-production-work",
+      "templateKey": "prop-message-screen",
+      "frameUse": "寄来的两张照片：桌面与雨后老街；手机回复；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG070"
+    },
+    {
+      "requirementId": "prop-message-screen-cg100",
+      "owner": "SUI-A10-COMMON",
+      "name": "电话/消息/日历局部草图",
+      "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+      "status": "in-package-production-work",
+      "templateKey": "prop-message-screen",
+      "frameUse": "群消息“我们结婚了”，同条照片附件、祝福短回复；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG100"
+    },
+    {
+      "requirementId": "prop-message-screen-cg102",
+      "owner": "SUI-A10-XM",
+      "name": "电话/消息/日历局部草图",
+      "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+      "status": "in-package-production-work",
+      "templateKey": "prop-message-screen",
+      "previousRequirementId": "prop-message-screen-a09-c02",
+      "frameUse": "第22天原始侧面照、手机，不开视频；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG102"
+    },
+    {
+      "requirementId": "prop-message-screen-cg104",
+      "owner": "SUI-A10-MY",
+      "name": "电话/消息/日历局部草图",
+      "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+      "status": "in-package-production-work",
+      "templateKey": "prop-message-screen",
+      "previousRequirementId": "prop-message-screen-a09-c04",
+      "frameUse": "留空日程、红笔收抽屉、旧练习册分开放；车票未买；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG104"
+    },
+    {
+      "requirementId": "prop-message-screen-cg105",
+      "owner": "SUI-A10-MY",
+      "name": "电话/消息/日历局部草图",
+      "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+      "status": "in-package-production-work",
+      "templateKey": "prop-message-screen",
+      "previousRequirementId": "prop-message-screen-a09-c05",
+      "frameUse": "手机取消置顶及单独提醒；不删除历史或照片；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG105"
+    },
+    {
+      "requirementId": "prop-message-screen-cg107",
+      "owner": "SUI-A10-HQ",
+      "name": "电话/消息/日历局部草图",
+      "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+      "status": "in-package-production-work",
+      "templateKey": "prop-message-screen",
+      "previousRequirementId": "prop-message-screen-a09-c07",
+      "frameUse": "旧五点提醒、柜中自己的杯子；保留今晚工作提醒；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+      "referenceKeys": [],
+      "shot": "CG107"
+    }
+  ]
+}

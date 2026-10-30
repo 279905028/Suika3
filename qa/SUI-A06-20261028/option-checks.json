@@ -1,0 +1,608 @@
+{
+  "scope": "四张基础方案，离线资源检查，不是运行验收",
+  "files": [
+    {
+      "key": "orb-a",
+      "form": "orb",
+      "option": "A",
+      "status": "awaiting_user_selection",
+      "source": {
+        "path": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-orb-base-neutral-v001.png",
+        "sha256": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a",
+        "bytes": 1331514,
+        "format": "PNG",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "clearPixels": 611172,
+        "opaquePixels": 1484,
+        "alphaBBox": [
+          0,
+          17,
+          1250,
+          1237
+        ],
+        "alpha16BBox": [
+          72,
+          87,
+          1110,
+          1106
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6290064
+      },
+      "derivative": {
+        "path": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-orb-base-neutral-v001.webp",
+        "sha256": "9c7ae2ff67bfa6436f5700295ffbf72d848c6e94b7dd95aa17b7e0d5379e69e2",
+        "bytes": 795684,
+        "format": "WEBP",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "clearPixels": 611172,
+        "opaquePixels": 1484,
+        "alphaBBox": [
+          0,
+          17,
+          1250,
+          1237
+        ],
+        "alpha16BBox": [
+          72,
+          87,
+          1110,
+          1106
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6290064
+      },
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resize": false,
+        "crop": false
+      },
+      "checks": {
+        "decodedRgbaEqual": true,
+        "actualAlpha": true,
+        "metadata": "pass",
+        "composites": "generated; visual review recorded separately",
+        "uiCriticalOverlap": {
+          "face": [],
+          "hand": []
+        },
+        "engine": "not_run",
+        "browser": "not_run",
+        "physicalPhone": "not_run",
+        "desktop": "not_run",
+        "deployment": "not_run"
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          627.0,
+          1254
+        ],
+        "pivotMeaning": "球形画布底中心，非人体脚底",
+        "criticalSourceRects": {
+          "face": [
+            275,
+            390,
+            700,
+            500
+          ],
+          "hand": [
+            625,
+            890,
+            385,
+            310
+          ]
+        },
+        "previewScale": 0.3,
+        "previewXY": [
+          452,
+          96
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            534,
+            213,
+            210,
+            150
+          ],
+          "hand": [
+            640,
+            363,
+            116,
+            93
+          ]
+        }
+      },
+      "previewFiles": [
+        "qa/SUI-A06-20261028/composites/orb-a-white.png",
+        "qa/SUI-A06-20261028/composites/orb-a-black.png",
+        "qa/SUI-A06-20261028/composites/orb-a-day.png",
+        "qa/SUI-A06-20261028/composites/orb-a-night.png"
+      ],
+      "approval": {
+        "selected": false,
+        "adoptedInSuika3": false
+      }
+    },
+    {
+      "key": "orb-b",
+      "form": "orb",
+      "option": "B",
+      "status": "awaiting_user_selection",
+      "source": {
+        "path": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-orb-base-neutral-v001.png",
+        "sha256": "21aba14be691ab79f75a7b6d9c68fae6c8d8721f024ba8dcb3208f5b91a40bbc",
+        "bytes": 1426559,
+        "format": "PNG",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "clearPixels": 616501,
+        "opaquePixels": 865,
+        "alphaBBox": [
+          0,
+          0,
+          1253,
+          1254
+        ],
+        "alpha16BBox": [
+          74,
+          93,
+          1106,
+          1095
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6290064
+      },
+      "derivative": {
+        "path": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-orb-base-neutral-v001.webp",
+        "sha256": "b28da66cb360d38604ad1cb2eb55c7e6d0422893bd15423572069cddf1beb6df",
+        "bytes": 906340,
+        "format": "WEBP",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "clearPixels": 616501,
+        "opaquePixels": 865,
+        "alphaBBox": [
+          0,
+          0,
+          1253,
+          1254
+        ],
+        "alpha16BBox": [
+          74,
+          93,
+          1106,
+          1095
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6290064
+      },
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resize": false,
+        "crop": false
+      },
+      "checks": {
+        "decodedRgbaEqual": true,
+        "actualAlpha": true,
+        "metadata": "pass",
+        "composites": "generated; visual review recorded separately",
+        "uiCriticalOverlap": {
+          "face": [],
+          "hand": []
+        },
+        "engine": "not_run",
+        "browser": "not_run",
+        "physicalPhone": "not_run",
+        "desktop": "not_run",
+        "deployment": "not_run"
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          627.0,
+          1254
+        ],
+        "pivotMeaning": "球形画布底中心，非人体脚底",
+        "criticalSourceRects": {
+          "face": [
+            275,
+            390,
+            700,
+            500
+          ],
+          "hand": [
+            625,
+            890,
+            385,
+            310
+          ]
+        },
+        "previewScale": 0.3,
+        "previewXY": [
+          452,
+          96
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            534,
+            213,
+            210,
+            150
+          ],
+          "hand": [
+            640,
+            363,
+            116,
+            93
+          ]
+        }
+      },
+      "previewFiles": [
+        "qa/SUI-A06-20261028/composites/orb-b-white.png",
+        "qa/SUI-A06-20261028/composites/orb-b-black.png",
+        "qa/SUI-A06-20261028/composites/orb-b-day.png",
+        "qa/SUI-A06-20261028/composites/orb-b-night.png"
+      ],
+      "approval": {
+        "selected": false,
+        "adoptedInSuika3": false
+      }
+    },
+    {
+      "key": "human-a",
+      "form": "human",
+      "option": "A",
+      "status": "awaiting_user_selection",
+      "source": {
+        "path": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-human-base-neutral-v001.png",
+        "sha256": "b4c1bfbbbcddd75a3ae8c77ec7f20611afc4e94f9c32522a8b0909342c540db3",
+        "bytes": 2322715,
+        "format": "PNG",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "clearPixels": 487398,
+        "opaquePixels": 0,
+        "alphaBBox": [
+          0,
+          19,
+          1024,
+          1517
+        ],
+        "alpha16BBox": [
+          2,
+          56,
+          1020,
+          1479
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6291456
+      },
+      "derivative": {
+        "path": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-human-base-neutral-v001.webp",
+        "sha256": "c7ab26e17d457723aca4977fe67a2b8a4e5b991473832031af1c389f4fa6d74d",
+        "bytes": 1421280,
+        "format": "WEBP",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "clearPixels": 487398,
+        "opaquePixels": 0,
+        "alphaBBox": [
+          0,
+          19,
+          1024,
+          1517
+        ],
+        "alpha16BBox": [
+          2,
+          56,
+          1020,
+          1479
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6291456
+      },
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resize": false,
+        "crop": false
+      },
+      "checks": {
+        "decodedRgbaEqual": true,
+        "actualAlpha": true,
+        "metadata": "pass",
+        "composites": "generated; visual review recorded separately",
+        "uiCriticalOverlap": {
+          "face": [],
+          "toy-and-hand": []
+        },
+        "engine": "not_run",
+        "browser": "not_run",
+        "physicalPhone": "not_run",
+        "desktop": "not_run",
+        "deployment": "not_run"
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          512.0,
+          1536
+        ],
+        "pivotMeaning": "腰部截幅底中心，非脚底",
+        "criticalSourceRects": {
+          "face": [
+            280,
+            245,
+            365,
+            350
+          ],
+          "toy-and-hand": [
+            615,
+            315,
+            397,
+            685
+          ]
+        },
+        "previewScale": 0.4,
+        "previewXY": [
+          435,
+          64
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            547,
+            162,
+            146,
+            140
+          ],
+          "toy-and-hand": [
+            681,
+            190,
+            159,
+            274
+          ]
+        }
+      },
+      "previewFiles": [
+        "qa/SUI-A06-20261028/composites/human-a-white.png",
+        "qa/SUI-A06-20261028/composites/human-a-black.png",
+        "qa/SUI-A06-20261028/composites/human-a-day.png",
+        "qa/SUI-A06-20261028/composites/human-a-night.png"
+      ],
+      "approval": {
+        "selected": false,
+        "adoptedInSuika3": false
+      }
+    },
+    {
+      "key": "human-b",
+      "form": "human",
+      "option": "B",
+      "status": "awaiting_user_selection",
+      "source": {
+        "path": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-human-base-neutral-v001.png",
+        "sha256": "da896efd584f917dc72ea7128d4002a39367508fd5448bbc09dc601077bcaa54",
+        "bytes": 2300885,
+        "format": "PNG",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "clearPixels": 500094,
+        "opaquePixels": 0,
+        "alphaBBox": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "alpha16BBox": [
+          13,
+          67,
+          999,
+          1469
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6291456
+      },
+      "derivative": {
+        "path": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-human-base-neutral-v001.webp",
+        "sha256": "7851c5852de3dbdebe71c00356f1cb9cd645aa3515d0d3ebbf13406ec30e2320",
+        "bytes": 1411826,
+        "format": "WEBP",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "clearPixels": 500094,
+        "opaquePixels": 0,
+        "alphaBBox": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "alpha16BBox": [
+          13,
+          67,
+          999,
+          1469
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6291456
+      },
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resize": false,
+        "crop": false
+      },
+      "checks": {
+        "decodedRgbaEqual": true,
+        "actualAlpha": true,
+        "metadata": "pass",
+        "composites": "generated; visual review recorded separately",
+        "uiCriticalOverlap": {
+          "face": [],
+          "toy-and-hand": []
+        },
+        "engine": "not_run",
+        "browser": "not_run",
+        "physicalPhone": "not_run",
+        "desktop": "not_run",
+        "deployment": "not_run"
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          512.0,
+          1536
+        ],
+        "pivotMeaning": "腰部截幅底中心，非脚底",
+        "criticalSourceRects": {
+          "face": [
+            280,
+            245,
+            365,
+            350
+          ],
+          "toy-and-hand": [
+            615,
+            315,
+            397,
+            685
+          ]
+        },
+        "previewScale": 0.4,
+        "previewXY": [
+          435,
+          64
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            547,
+            162,
+            146,
+            140
+          ],
+          "toy-and-hand": [
+            681,
+            190,
+            159,
+            274
+          ]
+        }
+      },
+      "previewFiles": [
+        "qa/SUI-A06-20261028/composites/human-b-white.png",
+        "qa/SUI-A06-20261028/composites/human-b-black.png",
+        "qa/SUI-A06-20261028/composites/human-b-day.png",
+        "qa/SUI-A06-20261028/composites/human-b-night.png"
+      ],
+      "approval": {
+        "selected": false,
+        "adoptedInSuika3": false
+      }
+    }
+  ],
+  "totalPairs": 4,
+  "allRgbaEqual": true,
+  "allUiCriticalRectsClear": true
+}

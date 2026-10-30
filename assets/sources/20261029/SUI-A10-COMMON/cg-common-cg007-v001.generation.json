@@ -1,0 +1,206 @@
+{
+  "id": "CG007",
+  "title": "一碗面和一通工作电话",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg007-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A03/base",
+    "A07/maolang-base",
+    "A08/bg-noodle-shop-day",
+    "PRE/prop-zhouzhi-private-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+    "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：周栀B，长深棕发、青衬衫、黑裤，私人版\n图3：毛狼D日常身份，黑图案T，黑护腕\n图4：A08/bg-noodle-shop-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图5：私人资料箱、摊位线框/纸背、耳饰、发圈、手机套和折伞，按当拍选择；折伞为借还链，不与CG039长柄伞混同。\n核心画面：面馆周栀半身与手部主景，青衬衫，手机夹耳侧正在接工作电话，一手把无字摊位图沿折痕折整齐，面碗在旁。毛狼只在一侧轻虚化同桌，文文第一人称碗边/袖口，不作恋人双人约会。\n衣装/形态硬约束：周栀B青衬衫；沿当拍私人吃面状态\n当拍道具：面碗、手机、正在折的摊位图\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。；固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG007",
+    "kind": "retained-selection",
+    "title": "一碗面和一通工作电话",
+    "originalTitle": "一碗面和一通工作电话",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+        "line": 415,
+        "anchor": "我抬头。她靠在椅背上，声音比刚才软，手却把摊位图折得方方正正。"
+      }
+    ],
+    "time": "共通第5—7天段，吃面时",
+    "routeGroup": "COMMON",
+    "source": {
+      "path": "scenario/第一章-回到毕节.md",
+      "line": 405,
+      "paragraph": "TEXT_4083f0f1962301f787b8",
+      "scope": "### 第5—7天｜有人要去贵阳",
+      "nearestNode": null,
+      "quote": "我抬头。她靠在椅背上，声音比刚才软，手却把摊位图折得方方正正。",
+      "conditions": [],
+      "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "matchText": "我抬头。她靠在椅背上，声音比刚才软，手却把摊位图折得方方正正。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、周栀；毛狼同桌",
+      "offscreenOrRemote": "工作电话另一端画外"
+    },
+    "wardrobeAndForm": "周栀B青衬衫；沿当拍私人吃面状态",
+    "propState": "面碗、手机、正在折的摊位图",
+    "composition": "聚焦周栀接工作电话时折纸的手；不把熟客语气当恋人承诺。",
+    "conditions": {
+      "entryGates": [],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "此刻电话未挂，挂断后须退出接电话动作；摊位图不画具体租金或地址。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A03/base",
+      "A07/maolang-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_4083f0f1962301f787b8_1",
+      "visiblePageIds": [
+        "TEXT_4083f0f1962301f787b8_1"
+      ],
+      "exitBeforeId": "TEXT_4a735a3df79feef1d597_1",
+      "snapshotBefore": "共通第5—7天段，吃面时；文文、周栀；毛狼同桌；周栀B青衬衫；沿当拍私人吃面状态；面碗、手机、正在折的摊位图",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "此刻电话未挂，挂断后须退出接电话动作；摊位图不画具体租金或地址。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-noodle-shop",
+        "owner": "SUI-A08",
+        "name": "面馆/早餐店/门外台阶",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-noodle-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-noodle-shop-front-dawn-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-zhouzhi-planning",
+        "owner": "SUI-A03",
+        "name": "摊位图/采购单",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-noodle-shop",
+        "owner": "SUI-A08",
+        "name": "面馆/早餐店/门外台阶",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-noodle-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-noodle-shop-front-dawn-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-noodle-shop-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-zhouzhi-planning",
+        "owner": "SUI-A03",
+        "name": "摊位图/采购单",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-zhouzhi-private-kit-v001"
+        ],
+        "frameUse": "按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-noodle-shop-day"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A03/base",
+      "A07/maolang-base",
+      "A08/bg-noodle-shop-day",
+      "PRE/prop-zhouzhi-private-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg007-v001.png",
+  "sourceSha256": "4ccaa07b3a76fead4e97201effacd4bea8b09e83e3cdccb59d832e969a4a3bc6",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-1ec46db3-d1ca-40d4-a475-18154dc1681e.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+      "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+      "sha256": "e6cf30699797672c913c70bb1bbe3eb18505de94948d878999fc7e67dd85c6b8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-day-v001.png",
+      "sha256": "b24b63d7caf5f398391b779e48a2a9cfffa9527940590436d74a512ee2f3e839"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png",
+      "sha256": "88f91476d6dc74bc2951d3f9d537d1032a7db95417cab6a472925531505468cc"
+    }
+  ],
+  "runtimeAdopted": false
+}

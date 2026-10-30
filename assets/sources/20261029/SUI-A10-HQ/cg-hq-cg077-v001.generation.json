@@ -1,0 +1,233 @@
+{
+  "id": "CG077",
+  "title": "五点的那只手",
+  "package": "SUI-A10-HQ",
+  "stem": "cg-hq-cg077-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A06/sui-a06-orb-base-v001-png",
+    "A08/bg-huangqiuqiu-room-day",
+    "A08/prop-hq-tableware-name-and-blank-reference",
+    "A08/prop-netcafe-mealbox-open-reference"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261029/SUI-A06/selected/orb/char-huangqiuqiu-orb-base-neutral-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.png",
+    "assets/sources/20261029/SUI-A08/prop-hq-tableware/prop-hq-tableware-name-and-blank-reference-v002.png",
+    "assets/sources/20261029/SUI-A08/prop-netcafe-mealbox/prop-netcafe-mealbox-open-reference-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：黄球球球形A，一只小手；无躯干、腿或第二手\n图3：A08/bg-huangqiuqiu-room-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：A08/prop-hq-tableware-name-and-blank-reference，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图5：A08/prop-netcafe-mealbox-open-reference，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n核心画面：第45天傍晚饭将结束，球形黄球球唯一小手轻搭在文文牛仔袖伸出的手背上，手部与球形脸在上中部。吃过的餐盒靠侧，文文手机扣下。无第二只球手、无成人女子人形、无亲吻。\n衣装/形态硬约束：球形A，文文B衣袖\n当拍道具：桌沿、吃过的餐盒，文文手机扣下\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；CG073她杯底已有黄球球姓名、文文正在写自己的杯底，尚未倒水；CG077吃过的餐盒另取餐具；CG107文文杯已在柜中，提醒只在文文手机。；固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG077",
+    "kind": "retained-selection",
+    "title": "五点的那只手",
+    "originalTitle": "五点的那只手",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+        "line": 451,
+        "anchor": "我把手挪过去，她的小手搭上来，停了一会儿。"
+      }
+    ],
+    "time": "第45天17:00按约吃饭接近结束",
+    "routeGroup": "HQ",
+    "source": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 457,
+      "paragraph": "TEXT_81fc3fa477ede2d92569",
+      "scope": "HQ07-01/A",
+      "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+      "quote": "快吃完时，她把手伸到我这边。不是拿筷子，也没让我帮忙，就在桌沿放着。我把手挪过去，她的小手搭上来，停了一会儿。",
+      "conditions": [
+        "HQ07-01=A"
+      ],
+      "sourceSha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "matchText": "我把手挪过去，她的小手搭上来，停了一会儿。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、黄球球球形",
+      "offscreenOrRemote": "师匠不在房间，工作照片远程"
+    },
+    "wardrobeAndForm": "球形A，文文B衣袖",
+    "propState": "桌沿、吃过的餐盒，文文手机扣下",
+    "composition": "球形仅有的小手搭文文手背；不提前变人形。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "huangqiuqiu"
+        }
+      ],
+      "requiredExpressions": [
+        "HQ07-01=A"
+      ]
+    },
+    "reviewNotes": "HQ08未来可A/B，均保留本次守约；不能把触手当变身奖励。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-orb-base-v001-png"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_81fc3fa477ede2d92569_1",
+      "visiblePageIds": [
+        "TEXT_81fc3fa477ede2d92569_1"
+      ],
+      "exitBeforeId": "TEXT_4fdcd4e7ea6c93c46b8a_1",
+      "snapshotBefore": "第45天17:00按约吃饭接近结束；文文、黄球球球形；球形A，文文B衣袖；桌沿、吃过的餐盒，文文手机扣下",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "HQ08未来可A/B，均保留本次守约；不能把触手当变身奖励。"
+    },
+    "production": {
+      "package": "SUI-A10-HQ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-hq-tableware",
+        "owner": "SUI-A08",
+        "name": "写名双杯/铅笔/纸条/信封",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "prop-hq-tableware-name-and-blank-reference-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-hq-tableware",
+        "owner": "SUI-A08",
+        "name": "写名双杯/铅笔/纸条/信封",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "prop-hq-tableware-name-and-blank-reference-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/prop-hq-tableware-name-and-blank-reference"
+        ],
+        "frameUse": "CG073她杯底已有黄球球姓名、文文正在写自己的杯底，尚未倒水；CG077吃过的餐盒另取餐具；CG107文文杯已在柜中，提醒只在文文手机。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/prop-netcafe-mealbox-open-reference",
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-orb-base-v001-png",
+      "A08/bg-huangqiuqiu-room-day",
+      "A08/prop-hq-tableware-name-and-blank-reference",
+      "A08/prop-netcafe-mealbox-open-reference"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg077-v001.png",
+  "sourceSha256": "685fdb1f8dc2a5e16cb26eaddf72a5a73fe2776361187b7c7dbc808419b90913",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-7437d742-e34c-44eb-97a8-841b2e6d3bd1.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A06/selected/orb/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "sha256": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.png",
+      "sha256": "3857e5fd500a7d0ef8141ac7feda63a6e9edd98e6d81313886d38cd0ac2ea870"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/prop-hq-tableware/prop-hq-tableware-name-and-blank-reference-v002.png",
+      "sha256": "766183effc058a844f1ab04766918acf3e783b538178faefecb9a56007bc6090"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/prop-netcafe-mealbox/prop-netcafe-mealbox-open-reference-v001.png",
+      "sha256": "2965f8f2095032bcea056c8014992796ef1f93833cbc8741f861a6fc0acd870a"
+    }
+  ],
+  "runtimeAdopted": false
+}

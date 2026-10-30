@@ -1,0 +1,138 @@
+{
+  "task": "SUI-I02",
+  "scope": "真实I01数据静态消费/拒绝检查；不是运行验收",
+  "interfaceSha256": "4f733e25072eb73af10585af9a3d6da1299d74b8d827de893e0ba3e9d7c88bc6",
+  "snapshotSha256": "47925c342beb8dc2c7049b41b70535202cba4b84f670bae8d3d5e8c659911dcc",
+  "passed": 32,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "212真实批准项、174cue、60CG与1100冻结输入",
+      "status": "pass"
+    },
+    {
+      "name": "禁止生产者数据直接生成candidate",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "禁止诊断写入dist",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "禁止缺快照构建",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "未知生产者版本",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "修改fullCandidateAllowed不得静默放行",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "丢失连续演出阻塞",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "修改未绑定页行为",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "删除真实帧解锁要求",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "正文sourceHashes漂移",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "未知生产者字段",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "运行采用hash漂移",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "未获批准assetId",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "图片大小不同A11",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "禁止裁切原立绘",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "禁止非法浮点坐标",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "未知typed gate",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "取消叶岚路线gate",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "未知event gate",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "未知条件字段",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "未来条件不能用括号改语法",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "visibilePageIds必须覆盖来源整段",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "quote摘要变化",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "退出不能等待lexical successor",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "读档必须目标页重算",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "恢复不可继承前段背景",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "注册不能直接解锁",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "取消CG不准接入",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "全图不能新增页面",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "备用图不可丢失排除理由",
+      "status": "rejected-as-required"
+    },
+    {
+      "name": "source expressions保持逐条AST避免CG106 OR泄漏",
+      "status": "pass"
+    },
+    {
+      "name": "浮点布局不取整、嵌套限制不丢失",
+      "status": "pass"
+    }
+  ]
+}

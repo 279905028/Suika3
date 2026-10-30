@@ -1,0 +1,181 @@
+{
+  "id": "CG095",
+  "title": "先把饭吃完再骂",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg095-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A05/piao-base",
+    "A07/maolang-base",
+    "A08/bg-friends-meal-shop-day"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg095-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 仅重绘背景，窗户、河水、山坡、天空和任何能识别地点或明确时刻的景物全部替换成普通无字浅墙与浅景深桌椅，柔和室内漫射光。严格保留全部成年人物、脸、服饰、手中纸或手机、桌面动作和道具，不再添加其他人。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG095",
+    "kind": "retained-selection",
+    "title": "先把饭吃完再骂",
+    "originalTitle": "先把饭吃完再骂",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/后日谈-他们的日子.md",
+        "line": 77,
+        "anchor": "她把他推远的饭碗推回来，说先吃，钱的事吃完再骂。"
+      }
+    ],
+    "time": "HIGH后日谈，第一年碰面饭局",
+    "routeGroup": "PM",
+    "source": {
+      "path": "scenario/后日谈-他们的日子.md",
+      "line": 81,
+      "paragraph": "TEXT_ec150235248a63b092af",
+      "scope": "### 第一年｜她先问有没有空",
+      "nearestNode": "<!-- NODE EP-HIGH -->",
+      "quote": "她把他推远的饭碗推回来，说先吃，钱的事吃完再骂。毛狼吃了两口，自己接着讲，没有换成哪个老板多怕他的故事。",
+      "conditions": [
+        "PIAO_RELATION=HIGH",
+        "ENDING!=PI-E1",
+        "ENDING!=FR-E2"
+      ],
+      "sourceSha256": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+      "matchText": "她把他推远的饭碗推回来，说先吃，钱的事吃完再骂。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、飘、毛狼",
+      "offscreenOrRemote": "其余人未具体说明，留画外"
+    },
+    "wardrobeAndForm": "飘B、毛狼D日常服；未到婚后，不用婚礼服",
+    "propState": "饭碗被飘推回毛狼面前，普通菜",
+    "composition": "飘让他先吃饭，毛狼仍讲实际少收的收入；不补金额。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "epilogue",
+          "value": "后日谈-他们的日子.md"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=HIGH",
+        "ENDING!=PI-E1",
+        "ENDING!=FR-E2"
+      ]
+    },
+    "reviewNotes": "FR-E2不在现场，PI-E1不读本篇；不画怀孕纸/孕肚。主线伴侣不因结局自动加入。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A07/maolang-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_ec150235248a63b092af_1",
+      "visiblePageIds": [
+        "TEXT_ec150235248a63b092af_1"
+      ],
+      "exitBeforeId": "TEXT_defd761edd6ebc25495e_1",
+      "snapshotBefore": "HIGH后日谈，第一年碰面饭局；文文、飘、毛狼；飘B、毛狼D日常服；未到婚后，不用婚礼服；饭碗被飘推回毛狼面前，普通菜",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "FR-E2不在现场，PI-E1不读本篇；不画怀孕纸/孕肚。主线伴侣不因结局自动加入。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-day"
+        ],
+        "frameUse": "只取普通饭桌/餐具材质，避开未给定门牌、窗外与时刻；不据参考补聚会日期。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-day"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A07/maolang-base",
+      "A08/bg-friends-meal-shop-day"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "后日谈未定义具体地点时刻",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg095-v002.png",
+  "sourceSha256": "739e36696eccf07ba4ac82b17bd35ed82291c3f646b8a1bbea278638442ca2cc",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-f96c1496-4658-4ee4-bcdc-c894bd39a5a5.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg095-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg095-v001.png",
+      "sha256": "19e8d6e3fc40286ff17cc00a916afaa933627d60481311b9686be7b9d2033cc9"
+    }
+  ],
+  "runtimeAdopted": false
+}

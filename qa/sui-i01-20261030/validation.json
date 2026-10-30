@@ -1,0 +1,71 @@
+{
+  "version": "sui-i01-20261030-v2",
+  "status": "pass",
+  "scope": "I01离线条件、逐节点演出及I02正式接口校验；不等同引擎测试",
+  "checks": [
+    {
+      "name": "212项批准、A11、原衍生字节、全量节点和场景锚点",
+      "status": "pass",
+      "result": {
+        "assets": 212,
+        "bindings": 3086,
+        "excluded": 30
+      }
+    },
+    {
+      "name": "32768组共通状态：所有等待页当拍评估、不预读未来选择",
+      "status": "pass",
+      "result": 32768
+    },
+    {
+      "name": "2818条路线展开、1280次调用返回和六线互斥",
+      "status": "pass",
+      "result": {
+        "count": 2818,
+        "calls": 1280,
+        "returns": 1280
+      }
+    },
+    {
+      "name": "60CG正反覆盖、孟遥四组合、全节点见证和跨拍恢复",
+      "status": "pass",
+      "result": {
+        "cg": 60,
+        "serializedStates": 3086,
+        "uniqueTransitions": 3235
+      }
+    },
+    {
+      "name": "正式SUI-I-1接口对齐、批准/资源指纹、60图鉴和快照预检",
+      "status": "pass",
+      "result": {
+        "schemaVersion": "SUI-I-1",
+        "assets": 212,
+        "bindings": 3086,
+        "complete": true
+      }
+    },
+    {
+      "name": "未知版本/字段/资源/条件/坏锚点/CG/缺页/漏恢复负例",
+      "status": "pass",
+      "result": {
+        "rejected": 16
+      }
+    },
+    {
+      "name": "原件、正文、编译器、GUI、I02工具及历史批准只读保护",
+      "status": "pass",
+      "result": {
+        "unchanged": 465
+      }
+    }
+  ],
+  "counts": {
+    "commonCombinations": 32768,
+    "routeExpansions": 2818,
+    "sharedCalls": 1280,
+    "boundNodes": 3086,
+    "CG": 60,
+    "transitions": 3235
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "静态只读审查及小型负例；未构建或改写正式候选",
+  "checks": [
+    {
+      "name": "tools/integration/runtime/build.cjs ",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/integration/runtime/build.cjs --version",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/integration/runtime/build.cjs --version package-test --mode unknown",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/integration/runtime/build.cjs --version package-test --mode diagnostic --out qa/sui-i02-20261029/package-test-work",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/integration/runtime/build.cjs --version package-test --mode diagnostic --out dist/package-test",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/integration/runtime/build.cjs --version package-test --mode candidate",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/runtime/build.cjs ",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/runtime/build.cjs --out qa/sui-e-20261028",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/runtime/serve.cjs ",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "tools/runtime/serve.cjs --web scenario",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "没有网页/可执行文件且身份指纹非法的伪候选必须拒绝",
+      "result": "rejected-as-required",
+      "message": "非法构建指纹"
+    }
+  ],
+  "knownIssue": null
+}

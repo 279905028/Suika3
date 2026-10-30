@@ -1,0 +1,221 @@
+{
+  "id": "CG015",
+  "title": "洗头池上的几秒",
+  "package": "SUI-A10-XM",
+  "stem": "cg-xm-cg015-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A02/char-xiaoman-work-apron",
+    "A08/bg-salon-bijie-washbasin-day",
+    "PRE/prop-salon-washbasin-reference-v001",
+    "PRE/prop-xiaoman-open-practice-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-washbasin-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A08/prop-salon-washbasin-reference-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：小满A同脸工作服，白T与深灰围裙、剪发工具\n图3：A08/bg-salon-bijie-washbasin-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：CG015沿原店黑洗头盆近景，补清颈托、龙头、喷头和卷毛巾，不把远景理发椅当洗头姿势。\n图5：只按镜头取打开练习页、报名表背面、发夹或小满浅灰手机；不整板入镜，不填日期/学费。\n核心画面：洗头时仰视的近景：文文仰躺黑色洗头池颈托，湿金短发与一滴睫毛水可见，下方只露侧额或睫毛；小满围裙白T低头，手在他后颈轻捻碎发。卷毛巾垫颈边，正常洗头动作，脸彼此保有距离，绝非亲吻。\n衣装/形态硬约束：小满延续同日工作版；文文湿短发、仰躺洗头池\n当拍道具：卷毛巾、洗头池；睫毛一滴水\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；镜台/围布/洗头池/卷毛巾从对应镜台或洗头池版本取用，CG015不是镜台坐姿。；CG014发夹已落围布，剪刀梳子按工作基准；CG015仰躺洗头池，毛巾不凭空变围巾。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG015",
+    "kind": "retained-selection",
+    "title": "洗头池上的几秒",
+    "originalTitle": "洗头池上的几秒",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+        "line": 205,
+        "anchor": "我看见她左边睫毛上沾了一点水。"
+      }
+    ],
+    "time": "第22天剪完冲碎发",
+    "routeGroup": "XM",
+    "source": {
+      "path": "scenario/罗小满-练习本.md",
+      "line": 205,
+      "paragraph": "TEXT_c517df625419350bc668",
+      "scope": "XM04-01/COMMON",
+      "nearestNode": null,
+      "quote": "我忍着没动。她的手从毛巾边伸进去，把那根扎人的碎发捻掉。再睁眼，她正低着头，离我很近。我看见她左边睫毛上沾了一点水。",
+      "conditions": [],
+      "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "matchText": "我看见她左边睫毛上沾了一点水。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、罗小满",
+      "offscreenOrRemote": "其他人画外"
+    },
+    "wardrobeAndForm": "小满延续同日工作版；文文湿短发、仰躺洗头池",
+    "propState": "卷毛巾、洗头池；睫毛一滴水",
+    "composition": "文文仰视小满低头近景，手在后颈捻掉碎发；不是接吻。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "xiaoman"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "起身碰下巴在后段；本拍不能提前坐起。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-work-apron"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_c517df625419350bc668_1",
+      "visiblePageIds": [
+        "TEXT_c517df625419350bc668_1"
+      ],
+      "exitBeforeId": "TEXT_36e616e9a7c5c41f4bc7_1",
+      "snapshotBefore": "第22天剪完冲碎发；文文、罗小满；小满延续同日工作版；文文湿短发、仰躺洗头池；卷毛巾、洗头池；睫毛一滴水",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "起身碰下巴在后段；本拍不能提前坐起。"
+    },
+    "production": {
+      "package": "SUI-A10-XM",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-salon-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节理发店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-salon-bijie-mirror-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-salon-bijie-washbasin-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-salon-bijie-day91-mirror-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-salon-fixed",
+        "owner": "SUI-A08",
+        "name": "理发椅/洗头池/围布/价目表/假头",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-xiaoman-tools",
+        "owner": "SUI-A02",
+        "name": "剪刀/梳子/手镜/发夹/剪刀包",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-salon-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节理发店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-salon-bijie-mirror-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-salon-bijie-washbasin-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-salon-bijie-day91-mirror-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-salon-bijie-washbasin-day",
+          "PRE/prop-salon-washbasin-reference-v001"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-salon-fixed",
+        "owner": "SUI-A08",
+        "name": "理发椅/洗头池/围布/价目表/假头",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-salon-bijie-washbasin-day",
+          "PRE/prop-salon-washbasin-reference-v001"
+        ],
+        "frameUse": "镜台/围布/洗头池/卷毛巾从对应镜台或洗头池版本取用，CG015不是镜台坐姿。"
+      },
+      {
+        "requirementId": "prop-xiaoman-tools",
+        "owner": "SUI-A02",
+        "name": "剪刀/梳子/手镜/发夹/剪刀包",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A02/char-xiaoman-work-apron",
+          "PRE/prop-xiaoman-open-practice-kit-v001"
+        ],
+        "frameUse": "CG014发夹已落围布，剪刀梳子按工作基准；CG015仰躺洗头池，毛巾不凭空变围巾。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-work-apron",
+      "A08/bg-salon-bijie-washbasin-day",
+      "PRE/prop-salon-washbasin-reference-v001",
+      "PRE/prop-xiaoman-open-practice-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v001.png",
+  "sourceSha256": "40f628c880827570a15d0bcc649f6cf31853de6115f44f2ef19286df19c9a291",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-0f7b33b7-9996-419e-9eb3-5f068c73a763.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.png",
+      "sha256": "32c0da1ec64b65b36c8501e1d05dd3f08f87036c6de545cc320985d3cda121ea"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-washbasin-day-v001.png",
+      "sha256": "84840e0a57e8f74d92896095baea26a354e988661bad1355c3fed1579639a4e3"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A08/prop-salon-washbasin-reference-v001.png",
+      "sha256": "5d0a7438de4de32cce8b4bf12922a94d8038912545e2cecba042f244c4c978d9"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.png",
+      "sha256": "7044e8aeb32ba258dc05913164aac934d9e157696d643c566c767026b31cc62b"
+    }
+  ],
+  "runtimeAdopted": false
+}

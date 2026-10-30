@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-28",
+  "layer": "Chrome desktop and mobile viewport emulation; not physical phone",
+  "checks": [
+    {
+      "name": "原生Wasm启动与中文第一页",
+      "pass": true,
+      "details": {
+        "width": 720,
+        "height": 1280,
+        "mount": "SUI-T · 毕节技术样板",
+        "flushCount": 1
+      }
+    },
+    {
+      "name": "中文长段第二页与来源映射",
+      "pass": true
+    },
+    {
+      "name": "空槽拒绝读档",
+      "pass": true,
+      "details": "SUI_T|load|slot=3|ok=false|reason=empty|stage=intro-page2|route=none|hq=0|tag=13|gallery=0|asset=resources/char-xiaoman.webp"
+    },
+    {
+      "name": "黄球球三前置八组合，仅111解锁",
+      "pass": true,
+      "details": [
+        "100",
+        "110",
+        "010",
+        "011",
+        "111",
+        "101",
+        "001",
+        "000"
+      ]
+    },
+    {
+      "name": "六个原生选择逐一点击且返回稳定ID",
+      "pass": true,
+      "details": [
+        "xiaoman",
+        "zhouzhi",
+        "mengyao",
+        "piao",
+        "huangqiuqiu",
+        "friends"
+      ]
+    },
+    {
+      "name": "重开保留三个手动槽；路线/前置/背景/立绘恢复",
+      "pass": true,
+      "details": [
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "name": "选择页存档恢复后仍可点击",
+      "pass": true
+    },
+    {
+      "name": "10张代表资源均由原生逐张解码/展示",
+      "pass": true,
+      "details": [
+        "SUI_T|resource|resources/bg-day.webp|stage=selected|route=friends|hq=1|tag=83|gallery=0|asset=resources/bg-day.webp",
+        "SUI_T|resource|resources/bg-night.webp|stage=gallery|route=friends|hq=1|tag=91|gallery=1|asset=resources/bg-night.webp",
+        "SUI_T|resource|resources/char-xiaoman.webp|stage=gallery|route=friends|hq=1|tag=99|gallery=2|asset=resources/char-xiaoman.webp",
+        "SUI_T|resource|resources/char-zhouzhi.webp|stage=gallery|route=friends|hq=1|tag=107|gallery=3|asset=resources/char-zhouzhi.webp",
+        "SUI_T|resource|resources/char-mengyao.webp|stage=gallery|route=friends|hq=1|tag=115|gallery=4|asset=resources/char-mengyao.webp",
+        "SUI_T|resource|resources/char-piao.webp|stage=gallery|route=friends|hq=1|tag=123|gallery=5|asset=resources/char-piao.webp",
+        "SUI_T|resource|resources/char-huangqiuqiu.webp|stage=gallery|route=friends|hq=1|tag=131|gallery=6|asset=resources/char-huangqiuqiu.webp",
+        "SUI_T|resource|resources/char-huangqiuqiu-orb.webp|stage=gallery|route=friends|hq=1|tag=139|gallery=7|asset=resources/char-huangqiuqiu-orb.webp",
+        "SUI_T|resource|resources/char-wenwen.webp|stage=gallery|route=friends|hq=1|tag=147|gallery=8|asset=resources/char-wenwen.webp",
+        "SUI_T|resource|resources/cg-repair.webp|stage=gallery|route=friends|hq=1|tag=155|gallery=9|asset=resources/cg-repair.webp"
+      ]
+    },
+    {
+      "name": "恰好1自动+3手动原生槽",
+      "pass": true,
+      "details": [
+        "000.sav",
+        "001.sav",
+        "002.sav",
+        "003.sav"
+      ]
+    },
+    {
+      "name": "独立数据库命名",
+      "pass": true,
+      "details": [
+        {
+          "name": "bijie-rain-suika3-spike-20261028:/SUI-T · 毕节技术样板",
+          "version": 21
+        }
+      ]
+    },
+    {
+      "name": "刷新自动恢复CG/脚本位置",
+      "pass": true,
+      "details": "SUI_T|load|slot=0|ok=1|stage=gallery|route=friends|hq=1|tag=157|gallery=9|asset=resources/cg-repair.webp"
+    },
+    {
+      "name": "关闭浏览器并重开后自动档与手动档持久恢复",
+      "pass": true
+    },
+    {
+      "name": "同源其他存档库未受影响",
+      "pass": true
+    },
+    {
+      "name": "写回失败不会假报成功，重试可恢复",
+      "pass": true
+    },
+    {
+      "name": "手机尺寸竖屏触摸、横屏滚动阅读、旋转返回条件不丢失",
+      "pass": true,
+      "details": {
+        "portrait": {
+          "canvas": {
+            "x": 19,
+            "y": 34,
+            "w": 352,
+            "h": 627
+          },
+          "textPx": 15.644444444444444,
+          "buttonHeight": 44,
+          "overflow": false
+        },
+        "landscape": {
+          "textPx": 17.6,
+          "scrollable": true,
+          "bodyOverflow": false
+        }
+      }
+    },
+    {
+      "name": "完整运行无引擎弹错和浏览器异常",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "01-chinese-page1.png",
+    "02-chinese-page2.png",
+    "03-five-choices.png",
+    "04-six-choices.png",
+    "05-selected-transparent.png",
+    "06-orb-transparent.png",
+    "07-cg.png",
+    "08-write-failure.png",
+    "09-phone-portrait.png",
+    "10-phone-landscape.png",
+    "11-phone-rotated-back.png"
+  ],
+  "browser": "156.0.8078.49",
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suit-qa-Sqw7x2",
+  "load": {
+    "resource": [
+      {
+        "durationMs": 74.70000000018626,
+        "bytes": 32737328
+      }
+    ],
+    "wasmBytes": 536870912,
+    "readyMs": 1211.6000000005588
+  },
+  "pass": true,
+  "finalEvents": [
+    "SUI_T|colorfix|load-bg|width=1672|height=941|engineMs=0",
+    "SUI_T|load|slot=0|ok=1|stage=gallery|route=friends|hq=1|tag=157|gallery=9|asset=resources/cg-repair.webp",
+    "SUI_T|colorfix|load-bg|width=1672|height=941|engineMs=0",
+    "SUI_T|colorfix|load-center|width=1024|height=1536|engineMs=0",
+    "SUI_T|load|slot=1|ok=1|stage=selected|route=xiaoman|hq=1|tag=36|gallery=0|asset=resources/char-xiaoman.webp",
+    "SUI_T|save|slot=1|ok=1|stage=selected|route=xiaoman|hq=1|tag=36|gallery=0|asset=resources/char-xiaoman.webp"
+  ]
+}

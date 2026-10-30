@@ -1,0 +1,14 @@
+{
+  "automationId": "sui-a10",
+  "name": "SUI-A10 上游定稿后续作",
+  "kind": "heartbeat",
+  "destination": "current-thread",
+  "statusAtCreation": "ACTIVE",
+  "date": "2026-10-29",
+  "frequency": "每小时",
+  "toolConfirmedCreated": true,
+  "condition": "全部相关上游正式定稿并完成A09逐镜放行后，再开始60镜CG制作",
+  "unchangedState": "保持安静，不重复通知",
+  "stopCondition": "全部CG制作交接完成后停止跟进",
+  "note": "本记录只是创建回执，不是后续执行或CG完成证据。"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "task": "SUI-U",
+  "canvas": { "width": 1280, "height": 720, "orientation": "landscape" },
+  "userSelectedStyle": "雨夜青灰；暖白字、青绿强调、深色半透明阅读框",
+  "maxChoices": 6,
+  "message": { "rect": [48, 490, 1184, 206], "textMargins": [36, 24, 36, 40], "fontSize": 30, "lineHeight": 44, "maxLines": 3 },
+  "compilerPagination": { "currentSuiCPageSize": 120, "suggestedConservativePageSize": 108, "rebuildAndPixelReviewRequired": true },
+  "name": { "rect": [76, 442, 240, 48], "fontSize": 26 },
+  "criticalArtRectRecommendation": [64, 96, 1152, 322],
+  "menuRect": [1104, 24, 128, 56],
+  "choice": { "x": 120, "firstY": 104, "stepY": 96, "width": 1040, "height": 88, "fontSize": 28 },
+  "configPatch": "system/sui-u/config.patch.json",
+  "fixedGUIAliases": {
+    "system/sysmenu/sysmenu.gui": "system/sui-u/gui/sysmenu.gui",
+    "system/save/save.gui": "system/sui-u/gui/save.gui",
+    "system/load/load.gui": "system/sui-u/gui/load.gui",
+    "system/history/history.gui": "system/sui-u/gui/history.gui",
+    "system/config/config.gui": "system/sui-u/gui/config.gui"
+  },
+  "titleGUI": "system/sui-u/gui/title.gui",
+  "titleLabels": { "loop": "sui_title", "start": "sui_start", "gallery": "sui_gallery" },
+  "raySourceOrder": ["system/sui-u/gallery-order.ray", "system/sui-u/gallery.ray", "system/sui-u/history.ray", "system/sui-u/runtime.ray"],
+  "hooks": { "afterSuikaStart": "suiUIStart()", "beforeSuikaUpdate": "suiUIUpdate()", "afterSuikaUpdate": "suiUIAfterUpdate()", "afterSuikaRender": "suiUIRender()" },
+  "saveSlots": { "automatic": 0, "manual": [1, 2, 3], "nativeSaveslots": 4 },
+  "readingSettingsGlobalFloats": ["sui_ui_text_speed", "sui_ui_auto_speed"],
+  "history": { "source": "Suika native history API", "callbackVariable": "sui_ui_action", "callbackValue": "H", "rowsPerPage": 2, "charsPerLine": 38, "linesPerRow": 4, "latestNativeIndex": 0 },
+  "gallery": { "registry": "system/sui-u/gallery.registry.json", "tag": "sui_gallery", "pageSize": 6, "unlockVariablePrefix": "sui_cg_", "unlockValue": 1, "globalRequired": true, "noApprovedArtBound": true },
+  "runtimeEncoding": "PNG：当前SDK的WebP通道问题未修复；无损WebP仅作等像素衍生，暂不进入运行包",
+  "mobileShellReference": "qa/sui-u-20261028/shell.css",
+  "formalRuntimeIntegrated": false
+}

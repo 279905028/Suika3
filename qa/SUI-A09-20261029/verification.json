@@ -1,0 +1,583 @@
+{
+  "task": "SUI-A09",
+  "date": "2026-10-29",
+  "layer": "当前正文解析/逐镜语义与可达性/文件检查；未运行引擎或加载CG",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "52项保留、8项候选、8项取消与7包完整且唯一",
+      "status": "pass",
+      "detail": {
+        "retained": 52,
+        "unconfirmedCandidates": 8,
+        "retiredExcluded": 8,
+        "packages": 7,
+        "productionReleased": 0
+      }
+    },
+    {
+      "name": "60镜当前原文、段落ID、分页及退场位置准确",
+      "status": "pass",
+      "detail": {
+        "shots": 60,
+        "oldAnchorsStillExact": 48,
+        "reanchored": [
+          "CG006",
+          "CG040",
+          "CG041",
+          "CG044"
+        ],
+        "currentParagraphs": 3019,
+        "currentPages": 3021
+      }
+    },
+    {
+      "name": "人物参考文件与前置版本存在且指纹吻合",
+      "status": "pass",
+      "detail": {
+        "references": 28,
+        "actualImagesDecodedInA09": 0,
+        "meaning": "检查文件与版本；不复述其他批次视觉结果为本次验收"
+      }
+    },
+    {
+      "name": "32组共通相关组合：相识门禁与三处关系计分",
+      "status": "pass",
+      "detail": {
+        "count": 32,
+        "scope": "5个影响当前CG入口或关系分流的选择全组合，其余共通选择用A代表"
+      }
+    },
+    {
+      "name": "2818条路线展开：52选集与8候选的可达性/排除条件",
+      "status": "pass",
+      "detail": {
+        "count": 2818,
+        "calls": 1280,
+        "returns": 1280,
+        "all60Reachable": true,
+        "representativeCombinations": 46
+      }
+    },
+    {
+      "name": "重点反例：不误套最终AA、形态不由结局奖励、后日谈不串视角",
+      "status": "pass",
+      "detail": {
+        "assertions": 135
+      }
+    },
+    {
+      "name": "非法状态不会默认放行",
+      "status": "pass",
+      "detail": {
+        "rejected": 4
+      }
+    },
+    {
+      "name": "用户原选择与取消清单没有被改写",
+      "status": "pass",
+      "detail": {
+        "unchanged": [
+          "docs/CG当前选择.json",
+          "docs/CG调整清单.md",
+          "qa/route-merge-20261028/cg-selection-original.json"
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "commonCombinations": 32,
+    "routeExpansions": 2818,
+    "sharedCalls": 1280,
+    "sharedReturns": 1280,
+    "focusedAssertions": 135
+  },
+  "notTested": [
+    "CG图像生成及视觉终审",
+    "正式美术采用",
+    "NovelML演出绑定",
+    "进入退出/回退读档的实际引擎效果",
+    "浏览器/手机真机/桌面",
+    "发布"
+  ],
+  "coverage": {
+    "CG001": {
+      "present": 32,
+      "absent": 0,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/BAAAA"
+      ]
+    },
+    "CG004": {
+      "present": 32,
+      "absent": 0,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/BAAAA"
+      ]
+    },
+    "CG005": {
+      "present": 32,
+      "absent": 0,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/BAAAA"
+      ]
+    },
+    "CG006": {
+      "present": 32,
+      "absent": 0,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/BAAAA"
+      ]
+    },
+    "CG007": {
+      "present": 32,
+      "absent": 0,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/BAAAA"
+      ]
+    },
+    "CG008": {
+      "present": 32,
+      "absent": 0,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/BAAAA"
+      ]
+    },
+    "CG010": {
+      "present": 32,
+      "absent": 0,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/BAAAA"
+      ]
+    },
+    "CG011": {
+      "present": 32,
+      "absent": 0,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/BAAAA"
+      ]
+    },
+    "CG012": {
+      "present": 8,
+      "absent": 24,
+      "witnesses": [
+        "COMMON/AAAAA",
+        "COMMON/AABAA"
+      ]
+    },
+    "CG014": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG015": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG016": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG019": {
+      "present": 256,
+      "absent": 2562,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG020": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG022": {
+      "present": 128,
+      "absent": 2690,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG023": {
+      "present": 128,
+      "absent": 2690,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG025": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "zhouzhi/HIGH/AA",
+        "zhouzhi/HIGH/AA"
+      ]
+    },
+    "CG026": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "zhouzhi/HIGH/AA",
+        "zhouzhi/HIGH/AA"
+      ]
+    },
+    "CG027": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "zhouzhi/HIGH/AA",
+        "zhouzhi/HIGH/AA"
+      ]
+    },
+    "CG029": {
+      "present": 256,
+      "absent": 2562,
+      "witnesses": [
+        "zhouzhi/HIGH/BA",
+        "zhouzhi/HIGH/BA"
+      ]
+    },
+    "CG031": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "zhouzhi/HIGH/AA",
+        "zhouzhi/HIGH/AA"
+      ]
+    },
+    "CG032": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "zhouzhi/HIGH/AA",
+        "zhouzhi/HIGH/AA"
+      ]
+    },
+    "CG034": {
+      "present": 128,
+      "absent": 2690,
+      "witnesses": [
+        "zhouzhi/HIGH/AA",
+        "zhouzhi/HIGH/AA"
+      ]
+    },
+    "CG035": {
+      "present": 128,
+      "absent": 2690,
+      "witnesses": [
+        "zhouzhi/HIGH/AA",
+        "zhouzhi/HIGH/AA"
+      ]
+    },
+    "CG038": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "mengyao/HIGH/AA",
+        "mengyao/HIGH/AA"
+      ]
+    },
+    "CG039": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "mengyao/HIGH/AA",
+        "mengyao/HIGH/AA"
+      ]
+    },
+    "CG040": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "mengyao/HIGH/AA",
+        "mengyao/HIGH/AA"
+      ]
+    },
+    "CG041": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "mengyao/HIGH/AA",
+        "mengyao/HIGH/AA"
+      ]
+    },
+    "CG044": {
+      "present": 256,
+      "absent": 2562,
+      "witnesses": [
+        "mengyao/HIGH/AA",
+        "mengyao/HIGH/AA"
+      ]
+    },
+    "CG061": {
+      "present": 2,
+      "absent": 2816,
+      "witnesses": [
+        "piao/LOW/A",
+        "piao/LOW/B"
+      ]
+    },
+    "CG062": {
+      "present": 256,
+      "absent": 2562,
+      "witnesses": [
+        "piao/HIGH/AA",
+        "piao/HIGH/AA"
+      ]
+    },
+    "CG063": {
+      "present": 256,
+      "absent": 2562,
+      "witnesses": [
+        "piao/HIGH/AA",
+        "piao/HIGH/AA"
+      ]
+    },
+    "CG066": {
+      "present": 256,
+      "absent": 2562,
+      "witnesses": [
+        "piao/HIGH/AA",
+        "piao/HIGH/AA"
+      ]
+    },
+    "CG067": {
+      "present": 2,
+      "absent": 2816,
+      "witnesses": [
+        "piao/LOW/A",
+        "piao/LOW/B"
+      ]
+    },
+    "CG068": {
+      "present": 1,
+      "absent": 2817,
+      "witnesses": [
+        "piao/LOW/A"
+      ]
+    },
+    "CG069": {
+      "present": 64,
+      "absent": 2754,
+      "witnesses": [
+        "piao/HIGH/AA",
+        "piao/HIGH/AA"
+      ]
+    },
+    "CG070": {
+      "present": 1,
+      "absent": 2817,
+      "witnesses": [
+        "piao/LOW/B"
+      ]
+    },
+    "CG073": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "huangqiuqiu/HIGH/AA",
+        "huangqiuqiu/HIGH/AA"
+      ]
+    },
+    "CG075": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "huangqiuqiu/HIGH/AA",
+        "huangqiuqiu/HIGH/AA"
+      ]
+    },
+    "CG077": {
+      "present": 256,
+      "absent": 2562,
+      "witnesses": [
+        "huangqiuqiu/HIGH/AA",
+        "huangqiuqiu/HIGH/AA"
+      ]
+    },
+    "CG078": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "huangqiuqiu/HIGH/AA",
+        "huangqiuqiu/HIGH/AA"
+      ]
+    },
+    "CG079": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "huangqiuqiu/HIGH/AA",
+        "huangqiuqiu/HIGH/AA"
+      ]
+    },
+    "CG082": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "huangqiuqiu/HIGH/AA",
+        "huangqiuqiu/HIGH/AA"
+      ]
+    },
+    "CG086": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "friends/HIGH/AA",
+        "friends/HIGH/AA"
+      ]
+    },
+    "CG090": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "friends/HIGH/AA",
+        "friends/HIGH/AA"
+      ]
+    },
+    "CG091": {
+      "present": 512,
+      "absent": 2306,
+      "witnesses": [
+        "friends/HIGH/AA",
+        "friends/HIGH/AA"
+      ]
+    },
+    "CG094": {
+      "present": 384,
+      "absent": 2434,
+      "witnesses": [
+        "friends/HIGH/BA",
+        "friends/HIGH/BA"
+      ]
+    },
+    "CG095": {
+      "present": 1280,
+      "absent": 1538,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG096": {
+      "present": 1090,
+      "absent": 1728,
+      "witnesses": [
+        "xiaoman/LOW/AA",
+        "xiaoman/LOW/AA"
+      ]
+    },
+    "CG098": {
+      "present": 1090,
+      "absent": 1728,
+      "witnesses": [
+        "xiaoman/LOW/AA",
+        "xiaoman/LOW/AA"
+      ]
+    },
+    "CG099": {
+      "present": 1280,
+      "absent": 1538,
+      "witnesses": [
+        "xiaoman/HIGH/AA",
+        "xiaoman/HIGH/AA"
+      ]
+    },
+    "CG100": {
+      "present": 192,
+      "absent": 2626,
+      "witnesses": [
+        "friends/HIGH/BA",
+        "friends/HIGH/BA"
+      ]
+    },
+    "A09-C01": {
+      "present": 1280,
+      "absent": 1538,
+      "witnesses": [
+        "xiaoman/LOW/AA",
+        "xiaoman/LOW/AA"
+      ]
+    },
+    "A09-C02": {
+      "present": 384,
+      "absent": 2434,
+      "witnesses": [
+        "xiaoman/HIGH/BA",
+        "xiaoman/HIGH/BA"
+      ]
+    },
+    "A09-C03": {
+      "present": 384,
+      "absent": 2434,
+      "witnesses": [
+        "zhouzhi/HIGH/BA",
+        "zhouzhi/HIGH/BA"
+      ]
+    },
+    "A09-C04": {
+      "present": 128,
+      "absent": 2690,
+      "witnesses": [
+        "mengyao/HIGH/AA",
+        "mengyao/HIGH/AA"
+      ]
+    },
+    "A09-C05": {
+      "present": 384,
+      "absent": 2434,
+      "witnesses": [
+        "mengyao/HIGH/BA",
+        "mengyao/HIGH/BA"
+      ]
+    },
+    "A09-C06": {
+      "present": 192,
+      "absent": 2626,
+      "witnesses": [
+        "piao/HIGH/BA",
+        "piao/HIGH/BA"
+      ]
+    },
+    "A09-C07": {
+      "present": 384,
+      "absent": 2434,
+      "witnesses": [
+        "huangqiuqiu/HIGH/BA",
+        "huangqiuqiu/HIGH/BA"
+      ]
+    },
+    "A09-C08": {
+      "present": 128,
+      "absent": 2690,
+      "witnesses": [
+        "friends/HIGH/AA",
+        "friends/HIGH/AA"
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "task": "SUI-A02",
+  "completionDate": "2026-10-29",
+  "layer": "本批交付与离线证据核对",
+  "passed": true,
+  "checks": [
+    {
+      "name": "交付11项且逻辑键唯一",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "覆盖A01的4个A02需求族",
+      "passed": true,
+      "detail": [
+        "char-xiaoman",
+        "prop-xiaoman-helmets",
+        "prop-xiaoman-practice-kit",
+        "prop-xiaoman-tools"
+      ]
+    },
+    {
+      "name": "已完成的像素/格式与静态布局结果均通过",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "22个源/衍生文件及引用指纹吻合",
+      "passed": true,
+      "detail": {
+        "missing": [],
+        "drift": []
+      }
+    },
+    {
+      "name": "当前正文锚点与指纹吻合",
+      "passed": true,
+      "detail": {
+        "anchorCount": 14,
+        "errors": []
+      }
+    },
+    {
+      "name": "基础选择A且与本工程图一致",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "旧卫衣与裙型保留用户选择",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4份未选/旧版图不混入当前11项",
+      "passed": true,
+      "detail": [
+        "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v001.png",
+        "assets/sources/20261028/SUI-A02/rejected/char-xiaoman-human-skirt-short-rejected-v001.png",
+        "assets/sources/20261028/SUI-A02/option-b/char-xiaoman-human-base-option-b-v001.png",
+        "assets/sources/20261028/SUI-A02/option-b/char-xiaoman-human-base-option-b-v002.png"
+      ]
+    },
+    {
+      "name": "本批未宣称运行采用",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "正文/人物/路线和历史来源指纹不变",
+      "passed": true,
+      "detail": 21
+    },
+    {
+      "name": "3个白名单参考副本保持原字节",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "4个UI合成输入与U资源清单相符",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "44个四底及11个UI证据齐备",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "本任务文档链接可解析",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "TODO记录A02制作完成并保留其他任务",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "15份生成原件在本工程有等字节副本",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "passedCount": 16,
+  "totalChecks": 16,
+  "outsidePackageParallelChanges": [
+    {
+      "path": "/Users/yipin/Desktop/Suika3/docs/开发计划.md",
+      "before": "2f2128a3c5dc432543d8f3ea980d6b45b9ab43621d6acf4c395eebb820de8536",
+      "after": "7249d3ffc0df94d6eab7fa98e25819ec9f8ad04f6f36ef91117942409f61bf6f",
+      "unchanged": false
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/main.ray",
+      "before": "903532de965d4530a45d44d4a82911bb9a9c5c3e47b1b0730c76abb81430e5fb",
+      "after": "1683a010b9b54770cbbcd5cd585748dd83cf668d5067b5258a9b18ecde92016d",
+      "unchanged": false
+    }
+  ],
+  "gameEngine": "未测",
+  "browserGame": "未测",
+  "physicalPhone": "未测",
+  "desktopGame": "未测",
+  "deployment": "未执行"
+}

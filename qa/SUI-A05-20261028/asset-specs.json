@@ -1,0 +1,654 @@
+[
+  {
+    "id": "piao-option-a",
+    "label": "Option A · 呈现对照",
+    "kind": "character",
+    "group": "option-a",
+    "file": "assets/sources/20261028/SUI-A05/option-a/char-piao-human-base-painterly-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/option-a.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "未选对照；不撤销既有B",
+    "usage": "同一已确认形象的较平滑绘制呈现；与B独立可看，不混入B差分。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-base",
+    "label": "基础 · 已确认B",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-base.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "共通及两条路径的普通在场对话；无新持物。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-expression-smile",
+    "label": "微笑",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-smile-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-smile.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "当场轻松对话；微笑不代表恋爱承诺，不能据此判定HIGH。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-expression-serious",
+    "label": "认真",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-serious-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-serious.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "核稿、说明边界、讨论安排；不把认真等同拒绝。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-expression-hesitant",
+    "label": "犹豫",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-hesitant-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-hesitant.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "当场尚未答复时；不替代PI-L06-01后飘的独立决定。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-expression-surprised",
+    "label": "惊讶",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-surprised-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-surprised.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "明确受惊/意外反应时；不直接绑定LOW或怀孕状态。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-expression-displeased",
+    "label": "不悦 · 备用",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-displeased-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-displeased.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "备用；可供A09核对被擅改稿件时的情绪，不默认生气贯穿全程。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-expression-downcast",
+    "label": "低落",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-downcast-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-downcast.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "明确垂眼、失落的当场片段；不自动附加疾病或关系事实。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-action-wave",
+    "label": "招手",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-wave-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-wave.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "普通打招呼；远程群消息不等于实际到场。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "gesture": [
+        150,
+        395,
+        310,
+        485
+      ]
+    }
+  },
+  {
+    "id": "piao-action-thinking",
+    "label": "思考",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-thinking-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-thinking.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "停顿与考虑；不用于手中必须同时持物的镜头。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "gesture": [
+        300,
+        410,
+        260,
+        400
+      ]
+    }
+  },
+  {
+    "id": "piao-action-explaining",
+    "label": "解释",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-explaining-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-explaining.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "普通摊掌说明；不得覆盖当场相机/册子持物状态。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "gesture": [
+        130,
+        755,
+        330,
+        290
+      ]
+    }
+  },
+  {
+    "id": "piao-action-camera",
+    "label": "持相机",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-camera-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/action-camera.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "char-piao",
+      "prop-piao-camera"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      },
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 437,
+        "quote": "桌边放着一台借来的相机。",
+        "heading": "### 第5—7天｜有人要去贵阳",
+        "nearestNode": null,
+        "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+      }
+    ],
+    "approvalStatus": "按既定B制作的新动作；待A11/I采用复核",
+    "usage": "借来的相机、征得同意后拍摄的准备动作。共通/HIGH/LOW按当场实际持物使用；不替代第30天LOW未举相机的镜头。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "hands-camera": [
+        270,
+        595,
+        375,
+        310
+      ]
+    }
+  },
+  {
+    "id": "piao-action-booklet",
+    "label": "持册子 · 空封二",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-booklet-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/action-booklet.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "char-piao",
+      "prop-piao-booklet-kit"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      },
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 560,
+        "quote": "我赶紧看页码。她翻到封二，空的，没有那篇介绍，也没有替换的新文章。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "approvalStatus": "按既定B制作的新动作；待A11/I采用复核",
+    "usage": "HIGH第34/39天核对恢复为空白的封二；不能用于已擅加作者介绍的错误稿、LOW未定稿册子或文文写过字的最后页。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "hands-booklet": [
+        195,
+        570,
+        545,
+        400
+      ]
+    }
+  },
+  {
+    "id": "piao-action-knot",
+    "label": "系相机包带",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-knot-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/action-knot.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "char-piao",
+      "prop-piao-camera",
+      "prop-piao-knots"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      },
+      {
+        "path": "scenario/跨路线-第36天的消息.md",
+        "line": 9,
+        "quote": "低头摆弄相机包的带子。",
+        "heading": "## 完整内容",
+        "nearestNode": "<!-- NODE PIAO-D36 -->",
+        "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+      }
+    ],
+    "approvalStatus": "按既定B制作的新动作；待A11/I采用复核",
+    "usage": "相机包带的日常松结动作参考；公共第36天仅LOW使用且须按坐姿镜头复核。不是本线第36天湿绳的同一物件，也不替代衣角/布袋/纸袋绳结。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "hands-knot": [
+        310,
+        705,
+        410,
+        265
+      ]
+    }
+  },
+  {
+    "id": "piao-prop-camera",
+    "label": "借用相机",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/camera.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-camera"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 437,
+        "quote": "桌边放着一台借来的相机。",
+        "heading": "### 第5—7天｜有人要去贵阳",
+        "nearestNode": null,
+        "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "无品牌摄影学习道具；不写成已购器材或职业摄影师证明。"
+  },
+  {
+    "id": "piao-prop-camera-bag",
+    "label": "相机包 · 松结",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-bag-slipknot-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/camera-bag.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-camera",
+      "prop-piao-knots"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/跨路线-第36天的消息.md",
+        "line": 9,
+        "quote": "低头摆弄相机包的带子。",
+        "heading": "## 完整内容",
+        "nearestNode": "<!-- NODE PIAO-D36 -->",
+        "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "相机包带版本；不作为装照片布袋或衣角绳结的替身。"
+  },
+  {
+    "id": "piao-prop-camera-manual",
+    "label": "相机说明书 · 修订2",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-manual-v002.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/camera-manual-v002.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-camera"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 168,
+        "quote": "腾出手翻说明书。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "按本包相机形状修正的示意图；无虚构参数/日期/品牌，非可读教学说明。"
+  },
+  {
+    "id": "piao-prop-booklet",
+    "label": "册子 · 空封二",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/booklet.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-booklet-kit"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 560,
+        "quote": "我赶紧看页码。她翻到封二，空的，没有那篇介绍，也没有替换的新文章。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "仅表现空封二和相邻空白扉页；不表示整册空白，不替代最后页。"
+  },
+  {
+    "id": "piao-prop-booklet-tools",
+    "label": "装订工具与布条",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/booklet-tools.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-booklet-kit",
+      "prop-piao-knots"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 566,
+        "quote": "我对页码，她拿订书机。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 554,
+        "quote": "又把束起样册的布条换了两种结法。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "订书机、尺和普通布条的道具组合；整组使用，分层抽取或新增手持姿态须另制。"
+  }
+]

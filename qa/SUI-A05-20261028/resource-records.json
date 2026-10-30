@@ -1,0 +1,3438 @@
+[
+  {
+    "id": "piao-option-a",
+    "label": "Option A · 呈现对照",
+    "kind": "character",
+    "group": "option-a",
+    "file": "assets/sources/20261028/SUI-A05/option-a/char-piao-human-base-painterly-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/option-a.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "未选对照；不撤销既有B",
+    "usage": "同一已确认形象的较平滑绘制呈现；与B独立可看，不混入B差分。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/option-a/char-piao-human-base-painterly-v001.png",
+      "sha256": "d362cfa61058a574849d3e41a155bd280ca8ca496a32e2c6424d00f9bee98540",
+      "bytes": 1834423,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          33,
+          14,
+          963,
+          1522
+        ],
+        "bboxAbove127": [
+          188,
+          18,
+          712,
+          1518
+        ],
+        "transparentPixels": 828830,
+        "partialPixels": 744034,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/option-a/char-piao-human-base-painterly-v001.webp",
+      "sha256": "24fe6f85667e46c6a16e485c505b85b5bed5e028cf80ffdf3e0c3405705de937",
+      "bytes": 1100808,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          33,
+          14,
+          963,
+          1522
+        ],
+        "bboxAbove127": [
+          188,
+          18,
+          712,
+          1518
+        ],
+        "transparentPixels": 828830,
+        "partialPixels": 744034,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-option-a-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-option-a-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-option-a-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-option-a-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-option-a-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-base",
+    "label": "基础 · 已确认B",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-base.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "共通及两条路径的普通在场对话；无新持物。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b",
+      "bytes": 1743396,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          1,
+          1020,
+          1535
+        ],
+        "bboxAbove127": [
+          201,
+          17,
+          686,
+          1519
+        ],
+        "transparentPixels": 831549,
+        "partialPixels": 741315,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.webp",
+      "sha256": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5",
+      "bytes": 1041008,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          1,
+          1020,
+          1535
+        ],
+        "bboxAbove127": [
+          201,
+          17,
+          686,
+          1519
+        ],
+        "transparentPixels": 831549,
+        "partialPixels": 741315,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-base-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-base-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-base-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-base-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-base-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-expression-smile",
+    "label": "微笑",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-smile-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-smile.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "当场轻松对话；微笑不代表恋爱承诺，不能据此判定HIGH。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-smile-v001.png",
+      "sha256": "fba298b4c572bb6d9293f0fef2f5dbc865ae44a9156eefcd86db0e03ec5c4b6b",
+      "bytes": 1723413,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          143,
+          1,
+          753,
+          1535
+        ],
+        "bboxAbove127": [
+          201,
+          17,
+          687,
+          1519
+        ],
+        "transparentPixels": 832305,
+        "partialPixels": 740559,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-smile-v001.webp",
+      "sha256": "355c50ef180390f75489275417c41101d8045ddee082ebdc1a3c94d0c8581c53",
+      "bytes": 1039722,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          143,
+          1,
+          753,
+          1535
+        ],
+        "bboxAbove127": [
+          201,
+          17,
+          687,
+          1519
+        ],
+        "transparentPixels": 832305,
+        "partialPixels": 740559,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-expression-smile-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-expression-smile-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-expression-smile-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-expression-smile-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-expression-smile-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-expression-serious",
+    "label": "认真",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-serious-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-serious.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "核稿、说明边界、讨论安排；不把认真等同拒绝。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-serious-v001.png",
+      "sha256": "bc5ebcf28f7dee480141be2acca34821b575e2e31533d977437cd825af3170cf",
+      "bytes": 1728340,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          2,
+          10,
+          1018,
+          1526
+        ],
+        "bboxAbove127": [
+          202,
+          17,
+          687,
+          1519
+        ],
+        "transparentPixels": 833147,
+        "partialPixels": 739717,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-serious-v001.webp",
+      "sha256": "34cbd86ac2d7aa1c7a97142473930d33cb6de2f9452d56c6626975f72661ba63",
+      "bytes": 1035166,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          2,
+          10,
+          1018,
+          1526
+        ],
+        "bboxAbove127": [
+          202,
+          17,
+          687,
+          1519
+        ],
+        "transparentPixels": 833147,
+        "partialPixels": 739717,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-expression-serious-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-expression-serious-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-expression-serious-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-expression-serious-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-expression-serious-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-expression-hesitant",
+    "label": "犹豫",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-hesitant-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-hesitant.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "当场尚未答复时；不替代PI-L06-01后飘的独立决定。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-hesitant-v001.png",
+      "sha256": "8b8b1ebc9fb997c9a367c216375f502fc5f87dd8965e42c0228ca5e4c8c8df6b",
+      "bytes": 1713205,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          105,
+          0,
+          903,
+          1536
+        ],
+        "bboxAbove127": [
+          200,
+          17,
+          690,
+          1519
+        ],
+        "transparentPixels": 831087,
+        "partialPixels": 741777,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-hesitant-v001.webp",
+      "sha256": "a2f8e0cee954d0f239a7309128238815d79beefe99eed32fbde6f3cfd3ca24f7",
+      "bytes": 1032888,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          105,
+          0,
+          903,
+          1536
+        ],
+        "bboxAbove127": [
+          200,
+          17,
+          690,
+          1519
+        ],
+        "transparentPixels": 831087,
+        "partialPixels": 741777,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-expression-hesitant-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-expression-surprised",
+    "label": "惊讶",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-surprised-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-surprised.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "明确受惊/意外反应时；不直接绑定LOW或怀孕状态。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-surprised-v001.png",
+      "sha256": "c49627dfb66433258082197dfb18aeeabf068021e65b2eb779de7a91034a81ba",
+      "bytes": 1731259,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          896,
+          1536
+        ],
+        "bboxAbove127": [
+          201,
+          18,
+          690,
+          1518
+        ],
+        "transparentPixels": 831140,
+        "partialPixels": 741724,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-surprised-v001.webp",
+      "sha256": "e93d6d0f92058a27d9c218e970c512c7bad7aae37842ca9dfa51333ae2192834",
+      "bytes": 1040172,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          896,
+          1536
+        ],
+        "bboxAbove127": [
+          201,
+          18,
+          690,
+          1518
+        ],
+        "transparentPixels": 831140,
+        "partialPixels": 741724,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-expression-surprised-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-expression-surprised-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-expression-surprised-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-expression-surprised-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-expression-surprised-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-expression-displeased",
+    "label": "不悦 · 备用",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-displeased-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-displeased.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "备用；可供A09核对被擅改稿件时的情绪，不默认生气贯穿全程。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-displeased-v001.png",
+      "sha256": "8a6c4f152a6f24022c0c096f34f44aa088e4929cad56ce9ff50df55166375113",
+      "bytes": 1733929,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          33,
+          10,
+          861,
+          1526
+        ],
+        "bboxAbove127": [
+          202,
+          19,
+          686,
+          1517
+        ],
+        "transparentPixels": 834229,
+        "partialPixels": 738635,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-displeased-v001.webp",
+      "sha256": "84b1e4f7ade9ad54ecc494533b3c1416bcdafd8da21f84f094af818013c2bd6c",
+      "bytes": 1043816,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          33,
+          10,
+          861,
+          1526
+        ],
+        "bboxAbove127": [
+          202,
+          19,
+          686,
+          1517
+        ],
+        "transparentPixels": 834229,
+        "partialPixels": 738635,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-expression-displeased-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-expression-displeased-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-expression-displeased-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-expression-displeased-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-expression-displeased-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-expression-downcast",
+    "label": "低落",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-downcast-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-expression-downcast.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "明确垂眼、失落的当场片段；不自动附加疾病或关系事实。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-downcast-v001.png",
+      "sha256": "53a3c303f5bf797f3d5e9a6da7feed1a68e314057c5d71edb44602d93b2a2cb3",
+      "bytes": 1714700,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          4,
+          956,
+          1532
+        ],
+        "bboxAbove127": [
+          202,
+          18,
+          686,
+          1518
+        ],
+        "transparentPixels": 832235,
+        "partialPixels": 740629,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-expression-downcast-v001.webp",
+      "sha256": "7771a367045d1be0220a541e874f8da9d9dc987efb8951204985019175a2c935",
+      "bytes": 1031710,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          4,
+          956,
+          1532
+        ],
+        "bboxAbove127": [
+          202,
+          18,
+          686,
+          1518
+        ],
+        "transparentPixels": 832235,
+        "partialPixels": 740629,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-expression-downcast-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-expression-downcast-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-expression-downcast-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-expression-downcast-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-expression-downcast-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-action-wave",
+    "label": "招手",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-wave-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-wave.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "普通打招呼；远程群消息不等于实际到场。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "gesture": [
+        150,
+        395,
+        310,
+        485
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-wave-v001.png",
+      "sha256": "b5daee1f1d2276abacf1162c374c5af3ed7afd29100a41509d07ad14a2279a27",
+      "bytes": 1783463,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          11,
+          1010,
+          1525
+        ],
+        "bboxAbove127": [
+          168,
+          19,
+          745,
+          1517
+        ],
+        "transparentPixels": 804296,
+        "partialPixels": 768568,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-wave-v001.webp",
+      "sha256": "b663071a870f41f5b9807791a2f450d1e129e889d97c2e4e268c4aee9a217855",
+      "bytes": 1088234,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          11,
+          1010,
+          1525
+        ],
+        "bboxAbove127": [
+          168,
+          19,
+          745,
+          1517
+        ],
+        "transparentPixels": 804296,
+        "partialPixels": 768568,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-action-wave-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-action-wave-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-action-wave-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-action-wave-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-action-wave-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "gesture",
+          "sourceRect": [
+            150,
+            395,
+            310,
+            485
+          ],
+          "screenRect": [
+            496.38,
+            192.35,
+            122.71,
+            191.98
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-action-thinking",
+    "label": "思考",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-thinking-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-thinking.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "停顿与考虑；不用于手中必须同时持物的镜头。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "gesture": [
+        300,
+        410,
+        260,
+        400
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-thinking-v001.png",
+      "sha256": "cc21a362d7e3d603569eefabd61fafe15cecea56d88ac306c8124649c1d22d20",
+      "bytes": 1701347,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          25,
+          0,
+          905,
+          1536
+        ],
+        "bboxAbove127": [
+          199,
+          17,
+          691,
+          1519
+        ],
+        "transparentPixels": 830855,
+        "partialPixels": 742009,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-thinking-v001.webp",
+      "sha256": "c74718334036f4bf745b24b6bd6cf75235eaf57747b8d4fd9b21ce6ee3351580",
+      "bytes": 1026222,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          25,
+          0,
+          905,
+          1536
+        ],
+        "bboxAbove127": [
+          199,
+          17,
+          691,
+          1519
+        ],
+        "transparentPixels": 830855,
+        "partialPixels": 742009,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-action-thinking-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-action-thinking-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-action-thinking-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-action-thinking-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-action-thinking-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "gesture",
+          "sourceRect": [
+            300,
+            410,
+            260,
+            400
+          ],
+          "screenRect": [
+            555.75,
+            198.29,
+            102.92,
+            158.33
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-action-explaining",
+    "label": "解释",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-explaining-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/references/approved-b/prompts.json",
+    "origin": "inherited-byte-identical",
+    "referenceCopy": "assets/sources/20261028/SUI-A05/references/approved-b/char-piao-action-explaining.png",
+    "requirements": [
+      "char-piao"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "approvalStatus": "已确认B外形的历史原件；本批复核，待A11/I采用",
+    "usage": "普通摊掌说明；不得覆盖当场相机/册子持物状态。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "gesture": [
+        130,
+        755,
+        330,
+        290
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-explaining-v001.png",
+      "sha256": "3119053c176305cd377581298eaee1770e59d8d49ca19ff6ba036cbd3e6d9536",
+      "bytes": 1737209,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          5,
+          914,
+          1531
+        ],
+        "bboxAbove127": [
+          135,
+          17,
+          776,
+          1519
+        ],
+        "transparentPixels": 815978,
+        "partialPixels": 756886,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-explaining-v001.webp",
+      "sha256": "86b0f0d947b0aa5cd2880c5fc3c8f23e45191643ccd9597aaeacf9e7d0d5b7e9",
+      "bytes": 1049770,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          5,
+          914,
+          1531
+        ],
+        "bboxAbove127": [
+          135,
+          17,
+          776,
+          1519
+        ],
+        "transparentPixels": 815978,
+        "partialPixels": 756886,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-action-explaining-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-action-explaining-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-action-explaining-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-action-explaining-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-action-explaining-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "gesture",
+          "sourceRect": [
+            130,
+            755,
+            330,
+            290
+          ],
+          "screenRect": [
+            488.46,
+            334.85,
+            130.62,
+            114.79
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-action-camera",
+    "label": "持相机",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-camera-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/action-camera.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "char-piao",
+      "prop-piao-camera"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      },
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 437,
+        "quote": "桌边放着一台借来的相机。",
+        "heading": "### 第5—7天｜有人要去贵阳",
+        "nearestNode": null,
+        "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+      }
+    ],
+    "approvalStatus": "按既定B制作的新动作；待A11/I采用复核",
+    "usage": "借来的相机、征得同意后拍摄的准备动作。共通/HIGH/LOW按当场实际持物使用；不替代第30天LOW未举相机的镜头。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "hands-camera": [
+        270,
+        595,
+        375,
+        310
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-camera-v001.png",
+      "sha256": "d5d5a15b5d5e54f3d955def4bb3f0f83fbd23e262e830dc133a34170fbcf781e",
+      "bytes": 1882705,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          79,
+          13,
+          925,
+          1523
+        ],
+        "bboxAbove127": [
+          176,
+          19,
+          767,
+          1517
+        ],
+        "transparentPixels": 787006,
+        "partialPixels": 785858,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-camera-v001.webp",
+      "sha256": "709539895b8ee4264c20a9e82b7e7c636a99840049d2e107e565b807e6874c7a",
+      "bytes": 1128536,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          79,
+          13,
+          925,
+          1523
+        ],
+        "bboxAbove127": [
+          176,
+          19,
+          767,
+          1517
+        ],
+        "transparentPixels": 787006,
+        "partialPixels": 785858,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-action-camera-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-action-camera-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-action-camera-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-action-camera-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-action-camera-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "hands-camera",
+          "sourceRect": [
+            270,
+            595,
+            375,
+            310
+          ],
+          "screenRect": [
+            543.88,
+            271.52,
+            148.44,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-action-booklet",
+    "label": "持册子 · 空封二",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-booklet-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/action-booklet.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "char-piao",
+      "prop-piao-booklet-kit"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      },
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 560,
+        "quote": "我赶紧看页码。她翻到封二，空的，没有那篇介绍，也没有替换的新文章。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "approvalStatus": "按既定B制作的新动作；待A11/I采用复核",
+    "usage": "HIGH第34/39天核对恢复为空白的封二；不能用于已擅加作者介绍的错误稿、LOW未定稿册子或文文写过字的最后页。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "hands-booklet": [
+        195,
+        570,
+        545,
+        400
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-booklet-v001.png",
+      "sha256": "fa4ac8ae30e1185844f5ecc17418230411cf883f377873c124b348fae1c916c1",
+      "bytes": 1831256,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          41,
+          7,
+          933,
+          1529
+        ],
+        "bboxAbove127": [
+          161,
+          16,
+          803,
+          1520
+        ],
+        "transparentPixels": 772092,
+        "partialPixels": 800772,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-booklet-v001.webp",
+      "sha256": "66bbc42d3fbbec2431d6234d9fc9046c9cfcf3a8e41d47a71d362e394019a871",
+      "bytes": 1103484,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          41,
+          7,
+          933,
+          1529
+        ],
+        "bboxAbove127": [
+          161,
+          16,
+          803,
+          1520
+        ],
+        "transparentPixels": 772092,
+        "partialPixels": 800772,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-action-booklet-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-action-booklet-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-action-booklet-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-action-booklet-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-action-booklet-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "hands-booklet",
+          "sourceRect": [
+            195,
+            570,
+            545,
+            400
+          ],
+          "screenRect": [
+            514.19,
+            261.62,
+            215.73,
+            158.33
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-action-knot",
+    "label": "系相机包带",
+    "kind": "character",
+    "group": "selected-b",
+    "file": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-knot-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/action-knot.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "char-piao",
+      "prop-piao-camera",
+      "prop-piao-knots"
+    ],
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      },
+      {
+        "path": "scenario/跨路线-第36天的消息.md",
+        "line": 9,
+        "quote": "低头摆弄相机包的带子。",
+        "heading": "## 完整内容",
+        "nearestNode": "<!-- NODE PIAO-D36 -->",
+        "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+      }
+    ],
+    "approvalStatus": "按既定B制作的新动作；待A11/I采用复核",
+    "usage": "相机包带的日常松结动作参考；公共第36天仅LOW使用且须按坐姿镜头复核。不是本线第36天湿绳的同一物件，也不替代衣角/布袋/纸袋绳结。",
+    "criticalRects": {
+      "face": [
+        330,
+        165,
+        330,
+        310
+      ],
+      "hands-knot": [
+        310,
+        705,
+        410,
+        265
+      ]
+    },
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-knot-v001.png",
+      "sha256": "d37b161098a7f97f1f5c40c0c6dab5f171a87073f489d3cf2d064c085b577b9e",
+      "bytes": 1882122,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          9,
+          1000,
+          1527
+        ],
+        "bboxAbove127": [
+          189,
+          16,
+          750,
+          1520
+        ],
+        "transparentPixels": 774669,
+        "partialPixels": 798195,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-action-knot-v001.webp",
+      "sha256": "5184894ab98866f803011bf42253fab43d3add6bb6cd31cc5e254d524c258b22",
+      "bytes": 1144340,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          9,
+          1000,
+          1527
+        ],
+        "bboxAbove127": [
+          189,
+          16,
+          750,
+          1520
+        ],
+        "transparentPixels": 774669,
+        "partialPixels": 798195,
+        "opaquePixels": 0
+      },
+      "rgbaDecodedBytes": 6291456
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1024,
+      1536
+    ],
+    "pivot": [
+      512.0,
+      1536
+    ],
+    "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-action-knot-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-action-knot-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-action-knot-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-action-knot-night.png"
+    },
+    "offlineUI": {
+      "preview": "qa/SUI-A05-20261028/previews/piao-action-knot-ui.png",
+      "scale": 0.3958333333333333,
+      "spriteRect": [
+        437,
+        36,
+        405,
+        608
+      ],
+      "criticalRegions": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "hands-knot",
+          "sourceRect": [
+            310,
+            705,
+            410,
+            265
+          ],
+          "screenRect": [
+            559.71,
+            315.06,
+            162.29,
+            104.9
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ],
+      "coordinateStatus": "仅1280×720离线建议；非NovelML绑定",
+      "choiceMenuTested": false
+    },
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-prop-camera",
+    "label": "借用相机",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/camera.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-camera"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 437,
+        "quote": "桌边放着一台借来的相机。",
+        "heading": "### 第5—7天｜有人要去贵阳",
+        "nearestNode": null,
+        "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "无品牌摄影学习道具；不写成已购器材或职业摄影师证明。",
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+      "sha256": "3ef42bec24964195c3c70e4b21f8fca7655a958d07823882d9a7d7f11266bc9d",
+      "bytes": 1794786,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          49,
+          71,
+          1173,
+          1183
+        ],
+        "bboxAbove127": [
+          58,
+          240,
+          1155,
+          912
+        ],
+        "transparentPixels": 816999,
+        "partialPixels": 754268,
+        "opaquePixels": 1249
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.webp",
+      "sha256": "6a13aad578daf1f6ed52a67d103b4d6e890acc45445ed16630b6c1ff447ddca0",
+      "bytes": 1077946,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          49,
+          71,
+          1173,
+          1183
+        ],
+        "bboxAbove127": [
+          58,
+          240,
+          1155,
+          912
+        ],
+        "transparentPixels": 816999,
+        "partialPixels": 754268,
+        "opaquePixels": 1249
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "pivot": [
+      627.0,
+      1254
+    ],
+    "pivotMeaning": "道具画布下边中心，非手持绑定点",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-prop-camera-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-prop-camera-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-prop-camera-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-prop-camera-night.png"
+    },
+    "offlineUI": null,
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-prop-camera-bag",
+    "label": "相机包 · 松结",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-bag-slipknot-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/camera-bag.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-camera",
+      "prop-piao-knots"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/跨路线-第36天的消息.md",
+        "line": 9,
+        "quote": "低头摆弄相机包的带子。",
+        "heading": "## 完整内容",
+        "nearestNode": "<!-- NODE PIAO-D36 -->",
+        "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "相机包带版本；不作为装照片布袋或衣角绳结的替身。",
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-bag-slipknot-v001.png",
+      "sha256": "fd5c467c0265ffc557096a2d697690c355023ea1303e8d6b57a4eac4dddf3f39",
+      "bytes": 1856216,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          41,
+          1234,
+          1213
+        ],
+        "bboxAbove127": [
+          54,
+          126,
+          1162,
+          1072
+        ],
+        "transparentPixels": 874280,
+        "partialPixels": 696790,
+        "opaquePixels": 1446
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-bag-slipknot-v001.webp",
+      "sha256": "2073d5f86b8126455271bae9aa65bdffc87b8716c16982103c30ec77260d0858",
+      "bytes": 1060710,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          41,
+          1234,
+          1213
+        ],
+        "bboxAbove127": [
+          54,
+          126,
+          1162,
+          1072
+        ],
+        "transparentPixels": 874280,
+        "partialPixels": 696790,
+        "opaquePixels": 1446
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "pivot": [
+      627.0,
+      1254
+    ],
+    "pivotMeaning": "道具画布下边中心，非手持绑定点",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-prop-camera-bag-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-prop-camera-bag-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-prop-camera-bag-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-prop-camera-bag-night.png"
+    },
+    "offlineUI": null,
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-prop-camera-manual",
+    "label": "相机说明书 · 修订2",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-manual-v002.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/camera-manual-v002.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-camera"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 168,
+        "quote": "腾出手翻说明书。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "按本包相机形状修正的示意图；无虚构参数/日期/品牌，非可读教学说明。",
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-manual-v002.png",
+      "sha256": "410d6545d5717395b683fd0e0d8131940528122eec91fa56469861c74d9fa69d",
+      "bytes": 1367628,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          37,
+          1238,
+          1198
+        ],
+        "bboxAbove127": [
+          32,
+          242,
+          1197,
+          762
+        ],
+        "transparentPixels": 933041,
+        "partialPixels": 638797,
+        "opaquePixels": 678
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-manual-v002.webp",
+      "sha256": "f22df2cb9d5d1293d5a923694074edab45bc9bec8687ca30be075d225c2b740d",
+      "bytes": 772356,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          37,
+          1238,
+          1198
+        ],
+        "bboxAbove127": [
+          32,
+          242,
+          1197,
+          762
+        ],
+        "transparentPixels": 933041,
+        "partialPixels": 638797,
+        "opaquePixels": 678
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "pivot": [
+      627.0,
+      1254
+    ],
+    "pivotMeaning": "道具画布下边中心，非手持绑定点",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-prop-camera-manual-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-prop-camera-manual-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-prop-camera-manual-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-prop-camera-manual-night.png"
+    },
+    "offlineUI": null,
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-prop-booklet",
+    "label": "册子 · 空封二",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/booklet.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-booklet-kit"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 560,
+        "quote": "我赶紧看页码。她翻到封二，空的，没有那篇介绍，也没有替换的新文章。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "仅表现空封二和相邻空白扉页；不表示整册空白，不替代最后页。",
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.png",
+      "sha256": "29085fbde8c8a2d0d6c53a229203f84089b196aa754a167af6108b8d2b9d0ffe",
+      "bytes": 1445060,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          9,
+          1206,
+          1245
+        ],
+        "bboxAbove127": [
+          67,
+          163,
+          1135,
+          908
+        ],
+        "transparentPixels": 802088,
+        "partialPixels": 769579,
+        "opaquePixels": 849
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.webp",
+      "sha256": "ef3b0efb8a20a3087f7b54abdd56c6cf3198e304d97b64753471946579850c54",
+      "bytes": 828296,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          9,
+          1206,
+          1245
+        ],
+        "bboxAbove127": [
+          67,
+          163,
+          1135,
+          908
+        ],
+        "transparentPixels": 802088,
+        "partialPixels": 769579,
+        "opaquePixels": 849
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "pivot": [
+      627.0,
+      1254
+    ],
+    "pivotMeaning": "道具画布下边中心，非手持绑定点",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-prop-booklet-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-prop-booklet-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-prop-booklet-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-prop-booklet-night.png"
+    },
+    "offlineUI": null,
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  },
+  {
+    "id": "piao-prop-booklet-tools",
+    "label": "装订工具与布条",
+    "kind": "prop",
+    "group": "props",
+    "file": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.png",
+    "prompt": "assets/sources/20261028/SUI-A05/prompts/booklet-tools.txt",
+    "origin": "new-generation",
+    "requirements": [
+      "prop-piao-booklet-kit",
+      "prop-piao-knots"
+    ],
+    "anchors": [
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 566,
+        "quote": "我对页码，她拿订书机。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 554,
+        "quote": "又把束起样册的布条换了两种结法。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "approvalStatus": "本包制作设计；待A11/I采用复核",
+    "usage": "订书机、尺和普通布条的道具组合；整组使用，分层抽取或新增手持姿态须另制。",
+    "ownerTask": "SUI-A05",
+    "sourceMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.png",
+      "sha256": "764de42dbd7c96b8bfc8e029e9abbbf64e4f001c4462f534a9369c8db8b5284c",
+      "bytes": 1606818,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          9,
+          1234,
+          1245
+        ],
+        "bboxAbove127": [
+          92,
+          112,
+          1129,
+          1094
+        ],
+        "transparentPixels": 944429,
+        "partialPixels": 627337,
+        "opaquePixels": 750
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "derivativeMetadata": {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.webp",
+      "sha256": "a43f370793b9056b814621ec2f44ac9d20ce99cd02acf5e1b75d07d780471d25",
+      "bytes": 938448,
+      "format": "WEBP",
+      "mode": "RGBA",
+      "size": [
+        1254,
+        1254
+      ],
+      "orientation": 1,
+      "iccProfilePresent": false,
+      "colorHandling": "保留解码色值；无ICC时如实记为untagged，未擅自改色",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          9,
+          1234,
+          1245
+        ],
+        "bboxAbove127": [
+          92,
+          112,
+          1129,
+          1094
+        ],
+        "transparentPixels": 944429,
+        "partialPixels": 627337,
+        "opaquePixels": 750
+      },
+      "rgbaDecodedBytes": 6290064
+    },
+    "pixelComparison": {
+      "passed": true,
+      "dimensionsEqual": true,
+      "differentPixelsByRGBAChannel": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "exactRGBAEqual": true
+    },
+    "encoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "coordinateBasis": "源像素、左上原点、[x,y,width,height]；原图不裁透明边",
+    "cropRect": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "pivot": [
+      627.0,
+      1254
+    ],
+    "pivotMeaning": "道具画布下边中心，非手持绑定点",
+    "previews": {
+      "white": "qa/SUI-A05-20261028/previews/piao-prop-booklet-tools-white.png",
+      "black": "qa/SUI-A05-20261028/previews/piao-prop-booklet-tools-black.png",
+      "day": "qa/SUI-A05-20261028/previews/piao-prop-booklet-tools-day.png",
+      "night": "qa/SUI-A05-20261028/previews/piao-prop-booklet-tools-night.png"
+    },
+    "offlineUI": null,
+    "runtimeBound": false,
+    "adoptedInSuika3": false
+  }
+]

@@ -1,0 +1,6389 @@
+{
+  "buildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+  "layer": "SUI-I02 当前正文与108字素编译/中间表示全路径对照；不等同引擎、存档、资源绑定、真机或发布",
+  "checks": [
+    {
+      "name": "当前SUI-S只读复核",
+      "status": "pass",
+      "detail": {
+        "status": "pass",
+        "counts": {
+          "choices": 65,
+          "options": 134,
+          "declaredEndings": 14,
+          "commonAssignments": 32768,
+          "commonDistinctReadings": 16384,
+          "routeAssignments": 2818,
+          "sharedCalls": 1280,
+          "sharedReturns": 1280,
+          "epilogueReads": 2754,
+          "representativeTraces": 46,
+          "rejectedNegativeCases": 24
+        }
+      }
+    },
+    {
+      "name": "可重建、白名单与生成结构",
+      "status": "pass",
+      "detail": {
+        "files": 12,
+        "choices": 65,
+        "options": 134,
+        "endings": 14,
+        "pages": 3021,
+        "nodes": 3415,
+        "labels": 3484
+      }
+    },
+    {
+      "name": "原文、选项与来源映射完整",
+      "status": "pass",
+      "detail": {
+        "paragraphs": 3019,
+        "mappedUnits": 3415,
+        "allNarrativeLinesMatch": true
+      }
+    },
+    {
+      "name": "共通32768赋值与黄球球门禁逐组对照",
+      "status": "pass",
+      "detail": {
+        "count": 32768,
+        "unlocked": 8192
+      }
+    },
+    {
+      "name": "全部2818路线展开、文字与结局逐组对照",
+      "status": "pass",
+      "detail": {
+        "count": 2818,
+        "calls": 1280,
+        "returns": 1280,
+        "representatives": 46,
+        "readLines": 2519
+      }
+    },
+    {
+      "name": "稳定ID不依赖行号或排版空行",
+      "status": "pass",
+      "detail": {
+        "stableNodes": 3415
+      }
+    },
+    {
+      "name": "编译负例与Unicode/引号/标签转义",
+      "status": "pass",
+      "detail": {
+        "rejected": 19
+      }
+    },
+    {
+      "name": "运行内容语义拒绝负例与短路",
+      "status": "pass",
+      "detail": {
+        "rejected": 26,
+        "shortCircuit": true
+      }
+    },
+    {
+      "name": "本批正文、SDK、编译器和U接口输入保护",
+      "status": "pass",
+      "detail": {
+        "unchangedFiles": 1130
+      }
+    }
+  ],
+  "counts": {
+    "commonAssignments": 32768,
+    "routeAssignments": 2818,
+    "calls": 1280,
+    "returns": 1280,
+    "representativeTraces": 46,
+    "compileNegatives": 19,
+    "stateNegatives": 26
+  },
+  "samples": [
+    {
+      "key": "xiaoman/HIGH/AA",
+      "route": "xiaoman",
+      "relation": "HIGH",
+      "combination": "AA",
+      "ending": "XM-E1",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "cc58d19ffa31d5dfd7240c2306a7e8b985904078b3df0994f3ba874460029a56",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "A",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 51,
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 147,
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 279,
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 405,
+          "value": "A"
+        },
+        {
+          "id": "XM-D36-CALL",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 491
+        },
+        {
+          "id": "XM-D36-RETURN",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 495
+        },
+        {
+          "id": "XM07-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 561,
+          "value": "A"
+        },
+        {
+          "id": "XM08-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 771,
+          "value": "A"
+        },
+        {
+          "id": "XM09-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 883,
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 985,
+          "value": "A"
+        },
+        {
+          "id": "XM-E1",
+          "op": "ending",
+          "file": "罗小满-练习本.md",
+          "line": 1009
+        },
+        {
+          "id": "EPILOGUE_7f651f125411bc7b3db7",
+          "op": "epilogue",
+          "file": "罗小满-练习本.md",
+          "line": 1111,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "xiaoman/HIGH/BA",
+      "route": "xiaoman",
+      "relation": "HIGH",
+      "combination": "BA",
+      "ending": "XM-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "e5979314eb43983907a86c1aa2d6ab4d8ba01f4da0107dbb17e06643f8e984f8",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "B",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 51,
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 147,
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 279,
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 405,
+          "value": "A"
+        },
+        {
+          "id": "XM-D36-CALL",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 491
+        },
+        {
+          "id": "XM-D36-RETURN",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 495
+        },
+        {
+          "id": "XM07-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 561,
+          "value": "B"
+        },
+        {
+          "id": "XM08-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 771,
+          "value": "A"
+        },
+        {
+          "id": "XM09-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 883,
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 985,
+          "value": "A"
+        },
+        {
+          "id": "XM-E2",
+          "op": "ending",
+          "file": "罗小满-练习本.md",
+          "line": 1055
+        },
+        {
+          "id": "EPILOGUE_7f651f125411bc7b3db7",
+          "op": "epilogue",
+          "file": "罗小满-练习本.md",
+          "line": 1111,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "xiaoman/HIGH/AB",
+      "route": "xiaoman",
+      "relation": "HIGH",
+      "combination": "AB",
+      "ending": "XM-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "759917291d3641478657219c87963bf7e849da284f1c1e248d04117c3a2aaa01",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "A",
+        "XM08-01": "B",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 51,
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 147,
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 279,
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 405,
+          "value": "A"
+        },
+        {
+          "id": "XM-D36-CALL",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 491
+        },
+        {
+          "id": "XM-D36-RETURN",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 495
+        },
+        {
+          "id": "XM07-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 561,
+          "value": "A"
+        },
+        {
+          "id": "XM08-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 771,
+          "value": "B"
+        },
+        {
+          "id": "XM09-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 883,
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 985,
+          "value": "A"
+        },
+        {
+          "id": "XM-E2",
+          "op": "ending",
+          "file": "罗小满-练习本.md",
+          "line": 1055
+        },
+        {
+          "id": "EPILOGUE_7f651f125411bc7b3db7",
+          "op": "epilogue",
+          "file": "罗小满-练习本.md",
+          "line": 1111,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "xiaoman/HIGH/BB",
+      "route": "xiaoman",
+      "relation": "HIGH",
+      "combination": "BB",
+      "ending": "XM-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "3286336bf0942a33bdce7a56506e45360a4fff17a81aa15224b66605fe958f03",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "B",
+        "XM08-01": "B",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 51,
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 147,
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 279,
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 405,
+          "value": "A"
+        },
+        {
+          "id": "XM-D36-CALL",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 491
+        },
+        {
+          "id": "XM-D36-RETURN",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 495
+        },
+        {
+          "id": "XM07-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 561,
+          "value": "B"
+        },
+        {
+          "id": "XM08-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 771,
+          "value": "B"
+        },
+        {
+          "id": "XM09-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 883,
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 985,
+          "value": "A"
+        },
+        {
+          "id": "XM-E2",
+          "op": "ending",
+          "file": "罗小满-练习本.md",
+          "line": 1055
+        },
+        {
+          "id": "EPILOGUE_7f651f125411bc7b3db7",
+          "op": "epilogue",
+          "file": "罗小满-练习本.md",
+          "line": 1111,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "xiaoman/LOW/AA",
+      "route": "xiaoman",
+      "relation": "LOW",
+      "combination": "AA",
+      "ending": "XM-E1",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "4f9d303f4cb9d16fbf8c1e33f92443bb784668fe329ac4fec8bfe98937ed4170",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "A",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 51,
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 147,
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 279,
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 405,
+          "value": "A"
+        },
+        {
+          "id": "XM-D36-CALL",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 491
+        },
+        {
+          "id": "CALL_f096ad397d5924485c7a",
+          "op": "call",
+          "file": "罗小满-练习本.md",
+          "line": 493
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "XM-D36-RETURN"
+        },
+        {
+          "id": "XM-D36-RETURN",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 495
+        },
+        {
+          "id": "XM07-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 561,
+          "value": "A"
+        },
+        {
+          "id": "XM08-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 771,
+          "value": "A"
+        },
+        {
+          "id": "XM09-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 883,
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 985,
+          "value": "A"
+        },
+        {
+          "id": "XM-E1",
+          "op": "ending",
+          "file": "罗小满-练习本.md",
+          "line": 1009
+        },
+        {
+          "id": "EPILOGUE_7f651f125411bc7b3db7",
+          "op": "epilogue",
+          "file": "罗小满-练习本.md",
+          "line": 1111,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "xiaoman/LOW/BA",
+      "route": "xiaoman",
+      "relation": "LOW",
+      "combination": "BA",
+      "ending": "XM-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "6680b06c7f4d14a041d40cf4eb41a9843ad3357590e48ca6e323194b72541006",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "B",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 51,
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 147,
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 279,
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 405,
+          "value": "A"
+        },
+        {
+          "id": "XM-D36-CALL",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 491
+        },
+        {
+          "id": "CALL_f096ad397d5924485c7a",
+          "op": "call",
+          "file": "罗小满-练习本.md",
+          "line": 493
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "XM-D36-RETURN"
+        },
+        {
+          "id": "XM-D36-RETURN",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 495
+        },
+        {
+          "id": "XM07-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 561,
+          "value": "B"
+        },
+        {
+          "id": "XM08-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 771,
+          "value": "A"
+        },
+        {
+          "id": "XM09-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 883,
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 985,
+          "value": "A"
+        },
+        {
+          "id": "XM-E2",
+          "op": "ending",
+          "file": "罗小满-练习本.md",
+          "line": 1055
+        },
+        {
+          "id": "EPILOGUE_7f651f125411bc7b3db7",
+          "op": "epilogue",
+          "file": "罗小满-练习本.md",
+          "line": 1111,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "xiaoman/LOW/AB",
+      "route": "xiaoman",
+      "relation": "LOW",
+      "combination": "AB",
+      "ending": "XM-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "27dc988452713f2130f5ad38e4036923ed609758a16f07aa8254a7a003a07e24",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "A",
+        "XM08-01": "B",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 51,
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 147,
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 279,
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 405,
+          "value": "A"
+        },
+        {
+          "id": "XM-D36-CALL",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 491
+        },
+        {
+          "id": "CALL_f096ad397d5924485c7a",
+          "op": "call",
+          "file": "罗小满-练习本.md",
+          "line": 493
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "XM-D36-RETURN"
+        },
+        {
+          "id": "XM-D36-RETURN",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 495
+        },
+        {
+          "id": "XM07-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 561,
+          "value": "A"
+        },
+        {
+          "id": "XM08-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 771,
+          "value": "B"
+        },
+        {
+          "id": "XM09-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 883,
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 985,
+          "value": "A"
+        },
+        {
+          "id": "XM-E2",
+          "op": "ending",
+          "file": "罗小满-练习本.md",
+          "line": 1055
+        },
+        {
+          "id": "EPILOGUE_7f651f125411bc7b3db7",
+          "op": "epilogue",
+          "file": "罗小满-练习本.md",
+          "line": 1111,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "xiaoman/LOW/BB",
+      "route": "xiaoman",
+      "relation": "LOW",
+      "combination": "BB",
+      "ending": "XM-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "a7c6bf863b9dc76e5bb68c9f379c4b9ffe8fc6c4ae76319b325e89136dd1b894",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "B",
+        "XM08-01": "B",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 51,
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 147,
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 279,
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 405,
+          "value": "A"
+        },
+        {
+          "id": "XM-D36-CALL",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 491
+        },
+        {
+          "id": "CALL_f096ad397d5924485c7a",
+          "op": "call",
+          "file": "罗小满-练习本.md",
+          "line": 493
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "XM-D36-RETURN"
+        },
+        {
+          "id": "XM-D36-RETURN",
+          "op": "anchor",
+          "file": "罗小满-练习本.md",
+          "line": 495
+        },
+        {
+          "id": "XM07-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 561,
+          "value": "B"
+        },
+        {
+          "id": "XM08-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 771,
+          "value": "B"
+        },
+        {
+          "id": "XM09-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 883,
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "op": "choice",
+          "file": "罗小满-练习本.md",
+          "line": 985,
+          "value": "A"
+        },
+        {
+          "id": "XM-E2",
+          "op": "ending",
+          "file": "罗小满-练习本.md",
+          "line": 1055
+        },
+        {
+          "id": "EPILOGUE_7f651f125411bc7b3db7",
+          "op": "epilogue",
+          "file": "罗小满-练习本.md",
+          "line": 1111,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "zhouzhi/HIGH/AA",
+      "route": "zhouzhi",
+      "relation": "HIGH",
+      "combination": "AA",
+      "ending": "ZZ-E1",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "4623a0074192e3a63486d46f5a5235a37c73f56272cca3e1706314c8e92317bd",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "A",
+        "ZZ07-01": "A",
+        "ZZ08-01": "A",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 67,
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 199,
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 337,
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 461,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-D36-CALL",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 595
+        },
+        {
+          "id": "ZZ-D36-RETURN",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 599
+        },
+        {
+          "id": "ZZ07-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 639,
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 865,
+          "value": "A"
+        },
+        {
+          "id": "ZZ09-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1003,
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1137,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-E1",
+          "op": "ending",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1161
+        },
+        {
+          "id": "EPILOGUE_7ae84f33fe9716385ea5",
+          "op": "epilogue",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1271,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "zhouzhi/HIGH/BA",
+      "route": "zhouzhi",
+      "relation": "HIGH",
+      "combination": "BA",
+      "ending": "ZZ-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "9958a656676bab7221ed1c6df09a9c6f04e9a1d428f63d1e48f4eb999efc0aaa",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "B",
+        "ZZ07-01": "A",
+        "ZZ08-01": "A",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 67,
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 199,
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 337,
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 461,
+          "value": "B"
+        },
+        {
+          "id": "ZZ-D36-CALL",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 595
+        },
+        {
+          "id": "ZZ-D36-RETURN",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 599
+        },
+        {
+          "id": "ZZ07-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 639,
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 865,
+          "value": "A"
+        },
+        {
+          "id": "ZZ09-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1003,
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1137,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-E2",
+          "op": "ending",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1215
+        },
+        {
+          "id": "EPILOGUE_7ae84f33fe9716385ea5",
+          "op": "epilogue",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1271,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "zhouzhi/HIGH/AB",
+      "route": "zhouzhi",
+      "relation": "HIGH",
+      "combination": "AB",
+      "ending": "ZZ-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "41f10e520734e52e4555e7a0820c8f966841fd62251e9248412395c85a5c9bbb",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "A",
+        "ZZ07-01": "A",
+        "ZZ08-01": "B",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 67,
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 199,
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 337,
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 461,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-D36-CALL",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 595
+        },
+        {
+          "id": "ZZ-D36-RETURN",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 599
+        },
+        {
+          "id": "ZZ07-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 639,
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 865,
+          "value": "B"
+        },
+        {
+          "id": "ZZ09-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1003,
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1137,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-E2",
+          "op": "ending",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1215
+        },
+        {
+          "id": "EPILOGUE_7ae84f33fe9716385ea5",
+          "op": "epilogue",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1271,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "zhouzhi/HIGH/BB",
+      "route": "zhouzhi",
+      "relation": "HIGH",
+      "combination": "BB",
+      "ending": "ZZ-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "d5571c7d1577a93ef563f25624d7e2244bd670027de4fd626a133f29dc966f7b",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "B",
+        "ZZ07-01": "A",
+        "ZZ08-01": "B",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 67,
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 199,
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 337,
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 461,
+          "value": "B"
+        },
+        {
+          "id": "ZZ-D36-CALL",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 595
+        },
+        {
+          "id": "ZZ-D36-RETURN",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 599
+        },
+        {
+          "id": "ZZ07-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 639,
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 865,
+          "value": "B"
+        },
+        {
+          "id": "ZZ09-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1003,
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1137,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-E2",
+          "op": "ending",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1215
+        },
+        {
+          "id": "EPILOGUE_7ae84f33fe9716385ea5",
+          "op": "epilogue",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1271,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "zhouzhi/LOW/AA",
+      "route": "zhouzhi",
+      "relation": "LOW",
+      "combination": "AA",
+      "ending": "ZZ-E1",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "d6e1978dcfc8079b6e6c34780ea527b2f2b0f9bfcb003e2124007be662071afa",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "A",
+        "ZZ07-01": "A",
+        "ZZ08-01": "A",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 67,
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 199,
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 337,
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 461,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-D36-CALL",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 595
+        },
+        {
+          "id": "CALL_ba470e634d3f84005d13",
+          "op": "call",
+          "file": "周栀-十一点四十七分.md",
+          "line": 597
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "ZZ-D36-RETURN"
+        },
+        {
+          "id": "ZZ-D36-RETURN",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 599
+        },
+        {
+          "id": "ZZ07-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 639,
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 865,
+          "value": "A"
+        },
+        {
+          "id": "ZZ09-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1003,
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1137,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-E1",
+          "op": "ending",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1161
+        },
+        {
+          "id": "EPILOGUE_7ae84f33fe9716385ea5",
+          "op": "epilogue",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1271,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "zhouzhi/LOW/BA",
+      "route": "zhouzhi",
+      "relation": "LOW",
+      "combination": "BA",
+      "ending": "ZZ-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "e86bbef3033fe8c5fa6b67e0103e0e6ad998efd04670c380b7ae43e0dcc6cd46",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "B",
+        "ZZ07-01": "A",
+        "ZZ08-01": "A",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 67,
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 199,
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 337,
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 461,
+          "value": "B"
+        },
+        {
+          "id": "ZZ-D36-CALL",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 595
+        },
+        {
+          "id": "CALL_ba470e634d3f84005d13",
+          "op": "call",
+          "file": "周栀-十一点四十七分.md",
+          "line": 597
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "ZZ-D36-RETURN"
+        },
+        {
+          "id": "ZZ-D36-RETURN",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 599
+        },
+        {
+          "id": "ZZ07-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 639,
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 865,
+          "value": "A"
+        },
+        {
+          "id": "ZZ09-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1003,
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1137,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-E2",
+          "op": "ending",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1215
+        },
+        {
+          "id": "EPILOGUE_7ae84f33fe9716385ea5",
+          "op": "epilogue",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1271,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "zhouzhi/LOW/AB",
+      "route": "zhouzhi",
+      "relation": "LOW",
+      "combination": "AB",
+      "ending": "ZZ-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "6b2b958852ef97c8f5bdeb3cf298460c933ecb3ccc1db3e55041f7852116de72",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "A",
+        "ZZ07-01": "A",
+        "ZZ08-01": "B",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 67,
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 199,
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 337,
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 461,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-D36-CALL",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 595
+        },
+        {
+          "id": "CALL_ba470e634d3f84005d13",
+          "op": "call",
+          "file": "周栀-十一点四十七分.md",
+          "line": 597
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "ZZ-D36-RETURN"
+        },
+        {
+          "id": "ZZ-D36-RETURN",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 599
+        },
+        {
+          "id": "ZZ07-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 639,
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 865,
+          "value": "B"
+        },
+        {
+          "id": "ZZ09-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1003,
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1137,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-E2",
+          "op": "ending",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1215
+        },
+        {
+          "id": "EPILOGUE_7ae84f33fe9716385ea5",
+          "op": "epilogue",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1271,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "zhouzhi/LOW/BB",
+      "route": "zhouzhi",
+      "relation": "LOW",
+      "combination": "BB",
+      "ending": "ZZ-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "2b0ae3b594d299c3d490013455a44b5552cb407f04a8e88b435f1edf62978b3f",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "B",
+        "ZZ07-01": "A",
+        "ZZ08-01": "B",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 67,
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 199,
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 337,
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 461,
+          "value": "B"
+        },
+        {
+          "id": "ZZ-D36-CALL",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 595
+        },
+        {
+          "id": "CALL_ba470e634d3f84005d13",
+          "op": "call",
+          "file": "周栀-十一点四十七分.md",
+          "line": 597
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "ZZ-D36-RETURN"
+        },
+        {
+          "id": "ZZ-D36-RETURN",
+          "op": "anchor",
+          "file": "周栀-十一点四十七分.md",
+          "line": 599
+        },
+        {
+          "id": "ZZ07-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 639,
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 865,
+          "value": "B"
+        },
+        {
+          "id": "ZZ09-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1003,
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "op": "choice",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1137,
+          "value": "A"
+        },
+        {
+          "id": "ZZ-E2",
+          "op": "ending",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1215
+        },
+        {
+          "id": "EPILOGUE_7ae84f33fe9716385ea5",
+          "op": "epilogue",
+          "file": "周栀-十一点四十七分.md",
+          "line": 1271,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "mengyao/HIGH/AA",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "combination": "AA",
+      "ending": "MY-E1",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "0badf482378eb9fa8f0003f476debd812b74c64707298156b14a1e20e8fae0ac",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "A",
+        "MY08-01": "A",
+        "MY09-01": "A",
+        "MY10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "mengyao"
+        },
+        {
+          "id": "MY03-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 83,
+          "value": "A"
+        },
+        {
+          "id": "MY04-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 167,
+          "value": "A"
+        },
+        {
+          "id": "MY05-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 313,
+          "value": "A"
+        },
+        {
+          "id": "MY06-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 397,
+          "value": "A"
+        },
+        {
+          "id": "MY-D36-CALL",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 449
+        },
+        {
+          "id": "MY-D36-RETURN",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 453
+        },
+        {
+          "id": "MY07-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 501,
+          "value": "A"
+        },
+        {
+          "id": "MY08-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 591,
+          "value": "A"
+        },
+        {
+          "id": "MY09-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 767,
+          "value": "A"
+        },
+        {
+          "id": "MY10-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 841,
+          "value": "A"
+        },
+        {
+          "id": "MY-E1",
+          "op": "ending",
+          "file": "孟遥-旧题.md",
+          "line": 866
+        },
+        {
+          "id": "EPILOGUE_8d089e1c85448481f42b",
+          "op": "epilogue",
+          "file": "孟遥-旧题.md",
+          "line": 961,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "mengyao/HIGH/BA",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "combination": "BA",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "6e5dc6eed6f70bccc7a416c05042b2f6b6f2125001909f0a8d1d5cd63e973294",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "B",
+        "MY08-01": "A",
+        "MY09-01": "A",
+        "MY10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "mengyao"
+        },
+        {
+          "id": "MY03-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 83,
+          "value": "A"
+        },
+        {
+          "id": "MY04-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 167,
+          "value": "A"
+        },
+        {
+          "id": "MY05-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 313,
+          "value": "A"
+        },
+        {
+          "id": "MY06-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 397,
+          "value": "A"
+        },
+        {
+          "id": "MY-D36-CALL",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 449
+        },
+        {
+          "id": "MY-D36-RETURN",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 453
+        },
+        {
+          "id": "MY07-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 501,
+          "value": "B"
+        },
+        {
+          "id": "MY08-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 591,
+          "value": "A"
+        },
+        {
+          "id": "MY09-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 767,
+          "value": "A"
+        },
+        {
+          "id": "MY10-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 841,
+          "value": "A"
+        },
+        {
+          "id": "MY-E2",
+          "op": "ending",
+          "file": "孟遥-旧题.md",
+          "line": 902
+        },
+        {
+          "id": "EPILOGUE_8d089e1c85448481f42b",
+          "op": "epilogue",
+          "file": "孟遥-旧题.md",
+          "line": 961,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "mengyao/HIGH/AB",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "combination": "AB",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "6ab1f48d4f89a20b630bb9cc7db02a348b2c4d62908ab391839ec521475d1437",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "A",
+        "MY08-01": "A",
+        "MY09-01": "B",
+        "MY10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "mengyao"
+        },
+        {
+          "id": "MY03-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 83,
+          "value": "A"
+        },
+        {
+          "id": "MY04-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 167,
+          "value": "A"
+        },
+        {
+          "id": "MY05-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 313,
+          "value": "A"
+        },
+        {
+          "id": "MY06-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 397,
+          "value": "A"
+        },
+        {
+          "id": "MY-D36-CALL",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 449
+        },
+        {
+          "id": "MY-D36-RETURN",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 453
+        },
+        {
+          "id": "MY07-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 501,
+          "value": "A"
+        },
+        {
+          "id": "MY08-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 591,
+          "value": "A"
+        },
+        {
+          "id": "MY09-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 767,
+          "value": "B"
+        },
+        {
+          "id": "MY10-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 841,
+          "value": "A"
+        },
+        {
+          "id": "MY-E2",
+          "op": "ending",
+          "file": "孟遥-旧题.md",
+          "line": 902
+        },
+        {
+          "id": "EPILOGUE_8d089e1c85448481f42b",
+          "op": "epilogue",
+          "file": "孟遥-旧题.md",
+          "line": 961,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "mengyao/HIGH/BB",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "combination": "BB",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "a0c465d81f6b9e075501a39ea87c161e4c403d00baf8f469d7b0012f8c9c1452",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "B",
+        "MY08-01": "A",
+        "MY09-01": "B",
+        "MY10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "mengyao"
+        },
+        {
+          "id": "MY03-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 83,
+          "value": "A"
+        },
+        {
+          "id": "MY04-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 167,
+          "value": "A"
+        },
+        {
+          "id": "MY05-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 313,
+          "value": "A"
+        },
+        {
+          "id": "MY06-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 397,
+          "value": "A"
+        },
+        {
+          "id": "MY-D36-CALL",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 449
+        },
+        {
+          "id": "MY-D36-RETURN",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 453
+        },
+        {
+          "id": "MY07-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 501,
+          "value": "B"
+        },
+        {
+          "id": "MY08-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 591,
+          "value": "A"
+        },
+        {
+          "id": "MY09-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 767,
+          "value": "B"
+        },
+        {
+          "id": "MY10-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 841,
+          "value": "A"
+        },
+        {
+          "id": "MY-E2",
+          "op": "ending",
+          "file": "孟遥-旧题.md",
+          "line": 902
+        },
+        {
+          "id": "EPILOGUE_8d089e1c85448481f42b",
+          "op": "epilogue",
+          "file": "孟遥-旧题.md",
+          "line": 961,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "mengyao/LOW/AA",
+      "route": "mengyao",
+      "relation": "LOW",
+      "combination": "AA",
+      "ending": "MY-E1",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "b3d7475b0578308a537def06d81b5caf53ae13c3a9a7db9cde578c847e09148d",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "A",
+        "MY08-01": "A",
+        "MY09-01": "A",
+        "MY10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "mengyao"
+        },
+        {
+          "id": "MY03-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 83,
+          "value": "A"
+        },
+        {
+          "id": "MY04-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 167,
+          "value": "A"
+        },
+        {
+          "id": "MY05-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 313,
+          "value": "A"
+        },
+        {
+          "id": "MY06-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 397,
+          "value": "A"
+        },
+        {
+          "id": "MY-D36-CALL",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 449
+        },
+        {
+          "id": "CALL_4aa9263463036ff23e68",
+          "op": "call",
+          "file": "孟遥-旧题.md",
+          "line": 451
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "MY-D36-RETURN"
+        },
+        {
+          "id": "MY-D36-RETURN",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 453
+        },
+        {
+          "id": "MY07-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 501,
+          "value": "A"
+        },
+        {
+          "id": "MY08-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 591,
+          "value": "A"
+        },
+        {
+          "id": "MY09-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 767,
+          "value": "A"
+        },
+        {
+          "id": "MY10-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 841,
+          "value": "A"
+        },
+        {
+          "id": "MY-E1",
+          "op": "ending",
+          "file": "孟遥-旧题.md",
+          "line": 866
+        },
+        {
+          "id": "EPILOGUE_8d089e1c85448481f42b",
+          "op": "epilogue",
+          "file": "孟遥-旧题.md",
+          "line": 961,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "mengyao/LOW/BA",
+      "route": "mengyao",
+      "relation": "LOW",
+      "combination": "BA",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "b5a40abea2094cdab7a23f6e52995137fae9df978edb08c544a266db4a1337f9",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "B",
+        "MY08-01": "A",
+        "MY09-01": "A",
+        "MY10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "mengyao"
+        },
+        {
+          "id": "MY03-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 83,
+          "value": "A"
+        },
+        {
+          "id": "MY04-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 167,
+          "value": "A"
+        },
+        {
+          "id": "MY05-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 313,
+          "value": "A"
+        },
+        {
+          "id": "MY06-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 397,
+          "value": "A"
+        },
+        {
+          "id": "MY-D36-CALL",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 449
+        },
+        {
+          "id": "CALL_4aa9263463036ff23e68",
+          "op": "call",
+          "file": "孟遥-旧题.md",
+          "line": 451
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "MY-D36-RETURN"
+        },
+        {
+          "id": "MY-D36-RETURN",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 453
+        },
+        {
+          "id": "MY07-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 501,
+          "value": "B"
+        },
+        {
+          "id": "MY08-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 591,
+          "value": "A"
+        },
+        {
+          "id": "MY09-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 767,
+          "value": "A"
+        },
+        {
+          "id": "MY10-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 841,
+          "value": "A"
+        },
+        {
+          "id": "MY-E2",
+          "op": "ending",
+          "file": "孟遥-旧题.md",
+          "line": 902
+        },
+        {
+          "id": "EPILOGUE_8d089e1c85448481f42b",
+          "op": "epilogue",
+          "file": "孟遥-旧题.md",
+          "line": 961,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "mengyao/LOW/AB",
+      "route": "mengyao",
+      "relation": "LOW",
+      "combination": "AB",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "701a68332a67fcc96bbfd1c08be23cc01e45b7644ad7483723806a10c676cb25",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "A",
+        "MY08-01": "A",
+        "MY09-01": "B",
+        "MY10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "mengyao"
+        },
+        {
+          "id": "MY03-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 83,
+          "value": "A"
+        },
+        {
+          "id": "MY04-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 167,
+          "value": "A"
+        },
+        {
+          "id": "MY05-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 313,
+          "value": "A"
+        },
+        {
+          "id": "MY06-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 397,
+          "value": "A"
+        },
+        {
+          "id": "MY-D36-CALL",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 449
+        },
+        {
+          "id": "CALL_4aa9263463036ff23e68",
+          "op": "call",
+          "file": "孟遥-旧题.md",
+          "line": 451
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "MY-D36-RETURN"
+        },
+        {
+          "id": "MY-D36-RETURN",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 453
+        },
+        {
+          "id": "MY07-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 501,
+          "value": "A"
+        },
+        {
+          "id": "MY08-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 591,
+          "value": "A"
+        },
+        {
+          "id": "MY09-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 767,
+          "value": "B"
+        },
+        {
+          "id": "MY10-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 841,
+          "value": "A"
+        },
+        {
+          "id": "MY-E2",
+          "op": "ending",
+          "file": "孟遥-旧题.md",
+          "line": 902
+        },
+        {
+          "id": "EPILOGUE_8d089e1c85448481f42b",
+          "op": "epilogue",
+          "file": "孟遥-旧题.md",
+          "line": 961,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "mengyao/LOW/BB",
+      "route": "mengyao",
+      "relation": "LOW",
+      "combination": "BB",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "4221d7118cf2c092716026358e1fab8c4aa3796ca0601fc7cf8b41bdd330853f",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "B",
+        "MY08-01": "A",
+        "MY09-01": "B",
+        "MY10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "mengyao"
+        },
+        {
+          "id": "MY03-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 83,
+          "value": "A"
+        },
+        {
+          "id": "MY04-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 167,
+          "value": "A"
+        },
+        {
+          "id": "MY05-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 313,
+          "value": "A"
+        },
+        {
+          "id": "MY06-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 397,
+          "value": "A"
+        },
+        {
+          "id": "MY-D36-CALL",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 449
+        },
+        {
+          "id": "CALL_4aa9263463036ff23e68",
+          "op": "call",
+          "file": "孟遥-旧题.md",
+          "line": 451
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "MY-D36-RETURN"
+        },
+        {
+          "id": "MY-D36-RETURN",
+          "op": "anchor",
+          "file": "孟遥-旧题.md",
+          "line": 453
+        },
+        {
+          "id": "MY07-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 501,
+          "value": "B"
+        },
+        {
+          "id": "MY08-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 591,
+          "value": "A"
+        },
+        {
+          "id": "MY09-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 767,
+          "value": "B"
+        },
+        {
+          "id": "MY10-01",
+          "op": "choice",
+          "file": "孟遥-旧题.md",
+          "line": 841,
+          "value": "A"
+        },
+        {
+          "id": "MY-E2",
+          "op": "ending",
+          "file": "孟遥-旧题.md",
+          "line": 902
+        },
+        {
+          "id": "EPILOGUE_8d089e1c85448481f42b",
+          "op": "epilogue",
+          "file": "孟遥-旧题.md",
+          "line": 961,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "piao/HIGH/AA",
+      "route": "piao",
+      "relation": "HIGH",
+      "combination": "AA",
+      "ending": "PI-E1",
+      "epilogue": null,
+      "textSha256": "14493a120b34e71156b47659e985432ec326863ad391c78187944c1d1fde6f2b",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "piao",
+        "PI03-01": "A",
+        "PI04-01": "A",
+        "PI05-01": "A",
+        "PI06-01": "A",
+        "PI07-01": "A",
+        "PI08-01": "A",
+        "PI09-01": "A",
+        "PI10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "piao"
+        },
+        {
+          "id": "PI-HIGH-START",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 10
+        },
+        {
+          "id": "PI03-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 54,
+          "value": "A"
+        },
+        {
+          "id": "PI04-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 200,
+          "value": "A"
+        },
+        {
+          "id": "PI05-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 366,
+          "value": "A"
+        },
+        {
+          "id": "PI06-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 458,
+          "value": "A"
+        },
+        {
+          "id": "PI07-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 610,
+          "value": "A"
+        },
+        {
+          "id": "PI08-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 789,
+          "value": "A"
+        },
+        {
+          "id": "PI09-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 975,
+          "value": "A"
+        },
+        {
+          "id": "PI10-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 1021,
+          "value": "A"
+        },
+        {
+          "id": "PI-E1",
+          "op": "ending",
+          "file": "飘-空白页.md",
+          "line": 1042
+        }
+      ]
+    },
+    {
+      "key": "piao/HIGH/BA",
+      "route": "piao",
+      "relation": "HIGH",
+      "combination": "BA",
+      "ending": "PI-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "f279e494aa914240fe01191fc1033c440263ef567661f442843600ff690b3ff1",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "piao",
+        "PI03-01": "A",
+        "PI04-01": "A",
+        "PI05-01": "A",
+        "PI06-01": "B",
+        "PI07-01": "A",
+        "PI08-01": "A",
+        "PI09-01": "A",
+        "PI10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "piao"
+        },
+        {
+          "id": "PI-HIGH-START",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 10
+        },
+        {
+          "id": "PI03-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 54,
+          "value": "A"
+        },
+        {
+          "id": "PI04-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 200,
+          "value": "A"
+        },
+        {
+          "id": "PI05-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 366,
+          "value": "A"
+        },
+        {
+          "id": "PI06-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 458,
+          "value": "B"
+        },
+        {
+          "id": "PI07-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 610,
+          "value": "A"
+        },
+        {
+          "id": "PI08-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 789,
+          "value": "A"
+        },
+        {
+          "id": "PI09-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 975,
+          "value": "A"
+        },
+        {
+          "id": "PI10-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 1021,
+          "value": "A"
+        },
+        {
+          "id": "PI-E2",
+          "op": "ending",
+          "file": "飘-空白页.md",
+          "line": 1092
+        },
+        {
+          "id": "EPILOGUE_a4ab9d270b1612ab11cf",
+          "op": "epilogue",
+          "file": "飘-空白页.md",
+          "line": 1142,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "piao/HIGH/AB",
+      "route": "piao",
+      "relation": "HIGH",
+      "combination": "AB",
+      "ending": "PI-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "fae0652b334b60730c947eca6c9f526dc2205577d5d91c0128a92378e467bf96",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "piao",
+        "PI03-01": "A",
+        "PI04-01": "A",
+        "PI05-01": "A",
+        "PI06-01": "A",
+        "PI07-01": "A",
+        "PI08-01": "B",
+        "PI09-01": "A",
+        "PI10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "piao"
+        },
+        {
+          "id": "PI-HIGH-START",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 10
+        },
+        {
+          "id": "PI03-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 54,
+          "value": "A"
+        },
+        {
+          "id": "PI04-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 200,
+          "value": "A"
+        },
+        {
+          "id": "PI05-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 366,
+          "value": "A"
+        },
+        {
+          "id": "PI06-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 458,
+          "value": "A"
+        },
+        {
+          "id": "PI07-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 610,
+          "value": "A"
+        },
+        {
+          "id": "PI08-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 789,
+          "value": "B"
+        },
+        {
+          "id": "PI09-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 975,
+          "value": "A"
+        },
+        {
+          "id": "PI10-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 1021,
+          "value": "A"
+        },
+        {
+          "id": "PI-E2",
+          "op": "ending",
+          "file": "飘-空白页.md",
+          "line": 1092
+        },
+        {
+          "id": "EPILOGUE_a4ab9d270b1612ab11cf",
+          "op": "epilogue",
+          "file": "飘-空白页.md",
+          "line": 1142,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "piao/HIGH/BB",
+      "route": "piao",
+      "relation": "HIGH",
+      "combination": "BB",
+      "ending": "PI-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "9958c65e7706e32bbaf14350e06d6f3a844fe38b55af73d10fa4fe8a516fa72e",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "piao",
+        "PI03-01": "A",
+        "PI04-01": "A",
+        "PI05-01": "A",
+        "PI06-01": "B",
+        "PI07-01": "A",
+        "PI08-01": "B",
+        "PI09-01": "A",
+        "PI10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "piao"
+        },
+        {
+          "id": "PI-HIGH-START",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 10
+        },
+        {
+          "id": "PI03-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 54,
+          "value": "A"
+        },
+        {
+          "id": "PI04-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 200,
+          "value": "A"
+        },
+        {
+          "id": "PI05-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 366,
+          "value": "A"
+        },
+        {
+          "id": "PI06-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 458,
+          "value": "B"
+        },
+        {
+          "id": "PI07-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 610,
+          "value": "A"
+        },
+        {
+          "id": "PI08-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 789,
+          "value": "B"
+        },
+        {
+          "id": "PI09-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 975,
+          "value": "A"
+        },
+        {
+          "id": "PI10-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 1021,
+          "value": "A"
+        },
+        {
+          "id": "PI-E2",
+          "op": "ending",
+          "file": "飘-空白页.md",
+          "line": 1092
+        },
+        {
+          "id": "EPILOGUE_a4ab9d270b1612ab11cf",
+          "op": "epilogue",
+          "file": "飘-空白页.md",
+          "line": 1142,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "piao/LOW/A",
+      "route": "piao",
+      "relation": "LOW",
+      "combination": "A",
+      "ending": "PI-LE1",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "fd0e39ed0ea55c9af0a0e623b25b3189dc38ba90134c456052741bf717befbfa",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "piao",
+        "PI-L06-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "piao"
+        },
+        {
+          "id": "PI-LOW-START",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 1152
+        },
+        {
+          "id": "PI-LOW-D36",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 1206
+        },
+        {
+          "id": "PI-L06-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 1216,
+          "value": "A"
+        },
+        {
+          "id": "PI-LOW-D36-COMPLETE",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 1240
+        },
+        {
+          "id": "EVENT_b0d1120e8a9fd64d99b2",
+          "op": "event",
+          "file": "飘-空白页.md",
+          "line": 1241
+        },
+        {
+          "id": "PI-LE1",
+          "op": "ending",
+          "file": "飘-空白页.md",
+          "line": 1332
+        },
+        {
+          "id": "EPILOGUE_64f096a7bdf2c9d41e31",
+          "op": "epilogue",
+          "file": "飘-空白页.md",
+          "line": 1352,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "piao/LOW/B",
+      "route": "piao",
+      "relation": "LOW",
+      "combination": "B",
+      "ending": "PI-LE2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "c7c7d357193262e6053c4dbb270879be71760e9d4504873ff05c727e0c4d037a",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "piao",
+        "PI-L06-01": "B"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "piao"
+        },
+        {
+          "id": "PI-LOW-START",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 1152
+        },
+        {
+          "id": "PI-LOW-D36",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 1206
+        },
+        {
+          "id": "PI-L06-01",
+          "op": "choice",
+          "file": "飘-空白页.md",
+          "line": 1216,
+          "value": "B"
+        },
+        {
+          "id": "PI-LOW-D36-COMPLETE",
+          "op": "anchor",
+          "file": "飘-空白页.md",
+          "line": 1240
+        },
+        {
+          "id": "EVENT_b0d1120e8a9fd64d99b2",
+          "op": "event",
+          "file": "飘-空白页.md",
+          "line": 1241
+        },
+        {
+          "id": "PI-LE2",
+          "op": "ending",
+          "file": "飘-空白页.md",
+          "line": 1342
+        },
+        {
+          "id": "EPILOGUE_64f096a7bdf2c9d41e31",
+          "op": "epilogue",
+          "file": "飘-空白页.md",
+          "line": 1352,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "huangqiuqiu/HIGH/AA",
+      "route": "huangqiuqiu",
+      "relation": "HIGH",
+      "combination": "AA",
+      "ending": "HQ-E1",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "ea40c31937b441026d4990e3564667f140aad5c85860309530feacfe97700aec",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "A",
+        "HQ08-01": "A",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "huangqiuqiu"
+        },
+        {
+          "id": "HQ03-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 45,
+          "value": "A"
+        },
+        {
+          "id": "HQ04-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 123,
+          "value": "A"
+        },
+        {
+          "id": "HQ05-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 215,
+          "value": "A"
+        },
+        {
+          "id": "HQ06-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 289,
+          "value": "A"
+        },
+        {
+          "id": "HQ-D36-CALL",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 391
+        },
+        {
+          "id": "HQ-D36-RETURN",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 395
+        },
+        {
+          "id": "HQ07-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 441,
+          "value": "A"
+        },
+        {
+          "id": "HQ08-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 609,
+          "value": "A"
+        },
+        {
+          "id": "HQ09-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 752,
+          "value": "A"
+        },
+        {
+          "id": "HQ10-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 838,
+          "value": "A"
+        },
+        {
+          "id": "HQ-E1",
+          "op": "ending",
+          "file": "黄球球-门后.md",
+          "line": 855
+        },
+        {
+          "id": "EPILOGUE_19313c96cf0043f9c630",
+          "op": "epilogue",
+          "file": "黄球球-门后.md",
+          "line": 926,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "huangqiuqiu/HIGH/BA",
+      "route": "huangqiuqiu",
+      "relation": "HIGH",
+      "combination": "BA",
+      "ending": "HQ-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "54205b5adab317f1085b9beee6e5ce93f44a0365085e3ffc03732f6ae00c5b7e",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "B",
+        "HQ08-01": "A",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "huangqiuqiu"
+        },
+        {
+          "id": "HQ03-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 45,
+          "value": "A"
+        },
+        {
+          "id": "HQ04-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 123,
+          "value": "A"
+        },
+        {
+          "id": "HQ05-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 215,
+          "value": "A"
+        },
+        {
+          "id": "HQ06-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 289,
+          "value": "A"
+        },
+        {
+          "id": "HQ-D36-CALL",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 391
+        },
+        {
+          "id": "HQ-D36-RETURN",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 395
+        },
+        {
+          "id": "HQ07-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 441,
+          "value": "B"
+        },
+        {
+          "id": "HQ08-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 609,
+          "value": "A"
+        },
+        {
+          "id": "HQ09-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 752,
+          "value": "A"
+        },
+        {
+          "id": "HQ10-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 838,
+          "value": "A"
+        },
+        {
+          "id": "HQ-E2",
+          "op": "ending",
+          "file": "黄球球-门后.md",
+          "line": 887
+        },
+        {
+          "id": "EPILOGUE_19313c96cf0043f9c630",
+          "op": "epilogue",
+          "file": "黄球球-门后.md",
+          "line": 926,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "huangqiuqiu/HIGH/AB",
+      "route": "huangqiuqiu",
+      "relation": "HIGH",
+      "combination": "AB",
+      "ending": "HQ-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "623982e74ad1fdbef3bbd1dedb48c4cd07c8b3ee103b5f0ec76edeb6b9dae2d8",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "A",
+        "HQ08-01": "B",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "huangqiuqiu"
+        },
+        {
+          "id": "HQ03-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 45,
+          "value": "A"
+        },
+        {
+          "id": "HQ04-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 123,
+          "value": "A"
+        },
+        {
+          "id": "HQ05-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 215,
+          "value": "A"
+        },
+        {
+          "id": "HQ06-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 289,
+          "value": "A"
+        },
+        {
+          "id": "HQ-D36-CALL",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 391
+        },
+        {
+          "id": "HQ-D36-RETURN",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 395
+        },
+        {
+          "id": "HQ07-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 441,
+          "value": "A"
+        },
+        {
+          "id": "HQ08-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 609,
+          "value": "B"
+        },
+        {
+          "id": "HQ09-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 752,
+          "value": "A"
+        },
+        {
+          "id": "HQ10-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 838,
+          "value": "A"
+        },
+        {
+          "id": "HQ-E2",
+          "op": "ending",
+          "file": "黄球球-门后.md",
+          "line": 887
+        },
+        {
+          "id": "EPILOGUE_19313c96cf0043f9c630",
+          "op": "epilogue",
+          "file": "黄球球-门后.md",
+          "line": 926,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "huangqiuqiu/HIGH/BB",
+      "route": "huangqiuqiu",
+      "relation": "HIGH",
+      "combination": "BB",
+      "ending": "HQ-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "9e66faaa90be2242481289281ec484b185b9a7d1b320ad9fbc176642343f98ab",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "B",
+        "HQ08-01": "B",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "huangqiuqiu"
+        },
+        {
+          "id": "HQ03-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 45,
+          "value": "A"
+        },
+        {
+          "id": "HQ04-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 123,
+          "value": "A"
+        },
+        {
+          "id": "HQ05-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 215,
+          "value": "A"
+        },
+        {
+          "id": "HQ06-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 289,
+          "value": "A"
+        },
+        {
+          "id": "HQ-D36-CALL",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 391
+        },
+        {
+          "id": "HQ-D36-RETURN",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 395
+        },
+        {
+          "id": "HQ07-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 441,
+          "value": "B"
+        },
+        {
+          "id": "HQ08-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 609,
+          "value": "B"
+        },
+        {
+          "id": "HQ09-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 752,
+          "value": "A"
+        },
+        {
+          "id": "HQ10-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 838,
+          "value": "A"
+        },
+        {
+          "id": "HQ-E2",
+          "op": "ending",
+          "file": "黄球球-门后.md",
+          "line": 887
+        },
+        {
+          "id": "EPILOGUE_19313c96cf0043f9c630",
+          "op": "epilogue",
+          "file": "黄球球-门后.md",
+          "line": 926,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "huangqiuqiu/LOW/AA",
+      "route": "huangqiuqiu",
+      "relation": "LOW",
+      "combination": "AA",
+      "ending": "HQ-E1",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "e355670b65a78b8d2b429fbfdd0ce8e9e0ecd57cfeae2c5690040f735b1aff4d",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "A",
+        "HQ08-01": "A",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "huangqiuqiu"
+        },
+        {
+          "id": "HQ03-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 45,
+          "value": "A"
+        },
+        {
+          "id": "HQ04-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 123,
+          "value": "A"
+        },
+        {
+          "id": "HQ05-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 215,
+          "value": "A"
+        },
+        {
+          "id": "HQ06-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 289,
+          "value": "A"
+        },
+        {
+          "id": "HQ-D36-CALL",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 391
+        },
+        {
+          "id": "CALL_b2bb2539001a97f3c0a3",
+          "op": "call",
+          "file": "黄球球-门后.md",
+          "line": 393
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "HQ-D36-RETURN"
+        },
+        {
+          "id": "HQ-D36-RETURN",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 395
+        },
+        {
+          "id": "HQ07-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 441,
+          "value": "A"
+        },
+        {
+          "id": "HQ08-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 609,
+          "value": "A"
+        },
+        {
+          "id": "HQ09-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 752,
+          "value": "A"
+        },
+        {
+          "id": "HQ10-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 838,
+          "value": "A"
+        },
+        {
+          "id": "HQ-E1",
+          "op": "ending",
+          "file": "黄球球-门后.md",
+          "line": 855
+        },
+        {
+          "id": "EPILOGUE_19313c96cf0043f9c630",
+          "op": "epilogue",
+          "file": "黄球球-门后.md",
+          "line": 926,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "huangqiuqiu/LOW/BA",
+      "route": "huangqiuqiu",
+      "relation": "LOW",
+      "combination": "BA",
+      "ending": "HQ-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "c6dab775699b12252f9b8874eaf5fb6ef177d298e6f3d8976ed5ca315356baee",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "B",
+        "HQ08-01": "A",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "huangqiuqiu"
+        },
+        {
+          "id": "HQ03-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 45,
+          "value": "A"
+        },
+        {
+          "id": "HQ04-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 123,
+          "value": "A"
+        },
+        {
+          "id": "HQ05-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 215,
+          "value": "A"
+        },
+        {
+          "id": "HQ06-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 289,
+          "value": "A"
+        },
+        {
+          "id": "HQ-D36-CALL",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 391
+        },
+        {
+          "id": "CALL_b2bb2539001a97f3c0a3",
+          "op": "call",
+          "file": "黄球球-门后.md",
+          "line": 393
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "HQ-D36-RETURN"
+        },
+        {
+          "id": "HQ-D36-RETURN",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 395
+        },
+        {
+          "id": "HQ07-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 441,
+          "value": "B"
+        },
+        {
+          "id": "HQ08-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 609,
+          "value": "A"
+        },
+        {
+          "id": "HQ09-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 752,
+          "value": "A"
+        },
+        {
+          "id": "HQ10-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 838,
+          "value": "A"
+        },
+        {
+          "id": "HQ-E2",
+          "op": "ending",
+          "file": "黄球球-门后.md",
+          "line": 887
+        },
+        {
+          "id": "EPILOGUE_19313c96cf0043f9c630",
+          "op": "epilogue",
+          "file": "黄球球-门后.md",
+          "line": 926,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "huangqiuqiu/LOW/AB",
+      "route": "huangqiuqiu",
+      "relation": "LOW",
+      "combination": "AB",
+      "ending": "HQ-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "13666ac89c598282ed2be6bbe1f43c1ad6acd7f7994451a5abb5909796151605",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "A",
+        "HQ08-01": "B",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "huangqiuqiu"
+        },
+        {
+          "id": "HQ03-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 45,
+          "value": "A"
+        },
+        {
+          "id": "HQ04-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 123,
+          "value": "A"
+        },
+        {
+          "id": "HQ05-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 215,
+          "value": "A"
+        },
+        {
+          "id": "HQ06-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 289,
+          "value": "A"
+        },
+        {
+          "id": "HQ-D36-CALL",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 391
+        },
+        {
+          "id": "CALL_b2bb2539001a97f3c0a3",
+          "op": "call",
+          "file": "黄球球-门后.md",
+          "line": 393
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "HQ-D36-RETURN"
+        },
+        {
+          "id": "HQ-D36-RETURN",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 395
+        },
+        {
+          "id": "HQ07-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 441,
+          "value": "A"
+        },
+        {
+          "id": "HQ08-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 609,
+          "value": "B"
+        },
+        {
+          "id": "HQ09-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 752,
+          "value": "A"
+        },
+        {
+          "id": "HQ10-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 838,
+          "value": "A"
+        },
+        {
+          "id": "HQ-E2",
+          "op": "ending",
+          "file": "黄球球-门后.md",
+          "line": 887
+        },
+        {
+          "id": "EPILOGUE_19313c96cf0043f9c630",
+          "op": "epilogue",
+          "file": "黄球球-门后.md",
+          "line": 926,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "huangqiuqiu/LOW/BB",
+      "route": "huangqiuqiu",
+      "relation": "LOW",
+      "combination": "BB",
+      "ending": "HQ-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "c697c2c6fed7b50b699793d92bdbaa4148431315ba54ab0a6e72c17ea6e19810",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "huangqiuqiu",
+        "HQ03-01": "A",
+        "HQ04-01": "A",
+        "HQ05-01": "A",
+        "HQ06-01": "A",
+        "HQ07-01": "B",
+        "HQ08-01": "B",
+        "HQ09-01": "A",
+        "HQ10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "huangqiuqiu"
+        },
+        {
+          "id": "HQ03-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 45,
+          "value": "A"
+        },
+        {
+          "id": "HQ04-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 123,
+          "value": "A"
+        },
+        {
+          "id": "HQ05-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 215,
+          "value": "A"
+        },
+        {
+          "id": "HQ06-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 289,
+          "value": "A"
+        },
+        {
+          "id": "HQ-D36-CALL",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 391
+        },
+        {
+          "id": "CALL_b2bb2539001a97f3c0a3",
+          "op": "call",
+          "file": "黄球球-门后.md",
+          "line": 393
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "HQ-D36-RETURN"
+        },
+        {
+          "id": "HQ-D36-RETURN",
+          "op": "anchor",
+          "file": "黄球球-门后.md",
+          "line": 395
+        },
+        {
+          "id": "HQ07-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 441,
+          "value": "B"
+        },
+        {
+          "id": "HQ08-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 609,
+          "value": "B"
+        },
+        {
+          "id": "HQ09-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 752,
+          "value": "A"
+        },
+        {
+          "id": "HQ10-01",
+          "op": "choice",
+          "file": "黄球球-门后.md",
+          "line": 838,
+          "value": "A"
+        },
+        {
+          "id": "HQ-E2",
+          "op": "ending",
+          "file": "黄球球-门后.md",
+          "line": 887
+        },
+        {
+          "id": "EPILOGUE_19313c96cf0043f9c630",
+          "op": "epilogue",
+          "file": "黄球球-门后.md",
+          "line": 926,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "friends/HIGH/AA",
+      "route": "friends",
+      "relation": "HIGH",
+      "combination": "AA",
+      "ending": "FR-E1",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "be32916a08e6ab152c3098c22d152a4666a661ab6a4e7ac3631c547dd800b107",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "friends",
+        "FR03-01": "A",
+        "FR04-01": "A",
+        "FR05-01": "A",
+        "FR06-01": "A",
+        "FR07-01": "A",
+        "FR08-01": "A",
+        "FR09-01": "A",
+        "FR10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "friends"
+        },
+        {
+          "id": "FR03-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 55,
+          "value": "A"
+        },
+        {
+          "id": "FR04-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 135,
+          "value": "A"
+        },
+        {
+          "id": "FR05-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 261,
+          "value": "A"
+        },
+        {
+          "id": "FR06-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 333,
+          "value": "A"
+        },
+        {
+          "id": "FR-D36-CALL",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 431
+        },
+        {
+          "id": "FR-D36-RETURN",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 435
+        },
+        {
+          "id": "FR07-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 487,
+          "value": "A"
+        },
+        {
+          "id": "FR08-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 579,
+          "value": "A"
+        },
+        {
+          "id": "FR09-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 651,
+          "value": "A"
+        },
+        {
+          "id": "FR10-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 715,
+          "value": "A"
+        },
+        {
+          "id": "FR-E1",
+          "op": "ending",
+          "file": "朋友与职业-夜班.md",
+          "line": 732
+        },
+        {
+          "id": "EPILOGUE_2dc85f87cbe74188cf52",
+          "op": "epilogue",
+          "file": "朋友与职业-夜班.md",
+          "line": 809,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "friends/HIGH/BA",
+      "route": "friends",
+      "relation": "HIGH",
+      "combination": "BA",
+      "ending": "FR-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "4a17c2c219df35679166e37931d27e04ed624de9ebaf40a74d344f1c7744e70d",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "friends",
+        "FR03-01": "A",
+        "FR04-01": "A",
+        "FR05-01": "A",
+        "FR06-01": "B",
+        "FR07-01": "A",
+        "FR08-01": "A",
+        "FR09-01": "A",
+        "FR10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "friends"
+        },
+        {
+          "id": "FR03-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 55,
+          "value": "A"
+        },
+        {
+          "id": "FR04-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 135,
+          "value": "A"
+        },
+        {
+          "id": "FR05-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 261,
+          "value": "A"
+        },
+        {
+          "id": "FR06-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 333,
+          "value": "B"
+        },
+        {
+          "id": "FR-D36-CALL",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 431
+        },
+        {
+          "id": "FR-D36-RETURN",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 435
+        },
+        {
+          "id": "FR07-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 487,
+          "value": "A"
+        },
+        {
+          "id": "FR08-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 579,
+          "value": "A"
+        },
+        {
+          "id": "FR09-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 651,
+          "value": "A"
+        },
+        {
+          "id": "FR10-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 715,
+          "value": "A"
+        },
+        {
+          "id": "FR-E2",
+          "op": "ending",
+          "file": "朋友与职业-夜班.md",
+          "line": 762
+        },
+        {
+          "id": "EPILOGUE_2dc85f87cbe74188cf52",
+          "op": "epilogue",
+          "file": "朋友与职业-夜班.md",
+          "line": 809,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "friends/HIGH/AB",
+      "route": "friends",
+      "relation": "HIGH",
+      "combination": "AB",
+      "ending": "FR-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "44f9b10ff09b5a7cf3ca3538aad49582df5d4640b431f9888c0a26d1d7bf6a03",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "friends",
+        "FR03-01": "A",
+        "FR04-01": "A",
+        "FR05-01": "A",
+        "FR06-01": "A",
+        "FR07-01": "A",
+        "FR08-01": "B",
+        "FR09-01": "A",
+        "FR10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "friends"
+        },
+        {
+          "id": "FR03-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 55,
+          "value": "A"
+        },
+        {
+          "id": "FR04-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 135,
+          "value": "A"
+        },
+        {
+          "id": "FR05-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 261,
+          "value": "A"
+        },
+        {
+          "id": "FR06-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 333,
+          "value": "A"
+        },
+        {
+          "id": "FR-D36-CALL",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 431
+        },
+        {
+          "id": "FR-D36-RETURN",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 435
+        },
+        {
+          "id": "FR07-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 487,
+          "value": "A"
+        },
+        {
+          "id": "FR08-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 579,
+          "value": "B"
+        },
+        {
+          "id": "FR09-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 651,
+          "value": "A"
+        },
+        {
+          "id": "FR10-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 715,
+          "value": "A"
+        },
+        {
+          "id": "FR-E2",
+          "op": "ending",
+          "file": "朋友与职业-夜班.md",
+          "line": 762
+        },
+        {
+          "id": "EPILOGUE_2dc85f87cbe74188cf52",
+          "op": "epilogue",
+          "file": "朋友与职业-夜班.md",
+          "line": 809,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "friends/HIGH/BB",
+      "route": "friends",
+      "relation": "HIGH",
+      "combination": "BB",
+      "ending": "FR-E2",
+      "epilogue": "后日谈-他们的日子.md",
+      "textSha256": "5f3ea6cfd1d0f2aafb63833582e9a4da781b6d73913681d2dfcbbc962f3ef500",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "friends",
+        "FR03-01": "A",
+        "FR04-01": "A",
+        "FR05-01": "A",
+        "FR06-01": "B",
+        "FR07-01": "A",
+        "FR08-01": "B",
+        "FR09-01": "A",
+        "FR10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "friends"
+        },
+        {
+          "id": "FR03-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 55,
+          "value": "A"
+        },
+        {
+          "id": "FR04-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 135,
+          "value": "A"
+        },
+        {
+          "id": "FR05-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 261,
+          "value": "A"
+        },
+        {
+          "id": "FR06-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 333,
+          "value": "B"
+        },
+        {
+          "id": "FR-D36-CALL",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 431
+        },
+        {
+          "id": "FR-D36-RETURN",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 435
+        },
+        {
+          "id": "FR07-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 487,
+          "value": "A"
+        },
+        {
+          "id": "FR08-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 579,
+          "value": "B"
+        },
+        {
+          "id": "FR09-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 651,
+          "value": "A"
+        },
+        {
+          "id": "FR10-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 715,
+          "value": "A"
+        },
+        {
+          "id": "FR-E2",
+          "op": "ending",
+          "file": "朋友与职业-夜班.md",
+          "line": 762
+        },
+        {
+          "id": "EPILOGUE_2dc85f87cbe74188cf52",
+          "op": "epilogue",
+          "file": "朋友与职业-夜班.md",
+          "line": 809,
+          "target": "EP-HIGH"
+        },
+        {
+          "id": "EP-HIGH",
+          "op": "anchor",
+          "file": "后日谈-他们的日子.md",
+          "line": 24
+        }
+      ]
+    },
+    {
+      "key": "friends/LOW/AA",
+      "route": "friends",
+      "relation": "LOW",
+      "combination": "AA",
+      "ending": "FR-E1",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "bf46002763baac7e52cb2e2d03af78f9b445da6e7d049d1b62490d8c8e7dc38e",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "friends",
+        "FR03-01": "A",
+        "FR04-01": "A",
+        "FR05-01": "A",
+        "FR06-01": "A",
+        "FR07-01": "A",
+        "FR08-01": "A",
+        "FR09-01": "A",
+        "FR10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "friends"
+        },
+        {
+          "id": "FR03-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 55,
+          "value": "A"
+        },
+        {
+          "id": "FR04-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 135,
+          "value": "A"
+        },
+        {
+          "id": "FR05-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 261,
+          "value": "A"
+        },
+        {
+          "id": "FR06-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 333,
+          "value": "A"
+        },
+        {
+          "id": "FR-D36-CALL",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 431
+        },
+        {
+          "id": "CALL_094a30775549fb2f29fb",
+          "op": "call",
+          "file": "朋友与职业-夜班.md",
+          "line": 433
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "FR-D36-RETURN"
+        },
+        {
+          "id": "FR-D36-RETURN",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 435
+        },
+        {
+          "id": "FR07-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 487,
+          "value": "A"
+        },
+        {
+          "id": "FR08-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 579,
+          "value": "A"
+        },
+        {
+          "id": "FR09-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 651,
+          "value": "A"
+        },
+        {
+          "id": "FR10-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 715,
+          "value": "A"
+        },
+        {
+          "id": "FR-E1",
+          "op": "ending",
+          "file": "朋友与职业-夜班.md",
+          "line": 732
+        },
+        {
+          "id": "EPILOGUE_2dc85f87cbe74188cf52",
+          "op": "epilogue",
+          "file": "朋友与职业-夜班.md",
+          "line": 809,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "friends/LOW/BA",
+      "route": "friends",
+      "relation": "LOW",
+      "combination": "BA",
+      "ending": "FR-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "2c3e92fc57a1ca8913e6e65c4686a63daf4ed831cf30994dfe2b5c23e804a770",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "friends",
+        "FR03-01": "A",
+        "FR04-01": "A",
+        "FR05-01": "A",
+        "FR06-01": "B",
+        "FR07-01": "A",
+        "FR08-01": "A",
+        "FR09-01": "A",
+        "FR10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "friends"
+        },
+        {
+          "id": "FR03-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 55,
+          "value": "A"
+        },
+        {
+          "id": "FR04-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 135,
+          "value": "A"
+        },
+        {
+          "id": "FR05-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 261,
+          "value": "A"
+        },
+        {
+          "id": "FR06-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 333,
+          "value": "B"
+        },
+        {
+          "id": "FR-D36-CALL",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 431
+        },
+        {
+          "id": "CALL_094a30775549fb2f29fb",
+          "op": "call",
+          "file": "朋友与职业-夜班.md",
+          "line": 433
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "FR-D36-RETURN"
+        },
+        {
+          "id": "FR-D36-RETURN",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 435
+        },
+        {
+          "id": "FR07-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 487,
+          "value": "A"
+        },
+        {
+          "id": "FR08-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 579,
+          "value": "A"
+        },
+        {
+          "id": "FR09-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 651,
+          "value": "A"
+        },
+        {
+          "id": "FR10-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 715,
+          "value": "A"
+        },
+        {
+          "id": "FR-E2",
+          "op": "ending",
+          "file": "朋友与职业-夜班.md",
+          "line": 762
+        },
+        {
+          "id": "EPILOGUE_2dc85f87cbe74188cf52",
+          "op": "epilogue",
+          "file": "朋友与职业-夜班.md",
+          "line": 809,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "friends/LOW/AB",
+      "route": "friends",
+      "relation": "LOW",
+      "combination": "AB",
+      "ending": "FR-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "21f0df0957c55cae2ec65fa5c546f6a855a4d7b75d11355a5c15dafea8eff2e9",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "friends",
+        "FR03-01": "A",
+        "FR04-01": "A",
+        "FR05-01": "A",
+        "FR06-01": "A",
+        "FR07-01": "A",
+        "FR08-01": "B",
+        "FR09-01": "A",
+        "FR10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "friends"
+        },
+        {
+          "id": "FR03-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 55,
+          "value": "A"
+        },
+        {
+          "id": "FR04-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 135,
+          "value": "A"
+        },
+        {
+          "id": "FR05-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 261,
+          "value": "A"
+        },
+        {
+          "id": "FR06-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 333,
+          "value": "A"
+        },
+        {
+          "id": "FR-D36-CALL",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 431
+        },
+        {
+          "id": "CALL_094a30775549fb2f29fb",
+          "op": "call",
+          "file": "朋友与职业-夜班.md",
+          "line": 433
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "FR-D36-RETURN"
+        },
+        {
+          "id": "FR-D36-RETURN",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 435
+        },
+        {
+          "id": "FR07-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 487,
+          "value": "A"
+        },
+        {
+          "id": "FR08-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 579,
+          "value": "B"
+        },
+        {
+          "id": "FR09-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 651,
+          "value": "A"
+        },
+        {
+          "id": "FR10-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 715,
+          "value": "A"
+        },
+        {
+          "id": "FR-E2",
+          "op": "ending",
+          "file": "朋友与职业-夜班.md",
+          "line": 762
+        },
+        {
+          "id": "EPILOGUE_2dc85f87cbe74188cf52",
+          "op": "epilogue",
+          "file": "朋友与职业-夜班.md",
+          "line": 809,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    },
+    {
+      "key": "friends/LOW/BB",
+      "route": "friends",
+      "relation": "LOW",
+      "combination": "BB",
+      "ending": "FR-E2",
+      "epilogue": "后日谈-未写完的安排.md",
+      "textSha256": "e5106274335e17afae0247e89a5fd7498406c0ef9b9bef24aef87a738b6c509a",
+      "choices": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "friends",
+        "FR03-01": "A",
+        "FR04-01": "A",
+        "FR05-01": "A",
+        "FR06-01": "B",
+        "FR07-01": "A",
+        "FR08-01": "B",
+        "FR09-01": "A",
+        "FR10-01": "A"
+      },
+      "trace": [
+        {
+          "id": "ROUTE-01",
+          "op": "choice",
+          "file": "第三章-选一条路.md",
+          "line": 29,
+          "value": "friends"
+        },
+        {
+          "id": "FR03-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 55,
+          "value": "A"
+        },
+        {
+          "id": "FR04-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 135,
+          "value": "A"
+        },
+        {
+          "id": "FR05-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 261,
+          "value": "A"
+        },
+        {
+          "id": "FR06-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 333,
+          "value": "B"
+        },
+        {
+          "id": "FR-D36-CALL",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 431
+        },
+        {
+          "id": "CALL_094a30775549fb2f29fb",
+          "op": "call",
+          "file": "朋友与职业-夜班.md",
+          "line": 433
+        },
+        {
+          "id": "PIAO-D36",
+          "op": "anchor",
+          "file": "跨路线-第36天的消息.md",
+          "line": 7
+        },
+        {
+          "id": "RETURN_c661bd50196b9ce2f451",
+          "op": "return",
+          "file": "跨路线-第36天的消息.md",
+          "line": 31,
+          "returnTo": "FR-D36-RETURN"
+        },
+        {
+          "id": "FR-D36-RETURN",
+          "op": "anchor",
+          "file": "朋友与职业-夜班.md",
+          "line": 435
+        },
+        {
+          "id": "FR07-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 487,
+          "value": "A"
+        },
+        {
+          "id": "FR08-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 579,
+          "value": "B"
+        },
+        {
+          "id": "FR09-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 651,
+          "value": "A"
+        },
+        {
+          "id": "FR10-01",
+          "op": "choice",
+          "file": "朋友与职业-夜班.md",
+          "line": 715,
+          "value": "A"
+        },
+        {
+          "id": "FR-E2",
+          "op": "ending",
+          "file": "朋友与职业-夜班.md",
+          "line": 762
+        },
+        {
+          "id": "EPILOGUE_2dc85f87cbe74188cf52",
+          "op": "epilogue",
+          "file": "朋友与职业-夜班.md",
+          "line": 809,
+          "target": "EP-LOW"
+        },
+        {
+          "id": "EP-LOW",
+          "op": "anchor",
+          "file": "后日谈-未写完的安排.md",
+          "line": 7
+        }
+      ]
+    }
+  ],
+  "status": "pass"
+}

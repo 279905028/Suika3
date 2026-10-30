@@ -1,0 +1,14 @@
+{
+  "scope": "独立API探针，非正式运行包验收",
+  "events": [
+    "AUDIT|save99=1",
+    "AUDIT|has99=1",
+    "This API is not implemented yet.",
+    "Error: :12: "
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)",
+    "page.waitForFunction: Timeout 15000ms exceeded."
+  ],
+  "files": []
+}

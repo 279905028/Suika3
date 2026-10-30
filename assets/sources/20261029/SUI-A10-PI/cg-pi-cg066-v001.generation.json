@@ -1,0 +1,201 @@
+{
+  "id": "CG066",
+  "title": "纸页落了一地",
+  "package": "SUI-A10-PI",
+  "stem": "cg-pi-cg066-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A05/piao-base",
+    "A05/piao-prop-booklet",
+    "A05/piao-prop-booklet-tools",
+    "A08/bg-piao-bijie-room-day"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+    "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.png",
+    "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/bg-piao-bijie-room-day-v001.png"
+  ],
+  "prompt": "Create a gentle fully clothed adult-romance visual-novel illustration, landscape 16:9. The two people are both adults in their twenties: the short gold-haired man in blue denim jacket from reference 1 and the dark ponytailed woman in white black-trim short-sleeve blouse from reference 2. Standing beside the paper-binding worktable, they pause close together with foreheads gently resting together. Her hand lightly holds his denim jacket; one of his hands rests behind her neck. They remain fully dressed in their supplied outfits. Several loose unbound blank manuscript sheets have just slipped down between them and are falling to the floor, with a few already on the floor. Paper-binding tool and stapler on the table. Reference 5 establishes the room before evening. Quiet domestic storytelling and restrained affection; preserve identities, only these two adults, no text or watermark. Do not turn loose sheets into already-bound booklets.",
+  "shot": {
+    "id": "CG066",
+    "kind": "retained-selection",
+    "title": "纸页落了一地",
+    "originalTitle": "纸页落了一地",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+        "line": 651,
+        "anchor": "纸从两人中间滑下去，落了一地。"
+      }
+    ],
+    "time": "HIGH第七章装订当日，傍晚前",
+    "routeGroup": "PI",
+    "source": {
+      "path": "scenario/飘-空白页.md",
+      "line": 652,
+      "paragraph": "TEXT_5e09854527cf7e1dc63f",
+      "scope": "PI07-01/COMMON",
+      "nearestNode": "<!-- NODE PI-HIGH-START -->",
+      "quote": "纸从两人中间滑下去，落了一地。我们听见了，谁也没马上去捡。",
+      "conditions": [
+        "PIAO_RELATION=HIGH"
+      ],
+      "sourceSha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "matchText": "纸从两人中间滑下去，落了一地。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、飘",
+      "offscreenOrRemote": "窗外收雨棚人只保留声音"
+    },
+    "wardrobeAndForm": "飘B同日衣装；两人全衣状态，过程留白",
+    "propState": "未装订纸页落地，订书机/工具，末页尚空",
+    "composition": "双人亲近与落下纸张；不把装订册子每本都画完或把末页写满。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "piao"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=HIGH"
+      ]
+    },
+    "reviewNotes": "本拍不依赖PI06；PI06=B的后续亲密也真实发生，不能误筛成最终AA。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A05/piao-prop-booklet",
+      "A05/piao-prop-booklet-tools"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_5e09854527cf7e1dc63f_1",
+      "visiblePageIds": [
+        "TEXT_5e09854527cf7e1dc63f_1"
+      ],
+      "exitBeforeId": "TEXT_d603a22e6c3725143e3b_1",
+      "snapshotBefore": "HIGH第七章装订当日，傍晚前；文文、飘；飘B同日衣装；两人全衣状态，过程留白；未装订纸页落地，订书机/工具，末页尚空",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "本拍不依赖PI06；PI06=B的后续亲密也真实发生，不能误筛成最终AA。"
+    },
+    "production": {
+      "package": "SUI-A10-PI",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-piao-bijie-room",
+        "owner": "SUI-A08",
+        "name": "飘毕节住处",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-piao-bijie-room-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-piao-bijie-room-night-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-piao-booklet-kit",
+        "owner": "SUI-A05",
+        "name": "册子/原稿/勘误/尺/装订工具",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-piao-bijie-room",
+        "owner": "SUI-A08",
+        "name": "飘毕节住处",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-piao-bijie-room-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-piao-bijie-room-night-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-piao-bijie-room-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-piao-booklet-kit",
+        "owner": "SUI-A05",
+        "name": "册子/原稿/勘误/尺/装订工具",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A05/piao-prop-booklet",
+          "A05/piao-prop-booklet-tools"
+        ],
+        "frameUse": "CG066未装订散页落地，末页尚空；不能把封二或已装订成品误当整段纸页状态。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A05/piao-prop-booklet",
+      "A05/piao-prop-booklet-tools",
+      "A08/bg-piao-bijie-room-day"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "attempt": 2,
+  "reason": "澄清普通非露骨成年人物叙事；原服务错误保留",
+  "sourceFile": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg066-v001.png",
+  "sourceSha256": "fe385bed1cae6f892f1070aedad2592a790f2cdb6013390d8b8317348f0c7a8e",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-485f1179-7089-49d5-b6e9-d41914a1ee63.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.png",
+      "sha256": "29085fbde8c8a2d0d6c53a229203f84089b196aa754a167af6108b8d2b9d0ffe"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.png",
+      "sha256": "764de42dbd7c96b8bfc8e029e9abbbf64e4f001c4462f534a9369c8db8b5284c"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/bg-piao-bijie-room-day-v001.png",
+      "sha256": "ff093b5d9fcefe6ddc1b124d5022d0cbe38ec6a2a0dcc49bb8cc24a0f765468d"
+    }
+  ],
+  "runtimeAdopted": false
+}

@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 2,
+  "revision": "sui-s-rules-20261028",
+  "status": "manuscript-only",
+  "developmentRoot": "/Users/yipin/Desktop/Suika3",
+  "entry": "第三章-选一条路.md",
+  "routes": [
+    {
+      "id": "xiaoman",
+      "prefix": "XM",
+      "name": "罗小满",
+      "file": "罗小满-练习本.md",
+      "keyChoices": [
+        "XM07-01",
+        "XM08-01"
+      ],
+      "endings": [
+        "XM-E1",
+        "XM-E2"
+      ],
+      "outcomes": {
+        "AA": "XM-E1",
+        "AB": "XM-E2",
+        "BA": "XM-E2",
+        "BB": "XM-E2"
+      }
+    },
+    {
+      "id": "zhouzhi",
+      "prefix": "ZZ",
+      "name": "周栀",
+      "file": "周栀-十一点四十七分.md",
+      "keyChoices": [
+        "ZZ06-01",
+        "ZZ08-01"
+      ],
+      "endings": [
+        "ZZ-E1",
+        "ZZ-E2"
+      ],
+      "outcomes": {
+        "AA": "ZZ-E1",
+        "AB": "ZZ-E2",
+        "BA": "ZZ-E2",
+        "BB": "ZZ-E2"
+      }
+    },
+    {
+      "id": "mengyao",
+      "prefix": "MY",
+      "name": "孟遥",
+      "file": "孟遥-旧题.md",
+      "keyChoices": [
+        "MY07-01",
+        "MY09-01"
+      ],
+      "endings": [
+        "MY-E1",
+        "MY-E2"
+      ],
+      "outcomes": {
+        "AA": "MY-E1",
+        "AB": "MY-E2",
+        "BA": "MY-E2",
+        "BB": "MY-E2"
+      }
+    },
+    {
+      "id": "piao",
+      "prefix": "PI",
+      "name": "飘",
+      "file": "飘-空白页.md",
+      "keyChoices": [
+        "PI06-01",
+        "PI08-01"
+      ],
+      "endings": [
+        "PI-E1",
+        "PI-E2"
+      ],
+      "lowPathChoice": "PI-L06-01",
+      "lowPathEndings": [
+        "PI-LE1",
+        "PI-LE2"
+      ],
+      "relationRuleStatus": "frozen",
+      "outcomes": {
+        "AA": "PI-E1",
+        "AB": "PI-E2",
+        "BA": "PI-E2",
+        "BB": "PI-E2"
+      },
+      "lowPathOutcomes": {
+        "A": "PI-LE1",
+        "B": "PI-LE2"
+      },
+      "pathAnchors": {
+        "HIGH": "PI-HIGH-START",
+        "LOW": "PI-LOW-START"
+      }
+    },
+    {
+      "id": "huangqiuqiu",
+      "prefix": "HQ",
+      "name": "黄球球",
+      "file": "黄球球-门后.md",
+      "keyChoices": [
+        "HQ07-01",
+        "HQ08-01"
+      ],
+      "endings": [
+        "HQ-E1",
+        "HQ-E2"
+      ],
+      "entryRequires": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "outcomes": {
+        "AA": "HQ-E1",
+        "AB": "HQ-E2",
+        "BA": "HQ-E2",
+        "BB": "HQ-E2"
+      }
+    },
+    {
+      "id": "friends",
+      "prefix": "FR",
+      "name": "朋友与职业",
+      "file": "朋友与职业-夜班.md",
+      "keyChoices": [
+        "FR06-01",
+        "FR08-01"
+      ],
+      "endings": [
+        "FR-E1",
+        "FR-E2"
+      ],
+      "outcomes": {
+        "AA": "FR-E1",
+        "AB": "FR-E2",
+        "BA": "FR-E2",
+        "BB": "FR-E2"
+      }
+    }
+  ],
+  "mengyao": {
+    "marriedTo": "陈晟",
+    "marriageEnds": false,
+    "outcomes": {
+      "AA": "MY-E1",
+      "AB": "MY-E2",
+      "BA": "MY-E2",
+      "BB": "MY-E2"
+    },
+    "endingMeaning": {
+      "MY-E1": "秘密关系继续",
+      "MY-E2": "彻底断开"
+    },
+    "stoppedAtFirstChoiceCannotResume": true
+  },
+  "supportingOnly": [
+    "yelan"
+  ],
+  "unresolved": [],
+  "runtimeReady": false,
+  "contentContract": {
+    "version": 1,
+    "status": "frozen",
+    "scope": "内容规则与源稿控制流；非引擎、存档或资源契约",
+    "document": "规则契约.md"
+  },
+  "storyEntry": {
+    "common": [
+      "第一章-回到毕节.md",
+      "第二章-十四天.md"
+    ],
+    "routeEntry": "第三章-选一条路.md",
+    "routeChoice": "ROUTE-01",
+    "routeImmutable": true
+  },
+  "piaoRelation": {
+    "scoreField": "PIAO_AFFINITY",
+    "initialScore": 20,
+    "integerOnly": true,
+    "clamp": null,
+    "choices": [
+      {
+        "id": "C01-06",
+        "file": "第一章-回到毕节.md",
+        "day": 7,
+        "effects": {
+          "A": 10,
+          "B": -5
+        }
+      },
+      {
+        "id": "C02-08",
+        "file": "第二章-十四天.md",
+        "day": 11,
+        "effects": {
+          "A": 10,
+          "B": -5
+        }
+      },
+      {
+        "id": "C02-09",
+        "file": "第二章-十四天.md",
+        "day": 14,
+        "effects": {
+          "A": 10,
+          "B": -5
+        }
+      }
+    ],
+    "initialRelation": "UNSET",
+    "freeze": {
+      "file": "第二章-十四天.md",
+      "anchor": "PIAO-RELATION-FREEZE",
+      "afterChoice": "C02-09",
+      "day": 14,
+      "highAtLeast": 35,
+      "highValue": "HIGH",
+      "lowValue": "LOW"
+    },
+    "applyEachChoiceOnce": true,
+    "immutableAfterFreeze": true,
+    "otherChoicesEffect": 0,
+    "routeChoiceEffect": 0
+  },
+  "stateContract": {
+    "choices": "仅在实际访问选择时提交，值限已登记选项；未访问不写默认值",
+    "score": "按已访问计分选择从初值重算；不得重复累加",
+    "relation": "UNSET仅限冻结前，路线入口起只接受HIGH或LOW",
+    "events": [
+      "day14-meeting-read",
+      "PIAO-PREGNANCY-READ"
+    ],
+    "ending": "提交后不可由后日谈更改；必须属于当前路线及关系路径",
+    "onInvalid": "error",
+    "rollback": "回退选择须恢复该点前快照并使下游状态失效；后续存档实现不得把同一次选择重复计分"
+  },
+  "conditionLanguage": {
+    "operators": [
+      "=",
+      "!=",
+      "&",
+      "|"
+    ],
+    "precedence": [
+      "&",
+      "|"
+    ],
+    "parentheses": false,
+    "fields": {
+      "choiceIds": [
+        "A",
+        "B"
+      ],
+      "PIAO_RELATION": [
+        "HIGH",
+        "LOW"
+      ],
+      "ENDING": "已登记结局ID"
+    },
+    "shortCircuit": true,
+    "unknownFieldOrLiteral": "error",
+    "missingVisitedState": "error",
+    "invalidStateValue": "error"
+  },
+  "hiddenEntry": {
+    "routeId": "huangqiuqiu",
+    "choiceRequirements": {
+      "C01-02": "A",
+      "C02-01": "A"
+    },
+    "readEvent": "day14-meeting-read",
+    "source": {
+      "file": "第二章-十四天.md",
+      "anchor": "HQ-MEETING-COMPLETE"
+    },
+    "markAfterWholeSection": true,
+    "neutralChoice": "C02-07"
+  },
+  "day36": {
+    "eventId": "PIAO-PREGNANCY-READ",
+    "condition": "PIAO_RELATION=LOW",
+    "day": 36,
+    "sharedSource": {
+      "file": "跨路线-第36天的消息.md",
+      "anchor": "PIAO-D36"
+    },
+    "calls": [
+      {
+        "routeId": "xiaoman",
+        "file": "罗小满-练习本.md",
+        "callAnchor": "XM-D36-CALL",
+        "returnAnchor": "XM-D36-RETURN",
+        "afterDay": 35,
+        "beforeDay": 40
+      },
+      {
+        "routeId": "zhouzhi",
+        "file": "周栀-十一点四十七分.md",
+        "callAnchor": "ZZ-D36-CALL",
+        "returnAnchor": "ZZ-D36-RETURN",
+        "afterDay": 35,
+        "beforeDay": 36
+      },
+      {
+        "routeId": "mengyao",
+        "file": "孟遥-旧题.md",
+        "callAnchor": "MY-D36-CALL",
+        "returnAnchor": "MY-D36-RETURN",
+        "afterDay": 34,
+        "beforeDay": 38
+      },
+      {
+        "routeId": "huangqiuqiu",
+        "file": "黄球球-门后.md",
+        "callAnchor": "HQ-D36-CALL",
+        "returnAnchor": "HQ-D36-RETURN",
+        "afterDay": 34,
+        "beforeDay": 36
+      },
+      {
+        "routeId": "friends",
+        "file": "朋友与职业-夜班.md",
+        "callAnchor": "FR-D36-CALL",
+        "returnAnchor": "FR-D36-RETURN",
+        "afterDay": 35,
+        "beforeDay": 36
+      }
+    ],
+    "piaoSource": {
+      "file": "飘-空白页.md",
+      "startAnchor": "PI-LOW-D36",
+      "completeAnchor": "PI-LOW-D36-COMPLETE"
+    },
+    "oncePerRun": true,
+    "markOnComplete": true,
+    "preserve": [
+      "route",
+      "choices",
+      "PIAO_AFFINITY",
+      "PIAO_RELATION",
+      "day14-meeting-read"
+    ]
+  },
+  "epilogues": {
+    "dispatchMarker": "EPILOGUE PM",
+    "readAtMostOne": true,
+    "rules": [
+      {
+        "relation": "HIGH",
+        "endings": [
+          "PI-E1"
+        ],
+        "target": null
+      },
+      {
+        "relation": "HIGH",
+        "endings": [
+          "XM-E1",
+          "XM-E2",
+          "ZZ-E1",
+          "ZZ-E2",
+          "MY-E1",
+          "MY-E2",
+          "PI-E2",
+          "HQ-E1",
+          "HQ-E2",
+          "FR-E1",
+          "FR-E2"
+        ],
+        "target": {
+          "file": "后日谈-他们的日子.md",
+          "anchor": "EP-HIGH"
+        }
+      },
+      {
+        "relation": "LOW",
+        "endings": [
+          "XM-E1",
+          "XM-E2",
+          "ZZ-E1",
+          "ZZ-E2",
+          "MY-E1",
+          "MY-E2",
+          "HQ-E1",
+          "HQ-E2",
+          "FR-E1",
+          "FR-E2",
+          "PI-LE1",
+          "PI-LE2"
+        ],
+        "requiresEvent": "PIAO-PREGNANCY-READ",
+        "target": {
+          "file": "后日谈-未写完的安排.md",
+          "anchor": "EP-LOW"
+        }
+      }
+    ],
+    "friendsE2View": "messages-only",
+    "preserveMainEnding": true,
+    "lowDoesNotImplyMarriage": true
+  },
+  "markers": {
+    "NODE": "唯一稳定来源锚点，作用域为整个scenario；不是玩家文案",
+    "IF/ENDIF": "按conditionLanguage执行嵌套条件",
+    "CALL PIAO-D36": "仅五条非飘路线LOW调用，记录唯一返回锚点；完成时置事件已读",
+    "RETURN": "返回本次CALL紧随的返回锚点；无调用栈时报错",
+    "EVENT day14-meeting-read": "完整读完黄球球相识节后置真",
+    "EVENT PIAO-PREGNANCY-READ": "完整读完飘LOW第36天选择及共同段后置真",
+    "FREEZE PIAO_RELATION": "验证3个计分选择均已访问，按唯一阈值冻结",
+    "EPILOGUE PM": "按epilogues唯一分派；PM为历史标记名，不专指婚姻",
+    "unknownMarker": "error"
+  }
+}

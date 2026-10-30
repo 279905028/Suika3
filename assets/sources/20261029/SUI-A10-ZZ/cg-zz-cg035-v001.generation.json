@@ -1,0 +1,255 @@
+{
+  "id": "CG035",
+  "title": "清晨电话里的人",
+  "package": "SUI-A10-ZZ",
+  "stem": "cg-zz-cg035-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A08/bg-wenwen-bijie-rental-day",
+    "PRE/prop-wenwen-personal-kit-v001",
+    "PRE/prop-shared-handheld-food-boxes-reference-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：A08/bg-wenwen-bijie-rental-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图3：道具多视图不表示多部手机。CG001坏轮未修；CG082只保留当拍仍可用租屋钥匙，不复制板上的全部钥匙。\n图4：按镜头单取瓶水、装奶布袋、烧饼纸袋、箱子、两份早餐或消费单纸背；不整板入画、不补品牌、日期与金额。\n核心画面：清晨出租屋桌边，文文金短寸侧下颌咬一口纸袋烧饼，牛仔袖手扶纸袋，另一边黑手机平放免提通话，通知透明袋露纸背。手机只普通通话图标与姓名“周栀”，无视频、无女性脸。\n衣装/形态硬约束：文文B衣袖；周栀衣装不需要可视化\n当拍道具：烧饼纸袋、通知袋、放手边的通话手机\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。；透明通知袋/纸背，正文未给金额和编号不入镜。；固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG035",
+    "kind": "retained-selection",
+    "title": "清晨电话里的人",
+    "originalTitle": "清晨电话里的人",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+        "line": 1201,
+        "anchor": "我咬下一口饼，她在那头打了个哈欠。"
+      }
+    ],
+    "time": "第91天清晨，文文回租屋后",
+    "routeGroup": "ZZ",
+    "source": {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "line": 1207,
+      "paragraph": "TEXT_00d5e6f3ceef4e29a376",
+      "scope": "ZZ-E1",
+      "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+      "quote": "我咬下一口饼，她在那头打了个哈欠。我们都没急着为这段关系再讲一遍保证。手机放在手边，声音还在。",
+      "conditions": [
+        "ZZ06-01=A&ZZ08-01=A"
+      ],
+      "sourceSha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "matchText": "我咬下一口饼，她在那头打了个哈欠。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文",
+      "offscreenOrRemote": "周栀仅电话声音，不显示视频或实体同场"
+    },
+    "wardrobeAndForm": "文文B衣袖；周栀衣装不需要可视化",
+    "propState": "烧饼纸袋、通知袋、放手边的通话手机",
+    "composition": "文文咬饼与电话近景；以普通通话标识表达两地，周栀哈欠来自声音。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "zhouzhi"
+        }
+      ],
+      "requiredExpressions": [
+        "ZZ06-01=A&ZZ08-01=A"
+      ]
+    },
+    "reviewNotes": "新版段落未开视频；禁止把周栀画进手机人像画面或同一出租屋。",
+    "referenceKeys": [
+      "A07/wenwen-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_00d5e6f3ceef4e29a376_1",
+      "visiblePageIds": [
+        "TEXT_00d5e6f3ceef4e29a376_1"
+      ],
+      "exitBeforeId": "BRANCH_8c8ab199349bbae2509d",
+      "snapshotBefore": "第91天清晨，文文回租屋后；文文；文文B衣袖；周栀衣装不需要可视化；烧饼纸袋、通知袋、放手边的通话手机",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "新版段落未开视频；禁止把周栀画进手机人像画面或同一出租屋。"
+    },
+    "production": {
+      "package": "SUI-A10-ZZ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-wenwen-bijie-rental",
+        "owner": "SUI-A08",
+        "name": "文文毕节出租屋/楼下长凳",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-wenwen-bijie-rental-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-downstairs-bench-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-wenwen-housing-papers",
+        "owner": "SUI-A07",
+        "name": "通知/房屋照片/清单/透明文件袋",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-message-screen-cg035",
+        "owner": "SUI-A10-ZZ",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "待补当拍参考；非已放行资源",
+        "templateKey": "prop-message-screen"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-wenwen-bijie-rental",
+        "owner": "SUI-A08",
+        "name": "文文毕节出租屋/楼下长凳",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-wenwen-bijie-rental-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-downstairs-bench-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-wenwen-bijie-rental-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-wenwen-personal-kit-v001"
+        ],
+        "frameUse": "只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。"
+      },
+      {
+        "requirementId": "prop-wenwen-housing-papers",
+        "owner": "SUI-A07",
+        "name": "通知/房屋照片/清单/透明文件袋",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-wenwen-personal-kit-v001"
+        ],
+        "frameUse": "透明通知袋/纸背，正文未给金额和编号不入镜。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-bridge-shaobing-day",
+          "A08/bg-noodle-shop-day",
+          "PRE/prop-shared-handheld-food-boxes-reference-v001"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [
+      {
+        "requirementId": "prop-message-screen-cg035",
+        "owner": "SUI-A10-ZZ",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "in-package-production-work",
+        "templateKey": "prop-message-screen",
+        "frameUse": "烧饼纸袋、通知袋、放手边的通话手机；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+        "referenceKeys": []
+      }
+    ],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A08/bg-wenwen-bijie-rental-day",
+      "PRE/prop-wenwen-personal-kit-v001",
+      "A08/bg-bridge-shaobing-day",
+      "A08/bg-noodle-shop-day",
+      "PRE/prop-shared-handheld-food-boxes-reference-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg035-v001.png",
+  "sourceSha256": "3593e7e8b6666a1e0feadc94fd8d939e831a986120a91b2bfbf4d1af720b0c3f",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-83363d0a-d70f-4ad7-9285-4fe793e9ba9c.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-day-v001.png",
+      "sha256": "6ce6e931ccc5a600c7da79c9171eaf659c700dcb807a324f30995f75bf3f1dcb"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png",
+      "sha256": "b9abeb96d46f97a4cae9bc7f40b34d15f828c27f13c531e5eeaa0e4c3fa6def2"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png",
+      "sha256": "fe005261bc1755bfb928461c53e8c1a673c1a11edaf3ffd977c2b887c12e3a30"
+    }
+  ],
+  "runtimeAdopted": false
+}

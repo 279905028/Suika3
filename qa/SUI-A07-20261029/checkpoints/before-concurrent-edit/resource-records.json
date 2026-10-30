@@ -1,0 +1,2038 @@
+{
+  "schemaVersion": 1,
+  "task": "SUI-A07",
+  "scope": "包内资源记录，非最终采用清单",
+  "records": [
+    {
+      "key": "wenwen-base",
+      "character": "wenwen",
+      "label": "文文 · B形象 / CG参考",
+      "file": "wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "anchorPath": "docs/人物/文文.md",
+      "quote": "2026-10-26用户确认采用小镇青年B方案",
+      "condition": "贯穿六线的第一人称主角；仅作外形、衣袖和CG人物连续性参考，默认不显示常驻主角立绘。",
+      "exitRule": "由A09确定具体镜头；不可将参考图直接登记为全部对话的常驻演出。",
+      "requirementIds": [
+        "char-wenwen"
+      ],
+      "inherited": "wenwen/references/tc-char-wenwen-human-base.webp",
+      "face": [
+        290,
+        30,
+        380,
+        440
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2088278,
+        "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          13,
+          1024,
+          1536
+        ],
+        "transparentPixels": 623617,
+        "alpha16BoundingBoxLTRB": [
+          109,
+          19,
+          1014,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1351946,
+        "sha256": "83e0be332751d53ae2f96a1fecf50df0ae8ac5fb778bc465178400f46b57d108",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          13,
+          1024,
+          1536
+        ],
+        "transparentPixels": 623617,
+        "alpha16BoundingBoxLTRB": [
+          109,
+          19,
+          1014,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "既有确认外形等像素参考衍生",
+        "reference": "assets/sources/20261029/SUI-A07/wenwen/references/tc-char-wenwen-human-base.webp",
+        "referenceSha256": "4594966f89e7304b040592d0d5684a654fbeb25ad19c97e7deecf945e736a507",
+        "newImageGenerated": false
+      },
+      "anchors": [
+        {
+          "path": "docs/人物/文文.md",
+          "line": 50,
+          "quote": "2026-10-26用户确认采用小镇青年B方案",
+          "heading": "## 已确认外形与资源",
+          "sha256": "f4bdf7a09a68d2c0e2a39da47ebdb60ebd3680680f86b262413d0b3c14a57600"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "maolang-base",
+      "character": "maolang",
+      "label": "毛狼 · D基础 / 轻松",
+      "file": "maolang/approved-basis/char-maolang-base-v001.png",
+      "anchorPath": "docs/人物/毛狼.md",
+      "quote": "采用用户选定的 Option D",
+      "condition": "日常朋友对话或群像参考；不因微笑推断飘关系，也不自动套用婚后状态。",
+      "exitRule": "冲突转认真；演出现场换西装；文字/电话提及时不表示本人在场。",
+      "requirementIds": [
+        "char-maolang"
+      ],
+      "inherited": "maolang/references/tc-char-maolang-human-base.webp",
+      "face": [
+        350,
+        70,
+        350,
+        410
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1186539,
+        "sha256": "e6cf30699797672c913c70bb1bbe3eb18505de94948d878999fc7e67dd85c6b8",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          18,
+          1006,
+          1536
+        ],
+        "transparentPixels": 808927,
+        "alpha16BoundingBoxLTRB": [
+          129,
+          51,
+          908,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 730922,
+        "sha256": "a5af61df74e79682885f201154ab4989f0f8632a1344494bf472911e0362ee88",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          18,
+          1006,
+          1536
+        ],
+        "transparentPixels": 808927,
+        "alpha16BoundingBoxLTRB": [
+          129,
+          51,
+          908,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "既有确认外形等像素参考衍生",
+        "reference": "assets/sources/20261029/SUI-A07/maolang/references/tc-char-maolang-human-base.webp",
+        "referenceSha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf",
+        "newImageGenerated": false
+      },
+      "anchors": [
+        {
+          "path": "docs/人物/毛狼.md",
+          "line": 33,
+          "quote": "采用用户选定的 Option D",
+          "heading": "## 已确认外形与资源",
+          "sha256": "1671c6c823a61f7780677fbe4e42b57eb5872ee2a94242b2ce51cc09ef4789a6"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "maolang-serious",
+      "character": "maolang",
+      "label": "毛狼 · 认真 / 受伤",
+      "file": "maolang/variants/char-maolang-serious-v001.png",
+      "anchorPath": "scenario/朋友与职业-夜班.md",
+      "quote": "话筒包挂在他肩上，背带扭着",
+      "condition": "FR第25天被冒犯、PI第21天停止追求等需要克制边界的对话；若台词要求话筒包，改用持包版。",
+      "exitRule": "离开冲突或人物退场后退出；不以此图自动判断友情/恋爱结局。",
+      "requirementIds": [
+        "char-maolang"
+      ],
+      "face": [
+        350,
+        70,
+        350,
+        410
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-serious-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1713421,
+        "sha256": "61eb82b0eeecdbc8a0013d47b31d8ac805be1e43afe62955dec15ce4cc6bff93",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          31,
+          1020,
+          1536
+        ],
+        "transparentPixels": 805745,
+        "alpha16BoundingBoxLTRB": [
+          124,
+          51,
+          913,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-serious-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1065774,
+        "sha256": "529f8f9bc63736911f78e350bf9e8ec281af52895595a5f9d2bb573c0159e945",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          31,
+          1020,
+          1536
+        ],
+        "transparentPixels": 805745,
+        "alpha16BoundingBoxLTRB": [
+          124,
+          51,
+          913,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-eb77e0af-b868-4f9c-9fdc-a8da2d4f3a5d.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/maolang/references/tc-char-maolang-human-base.webp"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/maolang/references/tc-char-maolang-human-base.webp",
+            "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/maolang/prompts/maolang-serious.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 225,
+          "quote": "话筒包挂在他肩上，背带扭着",
+          "heading": "#### 第25—29天",
+          "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "maolang-stage",
+      "character": "maolang",
+      "label": "毛狼 · 演出西装",
+      "file": "maolang/variants/char-maolang-stage-v001.png",
+      "anchorPath": "scenario/朋友与职业-夜班.md",
+      "quote": "毛狼的西装袖口太长",
+      "condition": "FR04-01=A商场演出现场；B仅在文文实际观看的视频内作演出参考，不在网吧伪装本人到场。",
+      "exitRule": "结束演出场景后恢复对应日常衣装；不作婚礼西装。",
+      "requirementIds": [
+        "char-maolang"
+      ],
+      "face": [
+        350,
+        70,
+        350,
+        410
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-stage-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1678229,
+        "sha256": "849924037e6038b945c8a3159be66b7e094510f6b8f3c88e5d075dfedde8aee3",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          46,
+          924,
+          1536
+        ],
+        "transparentPixels": 788827,
+        "alpha16BoundingBoxLTRB": [
+          156,
+          49,
+          920,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-stage-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1031586,
+        "sha256": "848ddbe9ac91a1a6a3618cdfc2b9675427e2d4af636225d32eccd7b61c6c2352",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          46,
+          924,
+          1536
+        ],
+        "transparentPixels": 788827,
+        "alpha16BoundingBoxLTRB": [
+          156,
+          49,
+          920,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-c62d8e74-54aa-4fd1-9d78-ff2fce1c8467.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/maolang/references/tc-char-maolang-human-base.webp"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/maolang/references/tc-char-maolang-human-base.webp",
+            "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/maolang/prompts/maolang-stage.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 139,
+          "quote": "毛狼的西装袖口太长",
+          "heading": "#### A｜去看毛狼，先跟师匠改约盘点",
+          "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "maolang-mic-bag",
+      "character": "maolang",
+      "label": "毛狼 · 话筒包",
+      "file": "maolang/variants/char-maolang-mic-bag-v001.png",
+      "anchorPath": "scenario/朋友与职业-夜班.md",
+      "quote": "毛狼正抱着话筒包进门",
+      "condition": "FR第25天进店及后门争执期间；同版个人话筒包，神态克制。",
+      "exitRule": "包离手/离开这段持物动作时退出；舞台话筒与音箱归A08。",
+      "requirementIds": [
+        "char-maolang",
+        "prop-maolang-performance-kit"
+      ],
+      "face": [
+        350,
+        70,
+        350,
+        410
+      ],
+      "action": [
+        280,
+        570,
+        550,
+        490
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-mic-bag-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1715595,
+        "sha256": "3ae78dae4cdc3807d2d453a3ccdb54a179561db0def722bfe69475ec7f37611e",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          19,
+          46,
+          985,
+          1536
+        ],
+        "transparentPixels": 848826,
+        "alpha16BoundingBoxLTRB": [
+          94,
+          50,
+          921,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-mic-bag-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1058626,
+        "sha256": "ac2a120cf4e5107f0c374c982bd30f1afd85daf5d4a2c6d541d262ced3e2b7cb",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          19,
+          46,
+          985,
+          1536
+        ],
+        "transparentPixels": 848826,
+        "alpha16BoundingBoxLTRB": [
+          94,
+          50,
+          921,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-1f69fcdc-e126-40b3-96f7-625199cda0c2.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/maolang/references/tc-char-maolang-human-base.webp"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/maolang/references/tc-char-maolang-human-base.webp",
+            "sha256": "8dc77ae8e6766b26fa9751490ad6f16bc884cbec536ff407ff785d036ea27abf"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/maolang/prompts/maolang-mic-bag.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 213,
+          "quote": "毛狼正抱着话筒包进门",
+          "heading": "#### 第25—29天",
+          "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "shijiang-base",
+      "character": "shijiang",
+      "label": "师匠 · A基础",
+      "file": "shijiang/approved-basis/char-shijiang-base-v001.png",
+      "anchorPath": "docs/人物/师匠.md",
+      "quote": "采用用户选定的 Option A",
+      "condition": "网吧老板的普通对话；保留已确认帽、眼镜、图案白T和运动短裤。",
+      "exitRule": "离店后不在纯电话/群聊场景表现肉身在场。",
+      "requirementIds": [
+        "char-shijiang"
+      ],
+      "inherited": "shijiang/references/tc-char-shijiang-human-base.webp",
+      "face": [
+        320,
+        0,
+        400,
+        420
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1521097,
+        "sha256": "35cae277350641c67349e5a49f9a39f0d92fe3060834b1bdfc2a7fad3ac9a8e2",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          57,
+          0,
+          1020,
+          1536
+        ],
+        "transparentPixels": 697507,
+        "alpha16BoundingBoxLTRB": [
+          86,
+          6,
+          950,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 931896,
+        "sha256": "8210ca3e73de49f8851747ea9af487331e9ae0b1f9baf1a6fdc13a02fc49f922",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          57,
+          0,
+          1020,
+          1536
+        ],
+        "transparentPixels": 697507,
+        "alpha16BoundingBoxLTRB": [
+          86,
+          6,
+          950,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "既有确认外形等像素参考衍生",
+        "reference": "assets/sources/20261029/SUI-A07/shijiang/references/tc-char-shijiang-human-base.webp",
+        "referenceSha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c",
+        "newImageGenerated": false
+      },
+      "anchors": [
+        {
+          "path": "docs/人物/师匠.md",
+          "line": 26,
+          "quote": "采用用户选定的 Option A",
+          "heading": "## 已确认外形与资源",
+          "sha256": "bc43c91684357798e4717e886d4fd873022aeed81a339b0c506ee242f9a4e6ef"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "shijiang-serious",
+      "character": "shijiang",
+      "label": "师匠 · 认真",
+      "file": "shijiang/variants/char-shijiang-serious-v001.png",
+      "anchorPath": "scenario/朋友与职业-夜班.md",
+      "quote": "先让开，别拿手去挡抽屉",
+      "condition": "FR03-01=A讲工作应对办法或工资/雇佣边界对话；不画愤怒威胁或家庭背景。",
+      "exitRule": "转轻松交流时恢复基础；FR转店不扩散到其他路线。",
+      "requirementIds": [
+        "char-shijiang"
+      ],
+      "face": [
+        320,
+        0,
+        400,
+        420
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-serious-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1978848,
+        "sha256": "7748ac214b1eed2f925b2c5f4ea636623ff33461c24644b6b8d098eca9e02217",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          53,
+          0,
+          1008,
+          1536
+        ],
+        "transparentPixels": 697782,
+        "alpha16BoundingBoxLTRB": [
+          86,
+          7,
+          949,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-serious-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1187384,
+        "sha256": "00b22e85f2bf64c6310e8c4ffd5fd353ca147216613c73f25e3f23bd497244bb",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          53,
+          0,
+          1008,
+          1536
+        ],
+        "transparentPixels": 697782,
+        "alpha16BoundingBoxLTRB": [
+          86,
+          7,
+          949,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-ece81e4b-0644-48a9-9de8-e328940fce20.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/shijiang/references/tc-char-shijiang-human-base.webp"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/shijiang/references/tc-char-shijiang-human-base.webp",
+            "sha256": "286042deb9ae765c377f69285824c8ca4e2a7a23ba8af960cbaf413747fc207c"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/shijiang/prompts/shijiang-serious.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 61,
+          "quote": "先让开，别拿手去挡抽屉",
+          "heading": "#### A｜问下回遇见这种事怎样叫人",
+          "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "shijiang-calculator",
+      "character": "shijiang",
+      "label": "师匠 · 计算器",
+      "file": "shijiang/variants/char-shijiang-calculator-v002.png",
+      "anchorPath": "scenario/第二章-十四天.md",
+      "quote": "师匠把计算器放下",
+      "condition": "第二章第9天放下计算器之前或正文明确算账的动作；实体按键与空白显示屏，不造金额。",
+      "exitRule": "“把计算器放下”这一拍立即退持物图；工资结清与友情状态分别处理。",
+      "requirementIds": [
+        "char-shijiang",
+        "prop-shijiang-handheld"
+      ],
+      "face": [
+        320,
+        0,
+        400,
+        420
+      ],
+      "action": [
+        160,
+        490,
+        500,
+        430
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-calculator-v002.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1946158,
+        "sha256": "b4489225b8afc60e359bb6c7aca987f0bdfa485a8d0aeb0f6e59429649f9c90d",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          0,
+          1004,
+          1536
+        ],
+        "transparentPixels": 768918,
+        "alpha16BoundingBoxLTRB": [
+          138,
+          7,
+          935,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-calculator-v002.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1173264,
+        "sha256": "7c35df6a4d350e64eee0022e6735a8ae94dd581c4abd02525db8002ae0c6ea4f",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          0,
+          1004,
+          1536
+        ],
+        "transparentPixels": 768918,
+        "alpha16BoundingBoxLTRB": [
+          138,
+          7,
+          935,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-91ff7e44-d437-4bba-b07f-adcf07f648e6.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/shijiang/retained-revisions/char-shijiang-calculator-v001.png"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/shijiang/retained-revisions/char-shijiang-calculator-v001.png",
+            "sha256": "a76ebe9c473a44a309a733599874b7e0368807c243e47dbb2739b1e65c05a4e2"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/shijiang/prompts/shijiang-calculator.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 78,
+          "quote": "师匠把计算器放下",
+          "heading": "### 第九天",
+          "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "yelan-a",
+      "character": "yelan",
+      "label": "叶岚 · A比较稿（未选）",
+      "file": "yelan/option-a/char-yelan-base-v001.png",
+      "anchorPath": "scenario/第二章-十四天.md",
+      "quote": "这是我第一次在线下见她",
+      "condition": "用户未选的独立设计比较；不进入交付候选集合。",
+      "exitRule": "始终不作正式演出候选。",
+      "requirementIds": [
+        "char-yelan"
+      ],
+      "comparisonOnly": true,
+      "face": [
+        330,
+        35,
+        370,
+        410
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/yelan/option-a/char-yelan-base-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1826825,
+        "sha256": "c9d51d426cb5c1fcf20d1f49bc886966ef619560e52dcc4c5fef30402c4cc10f",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          0,
+          1016,
+          1536
+        ],
+        "transparentPixels": 789170,
+        "alpha16BoundingBoxLTRB": [
+          146,
+          10,
+          853,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/yelan/option-a/char-yelan-base-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1127982,
+        "sha256": "9361e63d1050f92ab081bbffdf2aab1adaae35bd477e7b7a17eb138042775cb8",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          0,
+          1016,
+          1536
+        ],
+        "transparentPixels": 789170,
+        "alpha16BoundingBoxLTRB": [
+          146,
+          10,
+          853,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-f4e25381-1f2e-4475-93fa-4716dd409493.png",
+        "inputs": [],
+        "inputFingerprints": [],
+        "promptFile": "assets/sources/20261029/SUI-A07/yelan/prompts/yelan-a.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 324,
+          "quote": "这是我第一次在线下见她",
+          "heading": "#### 共同段",
+          "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "yelan-b",
+      "character": "yelan",
+      "label": "叶岚 · B基础（已选）",
+      "file": "yelan/option-b/char-yelan-base-v001.png",
+      "anchorPath": "scenario/第二章-十四天.md",
+      "quote": "这是我第一次在线下见她",
+      "condition": "第12天线下普通队友见面，短直发、灰蓝针织衫；群聊不表示实际在场。",
+      "exitRule": "离开面馆/转为群消息时退出；第14天聚餐明确不参加，不画进去。",
+      "requirementIds": [
+        "char-yelan"
+      ],
+      "face": [
+        320,
+        30,
+        400,
+        425
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/yelan/option-b/char-yelan-base-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2262692,
+        "sha256": "aee6bb67f73879abb1b29436f8d5dea39b56aff92d9d51fd67c61a4e6575b382",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          13,
+          948,
+          1536
+        ],
+        "transparentPixels": 801511,
+        "alpha16BoundingBoxLTRB": [
+          178,
+          17,
+          864,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/yelan/option-b/char-yelan-base-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1379250,
+        "sha256": "8a8f6a94ef5cc429f901bc96129e9134f48aae82f3921bc30cbcb883c4f13f30",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          13,
+          948,
+          1536
+        ],
+        "transparentPixels": 801511,
+        "alpha16BoundingBoxLTRB": [
+          178,
+          17,
+          864,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-0c79aef5-6d2b-494e-b545-1b800a25df37.png",
+        "inputs": [],
+        "inputFingerprints": [],
+        "promptFile": "assets/sources/20261029/SUI-A07/yelan/prompts/yelan-b.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 324,
+          "quote": "这是我第一次在线下见她",
+          "heading": "#### 共同段",
+          "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "yelan-serious",
+      "character": "yelan",
+      "label": "叶岚 · 平静认真",
+      "file": "yelan/variants/char-yelan-serious-v001.png",
+      "anchorPath": "scenario/第二章-十四天.md",
+      "quote": "“那换一个。”",
+      "condition": "第12天制止“大领导”玩笑、说明队友边界；普通朋友，不编码好感或路线资格。",
+      "exitRule": "话题缓和恢复基础；不补婚姻、恋爱或旧独立路线情节。",
+      "requirementIds": [
+        "char-yelan"
+      ],
+      "face": [
+        320,
+        30,
+        400,
+        425
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/yelan/variants/char-yelan-serious-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2189693,
+        "sha256": "7467cd2df8a475b23e8291295ddd02666160b1b54e282705915dafac03effeef",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          15,
+          976,
+          1536
+        ],
+        "transparentPixels": 802849,
+        "alpha16BoundingBoxLTRB": [
+          178,
+          18,
+          867,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/yelan/variants/char-yelan-serious-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1318146,
+        "sha256": "164a54497f8cef5ea58fb90b230f105d24c2a507806dc7ca11c39fb9022852e0",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          15,
+          976,
+          1536
+        ],
+        "transparentPixels": 802849,
+        "alpha16BoundingBoxLTRB": [
+          178,
+          18,
+          867,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-4b621f11-8e54-49a4-8e68-dd01bac02b55.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/yelan/option-b/char-yelan-base-v001.png"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/yelan/option-b/char-yelan-base-v001.png",
+            "sha256": "aee6bb67f73879abb1b29436f8d5dea39b56aff92d9d51fd67c61a4e6575b382"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/yelan/prompts/yelan-serious.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 334,
+          "quote": "“那换一个。”",
+          "heading": "#### 共同段",
+          "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "yelan-phone",
+      "character": "yelan",
+      "label": "叶岚 · 工作电话",
+      "file": "yelan/variants/char-yelan-phone-v001.png",
+      "anchorPath": "scenario/第二章-十四天.md",
+      "quote": "叶岚在门口接工作电话",
+      "condition": "第12天面馆门口接工作电话；普通手机，不显示通知或可读屏幕内容。",
+      "exitRule": "坐下加入饭局时退出通话姿势；不能把远程群聊当成本人在网吧。",
+      "requirementIds": [
+        "char-yelan"
+      ],
+      "face": [
+        300,
+        30,
+        460,
+        450
+      ],
+      "action": [
+        570,
+        190,
+        240,
+        470
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/yelan/variants/char-yelan-phone-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2261670,
+        "sha256": "229b786c6e85fbfebe2212fa050e33d6e50eb602d12130de66577a5d8c5abdd8",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          16,
+          978,
+          1536
+        ],
+        "transparentPixels": 826638,
+        "alpha16BoundingBoxLTRB": [
+          179,
+          20,
+          869,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/yelan/variants/char-yelan-phone-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1364770,
+        "sha256": "cc826548ff5fbaf78ea3034370a8c29dc4cd06e946810449ab94ad30fb07bff0",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          16,
+          978,
+          1536
+        ],
+        "transparentPixels": 826638,
+        "alpha16BoundingBoxLTRB": [
+          179,
+          20,
+          869,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-b7805627-f6cc-4416-994d-357f2e540a04.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/yelan/option-b/char-yelan-base-v001.png"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/yelan/option-b/char-yelan-base-v001.png",
+            "sha256": "aee6bb67f73879abb1b29436f8d5dea39b56aff92d9d51fd67c61a4e6575b382"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/yelan/prompts/yelan-phone.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 326,
+          "quote": "叶岚在门口接工作电话",
+          "heading": "#### 共同段",
+          "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "chensheng-a",
+      "character": "chensheng",
+      "label": "陈晟 · A比较稿（未选）",
+      "file": "chensheng/option-a/char-chensheng-base-v001.png",
+      "anchorPath": "scenario/孟遥-旧题.md",
+      "quote": "穿一件洗得有点发白的深色外套",
+      "condition": "未选的独立外形比较稿。",
+      "exitRule": "始终不作正式演出候选。",
+      "requirementIds": [
+        "char-chensheng"
+      ],
+      "comparisonOnly": true,
+      "face": [
+        340,
+        30,
+        350,
+        440
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/option-a/char-chensheng-base-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2040939,
+        "sha256": "9cc25e8b2eeec9065d8f294b28cee50b84ff56a221d36c72eff1c304b2fd2a94",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          112,
+          30,
+          988,
+          1536
+        ],
+        "transparentPixels": 679291,
+        "alpha16BoundingBoxLTRB": [
+          114,
+          33,
+          951,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/option-a/char-chensheng-base-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1295114,
+        "sha256": "932230fd7d411dbb2509b29874edcea08763d786de6ed38f91b006505e056af8",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          112,
+          30,
+          988,
+          1536
+        ],
+        "transparentPixels": 679291,
+        "alpha16BoundingBoxLTRB": [
+          114,
+          33,
+          951,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-08ecb7ff-3539-4e84-a17e-8ba3d1e6471c.png",
+        "inputs": [],
+        "inputFingerprints": [],
+        "promptFile": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-a.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 269,
+          "quote": "穿一件洗得有点发白的深色外套",
+          "heading": "### 完整内容",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": false,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "chensheng-b",
+      "character": "chensheng",
+      "label": "陈晟 · B基础（已选）",
+      "file": "chensheng/option-b/char-chensheng-base-v001.png",
+      "anchorPath": "scenario/孟遥-旧题.md",
+      "quote": "陈晟站在门口",
+      "condition": "第27天首次被介绍后及正文明确在场的普通交流；现任丈夫，设备维护，不指定精确年龄。",
+      "exitRule": "只被电话/文字提及时不显示在场；不提前泄露第27天婚姻介绍。",
+      "requirementIds": [
+        "char-chensheng"
+      ],
+      "face": [
+        340,
+        25,
+        350,
+        430
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2028992,
+        "sha256": "cb8fffea59934535fd13b1968424bfadc74ea75119053ba2ef8f6e90cb5f99b8",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          79,
+          17,
+          955,
+          1536
+        ],
+        "transparentPixels": 650295,
+        "alpha16BoundingBoxLTRB": [
+          82,
+          23,
+          950,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1316252,
+        "sha256": "e7cca72df6e6325eb0a782d1afe108da15f44d0864747eb67f3b9136b4d19cfa",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          79,
+          17,
+          955,
+          1536
+        ],
+        "transparentPixels": 650295,
+        "alpha16BoundingBoxLTRB": [
+          82,
+          23,
+          950,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-4b16dc32-ffab-45a1-823f-2c6f183f1a81.png",
+        "inputs": [],
+        "inputFingerprints": [],
+        "promptFile": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-b.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 269,
+          "quote": "陈晟站在门口",
+          "heading": "### 完整内容",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "chensheng-documents",
+      "character": "chensheng",
+      "label": "陈晟 · 文件袋",
+      "file": "chensheng/variants/char-chensheng-documents-v001.png",
+      "anchorPath": "scenario/孟遥-旧题.md",
+      "quote": "他拿着文件袋，见我们出来",
+      "condition": "第27天机构门口，资料为路线图；只见纸背，不造可读内容、婚姻证件或印章。",
+      "exitRule": "孟遥接过文件袋时退出，交回后才可再次使用。",
+      "requirementIds": [
+        "char-chensheng",
+        "prop-chensheng-handheld"
+      ],
+      "face": [
+        340,
+        25,
+        350,
+        430
+      ],
+      "action": [
+        240,
+        600,
+        570,
+        470
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-documents-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2033081,
+        "sha256": "a21c7bea6d20244ab09c39e01cebf1fa8704c069d68466bd3394949430bfe7d8",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          20,
+          960,
+          1536
+        ],
+        "transparentPixels": 737514,
+        "alpha16BoundingBoxLTRB": [
+          63,
+          26,
+          957,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-documents-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1252006,
+        "sha256": "6b026d4b84d596cec522749d4cf3e103abec983d5c45f7e76a12de193810deb9",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          0,
+          20,
+          960,
+          1536
+        ],
+        "transparentPixels": 737514,
+        "alpha16BoundingBoxLTRB": [
+          63,
+          26,
+          957,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-986914ed-e0bd-41d6-b267-e2e223397243.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png",
+            "sha256": "cb8fffea59934535fd13b1968424bfadc74ea75119053ba2ef8f6e90cb5f99b8"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-documents.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 269,
+          "quote": "他拿着文件袋，见我们出来",
+          "heading": "### 完整内容",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "chensheng-book-bag",
+      "character": "chensheng",
+      "label": "陈晟 · 布袋装书",
+      "file": "chensheng/variants/char-chensheng-book-bag-v001.png",
+      "anchorPath": "scenario/孟遥-旧题.md",
+      "quote": "又从车里拿来一个布袋",
+      "condition": "第34天薄袋换为布袋之后、仍提着书袋的镜头；普通随手帮忙，婚姻持续。",
+      "exitRule": "放下袋子、翻书等动作换图；不拿本图代替孟遥的书箱。",
+      "requirementIds": [
+        "char-chensheng",
+        "prop-chensheng-handheld"
+      ],
+      "face": [
+        340,
+        25,
+        350,
+        430
+      ],
+      "action": [
+        300,
+        550,
+        550,
+        670
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-book-bag-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2104111,
+        "sha256": "c61832bba4547ced17a60480c79df6d577120c3b4ed249a09cfc902461e8b448",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          69,
+          19,
+          945,
+          1536
+        ],
+        "transparentPixels": 729812,
+        "alpha16BoundingBoxLTRB": [
+          79,
+          25,
+          943,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-book-bag-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1317230,
+        "sha256": "25e660b83dbb488ed9d42759fcd1008a7aa50a8c64b109023569a5cabcc5b5a4",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          69,
+          19,
+          945,
+          1536
+        ],
+        "transparentPixels": 729812,
+        "alpha16BoundingBoxLTRB": [
+          79,
+          25,
+          943,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-d040101f-318c-4a32-aa9e-8c08516aaa2f.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png",
+            "sha256": "cb8fffea59934535fd13b1968424bfadc74ea75119053ba2ef8f6e90cb5f99b8"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-book-bag.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 427,
+          "quote": "又从车里拿来一个布袋",
+          "heading": "#### 共同段",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    },
+    {
+      "key": "chensheng-cable",
+      "character": "chensheng",
+      "label": "陈晟 · 送电源线",
+      "file": "chensheng/variants/char-chensheng-cable-v001.png",
+      "anchorPath": "scenario/孟遥-旧题.md",
+      "quote": "陈晟这时送来她落在住处的电源线",
+      "condition": "第75天仅MY07-01=B，机构公开交接场景；送线与平常晚饭安排，无揭穿或对峙。",
+      "exitRule": "电源线交到孟遥手里后退出；MY07=A的私密试讲不加载这段人物到场。",
+      "requirementIds": [
+        "char-chensheng",
+        "prop-chensheng-handheld"
+      ],
+      "face": [
+        340,
+        25,
+        350,
+        430
+      ],
+      "action": [
+        230,
+        570,
+        570,
+        480
+      ],
+      "png": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-cable-v001.png",
+        "format": "PNG",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1995577,
+        "sha256": "08cc75d48f6b6d1bb227230baf1bff84939378e496a3659d201b0d7956d699e6",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          79,
+          21,
+          943,
+          1536
+        ],
+        "transparentPixels": 755519,
+        "alpha16BoundingBoxLTRB": [
+          81,
+          24,
+          940,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "webp": {
+        "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-cable-v001.webp",
+        "format": "WEBP",
+        "mode": "RGBA",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1240316,
+        "sha256": "65981042ef3b05945cc25c29c452fea13b605b43b7947cc84d01651719f5a3e2",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "alphaRange": [
+          0,
+          254
+        ],
+        "alphaBoundingBoxLTRB": [
+          79,
+          21,
+          943,
+          1536
+        ],
+        "transparentPixels": 755519,
+        "alpha16BoundingBoxLTRB": [
+          81,
+          24,
+          940,
+          1536
+        ],
+        "decodedRgbaBytes": 6291456
+      },
+      "source": {
+        "type": "image_gen生成原件",
+        "generatedPath": "/Users/yipin/.codex/generated_images/01a18529-dfb9-7803-93f9-7bc391be4d7c/exec-0458b2fc-243e-4a41-bdd5-ac3fcc1b10f3.png",
+        "inputs": [
+          "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png"
+        ],
+        "inputFingerprints": [
+          {
+            "path": "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png",
+            "sha256": "cb8fffea59934535fd13b1968424bfadc74ea75119053ba2ef8f6e90cb5f99b8"
+          }
+        ],
+        "promptFile": "assets/sources/20261029/SUI-A07/chensheng/prompts/chensheng-cable.txt",
+        "newImageGenerated": true
+      },
+      "anchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 750,
+          "quote": "陈晟这时送来她落在住处的电源线",
+          "heading": "### 完整内容",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "rgbaPixelsIdentical": true,
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "colorHandling": "原始未嵌入ICC像素保留；未做色彩转换，未宣称已嵌入sRGB。交A11确认。",
+      "placement": {
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotType": "大腿截幅下边中心，非脚底",
+        "coordinateBasis": "源图像素",
+        "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+      },
+      "selectedForPackage": true,
+      "runtimeAdopted": false
+    }
+  ]
+}

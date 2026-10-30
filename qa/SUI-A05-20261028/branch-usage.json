@@ -1,0 +1,637 @@
+{
+  "task": "SUI-A05",
+  "date": "2026-10-29",
+  "scope": "只记录美术使用条件；不是运行绑定或新剧情规则",
+  "contractSource": {
+    "path": "scenario/routes.json",
+    "sha256": "21ee8f439e511b86f6c56174a86c68ee292abb076abbd777ab672e19cf235d32",
+    "revision": "sui-s-rules-20261028"
+  },
+  "contractSnapshot": {
+    "piaoRelation": {
+      "scoreField": "PIAO_AFFINITY",
+      "initialScore": 20,
+      "integerOnly": true,
+      "clamp": null,
+      "choices": [
+        {
+          "id": "C01-06",
+          "file": "第一章-回到毕节.md",
+          "day": 7,
+          "effects": {
+            "A": 10,
+            "B": -5
+          }
+        },
+        {
+          "id": "C02-08",
+          "file": "第二章-十四天.md",
+          "day": 11,
+          "effects": {
+            "A": 10,
+            "B": -5
+          }
+        },
+        {
+          "id": "C02-09",
+          "file": "第二章-十四天.md",
+          "day": 14,
+          "effects": {
+            "A": 10,
+            "B": -5
+          }
+        }
+      ],
+      "initialRelation": "UNSET",
+      "freeze": {
+        "file": "第二章-十四天.md",
+        "anchor": "PIAO-RELATION-FREEZE",
+        "afterChoice": "C02-09",
+        "day": 14,
+        "highAtLeast": 35,
+        "highValue": "HIGH",
+        "lowValue": "LOW"
+      },
+      "applyEachChoiceOnce": true,
+      "immutableAfterFreeze": true,
+      "otherChoicesEffect": 0,
+      "routeChoiceEffect": 0
+    },
+    "stateContract": {
+      "choices": "仅在实际访问选择时提交，值限已登记选项；未访问不写默认值",
+      "score": "按已访问计分选择从初值重算；不得重复累加",
+      "relation": "UNSET仅限冻结前，路线入口起只接受HIGH或LOW",
+      "events": [
+        "day14-meeting-read",
+        "PIAO-PREGNANCY-READ"
+      ],
+      "ending": "提交后不可由后日谈更改；必须属于当前路线及关系路径",
+      "onInvalid": "error",
+      "rollback": "回退选择须恢复该点前快照并使下游状态失效；后续存档实现不得把同一次选择重复计分"
+    },
+    "day36": {
+      "eventId": "PIAO-PREGNANCY-READ",
+      "condition": "PIAO_RELATION=LOW",
+      "day": 36,
+      "sharedSource": {
+        "file": "跨路线-第36天的消息.md",
+        "anchor": "PIAO-D36"
+      },
+      "calls": [
+        {
+          "routeId": "xiaoman",
+          "file": "罗小满-练习本.md",
+          "callAnchor": "XM-D36-CALL",
+          "returnAnchor": "XM-D36-RETURN",
+          "afterDay": 35,
+          "beforeDay": 40
+        },
+        {
+          "routeId": "zhouzhi",
+          "file": "周栀-十一点四十七分.md",
+          "callAnchor": "ZZ-D36-CALL",
+          "returnAnchor": "ZZ-D36-RETURN",
+          "afterDay": 35,
+          "beforeDay": 36
+        },
+        {
+          "routeId": "mengyao",
+          "file": "孟遥-旧题.md",
+          "callAnchor": "MY-D36-CALL",
+          "returnAnchor": "MY-D36-RETURN",
+          "afterDay": 34,
+          "beforeDay": 38
+        },
+        {
+          "routeId": "huangqiuqiu",
+          "file": "黄球球-门后.md",
+          "callAnchor": "HQ-D36-CALL",
+          "returnAnchor": "HQ-D36-RETURN",
+          "afterDay": 34,
+          "beforeDay": 36
+        },
+        {
+          "routeId": "friends",
+          "file": "朋友与职业-夜班.md",
+          "callAnchor": "FR-D36-CALL",
+          "returnAnchor": "FR-D36-RETURN",
+          "afterDay": 35,
+          "beforeDay": 36
+        }
+      ],
+      "piaoSource": {
+        "file": "飘-空白页.md",
+        "startAnchor": "PI-LOW-D36",
+        "completeAnchor": "PI-LOW-D36-COMPLETE"
+      },
+      "oncePerRun": true,
+      "markOnComplete": true,
+      "preserve": [
+        "route",
+        "choices",
+        "PIAO_AFFINITY",
+        "PIAO_RELATION",
+        "day14-meeting-read"
+      ]
+    },
+    "epilogues": {
+      "dispatchMarker": "EPILOGUE PM",
+      "readAtMostOne": true,
+      "rules": [
+        {
+          "relation": "HIGH",
+          "endings": [
+            "PI-E1"
+          ],
+          "target": null
+        },
+        {
+          "relation": "HIGH",
+          "endings": [
+            "XM-E1",
+            "XM-E2",
+            "ZZ-E1",
+            "ZZ-E2",
+            "MY-E1",
+            "MY-E2",
+            "PI-E2",
+            "HQ-E1",
+            "HQ-E2",
+            "FR-E1",
+            "FR-E2"
+          ],
+          "target": {
+            "file": "后日谈-他们的日子.md",
+            "anchor": "EP-HIGH"
+          }
+        },
+        {
+          "relation": "LOW",
+          "endings": [
+            "XM-E1",
+            "XM-E2",
+            "ZZ-E1",
+            "ZZ-E2",
+            "MY-E1",
+            "MY-E2",
+            "HQ-E1",
+            "HQ-E2",
+            "FR-E1",
+            "FR-E2",
+            "PI-LE1",
+            "PI-LE2"
+          ],
+          "requiresEvent": "PIAO-PREGNANCY-READ",
+          "target": {
+            "file": "后日谈-未写完的安排.md",
+            "anchor": "EP-LOW"
+          }
+        }
+      ],
+      "friendsE2View": "messages-only",
+      "preserveMainEnding": true,
+      "lowDoesNotImplyMarriage": true
+    }
+  },
+  "piaoRoute": {
+    "id": "piao",
+    "prefix": "PI",
+    "name": "飘",
+    "file": "飘-空白页.md",
+    "keyChoices": [
+      "PI06-01",
+      "PI08-01"
+    ],
+    "endings": [
+      "PI-E1",
+      "PI-E2"
+    ],
+    "lowPathChoice": "PI-L06-01",
+    "lowPathEndings": [
+      "PI-LE1",
+      "PI-LE2"
+    ],
+    "relationRuleStatus": "frozen",
+    "outcomes": {
+      "AA": "PI-E1",
+      "AB": "PI-E2",
+      "BA": "PI-E2",
+      "BB": "PI-E2"
+    },
+    "lowPathOutcomes": {
+      "A": "PI-LE1",
+      "B": "PI-LE2"
+    },
+    "pathAnchors": {
+      "HIGH": "PI-HIGH-START",
+      "LOW": "PI-LOW-START"
+    }
+  },
+  "approvalSource": "qa/SUI-A05-20261028/approval.json",
+  "requirementsSource": {
+    "path": "qa/SUI-A01-20261028/requirements.json",
+    "sha256": "7056b99d9375de98885c0ab8a98dcdf1f325436e3046fbf165d452868ea934d6"
+  },
+  "coverage": [
+    {
+      "requirementId": "char-piao",
+      "name": "飘",
+      "owner": "SUI-A05",
+      "status": "基础包完成；逐镜衣装/多人动作按依赖补制",
+      "assets": [
+        "piao-option-a",
+        "piao-base",
+        "piao-expression-smile",
+        "piao-expression-serious",
+        "piao-expression-hesitant",
+        "piao-expression-surprised",
+        "piao-expression-displeased",
+        "piao-expression-downcast",
+        "piao-action-wave",
+        "piao-action-thinking",
+        "piao-action-explaining",
+        "piao-action-camera",
+        "piao-action-booklet",
+        "piao-action-knot"
+      ],
+      "note": "13张B角色图；A对照独立保留。外套/裙装/围巾与双人关系镜头需A09明确，不能以本包白衬衫黑裤通用替代。",
+      "a01Sources": [
+        {
+          "path": "docs/人物/飘.md",
+          "line": 31,
+          "heading": "已确认外形与资源",
+          "nearestNode": null,
+          "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾、侧分碎刘海、黑色滚边白短袖衬衫、黑长裤、小金色耳钉与细红绳手链。照片仅为外形参考，不作为身份与经历依据。",
+          "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+        }
+      ]
+    },
+    {
+      "requirementId": "prop-piao-camera",
+      "name": "相机/说明书/相机包",
+      "owner": "SUI-A05",
+      "status": "通用相机/包/说明书与持物完成",
+      "assets": [
+        "piao-action-camera",
+        "piao-action-knot",
+        "piao-prop-camera",
+        "piao-prop-camera-bag",
+        "piao-prop-camera-manual"
+      ],
+      "note": "第7天仍为借来相机；独立说明书采用v002。场景坐姿/衣装另核。",
+      "a01Sources": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 437,
+          "heading": "第5—7天｜有人要去贵阳",
+          "nearestNode": null,
+          "quote": "第七天，飘比毛狼早到饭桌。她的小册子摆在一边，有几页还空着。她把衬衫下摆松松打了个结，桌边放着一台借来的相机。她说自己在学摄影，聚会时喜欢看看朋友说话之外在做什么。",
+          "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 168,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "飘学着用手动模式拍老街，拍了几次都过曝。她把外套下摆随手打个结，腾出手翻说明书。我说照片里那条街看不清，她点头：“所以得重拍。不是你一句好看就能交作业。”",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/跨路线-第36天的消息.md",
+          "line": 9,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PIAO-D36 -->",
+          "quote": "第36天，我去面馆拿给师匠带的饭，飘正坐在门口的凳子上，低头摆弄相机包的带子。带子绕了两圈，她打了个松结，试着一拉就开。",
+          "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+        }
+      ]
+    },
+    {
+      "requirementId": "prop-piao-booklet-kit",
+      "name": "册子/原稿/勘误/尺/装订工具",
+      "owner": "SUI-A05",
+      "status": "空封二与装订工具完成；其他页状态待逐镜需求",
+      "assets": [
+        "piao-action-booklet",
+        "piao-prop-booklet",
+        "piao-prop-booklet-tools"
+      ],
+      "note": "撤回半页、错误介绍、勘误、21本摆放和已书写末页仍未制作。工具为单张组合，非可拆分图层。",
+      "a01Sources": [
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 32,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "她拿尺子压住纸，划掉最后半页。大姐还想解释，飘把本子递过去，等她看清楚，又在页边写“不用”。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 560,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "我赶紧看页码。她翻到封二，空的，没有那篇介绍，也没有替换的新文章。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 664,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "直到屋里暗下来，我们才把纸重新排好。二十一本。二十本给被记录的人，多出的那本她放到我膝上，最后一页仍空着。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 885,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "进站前，她给了我一张勘误。修鞋师傅的名字在打样时错过一次，这张留着对照，最后的文件里必须是改对的那个字。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        }
+      ]
+    },
+    {
+      "requirementId": "prop-piao-knots",
+      "name": "布袋/布条/衣角结/发绳",
+      "owner": "SUI-A05",
+      "status": "相机包带与装订布条参考完成；其余物件待逐镜需求",
+      "assets": [
+        "piao-action-knot",
+        "piao-prop-camera-bag",
+        "piao-prop-booklet-tools"
+      ],
+      "note": "湿绳、布袋、照片纸袋、衣摆与围巾不能互替。",
+      "a01Sources": [
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 168,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "飘学着用手动模式拍老街，拍了几次都过曝。她把外套下摆随手打个结，腾出手翻说明书。我说照片里那条街看不清，她点头：“所以得重拍。不是你一句好看就能交作业。”",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 554,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "她练习装订，又把束起样册的布条换了两种结法。桌上摊着她拍的照片，边角标着光圈与拍摄时刻；她说自己还在学，暂时不敢把每一张都拿出来。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/后日谈-未写完的安排.md",
+          "line": 18,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE EP-LOW -->",
+          "quote": "后来我碰到他们，飘正把一条布袋带子系在包上。她说课程还在学，下次要拍室内人物；小册子的几页也在改，还没决定什么时候印。毛狼从手机里翻出自己的日程，两人对了一次下次检查的时间。那天他能调开，飘说好，再把地点发给他。",
+          "sha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+        }
+      ]
+    },
+    {
+      "requirementId": "prop-piao-photos",
+      "name": "桌角/群照/雨后老街照片",
+      "owner": "SUI-A05",
+      "status": "待人物/场景参考与逐镜方案；本包照片成片0张",
+      "assets": [],
+      "note": "依赖A07出镜人物、A08老街/桌面和A09视角/入镜范围。A05接续照片制图；CG仍归A10-PI/COMMON。",
+      "a01Sources": [
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 1326,
+          "heading": "第十章｜照片还会继续拍",
+          "nearestNode": "<!-- NODE PI-LOW-D36-COMPLETE -->",
+          "quote": "第九十一天，飘寄来两张照片。一张是我们聚会时的桌面，另一张是雨后老街。她在背面写了拍摄日期和参数，又加一句：第一张是大家都同意留下的。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/后日谈-未写完的安排.md",
+          "line": 10,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE EP-LOW -->",
+          "quote": "第91天以后，飘把一张课程作业发到群里。照片上是聚会的桌角：有人把杯子推过来，一只手正在拉开椅子。她说发之前已经问过入镜的人，不愿出现的那张没有放上来。",
+          "sha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+        }
+      ]
+    }
+  ],
+  "sceneRules": [
+    {
+      "id": "COMMON-D7",
+      "scene": "共通第7天",
+      "readingCondition": "冻结前",
+      "source": {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 437,
+        "quote": "她把衬衫下摆松松打了个结，桌边放着一台借来的相机。",
+        "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+      },
+      "availableReferences": [
+        "piao-prop-camera"
+      ],
+      "restriction": "相机为借来；基础白衬衫尚无衣摆结。持相机动作只作人物/器材参考，不能代替桌放相机与衣摆结的逐镜画面。"
+    },
+    {
+      "id": "HIGH-LEARNING",
+      "scene": "HIGH摄影学习",
+      "readingCondition": "PIAO_RELATION=HIGH",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 168,
+        "quote": "腾出手翻说明书。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [
+        "piao-prop-camera",
+        "piao-prop-camera-manual"
+      ],
+      "restriction": "说明书v002采用平顶机身示意，无品牌和可读参数；原文外套衣摆结另制。"
+    },
+    {
+      "id": "HIGH-BAD-INTRO",
+      "scene": "HIGH第27天错误稿",
+      "readingCondition": "PIAO_RELATION=HIGH",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 316,
+        "quote": "她翻到封二，用指甲抠开订书钉，抽出那张作者介绍。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [],
+      "restriction": "错误作者介绍、撤回半页、改名与勘误需各自页状态；空封二不能用于返修之前。"
+    },
+    {
+      "id": "HIGH-D34-39",
+      "scene": "HIGH第34/39天空封二",
+      "readingCondition": "PIAO_RELATION=HIGH",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 538,
+        "quote": "她给我看最终的封二，仍旧空着。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [
+        "piao-action-booklet",
+        "piao-prop-booklet",
+        "piao-prop-booklet-tools"
+      ],
+      "restriction": "空白封二与相邻扉页不表示整本空白；第39天确认页归入原稿，不能装订进成品。"
+    },
+    {
+      "id": "HIGH-21",
+      "scene": "HIGH第39天份数",
+      "readingCondition": "PIAO_RELATION=HIGH",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 664,
+        "quote": "二十一本。二十本给被记录的人，多出的那本她放到我膝上，最后一页仍空着。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [],
+      "restriction": "21本仅HIGH装订情节；没有制作21本摆放图，不把此数用于LOW或后日谈。"
+    },
+    {
+      "id": "HIGH-D30",
+      "scene": "HIGH第30天搬箱",
+      "readingCondition": "PIAO_RELATION=HIGH",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 410,
+        "quote": "裙角沾了一片灰。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [],
+      "restriction": "本包基础为黑长裤；裙装、蹲姿与箱子需逐镜衣装/动作版本。"
+    },
+    {
+      "id": "LOW-D30",
+      "scene": "LOW第30天搬店",
+      "readingCondition": "PIAO_RELATION=LOW",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 1204,
+        "quote": "她没有举相机，只问有没有人需要她送一程。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [],
+      "restriction": "禁止持相机准备拍摄图；外套衣角结/搬照片另制。"
+    },
+    {
+      "id": "LOW-D36-OWN",
+      "scene": "LOW飘本线第36天",
+      "readingCondition": "route=piao & PIAO_RELATION=LOW",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 1208,
+        "quote": "台阶上有一段被雨打湿的绳子，她捡起来，绕在手指上，又松开。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [],
+      "restriction": "湿绳与相机包带不同；不使用本包相机包动作冒充本线镜头，不另画孕肚、病历或出生日期。"
+    },
+    {
+      "id": "LOW-D36-SHARED",
+      "scene": "LOW其他五线第36天",
+      "readingCondition": "route!=piao & PIAO_RELATION=LOW",
+      "source": {
+        "path": "scenario/跨路线-第36天的消息.md",
+        "line": 9,
+        "quote": "低头摆弄相机包的带子。",
+        "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+      },
+      "availableReferences": [
+        "piao-action-knot",
+        "piao-prop-camera-bag"
+      ],
+      "restriction": "站姿系带图仅作动作/道具参考；原文坐门口凳子，正式镜头须另核坐姿。事件后返回原路线，不追加追求选择。"
+    },
+    {
+      "id": "HIGH-LAST-PAGE",
+      "scene": "HIGH末页文字",
+      "readingCondition": "PIAO_RELATION=HIGH",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 1044,
+        "quote": "我把那页拍给飘，没有裁掉黑痕。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [],
+      "restriction": "末页含当前选择对应文字及黑痕；空封二不替代，不能生成未经正文核对的姓名、内容或日期。"
+    },
+    {
+      "id": "LOW-PHOTOS",
+      "scene": "LOW第91天照片",
+      "readingCondition": "PIAO_RELATION=LOW",
+      "source": {
+        "path": "scenario/飘-空白页.md",
+        "line": 1326,
+        "quote": "一张是我们聚会时的桌面，另一张是雨后老街。",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      },
+      "availableReferences": [],
+      "restriction": "需要毛狼手部/群像与老街的定稿来源；日期、参数仅按放行稿，未经定义的具体值不造。"
+    },
+    {
+      "id": "HIGH-EPILOGUE",
+      "scene": "HIGH婚后朋友饭",
+      "readingCondition": "EP-HIGH & ENDING!=FR-E2",
+      "source": {
+        "path": "scenario/后日谈-他们的日子.md",
+        "line": 125,
+        "quote": "飘到时没穿礼裙，手里拿着一本新改过的册子",
+        "sha256": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f"
+      },
+      "availableReferences": [],
+      "restriction": "已婚情节仅按HIGH后日谈入口；此场不是婚纱场面，新改册子不自动沿用HIGH第39天的空封二。"
+    },
+    {
+      "id": "LOW-EPILOGUE",
+      "scene": "LOW后日谈现场",
+      "readingCondition": "EP-LOW & ENDING!=FR-E2",
+      "source": {
+        "path": "scenario/后日谈-未写完的安排.md",
+        "line": 18,
+        "quote": "后来我碰到他们，飘正把一条布袋带子系在包上。",
+        "sha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+      },
+      "availableReferences": [],
+      "restriction": "布袋带子不是相机包的同一件物品；册子尚未定印期，不沿用21本成品状态。不预设飘与毛狼恋爱或婚姻。"
+    },
+    {
+      "id": "FR-E2-HIGH",
+      "scene": "FR-E2的HIGH后日谈",
+      "readingCondition": "EP-HIGH & ENDING=FR-E2",
+      "source": {
+        "path": "scenario/后日谈-他们的日子.md",
+        "line": 151,
+        "quote": "我把祝福发过去，毛狼回谢谢，飘跟了一句收到。",
+        "sha256": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f"
+      },
+      "availableReferences": [],
+      "restriction": "只呈现消息视角；无文文到场婚宴/饭局图。"
+    },
+    {
+      "id": "FR-E2-LOW",
+      "scene": "FR-E2的LOW后日谈",
+      "readingCondition": "EP-LOW & ENDING=FR-E2",
+      "source": {
+        "path": "scenario/后日谈-未写完的安排.md",
+        "line": 49,
+        "quote": "那顿饭我没去，也没有从一张照片里猜他们现在算什么。",
+        "sha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+      },
+      "availableReferences": [],
+      "restriction": "只呈现群照与回复；不恢复旧友情，不把第36天私下消息放入群聊。"
+    }
+  ],
+  "globalRestrictions": [
+    "未知关系或未访问状态报错，不默认LOW；所有来源条件由scenario/routes.json统一决定。",
+    "PI-L06-01选A仅表达继续追求，第91天PI-LE1才由飘答应试着交往；选B不再重启恋爱。",
+    "表情只表现当场反应，不能从害羞/低落/惊讶推导恋爱、怀孕或婚姻状态。",
+    "角色20岁为开篇事实；两年后不得仅据同脸立绘声称时段衣装已验。",
+    "新图为制作完成，最终采用须A11/I复核；运行采用0张。"
+  ],
+  "runtimeBinding": null
+}

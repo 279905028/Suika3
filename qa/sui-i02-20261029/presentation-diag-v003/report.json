@@ -1,0 +1,316 @@
+{
+  "scope": "真实资源诊断包演出/CG/图库/读档；不是正式采用或完整候选",
+  "version": "diag-v003",
+  "runtimeBuildId": "43c8c64f1726d470f6d33e5ad34e5272337df1b773d7ef6d9c7d645a0a77a5f9",
+  "checks": [
+    {
+      "name": "未遇见CG时图鉴保持锁定",
+      "pass": true
+    },
+    {
+      "name": "背景与透明人物按真实资源绑定进入并可保存",
+      "pass": true,
+      "details": "TEXT_12e9affe350b12038970_1"
+    },
+    {
+      "name": "CG遇见后解锁，全图开关停留原段",
+      "pass": true,
+      "details": "TEXT_f5354c41d01bf0d95a4c_1"
+    },
+    {
+      "name": "下一节点按声明退场且隐藏人物",
+      "pass": true,
+      "details": "TEXT_04f2fe2301318a26493d_1"
+    },
+    {
+      "name": "手动档恢复CG与全图查看",
+      "pass": true
+    },
+    {
+      "name": "手动档恢复背景/人物/站位",
+      "pass": true
+    },
+    {
+      "name": "关闭浏览器重开后CG存档与全图恢复",
+      "pass": true
+    },
+    {
+      "name": "遇见CG的全局图库登记和详情可用",
+      "pass": true
+    },
+    {
+      "name": "新游戏恢复开场演出，不继承旧CG舞台",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "shots": [
+    {
+      "name": "01-gallery-locked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/01-gallery-locked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02-locked-click",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/02-locked-click.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "03-character",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/03-character.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "573c0882825a5e7d70a6e908094159dd9f71df907f41f093c50041e4b3d0d788"
+    },
+    {
+      "name": "04-cg",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/04-cg.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "e297e907afc0b4fa7fb543be53543e6ba00e5dffd69b9d2b75afaa0f8cdf2c61"
+    },
+    {
+      "name": "05-cg-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/05-cg-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "7c8c4d0dafe2478375c3b8fe34bffe90e0d1db6bb50b081036133b2237daf945"
+    },
+    {
+      "name": "06-exit-hidden",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/06-exit-hidden.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "886f5b3ab40229d3a88ffef4d51ff92607a55bad310dbfa173588758a02d75db"
+    },
+    {
+      "name": "07-cg-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/07-cg-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "d448894ae823ac6d5f97d153efe55e840c22a55370870efa5f278e320901eb6a"
+    },
+    {
+      "name": "08-cg-loaded-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/08-cg-loaded-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "7c8c4d0dafe2478375c3b8fe34bffe90e0d1db6bb50b081036133b2237daf945"
+    },
+    {
+      "name": "09-character-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/09-character-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "315516a48be0d8bedf703eb9ca99f58098467ff0594a6f671dce94b426813ed9"
+    },
+    {
+      "name": "10-cg-reopened",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/10-cg-reopened.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "e6247443398e2e77825db2c023680233e3fd16d1db0811be51184a6e12e8663f"
+    },
+    {
+      "name": "11-cg-reopened-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/11-cg-reopened-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "7c8c4d0dafe2478375c3b8fe34bffe90e0d1db6bb50b081036133b2237daf945"
+    },
+    {
+      "name": "12-gallery-unlocked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/12-gallery-unlocked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "3a1985065b07d7acaf5de2c328e7bd8c2aed03773f92731214f8b2331e4f562c"
+    },
+    {
+      "name": "13-gallery-detail",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/13-gallery-detail.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "1927d884d56737a6093f2f90f065539f4000d10447a9f07f7dfd8c7b0432bba7"
+    },
+    {
+      "name": "failure",
+      "file": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-diag-v003/failure.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b58f9a65a95fa52ecae09ce48609a282c32811231ce38b3749ae66a2315c7a88"
+    }
+  ],
+  "logs": [
+    "SUI_E|ready|43c8c64f1726d470f6d33e5ad34e5272337df1b773d7ef6d9c7d645a0a77a5f9",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|exit|binding=diagnostic-scene|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|unlock|cg=CG001",
+    "SUI_I|enter|binding=diagnostic-cg|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=0|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|exit|binding=diagnostic-cg|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=diagnostic-clear-character|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_E|save|slot=0|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_E|load|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|load|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|ready|43c8c64f1726d470f6d33e5ad34e5272337df1b773d7ef6d9c7d645a0a77a5f9",
+    "SUI_E|title",
+    "SUI_E|load|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+  ],
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suii-presentation-A1ADFA",
+  "dialogs": [
+    "SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1",
+    "SUI_I|exit|binding=diagnostic-scene|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|unlock|cg=CG001",
+    "SUI_I|enter|binding=diagnostic-cg|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|exit|binding=diagnostic-cg|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=diagnostic-clear-character|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1"
+  ],
+  "status": "fail",
+  "failure": "AssertionError [ERR_ASSERTION]: 候选不应弹出诊断日志\n+ actual - expected\n\n+ [\n+   'SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1',\n+   'SUI_I|exit|binding=diagnostic-scene|node=TEXT_f5354c41d01bf0d95a4c_1',\n+   'SUI_I|unlock|cg=CG001',\n+   'SUI_I|enter|binding=diagnostic-cg|node=TEXT_f5354c41d01bf0d95a4c_1',\n+   'SUI_I|full-view|opened',\n+   'SUI_I|full-view|closed',\n+   'SUI_I|exit|binding=diagnostic-cg|node=TEXT_04f2fe2301318a26493d_1',\n+   'SUI_I|enter|binding=diagnostic-clear-character|node=TEXT_04f2fe2301318a26493d_1',\n+   'SUI_I|full-view|opened',\n+   'SUI_I|full-view|closed',\n+   'SUI_I|full-view|opened',\n+   'SUI_I|full-view|closed',\n+   'SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1'\n+ ]\n- []\n\n    at /Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/presentation-browser.cjs:25:43"
+}

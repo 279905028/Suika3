@@ -1,0 +1,292 @@
+{
+  "status": "pass",
+  "build": "e02adc7061912fda224cdbd77adc9d439e7e6edb11d8842110727c1c21486aa3",
+  "method": "four choice canvas pixel checks plus independent actual screenshot review",
+  "choiceVisualChecks": [
+    {
+      "path": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/browser-screenshots-v005/04-first-choice-canvas.png",
+      "sha256": "1acaf9a8ebcffe5fbeb7aacee868312fdb0a97efe7e60478845f73cb2bd07b04",
+      "method": "Near-opaque alpha247 idle button interiors must match idle [24,43,49] or hover [46,77,78] within 12/255 per channel; both choices checked",
+      "probes": [
+        {
+          "nativeCenter": [
+            150,
+            148
+          ],
+          "screenshotBox": [
+            163,
+            161,
+            174,
+            172
+          ],
+          "actualRGB": [
+            24.636363636363637,
+            43,
+            49
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 0.6363636363636367,
+          "pass": true
+        },
+        {
+          "nativeCenter": [
+            150,
+            244
+          ],
+          "screenshotBox": [
+            163,
+            269,
+            174,
+            280
+          ],
+          "actualRGB": [
+            24,
+            42.99173553719008,
+            48.099173553719005
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 0.9008264462809947,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/browser-screenshots-v005/05-rollback-canvas.png",
+      "sha256": "9a29e7fff8f553d99e7b2308a40e9db1f87d52c6685ecbfda6415d8497626ef8",
+      "method": "Near-opaque alpha247 idle button interiors must match idle [24,43,49] or hover [46,77,78] within 12/255 per channel; both choices checked",
+      "probes": [
+        {
+          "nativeCenter": [
+            150,
+            148
+          ],
+          "screenshotBox": [
+            163,
+            161,
+            174,
+            172
+          ],
+          "actualRGB": [
+            24.636363636363637,
+            43,
+            49
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 0.6363636363636367,
+          "pass": true
+        },
+        {
+          "nativeCenter": [
+            150,
+            244
+          ],
+          "screenshotBox": [
+            163,
+            269,
+            174,
+            280
+          ],
+          "actualRGB": [
+            24,
+            42.99173553719008,
+            48.099173553719005
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 0.9008264462809947,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/browser-screenshots-v005/07-mobile-landscape-canvas.png",
+      "sha256": "cd948f16806d2e7eee9b7a27e8e06d1fb1f074f152503e9423b00b4bd693d983",
+      "method": "Near-opaque alpha247 idle button interiors must match idle [24,43,49] or hover [46,77,78] within 12/255 per channel; both choices checked",
+      "probes": [
+        {
+          "nativeCenter": [
+            150,
+            148
+          ],
+          "screenshotBox": [
+            79,
+            77,
+            84,
+            83
+          ],
+          "actualRGB": [
+            24.7,
+            43,
+            49
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 0.6999999999999993,
+          "pass": true
+        },
+        {
+          "nativeCenter": [
+            150,
+            244
+          ],
+          "screenshotBox": [
+            79,
+            129,
+            84,
+            135
+          ],
+          "actualRGB": [
+            24,
+            42.96666666666667,
+            48.06666666666667
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 0.93333333333333,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/browser-screenshots-v005/09-final-choice-canvas.png",
+      "sha256": "9a29e7fff8f553d99e7b2308a40e9db1f87d52c6685ecbfda6415d8497626ef8",
+      "method": "Near-opaque alpha247 idle button interiors must match idle [24,43,49] or hover [46,77,78] within 12/255 per channel; both choices checked",
+      "probes": [
+        {
+          "nativeCenter": [
+            150,
+            148
+          ],
+          "screenshotBox": [
+            163,
+            161,
+            174,
+            172
+          ],
+          "actualRGB": [
+            24.636363636363637,
+            43,
+            49
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 0.6363636363636367,
+          "pass": true
+        },
+        {
+          "nativeCenter": [
+            150,
+            244
+          ],
+          "screenshotBox": [
+            163,
+            269,
+            174,
+            280
+          ],
+          "actualRGB": [
+            24,
+            42.99173553719008,
+            48.099173553719005
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 0.9008264462809947,
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "reviewedScreenshots": [
+    "browser-screenshots-v005/04-first-choice.png",
+    "browser-screenshots-v005/07-mobile-landscape.png"
+  ],
+  "scope": "本3图诊断包首选择、回退、移动尺寸及最终选择显示；非完整资源候选或真机"
+}

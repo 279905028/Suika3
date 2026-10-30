@@ -1,0 +1,491 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "character": {
+    "key": "piao",
+    "name": "飘",
+    "gender": "女性",
+    "age": null,
+    "occupation": "回声附近打印店排版员",
+    "personality": "工作时直接仔细，私人相处会认真确认心意，熟悉后主动提出约定",
+    "relationshipToWenwen": "短片协作中认识；第三章可相恋或做朋友",
+    "romanceable": true,
+    "debut": "第二章第11天，片尾制作协作",
+    "adult": true
+  },
+  "selectedDesign": "Option B + 双侧浅酒窝",
+  "appearance": {
+    "hair": "黑色低马尾、侧分碎刘海",
+    "face": "沿用Option B脸型与五官；两侧各一个浅酒窝",
+    "outfit": "黑色滚边白色短袖衬衫、黑色长裤",
+    "accessories": "小金色耳钉、细红绳手链"
+  },
+  "canonicalBase": "assets/char-piao.webp",
+  "assetStatus": "art_ready_story_integrated",
+  "imageCount": 10,
+  "variantCount": 9,
+  "entries": [
+    {
+      "type": "base",
+      "slug": "base",
+      "label": "基础",
+      "path": "assets/char-piao.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 716636,
+      "sha256": "b28422dabd0a4d3eb2ad7a34f832104bae4884ecb93bd45eb0d80e9c17a70331",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-636903e5-4d45-44c8-9272-d0243ce3eb56.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 831549,
+        "pixelsAtLeast240": 695363,
+        "bboxAbove127": [
+          201,
+          17,
+          887,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "Option B造型保留；双侧浅酒窝，近侧更明显。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/char-piao.png",
+        "bytes": 1743396,
+        "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "expression",
+      "slug": "smile",
+      "label": "微笑",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 705920,
+      "sha256": "6d2661f9fd7c8551cb1dace16519ffcc220c23e5c69693103538cfe57ba612b0",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-06418f3c-ecc2-4f8a-bb2a-100e1872044a.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 832305,
+        "pixelsAtLeast240": 695293,
+        "bboxAbove127": [
+          201,
+          17,
+          888,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "嘴角上扬、眼周放松，浅酒窝随笑意显现。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-smile.png",
+        "bytes": 1723413,
+        "sha256": "fba298b4c572bb6d9293f0fef2f5dbc865ae44a9156eefcd86db0e03ec5c4b6b",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "expression",
+      "slug": "serious",
+      "label": "认真",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 700748,
+      "sha256": "ea955ceb6b2301825e391ca636d343145753b7451e20d6229d5935b90139486f",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-a3b90ca7-6c2f-46d9-a50e-49a1224f49be.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 833147,
+        "pixelsAtLeast240": 696177,
+        "bboxAbove127": [
+          202,
+          17,
+          889,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "平唇与专注目光，脸部身份保持。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-serious.png",
+        "bytes": 1728340,
+        "sha256": "bc5ebcf28f7dee480141be2acca34821b575e2e31533d977437cd825af3170cf",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "expression",
+      "slug": "hesitant",
+      "label": "犹豫",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 701286,
+      "sha256": "9bb08999a38861d259fa6fd29458fb1b58e03425a2fa50533634280e9e90e831",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-79f46b1d-0a44-45b5-b062-c8db7ad55b7f.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 831087,
+        "pixelsAtLeast240": 698246,
+        "bboxAbove127": [
+          200,
+          17,
+          890,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "眉心轻抬、目光侧移，与认真表情区分。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-hesitant.png",
+        "bytes": 1713205,
+        "sha256": "8b8b1ebc9fb997c9a367c216375f502fc5f87dd8965e42c0228ca5e4c8c8df6b",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "expression",
+      "slug": "surprised",
+      "label": "惊讶",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 712368,
+      "sha256": "fa89fa31ccf2e075209da840012fe044142876ce8ed6d21f6c0d408a2c6cd851",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-77e050a0-58b3-4602-bba6-2c12cd20c35e.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 831140,
+        "pixelsAtLeast240": 695922,
+        "bboxAbove127": [
+          201,
+          18,
+          891,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "抬眉、睁眼、轻张嘴，保持自然比例。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-surprised.png",
+        "bytes": 1731259,
+        "sha256": "c49627dfb66433258082197dfb18aeeabf068021e65b2eb779de7a91034a81ba",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "expression",
+      "slug": "displeased",
+      "label": "不悦",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 714078,
+      "sha256": "22106363272c16bac15ab480e1d5d7404e4a2dbacb6c9d87a37f4adf3fe679b1",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-4690f204-20b5-4011-8e4d-0e206908deac.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 834229,
+        "pixelsAtLeast240": 694664,
+        "bboxAbove127": [
+          202,
+          19,
+          888,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "压眉、收唇，克制不悦。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-displeased.png",
+        "bytes": 1733929,
+        "sha256": "8a6c4f152a6f24022c0c096f34f44aa088e4929cad56ce9ff50df55166375113",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "expression",
+      "slug": "downcast",
+      "label": "低落",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 704186,
+      "sha256": "4ba3d09a6f0d46c156b7ba278388b9228a8e2c00ba30e398de3f8b46872965e5",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-7344e0a5-4d54-4c51-aec6-e2f30a8e0312.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 832235,
+        "pixelsAtLeast240": 695220,
+        "bboxAbove127": [
+          202,
+          18,
+          888,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "垂眼、唇角下压，低落可辨。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-expression-downcast.png",
+        "bytes": 1714700,
+        "sha256": "53a3c303f5bf797f3d5e9a6da7feed1a68e314057c5d71edb44602d93b2a2cb3",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "action",
+      "slug": "wave",
+      "label": "招手",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 754774,
+      "sha256": "1384bb3e03126e7f0ad435dd7dc82fce638ac5ef4d3cfa2bcbd5f26c5ea0e05c",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-b847ab7b-1c07-4ca8-b593-8c7569b6b401.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 804296,
+        "pixelsAtLeast240": 719043,
+        "bboxAbove127": [
+          168,
+          19,
+          913,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "五指可辨，抬手完整且不遮脸，红绳保持在另一腕。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-wave.png",
+        "bytes": 1783463,
+        "sha256": "b5daee1f1d2276abacf1162c374c5af3ed7afd29100a41509d07ad14a2279a27",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "action",
+      "slug": "thinking",
+      "label": "思考",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 699240,
+      "sha256": "71abe11bb98fb387e3cec1fc756f02d080d0b6f120c969f3425841d89e6fbc7d",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-9018bf80-9129-427c-824b-8a4d271a5818.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 830855,
+        "pixelsAtLeast240": 698849,
+        "bboxAbove127": [
+          199,
+          17,
+          890,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "托下巴手势自然，眉眼与嘴部可读。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-thinking.png",
+        "bytes": 1701347,
+        "sha256": "cc21a362d7e3d603569eefabd61fafe15cecea56d88ac306c8124649c1d22d20",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    },
+    {
+      "type": "action",
+      "slug": "explaining",
+      "label": "解释",
+      "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.webp",
+      "width": 1024,
+      "height": 1536,
+      "mode": "RGBA",
+      "bytes": 725906,
+      "sha256": "2cf905d8a48d2ca8e0b4a876c22a72789ee506ab2c66f08de801077ffb159238",
+      "generatedSource": "/Users/yipin/.codex/generated_images/01a157dc-f13d-7b13-887b-dc7c44af831b/exec-edf4719d-795b-4196-9110-026754539eba.png",
+      "byteIdenticalToGenerated": false,
+      "alpha": {
+        "range": [
+          0,
+          254
+        ],
+        "fullyTransparentPixels": 815978,
+        "pixelsAtLeast240": 711108,
+        "bboxAbove127": [
+          135,
+          17,
+          911,
+          1536
+        ]
+      },
+      "visualReview": {
+        "status": "passed_at_reviewed_scales",
+        "note": "摊掌手势清楚，手指完整且未触碰画布边界。",
+        "singleImageViewed": true,
+        "lightDarkCompositeViewed": true,
+        "gameVerified": false
+      },
+      "originalEncoding": {
+        "path": "assets/character-variants/piao-optionB-20261020/char-piao-action-explaining.png",
+        "bytes": 1737209,
+        "sha256": "3119053c176305cd377581298eaee1770e59d8d49ca19ff6ba036cbd3e6d9536",
+        "byteIdenticalToGenerated": true
+      },
+      "format": "WebP"
+    }
+  ],
+  "referencePhotos": [
+    "assets/references/piao/photo-01.jpg",
+    "assets/references/piao/photo-02.jpg"
+  ],
+  "sourceOption": "assets/character-variants/piao-photo-options-20261020/option-B-low-ponytail.png",
+  "prompts": "assets/character-variants/piao-optionB-20261020/prompts.json",
+  "generationRecord": "assets/character-variants/piao-optionB-20261020/generation-record.json",
+  "characterDocument": "任务拆分/角色/飘.md",
+  "review": "qa/piao-optionB-20261020/review.md",
+  "preview": "qa/piao-optionB-20261020/gallery.html",
+  "gameIntegrated": true,
+  "storyIntegrated": true,
+  "pendingSettings": [
+    "精确年龄（已确认成年，剧情不依赖具体数字）"
+  ],
+  "visualReview": "passed_at_reviewed_scales",
+  "integration": {
+    "release": "0.4",
+    "date": "2026-10-20",
+    "source": "任务拆分/三章扩展/piao-route.cjs",
+    "runtime": "story.js",
+    "routeChoice": "ch3_route_choice",
+    "routeValue": "piao",
+    "relationshipChoice": "ch3_piao_commit",
+    "relationshipFlag": "piaoRelationship",
+    "endings": {
+      "together": "end_piao_wenwen",
+      "otherwise": "end_piao_maolang"
+    },
+    "report": "qa/piao-20261020/report.md",
+    "note": "沿用Option B及现有差分，未新增婚礼CG；历史visualReview.gameVerified字段保留原始美术验收时间口径。",
+    "usedExpressions": [
+      "action-explaining",
+      "action-thinking",
+      "action-wave",
+      "expression-downcast",
+      "expression-hesitant",
+      "expression-serious",
+      "expression-smile",
+      "expression-surprised"
+    ],
+    "registeredUnusedExpressions": [
+      "expression-displeased"
+    ]
+  },
+  "webpMigration": {
+    "date": "2026-10-21",
+    "manifest": "assets/webp-manifest.json",
+    "report": "qa/webp-20261021/report.md",
+    "note": "本次仅更新交付图片路径与编码指纹；来源、选型及旧QA字段仍属历史制作记录。"
+  }
+}

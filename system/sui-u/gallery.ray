@@ -1,0 +1,197 @@
+// UI-only native gallery. Concatenate after gallery-order.ray, before the E entry.
+// Register only approved runtime files. Unlock flags must be global save variables.
+var suiCGFiles = {};
+var suiGalleryActive = false;
+var suiGalleryPage = 0;
+var suiGalleryFocus = 0;
+var suiGalleryDetail = -1;
+var suiGalleryTextures = [];
+var suiGalleryLabels = [];
+var suiGalleryUI = {};
+var suiGalleryKeys = {};
+var suiGalleryPageText = {};
+var suiGalleryPageTextLive = false;
+var suiUIDiagnostics = false;
+func suiUITrace(message) {
+    if (suiUIDiagnostics) print("SUI_U|" + message);
+}
+
+func suiUIRegisterCG(id, file) {
+    // An unlock flag alone never permits a missing/unapproved file to open.
+    var known = false;
+    for (item in suiCGOrder) if (item == id) known = true;
+    if (!known || !Suika.checkFileExists({file: file})) return false;
+    suiCGFiles[id] = file;
+    return true;
+}
+func suiUIStart() {
+    Engine.loadFont({slot: 1, file: "system/font/NotoSansCJK-Medium.ttc"});
+    suiGalleryUI.base = Engine.loadTexture({file: "system/sui-u/png/gallery-base.png"});
+    suiGalleryUI.view = Engine.loadTexture({file: "system/sui-u/png/gallery-view.png"});
+    suiGalleryUI.lock = Engine.loadTexture({file: "system/sui-u/png/cg-locked.png"});
+    suiGalleryUI.focus = Engine.loadTexture({file: "system/sui-u/png/cg-focus.png"});
+    suiGalleryUI.back = Engine.loadTexture({file: "system/sui-u/png/back-idle.png"});
+    suiGalleryUI.prev = Engine.loadTexture({file: "system/sui-u/png/previous-idle.png"});
+    suiGalleryUI.next = Engine.loadTexture({file: "system/sui-u/png/next-idle.png"});
+    suiGalleryUI.menu = Engine.loadTexture({file: "system/sui-u/png/menu-idle.png"});
+    suiGalleryUI.menuHover = Engine.loadTexture({file: "system/sui-u/png/menu-hover.png"});
+    suiHistoryStart();
+}
+func suiGalleryIsUnlocked(index) {
+    if (index < 0 || index >= Array.size(suiCGOrder)) return false;
+    var id = suiCGOrder[index];
+    if (!Dict.hasKey(suiCGFiles, id)) return false;
+    if (!Suika.checkVariableExists({name: "sui_cg_" + id})) return false;
+    if (!Suika.isGlobalVariable({name: "sui_cg_" + id})) return false;
+    return Suika.getVariableInt({name: "sui_cg_" + id}) == 1;
+}
+func suiGalleryReleasePage() {
+    for (t in suiGalleryTextures) if (t != false) Engine.destroyTexture({texture: t});
+    for (t in suiGalleryLabels) Engine.destroyTexture({texture: t});
+    suiGalleryTextures = [];
+    suiGalleryLabels = [];
+    if (suiGalleryPageTextLive) Engine.destroyTexture({texture: suiGalleryPageText});
+    suiGalleryPageTextLive = false;
+}
+func suiGalleryPreparePage() {
+    suiGalleryReleasePage();
+    for (i in 0..6) {
+        var index = suiGalleryPage * 6 + i;
+        var t = false;
+        var label = " ";
+        if (suiGalleryIsUnlocked(index)) {
+            var id = suiCGOrder[index];
+            t = Engine.loadTexture({file: suiCGFiles[id]});
+            label = id;
+        }
+        Array.push(suiGalleryTextures, t);
+        Array.push(suiGalleryLabels, Engine.createTextTexture({slot: 1, text: label, size: 18, r: 238, g: 234, b: 224, a: 255}));
+    }
+    var pages = (Array.size(suiCGOrder) + 5) / 6;
+    suiGalleryPageText = Engine.createTextTexture({slot: 1, text: "第 " + (suiGalleryPage + 1) + " / " + pages + " 页", size: 22, r: 169, g: 208, b: 195, a: 255});
+    suiGalleryPageTextLive = true;
+}
+func suiGalleryEdge(key, down) {
+    var old = false;
+    if (Dict.hasKey(suiGalleryKeys, key)) old = suiGalleryKeys[key];
+    suiGalleryKeys[key] = down;
+    return down && !old;
+}
+func suiGalleryHit(x, y, w, h) {
+    return Engine.mousePosX >= x && Engine.mousePosX < x+w && Engine.mousePosY >= y && Engine.mousePosY < y+h;
+}
+func suiGalleryFlip(delta) {
+    var next = suiGalleryPage + delta;
+    if (next < 0 || next * 6 >= Array.size(suiCGOrder)) return;
+    suiGalleryPage = next;
+    suiGalleryFocus = 0;
+    suiGalleryPreparePage();
+    suiUITrace("gallery-page|page=" + (suiGalleryPage + 1));
+}
+func suiGalleryOpen(cell) {
+    var index = suiGalleryPage * 6 + cell;
+    if (!suiGalleryIsUnlocked(index)) {
+        suiUITrace("gallery-locked|index=" + index);
+        return;
+    }
+    suiGalleryDetail = cell;
+    suiUITrace("gallery-open|id=" + suiCGOrder[index]);
+}
+func Tag_sui_gallery(params) {
+    if (!suiGalleryActive) {
+        suiGalleryActive = true;
+        suiGalleryPage = 0;
+        suiGalleryFocus = 0;
+        suiGalleryDetail = -1;
+        suiGalleryKeys = {};
+        suiGalleryPreparePage();
+        Suika.startCommandRepetition();
+        Suika.clearInputState();
+        suiUITrace("screen|gallery");
+        return false;
+    }
+    var click = Suika.isMouseLeftClicked();
+    var back = suiGalleryEdge("esc", Engine.isEscapeKeyPressed) || Suika.isMouseRightClicked();
+    var enter = suiGalleryEdge("enter", Engine.isReturnKeyPressed);
+    var left = suiGalleryEdge("left", Engine.isLeftKeyPressed);
+    var right = suiGalleryEdge("right", Engine.isRightKeyPressed);
+    var up = suiGalleryEdge("up", Engine.isUpKeyPressed);
+    var down = suiGalleryEdge("down", Engine.isDownKeyPressed);
+    var prev = suiGalleryEdge("prev", Engine.isPageupKeyPressed);
+    var next = suiGalleryEdge("next", Engine.isPagedownKeyPressed);
+    if (suiGalleryDetail >= 0) {
+        if (click || back || enter) {
+            suiGalleryDetail = -1;
+            Suika.clearInputState();
+            suiUITrace("gallery-close|grid");
+        }
+        return false;
+    }
+    if (back || (click && suiGalleryHit(1080,32,136,56))) {
+        suiGalleryActive = false;
+        suiGalleryReleasePage();
+        Suika.stopCommandRepetition();
+        Suika.clearInputState();
+        Suika.moveToNextTag();
+        suiUITrace("gallery-close|title");
+        return true;
+    }
+    if (prev || (click && suiGalleryHit(64,588,176,56))) suiGalleryFlip(-1);
+    if (next || (click && suiGalleryHit(1040,588,176,56))) suiGalleryFlip(1);
+    if (left && suiGalleryFocus > 0) suiGalleryFocus = suiGalleryFocus - 1;
+    if (right && suiGalleryFocus < 5) suiGalleryFocus = suiGalleryFocus + 1;
+    if (up && suiGalleryFocus >= 3) suiGalleryFocus = suiGalleryFocus - 3;
+    if (down && suiGalleryFocus < 3) suiGalleryFocus = suiGalleryFocus + 3;
+    if (enter) suiGalleryOpen(suiGalleryFocus);
+    if (click) for (i in 0..6) {
+        var x = 64 + (i % 3) * 400;
+        var y = 146 + (i / 3) * 208;
+        if (suiGalleryHit(x,y,352,184)) {
+            suiGalleryFocus = i;
+            suiGalleryOpen(i);
+        }
+    }
+    return false;
+}
+func suiGalleryDrawFit(t, x, y, w, h) {
+    var dw = w;
+    var dh = w * t.height / t.width;
+    if (dh > h) { dh = h; dw = h * t.width / t.height; }
+    Engine.renderTexture({texture: t, dstLeft: x+(w-dw)/2, dstTop: y+(h-dh)/2, dstWidth: dw, dstHeight: dh, srcLeft: 0, srcTop: 0, srcWidth: t.width, srcHeight: t.height, alpha: 255});
+}
+func suiUIRender() {
+    if (suiHistoryActive) { suiHistoryRender(); return; }
+    if (!suiGalleryActive) {
+        var tag = Suika.getTagName();
+        if (!Suika.isGUIRunning() && (tag == "text" || tag == "choose")) {
+            var t = suiGalleryUI.menu;
+            if (suiGalleryHit(1104,24,128,56)) t = suiGalleryUI.menuHover;
+            Engine.draw({texture: t, x: 1104, y: 24});
+        }
+        return;
+    }
+    if (suiGalleryDetail >= 0) {
+        Engine.draw({texture: suiGalleryUI.view, x: 0, y: 0});
+        suiGalleryDrawFit(suiGalleryTextures[suiGalleryDetail],64,132,1152,510);
+        Engine.draw({texture: suiGalleryUI.back, x: 1080, y: 32});
+        return;
+    }
+    Engine.draw({texture: suiGalleryUI.base, x: 0, y: 0});
+    for (i in 0..6) {
+        var index = suiGalleryPage * 6 + i;
+        if (index < Array.size(suiCGOrder)) {
+            var x = 64 + (i % 3) * 400;
+            var y = 146 + (i / 3) * 208;
+            if (suiGalleryTextures[i] == false) Engine.draw({texture: suiGalleryUI.lock, x: x, y: y});
+            else {
+                suiGalleryDrawFit(suiGalleryTextures[i], x,y,352,184);
+                Engine.draw({texture: suiGalleryLabels[i], x: x+12, y: y+152});
+            }
+            if (suiGalleryFocus == i || suiGalleryHit(x,y,352,184)) Engine.draw({texture: suiGalleryUI.focus, x: x, y: y});
+        }
+    }
+    Engine.draw({texture: suiGalleryUI.back, x: 1080, y: 32});
+    if (suiGalleryPage > 0) Engine.draw({texture: suiGalleryUI.prev, x: 64, y: 588});
+    if ((suiGalleryPage + 1)*6 < Array.size(suiCGOrder)) Engine.draw({texture: suiGalleryUI.next, x: 1040, y: 588});
+    Engine.draw({texture: suiGalleryPageText, x: 554, y: 602});
+}

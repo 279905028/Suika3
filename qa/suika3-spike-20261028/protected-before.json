@@ -1,0 +1,3790 @@
+[
+  {
+    "path": "SDK/.DS_Store",
+    "sha256": "696bd2b9669b82845c3e269bd67dee5b25c7f6c88176498d259bf59ff79b1690"
+  },
+  {
+    "path": "SDK/README.md",
+    "sha256": "8a21c1ae71756ab863cb0d4da597749b023e83b0d1e8e14a03afd708ccc1060f"
+  },
+  {
+    "path": "SDK/android/app/build.gradle",
+    "sha256": "3eb69f9ff92279dbc95767d0d7bb0eb2d7c6195f0904712ef684d8387ce09579"
+  },
+  {
+    "path": "SDK/android/app/libs/Suika3.aar",
+    "sha256": "a3d93d77de1878722742ac7bd4e10959e1d362841638de0205e88da9915dac04"
+  },
+  {
+    "path": "SDK/android/app/src/main/AndroidManifest.xml",
+    "sha256": "a4aa505c15ce61c8667900c819fd70bc8aac52db52ff8d913d74a556b4eb8a60"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/config.ini",
+    "sha256": "567c3e819308f80d6e8b5c61b6857a7475450355c4ee2148a5eae05201641d1c"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/bg/black.png",
+    "sha256": "b904f7b454f83c1a1304031467b1d12a62aa859ccc811d1a84b1c261efa59985"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/bg/school.png",
+    "sha256": "04e15c239ffbcfd43a883f36c5745a5646d96dc6cbfc2f17efabdae4d9e60c97"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/bg/white.png",
+    "sha256": "cb7deaecc8dc88f3b2a61ff83f33edf8983b6198bb218bdce3cfa7426d92b441"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/aki/aki-normal.png",
+    "sha256": "c532761ee831291b167f52eb9391965b3a98d9b4e03dd42a3aa01c3f99a797b0"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/midori/eye/midori-normal.png",
+    "sha256": "49e828cae39df46f771f80a9cee7a93ac86f53d09bc469cc7f2b48cc327b51f1"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/midori/eye/midori-smile.png",
+    "sha256": "f4cda146acf9299a4a23d518af37579c0abd97f040281d9f7bc0477e50c50477"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/midori/lip/midori-happy.png",
+    "sha256": "f268fc4f6de6c6f3b571019d018f0ab7e325c2d293a0335ed7b92d27df8a03bc"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/midori/lip/midori-normal.png",
+    "sha256": "c83331b11a099b3f43c64fcf1289ba49e27ab6b2cc7f3f8eb3ea445861af96cb"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/midori/lip/midori-smile.png",
+    "sha256": "68eafa4c58ad982b0e0b5a4e5d45cc9463a47a972fea918d039866d78e4a14c4"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/midori/midori-happy.png",
+    "sha256": "bf85789466b26509580f3f64a3e8a667b05e1fa3d9628c72767c56002827f2ae"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/midori/midori-normal.png",
+    "sha256": "eeded572c7c12630455ae7d1ddb04b2bfcb8c5e953d3ecc7e4883e182c6f08a6"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/midori/midori-smile.png",
+    "sha256": "08880dae953d6b516f7f5994be134190524e53163dfe90f5219057f77c69ce80"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/eye/xiaoling-normal.png",
+    "sha256": "81a280425365dd7acb890c16261f24a5520632ba8d396ffc99fd015284130369"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/eye/xiaoling-smile.png",
+    "sha256": "fd2850b8a9b734c4ed84532fece1f23ba7f94d866eb2a5da8db4317caa30eeef"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/lip/xiaoling-happy.png",
+    "sha256": "5f51124991b937e1c8b48edb5d6f8ff540863d963806eb17e86e11b766390ba6"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/lip/xiaoling-normal.png",
+    "sha256": "ba87ed63e102c6f9916d2194991e7884e23258215f57e35341b8dfb7f9a9bae0"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/lip/xiaoling-smile.png",
+    "sha256": "d1766390c5bdaa1695015f87d550967ef1c6fc6db7acef2cb24ca169baf65842"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/xiaoling-happy.png",
+    "sha256": "b0b193bffce952367daf205291eb0494dd7782d2539e7bab6f7879c3d97cd9ae"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/xiaoling-normal.png",
+    "sha256": "0be5c8ab38d9ab64dd2bf8fc1ec3df85dcc7d86b528a9dee2ba2e983a46cf3dd"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/xiaoling-smile.png",
+    "sha256": "601272dbc836fe72387bc2ccafef3c74599e418c36d30094e04480b27a4f19f8"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/main.ray",
+    "sha256": "fc53a339e9d47caaa8f8a84122d6bbab465ebb3cbed97c3641e96b42895d16ec"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/sound/bgm/afternoon2.ogg",
+    "sha256": "84fdd9c70dd96f3d6dbb6f56458ab966e70ad041cf534fc7b63fe8174d2c45c0"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/sound/bgm/start.ogg",
+    "sha256": "e1941828271a74debd36549d375127b4a7dd9a9d0fe56b7935b4f92fe4c35186"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/sound/se/click.ogg",
+    "sha256": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/sound/voice/001.ogg",
+    "sha256": "22b7e58b5d43042e9ffc363870c1427b9ccc56b41160a06601dcac82ddfce76c"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/sound/voice/002.ogg",
+    "sha256": "83afe794c4816c9382a83f7f1059fb74bbff89e58fe8b60564b2135bb5f8cdbe"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/sound/voice/003.ogg",
+    "sha256": "671b517bc8633568f06a8d19339d79e2094f690df9eac66df2eb662ab8b47434"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/sound/voice/004.ogg",
+    "sha256": "aad4aa728c5a838f8891f81a55e751ac3150d57d4512e9e8ae6ecfbb51e97bcf"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/sound/voice/005.ogg",
+    "sha256": "f99e01cb8f9cd3cfac0e4f65474ddca73b1f2a56d16aeb9e33d14e67cca50313"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/start.novel",
+    "sha256": "edc81bfb88d24e0b5df0e86ac1f8457547ad4e8cba5d8df29312df959772e34c"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/choose/button.ogg",
+    "sha256": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/choose/hover-nvl.anime",
+    "sha256": "310dedfc8ee7b0b1a6b37046f27f33faa6a6e900b7b53918ab96bf76bdc959bf"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/choose/hover.anime",
+    "sha256": "45489265e000fc5ec6e77428a29db5119e8c9f5e30ba66d54ccac88b14327433"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/choose/hover.png",
+    "sha256": "2dc3d2d77e158a7158344ef09d86647098fabc1edb6f980721b7d5f9310b0579"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/choose/idle-nvl.anime",
+    "sha256": "db923bfaa206ef32b3951a5319fb76748a4c0bbb4b321705c54ad24035fed007"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/choose/idle.anime",
+    "sha256": "db923bfaa206ef32b3951a5319fb76748a4c0bbb4b321705c54ad24035fed007"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/choose/idle.png",
+    "sha256": "9f751c81d7a84d5021b8b8d095cd3b265ef23a06b414b21df6de44b62f10a691"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/choose/nvl.png",
+    "sha256": "0ee6f26b1537f12ff92eeacec650eaacf7347ea9715f7470a5a212b37a2242dc"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-bar-hover.png",
+    "sha256": "39d1c1befcb8b2a248b350a5c44dbd969c64cda4cd1269d0c384303495856107"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-bar-idle.png",
+    "sha256": "a5fb0b2ef12b8a18822653b8a6979a405e148999181888c6c72dffb20cebec39"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-bar-knob.png",
+    "sha256": "2f60ff31a228a76be4f0db02ba0ee977242cdcdad62e0642b9873bc5175e478b"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-base.png",
+    "sha256": "a89ff94a6f73235f0743508c4631cba2789c3790d213cedc0d0020a88d623503"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-en-active.png",
+    "sha256": "27d2de692139415a2c26801c1310c0bff9b74e9f73bb10da65e517e9dd8d795b"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-en-hover.png",
+    "sha256": "e018b8efebf9cd659b28a867dd6cf074d75a27d46ac68d33fb1ac7c8feb2edbc"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-en-idle.png",
+    "sha256": "39e0e89e2020427254b91307b8aaa20a5ab2ed3af6e16e838ad3cd455b4ef2ab"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-jp-active.png",
+    "sha256": "51ae248f296ca7c766602d074807cbc99ada33530f003fa4ffba2c0db1439014"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-jp-hover.png",
+    "sha256": "94feeb39ca37e2c320b81cc440e6399cded1b99e3458896023d77eeb93cea025"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-jp-idle.png",
+    "sha256": "d0bdd01302b37f649d4dc29598731f81f3b8555cbd68d5344a46405915b9b1a5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-zh-active.png",
+    "sha256": "bba2cf205a120cbd7c48033a5d3702f03c4c754618484bca3f608b639155d9c1"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-zh-hover.png",
+    "sha256": "479c53cf0fe7df3cfa3311013a174ef796fca7331aea7dcc7ee62fb5785c65ed"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-lang-zh-idle.png",
+    "sha256": "ac27401cf434d1eae21850a5e65b5ddd08ddf4566af5d1ed7eb0dd208a6b8563"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config-preview.png",
+    "sha256": "44b6f404ed90f368b44bb7f4e0e8a43c3f4fb043e55c5adcf60653cd5638d311"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/config.gui",
+    "sha256": "7b0e51cf3fed8ca43b13f5e9b5c2d9327853064002e6d623810787d0a7b933fb"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/reset-hover.png",
+    "sha256": "b7a5b3d656b2d5c182b12e03aa1845aad8bb129a2e8f427f1a53fbd6c3d1f8d8"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/config/reset-idle.png",
+    "sha256": "dfe432e066aa824f0167cc341b0855ea97302d4f94f563f08f0b16f6714c6820"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/effect/rain/1.png",
+    "sha256": "dc979a979ca343ad7c90c369573c3ce0c37bf96e50936a0de9e9008950eab089"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/effect/rain/rain.anime",
+    "sha256": "79552dcfe5b18a1e808d8f63d9196daf0b05075ddee57840538d4c8f941b2e47"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/emoji/heart.png",
+    "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/emoji/sweat.png",
+    "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/font/NotoSansCJK-Medium.ttc",
+    "sha256": "8c1dc004996029f804283dd398ca2a05d4d33ebcba5c0d25ea13fd2026572279"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/font/OFL.txt",
+    "sha256": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/history/history-bar-hover.png",
+    "sha256": "332accb0795144d4507ce2df66ed87e0a12328c4dbde061e8db2ae2ec0e1c548"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/history/history-bar-idle.png",
+    "sha256": "4dfd90348d66c5f5f2900b1e712cda2d2fb0f66df4393745829ab07c41494a67"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/history/history-bar-knob.png",
+    "sha256": "c9dba440e39080ac63f81e8d17adb82911b9e37aa335a0b0a5f1519e411baeb1"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/history/history-base.png",
+    "sha256": "c61876ed73190544ca27d654c2a18b8ec604094e2fd940e7b2d1c6ac7d491f57"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/history/history-item-hover.png",
+    "sha256": "f0eba004bf9c2198f736611d9af98090dc2163d040d03608667c445b30e3ea35"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/history/history-item-idle.png",
+    "sha256": "ac6e36650ea279c8c5a4d1657258559bf6e632e8e71724fa64632c7fbc73736b"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/history/history.gui",
+    "sha256": "84cf59900ff22f71c9bf8f24519a415072bda707365d937d077081d4dc6e1513"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-base.png",
+    "sha256": "c8c13ee8a2d0858ee14c3a9d5bf32d111d27d83327baa455db0c33f613a0c7ae"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-item-hover.png",
+    "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-item-idle.png",
+    "sha256": "5a1a47debacda82ec3fde46ed0d6fa91a1e90a212364b68e102cde872b5d6f8c"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-item-press.png",
+    "sha256": "9df7a4da62ffe87946f2ca3d6a31e77c9ac9fb4ab059d968242ba1ecdd48dce6"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-1-active.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-1-hover.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-1-idle.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-2-active.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-2-hover.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-2-idle.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-3-active.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-3-hover.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-3-idle.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-4-active.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-4-hover.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-4-idle.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-5-active.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-5-hover.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-5-idle.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-active.anime",
+    "sha256": "09403573ce9a0df32391bd05ea01a437e406c0b41ac66bf4d061bafe2e332343"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load-page-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/load/load.gui",
+    "sha256": "f24140a32a634f28b14dd1c7fb65499ea11476faac217eac90ad0fb32b8c702d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/auto-hide.anime",
+    "sha256": "aafcaef7dee99190c67dee085635deab7c970df8a5506f59bea53bd001a70638"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/auto-show.anime",
+    "sha256": "ad583cb6c4d0c2bc4b0ebf1e23563fff90fc6b358dc65e9f0f68151afa78140f"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/auto.png",
+    "sha256": "c823a7fa74494a9819c4f240acecd98d26cbab600b3497aa0ed3118dea29111b"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/click1.png",
+    "sha256": "43ce9a3731838f3481e530fe125773b7f5c8db43fb9184580181b9984d7c30b8"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/click2.png",
+    "sha256": "c7504eeb994eb453cf0ba3e846771eb820e499f5d84900a6fa8a5d98a379c160"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/msgbox-hide.anime",
+    "sha256": "9c74ccdb7563de38eedad0e6cb6c531a9c4cb75859778b6517fdb97f2b225730"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/msgbox-nvl.png",
+    "sha256": "c39b6b56babac1c36e2c87278b9aa9a1e0dc3f5ad0797e9f27c1398d90e38e08"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/msgbox-show.anime",
+    "sha256": "48a3ed7f3f0e8ff8b7f38ddfdc454f9244eae18e0e10672a7e3f089a2ef441d5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/msgbox.png",
+    "sha256": "a47ed1a581de0451e632df10a3d4c3a85efa8e7dbcaf6eb2a5f86cc968023b90"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/namebox-hide.anime",
+    "sha256": "fec381f50991299a1ebd4e74559f17b651d441052d1278dd2c24304205cdd3a4"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/namebox-show.anime",
+    "sha256": "ed5b41f0f02fa71251b5bfef8678fd9ac4c67d17725870adc17bcdd59c5fb0c3"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/namebox.png",
+    "sha256": "2e6bfba7f163983a59557e8a9797232a8dc01fd56344c9b9a615f5f12e4adea5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/skip-hide.anime",
+    "sha256": "c3667e1d56acda32397d138465d4edfba790b90861bb17de637f015aee661a2e"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/skip-show.anime",
+    "sha256": "26d42b1592dc4aadd5ed1753a7d95f8e61f0f9eeb9eb916e3724d0390de4fe56"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/message/skip.png",
+    "sha256": "57a1bb95102844dc7cfa9bd49b14c4e3b206640a0d5a83806929643255907407"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/plugins/testplugin/testplugin.ray",
+    "sha256": "3efdef7e233fdf1da2f1395d12320017962cb7f025ca9df66b1facef4ef43126"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-base.png",
+    "sha256": "38ff4c09a925b65fa2ad22f9a0869385fff1effd4aea1681deb73ad5d51036ea"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-item-hover.png",
+    "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-item-idle.png",
+    "sha256": "b516a11e0005eb2eefd14b4d0187318d21baeeb79199091dd5addbab2c5af75c"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-item-press.png",
+    "sha256": "54b0253f5f7066e01b9fbf483d5b1969a52b708e594d79218a66e99be6b6117b"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-1-active.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-1-hover.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-1-idle.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-1.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-2-active.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-2-hover.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-2-idle.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-2.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-3-active.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-3-hover.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-3-idle.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-3.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-4-active.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-4-hover.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-4-idle.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-4.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-5-active.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-5-hover.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-5-idle.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-5.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-active.anime",
+    "sha256": "09403573ce9a0df32391bd05ea01a437e406c0b41ac66bf4d061bafe2e332343"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save-page-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/save/save.gui",
+    "sha256": "b8532873ecd5787e7c219b5f97d06f212e9d15d3de18420347235dfbedc16d51"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysbtn/anime-appear.anime",
+    "sha256": "4ace3c6b873bcf9bca9544c50467b49420b40f883f5441eda0fcfd29642651b4"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysbtn/anime-fadein.anime",
+    "sha256": "83d6acf3290211d471d5e10dbd0a26084bfe454b55a8f826b01d901082d8870a"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysbtn/anime-fadeout.anime",
+    "sha256": "202d26fabdda2545f0ee4a12d3f142a50eef1d0f0b99886041948f4b24eb1dbf"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysbtn/anime-hover.anime",
+    "sha256": "8ab8bf8a69ee2e70b718ae91e9624b366556c2eddb8d5a62e5e3db28e7c5acdc"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysbtn/anime-out.anime",
+    "sha256": "a2ad8f235c147b612728c7e94d92bcc74f270212163a655f0c87b05e6a16d9d0"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysbtn/sysbtn-hover.png",
+    "sha256": "073581e04dd51ef70f888442797c4b801cfb1bbf149d296658f124aee0da75df"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysbtn/sysbtn-idle.anime",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysbtn/sysbtn-idle.png",
+    "sha256": "bd320d405c5c39223f3336e1a90b7cd1ef3b837878d6bc4ca1236c1d158deedd"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/auto-hover.png",
+    "sha256": "ff08e252b6d131ed9804c01fabd52363f2b0f43c3d8111127d2e50d099024426"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/auto-idle.png",
+    "sha256": "a9654c7977cefb55a4267f24eb6daf19ef52a40bcdf17d00d51d140f26ec17ee"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/auto-press.png",
+    "sha256": "fd29934a90e73b8b8803edd3247d85f3d54bac398926273c0fb631fa426098aa"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/base.png",
+    "sha256": "303a656348b0dc99e6f8e649671644db321808f00d12e8740c1797f6f78f208e"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/config-hover.png",
+    "sha256": "530b056e24d293e03823ec94715c9d22b939b143ac4df89e25516687b5bbc099"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/config-idle.png",
+    "sha256": "2f932213ef31839f3fcd032e4f2b373ea04e68733fe76d8c8901afcba0fbbeb2"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/config-press.png",
+    "sha256": "b891bba3c88795ad99234a827f6c7047f40d6272624565be06154517bd0f86e7"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/item-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/item-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/load-hover.png",
+    "sha256": "cbe30aee878d360eb58ed1279388ce2ad7119d01263682f294f5bb22eb1d107e"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/load-idle.png",
+    "sha256": "ddee9dda5c2ab3a6948db7d0ef15950eae0db9027c118c604af57e72a886c7f6"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/load-press.png",
+    "sha256": "625a3ea9668183cefe1403cb558d22beb57bf7b035640213a9c003bee7c329b7"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/log-hover.png",
+    "sha256": "2ff1f11693d1948485b98584ab61e0eb4ceaa1d757581b5e87864434a027082a"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/log-idle.png",
+    "sha256": "060f3b7524d4c5441f0ff1b4f0474753bfa6c65d9a45dfce4a455032d89a1918"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/log-press.png",
+    "sha256": "7b0cbc668a27a25f34e6ed74cd9a9a1731ae5f7acab6e92b6ca2ec7ad84051d0"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/save-hover.png",
+    "sha256": "c7cba12897265da73e740e828a62c08d59d4449dd7ffa978ec6b402c2a684719"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/save-idle.anime",
+    "sha256": "a39822a23db011a1b6116f3b24e752a5c72e5aa8ef35fdc122a16c6f45f4b298"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/save-idle.png",
+    "sha256": "04851a0d5470d20663601d1c61efe28e5f4f7e8ba9d19f1b333ff81823e7090d"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/save-press.png",
+    "sha256": "3f74d0ab6f83b639881e44c33d2ec57254222a66bd050db04745d8b88bb6de17"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/skip-hover.png",
+    "sha256": "6fb72c303ee8b38d6d76506f7e7cd7e096d52ac7fc1bc6a46ce81fe734a1b806"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/skip-idle.png",
+    "sha256": "1aa5189407f4226dfebf5fd357118c16548a6f98875d9d663925828b1cadcd9f"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/skip-press.png",
+    "sha256": "8afa466c4ab757defd7d63a998ea966a109734b7d5e8f721ba949def60ffca70"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/sysmenu/sysmenu.gui",
+    "sha256": "54622624b0ff5c2ecdafb265082eef7327a8948d61f6c3663686ccc96d1e0520"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/title/base.png",
+    "sha256": "1f827ed117e8857d73b131cae054a93e6a3843960b221d777ad89ec1bf167cb0"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/title/start-hover.png",
+    "sha256": "122cb56a0f364ffb40426cf711684ec646e3085189d1430e965a470b640b3ce7"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/title/start-idle.png",
+    "sha256": "b1c16fd24b9d4154dd541a274e436fbf317d2faa6dec710f4027ed44e1f5d869"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/title/start-press.png",
+    "sha256": "1fd678ac5f4d3ce447151be8c47fbaed7d530a1fc72c95bc22c26a28c5f97678"
+  },
+  {
+    "path": "SDK/android/app/src/main/assets/system/title/title.gui",
+    "sha256": "3c3319fc9012f45bf3ccd13a3b749f2a4a6ed3bd2f7c709546a6267dbc320ce3"
+  },
+  {
+    "path": "SDK/android/app/src/main/cpp/CMakeLists.txt",
+    "sha256": "fc08c86396486273a5b95f4fb042b635c68ac33291d056e032a83e091934e578"
+  },
+  {
+    "path": "SDK/android/app/src/main/cpp/library.c",
+    "sha256": "d0a1389a5c153f0dc3af12f00cb6125a0bae69240451d9e270853e9773b5d52b"
+  },
+  {
+    "path": "SDK/android/app/src/main/res/drawable/icon.png",
+    "sha256": "d72482e2067b5d0bce1f3f40c639b2b322da86e175378bad7e3161aac7e19331"
+  },
+  {
+    "path": "SDK/android/build.bat",
+    "sha256": "ef3f57c6f8b36c9f4e6804af2fd5b496e93a78f286bb42a084a11123a3252aa9"
+  },
+  {
+    "path": "SDK/android/build.gradle",
+    "sha256": "3fea159f51ef10cb67842f0018ec99183ea9e148a4a5ec5eb18d9d02ffd559b9"
+  },
+  {
+    "path": "SDK/android/build.sh",
+    "sha256": "236ff2a2a265211214e4c130dd71a6dfd3c823b2cf1224d754ce6667c4a9bed4"
+  },
+  {
+    "path": "SDK/android/gradle/wrapper/gradle-wrapper.jar",
+    "sha256": "f4d953f31fbf6c38a8c330d19171c8ba6e0d1ff59d4d5c5c2d3ed821c9f3d5a3"
+  },
+  {
+    "path": "SDK/android/gradle/wrapper/gradle-wrapper.properties",
+    "sha256": "82a631cc7f0136ae659784912edf361dcca6cf559bb6ec79b98fc8545f3feff2"
+  },
+  {
+    "path": "SDK/android/gradle.properties",
+    "sha256": "eda49bc71847cdb4cb9b246d3478cd5552faddb1cf57abdae34790c59ca18256"
+  },
+  {
+    "path": "SDK/android/gradlew",
+    "sha256": "8c4c04dd98db1f00d49456dd162418a39312c5cb13d6865d783deb483bd1ed22"
+  },
+  {
+    "path": "SDK/android/gradlew.bat",
+    "sha256": "0008d785920c9ff5cab17403e0270ccc7ceee8e169b6d67a82d96a5475fec5c9"
+  },
+  {
+    "path": "SDK/android/local.properties",
+    "sha256": "9a8a4a2c479e2da65a8dc57dafb4baea61d68354650ad98431a890f28aa38556"
+  },
+  {
+    "path": "SDK/android/settings.gradle",
+    "sha256": "4b919cfffaed71637d1ee9c89f21f4247273e14eb8433afdcd0672eba906b41f"
+  },
+  {
+    "path": "SDK/documents/404.html",
+    "sha256": "dd1acbb37ac6871b446110c001b63cba3a1cc40fb6d9985f72de2c9ed2a4504f"
+  },
+  {
+    "path": "SDK/documents/anime.html",
+    "sha256": "04254d62ab47acb218d02e6220f8bcb4489612f396d98cbdc64a0b156f2a924e"
+  },
+  {
+    "path": "SDK/documents/aot.html",
+    "sha256": "702b96323f5744cf079374b86485a8cb3c8cd7e6f34cea3ebd5ed1f21a89900a"
+  },
+  {
+    "path": "SDK/documents/assets/images/favicon.png",
+    "sha256": "775cdc94bdb1649596d6b1cbb07a7dd64e4febb6f391faf328fb416b8845c95b"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/bundle.4e0fa4ba.min.js",
+    "sha256": "512369605d113c508e30655c2570d7bac9d7657f180e150d0f70d07333d3ae7b"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/bundle.4e0fa4ba.min.js.map",
+    "sha256": "fd9fcababc66b05ac33b1dc40fc7a95fcee61abca0807356cca1b78012e49773"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.ar.min.js",
+    "sha256": "89a1dcb094a8491d968c151ab254a03195c87ff2adaa2408c769928284847125"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.da.min.js",
+    "sha256": "2a12734048eae74e0a05e5c108fdf24c2b71dfcd8da712336ca9e3d27ab92956"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.de.min.js",
+    "sha256": "bcaa7c5c19bc730c05bb91e22ae0e386e1ac4a0580c42b7d94f9b8757aadadab"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.du.min.js",
+    "sha256": "452da04fe449b9c65c61384fec582dc63824bd4e559fae2c3926a7790b68e976"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.es.min.js",
+    "sha256": "dec4ec90bd6f478ca3e65636a8e3fedf512b23d01a51a01d7e7822f67ebbaaf8"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.fi.min.js",
+    "sha256": "681541fcf5b1987ad8b00766e9c06389ecf99c3d7ae817fa891f923f691b8668"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.fr.min.js",
+    "sha256": "4dd56aa2551e770ad26ef4b85092cd31447671e0e84b39514278547f54177377"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.he.min.js",
+    "sha256": "3f7d5c28ada94d78c9bc8041e271c355800ba36dbab98ad95d57b6bc25993621"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.hi.min.js",
+    "sha256": "631fff52e3623f2dfba35af076c6b8b5a450eeffe30a5cfac7458dab77cbe0a6"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.hu.min.js",
+    "sha256": "876c969bbf4a2b84738f4e0a14922ee331cb7c2193a621f65db7f836fdd33a38"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.hy.min.js",
+    "sha256": "0efbcb902bdb7ec0dddffa5e2ba347b74c49ffc5f43fd73ffed83528eba12e95"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.it.min.js",
+    "sha256": "00a5073df2e922e5fded1c5a4d4011aec02472ab9d9182a7c6508d60b625c453"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.ja.min.js",
+    "sha256": "c4fded308f633681a6ed53b6c10d8ca5916fdfd50f6b82ec914d725be0cb8bd6"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.jp.min.js",
+    "sha256": "04114edc36dc114edce5afbb3c7f795f45c77d8673c1edcdca5675ddab5d5199"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.kn.min.js",
+    "sha256": "a064d0d7438334957a442b626140fb72f4ede8ebe17eb5c4e25682d87c88bbf8"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.ko.min.js",
+    "sha256": "73d1bdb1de4aef6c5920f516924c5ab1c440db50a6f5c6126bd0fb7cf5d37664"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.multi.min.js",
+    "sha256": "9761f475ae79f36420ff714df9950efb264effcf9230efd55b511a0de899e979"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.nl.min.js",
+    "sha256": "399ef26d61ed2d5806f58ea723dfaca09f4a7c9b51e315bdd17482c8e3013a3e"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.no.min.js",
+    "sha256": "57f9db9290f9ed36080755f53ee342a04f55a5954e4add915d1c301a37464573"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.pt.min.js",
+    "sha256": "3a25d2abaa23063cf13fc56c19ae4cc5050cb6215115e9d08f4a6f4b78780067"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.ro.min.js",
+    "sha256": "cfa26a8ea4293d81e8547ba2321d703a0fe9881f0721fca5f33a3f80bf156ee9"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.ru.min.js",
+    "sha256": "50ef3c0fab4a3f2d260e8973c63363aa0dcf02b559ea9d11d5f02b6197585c17"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.sa.min.js",
+    "sha256": "41c558a4355c3eae8f0a27ae870712738f14b0bd88038042ac8ab8b411e5817f"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.stemmer.support.min.js",
+    "sha256": "2e7213605846a18014ec750910cb18a8a4c60bb23200103b3fad9ef27b10c705"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.sv.min.js",
+    "sha256": "942b165bcc8218e3246fc4735af9b1c2f66514366d0000be051bf1bb896d413e"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.ta.min.js",
+    "sha256": "17a32dc49c27c9d27945625a7e8d066d42f64ea1ce5a5b34de427723fbf9ae2a"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.te.min.js",
+    "sha256": "079c8fcf028aeef388e98ec8607c8ea50ba9660c46797c8a119d05f8f8205838"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.th.min.js",
+    "sha256": "348461266843e316b26820004a96d3fd87a1579829d244ce510c17293eef0439"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.tr.min.js",
+    "sha256": "e8bf57b1033b8bd92ea04a94c533015aa1a7f0a8d6830194b974e94e1e4aca3c"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.vi.min.js",
+    "sha256": "2e39c3fd7305f6e66fc0424796a7696cb8e36dc0f5c3a83ea1bc44dfe3fecb56"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/min/lunr.zh.min.js",
+    "sha256": "d8c5b72c36ec9c3197602546e9ba5b57ada3f725d564a551bf16eabafb548e88"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/tinyseg.js",
+    "sha256": "1b044c239610ef65fceff6039567442bb1692d413f5ee8686fee81b1a3067761"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/lunr/wordcut.js",
+    "sha256": "3d38fde68af348915288e45eeb338af8256c8611fa2cfef307e6ab95808b3567"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/workers/search.a264c092.min.js",
+    "sha256": "c25bd97392fad0313bb2ebf4106a344ae66cc76baf8d20ea7cc815ffc71dba71"
+  },
+  {
+    "path": "SDK/documents/assets/javascripts/workers/search.a264c092.min.js.map",
+    "sha256": "87cee9907a342e849db150ef5f8aec6da6f3e4b071d15dcfc60cd1e3434bfcf8"
+  },
+  {
+    "path": "SDK/documents/assets/stylesheets/main.9f615399.min.css",
+    "sha256": "9f6153991d042ccaaccd0f003c54bad722035366d23436ee7c6c92cdd1c309f5"
+  },
+  {
+    "path": "SDK/documents/assets/stylesheets/main.9f615399.min.css.map",
+    "sha256": "f2975195a6646ffca4a1df278665d420781da82474fc85e48376635cc174257a"
+  },
+  {
+    "path": "SDK/documents/assets/stylesheets/palette.649f08f9.min.css",
+    "sha256": "649f08f977ec1bf5e056714d4e6f49d979236aec6399e75f72d09461ab8cd53b"
+  },
+  {
+    "path": "SDK/documents/assets/stylesheets/palette.649f08f9.min.css.map",
+    "sha256": "76580b3b2b8e37837a8b2c4d6d2111b5bc1b976e689c4d8458e81f759b551848"
+  },
+  {
+    "path": "SDK/documents/build.html",
+    "sha256": "fb7cc3609fff98d4d77480420a929988e4ba16c07c786f1c3a8062069a71e5ba"
+  },
+  {
+    "path": "SDK/documents/config.html",
+    "sha256": "39368d2eb29cb55437c36535e8e8b30160b89662a3ffff644c9af8914571bbd0"
+  },
+  {
+    "path": "SDK/documents/design.html",
+    "sha256": "e21ceb3cdc307d1770cbe3ed0a0fae0c12c114cfa0a0807bb0acde0790de2eef"
+  },
+  {
+    "path": "SDK/documents/distribute.html",
+    "sha256": "21d5ceb0e34a7800c573802e783e10e72a86b3bdd5bed167d0377c3c58fc6417"
+  },
+  {
+    "path": "SDK/documents/eye-blink.html",
+    "sha256": "5330753547c435565289257b643a46c841ef60a17938ba6c034848476accc70b"
+  },
+  {
+    "path": "SDK/documents/getting-started.html",
+    "sha256": "82e07860dca2eb90b0c3c9aab5d8934e15b844cf79e096e49ddacca7ad6d8a11"
+  },
+  {
+    "path": "SDK/documents/gui.html",
+    "sha256": "544e595ee17d47e26c4a364e93d307238d0d7259a423493fb934f1aff23de474"
+  },
+  {
+    "path": "SDK/documents/index.html",
+    "sha256": "d053f3e78bb2ba1c994b9ba78720e4fe3a7b5290510b407375517ec7f2c53ab9"
+  },
+  {
+    "path": "SDK/documents/intro.html",
+    "sha256": "2157114fd5207afdff2797248f6a6f37290bf7874ff6355aa4c4d2780feedba8"
+  },
+  {
+    "path": "SDK/documents/lip-sync.html",
+    "sha256": "02aec9cfb48acf39af3bd759adca3b1f3718c73d7ba7ed5049a020f497d4f6b1"
+  },
+  {
+    "path": "SDK/documents/novelml-syntax.html",
+    "sha256": "ff99433eef4d23916a468ab502090fff4fac58e5e84fa32b070f9dd5c463422c"
+  },
+  {
+    "path": "SDK/documents/novelml-tags.html",
+    "sha256": "8476a7f32d649d558eb8d9dff51d9e14776c9aa129e2d6b26cf2aee3d03bc8a3"
+  },
+  {
+    "path": "SDK/documents/nvl-mode.html",
+    "sha256": "da667df54dfc76f7ea4547f376cf370539e38ce84fd75ffd7d6a49019fdac58f"
+  },
+  {
+    "path": "SDK/documents/plugin.html",
+    "sha256": "58996d87d32031a17c5bbef701414cd268fb5c8a63a327939bf14381bf466cb4"
+  },
+  {
+    "path": "SDK/documents/ray-2d-api.html",
+    "sha256": "18c0e1f1f310941829cce1baa94b49bdd451fc6bf425924cdba606f2d6308453"
+  },
+  {
+    "path": "SDK/documents/ray-samples.html",
+    "sha256": "8685beebfbb5f132ba8b1a8498cf385484bc1f3bc5f55502b5f2a5cf249b5ca8"
+  },
+  {
+    "path": "SDK/documents/ray-syntax.html",
+    "sha256": "3362b869cd2d3c3f12b1df19fca10c4cc661ce81fe2a3daf0cdfbdd22fe74949"
+  },
+  {
+    "path": "SDK/documents/ray-vn-api.html",
+    "sha256": "0fc57c77ba7e9d78a299acba8fef3248d0b6e61c233581102faf8e826db5ab23"
+  },
+  {
+    "path": "SDK/documents/search/search_index.json",
+    "sha256": "ef6b3d8d6a330e08bd2badc8a0d29ec8ca513dd7b6e240dce29889f55553e7b0"
+  },
+  {
+    "path": "SDK/documents/sitemap.xml",
+    "sha256": "33f57ce73974cb669d46fcc9027a02c65647fc797b4cb9c86f503eea5ff11a62"
+  },
+  {
+    "path": "SDK/documents/sitemap.xml.gz",
+    "sha256": "4e4f56182f5af165fe4822ff176471eb13d5253964d4e3386e62235ac4c492de"
+  },
+  {
+    "path": "SDK/documents/srs.html",
+    "sha256": "21aace97391605db71ee3c5f2adc6f918a277c467b0134f9eb18af6d8a020b26"
+  },
+  {
+    "path": "SDK/documents/sysmenu.html",
+    "sha256": "f77c756681af1913cc3a1930d7b616f9b538b51dfc468595d2029cfaecd95c0c"
+  },
+  {
+    "path": "SDK/documents/tutorial.html",
+    "sha256": "37aad4a8d01e8544983cfdfcc40ab06478d14f8bd9f54663b196a027abd3e074"
+  },
+  {
+    "path": "SDK/ios/ExportOptions.plist",
+    "sha256": "5be90c17cd29013b20c5a0d8335a5962afe286d9e89a8105783e751abd3aaad3"
+  },
+  {
+    "path": "SDK/ios/Game/Assets.xcassets/AccentColor.colorset/Contents.json",
+    "sha256": "9af65086fa30b49252fae1a1225731691de794f7775af74d71befeb507d12b7c"
+  },
+  {
+    "path": "SDK/ios/Game/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "sha256": "a93d059297d6108109bbdf46e8424cb53bb45d141a98de62122c9ab8ec8709b7"
+  },
+  {
+    "path": "SDK/ios/Game/Assets.xcassets/Contents.json",
+    "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+  },
+  {
+    "path": "SDK/ios/Game/Game.entitlements",
+    "sha256": "476a55c835e39b5334f09ecec40b574c0c959137d5d5e6273050cfa24870280d"
+  },
+  {
+    "path": "SDK/ios/Game/Info.plist",
+    "sha256": "9bfdf6b0aee9d0967c3557d0f7df17b3e929d33921bae7a1155bad1bb6672975"
+  },
+  {
+    "path": "SDK/ios/Game/LaunchScreen.storyboard",
+    "sha256": "9a0305a48e7fcc0aa2c69e5dd371b80b793fbbdf6ed9324cfb9527d78da0ef85"
+  },
+  {
+    "path": "SDK/ios/Game/Suika3.xcframework/Info.plist",
+    "sha256": "4ec40c64c3e1ed700a7221d06d9c61f79510dac3ebc9db7481db07b6000df47c"
+  },
+  {
+    "path": "SDK/ios/Game/Suika3.xcframework/ios-arm64/Headers/suika3/suika3.h",
+    "sha256": "8428606c8580f5fc5dd182f67f66d4ef6c7481e920373d6c7963e2cbbf465865"
+  },
+  {
+    "path": "SDK/ios/Game/Suika3.xcframework/ios-arm64/libsuika3.a",
+    "sha256": "0c75821aaa3b0cc98cb9098ab2f726f135c8603f0e2f39feb4329ac862a556f1"
+  },
+  {
+    "path": "SDK/ios/Game/Suika3.xcframework/ios-arm64_x86_64-simulator/Headers/suika3/suika3.h",
+    "sha256": "8428606c8580f5fc5dd182f67f66d4ef6c7481e920373d6c7963e2cbbf465865"
+  },
+  {
+    "path": "SDK/ios/Game/Suika3.xcframework/ios-arm64_x86_64-simulator/libsuika3.a",
+    "sha256": "4b82a4d82a59236f1f59b0c3adcc0091875e600376ed2dc6aec2e2676ac7a1bd"
+  },
+  {
+    "path": "SDK/ios/Game/Suika3.xcframework/macos-arm64_x86_64/Headers/suika3/suika3.h",
+    "sha256": "8428606c8580f5fc5dd182f67f66d4ef6c7481e920373d6c7963e2cbbf465865"
+  },
+  {
+    "path": "SDK/ios/Game/Suika3.xcframework/macos-arm64_x86_64/libsuika3.a",
+    "sha256": "5f391c71d86bbb26b0e7e8d73bd2857ffa4712f3553b174ccb445d01fb01a4a3"
+  },
+  {
+    "path": "SDK/ios/Game/library.c",
+    "sha256": "a05d9aedd10454839b70cf966d360cff54e39fe35bfd062d55819509924736ff"
+  },
+  {
+    "path": "SDK/ios/Game.xcodeproj/project.pbxproj",
+    "sha256": "65e848e8bf87e427fad332bb579cfa57d223f0e12cbe488b74dc61e9a0941cb8"
+  },
+  {
+    "path": "SDK/ios/Resources/assets.arc",
+    "sha256": "d5d87c5f6922805a97d6b56eca36dc3833b316aeeb7acc71837597a22d3ce4ed"
+  },
+  {
+    "path": "SDK/ios/build.sh",
+    "sha256": "ea600eacd3aa0bdb202bf7f596a5dc40be0ebb1cdc3d832ae8ef53a768fb52fa"
+  },
+  {
+    "path": "SDK/linux/Suika3-aarch64.flatpak",
+    "sha256": "aba3334f519d54176f66497f703e18f1b33698a166ef0d52d5719dd7d93b5c01"
+  },
+  {
+    "path": "SDK/linux/Suika3-x86_64.flatpak",
+    "sha256": "b3a045cd9182bad7c46101cad16811ded5c19a16e0933060d23f2d229196d73f"
+  },
+  {
+    "path": "SDK/linux/suika3-wrapper.sh",
+    "sha256": "d232e37e731717ebf2b3b7964ff0122784d4c79b71d419b5020b852665b7275d"
+  },
+  {
+    "path": "SDK/macos/Suika3.dmg",
+    "sha256": "50bb5f90c635f85c5af081568586099191d9514cd515f40279784867bf05eb84"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Assets.xcassets/AccentColor.colorset/Contents.json",
+    "sha256": "9af65086fa30b49252fae1a1225731691de794f7775af74d71befeb507d12b7c"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Assets.xcassets/AppIcon.appiconset/Contents.json",
+    "sha256": "a93d059297d6108109bbdf46e8424cb53bb45d141a98de62122c9ab8ec8709b7"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Assets.xcassets/Contents.json",
+    "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Game.entitlements",
+    "sha256": "d3caf7b18ce9d0f5cec8282c4d25866d5829ec636b09a1e248e858bc9d39dbc3"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Suika3.xcframework/Info.plist",
+    "sha256": "4ec40c64c3e1ed700a7221d06d9c61f79510dac3ebc9db7481db07b6000df47c"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Suika3.xcframework/ios-arm64/Headers/suika3/suika3.h",
+    "sha256": "8428606c8580f5fc5dd182f67f66d4ef6c7481e920373d6c7963e2cbbf465865"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Suika3.xcframework/ios-arm64/libsuika3.a",
+    "sha256": "0c75821aaa3b0cc98cb9098ab2f726f135c8603f0e2f39feb4329ac862a556f1"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Suika3.xcframework/ios-arm64_x86_64-simulator/Headers/suika3/suika3.h",
+    "sha256": "8428606c8580f5fc5dd182f67f66d4ef6c7481e920373d6c7963e2cbbf465865"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Suika3.xcframework/ios-arm64_x86_64-simulator/libsuika3.a",
+    "sha256": "4b82a4d82a59236f1f59b0c3adcc0091875e600376ed2dc6aec2e2676ac7a1bd"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Suika3.xcframework/macos-arm64_x86_64/Headers/suika3/suika3.h",
+    "sha256": "8428606c8580f5fc5dd182f67f66d4ef6c7481e920373d6c7963e2cbbf465865"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/Suika3.xcframework/macos-arm64_x86_64/libsuika3.a",
+    "sha256": "5f391c71d86bbb26b0e7e8d73bd2857ffa4712f3553b174ccb445d01fb01a4a3"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game/library.c",
+    "sha256": "a05d9aedd10454839b70cf966d360cff54e39fe35bfd062d55819509924736ff"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game.xcodeproj/project.pbxproj",
+    "sha256": "6cfc5b74557a8364823400cf102169e4ceb8718e0478b7d9699d7aa88748d33c"
+  },
+  {
+    "path": "SDK/macos/project/macos/Game.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+    "sha256": "7f3b00b5c3fdb45242d7b87e1e5c4e25d1fa8129a16c94295ecc4e8ea2235c5f"
+  },
+  {
+    "path": "SDK/macos/project/macos/Resources/assets.arc",
+    "sha256": "d5d87c5f6922805a97d6b56eca36dc3833b316aeeb7acc71837597a22d3ce4ed"
+  },
+  {
+    "path": "SDK/macos/root/bin/suika3",
+    "sha256": "e53c15076b9bb87267b6f1885c9c2edb9755c386b47c9faaf50e3f374f28bcc5"
+  },
+  {
+    "path": "SDK/macos/root/bin/suika3-aotc",
+    "sha256": "5fcd784dcffb54e9ad3472989c8e5370b8288b4b73a40c0651b62815469168ff"
+  },
+  {
+    "path": "SDK/macos/root/bin/suika3-bcc",
+    "sha256": "f9a98d3be4f970d24f235305bac22b9c5b70a99771ad37901b76738811050fd0"
+  },
+  {
+    "path": "SDK/macos/root/bin/suika3-pack",
+    "sha256": "ca490cf5173dc7083da96a74175a1b9b2426a54aa1e0f2302807dc96d2d4e04a"
+  },
+  {
+    "path": "SDK/macos/root/share/man/man1/suika3.1",
+    "sha256": "31fefcbcf5a71a975c32a8059c480cf852371bde09c180fce6de976ef6b947f6"
+  },
+  {
+    "path": "SDK/macos/suika3-aotc",
+    "sha256": "5fcd784dcffb54e9ad3472989c8e5370b8288b4b73a40c0651b62815469168ff"
+  },
+  {
+    "path": "SDK/macos/suika3-bcc",
+    "sha256": "f9a98d3be4f970d24f235305bac22b9c5b70a99771ad37901b76738811050fd0"
+  },
+  {
+    "path": "SDK/macos/suika3-pack",
+    "sha256": "ca490cf5173dc7083da96a74175a1b9b2426a54aa1e0f2302807dc96d2d4e04a"
+  },
+  {
+    "path": "SDK/macos/suika3-wrapper.sh",
+    "sha256": "c3d7a8e9e4896f1bdaa9b4d66c5f11998a472f6fe7170a26233a56328e5754f2"
+  },
+  {
+    "path": "SDK/msdos/suika-98.exe",
+    "sha256": "a249f2196a89b048e29764d4e2ab13aa8dc49b279622b441ee703a81e663058c"
+  },
+  {
+    "path": "SDK/msdos/suika-at.exe",
+    "sha256": "633047a496b6179d72e7a7566652701a1235a2a10ab82763f163c8f0630071ea"
+  },
+  {
+    "path": "SDK/openharmony/AppScope/app.json5",
+    "sha256": "70443ec29ab5137f9a8e41a4cec274dfc9beb95b936a17653e6ac93427b2132e"
+  },
+  {
+    "path": "SDK/openharmony/AppScope/resources/base/element/string.json",
+    "sha256": "177f93a50d4ceb2d8c2a44a546783fc98e36cc928afacdc18ce5439a86b82273"
+  },
+  {
+    "path": "SDK/openharmony/AppScope/resources/base/media/background.png",
+    "sha256": "497edeafc51af043c73e72ee8c4fbac4663357ef1ba275c0289f31a366b26239"
+  },
+  {
+    "path": "SDK/openharmony/AppScope/resources/base/media/foreground.png",
+    "sha256": "61a796d5a9fc5853e9cd0f1e3e730896a6bcb94a34a37765c4d1959bf64dfa43"
+  },
+  {
+    "path": "SDK/openharmony/AppScope/resources/base/media/layered_image.json",
+    "sha256": "3d18dcd7ed9e7d3d2c54c20cb80a44eb4877c661131c68a46e20b6e19d0bb476"
+  },
+  {
+    "path": "SDK/openharmony/build-profile.json5",
+    "sha256": "048913bccb5b6959441b32e6d6450b36d098800d08be106a876751debb2242c3"
+  },
+  {
+    "path": "SDK/openharmony/code-linter.json5",
+    "sha256": "f557c3bcdb40c64c986bffed9628310cc7a79fb7d2642c1c8b8d265fd92e25ad"
+  },
+  {
+    "path": "SDK/openharmony/entry/.gitignore",
+    "sha256": "c4868dbab8112ec2283b23448ad795702a967bb55229333ab317cbeb8c3ad690"
+  },
+  {
+    "path": "SDK/openharmony/entry/build-profile.json5",
+    "sha256": "c363d778759e718ed68f4d8f06a723f8997796ad35d3b6a4cef79549d528c5c4"
+  },
+  {
+    "path": "SDK/openharmony/entry/hvigorfile.ts",
+    "sha256": "67cc02aa9ccf2f3a2c58e7fee4b6e3a00ffb6128c11f76b7fec5f00ad2d63581"
+  },
+  {
+    "path": "SDK/openharmony/entry/libs/arm64-v8a/placeholder",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "SDK/openharmony/entry/libs/x86_64/placeholder",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "SDK/openharmony/entry/obfuscation-rules.txt",
+    "sha256": "0091c5622ede377a9ae1260f2499815afc3bcc5d1ab79a3d910ff7b456c98518"
+  },
+  {
+    "path": "SDK/openharmony/entry/oh-package-lock.json5",
+    "sha256": "a41da4710d8601906ca6b0b7f9f6faa20c40fdbc4e8f684e8747d5f1c04d2521"
+  },
+  {
+    "path": "SDK/openharmony/entry/oh-package.json5",
+    "sha256": "7aa1e513cce0e0e1e612f0abd3fa5a085eda6a9a8ef11ed9fba73b4cb7967413"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/CMakeLists.txt",
+    "sha256": "ba3e72a09c34016ff772a807f4f9b52b6daac5db383ef4548ef718a1f8bb9343"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/FindSuika3.cmake",
+    "sha256": "e9e5cadfa8ad859146463f16eeaff4c56c97d495e49ac8674c1e77dae7663b0f"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/library.c",
+    "sha256": "d0a1389a5c153f0dc3af12f00cb6125a0bae69240451d9e270853e9773b5d52b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/napi_init.cpp",
+    "sha256": "301796a04c772a52ed076fb16f1a687ab64b769d6061ce9f3b47d0f10f383fc5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/include/noct/c89compat.h",
+    "sha256": "7b0bdb38d1e5c569aa7b5a928f13537a801ed47ab174e84fd5e7af4b53e4745b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/include/noct/executor.h",
+    "sha256": "8efb8b6f8e318b1e7d96509ad702ef85cad93a6269562cdc9a678796d2042df3"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/include/noct/noct.h",
+    "sha256": "0db47df6f8bfb83a2d9597f5ad6dedea9166186545c049fb52d1d470d134dada"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/include/playfield/c89compat.h",
+    "sha256": "15d2f01d85740893a8d07bedc0a54fe731a79d5adc8519b6f16a8d7aae192eb4"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/include/playfield/playfield.h",
+    "sha256": "46e01bfe2fbcb2e7f80ad9e463800af5354d6335f0b98c49853dcff3935e5899"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/include/strato/c89compat.h",
+    "sha256": "41953f05c22c35c747ac8833eae4486db1621bd9e155a378fb42c9202c4018d5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/include/strato/strato.h",
+    "sha256": "6095997d6fcf9ec99d6654043bd4416ed9fd8f6f44158ab2fae5af8e56284719"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/include/suika3/suika3.h",
+    "sha256": "8428606c8580f5fc5dd182f67f66d4ef6c7481e920373d6c7963e2cbbf465865"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/lib/arm64-v8a/libsuika3.a",
+    "sha256": "10f070f41e4cc73d45b21d5b0a06c417c4e2ac0c3e4362fe4b48050c908c9e07"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/third_party/suika3/lib/x86_64/libsuika3.a",
+    "sha256": "5998daf408710fdc5c9dcce10fea471c90939f10440058850cf2dd1fb32b23e5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/types/libengine/Index.d.ts",
+    "sha256": "6caf70c5cff23da0d03fc2b0861fe7eefc1f14943a0e4797cf6f1649a8ad174f"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/types/libengine/oh-package.json5",
+    "sha256": "3866f86907e5fef0cb96aec5555df34bb9f3887401d57dad3457afa1caec6ccc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/types/libentry/Index.d.ts",
+    "sha256": "173c1170a72165778149380156dc67857e95c2bfdef2905d4528ddc52b2574e0"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/cpp/types/libentry/oh-package.json5",
+    "sha256": "028b2aeb3416ad46e258ee82b1e19d51468547f14e45d8f689ca2692e2e6645e"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/ets/entryability/EntryAbility.ets",
+    "sha256": "0292623260ad50b5c5fbe884254e257cc82f8b7a342f2b850190578243b1ce85"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/ets/entrybackupability/EntryBackupAbility.ets",
+    "sha256": "ae94f286234d41ad5fa9f70bfd11f61e2f609994d6f16687d1ce4ec442115e5d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/ets/pages/Index.ets",
+    "sha256": "46dfc29936dafbf37d5cd52595d927b65f4ac4644532f872c4bdbe24ec6043a4"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/module.json5",
+    "sha256": "2c0c2f7034424e1dad514317b1cac614d9f141f0e4c16ab6e1a2c777c0e701ce"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/element/color.json",
+    "sha256": "40dce2e2f49200e562eaad66d43f3212f4371cafd2c83c558c2cb6401434ef52"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/element/float.json",
+    "sha256": "3ad317ad8b46b69683fce81f0e5b808dfde752594ec0334691917af7b5383a12"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/element/string.json",
+    "sha256": "81bbf40885bba06ac0693ce6de7a48cff51c0a01ff6c00cdb32ecda53709e3f3"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/media/background.png",
+    "sha256": "497edeafc51af043c73e72ee8c4fbac4663357ef1ba275c0289f31a366b26239"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/media/foreground.png",
+    "sha256": "57e549283f255505a649042f36a1d6793c307a69a94c9fa7e27a38af38ddbe8c"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/media/layered_image.json",
+    "sha256": "3d18dcd7ed9e7d3d2c54c20cb80a44eb4877c661131c68a46e20b6e19d0bb476"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/media/startIcon.png",
+    "sha256": "567c7c0c7a321ca180e010ad880f0f7519f6d351ac2b9665e2ee710e7cfe7778"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/profile/backup_config.json",
+    "sha256": "9447811de67729d65b6c0d76720ce53dad97f70a4b0bbe1946a8dc1c7de717f5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/base/profile/main_pages.json",
+    "sha256": "f21984fb1d5096f0db41314da0bb94c573e7ad018e5afae3044f8d5ff71b0bfc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/dark/element/color.json",
+    "sha256": "d6be6bfa9cfce320f6bb9b92dd09614db27e16bc2c9c90edf057bd682dc3ecbf"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/config.ini",
+    "sha256": "567c3e819308f80d6e8b5c61b6857a7475450355c4ee2148a5eae05201641d1c"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/bg/black.png",
+    "sha256": "b904f7b454f83c1a1304031467b1d12a62aa859ccc811d1a84b1c261efa59985"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/bg/school.png",
+    "sha256": "04e15c239ffbcfd43a883f36c5745a5646d96dc6cbfc2f17efabdae4d9e60c97"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/bg/white.png",
+    "sha256": "cb7deaecc8dc88f3b2a61ff83f33edf8983b6198bb218bdce3cfa7426d92b441"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/aki/aki-normal.png",
+    "sha256": "c532761ee831291b167f52eb9391965b3a98d9b4e03dd42a3aa01c3f99a797b0"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/eye/midori-normal.png",
+    "sha256": "49e828cae39df46f771f80a9cee7a93ac86f53d09bc469cc7f2b48cc327b51f1"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/eye/midori-smile.png",
+    "sha256": "f4cda146acf9299a4a23d518af37579c0abd97f040281d9f7bc0477e50c50477"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/lip/midori-happy.png",
+    "sha256": "f268fc4f6de6c6f3b571019d018f0ab7e325c2d293a0335ed7b92d27df8a03bc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/lip/midori-normal.png",
+    "sha256": "c83331b11a099b3f43c64fcf1289ba49e27ab6b2cc7f3f8eb3ea445861af96cb"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/lip/midori-smile.png",
+    "sha256": "68eafa4c58ad982b0e0b5a4e5d45cc9463a47a972fea918d039866d78e4a14c4"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/midori-happy.png",
+    "sha256": "bf85789466b26509580f3f64a3e8a667b05e1fa3d9628c72767c56002827f2ae"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/midori-normal.png",
+    "sha256": "eeded572c7c12630455ae7d1ddb04b2bfcb8c5e953d3ecc7e4883e182c6f08a6"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/midori-smile.png",
+    "sha256": "08880dae953d6b516f7f5994be134190524e53163dfe90f5219057f77c69ce80"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/eye/xiaoling-normal.png",
+    "sha256": "81a280425365dd7acb890c16261f24a5520632ba8d396ffc99fd015284130369"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/eye/xiaoling-smile.png",
+    "sha256": "fd2850b8a9b734c4ed84532fece1f23ba7f94d866eb2a5da8db4317caa30eeef"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/lip/xiaoling-happy.png",
+    "sha256": "5f51124991b937e1c8b48edb5d6f8ff540863d963806eb17e86e11b766390ba6"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/lip/xiaoling-normal.png",
+    "sha256": "ba87ed63e102c6f9916d2194991e7884e23258215f57e35341b8dfb7f9a9bae0"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/lip/xiaoling-smile.png",
+    "sha256": "d1766390c5bdaa1695015f87d550967ef1c6fc6db7acef2cb24ca169baf65842"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/xiaoling-happy.png",
+    "sha256": "b0b193bffce952367daf205291eb0494dd7782d2539e7bab6f7879c3d97cd9ae"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/xiaoling-normal.png",
+    "sha256": "0be5c8ab38d9ab64dd2bf8fc1ec3df85dcc7d86b528a9dee2ba2e983a46cf3dd"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/xiaoling-smile.png",
+    "sha256": "601272dbc836fe72387bc2ccafef3c74599e418c36d30094e04480b27a4f19f8"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/main.ray",
+    "sha256": "fc53a339e9d47caaa8f8a84122d6bbab465ebb3cbed97c3641e96b42895d16ec"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/placeholder",
+    "sha256": "94dd7130aa494fbd2dcedcb809e1d8ce708858e2b3cd27207c89b113bea8be7d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/sound/bgm/afternoon2.ogg",
+    "sha256": "84fdd9c70dd96f3d6dbb6f56458ab966e70ad041cf534fc7b63fe8174d2c45c0"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/sound/bgm/start.ogg",
+    "sha256": "e1941828271a74debd36549d375127b4a7dd9a9d0fe56b7935b4f92fe4c35186"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/sound/se/click.ogg",
+    "sha256": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/sound/voice/001.ogg",
+    "sha256": "22b7e58b5d43042e9ffc363870c1427b9ccc56b41160a06601dcac82ddfce76c"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/sound/voice/002.ogg",
+    "sha256": "83afe794c4816c9382a83f7f1059fb74bbff89e58fe8b60564b2135bb5f8cdbe"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/sound/voice/003.ogg",
+    "sha256": "671b517bc8633568f06a8d19339d79e2094f690df9eac66df2eb662ab8b47434"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/sound/voice/004.ogg",
+    "sha256": "aad4aa728c5a838f8891f81a55e751ac3150d57d4512e9e8ae6ecfbb51e97bcf"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/sound/voice/005.ogg",
+    "sha256": "f99e01cb8f9cd3cfac0e4f65474ddca73b1f2a56d16aeb9e33d14e67cca50313"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/start.novel",
+    "sha256": "edc81bfb88d24e0b5df0e86ac1f8457547ad4e8cba5d8df29312df959772e34c"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/button.ogg",
+    "sha256": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/hover-nvl.anime",
+    "sha256": "310dedfc8ee7b0b1a6b37046f27f33faa6a6e900b7b53918ab96bf76bdc959bf"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/hover.anime",
+    "sha256": "45489265e000fc5ec6e77428a29db5119e8c9f5e30ba66d54ccac88b14327433"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/hover.png",
+    "sha256": "2dc3d2d77e158a7158344ef09d86647098fabc1edb6f980721b7d5f9310b0579"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/idle-nvl.anime",
+    "sha256": "db923bfaa206ef32b3951a5319fb76748a4c0bbb4b321705c54ad24035fed007"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/idle.anime",
+    "sha256": "db923bfaa206ef32b3951a5319fb76748a4c0bbb4b321705c54ad24035fed007"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/idle.png",
+    "sha256": "9f751c81d7a84d5021b8b8d095cd3b265ef23a06b414b21df6de44b62f10a691"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/nvl.png",
+    "sha256": "0ee6f26b1537f12ff92eeacec650eaacf7347ea9715f7470a5a212b37a2242dc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-bar-hover.png",
+    "sha256": "39d1c1befcb8b2a248b350a5c44dbd969c64cda4cd1269d0c384303495856107"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-bar-idle.png",
+    "sha256": "a5fb0b2ef12b8a18822653b8a6979a405e148999181888c6c72dffb20cebec39"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-bar-knob.png",
+    "sha256": "2f60ff31a228a76be4f0db02ba0ee977242cdcdad62e0642b9873bc5175e478b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-base.png",
+    "sha256": "a89ff94a6f73235f0743508c4631cba2789c3790d213cedc0d0020a88d623503"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-en-active.png",
+    "sha256": "27d2de692139415a2c26801c1310c0bff9b74e9f73bb10da65e517e9dd8d795b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-en-hover.png",
+    "sha256": "e018b8efebf9cd659b28a867dd6cf074d75a27d46ac68d33fb1ac7c8feb2edbc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-en-idle.png",
+    "sha256": "39e0e89e2020427254b91307b8aaa20a5ab2ed3af6e16e838ad3cd455b4ef2ab"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-jp-active.png",
+    "sha256": "51ae248f296ca7c766602d074807cbc99ada33530f003fa4ffba2c0db1439014"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-jp-hover.png",
+    "sha256": "94feeb39ca37e2c320b81cc440e6399cded1b99e3458896023d77eeb93cea025"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-jp-idle.png",
+    "sha256": "d0bdd01302b37f649d4dc29598731f81f3b8555cbd68d5344a46405915b9b1a5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-zh-active.png",
+    "sha256": "bba2cf205a120cbd7c48033a5d3702f03c4c754618484bca3f608b639155d9c1"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-zh-hover.png",
+    "sha256": "479c53cf0fe7df3cfa3311013a174ef796fca7331aea7dcc7ee62fb5785c65ed"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-zh-idle.png",
+    "sha256": "ac27401cf434d1eae21850a5e65b5ddd08ddf4566af5d1ed7eb0dd208a6b8563"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-preview.png",
+    "sha256": "44b6f404ed90f368b44bb7f4e0e8a43c3f4fb043e55c5adcf60653cd5638d311"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config.gui",
+    "sha256": "7b0e51cf3fed8ca43b13f5e9b5c2d9327853064002e6d623810787d0a7b933fb"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/reset-hover.png",
+    "sha256": "b7a5b3d656b2d5c182b12e03aa1845aad8bb129a2e8f427f1a53fbd6c3d1f8d8"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/reset-idle.png",
+    "sha256": "dfe432e066aa824f0167cc341b0855ea97302d4f94f563f08f0b16f6714c6820"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/effect/rain/1.png",
+    "sha256": "dc979a979ca343ad7c90c369573c3ce0c37bf96e50936a0de9e9008950eab089"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/effect/rain/rain.anime",
+    "sha256": "79552dcfe5b18a1e808d8f63d9196daf0b05075ddee57840538d4c8f941b2e47"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/emoji/heart.png",
+    "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/emoji/sweat.png",
+    "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/font/NotoSansCJK-Medium.ttc",
+    "sha256": "8c1dc004996029f804283dd398ca2a05d4d33ebcba5c0d25ea13fd2026572279"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/font/OFL.txt",
+    "sha256": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-bar-hover.png",
+    "sha256": "332accb0795144d4507ce2df66ed87e0a12328c4dbde061e8db2ae2ec0e1c548"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-bar-idle.png",
+    "sha256": "4dfd90348d66c5f5f2900b1e712cda2d2fb0f66df4393745829ab07c41494a67"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-bar-knob.png",
+    "sha256": "c9dba440e39080ac63f81e8d17adb82911b9e37aa335a0b0a5f1519e411baeb1"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-base.png",
+    "sha256": "c61876ed73190544ca27d654c2a18b8ec604094e2fd940e7b2d1c6ac7d491f57"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-item-hover.png",
+    "sha256": "f0eba004bf9c2198f736611d9af98090dc2163d040d03608667c445b30e3ea35"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-item-idle.png",
+    "sha256": "ac6e36650ea279c8c5a4d1657258559bf6e632e8e71724fa64632c7fbc73736b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history.gui",
+    "sha256": "84cf59900ff22f71c9bf8f24519a415072bda707365d937d077081d4dc6e1513"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-base.png",
+    "sha256": "c8c13ee8a2d0858ee14c3a9d5bf32d111d27d83327baa455db0c33f613a0c7ae"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-item-hover.png",
+    "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-item-idle.png",
+    "sha256": "5a1a47debacda82ec3fde46ed0d6fa91a1e90a212364b68e102cde872b5d6f8c"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-item-press.png",
+    "sha256": "9df7a4da62ffe87946f2ca3d6a31e77c9ac9fb4ab059d968242ba1ecdd48dce6"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-1-active.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-1-hover.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-1-idle.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-2-active.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-2-hover.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-2-idle.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-3-active.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-3-hover.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-3-idle.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-4-active.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-4-hover.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-4-idle.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-5-active.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-5-hover.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-5-idle.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-active.anime",
+    "sha256": "09403573ce9a0df32391bd05ea01a437e406c0b41ac66bf4d061bafe2e332343"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load.gui",
+    "sha256": "f24140a32a634f28b14dd1c7fb65499ea11476faac217eac90ad0fb32b8c702d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/auto-hide.anime",
+    "sha256": "aafcaef7dee99190c67dee085635deab7c970df8a5506f59bea53bd001a70638"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/auto-show.anime",
+    "sha256": "ad583cb6c4d0c2bc4b0ebf1e23563fff90fc6b358dc65e9f0f68151afa78140f"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/auto.png",
+    "sha256": "c823a7fa74494a9819c4f240acecd98d26cbab600b3497aa0ed3118dea29111b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/click1.png",
+    "sha256": "43ce9a3731838f3481e530fe125773b7f5c8db43fb9184580181b9984d7c30b8"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/click2.png",
+    "sha256": "c7504eeb994eb453cf0ba3e846771eb820e499f5d84900a6fa8a5d98a379c160"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/msgbox-hide.anime",
+    "sha256": "9c74ccdb7563de38eedad0e6cb6c531a9c4cb75859778b6517fdb97f2b225730"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/msgbox-nvl.png",
+    "sha256": "c39b6b56babac1c36e2c87278b9aa9a1e0dc3f5ad0797e9f27c1398d90e38e08"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/msgbox-show.anime",
+    "sha256": "48a3ed7f3f0e8ff8b7f38ddfdc454f9244eae18e0e10672a7e3f089a2ef441d5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/msgbox.png",
+    "sha256": "a47ed1a581de0451e632df10a3d4c3a85efa8e7dbcaf6eb2a5f86cc968023b90"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/namebox-hide.anime",
+    "sha256": "fec381f50991299a1ebd4e74559f17b651d441052d1278dd2c24304205cdd3a4"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/namebox-show.anime",
+    "sha256": "ed5b41f0f02fa71251b5bfef8678fd9ac4c67d17725870adc17bcdd59c5fb0c3"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/namebox.png",
+    "sha256": "2e6bfba7f163983a59557e8a9797232a8dc01fd56344c9b9a615f5f12e4adea5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/skip-hide.anime",
+    "sha256": "c3667e1d56acda32397d138465d4edfba790b90861bb17de637f015aee661a2e"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/skip-show.anime",
+    "sha256": "26d42b1592dc4aadd5ed1753a7d95f8e61f0f9eeb9eb916e3724d0390de4fe56"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/skip.png",
+    "sha256": "57a1bb95102844dc7cfa9bd49b14c4e3b206640a0d5a83806929643255907407"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/plugins/testplugin/testplugin.ray",
+    "sha256": "3efdef7e233fdf1da2f1395d12320017962cb7f025ca9df66b1facef4ef43126"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-base.png",
+    "sha256": "38ff4c09a925b65fa2ad22f9a0869385fff1effd4aea1681deb73ad5d51036ea"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-item-hover.png",
+    "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-item-idle.png",
+    "sha256": "b516a11e0005eb2eefd14b4d0187318d21baeeb79199091dd5addbab2c5af75c"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-item-press.png",
+    "sha256": "54b0253f5f7066e01b9fbf483d5b1969a52b708e594d79218a66e99be6b6117b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-1-active.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-1-hover.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-1-idle.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-1.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-2-active.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-2-hover.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-2-idle.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-2.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-3-active.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-3-hover.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-3-idle.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-3.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-4-active.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-4-hover.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-4-idle.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-4.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-5-active.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-5-hover.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-5-idle.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-5.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-active.anime",
+    "sha256": "09403573ce9a0df32391bd05ea01a437e406c0b41ac66bf4d061bafe2e332343"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save.gui",
+    "sha256": "b8532873ecd5787e7c219b5f97d06f212e9d15d3de18420347235dfbedc16d51"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/anime-appear.anime",
+    "sha256": "4ace3c6b873bcf9bca9544c50467b49420b40f883f5441eda0fcfd29642651b4"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/anime-fadein.anime",
+    "sha256": "83d6acf3290211d471d5e10dbd0a26084bfe454b55a8f826b01d901082d8870a"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/anime-fadeout.anime",
+    "sha256": "202d26fabdda2545f0ee4a12d3f142a50eef1d0f0b99886041948f4b24eb1dbf"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/anime-hover.anime",
+    "sha256": "8ab8bf8a69ee2e70b718ae91e9624b366556c2eddb8d5a62e5e3db28e7c5acdc"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/anime-out.anime",
+    "sha256": "a2ad8f235c147b612728c7e94d92bcc74f270212163a655f0c87b05e6a16d9d0"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/sysbtn-hover.png",
+    "sha256": "073581e04dd51ef70f888442797c4b801cfb1bbf149d296658f124aee0da75df"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/sysbtn-idle.anime",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/sysbtn-idle.png",
+    "sha256": "bd320d405c5c39223f3336e1a90b7cd1ef3b837878d6bc4ca1236c1d158deedd"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/auto-hover.png",
+    "sha256": "ff08e252b6d131ed9804c01fabd52363f2b0f43c3d8111127d2e50d099024426"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/auto-idle.png",
+    "sha256": "a9654c7977cefb55a4267f24eb6daf19ef52a40bcdf17d00d51d140f26ec17ee"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/auto-press.png",
+    "sha256": "fd29934a90e73b8b8803edd3247d85f3d54bac398926273c0fb631fa426098aa"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/base.png",
+    "sha256": "303a656348b0dc99e6f8e649671644db321808f00d12e8740c1797f6f78f208e"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/config-hover.png",
+    "sha256": "530b056e24d293e03823ec94715c9d22b939b143ac4df89e25516687b5bbc099"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/config-idle.png",
+    "sha256": "2f932213ef31839f3fcd032e4f2b373ea04e68733fe76d8c8901afcba0fbbeb2"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/config-press.png",
+    "sha256": "b891bba3c88795ad99234a827f6c7047f40d6272624565be06154517bd0f86e7"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/item-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/item-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/load-hover.png",
+    "sha256": "cbe30aee878d360eb58ed1279388ce2ad7119d01263682f294f5bb22eb1d107e"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/load-idle.png",
+    "sha256": "ddee9dda5c2ab3a6948db7d0ef15950eae0db9027c118c604af57e72a886c7f6"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/load-press.png",
+    "sha256": "625a3ea9668183cefe1403cb558d22beb57bf7b035640213a9c003bee7c329b7"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/log-hover.png",
+    "sha256": "2ff1f11693d1948485b98584ab61e0eb4ceaa1d757581b5e87864434a027082a"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/log-idle.png",
+    "sha256": "060f3b7524d4c5441f0ff1b4f0474753bfa6c65d9a45dfce4a455032d89a1918"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/log-press.png",
+    "sha256": "7b0cbc668a27a25f34e6ed74cd9a9a1731ae5f7acab6e92b6ca2ec7ad84051d0"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/save-hover.png",
+    "sha256": "c7cba12897265da73e740e828a62c08d59d4449dd7ffa978ec6b402c2a684719"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/save-idle.anime",
+    "sha256": "a39822a23db011a1b6116f3b24e752a5c72e5aa8ef35fdc122a16c6f45f4b298"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/save-idle.png",
+    "sha256": "04851a0d5470d20663601d1c61efe28e5f4f7e8ba9d19f1b333ff81823e7090d"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/save-press.png",
+    "sha256": "3f74d0ab6f83b639881e44c33d2ec57254222a66bd050db04745d8b88bb6de17"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/skip-hover.png",
+    "sha256": "6fb72c303ee8b38d6d76506f7e7cd7e096d52ac7fc1bc6a46ce81fe734a1b806"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/skip-idle.png",
+    "sha256": "1aa5189407f4226dfebf5fd357118c16548a6f98875d9d663925828b1cadcd9f"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/skip-press.png",
+    "sha256": "8afa466c4ab757defd7d63a998ea966a109734b7d5e8f721ba949def60ffca70"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/sysmenu.gui",
+    "sha256": "54622624b0ff5c2ecdafb265082eef7327a8948d61f6c3663686ccc96d1e0520"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/base.png",
+    "sha256": "1f827ed117e8857d73b131cae054a93e6a3843960b221d777ad89ec1bf167cb0"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/start-hover.png",
+    "sha256": "122cb56a0f364ffb40426cf711684ec646e3085189d1430e965a470b640b3ce7"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/start-idle.png",
+    "sha256": "b1c16fd24b9d4154dd541a274e436fbf317d2faa6dec710f4027ed44e1f5d869"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/start-press.png",
+    "sha256": "1fd678ac5f4d3ce447151be8c47fbaed7d530a1fc72c95bc22c26a28c5f97678"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/title.gui",
+    "sha256": "3c3319fc9012f45bf3ccd13a3b749f2a4a6ed3bd2f7c709546a6267dbc320ce3"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/mock/Libentry.mock.ets",
+    "sha256": "7ca36ffd82d47ecc5eb5c0882bd9ff38428a8e33420f4b5ad5f601b9b1685e6b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/mock/mock-config.json5",
+    "sha256": "3cbaf91863073adfcf07ce7ca0908ca58e2ce53d60cedf68d14c48b0898c41ac"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/ohosTest/ets/test/Ability.test.ets",
+    "sha256": "8600c6681413e2ee3283671c6a67c2bb1421726559163aca8596ff17d2a389d6"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/ohosTest/ets/test/List.test.ets",
+    "sha256": "c2300b6cb78c4e2469e72ce7d0d79f5207bc5004f14cdac0bbf859da248dad15"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/ohosTest/module.json5",
+    "sha256": "a5b9e3dc7979f961a92ae014ad0f380212f6e83ea6090d512800250640b9bcc0"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/test/List.test.ets",
+    "sha256": "268e4980ef2fdfe0c7ff6a19402bc214ab90f25807998098d2513cc50e9dd86b"
+  },
+  {
+    "path": "SDK/openharmony/entry/src/test/LocalUnit.test.ets",
+    "sha256": "ab72e1fa03e7c61ec51a52fe56fd366f66aa1a4415e18c7953daf5be14f488b7"
+  },
+  {
+    "path": "SDK/openharmony/hvigor/hvigor-config.json5",
+    "sha256": "552cf5b6a68052f8a193182be16b005754d30f8bf092dca4752168893ac5459b"
+  },
+  {
+    "path": "SDK/openharmony/hvigorfile.ts",
+    "sha256": "383227660c07fa9335caf3e65b8975c65fcbcc8b910ba84d0bc67b22afcd56cd"
+  },
+  {
+    "path": "SDK/openharmony/oh-package.json5",
+    "sha256": "80db68dce2405f93f69f9de434ff36962d12689be21b227affc03899451a0be6"
+  },
+  {
+    "path": "SDK/openharmony/oh_modules/.ohpm/lock.json5",
+    "sha256": "2d1db4f375df726b66d898848028c025a092a564aaf7b4d64e2a2ce91a975f38"
+  },
+  {
+    "path": "SDK/unity/Assets/MainScene.unity",
+    "sha256": "1bfbb5bb97d9c2034f91314dcbc2436bf9778c896e835ac6b84cc14c16de4179"
+  },
+  {
+    "path": "SDK/unity/Assets/Plugins/GameCoreXboxSeries/suika3.lib",
+    "sha256": "88f877171ee97b3b723bed0fc643b61ab95c29469f1402f6cd034d7f0e96c6f1"
+  },
+  {
+    "path": "SDK/unity/Assets/Plugins/PS5/libsuika3.a",
+    "sha256": "ffad23cef579ce0aefd197fa824873ad7545ad1f140f50a223ab0f0020875440"
+  },
+  {
+    "path": "SDK/unity/Assets/Plugins/Switch/libsuika3.a",
+    "sha256": "005e66e70240c24694e0a8a2bd2a314293a72a96ebea3ebc6e42b5cc9ebf9715"
+  },
+  {
+    "path": "SDK/unity/Assets/Plugins/x86_64/libstrato.dll",
+    "sha256": "f719cbdcddb6eb9314956f191de7435983df82ea5621c73fa633e2a4059d21ba"
+  },
+  {
+    "path": "SDK/unity/Assets/Resources/AddShader.shader",
+    "sha256": "1d87f7691947dfc39b481116c2e01a51dfc3162c94030bb7b4d2295ab79761ea"
+  },
+  {
+    "path": "SDK/unity/Assets/Resources/DimShader.shader",
+    "sha256": "ee4e519c70bf19490d38c3d17016256b6c17a2b43079ef96a8972f537f97fc61"
+  },
+  {
+    "path": "SDK/unity/Assets/Resources/MeltShader.shader",
+    "sha256": "9a523ff643716c5c43b977fd08a1b71da7974e2f16cfed21c99e64bb4b5884ef"
+  },
+  {
+    "path": "SDK/unity/Assets/Resources/NormalShader.shader",
+    "sha256": "bedce17a6fd0dd04a6e8f0e3ae239aa273f90a35067fea1206d310a7fc0ff982"
+  },
+  {
+    "path": "SDK/unity/Assets/Resources/RuleShader.shader",
+    "sha256": "8163ad8ccf012df34203712cf76a287cb289c40b3f5ce3442ffe08135825980b"
+  },
+  {
+    "path": "SDK/unity/Assets/StratoScript.cs",
+    "sha256": "43afef633db0e3b3873b5f80ab240240a5039c04698fe71a42708f5609c89324"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/config.ini",
+    "sha256": "567c3e819308f80d6e8b5c61b6857a7475450355c4ee2148a5eae05201641d1c"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/bg/black.png",
+    "sha256": "b904f7b454f83c1a1304031467b1d12a62aa859ccc811d1a84b1c261efa59985"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/bg/school.png",
+    "sha256": "04e15c239ffbcfd43a883f36c5745a5646d96dc6cbfc2f17efabdae4d9e60c97"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/bg/white.png",
+    "sha256": "cb7deaecc8dc88f3b2a61ff83f33edf8983b6198bb218bdce3cfa7426d92b441"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/aki/aki-normal.png",
+    "sha256": "c532761ee831291b167f52eb9391965b3a98d9b4e03dd42a3aa01c3f99a797b0"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/eye/midori-normal.png",
+    "sha256": "49e828cae39df46f771f80a9cee7a93ac86f53d09bc469cc7f2b48cc327b51f1"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/eye/midori-smile.png",
+    "sha256": "f4cda146acf9299a4a23d518af37579c0abd97f040281d9f7bc0477e50c50477"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/lip/midori-happy.png",
+    "sha256": "f268fc4f6de6c6f3b571019d018f0ab7e325c2d293a0335ed7b92d27df8a03bc"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/lip/midori-normal.png",
+    "sha256": "c83331b11a099b3f43c64fcf1289ba49e27ab6b2cc7f3f8eb3ea445861af96cb"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/lip/midori-smile.png",
+    "sha256": "68eafa4c58ad982b0e0b5a4e5d45cc9463a47a972fea918d039866d78e4a14c4"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/midori-happy.png",
+    "sha256": "bf85789466b26509580f3f64a3e8a667b05e1fa3d9628c72767c56002827f2ae"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/midori-normal.png",
+    "sha256": "eeded572c7c12630455ae7d1ddb04b2bfcb8c5e953d3ecc7e4883e182c6f08a6"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/midori-smile.png",
+    "sha256": "08880dae953d6b516f7f5994be134190524e53163dfe90f5219057f77c69ce80"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/eye/xiaoling-normal.png",
+    "sha256": "81a280425365dd7acb890c16261f24a5520632ba8d396ffc99fd015284130369"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/eye/xiaoling-smile.png",
+    "sha256": "fd2850b8a9b734c4ed84532fece1f23ba7f94d866eb2a5da8db4317caa30eeef"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/lip/xiaoling-happy.png",
+    "sha256": "5f51124991b937e1c8b48edb5d6f8ff540863d963806eb17e86e11b766390ba6"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/lip/xiaoling-normal.png",
+    "sha256": "ba87ed63e102c6f9916d2194991e7884e23258215f57e35341b8dfb7f9a9bae0"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/lip/xiaoling-smile.png",
+    "sha256": "d1766390c5bdaa1695015f87d550967ef1c6fc6db7acef2cb24ca169baf65842"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/xiaoling-happy.png",
+    "sha256": "b0b193bffce952367daf205291eb0494dd7782d2539e7bab6f7879c3d97cd9ae"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/xiaoling-normal.png",
+    "sha256": "0be5c8ab38d9ab64dd2bf8fc1ec3df85dcc7d86b528a9dee2ba2e983a46cf3dd"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/xiaoling-smile.png",
+    "sha256": "601272dbc836fe72387bc2ccafef3c74599e418c36d30094e04480b27a4f19f8"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/main.ray",
+    "sha256": "fc53a339e9d47caaa8f8a84122d6bbab465ebb3cbed97c3641e96b42895d16ec"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/sound/bgm/afternoon2.ogg",
+    "sha256": "84fdd9c70dd96f3d6dbb6f56458ab966e70ad041cf534fc7b63fe8174d2c45c0"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/sound/bgm/start.ogg",
+    "sha256": "e1941828271a74debd36549d375127b4a7dd9a9d0fe56b7935b4f92fe4c35186"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/sound/se/click.ogg",
+    "sha256": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/sound/voice/001.ogg",
+    "sha256": "22b7e58b5d43042e9ffc363870c1427b9ccc56b41160a06601dcac82ddfce76c"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/sound/voice/002.ogg",
+    "sha256": "83afe794c4816c9382a83f7f1059fb74bbff89e58fe8b60564b2135bb5f8cdbe"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/sound/voice/003.ogg",
+    "sha256": "671b517bc8633568f06a8d19339d79e2094f690df9eac66df2eb662ab8b47434"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/sound/voice/004.ogg",
+    "sha256": "aad4aa728c5a838f8891f81a55e751ac3150d57d4512e9e8ae6ecfbb51e97bcf"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/sound/voice/005.ogg",
+    "sha256": "f99e01cb8f9cd3cfac0e4f65474ddca73b1f2a56d16aeb9e33d14e67cca50313"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/start.novel",
+    "sha256": "edc81bfb88d24e0b5df0e86ac1f8457547ad4e8cba5d8df29312df959772e34c"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/choose/button.ogg",
+    "sha256": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/choose/hover-nvl.anime",
+    "sha256": "310dedfc8ee7b0b1a6b37046f27f33faa6a6e900b7b53918ab96bf76bdc959bf"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/choose/hover.anime",
+    "sha256": "45489265e000fc5ec6e77428a29db5119e8c9f5e30ba66d54ccac88b14327433"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/choose/hover.png",
+    "sha256": "2dc3d2d77e158a7158344ef09d86647098fabc1edb6f980721b7d5f9310b0579"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/choose/idle-nvl.anime",
+    "sha256": "db923bfaa206ef32b3951a5319fb76748a4c0bbb4b321705c54ad24035fed007"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/choose/idle.anime",
+    "sha256": "db923bfaa206ef32b3951a5319fb76748a4c0bbb4b321705c54ad24035fed007"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/choose/idle.png",
+    "sha256": "9f751c81d7a84d5021b8b8d095cd3b265ef23a06b414b21df6de44b62f10a691"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/choose/nvl.png",
+    "sha256": "0ee6f26b1537f12ff92eeacec650eaacf7347ea9715f7470a5a212b37a2242dc"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-bar-hover.png",
+    "sha256": "39d1c1befcb8b2a248b350a5c44dbd969c64cda4cd1269d0c384303495856107"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-bar-idle.png",
+    "sha256": "a5fb0b2ef12b8a18822653b8a6979a405e148999181888c6c72dffb20cebec39"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-bar-knob.png",
+    "sha256": "2f60ff31a228a76be4f0db02ba0ee977242cdcdad62e0642b9873bc5175e478b"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-base.png",
+    "sha256": "a89ff94a6f73235f0743508c4631cba2789c3790d213cedc0d0020a88d623503"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-en-active.png",
+    "sha256": "27d2de692139415a2c26801c1310c0bff9b74e9f73bb10da65e517e9dd8d795b"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-en-hover.png",
+    "sha256": "e018b8efebf9cd659b28a867dd6cf074d75a27d46ac68d33fb1ac7c8feb2edbc"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-en-idle.png",
+    "sha256": "39e0e89e2020427254b91307b8aaa20a5ab2ed3af6e16e838ad3cd455b4ef2ab"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-jp-active.png",
+    "sha256": "51ae248f296ca7c766602d074807cbc99ada33530f003fa4ffba2c0db1439014"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-jp-hover.png",
+    "sha256": "94feeb39ca37e2c320b81cc440e6399cded1b99e3458896023d77eeb93cea025"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-jp-idle.png",
+    "sha256": "d0bdd01302b37f649d4dc29598731f81f3b8555cbd68d5344a46405915b9b1a5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-zh-active.png",
+    "sha256": "bba2cf205a120cbd7c48033a5d3702f03c4c754618484bca3f608b639155d9c1"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-zh-hover.png",
+    "sha256": "479c53cf0fe7df3cfa3311013a174ef796fca7331aea7dcc7ee62fb5785c65ed"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-zh-idle.png",
+    "sha256": "ac27401cf434d1eae21850a5e65b5ddd08ddf4566af5d1ed7eb0dd208a6b8563"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config-preview.png",
+    "sha256": "44b6f404ed90f368b44bb7f4e0e8a43c3f4fb043e55c5adcf60653cd5638d311"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/config.gui",
+    "sha256": "7b0e51cf3fed8ca43b13f5e9b5c2d9327853064002e6d623810787d0a7b933fb"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/reset-hover.png",
+    "sha256": "b7a5b3d656b2d5c182b12e03aa1845aad8bb129a2e8f427f1a53fbd6c3d1f8d8"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/config/reset-idle.png",
+    "sha256": "dfe432e066aa824f0167cc341b0855ea97302d4f94f563f08f0b16f6714c6820"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/effect/rain/1.png",
+    "sha256": "dc979a979ca343ad7c90c369573c3ce0c37bf96e50936a0de9e9008950eab089"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/effect/rain/rain.anime",
+    "sha256": "79552dcfe5b18a1e808d8f63d9196daf0b05075ddee57840538d4c8f941b2e47"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/emoji/heart.png",
+    "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/emoji/sweat.png",
+    "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/font/NotoSansCJK-Medium.ttc",
+    "sha256": "8c1dc004996029f804283dd398ca2a05d4d33ebcba5c0d25ea13fd2026572279"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/font/OFL.txt",
+    "sha256": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/history/history-bar-hover.png",
+    "sha256": "332accb0795144d4507ce2df66ed87e0a12328c4dbde061e8db2ae2ec0e1c548"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/history/history-bar-idle.png",
+    "sha256": "4dfd90348d66c5f5f2900b1e712cda2d2fb0f66df4393745829ab07c41494a67"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/history/history-bar-knob.png",
+    "sha256": "c9dba440e39080ac63f81e8d17adb82911b9e37aa335a0b0a5f1519e411baeb1"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/history/history-base.png",
+    "sha256": "c61876ed73190544ca27d654c2a18b8ec604094e2fd940e7b2d1c6ac7d491f57"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/history/history-item-hover.png",
+    "sha256": "f0eba004bf9c2198f736611d9af98090dc2163d040d03608667c445b30e3ea35"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/history/history-item-idle.png",
+    "sha256": "ac6e36650ea279c8c5a4d1657258559bf6e632e8e71724fa64632c7fbc73736b"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/history/history.gui",
+    "sha256": "84cf59900ff22f71c9bf8f24519a415072bda707365d937d077081d4dc6e1513"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-base.png",
+    "sha256": "c8c13ee8a2d0858ee14c3a9d5bf32d111d27d83327baa455db0c33f613a0c7ae"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-item-hover.png",
+    "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-item-idle.png",
+    "sha256": "5a1a47debacda82ec3fde46ed0d6fa91a1e90a212364b68e102cde872b5d6f8c"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-item-press.png",
+    "sha256": "9df7a4da62ffe87946f2ca3d6a31e77c9ac9fb4ab059d968242ba1ecdd48dce6"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-1-active.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-1-hover.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-1-idle.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-2-active.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-2-hover.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-2-idle.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-3-active.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-3-hover.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-3-idle.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-4-active.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-4-hover.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-4-idle.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-5-active.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-5-hover.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-5-idle.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-active.anime",
+    "sha256": "09403573ce9a0df32391bd05ea01a437e406c0b41ac66bf4d061bafe2e332343"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/load/load.gui",
+    "sha256": "f24140a32a634f28b14dd1c7fb65499ea11476faac217eac90ad0fb32b8c702d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/auto-hide.anime",
+    "sha256": "aafcaef7dee99190c67dee085635deab7c970df8a5506f59bea53bd001a70638"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/auto-show.anime",
+    "sha256": "ad583cb6c4d0c2bc4b0ebf1e23563fff90fc6b358dc65e9f0f68151afa78140f"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/auto.png",
+    "sha256": "c823a7fa74494a9819c4f240acecd98d26cbab600b3497aa0ed3118dea29111b"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/click1.png",
+    "sha256": "43ce9a3731838f3481e530fe125773b7f5c8db43fb9184580181b9984d7c30b8"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/click2.png",
+    "sha256": "c7504eeb994eb453cf0ba3e846771eb820e499f5d84900a6fa8a5d98a379c160"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/msgbox-hide.anime",
+    "sha256": "9c74ccdb7563de38eedad0e6cb6c531a9c4cb75859778b6517fdb97f2b225730"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/msgbox-nvl.png",
+    "sha256": "c39b6b56babac1c36e2c87278b9aa9a1e0dc3f5ad0797e9f27c1398d90e38e08"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/msgbox-show.anime",
+    "sha256": "48a3ed7f3f0e8ff8b7f38ddfdc454f9244eae18e0e10672a7e3f089a2ef441d5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/msgbox.png",
+    "sha256": "a47ed1a581de0451e632df10a3d4c3a85efa8e7dbcaf6eb2a5f86cc968023b90"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/namebox-hide.anime",
+    "sha256": "fec381f50991299a1ebd4e74559f17b651d441052d1278dd2c24304205cdd3a4"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/namebox-show.anime",
+    "sha256": "ed5b41f0f02fa71251b5bfef8678fd9ac4c67d17725870adc17bcdd59c5fb0c3"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/namebox.png",
+    "sha256": "2e6bfba7f163983a59557e8a9797232a8dc01fd56344c9b9a615f5f12e4adea5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/skip-hide.anime",
+    "sha256": "c3667e1d56acda32397d138465d4edfba790b90861bb17de637f015aee661a2e"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/skip-show.anime",
+    "sha256": "26d42b1592dc4aadd5ed1753a7d95f8e61f0f9eeb9eb916e3724d0390de4fe56"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/message/skip.png",
+    "sha256": "57a1bb95102844dc7cfa9bd49b14c4e3b206640a0d5a83806929643255907407"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/plugins/testplugin/testplugin.ray",
+    "sha256": "3efdef7e233fdf1da2f1395d12320017962cb7f025ca9df66b1facef4ef43126"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-base.png",
+    "sha256": "38ff4c09a925b65fa2ad22f9a0869385fff1effd4aea1681deb73ad5d51036ea"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-item-hover.png",
+    "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-item-idle.png",
+    "sha256": "b516a11e0005eb2eefd14b4d0187318d21baeeb79199091dd5addbab2c5af75c"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-item-press.png",
+    "sha256": "54b0253f5f7066e01b9fbf483d5b1969a52b708e594d79218a66e99be6b6117b"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-1-active.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-1-hover.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-1-idle.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-1.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-2-active.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-2-hover.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-2-idle.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-2.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-3-active.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-3-hover.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-3-idle.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-3.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-4-active.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-4-hover.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-4-idle.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-4.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-5-active.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-5-hover.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-5-idle.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-5.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-active.anime",
+    "sha256": "09403573ce9a0df32391bd05ea01a437e406c0b41ac66bf4d061bafe2e332343"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/save/save.gui",
+    "sha256": "b8532873ecd5787e7c219b5f97d06f212e9d15d3de18420347235dfbedc16d51"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/anime-appear.anime",
+    "sha256": "4ace3c6b873bcf9bca9544c50467b49420b40f883f5441eda0fcfd29642651b4"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/anime-fadein.anime",
+    "sha256": "83d6acf3290211d471d5e10dbd0a26084bfe454b55a8f826b01d901082d8870a"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/anime-fadeout.anime",
+    "sha256": "202d26fabdda2545f0ee4a12d3f142a50eef1d0f0b99886041948f4b24eb1dbf"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/anime-hover.anime",
+    "sha256": "8ab8bf8a69ee2e70b718ae91e9624b366556c2eddb8d5a62e5e3db28e7c5acdc"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/anime-out.anime",
+    "sha256": "a2ad8f235c147b612728c7e94d92bcc74f270212163a655f0c87b05e6a16d9d0"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/sysbtn-hover.png",
+    "sha256": "073581e04dd51ef70f888442797c4b801cfb1bbf149d296658f124aee0da75df"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/sysbtn-idle.anime",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/sysbtn-idle.png",
+    "sha256": "bd320d405c5c39223f3336e1a90b7cd1ef3b837878d6bc4ca1236c1d158deedd"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/auto-hover.png",
+    "sha256": "ff08e252b6d131ed9804c01fabd52363f2b0f43c3d8111127d2e50d099024426"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/auto-idle.png",
+    "sha256": "a9654c7977cefb55a4267f24eb6daf19ef52a40bcdf17d00d51d140f26ec17ee"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/auto-press.png",
+    "sha256": "fd29934a90e73b8b8803edd3247d85f3d54bac398926273c0fb631fa426098aa"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/base.png",
+    "sha256": "303a656348b0dc99e6f8e649671644db321808f00d12e8740c1797f6f78f208e"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/config-hover.png",
+    "sha256": "530b056e24d293e03823ec94715c9d22b939b143ac4df89e25516687b5bbc099"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/config-idle.png",
+    "sha256": "2f932213ef31839f3fcd032e4f2b373ea04e68733fe76d8c8901afcba0fbbeb2"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/config-press.png",
+    "sha256": "b891bba3c88795ad99234a827f6c7047f40d6272624565be06154517bd0f86e7"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/item-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/item-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/load-hover.png",
+    "sha256": "cbe30aee878d360eb58ed1279388ce2ad7119d01263682f294f5bb22eb1d107e"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/load-idle.png",
+    "sha256": "ddee9dda5c2ab3a6948db7d0ef15950eae0db9027c118c604af57e72a886c7f6"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/load-press.png",
+    "sha256": "625a3ea9668183cefe1403cb558d22beb57bf7b035640213a9c003bee7c329b7"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/log-hover.png",
+    "sha256": "2ff1f11693d1948485b98584ab61e0eb4ceaa1d757581b5e87864434a027082a"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/log-idle.png",
+    "sha256": "060f3b7524d4c5441f0ff1b4f0474753bfa6c65d9a45dfce4a455032d89a1918"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/log-press.png",
+    "sha256": "7b0cbc668a27a25f34e6ed74cd9a9a1731ae5f7acab6e92b6ca2ec7ad84051d0"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/save-hover.png",
+    "sha256": "c7cba12897265da73e740e828a62c08d59d4449dd7ffa978ec6b402c2a684719"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/save-idle.anime",
+    "sha256": "a39822a23db011a1b6116f3b24e752a5c72e5aa8ef35fdc122a16c6f45f4b298"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/save-idle.png",
+    "sha256": "04851a0d5470d20663601d1c61efe28e5f4f7e8ba9d19f1b333ff81823e7090d"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/save-press.png",
+    "sha256": "3f74d0ab6f83b639881e44c33d2ec57254222a66bd050db04745d8b88bb6de17"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/skip-hover.png",
+    "sha256": "6fb72c303ee8b38d6d76506f7e7cd7e096d52ac7fc1bc6a46ce81fe734a1b806"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/skip-idle.png",
+    "sha256": "1aa5189407f4226dfebf5fd357118c16548a6f98875d9d663925828b1cadcd9f"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/skip-press.png",
+    "sha256": "8afa466c4ab757defd7d63a998ea966a109734b7d5e8f721ba949def60ffca70"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/sysmenu.gui",
+    "sha256": "54622624b0ff5c2ecdafb265082eef7327a8948d61f6c3663686ccc96d1e0520"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/title/base.png",
+    "sha256": "1f827ed117e8857d73b131cae054a93e6a3843960b221d777ad89ec1bf167cb0"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/title/start-hover.png",
+    "sha256": "122cb56a0f364ffb40426cf711684ec646e3085189d1430e965a470b640b3ce7"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/title/start-idle.png",
+    "sha256": "b1c16fd24b9d4154dd541a274e436fbf317d2faa6dec710f4027ed44e1f5d869"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/title/start-press.png",
+    "sha256": "1fd678ac5f4d3ce447151be8c47fbaed7d530a1fc72c95bc22c26a28c5f97678"
+  },
+  {
+    "path": "SDK/unity/Assets/StreamingAssets/system/title/title.gui",
+    "sha256": "3c3319fc9012f45bf3ccd13a3b749f2a4a6ed3bd2f7c709546a6267dbc320ce3"
+  },
+  {
+    "path": "SDK/unity/unity.md",
+    "sha256": "312c07c59cbeb9f997ecdaa3f56a0dec7af5cf0da56b83f2036764aabba8d5f4"
+  },
+  {
+    "path": "SDK/wasm/assets.arc",
+    "sha256": "d5d87c5f6922805a97d6b56eca36dc3833b316aeeb7acc71837597a22d3ce4ed"
+  },
+  {
+    "path": "SDK/wasm/index.html",
+    "sha256": "f589ca123faccada973c65cd560f4d3bb0207ae3f701d4017fcf46d094ee74c0"
+  },
+  {
+    "path": "SDK/wasm/suika3-web.exe",
+    "sha256": "9db3367200ea18ab02efc1233d4a5213dc068af113387a2e656e97d5eae336f5"
+  },
+  {
+    "path": "SDK/windows/suika3-arm64.exe",
+    "sha256": "32f046a5983a1a6047a4b3181e179b2f0a489074888841f48e245ecdbac247ff"
+  },
+  {
+    "path": "SDK/windows/suika3-cli.exe",
+    "sha256": "2c454e2b75c25a5243ff65ee848edfbf082414d9719ff3cbe96330866c832a8d"
+  },
+  {
+    "path": "SDK/windows/suika3-pack.exe",
+    "sha256": "2d20e39c1269419547a3f2dc0b860b505d662ae55ef29fbcf2a488704c06bc28"
+  },
+  {
+    "path": "SDK/windows/suika3-win32.exe",
+    "sha256": "1663aa3527c9502e95edbfabb8d44ed7d5053aaa1bb09b450bc9eee461b29f97"
+  },
+  {
+    "path": "SDK/windows/suika3-win64.exe",
+    "sha256": "9c9b9463f22b63256dd6f32ec9e03f04da7194869e3375bae17cdacfe0ad3cdc"
+  },
+  {
+    "path": "scenario/README.md",
+    "sha256": "cac2830a65af21b23eeb00fd1b410649ae3cd1bd014468b3e8a7d5adc43fb8c7"
+  },
+  {
+    "path": "scenario/routes.json",
+    "sha256": "ae753a44d1880ef7eb8f4f3086e979b0266191c08f737831a86348fb08d16d8e"
+  },
+  {
+    "path": "scenario/后日谈-他们的日子.md",
+    "sha256": "5a5c95f2625d3a8e10c2704cef28ee574ab09f222a3f112456471ae94c61b646"
+  },
+  {
+    "path": "scenario/后日谈-未写完的安排.md",
+    "sha256": "f10e9aed156db6ac1cdbf605dafc178c796b0bac1b036468abeaaede6c8a69fd"
+  },
+  {
+    "path": "scenario/周栀-十一点四十七分.md",
+    "sha256": "a2a76b5c958a1f7c21d3d98ee6be51302a7926d2ceeca89ed1726e50519d0235"
+  },
+  {
+    "path": "scenario/孟遥-旧题.md",
+    "sha256": "e1553a278124a5949bb6044d78f391232172193bcdd796e8728e06c81654a52e"
+  },
+  {
+    "path": "scenario/朋友与职业-夜班.md",
+    "sha256": "0dde408491dcdca4a1d5df3e2be8722073c1f4984d164d7d8c23e9e9a1a80257"
+  },
+  {
+    "path": "scenario/第一章-回到毕节.md",
+    "sha256": "36f249fc12bc7ac17d6674995eb6e85ed5b7c1f537198c93cf746049e029ae49"
+  },
+  {
+    "path": "scenario/第三章-选一条路.md",
+    "sha256": "63c32132377c3759312ae61e0576af9b563ca848e43a4e65f9242c7a312f8af6"
+  },
+  {
+    "path": "scenario/第二章-十四天.md",
+    "sha256": "204874d7e4cbf9fee033982b80699f0391b37f2657a1bce1a9a2ac580ad6fbe8"
+  },
+  {
+    "path": "scenario/罗小满-练习本.md",
+    "sha256": "7a5c219be26838b7a2340e8a71c9bf9ed753b4ed8e360d0de3f2a1444c285126"
+  },
+  {
+    "path": "scenario/跨路线-第36天的消息.md",
+    "sha256": "0d99be1dcc366d0e2eb69cae9a12d51e1f6510c67229f740115b30035e949b58"
+  },
+  {
+    "path": "scenario/选择设计.md",
+    "sha256": "1521eb46f9ec4772228e83bfe8b5c0bea0a2226f5f58301256531067339ee0b6"
+  },
+  {
+    "path": "scenario/飘-空白页.md",
+    "sha256": "6477891b1a7c60ae3bf2f022c5487c9e27ca4845ca739e6317202dfc94d7e2d0"
+  },
+  {
+    "path": "scenario/黄球球-门后.md",
+    "sha256": "10a5159492f69582ec0a509c08d47b6f0a8b1a263de4f75548fe8aba6e5b3cbc"
+  },
+  {
+    "path": "docs/CG当前选择.json",
+    "sha256": "01fbfe78969ed13033f0b573189a9b1275c76a77241102b5b80aca31f5b9ad03"
+  },
+  {
+    "path": "docs/CG调整清单.md",
+    "sha256": "3387c4870acfc89403936d2ded2f0e4c32c0580e4878a7c397fc3377000f0414"
+  },
+  {
+    "path": "docs/人物/README.md",
+    "sha256": "e32939b07fd5fba9ec48bdb8a55dcfb5bda21072ab1a1c373f995cb44f2e1853"
+  },
+  {
+    "path": "docs/人物/叶岚.md",
+    "sha256": "4a1bf6bfcc5163092e11832eadb8634392d6c1726824963cbe27ab2095c2fe0c"
+  },
+  {
+    "path": "docs/人物/周栀.md",
+    "sha256": "b15d4dc0d12a617e0532fd636eafd1cc73a7e1c3a2f62b7bcef8abc8bb4da684"
+  },
+  {
+    "path": "docs/人物/孟遥.md",
+    "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+  },
+  {
+    "path": "docs/人物/师匠.md",
+    "sha256": "bc43c91684357798e4717e886d4fd873022aeed81a339b0c506ee242f9a4e6ef"
+  },
+  {
+    "path": "docs/人物/文文.md",
+    "sha256": "f4bdf7a09a68d2c0e2a39da47ebdb60ebd3680680f86b262413d0b3c14a57600"
+  },
+  {
+    "path": "docs/人物/毛狼.md",
+    "sha256": "1671c6c823a61f7780677fbe4e42b57eb5872ee2a94242b2ce51cc09ef4789a6"
+  },
+  {
+    "path": "docs/人物/罗小满.md",
+    "sha256": "d0abe1eda98219ddc8585ce58ce6bfed1ed255fe85a950969178ac98a7d6168f"
+  },
+  {
+    "path": "docs/人物/飘.md",
+    "sha256": "8214c401a9b560246981b485992c83a6b2c2df2798b93443aaabd4fbcb208125"
+  },
+  {
+    "path": "docs/人物/黄球球.md",
+    "sha256": "7f4dd819d01e8dd442ac736290d6b12c7e1337bca73a7e8c7525dc6cddb9cab1"
+  },
+  {
+    "path": "docs/分支/README.md",
+    "sha256": "a580f17b01c9c10ced9b1c3ab87649360c1289ef798c03eea70c61bbbca86f72"
+  },
+  {
+    "path": "docs/分支/关系后日谈.md",
+    "sha256": "31819c5703f6fd165e67c59e4f5b94a8e5c78abdd0c1ca542f2eda43206dfe62"
+  },
+  {
+    "path": "docs/分支/周栀线.md",
+    "sha256": "d5935cc088d4d593effd0deeea77221fd398c9c975bfd979976a49a418962de3"
+  },
+  {
+    "path": "docs/分支/孟遥线.md",
+    "sha256": "60165fa12de1ccac0014831577fc7a02f0a93db557b02f8c37ed6b18eaa1050c"
+  },
+  {
+    "path": "docs/分支/朋友与职业线.md",
+    "sha256": "c015457ff7bb861ea41abe5b4114ead770e4f5734e3aadd6a2c3a4885c856030"
+  },
+  {
+    "path": "docs/分支/游戏流程图.md",
+    "sha256": "a42e209708c61e4f44b1899e6ed6507b41eb3f8e84575149f03d324e00b51be6"
+  },
+  {
+    "path": "docs/分支/罗小满线.md",
+    "sha256": "9690604c91bdf77ac39f80391c354d380b80b59cc1cf382ca431b34d5cffdae4"
+  },
+  {
+    "path": "docs/分支/选择与解锁规则.md",
+    "sha256": "4451542894c0b7883f5bfd9b05ca679160f29a3b1b2357f9939b45ca5cedc542"
+  },
+  {
+    "path": "docs/分支/飘线.md",
+    "sha256": "07b22e398145c30da73ce2f903fcabc904a60c001913145e574da47bc1ad2bf6"
+  },
+  {
+    "path": "docs/分支/黄球球隐藏线.md",
+    "sha256": "9fa22273b5c23c01d0bada49a7ad4e3931691ca8808f9f306f1a61683e6d2cfe"
+  },
+  {
+    "path": "docs/工程结构.md",
+    "sha256": "bdde93e0f4b01473301706aeef5262954817dbc7de9a7c640bf2b69c1b8400c3"
+  },
+  {
+    "path": "docs/开发计划.md",
+    "sha256": "adbcbdafa784ff5876aff239f6e92780b2ec395ace4334304e71e81b64c7479a"
+  },
+  {
+    "path": "docs/美术资源规范.md",
+    "sha256": "98308a10f09b3e3369c147437f52a7b235a73c4144364e168393c661110ef285"
+  },
+  {
+    "path": "system/.DS_Store",
+    "sha256": "655eb63099936b286565d3346bdae8e1e8b6901a7f09b53103773fdb9c4357f1"
+  },
+  {
+    "path": "system/choose/button.ogg",
+    "sha256": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff"
+  },
+  {
+    "path": "system/choose/hover-nvl.anime",
+    "sha256": "310dedfc8ee7b0b1a6b37046f27f33faa6a6e900b7b53918ab96bf76bdc959bf"
+  },
+  {
+    "path": "system/choose/hover.anime",
+    "sha256": "45489265e000fc5ec6e77428a29db5119e8c9f5e30ba66d54ccac88b14327433"
+  },
+  {
+    "path": "system/choose/hover.png",
+    "sha256": "2dc3d2d77e158a7158344ef09d86647098fabc1edb6f980721b7d5f9310b0579"
+  },
+  {
+    "path": "system/choose/idle-nvl.anime",
+    "sha256": "db923bfaa206ef32b3951a5319fb76748a4c0bbb4b321705c54ad24035fed007"
+  },
+  {
+    "path": "system/choose/idle.anime",
+    "sha256": "db923bfaa206ef32b3951a5319fb76748a4c0bbb4b321705c54ad24035fed007"
+  },
+  {
+    "path": "system/choose/idle.png",
+    "sha256": "9f751c81d7a84d5021b8b8d095cd3b265ef23a06b414b21df6de44b62f10a691"
+  },
+  {
+    "path": "system/choose/nvl.png",
+    "sha256": "0ee6f26b1537f12ff92eeacec650eaacf7347ea9715f7470a5a212b37a2242dc"
+  },
+  {
+    "path": "system/config/config-bar-hover.png",
+    "sha256": "39d1c1befcb8b2a248b350a5c44dbd969c64cda4cd1269d0c384303495856107"
+  },
+  {
+    "path": "system/config/config-bar-idle.png",
+    "sha256": "a5fb0b2ef12b8a18822653b8a6979a405e148999181888c6c72dffb20cebec39"
+  },
+  {
+    "path": "system/config/config-bar-knob.png",
+    "sha256": "2f60ff31a228a76be4f0db02ba0ee977242cdcdad62e0642b9873bc5175e478b"
+  },
+  {
+    "path": "system/config/config-base.png",
+    "sha256": "a89ff94a6f73235f0743508c4631cba2789c3790d213cedc0d0020a88d623503"
+  },
+  {
+    "path": "system/config/config-lang-en-active.png",
+    "sha256": "27d2de692139415a2c26801c1310c0bff9b74e9f73bb10da65e517e9dd8d795b"
+  },
+  {
+    "path": "system/config/config-lang-en-hover.png",
+    "sha256": "e018b8efebf9cd659b28a867dd6cf074d75a27d46ac68d33fb1ac7c8feb2edbc"
+  },
+  {
+    "path": "system/config/config-lang-en-idle.png",
+    "sha256": "39e0e89e2020427254b91307b8aaa20a5ab2ed3af6e16e838ad3cd455b4ef2ab"
+  },
+  {
+    "path": "system/config/config-lang-jp-active.png",
+    "sha256": "51ae248f296ca7c766602d074807cbc99ada33530f003fa4ffba2c0db1439014"
+  },
+  {
+    "path": "system/config/config-lang-jp-hover.png",
+    "sha256": "94feeb39ca37e2c320b81cc440e6399cded1b99e3458896023d77eeb93cea025"
+  },
+  {
+    "path": "system/config/config-lang-jp-idle.png",
+    "sha256": "d0bdd01302b37f649d4dc29598731f81f3b8555cbd68d5344a46405915b9b1a5"
+  },
+  {
+    "path": "system/config/config-lang-zh-active.png",
+    "sha256": "bba2cf205a120cbd7c48033a5d3702f03c4c754618484bca3f608b639155d9c1"
+  },
+  {
+    "path": "system/config/config-lang-zh-hover.png",
+    "sha256": "479c53cf0fe7df3cfa3311013a174ef796fca7331aea7dcc7ee62fb5785c65ed"
+  },
+  {
+    "path": "system/config/config-lang-zh-idle.png",
+    "sha256": "ac27401cf434d1eae21850a5e65b5ddd08ddf4566af5d1ed7eb0dd208a6b8563"
+  },
+  {
+    "path": "system/config/config-preview.png",
+    "sha256": "44b6f404ed90f368b44bb7f4e0e8a43c3f4fb043e55c5adcf60653cd5638d311"
+  },
+  {
+    "path": "system/config/config.gui",
+    "sha256": "7b0e51cf3fed8ca43b13f5e9b5c2d9327853064002e6d623810787d0a7b933fb"
+  },
+  {
+    "path": "system/config/reset-hover.png",
+    "sha256": "b7a5b3d656b2d5c182b12e03aa1845aad8bb129a2e8f427f1a53fbd6c3d1f8d8"
+  },
+  {
+    "path": "system/config/reset-idle.png",
+    "sha256": "dfe432e066aa824f0167cc341b0855ea97302d4f94f563f08f0b16f6714c6820"
+  },
+  {
+    "path": "system/effect/.DS_Store",
+    "sha256": "dd65d29d9200872ba5855a4e74485ff90ee75e6d01a5adcfb703dc9f71124c74"
+  },
+  {
+    "path": "system/effect/rain/1.png",
+    "sha256": "dc979a979ca343ad7c90c369573c3ce0c37bf96e50936a0de9e9008950eab089"
+  },
+  {
+    "path": "system/effect/rain/rain.anime",
+    "sha256": "79552dcfe5b18a1e808d8f63d9196daf0b05075ddee57840538d4c8f941b2e47"
+  },
+  {
+    "path": "system/emoji/heart.png",
+    "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634"
+  },
+  {
+    "path": "system/emoji/sweat.png",
+    "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a"
+  },
+  {
+    "path": "system/font/NotoSansCJK-Medium.ttc",
+    "sha256": "197d5e1e019faca33a4d55931c7d68b8056f3b97cb862049f5cb8de9efdfb8ce"
+  },
+  {
+    "path": "system/font/OFL.txt",
+    "sha256": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb"
+  },
+  {
+    "path": "system/history/history-bar-hover.png",
+    "sha256": "332accb0795144d4507ce2df66ed87e0a12328c4dbde061e8db2ae2ec0e1c548"
+  },
+  {
+    "path": "system/history/history-bar-idle.png",
+    "sha256": "4dfd90348d66c5f5f2900b1e712cda2d2fb0f66df4393745829ab07c41494a67"
+  },
+  {
+    "path": "system/history/history-bar-knob.png",
+    "sha256": "c9dba440e39080ac63f81e8d17adb82911b9e37aa335a0b0a5f1519e411baeb1"
+  },
+  {
+    "path": "system/history/history-base.png",
+    "sha256": "c61876ed73190544ca27d654c2a18b8ec604094e2fd940e7b2d1c6ac7d491f57"
+  },
+  {
+    "path": "system/history/history-item-hover.png",
+    "sha256": "f0eba004bf9c2198f736611d9af98090dc2163d040d03608667c445b30e3ea35"
+  },
+  {
+    "path": "system/history/history-item-idle.png",
+    "sha256": "ac6e36650ea279c8c5a4d1657258559bf6e632e8e71724fa64632c7fbc73736b"
+  },
+  {
+    "path": "system/history/history.gui",
+    "sha256": "84cf59900ff22f71c9bf8f24519a415072bda707365d937d077081d4dc6e1513"
+  },
+  {
+    "path": "system/load/load-base.png",
+    "sha256": "c8c13ee8a2d0858ee14c3a9d5bf32d111d27d83327baa455db0c33f613a0c7ae"
+  },
+  {
+    "path": "system/load/load-item-hover.png",
+    "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b"
+  },
+  {
+    "path": "system/load/load-item-idle.png",
+    "sha256": "5a1a47debacda82ec3fde46ed0d6fa91a1e90a212364b68e102cde872b5d6f8c"
+  },
+  {
+    "path": "system/load/load-item-press.png",
+    "sha256": "9df7a4da62ffe87946f2ca3d6a31e77c9ac9fb4ab059d968242ba1ecdd48dce6"
+  },
+  {
+    "path": "system/load/load-page-1-active.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "system/load/load-page-1-hover.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "system/load/load-page-1-idle.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "system/load/load-page-2-active.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "system/load/load-page-2-hover.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "system/load/load-page-2-idle.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "system/load/load-page-3-active.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "system/load/load-page-3-hover.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "system/load/load-page-3-idle.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "system/load/load-page-4-active.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "system/load/load-page-4-hover.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "system/load/load-page-4-idle.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "system/load/load-page-5-active.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "system/load/load-page-5-hover.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "system/load/load-page-5-idle.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "system/load/load-page-active.anime",
+    "sha256": "09403573ce9a0df32391bd05ea01a437e406c0b41ac66bf4d061bafe2e332343"
+  },
+  {
+    "path": "system/load/load-page-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "system/load/load-page-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "system/load/load.gui",
+    "sha256": "f24140a32a634f28b14dd1c7fb65499ea11476faac217eac90ad0fb32b8c702d"
+  },
+  {
+    "path": "system/message/auto-hide.anime",
+    "sha256": "aafcaef7dee99190c67dee085635deab7c970df8a5506f59bea53bd001a70638"
+  },
+  {
+    "path": "system/message/auto-show.anime",
+    "sha256": "ad583cb6c4d0c2bc4b0ebf1e23563fff90fc6b358dc65e9f0f68151afa78140f"
+  },
+  {
+    "path": "system/message/auto.png",
+    "sha256": "c823a7fa74494a9819c4f240acecd98d26cbab600b3497aa0ed3118dea29111b"
+  },
+  {
+    "path": "system/message/click1.png",
+    "sha256": "43ce9a3731838f3481e530fe125773b7f5c8db43fb9184580181b9984d7c30b8"
+  },
+  {
+    "path": "system/message/click2.png",
+    "sha256": "c7504eeb994eb453cf0ba3e846771eb820e499f5d84900a6fa8a5d98a379c160"
+  },
+  {
+    "path": "system/message/msgbox-hide.anime",
+    "sha256": "9c74ccdb7563de38eedad0e6cb6c531a9c4cb75859778b6517fdb97f2b225730"
+  },
+  {
+    "path": "system/message/msgbox-nvl.png",
+    "sha256": "c39b6b56babac1c36e2c87278b9aa9a1e0dc3f5ad0797e9f27c1398d90e38e08"
+  },
+  {
+    "path": "system/message/msgbox-show.anime",
+    "sha256": "48a3ed7f3f0e8ff8b7f38ddfdc454f9244eae18e0e10672a7e3f089a2ef441d5"
+  },
+  {
+    "path": "system/message/msgbox.png",
+    "sha256": "a47ed1a581de0451e632df10a3d4c3a85efa8e7dbcaf6eb2a5f86cc968023b90"
+  },
+  {
+    "path": "system/message/namebox-hide.anime",
+    "sha256": "fec381f50991299a1ebd4e74559f17b651d441052d1278dd2c24304205cdd3a4"
+  },
+  {
+    "path": "system/message/namebox-show.anime",
+    "sha256": "ed5b41f0f02fa71251b5bfef8678fd9ac4c67d17725870adc17bcdd59c5fb0c3"
+  },
+  {
+    "path": "system/message/namebox.png",
+    "sha256": "2e6bfba7f163983a59557e8a9797232a8dc01fd56344c9b9a615f5f12e4adea5"
+  },
+  {
+    "path": "system/message/skip-hide.anime",
+    "sha256": "c3667e1d56acda32397d138465d4edfba790b90861bb17de637f015aee661a2e"
+  },
+  {
+    "path": "system/message/skip-show.anime",
+    "sha256": "26d42b1592dc4aadd5ed1753a7d95f8e61f0f9eeb9eb916e3724d0390de4fe56"
+  },
+  {
+    "path": "system/message/skip.png",
+    "sha256": "57a1bb95102844dc7cfa9bd49b14c4e3b206640a0d5a83806929643255907407"
+  },
+  {
+    "path": "system/plugins/testplugin/testplugin.ray",
+    "sha256": "3efdef7e233fdf1da2f1395d12320017962cb7f025ca9df66b1facef4ef43126"
+  },
+  {
+    "path": "system/save/save-base.png",
+    "sha256": "38ff4c09a925b65fa2ad22f9a0869385fff1effd4aea1681deb73ad5d51036ea"
+  },
+  {
+    "path": "system/save/save-item-hover.png",
+    "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b"
+  },
+  {
+    "path": "system/save/save-item-idle.png",
+    "sha256": "b516a11e0005eb2eefd14b4d0187318d21baeeb79199091dd5addbab2c5af75c"
+  },
+  {
+    "path": "system/save/save-item-press.png",
+    "sha256": "54b0253f5f7066e01b9fbf483d5b1969a52b708e594d79218a66e99be6b6117b"
+  },
+  {
+    "path": "system/save/save-page-1-active.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "system/save/save-page-1-hover.png",
+    "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d"
+  },
+  {
+    "path": "system/save/save-page-1-idle.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "system/save/save-page-1.png",
+    "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d"
+  },
+  {
+    "path": "system/save/save-page-2-active.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "system/save/save-page-2-hover.png",
+    "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5"
+  },
+  {
+    "path": "system/save/save-page-2-idle.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "system/save/save-page-2.png",
+    "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6"
+  },
+  {
+    "path": "system/save/save-page-3-active.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "system/save/save-page-3-hover.png",
+    "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc"
+  },
+  {
+    "path": "system/save/save-page-3-idle.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "system/save/save-page-3.png",
+    "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96"
+  },
+  {
+    "path": "system/save/save-page-4-active.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "system/save/save-page-4-hover.png",
+    "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5"
+  },
+  {
+    "path": "system/save/save-page-4-idle.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "system/save/save-page-4.png",
+    "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f"
+  },
+  {
+    "path": "system/save/save-page-5-active.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "system/save/save-page-5-hover.png",
+    "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41"
+  },
+  {
+    "path": "system/save/save-page-5-idle.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "system/save/save-page-5.png",
+    "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8"
+  },
+  {
+    "path": "system/save/save-page-active.anime",
+    "sha256": "09403573ce9a0df32391bd05ea01a437e406c0b41ac66bf4d061bafe2e332343"
+  },
+  {
+    "path": "system/save/save-page-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "system/save/save-page-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "system/save/save.gui",
+    "sha256": "b8532873ecd5787e7c219b5f97d06f212e9d15d3de18420347235dfbedc16d51"
+  },
+  {
+    "path": "system/sysbtn/anime-appear.anime",
+    "sha256": "4ace3c6b873bcf9bca9544c50467b49420b40f883f5441eda0fcfd29642651b4"
+  },
+  {
+    "path": "system/sysbtn/anime-fadein.anime",
+    "sha256": "83d6acf3290211d471d5e10dbd0a26084bfe454b55a8f826b01d901082d8870a"
+  },
+  {
+    "path": "system/sysbtn/anime-fadeout.anime",
+    "sha256": "202d26fabdda2545f0ee4a12d3f142a50eef1d0f0b99886041948f4b24eb1dbf"
+  },
+  {
+    "path": "system/sysbtn/anime-hover.anime",
+    "sha256": "8ab8bf8a69ee2e70b718ae91e9624b366556c2eddb8d5a62e5e3db28e7c5acdc"
+  },
+  {
+    "path": "system/sysbtn/anime-out.anime",
+    "sha256": "a2ad8f235c147b612728c7e94d92bcc74f270212163a655f0c87b05e6a16d9d0"
+  },
+  {
+    "path": "system/sysbtn/sysbtn-hover.png",
+    "sha256": "073581e04dd51ef70f888442797c4b801cfb1bbf149d296658f124aee0da75df"
+  },
+  {
+    "path": "system/sysbtn/sysbtn-idle.anime",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "system/sysbtn/sysbtn-idle.png",
+    "sha256": "bd320d405c5c39223f3336e1a90b7cd1ef3b837878d6bc4ca1236c1d158deedd"
+  },
+  {
+    "path": "system/sysmenu/auto-hover.png",
+    "sha256": "ff08e252b6d131ed9804c01fabd52363f2b0f43c3d8111127d2e50d099024426"
+  },
+  {
+    "path": "system/sysmenu/auto-idle.png",
+    "sha256": "a9654c7977cefb55a4267f24eb6daf19ef52a40bcdf17d00d51d140f26ec17ee"
+  },
+  {
+    "path": "system/sysmenu/auto-press.png",
+    "sha256": "fd29934a90e73b8b8803edd3247d85f3d54bac398926273c0fb631fa426098aa"
+  },
+  {
+    "path": "system/sysmenu/base.png",
+    "sha256": "303a656348b0dc99e6f8e649671644db321808f00d12e8740c1797f6f78f208e"
+  },
+  {
+    "path": "system/sysmenu/config-hover.png",
+    "sha256": "530b056e24d293e03823ec94715c9d22b939b143ac4df89e25516687b5bbc099"
+  },
+  {
+    "path": "system/sysmenu/config-idle.png",
+    "sha256": "2f932213ef31839f3fcd032e4f2b373ea04e68733fe76d8c8901afcba0fbbeb2"
+  },
+  {
+    "path": "system/sysmenu/config-press.png",
+    "sha256": "b891bba3c88795ad99234a827f6c7047f40d6272624565be06154517bd0f86e7"
+  },
+  {
+    "path": "system/sysmenu/item-hover.anime",
+    "sha256": "4436b4c8d2ca3d1f379bb597ad791c83ba983249654b8ecf8d8cfde75ecf8396"
+  },
+  {
+    "path": "system/sysmenu/item-idle.anime",
+    "sha256": "3d99eae31c4a9165b6336940032a9706185e914e1eb88830d2ba9c99141ce3ad"
+  },
+  {
+    "path": "system/sysmenu/load-hover.png",
+    "sha256": "cbe30aee878d360eb58ed1279388ce2ad7119d01263682f294f5bb22eb1d107e"
+  },
+  {
+    "path": "system/sysmenu/load-idle.png",
+    "sha256": "ddee9dda5c2ab3a6948db7d0ef15950eae0db9027c118c604af57e72a886c7f6"
+  },
+  {
+    "path": "system/sysmenu/load-press.png",
+    "sha256": "625a3ea9668183cefe1403cb558d22beb57bf7b035640213a9c003bee7c329b7"
+  },
+  {
+    "path": "system/sysmenu/log-hover.png",
+    "sha256": "2ff1f11693d1948485b98584ab61e0eb4ceaa1d757581b5e87864434a027082a"
+  },
+  {
+    "path": "system/sysmenu/log-idle.png",
+    "sha256": "060f3b7524d4c5441f0ff1b4f0474753bfa6c65d9a45dfce4a455032d89a1918"
+  },
+  {
+    "path": "system/sysmenu/log-press.png",
+    "sha256": "7b0cbc668a27a25f34e6ed74cd9a9a1731ae5f7acab6e92b6ca2ec7ad84051d0"
+  },
+  {
+    "path": "system/sysmenu/save-hover.png",
+    "sha256": "c7cba12897265da73e740e828a62c08d59d4449dd7ffa978ec6b402c2a684719"
+  },
+  {
+    "path": "system/sysmenu/save-idle.anime",
+    "sha256": "a39822a23db011a1b6116f3b24e752a5c72e5aa8ef35fdc122a16c6f45f4b298"
+  },
+  {
+    "path": "system/sysmenu/save-idle.png",
+    "sha256": "04851a0d5470d20663601d1c61efe28e5f4f7e8ba9d19f1b333ff81823e7090d"
+  },
+  {
+    "path": "system/sysmenu/save-press.png",
+    "sha256": "3f74d0ab6f83b639881e44c33d2ec57254222a66bd050db04745d8b88bb6de17"
+  },
+  {
+    "path": "system/sysmenu/skip-hover.png",
+    "sha256": "6fb72c303ee8b38d6d76506f7e7cd7e096d52ac7fc1bc6a46ce81fe734a1b806"
+  },
+  {
+    "path": "system/sysmenu/skip-idle.png",
+    "sha256": "1aa5189407f4226dfebf5fd357118c16548a6f98875d9d663925828b1cadcd9f"
+  },
+  {
+    "path": "system/sysmenu/skip-press.png",
+    "sha256": "8afa466c4ab757defd7d63a998ea966a109734b7d5e8f721ba949def60ffca70"
+  },
+  {
+    "path": "system/sysmenu/sysmenu.gui",
+    "sha256": "54622624b0ff5c2ecdafb265082eef7327a8948d61f6c3663686ccc96d1e0520"
+  },
+  {
+    "path": "system/title/base.png",
+    "sha256": "1f827ed117e8857d73b131cae054a93e6a3843960b221d777ad89ec1bf167cb0"
+  },
+  {
+    "path": "system/title/start-hover.png",
+    "sha256": "122cb56a0f364ffb40426cf711684ec646e3085189d1430e965a470b640b3ce7"
+  },
+  {
+    "path": "system/title/start-idle.png",
+    "sha256": "b1c16fd24b9d4154dd541a274e436fbf317d2faa6dec710f4027ed44e1f5d869"
+  },
+  {
+    "path": "system/title/start-press.png",
+    "sha256": "1fd678ac5f4d3ce447151be8c47fbaed7d530a1fc72c95bc22c26a28c5f97678"
+  },
+  {
+    "path": "system/title/title.gui",
+    "sha256": "3c3319fc9012f45bf3ccd13a3b749f2a4a6ed3bd2f7c709546a6267dbc320ce3"
+  },
+  {
+    "path": "images/.DS_Store",
+    "sha256": "8bfa27f99b262e611b41d65aafb870f87a5233858915cbe5bd32126c2c43d5d1"
+  },
+  {
+    "path": "images/bg/black.png",
+    "sha256": "b904f7b454f83c1a1304031467b1d12a62aa859ccc811d1a84b1c261efa59985"
+  },
+  {
+    "path": "images/bg/school.png",
+    "sha256": "04e15c239ffbcfd43a883f36c5745a5646d96dc6cbfc2f17efabdae4d9e60c97"
+  },
+  {
+    "path": "images/bg/white.png",
+    "sha256": "cb7deaecc8dc88f3b2a61ff83f33edf8983b6198bb218bdce3cfa7426d92b441"
+  },
+  {
+    "path": "images/ch/.DS_Store",
+    "sha256": "38b072a3310db7c74b1f7c459f7cf8b851796243a6f3d795ea1d9cdc1084c4cf"
+  },
+  {
+    "path": "images/ch/aki/aki-normal.png",
+    "sha256": "c532761ee831291b167f52eb9391965b3a98d9b4e03dd42a3aa01c3f99a797b0"
+  },
+  {
+    "path": "images/ch/midori/eye/midori-normal.png",
+    "sha256": "49e828cae39df46f771f80a9cee7a93ac86f53d09bc469cc7f2b48cc327b51f1"
+  },
+  {
+    "path": "images/ch/midori/eye/midori-smile.png",
+    "sha256": "f4cda146acf9299a4a23d518af37579c0abd97f040281d9f7bc0477e50c50477"
+  },
+  {
+    "path": "images/ch/midori/lip/midori-happy.png",
+    "sha256": "f268fc4f6de6c6f3b571019d018f0ab7e325c2d293a0335ed7b92d27df8a03bc"
+  },
+  {
+    "path": "images/ch/midori/lip/midori-normal.png",
+    "sha256": "c83331b11a099b3f43c64fcf1289ba49e27ab6b2cc7f3f8eb3ea445861af96cb"
+  },
+  {
+    "path": "images/ch/midori/lip/midori-smile.png",
+    "sha256": "68eafa4c58ad982b0e0b5a4e5d45cc9463a47a972fea918d039866d78e4a14c4"
+  },
+  {
+    "path": "images/ch/midori/midori-happy.png",
+    "sha256": "bf85789466b26509580f3f64a3e8a667b05e1fa3d9628c72767c56002827f2ae"
+  },
+  {
+    "path": "images/ch/midori/midori-normal.png",
+    "sha256": "eeded572c7c12630455ae7d1ddb04b2bfcb8c5e953d3ecc7e4883e182c6f08a6"
+  },
+  {
+    "path": "images/ch/midori/midori-smile.png",
+    "sha256": "08880dae953d6b516f7f5994be134190524e53163dfe90f5219057f77c69ce80"
+  },
+  {
+    "path": "images/ch/xiaoling/eye/xiaoling-normal.png",
+    "sha256": "81a280425365dd7acb890c16261f24a5520632ba8d396ffc99fd015284130369"
+  },
+  {
+    "path": "images/ch/xiaoling/eye/xiaoling-smile.png",
+    "sha256": "fd2850b8a9b734c4ed84532fece1f23ba7f94d866eb2a5da8db4317caa30eeef"
+  },
+  {
+    "path": "images/ch/xiaoling/lip/xiaoling-happy.png",
+    "sha256": "5f51124991b937e1c8b48edb5d6f8ff540863d963806eb17e86e11b766390ba6"
+  },
+  {
+    "path": "images/ch/xiaoling/lip/xiaoling-normal.png",
+    "sha256": "ba87ed63e102c6f9916d2194991e7884e23258215f57e35341b8dfb7f9a9bae0"
+  },
+  {
+    "path": "images/ch/xiaoling/lip/xiaoling-smile.png",
+    "sha256": "d1766390c5bdaa1695015f87d550967ef1c6fc6db7acef2cb24ca169baf65842"
+  },
+  {
+    "path": "images/ch/xiaoling/xiaoling-happy.png",
+    "sha256": "b0b193bffce952367daf205291eb0494dd7782d2539e7bab6f7879c3d97cd9ae"
+  },
+  {
+    "path": "images/ch/xiaoling/xiaoling-normal.png",
+    "sha256": "0be5c8ab38d9ab64dd2bf8fc1ec3df85dcc7d86b528a9dee2ba2e983a46cf3dd"
+  },
+  {
+    "path": "images/ch/xiaoling/xiaoling-smile.png",
+    "sha256": "601272dbc836fe72387bc2ccafef3c74599e418c36d30094e04480b27a4f19f8"
+  },
+  {
+    "path": "sound/.DS_Store",
+    "sha256": "9c701e669969e6bbe7ca7cf8833de593e8557895a5d151e2ea0a09ad270cf803"
+  },
+  {
+    "path": "sound/bgm/afternoon2.ogg",
+    "sha256": "84fdd9c70dd96f3d6dbb6f56458ab966e70ad041cf534fc7b63fe8174d2c45c0"
+  },
+  {
+    "path": "sound/bgm/start.ogg",
+    "sha256": "e1941828271a74debd36549d375127b4a7dd9a9d0fe56b7935b4f92fe4c35186"
+  },
+  {
+    "path": "sound/se/click.ogg",
+    "sha256": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca"
+  },
+  {
+    "path": "sound/voice/001.ogg",
+    "sha256": "22b7e58b5d43042e9ffc363870c1427b9ccc56b41160a06601dcac82ddfce76c"
+  },
+  {
+    "path": "sound/voice/002.ogg",
+    "sha256": "83afe794c4816c9382a83f7f1059fb74bbff89e58fe8b60564b2135bb5f8cdbe"
+  },
+  {
+    "path": "sound/voice/003.ogg",
+    "sha256": "671b517bc8633568f06a8d19339d79e2094f690df9eac66df2eb662ab8b47434"
+  },
+  {
+    "path": "sound/voice/004.ogg",
+    "sha256": "aad4aa728c5a838f8891f81a55e751ac3150d57d4512e9e8ae6ecfbb51e97bcf"
+  },
+  {
+    "path": "sound/voice/005.ogg",
+    "sha256": "f99e01cb8f9cd3cfac0e4f65474ddca73b1f2a56d16aeb9e33d14e67cca50313"
+  },
+  {
+    "path": "main.ray",
+    "sha256": "fc53a339e9d47caaa8f8a84122d6bbab465ebb3cbed97c3641e96b42895d16ec"
+  },
+  {
+    "path": "start.novel",
+    "sha256": "edc81bfb88d24e0b5df0e86ac1f8457547ad4e8cba5d8df29312df959772e34c"
+  },
+  {
+    "path": "config.ini",
+    "sha256": "567c3e819308f80d6e8b5c61b6857a7475450355c4ee2148a5eae05201641d1c"
+  }
+]

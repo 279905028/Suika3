@@ -1,0 +1,124 @@
+{
+  "status": "pass",
+  "layer": "本批当前源稿/编译状态模型与图鉴源登记；不证明资源绑定、实际显示、形态时点或引擎/浏览器",
+  "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+  "checks": [
+    {
+      "name": "六条互斥路线且叶岚无路线",
+      "pass": true
+    },
+    {
+      "name": "孟遥四组合 x HIGH/LOW，只有 AA 秘密继续；婚姻未结束及B后不重启契约",
+      "pass": true
+    },
+    {
+      "name": "飘HIGH四组合/LOW二结果与双后日谈分派",
+      "pass": true
+    },
+    {
+      "name": "图鉴60项与activeSelectedIds顺序逐项一致",
+      "pass": true
+    }
+  ],
+  "mengyao": [
+    {
+      "relation": "HIGH",
+      "combination": "AA",
+      "ending": "MY-E1",
+      "epilogue": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "combination": "BA",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "combination": "AB",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "combination": "BB",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "LOW",
+      "combination": "AA",
+      "ending": "MY-E1",
+      "epilogue": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "combination": "BA",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "combination": "AB",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "combination": "BB",
+      "ending": "MY-E2",
+      "epilogue": "后日谈-未写完的安排.md"
+    }
+  ],
+  "piao": [
+    {
+      "relation": "HIGH",
+      "combination": "AA",
+      "ending": "PI-E1",
+      "epilogue": null
+    },
+    {
+      "relation": "HIGH",
+      "combination": "BA",
+      "ending": "PI-E2",
+      "epilogue": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "combination": "AB",
+      "ending": "PI-E2",
+      "epilogue": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "combination": "BB",
+      "ending": "PI-E2",
+      "epilogue": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "LOW",
+      "combination": "A",
+      "ending": "PI-LE1",
+      "epilogue": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "combination": "B",
+      "ending": "PI-LE2",
+      "epilogue": "后日谈-未写完的安排.md"
+    }
+  ],
+  "gallery": {
+    "registered": 60,
+    "bound": 0,
+    "sourceHashes": {
+      "docs/CG当前选择.json": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d",
+      "system/sui-u/gallery.registry.json": "58180e8a09d809f91c0b28b680d9ab4b6839c4e713ee58fcbedde4f6870f726c"
+    }
+  },
+  "notVerified": [
+    "I01资源绑定尚未交接：黄球球球形/人形显示时点未验证",
+    "孟遥婚姻与BA台词未做本轮全文人工审校",
+    "图鉴全60项真实图加载、未解锁和实际解锁需候选实测"
+  ]
+}

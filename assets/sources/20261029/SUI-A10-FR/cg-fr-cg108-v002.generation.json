@@ -1,0 +1,202 @@
+{
+  "id": "CG108",
+  "title": "两份早饭，不假装人齐",
+  "package": "SUI-A10-FR",
+  "stem": "cg-fr-cg108-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A07/shijiang-base",
+    "A08/bg-old-netcafe-milk-tea-fr-day91",
+    "PRE/prop-shared-handheld-food-boxes-reference-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-old-netcafe-milk-tea/bg-old-netcafe-milk-tea-fr-day91-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 把同两名成年男子和两份早餐移到奶茶店门外台阶旁，两人站着，背后通过玻璃见奶茶店，脚下为室外旧石台阶。师匠仍一手递早餐给文文、另一手拿自己一份，保持脸、帽子、眼镜和衣服图案，严格两份。照片纸袋已折口装好，在台阶一侧，不露内容，无餐桌、无第三人，无新文字。参考2只提供已改奶茶店外立面。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG108",
+    "kind": "approved-addition",
+    "title": "两份早饭，不假装人齐",
+    "originalTitle": null,
+    "originalSources": [],
+    "time": "第91天早晨，FR-E1",
+    "routeGroup": "FR",
+    "source": {
+      "path": "scenario/朋友与职业-夜班.md",
+      "line": 734,
+      "paragraph": "TEXT_9bb4ee135ee19001b268",
+      "scope": "FR-E1",
+      "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+      "quote": "师匠递来一份早饭，这回只买了两份。毛狼还在外地，没有一份多出来的被摆在台阶上装作人齐了。",
+      "conditions": [
+        "FR06-01=A&FR08-01=A"
+      ],
+      "sourceSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+      "matchText": "师匠递来一份早饭，这回只买了两份。",
+      "oldAnchorExact": false
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、师匠",
+      "offscreenOrRemote": "毛狼还在外地；没有第三人同席"
+    },
+    "wardrobeAndForm": "文文B、师匠A日常",
+    "propState": "两份早饭、装好的猫画照片纸袋",
+    "composition": "旧店旁递早饭；只两份，不多摆空碗假装毛狼在场。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "friends"
+        }
+      ],
+      "requiredExpressions": [
+        "FR06-01=A&FR08-01=A"
+      ]
+    },
+    "reviewNotes": "背景旧店已变奶茶店；平等往来，不重新当雇主或恢复旧网吧；猫图及冲印照同源。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A07/shijiang-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_9bb4ee135ee19001b268_1",
+      "visiblePageIds": [
+        "TEXT_9bb4ee135ee19001b268_1"
+      ],
+      "exitBeforeId": "TEXT_aaa2517a1642c0d32049_1",
+      "snapshotBefore": "第91天早晨，FR-E1；文文、师匠；文文B、师匠A日常；两份早饭、装好的猫画照片纸袋",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "背景旧店已变奶茶店；平等往来，不重新当雇主或恢复旧网吧；猫图及冲印照同源。"
+    },
+    "production": {
+      "package": "SUI-A10-FR",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "selectionMethod": "用户委托助手选择",
+      "approvalRecord": "qa/SUI-A09-selection-20261029/selection-decision.json",
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": "补朋友线继续结局，与CG094的新柜台疏远结局相对。",
+    "previousCandidateId": "A09-C08",
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-old-netcafe-milk-tea",
+        "owner": "SUI-A08",
+        "name": "旧网吧改奶茶店门面",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-old-netcafe-milk-tea-fr-day91-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-netcafe-cat-drawing",
+        "owner": "SUI-A08",
+        "name": "师匠儿子猫画/原图/冲印照",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "prop-netcafe-cat-drawing-wall-reference-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-old-netcafe-milk-tea",
+        "owner": "SUI-A08",
+        "name": "旧网吧改奶茶店门面",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-old-netcafe-milk-tea-fr-day91-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-old-netcafe-milk-tea-fr-day91"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-netcafe-cat-drawing",
+        "owner": "SUI-A08",
+        "name": "师匠儿子猫画/原图/冲印照",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "prop-netcafe-cat-drawing-wall-reference-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/prop-netcafe-cat-drawing-wall-reference"
+        ],
+        "frameUse": "CG108只见装好的照片纸袋；内容来源是旧墙猫画，不把旧猫画直接重新挂在新奶茶店。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/prop-netcafe-mealbox-open-reference",
+          "A08/bg-old-netcafe-milk-tea-fr-day91",
+          "PRE/prop-shared-handheld-food-boxes-reference-v001"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A07/shijiang-base",
+      "A08/bg-old-netcafe-milk-tea-fr-day91",
+      "A08/prop-netcafe-cat-drawing-wall-reference",
+      "A08/prop-netcafe-mealbox-open-reference",
+      "PRE/prop-shared-handheld-food-boxes-reference-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "递早饭应在旧店旁而非新店室内",
+  "sourceFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v002.png",
+  "sourceSha256": "4c6db0003622ef621ee5eb780b7d462025cb2cb1f29ee7228c95700170478ab6",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-325f4508-65a4-49e3-9e22-8e76f8d30fd7.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v001.png",
+      "sha256": "460d95b200ccdfaf8d1db5da0c3a1bb2f6b62f42d9aaa9b03596c7ffa1154020"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-old-netcafe-milk-tea/bg-old-netcafe-milk-tea-fr-day91-v001.png",
+      "sha256": "8350ddab5080eef7eef2dd6693eb36f206c4de5fed6bafdd26f9a87665c656c1"
+    }
+  ],
+  "runtimeAdopted": false
+}

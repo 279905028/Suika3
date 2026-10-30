@@ -1,0 +1,35 @@
+# SUI-U · generated from source/build.py
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+}
+
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: system/sui-u/png/title-confirm.png;
+}
+YES {
+    id: 1;
+    type: title;
+    x: 396;
+    y: 398;
+    image-idle: system/sui-u/png/confirm-idle.png;
+    image-hover: system/sui-u/png/confirm-hover.png;
+    image-press: system/sui-u/png/confirm-press.png;
+    file: start.novel;
+}
+NO {
+    id: 2;
+    type: cancel;
+    x: 660;
+    y: 398;
+    image-idle: system/sui-u/png/cancel-idle.png;
+    image-hover: system/sui-u/png/cancel-hover.png;
+    image-press: system/sui-u/png/cancel-press.png;
+}

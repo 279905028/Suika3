@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "SUI-A01-review-2",
+  "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+  "assetId": null,
+  "kind": null,
+  "ownerTask": null,
+  "characterOrSceneKey": null,
+  "form": null,
+  "variant": null,
+  "version": null,
+  "status": "未开始",
+  "requirementKeys": [],
+  "storyAnchors": [],
+  "sources": [],
+  "promptOrProcessRecord": null,
+  "sourceFile": null,
+  "derivativeFile": null,
+  "sha256Source": null,
+  "sha256Derivative": null,
+  "format": null,
+  "width": null,
+  "height": null,
+  "bytes": null,
+  "orientation": null,
+  "colorSpace": null,
+  "alpha": {
+    "present": null,
+    "range": null,
+    "bbox": null,
+    "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+  },
+  "encoding": {
+    "tool": null,
+    "version": null,
+    "lossless": null,
+    "quality": null,
+    "method": null,
+    "exact": null
+  },
+  "placement": {
+    "coordinateBasis": "源图像素；左上原点；矩形[x,y,width,height]",
+    "pivot": null,
+    "criticalRect": null,
+    "cropRect": null,
+    "uiMaskReference": null,
+    "scale": null
+  },
+  "binding": {
+    "routeIds": [],
+    "sceneNodeIds": [],
+    "condition": null,
+    "enter": null,
+    "exitAndRestore": null
+  },
+  "approval": {
+    "appearanceEvidence": [],
+    "imageEvidence": [],
+    "currentProjectAdopted": false,
+    "adoptionEvidence": null
+  },
+  "checks": {
+    "metadata": "未测",
+    "decodedPixels": "未测",
+    "compositeWhiteBlackDayNight": "未测",
+    "engine": "未测",
+    "browser": "未测",
+    "physicalPhone": "未测",
+    "desktop": "未测",
+    "deployment": "未执行"
+  },
+  "pending": [],
+  "supersedes": null,
+  "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+  "sourceMetadata": {
+    "format": null,
+    "width": null,
+    "height": null,
+    "bytes": null,
+    "orientation": null,
+    "colorSpace": null,
+    "alpha": {
+      "present": null,
+      "range": null,
+      "bbox": null,
+      "coordinateBasis": "原图像素；左上原点；矩形[x,y,width,height]"
+    }
+  }
+}

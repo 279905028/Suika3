@@ -1,0 +1,161 @@
+{
+  "id": "CG068",
+  "title": "再对一次焦",
+  "package": "SUI-A10-PI",
+  "stem": "cg-pi-cg068-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A05/piao-base",
+    "A05/piao-prop-camera",
+    "PRE/prop-piao-knots-reference-v002"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-PI/cg-pi-cg068-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 仅移除画面下部可见的棕色绳子、绳结和无关抓绳手。那只并未参与相机交接的手收至画外。保留文文牛仔袖手接相机、飘的手搭在他的手背重对焦、相机、身份和背景。不得为未知物体另补替代物。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG068",
+    "kind": "retained-selection",
+    "title": "再对一次焦",
+    "originalTitle": "再对一次焦",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+        "line": 1326,
+        "anchor": "她递给我相机，让我拍她打结的手；第一张糊了，她看完笑了一下，说那就再对一次焦。"
+      }
+    ],
+    "time": "LOW第91天，下午散步",
+    "routeGroup": "PI",
+    "source": {
+      "path": "scenario/飘-空白页.md",
+      "line": 1336,
+      "paragraph": "TEXT_c53b12871762b040a997",
+      "scope": "PI-LE1",
+      "nearestNode": "<!-- NODE PI-LOW-D36-COMPLETE -->",
+      "quote": "孩子的事仍由她和毛狼继续商量，我不会替毛狼答应，也不会替飘作主。她递给我相机，让我拍她打结的手；第一张糊了，她看完笑了一下，说那就再对一次焦。",
+      "conditions": [
+        "PIAO_RELATION=LOW",
+        "PI-L06-01=A"
+      ],
+      "sourceSha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "matchText": "她递给我相机，让我拍她打结的手；第一张糊了，她看完笑了一下，说那就再对一次焦。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、飘",
+      "offscreenOrRemote": "毛狼只在谈话中提及，不在散步现场"
+    },
+    "wardrobeAndForm": "飘B成年形象，孕期外观未指定；不补孕肚/医疗细节",
+    "propState": "相机从飘递给文文；打结的手，结的具体对象未明",
+    "composition": "手与相机紧景，第一次糊片后再对焦；不补具体绳结对象。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "piao"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=LOW",
+        "PI-L06-01=A"
+      ]
+    },
+    "reviewNotes": "若画结的载体须A05先核草图；试着交往不能解释为代替毛狼承担父亲角色。场所仅散步局部，不补公园或河边。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A05/piao-prop-camera"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_c53b12871762b040a997_1",
+      "visiblePageIds": [
+        "TEXT_c53b12871762b040a997_1"
+      ],
+      "exitBeforeId": "BRANCH_2dad272e82aa9610ebe9",
+      "snapshotBefore": "LOW第91天，下午散步；文文、飘；飘B成年形象，孕期外观未指定；不补孕肚/医疗细节；相机从飘递给文文；打结的手，结的具体对象未明",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "若画结的载体须A05先核草图；试着交往不能解释为代替毛狼承担父亲角色。场所仅散步局部，不补公园或河边。"
+    },
+    "production": {
+      "package": "SUI-A10-PI",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "prop-piao-knots",
+        "owner": "SUI-A05",
+        "name": "布袋/布条/衣角结/发绳",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-piao-photos",
+        "owner": "SUI-A05",
+        "name": "桌角/群照/雨后老街照片",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "prop-piao-knots",
+        "owner": "SUI-A05",
+        "name": "布袋/布条/衣角结/发绳",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-piao-knots-reference-v002"
+        ],
+        "frameUse": "CG067湿绳；CG096手提布袋带结。CG063碗勺近景无衣角结特写；CG068正文未明打结对象，镜头限手与相机，对象保持画外，不把参考袋子补入。"
+      },
+      {
+        "requirementId": "prop-piao-photos",
+        "owner": "SUI-A05",
+        "name": "桌角/群照/雨后老街照片",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A05/piao-prop-camera"
+        ],
+        "frameUse": "CG061/CG098为征询许可、按快门之前，画内没有已拍照片；CG068是重对焦时的手与相机，不必出现第一次糊片屏幕。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A05/piao-prop-camera",
+      "PRE/prop-piao-knots-reference-v002"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "未知所打结物不得擅画绳",
+  "sourceFile": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg068-v002.png",
+  "sourceSha256": "1b92bef902ca611ecfbdb8c9b8f2ddca57b1359352f3777de08b03b2a11b5f77",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-aa0db154-aca6-4261-a6a8-0cc7f438ce15.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg068-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg068-v001.png",
+      "sha256": "24d3dd359f497b24b42f13ea9c74297fcaac9f9cd3dd83ada4bc5417a8aacc25"
+    }
+  ],
+  "runtimeAdopted": false
+}

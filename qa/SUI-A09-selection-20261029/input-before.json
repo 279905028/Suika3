@@ -1,0 +1,1386 @@
+{
+  "task": "SUI-A09补选集成",
+  "date": "2026-10-29",
+  "files": [
+    {
+      "path": "TODO-v1.1.md",
+      "sha256": "7e011de37973c1026dff0b26581a183cbc8781b78a66988d9a020e84819bf49a",
+      "bytes": 16419
+    },
+    {
+      "path": "config.ini",
+      "sha256": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5",
+      "bytes": 20254
+    },
+    {
+      "path": "docs/CG当前选择.json",
+      "sha256": "01fbfe78969ed13033f0b573189a9b1275c76a77241102b5b80aca31f5b9ad03",
+      "bytes": 31918
+    },
+    {
+      "path": "docs/CG调整清单.md",
+      "sha256": "3387c4870acfc89403936d2ded2f0e4c32c0580e4878a7c397fc3377000f0414",
+      "bytes": 1337
+    },
+    {
+      "path": "docs/SUI-A美术子任务.md",
+      "sha256": "9cd89827073c206dba666d84e6737d646ecdc9772f2c6853935ba5aaaa349e3b",
+      "bytes": 10351
+    },
+    {
+      "path": "docs/开发计划.md",
+      "sha256": "7249d3ffc0df94d6eab7fa98e25819ec9f8ad04f6f36ef91117942409f61bf6f",
+      "bytes": 6679
+    },
+    {
+      "path": "docs/美术/SUI-A09.md",
+      "sha256": "d7dc4145ee2453b078cc6be59c4ab4642aa2e6c1d81767c7f725ebcc9b1dfc26",
+      "bytes": 64826
+    },
+    {
+      "path": "main.ray",
+      "sha256": "1683a010b9b54770cbbcd5cd585748dd83cf668d5067b5258a9b18ecde92016d",
+      "bytes": 12991
+    },
+    {
+      "path": "qa/SUI-A09-20261029/author-review.py",
+      "sha256": "93ab73f1d7a5d0150ec92e678f2c02691d15f5a5d03e1f5f5b4a906cf5df5b90",
+      "bytes": 50358
+    },
+    {
+      "path": "qa/SUI-A09-20261029/check-delivery.py",
+      "sha256": "9a3a14b110e988fedf2ad7ec63819ee64aceaf03021553659bebcfab1446863b",
+      "bytes": 4754
+    },
+    {
+      "path": "qa/SUI-A09-20261029/delivery-check.json",
+      "sha256": "adbb20a9705beaaa64cc4a2f38395edceab16ecc4e96acdc9b5ec6b0c409d2b0",
+      "bytes": 6058
+    },
+    {
+      "path": "qa/SUI-A09-20261029/index-source.cjs",
+      "sha256": "9f47b3dbfc6d90c16df95fb94f702f6f5a6fa597f9b3d7ee630f7eb6e4cfa746",
+      "bytes": 2062
+    },
+    {
+      "path": "qa/SUI-A09-20261029/input-before.json",
+      "sha256": "a40d901e8758d59dff1742a81cb1ca29ee5b741ddfd2353c8e76ba0f185fd51f",
+      "bytes": 9948
+    },
+    {
+      "path": "qa/SUI-A09-20261029/input-reviewed.json",
+      "sha256": "8020e45d2b9a46e7d75cb81cf4c24543c10f470745d02850fad6e08f277411be",
+      "bytes": 19112
+    },
+    {
+      "path": "qa/SUI-A09-20261029/package-index.json",
+      "sha256": "a4b957decd694880e691ce816f0f2fcf5fdafc74f6a59c64e24a6ee5cb22e431",
+      "bytes": 2024
+    },
+    {
+      "path": "qa/SUI-A09-20261029/review.json",
+      "sha256": "09cda4dbd0bc3edc1983a559ec3b4ec2bbc22f40c3e9a6c4a21582f5258da734",
+      "bytes": 285784
+    },
+    {
+      "path": "qa/SUI-A09-20261029/source-index.json",
+      "sha256": "f05f05c33413d38fa01763755d86813c19afc8b1bf2b56635cbf081cee31a8cc",
+      "bytes": 2040261
+    },
+    {
+      "path": "qa/SUI-A09-20261029/verification.json",
+      "sha256": "f0fb7e36fb75440f791481f6899940a4d52e0ecd75770352fc58815684e40511",
+      "bytes": 11446
+    },
+    {
+      "path": "qa/SUI-A09-20261029/verify.cjs",
+      "sha256": "6b03920c2d2c1d83451858b5adf9ec2bd15a4372f2eea42a2d12bb4cbece7f85",
+      "bytes": 11125
+    },
+    {
+      "path": "qa/SUI-A09-20261029/交接.md",
+      "sha256": "7a9d5598023064d829e2b5ee753b4dba4be364c11597e6719d3b59e2b21b1bbe",
+      "bytes": 4907
+    },
+    {
+      "path": "qa/route-merge-20261028/cg-selection-original.json",
+      "sha256": "fc1e84b34b19ee7e493c585ea67d2996969acd00c91dabf8f5606fc5908d10a9",
+      "bytes": 997
+    },
+    {
+      "path": "scenario/README.md",
+      "sha256": "bebaa12b9d3ae5c125159ebdcf5479b265ed8d950e5a46f2f3f4d9f3760080f0",
+      "bytes": 5975
+    },
+    {
+      "path": "scenario/routes.json",
+      "sha256": "21ee8f439e511b86f6c56174a86c68ee292abb076abbd777ab672e19cf235d32",
+      "bytes": 9709
+    },
+    {
+      "path": "scenario/后日谈-他们的日子.md",
+      "sha256": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+      "bytes": 10604
+    },
+    {
+      "path": "scenario/后日谈-未写完的安排.md",
+      "sha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb",
+      "bytes": 3691
+    },
+    {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "bytes": 66234
+    },
+    {
+      "path": "scenario/孟遥-旧题.md",
+      "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+      "bytes": 53208
+    },
+    {
+      "path": "scenario/朋友与职业-夜班.md",
+      "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+      "bytes": 39122
+    },
+    {
+      "path": "scenario/第一章-回到毕节.md",
+      "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "bytes": 23261
+    },
+    {
+      "path": "scenario/第三章-选一条路.md",
+      "sha256": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8",
+      "bytes": 4234
+    },
+    {
+      "path": "scenario/第二章-十四天.md",
+      "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+      "bytes": 26542
+    },
+    {
+      "path": "scenario/罗小满-练习本.md",
+      "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "bytes": 52000
+    },
+    {
+      "path": "scenario/规则契约.md",
+      "sha256": "dc66fffa0599d7cc21bf64f94a0f50c3091a04adfa7a3bfb076ae8535c773035",
+      "bytes": 6614
+    },
+    {
+      "path": "scenario/跨路线-第36天的消息.md",
+      "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+      "bytes": 2497
+    },
+    {
+      "path": "scenario/选择设计.md",
+      "sha256": "e09748b3a853d0e62e6a15fe7aba9d2f8f13aa84c9cefe88d473ba19fb9981ce",
+      "bytes": 20608
+    },
+    {
+      "path": "scenario/飘-空白页.md",
+      "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "bytes": 65538
+    },
+    {
+      "path": "scenario/黄球球-门后.md",
+      "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "bytes": 41994
+    },
+    {
+      "path": "start.novel",
+      "sha256": "6e6153398e0fd16847e84c486117d50d10a70ef171f92d82499519a8d3536723",
+      "bytes": 868
+    },
+    {
+      "path": "system/sui-u/README.md",
+      "sha256": "fa2386a0b030ba788fc9e1c25b06d392880cfe91f57fec0936b14a01a3fe44ca",
+      "bytes": 6707
+    },
+    {
+      "path": "system/sui-u/anime/auto-hide.anime",
+      "sha256": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c",
+      "bytes": 145
+    },
+    {
+      "path": "system/sui-u/anime/auto-show.anime",
+      "sha256": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1",
+      "bytes": 145
+    },
+    {
+      "path": "system/sui-u/anime/choice-hover.anime",
+      "sha256": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64",
+      "bytes": 295
+    },
+    {
+      "path": "system/sui-u/anime/choice-idle.anime",
+      "sha256": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64",
+      "bytes": 295
+    },
+    {
+      "path": "system/sui-u/anime/msgbox-hide.anime",
+      "sha256": "6ee6f5dcdf612350e3439b90bcd9f46d342886d7878e8ab38bb4aa1acc8ccf4c",
+      "bytes": 149
+    },
+    {
+      "path": "system/sui-u/anime/msgbox-show.anime",
+      "sha256": "58b10087e6a973a3b747abb8dd616ff0d9b491acb421a84b21a6a81d09f62cdb",
+      "bytes": 149
+    },
+    {
+      "path": "system/sui-u/anime/namebox-hide.anime",
+      "sha256": "b0443eb13be54efad0439715caed68138e2435e94aba97a6660f1e37df14f7eb",
+      "bytes": 150
+    },
+    {
+      "path": "system/sui-u/anime/namebox-show.anime",
+      "sha256": "c518c7a66ce51d032797ac243eacfb957d891171b94b59c9a4f3c733f586ff88",
+      "bytes": 150
+    },
+    {
+      "path": "system/sui-u/anime/skip-hide.anime",
+      "sha256": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c",
+      "bytes": 145
+    },
+    {
+      "path": "system/sui-u/anime/skip-show.anime",
+      "sha256": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1",
+      "bytes": 145
+    },
+    {
+      "path": "system/sui-u/anime/sysbtn-appear.anime",
+      "sha256": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb",
+      "bytes": 318
+    },
+    {
+      "path": "system/sui-u/anime/sysbtn-fadein.anime",
+      "sha256": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb",
+      "bytes": 318
+    },
+    {
+      "path": "system/sui-u/anime/sysbtn-fadeout.anime",
+      "sha256": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2",
+      "bytes": 314
+    },
+    {
+      "path": "system/sui-u/anime/sysbtn-hover.anime",
+      "sha256": "0e22cfdf598734ea148744de4f9168db6df62183fb5dfaebc245c6747d86e7b1",
+      "bytes": 318
+    },
+    {
+      "path": "system/sui-u/anime/sysbtn-out.anime",
+      "sha256": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2",
+      "bytes": 314
+    },
+    {
+      "path": "system/sui-u/asset-manifest.json",
+      "sha256": "811b3c8f464d93f18f67ed3464ed92892c9f9f6d236b3ed3b8e8ce0e2c1e4ea7",
+      "bytes": 55477
+    },
+    {
+      "path": "system/sui-u/config.patch.json",
+      "sha256": "8694027b15315928c4340f8b44386dadb5d66c50e5dc14c0849f7a0d4da21244",
+      "bytes": 6531
+    },
+    {
+      "path": "system/sui-u/gallery-order.ray",
+      "sha256": "60e1b832e940766f1207fc3bed830d365de2ff56c9a4f633df85d1119cee6f04",
+      "bytes": 545
+    },
+    {
+      "path": "system/sui-u/gallery.ray",
+      "sha256": "1e4abccb3b0ca2bbfc5898d3f3a4956a2ea86c5cc46070c453b606ad10671785",
+      "bytes": 8515
+    },
+    {
+      "path": "system/sui-u/gallery.registry.json",
+      "sha256": "37a0ba1b64d4fa60756837d8793664b4924c5fee4fc1afec6cf96521011c12dd",
+      "bytes": 4941
+    },
+    {
+      "path": "system/sui-u/gui/config.gui",
+      "sha256": "ce47b56300e99182105bfa2a12a81885cb60a7f8de23a5c861949e437f3f7b85",
+      "bytes": 2401
+    },
+    {
+      "path": "system/sui-u/gui/confirm-title.gui",
+      "sha256": "10d8455785129d2bb0f05ad9d0382e2bf1077fdb7d5c0bc4ea193a6ff194bd39",
+      "bytes": 724
+    },
+    {
+      "path": "system/sui-u/gui/history.gui",
+      "sha256": "5d0af345bbb4698d8b7e7670bfda664a18d117d6005551c076607752c7c92ad8",
+      "bytes": 474
+    },
+    {
+      "path": "system/sui-u/gui/load.gui",
+      "sha256": "8c112d92e20a74e8c422a244dced658243cca55c7bad392d801adcd28b10c8ec",
+      "bytes": 2512
+    },
+    {
+      "path": "system/sui-u/gui/save.gui",
+      "sha256": "22a6573d3f3e7907e25168c1eeaadca5f789fe289f2eb16e33d43f8fc7af1ad9",
+      "bytes": 2119
+    },
+    {
+      "path": "system/sui-u/gui/sysmenu.gui",
+      "sha256": "81a01011377b8d1593e3028edf792e81c2e4d548afdc1f357196cdf017654e2e",
+      "bytes": 2239
+    },
+    {
+      "path": "system/sui-u/gui/title.gui",
+      "sha256": "191f20dcf451021822d3deae952797e5b2037959105aa9f2459a7b9637cc9861",
+      "bytes": 1257
+    },
+    {
+      "path": "system/sui-u/history.ray",
+      "sha256": "c4c5af4cb5c9b40cfa6d37b7758a4f64e96bd67ce20d7f249617fd83a76a045e",
+      "bytes": 7631
+    },
+    {
+      "path": "system/sui-u/integration.json",
+      "sha256": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3",
+      "bytes": 2345
+    },
+    {
+      "path": "system/sui-u/png/advance-1.png",
+      "sha256": "6e0e84a3dd60651e36a7a67414c59b82bd059bba41995f8d7d2624f321d37e15",
+      "bytes": 162
+    },
+    {
+      "path": "system/sui-u/png/advance-2.png",
+      "sha256": "b0bc3fce05938534d0149f69e66dd7345980d0c3063d94ded028c5b3ab3a5d3f",
+      "bytes": 161
+    },
+    {
+      "path": "system/sui-u/png/auto-save.png",
+      "sha256": "93d361c2eb068f0e8a27cec5fa22478265446c4440cb01e50c37fa68ade9ab91",
+      "bytes": 15773
+    },
+    {
+      "path": "system/sui-u/png/auto.png",
+      "sha256": "f28013f4ea0bcbc02cd84f4bef7c5cde67e790060da6cf590c0df7540fc33fd7",
+      "bytes": 3217
+    },
+    {
+      "path": "system/sui-u/png/back-hover.png",
+      "sha256": "c0a10488ae92be995419b17eb76f0af354b6c01201de4b7a25f5141bd792c521",
+      "bytes": 1550
+    },
+    {
+      "path": "system/sui-u/png/back-idle.png",
+      "sha256": "93cd389fea6fcf7849b27a157e22f559d8cce35c3e872d8f7994c20ad15e444b",
+      "bytes": 1651
+    },
+    {
+      "path": "system/sui-u/png/back-press.png",
+      "sha256": "657cbe3b8264786fd69a7f03a0b4643c2eb9ed871813d54dbacbd5d29d93cd03",
+      "bytes": 1544
+    },
+    {
+      "path": "system/sui-u/png/cancel-hover.png",
+      "sha256": "449d8f7fe0b581fb9e45a59337f78562cd98f2fab6fe505072cde2a3f011a8d2",
+      "bytes": 4145
+    },
+    {
+      "path": "system/sui-u/png/cancel-idle.png",
+      "sha256": "9cb6b336e2720e7ebddc9a9c89a5d7d907d1f15dc0cd2e6783dee3b9d1e9ed35",
+      "bytes": 4635
+    },
+    {
+      "path": "system/sui-u/png/cancel-press.png",
+      "sha256": "a4196b2e19b7cd0ddd022777a40e5119ee3227726776a805d5635915bb967dff",
+      "bytes": 4150
+    },
+    {
+      "path": "system/sui-u/png/cg-focus.png",
+      "sha256": "82b90cdf0fb9f4b59ff694d41eb4c7e0b9f64d9108be4734dc99b5169c2f8c59",
+      "bytes": 598
+    },
+    {
+      "path": "system/sui-u/png/cg-locked.png",
+      "sha256": "69016dbc066d482ec5670336fb26f8aadf595c6b884b3dbbbf4531e8b1572523",
+      "bytes": 3743
+    },
+    {
+      "path": "system/sui-u/png/choice-hover.png",
+      "sha256": "0aa507c64d2084e17d6bc2ad8a01dc6bcde1c3e53903cb1f92e697323ee0d741",
+      "bytes": 697
+    },
+    {
+      "path": "system/sui-u/png/choice-idle.png",
+      "sha256": "b2c14b3c06b084fb236b65cb77e671e2c7271604319196b9e1b3a2401615dc07",
+      "bytes": 687
+    },
+    {
+      "path": "system/sui-u/png/config.png",
+      "sha256": "adb49bd6fd368af865e780cb8b2c164552332d5a5fd4f3ec455949e1e8f330b7",
+      "bytes": 46352
+    },
+    {
+      "path": "system/sui-u/png/confirm-hover.png",
+      "sha256": "1003862d42aedbff2210e40f9d121e93ee6122065a4534a3a8bc22634126068f",
+      "bytes": 4633
+    },
+    {
+      "path": "system/sui-u/png/confirm-idle.png",
+      "sha256": "abd1cb4352482b6cb3952a1ae664a179c730138f8c1a481c3331c911adf510e5",
+      "bytes": 4599
+    },
+    {
+      "path": "system/sui-u/png/confirm-press.png",
+      "sha256": "69692ea6290a41a12a61205ae55e1510b674d18d395e3cae5a8b3bd9fe401e2f",
+      "bytes": 4544
+    },
+    {
+      "path": "system/sui-u/png/continue-hover.png",
+      "sha256": "c2f10dd0e5213213b86b0962bde8b29b1af30dea96905fda2fa6bb43e3cccdc4",
+      "bytes": 4223
+    },
+    {
+      "path": "system/sui-u/png/continue-idle.png",
+      "sha256": "be929c336b7f5b5c940a949e1ee55ba1d4c4e1eba66f84a979ea6bfefe05a643",
+      "bytes": 4716
+    },
+    {
+      "path": "system/sui-u/png/continue-press.png",
+      "sha256": "d84a9efcccd1737343189f8ecd687c97511ccc299031fe1aca71ee9dee20d791",
+      "bytes": 4230
+    },
+    {
+      "path": "system/sui-u/png/fullscreen-hover.png",
+      "sha256": "2c8ac5097fac4858ed2f5e4d891196ac7dc2ca12fb884f70512146407de265a5",
+      "bytes": 3253
+    },
+    {
+      "path": "system/sui-u/png/fullscreen-idle.png",
+      "sha256": "09e5da7519a14502c7f9ab0220307f72e50f55d794cb1befca382ed2bf835efa",
+      "bytes": 3570
+    },
+    {
+      "path": "system/sui-u/png/fullscreen-press.png",
+      "sha256": "9425968c19c7f948f9c1cc78b429a86a2edac38e3eb0e293176f058bab205fac",
+      "bytes": 3243
+    },
+    {
+      "path": "system/sui-u/png/gallery-base.png",
+      "sha256": "7d02b57579c689760b1c35c4c93d958f38aacb1386f083ac2a76dbe260370df2",
+      "bytes": 19893
+    },
+    {
+      "path": "system/sui-u/png/gallery-hover.png",
+      "sha256": "cc1245d39a5030cec9a9851b686295281a34c8e3a32f45f3abb1616e4363dec7",
+      "bytes": 2077
+    },
+    {
+      "path": "system/sui-u/png/gallery-idle.png",
+      "sha256": "a73a43f6d421be70d32914f4b74fdc761dab47802adb314cd71453bbe42cb4be",
+      "bytes": 2263
+    },
+    {
+      "path": "system/sui-u/png/gallery-press.png",
+      "sha256": "b0ce156d315556c2fc5b03dc9ed4f5f3fb3b0a29eaa624d00e89ead2f0253173",
+      "bytes": 2055
+    },
+    {
+      "path": "system/sui-u/png/gallery-view.png",
+      "sha256": "cb1a7b4e76b58b1fcf0636bf59d8240795636303267927f288c91f7b554dde0f",
+      "bytes": 18586
+    },
+    {
+      "path": "system/sui-u/png/history-item-hover.png",
+      "sha256": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf",
+      "bytes": 1416
+    },
+    {
+      "path": "system/sui-u/png/history-item-idle.png",
+      "sha256": "35a7b5fa4c3e8639355c644002dc927db2edfb67e6575de44de9ae5caaec1252",
+      "bytes": 1412
+    },
+    {
+      "path": "system/sui-u/png/history-item-press.png",
+      "sha256": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf",
+      "bytes": 1416
+    },
+    {
+      "path": "system/sui-u/png/history.png",
+      "sha256": "7880124602fbe55a0ab6e4729ab7a742b77bcb41bd6aa1772fce020da58327e9",
+      "bytes": 25112
+    },
+    {
+      "path": "system/sui-u/png/load.png",
+      "sha256": "0c72e420c05839841164bbeb34fbe35fa0abbac3b4bdb76d5f821d93994b469f",
+      "bytes": 24015
+    },
+    {
+      "path": "system/sui-u/png/menu-hover.png",
+      "sha256": "ce32609bd911bc57ee8e767eec985ab847bd4e200cda940b6bf4f9d2b7e1b765",
+      "bytes": 1958
+    },
+    {
+      "path": "system/sui-u/png/menu-idle.png",
+      "sha256": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579",
+      "bytes": 2107
+    },
+    {
+      "path": "system/sui-u/png/menu-press.png",
+      "sha256": "5afa5e7b559fdd42ccc296ef6093dbee2ddc27c461d5846ae3c7bc6f86e21afa",
+      "bytes": 1931
+    },
+    {
+      "path": "system/sui-u/png/message.png",
+      "sha256": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412",
+      "bytes": 1508
+    },
+    {
+      "path": "system/sui-u/png/name.png",
+      "sha256": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8",
+      "bytes": 220
+    },
+    {
+      "path": "system/sui-u/png/nav-auto-hover.png",
+      "sha256": "d6045b7ec8257456ff9d03706122b28962244af2cafb321de1d42d6f10f3114d",
+      "bytes": 3274
+    },
+    {
+      "path": "system/sui-u/png/nav-auto-idle.png",
+      "sha256": "7b641055aecbc5a4abb0d14780877ec35c0a6f8e155b75ed08e202507b65b5c7",
+      "bytes": 3598
+    },
+    {
+      "path": "system/sui-u/png/nav-auto-press.png",
+      "sha256": "740b4e21fca3444419c680864a010304cafcbcf9b07010989672c3e6a14db1ef",
+      "bytes": 3253
+    },
+    {
+      "path": "system/sui-u/png/nav-config-hover.png",
+      "sha256": "03ac187769c756926e26aaafce158357791812828dde493c23714f697361bb79",
+      "bytes": 3586
+    },
+    {
+      "path": "system/sui-u/png/nav-config-idle.png",
+      "sha256": "3f5bc511412427ea41dba12bb315dd80584511b137adcd1314770f9911154f24",
+      "bytes": 3936
+    },
+    {
+      "path": "system/sui-u/png/nav-config-press.png",
+      "sha256": "13c45c27c56176f436c09127b3f370add4c6c8e52661b983598686020b1c3bd2",
+      "bytes": 3580
+    },
+    {
+      "path": "system/sui-u/png/nav-history-hover.png",
+      "sha256": "c577eb2d3a387f0c2bfe43201698d0881bc451e0e50c91c9d9af4692511bd2bb",
+      "bytes": 3225
+    },
+    {
+      "path": "system/sui-u/png/nav-history-idle.png",
+      "sha256": "03c9ba86fac3a353971bd35edb73c06cc5ae0c5892f0925bd1b8e89cf9b33706",
+      "bytes": 3535
+    },
+    {
+      "path": "system/sui-u/png/nav-history-press.png",
+      "sha256": "b8929d1f17bbd56c3c0d3fd0de1151944c838bfa9e6c537a703cbb76de3bdfa0",
+      "bytes": 3204
+    },
+    {
+      "path": "system/sui-u/png/nav-load-hover.png",
+      "sha256": "90d077d73cae021f8288a231199cbe591b3327ddcdf30f5caff8e06558c4ceda",
+      "bytes": 3901
+    },
+    {
+      "path": "system/sui-u/png/nav-load-idle.png",
+      "sha256": "5c9231f367fea73240456036c3a8913135f07c446428a4f9a59af4dcb8aa5e47",
+      "bytes": 4356
+    },
+    {
+      "path": "system/sui-u/png/nav-load-press.png",
+      "sha256": "893473355ae9a348e4fbaee128e04645aee2d1b7919974eb383b577c9a9e929b",
+      "bytes": 3839
+    },
+    {
+      "path": "system/sui-u/png/nav-save-hover.png",
+      "sha256": "77a6bb67f5969b2e3f2a7e032e93e0f07751d698d906075bf6bd9e938f4c73ba",
+      "bytes": 3341
+    },
+    {
+      "path": "system/sui-u/png/nav-save-idle.png",
+      "sha256": "676d509295e0ae1a501b8b623fbc68c8e4aae984103975813714416e45d69f37",
+      "bytes": 3684
+    },
+    {
+      "path": "system/sui-u/png/nav-save-press.png",
+      "sha256": "01f200aec437ba5ba05c7d4be7a1755a94490fe97acd9faac7e2f081ad7be957",
+      "bytes": 3289
+    },
+    {
+      "path": "system/sui-u/png/nav-skip-hover.png",
+      "sha256": "ede13dbab843bcef1864c725380b1935d0362a7a011e4be96ef6b25c01772fcb",
+      "bytes": 3407
+    },
+    {
+      "path": "system/sui-u/png/nav-skip-idle.png",
+      "sha256": "cfccf22ac2ca0ade983205306c03da7dcb25cb2d077acc293488636e69009909",
+      "bytes": 3727
+    },
+    {
+      "path": "system/sui-u/png/nav-skip-press.png",
+      "sha256": "6055019de58be3b2f9a71ae4b262cdff295009874f49127203d1c9e591ae211a",
+      "bytes": 3381
+    },
+    {
+      "path": "system/sui-u/png/nav-title-hover.png",
+      "sha256": "03b587ebc8ccd7eedb33bce4b52c6831262b6615f79593ece5bc4a8cc7658df1",
+      "bytes": 3374
+    },
+    {
+      "path": "system/sui-u/png/nav-title-idle.png",
+      "sha256": "40dd3363ef1ea9cab8fd39b35e21ba4bf6a22f3d4deafbb3702c9f901c9abdae",
+      "bytes": 3695
+    },
+    {
+      "path": "system/sui-u/png/nav-title-press.png",
+      "sha256": "592eaf23f172d78b17edd8bc822d76eb127de2158a35cf98667fcbf0752c0890",
+      "bytes": 3337
+    },
+    {
+      "path": "system/sui-u/png/next-hover.png",
+      "sha256": "5dc55508c94983f20cbf17faf7464729c3601e5ed7f1d5cc7c0d41b83a4d5530",
+      "bytes": 1543
+    },
+    {
+      "path": "system/sui-u/png/next-idle.png",
+      "sha256": "5a3e166bb61c5e536d8ab1184742afed6edeb3447b613edebb84f1ad6bf3f41a",
+      "bytes": 1671
+    },
+    {
+      "path": "system/sui-u/png/next-press.png",
+      "sha256": "006f38a791a5c151395a458c98a779753a54edbd9ffa6964331a48320163ea19",
+      "bytes": 1534
+    },
+    {
+      "path": "system/sui-u/png/preview.png",
+      "sha256": "bba817b97ba51e2bf014b6757c3b7a54c57b5567b00f8dae03fcfff52ddaaee8",
+      "bytes": 444
+    },
+    {
+      "path": "system/sui-u/png/previous-hover.png",
+      "sha256": "05a90d2b043d9cab855483b919bcee6d7bc0078f33eb0f5c19ce84822162e8b8",
+      "bytes": 1344
+    },
+    {
+      "path": "system/sui-u/png/previous-idle.png",
+      "sha256": "4d1eb68a1b61f0e3df8897445060b6411225bb360271b84c9d7717e7ba17dc75",
+      "bytes": 1461
+    },
+    {
+      "path": "system/sui-u/png/previous-press.png",
+      "sha256": "b89bce40e850266037eefe3fd9da1ca112932efca33472eb1f481cd8318f35a5",
+      "bytes": 1338
+    },
+    {
+      "path": "system/sui-u/png/reading-backdrop.png",
+      "sha256": "4223df8b5ff83cfafa5d7af5c2225824a0fac3340a8cc74e9de5cc9ac9135b7a",
+      "bytes": 54208
+    },
+    {
+      "path": "system/sui-u/png/reset-hover.png",
+      "sha256": "a266b8dd63e3a0a467b4e984a124d84e915fddedde4ffcf6d58ff7d4ce666ae9",
+      "bytes": 4451
+    },
+    {
+      "path": "system/sui-u/png/reset-idle.png",
+      "sha256": "d4aafb1de5670d7555a4de5c36faf92b672fbde8884e6d04e40ffbcf744a51d8",
+      "bytes": 4993
+    },
+    {
+      "path": "system/sui-u/png/reset-press.png",
+      "sha256": "0b1461ac89dc72b3e85c59398de190bb36274ea42903231be8924e2361079d12",
+      "bytes": 4442
+    },
+    {
+      "path": "system/sui-u/png/save-item-0-hover.png",
+      "sha256": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225",
+      "bytes": 2761
+    },
+    {
+      "path": "system/sui-u/png/save-item-0-idle.png",
+      "sha256": "f1784745d2f1a1d644e95c23646c2704f926aae00b33a404b550d5b65868a46a",
+      "bytes": 2760
+    },
+    {
+      "path": "system/sui-u/png/save-item-0-press.png",
+      "sha256": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225",
+      "bytes": 2761
+    },
+    {
+      "path": "system/sui-u/png/save-item-1-hover.png",
+      "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "bytes": 3427
+    },
+    {
+      "path": "system/sui-u/png/save-item-1-idle.png",
+      "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "bytes": 3493
+    },
+    {
+      "path": "system/sui-u/png/save-item-1-press.png",
+      "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "bytes": 3427
+    },
+    {
+      "path": "system/sui-u/png/save-item-2-hover.png",
+      "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "bytes": 3427
+    },
+    {
+      "path": "system/sui-u/png/save-item-2-idle.png",
+      "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "bytes": 3493
+    },
+    {
+      "path": "system/sui-u/png/save-item-2-press.png",
+      "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "bytes": 3427
+    },
+    {
+      "path": "system/sui-u/png/save-item-3-hover.png",
+      "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "bytes": 3427
+    },
+    {
+      "path": "system/sui-u/png/save-item-3-idle.png",
+      "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "bytes": 3493
+    },
+    {
+      "path": "system/sui-u/png/save-item-3-press.png",
+      "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "bytes": 3427
+    },
+    {
+      "path": "system/sui-u/png/save-item-hover.png",
+      "sha256": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d",
+      "bytes": 956
+    },
+    {
+      "path": "system/sui-u/png/save-item-idle.png",
+      "sha256": "ffdd0b719fd1a0fed28340cb76abf560a3c75eec585b3de1f63f461d067c09a8",
+      "bytes": 951
+    },
+    {
+      "path": "system/sui-u/png/save-item-press.png",
+      "sha256": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d",
+      "bytes": 956
+    },
+    {
+      "path": "system/sui-u/png/save.png",
+      "sha256": "eeb369ab803cdcc39b4501dabdb08b0a00e33024707bbc61db7facbe713ac37e",
+      "bytes": 27116
+    },
+    {
+      "path": "system/sui-u/png/scroll-hover.png",
+      "sha256": "e1b29e1954b5a0e62ac07f11bbbc30bbbc20c84499c0e92d74731d9cd3b530b3",
+      "bytes": 246
+    },
+    {
+      "path": "system/sui-u/png/scroll-idle.png",
+      "sha256": "0df6eaa09efdd2b0a71c2ea2ee86332a2df324ed4b26f4f5ba9e489de2c7279f",
+      "bytes": 245
+    },
+    {
+      "path": "system/sui-u/png/scroll-knob.png",
+      "sha256": "f5b197668d75e3d1a45cf77176a2417217105d016b84035861c1047d7cc755be",
+      "bytes": 166
+    },
+    {
+      "path": "system/sui-u/png/settings-hover.png",
+      "sha256": "e9e3350e555b395d7381cc1355fb7ff33ca25e1e90288239ee8d8d3797e61a91",
+      "bytes": 1749
+    },
+    {
+      "path": "system/sui-u/png/settings-idle.png",
+      "sha256": "52e3c8be6e833384a88b8bae2e76eeb0260943e279cc2a49ad0af718caa58dd7",
+      "bytes": 1884
+    },
+    {
+      "path": "system/sui-u/png/settings-press.png",
+      "sha256": "10c869c5a922253785e19c53f892fde3bd213058a2db72113d2862abc3fe3bd2",
+      "bytes": 1747
+    },
+    {
+      "path": "system/sui-u/png/skip.png",
+      "sha256": "6b9a8672e8b2b7a50994d50c0c8ba8abee060a7aca58da768b77925915bf6d43",
+      "bytes": 4533
+    },
+    {
+      "path": "system/sui-u/png/slider-hover.png",
+      "sha256": "2f10e38a7f0938dd8d2d9012f3b001e9b8f0260fc07cb9aa1c112a654412e0c7",
+      "bytes": 192
+    },
+    {
+      "path": "system/sui-u/png/slider-idle.png",
+      "sha256": "5e9d1b013dd8575ca3dfa709fddbeb49f9a216ca74f708b85e27ce5d0e7c1b8b",
+      "bytes": 192
+    },
+    {
+      "path": "system/sui-u/png/slider-knob.png",
+      "sha256": "e98abcdd04d52ace4fd1b0630a45cfc9b1bd690b9d22ddef856d281610c724ed",
+      "bytes": 162
+    },
+    {
+      "path": "system/sui-u/png/start-hover.png",
+      "sha256": "aa9a6120f220444787156901d6e14c9e017b1b613dc4d81a64b78008c044c596",
+      "bytes": 3429
+    },
+    {
+      "path": "system/sui-u/png/start-idle.png",
+      "sha256": "7218a7c3aba9334cf7c01d82073f91a4e19113082c92f2694bf7dd8a4b010356",
+      "bytes": 3396
+    },
+    {
+      "path": "system/sui-u/png/start-press.png",
+      "sha256": "d3cdf9523d76d682ec334230eb181aa061de667cda2d96c613c8fd37b7fc6f99",
+      "bytes": 3373
+    },
+    {
+      "path": "system/sui-u/png/sysmenu.png",
+      "sha256": "f42ce9c9dd2e429dbc34595c1496d8cdad53eccc604c4de0854f1c43b91dd7d6",
+      "bytes": 20928
+    },
+    {
+      "path": "system/sui-u/png/title-confirm.png",
+      "sha256": "90caa9f801c5ff02eb4bed3e8da7828145d9787b9cc80d3c5b334d177a9ab0f5",
+      "bytes": 20580
+    },
+    {
+      "path": "system/sui-u/png/title.png",
+      "sha256": "1c2beabfd1f9366322c852d4d4cd37773e4a828449cedcb3ab14cebbb08c97a7",
+      "bytes": 85310
+    },
+    {
+      "path": "system/sui-u/runtime.ray",
+      "sha256": "c2e9eddf219eb6e47240c5542666914c0dcc2196f95dac14c78924d59ee0aa1e",
+      "bytes": 3126
+    },
+    {
+      "path": "system/sui-u/source/build.py",
+      "sha256": "47dfb4480586cad1749e74de67dd41613ba8b7eabb299a969383d59541d8a09b",
+      "bytes": 17831
+    },
+    {
+      "path": "system/sui-u/webp/advance-1.webp",
+      "sha256": "9b924e63c9573b319d78adb2753a39969ddd36e9194283e604af0e7ed17c597a",
+      "bytes": 70
+    },
+    {
+      "path": "system/sui-u/webp/advance-2.webp",
+      "sha256": "ae82563cc6577c8ace41cb904ba27c0bc1c72e5546238d7a58053fe1cf1f681e",
+      "bytes": 70
+    },
+    {
+      "path": "system/sui-u/webp/auto-save.webp",
+      "sha256": "470f12b90ca44dc2f2be4e18742e2a603623ddb0bb88aa62fea3701cbe328685",
+      "bytes": 6166
+    },
+    {
+      "path": "system/sui-u/webp/auto.webp",
+      "sha256": "eeb392376e8c694e54666168264d87223856b9f36aa347c44427657b11153021",
+      "bytes": 1056
+    },
+    {
+      "path": "system/sui-u/webp/back-hover.webp",
+      "sha256": "c02c554bafe1136c29fb8477a248e1f95950812fa02bfb9000644b24ca7f5b2d",
+      "bytes": 576
+    },
+    {
+      "path": "system/sui-u/webp/back-idle.webp",
+      "sha256": "c958e9c27590c38ff122f27665575f79b18903389f62963b8e2a176be376cc86",
+      "bytes": 600
+    },
+    {
+      "path": "system/sui-u/webp/back-press.webp",
+      "sha256": "cc3fb52686b6d335b77dbcc216ea65effb990cf184b8bf1111a13e1387597cb7",
+      "bytes": 566
+    },
+    {
+      "path": "system/sui-u/webp/cancel-hover.webp",
+      "sha256": "75c50ee8609dddb6cfe1f43f54b486451b562b4beb7d88cdab26f1e039e44ee1",
+      "bytes": 1366
+    },
+    {
+      "path": "system/sui-u/webp/cancel-idle.webp",
+      "sha256": "cfecdfa3606f60820689e1598c8ff60f53278c57559806864f84bc2791b48ed4",
+      "bytes": 1392
+    },
+    {
+      "path": "system/sui-u/webp/cancel-press.webp",
+      "sha256": "b97e092fcdcdec0f1f4d220fb95b12d725a0cb120a615286eddb3d8b70f86284",
+      "bytes": 1334
+    },
+    {
+      "path": "system/sui-u/webp/cg-focus.webp",
+      "sha256": "d7a5d4607aaec0f9a05446f2f78e7a23e6f11427d7f9adbd36f2c0b449414ded",
+      "bytes": 60
+    },
+    {
+      "path": "system/sui-u/webp/cg-locked.webp",
+      "sha256": "8f92dd5dc108fe4ab7dc8a21839004504eb2719b6035fef3a39e3e95183ce388",
+      "bytes": 1104
+    },
+    {
+      "path": "system/sui-u/webp/choice-hover.webp",
+      "sha256": "611238833f81523dae1ef6c2bcbab8013a2ca17d2bf2b89f6618803b10b17aa4",
+      "bytes": 108
+    },
+    {
+      "path": "system/sui-u/webp/choice-idle.webp",
+      "sha256": "9cc67e722be0e54db7915d13706ffd6521dbeb1088692dd4327d8af229e84a64",
+      "bytes": 110
+    },
+    {
+      "path": "system/sui-u/webp/config.webp",
+      "sha256": "75f28e50bb38beae52a1aeef68d71f826d1d9af7396ab391d1abf707466a2a60",
+      "bytes": 15332
+    },
+    {
+      "path": "system/sui-u/webp/confirm-hover.webp",
+      "sha256": "f9b0995059519786fb59d9b07d33a1599bf8aa6dd8420ec769b17fd2d12e4a10",
+      "bytes": 1538
+    },
+    {
+      "path": "system/sui-u/webp/confirm-idle.webp",
+      "sha256": "364462f8e764f5b38986dd95004533e2ec0a56bbe3b2848fe59c7ede5f56ab28",
+      "bytes": 1516
+    },
+    {
+      "path": "system/sui-u/webp/confirm-press.webp",
+      "sha256": "750214a920871dd1aeb9ed682c034d63472963f9cec43bc11c1cf8cdd09537e3",
+      "bytes": 1500
+    },
+    {
+      "path": "system/sui-u/webp/continue-hover.webp",
+      "sha256": "37a88c641d8931db8d06edff4b3d742b4cdfe584c37ec5a96c7b085969cf02f0",
+      "bytes": 1372
+    },
+    {
+      "path": "system/sui-u/webp/continue-idle.webp",
+      "sha256": "d87d62c7b29fda8adb759333e63095508ba86fe0c178e2a54ebffea177678d2a",
+      "bytes": 1396
+    },
+    {
+      "path": "system/sui-u/webp/continue-press.webp",
+      "sha256": "abf75a1bb28e8b99d7228f6d0a9312f9324c5eaac39a18bc49f632969a8335dc",
+      "bytes": 1338
+    },
+    {
+      "path": "system/sui-u/webp/fullscreen-hover.webp",
+      "sha256": "b564c172c732fe14d43d16597709f3558b5b0ed7c845fea7bf6fd9e27aee3f81",
+      "bytes": 1090
+    },
+    {
+      "path": "system/sui-u/webp/fullscreen-idle.webp",
+      "sha256": "1378594cf1105ae047d8c933c40b3a463a0d1c58e03c55bed99a70ad7aef9075",
+      "bytes": 1118
+    },
+    {
+      "path": "system/sui-u/webp/fullscreen-press.webp",
+      "sha256": "854896b8dbe81547b7e289e87d591e5f56d3af8a03b98650a07c462812c67b44",
+      "bytes": 1074
+    },
+    {
+      "path": "system/sui-u/webp/gallery-base.webp",
+      "sha256": "d50fc5cf26037f9c330f33a23210de06e6b7ea0199a345c5f56500ce81cdf84a",
+      "bytes": 5994
+    },
+    {
+      "path": "system/sui-u/webp/gallery-hover.webp",
+      "sha256": "e18db798d8775e856d15a07b71bf1d97bfa41454a4c00e5f895f101d3f1435a1",
+      "bytes": 722
+    },
+    {
+      "path": "system/sui-u/webp/gallery-idle.webp",
+      "sha256": "a9bb444cef80e1bce9c84e7cf254845ba693ea9f76d8bcc0a36222c9fe682d99",
+      "bytes": 742
+    },
+    {
+      "path": "system/sui-u/webp/gallery-press.webp",
+      "sha256": "74df6d337157a354f19d691b66b712c23fc5da68e7289d8737d138f79419ebe6",
+      "bytes": 708
+    },
+    {
+      "path": "system/sui-u/webp/gallery-view.webp",
+      "sha256": "5db81612604558def241870cd458b345851b70393d2b19e27c2e2dfeb0915832",
+      "bytes": 5238
+    },
+    {
+      "path": "system/sui-u/webp/history-item-hover.webp",
+      "sha256": "2012129a34237c10cba16b1059a50f8455a1d6040025cb4bed5dc079f27e7d3a",
+      "bytes": 120
+    },
+    {
+      "path": "system/sui-u/webp/history-item-idle.webp",
+      "sha256": "a79e0207fa1c2eeeb34b706395e7f398928abb33f8cf0592bdbaa3b5ce49ad4d",
+      "bytes": 114
+    },
+    {
+      "path": "system/sui-u/webp/history-item-press.webp",
+      "sha256": "2012129a34237c10cba16b1059a50f8455a1d6040025cb4bed5dc079f27e7d3a",
+      "bytes": 120
+    },
+    {
+      "path": "system/sui-u/webp/history.webp",
+      "sha256": "0cf25454e11c58ed73f8c1e4e8f4918e84dedbcc95a70ecbfba5e81204de7809",
+      "bytes": 7710
+    },
+    {
+      "path": "system/sui-u/webp/load.webp",
+      "sha256": "1e18ce1712e2fc15688010040362c8983e2f5561cedc59f399514a04ce6529d3",
+      "bytes": 7170
+    },
+    {
+      "path": "system/sui-u/webp/menu-hover.webp",
+      "sha256": "bb8e45b5fa599e52f3aa10077cca647061c901c03a51897b4cde2f3bd73376ee",
+      "bytes": 680
+    },
+    {
+      "path": "system/sui-u/webp/menu-idle.webp",
+      "sha256": "ba2f735328e0e8915f67cc3272142f5b3d02a7ed83fc480a476b86f786787de2",
+      "bytes": 702
+    },
+    {
+      "path": "system/sui-u/webp/menu-press.webp",
+      "sha256": "f0acd8c9629846d5556b9236aec6687c3d53831ba5b502a434acd02ecfb02280",
+      "bytes": 680
+    },
+    {
+      "path": "system/sui-u/webp/message.webp",
+      "sha256": "996cdc87807d20b8d41e445cfc0824958353dc2412c59f5bc011e4d453c35242",
+      "bytes": 136
+    },
+    {
+      "path": "system/sui-u/webp/name.webp",
+      "sha256": "5172d6486e0a3c42cb5b22df8a1149da758fa5246338407d4dad9f1561f85fa2",
+      "bytes": 84
+    },
+    {
+      "path": "system/sui-u/webp/nav-auto-hover.webp",
+      "sha256": "483a8abc7abda269b0132fb5c778827603150651f4638132afc6eac17fadb42b",
+      "bytes": 1070
+    },
+    {
+      "path": "system/sui-u/webp/nav-auto-idle.webp",
+      "sha256": "53a1e48e52048a1602cbbb9d36c89741c09a85cf0b1f5eef236a85989d38da15",
+      "bytes": 1090
+    },
+    {
+      "path": "system/sui-u/webp/nav-auto-press.webp",
+      "sha256": "ee3cf3f02f68420348483c542f854bc1079fbf8780f8a561a7ed0ec603df8248",
+      "bytes": 1034
+    },
+    {
+      "path": "system/sui-u/webp/nav-config-hover.webp",
+      "sha256": "e8ba8312796193ffaeead9e2b9a1e5ff55f399d7719e83e6ceee9ae417ac1556",
+      "bytes": 1120
+    },
+    {
+      "path": "system/sui-u/webp/nav-config-idle.webp",
+      "sha256": "12927c98a86c5c69c5ef6d35d3df65c28dcb6506853a0412353062c2ef66ffac",
+      "bytes": 1136
+    },
+    {
+      "path": "system/sui-u/webp/nav-config-press.webp",
+      "sha256": "2ec7089abe2ecfc4fd507e7c57273be9c8b6352df92b9b6b9eb2eed746076dc4",
+      "bytes": 1092
+    },
+    {
+      "path": "system/sui-u/webp/nav-history-hover.webp",
+      "sha256": "25dd4be58d389d23614744494f54860d23a6b3035391daa72bb115d34d682ce7",
+      "bytes": 1036
+    },
+    {
+      "path": "system/sui-u/webp/nav-history-idle.webp",
+      "sha256": "999c716b5b3583bc29bd08596c4b03a033d44ef6cb7b7079f68b2a33a78ebb01",
+      "bytes": 1058
+    },
+    {
+      "path": "system/sui-u/webp/nav-history-press.webp",
+      "sha256": "274e09248ee0e2ddf5dc325533845753c3ff2c27005a03e34cfb36d20a2ffd7a",
+      "bytes": 1018
+    },
+    {
+      "path": "system/sui-u/webp/nav-load-hover.webp",
+      "sha256": "e28fc94f0a40967cc6fac35e3ea99e9e568ecedd4ea17ff4bf9115ffc365603f",
+      "bytes": 1262
+    },
+    {
+      "path": "system/sui-u/webp/nav-load-idle.webp",
+      "sha256": "64f06e5dc330ca14ffa3cb5855965734ff92ac745f9f51a0b2ef7085fc7e16b1",
+      "bytes": 1280
+    },
+    {
+      "path": "system/sui-u/webp/nav-load-press.webp",
+      "sha256": "8cb5ff5c89511236470649dba559ee604b10418082634346c77eb14f18993694",
+      "bytes": 1236
+    },
+    {
+      "path": "system/sui-u/webp/nav-save-hover.webp",
+      "sha256": "a37a453ef37f2d32bf94cc06a5bdeeb73270df085e272b1b94af52e04712e060",
+      "bytes": 1106
+    },
+    {
+      "path": "system/sui-u/webp/nav-save-idle.webp",
+      "sha256": "ee2ed4269f32b25b275d455c070ecc307c1ba06fa06be566df7beaa2cdbcc932",
+      "bytes": 1128
+    },
+    {
+      "path": "system/sui-u/webp/nav-save-press.webp",
+      "sha256": "d555cb39d7a3a4241d9933c866c00eaab58d0024639f79b16f1b37d572a1abea",
+      "bytes": 1078
+    },
+    {
+      "path": "system/sui-u/webp/nav-skip-hover.webp",
+      "sha256": "a561124b1a2c338649b705eb7269ca8c6500134b6317204e09912ae7cc6e2e92",
+      "bytes": 1102
+    },
+    {
+      "path": "system/sui-u/webp/nav-skip-idle.webp",
+      "sha256": "2156a58b24c3558a03254bfdefed5c870068dc7ca13da2eab06c52d3c885df6b",
+      "bytes": 1116
+    },
+    {
+      "path": "system/sui-u/webp/nav-skip-press.webp",
+      "sha256": "0030d4005fe818a3a0ccf0355c45e579b0185e0fd2c1eb64800a37828249e961",
+      "bytes": 1076
+    },
+    {
+      "path": "system/sui-u/webp/nav-title-hover.webp",
+      "sha256": "5d064ca370709db6fb47c2d225771118693a3f1b9e755c5b3456f8731cbcdbe2",
+      "bytes": 1086
+    },
+    {
+      "path": "system/sui-u/webp/nav-title-idle.webp",
+      "sha256": "1c9c3a46cbb27bfb0d2a0a2b89ad697493192908025e19f2c94923474c6e03cc",
+      "bytes": 1126
+    },
+    {
+      "path": "system/sui-u/webp/nav-title-press.webp",
+      "sha256": "b3703de4d311c27a2e827ca5d3d0665c88823015cdef4cd70995ed623bcb1592",
+      "bytes": 1074
+    },
+    {
+      "path": "system/sui-u/webp/next-hover.webp",
+      "sha256": "b902896dfc130f9a19bb56481519baae1701a51907aa542654e029ec7c1cb49d",
+      "bytes": 540
+    },
+    {
+      "path": "system/sui-u/webp/next-idle.webp",
+      "sha256": "7b08ed58c45dae7580e0a40fce7e4aeabae9c72b820586b83c38e87cf25d9b2f",
+      "bytes": 568
+    },
+    {
+      "path": "system/sui-u/webp/next-press.webp",
+      "sha256": "4a0ab068c13bc3ac2f21400705a8ce44a918bc4aef674df62d45f18e3800bb27",
+      "bytes": 538
+    },
+    {
+      "path": "system/sui-u/webp/preview.webp",
+      "sha256": "7a3c261082f5ec2b776f0397271d56e8aa45fd9f5c67fec655302accaac6c461",
+      "bytes": 58
+    },
+    {
+      "path": "system/sui-u/webp/previous-hover.webp",
+      "sha256": "bff301b94f19d14bfc15cc1afd7b92501bef82eac90cf1ff135a600b382b2298",
+      "bytes": 500
+    },
+    {
+      "path": "system/sui-u/webp/previous-idle.webp",
+      "sha256": "0f188c0f2388c63cf3ebe951d7aca9e25402b2a1b4ec3dbfcd0d204c905d0a01",
+      "bytes": 524
+    },
+    {
+      "path": "system/sui-u/webp/previous-press.webp",
+      "sha256": "009e1d4b58f1b1fbaeed8ebf545407a376ba51971ef893c1df2e82683686c2d9",
+      "bytes": 496
+    },
+    {
+      "path": "system/sui-u/webp/reading-backdrop.webp",
+      "sha256": "7b8e6ff95ff3669f1e1af76a0f9869e009512b2ce4f570ffce006d8e29db4cff",
+      "bytes": 34012
+    },
+    {
+      "path": "system/sui-u/webp/reset-hover.webp",
+      "sha256": "fdda0777be1f62dc051d16a04aed6a477d6c7bd7e8ee127380ec451d13ab27fa",
+      "bytes": 1516
+    },
+    {
+      "path": "system/sui-u/webp/reset-idle.webp",
+      "sha256": "2ca8e4d948085d1acf0f5163cf05dff3847f445140699aee10023eb883b0d48b",
+      "bytes": 1546
+    },
+    {
+      "path": "system/sui-u/webp/reset-press.webp",
+      "sha256": "11f4fd2d9fa28829cee3e16e730be486775b2210ea2b24b6ba7edf83d3d7b88e",
+      "bytes": 1490
+    },
+    {
+      "path": "system/sui-u/webp/save-item-0-hover.webp",
+      "sha256": "cf84319cccf831ae3f1b364483d0da9c9ae0d785aa8abc28ef613bd6703d9d8d",
+      "bytes": 738
+    },
+    {
+      "path": "system/sui-u/webp/save-item-0-idle.webp",
+      "sha256": "8e98dd2d3337de084620cc2e8092a262c15cdc1f1568bd8e89925552272192d7",
+      "bytes": 786
+    },
+    {
+      "path": "system/sui-u/webp/save-item-0-press.webp",
+      "sha256": "cf84319cccf831ae3f1b364483d0da9c9ae0d785aa8abc28ef613bd6703d9d8d",
+      "bytes": 738
+    },
+    {
+      "path": "system/sui-u/webp/save-item-1-hover.webp",
+      "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64",
+      "bytes": 910
+    },
+    {
+      "path": "system/sui-u/webp/save-item-1-idle.webp",
+      "sha256": "fe29a682a936a666c9427d8b2b4cf1023f2ed3ad593ffc00d9670e0bab7a53e8",
+      "bytes": 968
+    },
+    {
+      "path": "system/sui-u/webp/save-item-1-press.webp",
+      "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64",
+      "bytes": 910
+    },
+    {
+      "path": "system/sui-u/webp/save-item-2-hover.webp",
+      "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64",
+      "bytes": 910
+    },
+    {
+      "path": "system/sui-u/webp/save-item-2-idle.webp",
+      "sha256": "fe29a682a936a666c9427d8b2b4cf1023f2ed3ad593ffc00d9670e0bab7a53e8",
+      "bytes": 968
+    },
+    {
+      "path": "system/sui-u/webp/save-item-2-press.webp",
+      "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64",
+      "bytes": 910
+    },
+    {
+      "path": "system/sui-u/webp/save-item-3-hover.webp",
+      "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64",
+      "bytes": 910
+    },
+    {
+      "path": "system/sui-u/webp/save-item-3-idle.webp",
+      "sha256": "fe29a682a936a666c9427d8b2b4cf1023f2ed3ad593ffc00d9670e0bab7a53e8",
+      "bytes": 968
+    },
+    {
+      "path": "system/sui-u/webp/save-item-3-press.webp",
+      "sha256": "db8dae2c4eacccc19a5e8081fdcd0cfb52b8abbba3b0cf3ec50463156dabac64",
+      "bytes": 910
+    },
+    {
+      "path": "system/sui-u/webp/save-item-hover.webp",
+      "sha256": "85fbcc95b3aa8251ffb04e99b14b75c959e374d296faf29e69d3ec959f317a58",
+      "bytes": 110
+    },
+    {
+      "path": "system/sui-u/webp/save-item-idle.webp",
+      "sha256": "d93dafa127d5f8d08f736c3234d5b8866ef0dcbf3d0d2770367998a747c6b487",
+      "bytes": 104
+    },
+    {
+      "path": "system/sui-u/webp/save-item-press.webp",
+      "sha256": "85fbcc95b3aa8251ffb04e99b14b75c959e374d296faf29e69d3ec959f317a58",
+      "bytes": 110
+    },
+    {
+      "path": "system/sui-u/webp/save.webp",
+      "sha256": "b12ec5f95d2e009d668b165e6db1aebc0d5c70a9c4534f3b7557fb52235ea5e0",
+      "bytes": 8220
+    },
+    {
+      "path": "system/sui-u/webp/scroll-hover.webp",
+      "sha256": "2f983bfff47fc4a013c0f4b751228f89aa58bc8614028e91421c00b90cec8eda",
+      "bytes": 52
+    },
+    {
+      "path": "system/sui-u/webp/scroll-idle.webp",
+      "sha256": "3dcf5d3296bdbfbd79cc2f0f2c4d76da494447ddb2329be4987b20c960355a5f",
+      "bytes": 52
+    },
+    {
+      "path": "system/sui-u/webp/scroll-knob.webp",
+      "sha256": "8503801d300d6718f2661517397bbb1e6f64d5aa8eb4e3a896aafdf9b8a07c81",
+      "bytes": 68
+    },
+    {
+      "path": "system/sui-u/webp/settings-hover.webp",
+      "sha256": "8b2798b49f8dea954c67a4368cbbd5aeb9c8caec4a36c27687093441ac992eb5",
+      "bytes": 622
+    },
+    {
+      "path": "system/sui-u/webp/settings-idle.webp",
+      "sha256": "9f7d31bae829debf9429e7756d31aa84fbc38e3cfd5522f5714b94bea4e6bf81",
+      "bytes": 648
+    },
+    {
+      "path": "system/sui-u/webp/settings-press.webp",
+      "sha256": "d186b8a6f61f40532c5b652ba2122d27016afafa65b2e98802ff5e68d25ee112",
+      "bytes": 612
+    },
+    {
+      "path": "system/sui-u/webp/skip.webp",
+      "sha256": "bc3cad843615b43958a17b3c90967502625e7f7a0c65379abdc3a5ad3c797b62",
+      "bytes": 1388
+    },
+    {
+      "path": "system/sui-u/webp/slider-hover.webp",
+      "sha256": "87b374d49e2ff153bf24d2f73dedc04da6c9cad9051df53e8d26da2feed9f162",
+      "bytes": 56
+    },
+    {
+      "path": "system/sui-u/webp/slider-idle.webp",
+      "sha256": "3720b02bd3228ec7b2ff817223de784873fd76e681e10e3f61443a09143a585e",
+      "bytes": 56
+    },
+    {
+      "path": "system/sui-u/webp/slider-knob.webp",
+      "sha256": "892752d94a534c872b0a90ad85990ae97dcbf85857ace5ea203ed577dbe37bc9",
+      "bytes": 70
+    },
+    {
+      "path": "system/sui-u/webp/start-hover.webp",
+      "sha256": "b5190552f3c881ce5ebf40a607523b45f4c180dc607d1f075acfedeea778053b",
+      "bytes": 1124
+    },
+    {
+      "path": "system/sui-u/webp/start-idle.webp",
+      "sha256": "7e8545223b6ddb9fdcaa38a474b487b3c8f1306a7372166d8db23ae8c8efbf07",
+      "bytes": 1102
+    },
+    {
+      "path": "system/sui-u/webp/start-press.webp",
+      "sha256": "d2158e5cac01063897d1cb9f71cc10ee930cc6f3fc3b65fd4abccc41596775fe",
+      "bytes": 1092
+    },
+    {
+      "path": "system/sui-u/webp/sysmenu.webp",
+      "sha256": "ea786a6fdb077729a066dd601abdda7f7ad5058c3915be1fbd2702c8639c0ef9",
+      "bytes": 6110
+    },
+    {
+      "path": "system/sui-u/webp/title-confirm.webp",
+      "sha256": "5d1fa9ccfee1b1bb13b5d3ee8bc09730146e4e82a17cf5410e4228faa431a9fe",
+      "bytes": 5644
+    },
+    {
+      "path": "system/sui-u/webp/title.webp",
+      "sha256": "af53662a2074373740c7e97cbd250374c1a27b7b3e36c6de0eae84ab1a5402fc",
+      "bytes": 47954
+    }
+  ]
+}

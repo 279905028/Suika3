@@ -1,0 +1,248 @@
+{
+  "id": "CG023",
+  "title": "隔着练习本的吻",
+  "package": "SUI-A10-XM",
+  "stem": "cg-xm-cg023-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A02/char-xiaoman-practice-notebook",
+    "A08/bg-chengdu-salon-study-screen-reference-day",
+    "A08/bg-bijie-slope-street-day-overcast"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study/bg-chengdu-salon-study-screen-reference-day-v002.png",
+    "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-day-overcast-v002.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：只锁定小满同一本黑练习本及脸，衣装依本镜\n图3：A08/bg-chengdu-salon-study-screen-reference-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：A08/bg-bijie-slope-street-day-overcast，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n核心画面：第一人称手机视频通话紧景，手机屏幕占上中部，屏内小满砖红夹克白内搭胸上、举同一本黑练习本挡住半张脸，眼睛看镜头，尚未放本飞吻。屏外文文牛仔袖手与毕节坡道虚背景；屏内只朴素成都墙面/桌角，不直接搬入整间培训教室或另加睡衣。明显手机边框分隔两地。\n衣装/形态硬约束：小满A脸型；视频截胸上，不补睡衣；文文B袖\n当拍道具：手机视频、打开再挡脸的练习本\n逐镜参考用法：成都端只取朴素墙面/桌边材质并截胸上，毕节端只取坡道路面；手机边框明确分隔两地。；CG023用既有黑本外封挡半脸；同一本打开页供连续性，不在这一拍露整页或飞吻。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG023",
+    "kind": "retained-selection",
+    "title": "隔着练习本的吻",
+    "originalTitle": "隔着练习本的吻",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+        "line": 1039,
+        "anchor": "她看了我一眼，突然拿练习本挡住半张脸。"
+      }
+    ],
+    "time": "第91天，成都宿舍视频通话",
+    "routeGroup": "XM",
+    "source": {
+      "path": "scenario/罗小满-练习本.md",
+      "line": 1045,
+      "paragraph": "TEXT_9f585d37b274e081bfb9",
+      "scope": "XM-E1",
+      "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+      "quote": "她看了我一眼，突然拿练习本挡住半张脸。过了几秒，又放下来，对着镜头飞快亲了一下，骂我站路边还讲这个。",
+      "conditions": [
+        "XM07-01=A&XM08-01=A"
+      ],
+      "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "matchText": "她看了我一眼，突然拿练习本挡住半张脸。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文在毕节；罗小满仅在手机视频内",
+      "offscreenOrRemote": "宿舍室友仅声音，不补外形"
+    },
+    "wardrobeAndForm": "小满A脸型；视频截胸上，不补睡衣；文文B袖",
+    "propState": "手机视频、打开再挡脸的练习本",
+    "composition": "明确手机边框分隔两地；取练习本挡半脸一拍，飞吻由文字承接。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "xiaoman"
+        }
+      ],
+      "requiredExpressions": [
+        "XM07-01=A&XM08-01=A"
+      ]
+    },
+    "reviewNotes": "不是文文到成都，也不是隔本实体接吻；宿舍细节以A08远程参考为限。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base",
+      "A02/char-xiaoman-practice-notebook"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_9f585d37b274e081bfb9_1",
+      "visiblePageIds": [
+        "TEXT_9f585d37b274e081bfb9_1"
+      ],
+      "exitBeforeId": "TEXT_e268e2b78e9d6cab26bf_1",
+      "snapshotBefore": "第91天，成都宿舍视频通话；文文在毕节；罗小满仅在手机视频内；小满A脸型；视频截胸上，不补睡衣；文文B袖；手机视频、打开再挡脸的练习本",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "不是文文到成都，也不是隔本实体接吻；宿舍细节以A08远程参考为限。"
+    },
+    "production": {
+      "package": "SUI-A10-XM",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-chengdu-salon-study",
+        "owner": "SUI-A08",
+        "name": "成都学习/宿舍",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-chengdu-salon-study-screen-reference-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "bg-bijie-slope-street",
+        "owner": "SUI-A08",
+        "name": "毕节坡道街巷",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-bijie-slope-street-day-overcast-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-bijie-slope-street-dusk-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-bijie-slope-street-night-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-xiaoman-practice-kit",
+        "owner": "SUI-A02",
+        "name": "小满练习本/报名资料/剪发照片",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-message-screen-cg023",
+        "owner": "SUI-A10-XM",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "待补当拍参考；非已放行资源",
+        "templateKey": "prop-message-screen"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-chengdu-salon-study",
+        "owner": "SUI-A08",
+        "name": "成都学习/宿舍",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-chengdu-salon-study-screen-reference-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-chengdu-salon-study-screen-reference-day"
+        ],
+        "frameUse": "成都端只取朴素墙面/桌边材质并截胸上，毕节端只取坡道路面；手机边框明确分隔两地。"
+      },
+      {
+        "requirementId": "bg-bijie-slope-street",
+        "owner": "SUI-A08",
+        "name": "毕节坡道街巷",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-bijie-slope-street-day-overcast-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-bijie-slope-street-dusk-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-bijie-slope-street-night-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-bijie-slope-street-day-overcast"
+        ],
+        "frameUse": "成都端只取朴素墙面/桌边材质并截胸上，毕节端只取坡道路面；手机边框明确分隔两地。"
+      },
+      {
+        "requirementId": "prop-xiaoman-practice-kit",
+        "owner": "SUI-A02",
+        "name": "小满练习本/报名资料/剪发照片",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A02/char-xiaoman-practice-notebook",
+          "PRE/prop-xiaoman-open-practice-kit-v001"
+        ],
+        "frameUse": "CG023用既有黑本外封挡半脸；同一本打开页供连续性，不在这一拍露整页或飞吻。"
+      }
+    ],
+    "internalWorkItems": [
+      {
+        "requirementId": "prop-message-screen-cg023",
+        "owner": "SUI-A10-XM",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "in-package-production-work",
+        "templateKey": "prop-message-screen",
+        "frameUse": "手机视频、打开再挡脸的练习本；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+        "referenceKeys": []
+      }
+    ],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base",
+      "A02/char-xiaoman-practice-notebook",
+      "A08/bg-chengdu-salon-study-screen-reference-day",
+      "A08/bg-bijie-slope-street-day-overcast",
+      "PRE/prop-xiaoman-open-practice-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.png",
+  "sourceSha256": "ed27c92642a3df992865cd5651b8fcbc44f2a1122e4b19e40668c10524196273",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-50dff2a2-f428-4abd-bd04-c6e55ef6851b.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.png",
+      "sha256": "69336079d9c8e9339f70b87181a32234552f59d301e27e1e9b2e84c1573d99ae"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study/bg-chengdu-salon-study-screen-reference-day-v002.png",
+      "sha256": "efe4ec6b233fb3b10b9d85ca2f85300801d4455cc08317e4bdeb2ff3ef2ed886"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-day-overcast-v002.png",
+      "sha256": "28b558a9d6327084727b38cb254de76078127c39321ee8e73db2dc925f95e850"
+    }
+  ],
+  "runtimeAdopted": false
+}

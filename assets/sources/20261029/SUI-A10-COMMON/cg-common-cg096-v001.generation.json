@@ -1,0 +1,218 @@
+{
+  "id": "CG096",
+  "title": "先把未定的留空",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg096-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A05/piao-base",
+    "A07/maolang-base",
+    "A08/bg-friends-meal-shop-day",
+    "PRE/prop-piao-epilogue-paper-kit-v001",
+    "PRE/prop-piao-knots-reference-v002"
+  ],
+  "refs": [
+    "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+    "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-epilogue-paper-kit-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v002.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：飘B成年女性，黑低马尾、黑滚边白短袖、红细绳、浅酒窝\n图2：毛狼D日常身份，黑图案T，黑护腕\n图3：A08/bg-friends-meal-shop-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：CG096斜拍纸背，金额/地点/检查日期不入画；CG099闭合新改册子，非婚礼纪念册。\n图5：湿绳供CG067；手提布袋及结供CG096；CG068结对象未明，只参考手结姿态，不指定布袋或新增绳种。\n核心画面：普通桌面及两人胸上近景，飘日常白滚边衬衫在斜放纸上记数，纸背朝观众、只模糊笔迹与一条划线；毛狼黑图案T指自己的手机日程但屏幕斜到看不清日期金额。手提布袋带结置边。不新增孕肚、产期、婚姻符号。\n衣装/形态硬约束：飘B、毛狼D日常；不设孕期体态或婚姻\n当拍道具：写有已知部分和留空项的纸、手机日程、布袋\n逐镜参考用法：只取普通饭桌/餐具材质，避开未给定门牌、窗外与时刻；不据参考补聚会日期。；CG096纸背斜面保留写字/划掉动作，金额、日程、检查地点不可读；CG099已改册子闭合、先擦水再放，非婚礼。；CG067湿绳；CG096手提布袋带结。CG063碗勺近景无衣角结特写；CG068正文未明打结对象，镜头限手与相机，对象保持画外，不把参考袋子补入。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG096",
+    "kind": "retained-selection",
+    "title": "先把未定的留空",
+    "originalTitle": "先把未定的留空",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/后日谈-未写完的安排.md",
+        "line": 11,
+        "anchor": "毛狼说出自己这阵实际能拿出的数，飘记在纸上，空着的部分另约时间继续谈。"
+      }
+    ],
+    "time": "LOW后日谈，第91天以后碰面",
+    "routeGroup": "PM",
+    "source": {
+      "path": "scenario/后日谈-未写完的安排.md",
+      "line": 20,
+      "paragraph": "TEXT_df7556e6cce79be1b906",
+      "scope": "EP-LOW",
+      "nearestNode": "<!-- NODE EP-LOW -->",
+      "quote": "他们又谈到费用。毛狼说出自己这阵实际能拿出的数，飘记在纸上，空着的部分另约时间继续谈。他想一次把后面几个月都填满，她叫他先别替未定的演出做保证。他看了一遍，说这行先划掉。",
+      "conditions": [
+        "PIAO_RELATION=LOW",
+        "ENDING!=FR-E2"
+      ],
+      "sourceSha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb",
+      "matchText": "毛狼说出自己这阵实际能拿出的数，飘记在纸上，空着的部分另约时间继续谈。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、飘、毛狼",
+      "offscreenOrRemote": "问两人关系的人留画外"
+    },
+    "wardrobeAndForm": "飘B、毛狼D日常；不设孕期体态或婚姻",
+    "propState": "写有已知部分和留空项的纸、手机日程、布袋",
+    "composition": "毛狼说实际能承担的数，飘落笔；纸上的具体金额不出现。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "epilogue",
+          "value": "后日谈-未写完的安排.md"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=LOW",
+        "ENDING!=FR-E2"
+      ]
+    },
+    "reviewNotes": "需要合法LOW后日谈分派及事件已读；PI-LE1仍与文文试着交往，不让画面暗示飘毛狼成夫妻。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A07/maolang-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_df7556e6cce79be1b906_1",
+      "visiblePageIds": [
+        "TEXT_df7556e6cce79be1b906_1"
+      ],
+      "exitBeforeId": "TEXT_4d8ad85a4aa7d7d676a2_1",
+      "snapshotBefore": "LOW后日谈，第91天以后碰面；文文、飘、毛狼；飘B、毛狼D日常；不设孕期体态或婚姻；写有已知部分和留空项的纸、手机日程、布袋",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "需要合法LOW后日谈分派及事件已读；PI-LE1仍与文文试着交往，不让画面暗示飘毛狼成夫妻。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-piao-epilogue-pages",
+        "owner": "SUI-A05",
+        "name": "后日谈新改册页/费用留空纸",
+        "reason": "现有空封二不能冒充后日谈新稿或费用表；只保留留白与有据笔画，不补金额/产期。",
+        "status": "待补当拍参考；非已放行资源"
+      },
+      {
+        "requirementId": "prop-piao-knots",
+        "owner": "SUI-A05",
+        "name": "布袋/布条/衣角结/发绳",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-day"
+        ],
+        "frameUse": "只取普通饭桌/餐具材质，避开未给定门牌、窗外与时刻；不据参考补聚会日期。"
+      },
+      {
+        "requirementId": "prop-piao-epilogue-pages",
+        "owner": "SUI-A05",
+        "name": "后日谈新改册页/费用留空纸",
+        "reason": "现有空封二不能冒充后日谈新稿或费用表；只保留留白与有据笔画，不补金额/产期。",
+        "status": "resolved-reference-frozen",
+        "referenceKeys": [
+          "PRE/prop-piao-epilogue-paper-kit-v001"
+        ],
+        "frameUse": "CG096纸背斜面保留写字/划掉动作，金额、日程、检查地点不可读；CG099已改册子闭合、先擦水再放，非婚礼。"
+      },
+      {
+        "requirementId": "prop-piao-knots",
+        "owner": "SUI-A05",
+        "name": "布袋/布条/衣角结/发绳",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-piao-knots-reference-v002"
+        ],
+        "frameUse": "CG067湿绳；CG096手提布袋带结。CG063碗勺近景无衣角结特写；CG068正文未明打结对象，镜头限手与相机，对象保持画外，不把参考袋子补入。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A07/maolang-base",
+      "A08/bg-friends-meal-shop-day",
+      "PRE/prop-piao-epilogue-paper-kit-v001",
+      "PRE/prop-piao-knots-reference-v002"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg096-v001.png",
+  "sourceSha256": "8c78c7773c9b8a5f5342e9910104ed1bb617d1776fa9dfce2344e986a6e3f67d",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-7fe42d21-3fef-4419-a8d8-a61c3e632f0b.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+      "sha256": "e6cf30699797672c913c70bb1bbe3eb18505de94948d878999fc7e67dd85c6b8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-day-v001.png",
+      "sha256": "016766734b022c1459bacfaa645a2f954b09d2b6468b3c3e1c4a8ad5d9f7711a"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-epilogue-paper-kit-v001.png",
+      "sha256": "2e700f7e8902e385b3b2430bbf54de960861cd79ccf66166cdd5e1d5d9b805de"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v002.png",
+      "sha256": "f2664bb403036d59e1f2ae2658268e7f3dae89bf3eb57ae82941e5aa8cb3feb1"
+    }
+  ],
+  "runtimeAdopted": false
+}

@@ -1,0 +1,49 @@
+{
+  "task": "SUI-A03",
+  "tool": "built-in image_gen.imagegen",
+  "approvedBase": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+  "commonPrompt": "Use case: identity-preserve. Make exactly ONE standalone transparent character sprite for a contemporary Chinese slice-of-life visual novel. The input is the USER APPROVED OPTION B for Zhou Zhi, a 25-year-old ADULT woman. Preserve her exact recognizable face, eye spacing, almond brown eyes, nose, lips, adult slim proportions, very dark long loosely wavy hair, small gold hoop earrings, same small wristwatch, and the softly matte hand-painted Japanese semi-realistic style with subdued teal fabric. Match the reference canvas of 1024x1536 and match head location, head size, shoulder location, body angle, and thigh-up crop as closely as possible. Keep the whole crown inside the canvas with the same small margin. Avoid redesigning the face or making her younger. Neutral diffuse light, natural skin tones, subtle hand-painted detail, no scene-dependent colored light. One single woman only; not a collage, sprite sheet, expression grid or comparison. Actual clean transparent alpha, no scenery, no cast shadow, no aura, no black or colored rectangle, no lettering or watermark. No invented new accessories or seductive exaggeration. Keep all unmentioned features unchanged. ",
+  "jobs": [
+    {
+      "key": "smile",
+      "file": "char-zhouzhi-human-base-smile-v001.png",
+      "change": "Change only the facial expression to an unforced private smile: a small spontaneous laugh with lips slightly parted and bright attentive eyes, not a polished customer-service grin. Keep the approved B teal rolled-sleeve blouse, black trousers, long loose hair, and hands-in-trouser-pockets posture exactly as in the reference."
+    },
+    {
+      "key": "serious",
+      "file": "char-zhouzhi-human-base-serious-v001.png",
+      "change": "Change only the facial expression: direct attentive eyes, subtly knitted eyebrows, mouth gently closed with no smile. Calm, firm, able to state a boundary without aggression, not angry, villainous, pouting or crying. Keep the approved B teal rolled-sleeve blouse, black trousers, long loose hair and hands-in-trouser-pockets posture."
+    },
+    {
+      "key": "downcast",
+      "file": "char-zhouzhi-human-base-downcast-v001.png",
+      "change": "Change only the facial expression to restrained disappointment: gaze slightly lowered, eyelids softened, lips closed, no smile, no visible tears. Adult self-possession, no helpless pleading or romantic invitation. Keep the approved B teal blouse with rolled sleeves, black trousers, long loose hair and hands-in-trouser-pockets posture."
+    },
+    {
+      "key": "tied-tired-cup",
+      "file": "char-zhouzhi-human-casual-tied-tired-cup-v001.png",
+      "change": "This variation is for day 36, shopping off duty. Keep the same teal rolled-sleeve blouse and black trousers. Gather her long dark hair casually into a loose low ponytail with small stray strands, showing the same adult face. Mild believable sleepiness under her eyes, lips relaxed and closed, not illness or makeup damage. Both hands gently hold ONE plain white ceramic cup with a thin BLUE rim and one simple handle at chest height (cup centered around source x=540 y=700, with both hands entirely inside source x=340..760 y=570..880). No saucer, pattern, letters, name, crack or contents. Fingers must be anatomically correct, five per hand, correct handle grip. Keep the body angle, shoulders and head proportions from approved B. No watch redesign."
+    },
+    {
+      "key": "planning",
+      "file": "char-zhouzhi-human-base-planning-v001.png",
+      "change": "This variation is for discussing the procurement list on day 45. Keep the exact B face, teal rolled-sleeve blouse, black trousers, long loose dark hair and same watch. An engaged practical expression, small attentive half-smile. Hold ONE folded plain white procurement sheet at mid chest with one hand supporting it and the other lightly indicating the reverse side. Show the blank BACK or the folded edge toward the viewer, so there are NO invented readable words, amounts, dates or shopping quantities. Hands and sheet must be entirely visible above source y=880, no duplicated hands, no extra pen. Same head position, scale and upper body angle. No business suit, clipboard, accounting totals or graphic text."
+    },
+    {
+      "key": "work-neutral",
+      "file": "char-zhouzhi-human-work-skirt-neutral-v001.png",
+      "change": "Work wardrobe variation for the explicitly described work skirt on day 47. Preserve the established teal long-sleeve button-up blouse with sleeves tidily rolled and same modest neckline. Change only the BLACK TROUSERS to a simple plain matte black high-waisted skirt, with a straight continuous front and NO trouser crotch or leg separation; same waist height. The skirt is a modest practical work garment in this thigh-up crop, no slit, glitter, garters, stockings or new costume details. Keep her very dark long wavy hair, neatly swept without new hair ornament, same small gold hoop earrings and watch. Professional composed small polite closed-mouth smile, attentive gaze, upright comfortable posture, no flirtatious wink or romantic blush. Her two hands rest separately at the front of the skirt, low and natural, with correct adult anatomy, no new props. Keep the B face and painting style."
+    },
+    {
+      "key": "work-serious",
+      "file": "char-zhouzhi-human-work-skirt-serious-v001.png",
+      "parent": "work-neutral",
+      "change": "This input is the already made WORK-SKIRT reference for Zhou Zhi. Preserve the exact teal blouse, high-waisted plain black skirt, hands, hair, earrings, watch, posture, head size and framing. Change ONLY the face to a calm firm professional boundary: direct steady gaze, eyebrows slightly drawn, closed relaxed mouth, no smile. She is independently stating her working conditions. No tears, anger exaggeration, frightened expression, villainy, romantic invitation, customer, man, drink or scene. Keep her exact face-v2 likeness and B matte hand-painted style."
+    },
+    {
+      "key": "prep-apron",
+      "file": "char-zhouzhi-human-prep-apron-neutral-v001.png",
+      "change": "Food-preparation wardrobe variation for the explicit apron in the day 75 stall scene. Preserve the exact B face, teal rolled-sleeve blouse and black trousers. Add a simple practical plain dark charcoal waist apron, tied at the waist, no logo, writing, fancy trim, chef uniform or sign of a successful restaurant. Tie her very dark long hair in a loose low ponytail for food preparation with natural wisps. Keep the same small wristwatch; do not add any bracelet. A slightly tired but alert practical neutral expression with the faintest natural smile. Both clean empty hands relaxed in front near waist level, correct anatomy; no knife, cookware, food, cash, shopping list or cup. Keep approved head size, shoulder scale, body angle, thigh-up crop and matte painterly style. No large restaurant background or new props."
+    }
+  ]
+}

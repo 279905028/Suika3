@@ -1,0 +1,162 @@
+{
+  "task": "SUI-A09",
+  "date": "2026-10-29",
+  "status": "pass",
+  "checks": [
+    {
+      "name": "60镜最终来源未过期",
+      "status": "pass",
+      "count": 60
+    },
+    {
+      "name": "逐镜前置需求归属一致",
+      "status": "pass",
+      "uniqueRequirementKeys": 69
+    },
+    {
+      "name": "原选择/调整记录/原始快照保持不变",
+      "status": "pass",
+      "paths": [
+        "docs/CG当前选择.json",
+        "docs/CG调整清单.md",
+        "qa/route-merge-20261028/cg-selection-original.json"
+      ]
+    },
+    {
+      "name": "任务/交接文档本地链接和行号",
+      "status": "pass",
+      "links": 79
+    },
+    {
+      "name": "52条正文卡/8条候选卡与根待办同步",
+      "status": "pass"
+    }
+  ],
+  "changesSinceStart": [
+    {
+      "path": "TODO-v1.1.md",
+      "beforeSha256": "263263e24065f8d0834314ffd7dfd49fa6279bfec8ff5e50b06ad3c6a11aa625",
+      "reviewedSha256": "7e011de37973c1026dff0b26581a183cbc8781b78a66988d9a020e84819bf49a",
+      "handling": "A09根待办合并，含其他窗口既有更新"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/resource-records.json",
+      "beforeSha256": "a1cbedbee8028778f388dd604f0b257c94a4d03496dea70abab201d0c7443b98",
+      "reviewedSha256": "9cc38e73406968066208374df3efecef038b68d642fca347db1d825db4dde222",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "docs/美术/SUI-A07.md",
+      "beforeSha256": "0fc0b634f268070dec363eb8775ed1a7e5e956b7474224a625584a7cfa5a3aaa",
+      "reviewedSha256": "d1edaabadf771fdac0b043967553d088999ce67ab8a1ce12f66fed2be0b460c4",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/approval.json",
+      "beforeSha256": "46dda2b0ba6204f393300d8b160c5dd909e8c8afb529acca9a3651eabbb82739",
+      "reviewedSha256": "55b7085edbdaa6b95e9c5bb822fd74f05bf362bb07eb4ae929c26527c4bb21ab",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "qa/SUI-A08-20261029/production-plan.json",
+      "beforeSha256": "0152d3ccf93c1ab57a0e2662ead3d2624e93a88751d9c87bbbb678d9043ead4d",
+      "reviewedSha256": "a0bb6d9bf2869bf25863df2d8fd9a4e2ec36f1b51d581ca6d0ee2836f5986828",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "scenario/朋友与职业-夜班.md",
+      "beforeSha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab",
+      "reviewedSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "scenario/第一章-回到毕节.md",
+      "beforeSha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919",
+      "reviewedSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "scenario/第二章-十四天.md",
+      "beforeSha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140",
+      "reviewedSha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "scenario/罗小满-练习本.md",
+      "beforeSha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+      "reviewedSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    }
+  ],
+  "writtenScope": [
+    "docs/美术/SUI-A09.md",
+    "qa/SUI-A09-20261029/",
+    "TODO-v1.1.md:仅SUI-A09两项"
+  ],
+  "sourceRule": "scenario/唯一正文；snapshot仅为本次审核证据，不是新的正文入口",
+  "outputs": [
+    {
+      "path": "docs/美术/SUI-A09.md",
+      "bytes": 64826,
+      "sha256": "d7dc4145ee2453b078cc6be59c4ab4642aa2e6c1d81767c7f725ebcc9b1dfc26"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/author-review.py",
+      "bytes": 50358,
+      "sha256": "93ab73f1d7a5d0150ec92e678f2c02691d15f5a5d03e1f5f5b4a906cf5df5b90"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/check-delivery.py",
+      "bytes": 4754,
+      "sha256": "9a3a14b110e988fedf2ad7ec63819ee64aceaf03021553659bebcfab1446863b"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/index-source.cjs",
+      "bytes": 2062,
+      "sha256": "9f47b3dbfc6d90c16df95fb94f702f6f5a6fa597f9b3d7ee630f7eb6e4cfa746"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/input-before.json",
+      "bytes": 9948,
+      "sha256": "a40d901e8758d59dff1742a81cb1ca29ee5b741ddfd2353c8e76ba0f185fd51f"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/input-reviewed.json",
+      "bytes": 19112,
+      "sha256": "8020e45d2b9a46e7d75cb81cf4c24543c10f470745d02850fad6e08f277411be"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/package-index.json",
+      "bytes": 2024,
+      "sha256": "a4b957decd694880e691ce816f0f2fcf5fdafc74f6a59c64e24a6ee5cb22e431"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/review.json",
+      "bytes": 285784,
+      "sha256": "09cda4dbd0bc3edc1983a559ec3b4ec2bbc22f40c3e9a6c4a21582f5258da734"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/source-index.json",
+      "bytes": 2040261,
+      "sha256": "f05f05c33413d38fa01763755d86813c19afc8b1bf2b56635cbf081cee31a8cc"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/verification.json",
+      "bytes": 11446,
+      "sha256": "f0fb7e36fb75440f791481f6899940a4d52e0ecd75770352fc58815684e40511"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/verify.cjs",
+      "bytes": 11125,
+      "sha256": "6b03920c2d2c1d83451858b5adf9ec2bd15a4372f2eea42a2d12bb4cbece7f85"
+    },
+    {
+      "path": "qa/SUI-A09-20261029/交接.md",
+      "bytes": 4907,
+      "sha256": "7a9d5598023064d829e2b5ee753b4dba4be364c11597e6719d3b59e2b21b1bbe"
+    }
+  ],
+  "runtimeAdopted": 0,
+  "productionReleased": 0,
+  "imagesGenerated": 0
+}

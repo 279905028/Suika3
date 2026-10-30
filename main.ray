@@ -1,0 +1,226 @@
+// SUI-E host. Built together with SUI-C and SUI-U by tools/runtime/build.cjs.
+// All narrative state and checkpoint ancestry are native local save variables.
+var eMode = "title";
+var ePanel = "";
+var eLastStable = -1;
+var eLastAuto = -2000;
+var eAutoDirty = false;
+var eAutoBlocked = false;
+var eNotice = false;
+var eNoticeUntil = 0;
+var eSlotText = [];
+var eKeys = {};
+var eRouteNames = {xiaoman:"罗小满 · 练习本",zhouzhi:"周栀 · 十一点四十七分",mengyao:"孟遥 · 旧题",piao:"飘 · 空白页",huangqiuqiu:"黄球球 · 门后",friends:"朋友与职业 · 夜班"};
+func setup() { return {width:1280, height:720, title:"毕节，雨停之前 · Suika3", fullscreen:false}; }
+func eGet(key) {
+    if (!Suika.checkVariableExists({name:"e_"+key})) return "";
+    return Suika.getVariableString({name:"e_"+key});
+}
+func eInt(key) {
+    if (!Suika.checkVariableExists({name:"e_"+key})) return 0;
+    return Suika.getVariableInt({name:"e_"+key});
+}
+func eSet(key,value) { Suika.setVariableString({name:"e_"+key,value:String.from(value)}); }
+func eGlobal(key,value) { eSet(key,value); Suika.makeVariableGlobal({name:"e_"+key,isGlobal:true}); }
+func eTrace(kind) {
+    print("SUI_E|"+kind+"|cursor="+sc_get("cursor")+"|pending="+sc_get("pending")+"|route="+sc_get("route")+"|relation="+sc_get("relation")+"|score="+sc_get("score")+"|return="+sc_get("return")+"|event="+sc_get("e_"+sc_pregnancy_event)+"|ending="+sc_get("ending")+"|epilogue="+sc_get("epilogue")+"|depth="+eGet("depth")+"|tag="+Suika.getTagName()+"|index="+Suika.getTagIndex());
+}
+func eMessage(message) {
+    if (eNotice != false) Engine.destroyTexture({texture:eNotice});
+    eNotice=suiHistoryText(message,23,true); eNoticeUntil=Engine.millisec+6000;
+    print("SUI_E|notice|"+message);
+}
+func start() {
+    Suika.start(); sc_install(); eInstallPositions(); suiUIStart();
+    eSet("action","");
+    print("SUI_E|ready|"+e_build_id);
+}
+func eHideChoices() { for (i in 0..8) Suika.showChooseBox({index:i,showIdle:false,showHover:false}); }
+func eJump(label) {
+    Suika.stopAutoMode(); Suika.stopSkipMode(); Suika.stopGUI();
+    Suika.stopCommandRepetition(); Suika.clearInputState(); eHideChoices();
+    Suika.showMessageBox({show:false}); Suika.showNameBox({show:false});
+    ePanel=""; eLastStable=-1; Suika.moveToLabelTag({label:label});
+}
+func eStable() {
+    var tag=Suika.getTagName();
+    return eMode=="reading" && sc_get("status")=="running" && Suika.isInCommandRepetition() && (tag=="text" || tag=="choose" || tag=="e_checkpoint");
+}
+func eSave(slot) {
+    // A new build must not silently replace the previous build's automatic save.
+    if(slot==0 && Suika.checkSaveExists({index:0}) && eGet("meta_build_0")!=e_build_id) {
+        if(!eAutoBlocked) eMessage("旧版自动存档已保留；本轮请使用手动存档。");
+        eAutoBlocked=true; return false;
+    }
+    if (!eStable() || !sc_validate()) { eMessage("当前无法保存，请回到正文后重试。"); return false; }
+    eSet("save_build",e_build_id); eSet("save_file",Suika.getTagFile());
+    eSet("save_index",Suika.getTagIndex()); eSet("save_tag",Suika.getTagName());
+    eSet("save_cursor",sc_get("cursor")); eSet("action","");
+    Suika.drawStageToThumb();
+    if (!Suika.executeSaveLocal({index:slot})) { eMessage("保存未成功，请保留当前页面并重试。"); return false; }
+    eGlobal("meta_build_"+slot,e_build_id);
+    eGlobal("meta_gen_"+slot,eGet("generation"));
+    if (!Suika.executeSaveGlobal()) { eMessage("存档信息写入失败，请重试保存。"); return false; }
+    eTrace("save|slot="+slot); return true;
+}
+func eValidateLoad() {
+    if (eGet("save_build")!=e_build_id || eGet("save_file")!=Suika.getTagFile()) return false;
+    if (eInt("save_index")!=Suika.getTagIndex() || eGet("save_tag")!=Suika.getTagName()) return false;
+    if (eGet("save_cursor")!=sc_get("cursor") || !sc_validate()) return false;
+    var line=String.from(Suika.getTagLine());
+    if (!Dict.hasKey(e_positions,line)) return false;
+    var position=e_positions[line];
+    if (position.cursor!=sc_get("cursor") || position.pending!=sc_get("pending") || position.tag!=Suika.getTagName()) return false;
+    if (sc_get("status")!="running") return false;
+    var tag=Suika.getTagName();
+    if (tag!="text" && tag!="choose" && tag!="e_checkpoint") return false;
+    if (tag=="e_checkpoint" && (!Dict.hasKey(sc_choices,sc_get("cursor")) || sc_get("c_"+sc_get("cursor"))!="")) return false;
+    if (tag=="choose") {
+        var id=sc_get("pending");
+        if (!Dict.hasKey(sc_choices,id) || sc_get("c_"+id)!="" || sc_get("input")!="") return false;
+    } else if (sc_get("pending")!="") return false;
+    return true;
+}
+func eLoad(slot, generation) {
+    if (slot<10 && !Suika.checkSaveExists({index:slot})) { eMessage("这个位置还没有存档。"); return false; }
+    if (eGet("meta_build_"+slot)!=e_build_id) { eMessage("此存档属于其他版本，已保留原档，无法直接读取。"); return false; }
+    if (generation!="" && eGet("meta_gen_"+slot)!=generation) { eMessage("这次选择的回退快照已过期，当前进度保持不变。"); return false; }
+    Suika.stopGUI(); ePanel=""; Suika.stopAutoMode(); Suika.stopSkipMode();
+    Suika.stopCommandRepetition(); eHideChoices(); Suika.clearInputState();
+    if (!Suika.executeLoadLocal({index:slot})) { eMode="error"; eJump("e_error"); eMessage("存档无法读取，原档已保留。"); return false; }
+    if (!eValidateLoad() || (generation!="" && eGet("generation")!=generation)) {
+        eMode="error"; eJump("e_error"); eMessage("存档状态校验未通过，原档已保留。"); return false;
+    }
+    eMode="reading"; eLastStable=Suika.getTagIndex(); eLastAuto=Engine.millisec; eAutoDirty=false;
+    eSet("action",""); eTrace("load|slot="+slot); return true;
+}
+func eCheckpoint() {
+    var id=sc_get("pending"); if(id=="") id=sc_get("cursor"); var depth=eInt("depth");
+    // Loaded checkpoint already contains itself; do not allocate again.
+    if (depth>0 && eGet("cp_id_"+depth)==id) return true;
+    var seq=eInt("sequence")+1; var slot=10+(seq%90); depth=depth+1;
+    eSet("depth",depth); eSet("cp_id_"+depth,id); eSet("cp_slot_"+depth,slot); eSet("cp_gen_"+depth,seq);
+    eSet("generation",seq); eGlobal("sequence",seq);
+    if (!eSave(slot)) { eSet("depth",depth-1); return false; }
+    eTrace("checkpoint|choice="+id+"|slot="+slot+"|generation="+seq); return true;
+}
+func eRollback() {
+    var depth=eInt("depth");
+    if (sc_get("cursor")==eGet("cp_id_"+depth) && Dict.hasKey(sc_choices,sc_get("cursor")) && sc_get("c_"+sc_get("cursor"))=="") depth=depth-1;
+    if (depth<1) { eMessage("还没有可以返回的已读选择。"); return false; }
+    var slot=eInt("cp_slot_"+depth); var generation=eGet("cp_gen_"+depth);
+    if (slot<10 || slot>99 || generation=="") { eMessage("回退记录不完整，当前进度保持不变。"); return false; }
+    if (eLoad(slot,generation)) { eMessage("已回到选择之前，可重新选择。"); eTrace("rollback"); return true; }
+    return false;
+}
+func eReleaseSlots() { for (item in eSlotText) Engine.destroyTexture({texture:item.texture}); eSlotText=[]; }
+func eShort(text,count) { var out=""; for(i in 0..String.charCount(text)) {if(i<count) out=out+String.charAt(text,i);} return out; }
+func ePad(n) { if(n<10) return "0"+n; return String.from(n); }
+func eDate(stamp) {
+    var t=stamp+28800; var days=t/86400; var year=1970;
+    while(true) { var span=365; if(year%4==0 && (year%100!=0 || year%400==0)) span=366; if(days<span) break; days=days-span; year=year+1; }
+    var months=[31,28,31,30,31,30,31,31,30,31,30,31];
+    if(year%4==0 && (year%100!=0 || year%400==0)) months[1]=29;
+    var month=0; while(days>=months[month]) {days=days-months[month];month=month+1;}
+    return year+"-"+ePad(month+1)+"-"+ePad(days+1)+" "+ePad(t%86400/3600)+":"+ePad(t%3600/60);
+}
+func ePrepareSlots() {
+    eReleaseSlots();
+    for (slot in 0..4) {
+        if(slot==0 && ePanel=="save") continue;
+        var x=64; if (slot%2==1) x=660;
+        var y=146; if (slot>=2) y=388;
+        if (Suika.checkSaveExists({index:slot})) {
+            var label=Suika.getSaveChapterName({index:slot});
+            var message=eShort(Suika.getSaveLastMessage({index:slot}),13);
+            var status="可读取"; if(eGet("meta_build_"+slot)!=e_build_id) status="版本不兼容 · 原档保留";
+            Array.push(eSlotText,{texture:suiHistoryText(eDate(Suika.getSaveTimestamp({index:slot})),17,true),x:x+232,y:y+16});
+            Array.push(eSlotText,{texture:suiHistoryText(eShort(label,13),22,true),x:x+232,y:y+72});
+            Array.push(eSlotText,{texture:suiHistoryText(message,20,false),x:x+232,y:y+112});
+            Array.push(eSlotText,{texture:suiHistoryText(status,18,true),x:x+232,y:y+150});
+        } else Array.push(eSlotText,{texture:suiHistoryText("尚无阅读记录",20,false),x:x+232,y:y+112});
+    }
+}
+func eOpenSlots(panel) {
+    if (panel=="save" && !eStable()) { eMessage("请回到正文后保存。"); return; }
+    ePanel=panel; ePrepareSlots();
+    Suika.loadGUIFile({file:"system/sui-u/gui/"+panel+".gui",isSys:true});
+    Suika.clearInputState(); Suika.startGUI();
+}
+func eAction() {
+    var action=eGet("action"); if(action=="") return;
+    eSet("action","");
+    if (action=="L") { eOpenSlots("load"); return; }
+    if (action=="V") { eOpenSlots("save"); return; }
+    if (action=="R") { eRollback(); return; }
+    if (action=="A") { eLoad(0,""); return; }
+    if (action=="1") { eLoad(1,""); return; }
+    if (action=="2") { eLoad(2,""); return; }
+    if (action=="3") { eLoad(3,""); return; }
+    var slot=0;
+    if (action=="S") slot=1;
+    if (action=="D") slot=2;
+    if (action=="F") slot=3;
+    if(slot>0) {
+        Suika.stopGUI(); ePanel="";
+        if(eSave(slot)) eMessage("已保存阅读位置。");
+        eOpenSlots("save");
+    }
+}
+// A mandatory native checkpoint runs before each choice, independent of render/input timing.
+func Tag_e_checkpoint(params) {
+    if(sc_get("cursor")!=params.id || sc_get("pending")!="" || sc_get("c_"+params.id)!="") { sc_fail("invalid-checkpoint-entry"); return sc_jump("SC_ERROR"); }
+    Suika.startCommandRepetition();
+    if(!eCheckpoint()) return true;
+    Suika.stopCommandRepetition(); Suika.clearInputState(); Suika.moveToNextTag();
+    return true;
+}
+// Clear residual input where the SDK permits; snapshot safety does not depend on it.
+func Tag_sc_choose(params) {
+    Suika.clearInputState();
+    return sc_content_choose(params);
+}
+func update() {
+    if(eMode=="reading" && Suika.getTagName()=="choose" && sc_get("pending")!="" && eGet("cp_id_"+eInt("depth"))!=sc_get("pending")) Suika.clearInputState();
+    suiUIUpdate(); Suika.update(); suiUIAfterUpdate(); eAction();
+    if (!Suika.isGUIRunning() && ePanel!="") {ePanel="";eReleaseSlots();}
+    if (eMode=="reading" && sc_get("status")=="error") { eMode="error"; eJump("e_error"); return; }
+    if (eMode=="reading" && sc_get("status")=="complete") { eMode="complete"; eTrace("complete"); eJump("e_complete"); return; }
+    if (eStable() && !Suika.isGUIRunning() && eLastStable!=Suika.getTagIndex()) {
+        eLastStable=Suika.getTagIndex(); eAutoDirty=true;
+        var chapter="共通篇"; if(Dict.hasKey(eRouteNames,sc_get("route"))) chapter=eRouteNames[sc_get("route")];
+        Suika.setChapterName({name:chapter});
+        // Every choice is checkpointed by its explicit tag before buttons execute.
+        eTrace("stable");
+    }
+    if(eAutoDirty && !eAutoBlocked && eStable() && !Suika.isGUIRunning() && (Suika.getTagName()=="choose" || Engine.millisec-eLastAuto>=1500)) {
+        if(eSave(0)) eAutoDirty=false;
+        eLastAuto=Engine.millisec;
+    }
+}
+func render() {
+    Suika.render(); suiUIRender();
+    if (ePanel!="" && Suika.isGUIRunning()) {
+        for(item in eSlotText) Engine.draw({texture:item.texture,x:item.x,y:item.y});
+        for(slot in 0..4) if(Suika.checkSaveExists({index:slot}) && (slot!=0 || ePanel!="save")) {
+            var x=84; if(slot%2==1) x=680;
+            var y=224; if(slot>=2) y=466;
+            Suika.renderImage({dstLeft:x,dstTop:y,dstWidth:192,dstHeight:108,image:Suika.getSaveThumbnail({index:slot}),srcLeft:0,srcTop:0,srcWidth:192,srcHeight:108,alpha:255,blend:Suika.BLEND_ALPHA});
+        }
+    }
+    if(eNotice!=false && Engine.millisec<eNoticeUntil) Engine.draw({texture:eNotice,x:80,y:92});
+}
+func Tag_e_title(params) {
+    eMode="title"; ePanel=""; eSet("action",""); eLastStable=-1;
+    Suika.stopAutoMode(); Suika.stopSkipMode();
+    print("SUI_E|title"); Suika.moveToNextTag(); return true;
+}
+func Tag_e_new(params) {
+    sc_new(); eSet("depth",0); eSet("generation",""); eSet("action","");
+    Suika.clearHistory(); eMode="reading"; eLastStable=-1; eLastAuto=-2000;
+    eTrace("new"); Suika.moveToNextTag(); return true;
+}
+func Tag_e_finish(params) {
+    if(eGet("finish")=="rollback") { if(!eRollback()) eJump("e_complete"); return true; }
+    eJump("sui_title"); return true;
+}

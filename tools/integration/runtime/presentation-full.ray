@@ -1,0 +1,178 @@
+// SUI-I02 presentation executor. Metadata is generated from the frozen I01 inputs.
+var iBindings = {};
+var iNodes = {};
+var iStates = {};
+var iLayers = {};
+var iLiveLayers = {};
+var iCG = {};
+var iFullView = false;
+var iViewKeyDown = false;
+var iViewDrain = false;
+var iViewDrainUntil = 0;
+var iPointerDown = false;
+var iViewHint = false;
+func iRegister(binding) {
+    iBindings[binding.id]=binding;
+    iNodes[binding.node]=[binding.id];
+}
+func iGet(key) {
+    if (!Suika.checkVariableExists({name:"i_"+key})) return "";
+    return Suika.getVariableString({name:"i_"+key});
+}
+func iSet(key,value) { Suika.setVariableString({name:"i_"+key,value:String.from(value)}); }
+func iFix(image) {
+    var w=Suika.getImageWidth({image:image});
+    var h=Suika.getImageHeight({image:image});
+    var pixels=Suika.getImagePixels({image:image});
+    for (pixelIndex in 0..w*h) {
+        var pixel=pixels[pixelIndex];
+        pixels[pixelIndex]=(pixel&0xff00ff00)|((pixel&0xff)<<16)|((pixel>>16)&0xff);
+    }
+    Suika.updateImagePixels({image:image});
+}
+func iLoadGallery(file) {
+    var image=Suika.createImageFromFile({file:file});
+    if(iWebpSwap && Dict.hasKey(iWebpFiles,file)) iFix(image);
+    return {image:image,width:Suika.getImageWidth({image:image}),height:Suika.getImageHeight({image:image})};
+}
+func iDrawFit(t,x,y,w,h) {
+    var dw=w; var dh=w*t.height/t.width;
+    if(dh>h) {dh=h;dw=h*t.width/t.height;}
+    Suika.renderImage({image:t.image,dstLeft:x+(w-dw)/2,dstTop:y+(h-dh)/2,dstWidth:dw,dstHeight:dh,srcLeft:0,srcTop:0,srcWidth:t.width,srcHeight:t.height,alpha:255,blend:Suika.BLEND_ALPHA});
+}
+func iApply(state) {
+    if(!Dict.hasKey(iStates,state)) return sc_fail("presentation-state-unknown");
+    // Keep unchanged decoded layers between paragraphs. A load invalidates this cache.
+    var wanted = {};
+    for (p in iStates[state]) wanted[p.layer] = p;
+    for (name,layer in iLayers) {
+        if(!Dict.hasKey(wanted,name)) {
+            if(!Dict.hasKey(iLiveLayers,name) || iLiveLayers[name]!="") {
+                Suika.setLayerFile({layer:layer,file:""});
+                Suika.setLayerImage({layer:layer,image:Suika.createImage({width:1,height:1})});
+                Suika.setLayerAlpha({layer:layer,alpha:0});
+            }
+            iLiveLayers[name]="";
+        }
+    }
+    for (p in iStates[state]) {
+        var layer=iLayers[p.layer];
+        if(!Dict.hasKey(iLiveLayers,p.layer) || iLiveLayers[p.layer]!=p.file) {
+            if(!Suika.setLayerFile({layer:layer,file:p.file})) return sc_fail("presentation-load:"+p.assetId);
+            var image=Suika.createImageFromFile({file:p.file});
+            if(iWebpSwap && p.webp) iFix(image);
+            Suika.setLayerImage({layer:layer,image:image});
+            iLiveLayers[p.layer]=p.file;
+        }
+        Suika.setLayerPosition({layer:layer,x:p.x,y:p.y});
+        Suika.setLayerScale({layer:layer,scaleX:p.scale,scaleY:p.scale});
+        Suika.setLayerAlpha({layer:layer,alpha:255});
+    }
+    iSet("state",state);
+    return true;
+}
+func iMatches(binding) {
+    if(Array.size(binding.routes)>0 && !sc_has(binding.routes,sc_get("route"))) return false;
+    if(Array.size(binding.condition)==0) return true;
+    return sc_condition(binding.condition);
+}
+func iValidate() {
+    var state=iGet("state"); var active=iGet("active");
+    if(!Dict.hasKey(iStates,state)) return false;
+    var id=sc_get("cursor"); var selected="";
+    if(!Dict.hasKey(iNodes,id)) return false;
+    for(bindingId in iNodes[id]) {
+        if(iMatches(iBindings[bindingId])) {
+            if(selected!="") return false;
+            selected=bindingId;
+        }
+        if(!sc_ok()) return false;
+    }
+    return selected!="" && active==selected && state==iBindings[selected].enter && sc_ok();
+}
+func iExit(id) {
+    var active=iGet("active");
+    if(active!="" && (!Dict.hasKey(iBindings,active) || iBindings[active].node!=id)) {
+        if(!Dict.hasKey(iBindings,active)) return sc_fail("presentation-active-unknown");
+        if(!iApply(iBindings[active].restore)) return false;
+        iSet("active",""); iFullView=false;
+        print("SUI_I|exit|binding="+active+"|node="+id);
+    }
+    return true;
+}
+func iAt(id) {
+    if(!iExit(id)) return false;
+    if(!Dict.hasKey(iNodes,id)) return true;
+    var selected="";
+    for(bindingId in iNodes[id]) {
+        var binding=iBindings[bindingId];
+        if(iMatches(binding)) {
+            if(selected!="") return sc_fail("presentation-ambiguous:"+id);
+            selected=bindingId;
+        }
+        if(!sc_ok()) return false;
+    }
+    if(selected=="") return sc_fail("presentation-unresolved:"+id);
+    if(!iApply(iBindings[selected].enter)) return false;
+    iSet("active",selected); iFullView=false;
+    print("SUI_I|enter|binding="+selected+"|node="+id);
+    return true;
+}
+func iNew() { iFullView=false;iLiveLayers={};iSet("active","");return iApply("empty"); }
+func iRestore() {
+    iFullView=false;
+    if(!iValidate()) return sc_fail("presentation-invalid-save");
+    // Loading source images afresh avoids swapping already repaired pixels twice.
+    iLiveLayers={};
+    return iApply(iGet("state"));
+}
+func iCanView() {
+    var active=iGet("active");
+    if(active=="" || !Dict.hasKey(iBindings,active)) return false;
+    return iBindings[active].full && eMode=="reading" && Suika.getTagName()=="text" && !Suika.isGUIRunning() && !suiHistoryActive;
+}
+func iBeforeUpdate() {
+    var key=Engine.isVKeyPressed;
+    var keyClick=key&&!iViewKeyDown;iViewKeyDown=key;
+    var down=Engine.isMouseLeftPressed||Suika.isMouseLeftPressed()||Suika.isMouseDragging();
+    var click=(down&&!iPointerDown)||Suika.isMouseLeftClicked();iPointerDown=down;
+    if(iViewDrain) {
+        if(down||key||Engine.isEscapeKeyPressed||Engine.isReturnKeyPressed) iViewDrainUntil=Engine.millisec+180;
+        iViewDrain=Engine.millisec<iViewDrainUntil;
+        Suika.clearInputState();return true;
+    }
+    if(iFullView) {
+        if(keyClick||click||Engine.isEscapeKeyPressed||Engine.isReturnKeyPressed||Suika.isMouseRightClicked()) {
+            iFullView=false;iViewDrain=true;iViewDrainUntil=Engine.millisec+180;Suika.clearInputState();
+            print("SUI_I|full-view|closed");
+        }
+        Suika.clearInputState();return true;
+    }
+    if(iCanView()&&(keyClick||(click&&suiGalleryHit(64,24,248,56)))) {
+        iFullView=true;iViewDrain=true;iViewDrainUntil=Engine.millisec+180;Suika.stopAutoMode();Suika.stopSkipMode();Suika.clearInputState();
+        print("SUI_I|full-view|opened");return true;
+    }
+    return false;
+}
+func iUnlockVisible() {
+    var active=iGet("active");
+    if(active=="" || !Dict.hasKey(iBindings,active) || eMode!="reading" || Suika.getTagName()!="text" || Suika.isGUIRunning() || suiHistoryActive) return;
+    var cg=iBindings[active].cg;if(cg=="") return;
+    var name="sui_cg_"+cg;
+    if(Suika.checkVariableExists({name:name}) && Suika.isGlobalVariable({name:name}) && Suika.getVariableInt({name:name})==1) return;
+    Suika.setVariableInt({name:name,value:1});Suika.makeVariableGlobal({name:name,isGlobal:true});
+    if(!Suika.executeSaveGlobal()) {sc_fail("presentation-unlock-save-failed");return;}
+    print("SUI_I|unlock|cg="+cg+"|phase=first-visible-frame");
+}
+func iRender() {
+    // Host calls this after Suika.render: only an actually rendered CG unlocks.
+    iUnlockVisible();
+    if(iFullView&&iCanView()) {
+        // Cover every UI layer without advancing the source paragraph.
+        Engine.draw({texture:suiGalleryUI.view,x:0,y:0});
+        var image=Suika.getLayerImage({layer:iLayers.cg});
+        iDrawFit({image:image,width:Suika.getImageWidth({image:image}),height:Suika.getImageHeight({image:image})},0,0,1280,720);
+        return;
+    }
+    if(iCanView()) Engine.draw({texture:iViewHint,x:72,y:36});
+}

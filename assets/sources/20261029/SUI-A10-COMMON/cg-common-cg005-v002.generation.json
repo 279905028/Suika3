@@ -1,0 +1,160 @@
+{
+  "id": "CG005",
+  "title": "便利店里的前任",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg005-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A04/char-mengyao-human-base-neutral",
+    "A08/bg-convenience-bijie-day",
+    "PRE/prop-shared-handheld-food-boxes-reference-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg005-v001.png"
+  ],
+  "prompt": "Use case: precise-object-edit. 编辑这张完整横向CG，只改门帘的材质：将孟遥右手掀开的透明塑料帘以及门口同类透明帘改为普通米灰色不透明布帘，有纺织纹理和自然褶皱。右手仍掀布帘，姿势自然。严格保留成年女性的脸、栗色低马尾、米白外衫与深灰内搭、左手装奶的布袋、文文牛仔袖和水瓶、便利店布局与白昼光线。不要加人物、台词、品牌、水印或改变画幅。图为故事CG，不是参考板。",
+  "shot": {
+    "id": "CG005",
+    "kind": "retained-selection",
+    "title": "便利店里的前任",
+    "originalTitle": "便利店里的前任",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+        "line": 317,
+        "anchor": "孟遥在出口等，没替我付那瓶水。"
+      }
+    ],
+    "time": "共通第3—4天段，便利店出口",
+    "routeGroup": "COMMON",
+    "source": {
+      "path": "scenario/第一章-回到毕节.md",
+      "line": 317,
+      "paragraph": "TEXT_a07381924dc58f65c10e",
+      "scope": "C01-03/COMMON",
+      "nearestNode": null,
+      "quote": "孟遥在出口等，没替我付那瓶水。我付好过去，她把挡门的布帘抬起来一点。",
+      "conditions": [],
+      "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "matchText": "孟遥在出口等，没替我付那瓶水。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、孟遥",
+      "offscreenOrRemote": "收银员可画外；陈晟不出镜"
+    },
+    "wardrobeAndForm": "孟遥A日常教学外形，文文B衣袖",
+    "propState": "文文已自付的水瓶、孟遥装牛奶的布袋、挡门布帘",
+    "composition": "孟遥抬起布帘等文文；不画替他付款，不加丈夫来电或婚姻符号。",
+    "conditions": {
+      "entryGates": [],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "共通不提前揭露婚姻；这次等候不是正式复合。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A04/char-mengyao-human-base-neutral"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_a07381924dc58f65c10e_1",
+      "visiblePageIds": [
+        "TEXT_a07381924dc58f65c10e_1"
+      ],
+      "exitBeforeId": "TEXT_1b64571271da82fdec24_1",
+      "snapshotBefore": "共通第3—4天段，便利店出口；文文、孟遥；孟遥A日常教学外形，文文B衣袖；文文已自付的水瓶、孟遥装牛奶的布袋、挡门布帘",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "共通不提前揭露婚姻；这次等候不是正式复合。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-convenience-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节便利店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-convenience-bijie-day-v001",
+            "status": "generated-awaiting-qa"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-convenience-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节便利店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-convenience-bijie-day-v001",
+            "status": "generated-awaiting-qa"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-convenience-bijie-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-convenience-bijie-day",
+          "PRE/prop-shared-handheld-food-boxes-reference-v001"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A04/char-mengyao-human-base-neutral",
+      "A08/bg-convenience-bijie-day",
+      "PRE/prop-shared-handheld-food-boxes-reference-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "塑料帘不符正文布帘",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg005-v002.png",
+  "sourceSha256": "f867fdc5343e9e4499072bf2611dcfeadbcea23e6c8266e2e5d529e82977d80b",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-58ddf2cc-b871-478e-ba52-156cd4a4be02.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg005-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg005-v001.png",
+      "sha256": "0c55dae33fa7effa70316f703d1db9d135a9cd6d367e25a47a0160be7882fe0d"
+    }
+  ],
+  "runtimeAdopted": false
+}

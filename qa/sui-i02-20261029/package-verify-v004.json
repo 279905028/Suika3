@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "version": "diag-v004",
+  "mode": "diagnostic",
+  "scope": {
+    "kind": "diagnostic",
+    "description": "仅验证I02加载/演出/恢复的三张真实图技术负载；非剧情采用或I01正式绑定",
+    "missing": [
+      "I01冻结采用清单与完整演出绑定尚未交接",
+      "完整60项真实CG注册/全作负载与六线逐段演出未验证"
+    ]
+  },
+  "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+  "inputFingerprint": "46f112e74a1fe28e5ddd213a74566b47c522e8487098c3ce65a7affd068cf14f",
+  "outputs": 14,
+  "bytes": 118128803,
+  "runtimeBuildIds": {
+    "web": "d4363b4105917e4860adc8b418c2ca140f411308b17062eee030883070c63d38",
+    "desktop": "a43f14088e36a075ed9573eef5c74a3e99eee8de835b05305577a24cf816d9cf"
+  },
+  "nativeArchiveIdentical": true
+}

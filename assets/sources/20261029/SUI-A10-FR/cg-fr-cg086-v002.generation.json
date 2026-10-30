@@ -1,0 +1,230 @@
+{
+  "id": "CG086",
+  "title": "至少让我自己答应",
+  "package": "SUI-A10-FR",
+  "stem": "cg-fr-cg086-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A07/shijiang-serious",
+    "A07/maolang-base",
+    "A08/bg-old-netcafe-counter-day",
+    "PRE/prop-shared-handheld-food-boxes-reference-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 只调整三人共同搬的纸箱：把整只箱子和托住它的手向上抬约10厘米，使箱底与柜台顶之间清楚可见一条空气间隙，箱子仍由人托住尚未落下。保留文文、师匠、毛狼身份与原服饰，卷尺在台边，毛狼资料纸背无可读字，其余场景不变。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG086",
+    "kind": "retained-selection",
+    "title": "至少让我自己答应",
+    "originalTitle": "至少让我自己答应",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/朋友与职业-夜班.md",
+        "line": 105,
+        "anchor": "“至少让我自己答应。”"
+      }
+    ],
+    "time": "第21天下午，旧网吧柜台",
+    "routeGroup": "FR",
+    "source": {
+      "path": "scenario/朋友与职业-夜班.md",
+      "line": 105,
+      "paragraph": "TEXT_96a13ee7a1a126431b6e",
+      "scope": "FR03-01/COMMON",
+      "nearestNode": null,
+      "quote": "“至少让我自己答应。”",
+      "conditions": [],
+      "sourceSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+      "matchText": "“至少让我自己答应。”",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、师匠、毛狼；网吧买家在场但可留画外",
+      "offscreenOrRemote": "无其他需定脸群众"
+    },
+    "wardrobeAndForm": "文文B、师匠A、毛狼D",
+    "propState": "卷尺在柜台边，毛狼演出单；文文手中饮料箱尚未放下",
+    "composition": "文文说明需自己答应，主体是三人反应及饮料箱手部；买家不露脸。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "friends"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "此买家不是小满电动车买家；不能画师匠已替文文确定新工作。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A07/shijiang-serious",
+      "A07/maolang-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_96a13ee7a1a126431b6e_1",
+      "visiblePageIds": [
+        "TEXT_96a13ee7a1a126431b6e_1"
+      ],
+      "exitBeforeId": "TEXT_c801c5ca3e286e938ade_1",
+      "snapshotBefore": "第21天下午，旧网吧柜台；文文、师匠、毛狼；网吧买家在场但可留画外；文文B、师匠A、毛狼D；卷尺在柜台边，毛狼演出单；文文手中饮料箱尚未放下",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "此买家不是小满电动车买家；不能画师匠已替文文确定新工作。"
+    },
+    "production": {
+      "package": "SUI-A10-FR",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-old-netcafe-counter",
+        "owner": "SUI-A08",
+        "name": "旧网吧柜台/机位",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-old-netcafe-counter-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-clearing-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-handover-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-extras-handheld",
+        "owner": "SUI-A07",
+        "name": "配角卷尺/扳手",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-maolang-performance-kit",
+        "owner": "SUI-A07",
+        "name": "演出单/海报/串词/话筒包/背包",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-netcafe-counter-equipment",
+        "owner": "SUI-A08",
+        "name": "网吧电脑/键盘/打印机/冰柜/收银/监控",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-old-netcafe-counter",
+        "owner": "SUI-A08",
+        "name": "旧网吧柜台/机位",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-old-netcafe-counter-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-clearing-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-handover-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-old-netcafe-counter-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-extras-handheld",
+        "owner": "SUI-A07",
+        "name": "配角卷尺/扳手",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-extras-tools-reference-v001"
+        ],
+        "frameUse": "CG086卷尺在柜台边/买家拿取范围，主体仍为三人及饮料箱；不新增买家脸。扳手不入当拍。"
+      },
+      {
+        "requirementId": "prop-maolang-performance-kit",
+        "owner": "SUI-A07",
+        "name": "演出单/海报/串词/话筒包/背包",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-maolang-performance-papers-v001"
+        ],
+        "frameUse": "CG010卷起白边海报尚未递出；CG062保留歪裁边；CG086演出单在桌边仅纸背/远景；CG091空掉文字页，删除动作由毛狼完成，不重现私事笑话。"
+      },
+      {
+        "requirementId": "prop-netcafe-counter-equipment",
+        "owner": "SUI-A08",
+        "name": "网吧电脑/键盘/打印机/冰柜/收银/监控",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-old-netcafe-counter-day",
+          "PRE/prop-shared-handheld-food-boxes-reference-v001"
+        ],
+        "frameUse": "只取旧网吧电脑/键盘/打印机/柜台固定设备；CG086饮料箱取补充板；CG006紧屏幕不据此认定所在地，CG091用空文字页而非私事原文。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A07/shijiang-serious",
+      "A07/maolang-base",
+      "A08/bg-old-netcafe-counter-day",
+      "PRE/prop-extras-tools-reference-v001",
+      "PRE/prop-maolang-performance-papers-v001",
+      "PRE/prop-shared-handheld-food-boxes-reference-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "纸箱尚未放到柜台",
+  "sourceFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v002.png",
+  "sourceSha256": "4dd48f873f80fce9f7468d4b4253dac14fb5ebf5b258d0ed13500b95b0a15910",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-e0f2d4fb-03c4-4a84-9a5e-e08653eefdba.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v001.png",
+      "sha256": "dd697aa15ab8da79c14050cd453dbc5ee5bded90f636196464d9c077e759be46"
+    }
+  ],
+  "runtimeAdopted": false
+}

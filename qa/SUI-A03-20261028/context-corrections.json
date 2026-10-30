@@ -1,0 +1,19 @@
+{
+  "task": "SUI-A03",
+  "corrections": [
+    {
+      "field": "work-neutral/work-serious prompts day47",
+      "actualSource": "scenario/周栀-十一点四十七分.md 第八章完整内容：第46天，周栀叫我把落在她那里的伞拿走",
+      "resolution": "生成提示原文保留；图像没有日期文字；适用表、资源条件与任务文档使用第46天。"
+    },
+    {
+      "field": "取物当日的独立日期",
+      "actualSource": "原文只写过了几天，未给独立日号",
+      "resolution": "文档只称取物当日，不补造第40天。"
+    },
+    {
+      "field": "原图预览外部色块",
+      "resolution": "白黑合成及alpha=0探针确认是透明像素隐藏RGB；不登记为原图可见缺陷。"
+    }
+  ]
+}

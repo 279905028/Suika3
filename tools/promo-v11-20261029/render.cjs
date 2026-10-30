@@ -1,0 +1,42 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const {pathToFileURL} = require('node:url');
+const deps = process.env.CODEX_POSTER_NODE_MODULES || '/Users/yipin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules';
+const {chromium} = require(path.join(deps, 'playwright'));
+const sharp = require(path.join(deps, 'sharp'));
+const root = path.resolve(__dirname, '../..');
+const out = path.join(root,'assets/sources/20261029-promo-v11');
+const qa = path.join(root,'qa/promo-v11-20261029');
+(async()=>{
+ const browser = await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--allow-file-access-from-files']});
+ const context = await browser.newContext({viewport:{width:1080,height:1920},deviceScaleFactor:1});
+ const page = await context.newPage();
+ const checks=[];
+ for(let i=1;i<=3;i++){
+  const stem=`poster-0${i}`;
+  const errors=[];
+  page.on('pageerror',e=>errors.push(e.message));
+  await page.goto(pathToFileURL(path.join(out,stem+'.html')).href);
+  await page.evaluate(()=>document.fonts.ready);
+  await page.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(im=>im.decode())));
+  const report=await page.evaluate(()=>({width:document.documentElement.scrollWidth,height:document.documentElement.scrollHeight,title:document.title,images:[...document.images].map(im=>({src:im.getAttribute('src'),loaded:im.complete&&im.naturalWidth>0})),text:document.body.innerText}));
+  if(report.width!==1080||report.height!==1920||report.images.some(x=>!x.loaded))throw new Error('Layout or asset load failed: '+stem);
+  await page.screenshot({path:path.join(out,stem+'.png'),fullPage:false,animations:'disabled'});
+  await sharp(path.join(out,stem+'.png')).webp({lossless:true,effort:6}).toFile(path.join(out,stem+'.webp'));
+  const p=await sharp(path.join(out,stem+'.png')).raw().toBuffer({resolveWithObject:true});
+  const w=await sharp(path.join(out,stem+'.webp')).removeAlpha().raw().toBuffer({resolveWithObject:true});
+  report.pngWebpPixelsEqual=p.data.equals(w.data);report.errors=errors;
+  report.forbiddenClaimsAbsent=!/现已上线|立即下载|现已发售|叶岚线|六位女主|公开复合|自动离婚/.test(report.text);
+  await sharp(path.join(out,stem+'.png')).resize({width:432}).jpeg({quality:91}).toFile(path.join(qa,stem+'-review.jpg'));
+  checks.push(report);
+ }
+ await page.setViewportSize({width:1800,height:1420});
+ await page.goto(pathToFileURL(path.join(out,'index.html')).href);
+ await page.evaluate(()=>document.fonts.ready);
+ await page.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(im=>im.decode())));
+ await page.screenshot({path:path.join(out,'three-options.png'),fullPage:true,animations:'disabled'});
+ await sharp(path.join(out,'three-options.png')).resize({width:1440}).webp({quality:92}).toFile(path.join(out,'three-options.webp'));
+ fs.writeFileSync(path.join(qa,'render-checks.json'),JSON.stringify({browser:'Chrome headless / independent context',saveStorage:'独立空上下文；未加载游戏页面与玩家存档',checks},null,2));
+ await browser.close();
+ console.log(JSON.stringify({posters:checks.length,pixelsEqual:checks.every(x=>x.pngWebpPixelsEqual),dimensions:checks.map(x=>[x.width,x.height]),output:out}));
+})().catch(e=>{console.error(e);process.exit(1)});

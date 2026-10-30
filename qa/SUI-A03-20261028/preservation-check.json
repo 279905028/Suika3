@@ -1,0 +1,81 @@
+{
+  "task": "SUI-A03",
+  "inputCount": 33,
+  "unchangedCount": 30,
+  "unchangedPaths": [
+    "/Users/yipin/Desktop/Suika3/AGENTS.md",
+    "/Users/yipin/Desktop/Suika3/docs/美术资源规范.md",
+    "/Users/yipin/Desktop/Suika3/docs/SUI-A美术子任务.md",
+    "/Users/yipin/Desktop/Suika3/docs/美术/SUI-A01.md",
+    "/Users/yipin/Desktop/Suika3/docs/人物/周栀.md",
+    "/Users/yipin/Desktop/Suika3/docs/分支/周栀线.md",
+    "/Users/yipin/Desktop/Suika3/scenario/routes.json",
+    "/Users/yipin/Desktop/Suika3/scenario/规则契约.md",
+    "/Users/yipin/Desktop/Suika3/qa/SUI-A01-20261028/source-inventory.json",
+    "/Users/yipin/Desktop/Suika3/qa/SUI-A01-20261028/requirements.json",
+    "/Users/yipin/Desktop/Suika3/qa/SUI-A01-20261028/resource-record.template.json",
+    "/Users/yipin/Desktop/Suika3/system/sui-u/integration.json",
+    "/Users/yipin/Desktop/Suika3/scenario/README.md",
+    "/Users/yipin/Desktop/Suika3/scenario/后日谈-他们的日子.md",
+    "/Users/yipin/Desktop/Suika3/scenario/后日谈-未写完的安排.md",
+    "/Users/yipin/Desktop/Suika3/scenario/周栀-十一点四十七分.md",
+    "/Users/yipin/Desktop/Suika3/scenario/孟遥-旧题.md",
+    "/Users/yipin/Desktop/Suika3/scenario/朋友与职业-夜班.md",
+    "/Users/yipin/Desktop/Suika3/scenario/第一章-回到毕节.md",
+    "/Users/yipin/Desktop/Suika3/scenario/第三章-选一条路.md",
+    "/Users/yipin/Desktop/Suika3/scenario/第二章-十四天.md",
+    "/Users/yipin/Desktop/Suika3/scenario/罗小满-练习本.md",
+    "/Users/yipin/Desktop/Suika3/scenario/跨路线-第36天的消息.md",
+    "/Users/yipin/Desktop/Suika3/scenario/选择设计.md",
+    "/Users/yipin/Desktop/Suika3/scenario/飘-空白页.md",
+    "/Users/yipin/Desktop/Suika3/scenario/黄球球-门后.md",
+    "/Users/yipin/Desktop/Suika3/start.novel",
+    "/Users/yipin/Desktop/Suika3/config.ini",
+    "/Users/yipin/Desktop/cjb-v1.1-suika/assets/current/characters/zhouzhi/tc-char-zhouzhi-human-base.webp",
+    "/Users/yipin/Desktop/cjb-v1.1-suika/assets/sources/character-variants/expressions-v01-20261019/zhouzhi/manifest.json"
+  ],
+  "changedInputs": [
+    {
+      "path": "/Users/yipin/Desktop/Suika3/TODO-v1.1.md",
+      "bytes": 9152,
+      "sha256": "3d23b49a3bbc35932fdb49d100767d6be4203a17e8759bd4dc10518614117a2e",
+      "afterSha256": "5cf7ce1e798e98bddc1846acb1ddd9d19479909074106f89a462a6e0d5141661",
+      "classification": "本任务只改A03汇总行；保留E/A04等并行进度"
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/docs/开发计划.md",
+      "bytes": 6590,
+      "sha256": "2f2128a3c5dc432543d8f3ea980d6b45b9ab43621d6acf4c395eebb820de8536",
+      "afterSha256": "7249d3ffc0df94d6eab7fa98e25819ec9f8ad04f6f36ef91117942409f61bf6f",
+      "classification": "观察到的并行变更；本任务未操作或回滚"
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/main.ray",
+      "bytes": 11871,
+      "sha256": "903532de965d4530a45d44d4a82911bb9a9c5c3e47b1b0730c76abb81430e5fb",
+      "afterSha256": "1683a010b9b54770cbbcd5cd585748dd83cf668d5067b5258a9b18ecde92016d",
+      "classification": "观察到的并行变更；本任务未操作或回滚"
+    }
+  ],
+  "sourceCopies": [
+    {
+      "path": "assets/sources/20261028/SUI-A03/references/expressions-history-manifest.json",
+      "sha256": "2cd1c6aefe65ed52f8b732759ab161fa0268bdae159ef69679d839284e182a68"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+      "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+    }
+  ],
+  "protectedStoryAndHistoricalSourcesUnchanged": true,
+  "sourceAndDerivativeFingerprintsPass": 20,
+  "storyAnchorsPass": 10,
+  "scope": "A03专属文件与根TODO的A03行；未操作运行入口、scenario、SDK、system和历史来源",
+  "runtimeImportedByThisTask": 0,
+  "engineRunByThisTask": false,
+  "browserRunByThisTask": false,
+  "physicalPhoneTested": false,
+  "published": false,
+  "markdownLinksPass": 33,
+  "brokenLinks": []
+}

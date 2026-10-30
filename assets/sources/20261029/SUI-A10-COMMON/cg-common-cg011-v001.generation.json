@@ -1,0 +1,208 @@
+{
+  "id": "CG011",
+  "title": "饭桌上说出拍卖",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg011-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "CG011-identity-board",
+    "A02/char-xiaoman-two-helmets",
+    "A08/bg-friends-meal-shop-evening"
+  ],
+  "refs": [
+    "qa/SUI-A10-production-20261029/cg011-five-identities.png",
+    "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.png",
+    "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-evening-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：五人身份对照，仅用于识别人脸衣装：从左到右 1文文金短寸牛仔衣，2毛狼黑图案T，3小满砖红夹克，4飘白滚边衬衫，5周栀青衬衫。请重画自然场景，不把对照板贴进画面。\n图2：小满身份与双头盔造型，姿态只按本镜\n图3：A08/bg-friends-meal-shop-evening，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n核心画面：朋友饭桌中景，仅五名可辨成年人：文文金短寸牛仔衣在近侧背三分之四，认真说话；毛狼黑图案T、小满砖红夹克在对面听，周栀青衬衫与飘白滚边衬衫在两侧倾听。小满膝上露一顶头盔轮廓，文文手机扣桌。孟遥只保留碗筷席位，她本人不入画；叶岚、师匠不入画。克制真实的朋友反应，非庆祝全员合影。\n衣装/形态硬约束：五位可辨人物沿各已选日常版；孟遥仅作为晚到席位，不擅定此句已抵达\n当拍道具：菜、碗筷、飘册子/相机、小满膝上头盔；文文手机扣桌\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。；只取两顶头盔造型；CG011只放小满膝上所需头盔，不沿用卖车后抱姿；CG020为卖车后双头盔。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG011",
+    "kind": "retained-selection",
+    "title": "饭桌上说出拍卖",
+    "originalTitle": "饭桌上说出拍卖",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/第二章-十四天.md",
+        "line": 437,
+        "anchor": "“房子要拍卖。日子已经定了。”"
+      }
+    ],
+    "time": "第14天聚餐，拍卖坦白",
+    "routeGroup": "COMMON",
+    "source": {
+      "path": "scenario/第二章-十四天.md",
+      "line": 436,
+      "paragraph": "TEXT_dfd17a493a3da18fbefa",
+      "scope": "### 第13—14天｜没有那间客房",
+      "nearestNode": null,
+      "quote": "“房子要拍卖。日子已经定了。”",
+      "conditions": [],
+      "sourceSha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+      "matchText": "“房子要拍卖。日子已经定了。”",
+      "oldAnchorExact": true
+    },
+    "contextSources": [
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 400,
+        "quote": "毛狼来了，说今天终于不用打七个电话。我替他把湿椅子擦干，没反驳。小满和飘先到，周栀上班前坐一会儿；孟遥晚课结束才来，叶岚当天有事，提前说了不参加。",
+        "sourceSha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      }
+    ],
+    "cast": {
+      "present": "文文、毛狼、罗小满、飘、周栀；孟遥晚课后到",
+      "offscreenOrRemote": "叶岚明确缺席；师匠未列席，不加；店员之后端汤"
+    },
+    "wardrobeAndForm": "五位可辨人物沿各已选日常版；孟遥仅作为晚到席位，不擅定此句已抵达",
+    "propState": "菜、碗筷、飘册子/相机、小满膝上头盔；文文手机扣桌",
+    "composition": "文文与毛狼/小满反应为主体，周栀和飘可入画；孟遥席位/画外处理，避免自定到场时刻。",
+    "conditions": {
+      "entryGates": [],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "去除旧叶岚恋爱群像。正文只说孟遥晚课后才来，没有给到达拍点；不得强画此句全员到齐。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A07/maolang-base",
+      "A02/char-xiaoman-base",
+      "A05/piao-base",
+      "A03/base",
+      "A04/char-mengyao-human-base-neutral",
+      "A02/char-xiaoman-two-helmets"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_dfd17a493a3da18fbefa_1",
+      "visiblePageIds": [
+        "TEXT_dfd17a493a3da18fbefa_1"
+      ],
+      "exitBeforeId": "TEXT_435dce200626b2591346_1",
+      "snapshotBefore": "第14天聚餐，拍卖坦白；文文、毛狼、罗小满、飘、周栀；孟遥晚课后到；五位可辨人物沿各已选日常版；孟遥仅作为晚到席位，不擅定此句已抵达；菜、碗筷、飘册子/相机、小满膝上头盔；文文手机扣桌",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "去除旧叶岚恋爱群像。正文只说孟遥晚课后才来，没有给到达拍点；不得强画此句全员到齐。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-xiaoman-helmets",
+        "owner": "SUI-A02",
+        "name": "两顶头盔及车钥匙",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-evening"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-evening"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      },
+      {
+        "requirementId": "prop-xiaoman-helmets",
+        "owner": "SUI-A02",
+        "name": "两顶头盔及车钥匙",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A02/char-xiaoman-two-helmets"
+        ],
+        "frameUse": "只取两顶头盔造型；CG011只放小满膝上所需头盔，不沿用卖车后抱姿；CG020为卖车后双头盔。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A07/maolang-base",
+      "A02/char-xiaoman-base",
+      "A05/piao-base",
+      "A03/base",
+      "A04/char-mengyao-human-base-neutral",
+      "A02/char-xiaoman-two-helmets",
+      "A08/bg-friends-meal-shop-evening"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg011-v001.png",
+  "sourceSha256": "a6797f7f2d6f89ef10e2ce141cd3467570202fe2883c195760defbbfbbe67491",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-e302a4ef-a112-4e12-87ad-4b867b8617d4.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "qa/SUI-A10-production-20261029/cg011-five-identities.png",
+      "sha256": "f1a26405c7261970b5acb65830f8443aae31053fde32fa7769627b65d854ddb9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.png",
+      "sha256": "d6a25b846ec16dee30f09582d9b471078951a4af5ef9fc7830efbe33e9f93a26"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-evening-v001.png",
+      "sha256": "e178a30bbebd494dcd262794281aaee8725b32debe0a3e90052949b2ada24074"
+    }
+  ],
+  "runtimeAdopted": false
+}

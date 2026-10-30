@@ -1,0 +1,503 @@
+{
+  "task": "SUI-A09",
+  "date": "2026-10-29",
+  "scope": "复核时文件快照；不承诺上游以后保持不变",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "3018f0e602085104264c6450357d0e60b6ab922910a69eb0a6853feb1d60afd9",
+      "bytes": 1859
+    },
+    {
+      "path": "TODO-v1.1.md",
+      "sha256": "7e011de37973c1026dff0b26581a183cbc8781b78a66988d9a020e84819bf49a",
+      "bytes": 16419
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+      "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6",
+      "bytes": 2386131
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.png",
+      "sha256": "69336079d9c8e9339f70b87181a32234552f59d301e27e1e9b2e84c1573d99ae",
+      "bytes": 2407496
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.png",
+      "sha256": "d6a25b846ec16dee30f09582d9b471078951a4af5ef9fc7830efbe33e9f93a26",
+      "bytes": 2380478
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.png",
+      "sha256": "32c0da1ec64b65b36c8501e1d05dd3f08f87036c6de545cc320985d3cda121ea",
+      "bytes": 2120497
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/resource-records.json",
+      "sha256": "c6046cda8398d25db641af62f44ee8dd3c1b01559bd5c82a8eb2b2e6a429e3d3",
+      "bytes": 87669
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+      "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8",
+      "bytes": 1941264
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/resource-records.json",
+      "sha256": "1faf8844af4bd480086148e3ae1c03f28b0a48cf81df36d5ac2b8a423ffef96a",
+      "bytes": 61169
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-smile-v001.png",
+      "sha256": "7909370f9243344863c2fb2a23d68a7dbf8f7c6cc6ba742ca900c77458f0c7ab",
+      "bytes": 1931354
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-casual-tied-tired-cup-v001.png",
+      "sha256": "99b935a879d16d09f87c7b612a627850214d4898f0caa30814bbb00eaa40940c",
+      "bytes": 1858724
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-neutral-v001.png",
+      "sha256": "a461e91c1048314432685485233aba9d1af5eb8288709fddd43868d727e78a9e",
+      "bytes": 1952690
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-serious-v001.png",
+      "sha256": "6e0f76a6fe8957aa4efde902b168bdfc262a6607fec9c4fa366895c614b8f779",
+      "bytes": 1964367
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/option-a/char-mengyao-human-teaching-base-v001.png",
+      "sha256": "1627e9c5387810b77cdece8373dfa22fdeee795a728825fc079db97537d1c9dd",
+      "bytes": 2207987
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-phone-stand-v001.png",
+      "sha256": "dda3784c7e42d7fc4b25612e8d6113c32e557352ec6066e0a3ef6c07fdee17c2",
+      "bytes": 747693
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/props/prop-mengyao-workbook-cover-v001.png",
+      "sha256": "7ba2fc0b30527abd1563dd8ace907d083754bb6693163d42d850394d5a0cb589",
+      "bytes": 1807304
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.png",
+      "sha256": "2d36c1d622e1e9637bb90b22fcd31d58a1462194745410463f446fc515777a22",
+      "bytes": 2149989
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-blank-inside-cover-v001.png",
+      "sha256": "29085fbde8c8a2d0d6c53a229203f84089b196aa754a167af6108b8d2b9d0ffe",
+      "bytes": 1445060
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-booklet-tools-v001.png",
+      "sha256": "764de42dbd7c96b8bfc8e029e9abbbf64e4f001c4462f534a9369c8db8b5284c",
+      "bytes": 1606818
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-bag-slipknot-v001.png",
+      "sha256": "fd5c467c0265ffc557096a2d697690c355023ea1303e8d6b57a4eac4dddf3f39",
+      "bytes": 1856216
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+      "sha256": "3ef42bec24964195c3c70e4b21f8fca7655a958d07823882d9a7d7f11266bc9d",
+      "bytes": 1794786
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b",
+      "bytes": 1743396
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A06/resource-records.json",
+      "sha256": "4c9a60b4f898a397482e1690e2dd772d79f29e0bd948073ca5e432482da2ed63",
+      "bytes": 48558
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A06/resource-records.json",
+      "sha256": "eeb421311e46d3910647ec97cdda0a74afad621410131a2e69a8a11f07122289",
+      "bytes": 119127
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A06/selected/human/char-huangqiuqiu-human-toy-base-v001.png",
+      "sha256": "da896efd584f917dc72ea7128d4002a39367508fd5448bbc09dc601077bcaa54",
+      "bytes": 2300885
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A06/selected/orb/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "sha256": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a",
+      "bytes": 1331514
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-base-neutral-v001.png",
+      "sha256": "89d727195bec8c93c95e7186115684cbe6d6f103d89ae7953ef019fd8f84cfec",
+      "bytes": 2131393
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/option-b/char-chensheng-base-v001.png",
+      "sha256": "cb8fffea59934535fd13b1968424bfadc74ea75119053ba2ef8f6e90cb5f99b8",
+      "bytes": 2028992
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/chensheng/variants/char-chensheng-documents-v001.png",
+      "sha256": "a21c7bea6d20244ab09c39e01cebf1fa8704c069d68466bd3394949430bfe7d8",
+      "bytes": 2033081
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+      "sha256": "e6cf30699797672c913c70bb1bbe3eb18505de94948d878999fc7e67dd85c6b8",
+      "bytes": 1186539
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-serious-v001.png",
+      "sha256": "61eb82b0eeecdbc8a0013d47b31d8ac805be1e43afe62955dec15ce4cc6bff93",
+      "bytes": 1713421
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/resource-records.json",
+      "sha256": "9cc38e73406968066208374df3efecef038b68d642fca347db1d825db4dde222",
+      "bytes": 62759
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.png",
+      "sha256": "35cae277350641c67349e5a49f9a39f0d92fe3060834b1bdfc2a7fad3ac9a8e2",
+      "bytes": 1521097
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/variants/char-shijiang-serious-v001.png",
+      "sha256": "7748ac214b1eed2f925b2c5f4ea636623ff33461c24644b6b8d098eca9e02217",
+      "bytes": 1978848
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9",
+      "bytes": 2088278
+    },
+    {
+      "path": "docs/CG当前选择.json",
+      "sha256": "01fbfe78969ed13033f0b573189a9b1275c76a77241102b5b80aca31f5b9ad03",
+      "bytes": 31918
+    },
+    {
+      "path": "docs/CG调整清单.md",
+      "sha256": "3387c4870acfc89403936d2ded2f0e4c32c0580e4878a7c397fc3377000f0414",
+      "bytes": 1337
+    },
+    {
+      "path": "docs/SUI-A美术子任务.md",
+      "sha256": "9cd89827073c206dba666d84e6737d646ecdc9772f2c6853935ba5aaaa349e3b",
+      "bytes": 10351
+    },
+    {
+      "path": "docs/人物/README.md",
+      "sha256": "e32939b07fd5fba9ec48bdb8a55dcfb5bda21072ab1a1c373f995cb44f2e1853",
+      "bytes": 643
+    },
+    {
+      "path": "docs/人物/叶岚.md",
+      "sha256": "4a1bf6bfcc5163092e11832eadb8634392d6c1726824963cbe27ab2095c2fe0c",
+      "bytes": 715
+    },
+    {
+      "path": "docs/人物/周栀.md",
+      "sha256": "b15d4dc0d12a617e0532fd636eafd1cc73a7e1c3a2f62b7bcef8abc8bb4da684",
+      "bytes": 2386
+    },
+    {
+      "path": "docs/人物/孟遥.md",
+      "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74",
+      "bytes": 2935
+    },
+    {
+      "path": "docs/人物/师匠.md",
+      "sha256": "bc43c91684357798e4717e886d4fd873022aeed81a339b0c506ee242f9a4e6ef",
+      "bytes": 2294
+    },
+    {
+      "path": "docs/人物/文文.md",
+      "sha256": "f4bdf7a09a68d2c0e2a39da47ebdb60ebd3680680f86b262413d0b3c14a57600",
+      "bytes": 4650
+    },
+    {
+      "path": "docs/人物/毛狼.md",
+      "sha256": "1671c6c823a61f7780677fbe4e42b57eb5872ee2a94242b2ce51cc09ef4789a6",
+      "bytes": 3401
+    },
+    {
+      "path": "docs/人物/罗小满.md",
+      "sha256": "d0abe1eda98219ddc8585ce58ce6bfed1ed255fe85a950969178ac98a7d6168f",
+      "bytes": 2409
+    },
+    {
+      "path": "docs/人物/飘.md",
+      "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c",
+      "bytes": 5057
+    },
+    {
+      "path": "docs/人物/黄球球.md",
+      "sha256": "7f4dd819d01e8dd442ac736290d6b12c7e1337bca73a7e8c7525dc6cddb9cab1",
+      "bytes": 4878
+    },
+    {
+      "path": "docs/开发计划.md",
+      "sha256": "7249d3ffc0df94d6eab7fa98e25819ec9f8ad04f6f36ef91117942409f61bf6f",
+      "bytes": 6679
+    },
+    {
+      "path": "docs/美术/SUI-A01.md",
+      "sha256": "54cb351350ece46d568adc60df7ec924c99007841d2562da24d5cd634026e3a6",
+      "bytes": 17904
+    },
+    {
+      "path": "docs/美术/SUI-A02.md",
+      "sha256": "cea9a9175e0f9bc907b57989f55d20c1f9bf3e35ec80ff71c225fdd222f28342",
+      "bytes": 3706
+    },
+    {
+      "path": "docs/美术/SUI-A03.md",
+      "sha256": "e38bd69f6b09cd1433d68481f4873f4bdfbb72f94a71c8de0f05d21037cf6c9a",
+      "bytes": 6964
+    },
+    {
+      "path": "docs/美术/SUI-A04.md",
+      "sha256": "7cfeae73cb6b6a2e583cbb74ef860d561708d72d173f621daccb5403eb5847c8",
+      "bytes": 7438
+    },
+    {
+      "path": "docs/美术/SUI-A05.md",
+      "sha256": "f894c229f154a714e356b7268d100c96f87dc0055e5aa2cab578bac1872ead96",
+      "bytes": 6145
+    },
+    {
+      "path": "docs/美术/SUI-A06.md",
+      "sha256": "f1333c86902f99514e7e647b19a745290f8b37837f7771da167549daaccbb7c9",
+      "bytes": 7261
+    },
+    {
+      "path": "docs/美术/SUI-A07.md",
+      "sha256": "d1edaabadf771fdac0b043967553d088999ce67ab8a1ce12f66fed2be0b460c4",
+      "bytes": 7001
+    },
+    {
+      "path": "docs/美术/SUI-A08.md",
+      "sha256": "8ddee53b95943f4636ef39cab75a9d65bf6bb14e6124229963905ac7a29518ff",
+      "bytes": 2576
+    },
+    {
+      "path": "docs/美术资源规范.md",
+      "sha256": "de4e5e5e80a2abc0ebb381fcda995a35e7ec53958d565aceb0901aa9c95f37d1",
+      "bytes": 2016
+    },
+    {
+      "path": "qa/SUI-A01-20261028/requirements.json",
+      "sha256": "7056b99d9375de98885c0ab8a98dcdf1f325436e3046fbf165d452868ea934d6",
+      "bytes": 155818
+    },
+    {
+      "path": "qa/SUI-A03-20261028/approval.json",
+      "sha256": "5debf1d67205b52436d3acd8a307104a63e61186e372e2ede59050190e4fa7cb",
+      "bytes": 1019
+    },
+    {
+      "path": "qa/SUI-A04-20261028/approval.json",
+      "sha256": "1974e5c1eb4cee1adca0da55d13d8d25a1642653e2bf429dbaf6fb74cd774ff5",
+      "bytes": 623
+    },
+    {
+      "path": "qa/SUI-A04-20261028/resource-records.json",
+      "sha256": "2d104b0f045f98eb7c48e883db376b9b7ded73039b8e999ed72cd4356731e6ae",
+      "bytes": 96721
+    },
+    {
+      "path": "qa/SUI-A05-20261028/approval.json",
+      "sha256": "00abd33534d273c97e0dfef2d0c85ed370dbcf3e2270ed7f3184ca0e1d6054fb",
+      "bytes": 693
+    },
+    {
+      "path": "qa/SUI-A05-20261028/resource-records.json",
+      "sha256": "918ee9e6248d8e46fa42f02a6926514c5bd48c20e67ed34ff6c785f23101ac04",
+      "bytes": 90965
+    },
+    {
+      "path": "qa/SUI-A06-20261028/approval.json",
+      "sha256": "229a7bd4cf262b1bee996a89b4f029942e3fb0e396d3428b5a531e4843b66491",
+      "bytes": 260
+    },
+    {
+      "path": "qa/SUI-A06-20261029/approval.json",
+      "sha256": "012d7f10560483def7994e00a68806a631c834eda6de78c32d5c2f449e0c4991",
+      "bytes": 901
+    },
+    {
+      "path": "qa/SUI-A07-20261029/approval.json",
+      "sha256": "55b7085edbdaa6b95e9c5bb822fd74f05bf362bb07eb4ae929c26527c4bb21ab",
+      "bytes": 1232
+    },
+    {
+      "path": "qa/SUI-A08-20261029/production-plan.json",
+      "sha256": "a0bb6d9bf2869bf25863df2d8fd9a4e2ec36f1b51d581ca6d0ee2836f5986828",
+      "bytes": 167499
+    },
+    {
+      "path": "qa/route-merge-20261028/cg-selection-original.json",
+      "sha256": "fc1e84b34b19ee7e493c585ea67d2996969acd00c91dabf8f5606fc5908d10a9",
+      "bytes": 997
+    },
+    {
+      "path": "scenario/README.md",
+      "sha256": "bebaa12b9d3ae5c125159ebdcf5479b265ed8d950e5a46f2f3f4d9f3760080f0",
+      "bytes": 5975
+    },
+    {
+      "path": "scenario/routes.json",
+      "sha256": "21ee8f439e511b86f6c56174a86c68ee292abb076abbd777ab672e19cf235d32",
+      "bytes": 9709
+    },
+    {
+      "path": "scenario/后日谈-他们的日子.md",
+      "sha256": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+      "bytes": 10604
+    },
+    {
+      "path": "scenario/后日谈-未写完的安排.md",
+      "sha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb",
+      "bytes": 3691
+    },
+    {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "bytes": 66234
+    },
+    {
+      "path": "scenario/孟遥-旧题.md",
+      "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+      "bytes": 53208
+    },
+    {
+      "path": "scenario/朋友与职业-夜班.md",
+      "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+      "bytes": 39122
+    },
+    {
+      "path": "scenario/第一章-回到毕节.md",
+      "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "bytes": 23261
+    },
+    {
+      "path": "scenario/第三章-选一条路.md",
+      "sha256": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8",
+      "bytes": 4234
+    },
+    {
+      "path": "scenario/第二章-十四天.md",
+      "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+      "bytes": 26542
+    },
+    {
+      "path": "scenario/罗小满-练习本.md",
+      "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "bytes": 52000
+    },
+    {
+      "path": "scenario/规则契约.md",
+      "sha256": "dc66fffa0599d7cc21bf64f94a0f50c3091a04adfa7a3bfb076ae8535c773035",
+      "bytes": 6614
+    },
+    {
+      "path": "scenario/跨路线-第36天的消息.md",
+      "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+      "bytes": 2497
+    },
+    {
+      "path": "scenario/选择设计.md",
+      "sha256": "e09748b3a853d0e62e6a15fe7aba9d2f8f13aa84c9cefe88d473ba19fb9981ce",
+      "bytes": 20608
+    },
+    {
+      "path": "scenario/飘-空白页.md",
+      "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "bytes": 65538
+    },
+    {
+      "path": "scenario/黄球球-门后.md",
+      "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "bytes": 41994
+    },
+    {
+      "path": "system/sui-u/integration.json",
+      "sha256": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3",
+      "bytes": 2345
+    },
+    {
+      "path": "tools/compiler/model.cjs",
+      "sha256": "dc3037b4781c9d0957b7186db536605dc320992c3c03ec4c2181584cd283edaa",
+      "bytes": 8838
+    },
+    {
+      "path": "tools/compiler/parse.cjs",
+      "sha256": "dfff5ed998e13b2e7d546606129de82d8e36d1c8d9098f1699c30e3bd10238e0",
+      "bytes": 10535
+    }
+  ],
+  "changesSinceStart": [
+    {
+      "path": "TODO-v1.1.md",
+      "beforeSha256": "263263e24065f8d0834314ffd7dfd49fa6279bfec8ff5e50b06ad3c6a11aa625",
+      "reviewedSha256": "7e011de37973c1026dff0b26581a183cbc8781b78a66988d9a020e84819bf49a",
+      "handling": "A09根待办合并，含其他窗口既有更新"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/resource-records.json",
+      "beforeSha256": "a1cbedbee8028778f388dd604f0b257c94a4d03496dea70abab201d0c7443b98",
+      "reviewedSha256": "9cc38e73406968066208374df3efecef038b68d642fca347db1d825db4dde222",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "docs/美术/SUI-A07.md",
+      "beforeSha256": "0fc0b634f268070dec363eb8775ed1a7e5e956b7474224a625584a7cfa5a3aaa",
+      "reviewedSha256": "d1edaabadf771fdac0b043967553d088999ce67ab8a1ce12f66fed2be0b460c4",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "qa/SUI-A07-20261029/approval.json",
+      "beforeSha256": "46dda2b0ba6204f393300d8b160c5dd909e8c8afb529acca9a3651eabbb82739",
+      "reviewedSha256": "55b7085edbdaa6b95e9c5bb822fd74f05bf362bb07eb4ae929c26527c4bb21ab",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "qa/SUI-A08-20261029/production-plan.json",
+      "beforeSha256": "0152d3ccf93c1ab57a0e2662ead3d2624e93a88751d9c87bbbb678d9043ead4d",
+      "reviewedSha256": "a0bb6d9bf2869bf25863df2d8fd9a4e2ec36f1b51d581ca6d0ee2836f5986828",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "scenario/朋友与职业-夜班.md",
+      "beforeSha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab",
+      "reviewedSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "scenario/第一章-回到毕节.md",
+      "beforeSha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919",
+      "reviewedSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "scenario/第二章-十四天.md",
+      "beforeSha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140",
+      "reviewedSha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    },
+    {
+      "path": "scenario/罗小满-练习本.md",
+      "beforeSha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+      "reviewedSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "handling": "只读发现并行变化；采用现行输入，不回退"
+    }
+  ]
+}

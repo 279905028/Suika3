@@ -1,0 +1,95 @@
+# SUI-U · generated from source/build.py
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+}
+
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: system/sui-u/png/sysmenu.png;
+}
+BACK {
+    id: 30;
+    type: cancel;
+    x: 1080;
+    y: 32;
+    image-idle: system/sui-u/png/back-idle.png;
+    image-hover: system/sui-u/png/back-hover.png;
+    image-press: system/sui-u/png/back-press.png;
+}
+SAVE {
+    id: 1;
+    type: gui;
+    x: 96;
+    y: 190;
+    image-idle: system/sui-u/png/nav-save-idle.png;
+    image-hover: system/sui-u/png/nav-save-hover.png;
+    image-press: system/sui-u/png/nav-save-press.png;
+    file: system/sui-u/gui/save.gui;
+}
+LOAD {
+    id: 2;
+    type: gui;
+    x: 476;
+    y: 190;
+    image-idle: system/sui-u/png/nav-load-idle.png;
+    image-hover: system/sui-u/png/nav-load-hover.png;
+    image-press: system/sui-u/png/nav-load-press.png;
+    file: system/sui-u/gui/load.gui;
+}
+HISTORY {
+    id: 3;
+    type: char;
+    x: 856;
+    y: 190;
+    image-idle: system/sui-u/png/nav-history-idle.png;
+    image-hover: system/sui-u/png/nav-history-hover.png;
+    image-press: system/sui-u/png/nav-history-press.png;
+    var: sui_ui_action;
+    msg: H;
+    max: 1;
+}
+AUTO {
+    id: 4;
+    type: auto;
+    x: 96;
+    y: 334;
+    image-idle: system/sui-u/png/nav-auto-idle.png;
+    image-hover: system/sui-u/png/nav-auto-hover.png;
+    image-press: system/sui-u/png/nav-auto-press.png;
+}
+SKIP {
+    id: 5;
+    type: skip;
+    x: 476;
+    y: 334;
+    image-idle: system/sui-u/png/nav-skip-idle.png;
+    image-hover: system/sui-u/png/nav-skip-hover.png;
+    image-press: system/sui-u/png/nav-skip-press.png;
+}
+CONFIG {
+    id: 6;
+    type: gui;
+    x: 856;
+    y: 334;
+    image-idle: system/sui-u/png/nav-config-idle.png;
+    image-hover: system/sui-u/png/nav-config-hover.png;
+    image-press: system/sui-u/png/nav-config-press.png;
+    file: system/sui-u/gui/config.gui;
+}
+TITLE {
+    id: 7;
+    type: gui;
+    x: 96;
+    y: 518;
+    image-idle: system/sui-u/png/nav-title-idle.png;
+    image-hover: system/sui-u/png/nav-title-hover.png;
+    image-press: system/sui-u/png/nav-title-press.png;
+    file: system/sui-u/gui/confirm-title.gui;
+}

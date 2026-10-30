@@ -1,0 +1,102 @@
+# SUI-U · generated from source/build.py
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+}
+
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: system/sui-u/png/config.png;
+}
+BACK {
+    id: 30;
+    type: cancel;
+    x: 1080;
+    y: 32;
+    image-idle: system/sui-u/png/back-idle.png;
+    image-hover: system/sui-u/png/back-hover.png;
+    image-press: system/sui-u/png/back-press.png;
+}
+BGMVOL {
+    id: 1;
+    type: bgmvol;
+    x: 88;
+    y: 211;
+    image-idle: system/sui-u/png/slider-idle.png;
+    image-hover: system/sui-u/png/slider-hover.png;
+    image-knob: system/sui-u/png/slider-knob.png;
+}
+SEVOL {
+    id: 2;
+    type: sevol;
+    x: 88;
+    y: 335;
+    image-idle: system/sui-u/png/slider-idle.png;
+    image-hover: system/sui-u/png/slider-hover.png;
+    image-knob: system/sui-u/png/slider-knob.png;
+}
+VOICEVOL {
+    id: 3;
+    type: voicevol;
+    x: 88;
+    y: 459;
+    image-idle: system/sui-u/png/slider-idle.png;
+    image-hover: system/sui-u/png/slider-hover.png;
+    image-knob: system/sui-u/png/slider-knob.png;
+}
+TEXTSPEED {
+    id: 4;
+    type: textspeed;
+    x: 710;
+    y: 211;
+    image-idle: system/sui-u/png/slider-idle.png;
+    image-hover: system/sui-u/png/slider-hover.png;
+    image-knob: system/sui-u/png/slider-knob.png;
+}
+AUTOSPEED {
+    id: 5;
+    type: autospeed;
+    x: 710;
+    y: 335;
+    image-idle: system/sui-u/png/slider-idle.png;
+    image-hover: system/sui-u/png/slider-hover.png;
+    image-knob: system/sui-u/png/slider-knob.png;
+}
+PREVIEW {
+    id: 6;
+    type: preview;
+    x: 710;
+    y: 425;
+    image-idle: system/sui-u/png/preview.png;
+    msg: "文字会以你习惯的速度，慢慢显现。";
+    msg-zh-cn: "文字会以你习惯的速度，慢慢显现。";
+    margin-left: 18;
+    margin-top: 16;
+    margin-right: 18;
+    margin-bottom: 16;
+}
+RESET {
+    id: 7;
+    type: default;
+    x: 710;
+    y: 566;
+    image-idle: system/sui-u/png/reset-idle.png;
+    image-hover: system/sui-u/png/reset-hover.png;
+    image-press: system/sui-u/png/reset-press.png;
+}
+FULLSCREEN {
+    id: 8;
+    type: fullscreen;
+    x: 88;
+    y: 566;
+    image-idle: system/sui-u/png/fullscreen-idle.png;
+    image-hover: system/sui-u/png/fullscreen-hover.png;
+    image-press: system/sui-u/png/fullscreen-press.png;
+    image-disable: system/sui-u/png/fullscreen-press.png;
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "SUI-I01-CONSUMER-1",
+  "producerSchema": "sui-i01-data-v1",
+  "producerContract": {
+    "path": "tools/integration/assets/contract.json",
+    "sha256": "ab791292e800f3ab8ea9f67790ee3f119483e73b81306eb0ffdd680968df0531"
+  },
+  "status": "diagnostic-cues-only",
+  "canvas": [
+    1280,
+    720
+  ],
+  "pageSize": 108,
+  "acceptedSemantics": {
+    "mode": "explicit-paragraph-cues",
+    "absence": "neutral-stage-no-inherited-art",
+    "baseScene": {
+      "background": {
+        "color": "#10181c"
+      },
+      "characters": [],
+      "props": [],
+      "cg": null
+    },
+    "priority": [
+      "background",
+      "character",
+      "prop",
+      "cg"
+    ],
+    "cgHidesBaseScene": true,
+    "exitBeforeAnyNonMemberCursor": true,
+    "conditionsEvaluatedOnlyAfterCursorMatch": true,
+    "unknownOrMissingState": "error",
+    "choicesHideArt": true,
+    "fullViewDoesNotAdvanceStory": true,
+    "galleryUnlockRequiresActualVisibleFrame": true
+  },
+  "policy": {
+    "mode": "diagnostic",
+    "output": "qa/sui-i02-<batch>/",
+    "coverageKind": "partial",
+    "complete": false,
+    "continuousStagingApproved": false,
+    "missing": "原样保留I01 candidatePolicy.blockers；不把手机或发布验收当作内容缺项"
+  },
+  "normalization": {
+    "assets": "保留原始record，映射assetId/type/source/runtime/alpha/encoding/approval/A11；不写第二份采用表",
+    "bindings": "rawBindings保留每条cue、visiblePageIds、独立typed gates及逐表达式AST；root运行器按cursor逐cue判定后组合完整state",
+    "coordinates": "有限浮点x/y及正scale；不自动取整；width/height须等于源尺寸乘scale",
+    "conditions": "cursor命中后求值；entryGates逐项AND，requiredExpressions逐项AND；每条表达式内部复用C条件解析，不直接join以免改变OR优先级",
+    "lifecycle": "离开visiblePageIds立即退出；目标cursor从中性底色重新计算；选择清空美术；读档/回退重算，viewMode单独恢复；首次真正绘制CG帧后解锁",
+    "provenance": "所有执行限制保留在rawBindings和rawAssets内；源元数据/批准proposal/A11与引用文件纳入files锁定"
+  },
+  "entryGates": {
+    "route": {
+      "fields": [
+        "type",
+        "value"
+      ],
+      "domain": "当前六条route.id",
+      "runtime": "sc_route"
+    },
+    "event": {
+      "fields": [
+        "type",
+        "value"
+      ],
+      "domain": "stateContract.events",
+      "runtime": "sc_e_<value> == 1"
+    },
+    "epilogue": {
+      "fields": [
+        "type",
+        "value"
+      ],
+      "domain": "当前epilogues.rules.target.file",
+      "runtime": "sc_dispatched == 1 且 sc_epilogue == 对应target.anchor"
+    },
+    "sharedEvent": {
+      "fields": [
+        "type",
+        "value",
+        "routes",
+        "relation"
+      ],
+      "domain": "day36.sharedSource.anchor / day36.calls.routeId / LOW",
+      "runtime": "sc_route在允许列表、sc_relation=LOW、sc_return为该路线登记returnAnchor，且来源在共享事件文件"
+    }
+  },
+  "snapshotContract": {
+    "schemaVersion": "sui-i01-snapshot-v1",
+    "required": [
+      "schemaVersion",
+      "revision",
+      "contract",
+      "manifest",
+      "bindings",
+      "files"
+    ],
+    "contract": {
+      "path": "tools/integration/assets/contract.json",
+      "sha256": "64位小写hex"
+    },
+    "manifest": {
+      "path": "assets/current/manifest.json",
+      "sha256": "64位小写hex"
+    },
+    "bindings": {
+      "path": "docs/整合/bindings.json",
+      "sha256": "64位小写hex"
+    },
+    "files": "去重数组{path,sha256}，至少含contract/manifest/bindings、全部图片原件/运行/拷贝来源、approval/proposal/A11、sourceHashes。I02另加自身消费者接口及当前C/U指纹。",
+    "revision": "必须等于manifest与bindings revision"
+  },
+  "preflight": "可显式preflight=true无快照只做只读核验，返回frozen=false，构建器不得以此打包；构建调用必须有I01冻结快照或明确SUI-I02诊断intake快照。",
+  "validationBoundary": "批准记录真实性由当前用户授权和I01证据确认，工具校验字节/资产范围；本工具不把文件声明升级为引擎、浏览器或视觉验收",
+  "intakeSnapshot": {
+    "schemaVersion": "sui-i02-intake-v1",
+    "actor": "SUI-I02",
+    "notProducerHandoff": true,
+    "scope": "仅诊断的消费者读取冻结；不是I01最终交接",
+    "shape": "同snapshotContract，另须actor与notProducerHandoff；必须位于qa/sui-i02-*；仅diagnostic模式接受"
+  }
+}

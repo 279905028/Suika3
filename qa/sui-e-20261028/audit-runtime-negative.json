@@ -1,0 +1,454 @@
+{
+  "date": "2026-10-28",
+  "scope": "独立原生负例注入探针；不是正式候选试玩或完整结局路径",
+  "hostBuild": "f5981a273004321c835cd75559a5a93dd1c64dd45be39974d386a78d85755880",
+  "sourceHashes": {
+    "config.ini": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5",
+    "main.ray": "1683a010b9b54770cbbcd5cd585748dd83cf668d5067b5258a9b18ecde92016d",
+    "sound/se/click.ogg": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca",
+    "start.novel": "6e6153398e0fd16847e84c486117d50d10a70ef171f92d82499519a8d3536723",
+    "system/choose/button.ogg": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff",
+    "system/emoji/heart.png": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634",
+    "system/emoji/sweat.png": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a",
+    "system/font/NotoSansCJK-Medium.ttc": "197d5e1e019faca33a4d55931c7d68b8056f3b97cb862049f5cb8de9efdfb8ce",
+    "system/font/OFL.txt": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb",
+    "system/sui-u/anime/auto-hide.anime": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c",
+    "system/sui-u/anime/auto-show.anime": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1",
+    "system/sui-u/anime/choice-hover.anime": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64",
+    "system/sui-u/anime/choice-idle.anime": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64",
+    "system/sui-u/anime/msgbox-hide.anime": "6ee6f5dcdf612350e3439b90bcd9f46d342886d7878e8ab38bb4aa1acc8ccf4c",
+    "system/sui-u/anime/msgbox-show.anime": "58b10087e6a973a3b747abb8dd616ff0d9b491acb421a84b21a6a81d09f62cdb",
+    "system/sui-u/anime/namebox-hide.anime": "b0443eb13be54efad0439715caed68138e2435e94aba97a6660f1e37df14f7eb",
+    "system/sui-u/anime/namebox-show.anime": "c518c7a66ce51d032797ac243eacfb957d891171b94b59c9a4f3c733f586ff88",
+    "system/sui-u/anime/skip-hide.anime": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c",
+    "system/sui-u/anime/skip-show.anime": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1",
+    "system/sui-u/anime/sysbtn-appear.anime": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb",
+    "system/sui-u/anime/sysbtn-fadein.anime": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb",
+    "system/sui-u/anime/sysbtn-fadeout.anime": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2",
+    "system/sui-u/anime/sysbtn-hover.anime": "0e22cfdf598734ea148744de4f9168db6df62183fb5dfaebc245c6747d86e7b1",
+    "system/sui-u/anime/sysbtn-out.anime": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2",
+    "system/sui-u/gallery-order.ray": "60e1b832e940766f1207fc3bed830d365de2ff56c9a4f633df85d1119cee6f04",
+    "system/sui-u/gallery.ray": "1e4abccb3b0ca2bbfc5898d3f3a4956a2ea86c5cc46070c453b606ad10671785",
+    "system/sui-u/gui/config.gui": "ce47b56300e99182105bfa2a12a81885cb60a7f8de23a5c861949e437f3f7b85",
+    "system/sui-u/gui/confirm-title.gui": "10d8455785129d2bb0f05ad9d0382e2bf1077fdb7d5c0bc4ea193a6ff194bd39",
+    "system/sui-u/gui/history.gui": "5d0af345bbb4698d8b7e7670bfda664a18d117d6005551c076607752c7c92ad8",
+    "system/sui-u/gui/load.gui": "8c112d92e20a74e8c422a244dced658243cca55c7bad392d801adcd28b10c8ec",
+    "system/sui-u/gui/save.gui": "22a6573d3f3e7907e25168c1eeaadca5f789fe289f2eb16e33d43f8fc7af1ad9",
+    "system/sui-u/gui/sysmenu.gui": "81a01011377b8d1593e3028edf792e81c2e4d548afdc1f357196cdf017654e2e",
+    "system/sui-u/gui/title.gui": "191f20dcf451021822d3deae952797e5b2037959105aa9f2459a7b9637cc9861",
+    "system/sui-u/history.ray": "c4c5af4cb5c9b40cfa6d37b7758a4f64e96bd67ce20d7f249617fd83a76a045e",
+    "system/sui-u/integration.json": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3",
+    "system/sui-u/png/advance-1.png": "6e0e84a3dd60651e36a7a67414c59b82bd059bba41995f8d7d2624f321d37e15",
+    "system/sui-u/png/advance-2.png": "b0bc3fce05938534d0149f69e66dd7345980d0c3063d94ded028c5b3ab3a5d3f",
+    "system/sui-u/png/auto-save.png": "93d361c2eb068f0e8a27cec5fa22478265446c4440cb01e50c37fa68ade9ab91",
+    "system/sui-u/png/auto.png": "f28013f4ea0bcbc02cd84f4bef7c5cde67e790060da6cf590c0df7540fc33fd7",
+    "system/sui-u/png/back-hover.png": "c0a10488ae92be995419b17eb76f0af354b6c01201de4b7a25f5141bd792c521",
+    "system/sui-u/png/back-idle.png": "93cd389fea6fcf7849b27a157e22f559d8cce35c3e872d8f7994c20ad15e444b",
+    "system/sui-u/png/back-press.png": "657cbe3b8264786fd69a7f03a0b4643c2eb9ed871813d54dbacbd5d29d93cd03",
+    "system/sui-u/png/cancel-hover.png": "449d8f7fe0b581fb9e45a59337f78562cd98f2fab6fe505072cde2a3f011a8d2",
+    "system/sui-u/png/cancel-idle.png": "9cb6b336e2720e7ebddc9a9c89a5d7d907d1f15dc0cd2e6783dee3b9d1e9ed35",
+    "system/sui-u/png/cancel-press.png": "a4196b2e19b7cd0ddd022777a40e5119ee3227726776a805d5635915bb967dff",
+    "system/sui-u/png/cg-focus.png": "82b90cdf0fb9f4b59ff694d41eb4c7e0b9f64d9108be4734dc99b5169c2f8c59",
+    "system/sui-u/png/cg-locked.png": "69016dbc066d482ec5670336fb26f8aadf595c6b884b3dbbbf4531e8b1572523",
+    "system/sui-u/png/choice-hover.png": "0aa507c64d2084e17d6bc2ad8a01dc6bcde1c3e53903cb1f92e697323ee0d741",
+    "system/sui-u/png/choice-idle.png": "b2c14b3c06b084fb236b65cb77e671e2c7271604319196b9e1b3a2401615dc07",
+    "system/sui-u/png/config.png": "adb49bd6fd368af865e780cb8b2c164552332d5a5fd4f3ec455949e1e8f330b7",
+    "system/sui-u/png/confirm-hover.png": "1003862d42aedbff2210e40f9d121e93ee6122065a4534a3a8bc22634126068f",
+    "system/sui-u/png/confirm-idle.png": "abd1cb4352482b6cb3952a1ae664a179c730138f8c1a481c3331c911adf510e5",
+    "system/sui-u/png/confirm-press.png": "69692ea6290a41a12a61205ae55e1510b674d18d395e3cae5a8b3bd9fe401e2f",
+    "system/sui-u/png/continue-hover.png": "c2f10dd0e5213213b86b0962bde8b29b1af30dea96905fda2fa6bb43e3cccdc4",
+    "system/sui-u/png/continue-idle.png": "be929c336b7f5b5c940a949e1ee55ba1d4c4e1eba66f84a979ea6bfefe05a643",
+    "system/sui-u/png/continue-press.png": "d84a9efcccd1737343189f8ecd687c97511ccc299031fe1aca71ee9dee20d791",
+    "system/sui-u/png/fullscreen-hover.png": "2c8ac5097fac4858ed2f5e4d891196ac7dc2ca12fb884f70512146407de265a5",
+    "system/sui-u/png/fullscreen-idle.png": "09e5da7519a14502c7f9ab0220307f72e50f55d794cb1befca382ed2bf835efa",
+    "system/sui-u/png/fullscreen-press.png": "9425968c19c7f948f9c1cc78b429a86a2edac38e3eb0e293176f058bab205fac",
+    "system/sui-u/png/gallery-base.png": "7d02b57579c689760b1c35c4c93d958f38aacb1386f083ac2a76dbe260370df2",
+    "system/sui-u/png/gallery-hover.png": "cc1245d39a5030cec9a9851b686295281a34c8e3a32f45f3abb1616e4363dec7",
+    "system/sui-u/png/gallery-idle.png": "a73a43f6d421be70d32914f4b74fdc761dab47802adb314cd71453bbe42cb4be",
+    "system/sui-u/png/gallery-press.png": "b0ce156d315556c2fc5b03dc9ed4f5f3fb3b0a29eaa624d00e89ead2f0253173",
+    "system/sui-u/png/gallery-view.png": "cb1a7b4e76b58b1fcf0636bf59d8240795636303267927f288c91f7b554dde0f",
+    "system/sui-u/png/history-item-hover.png": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf",
+    "system/sui-u/png/history-item-idle.png": "35a7b5fa4c3e8639355c644002dc927db2edfb67e6575de44de9ae5caaec1252",
+    "system/sui-u/png/history-item-press.png": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf",
+    "system/sui-u/png/history.png": "7880124602fbe55a0ab6e4729ab7a742b77bcb41bd6aa1772fce020da58327e9",
+    "system/sui-u/png/load.png": "0c72e420c05839841164bbeb34fbe35fa0abbac3b4bdb76d5f821d93994b469f",
+    "system/sui-u/png/menu-hover.png": "ce32609bd911bc57ee8e767eec985ab847bd4e200cda940b6bf4f9d2b7e1b765",
+    "system/sui-u/png/menu-idle.png": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579",
+    "system/sui-u/png/menu-press.png": "5afa5e7b559fdd42ccc296ef6093dbee2ddc27c461d5846ae3c7bc6f86e21afa",
+    "system/sui-u/png/message.png": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412",
+    "system/sui-u/png/name.png": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8",
+    "system/sui-u/png/nav-auto-hover.png": "d6045b7ec8257456ff9d03706122b28962244af2cafb321de1d42d6f10f3114d",
+    "system/sui-u/png/nav-auto-idle.png": "7b641055aecbc5a4abb0d14780877ec35c0a6f8e155b75ed08e202507b65b5c7",
+    "system/sui-u/png/nav-auto-press.png": "740b4e21fca3444419c680864a010304cafcbcf9b07010989672c3e6a14db1ef",
+    "system/sui-u/png/nav-config-hover.png": "03ac187769c756926e26aaafce158357791812828dde493c23714f697361bb79",
+    "system/sui-u/png/nav-config-idle.png": "3f5bc511412427ea41dba12bb315dd80584511b137adcd1314770f9911154f24",
+    "system/sui-u/png/nav-config-press.png": "13c45c27c56176f436c09127b3f370add4c6c8e52661b983598686020b1c3bd2",
+    "system/sui-u/png/nav-history-hover.png": "c577eb2d3a387f0c2bfe43201698d0881bc451e0e50c91c9d9af4692511bd2bb",
+    "system/sui-u/png/nav-history-idle.png": "03c9ba86fac3a353971bd35edb73c06cc5ae0c5892f0925bd1b8e89cf9b33706",
+    "system/sui-u/png/nav-history-press.png": "b8929d1f17bbd56c3c0d3fd0de1151944c838bfa9e6c537a703cbb76de3bdfa0",
+    "system/sui-u/png/nav-load-hover.png": "90d077d73cae021f8288a231199cbe591b3327ddcdf30f5caff8e06558c4ceda",
+    "system/sui-u/png/nav-load-idle.png": "5c9231f367fea73240456036c3a8913135f07c446428a4f9a59af4dcb8aa5e47",
+    "system/sui-u/png/nav-load-press.png": "893473355ae9a348e4fbaee128e04645aee2d1b7919974eb383b577c9a9e929b",
+    "system/sui-u/png/nav-save-hover.png": "77a6bb67f5969b2e3f2a7e032e93e0f07751d698d906075bf6bd9e938f4c73ba",
+    "system/sui-u/png/nav-save-idle.png": "676d509295e0ae1a501b8b623fbc68c8e4aae984103975813714416e45d69f37",
+    "system/sui-u/png/nav-save-press.png": "01f200aec437ba5ba05c7d4be7a1755a94490fe97acd9faac7e2f081ad7be957",
+    "system/sui-u/png/nav-skip-hover.png": "ede13dbab843bcef1864c725380b1935d0362a7a011e4be96ef6b25c01772fcb",
+    "system/sui-u/png/nav-skip-idle.png": "cfccf22ac2ca0ade983205306c03da7dcb25cb2d077acc293488636e69009909",
+    "system/sui-u/png/nav-skip-press.png": "6055019de58be3b2f9a71ae4b262cdff295009874f49127203d1c9e591ae211a",
+    "system/sui-u/png/nav-title-hover.png": "03b587ebc8ccd7eedb33bce4b52c6831262b6615f79593ece5bc4a8cc7658df1",
+    "system/sui-u/png/nav-title-idle.png": "40dd3363ef1ea9cab8fd39b35e21ba4bf6a22f3d4deafbb3702c9f901c9abdae",
+    "system/sui-u/png/nav-title-press.png": "592eaf23f172d78b17edd8bc822d76eb127de2158a35cf98667fcbf0752c0890",
+    "system/sui-u/png/next-hover.png": "5dc55508c94983f20cbf17faf7464729c3601e5ed7f1d5cc7c0d41b83a4d5530",
+    "system/sui-u/png/next-idle.png": "5a3e166bb61c5e536d8ab1184742afed6edeb3447b613edebb84f1ad6bf3f41a",
+    "system/sui-u/png/next-press.png": "006f38a791a5c151395a458c98a779753a54edbd9ffa6964331a48320163ea19",
+    "system/sui-u/png/preview.png": "bba817b97ba51e2bf014b6757c3b7a54c57b5567b00f8dae03fcfff52ddaaee8",
+    "system/sui-u/png/previous-hover.png": "05a90d2b043d9cab855483b919bcee6d7bc0078f33eb0f5c19ce84822162e8b8",
+    "system/sui-u/png/previous-idle.png": "4d1eb68a1b61f0e3df8897445060b6411225bb360271b84c9d7717e7ba17dc75",
+    "system/sui-u/png/previous-press.png": "b89bce40e850266037eefe3fd9da1ca112932efca33472eb1f481cd8318f35a5",
+    "system/sui-u/png/reading-backdrop.png": "4223df8b5ff83cfafa5d7af5c2225824a0fac3340a8cc74e9de5cc9ac9135b7a",
+    "system/sui-u/png/reset-hover.png": "a266b8dd63e3a0a467b4e984a124d84e915fddedde4ffcf6d58ff7d4ce666ae9",
+    "system/sui-u/png/reset-idle.png": "d4aafb1de5670d7555a4de5c36faf92b672fbde8884e6d04e40ffbcf744a51d8",
+    "system/sui-u/png/reset-press.png": "0b1461ac89dc72b3e85c59398de190bb36274ea42903231be8924e2361079d12",
+    "system/sui-u/png/save-item-0-hover.png": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225",
+    "system/sui-u/png/save-item-0-idle.png": "f1784745d2f1a1d644e95c23646c2704f926aae00b33a404b550d5b65868a46a",
+    "system/sui-u/png/save-item-0-press.png": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225",
+    "system/sui-u/png/save-item-1-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+    "system/sui-u/png/save-item-1-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+    "system/sui-u/png/save-item-1-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+    "system/sui-u/png/save-item-2-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+    "system/sui-u/png/save-item-2-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+    "system/sui-u/png/save-item-2-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+    "system/sui-u/png/save-item-3-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+    "system/sui-u/png/save-item-3-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+    "system/sui-u/png/save-item-3-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+    "system/sui-u/png/save-item-hover.png": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d",
+    "system/sui-u/png/save-item-idle.png": "ffdd0b719fd1a0fed28340cb76abf560a3c75eec585b3de1f63f461d067c09a8",
+    "system/sui-u/png/save-item-press.png": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d",
+    "system/sui-u/png/save.png": "eeb369ab803cdcc39b4501dabdb08b0a00e33024707bbc61db7facbe713ac37e",
+    "system/sui-u/png/scroll-hover.png": "e1b29e1954b5a0e62ac07f11bbbc30bbbc20c84499c0e92d74731d9cd3b530b3",
+    "system/sui-u/png/scroll-idle.png": "0df6eaa09efdd2b0a71c2ea2ee86332a2df324ed4b26f4f5ba9e489de2c7279f",
+    "system/sui-u/png/scroll-knob.png": "f5b197668d75e3d1a45cf77176a2417217105d016b84035861c1047d7cc755be",
+    "system/sui-u/png/settings-hover.png": "e9e3350e555b395d7381cc1355fb7ff33ca25e1e90288239ee8d8d3797e61a91",
+    "system/sui-u/png/settings-idle.png": "52e3c8be6e833384a88b8bae2e76eeb0260943e279cc2a49ad0af718caa58dd7",
+    "system/sui-u/png/settings-press.png": "10c869c5a922253785e19c53f892fde3bd213058a2db72113d2862abc3fe3bd2",
+    "system/sui-u/png/skip.png": "6b9a8672e8b2b7a50994d50c0c8ba8abee060a7aca58da768b77925915bf6d43",
+    "system/sui-u/png/slider-hover.png": "2f10e38a7f0938dd8d2d9012f3b001e9b8f0260fc07cb9aa1c112a654412e0c7",
+    "system/sui-u/png/slider-idle.png": "5e9d1b013dd8575ca3dfa709fddbeb49f9a216ca74f708b85e27ce5d0e7c1b8b",
+    "system/sui-u/png/slider-knob.png": "e98abcdd04d52ace4fd1b0630a45cfc9b1bd690b9d22ddef856d281610c724ed",
+    "system/sui-u/png/start-hover.png": "aa9a6120f220444787156901d6e14c9e017b1b613dc4d81a64b78008c044c596",
+    "system/sui-u/png/start-idle.png": "7218a7c3aba9334cf7c01d82073f91a4e19113082c92f2694bf7dd8a4b010356",
+    "system/sui-u/png/start-press.png": "d3cdf9523d76d682ec334230eb181aa061de667cda2d96c613c8fd37b7fc6f99",
+    "system/sui-u/png/sysmenu.png": "f42ce9c9dd2e429dbc34595c1496d8cdad53eccc604c4de0854f1c43b91dd7d6",
+    "system/sui-u/png/title-confirm.png": "90caa9f801c5ff02eb4bed3e8da7828145d9787b9cc80d3c5b334d177a9ab0f5",
+    "system/sui-u/png/title.png": "1c2beabfd1f9366322c852d4d4cd37773e4a828449cedcb3ab14cebbb08c97a7",
+    "system/sui-u/runtime.ray": "c2e9eddf219eb6e47240c5542666914c0dcc2196f95dac14c78924d59ee0aa1e",
+    "tools/runtime/rollback-button.py": "76b272b2e9e3823b7b70ff00aaddbd0eecf089479ca665862c8fb6d5acb1bd7d",
+    "tools/runtime/rollback-hover.png": "f521f0b2895aa923f93a5d9a3e821752d72cd87b100eae02129756c58d86b3ec",
+    "tools/runtime/rollback-idle.png": "f767467d5abd32e66ed901ec6027a374ef7ffb4a193d6afadbd340b4a157f52c",
+    "tools/runtime/rollback-press.png": "0cb681f382eece2234931aa86187f2515122d80b18142ee9c43e4ca069c4048d"
+  },
+  "injectionSha256": "1cb0ebb4847ab000506c2c5e0f2e0e7f758bb7be654ed4c898c5fe06d261f267",
+  "archiveSha256": "d9c6b666626c75a016bd4052cf318e51e21150bea395d0efb333eb9c5b847c96",
+  "checks": [
+    {
+      "name": "baseline-text-valid",
+      "pass": true
+    },
+    {
+      "name": "manual-save-1",
+      "pass": true
+    },
+    {
+      "name": "reject-runtime-version",
+      "pass": true
+    },
+    {
+      "name": "reject-script-file",
+      "pass": true
+    },
+    {
+      "name": "reject-native-position",
+      "pass": true
+    },
+    {
+      "name": "reject-native-tag",
+      "pass": true
+    },
+    {
+      "name": "reject-source-cursor",
+      "pass": true
+    },
+    {
+      "name": "reject-content-build",
+      "pass": true
+    },
+    {
+      "name": "reject-score",
+      "pass": true
+    },
+    {
+      "name": "reject-unearned-freeze",
+      "pass": true
+    },
+    {
+      "name": "reject-cross-route-choice",
+      "pass": true
+    },
+    {
+      "name": "reject-route-without-entry",
+      "pass": true
+    },
+    {
+      "name": "reject-event-without-route",
+      "pass": true
+    },
+    {
+      "name": "reject-illegal-return",
+      "pass": true
+    },
+    {
+      "name": "reject-text-pending",
+      "pass": true
+    },
+    {
+      "name": "reject-undispatched-epilogue",
+      "pass": true
+    },
+    {
+      "name": "reject-consistent-but-wrong-position-map",
+      "pass": true
+    },
+    {
+      "name": "reject-old-version-before-load",
+      "pass": true
+    },
+    {
+      "name": "old-version-keeps-current-position",
+      "pass": true
+    },
+    {
+      "name": "reject-expired-generation-before-load",
+      "pass": true
+    },
+    {
+      "name": "expired-generation-keeps-current-position",
+      "pass": true
+    },
+    {
+      "name": "invalid-checkpoint-slot-keeps-current-position",
+      "pass": true
+    },
+    {
+      "name": "empty-checkpoint-keeps-current-position",
+      "pass": true
+    },
+    {
+      "name": "valid-load-restores",
+      "pass": true
+    },
+    {
+      "name": "global-not-rewound",
+      "pass": true
+    },
+    {
+      "name": "depth-restored",
+      "pass": true
+    },
+    {
+      "name": "slot-preserved",
+      "pass": true
+    },
+    {
+      "name": "autosave-baseline-before-old-version",
+      "pass": true
+    },
+    {
+      "name": "old-version-auto-write-rejected",
+      "pass": true
+    },
+    {
+      "name": "old-auto-preserves-current-choice-state",
+      "pass": true
+    },
+    {
+      "name": "old-auto-blocks-repeated-background-write",
+      "pass": true
+    },
+    {
+      "name": "choice-waiting-valid",
+      "pass": true
+    },
+    {
+      "name": "checkpoint-created",
+      "pass": true
+    },
+    {
+      "name": "reject-choice-already-answered",
+      "pass": true
+    },
+    {
+      "name": "reject-choice-uncommitted-input",
+      "pass": true
+    },
+    {
+      "name": "reject-choice-wrong-pending",
+      "pass": true
+    },
+    {
+      "name": "checkpoint-load",
+      "pass": true
+    },
+    {
+      "name": "rollback-clears-current-and-future-answer",
+      "pass": true
+    },
+    {
+      "name": "rollback-restores-unanswered-question",
+      "pass": true
+    },
+    {
+      "name": "rollback-restores-full-trail",
+      "pass": true
+    },
+    {
+      "name": "global-still-not-rewound",
+      "pass": true
+    },
+    {
+      "name": "finish-handler-restores-last-choice",
+      "pass": true
+    },
+    {
+      "name": "native-checkpoint-position-restored",
+      "pass": true
+    },
+    {
+      "name": "reload-hidden-slot-via-host",
+      "pass": true
+    },
+    {
+      "name": "reload-hidden-state-valid",
+      "pass": true
+    },
+    {
+      "name": "old-auto-native-file-sha256-unchanged",
+      "pass": true
+    }
+  ],
+  "events": [
+    "SUI_E|ready|f5981a273004321c835cd75559a5a93dd1c64dd45be39974d386a78d85755880",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "AUDIT_E|check|baseline-text-valid|pass=1",
+    "SUI_E|save|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "AUDIT_E|check|manual-save-1|pass=1",
+    "AUDIT_E|check|reject-runtime-version|pass=1",
+    "AUDIT_E|check|reject-script-file|pass=1",
+    "AUDIT_E|check|reject-native-position|pass=1",
+    "AUDIT_E|check|reject-native-tag|pass=1",
+    "AUDIT_E|check|reject-source-cursor|pass=1",
+    "SUI_C|error|build-mismatch|cursor=TEXT_12e9affe350b12038970_1",
+    "AUDIT_E|check|reject-content-build|pass=1",
+    "SUI_C|error|saved-score-mismatch|cursor=TEXT_12e9affe350b12038970_1",
+    "AUDIT_E|check|reject-score|pass=1",
+    "SUI_C|error|freeze-missing-choice|cursor=TEXT_12e9affe350b12038970_1",
+    "AUDIT_E|check|reject-unearned-freeze|pass=1",
+    "SUI_C|error|cross-route-saved-choice|cursor=TEXT_12e9affe350b12038970_1",
+    "AUDIT_E|check|reject-cross-route-choice|pass=1",
+    "SUI_C|error|relation-unfrozen-or-invalid|cursor=TEXT_12e9affe350b12038970_1",
+    "AUDIT_E|check|reject-route-without-entry|pass=1",
+    "SUI_C|error|saved-pregnancy-mismatch|cursor=TEXT_12e9affe350b12038970_1",
+    "AUDIT_E|check|reject-event-without-route|pass=1",
+    "SUI_C|error|saved-return-no-route|cursor=TEXT_12e9affe350b12038970_1",
+    "AUDIT_E|check|reject-illegal-return|pass=1",
+    "AUDIT_E|check|reject-text-pending|pass=1",
+    "SUI_C|error|saved-epilogue-undispatched|cursor=TEXT_12e9affe350b12038970_1",
+    "AUDIT_E|check|reject-undispatched-epilogue|pass=1",
+    "AUDIT_E|check|reject-consistent-but-wrong-position-map|pass=1",
+    "SUI_E|notice|此存档属于其他版本，已保留原档，无法直接读取。",
+    "AUDIT_E|check|reject-old-version-before-load|pass=1",
+    "AUDIT_E|check|old-version-keeps-current-position|pass=1",
+    "SUI_E|notice|这次选择的回退快照已过期，当前进度保持不变。",
+    "AUDIT_E|check|reject-expired-generation-before-load|pass=1",
+    "AUDIT_E|check|expired-generation-keeps-current-position|pass=1",
+    "SUI_E|notice|回退记录不完整，当前进度保持不变。",
+    "AUDIT_E|check|invalid-checkpoint-slot-keeps-current-position|pass=1",
+    "SUI_E|notice|还没有可以返回的已读选择。",
+    "AUDIT_E|check|empty-checkpoint-keeps-current-position|pass=1",
+    "SUI_E|load|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "AUDIT_E|check|valid-load-restores|pass=1",
+    "AUDIT_E|check|global-not-rewound|pass=1",
+    "AUDIT_E|check|depth-restored|pass=1",
+    "AUDIT_E|check|slot-preserved|pass=1",
+    "SUI_E|save|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=11|generation=1|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "AUDIT_E|check|autosave-baseline-before-old-version|pass=1",
+    "AUDIT_E|AUTO_BEFORE",
+    "SUI_E|notice|旧版自动存档已保留；本轮请使用手动存档。",
+    "AUDIT_E|check|old-version-auto-write-rejected|pass=1",
+    "AUDIT_E|check|old-auto-preserves-current-choice-state|pass=1",
+    "AUDIT_E|check|old-auto-blocks-repeated-background-write|pass=1",
+    "AUDIT_E|AUTO_AFTER",
+    "AUDIT_E|check|choice-waiting-valid|pass=1",
+    "AUDIT_E|check|checkpoint-created|pass=1",
+    "AUDIT_E|check|reject-choice-already-answered|pass=1",
+    "AUDIT_E|check|reject-choice-uncommitted-input|pass=1",
+    "AUDIT_E|check|reject-choice-wrong-pending|pass=1",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "AUDIT_E|check|checkpoint-load|pass=1",
+    "AUDIT_E|check|rollback-clears-current-and-future-answer|pass=1",
+    "AUDIT_E|check|rollback-restores-unanswered-question|pass=1",
+    "AUDIT_E|check|rollback-restores-full-trail|pass=1",
+    "AUDIT_E|check|global-still-not-rewound|pass=1",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|notice|已回到选择之前，可重新选择。",
+    "SUI_E|rollback|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "AUDIT_E|check|finish-handler-restores-last-choice|pass=1",
+    "AUDIT_E|check|native-checkpoint-position-restored|pass=1",
+    "AUDIT_E|DONE",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|ready|f5981a273004321c835cd75559a5a93dd1c64dd45be39974d386a78d85755880",
+    "AUDIT_E|observation|sdk-cache-slot11=0",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "AUDIT_E|check|reload-hidden-slot-via-host|pass=1",
+    "AUDIT_E|check|reload-hidden-state-valid|pass=1",
+    "AUDIT_E|RELOAD_DONE"
+  ],
+  "errors": [],
+  "autoProtection": {
+    "beforeSha256": "a5c36130f80ce4cf72959a3ac594b003833e8768429dd8edff77d406e6d7a627",
+    "afterSha256": "a5c36130f80ce4cf72959a3ac594b003833e8768429dd8edff77d406e6d7a627",
+    "unchanged": true
+  },
+  "filesBeforeReload": [
+    ".",
+    "..",
+    "732d37333734363137323734326536653666373636353663",
+    "673030302e736176",
+    "3030302e736176",
+    "3030312e736176",
+    "3031312e736176"
+  ],
+  "filesAfterReload": [
+    ".",
+    "..",
+    "3030302e736176",
+    "3030312e736176",
+    "3031312e736176",
+    "673030302e736176",
+    "732d37333734363137323734326536653666373636353663"
+  ],
+  "passed": true,
+  "databases": [
+    {
+      "name": "sui-e-negative-audit:/毕节，雨停之前 · Suika3",
+      "version": 21
+    }
+  ]
+}

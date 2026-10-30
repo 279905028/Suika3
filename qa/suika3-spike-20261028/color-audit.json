@@ -1,0 +1,1168 @@
+{
+  "schemaVersion": 2,
+  "method": "17 region means (6 character, 5 opaque background, 6 opaque CG) matched by native-to-browser affine coordinate projection; compare source RGB and source BGR against screenshot RGB.",
+  "threshold": "Each probe RGB MAE <= 6/255 and below its R/B-swapped error; tolerates scaling and alpha 253/255, rejects channel swap.",
+  "scope": "Color regression for actual native WebP character, night background and CG. Does not alone certify every asset or platform.",
+  "sourceModification": false,
+  "recommendations": [
+    "Run after every engine / WebP / graphics upload change and after page reload or save restoration.",
+    "Add independent red/blue/green chart and every adopted asset family before production release.",
+    "Keep original assets byte-identical; correct the decoder / pixel-upload channel convention rather than recoloring the source art.",
+    "Use live canvas boundingBox for changed viewport / device-scale screenshots; do not reuse desktop coordinates blindly."
+  ],
+  "observations": [
+    {
+      "checkedAtUTC": "2026-10-28T02:39:33.028859+00:00",
+      "screenshot": "05-selected-transparent.png",
+      "screenshotSha256": "61596aecf101d863ef396b24554971d472b9c0c55398d1b08493d8c8fa4585a4",
+      "screenshotDimensions": [
+        1280,
+        1000
+      ],
+      "source": "resources/char-xiaoman.webp",
+      "sourceSha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+      "nativeCanvas": [
+        720,
+        1280
+      ],
+      "canvasBoxInScreenshot": [
+        420,
+        34,
+        440,
+        783
+      ],
+      "characterTransform": {
+        "x": 160,
+        "y": 110,
+        "scaleX": 0.4,
+        "scaleY": 0.4
+      },
+      "probes": [
+        {
+          "name": "left-coat-upper",
+          "sourceBox": [
+            230,
+            630,
+            270,
+            670
+          ],
+          "screenshotBox": [
+            574,
+            255,
+            584,
+            265
+          ],
+          "sourceMeanRGBA": [
+            131.0712,
+            64.4437,
+            55.3312,
+            252.9013
+          ],
+          "screenshotMeanRGB": [
+            55.7,
+            64.94,
+            131.5
+          ],
+          "rgbMeanAbsoluteError": 50.6788,
+          "rbSwappedMeanAbsoluteError": 0.4313,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "left-coat-middle",
+          "sourceBox": [
+            230,
+            830,
+            270,
+            870
+          ],
+          "screenshotBox": [
+            574,
+            304,
+            584,
+            314
+          ],
+          "sourceMeanRGBA": [
+            135.64,
+            67.2638,
+            57.9331,
+            252.9638
+          ],
+          "screenshotMeanRGB": [
+            57.08,
+            66.19,
+            133.44
+          ],
+          "rgbMeanAbsoluteError": 51.7136,
+          "rbSwappedMeanAbsoluteError": 1.3756,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "left-coat-lower",
+          "sourceBox": [
+            250,
+            1030,
+            290,
+            1070
+          ],
+          "screenshotBox": [
+            579,
+            353,
+            589,
+            363
+          ],
+          "sourceMeanRGBA": [
+            124.4981,
+            60.74,
+            52.08,
+            253.0
+          ],
+          "screenshotMeanRGB": [
+            52.34,
+            61.04,
+            124.12
+          ],
+          "rgbMeanAbsoluteError": 48.166,
+          "rbSwappedMeanAbsoluteError": 0.3127,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "right-coat-upper",
+          "sourceBox": [
+            730,
+            630,
+            770,
+            670
+          ],
+          "screenshotBox": [
+            696,
+            255,
+            706,
+            265
+          ],
+          "sourceMeanRGBA": [
+            129.1344,
+            63.1863,
+            54.5487,
+            253.0
+          ],
+          "screenshotMeanRGB": [
+            54.9,
+            63.6,
+            129.13
+          ],
+          "rgbMeanAbsoluteError": 49.7431,
+          "rbSwappedMeanAbsoluteError": 0.2565,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "right-coat-lower",
+          "sourceBox": [
+            780,
+            930,
+            820,
+            970
+          ],
+          "screenshotBox": [
+            708,
+            329,
+            718,
+            339
+          ],
+          "sourceMeanRGBA": [
+            136.6587,
+            67.9163,
+            58.5169,
+            253.0
+          ],
+          "screenshotMeanRGB": [
+            58.63,
+            67.95,
+            136.04
+          ],
+          "rgbMeanAbsoluteError": 51.8618,
+          "rbSwappedMeanAbsoluteError": 0.2552,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "face",
+          "sourceBox": [
+            480,
+            280,
+            520,
+            320
+          ],
+          "screenshotBox": [
+            635,
+            170,
+            645,
+            180
+          ],
+          "sourceMeanRGBA": [
+            237.665,
+            194.9013,
+            176.0119,
+            253.0
+          ],
+          "screenshotMeanRGB": [
+            175.38,
+            194.18,
+            236.02
+          ],
+          "rgbMeanAbsoluteError": 41.0048,
+          "rbSwappedMeanAbsoluteError": 0.9994,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        }
+      ],
+      "meanRGBError": 48.8613,
+      "meanRBSwappedError": 0.6051,
+      "allProbesPass": false,
+      "allProbesDetectRBSwap": true
+    },
+    {
+      "kind": "cg",
+      "checkedAtUTC": "2026-10-28T02:45:00.037846+00:00",
+      "screenshot": "07-cg.png",
+      "screenshotSha256": "5b2ec2e89600fafcb40d0cec26510e1b4ba99b8515b9411751048ec378f63355",
+      "screenshotDimensions": [
+        1280,
+        1000
+      ],
+      "source": "resources/cg-repair.webp",
+      "sourceSha256": "17b0c92814e37ba7aa12079c70ad54fc934a1b571f2e73e028ad37f89d507d83",
+      "nativeCanvas": [
+        720,
+        1280
+      ],
+      "canvasBoxInScreenshot": [
+        420,
+        34,
+        440,
+        783
+      ],
+      "layerTransform": {
+        "x": -284,
+        "y": 0,
+        "scaleX": 0.77,
+        "scaleY": 0.77
+      },
+      "probes": [
+        {
+          "name": "left-face",
+          "sourceBox": [
+            535,
+            285,
+            565,
+            315
+          ],
+          "screenshotBox": [
+            498,
+            168,
+            512,
+            182
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            190.1689,
+            130.2867,
+            103.3867,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            103.5,
+            130.3061,
+            190.2704
+          ],
+          "rgbMeanAbsoluteError": 57.8573,
+          "rbSwappedMeanAbsoluteError": 0.0781,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "left-jaw",
+          "sourceBox": [
+            585,
+            335,
+            615,
+            365
+          ],
+          "screenshotBox": [
+            522,
+            192,
+            536,
+            206
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            163.6711,
+            106.3744,
+            76.0589,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            76.3367,
+            106.7755,
+            164.1786
+          ],
+          "rgbMeanAbsoluteError": 58.6184,
+          "rbSwappedMeanAbsoluteError": 0.3955,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "left-arm",
+          "sourceBox": [
+            685,
+            585,
+            715,
+            615
+          ],
+          "screenshotBox": [
+            569,
+            310,
+            583,
+            324
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            199.9222,
+            135.9533,
+            105.4089,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            104.398,
+            134.7296,
+            198.4745
+          ],
+          "rgbMeanAbsoluteError": 63.2712,
+          "rbSwappedMeanAbsoluteError": 1.2274,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "right-face",
+          "sourceBox": [
+            985,
+            335,
+            1015,
+            365
+          ],
+          "screenshotBox": [
+            710,
+            192,
+            724,
+            206
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            176.7133,
+            115.5389,
+            88.1211,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            88.0765,
+            115.3622,
+            176.3724
+          ],
+          "rgbMeanAbsoluteError": 59.0216,
+          "rbSwappedMeanAbsoluteError": 0.1874,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "foreground-hand",
+          "sourceBox": [
+            985,
+            785,
+            1015,
+            815
+          ],
+          "screenshotBox": [
+            710,
+            404,
+            724,
+            418
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            228.93,
+            161.1067,
+            126.9822,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            126.9541,
+            161.1071,
+            229.0102
+          ],
+          "rgbMeanAbsoluteError": 68.0014,
+          "rbSwappedMeanAbsoluteError": 0.0362,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        },
+        {
+          "name": "window",
+          "sourceBox": [
+            1185,
+            85,
+            1215,
+            115
+          ],
+          "screenshotBox": [
+            804,
+            74,
+            818,
+            88
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            35.6156,
+            63.1067,
+            103.7844,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            104.801,
+            63.7602,
+            35.9337
+          ],
+          "rgbMeanAbsoluteError": 45.8965,
+          "rbSwappedMeanAbsoluteError": 0.6627,
+          "passesColorPreservation": false,
+          "rbSwapDetected": true
+        }
+      ],
+      "meanRGBError": 58.7777,
+      "meanRBSwappedError": 0.4312,
+      "allProbesPass": false,
+      "allProbesDetectRBSwap": true
+    },
+    {
+      "kind": "character",
+      "checkedAtUTC": "2026-10-28T02:45:17.613549+00:00",
+      "screenshot": "05-selected-transparent.png",
+      "screenshotSha256": "f5efc3824bf95e051edee41b77a664eb6c7d8cfc28218c245e9657104b6fb923",
+      "screenshotDimensions": [
+        1280,
+        1000
+      ],
+      "source": "resources/char-xiaoman.webp",
+      "sourceSha256": "1be5cc691cd5948cebc281714b4b94ab2f9ba5b44794f6039e488c67fe5c491c",
+      "nativeCanvas": [
+        720,
+        1280
+      ],
+      "canvasBoxInScreenshot": [
+        420,
+        34,
+        440,
+        783
+      ],
+      "layerTransform": {
+        "x": 160,
+        "y": 110,
+        "scaleX": 0.4,
+        "scaleY": 0.4
+      },
+      "probes": [
+        {
+          "name": "left-coat-upper",
+          "sourceBox": [
+            230,
+            630,
+            270,
+            670
+          ],
+          "screenshotBox": [
+            574,
+            255,
+            584,
+            265
+          ],
+          "sourceAlphaExtrema": [
+            252,
+            253
+          ],
+          "sourceMeanRGBA": [
+            131.0712,
+            64.4437,
+            55.3312,
+            252.9013
+          ],
+          "screenshotMeanRGB": [
+            131.5,
+            64.94,
+            55.7
+          ],
+          "rgbMeanAbsoluteError": 0.4313,
+          "rbSwappedMeanAbsoluteError": 50.6788,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "left-coat-middle",
+          "sourceBox": [
+            230,
+            830,
+            270,
+            870
+          ],
+          "screenshotBox": [
+            574,
+            304,
+            584,
+            314
+          ],
+          "sourceAlphaExtrema": [
+            252,
+            253
+          ],
+          "sourceMeanRGBA": [
+            135.64,
+            67.2638,
+            57.9331,
+            252.9638
+          ],
+          "screenshotMeanRGB": [
+            133.44,
+            66.19,
+            57.08
+          ],
+          "rgbMeanAbsoluteError": 1.3756,
+          "rbSwappedMeanAbsoluteError": 51.7136,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "left-coat-lower",
+          "sourceBox": [
+            250,
+            1030,
+            290,
+            1070
+          ],
+          "screenshotBox": [
+            579,
+            353,
+            589,
+            363
+          ],
+          "sourceAlphaExtrema": [
+            253,
+            253
+          ],
+          "sourceMeanRGBA": [
+            124.4981,
+            60.74,
+            52.08,
+            253.0
+          ],
+          "screenshotMeanRGB": [
+            124.12,
+            61.04,
+            52.34
+          ],
+          "rgbMeanAbsoluteError": 0.3127,
+          "rbSwappedMeanAbsoluteError": 48.166,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "right-coat-upper",
+          "sourceBox": [
+            730,
+            630,
+            770,
+            670
+          ],
+          "screenshotBox": [
+            696,
+            255,
+            706,
+            265
+          ],
+          "sourceAlphaExtrema": [
+            253,
+            253
+          ],
+          "sourceMeanRGBA": [
+            129.1344,
+            63.1863,
+            54.5487,
+            253.0
+          ],
+          "screenshotMeanRGB": [
+            129.13,
+            63.6,
+            54.9
+          ],
+          "rgbMeanAbsoluteError": 0.2565,
+          "rbSwappedMeanAbsoluteError": 49.7431,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "right-coat-lower",
+          "sourceBox": [
+            780,
+            930,
+            820,
+            970
+          ],
+          "screenshotBox": [
+            708,
+            329,
+            718,
+            339
+          ],
+          "sourceAlphaExtrema": [
+            253,
+            253
+          ],
+          "sourceMeanRGBA": [
+            136.6587,
+            67.9163,
+            58.5169,
+            253.0
+          ],
+          "screenshotMeanRGB": [
+            136.04,
+            67.95,
+            58.63
+          ],
+          "rgbMeanAbsoluteError": 0.2552,
+          "rbSwappedMeanAbsoluteError": 51.8618,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "face",
+          "sourceBox": [
+            480,
+            280,
+            520,
+            320
+          ],
+          "screenshotBox": [
+            635,
+            170,
+            645,
+            180
+          ],
+          "sourceAlphaExtrema": [
+            253,
+            253
+          ],
+          "sourceMeanRGBA": [
+            237.665,
+            194.9013,
+            176.0119,
+            253.0
+          ],
+          "screenshotMeanRGB": [
+            236.02,
+            194.18,
+            175.38
+          ],
+          "rgbMeanAbsoluteError": 0.9994,
+          "rbSwappedMeanAbsoluteError": 41.0048,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        }
+      ],
+      "meanRGBError": 0.6051,
+      "meanRBSwappedError": 48.8613,
+      "allProbesPass": true,
+      "allProbesDetectRBSwap": false
+    },
+    {
+      "kind": "background",
+      "checkedAtUTC": "2026-10-28T02:45:17.649560+00:00",
+      "screenshot": "05-selected-transparent.png",
+      "screenshotSha256": "f5efc3824bf95e051edee41b77a664eb6c7d8cfc28218c245e9657104b6fb923",
+      "screenshotDimensions": [
+        1280,
+        1000
+      ],
+      "source": "resources/bg-night.webp",
+      "sourceSha256": "89e6e29d4a6c2a0feae26f80a520e1e7d883c1c1049106d841b76b25771c7c29",
+      "nativeCanvas": [
+        720,
+        1280
+      ],
+      "canvasBoxInScreenshot": [
+        420,
+        34,
+        440,
+        783
+      ],
+      "layerTransform": {
+        "x": -284,
+        "y": 0,
+        "scaleX": 0.77,
+        "scaleY": 0.77
+      },
+      "probes": [
+        {
+          "name": "ground-left",
+          "sourceBox": [
+            440,
+            740,
+            460,
+            760
+          ],
+          "screenshotBox": [
+            453,
+            383,
+            463,
+            392
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            180.0425,
+            137.7975,
+            99.6525,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            181.0333,
+            139.2889,
+            101.1444
+          ],
+          "rgbMeanAbsoluteError": 1.3247,
+          "rbSwappedMeanAbsoluteError": 53.9234,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "ground-right-low",
+          "sourceBox": [
+            1240,
+            790,
+            1260,
+            810
+          ],
+          "screenshotBox": [
+            830,
+            406,
+            839,
+            416
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            174.41,
+            114.4175,
+            56.3725,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            175.8444,
+            115.8111,
+            57.4
+          ],
+          "rgbMeanAbsoluteError": 1.2852,
+          "rbSwappedMeanAbsoluteError": 79.2918,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "ground-right-middle",
+          "sourceBox": [
+            1260,
+            730,
+            1280,
+            750
+          ],
+          "screenshotBox": [
+            839,
+            378,
+            849,
+            387
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            152.15,
+            99.08,
+            54.6025,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            151.4667,
+            98.7333,
+            54.4111
+          ],
+          "rgbMeanAbsoluteError": 0.4071,
+          "rbSwappedMeanAbsoluteError": 64.9833,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "ground-right-upper",
+          "sourceBox": [
+            1240,
+            710,
+            1260,
+            730
+          ],
+          "screenshotBox": [
+            830,
+            368,
+            839,
+            378
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            80.5425,
+            52.2875,
+            31.8225,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            80.6333,
+            52.3667,
+            32.0889
+          ],
+          "rgbMeanAbsoluteError": 0.1455,
+          "rbSwappedMeanAbsoluteError": 32.4479,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "ground-left-low",
+          "sourceBox": [
+            460,
+            770,
+            480,
+            790
+          ],
+          "screenshotBox": [
+            463,
+            397,
+            472,
+            406
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            138.8175,
+            99.635,
+            77.825,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            139.963,
+            100.3951,
+            78.5679
+          ],
+          "rgbMeanAbsoluteError": 0.8828,
+          "rbSwappedMeanAbsoluteError": 41.0492,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        }
+      ],
+      "meanRGBError": 0.8091,
+      "meanRBSwappedError": 54.3391,
+      "allProbesPass": true,
+      "allProbesDetectRBSwap": false
+    },
+    {
+      "kind": "cg",
+      "checkedAtUTC": "2026-10-28T02:45:17.679930+00:00",
+      "screenshot": "07-cg.png",
+      "screenshotSha256": "5e9fb3540ac6d9d7602aa2dc3c0bd2fb36cc82dd803fb8a46966d498980c7085",
+      "screenshotDimensions": [
+        1280,
+        1000
+      ],
+      "source": "resources/cg-repair.webp",
+      "sourceSha256": "17b0c92814e37ba7aa12079c70ad54fc934a1b571f2e73e028ad37f89d507d83",
+      "nativeCanvas": [
+        720,
+        1280
+      ],
+      "canvasBoxInScreenshot": [
+        420,
+        34,
+        440,
+        783
+      ],
+      "layerTransform": {
+        "x": -284,
+        "y": 0,
+        "scaleX": 0.77,
+        "scaleY": 0.77
+      },
+      "probes": [
+        {
+          "name": "left-face",
+          "sourceBox": [
+            535,
+            285,
+            565,
+            315
+          ],
+          "screenshotBox": [
+            498,
+            168,
+            512,
+            182
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            190.1689,
+            130.2867,
+            103.3867,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            190.2704,
+            130.3061,
+            103.5
+          ],
+          "rgbMeanAbsoluteError": 0.0781,
+          "rbSwappedMeanAbsoluteError": 57.8573,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "left-jaw",
+          "sourceBox": [
+            585,
+            335,
+            615,
+            365
+          ],
+          "screenshotBox": [
+            522,
+            192,
+            536,
+            206
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            163.6711,
+            106.3744,
+            76.0589,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            164.1786,
+            106.7755,
+            76.3367
+          ],
+          "rgbMeanAbsoluteError": 0.3955,
+          "rbSwappedMeanAbsoluteError": 58.6184,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "left-arm",
+          "sourceBox": [
+            685,
+            585,
+            715,
+            615
+          ],
+          "screenshotBox": [
+            569,
+            310,
+            583,
+            324
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            199.9222,
+            135.9533,
+            105.4089,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            198.4745,
+            134.7296,
+            104.398
+          ],
+          "rgbMeanAbsoluteError": 1.2274,
+          "rbSwappedMeanAbsoluteError": 63.2712,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "right-face",
+          "sourceBox": [
+            985,
+            335,
+            1015,
+            365
+          ],
+          "screenshotBox": [
+            710,
+            192,
+            724,
+            206
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            176.7133,
+            115.5389,
+            88.1211,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            176.3724,
+            115.3622,
+            88.0765
+          ],
+          "rgbMeanAbsoluteError": 0.1874,
+          "rbSwappedMeanAbsoluteError": 59.0216,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "foreground-hand",
+          "sourceBox": [
+            985,
+            785,
+            1015,
+            815
+          ],
+          "screenshotBox": [
+            710,
+            404,
+            724,
+            418
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            228.93,
+            161.1067,
+            126.9822,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            229.0102,
+            161.1071,
+            126.9541
+          ],
+          "rgbMeanAbsoluteError": 0.0362,
+          "rbSwappedMeanAbsoluteError": 68.0014,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        },
+        {
+          "name": "window",
+          "sourceBox": [
+            1185,
+            85,
+            1215,
+            115
+          ],
+          "screenshotBox": [
+            804,
+            74,
+            818,
+            88
+          ],
+          "sourceAlphaExtrema": [
+            255,
+            255
+          ],
+          "sourceMeanRGBA": [
+            35.6156,
+            63.1067,
+            103.7844,
+            255.0
+          ],
+          "screenshotMeanRGB": [
+            35.9337,
+            63.7602,
+            104.801
+          ],
+          "rgbMeanAbsoluteError": 0.6627,
+          "rbSwappedMeanAbsoluteError": 45.8965,
+          "passesColorPreservation": true,
+          "rbSwapDetected": false
+        }
+      ],
+      "meanRGBError": 0.4312,
+      "meanRBSwappedError": 58.7777,
+      "allProbesPass": true,
+      "allProbesDetectRBSwap": false
+    }
+  ],
+  "latestPass": true,
+  "latestRBSwapDetected": false,
+  "latestByKind": {
+    "character": {
+      "pass": true,
+      "rbSwapDetected": false,
+      "meanRGBError": 0.6051,
+      "meanRBSwappedError": 48.8613
+    },
+    "background": {
+      "pass": true,
+      "rbSwapDetected": false,
+      "meanRGBError": 0.8091,
+      "meanRBSwappedError": 54.3391
+    },
+    "cg": {
+      "pass": true,
+      "rbSwapDetected": false,
+      "meanRGBError": 0.4312,
+      "meanRBSwappedError": 58.7777
+    }
+  }
+}

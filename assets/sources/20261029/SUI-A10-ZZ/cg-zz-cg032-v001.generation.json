@@ -1,0 +1,177 @@
+{
+  "id": "CG032",
+  "title": "回声关了，她还上班",
+  "package": "SUI-A10-ZZ",
+  "stem": "cg-zz-cg032-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A03/work-neutral",
+    "A08/bg-zhouzhi-other-venue-evening",
+    "PRE/prop-zhouzhi-private-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-neutral-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-zhouzhi-other-venue/bg-zhouzhi-other-venue-evening-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：周栀B青衬衫黑裙工作版\n图3：A08/bg-zhouzhi-other-venue-evening，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：私人资料箱、摊位线框/纸背、耳饰、发圈、手机套和折伞，按当拍选择；折伞为借还链，不与CG039长柄伞混同。\n核心画面：另一个工作场子门口中景，周栀青衬衫黑裙、整理好的长发与金圈耳饰，将文文的黑折伞递回给镜头前牛仔袖的手。新门面与回声明显不同，无可读新店名。工作状态自然，不把递伞画成离职。\n衣装/形态硬约束：周栀B工作裙装，头发重新整理，沿306找回的耳饰\n当拍道具：她递文文的折伞；另一块招牌\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG032",
+    "kind": "retained-selection",
+    "title": "回声关了，她还上班",
+    "originalTitle": "回声关了，她还上班",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/周栀-十一点四十七分.md",
+        "line": 735,
+        "anchor": "她换了裙子，头发重新弄过，耳饰是306里找回来的那只。"
+      }
+    ],
+    "time": "第46天，新接工作场子门口",
+    "routeGroup": "ZZ",
+    "source": {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "line": 741,
+      "paragraph": "TEXT_27f15df2b2c7561adb19",
+      "scope": "### 剧情简介",
+      "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+      "quote": "她换了裙子，头发重新弄过，耳饰是306里找回来的那只。她把伞递给我，先问我吃饭没有。",
+      "conditions": [],
+      "sourceSha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "matchText": "她换了裙子，头发重新弄过，耳饰是306里找回来的那只。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、周栀",
+      "offscreenOrRemote": "前台/抽烟人和室内顾客不需具名面孔"
+    },
+    "wardrobeAndForm": "周栀B工作裙装，头发重新整理，沿306找回的耳饰",
+    "propState": "她递文文的折伞；另一块招牌",
+    "composition": "门口递伞，明确是另一个工作场子，不套回声原门面。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "zhouzhi"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "不新造场所名称/标志；回声关闭不等于退出陪酒。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A03/work-neutral"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_27f15df2b2c7561adb19_1",
+      "visiblePageIds": [
+        "TEXT_27f15df2b2c7561adb19_1"
+      ],
+      "exitBeforeId": "TEXT_edfc438312995330e74c_1",
+      "snapshotBefore": "第46天，新接工作场子门口；文文、周栀；周栀B工作裙装，头发重新整理，沿306找回的耳饰；她递文文的折伞；另一块招牌",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "不新造场所名称/标志；回声关闭不等于退出陪酒。"
+    },
+    "production": {
+      "package": "SUI-A10-ZZ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-zhouzhi-other-venue",
+        "owner": "SUI-A08",
+        "name": "周栀新接工作场子门口",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-zhouzhi-other-venue-evening-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-zhouzhi-personal-box",
+        "owner": "SUI-A03",
+        "name": "私人物品箱/折伞/耳饰/发圈",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-zhouzhi-other-venue",
+        "owner": "SUI-A08",
+        "name": "周栀新接工作场子门口",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-zhouzhi-other-venue-evening-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-zhouzhi-other-venue-evening"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-zhouzhi-personal-box",
+        "owner": "SUI-A03",
+        "name": "私人物品箱/折伞/耳饰/发圈",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-zhouzhi-private-kit-v001"
+        ],
+        "frameUse": "按当拍取折起摊位图/手机套/折伞/私人箱/耳饰；CG032须工作裙版与找回耳饰，其他物件不整板同时入镜。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A03/work-neutral",
+      "A08/bg-zhouzhi-other-venue-evening",
+      "PRE/prop-zhouzhi-private-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg032-v001.png",
+  "sourceSha256": "12cb431449cf6db7ac8e3f47ad8be80f75ee49affd4cd43905a99176b3ec48d1",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-25e56e0a-97b1-4fbb-9a2f-71a5f0f3b04a.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-neutral-v001.png",
+      "sha256": "a461e91c1048314432685485233aba9d1af5eb8288709fddd43868d727e78a9e"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-zhouzhi-other-venue/bg-zhouzhi-other-venue-evening-v001.png",
+      "sha256": "fb20b65b684755ac8653d2f256b147d33e557d687ca35694fe56e1b184660674"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A03/prop-zhouzhi-private-kit-v001.png",
+      "sha256": "88f91476d6dc74bc2951d3f9d537d1032a7db95417cab6a472925531505468cc"
+    }
+  ],
+  "runtimeAdopted": false
+}

@@ -1,0 +1,1026 @@
+{
+  "scope": "当前诊断候选三张真实WebP在Wasm舞台/CG及读档重开的颜色探针；不是全资源、手机或桌面验收",
+  "version": "diag-v004",
+  "method": "Source-only opaque/chromatic 12x12 ROI selection; rendered affine reference; compare RGB and reversed R/B, threshold MAE <= 7. Source art unchanged.",
+  "checks": [
+    {
+      "kind": "background",
+      "screenshot": "qa/sui-i02-20261029/presentation-diag-v004/03-character.png",
+      "sha256": "c16ffe6d9e066e8bb28b64ffaf0fe7321c0f310087419e6682605fac913e2ded",
+      "probes": [
+        {
+          "center": [
+            392,
+            145
+          ],
+          "referenceRGB": [
+            152.16,
+            172.042,
+            198.944
+          ],
+          "actualRGB": [
+            152.208,
+            172.146,
+            199.028
+          ],
+          "rgbMAE": 0.0787,
+          "swappedMAE": 31.2361,
+          "pass": true
+        },
+        {
+          "center": [
+            920,
+            161
+          ],
+          "referenceRGB": [
+            141.66,
+            163.382,
+            191.799
+          ],
+          "actualRGB": [
+            142.236,
+            163.833,
+            192.104
+          ],
+          "rgbMAE": 0.4444,
+          "swappedMAE": 33.4861,
+          "pass": true
+        },
+        {
+          "center": [
+            856,
+            161
+          ],
+          "referenceRGB": [
+            194.486,
+            211.16,
+            231.118
+          ],
+          "actualRGB": [
+            194.465,
+            211.146,
+            231.125
+          ],
+          "rgbMAE": 0.0139,
+          "swappedMAE": 24.4352,
+          "pass": true
+        },
+        {
+          "center": [
+            808,
+            177
+          ],
+          "referenceRGB": [
+            192.181,
+            209.014,
+            229.264
+          ],
+          "actualRGB": [
+            192.083,
+            208.958,
+            229.208
+          ],
+          "rgbMAE": 0.0694,
+          "swappedMAE": 24.7546,
+          "pass": true
+        },
+        {
+          "center": [
+            1000,
+            225
+          ],
+          "referenceRGB": [
+            163.264,
+            181.729,
+            206.757
+          ],
+          "actualRGB": [
+            163.139,
+            181.569,
+            206.639
+          ],
+          "rgbMAE": 0.1343,
+          "swappedMAE": 29.0509,
+          "pass": true
+        },
+        {
+          "center": [
+            824,
+            225
+          ],
+          "referenceRGB": [
+            124.618,
+            147.368,
+            175.903
+          ],
+          "actualRGB": [
+            124.889,
+            147.729,
+            176.201
+          ],
+          "rgbMAE": 0.3102,
+          "swappedMAE": 34.3194,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "kind": "background",
+      "screenshot": "qa/sui-i02-20261029/presentation-diag-v004/09-character-loaded.png",
+      "sha256": "231979e4bc2aad68950fb17b38e0d79a8b2cb3b200212339ea8e0f5862fea7a2",
+      "probes": [
+        {
+          "center": [
+            392,
+            145
+          ],
+          "referenceRGB": [
+            152.16,
+            172.042,
+            198.944
+          ],
+          "actualRGB": [
+            152.208,
+            172.146,
+            199.028
+          ],
+          "rgbMAE": 0.0787,
+          "swappedMAE": 31.2361,
+          "pass": true
+        },
+        {
+          "center": [
+            920,
+            161
+          ],
+          "referenceRGB": [
+            141.66,
+            163.382,
+            191.799
+          ],
+          "actualRGB": [
+            142.236,
+            163.833,
+            192.104
+          ],
+          "rgbMAE": 0.4444,
+          "swappedMAE": 33.4861,
+          "pass": true
+        },
+        {
+          "center": [
+            856,
+            161
+          ],
+          "referenceRGB": [
+            194.486,
+            211.16,
+            231.118
+          ],
+          "actualRGB": [
+            194.465,
+            211.146,
+            231.125
+          ],
+          "rgbMAE": 0.0139,
+          "swappedMAE": 24.4352,
+          "pass": true
+        },
+        {
+          "center": [
+            808,
+            177
+          ],
+          "referenceRGB": [
+            192.181,
+            209.014,
+            229.264
+          ],
+          "actualRGB": [
+            192.083,
+            208.958,
+            229.208
+          ],
+          "rgbMAE": 0.0694,
+          "swappedMAE": 24.7546,
+          "pass": true
+        },
+        {
+          "center": [
+            1000,
+            225
+          ],
+          "referenceRGB": [
+            163.264,
+            181.729,
+            206.757
+          ],
+          "actualRGB": [
+            163.139,
+            181.569,
+            206.639
+          ],
+          "rgbMAE": 0.1343,
+          "swappedMAE": 29.0509,
+          "pass": true
+        },
+        {
+          "center": [
+            824,
+            225
+          ],
+          "referenceRGB": [
+            124.618,
+            147.368,
+            175.903
+          ],
+          "actualRGB": [
+            124.889,
+            147.729,
+            176.201
+          ],
+          "rgbMAE": 0.3102,
+          "swappedMAE": 34.3194,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "kind": "character",
+      "screenshot": "qa/sui-i02-20261029/presentation-diag-v004/03-character.png",
+      "sha256": "c16ffe6d9e066e8bb28b64ffaf0fe7321c0f310087419e6682605fac913e2ded",
+      "probes": [
+        {
+          "center": [
+            520,
+            369
+          ],
+          "referenceRGB": [
+            170.903,
+            69.368,
+            65.132
+          ],
+          "actualRGB": [
+            170.84,
+            70.5,
+            65.861
+          ],
+          "rgbMAE": 0.6412,
+          "swappedMAE": 70.6273,
+          "pass": true
+        },
+        {
+          "center": [
+            584,
+            337
+          ],
+          "referenceRGB": [
+            174.153,
+            71.715,
+            66.569
+          ],
+          "actualRGB": [
+            174.403,
+            72.819,
+            67.562
+          ],
+          "rgbMAE": 0.7824,
+          "swappedMAE": 71.8426,
+          "pass": true
+        },
+        {
+          "center": [
+            552,
+            289
+          ],
+          "referenceRGB": [
+            174.056,
+            71.799,
+            66.715
+          ],
+          "actualRGB": [
+            174.34,
+            72.847,
+            67.799
+          ],
+          "rgbMAE": 0.8056,
+          "swappedMAE": 71.6435,
+          "pass": true
+        },
+        {
+          "center": [
+            584,
+            257
+          ],
+          "referenceRGB": [
+            167.861,
+            68.222,
+            62.875
+          ],
+          "actualRGB": [
+            167.924,
+            69.208,
+            63.521
+          ],
+          "rgbMAE": 0.5648,
+          "swappedMAE": 70.125,
+          "pass": true
+        },
+        {
+          "center": [
+            744,
+            401
+          ],
+          "referenceRGB": [
+            164.354,
+            65.083,
+            60.938
+          ],
+          "actualRGB": [
+            164.5,
+            66.035,
+            61.514
+          ],
+          "rgbMAE": 0.5579,
+          "swappedMAE": 69.1181,
+          "pass": true
+        },
+        {
+          "center": [
+            712,
+            241
+          ],
+          "referenceRGB": [
+            155.562,
+            61.729,
+            57.069
+          ],
+          "actualRGB": [
+            155.458,
+            62.021,
+            56.951
+          ],
+          "rgbMAE": 0.1713,
+          "swappedMAE": 65.7639,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "kind": "character",
+      "screenshot": "qa/sui-i02-20261029/presentation-diag-v004/09-character-loaded.png",
+      "sha256": "231979e4bc2aad68950fb17b38e0d79a8b2cb3b200212339ea8e0f5862fea7a2",
+      "probes": [
+        {
+          "center": [
+            520,
+            369
+          ],
+          "referenceRGB": [
+            170.903,
+            69.368,
+            65.132
+          ],
+          "actualRGB": [
+            170.84,
+            70.5,
+            65.861
+          ],
+          "rgbMAE": 0.6412,
+          "swappedMAE": 70.6273,
+          "pass": true
+        },
+        {
+          "center": [
+            584,
+            337
+          ],
+          "referenceRGB": [
+            174.153,
+            71.715,
+            66.569
+          ],
+          "actualRGB": [
+            174.403,
+            72.819,
+            67.562
+          ],
+          "rgbMAE": 0.7824,
+          "swappedMAE": 71.8426,
+          "pass": true
+        },
+        {
+          "center": [
+            552,
+            289
+          ],
+          "referenceRGB": [
+            174.056,
+            71.799,
+            66.715
+          ],
+          "actualRGB": [
+            174.34,
+            72.847,
+            67.799
+          ],
+          "rgbMAE": 0.8056,
+          "swappedMAE": 71.6435,
+          "pass": true
+        },
+        {
+          "center": [
+            584,
+            257
+          ],
+          "referenceRGB": [
+            167.861,
+            68.222,
+            62.875
+          ],
+          "actualRGB": [
+            167.924,
+            69.208,
+            63.521
+          ],
+          "rgbMAE": 0.5648,
+          "swappedMAE": 70.125,
+          "pass": true
+        },
+        {
+          "center": [
+            744,
+            401
+          ],
+          "referenceRGB": [
+            164.354,
+            65.083,
+            60.938
+          ],
+          "actualRGB": [
+            164.5,
+            66.035,
+            61.514
+          ],
+          "rgbMAE": 0.5579,
+          "swappedMAE": 69.1181,
+          "pass": true
+        },
+        {
+          "center": [
+            712,
+            241
+          ],
+          "referenceRGB": [
+            155.562,
+            61.729,
+            57.069
+          ],
+          "actualRGB": [
+            155.458,
+            62.021,
+            56.951
+          ],
+          "rgbMAE": 0.1713,
+          "swappedMAE": 65.7639,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "kind": "cg",
+      "screenshot": "qa/sui-i02-20261029/presentation-diag-v004/05-cg-full.png",
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f",
+      "probes": [
+        {
+          "center": [
+            648,
+            305
+          ],
+          "referenceRGB": [
+            226.222,
+            168.083,
+            128.924
+          ],
+          "actualRGB": [
+            226.118,
+            167.993,
+            128.896
+          ],
+          "rgbMAE": 0.0741,
+          "swappedMAE": 64.8704,
+          "pass": true
+        },
+        {
+          "center": [
+            872,
+            177
+          ],
+          "referenceRGB": [
+            184.618,
+            126.861,
+            95.188
+          ],
+          "actualRGB": [
+            184.521,
+            126.833,
+            95.188
+          ],
+          "rgbMAE": 0.0417,
+          "swappedMAE": 59.5972,
+          "pass": true
+        },
+        {
+          "center": [
+            536,
+            321
+          ],
+          "referenceRGB": [
+            208.438,
+            145.972,
+            118.049
+          ],
+          "actualRGB": [
+            208.583,
+            146.167,
+            118.111
+          ],
+          "rgbMAE": 0.1343,
+          "swappedMAE": 60.3519,
+          "pass": true
+        },
+        {
+          "center": [
+            600,
+            289
+          ],
+          "referenceRGB": [
+            232.875,
+            172.028,
+            126.132
+          ],
+          "actualRGB": [
+            233.333,
+            172.333,
+            126.424
+          ],
+          "rgbMAE": 0.3519,
+          "swappedMAE": 71.3194,
+          "pass": true
+        },
+        {
+          "center": [
+            504,
+            353
+          ],
+          "referenceRGB": [
+            191.938,
+            137.688,
+            113.312
+          ],
+          "actualRGB": [
+            191.701,
+            137.583,
+            113.139
+          ],
+          "rgbMAE": 0.1713,
+          "swappedMAE": 52.4306,
+          "pass": true
+        },
+        {
+          "center": [
+            824,
+            225
+          ],
+          "referenceRGB": [
+            144.458,
+            99.014,
+            76.118
+          ],
+          "actualRGB": [
+            144.611,
+            99.076,
+            76.201
+          ],
+          "rgbMAE": 0.0995,
+          "swappedMAE": 45.6042,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "kind": "cg",
+      "screenshot": "qa/sui-i02-20261029/presentation-diag-v004/08-cg-loaded-full.png",
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f",
+      "probes": [
+        {
+          "center": [
+            648,
+            305
+          ],
+          "referenceRGB": [
+            226.222,
+            168.083,
+            128.924
+          ],
+          "actualRGB": [
+            226.118,
+            167.993,
+            128.896
+          ],
+          "rgbMAE": 0.0741,
+          "swappedMAE": 64.8704,
+          "pass": true
+        },
+        {
+          "center": [
+            872,
+            177
+          ],
+          "referenceRGB": [
+            184.618,
+            126.861,
+            95.188
+          ],
+          "actualRGB": [
+            184.521,
+            126.833,
+            95.188
+          ],
+          "rgbMAE": 0.0417,
+          "swappedMAE": 59.5972,
+          "pass": true
+        },
+        {
+          "center": [
+            536,
+            321
+          ],
+          "referenceRGB": [
+            208.438,
+            145.972,
+            118.049
+          ],
+          "actualRGB": [
+            208.583,
+            146.167,
+            118.111
+          ],
+          "rgbMAE": 0.1343,
+          "swappedMAE": 60.3519,
+          "pass": true
+        },
+        {
+          "center": [
+            600,
+            289
+          ],
+          "referenceRGB": [
+            232.875,
+            172.028,
+            126.132
+          ],
+          "actualRGB": [
+            233.333,
+            172.333,
+            126.424
+          ],
+          "rgbMAE": 0.3519,
+          "swappedMAE": 71.3194,
+          "pass": true
+        },
+        {
+          "center": [
+            504,
+            353
+          ],
+          "referenceRGB": [
+            191.938,
+            137.688,
+            113.312
+          ],
+          "actualRGB": [
+            191.701,
+            137.583,
+            113.139
+          ],
+          "rgbMAE": 0.1713,
+          "swappedMAE": 52.4306,
+          "pass": true
+        },
+        {
+          "center": [
+            824,
+            225
+          ],
+          "referenceRGB": [
+            144.458,
+            99.014,
+            76.118
+          ],
+          "actualRGB": [
+            144.611,
+            99.076,
+            76.201
+          ],
+          "rgbMAE": 0.0995,
+          "swappedMAE": 45.6042,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "kind": "cg",
+      "screenshot": "qa/sui-i02-20261029/presentation-diag-v004/11-cg-reopened-full.png",
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f",
+      "probes": [
+        {
+          "center": [
+            648,
+            305
+          ],
+          "referenceRGB": [
+            226.222,
+            168.083,
+            128.924
+          ],
+          "actualRGB": [
+            226.118,
+            167.993,
+            128.896
+          ],
+          "rgbMAE": 0.0741,
+          "swappedMAE": 64.8704,
+          "pass": true
+        },
+        {
+          "center": [
+            872,
+            177
+          ],
+          "referenceRGB": [
+            184.618,
+            126.861,
+            95.188
+          ],
+          "actualRGB": [
+            184.521,
+            126.833,
+            95.188
+          ],
+          "rgbMAE": 0.0417,
+          "swappedMAE": 59.5972,
+          "pass": true
+        },
+        {
+          "center": [
+            536,
+            321
+          ],
+          "referenceRGB": [
+            208.438,
+            145.972,
+            118.049
+          ],
+          "actualRGB": [
+            208.583,
+            146.167,
+            118.111
+          ],
+          "rgbMAE": 0.1343,
+          "swappedMAE": 60.3519,
+          "pass": true
+        },
+        {
+          "center": [
+            600,
+            289
+          ],
+          "referenceRGB": [
+            232.875,
+            172.028,
+            126.132
+          ],
+          "actualRGB": [
+            233.333,
+            172.333,
+            126.424
+          ],
+          "rgbMAE": 0.3519,
+          "swappedMAE": 71.3194,
+          "pass": true
+        },
+        {
+          "center": [
+            504,
+            353
+          ],
+          "referenceRGB": [
+            191.938,
+            137.688,
+            113.312
+          ],
+          "actualRGB": [
+            191.701,
+            137.583,
+            113.139
+          ],
+          "rgbMAE": 0.1713,
+          "swappedMAE": 52.4306,
+          "pass": true
+        },
+        {
+          "center": [
+            824,
+            225
+          ],
+          "referenceRGB": [
+            144.458,
+            99.014,
+            76.118
+          ],
+          "actualRGB": [
+            144.611,
+            99.076,
+            76.201
+          ],
+          "rgbMAE": 0.0995,
+          "swappedMAE": 45.6042,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "kind": "gallery",
+      "screenshot": "qa/sui-i02-20261029/presentation-diag-v004/13-gallery-detail.png",
+      "sha256": "1927d884d56737a6093f2f90f065539f4000d10447a9f07f7dfd8c7b0432bba7",
+      "probes": [
+        {
+          "center": [
+            808,
+            257
+          ],
+          "referenceRGB": [
+            184.118,
+            125.993,
+            94.542
+          ],
+          "actualRGB": [
+            184.09,
+            125.951,
+            94.549
+          ],
+          "rgbMAE": 0.0255,
+          "swappedMAE": 59.7199,
+          "pass": true
+        },
+        {
+          "center": [
+            648,
+            353
+          ],
+          "referenceRGB": [
+            223.965,
+            166.389,
+            128.083
+          ],
+          "actualRGB": [
+            223.799,
+            166.312,
+            127.986
+          ],
+          "rgbMAE": 0.1134,
+          "swappedMAE": 63.9236,
+          "pass": true
+        },
+        {
+          "center": [
+            568,
+            369
+          ],
+          "referenceRGB": [
+            203.431,
+            146.007,
+            119.007
+          ],
+          "actualRGB": [
+            203.201,
+            145.854,
+            118.944
+          ],
+          "rgbMAE": 0.1481,
+          "swappedMAE": 56.2778,
+          "pass": true
+        },
+        {
+          "center": [
+            808,
+            209
+          ],
+          "referenceRGB": [
+            176.507,
+            120.75,
+            94.444
+          ],
+          "actualRGB": [
+            176.431,
+            120.66,
+            94.41
+          ],
+          "rgbMAE": 0.0671,
+          "swappedMAE": 54.7245,
+          "pass": true
+        },
+        {
+          "center": [
+            792,
+            305
+          ],
+          "referenceRGB": [
+            120.514,
+            78.903,
+            58.292
+          ],
+          "actualRGB": [
+            120.611,
+            78.986,
+            58.361
+          ],
+          "rgbMAE": 0.0833,
+          "swappedMAE": 41.5185,
+          "pass": true
+        },
+        {
+          "center": [
+            872,
+            257
+          ],
+          "referenceRGB": [
+            177.056,
+            117.535,
+            92.299
+          ],
+          "actualRGB": [
+            177.042,
+            117.431,
+            92.215
+          ],
+          "rgbMAE": 0.0671,
+          "swappedMAE": 56.5625,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "kind": "restore-pixel",
+      "before": "03-character",
+      "after": "09-character-loaded",
+      "crop": [
+        40,
+        145,
+        1240,
+        465
+      ],
+      "meanError": 0.0,
+      "maxError": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "restore-pixel",
+      "before": "05-cg-full",
+      "after": "08-cg-loaded-full",
+      "crop": [
+        40,
+        145,
+        1240,
+        465
+      ],
+      "meanError": 0.0,
+      "maxError": 0.0,
+      "pass": true
+    },
+    {
+      "kind": "restore-pixel",
+      "before": "05-cg-full",
+      "after": "11-cg-reopened-full",
+      "crop": [
+        40,
+        145,
+        1240,
+        465
+      ],
+      "meanError": 0.0,
+      "maxError": 0.0,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

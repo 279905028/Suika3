@@ -1,0 +1,1397 @@
+{
+  "task": "SUI-A05",
+  "date": "2026-10-29",
+  "batch": "20261028",
+  "assetCount": 19,
+  "passed": true,
+  "passCount": 132,
+  "checkCount": 132,
+  "checks": [
+    {
+      "id": "piao-option-a:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-option-a:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-option-a:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-option-a:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-option-a:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-option-a:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-option-a:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-base:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-base:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-base:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-base:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-base:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-base:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-base:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-expression-smile:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-smile:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-smile:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-expression-smile:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-smile:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-smile:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-expression-smile:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-expression-serious:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-serious:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-serious:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-expression-serious:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-serious:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-serious:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-expression-serious:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-expression-hesitant:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-hesitant:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-hesitant:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-expression-hesitant:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-hesitant:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-hesitant:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-expression-hesitant:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-expression-surprised:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-surprised:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-surprised:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-expression-surprised:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-surprised:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-surprised:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-expression-surprised:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-expression-displeased:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-displeased:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-displeased:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-expression-displeased:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-displeased:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-displeased:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-expression-displeased:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-expression-downcast:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-downcast:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-downcast:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-expression-downcast:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-downcast:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-expression-downcast:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-expression-downcast:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-action-wave:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-wave:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-wave:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-action-wave:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-wave:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-wave:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-action-wave:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "gesture",
+          "sourceRect": [
+            150,
+            395,
+            310,
+            485
+          ],
+          "screenRect": [
+            496.38,
+            192.35,
+            122.71,
+            191.98
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-action-thinking:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-thinking:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-thinking:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-action-thinking:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-thinking:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-thinking:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-action-thinking:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "gesture",
+          "sourceRect": [
+            300,
+            410,
+            260,
+            400
+          ],
+          "screenRect": [
+            555.75,
+            198.29,
+            102.92,
+            158.33
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-action-explaining:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-explaining:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-explaining:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-action-explaining:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-explaining:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-explaining:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-action-explaining:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "gesture",
+          "sourceRect": [
+            130,
+            755,
+            330,
+            290
+          ],
+          "screenRect": [
+            488.46,
+            334.85,
+            130.62,
+            114.79
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-action-camera:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-camera:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-camera:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-action-camera:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-camera:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-camera:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-action-camera:anchor-437",
+      "passed": true,
+      "detail": {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 437,
+        "quote": "桌边放着一台借来的相机。",
+        "heading": "### 第5—7天｜有人要去贵阳",
+        "nearestNode": null,
+        "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+      }
+    },
+    {
+      "id": "piao-action-camera:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "hands-camera",
+          "sourceRect": [
+            270,
+            595,
+            375,
+            310
+          ],
+          "screenRect": [
+            543.88,
+            271.52,
+            148.44,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-action-booklet:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-booklet:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-booklet:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-action-booklet:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-booklet:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-booklet:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-action-booklet:anchor-560",
+      "passed": true,
+      "detail": {
+        "path": "scenario/飘-空白页.md",
+        "line": 560,
+        "quote": "我赶紧看页码。她翻到封二，空的，没有那篇介绍，也没有替换的新文章。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    },
+    {
+      "id": "piao-action-booklet:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "hands-booklet",
+          "sourceRect": [
+            195,
+            570,
+            545,
+            400
+          ],
+          "screenRect": [
+            514.19,
+            261.62,
+            215.73,
+            158.33
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-action-knot:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-knot:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-knot:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-action-knot:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-knot:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-action-knot:anchor-31",
+      "passed": true,
+      "detail": {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    },
+    {
+      "id": "piao-action-knot:anchor-9",
+      "passed": true,
+      "detail": {
+        "path": "scenario/跨路线-第36天的消息.md",
+        "line": 9,
+        "quote": "低头摆弄相机包的带子。",
+        "heading": "## 完整内容",
+        "nearestNode": "<!-- NODE PIAO-D36 -->",
+        "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+      }
+    },
+    {
+      "id": "piao-action-knot:face-and-action-clear-of-ui",
+      "passed": true,
+      "detail": [
+        {
+          "name": "face",
+          "sourceRect": [
+            330,
+            165,
+            330,
+            310
+          ],
+          "screenRect": [
+            567.62,
+            101.31,
+            130.62,
+            122.71
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        },
+        {
+          "name": "hands-knot",
+          "sourceRect": [
+            310,
+            705,
+            410,
+            265
+          ],
+          "screenRect": [
+            559.71,
+            315.06,
+            162.29,
+            104.9
+          ],
+          "overlapsMessage": false,
+          "overlapsName": false,
+          "overlapsMenu": false
+        }
+      ]
+    },
+    {
+      "id": "piao-prop-camera:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-prop-camera:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera:anchor-437",
+      "passed": true,
+      "detail": {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 437,
+        "quote": "桌边放着一台借来的相机。",
+        "heading": "### 第5—7天｜有人要去贵阳",
+        "nearestNode": null,
+        "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+      }
+    },
+    {
+      "id": "piao-prop-camera-bag:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera-bag:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera-bag:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-prop-camera-bag:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera-bag:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera-bag:anchor-9",
+      "passed": true,
+      "detail": {
+        "path": "scenario/跨路线-第36天的消息.md",
+        "line": 9,
+        "quote": "低头摆弄相机包的带子。",
+        "heading": "## 完整内容",
+        "nearestNode": "<!-- NODE PIAO-D36 -->",
+        "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+      }
+    },
+    {
+      "id": "piao-prop-camera-manual:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera-manual:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera-manual:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-prop-camera-manual:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera-manual:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-camera-manual:anchor-168",
+      "passed": true,
+      "detail": {
+        "path": "scenario/飘-空白页.md",
+        "line": 168,
+        "quote": "腾出手翻说明书。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    },
+    {
+      "id": "piao-prop-booklet:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-booklet:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-booklet:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-prop-booklet:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-booklet:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-booklet:anchor-560",
+      "passed": true,
+      "detail": {
+        "path": "scenario/飘-空白页.md",
+        "line": 560,
+        "quote": "我赶紧看页码。她翻到封二，空的，没有那篇介绍，也没有替换的新文章。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    },
+    {
+      "id": "piao-prop-booklet-tools:true-formats",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-booklet-tools:real-alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-booklet-tools:lossless-rgba",
+      "passed": true,
+      "detail": {
+        "passed": true,
+        "dimensionsEqual": true,
+        "differentPixelsByRGBAChannel": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "exactRGBAEqual": true
+      }
+    },
+    {
+      "id": "piao-prop-booklet-tools:orientation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-booklet-tools:prompt-exists",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "piao-prop-booklet-tools:anchor-566",
+      "passed": true,
+      "detail": {
+        "path": "scenario/飘-空白页.md",
+        "line": 566,
+        "quote": "我对页码，她拿订书机。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    },
+    {
+      "id": "piao-prop-booklet-tools:anchor-554",
+      "passed": true,
+      "detail": {
+        "path": "scenario/飘-空白页.md",
+        "line": 554,
+        "quote": "又把束起样册的布条换了两种结法。",
+        "heading": "### 完整内容",
+        "nearestNode": "<!-- NODE PI-HIGH-START -->",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    }
+  ],
+  "scope": "包内格式/像素/锚点及离线矩形；视觉判断另记，未运行引擎"
+}

@@ -1,0 +1,221 @@
+{
+  "task": "SUI-A03",
+  "runtimeBindingsWritten": false,
+  "specs": [
+    {
+      "key": "base",
+      "label": "B 基础",
+      "file": "option-b/char-zhouzhi-human-base-neutral-v001.png",
+      "outfit": "青衬衫 / 深色长裤 / 披发",
+      "variant": "neutral",
+      "condition": "所选当前路线正文允许的普通交谈；不表示已确立恋爱",
+      "quote": "她今天本来就没上班。",
+      "requirements": [
+        "char-zhouzhi"
+      ],
+      "approval": "user_selected_base",
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 189,
+          "quote": "她今天本来就没上班。",
+          "heading": "## 第四章｜这句话她也说过",
+          "nearestDeclaredNode": null,
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    },
+    {
+      "key": "smile",
+      "label": "私人 · 自然笑",
+      "file": "variants/char-zhouzhi-human-base-smile-v001.png",
+      "outfit": "青衬衫 / 深色长裤 / 披发",
+      "variant": "smile",
+      "condition": "第三章自发笑意或适用私人相处；不得把笑容本身编码成恋爱状态",
+      "quote": "她笑得直往沙发里陷。",
+      "requirements": [
+        "char-zhouzhi"
+      ],
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 91,
+          "quote": "她笑得直往沙发里陷。",
+          "heading": "## 第三章｜门开着的时候",
+          "nearestDeclaredNode": null,
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    },
+    {
+      "key": "serious",
+      "label": "私人 · 认真",
+      "file": "variants/char-zhouzhi-human-base-serious-v001.png",
+      "outfit": "青衬衫 / 深色长裤 / 披发",
+      "variant": "serious",
+      "condition": "第24天撤单后的边界交谈等；工作裙装场景改用work-serious",
+      "quote": "你这张单子不是问。",
+      "requirements": [
+        "char-zhouzhi"
+      ],
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 225,
+          "quote": "你这张单子不是问。",
+          "heading": "## 第四章｜这句话她也说过",
+          "nearestDeclaredNode": null,
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    },
+    {
+      "key": "downcast",
+      "label": "私人 · 低落",
+      "file": "variants/char-zhouzhi-human-base-downcast-v001.png",
+      "outfit": "青衬衫 / 深色长裤 / 披发",
+      "variant": "downcast",
+      "condition": "第60天非AA组合的离别；AB/BA/BB表情可共用，动作和对白按各支分别处理",
+      "quote": "今天不答应了。",
+      "requirements": [
+        "char-zhouzhi"
+      ],
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 937,
+          "quote": "今天不答应了。",
+          "heading": "## 第八章｜回声关了，她还要上班",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    },
+    {
+      "key": "tied-tired-cup",
+      "label": "第36天 · 扎发持杯",
+      "file": "variants/char-zhouzhi-human-casual-tied-tired-cup-v001.png",
+      "outfit": "青衬衫 / 深色长裤 / 松扎长发",
+      "variant": "tired-cup",
+      "condition": "仅第36天超市拿起蓝沿白杯的当拍；进入同节街边吃洋芋前退出；不能默认读成已买杯后的饮水动作",
+      "quote": "她拿起蓝沿白杯，问不好看吗。",
+      "requirements": [
+        "char-zhouzhi",
+        "prop-zhouzhi-blue-rim-cup",
+        "prop-zhouzhi-personal-box"
+      ],
+      "actionRect": [
+        290,
+        590,
+        420,
+        300
+      ],
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 603,
+          "quote": "她拿起蓝沿白杯，问不好看吗。",
+          "heading": "## 第七章｜没有包房的下午",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    },
+    {
+      "key": "planning",
+      "label": "第45天 · 采购单",
+      "file": "variants/char-zhouzhi-human-base-planning-v001.png",
+      "outfit": "青衬衫 / 深色长裤 / 披发",
+      "variant": "planning",
+      "condition": "第45天在网吧讨论采购单；接电话时退出持纸动作；未制作可读正面、金额或采购数量",
+      "quote": "第45天，她拿着一张采购单来网吧。",
+      "requirements": [
+        "char-zhouzhi",
+        "prop-zhouzhi-planning"
+      ],
+      "actionRect": [
+        100,
+        600,
+        620,
+        430
+      ],
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 719,
+          "quote": "第45天，她拿着一张采购单来网吧。",
+          "heading": "## 第七章｜没有包房的下午",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    },
+    {
+      "key": "work-neutral",
+      "label": "工作 · 裙装",
+      "file": "variants/char-zhouzhi-human-work-skirt-neutral-v001.png",
+      "outfit": "青衬衫 / 素深色半裙 / 披发",
+      "variant": "neutral",
+      "condition": "第46天另接短班；朴素裙装为本批视觉设计，不新增正文服装色款设定；职业礼貌不是恋人承诺",
+      "quote": "她换了裙子，头发重新弄过，耳饰是306里找回来的那只。",
+      "requirements": [
+        "char-zhouzhi",
+        "prop-zhouzhi-personal-box"
+      ],
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 741,
+          "quote": "她换了裙子，头发重新弄过，耳饰是306里找回来的那只。",
+          "heading": "## 第八章｜回声关了，她还要上班",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    },
+    {
+      "key": "work-serious",
+      "label": "工作 · 说清边界",
+      "file": "variants/char-zhouzhi-human-work-skirt-serious-v001.png",
+      "outfit": "青衬衫 / 同版深色半裙 / 披发",
+      "variant": "serious",
+      "condition": "第46天接班解释，回声停业不表示职业停止；由work-neutral单独派生",
+      "quote": "我没跟你保证过不做了。",
+      "requirements": [
+        "char-zhouzhi"
+      ],
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 775,
+          "quote": "我没跟你保证过不做了。",
+          "heading": "## 第八章｜回声关了，她还要上班",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    },
+    {
+      "key": "prep-apron",
+      "label": "备菜 · 围裙",
+      "file": "variants/char-zhouzhi-human-prep-apron-neutral-v001.png",
+      "outfit": "青衬衫 / 深色长裤 / 深色腰围裙 / 松扎长发",
+      "variant": "neutral",
+      "condition": "第75天摊前当面见面，仅ZZ06-01=A & ZZ08-01=A；摘下围裙后切回无围裙图；其他分支不得用此图制造当面团聚",
+      "quote": "周栀应了一声，替最后一桌收完东西，摘下围裙。",
+      "requirements": [
+        "char-zhouzhi"
+      ],
+      "anchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 1035,
+          "quote": "周栀应了一声，替最后一桌收完东西，摘下围裙。",
+          "heading": "## 第九章｜她在另一条街上",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ]
+    }
+  ]
+}

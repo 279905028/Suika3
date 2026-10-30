@@ -1,0 +1,938 @@
+{
+  "source": "qa/SUI-A09-selection-20261029/review-approved.json",
+  "sourceSha256": "d40d29da939d7451a56bff4065375be5efecac86f610d2f3b266e132d4b6119a",
+  "distinctRequirements": 69,
+  "upstreamRequirements": 60,
+  "confirmedWardrobeChoices": 3,
+  "requirements": [
+    {
+      "requirementId": "bg-bbq-xiaoman-friends",
+      "name": "小满朋友圈烧烤摊/车棚",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG016"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-bijie-arrival-platform",
+      "name": "毕节抵达站台/雨棚",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG001"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-bijie-slope-street",
+      "name": "毕节坡道街巷",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG023"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-bridge-shaobing",
+      "name": "桥头/机构旁烧饼店",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG039"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-bus-stop-bijie",
+      "name": "公交站及车内",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG020"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-chengdu-salon-study",
+      "name": "成都学习/宿舍",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG023"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-convenience-bijie",
+      "name": "毕节便利店",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG005"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-departure-station",
+      "name": "出发车站/候车棚",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG022",
+        "CG034",
+        "CG069"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-friends-meal-shop",
+      "name": "朋友聚餐小店",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG008",
+        "CG011",
+        "CG061",
+        "CG095",
+        "CG096",
+        "CG098",
+        "CG099"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-huangqiuqiu-room",
+      "name": "黄球球房间",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG012",
+        "CG073",
+        "CG075",
+        "CG077",
+        "CG078",
+        "CG079",
+        "CG082"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-huisheng-306",
+      "name": "回声306",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG025",
+        "CG029",
+        "CG031"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-huisheng-corridor",
+      "name": "回声前台/走廊/楼梯",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG026",
+        "CG027",
+        "CG103"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-lianggao-shop",
+      "name": "凉糕店",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG063"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-mengyao-bijie-school",
+      "name": "孟遥毕节培训机构",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG040",
+        "CG041"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-my-riverside",
+      "name": "第44天下午河边局部",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG044"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-new-netcafe",
+      "name": "新网吧柜台/机位/门头",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG094"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-noodle-shop",
+      "name": "面馆/早餐店/门外台阶",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG007",
+        "CG067",
+        "CG101"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-old-netcafe-counter",
+      "name": "旧网吧柜台/机位",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG006",
+        "CG010",
+        "CG062",
+        "CG086",
+        "CG090",
+        "CG091",
+        "CG107"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-old-netcafe-milk-tea",
+      "name": "旧网吧改奶茶店门面",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG108"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-piao-bijie-room",
+      "name": "飘毕节住处",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG066"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-salon-bijie",
+      "name": "毕节理发店",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG004",
+        "CG014",
+        "CG015"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-wenwen-bijie-rental",
+      "name": "文文毕节出租屋/楼下长凳",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG019",
+        "CG035",
+        "CG104",
+        "CG106"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "bg-zhouzhi-other-venue",
+      "name": "周栀新接工作场子门口",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG032"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "char-qiaoge",
+      "name": "乔哥",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG026"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "pose-maolang-aftershow",
+      "name": "第18天演出后聚餐衣装",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG061"
+      ],
+      "isUpstream": true,
+      "status": "wardrobe-choice-confirmed-awaiting-upstream-release",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": {
+        "shot": "CG061",
+        "requirementId": "pose-maolang-aftershow",
+        "owner": "SUI-A07",
+        "choice": "毛狼演出西装；不新增换衣剧情"
+      }
+    },
+    {
+      "requirementId": "pose-my-day44",
+      "name": "第44天河边靠肩衣装连续性",
+      "owner": "SUI-A04",
+      "shots": [
+        "CG044"
+      ],
+      "isUpstream": true,
+      "status": "wardrobe-choice-confirmed-awaiting-upstream-release",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": {
+        "shot": "CG044",
+        "requirementId": "pose-my-day44",
+        "owner": "SUI-A04",
+        "choice": "孟遥日常教学服；不自动套用第28天私人外套"
+      }
+    },
+    {
+      "requirementId": "pose-xm-morning",
+      "name": "第45天后次晨接电话的可见衣装",
+      "owner": "SUI-A02",
+      "shots": [
+        "CG019"
+      ],
+      "isUpstream": true,
+      "status": "wardrobe-choice-confirmed-awaiting-upstream-release",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": {
+        "shot": "CG019",
+        "requirementId": "pose-xm-morning",
+        "owner": "SUI-A02",
+        "choice": "小满已选白色内搭，肩部近景；不另设睡衣、内衣或裸露"
+      }
+    },
+    {
+      "requirementId": "prop-chensheng-handheld",
+      "name": "文件袋/布袋/电源线",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG041"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-extras-handheld",
+      "name": "配角卷尺/扳手",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG086"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-game-screen",
+      "name": "普通组队游戏屏幕草图",
+      "owner": "SUI-A10-COMMON",
+      "shots": [
+        "CG006"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-hq-room-fixed",
+      "name": "收音机/墙钟/沙发/矮桌/普通黄色小球",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG079"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-hq-tableware",
+      "name": "写名双杯/铅笔/纸条/信封",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG073",
+        "CG077",
+        "CG107"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-huisheng-sales",
+      "name": "回声酒/果盘/消费单/麦克风/屏幕",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG025",
+        "CG027",
+        "CG029"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-huisheng-stopped-clock",
+      "name": "回声11:47停钟",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG031"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-maolang-performance-kit",
+      "name": "演出单/海报/串词/话筒包/背包",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG010",
+        "CG062",
+        "CG086",
+        "CG091"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-mengyao-book-box",
+      "name": "书箱/空书袋",
+      "owner": "SUI-A04",
+      "shots": [
+        "CG038"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-mengyao-teaching-kit",
+      "name": "教案/课表/讲义/文件夹/红笔/租房纸",
+      "owner": "SUI-A04",
+      "shots": [
+        "CG040",
+        "CG104"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-message-screen-cg023",
+      "name": "电话/消息/日历局部草图",
+      "owner": "SUI-A10-XM",
+      "shots": [
+        "CG023"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-message-screen-cg035",
+      "name": "电话/消息/日历局部草图",
+      "owner": "SUI-A10-ZZ",
+      "shots": [
+        "CG035"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-message-screen-cg070",
+      "name": "电话/消息/日历局部草图",
+      "owner": "SUI-A10-PI",
+      "shots": [
+        "CG070"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-message-screen-cg100",
+      "name": "电话/消息/日历局部草图",
+      "owner": "SUI-A10-COMMON",
+      "shots": [
+        "CG100"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-message-screen-cg102",
+      "name": "电话/消息/日历局部草图",
+      "owner": "SUI-A10-XM",
+      "shots": [
+        "CG102"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-message-screen-cg104",
+      "name": "电话/消息/日历局部草图",
+      "owner": "SUI-A10-MY",
+      "shots": [
+        "CG104"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-message-screen-cg105",
+      "name": "电话/消息/日历局部草图",
+      "owner": "SUI-A10-MY",
+      "shots": [
+        "CG105"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-message-screen-cg107",
+      "name": "电话/消息/日历局部草图",
+      "owner": "SUI-A10-HQ",
+      "shots": [
+        "CG107"
+      ],
+      "isUpstream": false,
+      "status": "a10-internal-work-after-global-gate",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-my-umbrella",
+      "name": "第23天文文撑开的伞",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG039"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-netcafe-cat-drawing",
+      "name": "师匠儿子猫画/原图/冲印照",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG108"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-netcafe-console",
+      "name": "旧游戏机/手柄/电源线",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG090"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-netcafe-counter-equipment",
+      "name": "网吧电脑/键盘/打印机/冰柜/收银/监控",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG006",
+        "CG086",
+        "CG091"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-netcafe-records",
+      "name": "交班本/班表/结薪页/设备清单",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG094"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-piao-booklet-kit",
+      "name": "册子/原稿/勘误/尺/装订工具",
+      "owner": "SUI-A05",
+      "shots": [
+        "CG066",
+        "CG101",
+        "CG106"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-piao-epilogue-pages",
+      "name": "后日谈新改册页/费用留空纸",
+      "owner": "SUI-A05",
+      "shots": [
+        "CG096",
+        "CG099"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-piao-knots",
+      "name": "布袋/布条/衣角结/发绳",
+      "owner": "SUI-A05",
+      "shots": [
+        "CG008",
+        "CG063",
+        "CG067",
+        "CG068",
+        "CG096",
+        "CG101"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-piao-photos",
+      "name": "桌角/群照/雨后老街照片",
+      "owner": "SUI-A05",
+      "shots": [
+        "CG061",
+        "CG068",
+        "CG070",
+        "CG098"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-salon-fixed",
+      "name": "理发椅/洗头池/围布/价目表/假头",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG014",
+        "CG015"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-shared-food-boxes",
+      "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG005",
+        "CG007",
+        "CG011",
+        "CG016",
+        "CG035",
+        "CG038",
+        "CG041",
+        "CG044",
+        "CG061",
+        "CG063",
+        "CG077",
+        "CG095",
+        "CG098",
+        "CG099",
+        "CG108"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-transport-packing",
+      "name": "公交/车后备厢/搬运板材",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG022",
+        "CG034",
+        "CG069"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-wenwen-housing-papers",
+      "name": "通知/房屋照片/清单/透明文件袋",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG035"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-wenwen-keyring",
+      "name": "三把钥匙/钥匙圈",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG082"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-wenwen-luggage",
+      "name": "坏轮箱/修复箱/旧包",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG001",
+        "CG082"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-wenwen-phone",
+      "name": "手机/提醒/群聊/班表屏幕",
+      "owner": "SUI-A07",
+      "shots": [
+        "CG035",
+        "CG070",
+        "CG075",
+        "CG100",
+        "CG102",
+        "CG105",
+        "CG107"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-xiaoman-helmets",
+      "name": "两顶头盔及车钥匙",
+      "owner": "SUI-A02",
+      "shots": [
+        "CG011",
+        "CG020"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-xiaoman-practice-kit",
+      "name": "小满练习本/报名资料/剪发照片",
+      "owner": "SUI-A02",
+      "shots": [
+        "CG004",
+        "CG023",
+        "CG102"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-xiaoman-tools",
+      "name": "剪刀/梳子/手镜/发夹/剪刀包",
+      "owner": "SUI-A02",
+      "shots": [
+        "CG014",
+        "CG015"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-xm-phone",
+      "name": "小满接阿俊电话的手机",
+      "owner": "SUI-A02",
+      "shots": [
+        "CG019"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-yard-fixed",
+      "name": "蓝塑料凳/坏拖把/水桶/门框/白花",
+      "owner": "SUI-A08",
+      "shots": [
+        "CG012",
+        "CG075",
+        "CG078"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-zhouzhi-blue-rim-cup",
+      "name": "蓝沿白杯",
+      "owner": "SUI-A03",
+      "shots": [
+        "CG034"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-zhouzhi-personal-box",
+      "name": "私人物品箱/折伞/耳饰/发圈",
+      "owner": "SUI-A03",
+      "shots": [
+        "CG026",
+        "CG027",
+        "CG031",
+        "CG032"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    },
+    {
+      "requirementId": "prop-zhouzhi-planning",
+      "name": "摊位图/采购单",
+      "owner": "SUI-A03",
+      "shots": [
+        "CG007"
+      ],
+      "isUpstream": true,
+      "status": "upstream-version-mapping-and-release-pending",
+      "note": "待核不等于无文件；不能把任务完成或草图存在当作逐镜定稿依据。",
+      "userDecision": null
+    }
+  ]
+}

@@ -1,0 +1,770 @@
+[
+  {
+    "id": "char-wenwen",
+    "name": "文文",
+    "status": "本轮人物/持物参考已交付，逐镜演出另定",
+    "assets": [
+      "wenwen-base"
+    ],
+    "constraints": "保留小镇青年B造型；第一人称不默认常驻立绘；无维修工具胸袋",
+    "anchors": [
+      {
+        "path": "docs/人物/文文.md",
+        "line": 50,
+        "quote": "金黄色短寸、黑色眉毛、圆脸、成年身形，保留既有眉眼。2026-10-26用户确认采用小镇青年B方案：洗旧浅蓝牛仔夹克敞开、袖口翻折，米白圆领T恤、炭灰直筒裤与黑色帆布鞋。基础立绘、表情动作及含文文的封面／旧剧情图统一沿用这一造型；不再使用深色维修夹克或胸袋工具。",
+        "heading": "## 已确认外形与资源",
+        "sha256": "f4bdf7a09a68d2c0e2a39da47ebdb60ebd3680680f86b262413d0b3c14a57600"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-maolang",
+    "name": "毛狼",
+    "status": "本轮人物/持物参考已交付，逐镜演出另定",
+    "assets": [
+      "maolang-base",
+      "maolang-serious",
+      "maolang-stage",
+      "maolang-mic-bag"
+    ],
+    "constraints": "保留Option D；FR演出西装另为衣装差分",
+    "anchors": [
+      {
+        "path": "docs/人物/毛狼.md",
+        "line": 33,
+        "quote": "采用用户选定的 Option D：黑色蓬松微卷短发、自然偏窄椭圆脸、下摆多彩花形印花黑 T 恤、黑色护腕和黑裤。照片仅用于外形参考，年龄与经历属于虚构设定。",
+        "heading": "## 已确认外形与资源",
+        "sha256": "1671c6c823a61f7780677fbe4e42b57eb5872ee2a94242b2ce51cc09ef4789a6"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 141,
+        "quote": "毛狼的西装袖口太长，讲话时总要往上推。他刚把场子热起来，负责人便在台侧竖起两根手指。他提前收了尾，台下还没人反应过来。",
+        "heading": "#### A｜去看毛狼，先跟师匠改约盘点",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-shijiang",
+    "name": "师匠",
+    "status": "本轮人物/持物参考已交付，逐镜演出另定",
+    "assets": [
+      "shijiang-base",
+      "shijiang-serious",
+      "shijiang-calculator"
+    ],
+    "constraints": "保留Option A；网吧老板与雇主；不新增家庭经历",
+    "anchors": [
+      {
+        "path": "docs/人物/师匠.md",
+        "line": 26,
+        "quote": "采用用户选定的 Option A：黑白花纹渔夫帽、黑框眼镜、白色图案 T 恤与黑色运动短裤，保留照片参考的脸型。现有立绘继续作为外形基线；本轮未制作网吧场景或职业道具。",
+        "heading": "## 已确认外形与资源",
+        "sha256": "bc43c91684357798e4717e886d4fd873022aeed81a339b0c506ee242f9a4e6ef"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-yelan",
+    "name": "叶岚",
+    "status": "本轮人物/持物参考已交付，逐镜演出另定",
+    "assets": [
+      "yelan-b",
+      "yelan-serious",
+      "yelan-phone"
+    ],
+    "constraints": "普通队友/第12天聚餐；无恋爱婚姻专属图",
+    "anchors": [
+      {
+        "path": "docs/人物/叶岚.md",
+        "line": 5,
+        "quote": "叶岚27岁，保险公司内勤，毛狼固定游戏队的网友。线上嘴贫、好胜，线下初见较安静；保留群聊、改约和朋友聚餐所需情节。",
+        "heading": "# 叶岚 · 普通队友",
+        "sha256": "4a1bf6bfcc5163092e11832eadb8634392d6c1726824963cbe27ab2095c2fe0c"
+      },
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 324,
+        "quote": "第十二天下午，毛狼在群里约面馆，说总不能见面也隔着麦喊。叶岚刚好有空，这是我第一次在线下见她。",
+        "heading": "#### 共同段",
+        "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-chensheng",
+    "name": "陈晟",
+    "status": "本轮人物/持物参考已交付，逐镜演出另定",
+    "assets": [
+      "chensheng-b",
+      "chensheng-documents",
+      "chensheng-book-bag",
+      "chensheng-cable"
+    ],
+    "constraints": "现任丈夫，设备维护，深色洗旧外套；年龄/脸型未设，不反派化不引赵衡",
+    "anchors": [
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 269,
+        "quote": "陈晟站在门口，穿一件洗得有点发白的深色外套，鞋上沾了水。他拿着文件袋，见我们出来，先把挡着门的一只纸箱挪开。",
+        "heading": "### 完整内容",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-chenniang",
+    "name": "陈孃",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "房东角色；外形未设，不新增亲属关系",
+    "anchors": [
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 109,
+        "quote": "傍晚，我把箱子搬进坡上的出租屋。五百一个月，窗外正对着一堵墙。陈孃收了房租，拿来一碗汤，问我要不要旧凳子。",
+        "heading": "#### 共同段",
+        "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-aying",
+    "name": "阿英",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "周栀同事/试摊搭档；外形未设",
+    "anchors": [
+      {
+        "path": "scenario/周栀-十一点四十七分.md",
+        "line": 791,
+        "quote": "第48天下午，我去阿英那里送回一只借过的碗。她们正试备菜，周栀叫我坐，自己拿着土豆来问削成这样行不行。阿英嫌她一边讲话一边动手，把刀拿过去，让她先把旁边的袋子拆了。",
+        "heading": "### 完整内容",
+        "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-ajun",
+    "name": "阿俊",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "小满朋友/追账；不自动使用同桌另一男人外形",
+    "anchors": [
+      {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 241,
+        "quote": "这桌人我只认识两个。阿俊以前在水果店帮过忙，另外几个是她平时一起出门的朋友。我刚坐稳，阿俊便凑过来看我的头发。",
+        "heading": "### 完整内容",
+        "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-qiaoge",
+    "name": "乔哥",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "熟客，不补供养或性交易身份",
+    "anchors": [
+      {
+        "path": "scenario/周栀-十一点四十七分.md",
+        "line": 139,
+        "quote": "门开着一半。周栀坐在靠边的位置，手里没有一直拿酒，杯子放在自己能看见的地方。旁边一个叫乔哥的熟客说只喝一点有什么意思，她把新开的那瓶推到他面前。",
+        "heading": "### 完整内容",
+        "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-grocery-owner",
+    "name": "杂货店大姐",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "受访者撤回半页；外形未设",
+    "anchors": [
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 22,
+        "quote": "第15天，我还没坐稳，杂货店的大姐就把本子按住了。",
+        "heading": "### 完整内容",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-shoe-repairer",
+    "name": "修鞋师傅",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "受访者改稿确认，不预设老人苦难",
+    "anchors": [
+      {
+        "path": "scenario/飘-空白页.md",
+        "line": 484,
+        "quote": "第31天下午，我带着新旧两稿去了两家店。师傅让我站到不挡客人的地方，一边补鞋一边听。顾客来时我就停，等他忙完再读下一句。他最后拿笔画了一个圈，圈住自己的名字，说这个字也打错了。",
+        "heading": "#### A｜我亲自澄清，把难堪和后续核对一起接过来",
+        "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-shop-buyer",
+    "name": "网吧买家",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "拿卷尺女人，改开奶茶店，与电动车买家不同人",
+    "anchors": [
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 17,
+        "quote": "第十五天下午，我到网吧时，柜台前站着一个拿卷尺的女人。师匠叫我搭把手，把挡路的饮料箱挪进去。",
+        "heading": "#### 第15—21天",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-ebike-buyer",
+    "name": "电动车买家",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "附近上班女人，第53天交易，外形未设",
+    "anchors": [
+      {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 697,
+        "quote": "那辆车刚洗过，车身上的贴纸都擦得很亮。她把两顶头盔放在座位上，一顶拿下来，又把另一顶拿下来。买车的是附近上班的女人，试过刹车和灯，问电池用了多久。",
+        "heading": "### 完整内容",
+        "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-boss-li",
+    "name": "新网吧李老板",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "FR第63天后，与师匠不同人",
+    "anchors": [
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 645,
+        "quote": "第63天，新老板姓李，问我以前干过什么。我说网管，夜班，没有再加“网络这一块”。他带我认配电箱的位置，告诉我哪几台机经常出问题，又把交班本放到桌上。",
+        "heading": "#### 第61—90天",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "char-extras-salon",
+    "name": "理发店店长/阿姨/新人/短发朋友",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "分别作群众或局部，不相互冒充；A07逐人分键，A09判独立立绘需求",
+    "anchors": [
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 243,
+        "quote": "一个短头发的姑娘探进半张脸：“晚上还去不去？他们讲你现在忙得约不动。”",
+        "heading": "#### 共同段",
+        "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      },
+      {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 15,
+        "quote": "第15天下午，我推开店门，小满正拿着手镜，让一个阿姨看后脑勺。",
+        "heading": "### 完整内容",
+        "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555"
+      },
+      {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 975,
+        "quote": "第91天上午，店里新人替我围好围布，问是不是只修边。",
+        "heading": "### 完整内容",
+        "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555"
+      }
+    ],
+    "separateCharacters": [
+      {
+        "key": "salon-manager",
+        "name": "理发店店长",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "salon-customer-aunt",
+        "name": "理发店阿姨顾客",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "salon-newcomer",
+        "name": "理发店新人",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "xiaoman-shorthaired-friend",
+        "name": "小满短发朋友",
+        "appearance": "未设，本轮不制作"
+      }
+    ]
+  },
+  {
+    "id": "char-extras-school",
+    "name": "负责人/家长/学生/同事/快递员",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "各角色分开，不新增学生关系戏或家庭经历",
+    "anchors": [
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 23,
+        "quote": "负责人出来，把她叫到旁边，小声说先认个表达不清，别在走廊争。我站在楼梯拐角，看见她拿着考勤表，手指把纸边折起，又压平。",
+        "heading": "### 完整内容",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 33,
+        "quote": "她回教室收东西。我想帮忙拿卷子，她说不用，班级不能混。我只好坐到走廊椅子上。学生从里面出来，有人叫她老师，问下次课还上不上。她说照课表上，随后去办公室问刚才的家长到底要退哪一部分。",
+        "heading": "### 完整内容",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 611,
+        "quote": "快递员说明天下午来收。孟遥在箱上写好编号，同事叫她去签交接表。我拿起自己的包，借书仍在包里，还没看完。",
+        "heading": "#### 共同段",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "separateCharacters": [
+      {
+        "key": "training-manager",
+        "name": "培训机构负责人",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "training-parent",
+        "name": "家长",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "training-student",
+        "name": "学生",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "training-colleague",
+        "name": "同事",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "book-courier",
+        "name": "快递员",
+        "appearance": "未设，本轮不制作"
+      }
+    ]
+  },
+  {
+    "id": "char-extras-work",
+    "name": "回声老板/前台、演出负责人、顾客、工人、修招牌人员",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "按当前镜头出镜，不默认都需独立立绘",
+    "anchors": [
+      {
+        "path": "scenario/周栀-十一点四十七分.md",
+        "line": 21,
+        "quote": "老板说都是旧东西，机器里都有。她蹲下，把那本歌单抽出来，灰沾了一膝盖。",
+        "heading": "### 完整内容",
+        "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 141,
+        "quote": "毛狼的西装袖口太长，讲话时总要往上推。他刚把场子热起来，负责人便在台侧竖起两根手指。他提前收了尾，台下还没人反应过来。",
+        "heading": "#### A｜去看毛狼，先跟师匠改约盘点",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 37,
+        "quote": "当晚十点我来接班。到了凌晨三点，有个喝了酒的客人认定我少找钱。他把柜台拍响，伸手来抢收银抽屉。我把抽屉合住，手指夹了一下。师匠从后间出来，没碰那个人，只把监控调到收款的时候。",
+        "heading": "#### 第15—21天",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      },
+      {
+        "path": "scenario/黄球球-门后.md",
+        "line": 19,
+        "quote": "修招牌的人抱着电线往后院走。我挡了一下，脱口说：“没得人，堆东西的。”",
+        "heading": "#### 第15—21天",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      }
+    ],
+    "separateCharacters": [
+      {
+        "key": "echo-owner",
+        "name": "回声老板",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "echo-receptionist",
+        "name": "回声前台",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "event-organizer",
+        "name": "演出负责人",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "cafe-customer",
+        "name": "网吧顾客",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "moving-worker",
+        "name": "搬运工人",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "sign-repairer",
+        "name": "修招牌人员",
+        "appearance": "未设，本轮不制作"
+      }
+    ]
+  },
+  {
+    "id": "char-extras-everyday",
+    "name": "店员/收银员/办事人员/照片店员",
+    "status": "用户明确延后，按文字或画外表现",
+    "assets": [],
+    "constraints": "各自局部或群众，不新增姓名和经历",
+    "anchors": [
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 305,
+        "quote": "收银员问袋子要不要，孟遥把牛奶装进自己的布袋，问我现在一个月多少。",
+        "heading": "#### 共同段",
+        "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      },
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 440,
+        "quote": "厨房风机响得很大。店员端汤过来，问放哪儿，我把桌边那只空碟拿开，手上沾了油，险些没拿稳。",
+        "heading": "### 第13—14天｜没有那间客房",
+        "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      },
+      {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 911,
+        "quote": "办事的人问我以前住哪边，我指了方向，说过一会儿还要去拿东西。话说出口，我才听见自己用了以前。",
+        "heading": "#### 共同段",
+        "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 711,
+        "quote": "六点交班后，我先回屋洗了澡。等照片店开门，我去拿前两天送洗的那张猫。纸袋边上有一小道折痕，店员说里面没折到。我抽出来看了，猫的耳朵完整，墙皮上的裂缝也完整。",
+        "heading": "#### 第91天",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      }
+    ],
+    "separateCharacters": [
+      {
+        "key": "restaurant-staff",
+        "name": "餐馆店员",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "convenience-cashier",
+        "name": "便利店收银员",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "housing-clerk",
+        "name": "房屋办事人员",
+        "appearance": "未设，本轮不制作"
+      },
+      {
+        "key": "photo-shop-staff",
+        "name": "照片店员",
+        "appearance": "未设，本轮不制作"
+      }
+    ]
+  },
+  {
+    "id": "prop-wenwen-luggage",
+    "name": "坏轮箱/修复箱/旧包",
+    "status": "道具连续性已登记；独立特写随A09镜头另定",
+    "assets": [],
+    "constraints": "1天缺轮后修仍响；75天旧包不表示同居获准",
+    "anchors": [
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 15,
+        "quote": "银行的电话打到第三遍时，我的箱子轮子掉了。",
+        "heading": "### 第1天｜你带了个拖拉机",
+        "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      },
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 167,
+        "quote": "回到屋里，我把轮子装上去。箱子能立住了，拉动还是响。",
+        "heading": "#### 共同段",
+        "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      },
+      {
+        "path": "scenario/黄球球-门后.md",
+        "line": 746,
+        "quote": "回到后院，我肩上多一个旧包，装着从那套房拿走的几件东西。她开门后先看包，往旁边让了一步。",
+        "heading": "### 完整内容",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "prop-wenwen-housing-papers",
+    "name": "通知/房屋照片/清单/透明文件袋",
+    "status": "道具连续性已登记；独立特写随A09镜头另定",
+    "assets": [],
+    "constraints": "金额日序按正文，不造法律日期/印章；90天成交非债清",
+    "anchors": [
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 531,
+        "quote": "柜台上只亮着一盏灯。我把包底的通知抽出来，边角被箱子的水洇过，几页纸粘在一起。",
+        "heading": "### 第7天深夜｜信封里的日期",
+        "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      },
+      {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 909,
+        "quote": "第75天去贵阳的休班，我提前跟师匠核了两遍。材料放在透明袋里，身份证单独放好。出门前我还摸了一遍，没再只凭脑子里那句“带了”。",
+        "heading": "#### 共同段",
+        "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555"
+      },
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 547,
+        "quote": "我盯着照片。窗帘一边长一边短，是我当时装歪的。不是样板间，是我曾经住过的地方。",
+        "heading": "### 第7天深夜｜信封里的日期",
+        "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "prop-wenwen-keyring",
+    "name": "三把钥匙/钥匙圈",
+    "status": "道具连续性已登记；独立特写随A09镜头另定",
+    "assets": [],
+    "constraints": "贵阳房/租屋/网吧侧门分归属，75天交房钥匙；FR按交接后数量",
+    "anchors": [
+      {
+        "path": "scenario/第三章-选一条路.md",
+        "line": 19,
+        "quote": "窗台上摆着三把钥匙：贵阳房子的、出租屋的、网吧侧门的。我把出租屋和侧门钥匙收进口袋，剩下那一把放进装通知的袋子，拉好拉链。",
+        "heading": "## 完整内容",
+        "sha256": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 669,
+        "quote": "出来时，我没有再拍窗外。钥匙交出去，裤袋里只剩出租屋那一把，我摸到它，才知道自己的手一直没拿出来。",
+        "heading": "#### 共同段",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "prop-wenwen-phone",
+    "name": "手机/提醒/群聊/班表屏幕",
+    "status": "道具连续性已登记；独立特写随A09镜头另定",
+    "assets": [],
+    "constraints": "黄球球只看文文手机不另配；A07演出插图，交互实现归U",
+    "anchors": [
+      {
+        "path": "scenario/第一章-回到毕节.md",
+        "line": 131,
+        "quote": "我打开备忘录，打了三个点，第二个和第三个之间多空了一格，注明“网吧后院”。",
+        "heading": "#### A｜再听一遍，把三拍记下来",
+        "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d"
+      },
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 382,
+        "quote": "我翻开班表，把已经确认的那晚休息发进群里。这一次，没在后面补上“随时都行”。",
+        "heading": "#### 共同段",
+        "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      },
+      {
+        "path": "scenario/黄球球-门后.md",
+        "line": 161,
+        "quote": "第24天，我拍到了那簇白花。照片糊了一半，她拿着我的手机看，想放大，又被自己的小手挡住。我按她说的位置放大，她嫌我放太大，两个人折腾了一会儿才看清。",
+        "heading": "#### 共同段",
+        "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "prop-maolang-performance-kit",
+    "name": "演出单/海报/串词/话筒包/背包",
+    "status": "本轮人物/持物参考已交付，逐镜演出另定",
+    "assets": [
+      "maolang-mic-bag"
+    ],
+    "constraints": "52天失房笑话删除，不继续作有效稿；职业物同版",
+    "anchors": [
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 270,
+        "quote": "第十一天傍晚，我在网吧门口碰见毛狼。他刚卸完一场的灯架，衣服背上湿了一块，手里却还攥着一张新的海报。",
+        "heading": "### 第11—12天｜屏幕外的座位",
+        "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 227,
+        "quote": "他说了一半的话断了。话筒包挂在他肩上，背带扭着，他慢慢把它捋直。",
+        "heading": "#### 第25—29天",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 529,
+        "quote": "他在旁边坐下。我想说只要没人知道是我，想到我们一起吃过的那些面，又说不出口。毛狼把那页选中，按了删除。",
+        "heading": "#### 共同段",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "prop-shijiang-handheld",
+    "name": "计算器/账本/个人手机",
+    "status": "本轮人物/持物参考已交付，逐镜演出另定",
+    "assets": [
+      "shijiang-calculator"
+    ],
+    "constraints": "账页按正文，工资结清与友情分开",
+    "anchors": [
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 78,
+        "quote": "话出口，比我原想的重。师匠把计算器放下。",
+        "heading": "### 第九天",
+        "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 379,
+        "quote": "他笑了一声，很短，把纸夹进账本。我按原来换好的时间去回声，告诉毛狼，结薪要师匠本人确认，别替我们传话。",
+        "heading": "#### B｜把结薪写清，工资以外暂时到这里",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "prop-chensheng-handheld",
+    "name": "文件袋/布袋/电源线",
+    "status": "本轮人物/持物参考已交付，逐镜演出另定",
+    "assets": [
+      "chensheng-documents",
+      "chensheng-book-bag",
+      "chensheng-cable"
+    ],
+    "constraints": "27天路线资料34天厚袋75天送线，不造婚姻证件",
+    "anchors": [
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 269,
+        "quote": "陈晟站在门口，穿一件洗得有点发白的深色外套，鞋上沾了水。他拿着文件袋，见我们出来，先把挡着门的一只纸箱挪开。",
+        "heading": "### 完整内容",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 427,
+        "quote": "他停了一下，把那几本另装到袋里，没有继续替她谈价。袋子底薄，他又从车里拿来一个布袋，换好才提起来。",
+        "heading": "#### 共同段",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 750,
+        "quote": "陈晟这时送来她落在住处的电源线。他认出我，问是不是来办事，我答了是。他把线递给她，说晚上吃饭的地方发过了，让她下课再看，没催。",
+        "heading": "### 完整内容",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "prop-extras-handheld",
+    "name": "配角卷尺/扳手",
+    "status": "道具连续性已登记；独立特写随A09镜头另定",
+    "assets": [],
+    "constraints": "固定设备归A08，陈孃扳手不移为文文维修能力证明",
+    "anchors": [
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 388,
+        "quote": "她来问水管有没有漏。我却先把手机扣了，以为她是来问下个月房租。她看看手机，又看看我，把手里的扳手放到窗台上。",
+        "heading": "### 第13—14天｜没有那间客房",
+        "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      },
+      {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 91,
+        "quote": "女人点点头，手机在包里响了。她接起电话往门外走，卷尺还落在柜台边。毛狼一直站在打印机旁，等她出去才开口。",
+        "heading": "#### 共同段",
+        "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28"
+      }
+    ],
+    "separateCharacters": []
+  },
+  {
+    "id": "prop-wenwen-old-home-remnants",
+    "name": "旧房缺口杯/旧衣服/坏螺丝刀",
+    "status": "道具连续性已登记；独立特写随A09镜头另定",
+    "assets": [],
+    "constraints": "第75天收回旧物，与蓝沿白杯和黄球球杯分开；坏螺丝刀只是旧物，不恢复维修能手设定。",
+    "anchors": [
+      {
+        "path": "scenario/周栀-十一点四十七分.md",
+        "line": 995,
+        "quote": "柜子里一只杯子用旧报纸包着。我打开，边缘有个小缺口，想不起哪次碰的。我带走它，又把两件旧衣服叠好。坏了半边的螺丝刀拿起来，转两下，最后也放进袋里。",
+        "heading": "### 完整内容",
+        "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+      },
+      {
+        "path": "scenario/周栀-十一点四十七分.md",
+        "line": 995,
+        "quote": "柜子里一只杯子用旧报纸包着。我打开，边缘有个小缺口，想不起哪次碰的。我带走它，又把两件旧衣服叠好。坏了半边的螺丝刀拿起来，转两下，最后也放进袋里。",
+        "heading": "### 完整内容",
+        "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+      }
+    ],
+    "separateCharacters": []
+  }
+]

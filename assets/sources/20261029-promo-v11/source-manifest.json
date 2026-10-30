@@ -1,0 +1,111 @@
+{
+  "batch": "promo-v11-20261029",
+  "title": "毕节，雨停之前",
+  "version": "v1.1",
+  "status": "开发中宣传候选，三方案未选定；不等于运行采用或发布",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "method": "使用现有选型美术进行HTML/CSS排版，不生成或改写原画，不改变人物或剧情设定。",
+  "sourceProtection": [
+    {
+      "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.webp",
+      "sha256": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.webp",
+      "sha256": "c385e85d8d9db730191d494585cf37f27b43894f8b9ac63cbac65213691b6739"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.webp",
+      "sha256": "26b139e65a8012e9e072a196f54f09b948e974873562939f12caf7ba6e1043c9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.webp",
+      "sha256": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-base-neutral-v001.webp",
+      "sha256": "3f41ff7bb087c1faa1f8cf71d7862076c6b515cc1259afca8791b84d7648153a"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.webp",
+      "sha256": "a5af61df74e79682885f201154ab4989f0f8632a1344494bf472911e0362ee88"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.webp",
+      "sha256": "8210ca3e73de49f8851747ea9af487331e9ae0b1f9baf1a6fdc13a02fc49f922"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-night-v001.webp",
+      "sha256": "41601323c098ece9d946586dfd0b52b405fc6b5b10f365686c426240c11e91c9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-dusk-v001.webp",
+      "sha256": "c2fc27d6b8d1e7be71fa5c27fe66fa2b064265cf33a0e83b5d5a554079953fab"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-night-v001.webp",
+      "sha256": "45db7e9f5489252e78d440a6d3ca18522899924bac800f8bf89ad78a2cf904aa"
+    }
+  ],
+  "claims": [
+    {
+      "text": "六条路线",
+      "source": "scenario/routes.json"
+    },
+    {
+      "text": "十四种结局",
+      "source": "scenario/routes.json"
+    },
+    {
+      "text": "双后日谈",
+      "source": "scenario/README.md"
+    },
+    {
+      "text": "v1.1",
+      "source": "scenario/第一章-回到毕节.md"
+    }
+  ],
+  "posterConcepts": [
+    {
+      "id": "01",
+      "name": "雨夜归城",
+      "assets": [
+        "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-night-v001.webp"
+      ],
+      "description": "青灰雨夜电影主视觉，城市与关系主题。"
+    },
+    {
+      "id": "02",
+      "name": "六种相遇",
+      "assets": [
+        "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.webp",
+        "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.webp",
+        "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.webp",
+        "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.webp",
+        "assets/sources/20261029/SUI-A06/variants/human/char-huangqiuqiu-human-base-neutral-v001.webp",
+        "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.webp",
+        "assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.webp"
+      ],
+      "description": "五位女主与朋友职业线六格群像，黄球球标注隐藏线；朋友格由毛狼和师匠代表。宣传拼版不表示人物同场或同时攻略。"
+    },
+    {
+      "id": "03",
+      "name": "未完的日常",
+      "assets": [
+        "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-dusk-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-night-v001.webp"
+      ],
+      "description": "暖纸摄影散文拼贴，坡街与夜班网吧，强调生活主题。"
+    }
+  ],
+  "notPerformed": [
+    "未重新审校正文",
+    "未改变引擎或游戏浏览器运行状态",
+    "未触碰玩家存档",
+    "未做手机真机、印刷、上线或发布"
+  ],
+  "copyNote": "宣传短句是新增营销文案，不作为正文引句或新增剧情事实。"
+}

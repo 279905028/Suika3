@@ -1,0 +1,718 @@
+{
+  "date": "2026-10-28",
+  "scope": "任务拆分文档核对；只读复核已有正文结构，不代表美术制作或运行验收",
+  "status": "pass",
+  "split": {
+    "taskCount": 11,
+    "cgPackageCount": 7,
+    "taskIds": [
+      "SUI-A01",
+      "SUI-A02",
+      "SUI-A03",
+      "SUI-A04",
+      "SUI-A05",
+      "SUI-A06",
+      "SUI-A07",
+      "SUI-A08",
+      "SUI-A09",
+      "SUI-A10",
+      "SUI-A11"
+    ],
+    "packages": [
+      "SUI-A10-COMMON",
+      "SUI-A10-XM",
+      "SUI-A10-ZZ",
+      "SUI-A10-MY",
+      "SUI-A10-PI",
+      "SUI-A10-HQ",
+      "SUI-A10-FR"
+    ],
+    "missing": [],
+    "missingPackages": [],
+    "allProductionTasksUnchecked": true
+  },
+  "contentAudit": {
+    "status": "pass",
+    "checks": [
+      {
+        "name": "选择解析：第一章-回到毕节.md",
+        "status": "pass",
+        "detail": {
+          "count": 5
+        }
+      },
+      {
+        "name": "选择解析：第二章-十四天.md",
+        "status": "pass",
+        "detail": {
+          "count": 7
+        }
+      },
+      {
+        "name": "选择解析：第三章-选一条路.md",
+        "status": "pass",
+        "detail": {
+          "count": 1
+        }
+      },
+      {
+        "name": "选择解析：罗小满-练习本.md",
+        "status": "pass",
+        "detail": {
+          "count": 8
+        }
+      },
+      {
+        "name": "选择解析：周栀-十一点四十七分.md",
+        "status": "pass",
+        "detail": {
+          "count": 8
+        }
+      },
+      {
+        "name": "选择解析：孟遥-旧题.md",
+        "status": "pass",
+        "detail": {
+          "count": 8
+        }
+      },
+      {
+        "name": "选择解析：飘-空白页.md",
+        "status": "pass",
+        "detail": {
+          "count": 9
+        }
+      },
+      {
+        "name": "选择解析：朋友与职业-夜班.md",
+        "status": "pass",
+        "detail": {
+          "count": 8
+        }
+      },
+      {
+        "name": "选择解析：黄球球-门后.md",
+        "status": "pass",
+        "detail": {
+          "count": 8
+        }
+      },
+      {
+        "name": "路线及选择唯一性",
+        "status": "pass",
+        "detail": {
+          "playableRoutes": 6,
+          "publicRoutes": 5,
+          "conditionalRoutes": 1,
+          "declaredEndings": [
+            "XM-E1",
+            "XM-E2",
+            "ZZ-E1",
+            "ZZ-E2",
+            "MY-E1",
+            "MY-E2",
+            "PI-E1",
+            "PI-E2",
+            "PI-LE1",
+            "PI-LE2",
+            "FR-E1",
+            "FR-E2",
+            "HQ-E1",
+            "HQ-E2"
+          ]
+        }
+      },
+      {
+        "name": "路线注册与婚姻结果契约",
+        "status": "pass",
+        "detail": {
+          "routes": 6,
+          "mengyao": {
+            "marriedTo": "陈晟",
+            "marriageEnds": false,
+            "outcomes": {
+              "AA": "MY-E1",
+              "AB": "MY-E2",
+              "BA": "MY-E2",
+              "BB": "MY-E2"
+            },
+            "endingMeaning": {
+              "MY-E1": "秘密关系继续",
+              "MY-E2": "彻底断开"
+            },
+            "stoppedAtFirstChoiceCannotResume": true
+          },
+          "unresolved": [
+            "飘关系来源/初值/时点/阈值",
+            "第三章分流与中期判断衔接",
+            "第36天逐线日序",
+            "FR-E2低条件后日谈视角"
+          ]
+        }
+      },
+      {
+        "name": "选择设计与正文一致",
+        "status": "pass",
+        "detail": {
+          "matched": 62
+        }
+      },
+      {
+        "name": "条件语法与引用",
+        "status": "pass",
+        "detail": {
+          "conditionBlocks": 119,
+          "unknownCondition": "拒绝",
+          "missingPiaoRelation": "拒绝，不默认LOW"
+        }
+      },
+      {
+        "name": "共通隐藏入口",
+        "status": "pass",
+        "detail": {
+          "assignments": 4096,
+          "distinctReadings": 2048,
+          "hiddenEligibleReadings": 1024,
+          "method": "按两处明确前置说明临时补审阅条件，未修改原稿或实现引擎条件"
+        }
+      },
+      {
+        "name": "路线展开：罗小满",
+        "status": "pass",
+        "detail": {
+          "prefix": "XM",
+          "file": "罗小满-练习本.md",
+          "chapters": 8,
+          "assignments": 256,
+          "combinations": {
+            "AA": 64,
+            "AB": 64,
+            "BA": 64,
+            "BB": 64
+          },
+          "samples": {
+            "AA": {
+              "flags": {
+                "XM03-01": "A",
+                "XM04-01": "A",
+                "XM05-01": "A",
+                "XM06-01": "A",
+                "XM07-01": "A",
+                "XM08-01": "A",
+                "XM09-01": "A",
+                "XM10-01": "A"
+              },
+              "ending": "XM-E1",
+              "han": 9609,
+              "textSha256": "3368f30d80d038fd04be610fbb555ba6f3ac971029e3b7619e9d33d452cf3f64"
+            },
+            "BA": {
+              "flags": {
+                "XM03-01": "A",
+                "XM04-01": "A",
+                "XM05-01": "A",
+                "XM06-01": "A",
+                "XM07-01": "B",
+                "XM08-01": "A",
+                "XM09-01": "A",
+                "XM10-01": "A"
+              },
+              "ending": "XM-E2",
+              "han": 9202,
+              "textSha256": "16749a60ea757d8fdbb18e0175f02aedc947884434ecf5cb0d4719f3ef249304"
+            },
+            "AB": {
+              "flags": {
+                "XM03-01": "A",
+                "XM04-01": "A",
+                "XM05-01": "A",
+                "XM06-01": "A",
+                "XM07-01": "A",
+                "XM08-01": "B",
+                "XM09-01": "A",
+                "XM10-01": "A"
+              },
+              "ending": "XM-E2",
+              "han": 9274,
+              "textSha256": "0ee480c1e313ddf262c2602fa9598c19553a9b8c20dfa365054d51a92efb2854"
+            },
+            "BB": {
+              "flags": {
+                "XM03-01": "A",
+                "XM04-01": "A",
+                "XM05-01": "A",
+                "XM06-01": "A",
+                "XM07-01": "B",
+                "XM08-01": "B",
+                "XM09-01": "A",
+                "XM10-01": "A"
+              },
+              "ending": "XM-E2",
+              "han": 9152,
+              "textSha256": "c09e11e316d2fec4a1ecda01eb6d8bb61765d173b91a08b1469aa11d16370b1e"
+            }
+          }
+        }
+      },
+      {
+        "name": "路线展开：周栀",
+        "status": "pass",
+        "detail": {
+          "prefix": "ZZ",
+          "file": "周栀-十一点四十七分.md",
+          "chapters": 8,
+          "assignments": 256,
+          "combinations": {
+            "AA": 64,
+            "AB": 64,
+            "BA": 64,
+            "BB": 64
+          },
+          "samples": {
+            "AA": {
+              "flags": {
+                "ZZ03-01": "A",
+                "ZZ04-01": "A",
+                "ZZ05-01": "A",
+                "ZZ06-01": "A",
+                "ZZ07-01": "A",
+                "ZZ08-01": "A",
+                "ZZ09-01": "A",
+                "ZZ10-01": "A"
+              },
+              "ending": "ZZ-E1",
+              "han": 12811,
+              "textSha256": "8f4801c890c1340aaf5817ca3735a4d51d813459ff72efb956ec9db841b4d34c"
+            },
+            "BA": {
+              "flags": {
+                "ZZ03-01": "A",
+                "ZZ04-01": "A",
+                "ZZ05-01": "A",
+                "ZZ06-01": "B",
+                "ZZ07-01": "A",
+                "ZZ08-01": "A",
+                "ZZ09-01": "A",
+                "ZZ10-01": "A"
+              },
+              "ending": "ZZ-E2",
+              "han": 12175,
+              "textSha256": "90d3c97abe0c0709e6cdaf23bde88ef65e1f690cf3b50d212be1fc93afacd9a3"
+            },
+            "AB": {
+              "flags": {
+                "ZZ03-01": "A",
+                "ZZ04-01": "A",
+                "ZZ05-01": "A",
+                "ZZ06-01": "A",
+                "ZZ07-01": "A",
+                "ZZ08-01": "B",
+                "ZZ09-01": "A",
+                "ZZ10-01": "A"
+              },
+              "ending": "ZZ-E2",
+              "han": 12119,
+              "textSha256": "28c32bc762a2640fabffa3c4c8c956e397024f2ef8bd1f096a80fd08108d6310"
+            },
+            "BB": {
+              "flags": {
+                "ZZ03-01": "A",
+                "ZZ04-01": "A",
+                "ZZ05-01": "A",
+                "ZZ06-01": "B",
+                "ZZ07-01": "A",
+                "ZZ08-01": "B",
+                "ZZ09-01": "A",
+                "ZZ10-01": "A"
+              },
+              "ending": "ZZ-E2",
+              "han": 12109,
+              "textSha256": "c4cec8f0199645f0abd2c4041c3da7ee1167c11e01e094a44008bf6924854b93"
+            }
+          }
+        }
+      },
+      {
+        "name": "路线展开：孟遥",
+        "status": "pass",
+        "detail": {
+          "prefix": "MY",
+          "file": "孟遥-旧题.md",
+          "chapters": 8,
+          "assignments": 256,
+          "combinations": {
+            "AA": 64,
+            "AB": 64,
+            "BA": 64,
+            "BB": 64
+          },
+          "samples": {
+            "AA": {
+              "flags": {
+                "MY03-01": "A",
+                "MY04-01": "A",
+                "MY05-01": "A",
+                "MY06-01": "A",
+                "MY07-01": "A",
+                "MY08-01": "A",
+                "MY09-01": "A",
+                "MY10-01": "A"
+              },
+              "ending": "MY-E1",
+              "han": 10256,
+              "textSha256": "80a1519151695d29622e3e7dd40d5e4d5efaf983cc94a5991cb6c6d9ade5d5e1"
+            },
+            "BA": {
+              "flags": {
+                "MY03-01": "A",
+                "MY04-01": "A",
+                "MY05-01": "A",
+                "MY06-01": "A",
+                "MY07-01": "B",
+                "MY08-01": "A",
+                "MY09-01": "A",
+                "MY10-01": "A"
+              },
+              "ending": "MY-E2",
+              "han": 9157,
+              "textSha256": "2044d37902a19c1fa7c260580c599b7d8e2a6a012b9ba64f5ade75b18d4a64c7"
+            },
+            "AB": {
+              "flags": {
+                "MY03-01": "A",
+                "MY04-01": "A",
+                "MY05-01": "A",
+                "MY06-01": "A",
+                "MY07-01": "A",
+                "MY08-01": "A",
+                "MY09-01": "B",
+                "MY10-01": "A"
+              },
+              "ending": "MY-E2",
+              "han": 10177,
+              "textSha256": "802017776fc5912b5e5c16c6f0a6d4e1d226b4601fd1409679c4410bfd466140"
+            },
+            "BB": {
+              "flags": {
+                "MY03-01": "A",
+                "MY04-01": "A",
+                "MY05-01": "A",
+                "MY06-01": "A",
+                "MY07-01": "B",
+                "MY08-01": "A",
+                "MY09-01": "B",
+                "MY10-01": "A"
+              },
+              "ending": "MY-E2",
+              "han": 9123,
+              "textSha256": "4e06d725cf47367ae5e902306eb566a31850ec17e3d0d60fd5da22ad8c95fbbe"
+            }
+          }
+        }
+      },
+      {
+        "name": "路线展开：飘",
+        "status": "pass",
+        "detail": {
+          "prefix": "PI",
+          "file": "飘-空白页.md",
+          "chapters": 8,
+          "assignments": 256,
+          "combinations": {
+            "AA": 64,
+            "AB": 64,
+            "BA": 64,
+            "BB": 64
+          },
+          "samples": {
+            "AA": {
+              "flags": {
+                "PI03-01": "A",
+                "PI04-01": "A",
+                "PI05-01": "A",
+                "PI06-01": "A",
+                "PI07-01": "A",
+                "PI08-01": "A",
+                "PI09-01": "A",
+                "PI10-01": "A"
+              },
+              "ending": "PI-E1",
+              "han": 10068,
+              "textSha256": "19fb25d0ee21f12f1ccc7a9bbc0f912671c9ecf10931e4d379fb7be6966dc4f0"
+            },
+            "BA": {
+              "flags": {
+                "PI03-01": "A",
+                "PI04-01": "A",
+                "PI05-01": "A",
+                "PI06-01": "B",
+                "PI07-01": "A",
+                "PI08-01": "A",
+                "PI09-01": "A",
+                "PI10-01": "A"
+              },
+              "ending": "PI-E2",
+              "han": 9581,
+              "textSha256": "0cda46685ba17d41295ee7b6e1df00bfc50b05ab5ee82e33e914e4e56bcdaeee"
+            },
+            "AB": {
+              "flags": {
+                "PI03-01": "A",
+                "PI04-01": "A",
+                "PI05-01": "A",
+                "PI06-01": "A",
+                "PI07-01": "A",
+                "PI08-01": "B",
+                "PI09-01": "A",
+                "PI10-01": "A"
+              },
+              "ending": "PI-E2",
+              "han": 9558,
+              "textSha256": "18b2db5279b39b76e3fd8eda824da54ce9a5f084b9a8646d3210a62efec6c177"
+            },
+            "BB": {
+              "flags": {
+                "PI03-01": "A",
+                "PI04-01": "A",
+                "PI05-01": "A",
+                "PI06-01": "B",
+                "PI07-01": "A",
+                "PI08-01": "B",
+                "PI09-01": "A",
+                "PI10-01": "A"
+              },
+              "ending": "PI-E2",
+              "han": 9431,
+              "textSha256": "45645c9c558e2ea6e3d1ffc0695d86757adb8db3461e3a43016681d8350779bc"
+            }
+          }
+        }
+      },
+      {
+        "name": "路线展开：朋友与职业",
+        "status": "pass",
+        "detail": {
+          "prefix": "FR",
+          "file": "朋友与职业-夜班.md",
+          "chapters": 8,
+          "assignments": 256,
+          "combinations": {
+            "AA": 64,
+            "AB": 64,
+            "BA": 64,
+            "BB": 64
+          },
+          "samples": {
+            "AA": {
+              "flags": {
+                "FR03-01": "A",
+                "FR04-01": "A",
+                "FR05-01": "A",
+                "FR06-01": "A",
+                "FR07-01": "A",
+                "FR08-01": "A",
+                "FR09-01": "A",
+                "FR10-01": "A"
+              },
+              "ending": "FR-E1",
+              "han": 6857,
+              "textSha256": "0bbab91008fa51f852c54bdae97f704274d6264780c6d631a4af1c41d562fc77"
+            },
+            "BA": {
+              "flags": {
+                "FR03-01": "A",
+                "FR04-01": "A",
+                "FR05-01": "A",
+                "FR06-01": "B",
+                "FR07-01": "A",
+                "FR08-01": "A",
+                "FR09-01": "A",
+                "FR10-01": "A"
+              },
+              "ending": "FR-E2",
+              "han": 6614,
+              "textSha256": "29d4cfc2d590d493e9a059740032fd5393b10d75e924d6794fc5eccab4017ca8"
+            },
+            "AB": {
+              "flags": {
+                "FR03-01": "A",
+                "FR04-01": "A",
+                "FR05-01": "A",
+                "FR06-01": "A",
+                "FR07-01": "A",
+                "FR08-01": "B",
+                "FR09-01": "A",
+                "FR10-01": "A"
+              },
+              "ending": "FR-E2",
+              "han": 6738,
+              "textSha256": "8dbd7d7f35deaec76ad4cc23dd16e961bc7c51c15c0559c329a4f4d3892920e8"
+            },
+            "BB": {
+              "flags": {
+                "FR03-01": "A",
+                "FR04-01": "A",
+                "FR05-01": "A",
+                "FR06-01": "B",
+                "FR07-01": "A",
+                "FR08-01": "B",
+                "FR09-01": "A",
+                "FR10-01": "A"
+              },
+              "ending": "FR-E2",
+              "han": 6509,
+              "textSha256": "9537a29759db40b43f4775948516fbe654d5374881d45ecca842536064e5c79b"
+            }
+          }
+        }
+      },
+      {
+        "name": "路线展开：黄球球",
+        "status": "pass",
+        "detail": {
+          "prefix": "HQ",
+          "file": "黄球球-门后.md",
+          "chapters": 8,
+          "assignments": 256,
+          "combinations": {
+            "AA": 64,
+            "AB": 64,
+            "BA": 64,
+            "BB": 64
+          },
+          "samples": {
+            "AA": {
+              "flags": {
+                "HQ03-01": "A",
+                "HQ04-01": "A",
+                "HQ05-01": "A",
+                "HQ06-01": "A",
+                "HQ07-01": "A",
+                "HQ08-01": "A",
+                "HQ09-01": "A",
+                "HQ10-01": "A"
+              },
+              "ending": "HQ-E1",
+              "han": 7135,
+              "textSha256": "9f71e355af2d317f69c422c6a33053ffb4bddfc21b38774295b72133e562c1d1"
+            },
+            "BA": {
+              "flags": {
+                "HQ03-01": "A",
+                "HQ04-01": "A",
+                "HQ05-01": "A",
+                "HQ06-01": "A",
+                "HQ07-01": "B",
+                "HQ08-01": "A",
+                "HQ09-01": "A",
+                "HQ10-01": "A"
+              },
+              "ending": "HQ-E2",
+              "han": 7053,
+              "textSha256": "2f5c57da9eb99e18e77603903988badecf572feb347bf1231b63a15678c8b97c"
+            },
+            "AB": {
+              "flags": {
+                "HQ03-01": "A",
+                "HQ04-01": "A",
+                "HQ05-01": "A",
+                "HQ06-01": "A",
+                "HQ07-01": "A",
+                "HQ08-01": "B",
+                "HQ09-01": "A",
+                "HQ10-01": "A"
+              },
+              "ending": "HQ-E2",
+              "han": 6985,
+              "textSha256": "c26a1a8ba2e520e82101172ae122f6c6b61e0d99e818809184ed075154fa80a1"
+            },
+            "BB": {
+              "flags": {
+                "HQ03-01": "A",
+                "HQ04-01": "A",
+                "HQ05-01": "A",
+                "HQ06-01": "A",
+                "HQ07-01": "B",
+                "HQ08-01": "B",
+                "HQ09-01": "A",
+                "HQ10-01": "A"
+              },
+              "ending": "HQ-E2",
+              "han": 7000,
+              "textSha256": "197b80fea5a473e8b0ad791070357e7e1c1bbc39a19311e2901d5f09393801cb"
+            }
+          }
+        }
+      },
+      {
+        "name": "飘低路径独立展开",
+        "status": "pass",
+        "detail": {
+          "chapters": 8,
+          "assignments": 2,
+          "endings": [
+            "PI-LE1",
+            "PI-LE2"
+          ],
+          "relationRule": "条件枚举仅用于编辑稿校验，初值/判定时点/阈值仍待定"
+        }
+      },
+      {
+        "name": "高关系后日谈展开",
+        "status": "pass",
+        "detail": {
+          "representativeReadings": 23,
+          "excluded": "PI-E1",
+          "lowEpilogue": "低关系后日谈含叙事阅读提示，未据此宣称完整状态接续已实现"
+        }
+      },
+      {
+        "name": "活跃Markdown链接",
+        "status": "pass",
+        "detail": {
+          "files": 42,
+          "links": 220
+        }
+      },
+      {
+        "name": "开发入口与SDK保护",
+        "status": "pass",
+        "detail": {
+          "originalSdkFilesUnchanged": 943,
+          "currentRoot": "/Users/yipin/Desktop/Suika3"
+        }
+      }
+    ],
+    "errors": [],
+    "warnings": [
+      "飘关系初值、依据、判定时点与阈值未确定；第36天逐线日序/返回与低条件FR-E2、双后日谈接续未完成引擎契约。",
+      "条件结构正确不等于人物动机、婚姻事实及亲密行为的前后语义正确；须另列人工审阅。"
+    ],
+    "totalChoices": 62,
+    "totalOptions": 128,
+    "totalDeclaredEndings": 14
+  },
+  "sourceHashes": {
+    "scenario/README.md": "cac2830a65af21b23eeb00fd1b410649ae3cd1bd014468b3e8a7d5adc43fb8c7",
+    "scenario/routes.json": "ae753a44d1880ef7eb8f4f3086e979b0266191c08f737831a86348fb08d16d8e",
+    "scenario/后日谈-他们的日子.md": "5a5c95f2625d3a8e10c2704cef28ee574ab09f222a3f112456471ae94c61b646",
+    "scenario/后日谈-未写完的安排.md": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb",
+    "scenario/周栀-十一点四十七分.md": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+    "scenario/孟遥-旧题.md": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+    "scenario/朋友与职业-夜班.md": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab",
+    "scenario/第一章-回到毕节.md": "36f249fc12bc7ac17d6674995eb6e85ed5b7c1f537198c93cf746049e029ae49",
+    "scenario/第三章-选一条路.md": "63c32132377c3759312ae61e0576af9b563ca848e43a4e65f9242c7a312f8af6",
+    "scenario/第二章-十四天.md": "204874d7e4cbf9fee033982b80699f0391b37f2657a1bce1a9a2ac580ad6fbe8",
+    "scenario/罗小满-练习本.md": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+    "scenario/跨路线-第36天的消息.md": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+    "scenario/选择设计.md": "1521eb46f9ec4772228e83bfe8b5c0bea0a2226f5f58301256531067339ee0b6",
+    "scenario/飘-空白页.md": "6477891b1a7c60ae3bf2f022c5487c9e27ca4845ca739e6317202dfc94d7e2d0",
+    "scenario/黄球球-门后.md": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+  },
+  "deliverableHashes": {
+    "docs/开发计划.md": "04c823ae23a5f6a9761f76b5b20cbc0c7b44ac54fe9f044cba822f6657586cd6",
+    "docs/SUI-A美术子任务.md": "b7ed74434761759db971d4480ec7e74a666057395fec4de50ef084be1a90c89b",
+    "TODO-v1.1.md": "247938d4ecb8ff80a768a97faa7bb0db7bcf1e2f92cc4a815c5efcc52385a5b2",
+    "qa/sui-a-split-20261028/交接.md": "3f5b3c8507f068e2687aa5843da1b97cce63499942eacb87fe4ea8c85a56a542"
+  }
+}

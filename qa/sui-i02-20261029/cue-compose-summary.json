@@ -1,0 +1,5195 @@
+{
+  "summary": {
+    "mode": "diagnostic",
+    "sdkPlatform": "wasm",
+    "bindings": 348,
+    "states": 697,
+    "registeredCG": [
+      "CG001",
+      "CG004",
+      "CG005",
+      "CG006",
+      "CG007",
+      "CG008",
+      "CG010",
+      "CG011",
+      "CG012",
+      "CG095",
+      "CG096",
+      "CG098",
+      "CG099",
+      "CG100",
+      "CG101",
+      "CG086",
+      "CG090",
+      "CG091",
+      "CG094",
+      "CG108",
+      "CG073",
+      "CG075",
+      "CG077",
+      "CG078",
+      "CG079",
+      "CG082",
+      "CG107",
+      "CG038",
+      "CG039",
+      "CG040",
+      "CG041",
+      "CG044",
+      "CG104",
+      "CG105",
+      "CG061",
+      "CG062",
+      "CG063",
+      "CG066",
+      "CG067",
+      "CG068",
+      "CG069",
+      "CG070",
+      "CG106",
+      "CG014",
+      "CG015",
+      "CG016",
+      "CG019",
+      "CG020",
+      "CG022",
+      "CG023",
+      "CG102",
+      "CG025",
+      "CG026",
+      "CG027",
+      "CG029",
+      "CG031",
+      "CG032",
+      "CG034",
+      "CG035",
+      "CG103"
+    ],
+    "webpSwap": true,
+    "sourceSchema": "sui-i01-data-v1",
+    "cueCount": 174,
+    "visibleNodes": 155,
+    "compositeStates": 348,
+    "possibleConflicts": [],
+    "generatedNeutralResource": "tools/runtime/neutral.png",
+    "pixelPositionRounding": "nearest integer; max 0.5px per axis; source data retained"
+  },
+  "source": 174,
+  "variants": [
+    {
+      "id": "i01-state-TEXT_982d9ac0f683c6bbb52b_1-0",
+      "node": "TEXT_982d9ac0f683c6bbb52b_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg001-TEXT_982d9ac0f683c6bbb52b"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_982d9ac0f683c6bbb52b_1-1",
+      "node": "TEXT_982d9ac0f683c6bbb52b_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg001-TEXT_982d9ac0f683c6bbb52b"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b146152f9c2cd5032d9c_1-0",
+      "node": "TEXT_b146152f9c2cd5032d9c_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg004-TEXT_b146152f9c2cd5032d9c"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b146152f9c2cd5032d9c_1-1",
+      "node": "TEXT_b146152f9c2cd5032d9c_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg004"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg004-TEXT_b146152f9c2cd5032d9c"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a07381924dc58f65c10e_1-0",
+      "node": "TEXT_a07381924dc58f65c10e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg005-TEXT_a07381924dc58f65c10e",
+          "i01-bg-convenience-bijie-day-TEXT_a07381924dc58f65c10e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a07381924dc58f65c10e_1-1",
+      "node": "TEXT_a07381924dc58f65c10e_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg005"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg005-TEXT_a07381924dc58f65c10e"
+        ],
+        "exclude": [
+          "i01-bg-convenience-bijie-day-TEXT_a07381924dc58f65c10e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a07381924dc58f65c10e_1-2",
+      "node": "TEXT_a07381924dc58f65c10e_1",
+      "assets": [
+        "bg-convenience-bijie-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-convenience-bijie-day-TEXT_a07381924dc58f65c10e"
+        ],
+        "exclude": [
+          "i01-cg-common-cg005-TEXT_a07381924dc58f65c10e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a07381924dc58f65c10e_1-3",
+      "node": "TEXT_a07381924dc58f65c10e_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg005"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg005-TEXT_a07381924dc58f65c10e",
+          "i01-bg-convenience-bijie-day-TEXT_a07381924dc58f65c10e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_4819007b6dae9d4939ef_1-0",
+      "node": "TEXT_4819007b6dae9d4939ef_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg006-TEXT_4819007b6dae9d4939ef"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_4819007b6dae9d4939ef_1-1",
+      "node": "TEXT_4819007b6dae9d4939ef_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg006"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg006-TEXT_4819007b6dae9d4939ef"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_4083f0f1962301f787b8_1-0",
+      "node": "TEXT_4083f0f1962301f787b8_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg007-TEXT_4083f0f1962301f787b8"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_4083f0f1962301f787b8_1-1",
+      "node": "TEXT_4083f0f1962301f787b8_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg007"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg007-TEXT_4083f0f1962301f787b8"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_37ae574bb29e6e759d23_1-0",
+      "node": "TEXT_37ae574bb29e6e759d23_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg008-TEXT_37ae574bb29e6e759d23"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_37ae574bb29e6e759d23_1-1",
+      "node": "TEXT_37ae574bb29e6e759d23_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg008"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg008-TEXT_37ae574bb29e6e759d23"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5ff8ee51f163da3bfd9e_1-0",
+      "node": "TEXT_5ff8ee51f163da3bfd9e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg010-TEXT_5ff8ee51f163da3bfd9e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5ff8ee51f163da3bfd9e_1-1",
+      "node": "TEXT_5ff8ee51f163da3bfd9e_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg010"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg010-TEXT_5ff8ee51f163da3bfd9e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_dfd17a493a3da18fbefa_1-0",
+      "node": "TEXT_dfd17a493a3da18fbefa_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg011-TEXT_dfd17a493a3da18fbefa"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_dfd17a493a3da18fbefa_1-1",
+      "node": "TEXT_dfd17a493a3da18fbefa_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg011"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg011-TEXT_dfd17a493a3da18fbefa"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ff80c158a4e8aea129ea_1-0",
+      "node": "TEXT_ff80c158a4e8aea129ea_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg012-TEXT_ff80c158a4e8aea129ea"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ff80c158a4e8aea129ea_1-1",
+      "node": "TEXT_ff80c158a4e8aea129ea_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg012"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg012-TEXT_ff80c158a4e8aea129ea"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ec150235248a63b092af_1-0",
+      "node": "TEXT_ec150235248a63b092af_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg095-TEXT_ec150235248a63b092af"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ec150235248a63b092af_1-1",
+      "node": "TEXT_ec150235248a63b092af_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg095"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg095-TEXT_ec150235248a63b092af"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_df7556e6cce79be1b906_1-0",
+      "node": "TEXT_df7556e6cce79be1b906_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg096-TEXT_df7556e6cce79be1b906"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_df7556e6cce79be1b906_1-1",
+      "node": "TEXT_df7556e6cce79be1b906_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg096"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg096-TEXT_df7556e6cce79be1b906"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_68920ef27f80c60a3e09_1-0",
+      "node": "TEXT_68920ef27f80c60a3e09_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg098-TEXT_68920ef27f80c60a3e09"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_68920ef27f80c60a3e09_1-1",
+      "node": "TEXT_68920ef27f80c60a3e09_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg098"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg098-TEXT_68920ef27f80c60a3e09"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9a33f96549bca26d81d5_1-0",
+      "node": "TEXT_9a33f96549bca26d81d5_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg099-TEXT_9a33f96549bca26d81d5"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9a33f96549bca26d81d5_1-1",
+      "node": "TEXT_9a33f96549bca26d81d5_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg099"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg099-TEXT_9a33f96549bca26d81d5"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_94e7790667ee74878026_1-0",
+      "node": "TEXT_94e7790667ee74878026_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg100-TEXT_94e7790667ee74878026"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_94e7790667ee74878026_1-1",
+      "node": "TEXT_94e7790667ee74878026_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg100"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg100-TEXT_94e7790667ee74878026"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cf288afb6b2269ece28c_1-0",
+      "node": "TEXT_cf288afb6b2269ece28c_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-common-cg101-TEXT_cf288afb6b2269ece28c"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cf288afb6b2269ece28c_1-1",
+      "node": "TEXT_cf288afb6b2269ece28c_1",
+      "assets": [
+        "i02-neutral",
+        "cg-common-cg101"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-common-cg101-TEXT_cf288afb6b2269ece28c"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_96a13ee7a1a126431b6e_1-0",
+      "node": "TEXT_96a13ee7a1a126431b6e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-fr-cg086-TEXT_96a13ee7a1a126431b6e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_96a13ee7a1a126431b6e_1-1",
+      "node": "TEXT_96a13ee7a1a126431b6e_1",
+      "assets": [
+        "i02-neutral",
+        "cg-fr-cg086"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-fr-cg086-TEXT_96a13ee7a1a126431b6e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fca2127205304c438691_1-0",
+      "node": "TEXT_fca2127205304c438691_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-fr-cg090-TEXT_fca2127205304c438691"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fca2127205304c438691_1-1",
+      "node": "TEXT_fca2127205304c438691_1",
+      "assets": [
+        "i02-neutral",
+        "cg-fr-cg090"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-fr-cg090-TEXT_fca2127205304c438691"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_1949d86d7610a2cd43c1_1-0",
+      "node": "TEXT_1949d86d7610a2cd43c1_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-fr-cg091-TEXT_1949d86d7610a2cd43c1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_1949d86d7610a2cd43c1_1-1",
+      "node": "TEXT_1949d86d7610a2cd43c1_1",
+      "assets": [
+        "i02-neutral",
+        "cg-fr-cg091"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-fr-cg091-TEXT_1949d86d7610a2cd43c1"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b67671d88bece3f5583f_1-0",
+      "node": "TEXT_b67671d88bece3f5583f_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-fr-cg094-TEXT_b67671d88bece3f5583f"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b67671d88bece3f5583f_1-1",
+      "node": "TEXT_b67671d88bece3f5583f_1",
+      "assets": [
+        "i02-neutral",
+        "cg-fr-cg094"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-fr-cg094-TEXT_b67671d88bece3f5583f"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9bb4ee135ee19001b268_1-0",
+      "node": "TEXT_9bb4ee135ee19001b268_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-fr-cg108-TEXT_9bb4ee135ee19001b268"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9bb4ee135ee19001b268_1-1",
+      "node": "TEXT_9bb4ee135ee19001b268_1",
+      "assets": [
+        "i02-neutral",
+        "cg-fr-cg108"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-fr-cg108-TEXT_9bb4ee135ee19001b268"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_4b3ab211d11587023b3a_1-0",
+      "node": "TEXT_4b3ab211d11587023b3a_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-hq-cg073-TEXT_4b3ab211d11587023b3a"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_4b3ab211d11587023b3a_1-1",
+      "node": "TEXT_4b3ab211d11587023b3a_1",
+      "assets": [
+        "i02-neutral",
+        "cg-hq-cg073"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-hq-cg073-TEXT_4b3ab211d11587023b3a"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_711a2e20991bd597f014_1-0",
+      "node": "TEXT_711a2e20991bd597f014_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-hq-cg075-TEXT_711a2e20991bd597f014"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_711a2e20991bd597f014_1-1",
+      "node": "TEXT_711a2e20991bd597f014_1",
+      "assets": [
+        "i02-neutral",
+        "cg-hq-cg075"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-hq-cg075-TEXT_711a2e20991bd597f014"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_81fc3fa477ede2d92569_1-0",
+      "node": "TEXT_81fc3fa477ede2d92569_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-hq-cg077-TEXT_81fc3fa477ede2d92569"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_81fc3fa477ede2d92569_1-1",
+      "node": "TEXT_81fc3fa477ede2d92569_1",
+      "assets": [
+        "i02-neutral",
+        "cg-hq-cg077"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-hq-cg077-TEXT_81fc3fa477ede2d92569"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3d133bc56ed5cf453822_1-0",
+      "node": "TEXT_3d133bc56ed5cf453822_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-hq-cg078-TEXT_3d133bc56ed5cf453822",
+          "i01-sui-a06-human-toy-base-v001-TEXT_3d133bc56ed5cf453822"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3d133bc56ed5cf453822_1-1",
+      "node": "TEXT_3d133bc56ed5cf453822_1",
+      "assets": [
+        "i02-neutral",
+        "cg-hq-cg078"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-hq-cg078-TEXT_3d133bc56ed5cf453822"
+        ],
+        "exclude": [
+          "i01-sui-a06-human-toy-base-v001-TEXT_3d133bc56ed5cf453822"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3d133bc56ed5cf453822_1-2",
+      "node": "TEXT_3d133bc56ed5cf453822_1",
+      "assets": [
+        "i02-neutral",
+        "sui-a06-human-toy-base-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-human-toy-base-v001-TEXT_3d133bc56ed5cf453822"
+        ],
+        "exclude": [
+          "i01-cg-hq-cg078-TEXT_3d133bc56ed5cf453822"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3d133bc56ed5cf453822_1-3",
+      "node": "TEXT_3d133bc56ed5cf453822_1",
+      "assets": [
+        "i02-neutral",
+        "cg-hq-cg078"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-hq-cg078-TEXT_3d133bc56ed5cf453822",
+          "i01-sui-a06-human-toy-base-v001-TEXT_3d133bc56ed5cf453822"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_72bae733fe2921c670ed_1-0",
+      "node": "TEXT_72bae733fe2921c670ed_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-hq-cg079-TEXT_72bae733fe2921c670ed"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_72bae733fe2921c670ed_1-1",
+      "node": "TEXT_72bae733fe2921c670ed_1",
+      "assets": [
+        "i02-neutral",
+        "cg-hq-cg079"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-hq-cg079-TEXT_72bae733fe2921c670ed"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_1db48adc1539a4ce4e83_1-0",
+      "node": "TEXT_1db48adc1539a4ce4e83_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-hq-cg082-TEXT_1db48adc1539a4ce4e83"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_1db48adc1539a4ce4e83_1-1",
+      "node": "TEXT_1db48adc1539a4ce4e83_1",
+      "assets": [
+        "i02-neutral",
+        "cg-hq-cg082"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-hq-cg082-TEXT_1db48adc1539a4ce4e83"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_79f9678b042e98d36f81_1-0",
+      "node": "TEXT_79f9678b042e98d36f81_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-hq-cg107-TEXT_79f9678b042e98d36f81"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_79f9678b042e98d36f81_1-1",
+      "node": "TEXT_79f9678b042e98d36f81_1",
+      "assets": [
+        "i02-neutral",
+        "cg-hq-cg107"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-hq-cg107-TEXT_79f9678b042e98d36f81"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c5939dd00be5a8cdcac2_1-0",
+      "node": "TEXT_c5939dd00be5a8cdcac2_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-my-cg038-TEXT_c5939dd00be5a8cdcac2",
+          "i01-prop-mengyao-workbook-cover-TEXT_c5939dd00be5a8cdcac2"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c5939dd00be5a8cdcac2_1-1",
+      "node": "TEXT_c5939dd00be5a8cdcac2_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg038"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg038-TEXT_c5939dd00be5a8cdcac2"
+        ],
+        "exclude": [
+          "i01-prop-mengyao-workbook-cover-TEXT_c5939dd00be5a8cdcac2"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c5939dd00be5a8cdcac2_1-2",
+      "node": "TEXT_c5939dd00be5a8cdcac2_1",
+      "assets": [
+        "i02-neutral",
+        "prop-mengyao-workbook-cover"
+      ],
+      "predicate": {
+        "include": [
+          "i01-prop-mengyao-workbook-cover-TEXT_c5939dd00be5a8cdcac2"
+        ],
+        "exclude": [
+          "i01-cg-my-cg038-TEXT_c5939dd00be5a8cdcac2"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c5939dd00be5a8cdcac2_1-3",
+      "node": "TEXT_c5939dd00be5a8cdcac2_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg038"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg038-TEXT_c5939dd00be5a8cdcac2",
+          "i01-prop-mengyao-workbook-cover-TEXT_c5939dd00be5a8cdcac2"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_441acd5fb534c8110254_1-0",
+      "node": "TEXT_441acd5fb534c8110254_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-my-cg039-TEXT_441acd5fb534c8110254"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_441acd5fb534c8110254_1-1",
+      "node": "TEXT_441acd5fb534c8110254_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg039"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg039-TEXT_441acd5fb534c8110254"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9cee64e108444b68c28a_1-0",
+      "node": "TEXT_9cee64e108444b68c28a_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-my-cg040-TEXT_9cee64e108444b68c28a"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9cee64e108444b68c28a_1-1",
+      "node": "TEXT_9cee64e108444b68c28a_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg040"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg040-TEXT_9cee64e108444b68c28a"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fc16baf6ae9fe5fe3153_1-0",
+      "node": "TEXT_fc16baf6ae9fe5fe3153_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-my-cg041-TEXT_fc16baf6ae9fe5fe3153",
+          "i01-chensheng-documents-TEXT_fc16baf6ae9fe5fe3153"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fc16baf6ae9fe5fe3153_1-1",
+      "node": "TEXT_fc16baf6ae9fe5fe3153_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg041"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg041-TEXT_fc16baf6ae9fe5fe3153"
+        ],
+        "exclude": [
+          "i01-chensheng-documents-TEXT_fc16baf6ae9fe5fe3153"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fc16baf6ae9fe5fe3153_1-2",
+      "node": "TEXT_fc16baf6ae9fe5fe3153_1",
+      "assets": [
+        "i02-neutral",
+        "chensheng-documents"
+      ],
+      "predicate": {
+        "include": [
+          "i01-chensheng-documents-TEXT_fc16baf6ae9fe5fe3153"
+        ],
+        "exclude": [
+          "i01-cg-my-cg041-TEXT_fc16baf6ae9fe5fe3153"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fc16baf6ae9fe5fe3153_1-3",
+      "node": "TEXT_fc16baf6ae9fe5fe3153_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg041"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg041-TEXT_fc16baf6ae9fe5fe3153",
+          "i01-chensheng-documents-TEXT_fc16baf6ae9fe5fe3153"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_084160cf4694ed9842a3_1-0",
+      "node": "TEXT_084160cf4694ed9842a3_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-my-cg044-TEXT_084160cf4694ed9842a3"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_084160cf4694ed9842a3_1-1",
+      "node": "TEXT_084160cf4694ed9842a3_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg044"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg044-TEXT_084160cf4694ed9842a3"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_53d5636157ba164261f5_1-0",
+      "node": "TEXT_53d5636157ba164261f5_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-my-cg104-TEXT_53d5636157ba164261f5"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_53d5636157ba164261f5_1-1",
+      "node": "TEXT_53d5636157ba164261f5_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg104"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg104-TEXT_53d5636157ba164261f5"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ce77d3fcfb1f6d77d130_1-0",
+      "node": "TEXT_ce77d3fcfb1f6d77d130_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-my-cg105-TEXT_ce77d3fcfb1f6d77d130"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ce77d3fcfb1f6d77d130_1-1",
+      "node": "TEXT_ce77d3fcfb1f6d77d130_1",
+      "assets": [
+        "i02-neutral",
+        "cg-my-cg105"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-my-cg105-TEXT_ce77d3fcfb1f6d77d130"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cae3a9fccf2afba7965a_1-0",
+      "node": "TEXT_cae3a9fccf2afba7965a_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg061-TEXT_cae3a9fccf2afba7965a"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cae3a9fccf2afba7965a_1-1",
+      "node": "TEXT_cae3a9fccf2afba7965a_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg061"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg061-TEXT_cae3a9fccf2afba7965a"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5f25d466606fcd42bbc7_1-0",
+      "node": "TEXT_5f25d466606fcd42bbc7_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg062-TEXT_5f25d466606fcd42bbc7"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5f25d466606fcd42bbc7_1-1",
+      "node": "TEXT_5f25d466606fcd42bbc7_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg062"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg062-TEXT_5f25d466606fcd42bbc7"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f1554fe119acce25cfb7_1-0",
+      "node": "TEXT_f1554fe119acce25cfb7_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg063-TEXT_f1554fe119acce25cfb7"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f1554fe119acce25cfb7_1-1",
+      "node": "TEXT_f1554fe119acce25cfb7_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg063"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg063-TEXT_f1554fe119acce25cfb7"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5e09854527cf7e1dc63f_1-0",
+      "node": "TEXT_5e09854527cf7e1dc63f_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg066-TEXT_5e09854527cf7e1dc63f"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5e09854527cf7e1dc63f_1-1",
+      "node": "TEXT_5e09854527cf7e1dc63f_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg066"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg066-TEXT_5e09854527cf7e1dc63f"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c84f638688ba74e20f84_1-0",
+      "node": "TEXT_c84f638688ba74e20f84_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg067-TEXT_c84f638688ba74e20f84"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c84f638688ba74e20f84_1-1",
+      "node": "TEXT_c84f638688ba74e20f84_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg067"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg067-TEXT_c84f638688ba74e20f84"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c53b12871762b040a997_1-0",
+      "node": "TEXT_c53b12871762b040a997_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg068-TEXT_c53b12871762b040a997"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c53b12871762b040a997_1-1",
+      "node": "TEXT_c53b12871762b040a997_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg068"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg068-TEXT_c53b12871762b040a997"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_d8e71554c5715bee4d23_1-0",
+      "node": "TEXT_d8e71554c5715bee4d23_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg069-TEXT_d8e71554c5715bee4d23"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_d8e71554c5715bee4d23_1-1",
+      "node": "TEXT_d8e71554c5715bee4d23_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg069"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg069-TEXT_d8e71554c5715bee4d23"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2adf895574811f376eff_1-0",
+      "node": "TEXT_2adf895574811f376eff_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg070-TEXT_2adf895574811f376eff"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2adf895574811f376eff_1-1",
+      "node": "TEXT_2adf895574811f376eff_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg070"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg070-TEXT_2adf895574811f376eff"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_6ce47f13b6e9644759dd_1-0",
+      "node": "TEXT_6ce47f13b6e9644759dd_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-pi-cg106-TEXT_6ce47f13b6e9644759dd"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_6ce47f13b6e9644759dd_1-1",
+      "node": "TEXT_6ce47f13b6e9644759dd_1",
+      "assets": [
+        "i02-neutral",
+        "cg-pi-cg106"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-pi-cg106-TEXT_6ce47f13b6e9644759dd"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_349bbd636dd0285613f4_1-0",
+      "node": "TEXT_349bbd636dd0285613f4_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-xm-cg014-TEXT_349bbd636dd0285613f4"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_349bbd636dd0285613f4_1-1",
+      "node": "TEXT_349bbd636dd0285613f4_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg014"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg014-TEXT_349bbd636dd0285613f4"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c517df625419350bc668_1-0",
+      "node": "TEXT_c517df625419350bc668_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-xm-cg015-TEXT_c517df625419350bc668"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c517df625419350bc668_1-1",
+      "node": "TEXT_c517df625419350bc668_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg015"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg015-TEXT_c517df625419350bc668"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_6f3a9c2e24bb2b0249dc_1-0",
+      "node": "TEXT_6f3a9c2e24bb2b0249dc_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-xm-cg016-TEXT_6f3a9c2e24bb2b0249dc"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_6f3a9c2e24bb2b0249dc_1-1",
+      "node": "TEXT_6f3a9c2e24bb2b0249dc_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg016"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg016-TEXT_6f3a9c2e24bb2b0249dc"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ffed693f46ad088fe05a_1-0",
+      "node": "TEXT_ffed693f46ad088fe05a_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-xm-cg019-TEXT_ffed693f46ad088fe05a"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ffed693f46ad088fe05a_1-1",
+      "node": "TEXT_ffed693f46ad088fe05a_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg019"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg019-TEXT_ffed693f46ad088fe05a"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e43f8d1f3ad28c71dd2e_1-0",
+      "node": "TEXT_e43f8d1f3ad28c71dd2e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-xm-cg020-TEXT_e43f8d1f3ad28c71dd2e",
+          "i01-bg-bus-stop-bijie-stop-day-TEXT_e43f8d1f3ad28c71dd2e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e43f8d1f3ad28c71dd2e_1-1",
+      "node": "TEXT_e43f8d1f3ad28c71dd2e_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg020"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg020-TEXT_e43f8d1f3ad28c71dd2e"
+        ],
+        "exclude": [
+          "i01-bg-bus-stop-bijie-stop-day-TEXT_e43f8d1f3ad28c71dd2e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e43f8d1f3ad28c71dd2e_1-2",
+      "node": "TEXT_e43f8d1f3ad28c71dd2e_1",
+      "assets": [
+        "bg-bus-stop-bijie-stop-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bus-stop-bijie-stop-day-TEXT_e43f8d1f3ad28c71dd2e"
+        ],
+        "exclude": [
+          "i01-cg-xm-cg020-TEXT_e43f8d1f3ad28c71dd2e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e43f8d1f3ad28c71dd2e_1-3",
+      "node": "TEXT_e43f8d1f3ad28c71dd2e_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg020"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg020-TEXT_e43f8d1f3ad28c71dd2e",
+          "i01-bg-bus-stop-bijie-stop-day-TEXT_e43f8d1f3ad28c71dd2e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_afa0e8aec5daf88bcc0e_1-0",
+      "node": "TEXT_afa0e8aec5daf88bcc0e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-xm-cg022-TEXT_afa0e8aec5daf88bcc0e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_afa0e8aec5daf88bcc0e_1-1",
+      "node": "TEXT_afa0e8aec5daf88bcc0e_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg022"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg022-TEXT_afa0e8aec5daf88bcc0e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9f585d37b274e081bfb9_1-0",
+      "node": "TEXT_9f585d37b274e081bfb9_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-xm-cg023-TEXT_9f585d37b274e081bfb9"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9f585d37b274e081bfb9_1-1",
+      "node": "TEXT_9f585d37b274e081bfb9_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg023"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg023-TEXT_9f585d37b274e081bfb9"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c0c246e6602a331d74d0_1-0",
+      "node": "TEXT_c0c246e6602a331d74d0_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-xm-cg102-TEXT_c0c246e6602a331d74d0"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c0c246e6602a331d74d0_1-1",
+      "node": "TEXT_c0c246e6602a331d74d0_1",
+      "assets": [
+        "i02-neutral",
+        "cg-xm-cg102"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-xm-cg102-TEXT_c0c246e6602a331d74d0"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_431d8d6e59b99db62fa9_1-0",
+      "node": "TEXT_431d8d6e59b99db62fa9_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg025-TEXT_431d8d6e59b99db62fa9"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_431d8d6e59b99db62fa9_1-1",
+      "node": "TEXT_431d8d6e59b99db62fa9_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg025"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg025-TEXT_431d8d6e59b99db62fa9"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_32eb83682d17086eb359_1-0",
+      "node": "TEXT_32eb83682d17086eb359_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg026-TEXT_32eb83682d17086eb359"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_32eb83682d17086eb359_1-1",
+      "node": "TEXT_32eb83682d17086eb359_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg026"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg026-TEXT_32eb83682d17086eb359"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_454348ea35e72c123ff1_1-0",
+      "node": "TEXT_454348ea35e72c123ff1_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg027-TEXT_454348ea35e72c123ff1",
+          "i01-char-zhouzhi-human-base-TEXT_454348ea35e72c123ff1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_454348ea35e72c123ff1_1-1",
+      "node": "TEXT_454348ea35e72c123ff1_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg027"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg027-TEXT_454348ea35e72c123ff1"
+        ],
+        "exclude": [
+          "i01-char-zhouzhi-human-base-TEXT_454348ea35e72c123ff1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_454348ea35e72c123ff1_1-2",
+      "node": "TEXT_454348ea35e72c123ff1_1",
+      "assets": [
+        "i02-neutral",
+        "char-zhouzhi-human-base"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-base-TEXT_454348ea35e72c123ff1"
+        ],
+        "exclude": [
+          "i01-cg-zz-cg027-TEXT_454348ea35e72c123ff1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_454348ea35e72c123ff1_1-3",
+      "node": "TEXT_454348ea35e72c123ff1_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg027"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg027-TEXT_454348ea35e72c123ff1",
+          "i01-char-zhouzhi-human-base-TEXT_454348ea35e72c123ff1"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_d5adaebb6a02048684b4_1-0",
+      "node": "TEXT_d5adaebb6a02048684b4_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg029-TEXT_d5adaebb6a02048684b4"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_d5adaebb6a02048684b4_1-1",
+      "node": "TEXT_d5adaebb6a02048684b4_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg029"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg029-TEXT_d5adaebb6a02048684b4"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_08e301bea9bccee059ff_1-0",
+      "node": "TEXT_08e301bea9bccee059ff_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg031-TEXT_08e301bea9bccee059ff"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_08e301bea9bccee059ff_1-1",
+      "node": "TEXT_08e301bea9bccee059ff_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg031"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg031-TEXT_08e301bea9bccee059ff"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_27f15df2b2c7561adb19_1-0",
+      "node": "TEXT_27f15df2b2c7561adb19_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg032-TEXT_27f15df2b2c7561adb19",
+          "i01-char-zhouzhi-human-work-neutral-TEXT_27f15df2b2c7561adb19"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_27f15df2b2c7561adb19_1-1",
+      "node": "TEXT_27f15df2b2c7561adb19_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg032"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg032-TEXT_27f15df2b2c7561adb19"
+        ],
+        "exclude": [
+          "i01-char-zhouzhi-human-work-neutral-TEXT_27f15df2b2c7561adb19"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_27f15df2b2c7561adb19_1-2",
+      "node": "TEXT_27f15df2b2c7561adb19_1",
+      "assets": [
+        "i02-neutral",
+        "char-zhouzhi-human-work-neutral"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-work-neutral-TEXT_27f15df2b2c7561adb19"
+        ],
+        "exclude": [
+          "i01-cg-zz-cg032-TEXT_27f15df2b2c7561adb19"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_27f15df2b2c7561adb19_1-3",
+      "node": "TEXT_27f15df2b2c7561adb19_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg032"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg032-TEXT_27f15df2b2c7561adb19",
+          "i01-char-zhouzhi-human-work-neutral-TEXT_27f15df2b2c7561adb19"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_47f9259b458e623c6304_1-0",
+      "node": "TEXT_47f9259b458e623c6304_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg034-TEXT_47f9259b458e623c6304"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_47f9259b458e623c6304_1-1",
+      "node": "TEXT_47f9259b458e623c6304_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg034"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg034-TEXT_47f9259b458e623c6304"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_00d5e6f3ceef4e29a376_1-0",
+      "node": "TEXT_00d5e6f3ceef4e29a376_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg035-TEXT_00d5e6f3ceef4e29a376"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_00d5e6f3ceef4e29a376_1-1",
+      "node": "TEXT_00d5e6f3ceef4e29a376_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg035"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg035-TEXT_00d5e6f3ceef4e29a376"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_75d2d054d2c51b1e04ac_1-0",
+      "node": "TEXT_75d2d054d2c51b1e04ac_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-cg-zz-cg103-TEXT_75d2d054d2c51b1e04ac"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_75d2d054d2c51b1e04ac_1-1",
+      "node": "TEXT_75d2d054d2c51b1e04ac_1",
+      "assets": [
+        "i02-neutral",
+        "cg-zz-cg103"
+      ],
+      "predicate": {
+        "include": [
+          "i01-cg-zz-cg103-TEXT_75d2d054d2c51b1e04ac"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2fbbcdb87a901c2e0607_1-0",
+      "node": "TEXT_2fbbcdb87a901c2e0607_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-base-TEXT_2fbbcdb87a901c2e0607"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2fbbcdb87a901c2e0607_1-1",
+      "node": "TEXT_2fbbcdb87a901c2e0607_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-base"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-base-TEXT_2fbbcdb87a901c2e0607"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3c85d3c582c849c53d6d_1-0",
+      "node": "TEXT_3c85d3c582c849c53d6d_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-displeased-TEXT_3c85d3c582c849c53d6d"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3c85d3c582c849c53d6d_1-1",
+      "node": "TEXT_3c85d3c582c849c53d6d_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-displeased"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-displeased-TEXT_3c85d3c582c849c53d6d"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9e1006d6a250a53e06d8_1-0",
+      "node": "TEXT_9e1006d6a250a53e06d8_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-displeased-TEXT_9e1006d6a250a53e06d8"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9e1006d6a250a53e06d8_1-1",
+      "node": "TEXT_9e1006d6a250a53e06d8_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-displeased"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-displeased-TEXT_9e1006d6a250a53e06d8"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_905d0d497a8466179694_1-0",
+      "node": "TEXT_905d0d497a8466179694_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-hesitant-TEXT_905d0d497a8466179694"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_905d0d497a8466179694_1-1",
+      "node": "TEXT_905d0d497a8466179694_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-hesitant"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-hesitant-TEXT_905d0d497a8466179694"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_49f2b9054366f8792bd7_1-0",
+      "node": "TEXT_49f2b9054366f8792bd7_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-downcast-TEXT_49f2b9054366f8792bd7"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_49f2b9054366f8792bd7_1-1",
+      "node": "TEXT_49f2b9054366f8792bd7_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-downcast"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-downcast-TEXT_49f2b9054366f8792bd7"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_909cd878fb414722c0bc_1-0",
+      "node": "TEXT_909cd878fb414722c0bc_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-practice-notebook-TEXT_909cd878fb414722c0bc"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_909cd878fb414722c0bc_1-1",
+      "node": "TEXT_909cd878fb414722c0bc_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-practice-notebook"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-practice-notebook-TEXT_909cd878fb414722c0bc"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9aa1c6255a1c0cc35fd9_1-0",
+      "node": "TEXT_9aa1c6255a1c0cc35fd9_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-two-helmets-TEXT_9aa1c6255a1c0cc35fd9"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9aa1c6255a1c0cc35fd9_1-1",
+      "node": "TEXT_9aa1c6255a1c0cc35fd9_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-two-helmets"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-two-helmets-TEXT_9aa1c6255a1c0cc35fd9"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_1c052e698bf5f556f8e5_1-0",
+      "node": "TEXT_1c052e698bf5f556f8e5_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-old-sweatshirt-TEXT_1c052e698bf5f556f8e5"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_1c052e698bf5f556f8e5_1-1",
+      "node": "TEXT_1c052e698bf5f556f8e5_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-old-sweatshirt"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-old-sweatshirt-TEXT_1c052e698bf5f556f8e5"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_df2f074b609454a72dbb_1-0",
+      "node": "TEXT_df2f074b609454a72dbb_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-xiaoman-skirt-TEXT_df2f074b609454a72dbb"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_df2f074b609454a72dbb_1-1",
+      "node": "TEXT_df2f074b609454a72dbb_1",
+      "assets": [
+        "i02-neutral",
+        "char-xiaoman-skirt"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-xiaoman-skirt-TEXT_df2f074b609454a72dbb"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fb59a374e063659a38c0_1-0",
+      "node": "TEXT_fb59a374e063659a38c0_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-zhouzhi-human-serious-TEXT_fb59a374e063659a38c0"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fb59a374e063659a38c0_1-1",
+      "node": "TEXT_fb59a374e063659a38c0_1",
+      "assets": [
+        "i02-neutral",
+        "char-zhouzhi-human-serious"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-serious-TEXT_fb59a374e063659a38c0"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_154015aef2a13bdba6bf_1-0",
+      "node": "TEXT_154015aef2a13bdba6bf_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-zhouzhi-human-downcast-TEXT_154015aef2a13bdba6bf"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_154015aef2a13bdba6bf_1-1",
+      "node": "TEXT_154015aef2a13bdba6bf_1",
+      "assets": [
+        "i02-neutral",
+        "char-zhouzhi-human-downcast"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-downcast-TEXT_154015aef2a13bdba6bf"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cc5b3eb146e6424e2e0d_1-0",
+      "node": "TEXT_cc5b3eb146e6424e2e0d_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-zhouzhi-human-tied-tired-cup-TEXT_cc5b3eb146e6424e2e0d",
+          "i01-bg-zhouzhi-supermarket-day-TEXT_cc5b3eb146e6424e2e0d"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cc5b3eb146e6424e2e0d_1-1",
+      "node": "TEXT_cc5b3eb146e6424e2e0d_1",
+      "assets": [
+        "i02-neutral",
+        "char-zhouzhi-human-tied-tired-cup"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-tied-tired-cup-TEXT_cc5b3eb146e6424e2e0d"
+        ],
+        "exclude": [
+          "i01-bg-zhouzhi-supermarket-day-TEXT_cc5b3eb146e6424e2e0d"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cc5b3eb146e6424e2e0d_1-2",
+      "node": "TEXT_cc5b3eb146e6424e2e0d_1",
+      "assets": [
+        "bg-zhouzhi-supermarket-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-supermarket-day-TEXT_cc5b3eb146e6424e2e0d"
+        ],
+        "exclude": [
+          "i01-char-zhouzhi-human-tied-tired-cup-TEXT_cc5b3eb146e6424e2e0d"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cc5b3eb146e6424e2e0d_1-3",
+      "node": "TEXT_cc5b3eb146e6424e2e0d_1",
+      "assets": [
+        "bg-zhouzhi-supermarket-day",
+        "char-zhouzhi-human-tied-tired-cup"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-tied-tired-cup-TEXT_cc5b3eb146e6424e2e0d",
+          "i01-bg-zhouzhi-supermarket-day-TEXT_cc5b3eb146e6424e2e0d"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_904b69f4da3c18817eb8_1-0",
+      "node": "TEXT_904b69f4da3c18817eb8_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-zhouzhi-human-planning-TEXT_904b69f4da3c18817eb8"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_904b69f4da3c18817eb8_1-1",
+      "node": "TEXT_904b69f4da3c18817eb8_1",
+      "assets": [
+        "i02-neutral",
+        "char-zhouzhi-human-planning"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-planning-TEXT_904b69f4da3c18817eb8"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_20cdf2fe3ec64feb457e_1-0",
+      "node": "TEXT_20cdf2fe3ec64feb457e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-char-zhouzhi-human-work-serious-TEXT_20cdf2fe3ec64feb457e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_20cdf2fe3ec64feb457e_1-1",
+      "node": "TEXT_20cdf2fe3ec64feb457e_1",
+      "assets": [
+        "i02-neutral",
+        "char-zhouzhi-human-work-serious"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-work-serious-TEXT_20cdf2fe3ec64feb457e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f7655a022022c0778e45_1-0",
+      "node": "TEXT_f7655a022022c0778e45_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-prop-mengyao-borrowed-book-TEXT_f7655a022022c0778e45"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f7655a022022c0778e45_1-1",
+      "node": "TEXT_f7655a022022c0778e45_1",
+      "assets": [
+        "i02-neutral",
+        "prop-mengyao-borrowed-book"
+      ],
+      "predicate": {
+        "include": [
+          "i01-prop-mengyao-borrowed-book-TEXT_f7655a022022c0778e45"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f51a5ce3db89b06fcfb0_1-0",
+      "node": "TEXT_f51a5ce3db89b06fcfb0_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-prop-mengyao-borrowed-book-TEXT_f51a5ce3db89b06fcfb0",
+          "i01-bg-mengyao-guiyang-school-day-TEXT_f51a5ce3db89b06fcfb0"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f51a5ce3db89b06fcfb0_1-1",
+      "node": "TEXT_f51a5ce3db89b06fcfb0_1",
+      "assets": [
+        "i02-neutral",
+        "prop-mengyao-borrowed-book"
+      ],
+      "predicate": {
+        "include": [
+          "i01-prop-mengyao-borrowed-book-TEXT_f51a5ce3db89b06fcfb0"
+        ],
+        "exclude": [
+          "i01-bg-mengyao-guiyang-school-day-TEXT_f51a5ce3db89b06fcfb0"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f51a5ce3db89b06fcfb0_1-2",
+      "node": "TEXT_f51a5ce3db89b06fcfb0_1",
+      "assets": [
+        "bg-mengyao-guiyang-school-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-mengyao-guiyang-school-day-TEXT_f51a5ce3db89b06fcfb0"
+        ],
+        "exclude": [
+          "i01-prop-mengyao-borrowed-book-TEXT_f51a5ce3db89b06fcfb0"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f51a5ce3db89b06fcfb0_1-3",
+      "node": "TEXT_f51a5ce3db89b06fcfb0_1",
+      "assets": [
+        "bg-mengyao-guiyang-school-day",
+        "prop-mengyao-borrowed-book"
+      ],
+      "predicate": {
+        "include": [
+          "i01-prop-mengyao-borrowed-book-TEXT_f51a5ce3db89b06fcfb0",
+          "i01-bg-mengyao-guiyang-school-day-TEXT_f51a5ce3db89b06fcfb0"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_7de6808ec98f624e8bfa_1-0",
+      "node": "TEXT_7de6808ec98f624e8bfa_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-prop-mengyao-phone-stand-TEXT_7de6808ec98f624e8bfa"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_7de6808ec98f624e8bfa_1-1",
+      "node": "TEXT_7de6808ec98f624e8bfa_1",
+      "assets": [
+        "i02-neutral",
+        "prop-mengyao-phone-stand"
+      ],
+      "predicate": {
+        "include": [
+          "i01-prop-mengyao-phone-stand-TEXT_7de6808ec98f624e8bfa"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a54ebb4c348873a18238_1-0",
+      "node": "TEXT_a54ebb4c348873a18238_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-piao-prop-camera-TEXT_a54ebb4c348873a18238",
+          "i01-bg-friends-meal-shop-day-TEXT_a54ebb4c348873a18238"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a54ebb4c348873a18238_1-1",
+      "node": "TEXT_a54ebb4c348873a18238_1",
+      "assets": [
+        "i02-neutral",
+        "piao-prop-camera"
+      ],
+      "predicate": {
+        "include": [
+          "i01-piao-prop-camera-TEXT_a54ebb4c348873a18238"
+        ],
+        "exclude": [
+          "i01-bg-friends-meal-shop-day-TEXT_a54ebb4c348873a18238"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a54ebb4c348873a18238_1-2",
+      "node": "TEXT_a54ebb4c348873a18238_1",
+      "assets": [
+        "bg-friends-meal-shop-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-friends-meal-shop-day-TEXT_a54ebb4c348873a18238"
+        ],
+        "exclude": [
+          "i01-piao-prop-camera-TEXT_a54ebb4c348873a18238"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a54ebb4c348873a18238_1-3",
+      "node": "TEXT_a54ebb4c348873a18238_1",
+      "assets": [
+        "bg-friends-meal-shop-day",
+        "piao-prop-camera"
+      ],
+      "predicate": {
+        "include": [
+          "i01-piao-prop-camera-TEXT_a54ebb4c348873a18238",
+          "i01-bg-friends-meal-shop-day-TEXT_a54ebb4c348873a18238"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_55510c45ffbe3b7cdae2_1-0",
+      "node": "TEXT_55510c45ffbe3b7cdae2_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-piao-prop-camera-manual-TEXT_55510c45ffbe3b7cdae2"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_55510c45ffbe3b7cdae2_1-1",
+      "node": "TEXT_55510c45ffbe3b7cdae2_1",
+      "assets": [
+        "i02-neutral",
+        "piao-prop-camera-manual"
+      ],
+      "predicate": {
+        "include": [
+          "i01-piao-prop-camera-manual-TEXT_55510c45ffbe3b7cdae2"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_841fa1d9146e4b6c987b_1-0",
+      "node": "TEXT_841fa1d9146e4b6c987b_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-piao-prop-booklet-TEXT_841fa1d9146e4b6c987b"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_841fa1d9146e4b6c987b_1-1",
+      "node": "TEXT_841fa1d9146e4b6c987b_1",
+      "assets": [
+        "i02-neutral",
+        "piao-prop-booklet"
+      ],
+      "predicate": {
+        "include": [
+          "i01-piao-prop-booklet-TEXT_841fa1d9146e4b6c987b"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_20a6d0e0f7c2089d06ee_1-0",
+      "node": "TEXT_20a6d0e0f7c2089d06ee_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-sui-a06-orb-base-v001-TEXT_20a6d0e0f7c2089d06ee",
+          "i01-bg-huangqiuqiu-room-day-TEXT_20a6d0e0f7c2089d06ee"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_20a6d0e0f7c2089d06ee_1-1",
+      "node": "TEXT_20a6d0e0f7c2089d06ee_1",
+      "assets": [
+        "i02-neutral",
+        "sui-a06-orb-base-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-orb-base-v001-TEXT_20a6d0e0f7c2089d06ee"
+        ],
+        "exclude": [
+          "i01-bg-huangqiuqiu-room-day-TEXT_20a6d0e0f7c2089d06ee"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_20a6d0e0f7c2089d06ee_1-2",
+      "node": "TEXT_20a6d0e0f7c2089d06ee_1",
+      "assets": [
+        "bg-huangqiuqiu-room-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-huangqiuqiu-room-day-TEXT_20a6d0e0f7c2089d06ee"
+        ],
+        "exclude": [
+          "i01-sui-a06-orb-base-v001-TEXT_20a6d0e0f7c2089d06ee"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_20a6d0e0f7c2089d06ee_1-3",
+      "node": "TEXT_20a6d0e0f7c2089d06ee_1",
+      "assets": [
+        "bg-huangqiuqiu-room-day",
+        "sui-a06-orb-base-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-orb-base-v001-TEXT_20a6d0e0f7c2089d06ee",
+          "i01-bg-huangqiuqiu-room-day-TEXT_20a6d0e0f7c2089d06ee"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f1ea86ba8d09433da040_1-0",
+      "node": "TEXT_f1ea86ba8d09433da040_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-sui-a06-orb-serious-v001-TEXT_f1ea86ba8d09433da040"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f1ea86ba8d09433da040_1-1",
+      "node": "TEXT_f1ea86ba8d09433da040_1",
+      "assets": [
+        "i02-neutral",
+        "sui-a06-orb-serious-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-orb-serious-v001-TEXT_f1ea86ba8d09433da040"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_38d6dce0b293c4846ad9_1-0",
+      "node": "TEXT_38d6dce0b293c4846ad9_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-sui-a06-orb-downcast-v001-TEXT_38d6dce0b293c4846ad9"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_38d6dce0b293c4846ad9_1-1",
+      "node": "TEXT_38d6dce0b293c4846ad9_1",
+      "assets": [
+        "i02-neutral",
+        "sui-a06-orb-downcast-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-orb-downcast-v001-TEXT_38d6dce0b293c4846ad9"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9e44bdca51d4b9e13073_1-0",
+      "node": "TEXT_9e44bdca51d4b9e13073_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-sui-a06-orb-wave-v001-TEXT_9e44bdca51d4b9e13073"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9e44bdca51d4b9e13073_1-1",
+      "node": "TEXT_9e44bdca51d4b9e13073_1",
+      "assets": [
+        "i02-neutral",
+        "sui-a06-orb-wave-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-orb-wave-v001-TEXT_9e44bdca51d4b9e13073"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b867ef70f5cd497cbad4_1-0",
+      "node": "TEXT_b867ef70f5cd497cbad4_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-sui-a06-human-serious-v001-TEXT_b867ef70f5cd497cbad4"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b867ef70f5cd497cbad4_1-1",
+      "node": "TEXT_b867ef70f5cd497cbad4_1",
+      "assets": [
+        "i02-neutral",
+        "sui-a06-human-serious-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-human-serious-v001-TEXT_b867ef70f5cd497cbad4"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b02417856dd2f9af57d2_1-0",
+      "node": "TEXT_b02417856dd2f9af57d2_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-sui-a06-human-downcast-v001-TEXT_b02417856dd2f9af57d2"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b02417856dd2f9af57d2_1-1",
+      "node": "TEXT_b02417856dd2f9af57d2_1",
+      "assets": [
+        "i02-neutral",
+        "sui-a06-human-downcast-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-human-downcast-v001-TEXT_b02417856dd2f9af57d2"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_7360ae14ec3a3a5aa1ee_1-0",
+      "node": "TEXT_7360ae14ec3a3a5aa1ee_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-sui-a06-human-tearful-v001-TEXT_7360ae14ec3a3a5aa1ee"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_7360ae14ec3a3a5aa1ee_1-1",
+      "node": "TEXT_7360ae14ec3a3a5aa1ee_1",
+      "assets": [
+        "i02-neutral",
+        "sui-a06-human-tearful-v001"
+      ],
+      "predicate": {
+        "include": [
+          "i01-sui-a06-human-tearful-v001-TEXT_7360ae14ec3a3a5aa1ee"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e9ba8663c8a3c610d975_1-0",
+      "node": "TEXT_e9ba8663c8a3c610d975_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-maolang-stage-TEXT_e9ba8663c8a3c610d975"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e9ba8663c8a3c610d975_1-1",
+      "node": "TEXT_e9ba8663c8a3c610d975_1",
+      "assets": [
+        "i02-neutral",
+        "maolang-stage"
+      ],
+      "predicate": {
+        "include": [
+          "i01-maolang-stage-TEXT_e9ba8663c8a3c610d975"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_892eaabd29aea1b5341c_1-0",
+      "node": "TEXT_892eaabd29aea1b5341c_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-maolang-mic-bag-TEXT_892eaabd29aea1b5341c"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_892eaabd29aea1b5341c_1-1",
+      "node": "TEXT_892eaabd29aea1b5341c_1",
+      "assets": [
+        "i02-neutral",
+        "maolang-mic-bag"
+      ],
+      "predicate": {
+        "include": [
+          "i01-maolang-mic-bag-TEXT_892eaabd29aea1b5341c"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f1ea1c0d75d769c40000_1-0",
+      "node": "TEXT_f1ea1c0d75d769c40000_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-shijiang-serious-TEXT_f1ea1c0d75d769c40000"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f1ea1c0d75d769c40000_1-1",
+      "node": "TEXT_f1ea1c0d75d769c40000_1",
+      "assets": [
+        "i02-neutral",
+        "shijiang-serious"
+      ],
+      "predicate": {
+        "include": [
+          "i01-shijiang-serious-TEXT_f1ea1c0d75d769c40000"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5dee090af4037c0f452d_1-0",
+      "node": "TEXT_5dee090af4037c0f452d_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-yelan-b-TEXT_5dee090af4037c0f452d",
+          "i01-bg-noodle-shop-day-TEXT_5dee090af4037c0f452d"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5dee090af4037c0f452d_1-1",
+      "node": "TEXT_5dee090af4037c0f452d_1",
+      "assets": [
+        "i02-neutral",
+        "yelan-b"
+      ],
+      "predicate": {
+        "include": [
+          "i01-yelan-b-TEXT_5dee090af4037c0f452d"
+        ],
+        "exclude": [
+          "i01-bg-noodle-shop-day-TEXT_5dee090af4037c0f452d"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5dee090af4037c0f452d_1-2",
+      "node": "TEXT_5dee090af4037c0f452d_1",
+      "assets": [
+        "bg-noodle-shop-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-noodle-shop-day-TEXT_5dee090af4037c0f452d"
+        ],
+        "exclude": [
+          "i01-yelan-b-TEXT_5dee090af4037c0f452d"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5dee090af4037c0f452d_1-3",
+      "node": "TEXT_5dee090af4037c0f452d_1",
+      "assets": [
+        "bg-noodle-shop-day",
+        "yelan-b"
+      ],
+      "predicate": {
+        "include": [
+          "i01-yelan-b-TEXT_5dee090af4037c0f452d",
+          "i01-bg-noodle-shop-day-TEXT_5dee090af4037c0f452d"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_33d0bfb4c28d214c25a3_1-0",
+      "node": "TEXT_33d0bfb4c28d214c25a3_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-yelan-serious-TEXT_33d0bfb4c28d214c25a3"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_33d0bfb4c28d214c25a3_1-1",
+      "node": "TEXT_33d0bfb4c28d214c25a3_1",
+      "assets": [
+        "i02-neutral",
+        "yelan-serious"
+      ],
+      "predicate": {
+        "include": [
+          "i01-yelan-serious-TEXT_33d0bfb4c28d214c25a3"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f55affe0b23ad2f7e11f_1-0",
+      "node": "TEXT_f55affe0b23ad2f7e11f_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-yelan-phone-TEXT_f55affe0b23ad2f7e11f"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f55affe0b23ad2f7e11f_1-1",
+      "node": "TEXT_f55affe0b23ad2f7e11f_1",
+      "assets": [
+        "i02-neutral",
+        "yelan-phone"
+      ],
+      "predicate": {
+        "include": [
+          "i01-yelan-phone-TEXT_f55affe0b23ad2f7e11f"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e67667e3b8055007e466_1-0",
+      "node": "TEXT_e67667e3b8055007e466_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-chensheng-book-bag-TEXT_e67667e3b8055007e466"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e67667e3b8055007e466_1-1",
+      "node": "TEXT_e67667e3b8055007e466_1",
+      "assets": [
+        "i02-neutral",
+        "chensheng-book-bag"
+      ],
+      "predicate": {
+        "include": [
+          "i01-chensheng-book-bag-TEXT_e67667e3b8055007e466"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3f656220812587fdc0a8_1-0",
+      "node": "TEXT_3f656220812587fdc0a8_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-chensheng-cable-TEXT_3f656220812587fdc0a8",
+          "i01-bg-mengyao-guiyang-school-day-TEXT_3f656220812587fdc0a8"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3f656220812587fdc0a8_1-1",
+      "node": "TEXT_3f656220812587fdc0a8_1",
+      "assets": [
+        "i02-neutral",
+        "chensheng-cable"
+      ],
+      "predicate": {
+        "include": [
+          "i01-chensheng-cable-TEXT_3f656220812587fdc0a8"
+        ],
+        "exclude": [
+          "i01-bg-mengyao-guiyang-school-day-TEXT_3f656220812587fdc0a8"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3f656220812587fdc0a8_1-2",
+      "node": "TEXT_3f656220812587fdc0a8_1",
+      "assets": [
+        "bg-mengyao-guiyang-school-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-mengyao-guiyang-school-day-TEXT_3f656220812587fdc0a8"
+        ],
+        "exclude": [
+          "i01-chensheng-cable-TEXT_3f656220812587fdc0a8"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3f656220812587fdc0a8_1-3",
+      "node": "TEXT_3f656220812587fdc0a8_1",
+      "assets": [
+        "bg-mengyao-guiyang-school-day",
+        "chensheng-cable"
+      ],
+      "predicate": {
+        "include": [
+          "i01-chensheng-cable-TEXT_3f656220812587fdc0a8",
+          "i01-bg-mengyao-guiyang-school-day-TEXT_3f656220812587fdc0a8"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f5354c41d01bf0d95a4c_1-0",
+      "node": "TEXT_f5354c41d01bf0d95a4c_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-bijie-arrival-platform-day-rain-TEXT_f5354c41d01bf0d95a4c",
+          "i01-maolang-base-TEXT_f5354c41d01bf0d95a4c"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f5354c41d01bf0d95a4c_1-1",
+      "node": "TEXT_f5354c41d01bf0d95a4c_1",
+      "assets": [
+        "bg-bijie-arrival-platform-day-rain"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bijie-arrival-platform-day-rain-TEXT_f5354c41d01bf0d95a4c"
+        ],
+        "exclude": [
+          "i01-maolang-base-TEXT_f5354c41d01bf0d95a4c"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f5354c41d01bf0d95a4c_1-2",
+      "node": "TEXT_f5354c41d01bf0d95a4c_1",
+      "assets": [
+        "i02-neutral",
+        "maolang-base"
+      ],
+      "predicate": {
+        "include": [
+          "i01-maolang-base-TEXT_f5354c41d01bf0d95a4c"
+        ],
+        "exclude": [
+          "i01-bg-bijie-arrival-platform-day-rain-TEXT_f5354c41d01bf0d95a4c"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f5354c41d01bf0d95a4c_1-3",
+      "node": "TEXT_f5354c41d01bf0d95a4c_1",
+      "assets": [
+        "bg-bijie-arrival-platform-day-rain",
+        "maolang-base"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bijie-arrival-platform-day-rain-TEXT_f5354c41d01bf0d95a4c",
+          "i01-maolang-base-TEXT_f5354c41d01bf0d95a4c"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5a932c18fef16d486adb_1-0",
+      "node": "TEXT_5a932c18fef16d486adb_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-bijie-slope-street-day-overcast-TEXT_5a932c18fef16d486adb",
+          "i01-shijiang-base-TEXT_5a932c18fef16d486adb"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5a932c18fef16d486adb_1-1",
+      "node": "TEXT_5a932c18fef16d486adb_1",
+      "assets": [
+        "bg-bijie-slope-street-day-overcast"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bijie-slope-street-day-overcast-TEXT_5a932c18fef16d486adb"
+        ],
+        "exclude": [
+          "i01-shijiang-base-TEXT_5a932c18fef16d486adb"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5a932c18fef16d486adb_1-2",
+      "node": "TEXT_5a932c18fef16d486adb_1",
+      "assets": [
+        "i02-neutral",
+        "shijiang-base"
+      ],
+      "predicate": {
+        "include": [
+          "i01-shijiang-base-TEXT_5a932c18fef16d486adb"
+        ],
+        "exclude": [
+          "i01-bg-bijie-slope-street-day-overcast-TEXT_5a932c18fef16d486adb"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5a932c18fef16d486adb_1-3",
+      "node": "TEXT_5a932c18fef16d486adb_1",
+      "assets": [
+        "bg-bijie-slope-street-day-overcast",
+        "shijiang-base"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bijie-slope-street-day-overcast-TEXT_5a932c18fef16d486adb",
+          "i01-shijiang-base-TEXT_5a932c18fef16d486adb"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3b95db884e8708a8946b_1-0",
+      "node": "TEXT_3b95db884e8708a8946b_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-old-netcafe-counter-day-TEXT_3b95db884e8708a8946b"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3b95db884e8708a8946b_1-1",
+      "node": "TEXT_3b95db884e8708a8946b_1",
+      "assets": [
+        "bg-old-netcafe-counter-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-old-netcafe-counter-day-TEXT_3b95db884e8708a8946b"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_28e02415c65c225d8594_1-0",
+      "node": "TEXT_28e02415c65c225d8594_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-old-netcafe-counter-fr-clearing-day-TEXT_28e02415c65c225d8594"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_28e02415c65c225d8594_1-1",
+      "node": "TEXT_28e02415c65c225d8594_1",
+      "assets": [
+        "bg-old-netcafe-counter-fr-clearing-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-old-netcafe-counter-fr-clearing-day-TEXT_28e02415c65c225d8594"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_180bcfb5fc1b07978619_1-0",
+      "node": "TEXT_180bcfb5fc1b07978619_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-old-netcafe-backroom-night-TEXT_180bcfb5fc1b07978619"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_180bcfb5fc1b07978619_1-1",
+      "node": "TEXT_180bcfb5fc1b07978619_1",
+      "assets": [
+        "bg-old-netcafe-backroom-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-old-netcafe-backroom-night-TEXT_180bcfb5fc1b07978619"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_4353be5501361c8688c0_1-0",
+      "node": "TEXT_4353be5501361c8688c0_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-old-netcafe-yard-door-ajar-night-TEXT_4353be5501361c8688c0"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_4353be5501361c8688c0_1-1",
+      "node": "TEXT_4353be5501361c8688c0_1",
+      "assets": [
+        "bg-old-netcafe-yard-door-ajar-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-old-netcafe-yard-door-ajar-night-TEXT_4353be5501361c8688c0"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_39171e693cf439728726_1-0",
+      "node": "TEXT_39171e693cf439728726_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-huangqiuqiu-room-day-TEXT_39171e693cf439728726"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_39171e693cf439728726_1-1",
+      "node": "TEXT_39171e693cf439728726_1",
+      "assets": [
+        "bg-huangqiuqiu-room-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-huangqiuqiu-room-day-TEXT_39171e693cf439728726"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_d9867d89704f96002966_1-0",
+      "node": "TEXT_d9867d89704f96002966_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-wenwen-bijie-rental-night-TEXT_d9867d89704f96002966"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_d9867d89704f96002966_1-1",
+      "node": "TEXT_d9867d89704f96002966_1",
+      "assets": [
+        "bg-wenwen-bijie-rental-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-wenwen-bijie-rental-night-TEXT_d9867d89704f96002966"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c241873396778ccb084f_1-0",
+      "node": "TEXT_c241873396778ccb084f_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-wenwen-bijie-rental-downstairs-bench-day-TEXT_c241873396778ccb084f"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c241873396778ccb084f_1-1",
+      "node": "TEXT_c241873396778ccb084f_1",
+      "assets": [
+        "bg-wenwen-bijie-rental-downstairs-bench-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-wenwen-bijie-rental-downstairs-bench-day-TEXT_c241873396778ccb084f"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c12059acf9c2d5331213_1-0",
+      "node": "TEXT_c12059acf9c2d5331213_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-noodle-shop-front-dawn-TEXT_c12059acf9c2d5331213"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c12059acf9c2d5331213_1-1",
+      "node": "TEXT_c12059acf9c2d5331213_1",
+      "assets": [
+        "bg-noodle-shop-front-dawn"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-noodle-shop-front-dawn-TEXT_c12059acf9c2d5331213"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_feda95a3c00fe5b1622c_1-0",
+      "node": "TEXT_feda95a3c00fe5b1622c_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-friends-meal-shop-day-TEXT_feda95a3c00fe5b1622c"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_feda95a3c00fe5b1622c_1-1",
+      "node": "TEXT_feda95a3c00fe5b1622c_1",
+      "assets": [
+        "bg-friends-meal-shop-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-friends-meal-shop-day-TEXT_feda95a3c00fe5b1622c"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_199f74bf561fddbab3a9_1-0",
+      "node": "TEXT_199f74bf561fddbab3a9_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-salon-bijie-mirror-day-TEXT_199f74bf561fddbab3a9"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_199f74bf561fddbab3a9_1-1",
+      "node": "TEXT_199f74bf561fddbab3a9_1",
+      "assets": [
+        "bg-salon-bijie-mirror-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-salon-bijie-mirror-day-TEXT_199f74bf561fddbab3a9"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e57be7d0a0d2c9ef1b16_1-0",
+      "node": "TEXT_e57be7d0a0d2c9ef1b16_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-salon-bijie-washbasin-day-TEXT_e57be7d0a0d2c9ef1b16"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e57be7d0a0d2c9ef1b16_1-1",
+      "node": "TEXT_e57be7d0a0d2c9ef1b16_1",
+      "assets": [
+        "bg-salon-bijie-washbasin-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-salon-bijie-washbasin-day-TEXT_e57be7d0a0d2c9ef1b16"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c2ff71aa650c071ea8c1_1-0",
+      "node": "TEXT_c2ff71aa650c071ea8c1_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-salon-bijie-day91-mirror-TEXT_c2ff71aa650c071ea8c1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c2ff71aa650c071ea8c1_1-1",
+      "node": "TEXT_c2ff71aa650c071ea8c1_1",
+      "assets": [
+        "bg-salon-bijie-day91-mirror"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-salon-bijie-day91-mirror-TEXT_c2ff71aa650c071ea8c1"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f86bfb5a296cb775f8e4_1-0",
+      "node": "TEXT_f86bfb5a296cb775f8e4_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-convenience-bijie-day-TEXT_f86bfb5a296cb775f8e4",
+          "i01-char-mengyao-human-base-neutral-TEXT_f86bfb5a296cb775f8e4"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f86bfb5a296cb775f8e4_1-1",
+      "node": "TEXT_f86bfb5a296cb775f8e4_1",
+      "assets": [
+        "bg-convenience-bijie-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-convenience-bijie-day-TEXT_f86bfb5a296cb775f8e4"
+        ],
+        "exclude": [
+          "i01-char-mengyao-human-base-neutral-TEXT_f86bfb5a296cb775f8e4"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f86bfb5a296cb775f8e4_1-2",
+      "node": "TEXT_f86bfb5a296cb775f8e4_1",
+      "assets": [
+        "i02-neutral",
+        "char-mengyao-human-base-neutral"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-mengyao-human-base-neutral-TEXT_f86bfb5a296cb775f8e4"
+        ],
+        "exclude": [
+          "i01-bg-convenience-bijie-day-TEXT_f86bfb5a296cb775f8e4"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f86bfb5a296cb775f8e4_1-3",
+      "node": "TEXT_f86bfb5a296cb775f8e4_1",
+      "assets": [
+        "bg-convenience-bijie-day",
+        "char-mengyao-human-base-neutral"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-convenience-bijie-day-TEXT_f86bfb5a296cb775f8e4",
+          "i01-char-mengyao-human-base-neutral-TEXT_f86bfb5a296cb775f8e4"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_dfc0845795f728c55a56_1-0",
+      "node": "TEXT_dfc0845795f728c55a56_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-bridge-shaobing-day-TEXT_dfc0845795f728c55a56"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_dfc0845795f728c55a56_1-1",
+      "node": "TEXT_dfc0845795f728c55a56_1",
+      "assets": [
+        "bg-bridge-shaobing-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bridge-shaobing-day-TEXT_dfc0845795f728c55a56"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_81341acbf5d34000e1b1_1-0",
+      "node": "TEXT_81341acbf5d34000e1b1_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-bridge-shaobing-eaves-rain-TEXT_81341acbf5d34000e1b1",
+          "i01-char-mengyao-human-base-expression-smile-TEXT_81341acbf5d34000e1b1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_81341acbf5d34000e1b1_1-1",
+      "node": "TEXT_81341acbf5d34000e1b1_1",
+      "assets": [
+        "bg-bridge-shaobing-eaves-rain"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bridge-shaobing-eaves-rain-TEXT_81341acbf5d34000e1b1"
+        ],
+        "exclude": [
+          "i01-char-mengyao-human-base-expression-smile-TEXT_81341acbf5d34000e1b1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_81341acbf5d34000e1b1_1-2",
+      "node": "TEXT_81341acbf5d34000e1b1_1",
+      "assets": [
+        "i02-neutral",
+        "char-mengyao-human-base-expression-smile"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-mengyao-human-base-expression-smile-TEXT_81341acbf5d34000e1b1"
+        ],
+        "exclude": [
+          "i01-bg-bridge-shaobing-eaves-rain-TEXT_81341acbf5d34000e1b1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_81341acbf5d34000e1b1_1-3",
+      "node": "TEXT_81341acbf5d34000e1b1_1",
+      "assets": [
+        "bg-bridge-shaobing-eaves-rain",
+        "char-mengyao-human-base-expression-smile"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bridge-shaobing-eaves-rain-TEXT_81341acbf5d34000e1b1",
+          "i01-char-mengyao-human-base-expression-smile-TEXT_81341acbf5d34000e1b1"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3ecfc3951819987eca79_1-0",
+      "node": "TEXT_3ecfc3951819987eca79_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-huisheng-306-cleared-day-TEXT_3ecfc3951819987eca79"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3ecfc3951819987eca79_1-1",
+      "node": "TEXT_3ecfc3951819987eca79_1",
+      "assets": [
+        "bg-huisheng-306-cleared-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-huisheng-306-cleared-day-TEXT_3ecfc3951819987eca79"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c1619afd5aa305d24272_1-0",
+      "node": "TEXT_c1619afd5aa305d24272_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-huisheng-corridor-operating-day-TEXT_c1619afd5aa305d24272"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_c1619afd5aa305d24272_1-1",
+      "node": "TEXT_c1619afd5aa305d24272_1",
+      "assets": [
+        "bg-huisheng-corridor-operating-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-huisheng-corridor-operating-day-TEXT_c1619afd5aa305d24272"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ac29a1b0b56ed08bf5b1_1-0",
+      "node": "TEXT_ac29a1b0b56ed08bf5b1_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-huisheng-corridor-locked-day-TEXT_ac29a1b0b56ed08bf5b1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_ac29a1b0b56ed08bf5b1_1-1",
+      "node": "TEXT_ac29a1b0b56ed08bf5b1_1",
+      "assets": [
+        "bg-huisheng-corridor-locked-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-huisheng-corridor-locked-day-TEXT_ac29a1b0b56ed08bf5b1"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b38e9168a156d204f6a8_1-0",
+      "node": "TEXT_b38e9168a156d204f6a8_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-bbq-xiaoman-friends-stall-night-TEXT_b38e9168a156d204f6a8"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b38e9168a156d204f6a8_1-1",
+      "node": "TEXT_b38e9168a156d204f6a8_1",
+      "assets": [
+        "bg-bbq-xiaoman-friends-stall-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bbq-xiaoman-friends-stall-night-TEXT_b38e9168a156d204f6a8"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e864ff1e5cbce5ca93d1_1-0",
+      "node": "TEXT_e864ff1e5cbce5ca93d1_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-bbq-xiaoman-friends-stall-night-TEXT_e864ff1e5cbce5ca93d1"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_e864ff1e5cbce5ca93d1_1-1",
+      "node": "TEXT_e864ff1e5cbce5ca93d1_1",
+      "assets": [
+        "bg-bbq-xiaoman-friends-stall-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bbq-xiaoman-friends-stall-night-TEXT_e864ff1e5cbce5ca93d1"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_babdb0f34c23a0d61cf5_1-0",
+      "node": "TEXT_babdb0f34c23a0d61cf5_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-bbq-xiaoman-friends-bike-shed-night-TEXT_babdb0f34c23a0d61cf5"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_babdb0f34c23a0d61cf5_1-1",
+      "node": "TEXT_babdb0f34c23a0d61cf5_1",
+      "assets": [
+        "bg-bbq-xiaoman-friends-bike-shed-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bbq-xiaoman-friends-bike-shed-night-TEXT_babdb0f34c23a0d61cf5"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_76d951f64e8d413b2f74_1-0",
+      "node": "TEXT_76d951f64e8d413b2f74_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-ajun-workplace-front-day-TEXT_76d951f64e8d413b2f74"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_76d951f64e8d413b2f74_1-1",
+      "node": "TEXT_76d951f64e8d413b2f74_1",
+      "assets": [
+        "bg-ajun-workplace-front-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-ajun-workplace-front-day-TEXT_76d951f64e8d413b2f74"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5f3d4d92f20632eb9218_1-0",
+      "node": "TEXT_5f3d4d92f20632eb9218_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-bus-stop-bijie-inside-day-TEXT_5f3d4d92f20632eb9218"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_5f3d4d92f20632eb9218_1-1",
+      "node": "TEXT_5f3d4d92f20632eb9218_1",
+      "assets": [
+        "bg-bus-stop-bijie-inside-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-bus-stop-bijie-inside-day-TEXT_5f3d4d92f20632eb9218"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_35d6518301a45b583e28_1-0",
+      "node": "TEXT_35d6518301a45b583e28_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-departure-station-morning-rain-TEXT_35d6518301a45b583e28"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_35d6518301a45b583e28_1-1",
+      "node": "TEXT_35d6518301a45b583e28_1",
+      "assets": [
+        "bg-departure-station-morning-rain"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-departure-station-morning-rain-TEXT_35d6518301a45b583e28"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_99c5f44ce20ef3f70398_1-0",
+      "node": "TEXT_99c5f44ce20ef3f70398_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-departure-station-morning-rain-TEXT_99c5f44ce20ef3f70398"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_99c5f44ce20ef3f70398_1-1",
+      "node": "TEXT_99c5f44ce20ef3f70398_1",
+      "assets": [
+        "bg-departure-station-morning-rain"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-departure-station-morning-rain-TEXT_99c5f44ce20ef3f70398"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2e5b4670664e67fabb5f_1-0",
+      "node": "TEXT_2e5b4670664e67fabb5f_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-departure-station-morning-rain-TEXT_2e5b4670664e67fabb5f"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2e5b4670664e67fabb5f_1-1",
+      "node": "TEXT_2e5b4670664e67fabb5f_1",
+      "assets": [
+        "bg-departure-station-morning-rain"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-departure-station-morning-rain-TEXT_2e5b4670664e67fabb5f"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_d51e71cfeed78de1d5ab_1-0",
+      "node": "TEXT_d51e71cfeed78de1d5ab_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-wenwen-guiyang-home-day-TEXT_d51e71cfeed78de1d5ab"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_d51e71cfeed78de1d5ab_1-1",
+      "node": "TEXT_d51e71cfeed78de1d5ab_1",
+      "assets": [
+        "bg-wenwen-guiyang-home-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-wenwen-guiyang-home-day-TEXT_d51e71cfeed78de1d5ab"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f19e7accf7dd6b58b66a_1-0",
+      "node": "TEXT_f19e7accf7dd6b58b66a_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-wenwen-guiyang-home-day-TEXT_f19e7accf7dd6b58b66a"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f19e7accf7dd6b58b66a_1-1",
+      "node": "TEXT_f19e7accf7dd6b58b66a_1",
+      "assets": [
+        "bg-wenwen-guiyang-home-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-wenwen-guiyang-home-day-TEXT_f19e7accf7dd6b58b66a"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f92b39d9f7a58ca95046_1-0",
+      "node": "TEXT_f92b39d9f7a58ca95046_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-guiyang-housing-office-day-TEXT_f92b39d9f7a58ca95046"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_f92b39d9f7a58ca95046_1-1",
+      "node": "TEXT_f92b39d9f7a58ca95046_1",
+      "assets": [
+        "bg-guiyang-housing-office-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-guiyang-housing-office-day-TEXT_f92b39d9f7a58ca95046"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_8ca8adf2caafdc944ee5_1-0",
+      "node": "TEXT_8ca8adf2caafdc944ee5_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-zhouzhi-supermarket-day-TEXT_8ca8adf2caafdc944ee5"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_8ca8adf2caafdc944ee5_1-1",
+      "node": "TEXT_8ca8adf2caafdc944ee5_1",
+      "assets": [
+        "bg-zhouzhi-supermarket-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-supermarket-day-TEXT_8ca8adf2caafdc944ee5"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9a1e6e56a6d6d0c8f314_1-0",
+      "node": "TEXT_9a1e6e56a6d6d0c8f314_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-zhouzhi-bijie-home-door-day-TEXT_9a1e6e56a6d6d0c8f314"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9a1e6e56a6d6d0c8f314_1-1",
+      "node": "TEXT_9a1e6e56a6d6d0c8f314_1",
+      "assets": [
+        "bg-zhouzhi-bijie-home-door-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-bijie-home-door-day-TEXT_9a1e6e56a6d6d0c8f314"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_09217939116335a8ed3e_1-0",
+      "node": "TEXT_09217939116335a8ed3e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-zhouzhi-bijie-home-night-TEXT_09217939116335a8ed3e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_09217939116335a8ed3e_1-1",
+      "node": "TEXT_09217939116335a8ed3e_1",
+      "assets": [
+        "bg-zhouzhi-bijie-home-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-bijie-home-night-TEXT_09217939116335a8ed3e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_32914ee17747bd242f7e_1-0",
+      "node": "TEXT_32914ee17747bd242f7e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-zhouzhi-other-venue-evening-TEXT_32914ee17747bd242f7e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_32914ee17747bd242f7e_1-1",
+      "node": "TEXT_32914ee17747bd242f7e_1",
+      "assets": [
+        "bg-zhouzhi-other-venue-evening"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-other-venue-evening-TEXT_32914ee17747bd242f7e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b9cc363fa4fe28c4c654_1-0",
+      "node": "TEXT_b9cc363fa4fe28c4c654_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-aying-prep-space-afternoon-TEXT_b9cc363fa4fe28c4c654"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b9cc363fa4fe28c4c654_1-1",
+      "node": "TEXT_b9cc363fa4fe28c4c654_1",
+      "assets": [
+        "bg-aying-prep-space-afternoon"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-aying-prep-space-afternoon-TEXT_b9cc363fa4fe28c4c654"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fb08bdb62b6e25a43351_1-0",
+      "node": "TEXT_fb08bdb62b6e25a43351_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-zhouzhi-guiyang-stall-service-night-TEXT_fb08bdb62b6e25a43351",
+          "i01-char-zhouzhi-human-prep-apron-TEXT_fb08bdb62b6e25a43351"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fb08bdb62b6e25a43351_1-1",
+      "node": "TEXT_fb08bdb62b6e25a43351_1",
+      "assets": [
+        "bg-zhouzhi-guiyang-stall-service-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-guiyang-stall-service-night-TEXT_fb08bdb62b6e25a43351"
+        ],
+        "exclude": [
+          "i01-char-zhouzhi-human-prep-apron-TEXT_fb08bdb62b6e25a43351"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fb08bdb62b6e25a43351_1-2",
+      "node": "TEXT_fb08bdb62b6e25a43351_1",
+      "assets": [
+        "i02-neutral",
+        "char-zhouzhi-human-prep-apron"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-zhouzhi-human-prep-apron-TEXT_fb08bdb62b6e25a43351"
+        ],
+        "exclude": [
+          "i01-bg-zhouzhi-guiyang-stall-service-night-TEXT_fb08bdb62b6e25a43351"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_fb08bdb62b6e25a43351_1-3",
+      "node": "TEXT_fb08bdb62b6e25a43351_1",
+      "assets": [
+        "bg-zhouzhi-guiyang-stall-service-night",
+        "char-zhouzhi-human-prep-apron"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-guiyang-stall-service-night-TEXT_fb08bdb62b6e25a43351",
+          "i01-char-zhouzhi-human-prep-apron-TEXT_fb08bdb62b6e25a43351"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a7acfba0a24ad5bfcdf2_1-0",
+      "node": "TEXT_a7acfba0a24ad5bfcdf2_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-zhouzhi-guiyang-home-night-TEXT_a7acfba0a24ad5bfcdf2"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_a7acfba0a24ad5bfcdf2_1-1",
+      "node": "TEXT_a7acfba0a24ad5bfcdf2_1",
+      "assets": [
+        "bg-zhouzhi-guiyang-home-night"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-guiyang-home-night-TEXT_a7acfba0a24ad5bfcdf2"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_76f21f288133341a2be5_1-0",
+      "node": "TEXT_76f21f288133341a2be5_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-guiyang-meal-shop-evening-TEXT_76f21f288133341a2be5"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_76f21f288133341a2be5_1-1",
+      "node": "TEXT_76f21f288133341a2be5_1",
+      "assets": [
+        "bg-guiyang-meal-shop-evening"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-guiyang-meal-shop-evening-TEXT_76f21f288133341a2be5"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_21e7c9d0c8765d70b923_1-0",
+      "node": "TEXT_21e7c9d0c8765d70b923_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-mengyao-bijie-school-classroom-day-TEXT_21e7c9d0c8765d70b923"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_21e7c9d0c8765d70b923_1-1",
+      "node": "TEXT_21e7c9d0c8765d70b923_1",
+      "assets": [
+        "bg-mengyao-bijie-school-classroom-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-mengyao-bijie-school-classroom-day-TEXT_21e7c9d0c8765d70b923"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_7fe11f31e420178ba4ea_1-0",
+      "node": "TEXT_7fe11f31e420178ba4ea_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-mengyao-bijie-school-corridor-day-TEXT_7fe11f31e420178ba4ea"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_7fe11f31e420178ba4ea_1-1",
+      "node": "TEXT_7fe11f31e420178ba4ea_1",
+      "assets": [
+        "bg-mengyao-bijie-school-corridor-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-mengyao-bijie-school-corridor-day-TEXT_7fe11f31e420178ba4ea"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9d67e3d4955669d11ccd_1-0",
+      "node": "TEXT_9d67e3d4955669d11ccd_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-mengyao-drink-shop-afternoon-TEXT_9d67e3d4955669d11ccd",
+          "i01-char-mengyao-human-casual-jacket-TEXT_9d67e3d4955669d11ccd"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9d67e3d4955669d11ccd_1-1",
+      "node": "TEXT_9d67e3d4955669d11ccd_1",
+      "assets": [
+        "bg-mengyao-drink-shop-afternoon"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-mengyao-drink-shop-afternoon-TEXT_9d67e3d4955669d11ccd"
+        ],
+        "exclude": [
+          "i01-char-mengyao-human-casual-jacket-TEXT_9d67e3d4955669d11ccd"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9d67e3d4955669d11ccd_1-2",
+      "node": "TEXT_9d67e3d4955669d11ccd_1",
+      "assets": [
+        "i02-neutral",
+        "char-mengyao-human-casual-jacket"
+      ],
+      "predicate": {
+        "include": [
+          "i01-char-mengyao-human-casual-jacket-TEXT_9d67e3d4955669d11ccd"
+        ],
+        "exclude": [
+          "i01-bg-mengyao-drink-shop-afternoon-TEXT_9d67e3d4955669d11ccd"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_9d67e3d4955669d11ccd_1-3",
+      "node": "TEXT_9d67e3d4955669d11ccd_1",
+      "assets": [
+        "bg-mengyao-drink-shop-afternoon",
+        "char-mengyao-human-casual-jacket"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-mengyao-drink-shop-afternoon-TEXT_9d67e3d4955669d11ccd",
+          "i01-char-mengyao-human-casual-jacket-TEXT_9d67e3d4955669d11ccd"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2c4893448c01eec53c1e_1-0",
+      "node": "TEXT_2c4893448c01eec53c1e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-mengyao-guiyang-home-day-TEXT_2c4893448c01eec53c1e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2c4893448c01eec53c1e_1-1",
+      "node": "TEXT_2c4893448c01eec53c1e_1",
+      "assets": [
+        "bg-mengyao-guiyang-home-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-mengyao-guiyang-home-day-TEXT_2c4893448c01eec53c1e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_0284df3dafffc66275a5_1-0",
+      "node": "TEXT_0284df3dafffc66275a5_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-oldstreet-shops-grocery-day-TEXT_0284df3dafffc66275a5"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_0284df3dafffc66275a5_1-1",
+      "node": "TEXT_0284df3dafffc66275a5_1",
+      "assets": [
+        "bg-oldstreet-shops-grocery-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-oldstreet-shops-grocery-day-TEXT_0284df3dafffc66275a5"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_aae6c5b4400a4742260f_1-0",
+      "node": "TEXT_aae6c5b4400a4742260f_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-oldstreet-shops-photo-studio-closed-day-TEXT_aae6c5b4400a4742260f"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_aae6c5b4400a4742260f_1-1",
+      "node": "TEXT_aae6c5b4400a4742260f_1",
+      "assets": [
+        "bg-oldstreet-shops-photo-studio-closed-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-oldstreet-shops-photo-studio-closed-day-TEXT_aae6c5b4400a4742260f"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_34abc2c075e706b57f33_1-0",
+      "node": "TEXT_34abc2c075e706b57f33_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-oldstreet-shops-shoe-repair-day-TEXT_34abc2c075e706b57f33"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_34abc2c075e706b57f33_1-1",
+      "node": "TEXT_34abc2c075e706b57f33_1",
+      "assets": [
+        "bg-oldstreet-shops-shoe-repair-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-oldstreet-shops-shoe-repair-day-TEXT_34abc2c075e706b57f33"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3a5ddbad4ebb91aeede9_1-0",
+      "node": "TEXT_3a5ddbad4ebb91aeede9_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-oldstreet-shops-grocery-changed-day67-TEXT_3a5ddbad4ebb91aeede9"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_3a5ddbad4ebb91aeede9_1-1",
+      "node": "TEXT_3a5ddbad4ebb91aeede9_1",
+      "assets": [
+        "bg-oldstreet-shops-grocery-changed-day67"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-oldstreet-shops-grocery-changed-day67-TEXT_3a5ddbad4ebb91aeede9"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_716089d701b47dc04669_1-0",
+      "node": "TEXT_716089d701b47dc04669_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-lianggao-shop-day-TEXT_716089d701b47dc04669"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_716089d701b47dc04669_1-1",
+      "node": "TEXT_716089d701b47dc04669_1",
+      "assets": [
+        "bg-lianggao-shop-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-lianggao-shop-day-TEXT_716089d701b47dc04669"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cb8a634af727e70a2e8a_1-0",
+      "node": "TEXT_cb8a634af727e70a2e8a_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-lianggao-shop-day-TEXT_cb8a634af727e70a2e8a"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_cb8a634af727e70a2e8a_1-1",
+      "node": "TEXT_cb8a634af727e70a2e8a_1",
+      "assets": [
+        "bg-lianggao-shop-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-lianggao-shop-day-TEXT_cb8a634af727e70a2e8a"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_976f273bccdf2727eb71_1-0",
+      "node": "TEXT_976f273bccdf2727eb71_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-piao-bijie-room-day-TEXT_976f273bccdf2727eb71"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_976f273bccdf2727eb71_1-1",
+      "node": "TEXT_976f273bccdf2727eb71_1",
+      "assets": [
+        "bg-piao-bijie-room-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-piao-bijie-room-day-TEXT_976f273bccdf2727eb71"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_73136c187174e38bf37e_1-0",
+      "node": "TEXT_73136c187174e38bf37e_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-piao-bijie-room-day-TEXT_73136c187174e38bf37e"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_73136c187174e38bf37e_1-1",
+      "node": "TEXT_73136c187174e38bf37e_1",
+      "assets": [
+        "bg-piao-bijie-room-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-piao-bijie-room-day-TEXT_73136c187174e38bf37e"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_93ac6fde2893bdcc80b3_1-0",
+      "node": "TEXT_93ac6fde2893bdcc80b3_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-performance-rehearsal-rain-day-TEXT_93ac6fde2893bdcc80b3"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_93ac6fde2893bdcc80b3_1-1",
+      "node": "TEXT_93ac6fde2893bdcc80b3_1",
+      "assets": [
+        "bg-performance-rehearsal-rain-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-performance-rehearsal-rain-day-TEXT_93ac6fde2893bdcc80b3"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_45ec242e885ad6eee10f_1-0",
+      "node": "TEXT_45ec242e885ad6eee10f_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-performance-rehearsal-rain-day-TEXT_45ec242e885ad6eee10f"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_45ec242e885ad6eee10f_1-1",
+      "node": "TEXT_45ec242e885ad6eee10f_1",
+      "assets": [
+        "bg-performance-rehearsal-rain-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-performance-rehearsal-rain-day-TEXT_45ec242e885ad6eee10f"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2598941edb9625f0c590_1-0",
+      "node": "TEXT_2598941edb9625f0c590_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-new-netcafe-counter-day-TEXT_2598941edb9625f0c590"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_2598941edb9625f0c590_1-1",
+      "node": "TEXT_2598941edb9625f0c590_1",
+      "assets": [
+        "bg-new-netcafe-counter-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-new-netcafe-counter-day-TEXT_2598941edb9625f0c590"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_eadb406b0f36acf02799_1-0",
+      "node": "TEXT_eadb406b0f36acf02799_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-old-netcafe-milk-tea-fr-day91-TEXT_eadb406b0f36acf02799"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_eadb406b0f36acf02799_1-1",
+      "node": "TEXT_eadb406b0f36acf02799_1",
+      "assets": [
+        "bg-old-netcafe-milk-tea-fr-day91"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-old-netcafe-milk-tea-fr-day91-TEXT_eadb406b0f36acf02799"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_75e4f14ce59399a94b29_1-0",
+      "node": "TEXT_75e4f14ce59399a94b29_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-photo-print-shop-day-TEXT_75e4f14ce59399a94b29"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_75e4f14ce59399a94b29_1-1",
+      "node": "TEXT_75e4f14ce59399a94b29_1",
+      "assets": [
+        "bg-photo-print-shop-day"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-photo-print-shop-day-TEXT_75e4f14ce59399a94b29"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b693cd7bcaa642bdd5aa_1-0",
+      "node": "TEXT_b693cd7bcaa642bdd5aa_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-piao-base-TEXT_b693cd7bcaa642bdd5aa"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b693cd7bcaa642bdd5aa_1-1",
+      "node": "TEXT_b693cd7bcaa642bdd5aa_1",
+      "assets": [
+        "i02-neutral",
+        "piao-base"
+      ],
+      "predicate": {
+        "include": [
+          "i01-piao-base-TEXT_b693cd7bcaa642bdd5aa"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b680428548c0cd01fcd4_1-0",
+      "node": "TEXT_b680428548c0cd01fcd4_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-shijiang-calculator-TEXT_b680428548c0cd01fcd4"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_b680428548c0cd01fcd4_1-1",
+      "node": "TEXT_b680428548c0cd01fcd4_1",
+      "assets": [
+        "i02-neutral",
+        "shijiang-calculator"
+      ],
+      "predicate": {
+        "include": [
+          "i01-shijiang-calculator-TEXT_b680428548c0cd01fcd4"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_1babded436ff01edd8a5_1-0",
+      "node": "TEXT_1babded436ff01edd8a5_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-prop-mengyao-workbook-page-TEXT_1babded436ff01edd8a5"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_1babded436ff01edd8a5_1-1",
+      "node": "TEXT_1babded436ff01edd8a5_1",
+      "assets": [
+        "i02-neutral",
+        "prop-mengyao-workbook-page"
+      ],
+      "predicate": {
+        "include": [
+          "i01-prop-mengyao-workbook-page-TEXT_1babded436ff01edd8a5"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_46789311a2091406d8b9_1-0",
+      "node": "TEXT_46789311a2091406d8b9_1",
+      "assets": [
+        "i02-neutral"
+      ],
+      "predicate": {
+        "include": [],
+        "exclude": [
+          "i01-bg-zhouzhi-guiyang-home-morning-TEXT_46789311a2091406d8b9"
+        ],
+        "conflict": false
+      }
+    },
+    {
+      "id": "i01-state-TEXT_46789311a2091406d8b9_1-1",
+      "node": "TEXT_46789311a2091406d8b9_1",
+      "assets": [
+        "bg-zhouzhi-guiyang-home-morning"
+      ],
+      "predicate": {
+        "include": [
+          "i01-bg-zhouzhi-guiyang-home-morning-TEXT_46789311a2091406d8b9"
+        ],
+        "exclude": [],
+        "conflict": false
+      }
+    }
+  ]
+}

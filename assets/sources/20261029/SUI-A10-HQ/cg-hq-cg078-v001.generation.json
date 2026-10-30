@@ -1,0 +1,194 @@
+{
+  "id": "CG078",
+  "title": "她自己的另一种样子",
+  "package": "SUI-A10-HQ",
+  "stem": "cg-hq-cg078-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A06/sui-a06-human-toy-base-v001-png",
+    "A08/bg-huangqiuqiu-room-day",
+    "A08/bg-old-netcafe-yard-door-open-afternoon"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261029/SUI-A06/selected/human/char-huangqiuqiu-human-toy-base-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-open-afternoon-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：成年黄球球人形B，右白遮片、米灰外套，浅圆脸玩偶棒；腰上截幅\n图3：A08/bg-huangqiuqiu-room-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：A08/bg-old-netcafe-yard-door-open-afternoon，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n核心画面：房门内成年黄球球人形腰上，按B：棕齐刘海、米灰外套白印花上衣、黑颈饰，画面右眼白遮片，手持同一浅色圆脸玩偶棒，另一手在门把附近。文文只门外牛仔侧肩。画面止腰上，不补腿/裤/裙，脸成熟成年，不画球形分身。\n衣装/形态硬约束：人形B：棕齐刘海、米灰外套/白印花上衣、黑颈饰、画面右白遮片；腰上截幅\n当拍道具：浅色圆脸玩偶棒在手，门把手\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；只取门框/门把和蓝凳的既有组件；CG012另一凳尚未搬近；CG078腰上人形，不把黄球球放到公开街道。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG078",
+    "kind": "retained-selection",
+    "title": "她自己的另一种样子",
+    "originalTitle": "她自己的另一种样子",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/黄球球-门后.md",
+        "line": 505,
+        "anchor": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。"
+      }
+    ],
+    "time": "第55天17:00，自主呈人形",
+    "routeGroup": "HQ",
+    "source": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 511,
+      "paragraph": "TEXT_3d133bc56ed5cf453822",
+      "scope": "### 剧情简介",
+      "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+      "quote": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。黑色颈饰贴着脖颈，右侧眼睛上是白色遮片，手里握着那根浅色的圆脸玩偶棒。",
+      "conditions": [],
+      "sourceSha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "matchText": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文视点、黄球球人形",
+      "offscreenOrRemote": "无公开路人"
+    },
+    "wardrobeAndForm": "人形B：棕齐刘海、米灰外套/白印花上衣、黑颈饰、画面右白遮片；腰上截幅",
+    "propState": "浅色圆脸玩偶棒在手，门把手",
+    "composition": "房门内腰上首次人形构图；不补裤裙/腿，不推断遮片病史。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "huangqiuqiu"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "HQ07的A/B均显示；不是选择奖励，玩偶无魔法功能；后续普通镜不默认持棒。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-human-toy-base-v001-png"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_3d133bc56ed5cf453822_1",
+      "visiblePageIds": [
+        "TEXT_3d133bc56ed5cf453822_1"
+      ],
+      "exitBeforeId": "TEXT_deae9b2b8a74fb363e20_1",
+      "snapshotBefore": "第55天17:00，自主呈人形；文文视点、黄球球人形；人形B：棕齐刘海、米灰外套/白印花上衣、黑颈饰、画面右白遮片；腰上截幅；浅色圆脸玩偶棒在手，门把手",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "HQ07的A/B均显示；不是选择奖励，玩偶无魔法功能；后续普通镜不默认持棒。"
+    },
+    "production": {
+      "package": "SUI-A10-HQ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-yard-fixed",
+        "owner": "SUI-A08",
+        "name": "蓝塑料凳/坏拖把/水桶/门框/白花",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huangqiuqiu-room",
+        "owner": "SUI-A08",
+        "name": "黄球球房间",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huangqiuqiu-room-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-yard-fixed",
+        "owner": "SUI-A08",
+        "name": "蓝塑料凳/坏拖把/水桶/门框/白花",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-old-netcafe-yard-door-open-afternoon",
+          "A08/bg-huangqiuqiu-room-day"
+        ],
+        "frameUse": "只取门框/门把和蓝凳的既有组件；CG012另一凳尚未搬近；CG078腰上人形，不把黄球球放到公开街道。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A06/sui-a06-human-toy-base-v001-png",
+      "A08/bg-huangqiuqiu-room-day",
+      "A08/bg-old-netcafe-yard-door-open-afternoon"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v001.png",
+  "sourceSha256": "332f09943a6a24342f10fbb4eaa3b38d9112c505bebbe65e15eb30e915e01d79",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-b32c0e81-d202-403d-bace-3beda1deb208.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A06/selected/human/char-huangqiuqiu-human-toy-base-v001.png",
+      "sha256": "da896efd584f917dc72ea7128d4002a39367508fd5448bbc09dc601077bcaa54"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.png",
+      "sha256": "3857e5fd500a7d0ef8141ac7feda63a6e9edd98e6d81313886d38cd0ac2ea870"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-open-afternoon-v001.png",
+      "sha256": "9101bf1c68346c043081a7c0a189511929c9b5051e7322a2fef2ef5eebf87596"
+    }
+  ],
+  "runtimeAdopted": false
+}

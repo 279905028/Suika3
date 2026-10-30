@@ -1,0 +1,192 @@
+{
+  "id": "CG070",
+  "title": "留一张给朋友",
+  "package": "SUI-A10-PI",
+  "stem": "cg-pi-cg070-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "PRE/photo-piao-table-hands-v001",
+    "PRE/photo-piao-oldstreet-after-rain-v001",
+    "PRE/prop-wenwen-personal-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-table-hands-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-oldstreet-after-rain-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：按共同段毛狼护腕手推杯向画外；后续文文回复保留此前推茶往来，不改成当下实时同桌，不补未知露脸成员。\n图3：沿A08老街顺序与材质；只用正面，不编造背面拍摄日期和参数。\n图4：道具多视图不表示多部手机。CG001坏轮未修；CG082只保留当拍仍可用租屋钥匙，不复制板上的全部钥匙。\n核心画面：暖灯下桌面与牛仔袖手、黑手机近景，两张纸照片正面摆在上中部：一张严格沿参考的毛狼护腕手推茶杯桌面照片，另一张严格沿雨后老街照片；背面不显示日期参数。手机显示桌面图已发送、短句“已经收到了”，不画实时三人坐桌。\n衣装/形态硬约束：只需文文B衣袖；不画三人实时同桌\n当拍道具：寄来的两张照片：桌面与雨后老街；手机回复\n逐镜参考用法：两张寄来照片用正面：桌面毛狼手推杯/雨后老街；背面未知日期参数不见。文文回复保持普通朋友；不画实时三人同桌。；只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG070",
+    "kind": "retained-selection",
+    "title": "留一张给朋友",
+    "originalTitle": "留一张给朋友",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+        "line": 1334,
+        "anchor": "我把合照发给飘，说已经收到了。她回我，桌上那杯茶是我推给毛狼的，她原以为我没记得。"
+      }
+    ],
+    "time": "LOW第91天，收照片后回复",
+    "routeGroup": "PI",
+    "source": {
+      "path": "scenario/飘-空白页.md",
+      "line": 1344,
+      "paragraph": "TEXT_2adf895574811f376eff",
+      "scope": "PI-LE2",
+      "nearestNode": "<!-- NODE PI-LOW-D36-COMPLETE -->",
+      "quote": "我把合照发给飘，说已经收到了。她回我，桌上那杯茶是我推给毛狼的，她原以为我没记得。我说确实忘了，幸好她拍下来。",
+      "conditions": [
+        "PIAO_RELATION=LOW",
+        "PI-L06-01=B"
+      ],
+      "sourceSha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "matchText": "我把合照发给飘，说已经收到了。她回我，桌上那杯茶是我推给毛狼的，她原以为我没记得。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文",
+      "offscreenOrRemote": "飘仅消息；毛狼仅照片里的手/茶杯语义"
+    },
+    "wardrobeAndForm": "只需文文B衣袖；不画三人实时同桌",
+    "propState": "寄来的两张照片：桌面与雨后老街；手机回复",
+    "composition": "照片、手与手机近景；保留推茶杯往来，不把未明确的合照人物补满。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "piao"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=LOW",
+        "PI-L06-01=B"
+      ]
+    },
+    "reviewNotes": "照片正面/反面日期参数未给具体值，A05需补成片；不能拿CG068恋人散步图代替。",
+    "referenceKeys": [
+      "A07/wenwen-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_2adf895574811f376eff_1",
+      "visiblePageIds": [
+        "TEXT_2adf895574811f376eff_1"
+      ],
+      "exitBeforeId": "TEXT_ec404ed2440ffa3c6c0c_1",
+      "snapshotBefore": "LOW第91天，收照片后回复；文文；只需文文B衣袖；不画三人实时同桌；寄来的两张照片：桌面与雨后老街；手机回复",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "照片正面/反面日期参数未给具体值，A05需补成片；不能拿CG068恋人散步图代替。"
+    },
+    "production": {
+      "package": "SUI-A10-PI",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "prop-piao-photos",
+        "owner": "SUI-A05",
+        "name": "桌角/群照/雨后老街照片",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-message-screen-cg070",
+        "owner": "SUI-A10-PI",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "待补当拍参考；非已放行资源",
+        "templateKey": "prop-message-screen"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "prop-piao-photos",
+        "owner": "SUI-A05",
+        "name": "桌角/群照/雨后老街照片",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/photo-piao-table-hands-v001",
+          "PRE/photo-piao-oldstreet-after-rain-v001"
+        ],
+        "frameUse": "两张寄来照片用正面：桌面毛狼手推杯/雨后老街；背面未知日期参数不见。文文回复保持普通朋友；不画实时三人同桌。"
+      },
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-wenwen-personal-kit-v001"
+        ],
+        "frameUse": "只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。"
+      }
+    ],
+    "internalWorkItems": [
+      {
+        "requirementId": "prop-message-screen-cg070",
+        "owner": "SUI-A10-PI",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "in-package-production-work",
+        "templateKey": "prop-message-screen",
+        "frameUse": "寄来的两张照片：桌面与雨后老街；手机回复；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+        "referenceKeys": []
+      }
+    ],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "PRE/photo-piao-table-hands-v001",
+      "PRE/photo-piao-oldstreet-after-rain-v001",
+      "PRE/prop-wenwen-personal-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg070-v001.png",
+  "sourceSha256": "d6de40ef6f8017b79e1f47c5c575c10fbbf81e138c49fdfcbdcc8a4d879a85e4",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-24fbf8cb-adb0-4948-8d30-30398e791f07.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-table-hands-v001.png",
+      "sha256": "43fb2b1c3cee3ead8391625300b0b7203b529e111f4b418fcdd7d7a111519852"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A05/photo-piao-oldstreet-after-rain-v001.png",
+      "sha256": "3751dd7078b3f8680b13bcfba2f84c21c7293b53de0c5ba88c2ba0d6c765c3e2"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png",
+      "sha256": "b9abeb96d46f97a4cae9bc7f40b34d15f828c27f13c531e5eeaa0e4c3fa6def2"
+    }
+  ],
+  "runtimeAdopted": false
+}

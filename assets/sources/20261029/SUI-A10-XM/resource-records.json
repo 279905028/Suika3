@@ -1,0 +1,992 @@
+{
+  "task": "SUI-A10-XM",
+  "count": 8,
+  "adoptedCount": 0,
+  "records": [
+    {
+      "assetId": "cg-xm-cg014",
+      "cgId": "CG014",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-XM",
+      "version": "v002",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg014-v002.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg014-v002.webp",
+      "sha256Source": "d9628b4a17ad12f70dbe346cf1ac4a9485a82f469c4536603dc6f28e4bd5c624",
+      "sha256Derivative": "a806575b89f6715d073a95075e18ceb4f40d1590f2a534fd2132ec76c7748655",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1500444,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG014.png",
+        "sha256": "b769c05a5e2bba07a5e5d74a56c3d15c56409bb2de83415957ff28b79b6be461",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG014.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg014-v002.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg014-v002.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-c652af18-d6a8-4dd0-a983-b7be12e9c0b6.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A02/char-xiaoman-work-apron",
+        "A08/bg-salon-bijie-mirror-day",
+        "PRE/prop-xiaoman-open-practice-kit-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg014-v001.png",
+          "sha256": "c94a24ae27c5c6c0f29001aab9ae8736cfefa60ed9afa4be0ce6150e5b6b6876"
+        }
+      ],
+      "source": {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 183,
+        "paragraph": "TEXT_349bbd636dd0285613f4",
+        "scope": "XM04-01/COMMON",
+        "nearestNode": null,
+        "quote": "夹子从她嘴边掉下来，落在围布上。",
+        "conditions": [],
+        "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+        "matchText": "夹子从她嘴边掉下来，落在围布上。",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "xiaoman"
+          }
+        ],
+        "requiredExpressions": []
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_349bbd636dd0285613f4_1",
+        "visiblePageIds": [
+          "TEXT_349bbd636dd0285613f4_1"
+        ],
+        "exitBeforeId": "TEXT_ea0b3ac36b21df5f4f8b_1",
+        "snapshotBefore": "第22天剪发；文文、罗小满；小满工作围裙、卷袖；文文已围围布；短发长度按剪发进行中；镜子、发夹、围布、剪刀/梳子",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "新增镜像手位/卷袖/发夹草图待A02；镜像不改变人物原有左右特征。"
+      },
+      "wardrobeAndForm": "小满工作围裙、卷袖；文文已围围布；短发长度按剪发进行中",
+      "propState": "镜子、发夹、围布、剪刀/梳子",
+      "internalWorkItems": [],
+      "visualNote": "文文保持正头看镜子，小满镜中抬眼；黑发夹已在围布，工具离开皮肤。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-xm-cg015",
+      "cgId": "CG015",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-XM",
+      "version": "v004",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v004.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v004.webp",
+      "sha256Source": "3b49d067a31a6beca4a34a18f17d5ee48b3f8b55b18152ae9e56ede3e302c37c",
+      "sha256Derivative": "0e9fb28c8697ce3f3df700cd701ed9670483f34dcae757901c051cbf024ec265",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1529798,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG015.png",
+        "sha256": "39bdd571f2584cf7a0f5bb461817d87e8c2456087d716af5553c04d02901afde",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG015.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v004.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v004.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-7202ec0a-f220-45dc-bddd-312f662a10fc.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A02/char-xiaoman-work-apron",
+        "A08/bg-salon-bijie-washbasin-day",
+        "PRE/prop-salon-washbasin-reference-v001",
+        "PRE/prop-xiaoman-open-practice-kit-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v003.png",
+          "sha256": "b3658829b2dc9e8af1b6ae207bda7093a653b30c668c99a705c74aee92f42c20"
+        }
+      ],
+      "source": {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 205,
+        "paragraph": "TEXT_c517df625419350bc668",
+        "scope": "XM04-01/COMMON",
+        "nearestNode": null,
+        "quote": "我忍着没动。她的手从毛巾边伸进去，把那根扎人的碎发捻掉。再睁眼，她正低着头，离我很近。我看见她左边睫毛上沾了一点水。",
+        "conditions": [],
+        "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+        "matchText": "我看见她左边睫毛上沾了一点水。",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "xiaoman"
+          }
+        ],
+        "requiredExpressions": []
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_c517df625419350bc668_1",
+        "visiblePageIds": [
+          "TEXT_c517df625419350bc668_1"
+        ],
+        "exitBeforeId": "TEXT_36e616e9a7c5c41f4bc7_1",
+        "snapshotBefore": "第22天剪完冲碎发；文文、罗小满；小满延续同日工作版；文文湿短发、仰躺洗头池；卷毛巾、洗头池；睫毛一滴水",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "起身碰下巴在后段；本拍不能提前坐起。"
+      },
+      "wardrobeAndForm": "小满延续同日工作版；文文湿短发、仰躺洗头池",
+      "propState": "卷毛巾、洗头池；睫毛一滴水",
+      "internalWorkItems": [],
+      "visualNote": "手在颈后毛巾边捻碎发，已停止揉洗；小满本人左睫毛可见小水滴，不是吻。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-xm-cg016",
+      "cgId": "CG016",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-XM",
+      "version": "v001",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg016-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg016-v001.webp",
+      "sha256Source": "2ae73ca58a9b391457d7a9443f480ac7a1e1425df65ef49afa403a8bf5b3855f",
+      "sha256Derivative": "0d59f5f9db8f5204413971243930e48567faedf76ba7364651f54e6b0441094f",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1713340,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG016.png",
+        "sha256": "4a5bee1055284b71652cbdfa4723e85387049a247c7fe71ca04eefcf9716be51",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG016.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg016-v001.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg016-v001.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-7d796a3d-b985-4ec7-9647-4a6c05ee6ccd.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A02/char-xiaoman-base",
+        "A08/bg-bbq-xiaoman-friends-stall-night"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+          "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-stall-night-v001.png",
+          "sha256": "62c08f67ef5fc2364a8351dbde0335ea76d2c54afb00a12bfbc95b22554b001b"
+        }
+      ],
+      "source": {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 265,
+        "paragraph": "TEXT_6f3a9c2e24bb2b0249dc",
+        "scope": "### 剧情简介",
+        "nearestNode": null,
+        "quote": "她抓住我的外套前襟，吻了过来。",
+        "conditions": [],
+        "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+        "matchText": "她抓住我的外套前襟，吻了过来。",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "xiaoman"
+          }
+        ],
+        "requiredExpressions": []
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_6f3a9c2e24bb2b0249dc_1",
+        "visiblePageIds": [
+          "TEXT_6f3a9c2e24bb2b0249dc_1"
+        ],
+        "exitBeforeId": "TEXT_dbd1dd6c9838759b26bb_1",
+        "snapshotBefore": "第27天烧烤摊；文文、罗小满；小满A日常衣装、文文B外套；塑料凳、膝边餐桌；小满抓文文外套前襟",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "当众说对象尚未经文文同意，不能图内写成贵阳已交往；阿俊未定脸，不凭空补出。"
+      },
+      "wardrobeAndForm": "小满A日常衣装、文文B外套",
+      "propState": "塑料凳、膝边餐桌；小满抓文文外套前襟",
+      "internalWorkItems": [],
+      "visualNote": "成年人普通短暂闭唇吻，小满抓牛仔外套前襟；无人拍摄、无文字关系宣告。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-xm-cg019",
+      "cgId": "CG019",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-XM",
+      "version": "v001",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg019-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg019-v001.webp",
+      "sha256Source": "a56cf849d9fc0bf5f199ee8e8c46d63e07d1a41e38c151263d0074da53461eeb",
+      "sha256Derivative": "f89322c345f5f64cc4478f56c0682326fa612f6fd315a8b5d2062da258369d35",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1488846,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG019.png",
+        "sha256": "ce14cb0874a4faf06d62f5030b489106e2ece13dc8bfa7d982963fe629d3ff8d",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG019.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg019-v001.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg019-v001.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-39bfe233-6ad5-4d9c-b2cd-7cd18e35ca0c.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A02/char-xiaoman-base",
+        "A08/bg-wenwen-bijie-rental-day",
+        "PRE/char-xiaoman-morning-white-tee-v001",
+        "PRE/prop-xiaoman-open-practice-kit-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+          "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-day-v001.png",
+          "sha256": "6ce6e931ccc5a600c7da79c9171eaf659c700dcb807a324f30995f75bf3f1dcb"
+        },
+        {
+          "path": "assets/sources/20261029-cg-preflight/SUI-A02/char-xiaoman-morning-white-tee-v001.png",
+          "sha256": "4affaa1ed2ae495aee55abc462dfc91397cb66522daef5a6aeaef475688578a8"
+        },
+        {
+          "path": "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.png",
+          "sha256": "7044e8aeb32ba258dc05913164aac934d9e157696d643c566c767026b31cc62b"
+        }
+      ],
+      "source": {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 651,
+        "paragraph": "TEXT_ffed693f46ad088fe05a",
+        "scope": "XM07-01/COMMON",
+        "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+        "quote": "“今天说好的那一笔，下午给。你别又喊我算了。”",
+        "conditions": [
+          "XM07-01=A"
+        ],
+        "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+        "matchText": "“今天说好的那一笔，下午给。你别又喊我算了。”",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "xiaoman"
+          }
+        ],
+        "requiredExpressions": [
+          "XM07-01=A"
+        ]
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_ffed693f46ad088fe05a_1",
+        "visiblePageIds": [
+          "TEXT_ffed693f46ad088fe05a_1"
+        ],
+        "exitBeforeId": "TEXT_6ed5993d26d4999f77d4_1",
+        "snapshotBefore": "第45天留宿后的次晨；文文、罗小满；小满沿A02已选白色内搭，乱发、肩部近景；文文画外，不扩展床头衣装。；手机通话，水杯尚未递出",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "此拍属于早期A，未来XM08可A或B；不能限最终AA。接阿俊来电的是小满手机，设备不可错误绑定为文文同一台。"
+      },
+      "wardrobeAndForm": "小满沿A02已选白色内搭，乱发、肩部近景；文文画外，不扩展床头衣装。",
+      "propState": "手机通话，水杯尚未递出",
+      "internalWorkItems": [],
+      "visualNote": "按确认白色内搭肩上景、浅灰电话，文文和递水动作未入画。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-xm-cg020",
+      "cgId": "CG020",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-XM",
+      "version": "v001",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg020-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg020-v001.webp",
+      "sha256Source": "9729cbfac6eff3fe584bbacd3edc0d2af4d049bf1c54846d3af01dc1a13c597f",
+      "sha256Derivative": "d8d6f883cc70cb03a59d07e890f27ecd488f512948de145bc5f3b621a4332551",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1877768,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG020.png",
+        "sha256": "f6f412f9396d8d1ee3681a84039f9fcdb53a90dd51601b599d8d739dd8bc061f",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG020.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg020-v001.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg020-v001.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-cbf8ab79-7848-4ab4-9c34-b2c0f4f1866c.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A02/char-xiaoman-two-helmets",
+        "A08/bg-bus-stop-bijie-stop-day"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+          "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-two-helmets-v002.png",
+          "sha256": "d6a25b846ec16dee30f09582d9b471078951a4af5ef9fc7830efbe33e9f93a26"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/bg-bus-stop-bijie-stop-day-v002.png",
+          "sha256": "7eb744e6a20fec7777f7c4e0a2ad980b1d05023f1bbb71b4b1c404beba2ca7ad"
+        }
+      ],
+      "source": {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 713,
+        "paragraph": "TEXT_e43f8d1f3ad28c71dd2e",
+        "scope": "### 剧情简介",
+        "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+        "quote": "我看了一眼站牌，告诉她。她嗯了一声，没往站台去，先找了个台阶坐下。那顶留给我的头盔放在她膝上，安全带拖到地面，她猛地提起来，拍掉灰。",
+        "conditions": [],
+        "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+        "matchText": "她嗯了一声，没往站台去，先找了个台阶坐下。",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "xiaoman"
+          }
+        ],
+        "requiredExpressions": []
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_e43f8d1f3ad28c71dd2e_1",
+        "visiblePageIds": [
+          "TEXT_e43f8d1f3ad28c71dd2e_1"
+        ],
+        "exitBeforeId": "TEXT_48ce77f98ad1d9625cea_1",
+        "snapshotBefore": "第53天卖车之后；文文、罗小满；小满A低落抱双头盔v002，文文B；两顶头盔、台阶；车和备用钥匙已交出",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "随后头盔寄店，不随身带去成都；不使用微笑v001。"
+      },
+      "wardrobeAndForm": "小满A低落抱双头盔v002，文文B",
+      "propState": "两顶头盔、台阶；车和备用钥匙已交出",
+      "internalWorkItems": [],
+      "visualNote": "严格两顶头盔，提起拖地带；无车、车钥匙和第三顶。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-xm-cg022",
+      "cgId": "CG022",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-XM",
+      "version": "v001",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg022-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg022-v001.webp",
+      "sha256Source": "05f9f4a7e6b75fe3245cd244debfe57c8126d5bb7089b81b2589f815e60c3a46",
+      "sha256Derivative": "4316bd03c366f4e796eb836b294cc175e98baed03e1b271fed42a2ef2401ce38",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1832032,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG022.png",
+        "sha256": "c332dbefbf64c37722fc0918c89f63edd5c000f6b7b21358fe55728035748e59",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG022.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg022-v001.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg022-v001.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-2c03eac5-20aa-4677-a54d-0b50b53dff17.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A02/char-xiaoman-base",
+        "A08/bg-departure-station-morning-rain",
+        "PRE/prop-station-travel-bags-reference-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+          "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+          "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-departure-station/bg-departure-station-morning-rain-v001.png",
+          "sha256": "99ac287ef3b651ba24114721a720a49668a027abdc5cf03e9fe1fc1e0667cf44"
+        },
+        {
+          "path": "assets/sources/20261029-cg-preflight/SUI-A08/prop-station-travel-bags-reference-v001.png",
+          "sha256": "4d09df424b36e1dfcb1110ed58125460af6de31f8e2b275962921f3c5149ee6e"
+        }
+      ],
+      "source": {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 805,
+        "paragraph": "TEXT_afa0e8aec5daf88bcc0e",
+        "scope": "XM08-01/COMMON",
+        "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+        "quote": "“这次没观众。”她说，“还认不认？”",
+        "conditions": [
+          "XM07-01=A&XM08-01=A"
+        ],
+        "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+        "matchText": "“这次没观众。”她说，“还认不认？”",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "xiaoman"
+          }
+        ],
+        "requiredExpressions": [
+          "XM07-01=A&XM08-01=A"
+        ]
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_afa0e8aec5daf88bcc0e_1",
+        "visiblePageIds": [
+          "TEXT_afa0e8aec5daf88bcc0e_1"
+        ],
+        "exitBeforeId": "TEXT_8911b6b6bab29d2929d0_1",
+        "snapshotBefore": "第60天车站；文文、罗小满；小满A日常版，文文B外套；拉住领口；脚边行李箱绑带已收好",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "AB拥抱/BA交照片/BB无拥抱均不能复用此镜；不画已售电动车和寄存头盔。"
+      },
+      "wardrobeAndForm": "小满A日常版，文文B外套",
+      "propState": "拉住领口；脚边行李箱绑带已收好",
+      "internalWorkItems": [],
+      "visualNote": "小满抓领口认真抬眼，尚未吻；灰蓝箱与绑带，无观众。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-xm-cg023",
+      "cgId": "CG023",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-XM",
+      "version": "v001",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.webp",
+      "sha256Source": "ed27c92642a3df992865cd5651b8fcbc44f2a1122e4b19e40668c10524196273",
+      "sha256Derivative": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1632872,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG023.png",
+        "sha256": "8cd673e659e551d68e9709efdde5a0b79224388d57ba28706938754c2f76d832",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG023.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-50dff2a2-f428-4abd-bd04-c6e55ef6851b.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A02/char-xiaoman-base",
+        "A02/char-xiaoman-practice-notebook",
+        "A08/bg-chengdu-salon-study-screen-reference-day",
+        "A08/bg-bijie-slope-street-day-overcast",
+        "PRE/prop-xiaoman-open-practice-kit-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+          "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-base-action-practice-notebook-v001.png",
+          "sha256": "69336079d9c8e9339f70b87181a32234552f59d301e27e1e9b2e84c1573d99ae"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study/bg-chengdu-salon-study-screen-reference-day-v002.png",
+          "sha256": "efe4ec6b233fb3b10b9d85ca2f85300801d4455cc08317e4bdeb2ff3ef2ed886"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-day-overcast-v002.png",
+          "sha256": "28b558a9d6327084727b38cb254de76078127c39321ee8e73db2dc925f95e850"
+        }
+      ],
+      "source": {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 1045,
+        "paragraph": "TEXT_9f585d37b274e081bfb9",
+        "scope": "XM-E1",
+        "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+        "quote": "她看了我一眼，突然拿练习本挡住半张脸。过了几秒，又放下来，对着镜头飞快亲了一下，骂我站路边还讲这个。",
+        "conditions": [
+          "XM07-01=A&XM08-01=A"
+        ],
+        "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+        "matchText": "她看了我一眼，突然拿练习本挡住半张脸。",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "xiaoman"
+          }
+        ],
+        "requiredExpressions": [
+          "XM07-01=A&XM08-01=A"
+        ]
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_9f585d37b274e081bfb9_1",
+        "visiblePageIds": [
+          "TEXT_9f585d37b274e081bfb9_1"
+        ],
+        "exitBeforeId": "TEXT_e268e2b78e9d6cab26bf_1",
+        "snapshotBefore": "第91天，成都宿舍视频通话；文文在毕节；罗小满仅在手机视频内；小满A脸型；视频截胸上，不补睡衣；文文B袖；手机视频、打开再挡脸的练习本",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "不是文文到成都，也不是隔本实体接吻；宿舍细节以A08远程参考为限。"
+      },
+      "wardrobeAndForm": "小满A脸型；视频截胸上，不补睡衣；文文B袖",
+      "propState": "手机视频、打开再挡脸的练习本",
+      "internalWorkItems": [
+        {
+          "requirementId": "prop-message-screen-cg023",
+          "owner": "SUI-A10-XM",
+          "name": "电话/消息/日历局部草图",
+          "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+          "status": "in-package-production-work",
+          "templateKey": "prop-message-screen",
+          "frameUse": "手机视频、打开再挡脸的练习本；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+          "referenceKeys": []
+        }
+      ],
+      "visualNote": "手机边框分隔两地，小满黑练习本挡半脸，尚未飞吻。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-xm-cg102",
+      "cgId": "CG102",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-XM",
+      "version": "v002",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg102-v002.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg102-v002.webp",
+      "sha256Source": "f4c67b641ff606a5025c5d961113b268fac294e45f3f21f52dfc1ceb890ef1a2",
+      "sha256Derivative": "2b53f1c9b841300356169744838179ef503ffd208a5a9808f387c6e7ec07847a",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1305114,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG102.png",
+        "sha256": "87b60161fee5a19f7b367c14baaa9cd1f2dad949fe51e85f3fa1b365b88783ef",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG102.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg102-v002.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg102-v002.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-df22e227-5c9d-4ab9-8d99-ee55891e0334.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A02/char-xiaoman-work-apron",
+        "PRE/photo-xiaoman-wenwen-day22-haircut-v002",
+        "PRE/prop-wenwen-personal-kit-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg102-v001.png",
+          "sha256": "d7141ae72bde19f822e7459dfae7a487b9de7555ac08b96ca7738449dc4b8c5c"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg107-v001.png",
+          "sha256": "7c4b7fabb0640962b44dbad4266123e56dbda4587af620e3217342404ec69e48"
+        },
+        {
+          "path": "assets/sources/20261029-cg-preflight/SUI-A02/photo-xiaoman-wenwen-day22-haircut-v002.png",
+          "sha256": "38a821e05d58e402caf7150599b864884a7ff96de4e3d20506db374b11643e7f"
+        }
+      ],
+      "source": {
+        "path": "scenario/罗小满-练习本.md",
+        "line": 1061,
+        "paragraph": "TEXT_c0c246e6602a331d74d0",
+        "scope": "XM-E2",
+        "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+        "quote": "我把另一张补上。她收到以后，问我刚才是不是又去店里。我说是。视频没开，我们都不用猜对方此刻是什么表情。",
+        "conditions": [
+          "XM07-01=B|XM08-01=B"
+        ],
+        "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+        "matchText": "我把另一张补上。她收到以后，问我刚才是不是又去店里。",
+        "oldAnchorExact": false
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "xiaoman"
+          }
+        ],
+        "requiredExpressions": [
+          "XM07-01=B|XM08-01=B"
+        ]
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_c0c246e6602a331d74d0_1",
+        "visiblePageIds": [
+          "TEXT_c0c246e6602a331d74d0_1"
+        ],
+        "exitBeforeId": "BRANCH_7513649bd766049a1d7b",
+        "snapshotBefore": "第91天，XM-E2；文文；文文B袖；小满只以作品/剪发照片关联；第22天原始侧面照、手机，不开视频",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "保留分开后普通互助，AB/BA/BB不重新许诺；照片正面另需A02同版参考。"
+      },
+      "wardrobeAndForm": "文文B袖；小满只以作品/剪发照片关联",
+      "propState": "第22天原始侧面照、手机，不开视频",
+      "internalWorkItems": [
+        {
+          "requirementId": "prop-message-screen-cg102",
+          "owner": "SUI-A10-XM",
+          "name": "电话/消息/日历局部草图",
+          "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+          "status": "in-package-production-work",
+          "templateKey": "prop-message-screen",
+          "previousRequirementId": "prop-message-screen-a09-c02",
+          "frameUse": "第22天原始侧面照、手机，不开视频；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+          "referenceKeys": []
+        }
+      ],
+      "visualNote": "文文主观持机发送第22天侧面原照；完整耳周与剪坏缺口保留，不是视频。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "status": "pass",
+  "scope": "本轮报告输入一致性、旧选择保留、人工反馈修复及活跃文档链接；不是引擎验收",
+  "sourceReport": "content-audit.json",
+  "sourceReportSha256": "e9c3ebcb5393e1ceb1526284c0511549415e78dee3519cc53b650df8d8dde5d6",
+  "reportInputsStillMatch": 18,
+  "oldChoicesPreserved": 62,
+  "newChoiceIds": [
+    "C01-06",
+    "C02-08",
+    "C02-09"
+  ],
+  "semanticCorrections": [
+    {
+      "file": "scenario/第一章-回到毕节.md",
+      "text": "我想起她本子里的空白，问剩下那些来不来得及写完。",
+      "status": "confirmed"
+    },
+    {
+      "file": "scenario/第二章-十四天.md",
+      "text": "她发来一句晚安。我放下手机，明天下午先去哪里，仍然要自己决定。",
+      "status": "confirmed"
+    },
+    {
+      "file": "scenario/飘-空白页.md",
+      "text": "我想起聚会散场时，飘还在研究相机。",
+      "status": "confirmed"
+    }
+  ],
+  "activeMarkdownFiles": 46,
+  "localLinks": 258,
+  "brokenLinks": [],
+  "documentHashes": {
+    "scenario/README.md": "bebaa12b9d3ae5c125159ebdcf5479b265ed8d950e5a46f2f3f4d9f3760080f0",
+    "scenario/后日谈-他们的日子.md": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+    "scenario/后日谈-未写完的安排.md": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb",
+    "scenario/周栀-十一点四十七分.md": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+    "scenario/孟遥-旧题.md": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+    "scenario/朋友与职业-夜班.md": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab",
+    "scenario/第一章-回到毕节.md": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919",
+    "scenario/第三章-选一条路.md": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8",
+    "scenario/第二章-十四天.md": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140",
+    "scenario/罗小满-练习本.md": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+    "scenario/规则契约.md": "dc66fffa0599d7cc21bf64f94a0f50c3091a04adfa7a3bfb076ae8535c773035",
+    "scenario/跨路线-第36天的消息.md": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+    "scenario/选择设计.md": "e09748b3a853d0e62e6a15fe7aba9d2f8f13aa84c9cefe88d473ba19fb9981ce",
+    "scenario/飘-空白页.md": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+    "scenario/黄球球-门后.md": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+    "docs/CG调整清单.md": "3387c4870acfc89403936d2ded2f0e4c32c0580e4878a7c397fc3377000f0414",
+    "docs/SUI-A美术子任务.md": "b7ed74434761759db971d4480ec7e74a666057395fec4de50ef084be1a90c89b",
+    "docs/人物/README.md": "e32939b07fd5fba9ec48bdb8a55dcfb5bda21072ab1a1c373f995cb44f2e1853",
+    "docs/人物/叶岚.md": "4a1bf6bfcc5163092e11832eadb8634392d6c1726824963cbe27ab2095c2fe0c",
+    "docs/人物/周栀.md": "b15d4dc0d12a617e0532fd636eafd1cc73a7e1c3a2f62b7bcef8abc8bb4da684",
+    "docs/人物/孟遥.md": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74",
+    "docs/人物/师匠.md": "bc43c91684357798e4717e886d4fd873022aeed81a339b0c506ee242f9a4e6ef",
+    "docs/人物/文文.md": "f4bdf7a09a68d2c0e2a39da47ebdb60ebd3680680f86b262413d0b3c14a57600",
+    "docs/人物/毛狼.md": "1671c6c823a61f7780677fbe4e42b57eb5872ee2a94242b2ce51cc09ef4789a6",
+    "docs/人物/罗小满.md": "d0abe1eda98219ddc8585ce58ce6bfed1ed255fe85a950969178ac98a7d6168f",
+    "docs/人物/飘.md": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c",
+    "docs/人物/黄球球.md": "7f4dd819d01e8dd442ac736290d6b12c7e1337bca73a7e8c7525dc6cddb9cab1",
+    "docs/分支/README.md": "a580f17b01c9c10ced9b1c3ab87649360c1289ef798c03eea70c61bbbca86f72",
+    "docs/分支/关系后日谈.md": "c98f1f8306c1c8d6338e2abb0a553d60b2141655ac05e00429c99baa6fe5904f",
+    "docs/分支/周栀线.md": "14949053efd67a5b37110709d0e02fdb3058b8dd0e616f9646fbd356b2df1952",
+    "docs/分支/孟遥线.md": "8b65c94b43ba2c394b97e3745d039a7090d2b1f0afee0345f111ae143659cdb0",
+    "docs/分支/朋友与职业线.md": "21468c9d4b94c5a781cd29d0c98975a1fd9171eb8cedd40f926ca495c4b4c8c2",
+    "docs/分支/游戏流程图.md": "d5011b7b9741e1564b7952e49e8ec0fb9acc1c164bd3268fa63d4eba368a9b82",
+    "docs/分支/罗小满线.md": "be437b3f644c04d949564e58a5d1964fe329f3333dbd6e0ee18038bd46ab1b85",
+    "docs/分支/选择与解锁规则.md": "fe3e33912bf3db01d3340c13bc0ebff4b1a5937f5dde56121b9d3fde227f28b8",
+    "docs/分支/飘线.md": "336818dd583dfb75d51035bae39b12e2de43d705be94b4873359cc668a774c94",
+    "docs/分支/黄球球隐藏线.md": "6f089ecdc5640332a34fa27a305b9af8793de769dc7701e83e987ea5ea059953",
+    "docs/工程结构.md": "bdde93e0f4b01473301706aeef5262954817dbc7de9a7c640bf2b69c1b8400c3",
+    "docs/开发计划.md": "2f2128a3c5dc432543d8f3ea980d6b45b9ab43621d6acf4c395eebb820de8536",
+    "docs/美术资源规范.md": "98308a10f09b3e3369c147437f52a7b235a73c4144364e168393c661110ef285",
+    "qa/sui-s-20261028/content-audit.md": "57de0e3723e23fe035b81fcffa93a4358a578086459a22a1d5bf877c7820f7e2",
+    "qa/sui-s-20261028/day-sequence-review.md": "4cc2ac270047ce8cc05ab664d916ac15a5022b19244bdb59f95852748f171267",
+    "qa/sui-s-20261028/交接.md": "1dc8ba841360d90e947c87663e48fe6365939bc14c8e9e47ef8b935fa0c6b4c6",
+    "README.md": "0bf0d22eda6715be6c98c43dedfdc0b0da5e8c9bc19e4c5c9062b25a1fac5b9a",
+    "TODO-v1.1.md": "bd4a1108610d58ca9347d42f0c73eadf7af3cfeb4b60a427cd80b35b4a2aef3a",
+    "AGENTS.md": "3018f0e602085104264c6450357d0e60b6ab922910a69eb0a6853feb1d60afd9"
+  }
+}

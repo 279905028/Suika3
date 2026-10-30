@@ -1,0 +1,601 @@
+{
+  "task": "SUI-A10-FR",
+  "count": 5,
+  "adoptedCount": 0,
+  "records": [
+    {
+      "assetId": "cg-fr-cg086",
+      "cgId": "CG086",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-FR",
+      "version": "v002",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v002.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v002.webp",
+      "sha256Source": "4dd48f873f80fce9f7468d4b4253dac14fb5ebf5b258d0ed13500b95b0a15910",
+      "sha256Derivative": "965c1a29f75a55e8f774fca0a767b8de24c16c1185ad60998ffded8cd2e4ef05",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 940,
+      "bytes": 1612456,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG086.png",
+        "sha256": "442a4263cb09a964263484f89e20c2b62c8d7a318855676e1e2a81075c202243",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1280,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG086.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v002.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v002.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-e0f2d4fb-03c4-4a84-9a5e-e08653eefdba.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A07/shijiang-serious",
+        "A07/maolang-base",
+        "A08/bg-old-netcafe-counter-day",
+        "PRE/prop-extras-tools-reference-v001",
+        "PRE/prop-maolang-performance-papers-v001",
+        "PRE/prop-shared-handheld-food-boxes-reference-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v001.png",
+          "sha256": "dd697aa15ab8da79c14050cd453dbc5ee5bded90f636196464d9c077e759be46"
+        }
+      ],
+      "source": {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 105,
+        "paragraph": "TEXT_96a13ee7a1a126431b6e",
+        "scope": "FR03-01/COMMON",
+        "nearestNode": null,
+        "quote": "“至少让我自己答应。”",
+        "conditions": [],
+        "sourceSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+        "matchText": "“至少让我自己答应。”",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "friends"
+          }
+        ],
+        "requiredExpressions": []
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_96a13ee7a1a126431b6e_1",
+        "visiblePageIds": [
+          "TEXT_96a13ee7a1a126431b6e_1"
+        ],
+        "exitBeforeId": "TEXT_c801c5ca3e286e938ade_1",
+        "snapshotBefore": "第21天下午，旧网吧柜台；文文、师匠、毛狼；网吧买家在场但可留画外；文文B、师匠A、毛狼D；卷尺在柜台边，毛狼演出单；文文手中饮料箱尚未放下",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "此买家不是小满电动车买家；不能画师匠已替文文确定新工作。"
+      },
+      "wardrobeAndForm": "文文B、师匠A、毛狼D",
+      "propState": "卷尺在柜台边，毛狼演出单；文文手中饮料箱尚未放下",
+      "internalWorkItems": [],
+      "visualNote": "箱底离柜台、有清楚空隙，仍由文文托住；三人身份、卷尺、资料纸背。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-fr-cg090",
+      "cgId": "CG090",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-FR",
+      "version": "v001",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg090-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg090-v001.webp",
+      "sha256Source": "931a4ac97c8a2f7abdf1134074903f07623b45e68b778385a956effc51b17334",
+      "sha256Derivative": "1d5775bd47c05ab40b513a9050bdf422000710a600eb2eb3c89efae7f3c6baa1",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1626616,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG090.png",
+        "sha256": "4ee21d9e133928cc2ffef8c50ef8183fb17df65f9e155fe669081fbfb0c81017",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG090.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg090-v001.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg090-v001.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-64f3d79f-92d1-403e-af13-9e918f64cf39.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A07/shijiang-base",
+        "A08/bg-old-netcafe-counter-day",
+        "A08/prop-netcafe-console-reference"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+          "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A07/shijiang/approved-basis/char-shijiang-base-v001.png",
+          "sha256": "35cae277350641c67349e5a49f9a39f0d92fe3060834b1bdfc2a7fad3ac9a8e2"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-day-v001.png",
+          "sha256": "e3eb005ee2ee9504930684191b283c127894f9c7b79c84691f66bfdcfb5f8e79"
+        }
+      ],
+      "source": {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 449,
+        "paragraph": "TEXT_fca2127205304c438691",
+        "scope": "FR-D36-RETURN",
+        "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+        "quote": "他把游戏机留下的灰印擦了两遍。“卖店是我自己要卖。你把班上完，别的不要跟着我算。”",
+        "conditions": [],
+        "sourceSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+        "matchText": "他把游戏机留下的灰印擦了两遍。",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "friends"
+          }
+        ],
+        "requiredExpressions": []
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_fca2127205304c438691_1",
+        "visiblePageIds": [
+          "TEXT_fca2127205304c438691_1"
+        ],
+        "exitBeforeId": "TEXT_e5cfb04085117653b1f4_1",
+        "snapshotBefore": "第36天下午，售出游戏机后；文文、师匠；师匠A、文文B手部；旧游戏机位置只留灰印，设备和手柄已卖出",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "LOW须先完成公共事件再返回；HIGH正常到此。待结薪不意味着工资已结清。"
+      },
+      "wardrobeAndForm": "师匠A、文文B手部",
+      "propState": "旧游戏机位置只留灰印，设备和手柄已卖出",
+      "internalWorkItems": [],
+      "visualNote": "师匠擦空出的灰印，游戏机与手柄不再在台上，文文在侧。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-fr-cg091",
+      "cgId": "CG091",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-FR",
+      "version": "v001",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg091-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg091-v001.webp",
+      "sha256Source": "c2803d9134fbbb37db8c92a9d5bc5a0fca56d858ed25a5263ddccaffff6aeb42",
+      "sha256Derivative": "c083b2d71de5a8a399cf60c854a2ac166d781e93b488dba4433852cf7ece1296",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1511448,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG091.png",
+        "sha256": "11c170b54b518359342f2c9af8ab6e351cb33ae366d110fb7f79f1e5294e7cec",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG091.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg091-v001.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg091-v001.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-9254c96c-903f-4ad6-b0c5-21d936b7f501.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A07/maolang-serious",
+        "A08/bg-old-netcafe-counter-day",
+        "PRE/prop-maolang-performance-papers-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+          "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-serious-v001.png",
+          "sha256": "61eb82b0eeecdbc8a0013d47b31d8ac805be1e43afe62955dec15ce4cc6bff93"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-day-v001.png",
+          "sha256": "e3eb005ee2ee9504930684191b283c127894f9c7b79c84691f66bfdcfb5f8e79"
+        },
+        {
+          "path": "assets/sources/20261029-cg-preflight/SUI-A07/prop-maolang-performance-papers-v001.png",
+          "sha256": "57178a05181802627db64f995ffeb088ce04572b80fbf086a1f2d82080d204dd"
+        }
+      ],
+      "source": {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 529,
+        "paragraph": "TEXT_1949d86d7610a2cd43c1",
+        "scope": "FR07-01/COMMON",
+        "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+        "quote": "他在旁边坐下。我想说只要没人知道是我，想到我们一起吃过的那些面，又说不出口。毛狼把那页选中，按了删除。",
+        "conditions": [],
+        "sourceSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+        "matchText": "毛狼把那页选中，按了删除。",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "friends"
+          }
+        ],
+        "requiredExpressions": []
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_1949d86d7610a2cd43c1_1",
+        "visiblePageIds": [
+          "TEXT_1949d86d7610a2cd43c1_1"
+        ],
+        "exitBeforeId": "TEXT_123c186e7ac50530f736_1",
+        "snapshotBefore": "第52天，旧网吧打印串词；文文、毛狼；毛狼D，文文B；电脑文本页、鼠标、打印机；那页正在被删除",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "题目稍后才抹掉，不把删除主体画成文文；普通选择不改变本拍。"
+      },
+      "wardrobeAndForm": "毛狼D，文文B",
+      "propState": "电脑文本页、鼠标、打印机；那页正在被删除",
+      "internalWorkItems": [],
+      "visualNote": "毛狼自己握鼠标，白文档与打印机；文文未替他操作。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-fr-cg094",
+      "cgId": "CG094",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-FR",
+      "version": "v001",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg094-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg094-v001.webp",
+      "sha256Source": "eff27f0afac2366488bd1c4c627faf28f0122a5e85fac711b865421236b3fe71",
+      "sha256Derivative": "c2d83e377ec5db4f3d882b4f5126385f4b50adf3797830b8b3573e2ea6839be4",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1651912,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG094.png",
+        "sha256": "d6c88e5b0ab92c2efb54b927574f1608949a6114a9223512c3186502d088400a",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG094.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg094-v001.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg094-v001.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-d305ea0d-0570-4964-af1a-4c4995133c99.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A08/bg-new-netcafe-counter-night",
+        "A08/prop-netcafe-records-blank-reference"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+          "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-night-v001.png",
+          "sha256": "8434f50643b71555785d9f7a97e323cdd6947d7f36a31abc6ccdc4566568ffb4"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/prop-netcafe-records/prop-netcafe-records-blank-reference-v001.png",
+          "sha256": "b51f7a636795cdceac2de7f284d28c8f321a18b134876db368954db78583c5ac"
+        }
+      ],
+      "source": {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 802,
+        "paragraph": "TEXT_b67671d88bece3f5583f",
+        "scope": "FR-E2",
+        "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+        "quote": "我拿着笔，过了一会儿才说：“嗯，挺好过。”",
+        "conditions": [
+          "FR06-01=B|FR08-01=B"
+        ],
+        "sourceSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+        "matchText": "我拿着笔，过了一会儿才说：“嗯，挺好过。”",
+        "oldAnchorExact": true
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "friends"
+          }
+        ],
+        "requiredExpressions": [
+          "FR06-01=B|FR08-01=B"
+        ]
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_b67671d88bece3f5583f_1",
+        "visiblePageIds": [
+          "TEXT_b67671d88bece3f5583f_1"
+        ],
+        "exitBeforeId": "TEXT_5d757763ec6da0ccfa28_1",
+        "snapshotBefore": "第91天22:00前，新网吧；文文；文文B日常衣袖；笔、本子、饮料零钱柜台；手机无新消息",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "AB/BA/BB均已结薪但友情疏远；旧网吧已奶茶店，不用旧柜台背景。"
+      },
+      "wardrobeAndForm": "文文B日常衣袖",
+      "propState": "笔、本子、饮料零钱柜台；手机无新消息",
+      "internalWorkItems": [],
+      "visualNote": "新网吧夜班记录，文文独自、手机黑屏，无金额日期或团聚。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    },
+    {
+      "assetId": "cg-fr-cg108",
+      "cgId": "CG108",
+      "kind": "cg",
+      "ownerTask": "SUI-A10-FR",
+      "version": "v002",
+      "status": "制作包成品；包内视觉/格式及静态UI检查；待A11汇总复核与I采用",
+      "runtimeAdopted": false,
+      "sourceFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v002.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v002.webp",
+      "sha256Source": "4c6db0003622ef621ee5eb780b7d462025cb2cb1f29ee7228c95700170478ab6",
+      "sha256Derivative": "cc9a55ee0660e6ff1f2f85867218511334174f1392a5a29e2a8beca54352ebc3",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1817820,
+      "alpha": {
+        "present": false,
+        "range": [
+          255,
+          255
+        ],
+        "expected": "完整CG不透明",
+        "pass": true
+      },
+      "colorSpace": "RGB；不声明色域实测",
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "exact": true
+      },
+      "decodedRGBAEqual": true,
+      "preview": {
+        "path": "qa/SUI-A10-production-20261029/previews/CG108.png",
+        "sha256": "222f6d433103236fb4d3ba57097a74a92ca5adc6a99c9f0de9bcbae04b49ce39",
+        "canvas": [
+          1280,
+          720
+        ],
+        "fitSize": [
+          1279,
+          720
+        ],
+        "offset": [
+          0,
+          0
+        ],
+        "process": "等比contain；最多1像素余边补黑；无静默裁切或拉伸"
+      },
+      "uiReadingPreview": "qa/SUI-A10-production-20261029/ui-reading/CG108.png",
+      "promptOrProcessRecord": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v002.generation.json",
+      "promptFile": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v002.prompt.txt",
+      "generatedOriginal": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-325f4508-65a4-49e3-9e22-8e76f8d30fd7.png",
+      "tool": "built-in image_gen",
+      "productionReferenceKeys": [
+        "A07/wenwen-base",
+        "A07/shijiang-base",
+        "A08/bg-old-netcafe-milk-tea-fr-day91",
+        "A08/prop-netcafe-cat-drawing-wall-reference",
+        "A08/prop-netcafe-mealbox-open-reference",
+        "PRE/prop-shared-handheld-food-boxes-reference-v001"
+      ],
+      "directReferences": [
+        {
+          "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v001.png",
+          "sha256": "460d95b200ccdfaf8d1db5da0c3a1bb2f6b62f42d9aaa9b03596c7ffa1154020"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A08/bg-old-netcafe-milk-tea/bg-old-netcafe-milk-tea-fr-day91-v001.png",
+          "sha256": "8350ddab5080eef7eef2dd6693eb36f206c4de5fed6bafdd26f9a87665c656c1"
+        }
+      ],
+      "source": {
+        "path": "scenario/朋友与职业-夜班.md",
+        "line": 734,
+        "paragraph": "TEXT_9bb4ee135ee19001b268",
+        "scope": "FR-E1",
+        "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+        "quote": "师匠递来一份早饭，这回只买了两份。毛狼还在外地，没有一份多出来的被摆在台阶上装作人齐了。",
+        "conditions": [
+          "FR06-01=A&FR08-01=A"
+        ],
+        "sourceSha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+        "matchText": "师匠递来一份早饭，这回只买了两份。",
+        "oldAnchorExact": false
+      },
+      "conditions": {
+        "entryGates": [
+          {
+            "type": "route",
+            "value": "friends"
+          }
+        ],
+        "requiredExpressions": [
+          "FR06-01=A&FR08-01=A"
+        ]
+      },
+      "lifecycle": {
+        "policy": "A09-ONE-PARAGRAPH-v1",
+        "enterBeforeId": "TEXT_9bb4ee135ee19001b268_1",
+        "visiblePageIds": [
+          "TEXT_9bb4ee135ee19001b268_1"
+        ],
+        "exitBeforeId": "TEXT_aaa2517a1642c0d32049_1",
+        "snapshotBefore": "第91天早晨，FR-E1；文文、师匠；文文B、师匠A日常；两份早饭、装好的猫画照片纸袋",
+        "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+        "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+        "special": "背景旧店已变奶茶店；平等往来，不重新当雇主或恢复旧网吧；猫图及冲印照同源。"
+      },
+      "wardrobeAndForm": "文文B、师匠A日常",
+      "propState": "两份早饭、装好的猫画照片纸袋",
+      "internalWorkItems": [],
+      "visualNote": "奶茶店门外台阶旁递两份早餐；毛狼缺席，照片纸袋在侧且不露猫图。",
+      "displayPolicy": "A10-CG-REVEAL-v1",
+      "runtimeEncodingDecision": "WebP为交付衍生；当前SDK使用PNG，E接入时确认，不宣称WebP已能运行。"
+    }
+  ]
+}

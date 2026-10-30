@@ -1,0 +1,29 @@
+{
+  "scope": "直接执行现行Ray iValidate/iRestore函数体的独立JS语义探针；非原生引擎验收",
+  "sourceCursor": "TEXT_982d9ac0f683c6bbb52b_1",
+  "checks": [
+    {
+      "name": "已绑定CG节点但存档active为空/state=empty",
+      "accepted": true,
+      "predicateCalls": 0,
+      "appliedState": "empty",
+      "expected": "拒绝或按目标cursor重新计算CG状态"
+    },
+    {
+      "name": "合法active/enter配对",
+      "accepted": true,
+      "predicateCalls": 1,
+      "appliedState": "i01-state-TEXT_982d9ac0f683c6bbb52b_1-1:enter"
+    },
+    {
+      "name": "active存在但state为空场",
+      "accepted": false,
+      "expected": false
+    },
+    {
+      "name": "未知active",
+      "accepted": false,
+      "expected": false
+    }
+  ]
+}

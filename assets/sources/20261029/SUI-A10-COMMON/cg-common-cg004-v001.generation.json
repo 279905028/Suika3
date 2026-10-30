@@ -1,0 +1,192 @@
+{
+  "id": "CG004",
+  "title": "她自己的练习本",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg004-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A02/char-xiaoman-work-apron",
+    "A08/bg-salon-bijie-mirror-day",
+    "PRE/prop-xiaoman-open-practice-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-mirror-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：小满A同脸工作服，白T与深灰围裙、剪发工具\n图3：A08/bg-salon-bijie-mirror-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：只按镜头取打开练习页、报名表背面、发夹或小满浅灰手机；不整板入镜，不填日期/学费。\n核心画面：俯斜看理发店桌面，打开的黑练习本占上中部，小满卷袖围裙服的手抚平页角，页角夹报名纸背。可只露她下颌或不露脸；文文仅牛仔袖边。四个后脑勺练习和红笔纠错可读，绝不闭本。\n衣装/形态硬约束：小满A工作围裙及工具基准；文文衣袖沿B\n当拍道具：已打开的练习本，页角夹报名表；后脑勺练习图\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；打开黑练习本的后脑勺草图页，报名材料只露背/角，不加校名学费日期。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG004",
+    "kind": "retained-selection",
+    "title": "她自己的练习本",
+    "originalTitle": "她自己的练习本",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+        "line": 201,
+        "anchor": "里面画了好几个后脑勺，下面写着哪里剪短了、哪边层次不对。"
+      }
+    ],
+    "time": "共通第3—4天段，理发店",
+    "routeGroup": "COMMON",
+    "source": {
+      "path": "scenario/第一章-回到毕节.md",
+      "line": 201,
+      "paragraph": "TEXT_b146152f9c2cd5032d9c",
+      "scope": "### 第3—4天｜重逢的人不站在原地",
+      "nearestNode": null,
+      "quote": "里面画了好几个后脑勺，下面写着哪里剪短了、哪边层次不对。最后一张比前面稳，我说这张好，她把页角抚平，嘴上却说只是画。",
+      "conditions": [],
+      "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "matchText": "里面画了好几个后脑勺，下面写着哪里剪短了、哪边层次不对。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、罗小满",
+      "offscreenOrRemote": "店内其他人留画外"
+    },
+    "wardrobeAndForm": "小满A工作围裙及工具基准；文文衣袖沿B",
+    "propState": "已打开的练习本，页角夹报名表；后脑勺练习图",
+    "composition": "桌面和小满抚平页角的手；展示不完美练习，不能以空白闭本替代。",
+    "conditions": {
+      "entryGates": [],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "打开页与报名材料尚待A02提供当拍参考；不补具体开课日期、校名或学费。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base",
+      "A02/char-xiaoman-work-apron",
+      "A02/char-xiaoman-practice-notebook"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_b146152f9c2cd5032d9c_1",
+      "visiblePageIds": [
+        "TEXT_b146152f9c2cd5032d9c_1"
+      ],
+      "exitBeforeId": "TEXT_c5d04d8e6d0a1f61c44c_1",
+      "snapshotBefore": "共通第3—4天段，理发店；文文、罗小满；小满A工作围裙及工具基准；文文衣袖沿B；已打开的练习本，页角夹报名表；后脑勺练习图",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "打开页与报名材料尚待A02提供当拍参考；不补具体开课日期、校名或学费。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-salon-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节理发店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-salon-bijie-mirror-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-salon-bijie-washbasin-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-salon-bijie-day91-mirror-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-xiaoman-practice-kit",
+        "owner": "SUI-A02",
+        "name": "小满练习本/报名资料/剪发照片",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-salon-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节理发店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-salon-bijie-mirror-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-salon-bijie-washbasin-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-salon-bijie-day91-mirror-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-salon-bijie-mirror-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-xiaoman-practice-kit",
+        "owner": "SUI-A02",
+        "name": "小满练习本/报名资料/剪发照片",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-xiaoman-open-practice-kit-v001"
+        ],
+        "frameUse": "打开黑练习本的后脑勺草图页，报名材料只露背/角，不加校名学费日期。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base",
+      "A02/char-xiaoman-work-apron",
+      "A02/char-xiaoman-practice-notebook",
+      "A08/bg-salon-bijie-mirror-day",
+      "PRE/prop-xiaoman-open-practice-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg004-v001.png",
+  "sourceSha256": "add17b08495bb22a303b6409d4eb5afe223a13e481dc394c994f368e84f05a8f",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-ecf641ff-a6c0-4e50-8b34-0d34d8dbe5d9.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/production/char-xiaoman-human-work-apron-tools-v001.png",
+      "sha256": "32c0da1ec64b65b36c8501e1d05dd3f08f87036c6de545cc320985d3cda121ea"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-mirror-day-v001.png",
+      "sha256": "6a6f6c3728b7486757aadbcf1c850e661267c7d77a3e87ee6387a43982a01185"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.png",
+      "sha256": "7044e8aeb32ba258dc05913164aac934d9e157696d643c566c767026b31cc62b"
+    }
+  ],
+  "runtimeAdopted": false
+}

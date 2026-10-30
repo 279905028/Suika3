@@ -1,0 +1,2835 @@
+{
+  "layer": "SUI-I02 同一指定候选的独立Chrome实际UI、原生保存/恢复/回退、刷新重开及移动尺寸；诊断包不算正式资源采用或完整整合验收",
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suii02-qa-awbByE",
+  "web": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/i01-diag-v003/wasm/web",
+  "port": 49228,
+  "webHashes": {
+    "assets.arc": "43997418655e49444756e7642b010cffb9c8f1af5c7ade7062105bbd7187532d",
+    "index.html": "2570d3bf4040ee923cc2e53380e0b6acb3a3cbe0199e5badd21e3699524e52c4",
+    "shell.css": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a",
+    "shell.js": "40181b6eb9db15d7a0e715aa38445f99828311f3820c3607d799cba858b2f71f"
+  },
+  "build": {
+    "schemaVersion": 1,
+    "task": "SUI-I02",
+    "runtimeBuildId": "bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+    "project": "毕节，雨停之前 · Suika3",
+    "databasePrefix": "bijie-rain-suika3-i02-diagnostic:",
+    "canvas": [
+      1280,
+      720
+    ],
+    "sdkSha256": "f589ca123faccada973c65cd560f4d3bb0207ae3f701d4017fcf46d094ee74c0",
+    "pageSize": 108,
+    "sourceHashes": {
+      "assets/current/SUI-A02/char-xiaoman-base.webp": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab",
+      "assets/current/SUI-A02/char-xiaoman-displeased.webp": "9c0b92a1352a6489bc8d25dc744fe2295ae9cf71e81f33b0abe59412ba7e59c6",
+      "assets/current/SUI-A02/char-xiaoman-downcast.webp": "b61cc8e4348ad341d55e52b5e1ee2fee841e79d0c716e05ed1d32bd47f565dbb",
+      "assets/current/SUI-A02/char-xiaoman-embarrassed.webp": "6b70cb8419392cd6b77bbacb368c8eb01f63d4cbccce4037e9d3636f3ecb53b3",
+      "assets/current/SUI-A02/char-xiaoman-hesitant.webp": "bf55fbc53b2d59c96d0cebff6667af0ab581d35647604123a0f2c211dd8d755b",
+      "assets/current/SUI-A02/char-xiaoman-old-sweatshirt.webp": "8e036d42bba78a22f4c8f9b3b45604019a37bdce1b06d0a4bbcf0a348b224df6",
+      "assets/current/SUI-A02/char-xiaoman-practice-notebook.webp": "a3c4432b326aa60dc6048a4d6098782d34838eb4ad41f697bbd0d9ee882f5f58",
+      "assets/current/SUI-A02/char-xiaoman-serious.webp": "5b007454d7ac54049f26355ba1d527929c57988b9d7326a3e459f9044b2f43f9",
+      "assets/current/SUI-A02/char-xiaoman-skirt.webp": "4ac96f7dae3340a9b53362a13659d3175abc62d2d1ec291f743e7bf4fcc37e4e",
+      "assets/current/SUI-A02/char-xiaoman-two-helmets.webp": "8efd9b26850d19f41db89d525151b12e61499d375b368583b1b10e158a24a162",
+      "assets/current/SUI-A02/char-xiaoman-work-apron.webp": "7a46c1ac2d3db02e3a35970d90eab87f81c2dd9f3037b80fe7043e07826f89c2",
+      "assets/current/SUI-A03/char-zhouzhi-human-base.webp": "c385e85d8d9db730191d494585cf37f27b43894f8b9ac63cbac65213691b6739",
+      "assets/current/SUI-A03/char-zhouzhi-human-downcast.webp": "7685df2784d88a552c2a9b304a825d022d283aec41ae7114a60ceabd34f4c9d8",
+      "assets/current/SUI-A03/char-zhouzhi-human-planning.webp": "c8a368aab535496ba7b408bac915439c51133f6d6d2999333154f348ea45fd71",
+      "assets/current/SUI-A03/char-zhouzhi-human-prep-apron.webp": "8195f87dcfc08c0b93ccad0bd67bcd9c0e843a362ac439c227c05e8a60a4b885",
+      "assets/current/SUI-A03/char-zhouzhi-human-serious.webp": "9d8310fca2552ac4a105319c821ce3519ebf4a532497ab8f2560c4d374a6e3b6",
+      "assets/current/SUI-A03/char-zhouzhi-human-smile.webp": "ba4ba50b86fc8faad8ec912365ba79bdf2b46abd2bacaaef9c6476748d330243",
+      "assets/current/SUI-A03/char-zhouzhi-human-tied-tired-cup.webp": "6c04e16a9f9f051eb3a90de74e865caf9b12e10c51c18c07170924da461ab363",
+      "assets/current/SUI-A03/char-zhouzhi-human-work-neutral.webp": "f992aefc7429519f78c9e823c57c1ae74fc4281243313fc7cb0bb2fdc24a30cf",
+      "assets/current/SUI-A03/char-zhouzhi-human-work-serious.webp": "c3a90d770bd41eb796ff4f1d52d42a151efecbcec7cfee360c565d6e5c775a4f",
+      "assets/current/SUI-A04/char-mengyao-human-base-expression-downcast.webp": "eddf4dc15d0811969cfca724a2584e20ac38281bb3bb1e8701147194261a4423",
+      "assets/current/SUI-A04/char-mengyao-human-base-expression-hesitant.webp": "ec50a8d89e9c244d4356958527762748ab7302ed5aaf2e995593a28b0ef3c1cd",
+      "assets/current/SUI-A04/char-mengyao-human-base-expression-serious.webp": "0cce43572a02e0bfab61a8850312f255d81e65b7fe168faa39051932410a0e50",
+      "assets/current/SUI-A04/char-mengyao-human-base-expression-smile.webp": "0218ab381725ea90c907201252f826bf110255e9754e79d15fb4a5931fb94ce2",
+      "assets/current/SUI-A04/char-mengyao-human-base-expression-tired.webp": "8d4d7aee915cadc07a96a2dde9c5a8f4a3b6879116ec16de27f8b7173ee0824e",
+      "assets/current/SUI-A04/char-mengyao-human-base-neutral.webp": "26b139e65a8012e9e072a196f54f09b948e974873562939f12caf7ba6e1043c9",
+      "assets/current/SUI-A04/char-mengyao-human-book-box.webp": "2944fc4ffe11e3c7a09fcdb0a8c08e0fbf1769b8efb6e1771834b6734365a6e1",
+      "assets/current/SUI-A04/char-mengyao-human-casual-jacket.webp": "1054261af60d545472fb4450f1d714c877f27d13e9edbe507608bbaf539b611b",
+      "assets/current/SUI-A04/char-mengyao-human-teaching-base.webp": "d7c703da519d2901d13c55d43b3407b52357011889df4884d820b748b5256f8f",
+      "assets/current/SUI-A04/prop-mengyao-borrowed-book.webp": "fb745f28ca82a7a6c7f1e675946704c26a10f16acd9e85d0323a2ce37312fb1e",
+      "assets/current/SUI-A04/prop-mengyao-phone-stand.webp": "7947d230f54f822d6d65f27e83863517b979f9c67ad1016ad548565547eb4997",
+      "assets/current/SUI-A04/prop-mengyao-workbook-cover.webp": "2eb536f574c4d7d3b01b803fb3cb89ea5b48b012848c0655380f9c9af2d21f9f",
+      "assets/current/SUI-A04/prop-mengyao-workbook-page.webp": "d3334abf9f725f9eff5912407190824493ccae711ef25a7dcd6f02de618f7b27",
+      "assets/current/SUI-A05/piao-action-booklet.webp": "66bbc42d3fbbec2431d6234d9fc9046c9cfcf3a8e41d47a71d362e394019a871",
+      "assets/current/SUI-A05/piao-action-camera.webp": "709539895b8ee4264c20a9e82b7e7c636a99840049d2e107e565b807e6874c7a",
+      "assets/current/SUI-A05/piao-action-explaining.webp": "86b0f0d947b0aa5cd2880c5fc3c8f23e45191643ccd9597aaeacf9e7d0d5b7e9",
+      "assets/current/SUI-A05/piao-action-knot.webp": "5184894ab98866f803011bf42253fab43d3add6bb6cd31cc5e254d524c258b22",
+      "assets/current/SUI-A05/piao-action-thinking.webp": "c74718334036f4bf745b24b6bd6cf75235eaf57747b8d4fd9b21ce6ee3351580",
+      "assets/current/SUI-A05/piao-action-wave.webp": "b663071a870f41f5b9807791a2f450d1e129e889d97c2e4e268c4aee9a217855",
+      "assets/current/SUI-A05/piao-base.webp": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5",
+      "assets/current/SUI-A05/piao-expression-displeased.webp": "84b1e4f7ade9ad54ecc494533b3c1416bcdafd8da21f84f094af818013c2bd6c",
+      "assets/current/SUI-A05/piao-expression-downcast.webp": "7771a367045d1be0220a541e874f8da9d9dc987efb8951204985019175a2c935",
+      "assets/current/SUI-A05/piao-expression-hesitant.webp": "a2f8e0cee954d0f239a7309128238815d79beefe99eed32fbde6f3cfd3ca24f7",
+      "assets/current/SUI-A05/piao-expression-serious.webp": "34cbd86ac2d7aa1c7a97142473930d33cb6de2f9452d56c6626975f72661ba63",
+      "assets/current/SUI-A05/piao-expression-smile.webp": "355c50ef180390f75489275417c41101d8045ddee082ebdc1a3c94d0c8581c53",
+      "assets/current/SUI-A05/piao-expression-surprised.webp": "e93d6d0f92058a27d9c218e970c512c7bad7aae37842ca9dfa51333ae2192834",
+      "assets/current/SUI-A05/piao-prop-booklet-tools.webp": "a43f370793b9056b814621ec2f44ac9d20ce99cd02acf5e1b75d07d780471d25",
+      "assets/current/SUI-A05/piao-prop-booklet.webp": "ef3b0efb8a20a3087f7b54abdd56c6cf3198e304d97b64753471946579850c54",
+      "assets/current/SUI-A05/piao-prop-camera-bag.webp": "2073d5f86b8126455271bae9aa65bdffc87b8716c16982103c30ec77260d0858",
+      "assets/current/SUI-A05/piao-prop-camera-manual.webp": "f22df2cb9d5d1293d5a923694074edab45bc9bec8687ca30be075d225c2b740d",
+      "assets/current/SUI-A05/piao-prop-camera.webp": "6a13aad578daf1f6ed52a67d103b4d6e890acc45445ed16630b6c1ff447ddca0",
+      "assets/current/SUI-A06/sui-a06-human-chin-v001.webp": "c8e041891d4524921700b5e2726e8406b375d32d5b3aaac75aba92165ebbd0d9",
+      "assets/current/SUI-A06/sui-a06-human-downcast-v001.webp": "2e119dab4aef04599aab02361be1d038a7c37f55ea12eef6a1179d412ff58859",
+      "assets/current/SUI-A06/sui-a06-human-neutral-v001.webp": "3f41ff7bb087c1faa1f8cf71d7862076c6b515cc1259afca8791b84d7648153a",
+      "assets/current/SUI-A06/sui-a06-human-serious-v001.webp": "acd7f245048c01bd929a8b5cff129b9dc41cf958ee8a723948eae85db5f8af84",
+      "assets/current/SUI-A06/sui-a06-human-tearful-v001.webp": "9c48efc30d85826297254006f6fc447581c6dc1ff2b700653ed21efafb7ff876",
+      "assets/current/SUI-A06/sui-a06-human-toy-base-v001.webp": "7851c5852de3dbdebe71c00356f1cb9cd645aa3515d0d3ebbf13406ec30e2320",
+      "assets/current/SUI-A06/sui-a06-orb-amused-v001.webp": "49a3a49d5447504236810a20f598f81628445718f07e411f6b1437a23531a433",
+      "assets/current/SUI-A06/sui-a06-orb-base-v001.webp": "9c7ae2ff67bfa6436f5700295ffbf72d848c6e94b7dd95aa17b7e0d5379e69e2",
+      "assets/current/SUI-A06/sui-a06-orb-downcast-v001.webp": "c3a8089c0c6a65792abadc71896158f3386571e8a34326bbcd6cfa6530788192",
+      "assets/current/SUI-A06/sui-a06-orb-serious-v001.webp": "4e5daac8bf58ded54deb3980bd7781683bc89e2c6b7e6722d1827868331d7aa9",
+      "assets/current/SUI-A06/sui-a06-orb-wave-v001.webp": "8a7c9cce55e36a4debfd08d4657d23e45ca4aa1b656aa8a465e17ae487cce121",
+      "assets/current/SUI-A07/chensheng-b.webp": "e7cca72df6e6325eb0a782d1afe108da15f44d0864747eb67f3b9136b4d19cfa",
+      "assets/current/SUI-A07/chensheng-book-bag.webp": "25e660b83dbb488ed9d42759fcd1008a7aa50a8c64b109023569a5cabcc5b5a4",
+      "assets/current/SUI-A07/chensheng-cable.webp": "65981042ef3b05945cc25c29c452fea13b605b43b7947cc84d01651719f5a3e2",
+      "assets/current/SUI-A07/chensheng-documents.webp": "6b026d4b84d596cec522749d4cf3e103abec983d5c45f7e76a12de193810deb9",
+      "assets/current/SUI-A07/maolang-base.webp": "a5af61df74e79682885f201154ab4989f0f8632a1344494bf472911e0362ee88",
+      "assets/current/SUI-A07/maolang-mic-bag.webp": "ac2a120cf4e5107f0c374c982bd30f1afd85daf5d4a2c6d541d262ced3e2b7cb",
+      "assets/current/SUI-A07/maolang-serious.webp": "529f8f9bc63736911f78e350bf9e8ec281af52895595a5f9d2bb573c0159e945",
+      "assets/current/SUI-A07/maolang-stage.webp": "848ddbe9ac91a1a6a3618cdfc2b9675427e2d4af636225d32eccd7b61c6c2352",
+      "assets/current/SUI-A07/shijiang-base.webp": "8210ca3e73de49f8851747ea9af487331e9ae0b1f9baf1a6fdc13a02fc49f922",
+      "assets/current/SUI-A07/shijiang-calculator.webp": "7c35df6a4d350e64eee0022e6735a8ae94dd581c4abd02525db8002ae0c6ea4f",
+      "assets/current/SUI-A07/shijiang-serious.webp": "00b22e85f2bf64c6310e8c4ffd5fd353ca147216613c73f25e3f23bd497244bb",
+      "assets/current/SUI-A07/yelan-b.webp": "8a8f6a94ef5cc429f901bc96129e9134f48aae82f3921bc30cbcb883c4f13f30",
+      "assets/current/SUI-A07/yelan-phone.webp": "cc826548ff5fbaf78ea3034370a8c29dc4cd06e946810449ab94ad30fb07bff0",
+      "assets/current/SUI-A07/yelan-serious.webp": "164a54497f8cef5ea58fb90b230f105d24c2a507806dc7ca11c39fb9022852e0",
+      "assets/current/SUI-A08/bg-ajun-workplace-front-day.webp": "288b9b59eccbe274e928cc207c1bece2212f9f02d33434f14de4c6cbb3ddd3d8",
+      "assets/current/SUI-A08/bg-aying-prep-space-afternoon.webp": "403a0b5b14d6d809b52242032d9f0c6eeddc0badd200d14da3ee4f06d58be548",
+      "assets/current/SUI-A08/bg-bbq-xiaoman-friends-bike-shed-night.webp": "35cf9c6468fc3e0a792d9234fa8d145f7ab4c5bc1a10c5454ccaf62d090ad2dd",
+      "assets/current/SUI-A08/bg-bbq-xiaoman-friends-stall-night.webp": "128fc2bf3c719dccad20307c29bac27758ce2e4cdf0f16ed7156c08244bca0a8",
+      "assets/current/SUI-A08/bg-bijie-arrival-platform-day-rain.webp": "2297a928a8ed6835879d50bdbc86976bcb896290a4554e8e3405790ff95b724b",
+      "assets/current/SUI-A08/bg-bijie-slope-street-day-overcast.webp": "e6611d30b2aecb2c7579ea202c885c84cc96fb96401cc638dea0ff156adaaf7c",
+      "assets/current/SUI-A08/bg-bijie-slope-street-dusk.webp": "c2fc27d6b8d1e7be71fa5c27fe66fa2b064265cf33a0e83b5d5a554079953fab",
+      "assets/current/SUI-A08/bg-bijie-slope-street-night.webp": "41601323c098ece9d946586dfd0b52b405fc6b5b10f365686c426240c11e91c9",
+      "assets/current/SUI-A08/bg-bridge-shaobing-day.webp": "56c4624bf575d91bceed45a920724c0ade1a7c3f4f506cecc91ecf432072d30b",
+      "assets/current/SUI-A08/bg-bridge-shaobing-eaves-rain.webp": "045ab9ba4729756b6c9f8bcd2fea102a5d32ad4776c944fd7a153f8852a03bcf",
+      "assets/current/SUI-A08/bg-bus-stop-bijie-inside-day.webp": "d9db8c3d6629805981c76ea03822e19e1dc665baf3f0ad5fffc2dfa39ad50823",
+      "assets/current/SUI-A08/bg-bus-stop-bijie-stop-day.webp": "2cc5fe8a41c340f18d6ba5e922d564a861346714678a7e79046eaace69af8207",
+      "assets/current/SUI-A08/bg-chengdu-salon-study-screen-reference-day.webp": "9fd6359472ebc2103a67f62cb17fe67117744dab8428b86102ea89b324446c77",
+      "assets/current/SUI-A08/bg-convenience-bijie-day.webp": "8e6dae19c9eef8c72ec77b8b2d98fb240b40dd057d5c5a2d36bd8355f0b68d2a",
+      "assets/current/SUI-A08/bg-departure-station-morning-rain.webp": "da3d0266f246264b9a9c967a8419c7c4013ddcc4cf1d478985d23996bbcec318",
+      "assets/current/SUI-A08/bg-friends-meal-shop-day.webp": "e434b0afe15975c5f5a2af385e69fac33a333e116b5e7f74306c2f0de08e4586",
+      "assets/current/SUI-A08/bg-friends-meal-shop-evening.webp": "1d29764fde8a71d70799c22b4d52a15784552d23fca66e09a65ebb0ef510120c",
+      "assets/current/SUI-A08/bg-guiyang-housing-office-day.webp": "7223eb18b2a3d92467f3f3429c53d4d3e330eeb9f44fe5b85ea9cb3ff9ddf309",
+      "assets/current/SUI-A08/bg-guiyang-meal-shop-evening.webp": "fdb3445db90ab3b66f3b89d88455ee1c1897586ee1e45447572f4e80603cf6cc",
+      "assets/current/SUI-A08/bg-huangqiuqiu-room-day.webp": "070568fb51f21178af3b18e8d089fb07b1f706e8374764e00cb13d25d303b4d3",
+      "assets/current/SUI-A08/bg-huangqiuqiu-room-night.webp": "d1ce98a0935a89e25ab364f97f15697e33a5a99af80e6d4cf494b79b2f8de2de",
+      "assets/current/SUI-A08/bg-huangqiuqiu-room-table-close-day.webp": "90e2f872086aaf58e06fc271b42975a170b0f85b5a11ff7e408395b565110275",
+      "assets/current/SUI-A08/bg-huisheng-306-cleared-day.webp": "5d28669c6d040eb2a9d325217fd0e02a7f5cc17a3b9a4eaac26fb1269247301b",
+      "assets/current/SUI-A08/bg-huisheng-306-operating-night.webp": "11a3352deae35480b832d817d4dc3f231e7065beb99d20d57b904bdeebc847f6",
+      "assets/current/SUI-A08/bg-huisheng-corridor-locked-day.webp": "1ab76a63f77c23e3b4bd006ccc76e6eac5d1f729f25a9749bf60ffc124b00068",
+      "assets/current/SUI-A08/bg-huisheng-corridor-operating-day.webp": "0db63527f7d2ccb6e9216de5fe2056910d232b9d1d9ad256eab4ee27999305e7",
+      "assets/current/SUI-A08/bg-lianggao-shop-day.webp": "e5866fd65f0c08533613b9d2382c2cff5e3b90412b010cc9b37e35e5dcab0c1f",
+      "assets/current/SUI-A08/bg-mengyao-bijie-school-classroom-day.webp": "9ba3b11df8ccc89e9e66647cd292f93b962b33b9351c869d018af82e210c61ce",
+      "assets/current/SUI-A08/bg-mengyao-bijie-school-corridor-day.webp": "8b71b96ef31fc0c0c84573c7a9c0e9258b2ba761f82ba6b85e38348e1283548e",
+      "assets/current/SUI-A08/bg-mengyao-bijie-school-entrance-day.webp": "f95a2c77c10e1d1bdfb51e111968168da306e2541e356740db0c8b991115319b",
+      "assets/current/SUI-A08/bg-mengyao-drink-shop-afternoon.webp": "1329e268e3aa4180fccc4632c50a2951b829f4afa9b29043124968cd5bdf6884",
+      "assets/current/SUI-A08/bg-mengyao-guiyang-home-day.webp": "77609126301e23efee1b607f36708f356a2bb4fb47f9aaca2eb3b7a337d7cd63",
+      "assets/current/SUI-A08/bg-mengyao-guiyang-home-night.webp": "cbf2f909cb85b73b51ec06ea09d2b0eaa778f1c168a54c06e30dc0e82d40cea6",
+      "assets/current/SUI-A08/bg-mengyao-guiyang-school-day.webp": "e915cd4924551818bdcbd6bf54c90154955559510b4ed9fcfb6ca0fcbfb85303",
+      "assets/current/SUI-A08/bg-mengyao-used-books-day.webp": "70f339e97958a1b317b41362f9e15fdbf9081c0590e77dd55b620344b546ca76",
+      "assets/current/SUI-A08/bg-new-netcafe-counter-day.webp": "647b685434eefd14a9c21517bf75ac9390a29949d734c6dd7a78e9397c360bbd",
+      "assets/current/SUI-A08/bg-new-netcafe-counter-night.webp": "55490b38d78eb01d92f1c6c193b8d79add4b5cd6004d8e185323c9e5523ae62f",
+      "assets/current/SUI-A08/bg-new-netcafe-entrance-night.webp": "ebbd40c4e9735eac79ebcca61e5a71965ba77af18bae102a91169133f2103c06",
+      "assets/current/SUI-A08/bg-noodle-shop-day.webp": "4f20a589dd2095626da10f12540cb42ad0dadf03022e79ebd671bc20b187b737",
+      "assets/current/SUI-A08/bg-noodle-shop-front-dawn.webp": "4c061b0119132434af75edf763b26b29ef05737e7ac4d08ada0bbb483fa95fdd",
+      "assets/current/SUI-A08/bg-old-netcafe-backroom-night.webp": "47696934829fecde45d6a32406bcaf0fab897188816492beb1b50273c5be5966",
+      "assets/current/SUI-A08/bg-old-netcafe-counter-day.webp": "fefeb54a9992f0b9a4d28748b241741c069d95a4633bb0cfa20e91b62bb47a01",
+      "assets/current/SUI-A08/bg-old-netcafe-counter-fr-clearing-day.webp": "6bdc0a1d7981601ae237ea5d94896472fe8a5a66e000657740f567a5664508b0",
+      "assets/current/SUI-A08/bg-old-netcafe-counter-fr-handover-day.webp": "898e8a43eafafec636cd92a7b4923a9e20e3e01bed5b8d6362fb9a28d8cdb45b",
+      "assets/current/SUI-A08/bg-old-netcafe-counter-night.webp": "45db7e9f5489252e78d440a6d3ca18522899924bac800f8bf89ad78a2cf904aa",
+      "assets/current/SUI-A08/bg-old-netcafe-milk-tea-fr-day91.webp": "76a52afff3f80dbd05ad93fb1ad576bd91f49bde64b280359f774dba0b49f245",
+      "assets/current/SUI-A08/bg-old-netcafe-yard-door-ajar-night.webp": "6d8b727ac1c48dec2125e2b68ed3e8752505041511b6be67b532f8b4d2df4501",
+      "assets/current/SUI-A08/bg-old-netcafe-yard-door-closed-morning.webp": "67efd015362f224a75032d9d44bfc2c984dbf62d5cbbddafd6f5f12816e76145",
+      "assets/current/SUI-A08/bg-old-netcafe-yard-door-open-afternoon.webp": "24d3ba84b6535c7a295120572dafdeb45a905b161eee4a83320e18d2cb707995",
+      "assets/current/SUI-A08/bg-oldstreet-shops-grocery-changed-day67.webp": "5baf2445c10ea89b1204722291c60cd914faa736f845fa138eb2b656cdcf3281",
+      "assets/current/SUI-A08/bg-oldstreet-shops-grocery-day.webp": "b8908c19b6d22396b122b8439dca254c92d2c98c70f846789f20cfd7ba325991",
+      "assets/current/SUI-A08/bg-oldstreet-shops-photo-studio-closed-day.webp": "8197df15baae90fac605f63331901ed3ff31d9e2e6e2421c551ac06960745529",
+      "assets/current/SUI-A08/bg-oldstreet-shops-shoe-repair-day.webp": "41ffbaed8992d26ec3e3aac84783e3c784f2375e2af5cab2e324332809c1d3dd",
+      "assets/current/SUI-A08/bg-performance-mall-side-stage-day.webp": "8f67a5817f37f0ee3f7c97c111c97630aaed81d8caac4c575b7ad77925fcc3b9",
+      "assets/current/SUI-A08/bg-performance-rehearsal-rain-day.webp": "2a9c6810bb9dfdfe763541113ab7ccc2789bb8dc85e1a3aece99fa521839e712",
+      "assets/current/SUI-A08/bg-photo-print-shop-day.webp": "74214fc35038f0e59bc297ed5e2bb4f37b8e9c5de5b5e1b5b9d2566f26fe11e6",
+      "assets/current/SUI-A08/bg-piao-bijie-room-day.webp": "43b62f19be8a1234de6085651cd56c0ad365f90d813f01b93fb9ace2ed24d9f6",
+      "assets/current/SUI-A08/bg-piao-bijie-room-night.webp": "b8fbd525daf37393ef3845db76daaa80821fbf3e7d78ccfceddfd23422ae3678",
+      "assets/current/SUI-A08/bg-salon-bijie-day91-mirror.webp": "eed85848d7b05542795abb7c58a8ef87a7d77e0a5609b6bc604df27108da50a3",
+      "assets/current/SUI-A08/bg-salon-bijie-mirror-day.webp": "be81f956bac8694a75d2cbbad1680a00370bfc2c4c524ed963f607d745014850",
+      "assets/current/SUI-A08/bg-salon-bijie-washbasin-day.webp": "281491b8ac93842dfa3480d5f3b1d631041dd5fab91fcd23433ba5eb408f4584",
+      "assets/current/SUI-A08/bg-wenwen-bijie-rental-day.webp": "e1941067743593c0ba1a4202486909e53cf90e0db419747e1ee9a3797cecbbff",
+      "assets/current/SUI-A08/bg-wenwen-bijie-rental-downstairs-bench-day.webp": "f58a9381823e19a27d48cde10f464fe8806a862f09ecdc3579a1a53e5a1de425",
+      "assets/current/SUI-A08/bg-wenwen-bijie-rental-night.webp": "8901da80d33186e5519ca6e8fdc4eb93c6a2b53d0c48bdc59dd6d422082bda13",
+      "assets/current/SUI-A08/bg-wenwen-guiyang-home-corridor-day.webp": "941d9cbc6f53b8ab37af794bac2de7658bcc1338dbb6a21d9d633d4997feb45a",
+      "assets/current/SUI-A08/bg-wenwen-guiyang-home-day.webp": "d0c1566b1f59c77a866ab897096fc75470234f79b17a08c7f97e6fafb217fac6",
+      "assets/current/SUI-A08/bg-zhouzhi-bijie-home-door-day.webp": "1905f30218d68571a710f7cec7e2c73248e42317b89a172600c9cd697361a8eb",
+      "assets/current/SUI-A08/bg-zhouzhi-bijie-home-morning.webp": "e3a5fddd9db1acd2bfec604d3751708e1e45fc05428497ed5a3b441dfc662124",
+      "assets/current/SUI-A08/bg-zhouzhi-bijie-home-night.webp": "a2134730d7c2de68508da5bcb41a79273724d3fccfa369904c4f2a271533beb3",
+      "assets/current/SUI-A08/bg-zhouzhi-guiyang-home-morning.webp": "18bf29c21b8741b5927b9ac0e629711f3e155cef8810cb33eb2a817d38244996",
+      "assets/current/SUI-A08/bg-zhouzhi-guiyang-home-night.webp": "15a23aca189a3559663bcd09fe208c0fb9ff5bd192c0e3af1be649ea6a0fa44c",
+      "assets/current/SUI-A08/bg-zhouzhi-guiyang-stall-closing-night.webp": "23df2eed463a7c3810197afdcd080b50269d443f6f0ab0177a08e7ec02b0649d",
+      "assets/current/SUI-A08/bg-zhouzhi-guiyang-stall-service-night.webp": "340c0b6b548937a1fc36e327f4bbf6d5bb20448d8991233556a6069f7005a859",
+      "assets/current/SUI-A08/bg-zhouzhi-guiyang-stall-setup-day.webp": "3281d65657c1e929b7ce0c835b3bf26014dfd5e01cb95516ad548c0d7aa741eb",
+      "assets/current/SUI-A08/bg-zhouzhi-other-venue-evening.webp": "01a13fe6dfbeb410ba5fdc16ca4dccb889559b91c4f56a4ef855830fae9eea55",
+      "assets/current/SUI-A08/bg-zhouzhi-supermarket-day.webp": "1434f1f25d476f718dd4b50bed72dbcd2872b2a0a3508b842b4bed6744c69da6",
+      "assets/current/SUI-A10-COMMON/cg-common-cg001.webp": "d8510b2fb3e547956f19ce7fd6ef808aa3ae52ab59486bb0ece02500b525b1e6",
+      "assets/current/SUI-A10-COMMON/cg-common-cg004.webp": "65673f2cc5b8b1f991c037da4cf5cb638383849998ca11e1264d3d31254be1ae",
+      "assets/current/SUI-A10-COMMON/cg-common-cg005.webp": "f91e34d834e0a7fc8d074f1780a44cb483c04ab43864b79f292bd0f5f3eacfcf",
+      "assets/current/SUI-A10-COMMON/cg-common-cg006.webp": "03feab1a16e1482392693e48db5727fdc4e2b88e7e4900731b79fa58cd7f6002",
+      "assets/current/SUI-A10-COMMON/cg-common-cg007.webp": "136e73563832974d287d0c72327b562e67517b51a46ba5b2a457d46b3413274b",
+      "assets/current/SUI-A10-COMMON/cg-common-cg008.webp": "861df5270cab79e7df74515d11d1d97d65561523fd0ce733f03b288c97b28b07",
+      "assets/current/SUI-A10-COMMON/cg-common-cg010.webp": "c1906eaf304e6a77879f9964e519ed81c6641eed2821c2cdb4fba6ab1f830385",
+      "assets/current/SUI-A10-COMMON/cg-common-cg011.webp": "d8beeb2a2e72da8bff22be03237ee17ac3434239ce3e9fc1f1db922bf43eaf31",
+      "assets/current/SUI-A10-COMMON/cg-common-cg012.webp": "b222c3b3d4c52960cd1b30f842f850edf420a2cba5839832d16949ec26060c1d",
+      "assets/current/SUI-A10-COMMON/cg-common-cg095.webp": "f351bf69c3e61494178a257711ad41aea4d943072fdd39c5f3161c98891219af",
+      "assets/current/SUI-A10-COMMON/cg-common-cg096.webp": "10d57a2ea07e6487fb7ae2777828168fc0bd65da430fb2bb13810385f18ebd75",
+      "assets/current/SUI-A10-COMMON/cg-common-cg098.webp": "098b8b65967b9c5ce1f1fe9df5e955fbf5b5ff92b3db105f06fd0376f10bf915",
+      "assets/current/SUI-A10-COMMON/cg-common-cg099.webp": "7a6f418df33725d36343e6a556d447d7416bce01293b67019b6779add3174d20",
+      "assets/current/SUI-A10-COMMON/cg-common-cg100.webp": "cd172061f913c887caffee2482b92550dabcd017bfab01197baf6e74244583e4",
+      "assets/current/SUI-A10-COMMON/cg-common-cg101.webp": "cef835f180b8bafb0696891b03b90f6d99a00d08e786ab6b74faf8fd0cd3af4d",
+      "assets/current/SUI-A10-FR/cg-fr-cg086.webp": "965c1a29f75a55e8f774fca0a767b8de24c16c1185ad60998ffded8cd2e4ef05",
+      "assets/current/SUI-A10-FR/cg-fr-cg090.webp": "1d5775bd47c05ab40b513a9050bdf422000710a600eb2eb3c89efae7f3c6baa1",
+      "assets/current/SUI-A10-FR/cg-fr-cg091.webp": "c083b2d71de5a8a399cf60c854a2ac166d781e93b488dba4433852cf7ece1296",
+      "assets/current/SUI-A10-FR/cg-fr-cg094.webp": "c2d83e377ec5db4f3d882b4f5126385f4b50adf3797830b8b3573e2ea6839be4",
+      "assets/current/SUI-A10-FR/cg-fr-cg108.webp": "cc9a55ee0660e6ff1f2f85867218511334174f1392a5a29e2a8beca54352ebc3",
+      "assets/current/SUI-A10-HQ/cg-hq-cg073.webp": "8a81c8caa2378880d76c470a75da4ba8bc2a0bfa3796594756e1450dbb605d4d",
+      "assets/current/SUI-A10-HQ/cg-hq-cg075.webp": "d0368e04c5c79359a3e1619fad2d63af3a77a0a54046d7c5ef0e8ff6878666a8",
+      "assets/current/SUI-A10-HQ/cg-hq-cg077.webp": "c72834c237069e66ba03c9821cb22b9c06b26f3a6c8062e2d5a5bd29f43ac3e0",
+      "assets/current/SUI-A10-HQ/cg-hq-cg078.webp": "e99d33f4b4eb0d14a8aef5d56ced997e8a5d7c9140117515b4cb70a119cc6c9f",
+      "assets/current/SUI-A10-HQ/cg-hq-cg079.webp": "eb3480a89f529ce3669d8963790b3798c50fd47aaeef00f5056a3f16fcab1f76",
+      "assets/current/SUI-A10-HQ/cg-hq-cg082.webp": "6dbff10ed5fa6deb50080536eec1c47fe4ee845a9ac4af980b293a646026628a",
+      "assets/current/SUI-A10-HQ/cg-hq-cg107.webp": "84726689d74887118da3ba125f60968078c35b1e03f89c8a952cf45aa9e2d324",
+      "assets/current/SUI-A10-MY/cg-my-cg038.webp": "1cfb915e9a564c7153d3694e10c2689d3a78a8d2819cec838636d1a5381863bc",
+      "assets/current/SUI-A10-MY/cg-my-cg039.webp": "ad292e765b85642210ef7e3f336dbe815c9f01db9560bd36e0964a0b326fdf93",
+      "assets/current/SUI-A10-MY/cg-my-cg040.webp": "5f9a1266f2cd9386e72b3854e8379e36a196c4c36593d38bc25fa3e438862a26",
+      "assets/current/SUI-A10-MY/cg-my-cg041.webp": "638e0227e0cd31f92706d8b996f271ebbd9af3c3d74a3c8d22f56bcda7dcefe9",
+      "assets/current/SUI-A10-MY/cg-my-cg044.webp": "18972131214749ed6a276a796965a9559f29cc8799091cd9e4e01a3e2d241cf2",
+      "assets/current/SUI-A10-MY/cg-my-cg104.webp": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e",
+      "assets/current/SUI-A10-MY/cg-my-cg105.webp": "5f0d06bb3a858d6d948bcea0d81c5bc956339e43fe7dd7de3188275d2867e804",
+      "assets/current/SUI-A10-PI/cg-pi-cg061.webp": "bd34a93fe89f4f89077bf5d81099aa0afc58666f46a05799c72a420a03f8fd02",
+      "assets/current/SUI-A10-PI/cg-pi-cg062.webp": "2a1e49f7a33b22910026deca77254d88c4889f0946002f4fbf9b2a6999c4f54d",
+      "assets/current/SUI-A10-PI/cg-pi-cg063.webp": "697c31eca09a6f2ada27d29e2abce50d0691fdda6071f2337a34b6e715cdc71c",
+      "assets/current/SUI-A10-PI/cg-pi-cg066.webp": "17e0a1a12e6663a419d52b900f3dabf87d74e66eb2c4f8ea13b0e599be603169",
+      "assets/current/SUI-A10-PI/cg-pi-cg067.webp": "ca1ddf4373a5a171de235a9ba28c90b7f48dc3423724ab8d06d4c56d7f6fc613",
+      "assets/current/SUI-A10-PI/cg-pi-cg068.webp": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579",
+      "assets/current/SUI-A10-PI/cg-pi-cg069.webp": "95e0da2ef78c67c377bd703785c4a331acc8a4ac1200b23c8b926790d28de03d",
+      "assets/current/SUI-A10-PI/cg-pi-cg070.webp": "540ac77d34e06817ad0c6bfb326ce637edfd7d09cb695836dd2458b00d4ba7a3",
+      "assets/current/SUI-A10-PI/cg-pi-cg106.webp": "0a620206241c9f559d4f7a4dc07c9b8c90cadbb3f50158da64a6db2b80d0d471",
+      "assets/current/SUI-A10-XM/cg-xm-cg014.webp": "a806575b89f6715d073a95075e18ceb4f40d1590f2a534fd2132ec76c7748655",
+      "assets/current/SUI-A10-XM/cg-xm-cg015.webp": "0e9fb28c8697ce3f3df700cd701ed9670483f34dcae757901c051cbf024ec265",
+      "assets/current/SUI-A10-XM/cg-xm-cg016.webp": "0d59f5f9db8f5204413971243930e48567faedf76ba7364651f54e6b0441094f",
+      "assets/current/SUI-A10-XM/cg-xm-cg019.webp": "f89322c345f5f64cc4478f56c0682326fa612f6fd315a8b5d2062da258369d35",
+      "assets/current/SUI-A10-XM/cg-xm-cg020.webp": "d8d6f883cc70cb03a59d07e890f27ecd488f512948de145bc5f3b621a4332551",
+      "assets/current/SUI-A10-XM/cg-xm-cg022.webp": "4316bd03c366f4e796eb836b294cc175e98baed03e1b271fed42a2ef2401ce38",
+      "assets/current/SUI-A10-XM/cg-xm-cg023.webp": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267",
+      "assets/current/SUI-A10-XM/cg-xm-cg102.webp": "2b53f1c9b841300356169744838179ef503ffd208a5a9808f387c6e7ec07847a",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg025.webp": "0794acd1f012be0d5a4c0818f4f92b7c3926bc20b61edf12dd8c9734854f2c9a",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg026.webp": "30365f0e9bed3bdabb75c422b2a4302a2ae52c6643e3d7a165ab026e17cadd05",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg027.webp": "48ceb629eeea7b83ee69da00335182a178a7529e9c0c18d7af13e2fed39e5eff",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg029.webp": "872a94dc282a5fc64ce030d2c968ab973c8acc84030f15bd5163fb8fdfab08c1",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg031.webp": "582b1dd5157e26aa9b323dadd812fac3ec5825091d65e42095f967e81d89ad04",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg032.webp": "b9b958ba0e624df55d895817da0cd23542e616b84d2b9b869519fade668f1623",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg034.webp": "5978ecd93d21a3271a0255cc30468ae6be734aaaa37d0fe235d3ee39b099fdaf",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc",
+      "assets/current/SUI-A10-ZZ/cg-zz-cg103.webp": "6fcc0fd00bc0a67a6c4025dec2d3b9e6e20525e4afed94f284ec1f765b409bcc",
+      "config.ini": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5",
+      "main.ray": "1683a010b9b54770cbbcd5cd585748dd83cf668d5067b5258a9b18ecde92016d",
+      "sound/se/click.ogg": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca",
+      "start.novel": "6e6153398e0fd16847e84c486117d50d10a70ef171f92d82499519a8d3536723",
+      "system/choose/button.ogg": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff",
+      "system/emoji/heart.png": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634",
+      "system/emoji/sweat.png": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a",
+      "system/font/NotoSansCJK-Medium.ttc": "197d5e1e019faca33a4d55931c7d68b8056f3b97cb862049f5cb8de9efdfb8ce",
+      "system/font/OFL.txt": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb",
+      "system/sui-u/anime/auto-hide.anime": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c",
+      "system/sui-u/anime/auto-show.anime": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1",
+      "system/sui-u/anime/choice-hover.anime": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64",
+      "system/sui-u/anime/choice-idle.anime": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64",
+      "system/sui-u/anime/msgbox-hide.anime": "6ee6f5dcdf612350e3439b90bcd9f46d342886d7878e8ab38bb4aa1acc8ccf4c",
+      "system/sui-u/anime/msgbox-show.anime": "58b10087e6a973a3b747abb8dd616ff0d9b491acb421a84b21a6a81d09f62cdb",
+      "system/sui-u/anime/namebox-hide.anime": "b0443eb13be54efad0439715caed68138e2435e94aba97a6660f1e37df14f7eb",
+      "system/sui-u/anime/namebox-show.anime": "c518c7a66ce51d032797ac243eacfb957d891171b94b59c9a4f3c733f586ff88",
+      "system/sui-u/anime/skip-hide.anime": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c",
+      "system/sui-u/anime/skip-show.anime": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1",
+      "system/sui-u/anime/sysbtn-appear.anime": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb",
+      "system/sui-u/anime/sysbtn-fadein.anime": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb",
+      "system/sui-u/anime/sysbtn-fadeout.anime": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2",
+      "system/sui-u/anime/sysbtn-hover.anime": "0e22cfdf598734ea148744de4f9168db6df62183fb5dfaebc245c6747d86e7b1",
+      "system/sui-u/anime/sysbtn-out.anime": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2",
+      "system/sui-u/gallery-order.ray": "7a84fc4a0ec1ea32f895e9538c2655da963c3dbf39f7133a49d07a2ae27b8664",
+      "system/sui-u/gallery.ray": "1e4abccb3b0ca2bbfc5898d3f3a4956a2ea86c5cc46070c453b606ad10671785",
+      "system/sui-u/gui/config.gui": "ce47b56300e99182105bfa2a12a81885cb60a7f8de23a5c861949e437f3f7b85",
+      "system/sui-u/gui/confirm-title.gui": "10d8455785129d2bb0f05ad9d0382e2bf1077fdb7d5c0bc4ea193a6ff194bd39",
+      "system/sui-u/gui/history.gui": "5d0af345bbb4698d8b7e7670bfda664a18d117d6005551c076607752c7c92ad8",
+      "system/sui-u/gui/load.gui": "8c112d92e20a74e8c422a244dced658243cca55c7bad392d801adcd28b10c8ec",
+      "system/sui-u/gui/save.gui": "22a6573d3f3e7907e25168c1eeaadca5f789fe289f2eb16e33d43f8fc7af1ad9",
+      "system/sui-u/gui/sysmenu.gui": "81a01011377b8d1593e3028edf792e81c2e4d548afdc1f357196cdf017654e2e",
+      "system/sui-u/gui/title.gui": "191f20dcf451021822d3deae952797e5b2037959105aa9f2459a7b9637cc9861",
+      "system/sui-u/history.ray": "c4c5af4cb5c9b40cfa6d37b7758a4f64e96bd67ce20d7f249617fd83a76a045e",
+      "system/sui-u/integration.json": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3",
+      "system/sui-u/png/advance-1.png": "6e0e84a3dd60651e36a7a67414c59b82bd059bba41995f8d7d2624f321d37e15",
+      "system/sui-u/png/advance-2.png": "b0bc3fce05938534d0149f69e66dd7345980d0c3063d94ded028c5b3ab3a5d3f",
+      "system/sui-u/png/auto-save.png": "93d361c2eb068f0e8a27cec5fa22478265446c4440cb01e50c37fa68ade9ab91",
+      "system/sui-u/png/auto.png": "f28013f4ea0bcbc02cd84f4bef7c5cde67e790060da6cf590c0df7540fc33fd7",
+      "system/sui-u/png/back-hover.png": "c0a10488ae92be995419b17eb76f0af354b6c01201de4b7a25f5141bd792c521",
+      "system/sui-u/png/back-idle.png": "93cd389fea6fcf7849b27a157e22f559d8cce35c3e872d8f7994c20ad15e444b",
+      "system/sui-u/png/back-press.png": "657cbe3b8264786fd69a7f03a0b4643c2eb9ed871813d54dbacbd5d29d93cd03",
+      "system/sui-u/png/cancel-hover.png": "449d8f7fe0b581fb9e45a59337f78562cd98f2fab6fe505072cde2a3f011a8d2",
+      "system/sui-u/png/cancel-idle.png": "9cb6b336e2720e7ebddc9a9c89a5d7d907d1f15dc0cd2e6783dee3b9d1e9ed35",
+      "system/sui-u/png/cancel-press.png": "a4196b2e19b7cd0ddd022777a40e5119ee3227726776a805d5635915bb967dff",
+      "system/sui-u/png/cg-focus.png": "82b90cdf0fb9f4b59ff694d41eb4c7e0b9f64d9108be4734dc99b5169c2f8c59",
+      "system/sui-u/png/cg-locked.png": "69016dbc066d482ec5670336fb26f8aadf595c6b884b3dbbbf4531e8b1572523",
+      "system/sui-u/png/choice-hover.png": "0aa507c64d2084e17d6bc2ad8a01dc6bcde1c3e53903cb1f92e697323ee0d741",
+      "system/sui-u/png/choice-idle.png": "b2c14b3c06b084fb236b65cb77e671e2c7271604319196b9e1b3a2401615dc07",
+      "system/sui-u/png/config.png": "adb49bd6fd368af865e780cb8b2c164552332d5a5fd4f3ec455949e1e8f330b7",
+      "system/sui-u/png/confirm-hover.png": "1003862d42aedbff2210e40f9d121e93ee6122065a4534a3a8bc22634126068f",
+      "system/sui-u/png/confirm-idle.png": "abd1cb4352482b6cb3952a1ae664a179c730138f8c1a481c3331c911adf510e5",
+      "system/sui-u/png/confirm-press.png": "69692ea6290a41a12a61205ae55e1510b674d18d395e3cae5a8b3bd9fe401e2f",
+      "system/sui-u/png/continue-hover.png": "c2f10dd0e5213213b86b0962bde8b29b1af30dea96905fda2fa6bb43e3cccdc4",
+      "system/sui-u/png/continue-idle.png": "be929c336b7f5b5c940a949e1ee55ba1d4c4e1eba66f84a979ea6bfefe05a643",
+      "system/sui-u/png/continue-press.png": "d84a9efcccd1737343189f8ecd687c97511ccc299031fe1aca71ee9dee20d791",
+      "system/sui-u/png/fullscreen-hover.png": "2c8ac5097fac4858ed2f5e4d891196ac7dc2ca12fb884f70512146407de265a5",
+      "system/sui-u/png/fullscreen-idle.png": "09e5da7519a14502c7f9ab0220307f72e50f55d794cb1befca382ed2bf835efa",
+      "system/sui-u/png/fullscreen-press.png": "9425968c19c7f948f9c1cc78b429a86a2edac38e3eb0e293176f058bab205fac",
+      "system/sui-u/png/gallery-base.png": "7d02b57579c689760b1c35c4c93d958f38aacb1386f083ac2a76dbe260370df2",
+      "system/sui-u/png/gallery-hover.png": "cc1245d39a5030cec9a9851b686295281a34c8e3a32f45f3abb1616e4363dec7",
+      "system/sui-u/png/gallery-idle.png": "a73a43f6d421be70d32914f4b74fdc761dab47802adb314cd71453bbe42cb4be",
+      "system/sui-u/png/gallery-press.png": "b0ce156d315556c2fc5b03dc9ed4f5f3fb3b0a29eaa624d00e89ead2f0253173",
+      "system/sui-u/png/gallery-view.png": "cb1a7b4e76b58b1fcf0636bf59d8240795636303267927f288c91f7b554dde0f",
+      "system/sui-u/png/history-item-hover.png": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf",
+      "system/sui-u/png/history-item-idle.png": "35a7b5fa4c3e8639355c644002dc927db2edfb67e6575de44de9ae5caaec1252",
+      "system/sui-u/png/history-item-press.png": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf",
+      "system/sui-u/png/history.png": "7880124602fbe55a0ab6e4729ab7a742b77bcb41bd6aa1772fce020da58327e9",
+      "system/sui-u/png/load.png": "0c72e420c05839841164bbeb34fbe35fa0abbac3b4bdb76d5f821d93994b469f",
+      "system/sui-u/png/menu-hover.png": "ce32609bd911bc57ee8e767eec985ab847bd4e200cda940b6bf4f9d2b7e1b765",
+      "system/sui-u/png/menu-idle.png": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579",
+      "system/sui-u/png/menu-press.png": "5afa5e7b559fdd42ccc296ef6093dbee2ddc27c461d5846ae3c7bc6f86e21afa",
+      "system/sui-u/png/message.png": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412",
+      "system/sui-u/png/name.png": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8",
+      "system/sui-u/png/nav-auto-hover.png": "d6045b7ec8257456ff9d03706122b28962244af2cafb321de1d42d6f10f3114d",
+      "system/sui-u/png/nav-auto-idle.png": "7b641055aecbc5a4abb0d14780877ec35c0a6f8e155b75ed08e202507b65b5c7",
+      "system/sui-u/png/nav-auto-press.png": "740b4e21fca3444419c680864a010304cafcbcf9b07010989672c3e6a14db1ef",
+      "system/sui-u/png/nav-config-hover.png": "03ac187769c756926e26aaafce158357791812828dde493c23714f697361bb79",
+      "system/sui-u/png/nav-config-idle.png": "3f5bc511412427ea41dba12bb315dd80584511b137adcd1314770f9911154f24",
+      "system/sui-u/png/nav-config-press.png": "13c45c27c56176f436c09127b3f370add4c6c8e52661b983598686020b1c3bd2",
+      "system/sui-u/png/nav-history-hover.png": "c577eb2d3a387f0c2bfe43201698d0881bc451e0e50c91c9d9af4692511bd2bb",
+      "system/sui-u/png/nav-history-idle.png": "03c9ba86fac3a353971bd35edb73c06cc5ae0c5892f0925bd1b8e89cf9b33706",
+      "system/sui-u/png/nav-history-press.png": "b8929d1f17bbd56c3c0d3fd0de1151944c838bfa9e6c537a703cbb76de3bdfa0",
+      "system/sui-u/png/nav-load-hover.png": "90d077d73cae021f8288a231199cbe591b3327ddcdf30f5caff8e06558c4ceda",
+      "system/sui-u/png/nav-load-idle.png": "5c9231f367fea73240456036c3a8913135f07c446428a4f9a59af4dcb8aa5e47",
+      "system/sui-u/png/nav-load-press.png": "893473355ae9a348e4fbaee128e04645aee2d1b7919974eb383b577c9a9e929b",
+      "system/sui-u/png/nav-save-hover.png": "77a6bb67f5969b2e3f2a7e032e93e0f07751d698d906075bf6bd9e938f4c73ba",
+      "system/sui-u/png/nav-save-idle.png": "676d509295e0ae1a501b8b623fbc68c8e4aae984103975813714416e45d69f37",
+      "system/sui-u/png/nav-save-press.png": "01f200aec437ba5ba05c7d4be7a1755a94490fe97acd9faac7e2f081ad7be957",
+      "system/sui-u/png/nav-skip-hover.png": "ede13dbab843bcef1864c725380b1935d0362a7a011e4be96ef6b25c01772fcb",
+      "system/sui-u/png/nav-skip-idle.png": "cfccf22ac2ca0ade983205306c03da7dcb25cb2d077acc293488636e69009909",
+      "system/sui-u/png/nav-skip-press.png": "6055019de58be3b2f9a71ae4b262cdff295009874f49127203d1c9e591ae211a",
+      "system/sui-u/png/nav-title-hover.png": "03b587ebc8ccd7eedb33bce4b52c6831262b6615f79593ece5bc4a8cc7658df1",
+      "system/sui-u/png/nav-title-idle.png": "40dd3363ef1ea9cab8fd39b35e21ba4bf6a22f3d4deafbb3702c9f901c9abdae",
+      "system/sui-u/png/nav-title-press.png": "592eaf23f172d78b17edd8bc822d76eb127de2158a35cf98667fcbf0752c0890",
+      "system/sui-u/png/next-hover.png": "5dc55508c94983f20cbf17faf7464729c3601e5ed7f1d5cc7c0d41b83a4d5530",
+      "system/sui-u/png/next-idle.png": "5a3e166bb61c5e536d8ab1184742afed6edeb3447b613edebb84f1ad6bf3f41a",
+      "system/sui-u/png/next-press.png": "006f38a791a5c151395a458c98a779753a54edbd9ffa6964331a48320163ea19",
+      "system/sui-u/png/preview.png": "bba817b97ba51e2bf014b6757c3b7a54c57b5567b00f8dae03fcfff52ddaaee8",
+      "system/sui-u/png/previous-hover.png": "05a90d2b043d9cab855483b919bcee6d7bc0078f33eb0f5c19ce84822162e8b8",
+      "system/sui-u/png/previous-idle.png": "4d1eb68a1b61f0e3df8897445060b6411225bb360271b84c9d7717e7ba17dc75",
+      "system/sui-u/png/previous-press.png": "b89bce40e850266037eefe3fd9da1ca112932efca33472eb1f481cd8318f35a5",
+      "system/sui-u/png/reading-backdrop.png": "4223df8b5ff83cfafa5d7af5c2225824a0fac3340a8cc74e9de5cc9ac9135b7a",
+      "system/sui-u/png/reset-hover.png": "a266b8dd63e3a0a467b4e984a124d84e915fddedde4ffcf6d58ff7d4ce666ae9",
+      "system/sui-u/png/reset-idle.png": "d4aafb1de5670d7555a4de5c36faf92b672fbde8884e6d04e40ffbcf744a51d8",
+      "system/sui-u/png/reset-press.png": "0b1461ac89dc72b3e85c59398de190bb36274ea42903231be8924e2361079d12",
+      "system/sui-u/png/save-item-0-hover.png": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225",
+      "system/sui-u/png/save-item-0-idle.png": "f1784745d2f1a1d644e95c23646c2704f926aae00b33a404b550d5b65868a46a",
+      "system/sui-u/png/save-item-0-press.png": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225",
+      "system/sui-u/png/save-item-1-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-1-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "system/sui-u/png/save-item-1-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-2-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-2-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "system/sui-u/png/save-item-2-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-3-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-3-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "system/sui-u/png/save-item-3-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-hover.png": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d",
+      "system/sui-u/png/save-item-idle.png": "ffdd0b719fd1a0fed28340cb76abf560a3c75eec585b3de1f63f461d067c09a8",
+      "system/sui-u/png/save-item-press.png": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d",
+      "system/sui-u/png/save.png": "eeb369ab803cdcc39b4501dabdb08b0a00e33024707bbc61db7facbe713ac37e",
+      "system/sui-u/png/scroll-hover.png": "e1b29e1954b5a0e62ac07f11bbbc30bbbc20c84499c0e92d74731d9cd3b530b3",
+      "system/sui-u/png/scroll-idle.png": "0df6eaa09efdd2b0a71c2ea2ee86332a2df324ed4b26f4f5ba9e489de2c7279f",
+      "system/sui-u/png/scroll-knob.png": "f5b197668d75e3d1a45cf77176a2417217105d016b84035861c1047d7cc755be",
+      "system/sui-u/png/settings-hover.png": "e9e3350e555b395d7381cc1355fb7ff33ca25e1e90288239ee8d8d3797e61a91",
+      "system/sui-u/png/settings-idle.png": "52e3c8be6e833384a88b8bae2e76eeb0260943e279cc2a49ad0af718caa58dd7",
+      "system/sui-u/png/settings-press.png": "10c869c5a922253785e19c53f892fde3bd213058a2db72113d2862abc3fe3bd2",
+      "system/sui-u/png/skip.png": "6b9a8672e8b2b7a50994d50c0c8ba8abee060a7aca58da768b77925915bf6d43",
+      "system/sui-u/png/slider-hover.png": "2f10e38a7f0938dd8d2d9012f3b001e9b8f0260fc07cb9aa1c112a654412e0c7",
+      "system/sui-u/png/slider-idle.png": "5e9d1b013dd8575ca3dfa709fddbeb49f9a216ca74f708b85e27ce5d0e7c1b8b",
+      "system/sui-u/png/slider-knob.png": "e98abcdd04d52ace4fd1b0630a45cfc9b1bd690b9d22ddef856d281610c724ed",
+      "system/sui-u/png/start-hover.png": "aa9a6120f220444787156901d6e14c9e017b1b613dc4d81a64b78008c044c596",
+      "system/sui-u/png/start-idle.png": "7218a7c3aba9334cf7c01d82073f91a4e19113082c92f2694bf7dd8a4b010356",
+      "system/sui-u/png/start-press.png": "d3cdf9523d76d682ec334230eb181aa061de667cda2d96c613c8fd37b7fc6f99",
+      "system/sui-u/png/sysmenu.png": "f42ce9c9dd2e429dbc34595c1496d8cdad53eccc604c4de0854f1c43b91dd7d6",
+      "system/sui-u/png/title-confirm.png": "90caa9f801c5ff02eb4bed3e8da7828145d9787b9cc80d3c5b334d177a9ab0f5",
+      "system/sui-u/png/title.png": "1c2beabfd1f9366322c852d4d4cd37773e4a828449cedcb3ab14cebbb08c97a7",
+      "system/sui-u/runtime.ray": "c2e9eddf219eb6e47240c5542666914c0dcc2196f95dac14c78924d59ee0aa1e",
+      "tools/runtime/neutral.png": "04a1d34c2f681558372a11f19e930d75fba5560d523d34e2102a7d8ea6963279",
+      "tools/runtime/rollback-button.py": "76b272b2e9e3823b7b70ff00aaddbd0eecf089479ca665862c8fb6d5acb1bd7d",
+      "tools/runtime/rollback-hover.png": "f521f0b2895aa923f93a5d9a3e821752d72cd87b100eae02129756c58d86b3ec",
+      "tools/runtime/rollback-idle.png": "f767467d5abd32e66ed901ec6027a374ef7ffb4a193d6afadbd340b4a157f52c",
+      "tools/runtime/rollback-press.png": "0cb681f382eece2234931aa86187f2515122d80b18142ee9c43e4ca069c4048d"
+    },
+    "runtimePositions": {
+      "count": 3217,
+      "lineBase": 1,
+      "batchSize": 12
+    },
+    "guiActions": {
+      "variable": "e_action",
+      "save": {
+        "1": "S",
+        "2": "D",
+        "3": "F"
+      },
+      "load": {
+        "0": "A",
+        "1": "1",
+        "2": "2",
+        "3": "3"
+      },
+      "openSave": "V",
+      "openLoad": "L",
+      "rollback": "R",
+      "nativeDirectSaveLoad": false
+    },
+    "resourceBindings": [],
+    "webpCompatibility": "SUI-I02显式图层适配；以当前候选实测为准",
+    "inputs": [
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-base.webp",
+        "bytes": 1493464,
+        "sha256": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-displeased.webp",
+        "bytes": 1453110,
+        "sha256": "9c0b92a1352a6489bc8d25dc744fe2295ae9cf71e81f33b0abe59412ba7e59c6"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-downcast.webp",
+        "bytes": 1461444,
+        "sha256": "b61cc8e4348ad341d55e52b5e1ee2fee841e79d0c716e05ed1d32bd47f565dbb"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-embarrassed.webp",
+        "bytes": 1451144,
+        "sha256": "6b70cb8419392cd6b77bbacb368c8eb01f63d4cbccce4037e9d3636f3ecb53b3"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-hesitant.webp",
+        "bytes": 1452548,
+        "sha256": "bf55fbc53b2d59c96d0cebff6667af0ab581d35647604123a0f2c211dd8d755b"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-old-sweatshirt.webp",
+        "bytes": 1499742,
+        "sha256": "8e036d42bba78a22f4c8f9b3b45604019a37bdce1b06d0a4bbcf0a348b224df6"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-practice-notebook.webp",
+        "bytes": 1509744,
+        "sha256": "a3c4432b326aa60dc6048a4d6098782d34838eb4ad41f697bbd0d9ee882f5f58"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-serious.webp",
+        "bytes": 1452744,
+        "sha256": "5b007454d7ac54049f26355ba1d527929c57988b9d7326a3e459f9044b2f43f9"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-skirt.webp",
+        "bytes": 1399632,
+        "sha256": "4ac96f7dae3340a9b53362a13659d3175abc62d2d1ec291f743e7bf4fcc37e4e"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-two-helmets.webp",
+        "bytes": 1505158,
+        "sha256": "8efd9b26850d19f41db89d525151b12e61499d375b368583b1b10e158a24a162"
+      },
+      {
+        "path": "assets/current/SUI-A02/char-xiaoman-work-apron.webp",
+        "bytes": 1283518,
+        "sha256": "7a46c1ac2d3db02e3a35970d90eab87f81c2dd9f3037b80fe7043e07826f89c2"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-base.webp",
+        "bytes": 1196204,
+        "sha256": "c385e85d8d9db730191d494585cf37f27b43894f8b9ac63cbac65213691b6739"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-downcast.webp",
+        "bytes": 1158144,
+        "sha256": "7685df2784d88a552c2a9b304a825d022d283aec41ae7114a60ceabd34f4c9d8"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-planning.webp",
+        "bytes": 1143182,
+        "sha256": "c8a368aab535496ba7b408bac915439c51133f6d6d2999333154f348ea45fd71"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-prep-apron.webp",
+        "bytes": 1109248,
+        "sha256": "8195f87dcfc08c0b93ccad0bd67bcd9c0e843a362ac439c227c05e8a60a4b885"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-serious.webp",
+        "bytes": 1160454,
+        "sha256": "9d8310fca2552ac4a105319c821ce3519ebf4a532497ab8f2560c4d374a6e3b6"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-smile.webp",
+        "bytes": 1174320,
+        "sha256": "ba4ba50b86fc8faad8ec912365ba79bdf2b46abd2bacaaef9c6476748d330243"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-tied-tired-cup.webp",
+        "bytes": 1137916,
+        "sha256": "6c04e16a9f9f051eb3a90de74e865caf9b12e10c51c18c07170924da461ab363"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-work-neutral.webp",
+        "bytes": 1182284,
+        "sha256": "f992aefc7429519f78c9e823c57c1ae74fc4281243313fc7cb0bb2fdc24a30cf"
+      },
+      {
+        "path": "assets/current/SUI-A03/char-zhouzhi-human-work-serious.webp",
+        "bytes": 1200064,
+        "sha256": "c3a90d770bd41eb796ff4f1d52d42a151efecbcec7cfee360c565d6e5c775a4f"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-base-expression-downcast.webp",
+        "bytes": 1277828,
+        "sha256": "eddf4dc15d0811969cfca724a2584e20ac38281bb3bb1e8701147194261a4423"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-base-expression-hesitant.webp",
+        "bytes": 1268696,
+        "sha256": "ec50a8d89e9c244d4356958527762748ab7302ed5aaf2e995593a28b0ef3c1cd"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-base-expression-serious.webp",
+        "bytes": 1287516,
+        "sha256": "0cce43572a02e0bfab61a8850312f255d81e65b7fe168faa39051932410a0e50"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-base-expression-smile.webp",
+        "bytes": 1299612,
+        "sha256": "0218ab381725ea90c907201252f826bf110255e9754e79d15fb4a5931fb94ce2"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-base-expression-tired.webp",
+        "bytes": 1284152,
+        "sha256": "8d4d7aee915cadc07a96a2dde9c5a8f4a3b6879116ec16de27f8b7173ee0824e"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-base-neutral.webp",
+        "bytes": 1313170,
+        "sha256": "26b139e65a8012e9e072a196f54f09b948e974873562939f12caf7ba6e1043c9"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-book-box.webp",
+        "bytes": 1372040,
+        "sha256": "2944fc4ffe11e3c7a09fcdb0a8c08e0fbf1769b8efb6e1771834b6734365a6e1"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-casual-jacket.webp",
+        "bytes": 1289224,
+        "sha256": "1054261af60d545472fb4450f1d714c877f27d13e9edbe507608bbaf539b611b"
+      },
+      {
+        "path": "assets/current/SUI-A04/char-mengyao-human-teaching-base.webp",
+        "bytes": 1361388,
+        "sha256": "d7c703da519d2901d13c55d43b3407b52357011889df4884d820b748b5256f8f"
+      },
+      {
+        "path": "assets/current/SUI-A04/prop-mengyao-borrowed-book.webp",
+        "bytes": 1140656,
+        "sha256": "fb745f28ca82a7a6c7f1e675946704c26a10f16acd9e85d0323a2ce37312fb1e"
+      },
+      {
+        "path": "assets/current/SUI-A04/prop-mengyao-phone-stand.webp",
+        "bytes": 411350,
+        "sha256": "7947d230f54f822d6d65f27e83863517b979f9c67ad1016ad548565547eb4997"
+      },
+      {
+        "path": "assets/current/SUI-A04/prop-mengyao-workbook-cover.webp",
+        "bytes": 1152202,
+        "sha256": "2eb536f574c4d7d3b01b803fb3cb89ea5b48b012848c0655380f9c9af2d21f9f"
+      },
+      {
+        "path": "assets/current/SUI-A04/prop-mengyao-workbook-page.webp",
+        "bytes": 1149554,
+        "sha256": "d3334abf9f725f9eff5912407190824493ccae711ef25a7dcd6f02de618f7b27"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-action-booklet.webp",
+        "bytes": 1103484,
+        "sha256": "66bbc42d3fbbec2431d6234d9fc9046c9cfcf3a8e41d47a71d362e394019a871"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-action-camera.webp",
+        "bytes": 1128536,
+        "sha256": "709539895b8ee4264c20a9e82b7e7c636a99840049d2e107e565b807e6874c7a"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-action-explaining.webp",
+        "bytes": 1049770,
+        "sha256": "86b0f0d947b0aa5cd2880c5fc3c8f23e45191643ccd9597aaeacf9e7d0d5b7e9"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-action-knot.webp",
+        "bytes": 1144340,
+        "sha256": "5184894ab98866f803011bf42253fab43d3add6bb6cd31cc5e254d524c258b22"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-action-thinking.webp",
+        "bytes": 1026222,
+        "sha256": "c74718334036f4bf745b24b6bd6cf75235eaf57747b8d4fd9b21ce6ee3351580"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-action-wave.webp",
+        "bytes": 1088234,
+        "sha256": "b663071a870f41f5b9807791a2f450d1e129e889d97c2e4e268c4aee9a217855"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-base.webp",
+        "bytes": 1041008,
+        "sha256": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-expression-displeased.webp",
+        "bytes": 1043816,
+        "sha256": "84b1e4f7ade9ad54ecc494533b3c1416bcdafd8da21f84f094af818013c2bd6c"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-expression-downcast.webp",
+        "bytes": 1031710,
+        "sha256": "7771a367045d1be0220a541e874f8da9d9dc987efb8951204985019175a2c935"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-expression-hesitant.webp",
+        "bytes": 1032888,
+        "sha256": "a2f8e0cee954d0f239a7309128238815d79beefe99eed32fbde6f3cfd3ca24f7"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-expression-serious.webp",
+        "bytes": 1035166,
+        "sha256": "34cbd86ac2d7aa1c7a97142473930d33cb6de2f9452d56c6626975f72661ba63"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-expression-smile.webp",
+        "bytes": 1039722,
+        "sha256": "355c50ef180390f75489275417c41101d8045ddee082ebdc1a3c94d0c8581c53"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-expression-surprised.webp",
+        "bytes": 1040172,
+        "sha256": "e93d6d0f92058a27d9c218e970c512c7bad7aae37842ca9dfa51333ae2192834"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-prop-booklet-tools.webp",
+        "bytes": 938448,
+        "sha256": "a43f370793b9056b814621ec2f44ac9d20ce99cd02acf5e1b75d07d780471d25"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-prop-booklet.webp",
+        "bytes": 828296,
+        "sha256": "ef3b0efb8a20a3087f7b54abdd56c6cf3198e304d97b64753471946579850c54"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-prop-camera-bag.webp",
+        "bytes": 1060710,
+        "sha256": "2073d5f86b8126455271bae9aa65bdffc87b8716c16982103c30ec77260d0858"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-prop-camera-manual.webp",
+        "bytes": 772356,
+        "sha256": "f22df2cb9d5d1293d5a923694074edab45bc9bec8687ca30be075d225c2b740d"
+      },
+      {
+        "path": "assets/current/SUI-A05/piao-prop-camera.webp",
+        "bytes": 1077946,
+        "sha256": "6a13aad578daf1f6ed52a67d103b4d6e890acc45445ed16630b6c1ff447ddca0"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-human-chin-v001.webp",
+        "bytes": 1223222,
+        "sha256": "c8e041891d4524921700b5e2726e8406b375d32d5b3aaac75aba92165ebbd0d9"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-human-downcast-v001.webp",
+        "bytes": 1238816,
+        "sha256": "2e119dab4aef04599aab02361be1d038a7c37f55ea12eef6a1179d412ff58859"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-human-neutral-v001.webp",
+        "bytes": 1261042,
+        "sha256": "3f41ff7bb087c1faa1f8cf71d7862076c6b515cc1259afca8791b84d7648153a"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-human-serious-v001.webp",
+        "bytes": 1238060,
+        "sha256": "acd7f245048c01bd929a8b5cff129b9dc41cf958ee8a723948eae85db5f8af84"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-human-tearful-v001.webp",
+        "bytes": 1262878,
+        "sha256": "9c48efc30d85826297254006f6fc447581c6dc1ff2b700653ed21efafb7ff876"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-human-toy-base-v001.webp",
+        "bytes": 1411826,
+        "sha256": "7851c5852de3dbdebe71c00356f1cb9cd645aa3515d0d3ebbf13406ec30e2320"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-orb-amused-v001.webp",
+        "bytes": 765476,
+        "sha256": "49a3a49d5447504236810a20f598f81628445718f07e411f6b1437a23531a433"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-orb-base-v001.webp",
+        "bytes": 795684,
+        "sha256": "9c7ae2ff67bfa6436f5700295ffbf72d848c6e94b7dd95aa17b7e0d5379e69e2"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-orb-downcast-v001.webp",
+        "bytes": 755536,
+        "sha256": "c3a8089c0c6a65792abadc71896158f3386571e8a34326bbcd6cfa6530788192"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-orb-serious-v001.webp",
+        "bytes": 758414,
+        "sha256": "4e5daac8bf58ded54deb3980bd7781683bc89e2c6b7e6722d1827868331d7aa9"
+      },
+      {
+        "path": "assets/current/SUI-A06/sui-a06-orb-wave-v001.webp",
+        "bytes": 782328,
+        "sha256": "8a7c9cce55e36a4debfd08d4657d23e45ca4aa1b656aa8a465e17ae487cce121"
+      },
+      {
+        "path": "assets/current/SUI-A07/chensheng-b.webp",
+        "bytes": 1316252,
+        "sha256": "e7cca72df6e6325eb0a782d1afe108da15f44d0864747eb67f3b9136b4d19cfa"
+      },
+      {
+        "path": "assets/current/SUI-A07/chensheng-book-bag.webp",
+        "bytes": 1317230,
+        "sha256": "25e660b83dbb488ed9d42759fcd1008a7aa50a8c64b109023569a5cabcc5b5a4"
+      },
+      {
+        "path": "assets/current/SUI-A07/chensheng-cable.webp",
+        "bytes": 1240316,
+        "sha256": "65981042ef3b05945cc25c29c452fea13b605b43b7947cc84d01651719f5a3e2"
+      },
+      {
+        "path": "assets/current/SUI-A07/chensheng-documents.webp",
+        "bytes": 1252006,
+        "sha256": "6b026d4b84d596cec522749d4cf3e103abec983d5c45f7e76a12de193810deb9"
+      },
+      {
+        "path": "assets/current/SUI-A07/maolang-base.webp",
+        "bytes": 730922,
+        "sha256": "a5af61df74e79682885f201154ab4989f0f8632a1344494bf472911e0362ee88"
+      },
+      {
+        "path": "assets/current/SUI-A07/maolang-mic-bag.webp",
+        "bytes": 1058626,
+        "sha256": "ac2a120cf4e5107f0c374c982bd30f1afd85daf5d4a2c6d541d262ced3e2b7cb"
+      },
+      {
+        "path": "assets/current/SUI-A07/maolang-serious.webp",
+        "bytes": 1065774,
+        "sha256": "529f8f9bc63736911f78e350bf9e8ec281af52895595a5f9d2bb573c0159e945"
+      },
+      {
+        "path": "assets/current/SUI-A07/maolang-stage.webp",
+        "bytes": 1031586,
+        "sha256": "848ddbe9ac91a1a6a3618cdfc2b9675427e2d4af636225d32eccd7b61c6c2352"
+      },
+      {
+        "path": "assets/current/SUI-A07/shijiang-base.webp",
+        "bytes": 931896,
+        "sha256": "8210ca3e73de49f8851747ea9af487331e9ae0b1f9baf1a6fdc13a02fc49f922"
+      },
+      {
+        "path": "assets/current/SUI-A07/shijiang-calculator.webp",
+        "bytes": 1173264,
+        "sha256": "7c35df6a4d350e64eee0022e6735a8ae94dd581c4abd02525db8002ae0c6ea4f"
+      },
+      {
+        "path": "assets/current/SUI-A07/shijiang-serious.webp",
+        "bytes": 1187384,
+        "sha256": "00b22e85f2bf64c6310e8c4ffd5fd353ca147216613c73f25e3f23bd497244bb"
+      },
+      {
+        "path": "assets/current/SUI-A07/yelan-b.webp",
+        "bytes": 1379250,
+        "sha256": "8a8f6a94ef5cc429f901bc96129e9134f48aae82f3921bc30cbcb883c4f13f30"
+      },
+      {
+        "path": "assets/current/SUI-A07/yelan-phone.webp",
+        "bytes": 1364770,
+        "sha256": "cc826548ff5fbaf78ea3034370a8c29dc4cd06e946810449ab94ad30fb07bff0"
+      },
+      {
+        "path": "assets/current/SUI-A07/yelan-serious.webp",
+        "bytes": 1318146,
+        "sha256": "164a54497f8cef5ea58fb90b230f105d24c2a507806dc7ca11c39fb9022852e0"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-ajun-workplace-front-day.webp",
+        "bytes": 2190798,
+        "sha256": "288b9b59eccbe274e928cc207c1bece2212f9f02d33434f14de4c6cbb3ddd3d8"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-aying-prep-space-afternoon.webp",
+        "bytes": 1806298,
+        "sha256": "403a0b5b14d6d809b52242032d9f0c6eeddc0badd200d14da3ee4f06d58be548"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bbq-xiaoman-friends-bike-shed-night.webp",
+        "bytes": 1904536,
+        "sha256": "35cf9c6468fc3e0a792d9234fa8d145f7ab4c5bc1a10c5454ccaf62d090ad2dd"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bbq-xiaoman-friends-stall-night.webp",
+        "bytes": 1943700,
+        "sha256": "128fc2bf3c719dccad20307c29bac27758ce2e4cdf0f16ed7156c08244bca0a8"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bijie-arrival-platform-day-rain.webp",
+        "bytes": 2179884,
+        "sha256": "2297a928a8ed6835879d50bdbc86976bcb896290a4554e8e3405790ff95b724b"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bijie-slope-street-day-overcast.webp",
+        "bytes": 2135048,
+        "sha256": "e6611d30b2aecb2c7579ea202c885c84cc96fb96401cc638dea0ff156adaaf7c"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bijie-slope-street-dusk.webp",
+        "bytes": 2223430,
+        "sha256": "c2fc27d6b8d1e7be71fa5c27fe66fa2b064265cf33a0e83b5d5a554079953fab"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bijie-slope-street-night.webp",
+        "bytes": 2119378,
+        "sha256": "41601323c098ece9d946586dfd0b52b405fc6b5b10f365686c426240c11e91c9"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bridge-shaobing-day.webp",
+        "bytes": 2139234,
+        "sha256": "56c4624bf575d91bceed45a920724c0ade1a7c3f4f506cecc91ecf432072d30b"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bridge-shaobing-eaves-rain.webp",
+        "bytes": 2132596,
+        "sha256": "045ab9ba4729756b6c9f8bcd2fea102a5d32ad4776c944fd7a153f8852a03bcf"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bus-stop-bijie-inside-day.webp",
+        "bytes": 1705428,
+        "sha256": "d9db8c3d6629805981c76ea03822e19e1dc665baf3f0ad5fffc2dfa39ad50823"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-bus-stop-bijie-stop-day.webp",
+        "bytes": 2129694,
+        "sha256": "2cc5fe8a41c340f18d6ba5e922d564a861346714678a7e79046eaace69af8207"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-chengdu-salon-study-screen-reference-day.webp",
+        "bytes": 1271540,
+        "sha256": "9fd6359472ebc2103a67f62cb17fe67117744dab8428b86102ea89b324446c77"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-convenience-bijie-day.webp",
+        "bytes": 1928576,
+        "sha256": "8e6dae19c9eef8c72ec77b8b2d98fb240b40dd057d5c5a2d36bd8355f0b68d2a"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-departure-station-morning-rain.webp",
+        "bytes": 1967924,
+        "sha256": "da3d0266f246264b9a9c967a8419c7c4013ddcc4cf1d478985d23996bbcec318"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-friends-meal-shop-day.webp",
+        "bytes": 1980096,
+        "sha256": "e434b0afe15975c5f5a2af385e69fac33a333e116b5e7f74306c2f0de08e4586"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-friends-meal-shop-evening.webp",
+        "bytes": 1890962,
+        "sha256": "1d29764fde8a71d70799c22b4d52a15784552d23fca66e09a65ebb0ef510120c"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-guiyang-housing-office-day.webp",
+        "bytes": 1621738,
+        "sha256": "7223eb18b2a3d92467f3f3429c53d4d3e330eeb9f44fe5b85ea9cb3ff9ddf309"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-guiyang-meal-shop-evening.webp",
+        "bytes": 1786246,
+        "sha256": "fdb3445db90ab3b66f3b89d88455ee1c1897586ee1e45447572f4e80603cf6cc"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-huangqiuqiu-room-day.webp",
+        "bytes": 1825376,
+        "sha256": "070568fb51f21178af3b18e8d089fb07b1f706e8374764e00cb13d25d303b4d3"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-huangqiuqiu-room-night.webp",
+        "bytes": 1621444,
+        "sha256": "d1ce98a0935a89e25ab364f97f15697e33a5a99af80e6d4cf494b79b2f8de2de"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-huangqiuqiu-room-table-close-day.webp",
+        "bytes": 1588262,
+        "sha256": "90e2f872086aaf58e06fc271b42975a170b0f85b5a11ff7e408395b565110275"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-huisheng-306-cleared-day.webp",
+        "bytes": 1688118,
+        "sha256": "5d28669c6d040eb2a9d325217fd0e02a7f5cc17a3b9a4eaac26fb1269247301b"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-huisheng-306-operating-night.webp",
+        "bytes": 1570146,
+        "sha256": "11a3352deae35480b832d817d4dc3f231e7065beb99d20d57b904bdeebc847f6"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-huisheng-corridor-locked-day.webp",
+        "bytes": 1759776,
+        "sha256": "1ab76a63f77c23e3b4bd006ccc76e6eac5d1f729f25a9749bf60ffc124b00068"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-huisheng-corridor-operating-day.webp",
+        "bytes": 1818034,
+        "sha256": "0db63527f7d2ccb6e9216de5fe2056910d232b9d1d9ad256eab4ee27999305e7"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-lianggao-shop-day.webp",
+        "bytes": 1927682,
+        "sha256": "e5866fd65f0c08533613b9d2382c2cff5e3b90412b010cc9b37e35e5dcab0c1f"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-mengyao-bijie-school-classroom-day.webp",
+        "bytes": 1468140,
+        "sha256": "9ba3b11df8ccc89e9e66647cd292f93b962b33b9351c869d018af82e210c61ce"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-mengyao-bijie-school-corridor-day.webp",
+        "bytes": 1484062,
+        "sha256": "8b71b96ef31fc0c0c84573c7a9c0e9258b2ba761f82ba6b85e38348e1283548e"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-mengyao-bijie-school-entrance-day.webp",
+        "bytes": 1565946,
+        "sha256": "f95a2c77c10e1d1bdfb51e111968168da306e2541e356740db0c8b991115319b"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-mengyao-drink-shop-afternoon.webp",
+        "bytes": 1779916,
+        "sha256": "1329e268e3aa4180fccc4632c50a2951b829f4afa9b29043124968cd5bdf6884"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-mengyao-guiyang-home-day.webp",
+        "bytes": 1592994,
+        "sha256": "77609126301e23efee1b607f36708f356a2bb4fb47f9aaca2eb3b7a337d7cd63"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-mengyao-guiyang-home-night.webp",
+        "bytes": 1360138,
+        "sha256": "cbf2f909cb85b73b51ec06ea09d2b0eaa778f1c168a54c06e30dc0e82d40cea6"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-mengyao-guiyang-school-day.webp",
+        "bytes": 1489250,
+        "sha256": "e915cd4924551818bdcbd6bf54c90154955559510b4ed9fcfb6ca0fcbfb85303"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-mengyao-used-books-day.webp",
+        "bytes": 2088938,
+        "sha256": "70f339e97958a1b317b41362f9e15fdbf9081c0590e77dd55b620344b546ca76"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-new-netcafe-counter-day.webp",
+        "bytes": 1756796,
+        "sha256": "647b685434eefd14a9c21517bf75ac9390a29949d734c6dd7a78e9397c360bbd"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-new-netcafe-counter-night.webp",
+        "bytes": 1761552,
+        "sha256": "55490b38d78eb01d92f1c6c193b8d79add4b5cd6004d8e185323c9e5523ae62f"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-new-netcafe-entrance-night.webp",
+        "bytes": 2042758,
+        "sha256": "ebbd40c4e9735eac79ebcca61e5a71965ba77af18bae102a91169133f2103c06"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-noodle-shop-day.webp",
+        "bytes": 2064612,
+        "sha256": "4f20a589dd2095626da10f12540cb42ad0dadf03022e79ebd671bc20b187b737"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-noodle-shop-front-dawn.webp",
+        "bytes": 1947390,
+        "sha256": "4c061b0119132434af75edf763b26b29ef05737e7ac4d08ada0bbb483fa95fdd"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-backroom-night.webp",
+        "bytes": 1513852,
+        "sha256": "47696934829fecde45d6a32406bcaf0fab897188816492beb1b50273c5be5966"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-counter-day.webp",
+        "bytes": 1784876,
+        "sha256": "fefeb54a9992f0b9a4d28748b241741c069d95a4633bb0cfa20e91b62bb47a01"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-counter-fr-clearing-day.webp",
+        "bytes": 1747854,
+        "sha256": "6bdc0a1d7981601ae237ea5d94896472fe8a5a66e000657740f567a5664508b0"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-counter-fr-handover-day.webp",
+        "bytes": 1761432,
+        "sha256": "898e8a43eafafec636cd92a7b4923a9e20e3e01bed5b8d6362fb9a28d8cdb45b"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-counter-night.webp",
+        "bytes": 1633324,
+        "sha256": "45db7e9f5489252e78d440a6d3ca18522899924bac800f8bf89ad78a2cf904aa"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-milk-tea-fr-day91.webp",
+        "bytes": 1704874,
+        "sha256": "76a52afff3f80dbd05ad93fb1ad576bd91f49bde64b280359f774dba0b49f245"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-ajar-night.webp",
+        "bytes": 1803726,
+        "sha256": "6d8b727ac1c48dec2125e2b68ed3e8752505041511b6be67b532f8b4d2df4501"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-closed-morning.webp",
+        "bytes": 2178342,
+        "sha256": "67efd015362f224a75032d9d44bfc2c984dbf62d5cbbddafd6f5f12816e76145"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-open-afternoon.webp",
+        "bytes": 2222166,
+        "sha256": "24d3ba84b6535c7a295120572dafdeb45a905b161eee4a83320e18d2cb707995"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-oldstreet-shops-grocery-changed-day67.webp",
+        "bytes": 2013946,
+        "sha256": "5baf2445c10ea89b1204722291c60cd914faa736f845fa138eb2b656cdcf3281"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-oldstreet-shops-grocery-day.webp",
+        "bytes": 2059262,
+        "sha256": "b8908c19b6d22396b122b8439dca254c92d2c98c70f846789f20cfd7ba325991"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-oldstreet-shops-photo-studio-closed-day.webp",
+        "bytes": 2191892,
+        "sha256": "8197df15baae90fac605f63331901ed3ff31d9e2e6e2421c551ac06960745529"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-oldstreet-shops-shoe-repair-day.webp",
+        "bytes": 2058116,
+        "sha256": "41ffbaed8992d26ec3e3aac84783e3c784f2375e2af5cab2e324332809c1d3dd"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-performance-mall-side-stage-day.webp",
+        "bytes": 1844600,
+        "sha256": "8f67a5817f37f0ee3f7c97c111c97630aaed81d8caac4c575b7ad77925fcc3b9"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-performance-rehearsal-rain-day.webp",
+        "bytes": 2015562,
+        "sha256": "2a9c6810bb9dfdfe763541113ab7ccc2789bb8dc85e1a3aece99fa521839e712"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-photo-print-shop-day.webp",
+        "bytes": 1569566,
+        "sha256": "74214fc35038f0e59bc297ed5e2bb4f37b8e9c5de5b5e1b5b9d2566f26fe11e6"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-piao-bijie-room-day.webp",
+        "bytes": 1541726,
+        "sha256": "43b62f19be8a1234de6085651cd56c0ad365f90d813f01b93fb9ace2ed24d9f6"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-piao-bijie-room-night.webp",
+        "bytes": 1409288,
+        "sha256": "b8fbd525daf37393ef3845db76daaa80821fbf3e7d78ccfceddfd23422ae3678"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-salon-bijie-day91-mirror.webp",
+        "bytes": 1738668,
+        "sha256": "eed85848d7b05542795abb7c58a8ef87a7d77e0a5609b6bc604df27108da50a3"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-salon-bijie-mirror-day.webp",
+        "bytes": 1925216,
+        "sha256": "be81f956bac8694a75d2cbbad1680a00370bfc2c4c524ed963f607d745014850"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-salon-bijie-washbasin-day.webp",
+        "bytes": 1903068,
+        "sha256": "281491b8ac93842dfa3480d5f3b1d631041dd5fab91fcd23433ba5eb408f4584"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-wenwen-bijie-rental-day.webp",
+        "bytes": 1580552,
+        "sha256": "e1941067743593c0ba1a4202486909e53cf90e0db419747e1ee9a3797cecbbff"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-wenwen-bijie-rental-downstairs-bench-day.webp",
+        "bytes": 1698920,
+        "sha256": "f58a9381823e19a27d48cde10f464fe8806a862f09ecdc3579a1a53e5a1de425"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-wenwen-bijie-rental-night.webp",
+        "bytes": 1404478,
+        "sha256": "8901da80d33186e5519ca6e8fdc4eb93c6a2b53d0c48bdc59dd6d422082bda13"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-wenwen-guiyang-home-corridor-day.webp",
+        "bytes": 1568930,
+        "sha256": "941d9cbc6f53b8ab37af794bac2de7658bcc1338dbb6a21d9d633d4997feb45a"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-wenwen-guiyang-home-day.webp",
+        "bytes": 1655634,
+        "sha256": "d0c1566b1f59c77a866ab897096fc75470234f79b17a08c7f97e6fafb217fac6"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-bijie-home-door-day.webp",
+        "bytes": 1884336,
+        "sha256": "1905f30218d68571a710f7cec7e2c73248e42317b89a172600c9cd697361a8eb"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-bijie-home-morning.webp",
+        "bytes": 1684550,
+        "sha256": "e3a5fddd9db1acd2bfec604d3751708e1e45fc05428497ed5a3b441dfc662124"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-bijie-home-night.webp",
+        "bytes": 1493100,
+        "sha256": "a2134730d7c2de68508da5bcb41a79273724d3fccfa369904c4f2a271533beb3"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-guiyang-home-morning.webp",
+        "bytes": 1542080,
+        "sha256": "18bf29c21b8741b5927b9ac0e629711f3e155cef8810cb33eb2a817d38244996"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-guiyang-home-night.webp",
+        "bytes": 1399004,
+        "sha256": "15a23aca189a3559663bcd09fe208c0fb9ff5bd192c0e3af1be649ea6a0fa44c"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-guiyang-stall-closing-night.webp",
+        "bytes": 2116384,
+        "sha256": "23df2eed463a7c3810197afdcd080b50269d443f6f0ab0177a08e7ec02b0649d"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-guiyang-stall-service-night.webp",
+        "bytes": 2099694,
+        "sha256": "340c0b6b548937a1fc36e327f4bbf6d5bb20448d8991233556a6069f7005a859"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-guiyang-stall-setup-day.webp",
+        "bytes": 2178092,
+        "sha256": "3281d65657c1e929b7ce0c835b3bf26014dfd5e01cb95516ad548c0d7aa741eb"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-other-venue-evening.webp",
+        "bytes": 2170824,
+        "sha256": "01a13fe6dfbeb410ba5fdc16ca4dccb889559b91c4f56a4ef855830fae9eea55"
+      },
+      {
+        "path": "assets/current/SUI-A08/bg-zhouzhi-supermarket-day.webp",
+        "bytes": 1935778,
+        "sha256": "1434f1f25d476f718dd4b50bed72dbcd2872b2a0a3508b842b4bed6744c69da6"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg001.webp",
+        "bytes": 1578606,
+        "sha256": "d8510b2fb3e547956f19ce7fd6ef808aa3ae52ab59486bb0ece02500b525b1e6"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg004.webp",
+        "bytes": 1641522,
+        "sha256": "65673f2cc5b8b1f991c037da4cf5cb638383849998ca11e1264d3d31254be1ae"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg005.webp",
+        "bytes": 1673294,
+        "sha256": "f91e34d834e0a7fc8d074f1780a44cb483c04ab43864b79f292bd0f5f3eacfcf"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg006.webp",
+        "bytes": 2098222,
+        "sha256": "03feab1a16e1482392693e48db5727fdc4e2b88e7e4900731b79fa58cd7f6002"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg007.webp",
+        "bytes": 1535850,
+        "sha256": "136e73563832974d287d0c72327b562e67517b51a46ba5b2a457d46b3413274b"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg008.webp",
+        "bytes": 1600102,
+        "sha256": "861df5270cab79e7df74515d11d1d97d65561523fd0ce733f03b288c97b28b07"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg010.webp",
+        "bytes": 1588076,
+        "sha256": "c1906eaf304e6a77879f9964e519ed81c6641eed2821c2cdb4fba6ab1f830385"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg011.webp",
+        "bytes": 1696908,
+        "sha256": "d8beeb2a2e72da8bff22be03237ee17ac3434239ce3e9fc1f1db922bf43eaf31"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg012.webp",
+        "bytes": 1331000,
+        "sha256": "b222c3b3d4c52960cd1b30f842f850edf420a2cba5839832d16949ec26060c1d"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg095.webp",
+        "bytes": 1508076,
+        "sha256": "f351bf69c3e61494178a257711ad41aea4d943072fdd39c5f3161c98891219af"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg096.webp",
+        "bytes": 1503942,
+        "sha256": "10d57a2ea07e6487fb7ae2777828168fc0bd65da430fb2bb13810385f18ebd75"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg098.webp",
+        "bytes": 1428070,
+        "sha256": "098b8b65967b9c5ce1f1fe9df5e955fbf5b5ff92b3db105f06fd0376f10bf915"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg099.webp",
+        "bytes": 1578424,
+        "sha256": "7a6f418df33725d36343e6a556d447d7416bce01293b67019b6779add3174d20"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg100.webp",
+        "bytes": 1287890,
+        "sha256": "cd172061f913c887caffee2482b92550dabcd017bfab01197baf6e74244583e4"
+      },
+      {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg101.webp",
+        "bytes": 1748758,
+        "sha256": "cef835f180b8bafb0696891b03b90f6d99a00d08e786ab6b74faf8fd0cd3af4d"
+      },
+      {
+        "path": "assets/current/SUI-A10-FR/cg-fr-cg086.webp",
+        "bytes": 1612456,
+        "sha256": "965c1a29f75a55e8f774fca0a767b8de24c16c1185ad60998ffded8cd2e4ef05"
+      },
+      {
+        "path": "assets/current/SUI-A10-FR/cg-fr-cg090.webp",
+        "bytes": 1626616,
+        "sha256": "1d5775bd47c05ab40b513a9050bdf422000710a600eb2eb3c89efae7f3c6baa1"
+      },
+      {
+        "path": "assets/current/SUI-A10-FR/cg-fr-cg091.webp",
+        "bytes": 1511448,
+        "sha256": "c083b2d71de5a8a399cf60c854a2ac166d781e93b488dba4433852cf7ece1296"
+      },
+      {
+        "path": "assets/current/SUI-A10-FR/cg-fr-cg094.webp",
+        "bytes": 1651912,
+        "sha256": "c2d83e377ec5db4f3d882b4f5126385f4b50adf3797830b8b3573e2ea6839be4"
+      },
+      {
+        "path": "assets/current/SUI-A10-FR/cg-fr-cg108.webp",
+        "bytes": 1817820,
+        "sha256": "cc9a55ee0660e6ff1f2f85867218511334174f1392a5a29e2a8beca54352ebc3"
+      },
+      {
+        "path": "assets/current/SUI-A10-HQ/cg-hq-cg073.webp",
+        "bytes": 1529716,
+        "sha256": "8a81c8caa2378880d76c470a75da4ba8bc2a0bfa3796594756e1450dbb605d4d"
+      },
+      {
+        "path": "assets/current/SUI-A10-HQ/cg-hq-cg075.webp",
+        "bytes": 1585190,
+        "sha256": "d0368e04c5c79359a3e1619fad2d63af3a77a0a54046d7c5ef0e8ff6878666a8"
+      },
+      {
+        "path": "assets/current/SUI-A10-HQ/cg-hq-cg077.webp",
+        "bytes": 1557700,
+        "sha256": "c72834c237069e66ba03c9821cb22b9c06b26f3a6c8062e2d5a5bd29f43ac3e0"
+      },
+      {
+        "path": "assets/current/SUI-A10-HQ/cg-hq-cg078.webp",
+        "bytes": 1522456,
+        "sha256": "e99d33f4b4eb0d14a8aef5d56ced997e8a5d7c9140117515b4cb70a119cc6c9f"
+      },
+      {
+        "path": "assets/current/SUI-A10-HQ/cg-hq-cg079.webp",
+        "bytes": 1591626,
+        "sha256": "eb3480a89f529ce3669d8963790b3798c50fd47aaeef00f5056a3f16fcab1f76"
+      },
+      {
+        "path": "assets/current/SUI-A10-HQ/cg-hq-cg082.webp",
+        "bytes": 1677370,
+        "sha256": "6dbff10ed5fa6deb50080536eec1c47fe4ee845a9ac4af980b293a646026628a"
+      },
+      {
+        "path": "assets/current/SUI-A10-HQ/cg-hq-cg107.webp",
+        "bytes": 1440470,
+        "sha256": "84726689d74887118da3ba125f60968078c35b1e03f89c8a952cf45aa9e2d324"
+      },
+      {
+        "path": "assets/current/SUI-A10-MY/cg-my-cg038.webp",
+        "bytes": 1622488,
+        "sha256": "1cfb915e9a564c7153d3694e10c2689d3a78a8d2819cec838636d1a5381863bc"
+      },
+      {
+        "path": "assets/current/SUI-A10-MY/cg-my-cg039.webp",
+        "bytes": 1887984,
+        "sha256": "ad292e765b85642210ef7e3f336dbe815c9f01db9560bd36e0964a0b326fdf93"
+      },
+      {
+        "path": "assets/current/SUI-A10-MY/cg-my-cg040.webp",
+        "bytes": 1555174,
+        "sha256": "5f9a1266f2cd9386e72b3854e8379e36a196c4c36593d38bc25fa3e438862a26"
+      },
+      {
+        "path": "assets/current/SUI-A10-MY/cg-my-cg041.webp",
+        "bytes": 1719898,
+        "sha256": "638e0227e0cd31f92706d8b996f271ebbd9af3c3d74a3c8d22f56bcda7dcefe9"
+      },
+      {
+        "path": "assets/current/SUI-A10-MY/cg-my-cg044.webp",
+        "bytes": 1832674,
+        "sha256": "18972131214749ed6a276a796965a9559f29cc8799091cd9e4e01a3e2d241cf2"
+      },
+      {
+        "path": "assets/current/SUI-A10-MY/cg-my-cg104.webp",
+        "bytes": 1523194,
+        "sha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e"
+      },
+      {
+        "path": "assets/current/SUI-A10-MY/cg-my-cg105.webp",
+        "bytes": 1251672,
+        "sha256": "5f0d06bb3a858d6d948bcea0d81c5bc956339e43fe7dd7de3188275d2867e804"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg061.webp",
+        "bytes": 1541216,
+        "sha256": "bd34a93fe89f4f89077bf5d81099aa0afc58666f46a05799c72a420a03f8fd02"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg062.webp",
+        "bytes": 1572588,
+        "sha256": "2a1e49f7a33b22910026deca77254d88c4889f0946002f4fbf9b2a6999c4f54d"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg063.webp",
+        "bytes": 1525660,
+        "sha256": "697c31eca09a6f2ada27d29e2abce50d0691fdda6071f2337a34b6e715cdc71c"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg066.webp",
+        "bytes": 1547844,
+        "sha256": "17e0a1a12e6663a419d52b900f3dabf87d74e66eb2c4f8ea13b0e599be603169"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg067.webp",
+        "bytes": 1710086,
+        "sha256": "ca1ddf4373a5a171de235a9ba28c90b7f48dc3423724ab8d06d4c56d7f6fc613"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg068.webp",
+        "bytes": 1400932,
+        "sha256": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg069.webp",
+        "bytes": 1676674,
+        "sha256": "95e0da2ef78c67c377bd703785c4a331acc8a4ac1200b23c8b926790d28de03d"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg070.webp",
+        "bytes": 1650034,
+        "sha256": "540ac77d34e06817ad0c6bfb326ce637edfd7d09cb695836dd2458b00d4ba7a3"
+      },
+      {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg106.webp",
+        "bytes": 1431994,
+        "sha256": "0a620206241c9f559d4f7a4dc07c9b8c90cadbb3f50158da64a6db2b80d0d471"
+      },
+      {
+        "path": "assets/current/SUI-A10-XM/cg-xm-cg014.webp",
+        "bytes": 1500444,
+        "sha256": "a806575b89f6715d073a95075e18ceb4f40d1590f2a534fd2132ec76c7748655"
+      },
+      {
+        "path": "assets/current/SUI-A10-XM/cg-xm-cg015.webp",
+        "bytes": 1529798,
+        "sha256": "0e9fb28c8697ce3f3df700cd701ed9670483f34dcae757901c051cbf024ec265"
+      },
+      {
+        "path": "assets/current/SUI-A10-XM/cg-xm-cg016.webp",
+        "bytes": 1713340,
+        "sha256": "0d59f5f9db8f5204413971243930e48567faedf76ba7364651f54e6b0441094f"
+      },
+      {
+        "path": "assets/current/SUI-A10-XM/cg-xm-cg019.webp",
+        "bytes": 1488846,
+        "sha256": "f89322c345f5f64cc4478f56c0682326fa612f6fd315a8b5d2062da258369d35"
+      },
+      {
+        "path": "assets/current/SUI-A10-XM/cg-xm-cg020.webp",
+        "bytes": 1877768,
+        "sha256": "d8d6f883cc70cb03a59d07e890f27ecd488f512948de145bc5f3b621a4332551"
+      },
+      {
+        "path": "assets/current/SUI-A10-XM/cg-xm-cg022.webp",
+        "bytes": 1832032,
+        "sha256": "4316bd03c366f4e796eb836b294cc175e98baed03e1b271fed42a2ef2401ce38"
+      },
+      {
+        "path": "assets/current/SUI-A10-XM/cg-xm-cg023.webp",
+        "bytes": 1632872,
+        "sha256": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267"
+      },
+      {
+        "path": "assets/current/SUI-A10-XM/cg-xm-cg102.webp",
+        "bytes": 1305114,
+        "sha256": "2b53f1c9b841300356169744838179ef503ffd208a5a9808f387c6e7ec07847a"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg025.webp",
+        "bytes": 1653318,
+        "sha256": "0794acd1f012be0d5a4c0818f4f92b7c3926bc20b61edf12dd8c9734854f2c9a"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg026.webp",
+        "bytes": 1526162,
+        "sha256": "30365f0e9bed3bdabb75c422b2a4302a2ae52c6643e3d7a165ab026e17cadd05"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg027.webp",
+        "bytes": 1566364,
+        "sha256": "48ceb629eeea7b83ee69da00335182a178a7529e9c0c18d7af13e2fed39e5eff"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg029.webp",
+        "bytes": 1587798,
+        "sha256": "872a94dc282a5fc64ce030d2c968ab973c8acc84030f15bd5163fb8fdfab08c1"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg031.webp",
+        "bytes": 1392294,
+        "sha256": "582b1dd5157e26aa9b323dadd812fac3ec5825091d65e42095f967e81d89ad04"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg032.webp",
+        "bytes": 1684980,
+        "sha256": "b9b958ba0e624df55d895817da0cd23542e616b84d2b9b869519fade668f1623"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg034.webp",
+        "bytes": 1768898,
+        "sha256": "5978ecd93d21a3271a0255cc30468ae6be734aaaa37d0fe235d3ee39b099fdaf"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp",
+        "bytes": 1603528,
+        "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc"
+      },
+      {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg103.webp",
+        "bytes": 1667994,
+        "sha256": "6fcc0fd00bc0a67a6c4025dec2d3b9e6e20525e4afed94f284ec1f765b409bcc"
+      },
+      {
+        "path": "config.ini",
+        "bytes": 20254,
+        "sha256": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5"
+      },
+      {
+        "path": "main.ray",
+        "bytes": 892693,
+        "sha256": "ee351ad0b86bda4aa4eecde81a55fdc32a99d86428a4918f4d00e72f08c7c0e6"
+      },
+      {
+        "path": "sound/se/click.ogg",
+        "bytes": 18276,
+        "sha256": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca"
+      },
+      {
+        "path": "start.novel",
+        "bytes": 797248,
+        "sha256": "11a6c8b2edeaf19621200d2d601f4d2e7877821105366c65e8da7706925c28cd"
+      },
+      {
+        "path": "system/choose/button.ogg",
+        "bytes": 11069,
+        "sha256": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff"
+      },
+      {
+        "path": "system/config/config.gui",
+        "bytes": 2401,
+        "sha256": "ce47b56300e99182105bfa2a12a81885cb60a7f8de23a5c861949e437f3f7b85"
+      },
+      {
+        "path": "system/emoji/heart.png",
+        "bytes": 4734,
+        "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634"
+      },
+      {
+        "path": "system/emoji/sweat.png",
+        "bytes": 3032,
+        "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a"
+      },
+      {
+        "path": "system/font/NotoSansCJK-Medium.ttc",
+        "bytes": 18354360,
+        "sha256": "197d5e1e019faca33a4d55931c7d68b8056f3b97cb862049f5cb8de9efdfb8ce"
+      },
+      {
+        "path": "system/font/OFL.txt",
+        "bytes": 4489,
+        "sha256": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb"
+      },
+      {
+        "path": "system/history/history.gui",
+        "bytes": 474,
+        "sha256": "5d0af345bbb4698d8b7e7670bfda664a18d117d6005551c076607752c7c92ad8"
+      },
+      {
+        "path": "system/load/load.gui",
+        "bytes": 2684,
+        "sha256": "d2be7697e35842a876a7557a43fcb384f227638cc894bb0587ce20994abb0b78"
+      },
+      {
+        "path": "system/save/save.gui",
+        "bytes": 2248,
+        "sha256": "73b73331bf4c36a48c1d159dceb37013b3fadb62be29ab32daf77f2bc08a4243"
+      },
+      {
+        "path": "system/sui-e/rollback-hover.png",
+        "bytes": 3353,
+        "sha256": "f521f0b2895aa923f93a5d9a3e821752d72cd87b100eae02129756c58d86b3ec"
+      },
+      {
+        "path": "system/sui-e/rollback-idle.png",
+        "bytes": 3348,
+        "sha256": "f767467d5abd32e66ed901ec6027a374ef7ffb4a193d6afadbd340b4a157f52c"
+      },
+      {
+        "path": "system/sui-e/rollback-press.png",
+        "bytes": 3352,
+        "sha256": "0cb681f382eece2234931aa86187f2515122d80b18142ee9c43e4ca069c4048d"
+      },
+      {
+        "path": "system/sui-u/anime/auto-hide.anime",
+        "bytes": 145,
+        "sha256": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c"
+      },
+      {
+        "path": "system/sui-u/anime/auto-show.anime",
+        "bytes": 145,
+        "sha256": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1"
+      },
+      {
+        "path": "system/sui-u/anime/choice-hover.anime",
+        "bytes": 295,
+        "sha256": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64"
+      },
+      {
+        "path": "system/sui-u/anime/choice-idle.anime",
+        "bytes": 295,
+        "sha256": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64"
+      },
+      {
+        "path": "system/sui-u/anime/msgbox-hide.anime",
+        "bytes": 149,
+        "sha256": "6ee6f5dcdf612350e3439b90bcd9f46d342886d7878e8ab38bb4aa1acc8ccf4c"
+      },
+      {
+        "path": "system/sui-u/anime/msgbox-show.anime",
+        "bytes": 149,
+        "sha256": "58b10087e6a973a3b747abb8dd616ff0d9b491acb421a84b21a6a81d09f62cdb"
+      },
+      {
+        "path": "system/sui-u/anime/namebox-hide.anime",
+        "bytes": 150,
+        "sha256": "b0443eb13be54efad0439715caed68138e2435e94aba97a6660f1e37df14f7eb"
+      },
+      {
+        "path": "system/sui-u/anime/namebox-show.anime",
+        "bytes": 150,
+        "sha256": "c518c7a66ce51d032797ac243eacfb957d891171b94b59c9a4f3c733f586ff88"
+      },
+      {
+        "path": "system/sui-u/anime/skip-hide.anime",
+        "bytes": 145,
+        "sha256": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c"
+      },
+      {
+        "path": "system/sui-u/anime/skip-show.anime",
+        "bytes": 145,
+        "sha256": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-appear.anime",
+        "bytes": 318,
+        "sha256": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-fadein.anime",
+        "bytes": 318,
+        "sha256": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-fadeout.anime",
+        "bytes": 314,
+        "sha256": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-hover.anime",
+        "bytes": 318,
+        "sha256": "0e22cfdf598734ea148744de4f9168db6df62183fb5dfaebc245c6747d86e7b1"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-out.anime",
+        "bytes": 314,
+        "sha256": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2"
+      },
+      {
+        "path": "system/sui-u/gui/config.gui",
+        "bytes": 2401,
+        "sha256": "ce47b56300e99182105bfa2a12a81885cb60a7f8de23a5c861949e437f3f7b85"
+      },
+      {
+        "path": "system/sui-u/gui/confirm-title.gui",
+        "bytes": 724,
+        "sha256": "10d8455785129d2bb0f05ad9d0382e2bf1077fdb7d5c0bc4ea193a6ff194bd39"
+      },
+      {
+        "path": "system/sui-u/gui/history.gui",
+        "bytes": 474,
+        "sha256": "5d0af345bbb4698d8b7e7670bfda664a18d117d6005551c076607752c7c92ad8"
+      },
+      {
+        "path": "system/sui-u/gui/load.gui",
+        "bytes": 2684,
+        "sha256": "d2be7697e35842a876a7557a43fcb384f227638cc894bb0587ce20994abb0b78"
+      },
+      {
+        "path": "system/sui-u/gui/save.gui",
+        "bytes": 2248,
+        "sha256": "73b73331bf4c36a48c1d159dceb37013b3fadb62be29ab32daf77f2bc08a4243"
+      },
+      {
+        "path": "system/sui-u/gui/sysmenu.gui",
+        "bytes": 2511,
+        "sha256": "aa53134ecde1e02e7c184b91d35e6800d361c05aca7fff27704a1389919b1bbe"
+      },
+      {
+        "path": "system/sui-u/gui/title.gui",
+        "bytes": 1265,
+        "sha256": "f0308f4e2e51e9cd60e312a461f218bfbb85416cac988780270a1e676f2ad1aa"
+      },
+      {
+        "path": "system/sui-u/png/advance-1.png",
+        "bytes": 162,
+        "sha256": "6e0e84a3dd60651e36a7a67414c59b82bd059bba41995f8d7d2624f321d37e15"
+      },
+      {
+        "path": "system/sui-u/png/advance-2.png",
+        "bytes": 161,
+        "sha256": "b0bc3fce05938534d0149f69e66dd7345980d0c3063d94ded028c5b3ab3a5d3f"
+      },
+      {
+        "path": "system/sui-u/png/auto-save.png",
+        "bytes": 15773,
+        "sha256": "93d361c2eb068f0e8a27cec5fa22478265446c4440cb01e50c37fa68ade9ab91"
+      },
+      {
+        "path": "system/sui-u/png/auto.png",
+        "bytes": 3217,
+        "sha256": "f28013f4ea0bcbc02cd84f4bef7c5cde67e790060da6cf590c0df7540fc33fd7"
+      },
+      {
+        "path": "system/sui-u/png/back-hover.png",
+        "bytes": 1550,
+        "sha256": "c0a10488ae92be995419b17eb76f0af354b6c01201de4b7a25f5141bd792c521"
+      },
+      {
+        "path": "system/sui-u/png/back-idle.png",
+        "bytes": 1651,
+        "sha256": "93cd389fea6fcf7849b27a157e22f559d8cce35c3e872d8f7994c20ad15e444b"
+      },
+      {
+        "path": "system/sui-u/png/back-press.png",
+        "bytes": 1544,
+        "sha256": "657cbe3b8264786fd69a7f03a0b4643c2eb9ed871813d54dbacbd5d29d93cd03"
+      },
+      {
+        "path": "system/sui-u/png/cancel-hover.png",
+        "bytes": 4145,
+        "sha256": "449d8f7fe0b581fb9e45a59337f78562cd98f2fab6fe505072cde2a3f011a8d2"
+      },
+      {
+        "path": "system/sui-u/png/cancel-idle.png",
+        "bytes": 4635,
+        "sha256": "9cb6b336e2720e7ebddc9a9c89a5d7d907d1f15dc0cd2e6783dee3b9d1e9ed35"
+      },
+      {
+        "path": "system/sui-u/png/cancel-press.png",
+        "bytes": 4150,
+        "sha256": "a4196b2e19b7cd0ddd022777a40e5119ee3227726776a805d5635915bb967dff"
+      },
+      {
+        "path": "system/sui-u/png/cg-focus.png",
+        "bytes": 598,
+        "sha256": "82b90cdf0fb9f4b59ff694d41eb4c7e0b9f64d9108be4734dc99b5169c2f8c59"
+      },
+      {
+        "path": "system/sui-u/png/cg-locked.png",
+        "bytes": 3743,
+        "sha256": "69016dbc066d482ec5670336fb26f8aadf595c6b884b3dbbbf4531e8b1572523"
+      },
+      {
+        "path": "system/sui-u/png/choice-hover.png",
+        "bytes": 697,
+        "sha256": "0aa507c64d2084e17d6bc2ad8a01dc6bcde1c3e53903cb1f92e697323ee0d741"
+      },
+      {
+        "path": "system/sui-u/png/choice-idle.png",
+        "bytes": 687,
+        "sha256": "b2c14b3c06b084fb236b65cb77e671e2c7271604319196b9e1b3a2401615dc07"
+      },
+      {
+        "path": "system/sui-u/png/config.png",
+        "bytes": 46352,
+        "sha256": "adb49bd6fd368af865e780cb8b2c164552332d5a5fd4f3ec455949e1e8f330b7"
+      },
+      {
+        "path": "system/sui-u/png/confirm-hover.png",
+        "bytes": 4633,
+        "sha256": "1003862d42aedbff2210e40f9d121e93ee6122065a4534a3a8bc22634126068f"
+      },
+      {
+        "path": "system/sui-u/png/confirm-idle.png",
+        "bytes": 4599,
+        "sha256": "abd1cb4352482b6cb3952a1ae664a179c730138f8c1a481c3331c911adf510e5"
+      },
+      {
+        "path": "system/sui-u/png/confirm-press.png",
+        "bytes": 4544,
+        "sha256": "69692ea6290a41a12a61205ae55e1510b674d18d395e3cae5a8b3bd9fe401e2f"
+      },
+      {
+        "path": "system/sui-u/png/continue-hover.png",
+        "bytes": 4223,
+        "sha256": "c2f10dd0e5213213b86b0962bde8b29b1af30dea96905fda2fa6bb43e3cccdc4"
+      },
+      {
+        "path": "system/sui-u/png/continue-idle.png",
+        "bytes": 4716,
+        "sha256": "be929c336b7f5b5c940a949e1ee55ba1d4c4e1eba66f84a979ea6bfefe05a643"
+      },
+      {
+        "path": "system/sui-u/png/continue-press.png",
+        "bytes": 4230,
+        "sha256": "d84a9efcccd1737343189f8ecd687c97511ccc299031fe1aca71ee9dee20d791"
+      },
+      {
+        "path": "system/sui-u/png/fullscreen-hover.png",
+        "bytes": 3253,
+        "sha256": "2c8ac5097fac4858ed2f5e4d891196ac7dc2ca12fb884f70512146407de265a5"
+      },
+      {
+        "path": "system/sui-u/png/fullscreen-idle.png",
+        "bytes": 3570,
+        "sha256": "09e5da7519a14502c7f9ab0220307f72e50f55d794cb1befca382ed2bf835efa"
+      },
+      {
+        "path": "system/sui-u/png/fullscreen-press.png",
+        "bytes": 3243,
+        "sha256": "9425968c19c7f948f9c1cc78b429a86a2edac38e3eb0e293176f058bab205fac"
+      },
+      {
+        "path": "system/sui-u/png/gallery-base.png",
+        "bytes": 19893,
+        "sha256": "7d02b57579c689760b1c35c4c93d958f38aacb1386f083ac2a76dbe260370df2"
+      },
+      {
+        "path": "system/sui-u/png/gallery-hover.png",
+        "bytes": 2077,
+        "sha256": "cc1245d39a5030cec9a9851b686295281a34c8e3a32f45f3abb1616e4363dec7"
+      },
+      {
+        "path": "system/sui-u/png/gallery-idle.png",
+        "bytes": 2263,
+        "sha256": "a73a43f6d421be70d32914f4b74fdc761dab47802adb314cd71453bbe42cb4be"
+      },
+      {
+        "path": "system/sui-u/png/gallery-press.png",
+        "bytes": 2055,
+        "sha256": "b0ce156d315556c2fc5b03dc9ed4f5f3fb3b0a29eaa624d00e89ead2f0253173"
+      },
+      {
+        "path": "system/sui-u/png/gallery-view.png",
+        "bytes": 18586,
+        "sha256": "cb1a7b4e76b58b1fcf0636bf59d8240795636303267927f288c91f7b554dde0f"
+      },
+      {
+        "path": "system/sui-u/png/history-item-hover.png",
+        "bytes": 1416,
+        "sha256": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf"
+      },
+      {
+        "path": "system/sui-u/png/history-item-idle.png",
+        "bytes": 1412,
+        "sha256": "35a7b5fa4c3e8639355c644002dc927db2edfb67e6575de44de9ae5caaec1252"
+      },
+      {
+        "path": "system/sui-u/png/history-item-press.png",
+        "bytes": 1416,
+        "sha256": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf"
+      },
+      {
+        "path": "system/sui-u/png/history.png",
+        "bytes": 25112,
+        "sha256": "7880124602fbe55a0ab6e4729ab7a742b77bcb41bd6aa1772fce020da58327e9"
+      },
+      {
+        "path": "system/sui-u/png/load.png",
+        "bytes": 24015,
+        "sha256": "0c72e420c05839841164bbeb34fbe35fa0abbac3b4bdb76d5f821d93994b469f"
+      },
+      {
+        "path": "system/sui-u/png/menu-hover.png",
+        "bytes": 1958,
+        "sha256": "ce32609bd911bc57ee8e767eec985ab847bd4e200cda940b6bf4f9d2b7e1b765"
+      },
+      {
+        "path": "system/sui-u/png/menu-idle.png",
+        "bytes": 2107,
+        "sha256": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579"
+      },
+      {
+        "path": "system/sui-u/png/menu-press.png",
+        "bytes": 1931,
+        "sha256": "5afa5e7b559fdd42ccc296ef6093dbee2ddc27c461d5846ae3c7bc6f86e21afa"
+      },
+      {
+        "path": "system/sui-u/png/message.png",
+        "bytes": 1508,
+        "sha256": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412"
+      },
+      {
+        "path": "system/sui-u/png/name.png",
+        "bytes": 220,
+        "sha256": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8"
+      },
+      {
+        "path": "system/sui-u/png/nav-auto-hover.png",
+        "bytes": 3274,
+        "sha256": "d6045b7ec8257456ff9d03706122b28962244af2cafb321de1d42d6f10f3114d"
+      },
+      {
+        "path": "system/sui-u/png/nav-auto-idle.png",
+        "bytes": 3598,
+        "sha256": "7b641055aecbc5a4abb0d14780877ec35c0a6f8e155b75ed08e202507b65b5c7"
+      },
+      {
+        "path": "system/sui-u/png/nav-auto-press.png",
+        "bytes": 3253,
+        "sha256": "740b4e21fca3444419c680864a010304cafcbcf9b07010989672c3e6a14db1ef"
+      },
+      {
+        "path": "system/sui-u/png/nav-config-hover.png",
+        "bytes": 3586,
+        "sha256": "03ac187769c756926e26aaafce158357791812828dde493c23714f697361bb79"
+      },
+      {
+        "path": "system/sui-u/png/nav-config-idle.png",
+        "bytes": 3936,
+        "sha256": "3f5bc511412427ea41dba12bb315dd80584511b137adcd1314770f9911154f24"
+      },
+      {
+        "path": "system/sui-u/png/nav-config-press.png",
+        "bytes": 3580,
+        "sha256": "13c45c27c56176f436c09127b3f370add4c6c8e52661b983598686020b1c3bd2"
+      },
+      {
+        "path": "system/sui-u/png/nav-history-hover.png",
+        "bytes": 3225,
+        "sha256": "c577eb2d3a387f0c2bfe43201698d0881bc451e0e50c91c9d9af4692511bd2bb"
+      },
+      {
+        "path": "system/sui-u/png/nav-history-idle.png",
+        "bytes": 3535,
+        "sha256": "03c9ba86fac3a353971bd35edb73c06cc5ae0c5892f0925bd1b8e89cf9b33706"
+      },
+      {
+        "path": "system/sui-u/png/nav-history-press.png",
+        "bytes": 3204,
+        "sha256": "b8929d1f17bbd56c3c0d3fd0de1151944c838bfa9e6c537a703cbb76de3bdfa0"
+      },
+      {
+        "path": "system/sui-u/png/nav-load-hover.png",
+        "bytes": 3901,
+        "sha256": "90d077d73cae021f8288a231199cbe591b3327ddcdf30f5caff8e06558c4ceda"
+      },
+      {
+        "path": "system/sui-u/png/nav-load-idle.png",
+        "bytes": 4356,
+        "sha256": "5c9231f367fea73240456036c3a8913135f07c446428a4f9a59af4dcb8aa5e47"
+      },
+      {
+        "path": "system/sui-u/png/nav-load-press.png",
+        "bytes": 3839,
+        "sha256": "893473355ae9a348e4fbaee128e04645aee2d1b7919974eb383b577c9a9e929b"
+      },
+      {
+        "path": "system/sui-u/png/nav-save-hover.png",
+        "bytes": 3341,
+        "sha256": "77a6bb67f5969b2e3f2a7e032e93e0f07751d698d906075bf6bd9e938f4c73ba"
+      },
+      {
+        "path": "system/sui-u/png/nav-save-idle.png",
+        "bytes": 3684,
+        "sha256": "676d509295e0ae1a501b8b623fbc68c8e4aae984103975813714416e45d69f37"
+      },
+      {
+        "path": "system/sui-u/png/nav-save-press.png",
+        "bytes": 3289,
+        "sha256": "01f200aec437ba5ba05c7d4be7a1755a94490fe97acd9faac7e2f081ad7be957"
+      },
+      {
+        "path": "system/sui-u/png/nav-skip-hover.png",
+        "bytes": 3407,
+        "sha256": "ede13dbab843bcef1864c725380b1935d0362a7a011e4be96ef6b25c01772fcb"
+      },
+      {
+        "path": "system/sui-u/png/nav-skip-idle.png",
+        "bytes": 3727,
+        "sha256": "cfccf22ac2ca0ade983205306c03da7dcb25cb2d077acc293488636e69009909"
+      },
+      {
+        "path": "system/sui-u/png/nav-skip-press.png",
+        "bytes": 3381,
+        "sha256": "6055019de58be3b2f9a71ae4b262cdff295009874f49127203d1c9e591ae211a"
+      },
+      {
+        "path": "system/sui-u/png/nav-title-hover.png",
+        "bytes": 3374,
+        "sha256": "03b587ebc8ccd7eedb33bce4b52c6831262b6615f79593ece5bc4a8cc7658df1"
+      },
+      {
+        "path": "system/sui-u/png/nav-title-idle.png",
+        "bytes": 3695,
+        "sha256": "40dd3363ef1ea9cab8fd39b35e21ba4bf6a22f3d4deafbb3702c9f901c9abdae"
+      },
+      {
+        "path": "system/sui-u/png/nav-title-press.png",
+        "bytes": 3337,
+        "sha256": "592eaf23f172d78b17edd8bc822d76eb127de2158a35cf98667fcbf0752c0890"
+      },
+      {
+        "path": "system/sui-u/png/next-hover.png",
+        "bytes": 1543,
+        "sha256": "5dc55508c94983f20cbf17faf7464729c3601e5ed7f1d5cc7c0d41b83a4d5530"
+      },
+      {
+        "path": "system/sui-u/png/next-idle.png",
+        "bytes": 1671,
+        "sha256": "5a3e166bb61c5e536d8ab1184742afed6edeb3447b613edebb84f1ad6bf3f41a"
+      },
+      {
+        "path": "system/sui-u/png/next-press.png",
+        "bytes": 1534,
+        "sha256": "006f38a791a5c151395a458c98a779753a54edbd9ffa6964331a48320163ea19"
+      },
+      {
+        "path": "system/sui-u/png/preview.png",
+        "bytes": 444,
+        "sha256": "bba817b97ba51e2bf014b6757c3b7a54c57b5567b00f8dae03fcfff52ddaaee8"
+      },
+      {
+        "path": "system/sui-u/png/previous-hover.png",
+        "bytes": 1344,
+        "sha256": "05a90d2b043d9cab855483b919bcee6d7bc0078f33eb0f5c19ce84822162e8b8"
+      },
+      {
+        "path": "system/sui-u/png/previous-idle.png",
+        "bytes": 1461,
+        "sha256": "4d1eb68a1b61f0e3df8897445060b6411225bb360271b84c9d7717e7ba17dc75"
+      },
+      {
+        "path": "system/sui-u/png/previous-press.png",
+        "bytes": 1338,
+        "sha256": "b89bce40e850266037eefe3fd9da1ca112932efca33472eb1f481cd8318f35a5"
+      },
+      {
+        "path": "system/sui-u/png/reading-backdrop.png",
+        "bytes": 54208,
+        "sha256": "4223df8b5ff83cfafa5d7af5c2225824a0fac3340a8cc74e9de5cc9ac9135b7a"
+      },
+      {
+        "path": "system/sui-u/png/reset-hover.png",
+        "bytes": 4451,
+        "sha256": "a266b8dd63e3a0a467b4e984a124d84e915fddedde4ffcf6d58ff7d4ce666ae9"
+      },
+      {
+        "path": "system/sui-u/png/reset-idle.png",
+        "bytes": 4993,
+        "sha256": "d4aafb1de5670d7555a4de5c36faf92b672fbde8884e6d04e40ffbcf744a51d8"
+      },
+      {
+        "path": "system/sui-u/png/reset-press.png",
+        "bytes": 4442,
+        "sha256": "0b1461ac89dc72b3e85c59398de190bb36274ea42903231be8924e2361079d12"
+      },
+      {
+        "path": "system/sui-u/png/save-item-0-hover.png",
+        "bytes": 2761,
+        "sha256": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225"
+      },
+      {
+        "path": "system/sui-u/png/save-item-0-idle.png",
+        "bytes": 2760,
+        "sha256": "f1784745d2f1a1d644e95c23646c2704f926aae00b33a404b550d5b65868a46a"
+      },
+      {
+        "path": "system/sui-u/png/save-item-0-press.png",
+        "bytes": 2761,
+        "sha256": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225"
+      },
+      {
+        "path": "system/sui-u/png/save-item-1-hover.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-1-idle.png",
+        "bytes": 3493,
+        "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+      },
+      {
+        "path": "system/sui-u/png/save-item-1-press.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-2-hover.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-2-idle.png",
+        "bytes": 3493,
+        "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+      },
+      {
+        "path": "system/sui-u/png/save-item-2-press.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-3-hover.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-3-idle.png",
+        "bytes": 3493,
+        "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+      },
+      {
+        "path": "system/sui-u/png/save-item-3-press.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-hover.png",
+        "bytes": 956,
+        "sha256": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d"
+      },
+      {
+        "path": "system/sui-u/png/save-item-idle.png",
+        "bytes": 951,
+        "sha256": "ffdd0b719fd1a0fed28340cb76abf560a3c75eec585b3de1f63f461d067c09a8"
+      },
+      {
+        "path": "system/sui-u/png/save-item-press.png",
+        "bytes": 956,
+        "sha256": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d"
+      },
+      {
+        "path": "system/sui-u/png/save.png",
+        "bytes": 27116,
+        "sha256": "eeb369ab803cdcc39b4501dabdb08b0a00e33024707bbc61db7facbe713ac37e"
+      },
+      {
+        "path": "system/sui-u/png/scroll-hover.png",
+        "bytes": 246,
+        "sha256": "e1b29e1954b5a0e62ac07f11bbbc30bbbc20c84499c0e92d74731d9cd3b530b3"
+      },
+      {
+        "path": "system/sui-u/png/scroll-idle.png",
+        "bytes": 245,
+        "sha256": "0df6eaa09efdd2b0a71c2ea2ee86332a2df324ed4b26f4f5ba9e489de2c7279f"
+      },
+      {
+        "path": "system/sui-u/png/scroll-knob.png",
+        "bytes": 166,
+        "sha256": "f5b197668d75e3d1a45cf77176a2417217105d016b84035861c1047d7cc755be"
+      },
+      {
+        "path": "system/sui-u/png/settings-hover.png",
+        "bytes": 1749,
+        "sha256": "e9e3350e555b395d7381cc1355fb7ff33ca25e1e90288239ee8d8d3797e61a91"
+      },
+      {
+        "path": "system/sui-u/png/settings-idle.png",
+        "bytes": 1884,
+        "sha256": "52e3c8be6e833384a88b8bae2e76eeb0260943e279cc2a49ad0af718caa58dd7"
+      },
+      {
+        "path": "system/sui-u/png/settings-press.png",
+        "bytes": 1747,
+        "sha256": "10c869c5a922253785e19c53f892fde3bd213058a2db72113d2862abc3fe3bd2"
+      },
+      {
+        "path": "system/sui-u/png/skip.png",
+        "bytes": 4533,
+        "sha256": "6b9a8672e8b2b7a50994d50c0c8ba8abee060a7aca58da768b77925915bf6d43"
+      },
+      {
+        "path": "system/sui-u/png/slider-hover.png",
+        "bytes": 192,
+        "sha256": "2f10e38a7f0938dd8d2d9012f3b001e9b8f0260fc07cb9aa1c112a654412e0c7"
+      },
+      {
+        "path": "system/sui-u/png/slider-idle.png",
+        "bytes": 192,
+        "sha256": "5e9d1b013dd8575ca3dfa709fddbeb49f9a216ca74f708b85e27ce5d0e7c1b8b"
+      },
+      {
+        "path": "system/sui-u/png/slider-knob.png",
+        "bytes": 162,
+        "sha256": "e98abcdd04d52ace4fd1b0630a45cfc9b1bd690b9d22ddef856d281610c724ed"
+      },
+      {
+        "path": "system/sui-u/png/start-hover.png",
+        "bytes": 3429,
+        "sha256": "aa9a6120f220444787156901d6e14c9e017b1b613dc4d81a64b78008c044c596"
+      },
+      {
+        "path": "system/sui-u/png/start-idle.png",
+        "bytes": 3396,
+        "sha256": "7218a7c3aba9334cf7c01d82073f91a4e19113082c92f2694bf7dd8a4b010356"
+      },
+      {
+        "path": "system/sui-u/png/start-press.png",
+        "bytes": 3373,
+        "sha256": "d3cdf9523d76d682ec334230eb181aa061de667cda2d96c613c8fd37b7fc6f99"
+      },
+      {
+        "path": "system/sui-u/png/sysmenu.png",
+        "bytes": 20928,
+        "sha256": "f42ce9c9dd2e429dbc34595c1496d8cdad53eccc604c4de0854f1c43b91dd7d6"
+      },
+      {
+        "path": "system/sui-u/png/title-confirm.png",
+        "bytes": 20580,
+        "sha256": "90caa9f801c5ff02eb4bed3e8da7828145d9787b9cc80d3c5b334d177a9ab0f5"
+      },
+      {
+        "path": "system/sui-u/png/title.png",
+        "bytes": 85310,
+        "sha256": "1c2beabfd1f9366322c852d4d4cd37773e4a828449cedcb3ab14cebbb08c97a7"
+      },
+      {
+        "path": "system/sysmenu/sysmenu.gui",
+        "bytes": 2511,
+        "sha256": "aa53134ecde1e02e7c184b91d35e6800d361c05aca7fff27704a1389919b1bbe"
+      },
+      {
+        "path": "tools/runtime/neutral.png",
+        "bytes": 4758,
+        "sha256": "04a1d34c2f681558372a11f19e930d75fba5560d523d34e2102a7d8ea6963279"
+      }
+    ],
+    "outputs": [
+      {
+        "path": "web/assets.arc",
+        "bytes": 343217249,
+        "sha256": "43997418655e49444756e7642b010cffb9c8f1af5c7ade7062105bbd7187532d"
+      },
+      {
+        "path": "web/index.html",
+        "bytes": 1996745,
+        "sha256": "2570d3bf4040ee923cc2e53380e0b6acb3a3cbe0199e5badd21e3699524e52c4"
+      },
+      {
+        "path": "web/shell.js",
+        "bytes": 4016,
+        "sha256": "40181b6eb9db15d7a0e715aa38445f99828311f3820c3607d799cba858b2f71f"
+      },
+      {
+        "path": "web/shell.css",
+        "bytes": 1954,
+        "sha256": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "指定候选标题、项目身份与独立空存档库",
+      "pass": true,
+      "detail": {
+        "mount": "毕节，雨停之前 · Suika3",
+        "dbs": {},
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "name": "空槽拒绝且未创建进度",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "指定候选开场与手动档1保存",
+      "pass": true,
+      "detail": "TEXT_12e9affe350b12038970_1"
+    },
+    {
+      "name": "快速翻页后停留会补写自动档及手动档2",
+      "pass": true,
+      "detail": "TEXT_f5354c41d01bf0d95a4c_1"
+    },
+    {
+      "name": "手动档1恢复正文位置和状态",
+      "pass": true
+    },
+    {
+      "name": "手动档2恢复另一正文位置",
+      "pass": true
+    },
+    {
+      "name": "选择等待态自动快照及手动档3",
+      "pass": true,
+      "detail": "C01-01"
+    },
+    {
+      "name": "真实菜单回到选择前完整快照，下游选择可重选",
+      "pass": true,
+      "detail": "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133"
+    },
+    {
+      "name": "重选另一分支后，手动档3仍恢复原选择前状态",
+      "pass": true
+    },
+    {
+      "name": "页面刷新后选择存档保留并恢复",
+      "pass": true
+    },
+    {
+      "name": "关闭独立浏览器重新打开后存档持久化",
+      "pass": true
+    },
+    {
+      "name": "当前未选节点的回退跳过自身，回到上一已读选择",
+      "pass": true
+    },
+    {
+      "name": "自动档可从标题恢复",
+      "pass": true,
+      "detail": "SUI_E|load|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133"
+    },
+    {
+      "name": "数据库名与所有存档均属本作独立命名空间",
+      "pass": true,
+      "detail": [
+        {
+          "name": "bijie-rain-suika3-i02-diagnostic:/毕节，雨停之前 · Suika3",
+          "version": 21
+        }
+      ]
+    },
+    {
+      "name": "手机尺寸旋转保留选择位置，短触完成真实分支选择",
+      "pass": true
+    },
+    {
+      "name": "新游戏保留旧手动档和对应快照，读取旧档后回退不会串入新一轮",
+      "pass": true
+    },
+    {
+      "name": "浏览器实际写回失败可见、保留文件和待写状态，重试恢复",
+      "pass": true
+    },
+    {
+      "name": "测试期间所有网页产物指纹不变",
+      "pass": true,
+      "detail": {
+        "assets.arc": "43997418655e49444756e7642b010cffb9c8f1af5c7ade7062105bbd7187532d",
+        "index.html": "2570d3bf4040ee923cc2e53380e0b6acb3a3cbe0199e5badd21e3699524e52c4",
+        "shell.css": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a",
+        "shell.js": "40181b6eb9db15d7a0e715aa38445f99828311f3820c3607d799cba858b2f71f"
+      }
+    },
+    {
+      "name": "运行期间原生弹错与浏览器错误为零",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    "01-title.png",
+    "02-opening.png",
+    "03-saved.png",
+    "04-first-choice.png",
+    "05-rollback.png",
+    "06-mobile-portrait.png",
+    "07-mobile-landscape.png",
+    "08-storage-error.png",
+    "09-final-choice.png"
+  ],
+  "browser": "156.0.8078.49",
+  "launchMetrics": [
+    {
+      "coldProfile": true,
+      "navigationToTitleMs": 1532,
+      "wasmHeapBytes": 536870912,
+      "jsHeap": {
+        "usedJSHeapSize": 695414718,
+        "totalJSHeapSize": 696679782,
+        "jsHeapSizeLimit": 4395630592
+      },
+      "resourceTiming": [
+        {
+          "name": "http://127.0.0.1:49228/assets.arc",
+          "duration": 390.80000000447035,
+          "transferSize": 343217549,
+          "decodedBodySize": 343217249
+        }
+      ],
+      "metricScope": "桌面Chrome本机回环单次读取，不是进程峰值或手机负载"
+    },
+    {
+      "coldProfile": false,
+      "navigationToTitleMs": 723,
+      "wasmHeapBytes": 536870912,
+      "jsHeap": {
+        "usedJSHeapSize": 696188151,
+        "totalJSHeapSize": 697634543,
+        "jsHeapSizeLimit": 4395630592
+      },
+      "resourceTiming": [
+        {
+          "name": "http://127.0.0.1:49228/assets.arc",
+          "duration": 203.39999999850988,
+          "transferSize": 343217549,
+          "decodedBodySize": 343217249
+        }
+      ],
+      "metricScope": "桌面Chrome本机回环单次读取，不是进程峰值或手机负载"
+    },
+    {
+      "coldProfile": false,
+      "navigationToTitleMs": 1158,
+      "wasmHeapBytes": 536870912,
+      "jsHeap": {
+        "usedJSHeapSize": 696388115,
+        "totalJSHeapSize": 697765647,
+        "jsHeapSizeLimit": 4395630592
+      },
+      "resourceTiming": [
+        {
+          "name": "http://127.0.0.1:49228/assets.arc",
+          "duration": 267.5,
+          "transferSize": 343217549,
+          "decodedBodySize": 343217249
+        }
+      ],
+      "metricScope": "桌面Chrome本机回环单次读取，不是进程峰值或手机负载"
+    }
+  ],
+  "choiceVisualChecks": [
+    {
+      "path": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/browser-screenshots-i01-diag-v003/04-first-choice-canvas.png",
+      "sha256": "0299bffab546566fdf7f05e2a17392d37d5240a748dfc3f522b52f6da8e7584f",
+      "method": "Near-opaque alpha247 idle button interiors must match idle [24,43,49] or hover [46,77,78] within 12/255 per channel; both choices checked",
+      "probes": [
+        {
+          "nativeCenter": [
+            150,
+            148
+          ],
+          "screenshotBox": [
+            163,
+            161,
+            174,
+            172
+          ],
+          "actualRGB": [
+            24,
+            42,
+            48
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 1,
+          "pass": true
+        },
+        {
+          "nativeCenter": [
+            150,
+            244
+          ],
+          "screenshotBox": [
+            163,
+            269,
+            174,
+            280
+          ],
+          "actualRGB": [
+            24,
+            42,
+            48
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/browser-screenshots-i01-diag-v003/05-rollback-canvas.png",
+      "sha256": "c07ece8cc7e0c9f63087d7aac7831e806331a312e98977ae22a18ce24b9b8781",
+      "method": "Near-opaque alpha247 idle button interiors must match idle [24,43,49] or hover [46,77,78] within 12/255 per channel; both choices checked",
+      "probes": [
+        {
+          "nativeCenter": [
+            150,
+            148
+          ],
+          "screenshotBox": [
+            163,
+            161,
+            174,
+            172
+          ],
+          "actualRGB": [
+            24,
+            42,
+            48
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 1,
+          "pass": true
+        },
+        {
+          "nativeCenter": [
+            150,
+            244
+          ],
+          "screenshotBox": [
+            163,
+            269,
+            174,
+            280
+          ],
+          "actualRGB": [
+            24,
+            42,
+            48
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/browser-screenshots-i01-diag-v003/07-mobile-landscape-canvas.png",
+      "sha256": "883257e52c2c0100278f5e94ac88af7f17ce04b9b73a0b8c8110c683e06ddfab",
+      "method": "Near-opaque alpha247 idle button interiors must match idle [24,43,49] or hover [46,77,78] within 12/255 per channel; both choices checked",
+      "probes": [
+        {
+          "nativeCenter": [
+            150,
+            148
+          ],
+          "screenshotBox": [
+            79,
+            77,
+            84,
+            83
+          ],
+          "actualRGB": [
+            24,
+            42,
+            48
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 1,
+          "pass": true
+        },
+        {
+          "nativeCenter": [
+            150,
+            244
+          ],
+          "screenshotBox": [
+            79,
+            129,
+            84,
+            135
+          ],
+          "actualRGB": [
+            24,
+            42,
+            48
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/browser-screenshots-i01-diag-v003/09-final-choice-canvas.png",
+      "sha256": "c07ece8cc7e0c9f63087d7aac7831e806331a312e98977ae22a18ce24b9b8781",
+      "method": "Near-opaque alpha247 idle button interiors must match idle [24,43,49] or hover [46,77,78] within 12/255 per channel; both choices checked",
+      "probes": [
+        {
+          "nativeCenter": [
+            150,
+            148
+          ],
+          "screenshotBox": [
+            163,
+            161,
+            174,
+            172
+          ],
+          "actualRGB": [
+            24,
+            42,
+            48
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 1,
+          "pass": true
+        },
+        {
+          "nativeCenter": [
+            150,
+            244
+          ],
+          "screenshotBox": [
+            163,
+            269,
+            174,
+            280
+          ],
+          "actualRGB": [
+            24,
+            42,
+            48
+          ],
+          "expectedIdleOrHoverRGB": [
+            [
+              24,
+              43,
+              49
+            ],
+            [
+              46,
+              77,
+              78
+            ]
+          ],
+          "maxChannelError": 1,
+          "pass": true
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "status": "pass",
+  "logs": [
+    "SUI_E|ready|bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "SUI_E|title",
+    "SUI_E|notice|这个位置还没有存档。",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|enter|binding=i01-state-TEXT_f5354c41d01bf0d95a4c_1-3|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=0|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|load|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|load|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=i01-state-TEXT_f5354c41d01bf0d95a4c_1-3|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|enter|binding=i01-state-TEXT_982d9ac0f683c6bbb52b_1-1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|exit|binding=i01-state-TEXT_982d9ac0f683c6bbb52b_1-1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|stable|cursor=TEXT_e1427ee34fcf2aeca819_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+    "SUI_E|stable|cursor=TEXT_080c170244eff617925d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_E|stable|cursor=TEXT_eba83339c178c009eff6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_E|stable|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=0|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|stable|cursor=TEXT_e83b5f0a4167ec40ee58_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+    "SUI_E|stable|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_E|stable|cursor=TEXT_3fe55dfb2dd63fbb3b0e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=69",
+    "SUI_E|stable|cursor=TEXT_945c8830453c2fe27c64_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=73",
+    "SUI_E|stable|cursor=TEXT_7b5cf5dd9537e65579e1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=77",
+    "SUI_I|enter|binding=i01-state-TEXT_5a932c18fef16d486adb_1-3|node=TEXT_5a932c18fef16d486adb_1",
+    "SUI_E|stable|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+    "SUI_I|exit|binding=i01-state-TEXT_5a932c18fef16d486adb_1-3|node=TEXT_cf9813a6bde4d424ec26_1",
+    "SUI_E|stable|cursor=TEXT_cf9813a6bde4d424ec26_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=85",
+    "SUI_I|enter|binding=i01-state-TEXT_3b95db884e8708a8946b_1-1|node=TEXT_3b95db884e8708a8946b_1",
+    "SUI_E|stable|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_I|exit|binding=i01-state-TEXT_3b95db884e8708a8946b_1-1|node=TEXT_f79bca9d3ad4ce89cc75_1",
+    "SUI_E|stable|cursor=TEXT_f79bca9d3ad4ce89cc75_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=93",
+    "SUI_E|save|slot=0|cursor=TEXT_f79bca9d3ad4ce89cc75_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=93",
+    "SUI_E|stable|cursor=TEXT_0f8e774a8dc5b1ba5070_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=97",
+    "SUI_E|stable|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+    "SUI_E|stable|cursor=TEXT_093d48020869574e10bb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=105",
+    "SUI_E|stable|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+    "SUI_E|stable|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+    "SUI_E|stable|cursor=TEXT_c63983d8a92b2d07edb4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=117",
+    "SUI_E|stable|cursor=TEXT_bc2c686eef08f9474502_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=121",
+    "SUI_E|stable|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+    "SUI_E|stable|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=11|generation=1|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|save|slot=0|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|notice|已回到选择之前，可重新选择。",
+    "SUI_E|rollback|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|stable|cursor=TEXT_e1defaa5ab911ec1695e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=157",
+    "SUI_E|save|slot=0|cursor=TEXT_e1defaa5ab911ec1695e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=157",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|ready|bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "SUI_E|title",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|ready|bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "SUI_E|title",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|stable|cursor=TEXT_4abe77d5f538f1cfc858_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=143",
+    "SUI_E|stable|cursor=TEXT_03ca33cca5ab91643347_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=147",
+    "SUI_E|stable|cursor=TEXT_166076994750bf748044_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=151",
+    "SUI_E|stable|cursor=TEXT_cd69d6bcd1049cfe55fb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=169",
+    "SUI_E|stable|cursor=TEXT_89266a1cfc9100482c8f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=173",
+    "SUI_E|stable|cursor=TEXT_a316303bd07daf1171aa_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=177",
+    "SUI_E|stable|cursor=TEXT_51fa096b3c9175bb4d82_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=181",
+    "SUI_E|save|slot=0|cursor=TEXT_51fa096b3c9175bb4d82_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=181",
+    "SUI_E|stable|cursor=TEXT_9f319b6f8239e315232b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=185",
+    "SUI_E|stable|cursor=TEXT_a5e87526f883d6644207_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=189",
+    "SUI_E|stable|cursor=TEXT_d6a05c9677f394ba707e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=193",
+    "SUI_E|stable|cursor=TEXT_3a8a624bb43c53d4e7e7_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=197",
+    "SUI_E|stable|cursor=TEXT_eb37663c5ae16d9d98b4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=201",
+    "SUI_E|stable|cursor=TEXT_09bf52d8182ab1ba8f1b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=205",
+    "SUI_E|stable|cursor=TEXT_231b265a1db9c9ca7ff9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=209",
+    "SUI_E|stable|cursor=TEXT_882e91640692acd2faa5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=213",
+    "SUI_E|stable|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_I|enter|binding=i01-state-TEXT_4353be5501361c8688c0_1-1|node=TEXT_4353be5501361c8688c0_1",
+    "SUI_E|stable|cursor=TEXT_4353be5501361c8688c0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=221",
+    "SUI_E|save|slot=0|cursor=TEXT_4353be5501361c8688c0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=221",
+    "SUI_I|exit|binding=i01-state-TEXT_4353be5501361c8688c0_1-1|node=TEXT_446c0211640c31bcebd5_1",
+    "SUI_E|stable|cursor=TEXT_446c0211640c31bcebd5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=225",
+    "SUI_E|stable|cursor=TEXT_d041417c5a7cba4d237f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=229",
+    "SUI_E|stable|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=233",
+    "SUI_E|save|slot=12|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=e_checkpoint|index=234",
+    "SUI_E|checkpoint|choice=C01-02|slot=12|generation=2|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=e_checkpoint|index=234",
+    "SUI_E|stable|cursor=C01-02|pending=C01-02|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=choose|index=237",
+    "SUI_E|save|slot=0|cursor=C01-02|pending=C01-02|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=choose|index=237",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|notice|已回到选择之前，可重新选择。",
+    "SUI_E|rollback|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|load|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|ready|bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "SUI_E|title",
+    "SUI_E|load|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|ready|bc110948b72b91c436051d4ad9b4383499f57cf06fbbc4fc29b8c7e8b951cd24",
+    "SUI_E|title",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|stable|cursor=TEXT_e1defaa5ab911ec1695e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=157",
+    "SUI_E|save|slot=0|cursor=TEXT_e1defaa5ab911ec1695e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=157",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|enter|binding=i01-state-TEXT_f5354c41d01bf0d95a4c_1-3|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=i01-state-TEXT_f5354c41d01bf0d95a4c_1-3|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|enter|binding=i01-state-TEXT_982d9ac0f683c6bbb52b_1-1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|exit|binding=i01-state-TEXT_982d9ac0f683c6bbb52b_1-1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|stable|cursor=TEXT_e1427ee34fcf2aeca819_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+    "SUI_E|stable|cursor=TEXT_080c170244eff617925d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_E|stable|cursor=TEXT_eba83339c178c009eff6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_E|stable|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=0|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|stable|cursor=TEXT_e83b5f0a4167ec40ee58_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+    "SUI_E|stable|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_E|stable|cursor=TEXT_3fe55dfb2dd63fbb3b0e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=69",
+    "SUI_E|stable|cursor=TEXT_945c8830453c2fe27c64_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=73",
+    "SUI_E|stable|cursor=TEXT_7b5cf5dd9537e65579e1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=77",
+    "SUI_I|enter|binding=i01-state-TEXT_5a932c18fef16d486adb_1-3|node=TEXT_5a932c18fef16d486adb_1",
+    "SUI_E|stable|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+    "SUI_I|exit|binding=i01-state-TEXT_5a932c18fef16d486adb_1-3|node=TEXT_cf9813a6bde4d424ec26_1",
+    "SUI_E|stable|cursor=TEXT_cf9813a6bde4d424ec26_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=85",
+    "SUI_I|enter|binding=i01-state-TEXT_3b95db884e8708a8946b_1-1|node=TEXT_3b95db884e8708a8946b_1",
+    "SUI_E|stable|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_E|save|slot=0|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_I|exit|binding=i01-state-TEXT_3b95db884e8708a8946b_1-1|node=TEXT_f79bca9d3ad4ce89cc75_1",
+    "SUI_E|stable|cursor=TEXT_f79bca9d3ad4ce89cc75_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=93",
+    "SUI_E|stable|cursor=TEXT_0f8e774a8dc5b1ba5070_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=97",
+    "SUI_E|stable|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+    "SUI_E|stable|cursor=TEXT_093d48020869574e10bb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=105",
+    "SUI_E|stable|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+    "SUI_E|stable|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+    "SUI_E|stable|cursor=TEXT_c63983d8a92b2d07edb4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=117",
+    "SUI_E|stable|cursor=TEXT_bc2c686eef08f9474502_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=121",
+    "SUI_E|stable|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+    "SUI_E|stable|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=13|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=13|generation=3|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|notice|已回到选择之前，可重新选择。",
+    "SUI_E|rollback|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133"
+  ],
+  "screenshotRoot": "browser-screenshots-i01-diag-v003"
+}

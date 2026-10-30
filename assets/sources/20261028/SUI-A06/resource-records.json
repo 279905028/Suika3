@@ -1,0 +1,1486 @@
+{
+  "schemaVersion": "SUI-A06-review-1",
+  "records": [
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "sui-a06-orb-a-v001-png",
+      "kind": "character",
+      "ownerTask": "SUI-A06",
+      "characterOrSceneKey": "huangqiuqiu",
+      "form": "orb",
+      "variant": "base-neutral",
+      "version": "v001",
+      "status": "待用户选型",
+      "requirementKeys": [
+        "char-huangqiuqiu-orb"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 29,
+          "quote": "塑料凳上还是那个黄色圆球，深眉毛，大眼睛，红嘴抿得很平。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "sources": [
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-base.webp",
+          "copy": "assets/sources/20261028/SUI-A06/references/orb-base-reference.webp",
+          "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+          "bytes": 768286,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/sources/new-character-variants/expressions-v01-20261019/huangqiuqiu/manifest.json",
+          "copy": "assets/sources/20261028/SUI-A06/references/orb-historical-expression-manifest.json",
+          "sha256": "2fe9aded18ea21e2c3b7dcfa4a244423085b9e9e2e4c0809ea329eb3216c6539",
+          "bytes": 12931,
+          "approval": "reference-only; not adopted"
+        }
+      ],
+      "promptOrProcessRecord": "assets/sources/20261028/SUI-A06/prompts/options-orb.json",
+      "sourceFile": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "sha256Source": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a",
+      "sha256Derivative": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1331514,
+      "orientation": 1,
+      "colorSpace": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          17,
+          1250,
+          1237
+        ],
+        "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "built-in image_gen",
+        "process": "PNG生成原件，未改写"
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          627.0,
+          1254
+        ],
+        "pivotMeaning": "球形画布底中心，非人体脚底",
+        "criticalSourceRects": {
+          "face": [
+            275,
+            390,
+            700,
+            500
+          ],
+          "hand": [
+            625,
+            890,
+            385,
+            310
+          ]
+        },
+        "previewScale": 0.3,
+        "previewXY": [
+          452,
+          96
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            534,
+            213,
+            210,
+            150
+          ],
+          "hand": [
+            640,
+            363,
+            116,
+            93
+          ]
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "sceneNodeIds": [],
+        "condition": "相识后至第55天17:00以前；门未开时不能强行展示",
+        "enter": null,
+        "exitAndRestore": "由E/I按story-usage.json接入；本包未绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/黄球球.md",
+          "本批已查看照片与球形原图"
+        ],
+        "imageEvidence": [],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG与WebP全部RGBA一致",
+        "compositeWhiteBlackDayNight": "已离线回看，见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "分别选定球形/人形",
+        "选型后扩差分",
+        "A11复核、I导入、E绑定、Q运行验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "path": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-orb-base-neutral-v001.png",
+        "sha256": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a",
+        "bytes": 1331514,
+        "format": "PNG",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "clearPixels": 611172,
+        "opaquePixels": 1484,
+        "alphaBBox": [
+          0,
+          17,
+          1250,
+          1237
+        ],
+        "alpha16BBox": [
+          72,
+          87,
+          1110,
+          1106
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6290064
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "sui-a06-orb-a-v001-webp",
+      "kind": "character",
+      "ownerTask": "SUI-A06",
+      "characterOrSceneKey": "huangqiuqiu",
+      "form": "orb",
+      "variant": "base-neutral",
+      "version": "v001",
+      "status": "待用户选型",
+      "requirementKeys": [
+        "char-huangqiuqiu-orb"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 29,
+          "quote": "塑料凳上还是那个黄色圆球，深眉毛，大眼睛，红嘴抿得很平。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "sources": [
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-base.webp",
+          "copy": "assets/sources/20261028/SUI-A06/references/orb-base-reference.webp",
+          "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+          "bytes": 768286,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/sources/new-character-variants/expressions-v01-20261019/huangqiuqiu/manifest.json",
+          "copy": "assets/sources/20261028/SUI-A06/references/orb-historical-expression-manifest.json",
+          "sha256": "2fe9aded18ea21e2c3b7dcfa4a244423085b9e9e2e4c0809ea329eb3216c6539",
+          "bytes": 12931,
+          "approval": "reference-only; not adopted"
+        }
+      ],
+      "promptOrProcessRecord": "assets/sources/20261028/SUI-A06/prompts/options-orb.json",
+      "sourceFile": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-orb-base-neutral-v001.webp",
+      "sha256Source": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a",
+      "sha256Derivative": "9c7ae2ff67bfa6436f5700295ffbf72d848c6e94b7dd95aa17b7e0d5379e69e2",
+      "format": "WEBP",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 795684,
+      "orientation": 1,
+      "colorSpace": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          17,
+          1250,
+          1237
+        ],
+        "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resize": false,
+        "crop": false
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          627.0,
+          1254
+        ],
+        "pivotMeaning": "球形画布底中心，非人体脚底",
+        "criticalSourceRects": {
+          "face": [
+            275,
+            390,
+            700,
+            500
+          ],
+          "hand": [
+            625,
+            890,
+            385,
+            310
+          ]
+        },
+        "previewScale": 0.3,
+        "previewXY": [
+          452,
+          96
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            534,
+            213,
+            210,
+            150
+          ],
+          "hand": [
+            640,
+            363,
+            116,
+            93
+          ]
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "sceneNodeIds": [],
+        "condition": "相识后至第55天17:00以前；门未开时不能强行展示",
+        "enter": null,
+        "exitAndRestore": "由E/I按story-usage.json接入；本包未绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/黄球球.md",
+          "本批已查看照片与球形原图"
+        ],
+        "imageEvidence": [],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG与WebP全部RGBA一致",
+        "compositeWhiteBlackDayNight": "已离线回看，见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "分别选定球形/人形",
+        "选型后扩差分",
+        "A11复核、I导入、E绑定、Q运行验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "path": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-orb-base-neutral-v001.png",
+        "sha256": "2c4f015a0001c7eeb84353440ab53400684c4ac1fbc506ed4d0b4229bc426a0a",
+        "bytes": 1331514,
+        "format": "PNG",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "clearPixels": 611172,
+        "opaquePixels": 1484,
+        "alphaBBox": [
+          0,
+          17,
+          1250,
+          1237
+        ],
+        "alpha16BBox": [
+          72,
+          87,
+          1110,
+          1106
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6290064
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "sui-a06-orb-b-v001-png",
+      "kind": "character",
+      "ownerTask": "SUI-A06",
+      "characterOrSceneKey": "huangqiuqiu",
+      "form": "orb",
+      "variant": "base-neutral",
+      "version": "v001",
+      "status": "待用户选型",
+      "requirementKeys": [
+        "char-huangqiuqiu-orb"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 29,
+          "quote": "塑料凳上还是那个黄色圆球，深眉毛，大眼睛，红嘴抿得很平。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "sources": [
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-base.webp",
+          "copy": "assets/sources/20261028/SUI-A06/references/orb-base-reference.webp",
+          "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+          "bytes": 768286,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/sources/new-character-variants/expressions-v01-20261019/huangqiuqiu/manifest.json",
+          "copy": "assets/sources/20261028/SUI-A06/references/orb-historical-expression-manifest.json",
+          "sha256": "2fe9aded18ea21e2c3b7dcfa4a244423085b9e9e2e4c0809ea329eb3216c6539",
+          "bytes": 12931,
+          "approval": "reference-only; not adopted"
+        }
+      ],
+      "promptOrProcessRecord": "assets/sources/20261028/SUI-A06/prompts/options-orb.json",
+      "sourceFile": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "sha256Source": "21aba14be691ab79f75a7b6d9c68fae6c8d8721f024ba8dcb3208f5b91a40bbc",
+      "sha256Derivative": "21aba14be691ab79f75a7b6d9c68fae6c8d8721f024ba8dcb3208f5b91a40bbc",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1426559,
+      "orientation": 1,
+      "colorSpace": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          0,
+          1253,
+          1254
+        ],
+        "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "built-in image_gen",
+        "process": "PNG生成原件，未改写"
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          627.0,
+          1254
+        ],
+        "pivotMeaning": "球形画布底中心，非人体脚底",
+        "criticalSourceRects": {
+          "face": [
+            275,
+            390,
+            700,
+            500
+          ],
+          "hand": [
+            625,
+            890,
+            385,
+            310
+          ]
+        },
+        "previewScale": 0.3,
+        "previewXY": [
+          452,
+          96
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            534,
+            213,
+            210,
+            150
+          ],
+          "hand": [
+            640,
+            363,
+            116,
+            93
+          ]
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "sceneNodeIds": [],
+        "condition": "相识后至第55天17:00以前；门未开时不能强行展示",
+        "enter": null,
+        "exitAndRestore": "由E/I按story-usage.json接入；本包未绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/黄球球.md",
+          "本批已查看照片与球形原图"
+        ],
+        "imageEvidence": [],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG与WebP全部RGBA一致",
+        "compositeWhiteBlackDayNight": "已离线回看，见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "分别选定球形/人形",
+        "选型后扩差分",
+        "A11复核、I导入、E绑定、Q运行验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "path": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-orb-base-neutral-v001.png",
+        "sha256": "21aba14be691ab79f75a7b6d9c68fae6c8d8721f024ba8dcb3208f5b91a40bbc",
+        "bytes": 1426559,
+        "format": "PNG",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "clearPixels": 616501,
+        "opaquePixels": 865,
+        "alphaBBox": [
+          0,
+          0,
+          1253,
+          1254
+        ],
+        "alpha16BBox": [
+          74,
+          93,
+          1106,
+          1095
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6290064
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "sui-a06-orb-b-v001-webp",
+      "kind": "character",
+      "ownerTask": "SUI-A06",
+      "characterOrSceneKey": "huangqiuqiu",
+      "form": "orb",
+      "variant": "base-neutral",
+      "version": "v001",
+      "status": "待用户选型",
+      "requirementKeys": [
+        "char-huangqiuqiu-orb"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 29,
+          "quote": "塑料凳上还是那个黄色圆球，深眉毛，大眼睛，红嘴抿得很平。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "sources": [
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/current/characters/huangqiuqiu/tc-char-huangqiuqiu-orb-base.webp",
+          "copy": "assets/sources/20261028/SUI-A06/references/orb-base-reference.webp",
+          "sha256": "ce01862d4078b2b091980575bbf728f30d3ce2044ac9b6f41643fb11a843b2de",
+          "bytes": 768286,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/sources/new-character-variants/expressions-v01-20261019/huangqiuqiu/manifest.json",
+          "copy": "assets/sources/20261028/SUI-A06/references/orb-historical-expression-manifest.json",
+          "sha256": "2fe9aded18ea21e2c3b7dcfa4a244423085b9e9e2e4c0809ea329eb3216c6539",
+          "bytes": 12931,
+          "approval": "reference-only; not adopted"
+        }
+      ],
+      "promptOrProcessRecord": "assets/sources/20261028/SUI-A06/prompts/options-orb.json",
+      "sourceFile": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-orb-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-orb-base-neutral-v001.webp",
+      "sha256Source": "21aba14be691ab79f75a7b6d9c68fae6c8d8721f024ba8dcb3208f5b91a40bbc",
+      "sha256Derivative": "b28da66cb360d38604ad1cb2eb55c7e6d0422893bd15423572069cddf1beb6df",
+      "format": "WEBP",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 906340,
+      "orientation": 1,
+      "colorSpace": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          255
+        ],
+        "bbox": [
+          0,
+          0,
+          1253,
+          1254
+        ],
+        "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resize": false,
+        "crop": false
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          627.0,
+          1254
+        ],
+        "pivotMeaning": "球形画布底中心，非人体脚底",
+        "criticalSourceRects": {
+          "face": [
+            275,
+            390,
+            700,
+            500
+          ],
+          "hand": [
+            625,
+            890,
+            385,
+            310
+          ]
+        },
+        "previewScale": 0.3,
+        "previewXY": [
+          452,
+          96
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            534,
+            213,
+            210,
+            150
+          ],
+          "hand": [
+            640,
+            363,
+            116,
+            93
+          ]
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "sceneNodeIds": [],
+        "condition": "相识后至第55天17:00以前；门未开时不能强行展示",
+        "enter": null,
+        "exitAndRestore": "由E/I按story-usage.json接入；本包未绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/黄球球.md",
+          "本批已查看照片与球形原图"
+        ],
+        "imageEvidence": [],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG与WebP全部RGBA一致",
+        "compositeWhiteBlackDayNight": "已离线回看，见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "分别选定球形/人形",
+        "选型后扩差分",
+        "A11复核、I导入、E绑定、Q运行验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "path": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-orb-base-neutral-v001.png",
+        "sha256": "21aba14be691ab79f75a7b6d9c68fae6c8d8721f024ba8dcb3208f5b91a40bbc",
+        "bytes": 1426559,
+        "format": "PNG",
+        "size": [
+          1254,
+          1254
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          255
+        ],
+        "clearPixels": 616501,
+        "opaquePixels": 865,
+        "alphaBBox": [
+          0,
+          0,
+          1253,
+          1254
+        ],
+        "alpha16BBox": [
+          74,
+          93,
+          1106,
+          1095
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6290064
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "sui-a06-human-a-v001-png",
+      "kind": "character",
+      "ownerTask": "SUI-A06",
+      "characterOrSceneKey": "huangqiuqiu",
+      "form": "human",
+      "variant": "base-neutral",
+      "version": "v001",
+      "status": "待用户选型",
+      "requirementKeys": [
+        "char-huangqiuqiu-human",
+        "prop-huangqiuqiu-human-accessories"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 511,
+          "quote": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "sources": [
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/references/characters/huangqiuqiu-human-20261022/user-reference.jpg",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-user-reference.jpg",
+          "sha256": "e449fe2ae5b322f50ebc3730fa66ea54fcf1887bcca05e7a8ac3bebc2ff2b0e2",
+          "bytes": 429289,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/references/characters/huangqiuqiu-human-20261022/reference.json",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-reference-origin.json",
+          "sha256": "00b1aa2ff14fee5768ea36a31f00dd85060056c822597112bf51dcc5c67840ee",
+          "bytes": 767,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/archive/character-variants/huangqiuqiu-human-20261022/char-huangqiuqiu-human-base.webp",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-base-pending-reference.webp",
+          "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+          "bytes": 1126134,
+          "approval": "reference-only; not adopted"
+        }
+      ],
+      "promptOrProcessRecord": "assets/sources/20261028/SUI-A06/prompts/options-human.json",
+      "sourceFile": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-human-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-human-base-neutral-v001.png",
+      "sha256Source": "b4c1bfbbbcddd75a3ae8c77ec7f20611afc4e94f9c32522a8b0909342c540db3",
+      "sha256Derivative": "b4c1bfbbbcddd75a3ae8c77ec7f20611afc4e94f9c32522a8b0909342c540db3",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2322715,
+      "orientation": 1,
+      "colorSpace": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          19,
+          1024,
+          1517
+        ],
+        "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "built-in image_gen",
+        "process": "PNG生成原件，未改写"
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          512.0,
+          1536
+        ],
+        "pivotMeaning": "腰部截幅底中心，非脚底",
+        "criticalSourceRects": {
+          "face": [
+            280,
+            245,
+            365,
+            350
+          ],
+          "toy-and-hand": [
+            615,
+            315,
+            397,
+            685
+          ]
+        },
+        "previewScale": 0.4,
+        "previewXY": [
+          435,
+          64
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            547,
+            162,
+            146,
+            140
+          ],
+          "toy-and-hand": [
+            681,
+            190,
+            159,
+            274
+          ]
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第55天17:00自主呈现；HQ07两项均可用；后续持物按正文",
+        "enter": null,
+        "exitAndRestore": "由E/I按story-usage.json接入；本包未绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/黄球球.md",
+          "本批已查看照片与球形原图"
+        ],
+        "imageEvidence": [],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG与WebP全部RGBA一致",
+        "compositeWhiteBlackDayNight": "已离线回看，见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "分别选定球形/人形",
+        "选型后扩差分",
+        "A11复核、I导入、E绑定、Q运行验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "path": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-human-base-neutral-v001.png",
+        "sha256": "b4c1bfbbbcddd75a3ae8c77ec7f20611afc4e94f9c32522a8b0909342c540db3",
+        "bytes": 2322715,
+        "format": "PNG",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "clearPixels": 487398,
+        "opaquePixels": 0,
+        "alphaBBox": [
+          0,
+          19,
+          1024,
+          1517
+        ],
+        "alpha16BBox": [
+          2,
+          56,
+          1020,
+          1479
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6291456
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "sui-a06-human-a-v001-webp",
+      "kind": "character",
+      "ownerTask": "SUI-A06",
+      "characterOrSceneKey": "huangqiuqiu",
+      "form": "human",
+      "variant": "base-neutral",
+      "version": "v001",
+      "status": "待用户选型",
+      "requirementKeys": [
+        "char-huangqiuqiu-human",
+        "prop-huangqiuqiu-human-accessories"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 511,
+          "quote": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "sources": [
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/references/characters/huangqiuqiu-human-20261022/user-reference.jpg",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-user-reference.jpg",
+          "sha256": "e449fe2ae5b322f50ebc3730fa66ea54fcf1887bcca05e7a8ac3bebc2ff2b0e2",
+          "bytes": 429289,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/references/characters/huangqiuqiu-human-20261022/reference.json",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-reference-origin.json",
+          "sha256": "00b1aa2ff14fee5768ea36a31f00dd85060056c822597112bf51dcc5c67840ee",
+          "bytes": 767,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/archive/character-variants/huangqiuqiu-human-20261022/char-huangqiuqiu-human-base.webp",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-base-pending-reference.webp",
+          "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+          "bytes": 1126134,
+          "approval": "reference-only; not adopted"
+        }
+      ],
+      "promptOrProcessRecord": "assets/sources/20261028/SUI-A06/prompts/options-human.json",
+      "sourceFile": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-human-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-human-base-neutral-v001.webp",
+      "sha256Source": "b4c1bfbbbcddd75a3ae8c77ec7f20611afc4e94f9c32522a8b0909342c540db3",
+      "sha256Derivative": "c7ab26e17d457723aca4977fe67a2b8a4e5b991473832031af1c389f4fa6d74d",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1421280,
+      "orientation": 1,
+      "colorSpace": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          19,
+          1024,
+          1517
+        ],
+        "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resize": false,
+        "crop": false
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          512.0,
+          1536
+        ],
+        "pivotMeaning": "腰部截幅底中心，非脚底",
+        "criticalSourceRects": {
+          "face": [
+            280,
+            245,
+            365,
+            350
+          ],
+          "toy-and-hand": [
+            615,
+            315,
+            397,
+            685
+          ]
+        },
+        "previewScale": 0.4,
+        "previewXY": [
+          435,
+          64
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            547,
+            162,
+            146,
+            140
+          ],
+          "toy-and-hand": [
+            681,
+            190,
+            159,
+            274
+          ]
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第55天17:00自主呈现；HQ07两项均可用；后续持物按正文",
+        "enter": null,
+        "exitAndRestore": "由E/I按story-usage.json接入；本包未绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/黄球球.md",
+          "本批已查看照片与球形原图"
+        ],
+        "imageEvidence": [],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG与WebP全部RGBA一致",
+        "compositeWhiteBlackDayNight": "已离线回看，见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "分别选定球形/人形",
+        "选型后扩差分",
+        "A11复核、I导入、E绑定、Q运行验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "path": "assets/sources/20261028/SUI-A06/option-a/char-huangqiuqiu-human-base-neutral-v001.png",
+        "sha256": "b4c1bfbbbcddd75a3ae8c77ec7f20611afc4e94f9c32522a8b0909342c540db3",
+        "bytes": 2322715,
+        "format": "PNG",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "clearPixels": 487398,
+        "opaquePixels": 0,
+        "alphaBBox": [
+          0,
+          19,
+          1024,
+          1517
+        ],
+        "alpha16BBox": [
+          2,
+          56,
+          1020,
+          1479
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6291456
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "sui-a06-human-b-v001-png",
+      "kind": "character",
+      "ownerTask": "SUI-A06",
+      "characterOrSceneKey": "huangqiuqiu",
+      "form": "human",
+      "variant": "base-neutral",
+      "version": "v001",
+      "status": "待用户选型",
+      "requirementKeys": [
+        "char-huangqiuqiu-human",
+        "prop-huangqiuqiu-human-accessories"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 511,
+          "quote": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "sources": [
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/references/characters/huangqiuqiu-human-20261022/user-reference.jpg",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-user-reference.jpg",
+          "sha256": "e449fe2ae5b322f50ebc3730fa66ea54fcf1887bcca05e7a8ac3bebc2ff2b0e2",
+          "bytes": 429289,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/references/characters/huangqiuqiu-human-20261022/reference.json",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-reference-origin.json",
+          "sha256": "00b1aa2ff14fee5768ea36a31f00dd85060056c822597112bf51dcc5c67840ee",
+          "bytes": 767,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/archive/character-variants/huangqiuqiu-human-20261022/char-huangqiuqiu-human-base.webp",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-base-pending-reference.webp",
+          "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+          "bytes": 1126134,
+          "approval": "reference-only; not adopted"
+        }
+      ],
+      "promptOrProcessRecord": "assets/sources/20261028/SUI-A06/prompts/options-human.json",
+      "sourceFile": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-human-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-human-base-neutral-v001.png",
+      "sha256Source": "da896efd584f917dc72ea7128d4002a39367508fd5448bbc09dc601077bcaa54",
+      "sha256Derivative": "da896efd584f917dc72ea7128d4002a39367508fd5448bbc09dc601077bcaa54",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2300885,
+      "orientation": 1,
+      "colorSpace": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "built-in image_gen",
+        "process": "PNG生成原件，未改写"
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          512.0,
+          1536
+        ],
+        "pivotMeaning": "腰部截幅底中心，非脚底",
+        "criticalSourceRects": {
+          "face": [
+            280,
+            245,
+            365,
+            350
+          ],
+          "toy-and-hand": [
+            615,
+            315,
+            397,
+            685
+          ]
+        },
+        "previewScale": 0.4,
+        "previewXY": [
+          435,
+          64
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            547,
+            162,
+            146,
+            140
+          ],
+          "toy-and-hand": [
+            681,
+            190,
+            159,
+            274
+          ]
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第55天17:00自主呈现；HQ07两项均可用；后续持物按正文",
+        "enter": null,
+        "exitAndRestore": "由E/I按story-usage.json接入；本包未绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/黄球球.md",
+          "本批已查看照片与球形原图"
+        ],
+        "imageEvidence": [],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG与WebP全部RGBA一致",
+        "compositeWhiteBlackDayNight": "已离线回看，见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "分别选定球形/人形",
+        "选型后扩差分",
+        "A11复核、I导入、E绑定、Q运行验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "path": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-human-base-neutral-v001.png",
+        "sha256": "da896efd584f917dc72ea7128d4002a39367508fd5448bbc09dc601077bcaa54",
+        "bytes": 2300885,
+        "format": "PNG",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "clearPixels": 500094,
+        "opaquePixels": 0,
+        "alphaBBox": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "alpha16BBox": [
+          13,
+          67,
+          999,
+          1469
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6291456
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "sui-a06-human-b-v001-webp",
+      "kind": "character",
+      "ownerTask": "SUI-A06",
+      "characterOrSceneKey": "huangqiuqiu",
+      "form": "human",
+      "variant": "base-neutral",
+      "version": "v001",
+      "status": "待用户选型",
+      "requirementKeys": [
+        "char-huangqiuqiu-human",
+        "prop-huangqiuqiu-human-accessories"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 511,
+          "quote": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "sources": [
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/references/characters/huangqiuqiu-human-20261022/user-reference.jpg",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-user-reference.jpg",
+          "sha256": "e449fe2ae5b322f50ebc3730fa66ea54fcf1887bcca05e7a8ac3bebc2ff2b0e2",
+          "bytes": 429289,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/references/characters/huangqiuqiu-human-20261022/reference.json",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-reference-origin.json",
+          "sha256": "00b1aa2ff14fee5768ea36a31f00dd85060056c822597112bf51dcc5c67840ee",
+          "bytes": 767,
+          "approval": "reference-only; not adopted"
+        },
+        {
+          "source": "/Users/yipin/Desktop/cjb-v1.1-suika/assets/archive/character-variants/huangqiuqiu-human-20261022/char-huangqiuqiu-human-base.webp",
+          "copy": "assets/sources/20261028/SUI-A06/references/human-base-pending-reference.webp",
+          "sha256": "4e458e5fe38514e3eb4a0ae61fc2023166f078b2370e4836cb1557a6c56cd3d2",
+          "bytes": 1126134,
+          "approval": "reference-only; not adopted"
+        }
+      ],
+      "promptOrProcessRecord": "assets/sources/20261028/SUI-A06/prompts/options-human.json",
+      "sourceFile": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-human-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-human-base-neutral-v001.webp",
+      "sha256Source": "da896efd584f917dc72ea7128d4002a39367508fd5448bbc09dc601077bcaa54",
+      "sha256Derivative": "7851c5852de3dbdebe71c00356f1cb9cd645aa3515d0d3ebbf13406ec30e2320",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1411826,
+      "orientation": 1,
+      "colorSpace": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "coordinateBasis": "derivativeFile衍生图像素；左上原点；矩形[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resize": false,
+        "crop": false
+      },
+      "placement": {
+        "previewOnly": true,
+        "pivot": [
+          512.0,
+          1536
+        ],
+        "pivotMeaning": "腰部截幅底中心，非脚底",
+        "criticalSourceRects": {
+          "face": [
+            280,
+            245,
+            365,
+            350
+          ],
+          "toy-and-hand": [
+            615,
+            315,
+            397,
+            685
+          ]
+        },
+        "previewScale": 0.4,
+        "previewXY": [
+          435,
+          64
+        ],
+        "criticalCanvasRects": {
+          "face": [
+            547,
+            162,
+            146,
+            140
+          ],
+          "toy-and-hand": [
+            681,
+            190,
+            159,
+            274
+          ]
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第55天17:00自主呈现；HQ07两项均可用；后续持物按正文",
+        "enter": null,
+        "exitAndRestore": "由E/I按story-usage.json接入；本包未绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/黄球球.md",
+          "本批已查看照片与球形原图"
+        ],
+        "imageEvidence": [],
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG与WebP全部RGBA一致",
+        "compositeWhiteBlackDayNight": "已离线回看，见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "分别选定球形/人形",
+        "选型后扩差分",
+        "A11复核、I导入、E绑定、Q运行验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "path": "assets/sources/20261028/SUI-A06/option-b/char-huangqiuqiu-human-base-neutral-v001.png",
+        "sha256": "da896efd584f917dc72ea7128d4002a39367508fd5448bbc09dc601077bcaa54",
+        "bytes": 2300885,
+        "format": "PNG",
+        "size": [
+          1024,
+          1536
+        ],
+        "mode": "RGBA",
+        "orientation": 1,
+        "iccEmbedded": false,
+        "colorHandling": "没有执行色彩转换；没有嵌入ICC时仅保留生成器数值",
+        "alphaRange": [
+          0,
+          254
+        ],
+        "clearPixels": 500094,
+        "opaquePixels": 0,
+        "alphaBBox": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "alpha16BBox": [
+          13,
+          67,
+          999,
+          1469
+        ],
+        "rectBasis": "图像像素，左上原点，[x,y,width,height]",
+        "rgbaDecodedBytes": 6291456
+      }
+    }
+  ],
+  "adoptedCount": 0
+}

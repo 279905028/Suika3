@@ -1,0 +1,4791 @@
+{
+  "schemaVersion": 1,
+  "task": "SUI-A08",
+  "date": "2026-10-29",
+  "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+  "webUrl": "https://jimeng.jianying.com/ai-tool/ai-canvas/61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+  "status": "SUI-A08制作与包内离线检查完成；待A11复核及SUI-I采用",
+  "runtimeAdopted": false,
+  "style": "成人日系半写实手绘，雨夜青灰/克制暖光，空场景",
+  "reusePolicy": "候选仅为按白名单单文件复制；逐项视觉复核后方可放行。原件不改写。",
+  "summary": {
+    "requirements": 58,
+    "backgroundRequirements": 41,
+    "sharedPropRequirements": 17,
+    "historicalCandidateFiles": 0,
+    "plannedGenerationOutputs": 86,
+    "backgroundOutputs": 76,
+    "propReferenceOutputs": 10,
+    "selectedOutputs": 86,
+    "preservedPNGIncludingRevisions": 99,
+    "historicalCandidatesAudited": 55,
+    "historicalCopied": 0
+  },
+  "historicalCandidates": [],
+  "generation": [
+    {
+      "assetId": "bg-bijie-arrival-platform-day-rain-v001",
+      "requirementId": "bg-bijie-arrival-platform",
+      "state": "day-rain",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bijie-arrival-platform/prompts/bg-bijie-arrival-platform-day-rain-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bijie-arrival-platform",
+      "previousDreamina": {
+        "nodeId": "node_vnd9nvvh8a",
+        "updateId": "e149cf03-927a-4a61-ab8a-a6f1359359de",
+        "submitId": "f75b163b-6893-483a-864b-181b2c9e9388",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bijie-arrival-platform/bg-bijie-arrival-platform-day-rain-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bijie-arrival-platform/bg-bijie-arrival-platform-day-rain-v001.webp"
+    },
+    {
+      "assetId": "bg-bijie-slope-street-day-overcast-v001",
+      "requirementId": "bg-bijie-slope-street",
+      "state": "day-overcast",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/prompts/bg-bijie-slope-street-day-overcast-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street",
+      "previousDreamina": {
+        "nodeId": "node_agby9h96py",
+        "updateId": "ae0710a1-8dc0-433c-82a2-23af91add086",
+        "submitId": "fb2e9626-a7ab-4e1e-8ce4-0a7c7c61d991",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-day-overcast-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-day-overcast-v002.webp"
+    },
+    {
+      "assetId": "bg-bijie-slope-street-dusk-v001",
+      "requirementId": "bg-bijie-slope-street",
+      "state": "dusk",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/prompts/bg-bijie-slope-street-dusk-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street",
+      "previousDreamina": {
+        "nodeId": "node_9w66wvf2sr",
+        "updateId": "e6f6569e-a6dc-4672-a8b4-04e56d4a97f4",
+        "submitId": "1b3bea74-d7ba-43d3-932a-07e6ef66871e",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-bijie-slope-street-day-overcast-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-dusk-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-dusk-v001.webp"
+    },
+    {
+      "assetId": "bg-bijie-slope-street-night-v001",
+      "requirementId": "bg-bijie-slope-street",
+      "state": "night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/prompts/bg-bijie-slope-street-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street",
+      "previousDreamina": {
+        "nodeId": "node_k54t94ddjb",
+        "updateId": "8ead457b-3e98-4f79-ae80-1d6ef8bd8ecc",
+        "submitId": "cba3a49a-10ef-4d81-b11b-284496be845b",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-bijie-slope-street-day-overcast-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-night-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-night-v001.webp"
+    },
+    {
+      "assetId": "bg-old-netcafe-counter-day-v001",
+      "requirementId": "bg-old-netcafe-counter",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/prompts/bg-old-netcafe-counter-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter",
+      "previousDreamina": {
+        "nodeId": "node_0y2g7vx7h7",
+        "updateId": "7892ccb1-2ec7-42dc-a181-783bfb816e31",
+        "submitId": "aee3fc13-e11d-4d33-935d-073deab04620",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-day-v001.png",
+      "originalGeneratedPath": "/Users/yipin/Library/Application Support/ChatGPT Account Windows/profiles/account-3e1f4151-6395-427a-88a0-cbc4825ec169/codex/generated_images/01a1852b-e7f4-7f80-9044-9579131327b8/exec-2496619e-1641-4242-be4c-c967546bde6d.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-day-v001.webp"
+    },
+    {
+      "assetId": "bg-old-netcafe-counter-night-v001",
+      "requirementId": "bg-old-netcafe-counter",
+      "state": "night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/prompts/bg-old-netcafe-counter-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter",
+      "previousDreamina": {
+        "nodeId": "node_3texqw733d",
+        "updateId": "f1b5790d-5798-4645-8230-7edbb107179a",
+        "submitId": "6f2a3b4c-8eaa-47dc-88e9-b421b4133e58",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-old-netcafe-counter-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-night-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-night-v001.webp"
+    },
+    {
+      "assetId": "bg-old-netcafe-counter-fr-clearing-day-v001",
+      "requirementId": "bg-old-netcafe-counter",
+      "state": "fr-clearing-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/prompts/bg-old-netcafe-counter-fr-clearing-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter",
+      "previousDreamina": {
+        "nodeId": "node_9qe6v1eabd",
+        "updateId": "02b2b5ad-83e9-49e7-ae0c-8dfdc93030da",
+        "submitId": "3a6257b6-ea30-46a8-9c22-df7d3b8e77e1",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-old-netcafe-counter-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-fr-clearing-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-fr-clearing-day-v001.webp"
+    },
+    {
+      "assetId": "bg-old-netcafe-counter-fr-handover-day-v001",
+      "requirementId": "bg-old-netcafe-counter",
+      "state": "fr-handover-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/prompts/bg-old-netcafe-counter-fr-handover-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter",
+      "previousDreamina": {
+        "nodeId": "node_qhcrc137q7",
+        "updateId": "6748f8a7-dcfc-4ad0-9c23-8ac5f405bd2c",
+        "submitId": "05c6bdbe-93ec-4a45-8ad3-75fa03fb1e2c",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-old-netcafe-counter-day-v001",
+        "prop-netcafe-cat-drawing-wall-reference-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-fr-handover-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-fr-handover-day-v001.webp"
+    },
+    {
+      "assetId": "bg-old-netcafe-backroom-night-v001",
+      "requirementId": "bg-old-netcafe-backroom",
+      "state": "night",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-backroom/prompts/bg-old-netcafe-backroom-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-backroom",
+      "previousDreamina": {
+        "nodeId": "node_9cy4xx6x38",
+        "updateId": "c0da6277-8a75-498a-bdff-d0eacb1d283c",
+        "submitId": "7131c64d-ce7e-4e7f-82e1-90fdee7f5d01",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-backroom/bg-old-netcafe-backroom-night-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-backroom/bg-old-netcafe-backroom-night-v001.webp"
+    },
+    {
+      "assetId": "bg-old-netcafe-yard-door-ajar-night-v001",
+      "requirementId": "bg-old-netcafe-yard",
+      "state": "door-ajar-night",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/prompts/bg-old-netcafe-yard-door-ajar-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard",
+      "previousDreamina": {
+        "nodeId": "node_wymw45htjh",
+        "updateId": "83dd0fcd-e5e2-4c5f-a8f6-8de57b7312e9",
+        "submitId": "72edadde-79f1-4db1-adc6-c29b5401ddaf",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-ajar-night-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-ajar-night-v002.webp"
+    },
+    {
+      "assetId": "bg-old-netcafe-yard-door-open-afternoon-v001",
+      "requirementId": "bg-old-netcafe-yard",
+      "state": "door-open-afternoon",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/prompts/bg-old-netcafe-yard-door-open-afternoon-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard",
+      "previousDreamina": {
+        "nodeId": "node_z06c85q579",
+        "updateId": "28bea354-8256-4929-b89f-18b9a342c772",
+        "submitId": "0f25a670-60c5-45d6-b7a3-cbd06c209a7e",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-old-netcafe-yard-door-ajar-night-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-open-afternoon-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-open-afternoon-v001.webp"
+    },
+    {
+      "assetId": "bg-old-netcafe-yard-door-closed-morning-v001",
+      "requirementId": "bg-old-netcafe-yard",
+      "state": "door-closed-morning",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/prompts/bg-old-netcafe-yard-door-closed-morning-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard",
+      "previousDreamina": {
+        "nodeId": "node_r75r0wkax9",
+        "updateId": "f31467af-8249-40cb-a46b-ab0c2172cd54",
+        "submitId": "82c5b8b3-bcb0-4713-a210-e59255a8fe1e",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-old-netcafe-yard-door-ajar-night-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-closed-morning-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-closed-morning-v001.webp"
+    },
+    {
+      "assetId": "bg-huangqiuqiu-room-day-v001",
+      "requirementId": "bg-huangqiuqiu-room",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/prompts/bg-huangqiuqiu-room-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room",
+      "previousDreamina": {
+        "nodeId": "node_spyy3aag6h",
+        "updateId": "5b429993-b522-4d10-8bf6-4ae1e2ffb4f8",
+        "submitId": "0f4a0665-ec78-4387-ab55-05a416966da0",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.webp"
+    },
+    {
+      "assetId": "bg-huangqiuqiu-room-night-v001",
+      "requirementId": "bg-huangqiuqiu-room",
+      "state": "night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/prompts/bg-huangqiuqiu-room-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room",
+      "previousDreamina": {
+        "nodeId": "node_f6hn260dzv",
+        "updateId": "1f9f6eea-ea16-4df2-9242-d35549371629",
+        "submitId": "15f0fcfc-d34a-49a2-9414-3219cf75a2bb",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-huangqiuqiu-room-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-night-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-night-v001.webp"
+    },
+    {
+      "assetId": "bg-huangqiuqiu-room-table-close-day-v001",
+      "requirementId": "bg-huangqiuqiu-room",
+      "state": "table-close-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/prompts/bg-huangqiuqiu-room-table-close-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room",
+      "previousDreamina": {
+        "nodeId": "node_yxs8jvqb04",
+        "updateId": "d9ead029-d24f-424e-b2e3-a9467cf13b82",
+        "submitId": "085a17df-5bdd-4fe7-90d2-562e52e079bc",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-huangqiuqiu-room-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-table-close-day-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-table-close-day-v002.webp"
+    },
+    {
+      "assetId": "bg-wenwen-bijie-rental-day-v001",
+      "requirementId": "bg-wenwen-bijie-rental",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/prompts/bg-wenwen-bijie-rental-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental",
+      "previousDreamina": {
+        "nodeId": "node_gbcvdxqk54",
+        "updateId": "3befdcf1-4658-4e5d-9df8-639342017b6b",
+        "submitId": "cbc69e5c-a8d4-493f-978f-fe962d6e2a3d",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-day-v001.webp"
+    },
+    {
+      "assetId": "bg-wenwen-bijie-rental-night-v001",
+      "requirementId": "bg-wenwen-bijie-rental",
+      "state": "night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/prompts/bg-wenwen-bijie-rental-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental",
+      "previousDreamina": {
+        "nodeId": "node_69t4s7gdhn",
+        "updateId": "56ffe70d-9a14-42b0-8113-58238695531a",
+        "submitId": "8559a905-a9ef-4b25-b9b8-842a56e8394b",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-wenwen-bijie-rental-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-night-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-night-v001.webp"
+    },
+    {
+      "assetId": "bg-wenwen-bijie-rental-downstairs-bench-day-v001",
+      "requirementId": "bg-wenwen-bijie-rental",
+      "state": "downstairs-bench-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/prompts/bg-wenwen-bijie-rental-downstairs-bench-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental",
+      "previousDreamina": {
+        "nodeId": "node_95a243cr2g",
+        "updateId": "cabe874f-f92d-478e-b14a-e17a364cbe20",
+        "submitId": "d96c456e-0208-4762-bc86-7ba776dfc1e0",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-downstairs-bench-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-downstairs-bench-day-v001.webp"
+    },
+    {
+      "assetId": "bg-noodle-shop-day-v001",
+      "requirementId": "bg-noodle-shop",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-noodle-shop/prompts/bg-noodle-shop-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-noodle-shop",
+      "previousDreamina": {
+        "nodeId": "node_bq9cbn3082",
+        "updateId": "5cc6f9b4-fdfb-4b5f-bd00-add22a33bfc6",
+        "submitId": "cd01e696-afe4-42bf-a4b5-c62dd37ec42a",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-day-v001.webp"
+    },
+    {
+      "assetId": "bg-noodle-shop-front-dawn-v001",
+      "requirementId": "bg-noodle-shop",
+      "state": "front-dawn",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-noodle-shop/prompts/bg-noodle-shop-front-dawn-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-noodle-shop",
+      "previousDreamina": {
+        "nodeId": "node_r4wpwv1n30",
+        "updateId": "2a591ebe-4e25-4b3a-ba4c-cdacee750e1a",
+        "submitId": "91ae2e45-f350-49c8-9219-16b75f04a1c7",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-noodle-shop-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-front-dawn-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-front-dawn-v001.webp"
+    },
+    {
+      "assetId": "bg-friends-meal-shop-day-v001",
+      "requirementId": "bg-friends-meal-shop",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/prompts/bg-friends-meal-shop-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop",
+      "previousDreamina": {
+        "nodeId": "node_1z8aws4t4f",
+        "updateId": "0a8f9e46-fcd9-43c8-b8ba-ae1528baa0ce",
+        "submitId": "5e5de6f2-7e88-48eb-aec8-4a0f4310a71d",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-day-v001.webp"
+    },
+    {
+      "assetId": "bg-friends-meal-shop-evening-v001",
+      "requirementId": "bg-friends-meal-shop",
+      "state": "evening",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/prompts/bg-friends-meal-shop-evening-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop",
+      "previousDreamina": {
+        "nodeId": "node_y786b5d4w6",
+        "updateId": "7551eaed-94bc-48df-b1e2-add80679252f",
+        "submitId": "6ca3334b-c371-4c60-948b-0d56fcf71d51",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-friends-meal-shop-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-evening-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-evening-v001.webp"
+    },
+    {
+      "assetId": "bg-salon-bijie-mirror-day-v001",
+      "requirementId": "bg-salon-bijie",
+      "state": "mirror-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/prompts/bg-salon-bijie-mirror-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-salon-bijie",
+      "previousDreamina": {
+        "nodeId": "node_zxzw5ax5fy",
+        "updateId": "36971a8f-e0ae-4231-ac7a-76b34c733994",
+        "submitId": "28115b6a-e116-4107-a068-2cce59adaa40",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-mirror-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-mirror-day-v001.webp"
+    },
+    {
+      "assetId": "bg-salon-bijie-washbasin-day-v001",
+      "requirementId": "bg-salon-bijie",
+      "state": "washbasin-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/prompts/bg-salon-bijie-washbasin-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-salon-bijie",
+      "previousDreamina": {
+        "nodeId": "node_akt8kqgnwd",
+        "updateId": "f6ac4db2-65d5-47f2-93cb-97d430c9603a",
+        "submitId": "90ae36ad-ba7a-487e-8ba7-92dab032b158",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-salon-bijie-mirror-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-washbasin-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-washbasin-day-v001.webp"
+    },
+    {
+      "assetId": "bg-salon-bijie-day91-mirror-v001",
+      "requirementId": "bg-salon-bijie",
+      "state": "day91-mirror",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/prompts/bg-salon-bijie-day91-mirror-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-salon-bijie",
+      "previousDreamina": {
+        "nodeId": "node_s4eay9es7x",
+        "updateId": "9731951e-bc22-4ff3-82d3-2909a0240832",
+        "submitId": "5fdb4673-7106-41aa-ba7a-a856ec9e31cf",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-salon-bijie-mirror-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-day91-mirror-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-day91-mirror-v002.webp"
+    },
+    {
+      "assetId": "bg-convenience-bijie-day-v001",
+      "requirementId": "bg-convenience-bijie",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-convenience-bijie/prompts/bg-convenience-bijie-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-convenience-bijie",
+      "previousDreamina": {
+        "nodeId": "node_pd2vfwkdgv",
+        "updateId": "d6760a0e-68f7-4589-b1d0-bace54c06772",
+        "submitId": "252687aa-c7e5-4324-9bac-5239ca020d14",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-convenience-bijie/bg-convenience-bijie-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-convenience-bijie/bg-convenience-bijie-day-v001.webp"
+    },
+    {
+      "assetId": "bg-bridge-shaobing-day-v001",
+      "requirementId": "bg-bridge-shaobing",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bridge-shaobing/prompts/bg-bridge-shaobing-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bridge-shaobing",
+      "previousDreamina": {
+        "nodeId": "node_hxhab2f2k4",
+        "updateId": "231701af-31c1-4d73-848a-39d31676d45c",
+        "submitId": "b36f1534-2361-4db0-8ab2-a4c8b0c0e170",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bridge-shaobing/bg-bridge-shaobing-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bridge-shaobing/bg-bridge-shaobing-day-v001.webp"
+    },
+    {
+      "assetId": "bg-bridge-shaobing-eaves-rain-v001",
+      "requirementId": "bg-bridge-shaobing",
+      "state": "eaves-rain",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bridge-shaobing/prompts/bg-bridge-shaobing-eaves-rain-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bridge-shaobing",
+      "previousDreamina": {
+        "nodeId": "node_1k386t8xr7",
+        "updateId": "0deec395-e5c6-4bfa-b446-2f69a379bad6",
+        "submitId": "fef570e0-7710-4020-9327-5dd78839af7b",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-bridge-shaobing-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bridge-shaobing/bg-bridge-shaobing-eaves-rain-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bridge-shaobing/bg-bridge-shaobing-eaves-rain-v001.webp"
+    },
+    {
+      "assetId": "bg-huisheng-306-operating-night-v001",
+      "requirementId": "bg-huisheng-306",
+      "state": "operating-night",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-huisheng-306/prompts/bg-huisheng-306-operating-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-huisheng-306",
+      "previousDreamina": {
+        "nodeId": "node_xp3nvw4hrt",
+        "updateId": "21af9328-e450-4f2b-9109-58126cdf8524",
+        "submitId": "5b188d9e-d74d-4a0d-8d57-46c508558de8",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-operating-night-v003.png",
+      "selectedVersion": 3,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-operating-night-v003.webp"
+    },
+    {
+      "assetId": "bg-huisheng-306-cleared-day-v001",
+      "requirementId": "bg-huisheng-306",
+      "state": "cleared-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-huisheng-306/prompts/bg-huisheng-306-cleared-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-huisheng-306",
+      "previousDreamina": {
+        "nodeId": "node_syqebgs69n",
+        "updateId": "2515127b-4b1c-4258-937b-fdfa7cc8f6fb",
+        "submitId": "bd7df1b6-f554-4787-815a-a8041a988c16",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-huisheng-306-operating-night-v001",
+        "prop-huisheng-stopped-clock-1147-reference-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-cleared-day-v002.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-cleared-day-v002.webp",
+      "selectedVersion": 2
+    },
+    {
+      "assetId": "bg-huisheng-corridor-operating-day-v001",
+      "requirementId": "bg-huisheng-corridor",
+      "state": "operating-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/prompts/bg-huisheng-corridor-operating-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor",
+      "previousDreamina": {
+        "nodeId": "node_31s9rw03eg",
+        "updateId": "f56a50f6-a08a-40be-bd01-d9e4094c6f1d",
+        "submitId": "02a7d495-7760-4a6e-9b58-047677342f30",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.webp"
+    },
+    {
+      "assetId": "bg-huisheng-corridor-locked-day-v001",
+      "requirementId": "bg-huisheng-corridor",
+      "state": "locked-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/prompts/bg-huisheng-corridor-locked-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor",
+      "previousDreamina": {
+        "nodeId": "node_kwqzxw1g8q",
+        "updateId": "48b49d98-beb1-4a8d-b708-2d348d8c8321",
+        "submitId": "dcbe8cb5-cfa5-46d3-83e2-cbfef7e88b32",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-huisheng-corridor-operating-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-locked-day-v002.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-locked-day-v002.webp",
+      "selectedVersion": 2
+    },
+    {
+      "assetId": "bg-bbq-xiaoman-friends-stall-night-v001",
+      "requirementId": "bg-bbq-xiaoman-friends",
+      "state": "stall-night",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/prompts/bg-bbq-xiaoman-friends-stall-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends",
+      "previousDreamina": {
+        "nodeId": "node_15wp2frznh",
+        "updateId": "18a826b3-cab9-4c94-b3ce-6f2ca0c80dce",
+        "submitId": "718a1ae7-96fa-4280-8818-342eee9f5d17",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-stall-night-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-stall-night-v001.webp"
+    },
+    {
+      "assetId": "bg-bbq-xiaoman-friends-bike-shed-night-v001",
+      "requirementId": "bg-bbq-xiaoman-friends",
+      "state": "bike-shed-night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/prompts/bg-bbq-xiaoman-friends-bike-shed-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends",
+      "previousDreamina": {
+        "nodeId": "node_c7yy18pced",
+        "updateId": "fd6071df-7be5-40c6-b772-d222ccd36a3f",
+        "submitId": "ad7a42d9-5c22-42b4-acf7-e7741e769c64",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-bbq-xiaoman-friends-stall-night-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-bike-shed-night-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-bike-shed-night-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-ajun-workplace-front-day-v001",
+      "requirementId": "bg-ajun-workplace-front",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-ajun-workplace-front/prompts/bg-ajun-workplace-front-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-ajun-workplace-front",
+      "previousDreamina": {
+        "nodeId": "node_gv0x0224gn",
+        "updateId": "58eb0491-acdc-401e-8376-d472e763a44c",
+        "submitId": "f2a46f40-0d61-447d-b191-84d2fc403c19",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-ajun-workplace-front/bg-ajun-workplace-front-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-ajun-workplace-front/bg-ajun-workplace-front-day-v001.webp"
+    },
+    {
+      "assetId": "bg-bus-stop-bijie-stop-day-v001",
+      "requirementId": "bg-bus-stop-bijie",
+      "state": "stop-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/prompts/bg-bus-stop-bijie-stop-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie",
+      "previousDreamina": {
+        "nodeId": "node_b65zm5f9z9",
+        "updateId": "87630ea3-e734-449c-9ec3-5acee39b1790",
+        "submitId": "7cedbe21-2bab-4f57-ad4c-8c7260e7f61a",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/bg-bus-stop-bijie-stop-day-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/bg-bus-stop-bijie-stop-day-v002.webp"
+    },
+    {
+      "assetId": "bg-bus-stop-bijie-inside-day-v001",
+      "requirementId": "bg-bus-stop-bijie",
+      "state": "inside-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/prompts/bg-bus-stop-bijie-inside-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie",
+      "previousDreamina": {
+        "nodeId": "node_a4s56ss398",
+        "updateId": "6c5b57cd-bde2-476f-a16f-77ca387b7270",
+        "submitId": "7f9f0529-85ab-4174-92a5-77a9d7506d3f",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-bus-stop-bijie-stop-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/bg-bus-stop-bijie-inside-day-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/bg-bus-stop-bijie-inside-day-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-departure-station-morning-rain-v001",
+      "requirementId": "bg-departure-station",
+      "state": "morning-rain",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-departure-station/prompts/bg-departure-station-morning-rain-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-departure-station",
+      "previousDreamina": {
+        "nodeId": "node_4bdnk1y7zt",
+        "updateId": "7cd611ef-ec2e-4b1c-8654-a258edc22393",
+        "submitId": "d94bffb8-53e4-4da6-83a4-c7457269ff7c",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-departure-station/bg-departure-station-morning-rain-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-departure-station/bg-departure-station-morning-rain-v001.webp"
+    },
+    {
+      "assetId": "bg-wenwen-guiyang-home-day-v001",
+      "requirementId": "bg-wenwen-guiyang-home",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home/prompts/bg-wenwen-guiyang-home-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home",
+      "previousDreamina": {
+        "nodeId": "node_r83fn8sa4f",
+        "updateId": "0a69fc8c-2784-4ff8-9e1f-242ae68fb7ff",
+        "submitId": "37cea7c5-71ba-449c-9b53-d38b2fb6ed22",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home/bg-wenwen-guiyang-home-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home/bg-wenwen-guiyang-home-day-v001.webp"
+    },
+    {
+      "assetId": "bg-wenwen-guiyang-home-corridor-day-v001",
+      "requirementId": "bg-wenwen-guiyang-home",
+      "state": "corridor-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home/prompts/bg-wenwen-guiyang-home-corridor-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home",
+      "previousDreamina": {
+        "nodeId": "node_mnytt1mzc4",
+        "updateId": "f14b0db5-86d2-4e4a-975e-3a59cdda78ee",
+        "submitId": "ab8f4856-3a17-4ffd-ad57-a2368c5deaed",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home/bg-wenwen-guiyang-home-corridor-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home/bg-wenwen-guiyang-home-corridor-day-v001.webp"
+    },
+    {
+      "assetId": "bg-guiyang-housing-office-day-v001",
+      "requirementId": "bg-guiyang-housing-office",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-guiyang-housing-office/prompts/bg-guiyang-housing-office-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-guiyang-housing-office",
+      "previousDreamina": {
+        "nodeId": "node_3kk0zybs7h",
+        "updateId": "d87c49b4-83e0-4b1a-a4e9-46a7d7b81bfa",
+        "submitId": "de5af6dc-1b20-4bbc-9597-1551e15767fe",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-guiyang-housing-office/bg-guiyang-housing-office-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-guiyang-housing-office/bg-guiyang-housing-office-day-v001.webp"
+    },
+    {
+      "assetId": "bg-chengdu-salon-study-screen-reference-day-v001",
+      "requirementId": "bg-chengdu-salon-study",
+      "state": "screen-reference-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study/prompts/bg-chengdu-salon-study-screen-reference-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study",
+      "previousDreamina": {
+        "nodeId": "node_smbbwkzk6q",
+        "updateId": "e22de387-43cc-49e4-a42d-30276c972e3a",
+        "submitId": "8517df40-0f1d-487c-a1f7-da6d77a89df6",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study/bg-chengdu-salon-study-screen-reference-day-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study/bg-chengdu-salon-study-screen-reference-day-v002.webp"
+    },
+    {
+      "assetId": "bg-zhouzhi-supermarket-day-v001",
+      "requirementId": "bg-zhouzhi-supermarket",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-supermarket/prompts/bg-zhouzhi-supermarket-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-supermarket",
+      "previousDreamina": {
+        "nodeId": "node_8xwdjm0wr8",
+        "updateId": "f71f0fe4-7f00-4c8a-8284-afa01e42b8de",
+        "submitId": "9c18f34d-b50b-4281-9c76-f8d89cf1e4b4",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-supermarket/bg-zhouzhi-supermarket-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-supermarket/bg-zhouzhi-supermarket-day-v001.webp"
+    },
+    {
+      "assetId": "bg-zhouzhi-bijie-home-door-day-v001",
+      "requirementId": "bg-zhouzhi-bijie-home",
+      "state": "door-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/prompts/bg-zhouzhi-bijie-home-door-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home",
+      "previousDreamina": {
+        "nodeId": "node_5t89m99zmp",
+        "updateId": "19b1f011-b729-412e-8825-2cdb6011812e",
+        "submitId": "79648df7-b750-4202-9c77-63623c05e96c",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-door-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-door-day-v001.webp"
+    },
+    {
+      "assetId": "bg-zhouzhi-bijie-home-night-v001",
+      "requirementId": "bg-zhouzhi-bijie-home",
+      "state": "night",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/prompts/bg-zhouzhi-bijie-home-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home",
+      "previousDreamina": {
+        "nodeId": "node_zby0k6v1ns",
+        "updateId": "90c2a669-2b73-4a8d-afeb-4f0cda13fd90",
+        "submitId": "e135c07f-b81b-45ff-be58-904c6520eed5",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-night-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-night-v001.webp"
+    },
+    {
+      "assetId": "bg-zhouzhi-bijie-home-morning-v001",
+      "requirementId": "bg-zhouzhi-bijie-home",
+      "state": "morning",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/prompts/bg-zhouzhi-bijie-home-morning-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home",
+      "previousDreamina": {
+        "nodeId": "node_sh3k3zk4c8",
+        "updateId": "07740e63-582d-4cc0-89fd-ba0856c7dba5",
+        "submitId": "2a391a50-0d77-4c24-a226-6d0f2ad6344d",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-zhouzhi-bijie-home-night-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-morning-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-morning-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-zhouzhi-other-venue-evening-v001",
+      "requirementId": "bg-zhouzhi-other-venue",
+      "state": "evening",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-other-venue/prompts/bg-zhouzhi-other-venue-evening-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-other-venue",
+      "previousDreamina": {
+        "nodeId": "node_a1ttcwgwqc",
+        "updateId": "d126fcee-aada-443e-82a8-d0c4746c49fb",
+        "submitId": "60b9f21c-5cfa-4de1-9b71-b6a0600b5250",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-other-venue/bg-zhouzhi-other-venue-evening-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-other-venue/bg-zhouzhi-other-venue-evening-v001.webp"
+    },
+    {
+      "assetId": "bg-aying-prep-space-afternoon-v001",
+      "requirementId": "bg-aying-prep-space",
+      "state": "afternoon",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-aying-prep-space/prompts/bg-aying-prep-space-afternoon-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-aying-prep-space",
+      "previousDreamina": {
+        "nodeId": "node_9cn6zxhkv1",
+        "updateId": "6c9ccaf8-6573-4df5-aa84-b115bd57eec5",
+        "submitId": "34d16300-bacd-4b19-baa7-159c9641ddd0",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-aying-prep-space/bg-aying-prep-space-afternoon-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-aying-prep-space/bg-aying-prep-space-afternoon-v001.webp"
+    },
+    {
+      "assetId": "bg-zhouzhi-guiyang-stall-setup-day-v001",
+      "requirementId": "bg-zhouzhi-guiyang-stall",
+      "state": "setup-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/prompts/bg-zhouzhi-guiyang-stall-setup-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall",
+      "previousDreamina": {
+        "nodeId": "node_fgvc5tqra6",
+        "updateId": "fd6cbc22-6693-4dc8-9b1d-7a2d723eb615",
+        "submitId": "78d2428d-1240-454b-ba4a-f08d7460db1b",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-setup-day-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-setup-day-v002.webp"
+    },
+    {
+      "assetId": "bg-zhouzhi-guiyang-stall-service-night-v001",
+      "requirementId": "bg-zhouzhi-guiyang-stall",
+      "state": "service-night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/prompts/bg-zhouzhi-guiyang-stall-service-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall",
+      "previousDreamina": {
+        "nodeId": "node_qhpvk99v80",
+        "updateId": "f985585c-7c81-413f-bb04-f530c75c8ad6",
+        "submitId": "af35049c-a003-4170-a263-d8e0b0b31a74",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-zhouzhi-guiyang-stall-setup-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-service-night-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-service-night-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-zhouzhi-guiyang-stall-closing-night-v001",
+      "requirementId": "bg-zhouzhi-guiyang-stall",
+      "state": "closing-night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/prompts/bg-zhouzhi-guiyang-stall-closing-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall",
+      "previousDreamina": {
+        "nodeId": "node_jkb42kt09f",
+        "updateId": "4e105d58-3df4-4ca8-8e92-559437b622ba",
+        "submitId": "59b0eab2-0c71-494d-8677-202c16f2b4be",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-zhouzhi-guiyang-stall-setup-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-closing-night-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-closing-night-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-zhouzhi-guiyang-home-night-v001",
+      "requirementId": "bg-zhouzhi-guiyang-home",
+      "state": "night",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home/prompts/bg-zhouzhi-guiyang-home-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home",
+      "previousDreamina": {
+        "nodeId": "node_3s6dz3na6z",
+        "updateId": "5548c542-b6fc-4a85-be28-4406bc48f865",
+        "submitId": "b376bc1d-fdcd-4f62-b28a-083540bbcd3e",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home/bg-zhouzhi-guiyang-home-night-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home/bg-zhouzhi-guiyang-home-night-v001.webp"
+    },
+    {
+      "assetId": "bg-zhouzhi-guiyang-home-morning-v001",
+      "requirementId": "bg-zhouzhi-guiyang-home",
+      "state": "morning",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home/prompts/bg-zhouzhi-guiyang-home-morning-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home",
+      "previousDreamina": {
+        "nodeId": "node_kw5py057zz",
+        "updateId": "414f82bb-3aff-4309-b587-de38f8dd0314",
+        "submitId": "3acad55a-e74e-44ab-b1d6-e4eede764b8a",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-zhouzhi-guiyang-home-night-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home/bg-zhouzhi-guiyang-home-morning-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home/bg-zhouzhi-guiyang-home-morning-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-guiyang-meal-shop-evening-v001",
+      "requirementId": "bg-guiyang-meal-shop",
+      "state": "evening",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-guiyang-meal-shop/prompts/bg-guiyang-meal-shop-evening-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-guiyang-meal-shop",
+      "previousDreamina": {
+        "nodeId": "node_0h90edrg0z",
+        "updateId": "6e74978c-8b4f-41a5-b150-d70ec031549c",
+        "submitId": "2852660f-f3de-48ad-9753-e1f0a8f47c9b",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-guiyang-meal-shop/bg-guiyang-meal-shop-evening-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-guiyang-meal-shop/bg-guiyang-meal-shop-evening-v001.webp"
+    },
+    {
+      "assetId": "bg-mengyao-bijie-school-classroom-day-v001",
+      "requirementId": "bg-mengyao-bijie-school",
+      "state": "classroom-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/prompts/bg-mengyao-bijie-school-classroom-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school",
+      "previousDreamina": {
+        "nodeId": "node_1yzampxc0y",
+        "updateId": "77776265-34f7-45df-a4b1-76b94b079e17",
+        "submitId": "066dcad7-bc77-417d-8df3-61e2a3396776",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-classroom-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-classroom-day-v001.webp"
+    },
+    {
+      "assetId": "bg-mengyao-bijie-school-corridor-day-v001",
+      "requirementId": "bg-mengyao-bijie-school",
+      "state": "corridor-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/prompts/bg-mengyao-bijie-school-corridor-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school",
+      "previousDreamina": {
+        "nodeId": "node_y4769cywk5",
+        "updateId": "cdee7d08-622e-4a8b-a981-321babd8aaff",
+        "submitId": "9a2ce0c5-bd0a-455d-8527-1c767e25101a",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-mengyao-bijie-school-classroom-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-corridor-day-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-corridor-day-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-mengyao-bijie-school-entrance-day-v001",
+      "requirementId": "bg-mengyao-bijie-school",
+      "state": "entrance-day",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/prompts/bg-mengyao-bijie-school-entrance-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school",
+      "previousDreamina": {
+        "nodeId": "node_x76mcy4fgz",
+        "updateId": "ab7b8c2f-74aa-47bc-a767-b748aa355e4d",
+        "submitId": "976167aa-c857-4633-bbe9-848209ea1c53",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-mengyao-bijie-school-classroom-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-entrance-day-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-entrance-day-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-mengyao-drink-shop-afternoon-v001",
+      "requirementId": "bg-mengyao-drink-shop",
+      "state": "afternoon",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-mengyao-drink-shop/prompts/bg-mengyao-drink-shop-afternoon-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-mengyao-drink-shop",
+      "previousDreamina": {
+        "nodeId": "node_k4wh4n145r",
+        "updateId": "416dd4cc-f5d9-453b-b6bb-813a8875cea4",
+        "submitId": "ad07b5f9-e917-4891-aa02-feabcb0b03ea",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-mengyao-drink-shop/bg-mengyao-drink-shop-afternoon-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-mengyao-drink-shop/bg-mengyao-drink-shop-afternoon-v001.webp"
+    },
+    {
+      "assetId": "bg-mengyao-used-books-day-v001",
+      "requirementId": "bg-mengyao-used-books",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-mengyao-used-books/prompts/bg-mengyao-used-books-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-mengyao-used-books",
+      "previousDreamina": {
+        "nodeId": "node_tpj25asr4k",
+        "updateId": "7aff4490-314b-4774-bdd0-940b13730075",
+        "submitId": "e7f4041d-e31e-4a1d-b3ba-cd1545290c1a",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-mengyao-used-books/bg-mengyao-used-books-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-mengyao-used-books/bg-mengyao-used-books-day-v001.webp"
+    },
+    {
+      "assetId": "bg-mengyao-guiyang-home-day-v001",
+      "requirementId": "bg-mengyao-guiyang-home",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home/prompts/bg-mengyao-guiyang-home-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home",
+      "previousDreamina": {
+        "nodeId": "node_nvb0pg5yq2",
+        "updateId": "7072c869-2b0a-4202-b6ce-2613b6067ee5",
+        "submitId": "9823c1dd-4dd5-4604-8109-974e31e24afe",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home/bg-mengyao-guiyang-home-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home/bg-mengyao-guiyang-home-day-v001.webp"
+    },
+    {
+      "assetId": "bg-mengyao-guiyang-home-night-v001",
+      "requirementId": "bg-mengyao-guiyang-home",
+      "state": "night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home/prompts/bg-mengyao-guiyang-home-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home",
+      "previousDreamina": {
+        "nodeId": "node_k9t9fqvc82",
+        "updateId": "da1d11fd-c320-4b46-ba7e-11ba237da407",
+        "submitId": "0402aed7-2e84-4f1e-8d13-23a2bbc946fb",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-mengyao-guiyang-home-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home/bg-mengyao-guiyang-home-night-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home/bg-mengyao-guiyang-home-night-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-mengyao-guiyang-school-day-v001",
+      "requirementId": "bg-mengyao-guiyang-school",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-school/prompts/bg-mengyao-guiyang-school-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-school",
+      "previousDreamina": {
+        "nodeId": "node_pde05az8g5",
+        "updateId": "772fc6ce-7e1e-4bd6-a41c-0ac9d9d9847d",
+        "submitId": "d2ab32ad-546d-4484-b7c1-19233d4ac630",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-school/bg-mengyao-guiyang-school-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-school/bg-mengyao-guiyang-school-day-v001.webp"
+    },
+    {
+      "assetId": "bg-oldstreet-shops-grocery-day-v001",
+      "requirementId": "bg-oldstreet-shops",
+      "state": "grocery-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/prompts/bg-oldstreet-shops-grocery-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops",
+      "previousDreamina": {
+        "nodeId": "node_b0ebhxhsqd",
+        "updateId": "97529d5a-a91b-4b83-b582-9c431a12812f",
+        "submitId": "6a895e00-5eb0-40a3-a5b8-28f6a1ea0b93",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-grocery-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-grocery-day-v001.webp"
+    },
+    {
+      "assetId": "bg-oldstreet-shops-photo-studio-closed-day-v001",
+      "requirementId": "bg-oldstreet-shops",
+      "state": "photo-studio-closed-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/prompts/bg-oldstreet-shops-photo-studio-closed-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops",
+      "previousDreamina": {
+        "nodeId": "node_f852ct5j7v",
+        "updateId": "ce2072e2-ed8c-4142-ab9d-1e4f202806f6",
+        "submitId": "2d3efdc9-2e1c-4a73-8a56-d8f135eaf176",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-photo-studio-closed-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-photo-studio-closed-day-v001.webp"
+    },
+    {
+      "assetId": "bg-oldstreet-shops-shoe-repair-day-v001",
+      "requirementId": "bg-oldstreet-shops",
+      "state": "shoe-repair-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/prompts/bg-oldstreet-shops-shoe-repair-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops",
+      "previousDreamina": {
+        "nodeId": "node_j6bgd5fmwx",
+        "updateId": "847811e4-2a72-4c1c-a4be-7828c4310f6b",
+        "submitId": "d000c23b-a006-4263-a657-3d32d1e98d7a",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-shoe-repair-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-shoe-repair-day-v001.webp"
+    },
+    {
+      "assetId": "bg-oldstreet-shops-grocery-changed-day67-v001",
+      "requirementId": "bg-oldstreet-shops",
+      "state": "grocery-changed-day67",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/prompts/bg-oldstreet-shops-grocery-changed-day67-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops",
+      "previousDreamina": {
+        "nodeId": "node_gy4f89ty41",
+        "updateId": "f28fd872-ea38-4059-bb82-76ed392418fa",
+        "submitId": "0df200e8-36b6-4655-b264-930b77bac120",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-oldstreet-shops-grocery-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-grocery-changed-day67-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-grocery-changed-day67-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-lianggao-shop-day-v001",
+      "requirementId": "bg-lianggao-shop",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-lianggao-shop/prompts/bg-lianggao-shop-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-lianggao-shop",
+      "previousDreamina": {
+        "nodeId": "node_xtxdpzr1wq",
+        "updateId": "9c54d262-ea91-43a5-9779-22d49b592067",
+        "submitId": "151dfe7c-b4ba-407d-af1c-e631dafd9953",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-lianggao-shop/bg-lianggao-shop-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-lianggao-shop/bg-lianggao-shop-day-v001.webp"
+    },
+    {
+      "assetId": "bg-piao-bijie-room-day-v001",
+      "requirementId": "bg-piao-bijie-room",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/prompts/bg-piao-bijie-room-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room",
+      "previousDreamina": {
+        "nodeId": "node_wye8ssr6kr",
+        "updateId": "b12a8818-a32d-4265-9952-e9d183d8b54d",
+        "submitId": "f5eaa8ba-39e6-4bb2-8d35-8b10be7f1d8f",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/bg-piao-bijie-room-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/bg-piao-bijie-room-day-v001.webp"
+    },
+    {
+      "assetId": "bg-piao-bijie-room-night-v001",
+      "requirementId": "bg-piao-bijie-room",
+      "state": "night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/prompts/bg-piao-bijie-room-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room",
+      "previousDreamina": {
+        "nodeId": "node_cjad390wfp",
+        "updateId": "e80a2f56-5f62-4d3b-b141-d630ae13edd9",
+        "submitId": "d9a8d3cb-e3a3-49dd-9609-4983bc438f75",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-piao-bijie-room-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/bg-piao-bijie-room-night-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/bg-piao-bijie-room-night-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-performance-mall-side-stage-day-v001",
+      "requirementId": "bg-performance-mall",
+      "state": "side-stage-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-performance-mall/prompts/bg-performance-mall-side-stage-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-performance-mall",
+      "previousDreamina": {
+        "nodeId": "node_x3yy91qtp0",
+        "updateId": "e4942a32-c57e-44d0-b7e2-5bca9e4410db",
+        "submitId": "2ae906f1-0d3c-46a9-ad97-8f5d64c12094",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-performance-mall/bg-performance-mall-side-stage-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-performance-mall/bg-performance-mall-side-stage-day-v001.webp"
+    },
+    {
+      "assetId": "bg-performance-rehearsal-rain-day-v001",
+      "requirementId": "bg-performance-rehearsal",
+      "state": "rain-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-performance-rehearsal/prompts/bg-performance-rehearsal-rain-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-performance-rehearsal",
+      "previousDreamina": {
+        "nodeId": "node_mdj8ha0es7",
+        "updateId": "1ee18244-cdf7-4272-a533-a16c4ce243b2",
+        "submitId": "5aa52f01-c636-467b-8cd1-3490a51fb824",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-performance-rehearsal/bg-performance-rehearsal-rain-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-performance-rehearsal/bg-performance-rehearsal-rain-day-v001.webp"
+    },
+    {
+      "assetId": "bg-new-netcafe-counter-day-v001",
+      "requirementId": "bg-new-netcafe",
+      "state": "counter-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/prompts/bg-new-netcafe-counter-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-new-netcafe",
+      "previousDreamina": {
+        "nodeId": "node_6twhmws3ek",
+        "updateId": "9d39694d-b973-4879-805a-f764b2d2bb06",
+        "submitId": "43247189-084d-488b-a62e-0c3cae9ae8cb",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-day-v001.webp"
+    },
+    {
+      "assetId": "bg-new-netcafe-counter-night-v001",
+      "requirementId": "bg-new-netcafe",
+      "state": "counter-night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/prompts/bg-new-netcafe-counter-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-new-netcafe",
+      "previousDreamina": {
+        "nodeId": "node_f5yc50qjq7",
+        "updateId": "812791ab-b4c1-4175-ad71-70594f26e60d",
+        "submitId": "b1b5c4d9-23ef-4c79-9926-54e35e76b61f",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-new-netcafe-counter-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-night-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-night-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-new-netcafe-entrance-night-v001",
+      "requirementId": "bg-new-netcafe",
+      "state": "entrance-night",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/prompts/bg-new-netcafe-entrance-night-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-new-netcafe",
+      "previousDreamina": {
+        "nodeId": "node_sbm67tam83",
+        "updateId": "93b18f48-6a6a-4e4a-a4db-5b0d91cba1b5",
+        "submitId": "7587c333-1945-4f07-a071-e5f266d7b3cf",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-new-netcafe-counter-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-entrance-night-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-entrance-night-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-old-netcafe-milk-tea-fr-day91-v001",
+      "requirementId": "bg-old-netcafe-milk-tea",
+      "state": "fr-day91",
+      "mode": "i2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-milk-tea/prompts/bg-old-netcafe-milk-tea-fr-day91-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-old-netcafe-milk-tea",
+      "previousDreamina": {
+        "nodeId": "node_10yr3hkkdq",
+        "updateId": "75058311-a371-4339-84b6-711147c0b873",
+        "submitId": "bceb23d0-3a93-4d53-be89-f80da5d8f15e",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-old-netcafe-counter-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-milk-tea/bg-old-netcafe-milk-tea-fr-day91-v001.png",
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-old-netcafe-milk-tea/bg-old-netcafe-milk-tea-fr-day91-v001.webp",
+      "selectedVersion": 1
+    },
+    {
+      "assetId": "bg-photo-print-shop-day-v001",
+      "requirementId": "bg-photo-print-shop",
+      "state": "day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/bg-photo-print-shop/prompts/bg-photo-print-shop-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/bg-photo-print-shop",
+      "previousDreamina": {
+        "nodeId": "node_r8vqsfybaf",
+        "updateId": "870e1378-5508-488d-b2fc-ac50815f69f8",
+        "submitId": "bba71da0-1ddb-490e-b07b-3c2f21373b61",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/bg-photo-print-shop/bg-photo-print-shop-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/bg-photo-print-shop/bg-photo-print-shop-day-v001.webp"
+    },
+    {
+      "assetId": "prop-netcafe-records-blank-reference-v001",
+      "requirementId": "prop-netcafe-records",
+      "state": "blank-reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-netcafe-records/prompts/prop-netcafe-records-blank-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-netcafe-records",
+      "previousDreamina": {
+        "nodeId": "node_5844aq727q",
+        "updateId": "0614bebc-e3dc-45f5-948e-4a535a09f324",
+        "submitId": "829f95c0-6feb-44b1-84e6-31221912df58",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-netcafe-records/prop-netcafe-records-blank-reference-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-netcafe-records/prop-netcafe-records-blank-reference-v001.webp"
+    },
+    {
+      "assetId": "prop-netcafe-fast-clock-reference-v001",
+      "requirementId": "prop-netcafe-fast-clock",
+      "state": "reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-netcafe-fast-clock/prompts/prop-netcafe-fast-clock-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-netcafe-fast-clock",
+      "previousDreamina": {
+        "nodeId": "node_81t7198597",
+        "updateId": "b50a80ed-1a68-40f9-a190-8533ea5f38e9",
+        "submitId": "c7fb479c-e91b-4247-8d29-22763295a1ad",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-old-netcafe-counter-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-netcafe-fast-clock/prop-netcafe-fast-clock-reference-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-netcafe-fast-clock/prop-netcafe-fast-clock-reference-v001.webp"
+    },
+    {
+      "assetId": "prop-netcafe-mealbox-open-reference-v001",
+      "requirementId": "prop-netcafe-mealbox",
+      "state": "open-reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-netcafe-mealbox/prompts/prop-netcafe-mealbox-open-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-netcafe-mealbox",
+      "previousDreamina": {
+        "nodeId": "node_g5qx9e596q",
+        "updateId": "07b68843-87d9-4cda-9ccb-c619bfce54b4",
+        "submitId": "91d19673-2331-42eb-ab55-6bd969c06381",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-netcafe-mealbox/prop-netcafe-mealbox-open-reference-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-netcafe-mealbox/prop-netcafe-mealbox-open-reference-v001.webp"
+    },
+    {
+      "assetId": "prop-netcafe-cat-drawing-wall-reference-v001",
+      "requirementId": "prop-netcafe-cat-drawing",
+      "state": "wall-reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-netcafe-cat-drawing/prompts/prop-netcafe-cat-drawing-wall-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-netcafe-cat-drawing",
+      "previousDreamina": {
+        "nodeId": "node_reknhkme1p",
+        "updateId": "537f0be9-ec5c-46d4-97d7-a61a24321139",
+        "submitId": "3cbadd2d-fd6a-4e67-b1fd-1cd485e5f6e4",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [
+        "bg-old-netcafe-counter-day-v001"
+      ],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-netcafe-cat-drawing/prop-netcafe-cat-drawing-wall-reference-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-netcafe-cat-drawing/prop-netcafe-cat-drawing-wall-reference-v001.webp"
+    },
+    {
+      "assetId": "prop-netcafe-console-reference-v001",
+      "requirementId": "prop-netcafe-console",
+      "state": "reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-netcafe-console/prompts/prop-netcafe-console-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-netcafe-console",
+      "previousDreamina": {
+        "nodeId": "node_jw936q5k9z",
+        "updateId": "ab36465f-a34e-4cda-a1e5-d99b2411dba5",
+        "submitId": "b53a6b92-4420-431a-b1ac-50ff1ad4df7d",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-netcafe-console/prop-netcafe-console-reference-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-netcafe-console/prop-netcafe-console-reference-v001.webp"
+    },
+    {
+      "assetId": "prop-shared-audio-cables-microphone-cable-reference-v001",
+      "requirementId": "prop-shared-audio-cables",
+      "state": "microphone-cable-reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-shared-audio-cables/prompts/prop-shared-audio-cables-microphone-cable-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-shared-audio-cables",
+      "previousDreamina": {
+        "nodeId": "node_sq0w288geg",
+        "updateId": "fad56aab-265e-4969-8514-14495631b048",
+        "submitId": "27114320-8b28-4317-847b-84778d61d206",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-shared-audio-cables/prop-shared-audio-cables-microphone-cable-reference-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-shared-audio-cables/prop-shared-audio-cables-microphone-cable-reference-v001.webp"
+    },
+    {
+      "assetId": "prop-huisheng-stopped-clock-1147-reference-v001",
+      "requirementId": "prop-huisheng-stopped-clock",
+      "state": "1147-reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-huisheng-stopped-clock/prompts/prop-huisheng-stopped-clock-1147-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-huisheng-stopped-clock",
+      "previousDreamina": {
+        "nodeId": "node_dsdmhj7cfj",
+        "updateId": "52f23740-e324-42c9-a3c4-06f098cb37ec",
+        "submitId": "74cd5d45-7d76-48a0-ace2-89674520fac2",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-huisheng-stopped-clock/prop-huisheng-stopped-clock-1147-reference-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-huisheng-stopped-clock/prop-huisheng-stopped-clock-1147-reference-v002.webp"
+    },
+    {
+      "assetId": "prop-xiaoman-ebike-reference-v001",
+      "requirementId": "prop-xiaoman-ebike",
+      "state": "reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-xiaoman-ebike/prompts/prop-xiaoman-ebike-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-xiaoman-ebike",
+      "previousDreamina": {
+        "nodeId": "node_4smwbqyv4k",
+        "updateId": "c99e4094-313a-4fb0-bbc8-e5c1181ac793",
+        "submitId": "ee3f4664-8382-49b5-a2fa-33c0e0510433",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-xiaoman-ebike/prop-xiaoman-ebike-reference-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-xiaoman-ebike/prop-xiaoman-ebike-reference-v001.webp"
+    },
+    {
+      "assetId": "prop-hq-tableware-name-and-blank-reference-v001",
+      "requirementId": "prop-hq-tableware",
+      "state": "name-and-blank-reference",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-hq-tableware/prompts/prop-hq-tableware-name-and-blank-reference-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-hq-tableware",
+      "previousDreamina": {
+        "nodeId": "node_q82m7bc5jb",
+        "updateId": "3a6b9f07-c7e1-48f9-9b47-04e7257e5db8",
+        "submitId": "97453906-0138-4d0d-a44c-047e8c6ddbb6",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-hq-tableware/prop-hq-tableware-name-and-blank-reference-v002.png",
+      "selectedVersion": 2,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-hq-tableware/prop-hq-tableware-name-and-blank-reference-v002.webp"
+    },
+    {
+      "assetId": "prop-transport-packing-car-trunk-day-v001",
+      "requirementId": "prop-transport-packing",
+      "state": "car-trunk-day",
+      "mode": "t2i",
+      "count": 1,
+      "promptFile": "assets/sources/20261029/SUI-A08/prop-transport-packing/prompts/prop-transport-packing-car-trunk-day-v001.txt",
+      "status": "制作完成；离线检查完成；待复核采用",
+      "outputDirectory": "assets/sources/20261029/SUI-A08/prop-transport-packing",
+      "previousDreamina": {
+        "nodeId": "node_ek5x1yxpwg",
+        "updateId": "f1b754fa-179f-45df-ac1a-0df7afd63c0f",
+        "submitId": "4878fb85-eb04-4cb7-89dd-6111aa0ad206",
+        "projectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+        "model": "seedream_4.6",
+        "ratio": "16:9",
+        "resolution": "2K",
+        "quoteStatus": "未报价"
+      },
+      "tool": "image_gen",
+      "referenceAssetIds": [],
+      "sourceFile": "assets/sources/20261029/SUI-A08/prop-transport-packing/prop-transport-packing-car-trunk-day-v001.png",
+      "selectedVersion": 1,
+      "derivativeFile": "assets/sources/20261029/SUI-A08/prop-transport-packing/prop-transport-packing-car-trunk-day-v001.webp"
+    }
+  ],
+  "coverage": [
+    {
+      "requirementId": "bg-bijie-arrival-platform",
+      "name": "毕节抵达站台/雨棚",
+      "constraints": "第1天，交通类型未指定，不擅定高铁站/现实地标",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 17,
+          "heading": "第1天｜你带了个拖拉机",
+          "nearestNode": null,
+          "quote": "轮子滚下站台，被毛狼一脚踩住。他低头看看轮子，又看看我。电话那头问我是不是文文，我说是，毛狼正要喊，听见“逾期”两个字，把嘴闭上了。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 17,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-bijie-arrival-platform-day-rain-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-bijie-arrival-platform/bg-bijie-arrival-platform-day-rain-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-bijie-slope-street",
+      "name": "毕节坡道街巷",
+      "constraints": "可共享街景组件，不把无名小店全部判同址",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 43,
+          "heading": "第1天｜你带了个拖拉机",
+          "nearestNode": null,
+          "quote": "网吧在坡下。师匠看见我们，先把门撑住，再让毛狼擦鞋。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 43,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 1193,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "经过一段上坡，我喘得厉害。她听见，叫我先看路。我说没看屏幕，在听她。那头静了一下，然后传来门带上的声音，她也回到了住处。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-bijie-slope-street-day-overcast-v001",
+        "bg-bijie-slope-street-dusk-v001",
+        "bg-bijie-slope-street-night-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-day-overcast-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-dusk-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-bijie-slope-street/bg-bijie-slope-street-night-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-old-netcafe-counter",
+      "name": "旧网吧柜台/机位",
+      "constraints": "电脑冰柜收银打印区；仅FR第60天转店，其他线不默认关闭",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 47,
+          "heading": "第1天｜你带了个拖拉机",
+          "nearestNode": null,
+          "quote": "我看着柜台上的价目表。贵阳的房子月供三千二，断了六个月，逾期的一万九千二还不是剩下的全部贷款。信用卡另欠八千。两千工资，房租五百，信用卡最低六百，手机、吃饭再去一些，约剩三百。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 47,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 457,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "第45天，毛狼来帮忙。三个人用还没拆的电脑开了一局。师匠误点了退出，剩我和毛狼撑了几分钟，还是输了。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 455,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-old-netcafe-counter-day-v001",
+        "bg-old-netcafe-counter-night-v001",
+        "bg-old-netcafe-counter-fr-clearing-day-v001",
+        "bg-old-netcafe-counter-fr-handover-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-fr-clearing-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-fr-handover-day-v001.webp"
+      ],
+      "usageNotes": [
+        "FR清理及转手仅朋友线相应日序；其他路线不自动换店。"
+      ]
+    },
+    {
+      "requirementId": "bg-old-netcafe-backroom",
+      "name": "旧网吧后间/侧门",
+      "constraints": "饭盒旧收音机等生活空间，不默认完全等同黄球球门内",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 147,
+          "heading": "第1天夜里至第2天｜三下轻响",
+          "nearestNode": null,
+          "quote": "四点，后间的旧收音机开始报失物招领，一把钥匙，一个没有写名字的文件袋。播音员让失主与栏目联系，又提醒山区夜里有雾。我把音量调小，没听见自己的手机亮。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 147,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 219,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "等他走开，我把毛狼拉到后门。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 217,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-old-netcafe-backroom-night-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-backroom/bg-old-netcafe-backroom-night-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-old-netcafe-yard",
+      "name": "网吧后院/掉漆门框",
+      "constraints": "黄球球通行限制、私密视线；不得画公开人群",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 119,
+          "heading": "第1天夜里至第2天｜三下轻响",
+          "nearestNode": null,
+          "quote": "我停住。门没有关严，缝里是潮湿的墙和蓝色塑料凳的一条腿。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 119,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 50,
+          "heading": "第8—9天｜后面还有",
+          "nearestNode": null,
+          "quote": "我往后退一步，看清门框上那块掉了漆的地方。它并不起眼，旁边还倚着一把坏拖把。",
+          "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+          "productionBaseline": {
+            "line": 50,
+            "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-old-netcafe-yard-door-ajar-night-v001",
+        "bg-old-netcafe-yard-door-open-afternoon-v001",
+        "bg-old-netcafe-yard-door-closed-morning-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-ajar-night-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-open-afternoon-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-closed-morning-v001.webp"
+      ],
+      "usageNotes": [
+        "只引用HQ已获准短出院分支；无公开人群。透明角色另层进入退出，不增加公开通行。"
+      ]
+    },
+    {
+      "requirementId": "bg-huangqiuqiu-room",
+      "name": "黄球球房间",
+      "constraints": "矮桌沙发窗钟收音机连续；人形不自动扩大空间",
+      "sourceAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 29,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "门终于开了。塑料凳上还是那个黄色圆球，深眉毛，大眼睛，红嘴抿得很平。矮桌上放着一颗普通的黄色小球，两只杯子却只剩一只，另一只被她拿到墙边。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        },
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 517,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+          "quote": "进门后，我仍坐旧位置，膝盖却第一次碰到她的。我们同时往旁边让，沙发垫往下滑，两个人又同时去拉。她笑了，我也笑，手停在同一块布上，谁都没先收。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-huangqiuqiu-room-day-v001",
+        "bg-huangqiuqiu-room-night-v001",
+        "bg-huangqiuqiu-room-table-close-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-table-close-day-v002.webp"
+      ],
+      "usageNotes": [
+        "桌上普通小球是道具，不是黄球球角色。两种形态共用房间；不得将背景小球当作角色在场状态。"
+      ]
+    },
+    {
+      "requirementId": "bg-wenwen-bijie-rental",
+      "name": "文文毕节出租屋/楼下长凳",
+      "constraints": "面墙窗，床，MY/XM私会按各自分支，非贵阳旧房",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 109,
+          "heading": "第1天｜你带了个拖拉机",
+          "nearestNode": null,
+          "quote": "傍晚，我把箱子搬进坡上的出租屋。五百一个月，窗外正对着一堵墙。陈孃收了房租，拿来一碗汤，问我要不要旧凳子。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 109,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 463,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+          "quote": "第38天，孟遥约我在出租屋楼下坐一会儿。她没上楼，我也没叫。楼道里有住户搬旧柜子，我们从台阶挪到旁边，坐到一张漆已经磨掉的长凳上。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 631,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "我们坐在床沿吃。她讲今天收回了第二笔钱，拿手机给我看。我看完还给她，没夸她像夸一个交完作业的小孩。她吃到一半，忽然把盒子放下。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 631,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-wenwen-bijie-rental-day-v001",
+        "bg-wenwen-bijie-rental-night-v001",
+        "bg-wenwen-bijie-rental-downstairs-bench-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-downstairs-bench-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-noodle-shop",
+      "name": "面馆/早餐店/门外台阶",
+      "constraints": "D36消息与低关系现场；无名店可复用美术但不自动同址",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 149,
+          "heading": "第1天夜里至第2天｜三下轻响",
+          "nearestNode": null,
+          "quote": "六点交班，毛狼在早餐店门口蹲着，手上是我那只轮子。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 149,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 324,
+          "heading": "第11—12天｜屏幕外的座位",
+          "nearestNode": null,
+          "quote": "第十二天下午，毛狼在群里约面馆，说总不能见面也隔着麦喊。叶岚刚好有空，这是我第一次在线下见她。",
+          "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+          "productionBaseline": {
+            "line": 324,
+            "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+          }
+        },
+        {
+          "path": "scenario/跨路线-第36天的消息.md",
+          "line": 9,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PIAO-D36 -->",
+          "quote": "第36天，我去面馆拿给师匠带的饭，飘正坐在门口的凳子上，低头摆弄相机包的带子。带子绕了两圈，她打了个松结，试着一拉就开。",
+          "sha256": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-noodle-shop-day-v001",
+        "bg-noodle-shop-front-dawn-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-front-dawn-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-friends-meal-shop",
+      "name": "朋友聚餐小店",
+      "constraints": "第7/14天与后日谈不自动同址；HIGH是婚后饭非婚礼；FR-E2仅消息照片",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 437,
+          "heading": "第5—7天｜有人要去贵阳",
+          "nearestNode": null,
+          "quote": "第七天，飘比毛狼早到饭桌。她的小册子摆在一边，有几页还空着。她把衬衫下摆松松打了个结，桌边放着一台借来的相机。她说自己在学摄影，聚会时喜欢看看朋友说话之外在做什么。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 437,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 398,
+          "heading": "第13—14天｜没有那间客房",
+          "nearestNode": null,
+          "quote": "第十四天聚餐，我想早点去，结果去得太早，店里还在拖地。",
+          "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+          "productionBaseline": {
+            "line": 398,
+            "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+          }
+        },
+        {
+          "path": "scenario/后日谈-他们的日子.md",
+          "line": 125,
+          "heading": "两年后｜饭还没凉",
+          "nearestNode": "<!-- NODE EP-HIGH -->",
+          "quote": "毛狼把婚后的第一顿朋友饭约在小店。飘到时没穿礼裙，手里拿着一本新改过的册子，先把桌上的水渍擦掉才放下。",
+          "sha256": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f"
+        },
+        {
+          "path": "scenario/后日谈-未写完的安排.md",
+          "line": 18,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE EP-LOW -->",
+          "quote": "后来我碰到他们，飘正把一条布袋带子系在包上。她说课程还在学，下次要拍室内人物；小册子的几页也在改，还没决定什么时候印。毛狼从手机里翻出自己的日程，两人对了一次下次检查的时间。那天他能调开，飘说好，再把地点发给他。",
+          "sha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-friends-meal-shop-day-v001",
+        "bg-friends-meal-shop-evening-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-evening-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-salon-bijie",
+      "name": "毕节理发店",
+      "constraints": "裂纹椅价目表连续，小满离店后发夹盒换人，头盔防尘袋",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 171,
+          "heading": "第3—4天｜重逢的人不站在原地",
+          "nearestNode": null,
+          "quote": "小满没有让我坐理发椅。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 171,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 191,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "剪完，她带我去冲碎发。我仰在洗头池上，颈后压着卷好的毛巾。水一开有些凉，她立刻移开花洒，拿手腕试热了才冲回来。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 191,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 979,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "新人推开那把椅子，裂开的地方又贴了一层透明胶。我坐下时，胶边蹭了下裤子。他说小罗教过自己怎样放围布不扎脖子，手一伸，把我领口卷进去的边展平了。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 979,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-salon-bijie-mirror-day-v001",
+        "bg-salon-bijie-washbasin-day-v001",
+        "bg-salon-bijie-day91-mirror-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-mirror-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-washbasin-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-day91-mirror-v002.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-convenience-bijie",
+      "name": "毕节便利店",
+      "constraints": "孟遥重逢、冷柜收银布帘；车站便利店并非已确认同店",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 277,
+          "heading": "第3—4天｜重逢的人不站在原地",
+          "nearestNode": null,
+          "quote": "隔天下午，我在便利店看见孟遥。她正把多拿的一盒牛奶放回冷柜，转过身，和我撞个正着。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 277,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 317,
+          "heading": "第3—4天｜重逢的人不站在原地",
+          "nearestNode": null,
+          "quote": "孟遥在出口等，没替我付那瓶水。我付好过去，她把挡门的布帘抬起来一点。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 317,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-convenience-bijie-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-convenience-bijie/bg-convenience-bijie-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-bridge-shaobing",
+      "name": "桥头/机构旁烧饼店",
+      "constraints": "MY明确桥头店，不据此合并所有面馆",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 345,
+          "heading": "第3—4天｜重逢的人不站在原地",
+          "nearestNode": null,
+          "quote": "我侧身让人。她约第十天六点半吃饭，学校旁边的烧饼店。我说能。她让我记上时间，这回不用她追着问。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 345,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 47,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "桥头烧饼店刚出一炉。我说我请，她点头，没跟我抢。等老板问两个要不要都加肉，她说自己那份不用。我以为她替我省钱，赶紧说没事，她看着我说真的不想吃，嘴里一股课室粉笔味。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 191,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "吃完，雨下得很急。我们挤在檐下，我把伞打开，伞骨翻出去一截，弄了几次才撑正。孟遥站在后面笑，我叫她别笑，越笑我越拧不回去。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-bridge-shaobing-day-v001",
+        "bg-bridge-shaobing-eaves-rain-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-bridge-shaobing/bg-bridge-shaobing-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-bridge-shaobing/bg-bridge-shaobing-eaves-rain-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-huisheng-306",
+      "name": "回声306",
+      "constraints": "停钟11:47沙发茶几屏幕；第30天最后营业，非网吧快钟",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 39,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "她说完先笑了，把那页合上，看样子不准备再解释。我没追问，跟她把东西放到寄存柜旁，再回306。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 41,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "房间里一股隔夜果盘味。钟停在十一点四十七分，秒针不走。她找了节电池，装进去还是不动，干脆把后盖扣回去。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 627,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "306的茶几已经搬走，地毯上留着一圈深色水印。我把折伞靠到门后，腾出手搬箱子。她先去检查角落的纸袋，找出自己丢过的一个耳饰，站到残留的半面镜子前戴上，又摘下来。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-huisheng-306-operating-night-v001",
+        "bg-huisheng-306-cleared-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-operating-night-v003.webp",
+        "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-cleared-day-v002.webp"
+      ],
+      "usageNotes": [
+        "全景仅辨认普通指针停钟；小钟的分钟刻度不得作为精确读时画面。11:47语句使用已校对的独立停钟近景。右上菜单与钟面重叠，读钟时隐藏菜单；清空水印位于正文框后，观察该细节时须暂隐正文框。"
+      ]
+    },
+    {
+      "requirementId": "bg-huisheng-corridor",
+      "name": "回声前台/走廊/楼梯",
+      "constraints": "搬箱交谈，31天锁门后不继续正常营业",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 131,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第22天下午，我拿着那把伞去回声。周栀说还有一桌客人没走，让我先在前台等。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 379,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "过一会儿，她端着水到门口，问我要不要出去透气。我跟着走到楼道。那里堆着纸箱，我们站着，中间隔了一只还没封口的。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 393,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第31天，回声的玻璃门锁了。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 391,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-huisheng-corridor-operating-day-v001",
+        "bg-huisheng-corridor-locked-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-locked-day-v002.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-bbq-xiaoman-friends",
+      "name": "小满朋友圈烧烤摊/车棚",
+      "constraints": "27天和追账摊前，阿俊工作店门另列",
+      "sourceAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 231,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第27天，我到烧烤摊时，小满已经把旁边那张塑料凳踩住了。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 231,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 317,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "九点前，我们走到停放电动车的地方。我把头盔递给她，她没接，先扯着我的袖子，把我拉到车棚背面。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 317,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 573,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "我们在阿俊常去的摊前找到几个人。小满没坐，先把账单放到桌上。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 573,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-bbq-xiaoman-friends-stall-night-v001",
+        "bg-bbq-xiaoman-friends-bike-shed-night-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-stall-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-bike-shed-night-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-ajun-workplace-front",
+      "name": "阿俊工作店门",
+      "constraints": "52天追款；店类型未定，“以前水果店”不是现职依据",
+      "sourceAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 689,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "第52天，小满在阿俊上班的店门口等到他，旁边还有两个共同朋友。我陪她站着，她自己打开账单，说今天先把答应的那一笔结了。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 689,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-ajun-workplace-front-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-ajun-workplace-front/bg-ajun-workplace-front-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-bus-stop-bijie",
+      "name": "公交站及车内",
+      "constraints": "小满卖车后坐公交，出城车站另列",
+      "sourceAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 713,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "我看了一眼站牌，告诉她。她嗯了一声，没往站台去，先找了个台阶坐下。那顶留给我的头盔放在她膝上，安全带拖到地面，她猛地提起来，拍掉灰。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 713,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 863,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "公交到站，我上去，选了靠后的位置。手机里那张第22天的侧面照还在。车窗映着我的头发，已经比照片里长出了一截。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 863,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-bus-stop-bijie-stop-day-v001",
+        "bg-bus-stop-bijie-inside-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/bg-bus-stop-bijie-stop-day-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-bus-stop-bijie/bg-bus-stop-bijie-inside-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-departure-station",
+      "name": "出发车站/候车棚",
+      "constraints": "60天送别可共用须核空间；不锁车种站名；亲密按分支",
+      "sourceAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 753,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "第60天七点半，店长拉门。我拿到本子，往车站赶。八点二十，小满站在便利店门口，脚边放着行李箱，没有以前那辆能随时带人走的车。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 753,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 957,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "她在第60天与阿英一起去了贵阳。我站在候车棚下，等雨小一点，抱着那只杯子去坐公交。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 785,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "我们走到车站前的屋檐下。广播正在叫一趟别的车，她听完，才把原稿放回包里。我的手仍抓着她行李的提带，像还有一件事情没做完。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-departure-station-morning-rain-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-departure-station/bg-departure-station-morning-rain-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-wenwen-guiyang-home",
+      "name": "文文贵阳旧房/楼道",
+      "constraints": "长短窗帘，家具色差；75天交钥匙90天拍卖，不画敲槌现场",
+      "sourceAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 913,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "屋里积了薄灰。两边不一样长的窗帘仍挂着，我拿手机拍了一张，拍完没有发到群里。柜子里有两个搬家时没拆完的袋子，里面的东西当年觉得少不得，现在竟有好几件想不起来用途。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 913,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 667,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "地板上有几块颜色浅些的地方，是家具以前压住的。我在那里站了几分钟，想不起自己第一次拖地用了什么，却记得当时把照片拍得很漂亮。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 665,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-wenwen-guiyang-home-day-v001",
+        "bg-wenwen-guiyang-home-corridor-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home/bg-wenwen-guiyang-home-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-wenwen-guiyang-home/bg-wenwen-guiyang-home-corridor-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-guiyang-housing-office",
+      "name": "贵阳房屋办理处",
+      "constraints": "不具体化法院/银行/拍卖场，机构性质未知",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 985,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "到第75天，我先去了办事的地方。窗口前坐着几个人，有人反复问同一个问题，里面的人也反复答。我以前总嫌这种等待浪费时间，现在轮到自己，每一句答复都要记在纸上，怕走出门就只剩一个大概。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-guiyang-housing-office-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-guiyang-housing-office/bg-guiyang-housing-office-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-chengdu-salon-study",
+      "name": "成都学习/宿舍",
+      "constraints": "假头教学及通话；当前未到现场，不默认全屏背景",
+      "sourceAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 873,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "第67天，小满发来一张假人头的照片，后脑勺缺了一块。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 873,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 933,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "她这才起身。画面晃到宿舍里的椅子，练习本摊在上面，新的一页也打着叉。她没把镜头急着挪开。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 933,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-chengdu-salon-study-screen-reference-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study/bg-chengdu-salon-study-screen-reference-day-v002.webp"
+      ],
+      "usageNotes": [
+        "仅远程学习照片内画面；不表示文文到成都；个人剪刀、练习本归A02。"
+      ]
+    },
+    {
+      "requirementId": "bg-zhouzhi-supermarket",
+      "name": "超市与门口",
+      "constraints": "36天杯架和炸洋芋；不默认为共通便利店",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 601,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "第36天，她约我到超市，说有一袋个人东西还要交给我，其中包括借师匠的麦克风线。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 603,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "我到时她在杯子货架前，头发扎得乱，眼下有没睡够的痕迹。她拿起蓝沿白杯，问不好看吗。我点头又赶紧摇头，她翻个白眼。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-zhouzhi-supermarket-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-supermarket/bg-zhouzhi-supermarket-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-zhouzhi-bijie-home",
+      "name": "周栀毕节住处",
+      "constraints": "ZZ06=A方有亲密夜，B仅送物门口，不能混用",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 683,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "那天不用接夜班，晚饭之后我陪她回住处。门关上以后，她没有像招呼客人那样问想喝什么，只把凉水壶推给我，让我自己倒。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 707,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "我们把她的东西送上车。车费她付，我没有抢。到住处门口，她说剩下的可以自己拿，叫我回去睡。我问能不能一起吃饭，她说今天不想。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-zhouzhi-bijie-home-door-day-v001",
+        "bg-zhouzhi-bijie-home-night-v001",
+        "bg-zhouzhi-bijie-home-morning-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-door-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-bijie-home/bg-zhouzhi-bijie-home-morning-v001.webp"
+      ],
+      "usageNotes": [
+        "夜间/清晨室内只用于ZZ06-01=A；B留在门外。"
+      ]
+    },
+    {
+      "requirementId": "bg-zhouzhi-other-venue",
+      "name": "周栀新接工作场子门口",
+      "constraints": "46天未给店名，不套回声招牌，不补性交易场景",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 739,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "我按她发的位置到楼下，抬头看见另一块亮着的招牌。门口有人抽烟，前台站着两个穿工作服的人。我先以为她陪阿英来问别的事，直到她从里面走出来。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-zhouzhi-other-venue-evening-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-other-venue/bg-zhouzhi-other-venue-evening-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-aying-prep-space",
+      "name": "阿英备菜处",
+      "constraints": "只称阿英那里，不擅定她家或已营业餐厅",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 791,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "第48天下午，我去阿英那里送回一只借过的碗。她们正试备菜，周栀叫我坐，自己拿着土豆来问削成这样行不行。阿英嫌她一边讲话一边动手，把刀拿过去，让她先把旁边的袋子拆了。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-aying-prep-space-afternoon-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-aying-prep-space/bg-aying-prep-space-afternoon-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-zhouzhi-guiyang-stall",
+      "name": "贵阳夜宵试摊",
+      "constraints": "窄灶塑料凳锅，真实试摊不默认创业成功",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 971,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "第61天，阿英在群里发来一张锅。锅在一个很窄的灶上，旁边堆着还没拆的塑料凳，照片最边上露着周栀的一只手。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 1029,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "我到摊前时，周栀还在跟一个客人对账。她没有一看见我就丢下手里的东西，先确认多算的那一项，把钱退回，才抬头朝我招手。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-zhouzhi-guiyang-stall-setup-day-v001",
+        "bg-zhouzhi-guiyang-stall-service-night-v001",
+        "bg-zhouzhi-guiyang-stall-closing-night-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-setup-day-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-service-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-closing-night-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-zhouzhi-guiyang-home",
+      "name": "周栀贵阳住处",
+      "constraints": "仅ZZ06=A且ZZ08=A的75天留宿；与其他贵阳住所分开",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 1059,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "那晚她按说好的时间回去帮阿英收尾，我也一起把自己坐过的那张凳子收进屋，没有去接管她们的摊。等她忙完，我们回到她住处。她洗过手，在门边看着我，问还会不会觉得自己是顺路来的。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-zhouzhi-guiyang-home-night-v001",
+        "bg-zhouzhi-guiyang-home-morning-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home/bg-zhouzhi-guiyang-home-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-home/bg-zhouzhi-guiyang-home-morning-v001.webp"
+      ],
+      "usageNotes": [
+        "留宿相关画面只用于ZZ06-01=A且ZZ08-01=A。"
+      ]
+    },
+    {
+      "requirementId": "bg-guiyang-meal-shop",
+      "name": "贵阳普通小店/街边小吃",
+      "constraints": "75天ZZ-AA晚饭；土豆摊可局部，不新增店名",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 1041,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "她没有叫我立刻高兴。我们沿街走了一会儿，找到一家普通的小店，各自点了能吃完的东西。她说自己早先还想挑个好看的地方，现在就想坐着不用听锅响。我说这样就行，坐下才发现肩膀一直绷着。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 1019,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "路边有卖烤土豆的摊，我买了一小份，站着吃完。老板问加不加折耳根，我说加一点，说完才发现这是周栀平时的口气。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-guiyang-meal-shop-evening-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-guiyang-meal-shop/bg-guiyang-meal-shop-evening-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-mengyao-bijie-school",
+      "name": "孟遥毕节培训机构",
+      "constraints": "旧册试讲搬书，非大学；第27天陈晟来接婚姻揭露在本线内",
+      "sourceAnchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 15,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第15天，我按约到了培训机构。还没上到三楼，就听见有人在喊孟老师。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 131,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第23天，我们把旧练习册放到教室最后一排。孟遥坐在我旁边，没站上讲台。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-mengyao-bijie-school-classroom-day-v001",
+        "bg-mengyao-bijie-school-corridor-day-v001",
+        "bg-mengyao-bijie-school-entrance-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-classroom-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-corridor-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-mengyao-bijie-school/bg-mengyao-bijie-school-entrance-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-mengyao-drink-shop",
+      "name": "机构附近饮品店",
+      "constraints": "28天说明婚姻，包隔空椅",
+      "sourceAnchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 303,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第28天下午，我们坐在机构附近的饮品店。她没有穿上课那件衬衫，包放在两人之间的空椅子上。我以前会把那个位置空给她，现在看着包，反而不知道自己的手该往哪儿放。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-mengyao-drink-shop-afternoon-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-mengyao-drink-shop/bg-mengyao-drink-shop-afternoon-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-mengyao-used-books",
+      "name": "旧书店/交书门口",
+      "constraints": "34天陈晟/孟遥书交接，位置未定，不擅作孟遥家",
+      "sourceAnchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 423,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第34天，孟遥约了旧书店收书，问我能不能把先前放在我那里的空纸箱带回。她特地说明陈晟也会在。我答应只交东西；借来的书还没看完，暂时留在我这里。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 425,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "我到时，陈晟正帮她把书放到门口。老板给价太低，孟遥拿回几本，说这几本先不卖。陈晟提醒带去贵阳又得占一箱，她抬眼：“那也是我的箱子。”",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-mengyao-used-books-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-mengyao-used-books/bg-mengyao-used-books-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-mengyao-guiyang-home",
+      "name": "孟遥贵阳独租住处",
+      "constraints": "独租不等于离婚分居；MY07=A75天可到，B不可进入私会",
+      "sourceAnchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 583,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+          "quote": "她给我看学校附近的路，讲晚课结束后从哪边走，哪一段晚上有灯。照片里只有一张桌子、一把凳子，床边留着书箱的位置。我没有去问另一把椅子放哪儿。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 700,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+          "quote": "孟遥知道我会来，约我下午到她住处，替她听一遍新课程的示范。她特地说陈晟傍晚会来吃饭，问我还来不来。我想了很久，还是去了，没有把不知道当成余地。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 672,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+          "quote": "她坐在那张新桌旁，桌边放着两只碗。我看了好几次，还是问陈晟是不是在。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-mengyao-guiyang-home-day-v001",
+        "bg-mengyao-guiyang-home-night-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home/bg-mengyao-guiyang-home-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-home/bg-mengyao-guiyang-home-night-v001.webp"
+      ],
+      "usageNotes": [
+        "孟遥独租住处，不是文文贵阳旧房；不表示离婚。秘密关系仅MY07-01=A且MY09-01=A继续；BA不重启亲密。"
+      ]
+    },
+    {
+      "requirementId": "bg-mengyao-guiyang-school",
+      "name": "孟遥贵阳机构前台/走廊",
+      "constraints": "MY07=B75天还书，陈晟送线；不用私会CG替代",
+      "sourceAnchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 742,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+          "quote": "我把书交到机构前台，写下孟遥的名字。她刚好下课，看见我，说书已经收到了，问房子的交接怎样。我说钥匙交了，账还得核。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 750,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+          "quote": "陈晟这时送来她落在住处的电源线。他认出我，问是不是来办事，我答了是。他把线递给她，说晚上吃饭的地方发过了，让她下课再看，没催。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-mengyao-guiyang-school-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-mengyao-guiyang-school/bg-mengyao-guiyang-school-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-oldstreet-shops",
+      "name": "老街杂货店/照相馆外/修鞋摊",
+      "constraints": "受访店独立；67天杂货店换人；关门照相馆不补内部",
+      "sourceAnchors": [
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 22,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "第15天，我还没坐稳，杂货店的大姐就把本子按住了。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 44,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "她蹲在一家关门的照相馆前，把本子铺在膝盖上。刚才被划掉的地方纸有点破，笔尖几乎戳穿。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 484,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "第31天下午，我带着新旧两稿去了两家店。师傅让我站到不挡客人的地方，一边补鞋一边听。顾客来时我就停，等他忙完再读下一句。他最后拿笔画了一个圈，圈住自己的名字，说这个字也打错了。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 907,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "第67天，老街杂货店换了人。我拿着册子找那张小凳，新店主说旧东西都搬走了，只有门后还有一张。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-oldstreet-shops-grocery-day-v001",
+        "bg-oldstreet-shops-photo-studio-closed-day-v001",
+        "bg-oldstreet-shops-shoe-repair-day-v001",
+        "bg-oldstreet-shops-grocery-changed-day67-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-grocery-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-photo-studio-closed-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-shoe-repair-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-oldstreet-shops/bg-oldstreet-shops-grocery-changed-day67-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-lianggao-shop",
+      "name": "凉糕店",
+      "constraints": "PI-HIGH及走访；旧KTV往事对话不自动作回忆CG",
+      "sourceAnchors": [
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 170,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "第23天下午，凉糕店旁桌的人问飘：“回来就不去唱歌了？”",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 224,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "她把本子翻给我看，是老板以前写的价目表。褪色的字旁边有新贴的纸，写着铺面转租。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-lianggao-shop-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-lianggao-shop/bg-lianggao-shop-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-piao-bijie-room",
+      "name": "飘毕节住处",
+      "constraints": "PI-HIGH39/54/60天，装订纸稿不是孟遥练习册",
+      "sourceAnchors": [
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 566,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "屋子太小，往哪边挪都互相碍着。她让我坐床沿，自己搬了矮凳来。两摞纸搁在我们中间，我对页码，她拿订书机。压不穿的地方不能硬按，她把歪钉取出来，铺平，再试一次。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 713,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "第54天，我到她住处时，衣服散了一床。她坐在中间，手里那件上衣叠了一半，没再动。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 783,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "第60天早上，我帮她把最后一袋垃圾拿下楼。回来时她已经背上包，床单收平，窗台只剩喝过的杯子。她锁了门，钥匙在锁孔里转得有点涩，我伸手想帮，她已经自己拔出来。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-piao-bijie-room-day-v001",
+        "bg-piao-bijie-room-night-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/bg-piao-bijie-room-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-piao-bijie-room/bg-piao-bijie-room-night-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-performance-mall",
+      "name": "商场演出台侧/观众席",
+      "constraints": "FR04=A到场，B仅视频；不在未去分支画文文坐台下",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 139,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "我和师匠把盘点改到第二天下午，去了商场。出门前，我把改好的时间发给毛狼，说今晚能坐到散场，明天的活已经另外说定。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 137,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 127,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "师匠说盘点放在我休班那晚，算额外的工时。毛狼的演出也在那晚，七点开场。他把第一排一张椅子的照片发给我：这张给你留。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 125,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-performance-mall-side-stage-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-performance-mall/bg-performance-mall-side-stage-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-performance-rehearsal",
+      "name": "排练场/音箱门口",
+      "constraints": "28天收线雨天台阶；与回声/商场不强制同址",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 237,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第28天，我把他落在店里的备用演出单装进文件袋，送到排练的地方。他正在搬音箱，没腾手接。我把袋子塞进他外套内袋，跟他抬完最后一只。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 235,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 251,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "我站着，没能把这句接过去。排练室里有人试麦，声音一下冲得很高。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 249,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-performance-rehearsal-rain-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-performance-rehearsal/bg-performance-rehearsal-rain-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-new-netcafe",
+      "name": "新网吧柜台/机位/门头",
+      "constraints": "FR63天后李老板，独立于旧网吧",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 645,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "第63天，新老板姓李，问我以前干过什么。我说网管，夜班，没有再加“网络这一块”。他带我认配电箱的位置，告诉我哪几台机经常出问题，又把交班本放到桌上。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 643,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 754,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "手机亮着，毛狼问新店门口能不能停车。我拍了一张门头，框住旁边真正能停的那块地方，发给他。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 752,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-new-netcafe-counter-day-v001",
+        "bg-new-netcafe-counter-night-v001",
+        "bg-new-netcafe-entrance-night-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-entrance-night-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "bg-old-netcafe-milk-tea",
+      "name": "旧网吧改奶茶店门面",
+      "constraints": "仅FR91天，猫画被遮，不能进入其他线",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 713,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "师匠在旧店旁边等，手里提着早饭。奶茶店已经换了招牌，玻璃后那面墙平平整整，再看不出画在哪里。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 711,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-old-netcafe-milk-tea-fr-day91-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-milk-tea/bg-old-netcafe-milk-tea-fr-day91-v001.webp"
+      ],
+      "usageNotes": [
+        "旧网吧变奶茶店仅朋友线第91天；不可套到其他路线。"
+      ]
+    },
+    {
+      "requirementId": "bg-photo-print-shop",
+      "name": "照片冲印店",
+      "constraints": "FR91取猫画照片，不默认为PI照相馆复业",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 711,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "六点交班后，我先回屋洗了澡。等照片店开门，我去拿前两天送洗的那张猫。纸袋边上有一小道折痕，店员说里面没折到。我抽出来看了，猫的耳朵完整，墙皮上的裂缝也完整。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 709,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "bg-photo-print-shop-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "场景资源",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-photo-print-shop/bg-photo-print-shop-day-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-netcafe-counter-equipment",
+      "name": "网吧电脑/键盘/打印机/冰柜/收银/监控",
+      "constraints": "旧新网吧分别绑定，亮屏不意味着故障修好",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 37,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "当晚十点我来接班。到了凌晨三点，有个喝了酒的客人认定我少找钱。他把柜台拍响，伸手来抢收银抽屉。我把抽屉合住，手指夹了一下。师匠从后间出来，没碰那个人，只把监控调到收款的时候。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 37,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 77,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第21天下午，毛狼来借打印机。长活的演出单出来了，第60天出发。他把纸铺在桌上，自己的名字在第三行，还得拿手指点给我看。师匠刚打开饭盒，喊我吃一点再数机位。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 77,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [],
+      "embeddedIn": [
+        "bg-old-netcafe-counter",
+        "bg-new-netcafe"
+      ],
+      "implementation": "固定场景组件/文字演出，禁止自动新增独立近景",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-fr-clearing-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-fr-handover-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-counter-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-new-netcafe/bg-new-netcafe-entrance-night-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-netcafe-records",
+      "name": "交班本/班表/结薪页/设备清单",
+      "constraints": "共有版本，人物持拿仅引用；手机照片也引用同版",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 75,
+          "heading": "第1天｜你带了个拖拉机",
+          "nearestNode": null,
+          "quote": "师匠把柜台上的本子翻开，指了指上一班记的内容。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 75,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 79,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "纸下压着一张设备清单。柜台、网线、机位，一项一项排着。最后一行写着：交接前清空。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 79,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 339,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "买家到了，我把结薪页放到桌面。她说付款安排从没要求拖员工工资，是师匠还没把这笔安排单独提出。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 337,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-netcafe-records-blank-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-netcafe-records/prop-netcafe-records-blank-reference-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-netcafe-fast-clock",
+      "name": "网吧快十分钟钟",
+      "constraints": "FR赠文文后仍快十分钟，不是回声11:47停钟或HQ墙钟",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 35,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "墙上的打卡钟快十分钟。他伸手拨回去，塑料壳磕着墙，咚的一声。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 35,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 752,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "夜里我准备饭盒，把青椒切得比上次细。旧钟还快十分钟，我在背面贴了张纸，照手机记接班时间。到了新店，上一班把未修好的机位指给我。我挨着核清，不会处理的先问，没有为了显得自己能干就把那页翻过去。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 750,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-netcafe-fast-clock-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-netcafe-fast-clock/prop-netcafe-fast-clock-reference-v001.webp"
+      ],
+      "usageNotes": [
+        "外形参考与回声停钟不同。当前针位不是全路线固定时刻；快十分钟须按对应正文实际时刻表现，不从本参考推断日期或时间。"
+      ]
+    },
+    {
+      "requirementId": "prop-netcafe-mealbox",
+      "name": "旧饭盒及盒盖",
+      "constraints": "FR赠文文后A07只引用此版，普通外卖盒另用公共组件",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 481,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "师匠回来时，手里是旧饭盒和那只快十分钟的钟。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 479,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 561,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "我没有再提等几天。他从抽屉里拿出饭盒盖，和我那只盒子比了一下，扣紧又打开，说这回别弄丢。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 559,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-netcafe-mealbox-open-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-netcafe-mealbox/prop-netcafe-mealbox-open-reference-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-netcafe-cat-drawing",
+      "name": "师匠儿子猫画/原图/冲印照",
+      "constraints": "FR60天先拍后遮，91天交照片；不增加孩子出镜/家庭史",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 563,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "第二天上午，工人把旧柜台推开，师匠儿子画的猫整个露出来。师匠拿手机拍了正面，又换到侧边，想把墙皮裂开的那一块避掉。工人等他挪位置，抬着板子的手一直没有放下。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 561,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 711,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "六点交班后，我先回屋洗了澡。等照片店开门，我去拿前两天送洗的那张猫。纸袋边上有一小道折痕，店员说里面没折到。我抽出来看了，猫的耳朵完整，墙皮上的裂缝也完整。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 709,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-netcafe-cat-drawing-wall-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-netcafe-cat-drawing/prop-netcafe-cat-drawing-wall-reference-v001.webp"
+      ],
+      "usageNotes": [
+        "本项为不透明场景内参考。最终原图与冲印照统一取自FR转手全露猫画源图；裁切指引另见component-usage.json，不重新生成另一只猫。"
+      ]
+    },
+    {
+      "requirementId": "prop-netcafe-console",
+      "name": "旧游戏机/手柄/电源线",
+      "constraints": "FR36天出售；多人交易物统一版本A08，师匠动作引用",
+      "sourceAnchors": [
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 427,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第35天，我在二手页面看见师匠的旧游戏机。照片就在网吧柜台上拍的，旁边还有我没吃完的面。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 425,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 439,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "对方最后照价付了钱。师匠反复告诉他，有个手柄得插紧，不是坏的。人已经到门口了，他又追出去说了一遍。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 437,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-netcafe-console-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-netcafe-console/prop-netcafe-console-reference-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-shared-audio-cables",
+      "name": "麦克风/借线/音箱/灯架",
+      "constraints": "周栀借师匠完好线须还；毛狼演出设备区分，非文文专业维修工具",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 303,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第27天，我把师匠借给我的完好麦克风线带去。原来那根时断时续，她前几天随口提过。阿英在门口，让我把东西放下。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 237,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第28天，我把他落在店里的备用演出单装进文件袋，送到排练的地方。他正在搬音箱，没腾手接。我把袋子塞进他外套内袋，跟他抬完最后一只。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 235,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        },
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 270,
+          "heading": "第11—12天｜屏幕外的座位",
+          "nearestNode": null,
+          "quote": "第十一天傍晚，我在网吧门口碰见毛狼。他刚卸完一场的灯架，衣服背上湿了一块，手里却还攥着一张新的海报。",
+          "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+          "productionBaseline": {
+            "line": 270,
+            "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-shared-audio-cables-microphone-cable-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-shared-audio-cables/prop-shared-audio-cables-microphone-cable-reference-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-huisheng-stopped-clock",
+      "name": "回声11:47停钟",
+      "constraints": "周栀不带走，不作超自然机关；非网吧快钟",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 41,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "房间里一股隔夜果盘味。钟停在十一点四十七分，秒针不走。她找了节电池，装进去还是不动，干脆把后盖扣回去。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 667,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "楼下有人催搬沙发。周栀没立刻走，抬头看那只停在十一点四十七分的钟。她说老板叫大家能用的拿走，我问她要不要。她摇头，说不想把一只不走的钟又挂到新地方。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-huisheng-stopped-clock-1147-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-huisheng-stopped-clock/prop-huisheng-stopped-clock-1147-reference-v002.webp"
+      ],
+      "usageNotes": [
+        "采用v002普通指针钟；v001电子钟排除。近景需在上方安全区独立等比摆放，不能沿用本包满高QA试摆。"
+      ]
+    },
+    {
+      "requirementId": "prop-huisheng-sales",
+      "name": "回声酒/果盘/消费单/麦克风/屏幕",
+      "constraints": "未付款单不画已付；后日谈不暗示回声重开",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 189,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "她今天本来就没上班。那张单子挡在我们中间，前台还在等我确认。我突然想起乔哥说下回还找她，自己竟用了差不多的办法，只是更不熟练。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 495,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "前台把未付款的单子放回夹板。我没花出那笔钱，桌上的人却都已经看见我想买什么。我坐不下去，九点四十五离开，按时到了网吧。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [],
+      "embeddedIn": [
+        "bg-huisheng-306",
+        "bg-huisheng-corridor"
+      ],
+      "implementation": "固定场景组件/文字演出，禁止自动新增独立近景",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-operating-night-v003.webp",
+        "assets/sources/20261029/SUI-A08/bg-huisheng-306/bg-huisheng-306-cleared-day-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-locked-day-v002.webp"
+      ],
+      "usageNotes": [
+        "单据保持空白，金额/付款状态用文本演出；不从背景虚构已付款。"
+      ]
+    },
+    {
+      "requirementId": "prop-salon-fixed",
+      "name": "理发椅/洗头池/围布/价目表/假头",
+      "constraints": "固定职业物；小满随身包A02；成都假头图不变文文到场",
+      "sourceAnchors": [
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 191,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "剪完，她带我去冲碎发。我仰在洗头池上，颈后压着卷好的毛巾。水一开有些凉，她立刻移开花洒，拿手腕试热了才冲回来。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 191,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 975,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "第91天上午，店里新人替我围好围布，问是不是只修边。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 975,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 873,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "第67天，小满发来一张假人头的照片，后脑勺缺了一块。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 873,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [],
+      "embeddedIn": [
+        "bg-salon-bijie",
+        "bg-chengdu-salon-study"
+      ],
+      "implementation": "固定场景组件/文字演出，禁止自动新增独立近景",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-mirror-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-washbasin-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-salon-bijie/bg-salon-bijie-day91-mirror-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-chengdu-salon-study/bg-chengdu-salon-study-screen-reference-day-v002.webp"
+      ],
+      "usageNotes": [
+        "价目表留空，正确价格由文本层提供；个人工具归A02。"
+      ]
+    },
+    {
+      "requirementId": "prop-xiaoman-ebike",
+      "name": "二手电动车",
+      "constraints": "多人乘坐统一参考；旧刮痕贴纸右转灯，53天售后不再骑；头盔钥匙引用A02",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 251,
+          "heading": "第3—4天｜重逢的人不站在原地",
+          "nearestNode": null,
+          "quote": "二手电动车停在路牙边，车身有几道旧划痕，后视镜倒擦得很亮。她把垃圾扔好，蹲下捡开轮胎旁的玻璃片，又拿袖子擦掉车座上的水。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 251,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/罗小满-练习本.md",
+          "line": 703,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+          "quote": "最后价格没有按她最初想的谈成。她转过车把，让那女人再试一圈。车从我们面前开走时，她往前追了一步，喊右边转向灯有时候要按两下。",
+          "sha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+          "productionBaseline": {
+            "line": 703,
+            "sha256": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-xiaoman-ebike-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-xiaoman-ebike/prop-xiaoman-ebike-reference-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-yard-fixed",
+      "name": "蓝塑料凳/坏拖把/水桶/门框/白花",
+      "constraints": "HQ04=A短出院方显示球形门外；花照两支可有，无公开出行",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 119,
+          "heading": "第1天夜里至第2天｜三下轻响",
+          "nearestNode": null,
+          "quote": "我停住。门没有关严，缝里是潮湿的墙和蓝色塑料凳的一条腿。",
+          "sha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+          "productionBaseline": {
+            "line": 119,
+            "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+          }
+        },
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 50,
+          "heading": "第8—9天｜后面还有",
+          "nearestNode": null,
+          "quote": "我往后退一步，看清门框上那块掉了漆的地方。它并不起眼，旁边还倚着一把坏拖把。",
+          "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+          "productionBaseline": {
+            "line": 50,
+            "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+          }
+        },
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 133,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "我把歪着的水桶挪走。她只待了一小会儿，就说回去。我想说难得出来，话到嘴边，改成了把门扶住。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        },
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 161,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第24天，我拍到了那簇白花。照片糊了一半，她拿着我的手机看，想放大，又被自己的小手挡住。我按她说的位置放大，她嫌我放太大，两个人折腾了一会儿才看清。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [],
+      "embeddedIn": [
+        "bg-old-netcafe-yard"
+      ],
+      "implementation": "固定场景组件/文字演出，禁止自动新增独立近景",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-ajar-night-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-open-afternoon-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-old-netcafe-yard/bg-old-netcafe-yard-door-closed-morning-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-hq-tableware",
+      "name": "写名双杯/铅笔/纸条/信封",
+      "constraints": "多人互动同版，75天E2还杯；纸条有回应才约成，形态两期同一套",
+      "sourceAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 87,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "她把两只杯子并排放好，翻过其中一只，底下用铅笔写着三个字：黄球球。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        },
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 801,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+          "quote": "她把我的杯子包好，放在包顶。我问能不能最后抱一下。她想了想，走过来，手很轻地落在我背上。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        },
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 682,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+          "quote": "这次我没有再补一句但是。她把那些纸收进信封，推到桌角，离两只杯子远了一点。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-hq-tableware-name-and-blank-reference-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-hq-tableware/prop-hq-tableware-name-and-blank-reference-v002.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-hq-room-fixed",
+      "name": "收音机/墙钟/沙发/矮桌/普通黄色小球",
+      "constraints": "小球是物件不是角色替身；收音机普通节目不增加超自然功能",
+      "sourceAnchors": [
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 29,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "门终于开了。塑料凳上还是那个黄色圆球，深眉毛，大眼睛，红嘴抿得很平。矮桌上放着一颗普通的黄色小球，两只杯子却只剩一只，另一只被她拿到墙边。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        },
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 253,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "第29天，我来得比约定晚十分钟。纸条提前放过了，她看见我，先指了指墙上的钟，才让我进门。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        },
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 413,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+          "quote": "第40天，我们一起听广播。广告反复念同一句，她烦得去调台，我伸手想帮，旋钮被两只手拧到了相反方向，猛地响起一阵噪声。她叫我放开，我放开，两个人听着那一声都笑了。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [],
+      "embeddedIn": [
+        "bg-huangqiuqiu-room"
+      ],
+      "implementation": "固定场景组件/文字演出，禁止自动新增独立近景",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-table-close-day-v002.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-shared-food-boxes",
+      "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+      "constraints": "按镜头取用；专属杯子个人资料箱禁止替换，凉掉的饭按时序",
+      "sourceAnchors": [
+        {
+          "path": "scenario/第二章-十四天.md",
+          "line": 410,
+          "heading": "第13—14天｜没有那间客房",
+          "nearestNode": null,
+          "quote": "周栀给孟遥的位置留了碗筷。毛狼拿她的口气逗她，说她一来饭桌都像有人管，她笑着把菜单拍到他手上：“那你先开一瓶贵的，给我挣点。”",
+          "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+          "productionBaseline": {
+            "line": 410,
+            "sha256": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140"
+          }
+        },
+        {
+          "path": "scenario/黄球球-门后.md",
+          "line": 687,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+          "quote": "早饭端回来时已经凉了。我们坐着吃完，吃得很慢，没有再讨论怎样把凳子摆进院里。",
+          "sha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+        },
+        {
+          "path": "scenario/飘-空白页.md",
+          "line": 410,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE PI-HIGH-START -->",
+          "quote": "两个人蹲在地上，一瓶瓶换到干箱子里。汽水滚到台阶边，她用膝盖挡住，裙角沾了一片灰。",
+          "sha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [],
+      "embeddedIn": [
+        "bg-friends-meal-shop",
+        "bg-noodle-shop",
+        "bg-huangqiuqiu-room",
+        "bg-huisheng-corridor"
+      ],
+      "implementation": "固定场景组件/文字演出，禁止自动新增独立近景",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huangqiuqiu-room/bg-huangqiuqiu-room-table-close-day-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-noodle-shop/bg-noodle-shop-front-dawn-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-evening-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-operating-day-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-huisheng-corridor/bg-huisheng-corridor-locked-day-v002.webp"
+      ],
+      "usageNotes": [
+        "餐具与纸箱随镜头取用，不替代人物专属杯与资料箱；外卖温度、剩余食物与时序由E核对。"
+      ]
+    },
+    {
+      "requirementId": "prop-stall-kitchen",
+      "name": "试摊锅灶/塑料凳/菜/餐具",
+      "constraints": "窄灶与分工连续，不画为大型盈利餐厅",
+      "sourceAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 971,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "第61天，阿英在群里发来一张锅。锅在一个很窄的灶上，旁边堆着还没拆的塑料凳，照片最边上露着周栀的一只手。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 791,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "第48天下午，我去阿英那里送回一只借过的碗。她们正试备菜，周栀叫我坐，自己拿着土豆来问削成这样行不行。阿英嫌她一边讲话一边动手，把刀拿过去，让她先把旁边的袋子拆了。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [],
+      "embeddedIn": [
+        "bg-aying-prep-space",
+        "bg-zhouzhi-guiyang-stall"
+      ],
+      "implementation": "固定场景组件/文字演出，禁止自动新增独立近景",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/bg-aying-prep-space/bg-aying-prep-space-afternoon-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-setup-day-v002.webp",
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-service-night-v001.webp",
+        "assets/sources/20261029/SUI-A08/bg-zhouzhi-guiyang-stall/bg-zhouzhi-guiyang-stall-closing-night-v001.webp"
+      ],
+      "usageNotes": []
+    },
+    {
+      "requirementId": "prop-transport-packing",
+      "name": "公交/车后备厢/搬运板材",
+      "constraints": "只按现有空间，不补车辆型号；孟遥陈晟行李非文文同居搬家",
+      "sourceAnchors": [
+        {
+          "path": "scenario/孟遥-旧题.md",
+          "line": 649,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+          "quote": "第59天，最后几只书箱被收走。第60天早上，我下夜班去买早餐，看见孟遥和陈晟在路边核行李。后备厢开着，她说材料不能压，他就把上面的袋子挪下来，让她自己放好。",
+          "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+        },
+        {
+          "path": "scenario/朋友与职业-夜班.md",
+          "line": 569,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE FR-D36-RETURN -->",
+          "quote": "对方把新柜台靠过去，正好压住猫的半张脸。他用手比了比，知道挪不了，叫工人先放下，自己把旧插座的线抽出来。",
+          "sha256": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+          "productionBaseline": {
+            "line": 567,
+            "sha256": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab"
+          }
+        }
+      ],
+      "reusedCandidates": [],
+      "plannedAssets": [
+        "prop-transport-packing-car-trunk-day-v001"
+      ],
+      "embeddedIn": [],
+      "implementation": "独立道具参考",
+      "status": "制作完成；包内检查完成；待A11/I",
+      "adopted": false,
+      "deliveredFiles": [
+        "assets/sources/20261029/SUI-A08/prop-transport-packing/prop-transport-packing-car-trunk-day-v001.webp"
+      ],
+      "usageNotes": [
+        "按搬运镜头取用；不表示孟遥与文文同居搬家。"
+      ]
+    }
+  ],
+  "unresolved": [],
+  "notTested": [
+    "A11独立最终复核",
+    "SUI-I正式采用与逐镜演出绑定",
+    "引擎加载/回退/存档恢复",
+    "浏览器/手机真机/桌面",
+    "发布"
+  ],
+  "previousWorkflow": {
+    "tool": "dreamina-canvas-cli",
+    "status": "用户2026-10-29明确停止使用即梦制作图片；86份草稿保留为历史记录，不再调用",
+    "generationSubmitted": false,
+    "generationConfirmed": false,
+    "previousProjectId": "61438dfb-b1b0-47c6-9892-fd4ba5d27986",
+    "previousWebUrl": "https://jimeng.jianying.com/ai-tool/ai-canvas/61438dfb-b1b0-47c6-9892-fd4ba5d27986"
+  },
+  "activeTool": "built-in image_gen"
+}

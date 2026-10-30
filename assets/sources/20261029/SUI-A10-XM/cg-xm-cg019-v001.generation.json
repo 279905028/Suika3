@@ -1,0 +1,223 @@
+{
+  "id": "CG019",
+  "title": "她自己催回那笔钱",
+  "package": "SUI-A10-XM",
+  "stem": "cg-xm-cg019-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A02/char-xiaoman-base",
+    "A08/bg-wenwen-bijie-rental-day",
+    "PRE/char-xiaoman-morning-white-tee-v001",
+    "PRE/prop-xiaoman-open-practice-kit-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A02/char-xiaoman-morning-white-tee-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：小满A同脸、浅金短发、砖红双条纹夹克白内搭\n图3：A08/bg-wenwen-bijie-rental-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：用户确认白色内搭；CG019只取肩部近景与脸发基准，不照抄全身姿势。\n图5：只按镜头取打开练习页、报名表背面、发夹或小满浅灰手机；不整板入镜，不填日期/学费。\n核心画面：出租屋次晨，小满白色圆领T肩部近景，短金发略乱，坐起认真接浅灰手机催账，嘴微张但不画台词；只画肩膀以上和持手机的手。文文完全画外，床铺仅背景小部分，不裸露，不增加睡衣，水杯尚未递来。\n衣装/形态硬约束：小满沿A02已选白色内搭，乱发、肩部近景；文文画外，不扩展床头衣装。\n当拍道具：手机通话，水杯尚未递出\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；用户已确认白色内搭、肩部近景；不另设睡衣/内衣或裸露。；浅灰无品牌手机为小满使用；来电债额不显示。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG019",
+    "kind": "retained-selection",
+    "title": "她自己催回那笔钱",
+    "originalTitle": "她自己催回那笔钱",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+        "line": 645,
+        "anchor": "“今天说好的那一笔，下午给。你别又喊我算了。”"
+      }
+    ],
+    "time": "第45天留宿后的次晨",
+    "routeGroup": "XM",
+    "source": {
+      "path": "scenario/罗小满-练习本.md",
+      "line": 651,
+      "paragraph": "TEXT_ffed693f46ad088fe05a",
+      "scope": "XM07-01/COMMON",
+      "nearestNode": "<!-- NODE XM-D36-RETURN -->",
+      "quote": "“今天说好的那一笔，下午给。你别又喊我算了。”",
+      "conditions": [
+        "XM07-01=A"
+      ],
+      "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "matchText": "“今天说好的那一笔，下午给。你别又喊我算了。”",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、罗小满",
+      "offscreenOrRemote": "阿俊在电话另一端"
+    },
+    "wardrobeAndForm": "小满沿A02已选白色内搭，乱发、肩部近景；文文画外，不扩展床头衣装。",
+    "propState": "手机通话，水杯尚未递出",
+    "composition": "小满坐起认真催账，文文在画外等待；不显示具体欠款金额。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "xiaoman"
+        }
+      ],
+      "requiredExpressions": [
+        "XM07-01=A"
+      ]
+    },
+    "reviewNotes": "此拍属于早期A，未来XM08可A或B；不能限最终AA。接阿俊来电的是小满手机，设备不可错误绑定为文文同一台。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_ffed693f46ad088fe05a_1",
+      "visiblePageIds": [
+        "TEXT_ffed693f46ad088fe05a_1"
+      ],
+      "exitBeforeId": "TEXT_6ed5993d26d4999f77d4_1",
+      "snapshotBefore": "第45天留宿后的次晨；文文、罗小满；小满沿A02已选白色内搭，乱发、肩部近景；文文画外，不扩展床头衣装。；手机通话，水杯尚未递出",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "此拍属于早期A，未来XM08可A或B；不能限最终AA。接阿俊来电的是小满手机，设备不可错误绑定为文文同一台。"
+    },
+    "production": {
+      "package": "SUI-A10-XM",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-wenwen-bijie-rental",
+        "owner": "SUI-A08",
+        "name": "文文毕节出租屋/楼下长凳",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-wenwen-bijie-rental-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-downstairs-bench-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "pose-xm-morning",
+        "owner": "SUI-A02",
+        "name": "第45天后次晨接电话的可见衣装",
+        "reason": "正文未写睡衣款式。构图限肩上和持手机手部；不得添加内衣、裸露或把第40天旧卫衣自动套来。",
+        "status": "待补当拍参考；非已放行资源"
+      },
+      {
+        "requirementId": "prop-xm-phone",
+        "owner": "SUI-A02",
+        "name": "小满接阿俊电话的手机",
+        "reason": "个人手机归小满，不引用文文的手机为同一实体；不显示号码、品牌或未给金额。",
+        "status": "待补当拍参考；非已放行资源"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-wenwen-bijie-rental",
+        "owner": "SUI-A08",
+        "name": "文文毕节出租屋/楼下长凳",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-wenwen-bijie-rental-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-downstairs-bench-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-wenwen-bijie-rental-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "pose-xm-morning",
+        "owner": "SUI-A02",
+        "name": "第45天后次晨接电话的可见衣装",
+        "reason": "正文未写睡衣款式。构图限肩上和持手机手部；不得添加内衣、裸露或把第40天旧卫衣自动套来。",
+        "status": "resolved-reference-frozen",
+        "referenceKeys": [
+          "PRE/char-xiaoman-morning-white-tee-v001"
+        ],
+        "frameUse": "用户已确认白色内搭、肩部近景；不另设睡衣/内衣或裸露。"
+      },
+      {
+        "requirementId": "prop-xm-phone",
+        "owner": "SUI-A02",
+        "name": "小满接阿俊电话的手机",
+        "reason": "个人手机归小满，不引用文文的手机为同一实体；不显示号码、品牌或未给金额。",
+        "status": "resolved-reference-frozen",
+        "referenceKeys": [
+          "PRE/prop-xiaoman-open-practice-kit-v001"
+        ],
+        "frameUse": "浅灰无品牌手机为小满使用；来电债额不显示。"
+      }
+    ],
+    "internalWorkItems": [],
+    "previousWardrobeAndForm": "小满乱发；肩上紧景衣领待A02同版确认，文文床头衣装不扩展",
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base",
+      "A08/bg-wenwen-bijie-rental-day",
+      "PRE/char-xiaoman-morning-white-tee-v001",
+      "PRE/prop-xiaoman-open-practice-kit-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg019-v001.png",
+  "sourceSha256": "a56cf849d9fc0bf5f199ee8e8c46d63e07d1a41e38c151263d0074da53461eeb",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-39bfe233-6ad5-4d9c-b2cd-7cd18e35ca0c.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+      "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-wenwen-bijie-rental/bg-wenwen-bijie-rental-day-v001.png",
+      "sha256": "6ce6e931ccc5a600c7da79c9171eaf659c700dcb807a324f30995f75bf3f1dcb"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A02/char-xiaoman-morning-white-tee-v001.png",
+      "sha256": "4affaa1ed2ae495aee55abc462dfc91397cb66522daef5a6aeaef475688578a8"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A02/prop-xiaoman-open-practice-kit-v001.png",
+      "sha256": "7044e8aeb32ba258dc05913164aac934d9e157696d643c566c767026b31cc62b"
+    }
+  ],
+  "runtimeAdopted": false
+}

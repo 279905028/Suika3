@@ -1,0 +1,25 @@
+{
+  "method": "重执行现有SUI-U生成器中cg读取及两个登记写入语句；未修改生成器，未重制GUI",
+  "source": "system/sui-u/source/build.py",
+  "sourceSha256": "47dfb4480586cad1749e74de67dd41613ba8b7eabb299a969383d59541d8a09b",
+  "sourceLines": [
+    273,
+    276
+  ],
+  "selectionSha256": "e8480481b989c00d9c8bbc5e8fc986dda9069706db1f254b85cd410aba272ff0",
+  "slotCount": 60,
+  "pageSize": 6,
+  "expectedPages": 10,
+  "runtimeRebuilt": false,
+  "boundImages": 0,
+  "outputs": [
+    {
+      "path": "system/sui-u/gallery.registry.json",
+      "sha256": "58180e8a09d809f91c0b28b680d9ab4b6839c4e713ee58fcbedde4f6870f726c"
+    },
+    {
+      "path": "system/sui-u/gallery-order.ray",
+      "sha256": "7a84fc4a0ec1ea32f895e9538c2655da963c3dbf39f7133a49d07a2ae27b8664"
+    }
+  ]
+}

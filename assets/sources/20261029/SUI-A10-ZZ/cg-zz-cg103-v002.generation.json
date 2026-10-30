@@ -1,0 +1,150 @@
+{
+  "id": "CG103",
+  "title": "自己把袖口捋平",
+  "package": "SUI-A10-ZZ",
+  "stem": "cg-zz-cg103-v002",
+  "version": "v002",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A08/bg-huisheng-corridor-locked-day"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg103-v001.png"
+  ],
+  "prompt": "Use case: precise story illustration edit. 把镜头移到文文斜后方，画面左侧近景只见金短寸后脑和牛仔肩背；他正面对闭店玻璃，看自己的倒影，右手把左臂皱袖口捋平。玻璃中可见同一成年文文的正面，倒影动作与真实手臂严格镜像同步。保持旧回声前台与门锁、桶旁纸袋、白昼，不出现周栀或第二真人。 保持完整横向16:9画幅、细腻半写实画风，不增加文字、边框、标题或水印。",
+  "shot": {
+    "id": "CG103",
+    "kind": "approved-addition",
+    "title": "自己把袖口捋平",
+    "originalTitle": null,
+    "originalSources": [],
+    "time": "第91天清晨，ZZ-E2",
+    "routeGroup": "ZZ",
+    "source": {
+      "path": "scenario/周栀-十一点四十七分.md",
+      "line": 1255,
+      "paragraph": "TEXT_75d2d054d2c51b1e04ac",
+      "scope": "ZZ-E2",
+      "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+      "quote": "我起身，把装纸袋的垃圾拿到桶边。回声玻璃上照出一个站着的人，头发没打理，外套袖口皱着。没有她伸手帮我压平，我便自己往下捋了一下。",
+      "conditions": [
+        "ZZ06-01=B|ZZ08-01=B"
+      ],
+      "sourceSha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "matchText": "没有她伸手帮我压平，我便自己往下捋了一下。",
+      "oldAnchorExact": false
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文",
+      "offscreenOrRemote": "周栀不在场也未通话"
+    },
+    "wardrobeAndForm": "文文B外套，皱袖口、没打理的头发",
+    "propState": "闭店回声玻璃反光、纸袋垃圾已拿到桶边",
+    "composition": "只拍文文在玻璃倒影里自行捋平袖口；不叠周栀幻影。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "zhouzhi"
+        }
+      ],
+      "requiredExpressions": [
+        "ZZ06-01=B|ZZ08-01=B"
+      ]
+    },
+    "reviewNotes": "回声仍停业；不是她回头或准备复合；镜中左右按实际倒影处理。",
+    "referenceKeys": [
+      "A07/wenwen-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_75d2d054d2c51b1e04ac_1",
+      "visiblePageIds": [
+        "TEXT_75d2d054d2c51b1e04ac_1"
+      ],
+      "exitBeforeId": "TEXT_ce94a41dbe6c5e2fa1f0_1",
+      "snapshotBefore": "第91天清晨，ZZ-E2；文文；文文B外套，皱袖口、没打理的头发；闭店回声玻璃反光、纸袋垃圾已拿到桶边",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "回声仍停业；不是她回头或准备复合；镜中左右按实际倒影处理。"
+    },
+    "production": {
+      "package": "SUI-A10-ZZ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "selectionMethod": "用户委托助手选择",
+      "approvalRecord": "qa/SUI-A09-selection-20261029/selection-decision.json",
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": "呼应CG026袖口动作，补周栀分开结局并突出文文自己生活。",
+    "previousCandidateId": "A09-C03",
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-huisheng-corridor",
+        "owner": "SUI-A08",
+        "name": "回声前台/走廊/楼梯",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-corridor-operating-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huisheng-corridor-locked-day-v001",
+            "status": "planned"
+          }
+        ]
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-huisheng-corridor",
+        "owner": "SUI-A08",
+        "name": "回声前台/走廊/楼梯",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-huisheng-corridor-operating-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-huisheng-corridor-locked-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-huisheng-corridor-locked-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A08/bg-huisheng-corridor-locked-day"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "reason": "玻璃倒影的视角和动作需成立",
+  "sourceFile": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg103-v002.png",
+  "sourceSha256": "7b1ef1d23aff7646c72bb3f9ed2359e9b42078e25ab67962a780e36b8a28ba8d",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-324152c9-613d-4a0f-97d8-9e4fcf897db3.png",
+  "tool": "built-in image_gen",
+  "supersedes": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg103-v001.png",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg103-v001.png",
+      "sha256": "beb1857b38a1cfe005a52088b571391a4a5da85d2dc5533affefa895a252fef9"
+    }
+  ],
+  "runtimeAdopted": false
+}

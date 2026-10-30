@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-30T01:46:40.332Z",
+  "tools": [
+    {
+      "path": "tools/integration/assets/freeze-v2.cjs",
+      "sha256": "4a0f36146a01098be6f0eb4e95693b6421a494bab3a75b84e174fc14530d56d4"
+    },
+    {
+      "path": "tools/integration/assets/validate-v2.cjs",
+      "sha256": "e05090256bdcc00430bb4aa150d0043f0e9517d84682501680d47c17273c500b"
+    }
+  ],
+  "checks": [
+    {
+      "name": "tools/integration/assets/freeze-v2.cjs syntax",
+      "status": "passed"
+    },
+    {
+      "name": "tools/integration/assets/validate-v2.cjs syntax",
+      "status": "passed"
+    },
+    {
+      "name": "接受完整目视审阅与当前指纹",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝未审阅状态",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝遗漏联系表",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝重复联系表",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝审阅后绑定漂移",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝联系表指纹不符",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝未消除目视阻塞项",
+      "status": "passed"
+    },
+    {
+      "name": "拒绝使用已有生产批次输出",
+      "status": "passed"
+    },
+    {
+      "name": "校验器拒绝覆盖已有QA",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "task": "SUI-I01",
+  "snapshotPath": "qa/sui-i01-20261029/snapshot.json",
+  "snapshotSha256": "2d6d88dc310b6b4b85abb915a0b1838a853b2ca1b149265b54a24e51e1f22494",
+  "inputFingerprint": "9e0c37181c81ac0435d7163c39e913c351c9e43972bb7ccd5dac71aa33437340",
+  "scope": {
+    "kind": "diagnostic",
+    "description": "用户批准的212项WebP；限定拍点绑定及批准备用；不宣称全正文连续演出；仅I02限定拍点诊断与接口适配",
+    "missing": [
+      "I02共同接口未对齐",
+      "全正文连续背景/人物演出未覆盖；中性空场仅为诊断回退默认值，不是正式演出批准"
+    ]
+  },
+  "coverageKind": "partial",
+  "counts": {
+    "assets": 212,
+    "cues": 174,
+    "reserves": 52,
+    "cg": 60,
+    "cursors": 155
+  },
+  "files": 1100
+}

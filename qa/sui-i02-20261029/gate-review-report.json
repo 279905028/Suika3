@@ -1,0 +1,29 @@
+{
+  "scope": "现行iMatchCue函数体独立JS语义探针；不是原生引擎测试",
+  "checks": [
+    {
+      "name": "共享事件当前游标但缺返回帧",
+      "matched": false,
+      "error": null,
+      "expected": "状态非法时必须sc_fail，不能仅作为cue未命中"
+    },
+    {
+      "name": "共享事件未知路线",
+      "matched": false,
+      "error": null,
+      "expected": "状态非法时必须sc_fail，不能仅作为cue未命中"
+    },
+    {
+      "name": "后日谈未知非空状态",
+      "matched": false,
+      "error": null,
+      "expected": "状态非法时必须sc_fail，不能仅作为cue未命中"
+    },
+    {
+      "name": "后日谈值存在但未分派",
+      "matched": true,
+      "error": null,
+      "expected": "状态非法时必须sc_fail，不能仅作为cue未命中"
+    }
+  ]
+}

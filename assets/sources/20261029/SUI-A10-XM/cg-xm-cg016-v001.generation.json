@@ -1,0 +1,180 @@
+{
+  "id": "CG016",
+  "title": "当众说我对象",
+  "package": "SUI-A10-XM",
+  "stem": "cg-xm-cg016-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A02/char-xiaoman-base",
+    "A08/bg-bbq-xiaoman-friends-stall-night"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-stall-night-v001.png"
+  ],
+  "prompt": "Create a non-explicit romantic visual-novel illustration of two fully clothed adults, both clearly in their twenties. In an ordinary night barbecue stall, Xiaoman, the adult short pale-blond-haired woman wearing the red stripe jacket in reference 2, takes the lapel of Wenwen's denim jacket and gives him a brief closed-mouth kiss. Wenwen is the adult short gold-haired man in reference 1. Restrained tender expression, shoulder-up side view, one hand holding his jacket, ordinary public setting with softly blurred plastic stools and a table from reference 3. Other friends remain entirely outside the frame. Preserve both supplied adult identities and clothes. Landscape 16:9, refined semi-realistic illustration, no text, no invented relationship labels, no phones, no spectators.",
+  "shot": {
+    "id": "CG016",
+    "kind": "retained-selection",
+    "title": "当众说我对象",
+    "originalTitle": "当众说我对象",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/罗小满-练习本.md",
+        "line": 265,
+        "anchor": "她抓住我的外套前襟，吻了过来。"
+      }
+    ],
+    "time": "第27天烧烤摊",
+    "routeGroup": "XM",
+    "source": {
+      "path": "scenario/罗小满-练习本.md",
+      "line": 265,
+      "paragraph": "TEXT_6f3a9c2e24bb2b0249dc",
+      "scope": "### 剧情简介",
+      "nearestNode": null,
+      "quote": "她抓住我的外套前襟，吻了过来。",
+      "conditions": [],
+      "sourceSha256": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "matchText": "她抓住我的外套前襟，吻了过来。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、罗小满",
+      "offscreenOrRemote": "阿俊及同桌朋友在场但以画外声音保留"
+    },
+    "wardrobeAndForm": "小满A日常衣装、文文B外套",
+    "propState": "塑料凳、膝边餐桌；小满抓文文外套前襟",
+    "composition": "抓衣领主动亲吻近景；两人已成年；没有举手机拍照。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "xiaoman"
+        }
+      ],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "当众说对象尚未经文文同意，不能图内写成贵阳已交往；阿俊未定脸，不凭空补出。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_6f3a9c2e24bb2b0249dc_1",
+      "visiblePageIds": [
+        "TEXT_6f3a9c2e24bb2b0249dc_1"
+      ],
+      "exitBeforeId": "TEXT_dbd1dd6c9838759b26bb_1",
+      "snapshotBefore": "第27天烧烤摊；文文、罗小满；小满A日常衣装、文文B外套；塑料凳、膝边餐桌；小满抓文文外套前襟",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "当众说对象尚未经文文同意，不能图内写成贵阳已交往；阿俊未定脸，不凭空补出。"
+    },
+    "production": {
+      "package": "SUI-A10-XM",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-bbq-xiaoman-friends",
+        "owner": "SUI-A08",
+        "name": "小满朋友圈烧烤摊/车棚",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-bbq-xiaoman-friends-stall-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-bbq-xiaoman-friends-bike-shed-night-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-bbq-xiaoman-friends",
+        "owner": "SUI-A08",
+        "name": "小满朋友圈烧烤摊/车棚",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-bbq-xiaoman-friends-stall-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-bbq-xiaoman-friends-bike-shed-night-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-bbq-xiaoman-friends-stall-night"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-bbq-xiaoman-friends-stall-night"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A02/char-xiaoman-base",
+      "A08/bg-bbq-xiaoman-friends-stall-night"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "attempt": 2,
+  "reason": "澄清普通非露骨成年人物叙事；原服务错误保留",
+  "sourceFile": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg016-v001.png",
+  "sourceSha256": "2ae73ca58a9b391457d7a9443f480ac7a1e1425df65ef49afa403a8bf5b3855f",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-7d796a3d-b985-4ec7-9647-4a6c05ee6ccd.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A02/option-a/char-xiaoman-human-base-option-a-v001.png",
+      "sha256": "38fd2d28f98b5a70f6ecc00d101897c1e539de0981d9eea9f8c8c4a8af364ca6"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-bbq-xiaoman-friends/bg-bbq-xiaoman-friends-stall-night-v001.png",
+      "sha256": "62c08f67ef5fc2364a8351dbde0335ea76d2c54afb00a12bfbc95b22554b001b"
+    }
+  ],
+  "runtimeAdopted": false
+}

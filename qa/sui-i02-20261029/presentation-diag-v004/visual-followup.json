@@ -1,0 +1,1 @@
+{"status":"failed-normal-cg-reading","finding":"后续复查04-cg.png确认CG的CHF层遮挡正文消息框；原有日志与48色探针通过不证明普通阅读界面正确。该包不得放行。","fix":"后续版本CG改为EFF3，低于msgbox/namebox/choice；全图单独覆盖最后绘制。","alsoKnown":"通用QA发现clearStageBasic移除choice图层，后续v005已修为仅清自有图层。"}

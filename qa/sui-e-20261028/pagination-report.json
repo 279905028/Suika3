@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-28",
+  "scope": "当前正文108字素分页、实际字体度量与可重建检查；不等同原生像素、真机或发布验收",
+  "checks": [
+    {
+      "name": "108字素确定性重建",
+      "status": "pass",
+      "detail": {
+        "files": 12,
+        "choices": 65,
+        "options": 134,
+        "endings": 14,
+        "pages": 3019,
+        "nodes": 3413
+      }
+    },
+    {
+      "name": "分页原文逐字还原及来源映射",
+      "status": "pass",
+      "detail": {
+        "paragraphs": 3017,
+        "pages": 3019,
+        "explicitNewlines": 0,
+        "backslashControls": 0
+      }
+    },
+    {
+      "name": "分页变化不改变选择、分支、事件及结局",
+      "status": "pass",
+      "detail": {
+        "semanticNodes": 394,
+        "choices": 65,
+        "options": 134,
+        "endings": 14
+      }
+    },
+    {
+      "name": "正文空行移动保留稳定ID",
+      "status": "pass",
+      "detail": {
+        "stableNodes": 3413
+      }
+    }
+  ],
+  "buildId": "596f0899b92924f517ee354678e8792e68870cb2b38ecf61742302252ef84103",
+  "fontMetrics": {
+    "status": "pass",
+    "method": "Pillow FreeType actual font advances; conservative per-character and punctuation wrapping; no native rendered-pixel claim",
+    "font": "system/font/NotoSansCJK-Medium.ttc",
+    "fontSha256": "197d5e1e019faca33a4d55931c7d68b8056f3b97cb862049f5cb8de9efdfb8ce",
+    "fontSize": 30,
+    "pages": 3019,
+    "distinctCharacters": 1596,
+    "maxGlyphAdvance": 30,
+    "readingWidth": 1112,
+    "conservativeColumns": 36,
+    "maxMeasuredLines": 3,
+    "maxCharacters": 108,
+    "maxLineWidth": 1112,
+    "textBottom": 642,
+    "contentBottom": 656,
+    "choiceQuestions": 65,
+    "options": 134,
+    "widestQuestion": {
+      "id": "C02-03",
+      "width": 630
+    },
+    "widestOption": {
+      "choice": "MY09-01",
+      "value": "A",
+      "width": 560
+    },
+    "largestPages": [
+      {
+        "id": "TEXT_8a73ff522c7a4d852668_1",
+        "source": {
+          "file": "第二章-十四天.md",
+          "line": 402,
+          "anchor": "### 第13—14天｜没有那间客房",
+          "sha256": "2780fb804e0f5af98a4487d4f464cdc2f3937f46608319874510b75d7a027d67"
+        },
+        "characters": 108,
+        "lines": 3,
+        "lineWidths": [
+          1110,
+          1110,
+          1020
+        ],
+        "text": "飘把包带打了个容易解开的结，放在一张空凳上，自己坐到另一边。她带了相机，先观察桌上谁在说话、谁在听，问过大家愿不愿意入镜后才拍。我先看了眼她旁边剩下的位置，才去挪自己的椅子。毛狼张口像要拿我逗一句，最后只问这张凳子是"
+      },
+      {
+        "id": "TEXT_509cd7d4331f7a2a971a_1",
+        "source": {
+          "file": "孟遥-旧题.md",
+          "line": 632,
+          "anchor": "MY08-01/COMMON",
+          "sha256": "0e242d5edeb56ef4b0d67fe00f6c54b82cfc02a255745bbaf2eab094f4a1d9e6"
+        },
+        "characters": 108,
+        "lines": 3,
+        "lineWidths": [
+          1110,
+          1110,
+          1020
+        ],
+        "text": "门关以后，杯子还多着一只，红笔落在她刚才放备课本的位置。我发消息问要不要送回，她说还有备用，下次再拿。后来几次碰面都没想起，它便一直留在抽屉里。我把杯子洗干净，放回平时的位置。昨夜确实发生过，可它没有替我换来她生活里"
+      },
+      {
+        "id": "TEXT_141262a5e4ee9a62e197_1",
+        "source": {
+          "file": "周栀-十一点四十七分.md",
+          "line": 1073,
+          "anchor": "ZZ09-01/COMMON",
+          "sha256": "e76732acb0422748d334c676f84bd23d7117b8efcf7bcaa900bf1cf7b6c9b389"
+        },
+        "characters": 107,
+        "lines": 3,
+        "lineWidths": [
+          1084,
+          1110,
+          990
+        ],
+        "text": "第80天，她忙过约好的通话时间才打来。我先说等得不舒服，她也没用宝贝两个字把它盖过去，先讲哪一笔账出了问题，又承认自己明知道要晚还总想着忙完就回。我们说到一半各自要忙，挂之前重新约了时间。这一回，第二天她按时打来。"
+      },
+      {
+        "id": "TEXT_6360820614b287067765_1",
+        "source": {
+          "file": "后日谈-未写完的安排.md",
+          "line": 18,
+          "anchor": "EP-LOW",
+          "sha256": "954851d0621ff7c9a5f2a29851e6c960d281e76cffffd971bdcfb3aea3e7f747"
+        },
+        "characters": 106,
+        "lines": 3,
+        "lineWidths": [
+          1110,
+          1110,
+          960
+        ],
+        "text": "后来我碰到他们，飘正把一条布袋带子系在包上。她说课程还在学，下次要拍室内人物；小册子的几页也在改，还没决定什么时候印。毛狼从手机里翻出自己的日程，两人对了一次下次检查的时间。那天他能调开，飘说好，再把地点发给他。"
+      },
+      {
+        "id": "TEXT_9204eb5a8739ab9c6e58_1",
+        "source": {
+          "file": "飘-空白页.md",
+          "line": 1196,
+          "anchor": "**剧情简介**：飘与毛狼自然增加单独见面；文文不替她决定。",
+          "sha256": "81c777d748fca76fd4edf66b7a5b3b9cf291dc29c77ea103a3fad3603ebd9a91"
+        },
+        "characters": 104,
+        "lines": 3,
+        "lineWidths": [
+          1110,
+          1080,
+          930
+        ],
+        "text": "过了两天，毛狼说下场演出可能取消，订好的时间恐怕要改。飘没有替他决定，说等他核实以后再约。演出最后确实取消，两人还是去吃了饭。她回家时给我发来新照片，问我看不看得出她把亮度压低了。我看了半天，回了一个看得出。"
+      },
+      {
+        "id": "TEXT_edfe67a2eb4a35bc735a_1",
+        "source": {
+          "file": "孟遥-旧题.md",
+          "line": 491,
+          "anchor": "### 剧情简介",
+          "sha256": "6cb507bb9bd7cfaa137a0a84f96819ab45971a5fd9ba778c414614bb9bb13949"
+        },
+        "characters": 102,
+        "lines": 3,
+        "lineWidths": [
+          1110,
+          1110,
+          840
+        ],
+        "text": "我打开手机，把工资、房租和几笔支出列出来。两千收入，房租五百，信用卡最低六百，手机和吃饭再去一些，约剩三百；房屋余账另列，没算清的地方仍是问号。我说跨城见面得另攒钱，不能每次都从下一顿、下个月的房租里抽。"
+      }
+    ]
+  },
+  "sourceHashes": {
+    "scenario/routes.json": "21ee8f439e511b86f6c56174a86c68ee292abb076abbd777ab672e19cf235d32",
+    "scenario/第一章-回到毕节.md": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919",
+    "scenario/第二章-十四天.md": "46f861f825bce7e38133a25ad4edcc5f9599f0a09e2c01537d97e7e817a0c140",
+    "scenario/第三章-选一条路.md": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8",
+    "scenario/罗小满-练习本.md": "0fbf9568616ba5e019170ea6dfa91f263bb2820e431d74407e691fb64a065c22",
+    "scenario/周栀-十一点四十七分.md": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+    "scenario/孟遥-旧题.md": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+    "scenario/飘-空白页.md": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+    "scenario/黄球球-门后.md": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+    "scenario/朋友与职业-夜班.md": "5d69ae82e4aed8c4b7291be5cfaa4fd507c58b8437154785641e9867fbdad2ab",
+    "scenario/跨路线-第36天的消息.md": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+    "scenario/后日谈-他们的日子.md": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+    "scenario/后日谈-未写完的安排.md": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+  },
+  "outputHashes": {
+    "story.novel": "c05df665fa75166dcce38a156f8a228b6f3f6c10395f6c71616559846e506e2c",
+    "story.ray": "aa3244c659a44d373ceac3d657cfa11ea50170b91f32ec37a89cac87d20dcaca",
+    "source-map.json": "319c323ee11eb301f0b8df2020538676aa6914b4f99a37c48220e85011441e3f",
+    "story.ir.json": "7e072f75d13623e349b6cc0181793033d21eb6d808a5dac2684ca3323da19035",
+    "manifest.json": "e2aa01a1745dda892b6b8e9179622f240020e7530b72d9901d9b26190c6d6bf0"
+  },
+  "status": "pass"
+}

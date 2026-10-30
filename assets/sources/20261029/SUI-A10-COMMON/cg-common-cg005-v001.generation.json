@@ -1,0 +1,173 @@
+{
+  "id": "CG005",
+  "title": "便利店里的前任",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg005-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A04/char-mengyao-human-base-neutral",
+    "A08/bg-convenience-bijie-day",
+    "PRE/prop-shared-handheld-food-boxes-reference-v001"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-convenience-bijie/bg-convenience-bijie-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：成年23岁孟遥A，栗发低马尾、米白外衫、炭灰内搭\n图3：A08/bg-convenience-bijie-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图4：按镜头单取瓶水、装奶布袋、烧饼纸袋、箱子、两份早餐或消费单纸背；不整板入画、不补品牌、日期与金额。\n核心画面：便利店出口中近景，孟遥抬起一侧门帘等文文，另一手拿装牛奶的布袋，温和但没有亲密触碰。文文第一人称手拿自己付过款的水瓶；陈晟完全不入画，没有婚戒特写或来电。\n衣装/形态硬约束：孟遥A日常教学外形，文文B衣袖\n当拍道具：文文已自付的水瓶、孟遥装牛奶的布袋、挡门布帘\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG005",
+    "kind": "retained-selection",
+    "title": "便利店里的前任",
+    "originalTitle": "便利店里的前任",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/第一章-回到毕节.md",
+        "line": 317,
+        "anchor": "孟遥在出口等，没替我付那瓶水。"
+      }
+    ],
+    "time": "共通第3—4天段，便利店出口",
+    "routeGroup": "COMMON",
+    "source": {
+      "path": "scenario/第一章-回到毕节.md",
+      "line": 317,
+      "paragraph": "TEXT_a07381924dc58f65c10e",
+      "scope": "C01-03/COMMON",
+      "nearestNode": null,
+      "quote": "孟遥在出口等，没替我付那瓶水。我付好过去，她把挡门的布帘抬起来一点。",
+      "conditions": [],
+      "sourceSha256": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "matchText": "孟遥在出口等，没替我付那瓶水。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、孟遥",
+      "offscreenOrRemote": "收银员可画外；陈晟不出镜"
+    },
+    "wardrobeAndForm": "孟遥A日常教学外形，文文B衣袖",
+    "propState": "文文已自付的水瓶、孟遥装牛奶的布袋、挡门布帘",
+    "composition": "孟遥抬起布帘等文文；不画替他付款，不加丈夫来电或婚姻符号。",
+    "conditions": {
+      "entryGates": [],
+      "requiredExpressions": []
+    },
+    "reviewNotes": "共通不提前揭露婚姻；这次等候不是正式复合。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A04/char-mengyao-human-base-neutral"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_a07381924dc58f65c10e_1",
+      "visiblePageIds": [
+        "TEXT_a07381924dc58f65c10e_1"
+      ],
+      "exitBeforeId": "TEXT_1b64571271da82fdec24_1",
+      "snapshotBefore": "共通第3—4天段，便利店出口；文文、孟遥；孟遥A日常教学外形，文文B衣袖；文文已自付的水瓶、孟遥装牛奶的布袋、挡门布帘",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "共通不提前揭露婚姻；这次等候不是正式复合。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-convenience-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节便利店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-convenience-bijie-day-v001",
+            "status": "generated-awaiting-qa"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-convenience-bijie",
+        "owner": "SUI-A08",
+        "name": "毕节便利店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-convenience-bijie-day-v001",
+            "status": "generated-awaiting-qa"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-convenience-bijie-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-convenience-bijie-day",
+          "PRE/prop-shared-handheld-food-boxes-reference-v001"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A04/char-mengyao-human-base-neutral",
+      "A08/bg-convenience-bijie-day",
+      "PRE/prop-shared-handheld-food-boxes-reference-v001"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg005-v001.png",
+  "sourceSha256": "0c55dae33fa7effa70316f703d1db9d135a9cd6d367e25a47a0160be7882fe0d",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-0dd01529-c188-4582-8366-8ae8305afd8e.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A04/selected-a/char-mengyao-human-base-neutral-v001.png",
+      "sha256": "2d36c1d622e1e9637bb90b22fcd31d58a1462194745410463f446fc515777a22"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-convenience-bijie/bg-convenience-bijie-day-v001.png",
+      "sha256": "bc619d65ba746a60ae58062c1d1137d147a054984f5e2ee23365938f0418c980"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A08/prop-shared-handheld-food-boxes-reference-v001.png",
+      "sha256": "fe005261bc1755bfb928461c53e8c1a673c1a11edaf3ffd977c2b887c12e3a30"
+    }
+  ],
+  "runtimeAdopted": false
+}

@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "位图真实格式、尺寸、SHA-256及PNG/无损WebP逐像素相等",
+      "pass": true,
+      "details": 103
+    },
+    {
+      "name": "GUI唯一ID、依赖文件与画布边界",
+      "pass": true,
+      "details": {
+        "files": 7,
+        "interactiveItems": 33
+      }
+    },
+    {
+      "name": "正文三行容量、六选项边界及相邻触区无重叠",
+      "pass": true,
+      "details": {
+        "bodyFont": 30,
+        "bodyLine": 44,
+        "bodyLines": 3,
+        "choiceFont": 28,
+        "choiceButton": [
+          1040,
+          88
+        ]
+      }
+    },
+    {
+      "name": "图鉴52项与当前选择一致、8项取消镜头排除、没有自动采用图片",
+      "pass": true,
+      "details": 52
+    },
+    {
+      "name": "128个AB选项与6个路线名称宽度检查",
+      "pass": true,
+      "details": {
+        "count": 134,
+        "longestPx": 560.0,
+        "note": "正式编译后的最终选项仍由C/Q复验"
+      }
+    },
+    {
+      "name": "191个根入口、原system、正文、资料和SDK关键输入保持原指纹",
+      "pass": true,
+      "details": 191
+    },
+    {
+      "name": "本批构建输入与四个网页输出指纹一致",
+      "pass": true,
+      "details": {
+        "inputs": 139,
+        "outputs": 4
+      }
+    }
+  ],
+  "passed": true
+}

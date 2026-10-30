@@ -1,0 +1,56 @@
+# SUI-U · generated from source/build.py
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: no;
+    rightcancel: no;
+}
+
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: system/sui-u/png/title.png;
+}
+START {
+    id: 1;
+    type: goto;
+    x: 88;
+    y: 354;
+    image-idle: system/sui-u/png/start-idle.png;
+    image-hover: system/sui-u/png/start-hover.png;
+    image-press: system/sui-u/png/start-press.png;
+    label: sui_start;
+}
+CONTINUE {
+    id: 2;
+    type: gui;
+    x: 88;
+    y: 434;
+    image-idle: system/sui-u/png/continue-idle.png;
+    image-hover: system/sui-u/png/continue-hover.png;
+    image-press: system/sui-u/png/continue-press.png;
+    file: system/sui-u/gui/load.gui;
+}
+SETTINGS {
+    id: 3;
+    type: gui;
+    x: 88;
+    y: 514;
+    image-idle: system/sui-u/png/settings-idle.png;
+    image-hover: system/sui-u/png/settings-hover.png;
+    image-press: system/sui-u/png/settings-press.png;
+    file: system/sui-u/gui/config.gui;
+}
+GALLERY {
+    id: 4;
+    type: goto;
+    x: 248;
+    y: 514;
+    image-idle: system/sui-u/png/gallery-idle.png;
+    image-hover: system/sui-u/png/gallery-hover.png;
+    image-press: system/sui-u/png/gallery-press.png;
+    label: sui_gallery;
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "独立API探针，非正式运行包验收",
+  "events": [
+    "AUDIT|save99=1",
+    "AUDIT|has99=1",
+    "AUDIT|file=start.novel|line=2",
+    "AUDIT|historyBeforeLoad=2",
+    "AUDIT|load99=1",
+    "AUDIT|loaded=原始快照|global=保存之后|newExists=1|after=1|tagBefore=1|tag=1|name=choose",
+    "AUDIT|historyAfterLoad=0|latest=",
+    "AUDIT|save100=1",
+    "AUDIT|has100=1",
+    "AUDIT|frame=1|before=0|tag=1|repeat=0",
+    "AUDIT|frame=1|after=0|tag=1|repeat=1",
+    "AUDIT|frame=2|before=0|tag=1|repeat=1",
+    "AUDIT|frame=2|after=0|tag=1|repeat=1",
+    "AUDIT|frame=3|before=0|tag=1|repeat=1",
+    "AUDIT|frame=3|after=0|tag=1|repeat=1",
+    "AUDIT|DONE"
+  ],
+  "errors": [],
+  "files": []
+}

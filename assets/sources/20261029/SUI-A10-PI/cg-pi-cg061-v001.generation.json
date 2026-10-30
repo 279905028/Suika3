@@ -1,0 +1,238 @@
+{
+  "id": "CG061",
+  "title": "按下快门之前",
+  "package": "SUI-A10-PI",
+  "stem": "cg-pi-cg061-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A05/piao-base",
+    "A05/piao-prop-camera",
+    "A03/base",
+    "A08/bg-friends-meal-shop-evening",
+    "A07/maolang-stage"
+  ],
+  "refs": [
+    "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+    "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+    "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-evening-v001.png",
+    "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-stage-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：飘B成年女性，黑低马尾、黑滚边白短袖、红细绳、浅酒窝\n图2：同一无品牌黑相机，严格按本镜拍摄阶段\n图3：周栀B，长深棕发、青衬衫、黑裤，私人版\n图4：A08/bg-friends-meal-shop-evening，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n图5：毛狼同一人，深色西装白衬衫，仅CG061衣装\n核心画面：演出后小店中景，飘白滚边衬衫举相机但手指尚未按快门，先询问；毛狼穿已确认深色演出西装白衬衫，挡脸手刚放下，神情允许但不摆拍；周栀青衬衫在侧，文文仅前景牛仔袖。相机不对着仍挡脸时偷拍，不出现照片成片。\n衣装/形态硬约束：毛狼沿A07演出西装（用户确认）；飘B、周栀B；不新增换衣剧情。\n当拍道具：飘相机；毛狼先挡脸、放下后才拍\n逐镜参考用法：采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。；CG061/CG098为征询许可、按快门之前，画内没有已拍照片；CG068是重对焦时的手与相机，不必出现第一次糊片屏幕。；固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。；用户已确认沿用演出西装；相机此拍尚未按下快门。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。",
+  "shot": {
+    "id": "CG061",
+    "kind": "retained-selection",
+    "title": "按下快门之前",
+    "originalTitle": "按下快门之前",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/飘-空白页.md",
+        "line": 1176,
+        "anchor": "她举起相机前先问：“我练拍几张，可以吗？不想入镜就跟我说。”"
+      }
+    ],
+    "time": "LOW第18天，演出后小店",
+    "routeGroup": "PI",
+    "source": {
+      "path": "scenario/飘-空白页.md",
+      "line": 1178,
+      "paragraph": "TEXT_cae3a9fccf2afba7965a",
+      "scope": "**剧情简介**：聚会里，飘观察朋友们，练习拍照；文文和她没有把见面说成约会。",
+      "nearestNode": "<!-- NODE PI-LOW-START -->",
+      "quote": "她举起相机前先问：“我练拍几张，可以吗？不想入镜就跟我说。”我点头，毛狼说拍可以，丑的别发。他故意抬手挡脸，她等他把手放下才拍。",
+      "conditions": [
+        "PIAO_RELATION=LOW"
+      ],
+      "sourceSha256": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "matchText": "她举起相机前先问：“我练拍几张，可以吗？不想入镜就跟我说。”",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "飘、文文、毛狼、周栀",
+      "offscreenOrRemote": "其他朋友仅匿名画外"
+    },
+    "wardrobeAndForm": "毛狼沿A07演出西装（用户确认）；飘B、周栀B；不新增换衣剧情。",
+    "propState": "飘相机；毛狼先挡脸、放下后才拍",
+    "composition": "取按快门前征询许可的瞬间；相机未拍，不在挡脸时偷拍。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "piao"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=LOW"
+      ]
+    },
+    "reviewNotes": "照片成片另依赖人物/席位，A05本批未交付；不能把HIGH毛狼退让场景混入。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A05/piao-prop-camera",
+      "A07/maolang-base",
+      "A03/base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_cae3a9fccf2afba7965a_1",
+      "visiblePageIds": [
+        "TEXT_cae3a9fccf2afba7965a_1"
+      ],
+      "exitBeforeId": "TEXT_faf9c8385aa8351b1d4d_1",
+      "snapshotBefore": "LOW第18天，演出后小店；飘、文文、毛狼、周栀；毛狼沿A07演出西装（用户确认）；飘B、周栀B；不新增换衣剧情。；飘相机；毛狼先挡脸、放下后才拍",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "照片成片另依赖人物/席位，A05本批未交付；不能把HIGH毛狼退让场景混入。"
+    },
+    "production": {
+      "package": "SUI-A10-PI",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-piao-photos",
+        "owner": "SUI-A05",
+        "name": "桌角/群照/雨后老街照片",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "pose-maolang-aftershow",
+        "owner": "SUI-A07",
+        "name": "第18天演出后聚餐衣装",
+        "reason": "正文未说明散场后是否换衣；毛狼演出西装与日常花T均有版本，须在本镜草图中核定，不把衣装选择写成剧情新事实。",
+        "status": "待补当拍参考；非已放行资源"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-evening"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-piao-photos",
+        "owner": "SUI-A05",
+        "name": "桌角/群照/雨后老街照片",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A05/piao-prop-camera"
+        ],
+        "frameUse": "CG061/CG098为征询许可、按快门之前，画内没有已拍照片；CG068是重对焦时的手与相机，不必出现第一次糊片屏幕。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-evening"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      },
+      {
+        "requirementId": "pose-maolang-aftershow",
+        "owner": "SUI-A07",
+        "name": "第18天演出后聚餐衣装",
+        "reason": "正文未说明散场后是否换衣；毛狼演出西装与日常花T均有版本，须在本镜草图中核定，不把衣装选择写成剧情新事实。",
+        "status": "resolved-reference-frozen",
+        "referenceKeys": [
+          "A07/maolang-stage"
+        ],
+        "frameUse": "用户已确认沿用演出西装；相机此拍尚未按下快门。"
+      }
+    ],
+    "internalWorkItems": [],
+    "previousWardrobeAndForm": "飘B；毛狼演出后衣装待A07确定是否换回日常，不径用舞台西装；周栀B",
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A05/piao-prop-camera",
+      "A07/maolang-base",
+      "A03/base",
+      "A08/bg-friends-meal-shop-evening",
+      "A07/maolang-stage"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg061-v001.png",
+  "sourceSha256": "8f264c54d83fd6b446cc45fc4944b55ed0f5b9b0fb9ffb8b0f26ae445690fc45",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-effeab22-7ae3-4fcb-bdee-c50aeb0a6393.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+      "sha256": "3ef42bec24964195c3c70e4b21f8fca7655a958d07823882d9a7d7f11266bc9d"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+      "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-evening-v001.png",
+      "sha256": "e178a30bbebd494dcd262794281aaee8725b32debe0a3e90052949b2ada24074"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/variants/char-maolang-stage-v001.png",
+      "sha256": "849924037e6038b945c8a3159be66b7e094510f6b8f3c88e5d075dfedde8aee3"
+    }
+  ],
+  "runtimeAdopted": false
+}

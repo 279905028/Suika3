@@ -1,0 +1,5406 @@
+{
+  "scope": "仅根示例及SDK；不含其他任务QA复制件",
+  "totals": {
+    "SDK": {
+      "files": 730,
+      "bytes": 348210683,
+      "extensions": {
+        "": 13,
+        ".md": 2,
+        ".gradle": 3,
+        ".aar": 1,
+        ".xml": 2,
+        ".ini": 3,
+        ".png": 376,
+        ".ray": 6,
+        ".ogg": 27,
+        ".novel": 3,
+        ".anime": 84,
+        ".gui": 18,
+        ".ttc": 3,
+        ".txt": 6,
+        ".c": 4,
+        ".bat": 2,
+        ".sh": 4,
+        ".jar": 1,
+        ".properties": 3,
+        ".html": 25,
+        ".js": 35,
+        ".map": 4,
+        ".css": 2,
+        ".json": 16,
+        ".gz": 1,
+        ".plist": 4,
+        ".entitlements": 2,
+        ".storyboard": 1,
+        ".h": 14,
+        ".a": 10,
+        ".pbxproj": 2,
+        ".arc": 3,
+        ".flatpak": 2,
+        ".dmg": 1,
+        ".xcworkspacedata": 1,
+        ".1": 1,
+        ".exe": 8,
+        ".json5": 14,
+        ".ts": 4,
+        ".cmake": 1,
+        ".cpp": 1,
+        ".ets": 8,
+        ".unity": 1,
+        ".lib": 1,
+        ".dll": 1,
+        ".shader": 5,
+        ".cs": 1
+      }
+    },
+    "images": {
+      "files": 22,
+      "bytes": 2431799,
+      "extensions": {
+        "": 2,
+        ".png": 20
+      }
+    },
+    "system": {
+      "files": 143,
+      "bytes": 19849578,
+      "extensions": {
+        "": 2,
+        ".ogg": 1,
+        ".anime": 28,
+        ".png": 103,
+        ".gui": 6,
+        ".ttc": 1,
+        ".txt": 1,
+        ".ray": 1
+      }
+    },
+    "sound": {
+      "files": 9,
+      "bytes": 2279052,
+      "extensions": {
+        "": 1,
+        ".ogg": 8
+      }
+    },
+    "suika-beat": {
+      "files": 40,
+      "bytes": 20037128,
+      "extensions": {
+        ".md": 1,
+        ".txt": 2,
+        ".ttf": 1,
+        ".ttc": 1,
+        ".png": 31,
+        ".ogg": 1,
+        ".noct": 2,
+        ".ray": 1
+      }
+    }
+  },
+  "images": [
+    {
+      "path": "SDK/android/app/src/main/assets/images/bg/black.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 2759,
+      "sha256": "b904f7b454f83c1a1304031467b1d12a62aa859ccc811d1a84b1c261efa59985",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/bg/school.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "P",
+      "bytes": 133838,
+      "sha256": "04e15c239ffbcfd43a883f36c5745a5646d96dc6cbfc2f17efabdae4d9e60c97",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/bg/white.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 3757,
+      "sha256": "cb7deaecc8dc88f3b2a61ff83f33edf8983b6198bb218bdce3cfa7426d92b441",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/aki/aki-normal.png",
+      "format": "PNG",
+      "width": 464,
+      "height": 719,
+      "mode": "RGBA",
+      "bytes": 258923,
+      "sha256": "c532761ee831291b167f52eb9391965b3a98d9b4e03dd42a3aa01c3f99a797b0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/midori/eye/midori-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 48920,
+      "sha256": "49e828cae39df46f771f80a9cee7a93ac86f53d09bc469cc7f2b48cc327b51f1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/midori/eye/midori-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 59504,
+      "sha256": "f4cda146acf9299a4a23d518af37579c0abd97f040281d9f7bc0477e50c50477",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/midori/lip/midori-happy.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 67789,
+      "sha256": "f268fc4f6de6c6f3b571019d018f0ab7e325c2d293a0335ed7b92d27df8a03bc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/midori/lip/midori-normal.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 66642,
+      "sha256": "c83331b11a099b3f43c64fcf1289ba49e27ab6b2cc7f3f8eb3ea445861af96cb",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/midori/lip/midori-smile.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 57060,
+      "sha256": "68eafa4c58ad982b0e0b5a4e5d45cc9463a47a972fea918d039866d78e4a14c4",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/midori/midori-happy.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254845,
+      "sha256": "bf85789466b26509580f3f64a3e8a667b05e1fa3d9628c72767c56002827f2ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/midori/midori-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254456,
+      "sha256": "eeded572c7c12630455ae7d1ddb04b2bfcb8c5e953d3ecc7e4883e182c6f08a6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/midori/midori-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254535,
+      "sha256": "08880dae953d6b516f7f5994be134190524e53163dfe90f5219057f77c69ce80",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/eye/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 45866,
+      "sha256": "81a280425365dd7acb890c16261f24a5520632ba8d396ffc99fd015284130369",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/eye/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 43503,
+      "sha256": "fd2850b8a9b734c4ed84532fece1f23ba7f94d866eb2a5da8db4317caa30eeef",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/lip/xiaoling-happy.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 65158,
+      "sha256": "5f51124991b937e1c8b48edb5d6f8ff540863d963806eb17e86e11b766390ba6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/lip/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 57541,
+      "sha256": "ba87ed63e102c6f9916d2194991e7884e23258215f57e35341b8dfb7f9a9bae0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/lip/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 62499,
+      "sha256": "d1766390c5bdaa1695015f87d550967ef1c6fc6db7acef2cb24ca169baf65842",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/xiaoling-happy.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 228450,
+      "sha256": "b0b193bffce952367daf205291eb0494dd7782d2539e7bab6f7879c3d97cd9ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 226475,
+      "sha256": "0be5c8ab38d9ab64dd2bf8fc1ec3df85dcc7d86b528a9dee2ba2e983a46cf3dd",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/images/ch/xiaoling/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 226983,
+      "sha256": "601272dbc836fe72387bc2ccafef3c74599e418c36d30094e04480b27a4f19f8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/choose/hover.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 6812,
+      "sha256": "2dc3d2d77e158a7158344ef09d86647098fabc1edb6f980721b7d5f9310b0579",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/choose/idle.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 6811,
+      "sha256": "9f751c81d7a84d5021b8b8d095cd3b265ef23a06b414b21df6de44b62f10a691",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/choose/nvl.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 1385,
+      "sha256": "0ee6f26b1537f12ff92eeacec650eaacf7347ea9715f7470a5a212b37a2242dc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-bar-hover.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 36,
+      "mode": "P",
+      "bytes": 176,
+      "sha256": "39d1c1befcb8b2a248b350a5c44dbd969c64cda4cd1269d0c384303495856107",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-bar-idle.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 36,
+      "mode": "RGB",
+      "bytes": 257,
+      "sha256": "a5fb0b2ef12b8a18822653b8a6979a405e148999181888c6c72dffb20cebec39",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-bar-knob.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "P",
+      "bytes": 253,
+      "sha256": "2f60ff31a228a76be4f0db02ba0ee977242cdcdad62e0642b9873bc5175e478b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 225686,
+      "sha256": "a89ff94a6f73235f0743508c4631cba2789c3790d213cedc0d0020a88d623503",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-en-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 421,
+      "sha256": "27d2de692139415a2c26801c1310c0bff9b74e9f73bb10da65e517e9dd8d795b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-en-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 424,
+      "sha256": "e018b8efebf9cd659b28a867dd6cf074d75a27d46ac68d33fb1ac7c8feb2edbc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-en-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 539,
+      "sha256": "39e0e89e2020427254b91307b8aaa20a5ab2ed3af6e16e838ad3cd455b4ef2ab",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-jp-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 486,
+      "sha256": "51ae248f296ca7c766602d074807cbc99ada33530f003fa4ffba2c0db1439014",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-jp-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 489,
+      "sha256": "94feeb39ca37e2c320b81cc440e6399cded1b99e3458896023d77eeb93cea025",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-jp-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 653,
+      "sha256": "d0bdd01302b37f649d4dc29598731f81f3b8555cbd68d5344a46405915b9b1a5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-zh-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 451,
+      "sha256": "bba2cf205a120cbd7c48033a5d3702f03c4c754618484bca3f608b639155d9c1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-zh-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 451,
+      "sha256": "479c53cf0fe7df3cfa3311013a174ef796fca7331aea7dcc7ee62fb5785c65ed",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-lang-zh-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 5525,
+      "sha256": "ac27401cf434d1eae21850a5e65b5ddd08ddf4566af5d1ed7eb0dd208a6b8563",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/config-preview.png",
+      "format": "PNG",
+      "width": 520,
+      "height": 210,
+      "mode": "RGBA",
+      "bytes": 2789,
+      "sha256": "44b6f404ed90f368b44bb7f4e0e8a43c3f4fb043e55c5adcf60653cd5638d311",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/reset-hover.png",
+      "format": "PNG",
+      "width": 326,
+      "height": 73,
+      "mode": "RGBA",
+      "bytes": 10210,
+      "sha256": "b7a5b3d656b2d5c182b12e03aa1845aad8bb129a2e8f427f1a53fbd6c3d1f8d8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/config/reset-idle.png",
+      "format": "PNG",
+      "width": 324,
+      "height": 72,
+      "mode": "RGBA",
+      "bytes": 9574,
+      "sha256": "dfe432e066aa824f0167cc341b0855ea97302d4f94f563f08f0b16f6714c6820",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/effect/rain/1.png",
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "mode": "P",
+      "bytes": 46842,
+      "sha256": "dc979a979ca343ad7c90c369573c3ce0c37bf96e50936a0de9e9008950eab089",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/emoji/heart.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "bytes": 4734,
+      "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/emoji/sweat.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "bytes": 3032,
+      "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/history/history-bar-hover.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 640,
+      "mode": "P",
+      "bytes": 306,
+      "sha256": "332accb0795144d4507ce2df66ed87e0a12328c4dbde061e8db2ae2ec0e1c548",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/history/history-bar-idle.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 864,
+      "sha256": "4dfd90348d66c5f5f2900b1e712cda2d2fb0f66df4393745829ab07c41494a67",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/history/history-bar-knob.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 60,
+      "mode": "RGBA",
+      "bytes": 288,
+      "sha256": "c9dba440e39080ac63f81e8d17adb82911b9e37aa335a0b0a5f1519e411baeb1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/history/history-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 191580,
+      "sha256": "c61876ed73190544ca27d654c2a18b8ec604094e2fd940e7b2d1c6ac7d491f57",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/history/history-item-hover.png",
+      "format": "PNG",
+      "width": 1100,
+      "height": 200,
+      "mode": "RGBA",
+      "bytes": 10082,
+      "sha256": "f0eba004bf9c2198f736611d9af98090dc2163d040d03608667c445b30e3ea35",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/history/history-item-idle.png",
+      "format": "PNG",
+      "width": 1100,
+      "height": 200,
+      "mode": "RGBA",
+      "bytes": 9912,
+      "sha256": "ac6e36650ea279c8c5a4d1657258559bf6e632e8e71724fa64632c7fbc73736b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 31280,
+      "sha256": "c8c13ee8a2d0858ee14c3a9d5bf32d111d27d83327baa455db0c33f613a0c7ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-item-hover.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 23284,
+      "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-item-idle.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 26739,
+      "sha256": "5a1a47debacda82ec3fde46ed0d6fa91a1e90a212364b68e102cde872b5d6f8c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-item-press.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 13876,
+      "sha256": "9df7a4da62ffe87946f2ca3d6a31e77c9ac9fb4ab059d968242ba1ecdd48dce6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-1-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-1-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-1-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-2-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-2-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-2-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-3-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-3-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-3-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-4-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-4-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-4-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-5-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-5-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/load/load-page-5-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/message/auto.png",
+      "format": "PNG",
+      "width": 113,
+      "height": 44,
+      "mode": "RGBA",
+      "bytes": 6189,
+      "sha256": "c823a7fa74494a9819c4f240acecd98d26cbab600b3497aa0ed3118dea29111b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/message/click1.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 48,
+      "mode": "RGBA",
+      "bytes": 4052,
+      "sha256": "43ce9a3731838f3481e530fe125773b7f5c8db43fb9184580181b9984d7c30b8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/message/click2.png",
+      "format": "PNG",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "bytes": 124,
+      "sha256": "c7504eeb994eb453cf0ba3e846771eb820e499f5d84900a6fa8a5d98a379c160",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/message/msgbox-nvl.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 8419,
+      "sha256": "c39b6b56babac1c36e2c87278b9aa9a1e0dc3f5ad0797e9f27c1398d90e38e08",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/message/msgbox.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 182,
+      "mode": "RGBA",
+      "bytes": 6247,
+      "sha256": "a47ed1a581de0451e632df10a3d4c3a85efa8e7dbcaf6eb2a5f86cc968023b90",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/message/namebox.png",
+      "format": "PNG",
+      "width": 380,
+      "height": 60,
+      "mode": "RGBA",
+      "bytes": 5463,
+      "sha256": "2e6bfba7f163983a59557e8a9797232a8dc01fd56344c9b9a615f5f12e4adea5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/message/skip.png",
+      "format": "PNG",
+      "width": 113,
+      "height": 44,
+      "mode": "RGBA",
+      "bytes": 6191,
+      "sha256": "57a1bb95102844dc7cfa9bd49b14c4e3b206640a0d5a83806929643255907407",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 92708,
+      "sha256": "38ff4c09a925b65fa2ad22f9a0869385fff1effd4aea1681deb73ad5d51036ea",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-item-hover.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 23284,
+      "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-item-idle.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 26739,
+      "sha256": "b516a11e0005eb2eefd14b4d0187318d21baeeb79199091dd5addbab2c5af75c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-item-press.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 13876,
+      "sha256": "54b0253f5f7066e01b9fbf483d5b1969a52b708e594d79218a66e99be6b6117b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-1-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-1-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-1-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-1.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-2-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-2-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-2-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-2.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-3-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-3-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-3-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-3.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-4-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-4-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-4-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-4.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-5-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-5-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-5-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/save/save-page-5.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysbtn/sysbtn-hover.png",
+      "format": "PNG",
+      "width": 67,
+      "height": 53,
+      "mode": "RGBA",
+      "bytes": 1256,
+      "sha256": "073581e04dd51ef70f888442797c4b801cfb1bbf149d296658f124aee0da75df",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysbtn/sysbtn-idle.png",
+      "format": "PNG",
+      "width": 67,
+      "height": 53,
+      "mode": "RGBA",
+      "bytes": 1190,
+      "sha256": "bd320d405c5c39223f3336e1a90b7cd1ef3b837878d6bc4ca1236c1d158deedd",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/auto-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2917,
+      "sha256": "ff08e252b6d131ed9804c01fabd52363f2b0f43c3d8111127d2e50d099024426",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/auto-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3550,
+      "sha256": "a9654c7977cefb55a4267f24eb6daf19ef52a40bcdf17d00d51d140f26ec17ee",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/auto-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2984,
+      "sha256": "fd29934a90e73b8b8803edd3247d85f3d54bac398926273c0fb631fa426098aa",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/base.png",
+      "format": "PNG",
+      "width": 542,
+      "height": 110,
+      "mode": "RGBA",
+      "bytes": 27268,
+      "sha256": "303a656348b0dc99e6f8e649671644db321808f00d12e8740c1797f6f78f208e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/config-hover.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 4373,
+      "sha256": "530b056e24d293e03823ec94715c9d22b939b143ac4df89e25516687b5bbc099",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/config-idle.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 5189,
+      "sha256": "2f932213ef31839f3fcd032e4f2b373ea04e68733fe76d8c8901afcba0fbbeb2",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/config-press.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 4245,
+      "sha256": "b891bba3c88795ad99234a827f6c7047f40d6272624565be06154517bd0f86e7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/load-hover.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2861,
+      "sha256": "cbe30aee878d360eb58ed1279388ce2ad7119d01263682f294f5bb22eb1d107e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/load-idle.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3322,
+      "sha256": "ddee9dda5c2ab3a6948db7d0ef15950eae0db9027c118c604af57e72a886c7f6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/load-press.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2869,
+      "sha256": "625a3ea9668183cefe1403cb558d22beb57bf7b035640213a9c003bee7c329b7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/log-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3408,
+      "sha256": "2ff1f11693d1948485b98584ab61e0eb4ceaa1d757581b5e87864434a027082a",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/log-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 4025,
+      "sha256": "060f3b7524d4c5441f0ff1b4f0474753bfa6c65d9a45dfce4a455032d89a1918",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/log-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3370,
+      "sha256": "7b0cbc668a27a25f34e6ed74cd9a9a1731ae5f7acab6e92b6ca2ec7ad84051d0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/save-hover.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3193,
+      "sha256": "c7cba12897265da73e740e828a62c08d59d4449dd7ffa978ec6b402c2a684719",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/save-idle.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3652,
+      "sha256": "04851a0d5470d20663601d1c61efe28e5f4f7e8ba9d19f1b333ff81823e7090d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/save-press.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3029,
+      "sha256": "3f74d0ab6f83b639881e44c33d2ec57254222a66bd050db04745d8b88bb6de17",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/skip-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3218,
+      "sha256": "6fb72c303ee8b38d6d76506f7e7cd7e096d52ac7fc1bc6a46ce81fe734a1b806",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/skip-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3721,
+      "sha256": "1aa5189407f4226dfebf5fd357118c16548a6f98875d9d663925828b1cadcd9f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/sysmenu/skip-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3089,
+      "sha256": "8afa466c4ab757defd7d63a998ea966a109734b7d5e8f721ba949def60ffca70",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/title/base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 290715,
+      "sha256": "1f827ed117e8857d73b131cae054a93e6a3843960b221d777ad89ec1bf167cb0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/title/start-hover.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 20564,
+      "sha256": "122cb56a0f364ffb40426cf711684ec646e3085189d1430e965a470b640b3ce7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/title/start-idle.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 20548,
+      "sha256": "b1c16fd24b9d4154dd541a274e436fbf317d2faa6dec710f4027ed44e1f5d869",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/assets/system/title/start-press.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 16985,
+      "sha256": "1fd678ac5f4d3ce447151be8c47fbaed7d530a1fc72c95bc22c26a28c5f97678",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/android/app/src/main/res/drawable/icon.png",
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "bytes": 89486,
+      "sha256": "d72482e2067b5d0bce1f3f40c639b2b322da86e175378bad7e3161aac7e19331",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/documents/assets/images/favicon.png",
+      "format": "PNG",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "bytes": 1853,
+      "sha256": "775cdc94bdb1649596d6b1cbb07a7dd64e4febb6f391faf328fb416b8845c95b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/AppScope/resources/base/media/background.png",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 91942,
+      "sha256": "497edeafc51af043c73e72ee8c4fbac4663357ef1ba275c0289f31a366b26239",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/AppScope/resources/base/media/foreground.png",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 15325,
+      "sha256": "61a796d5a9fc5853e9cd0f1e3e730896a6bcb94a34a37765c4d1959bf64dfa43",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/base/media/background.png",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 91942,
+      "sha256": "497edeafc51af043c73e72ee8c4fbac4663357ef1ba275c0289f31a366b26239",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/base/media/foreground.png",
+      "format": "PNG",
+      "width": 1024,
+      "height": 1024,
+      "mode": "RGBA",
+      "bytes": 8805,
+      "sha256": "57e549283f255505a649042f36a1d6793c307a69a94c9fa7e27a38af38ddbe8c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/base/media/startIcon.png",
+      "format": "PNG",
+      "width": 144,
+      "height": 144,
+      "mode": "RGBA",
+      "bytes": 20093,
+      "sha256": "567c7c0c7a321ca180e010ad880f0f7519f6d351ac2b9665e2ee710e7cfe7778",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/bg/black.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 2759,
+      "sha256": "b904f7b454f83c1a1304031467b1d12a62aa859ccc811d1a84b1c261efa59985",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/bg/school.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "P",
+      "bytes": 133838,
+      "sha256": "04e15c239ffbcfd43a883f36c5745a5646d96dc6cbfc2f17efabdae4d9e60c97",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/bg/white.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 3757,
+      "sha256": "cb7deaecc8dc88f3b2a61ff83f33edf8983b6198bb218bdce3cfa7426d92b441",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/aki/aki-normal.png",
+      "format": "PNG",
+      "width": 464,
+      "height": 719,
+      "mode": "RGBA",
+      "bytes": 258923,
+      "sha256": "c532761ee831291b167f52eb9391965b3a98d9b4e03dd42a3aa01c3f99a797b0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/eye/midori-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 48920,
+      "sha256": "49e828cae39df46f771f80a9cee7a93ac86f53d09bc469cc7f2b48cc327b51f1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/eye/midori-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 59504,
+      "sha256": "f4cda146acf9299a4a23d518af37579c0abd97f040281d9f7bc0477e50c50477",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/lip/midori-happy.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 67789,
+      "sha256": "f268fc4f6de6c6f3b571019d018f0ab7e325c2d293a0335ed7b92d27df8a03bc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/lip/midori-normal.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 66642,
+      "sha256": "c83331b11a099b3f43c64fcf1289ba49e27ab6b2cc7f3f8eb3ea445861af96cb",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/lip/midori-smile.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 57060,
+      "sha256": "68eafa4c58ad982b0e0b5a4e5d45cc9463a47a972fea918d039866d78e4a14c4",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/midori-happy.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254845,
+      "sha256": "bf85789466b26509580f3f64a3e8a667b05e1fa3d9628c72767c56002827f2ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/midori-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254456,
+      "sha256": "eeded572c7c12630455ae7d1ddb04b2bfcb8c5e953d3ecc7e4883e182c6f08a6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/midori/midori-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254535,
+      "sha256": "08880dae953d6b516f7f5994be134190524e53163dfe90f5219057f77c69ce80",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/eye/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 45866,
+      "sha256": "81a280425365dd7acb890c16261f24a5520632ba8d396ffc99fd015284130369",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/eye/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 43503,
+      "sha256": "fd2850b8a9b734c4ed84532fece1f23ba7f94d866eb2a5da8db4317caa30eeef",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/lip/xiaoling-happy.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 65158,
+      "sha256": "5f51124991b937e1c8b48edb5d6f8ff540863d963806eb17e86e11b766390ba6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/lip/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 57541,
+      "sha256": "ba87ed63e102c6f9916d2194991e7884e23258215f57e35341b8dfb7f9a9bae0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/lip/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 62499,
+      "sha256": "d1766390c5bdaa1695015f87d550967ef1c6fc6db7acef2cb24ca169baf65842",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/xiaoling-happy.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 228450,
+      "sha256": "b0b193bffce952367daf205291eb0494dd7782d2539e7bab6f7879c3d97cd9ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 226475,
+      "sha256": "0be5c8ab38d9ab64dd2bf8fc1ec3df85dcc7d86b528a9dee2ba2e983a46cf3dd",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/images/ch/xiaoling/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 226983,
+      "sha256": "601272dbc836fe72387bc2ccafef3c74599e418c36d30094e04480b27a4f19f8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/hover.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 6812,
+      "sha256": "2dc3d2d77e158a7158344ef09d86647098fabc1edb6f980721b7d5f9310b0579",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/idle.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 6811,
+      "sha256": "9f751c81d7a84d5021b8b8d095cd3b265ef23a06b414b21df6de44b62f10a691",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/choose/nvl.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 1385,
+      "sha256": "0ee6f26b1537f12ff92eeacec650eaacf7347ea9715f7470a5a212b37a2242dc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-bar-hover.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 36,
+      "mode": "P",
+      "bytes": 176,
+      "sha256": "39d1c1befcb8b2a248b350a5c44dbd969c64cda4cd1269d0c384303495856107",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-bar-idle.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 36,
+      "mode": "RGB",
+      "bytes": 257,
+      "sha256": "a5fb0b2ef12b8a18822653b8a6979a405e148999181888c6c72dffb20cebec39",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-bar-knob.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "P",
+      "bytes": 253,
+      "sha256": "2f60ff31a228a76be4f0db02ba0ee977242cdcdad62e0642b9873bc5175e478b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 225686,
+      "sha256": "a89ff94a6f73235f0743508c4631cba2789c3790d213cedc0d0020a88d623503",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-en-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 421,
+      "sha256": "27d2de692139415a2c26801c1310c0bff9b74e9f73bb10da65e517e9dd8d795b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-en-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 424,
+      "sha256": "e018b8efebf9cd659b28a867dd6cf074d75a27d46ac68d33fb1ac7c8feb2edbc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-en-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 539,
+      "sha256": "39e0e89e2020427254b91307b8aaa20a5ab2ed3af6e16e838ad3cd455b4ef2ab",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-jp-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 486,
+      "sha256": "51ae248f296ca7c766602d074807cbc99ada33530f003fa4ffba2c0db1439014",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-jp-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 489,
+      "sha256": "94feeb39ca37e2c320b81cc440e6399cded1b99e3458896023d77eeb93cea025",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-jp-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 653,
+      "sha256": "d0bdd01302b37f649d4dc29598731f81f3b8555cbd68d5344a46405915b9b1a5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-zh-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 451,
+      "sha256": "bba2cf205a120cbd7c48033a5d3702f03c4c754618484bca3f608b639155d9c1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-zh-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 451,
+      "sha256": "479c53cf0fe7df3cfa3311013a174ef796fca7331aea7dcc7ee62fb5785c65ed",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-lang-zh-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 5525,
+      "sha256": "ac27401cf434d1eae21850a5e65b5ddd08ddf4566af5d1ed7eb0dd208a6b8563",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/config-preview.png",
+      "format": "PNG",
+      "width": 520,
+      "height": 210,
+      "mode": "RGBA",
+      "bytes": 2789,
+      "sha256": "44b6f404ed90f368b44bb7f4e0e8a43c3f4fb043e55c5adcf60653cd5638d311",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/reset-hover.png",
+      "format": "PNG",
+      "width": 326,
+      "height": 73,
+      "mode": "RGBA",
+      "bytes": 10210,
+      "sha256": "b7a5b3d656b2d5c182b12e03aa1845aad8bb129a2e8f427f1a53fbd6c3d1f8d8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/config/reset-idle.png",
+      "format": "PNG",
+      "width": 324,
+      "height": 72,
+      "mode": "RGBA",
+      "bytes": 9574,
+      "sha256": "dfe432e066aa824f0167cc341b0855ea97302d4f94f563f08f0b16f6714c6820",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/effect/rain/1.png",
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "mode": "P",
+      "bytes": 46842,
+      "sha256": "dc979a979ca343ad7c90c369573c3ce0c37bf96e50936a0de9e9008950eab089",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/emoji/heart.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "bytes": 4734,
+      "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/emoji/sweat.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "bytes": 3032,
+      "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-bar-hover.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 640,
+      "mode": "P",
+      "bytes": 306,
+      "sha256": "332accb0795144d4507ce2df66ed87e0a12328c4dbde061e8db2ae2ec0e1c548",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-bar-idle.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 864,
+      "sha256": "4dfd90348d66c5f5f2900b1e712cda2d2fb0f66df4393745829ab07c41494a67",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-bar-knob.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 60,
+      "mode": "RGBA",
+      "bytes": 288,
+      "sha256": "c9dba440e39080ac63f81e8d17adb82911b9e37aa335a0b0a5f1519e411baeb1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 191580,
+      "sha256": "c61876ed73190544ca27d654c2a18b8ec604094e2fd940e7b2d1c6ac7d491f57",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-item-hover.png",
+      "format": "PNG",
+      "width": 1100,
+      "height": 200,
+      "mode": "RGBA",
+      "bytes": 10082,
+      "sha256": "f0eba004bf9c2198f736611d9af98090dc2163d040d03608667c445b30e3ea35",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/history/history-item-idle.png",
+      "format": "PNG",
+      "width": 1100,
+      "height": 200,
+      "mode": "RGBA",
+      "bytes": 9912,
+      "sha256": "ac6e36650ea279c8c5a4d1657258559bf6e632e8e71724fa64632c7fbc73736b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 31280,
+      "sha256": "c8c13ee8a2d0858ee14c3a9d5bf32d111d27d83327baa455db0c33f613a0c7ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-item-hover.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 23284,
+      "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-item-idle.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 26739,
+      "sha256": "5a1a47debacda82ec3fde46ed0d6fa91a1e90a212364b68e102cde872b5d6f8c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-item-press.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 13876,
+      "sha256": "9df7a4da62ffe87946f2ca3d6a31e77c9ac9fb4ab059d968242ba1ecdd48dce6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-1-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-1-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-1-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-2-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-2-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-2-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-3-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-3-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-3-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-4-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-4-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-4-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-5-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-5-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/load/load-page-5-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/auto.png",
+      "format": "PNG",
+      "width": 113,
+      "height": 44,
+      "mode": "RGBA",
+      "bytes": 6189,
+      "sha256": "c823a7fa74494a9819c4f240acecd98d26cbab600b3497aa0ed3118dea29111b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/click1.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 48,
+      "mode": "RGBA",
+      "bytes": 4052,
+      "sha256": "43ce9a3731838f3481e530fe125773b7f5c8db43fb9184580181b9984d7c30b8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/click2.png",
+      "format": "PNG",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "bytes": 124,
+      "sha256": "c7504eeb994eb453cf0ba3e846771eb820e499f5d84900a6fa8a5d98a379c160",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/msgbox-nvl.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 8419,
+      "sha256": "c39b6b56babac1c36e2c87278b9aa9a1e0dc3f5ad0797e9f27c1398d90e38e08",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/msgbox.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 182,
+      "mode": "RGBA",
+      "bytes": 6247,
+      "sha256": "a47ed1a581de0451e632df10a3d4c3a85efa8e7dbcaf6eb2a5f86cc968023b90",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/namebox.png",
+      "format": "PNG",
+      "width": 380,
+      "height": 60,
+      "mode": "RGBA",
+      "bytes": 5463,
+      "sha256": "2e6bfba7f163983a59557e8a9797232a8dc01fd56344c9b9a615f5f12e4adea5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/message/skip.png",
+      "format": "PNG",
+      "width": 113,
+      "height": 44,
+      "mode": "RGBA",
+      "bytes": 6191,
+      "sha256": "57a1bb95102844dc7cfa9bd49b14c4e3b206640a0d5a83806929643255907407",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 92708,
+      "sha256": "38ff4c09a925b65fa2ad22f9a0869385fff1effd4aea1681deb73ad5d51036ea",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-item-hover.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 23284,
+      "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-item-idle.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 26739,
+      "sha256": "b516a11e0005eb2eefd14b4d0187318d21baeeb79199091dd5addbab2c5af75c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-item-press.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 13876,
+      "sha256": "54b0253f5f7066e01b9fbf483d5b1969a52b708e594d79218a66e99be6b6117b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-1-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-1-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-1-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-1.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-2-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-2-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-2-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-2.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-3-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-3-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-3-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-3.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-4-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-4-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-4-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-4.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-5-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-5-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-5-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/save/save-page-5.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/sysbtn-hover.png",
+      "format": "PNG",
+      "width": 67,
+      "height": 53,
+      "mode": "RGBA",
+      "bytes": 1256,
+      "sha256": "073581e04dd51ef70f888442797c4b801cfb1bbf149d296658f124aee0da75df",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysbtn/sysbtn-idle.png",
+      "format": "PNG",
+      "width": 67,
+      "height": 53,
+      "mode": "RGBA",
+      "bytes": 1190,
+      "sha256": "bd320d405c5c39223f3336e1a90b7cd1ef3b837878d6bc4ca1236c1d158deedd",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/auto-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2917,
+      "sha256": "ff08e252b6d131ed9804c01fabd52363f2b0f43c3d8111127d2e50d099024426",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/auto-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3550,
+      "sha256": "a9654c7977cefb55a4267f24eb6daf19ef52a40bcdf17d00d51d140f26ec17ee",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/auto-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2984,
+      "sha256": "fd29934a90e73b8b8803edd3247d85f3d54bac398926273c0fb631fa426098aa",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/base.png",
+      "format": "PNG",
+      "width": 542,
+      "height": 110,
+      "mode": "RGBA",
+      "bytes": 27268,
+      "sha256": "303a656348b0dc99e6f8e649671644db321808f00d12e8740c1797f6f78f208e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/config-hover.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 4373,
+      "sha256": "530b056e24d293e03823ec94715c9d22b939b143ac4df89e25516687b5bbc099",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/config-idle.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 5189,
+      "sha256": "2f932213ef31839f3fcd032e4f2b373ea04e68733fe76d8c8901afcba0fbbeb2",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/config-press.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 4245,
+      "sha256": "b891bba3c88795ad99234a827f6c7047f40d6272624565be06154517bd0f86e7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/load-hover.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2861,
+      "sha256": "cbe30aee878d360eb58ed1279388ce2ad7119d01263682f294f5bb22eb1d107e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/load-idle.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3322,
+      "sha256": "ddee9dda5c2ab3a6948db7d0ef15950eae0db9027c118c604af57e72a886c7f6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/load-press.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2869,
+      "sha256": "625a3ea9668183cefe1403cb558d22beb57bf7b035640213a9c003bee7c329b7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/log-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3408,
+      "sha256": "2ff1f11693d1948485b98584ab61e0eb4ceaa1d757581b5e87864434a027082a",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/log-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 4025,
+      "sha256": "060f3b7524d4c5441f0ff1b4f0474753bfa6c65d9a45dfce4a455032d89a1918",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/log-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3370,
+      "sha256": "7b0cbc668a27a25f34e6ed74cd9a9a1731ae5f7acab6e92b6ca2ec7ad84051d0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/save-hover.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3193,
+      "sha256": "c7cba12897265da73e740e828a62c08d59d4449dd7ffa978ec6b402c2a684719",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/save-idle.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3652,
+      "sha256": "04851a0d5470d20663601d1c61efe28e5f4f7e8ba9d19f1b333ff81823e7090d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/save-press.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3029,
+      "sha256": "3f74d0ab6f83b639881e44c33d2ec57254222a66bd050db04745d8b88bb6de17",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/skip-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3218,
+      "sha256": "6fb72c303ee8b38d6d76506f7e7cd7e096d52ac7fc1bc6a46ce81fe734a1b806",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/skip-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3721,
+      "sha256": "1aa5189407f4226dfebf5fd357118c16548a6f98875d9d663925828b1cadcd9f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/sysmenu/skip-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3089,
+      "sha256": "8afa466c4ab757defd7d63a998ea966a109734b7d5e8f721ba949def60ffca70",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 290715,
+      "sha256": "1f827ed117e8857d73b131cae054a93e6a3843960b221d777ad89ec1bf167cb0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/start-hover.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 20564,
+      "sha256": "122cb56a0f364ffb40426cf711684ec646e3085189d1430e965a470b640b3ce7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/start-idle.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 20548,
+      "sha256": "b1c16fd24b9d4154dd541a274e436fbf317d2faa6dec710f4027ed44e1f5d869",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/openharmony/entry/src/main/resources/rawfile/system/title/start-press.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 16985,
+      "sha256": "1fd678ac5f4d3ce447151be8c47fbaed7d530a1fc72c95bc22c26a28c5f97678",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/bg/black.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 2759,
+      "sha256": "b904f7b454f83c1a1304031467b1d12a62aa859ccc811d1a84b1c261efa59985",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/bg/school.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "P",
+      "bytes": 133838,
+      "sha256": "04e15c239ffbcfd43a883f36c5745a5646d96dc6cbfc2f17efabdae4d9e60c97",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/bg/white.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 3757,
+      "sha256": "cb7deaecc8dc88f3b2a61ff83f33edf8983b6198bb218bdce3cfa7426d92b441",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/aki/aki-normal.png",
+      "format": "PNG",
+      "width": 464,
+      "height": 719,
+      "mode": "RGBA",
+      "bytes": 258923,
+      "sha256": "c532761ee831291b167f52eb9391965b3a98d9b4e03dd42a3aa01c3f99a797b0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/eye/midori-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 48920,
+      "sha256": "49e828cae39df46f771f80a9cee7a93ac86f53d09bc469cc7f2b48cc327b51f1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/eye/midori-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 59504,
+      "sha256": "f4cda146acf9299a4a23d518af37579c0abd97f040281d9f7bc0477e50c50477",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/lip/midori-happy.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 67789,
+      "sha256": "f268fc4f6de6c6f3b571019d018f0ab7e325c2d293a0335ed7b92d27df8a03bc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/lip/midori-normal.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 66642,
+      "sha256": "c83331b11a099b3f43c64fcf1289ba49e27ab6b2cc7f3f8eb3ea445861af96cb",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/lip/midori-smile.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 57060,
+      "sha256": "68eafa4c58ad982b0e0b5a4e5d45cc9463a47a972fea918d039866d78e4a14c4",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/midori-happy.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254845,
+      "sha256": "bf85789466b26509580f3f64a3e8a667b05e1fa3d9628c72767c56002827f2ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/midori-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254456,
+      "sha256": "eeded572c7c12630455ae7d1ddb04b2bfcb8c5e953d3ecc7e4883e182c6f08a6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/midori/midori-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254535,
+      "sha256": "08880dae953d6b516f7f5994be134190524e53163dfe90f5219057f77c69ce80",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/eye/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 45866,
+      "sha256": "81a280425365dd7acb890c16261f24a5520632ba8d396ffc99fd015284130369",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/eye/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 43503,
+      "sha256": "fd2850b8a9b734c4ed84532fece1f23ba7f94d866eb2a5da8db4317caa30eeef",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/lip/xiaoling-happy.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 65158,
+      "sha256": "5f51124991b937e1c8b48edb5d6f8ff540863d963806eb17e86e11b766390ba6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/lip/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 57541,
+      "sha256": "ba87ed63e102c6f9916d2194991e7884e23258215f57e35341b8dfb7f9a9bae0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/lip/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 62499,
+      "sha256": "d1766390c5bdaa1695015f87d550967ef1c6fc6db7acef2cb24ca169baf65842",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/xiaoling-happy.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 228450,
+      "sha256": "b0b193bffce952367daf205291eb0494dd7782d2539e7bab6f7879c3d97cd9ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 226475,
+      "sha256": "0be5c8ab38d9ab64dd2bf8fc1ec3df85dcc7d86b528a9dee2ba2e983a46cf3dd",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/images/ch/xiaoling/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 226983,
+      "sha256": "601272dbc836fe72387bc2ccafef3c74599e418c36d30094e04480b27a4f19f8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/choose/hover.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 6812,
+      "sha256": "2dc3d2d77e158a7158344ef09d86647098fabc1edb6f980721b7d5f9310b0579",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/choose/idle.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 6811,
+      "sha256": "9f751c81d7a84d5021b8b8d095cd3b265ef23a06b414b21df6de44b62f10a691",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/choose/nvl.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 1385,
+      "sha256": "0ee6f26b1537f12ff92eeacec650eaacf7347ea9715f7470a5a212b37a2242dc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-bar-hover.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 36,
+      "mode": "P",
+      "bytes": 176,
+      "sha256": "39d1c1befcb8b2a248b350a5c44dbd969c64cda4cd1269d0c384303495856107",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-bar-idle.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 36,
+      "mode": "RGB",
+      "bytes": 257,
+      "sha256": "a5fb0b2ef12b8a18822653b8a6979a405e148999181888c6c72dffb20cebec39",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-bar-knob.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "P",
+      "bytes": 253,
+      "sha256": "2f60ff31a228a76be4f0db02ba0ee977242cdcdad62e0642b9873bc5175e478b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 225686,
+      "sha256": "a89ff94a6f73235f0743508c4631cba2789c3790d213cedc0d0020a88d623503",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-en-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 421,
+      "sha256": "27d2de692139415a2c26801c1310c0bff9b74e9f73bb10da65e517e9dd8d795b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-en-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 424,
+      "sha256": "e018b8efebf9cd659b28a867dd6cf074d75a27d46ac68d33fb1ac7c8feb2edbc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-en-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 539,
+      "sha256": "39e0e89e2020427254b91307b8aaa20a5ab2ed3af6e16e838ad3cd455b4ef2ab",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-jp-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 486,
+      "sha256": "51ae248f296ca7c766602d074807cbc99ada33530f003fa4ffba2c0db1439014",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-jp-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 489,
+      "sha256": "94feeb39ca37e2c320b81cc440e6399cded1b99e3458896023d77eeb93cea025",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-jp-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 653,
+      "sha256": "d0bdd01302b37f649d4dc29598731f81f3b8555cbd68d5344a46405915b9b1a5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-zh-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 451,
+      "sha256": "bba2cf205a120cbd7c48033a5d3702f03c4c754618484bca3f608b639155d9c1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-zh-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 451,
+      "sha256": "479c53cf0fe7df3cfa3311013a174ef796fca7331aea7dcc7ee62fb5785c65ed",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-lang-zh-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 5525,
+      "sha256": "ac27401cf434d1eae21850a5e65b5ddd08ddf4566af5d1ed7eb0dd208a6b8563",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/config-preview.png",
+      "format": "PNG",
+      "width": 520,
+      "height": 210,
+      "mode": "RGBA",
+      "bytes": 2789,
+      "sha256": "44b6f404ed90f368b44bb7f4e0e8a43c3f4fb043e55c5adcf60653cd5638d311",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/reset-hover.png",
+      "format": "PNG",
+      "width": 326,
+      "height": 73,
+      "mode": "RGBA",
+      "bytes": 10210,
+      "sha256": "b7a5b3d656b2d5c182b12e03aa1845aad8bb129a2e8f427f1a53fbd6c3d1f8d8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/config/reset-idle.png",
+      "format": "PNG",
+      "width": 324,
+      "height": 72,
+      "mode": "RGBA",
+      "bytes": 9574,
+      "sha256": "dfe432e066aa824f0167cc341b0855ea97302d4f94f563f08f0b16f6714c6820",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/effect/rain/1.png",
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "mode": "P",
+      "bytes": 46842,
+      "sha256": "dc979a979ca343ad7c90c369573c3ce0c37bf96e50936a0de9e9008950eab089",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/emoji/heart.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "bytes": 4734,
+      "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/emoji/sweat.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "bytes": 3032,
+      "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/history/history-bar-hover.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 640,
+      "mode": "P",
+      "bytes": 306,
+      "sha256": "332accb0795144d4507ce2df66ed87e0a12328c4dbde061e8db2ae2ec0e1c548",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/history/history-bar-idle.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 864,
+      "sha256": "4dfd90348d66c5f5f2900b1e712cda2d2fb0f66df4393745829ab07c41494a67",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/history/history-bar-knob.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 60,
+      "mode": "RGBA",
+      "bytes": 288,
+      "sha256": "c9dba440e39080ac63f81e8d17adb82911b9e37aa335a0b0a5f1519e411baeb1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/history/history-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 191580,
+      "sha256": "c61876ed73190544ca27d654c2a18b8ec604094e2fd940e7b2d1c6ac7d491f57",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/history/history-item-hover.png",
+      "format": "PNG",
+      "width": 1100,
+      "height": 200,
+      "mode": "RGBA",
+      "bytes": 10082,
+      "sha256": "f0eba004bf9c2198f736611d9af98090dc2163d040d03608667c445b30e3ea35",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/history/history-item-idle.png",
+      "format": "PNG",
+      "width": 1100,
+      "height": 200,
+      "mode": "RGBA",
+      "bytes": 9912,
+      "sha256": "ac6e36650ea279c8c5a4d1657258559bf6e632e8e71724fa64632c7fbc73736b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 31280,
+      "sha256": "c8c13ee8a2d0858ee14c3a9d5bf32d111d27d83327baa455db0c33f613a0c7ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-item-hover.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 23284,
+      "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-item-idle.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 26739,
+      "sha256": "5a1a47debacda82ec3fde46ed0d6fa91a1e90a212364b68e102cde872b5d6f8c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-item-press.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 13876,
+      "sha256": "9df7a4da62ffe87946f2ca3d6a31e77c9ac9fb4ab059d968242ba1ecdd48dce6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-1-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-1-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-1-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-2-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-2-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-2-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-3-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-3-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-3-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-4-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-4-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-4-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-5-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-5-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/load/load-page-5-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/message/auto.png",
+      "format": "PNG",
+      "width": 113,
+      "height": 44,
+      "mode": "RGBA",
+      "bytes": 6189,
+      "sha256": "c823a7fa74494a9819c4f240acecd98d26cbab600b3497aa0ed3118dea29111b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/message/click1.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 48,
+      "mode": "RGBA",
+      "bytes": 4052,
+      "sha256": "43ce9a3731838f3481e530fe125773b7f5c8db43fb9184580181b9984d7c30b8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/message/click2.png",
+      "format": "PNG",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "bytes": 124,
+      "sha256": "c7504eeb994eb453cf0ba3e846771eb820e499f5d84900a6fa8a5d98a379c160",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/message/msgbox-nvl.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 8419,
+      "sha256": "c39b6b56babac1c36e2c87278b9aa9a1e0dc3f5ad0797e9f27c1398d90e38e08",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/message/msgbox.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 182,
+      "mode": "RGBA",
+      "bytes": 6247,
+      "sha256": "a47ed1a581de0451e632df10a3d4c3a85efa8e7dbcaf6eb2a5f86cc968023b90",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/message/namebox.png",
+      "format": "PNG",
+      "width": 380,
+      "height": 60,
+      "mode": "RGBA",
+      "bytes": 5463,
+      "sha256": "2e6bfba7f163983a59557e8a9797232a8dc01fd56344c9b9a615f5f12e4adea5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/message/skip.png",
+      "format": "PNG",
+      "width": 113,
+      "height": 44,
+      "mode": "RGBA",
+      "bytes": 6191,
+      "sha256": "57a1bb95102844dc7cfa9bd49b14c4e3b206640a0d5a83806929643255907407",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 92708,
+      "sha256": "38ff4c09a925b65fa2ad22f9a0869385fff1effd4aea1681deb73ad5d51036ea",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-item-hover.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 23284,
+      "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-item-idle.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 26739,
+      "sha256": "b516a11e0005eb2eefd14b4d0187318d21baeeb79199091dd5addbab2c5af75c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-item-press.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 13876,
+      "sha256": "54b0253f5f7066e01b9fbf483d5b1969a52b708e594d79218a66e99be6b6117b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-1-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-1-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-1-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-1.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-2-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-2-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-2-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-2.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-3-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-3-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-3-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-3.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-4-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-4-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-4-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-4.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-5-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-5-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-5-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/save/save-page-5.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/sysbtn-hover.png",
+      "format": "PNG",
+      "width": 67,
+      "height": 53,
+      "mode": "RGBA",
+      "bytes": 1256,
+      "sha256": "073581e04dd51ef70f888442797c4b801cfb1bbf149d296658f124aee0da75df",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysbtn/sysbtn-idle.png",
+      "format": "PNG",
+      "width": 67,
+      "height": 53,
+      "mode": "RGBA",
+      "bytes": 1190,
+      "sha256": "bd320d405c5c39223f3336e1a90b7cd1ef3b837878d6bc4ca1236c1d158deedd",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/auto-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2917,
+      "sha256": "ff08e252b6d131ed9804c01fabd52363f2b0f43c3d8111127d2e50d099024426",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/auto-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3550,
+      "sha256": "a9654c7977cefb55a4267f24eb6daf19ef52a40bcdf17d00d51d140f26ec17ee",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/auto-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2984,
+      "sha256": "fd29934a90e73b8b8803edd3247d85f3d54bac398926273c0fb631fa426098aa",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/base.png",
+      "format": "PNG",
+      "width": 542,
+      "height": 110,
+      "mode": "RGBA",
+      "bytes": 27268,
+      "sha256": "303a656348b0dc99e6f8e649671644db321808f00d12e8740c1797f6f78f208e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/config-hover.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 4373,
+      "sha256": "530b056e24d293e03823ec94715c9d22b939b143ac4df89e25516687b5bbc099",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/config-idle.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 5189,
+      "sha256": "2f932213ef31839f3fcd032e4f2b373ea04e68733fe76d8c8901afcba0fbbeb2",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/config-press.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 4245,
+      "sha256": "b891bba3c88795ad99234a827f6c7047f40d6272624565be06154517bd0f86e7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/load-hover.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2861,
+      "sha256": "cbe30aee878d360eb58ed1279388ce2ad7119d01263682f294f5bb22eb1d107e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/load-idle.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3322,
+      "sha256": "ddee9dda5c2ab3a6948db7d0ef15950eae0db9027c118c604af57e72a886c7f6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/load-press.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2869,
+      "sha256": "625a3ea9668183cefe1403cb558d22beb57bf7b035640213a9c003bee7c329b7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/log-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3408,
+      "sha256": "2ff1f11693d1948485b98584ab61e0eb4ceaa1d757581b5e87864434a027082a",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/log-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 4025,
+      "sha256": "060f3b7524d4c5441f0ff1b4f0474753bfa6c65d9a45dfce4a455032d89a1918",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/log-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3370,
+      "sha256": "7b0cbc668a27a25f34e6ed74cd9a9a1731ae5f7acab6e92b6ca2ec7ad84051d0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/save-hover.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3193,
+      "sha256": "c7cba12897265da73e740e828a62c08d59d4449dd7ffa978ec6b402c2a684719",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/save-idle.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3652,
+      "sha256": "04851a0d5470d20663601d1c61efe28e5f4f7e8ba9d19f1b333ff81823e7090d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/save-press.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3029,
+      "sha256": "3f74d0ab6f83b639881e44c33d2ec57254222a66bd050db04745d8b88bb6de17",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/skip-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3218,
+      "sha256": "6fb72c303ee8b38d6d76506f7e7cd7e096d52ac7fc1bc6a46ce81fe734a1b806",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/skip-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3721,
+      "sha256": "1aa5189407f4226dfebf5fd357118c16548a6f98875d9d663925828b1cadcd9f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/sysmenu/skip-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3089,
+      "sha256": "8afa466c4ab757defd7d63a998ea966a109734b7d5e8f721ba949def60ffca70",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/title/base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 290715,
+      "sha256": "1f827ed117e8857d73b131cae054a93e6a3843960b221d777ad89ec1bf167cb0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/title/start-hover.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 20564,
+      "sha256": "122cb56a0f364ffb40426cf711684ec646e3085189d1430e965a470b640b3ce7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/title/start-idle.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 20548,
+      "sha256": "b1c16fd24b9d4154dd541a274e436fbf317d2faa6dec710f4027ed44e1f5d869",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "SDK/unity/Assets/StreamingAssets/system/title/start-press.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 16985,
+      "sha256": "1fd678ac5f4d3ce447151be8c47fbaed7d530a1fc72c95bc22c26a28c5f97678",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/bg/black.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 2759,
+      "sha256": "b904f7b454f83c1a1304031467b1d12a62aa859ccc811d1a84b1c261efa59985",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/bg/school.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "P",
+      "bytes": 133838,
+      "sha256": "04e15c239ffbcfd43a883f36c5745a5646d96dc6cbfc2f17efabdae4d9e60c97",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/bg/white.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGB",
+      "bytes": 3757,
+      "sha256": "cb7deaecc8dc88f3b2a61ff83f33edf8983b6198bb218bdce3cfa7426d92b441",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/aki/aki-normal.png",
+      "format": "PNG",
+      "width": 464,
+      "height": 719,
+      "mode": "RGBA",
+      "bytes": 258923,
+      "sha256": "c532761ee831291b167f52eb9391965b3a98d9b4e03dd42a3aa01c3f99a797b0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/midori/eye/midori-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 48920,
+      "sha256": "49e828cae39df46f771f80a9cee7a93ac86f53d09bc469cc7f2b48cc327b51f1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/midori/eye/midori-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 59504,
+      "sha256": "f4cda146acf9299a4a23d518af37579c0abd97f040281d9f7bc0477e50c50477",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/midori/lip/midori-happy.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 67789,
+      "sha256": "f268fc4f6de6c6f3b571019d018f0ab7e325c2d293a0335ed7b92d27df8a03bc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/midori/lip/midori-normal.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 66642,
+      "sha256": "c83331b11a099b3f43c64fcf1289ba49e27ab6b2cc7f3f8eb3ea445861af96cb",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/midori/lip/midori-smile.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 57060,
+      "sha256": "68eafa4c58ad982b0e0b5a4e5d45cc9463a47a972fea918d039866d78e4a14c4",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/midori/midori-happy.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254845,
+      "sha256": "bf85789466b26509580f3f64a3e8a667b05e1fa3d9628c72767c56002827f2ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/midori/midori-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254456,
+      "sha256": "eeded572c7c12630455ae7d1ddb04b2bfcb8c5e953d3ecc7e4883e182c6f08a6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/midori/midori-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 254535,
+      "sha256": "08880dae953d6b516f7f5994be134190524e53163dfe90f5219057f77c69ce80",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/xiaoling/eye/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 45866,
+      "sha256": "81a280425365dd7acb890c16261f24a5520632ba8d396ffc99fd015284130369",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/xiaoling/eye/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 43503,
+      "sha256": "fd2850b8a9b734c4ed84532fece1f23ba7f94d866eb2a5da8db4317caa30eeef",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/xiaoling/lip/xiaoling-happy.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 65158,
+      "sha256": "5f51124991b937e1c8b48edb5d6f8ff540863d963806eb17e86e11b766390ba6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/xiaoling/lip/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 57541,
+      "sha256": "ba87ed63e102c6f9916d2194991e7884e23258215f57e35341b8dfb7f9a9bae0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/xiaoling/lip/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 1332,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 62499,
+      "sha256": "d1766390c5bdaa1695015f87d550967ef1c6fc6db7acef2cb24ca169baf65842",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/xiaoling/xiaoling-happy.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 228450,
+      "sha256": "b0b193bffce952367daf205291eb0494dd7782d2539e7bab6f7879c3d97cd9ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/xiaoling/xiaoling-normal.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 226475,
+      "sha256": "0be5c8ab38d9ab64dd2bf8fc1ec3df85dcc7d86b528a9dee2ba2e983a46cf3dd",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "images/ch/xiaoling/xiaoling-smile.png",
+      "format": "PNG",
+      "width": 666,
+      "height": 657,
+      "mode": "RGBA",
+      "bytes": 226983,
+      "sha256": "601272dbc836fe72387bc2ccafef3c74599e418c36d30094e04480b27a4f19f8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/choose/hover.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 6812,
+      "sha256": "2dc3d2d77e158a7158344ef09d86647098fabc1edb6f980721b7d5f9310b0579",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/choose/idle.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 6811,
+      "sha256": "9f751c81d7a84d5021b8b8d095cd3b265ef23a06b414b21df6de44b62f10a691",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/choose/nvl.png",
+      "format": "PNG",
+      "width": 880,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 1385,
+      "sha256": "0ee6f26b1537f12ff92eeacec650eaacf7347ea9715f7470a5a212b37a2242dc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-bar-hover.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 36,
+      "mode": "P",
+      "bytes": 176,
+      "sha256": "39d1c1befcb8b2a248b350a5c44dbd969c64cda4cd1269d0c384303495856107",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-bar-idle.png",
+      "format": "PNG",
+      "width": 480,
+      "height": 36,
+      "mode": "RGB",
+      "bytes": 257,
+      "sha256": "a5fb0b2ef12b8a18822653b8a6979a405e148999181888c6c72dffb20cebec39",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-bar-knob.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "P",
+      "bytes": 253,
+      "sha256": "2f60ff31a228a76be4f0db02ba0ee977242cdcdad62e0642b9873bc5175e478b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 225686,
+      "sha256": "a89ff94a6f73235f0743508c4631cba2789c3790d213cedc0d0020a88d623503",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-en-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 421,
+      "sha256": "27d2de692139415a2c26801c1310c0bff9b74e9f73bb10da65e517e9dd8d795b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-en-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 424,
+      "sha256": "e018b8efebf9cd659b28a867dd6cf074d75a27d46ac68d33fb1ac7c8feb2edbc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-en-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 539,
+      "sha256": "39e0e89e2020427254b91307b8aaa20a5ab2ed3af6e16e838ad3cd455b4ef2ab",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-jp-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 486,
+      "sha256": "51ae248f296ca7c766602d074807cbc99ada33530f003fa4ffba2c0db1439014",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-jp-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 489,
+      "sha256": "94feeb39ca37e2c320b81cc440e6399cded1b99e3458896023d77eeb93cea025",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-jp-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 653,
+      "sha256": "d0bdd01302b37f649d4dc29598731f81f3b8555cbd68d5344a46405915b9b1a5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-zh-active.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 451,
+      "sha256": "bba2cf205a120cbd7c48033a5d3702f03c4c754618484bca3f608b639155d9c1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-zh-hover.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "P",
+      "bytes": 451,
+      "sha256": "479c53cf0fe7df3cfa3311013a174ef796fca7331aea7dcc7ee62fb5785c65ed",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-lang-zh-idle.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 40,
+      "mode": "RGBA",
+      "bytes": 5525,
+      "sha256": "ac27401cf434d1eae21850a5e65b5ddd08ddf4566af5d1ed7eb0dd208a6b8563",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/config-preview.png",
+      "format": "PNG",
+      "width": 520,
+      "height": 210,
+      "mode": "RGBA",
+      "bytes": 2789,
+      "sha256": "44b6f404ed90f368b44bb7f4e0e8a43c3f4fb043e55c5adcf60653cd5638d311",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/reset-hover.png",
+      "format": "PNG",
+      "width": 326,
+      "height": 73,
+      "mode": "RGBA",
+      "bytes": 10210,
+      "sha256": "b7a5b3d656b2d5c182b12e03aa1845aad8bb129a2e8f427f1a53fbd6c3d1f8d8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/config/reset-idle.png",
+      "format": "PNG",
+      "width": 324,
+      "height": 72,
+      "mode": "RGBA",
+      "bytes": 9574,
+      "sha256": "dfe432e066aa824f0167cc341b0855ea97302d4f94f563f08f0b16f6714c6820",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/effect/rain/1.png",
+      "format": "PNG",
+      "width": 640,
+      "height": 360,
+      "mode": "P",
+      "bytes": 46842,
+      "sha256": "dc979a979ca343ad7c90c369573c3ce0c37bf96e50936a0de9e9008950eab089",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/emoji/heart.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "bytes": 4734,
+      "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/emoji/sweat.png",
+      "format": "PNG",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "bytes": 3032,
+      "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/history/history-bar-hover.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 640,
+      "mode": "P",
+      "bytes": 306,
+      "sha256": "332accb0795144d4507ce2df66ed87e0a12328c4dbde061e8db2ae2ec0e1c548",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/history/history-bar-idle.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 864,
+      "sha256": "4dfd90348d66c5f5f2900b1e712cda2d2fb0f66df4393745829ab07c41494a67",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/history/history-bar-knob.png",
+      "format": "PNG",
+      "width": 60,
+      "height": 60,
+      "mode": "RGBA",
+      "bytes": 288,
+      "sha256": "c9dba440e39080ac63f81e8d17adb82911b9e37aa335a0b0a5f1519e411baeb1",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/history/history-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 191580,
+      "sha256": "c61876ed73190544ca27d654c2a18b8ec604094e2fd940e7b2d1c6ac7d491f57",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/history/history-item-hover.png",
+      "format": "PNG",
+      "width": 1100,
+      "height": 200,
+      "mode": "RGBA",
+      "bytes": 10082,
+      "sha256": "f0eba004bf9c2198f736611d9af98090dc2163d040d03608667c445b30e3ea35",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/history/history-item-idle.png",
+      "format": "PNG",
+      "width": 1100,
+      "height": 200,
+      "mode": "RGBA",
+      "bytes": 9912,
+      "sha256": "ac6e36650ea279c8c5a4d1657258559bf6e632e8e71724fa64632c7fbc73736b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 31280,
+      "sha256": "c8c13ee8a2d0858ee14c3a9d5bf32d111d27d83327baa455db0c33f613a0c7ae",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-item-hover.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 23284,
+      "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-item-idle.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 26739,
+      "sha256": "5a1a47debacda82ec3fde46ed0d6fa91a1e90a212364b68e102cde872b5d6f8c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-item-press.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 13876,
+      "sha256": "9df7a4da62ffe87946f2ca3d6a31e77c9ac9fb4ab059d968242ba1ecdd48dce6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-1-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-1-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-1-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-2-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-2-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-2-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-3-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-3-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-3-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-4-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-4-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-4-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-5-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-5-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/load/load-page-5-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/message/auto.png",
+      "format": "PNG",
+      "width": 113,
+      "height": 44,
+      "mode": "RGBA",
+      "bytes": 6189,
+      "sha256": "c823a7fa74494a9819c4f240acecd98d26cbab600b3497aa0ed3118dea29111b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/message/click1.png",
+      "format": "PNG",
+      "width": 40,
+      "height": 48,
+      "mode": "RGBA",
+      "bytes": 4052,
+      "sha256": "43ce9a3731838f3481e530fe125773b7f5c8db43fb9184580181b9984d7c30b8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/message/click2.png",
+      "format": "PNG",
+      "width": 32,
+      "height": 32,
+      "mode": "RGBA",
+      "bytes": 124,
+      "sha256": "c7504eeb994eb453cf0ba3e846771eb820e499f5d84900a6fa8a5d98a379c160",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/message/msgbox-nvl.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 8419,
+      "sha256": "c39b6b56babac1c36e2c87278b9aa9a1e0dc3f5ad0797e9f27c1398d90e38e08",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/message/msgbox.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 182,
+      "mode": "RGBA",
+      "bytes": 6247,
+      "sha256": "a47ed1a581de0451e632df10a3d4c3a85efa8e7dbcaf6eb2a5f86cc968023b90",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/message/namebox.png",
+      "format": "PNG",
+      "width": 380,
+      "height": 60,
+      "mode": "RGBA",
+      "bytes": 5463,
+      "sha256": "2e6bfba7f163983a59557e8a9797232a8dc01fd56344c9b9a615f5f12e4adea5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/message/skip.png",
+      "format": "PNG",
+      "width": 113,
+      "height": 44,
+      "mode": "RGBA",
+      "bytes": 6191,
+      "sha256": "57a1bb95102844dc7cfa9bd49b14c4e3b206640a0d5a83806929643255907407",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 92708,
+      "sha256": "38ff4c09a925b65fa2ad22f9a0869385fff1effd4aea1681deb73ad5d51036ea",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-item-hover.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 23284,
+      "sha256": "7374e30963e02bf17aae84ec241da79e250413ea99b5bed98c35a8600e90a17b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-item-idle.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 26739,
+      "sha256": "b516a11e0005eb2eefd14b4d0187318d21baeeb79199091dd5addbab2c5af75c",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-item-press.png",
+      "format": "PNG",
+      "width": 587,
+      "height": 244,
+      "mode": "RGBA",
+      "bytes": 13876,
+      "sha256": "54b0253f5f7066e01b9fbf483d5b1969a52b708e594d79218a66e99be6b6117b",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-1-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-1-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4361,
+      "sha256": "32aee46391ffc231c6617ab3fe34f31ce448d08d9b9a5237336cf203c97a2c4d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-1-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-1.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4176,
+      "sha256": "f6f8651a02f1960ccf892d14b739f1a8cca8911459fd9d6b3f4c73699d84ed9d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-2-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-2-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4623,
+      "sha256": "8f7213deabb7f5c7ae4b08b3e3dd3c8d57a1cfb41b8bc8295265f2935d3cdfd5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-2-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-2.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4479,
+      "sha256": "be482e0ee586748b8f21e9913f65a1ce0f11f6804d5056c6425ff2d3dbe029b6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-3-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-3-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4881,
+      "sha256": "71ce10bee08e7a1a58727b8757d89d828fcf18361797f11b17ad36e5eb3be9cc",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-3-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-3.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4685,
+      "sha256": "317fea9ae20c22fe7f7bd12fa98583303817d6a37b5d79466bab502c661f7f96",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-4-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-4-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4692,
+      "sha256": "58057684e8a38ac50f6bd866f078a092005e8530f264400e511f8357bdfe7ac5",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-4-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-4.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4538,
+      "sha256": "266cdc0b86d0d47069b49c23b00100a23ec91473d58897e3008dfcf44494336f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-5-active.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-5-hover.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4761,
+      "sha256": "d4fdc514fab6433ec51428b81fa3a179c4ae9b81003c7e32f1e65f5eacb67d41",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-5-idle.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/save/save-page-5.png",
+      "format": "PNG",
+      "width": 89,
+      "height": 62,
+      "mode": "RGBA",
+      "bytes": 4562,
+      "sha256": "a3d0d385a95c18d2d623fb58f3cd21a57fc167ccc03feddedf75cd285f61e6c8",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysbtn/sysbtn-hover.png",
+      "format": "PNG",
+      "width": 67,
+      "height": 53,
+      "mode": "RGBA",
+      "bytes": 1256,
+      "sha256": "073581e04dd51ef70f888442797c4b801cfb1bbf149d296658f124aee0da75df",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysbtn/sysbtn-idle.png",
+      "format": "PNG",
+      "width": 67,
+      "height": 53,
+      "mode": "RGBA",
+      "bytes": 1190,
+      "sha256": "bd320d405c5c39223f3336e1a90b7cd1ef3b837878d6bc4ca1236c1d158deedd",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/auto-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2917,
+      "sha256": "ff08e252b6d131ed9804c01fabd52363f2b0f43c3d8111127d2e50d099024426",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/auto-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3550,
+      "sha256": "a9654c7977cefb55a4267f24eb6daf19ef52a40bcdf17d00d51d140f26ec17ee",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/auto-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2984,
+      "sha256": "fd29934a90e73b8b8803edd3247d85f3d54bac398926273c0fb631fa426098aa",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/base.png",
+      "format": "PNG",
+      "width": 542,
+      "height": 110,
+      "mode": "RGBA",
+      "bytes": 27268,
+      "sha256": "303a656348b0dc99e6f8e649671644db321808f00d12e8740c1797f6f78f208e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/config-hover.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 4373,
+      "sha256": "530b056e24d293e03823ec94715c9d22b939b143ac4df89e25516687b5bbc099",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/config-idle.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 5189,
+      "sha256": "2f932213ef31839f3fcd032e4f2b373ea04e68733fe76d8c8901afcba0fbbeb2",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/config-press.png",
+      "format": "PNG",
+      "width": 87,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 4245,
+      "sha256": "b891bba3c88795ad99234a827f6c7047f40d6272624565be06154517bd0f86e7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/load-hover.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2861,
+      "sha256": "cbe30aee878d360eb58ed1279388ce2ad7119d01263682f294f5bb22eb1d107e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/load-idle.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3322,
+      "sha256": "ddee9dda5c2ab3a6948db7d0ef15950eae0db9027c118c604af57e72a886c7f6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/load-press.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 2869,
+      "sha256": "625a3ea9668183cefe1403cb558d22beb57bf7b035640213a9c003bee7c329b7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/log-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3408,
+      "sha256": "2ff1f11693d1948485b98584ab61e0eb4ceaa1d757581b5e87864434a027082a",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/log-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 4025,
+      "sha256": "060f3b7524d4c5441f0ff1b4f0474753bfa6c65d9a45dfce4a455032d89a1918",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/log-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3370,
+      "sha256": "7b0cbc668a27a25f34e6ed74cd9a9a1731ae5f7acab6e92b6ca2ec7ad84051d0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/save-hover.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3193,
+      "sha256": "c7cba12897265da73e740e828a62c08d59d4449dd7ffa978ec6b402c2a684719",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/save-idle.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3652,
+      "sha256": "04851a0d5470d20663601d1c61efe28e5f4f7e8ba9d19f1b333ff81823e7090d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/save-press.png",
+      "format": "PNG",
+      "width": 82,
+      "height": 87,
+      "mode": "RGBA",
+      "bytes": 3029,
+      "sha256": "3f74d0ab6f83b639881e44c33d2ec57254222a66bd050db04745d8b88bb6de17",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/skip-hover.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3218,
+      "sha256": "6fb72c303ee8b38d6d76506f7e7cd7e096d52ac7fc1bc6a46ce81fe734a1b806",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/skip-idle.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3721,
+      "sha256": "1aa5189407f4226dfebf5fd357118c16548a6f98875d9d663925828b1cadcd9f",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/sysmenu/skip-press.png",
+      "format": "PNG",
+      "width": 86,
+      "height": 88,
+      "mode": "RGBA",
+      "bytes": 3089,
+      "sha256": "8afa466c4ab757defd7d63a998ea966a109734b7d5e8f721ba949def60ffca70",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/title/base.png",
+      "format": "PNG",
+      "width": 1280,
+      "height": 720,
+      "mode": "RGBA",
+      "bytes": 290715,
+      "sha256": "1f827ed117e8857d73b131cae054a93e6a3843960b221d777ad89ec1bf167cb0",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/title/start-hover.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 20564,
+      "sha256": "122cb56a0f364ffb40426cf711684ec646e3085189d1430e965a470b640b3ce7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/title/start-idle.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 20548,
+      "sha256": "b1c16fd24b9d4154dd541a274e436fbf317d2faa6dec710f4027ed44e1f5d869",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "system/title/start-press.png",
+      "format": "PNG",
+      "width": 128,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 16985,
+      "sha256": "1fd678ac5f4d3ce447151be8c47fbaed7d530a1fc72c95bc22c26a28c5f97678",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/icon.png",
+      "format": "PNG",
+      "width": 512,
+      "height": 512,
+      "mode": "RGBA",
+      "bytes": 89486,
+      "sha256": "d72482e2067b5d0bce1f3f40c639b2b322da86e175378bad7e3161aac7e19331",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/background.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 1280,
+      "mode": "RGB",
+      "bytes": 11796,
+      "sha256": "c8e4995f6b4487a70f81fd4a9bc3c42487a09e1be2f0a9cc99e5814f966485ac",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/button-light.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 5691,
+      "sha256": "8b20d7c1b6fb7f8d778e1149063667780a1e7579e226c83cc49f1372c0a342f9",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/button.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 128,
+      "mode": "RGBA",
+      "bytes": 6499,
+      "sha256": "4b92edbdebaf3261fd47d61f4b5cc3646af37f364f11fe812d72b55a02e0aff6",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/combo.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 140,
+      "mode": "RGBA",
+      "bytes": 12821,
+      "sha256": "5309f070f3eb3a3eecbd00d1f9fa497d5ccbabdc0be974032971702bb220daab",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-0.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 5105,
+      "sha256": "ddcc6348ba2585f4c501f98436592a7c72e34a896f048d4a77feb4d4bf5438aa",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-1.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 1933,
+      "sha256": "7d564097939439c371e25c401624204d0c6e7d9b305c7880be092a739d62794d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-2.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 4561,
+      "sha256": "5b74ae306385e0c3402e31a8920b1a9e5f272bfec727cc4181754e8004c64108",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-3.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 5545,
+      "sha256": "aea8724531d040016f4a483f1494224f17b1fe9c0c82a0112ced27ad33500b1d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-4.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 2876,
+      "sha256": "5c2fa33cf55b23be30825484b6cb4d9ba8b7ec6fd7f072dbfc89e9c84dd1e674",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-5.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 4532,
+      "sha256": "585038d1a408d4cd58dfdd9c945c32cace160da91234b39cc1cc6d95f7dc480d",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-6.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 5217,
+      "sha256": "5fee12e57b5e451c36b76d192a0309b93da556f193d67c0f883f4e428b1bb367",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-7.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 3252,
+      "sha256": "665b33535560a24694c9978c407dd2f15b0454a2f1d7bed1aeee66f0ef95ff44",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-8.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 5683,
+      "sha256": "6b8fcf8cf0d23f9aafed89c600c1e744bbde8f3f0bd2cf590e2f3ea598ca2a75",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/digit-9.png",
+      "format": "PNG",
+      "width": 100,
+      "height": 148,
+      "mode": "RGBA",
+      "bytes": 5089,
+      "sha256": "31dc730168a8c5340bd5e8bbcb9f21991d615f6648d7a1217951f1006829b756",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/finish.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 140,
+      "mode": "RGBA",
+      "bytes": 8844,
+      "sha256": "4138de2681bdb09fd0a2f197d4936efb6dadb960fcd10a9503a58156c4a9d010",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/full-combo.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 140,
+      "mode": "RGBA",
+      "bytes": 11670,
+      "sha256": "b13a2b38cb7ef7025df7d2645b795cad427d45fd27de0a39d569ffc9126c4b06",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/glow.png",
+      "format": "PNG",
+      "width": 256,
+      "height": 140,
+      "mode": "RGBA",
+      "bytes": 6146,
+      "sha256": "2b62488ed6bac953f7a1e525deac4addb4c4d004f7b80be8925fa6849f37c258",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/good.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 140,
+      "mode": "RGBA",
+      "bytes": 10886,
+      "sha256": "a16380c14800c66d9d2d2e0699deda2456c8c3320c817e65a71044fd8a507c1e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/lanes.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 1280,
+      "mode": "RGBA",
+      "bytes": 11458,
+      "sha256": "c0c99a8935b8c5aed88ceeec740eff482a8801138f6ad45bccb8e9ef373b3db4",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/miss.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 140,
+      "mode": "RGBA",
+      "bytes": 5443,
+      "sha256": "d8442b3faf5cf6d31b043f38a7f5cf6c466478d80d980901434e721a351d6aa3",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/note.png",
+      "format": "PNG",
+      "width": 220,
+      "height": 92,
+      "mode": "RGBA",
+      "bytes": 5933,
+      "sha256": "7ef9bc5f6970570d78bea337fe08101b8d2702a1d3cac1630898048d200c9178",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/pad-coral.png",
+      "format": "PNG",
+      "width": 268,
+      "height": 216,
+      "mode": "RGBA",
+      "bytes": 11596,
+      "sha256": "92419f4ca84a286a439acfa92df230cf849641914d8537f47320b06fa60dd279",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/pad-mint.png",
+      "format": "PNG",
+      "width": 268,
+      "height": 216,
+      "mode": "RGBA",
+      "bytes": 12665,
+      "sha256": "a1097ccd9fbd032d10d6fab8c697b5fd92faccaaa0dd3adf891f9a7c0e50df9e",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/pad-peach.png",
+      "format": "PNG",
+      "width": 268,
+      "height": 216,
+      "mode": "RGBA",
+      "bytes": 11624,
+      "sha256": "46bc76c01619d51791cc776f58f89166dd04da5e0af96d221ee1f173f30abe75",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/panel.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 640,
+      "mode": "RGBA",
+      "bytes": 7970,
+      "sha256": "5a1ce7a4a3372456035f5055a01a27c0d97d0ee3f678a7f0d862f744678f8879",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/perfect.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 140,
+      "mode": "RGBA",
+      "bytes": 8716,
+      "sha256": "657c61d47e1dfc739cac39b82e6b64695926ee3ad76d166ce37ccf7cd02a70c2",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/pill.png",
+      "format": "PNG",
+      "width": 340,
+      "height": 76,
+      "mode": "RGBA",
+      "bytes": 2707,
+      "sha256": "eddadbdf5f3ad651b88c8d10953b205e7b00bcd8933a8720ebc44da17a4183b7",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/seed.png",
+      "format": "PNG",
+      "width": 36,
+      "height": 48,
+      "mode": "RGBA",
+      "bytes": 900,
+      "sha256": "9fb4802102aeae030cedba586f6b551e7e10f1e1674e7234418e9e6cc62420a9",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/star.png",
+      "format": "PNG",
+      "width": 80,
+      "height": 80,
+      "mode": "RGBA",
+      "bytes": 2497,
+      "sha256": "c20c061a5125b845a7d552e4e615d00cc68cb53ee94c07174f56562cbfcfc7a3",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    },
+    {
+      "path": "suika-beat/assets/ui/wordmark.png",
+      "format": "PNG",
+      "width": 720,
+      "height": 140,
+      "mode": "RGBA",
+      "bytes": 15859,
+      "sha256": "ddf93081e8f9ebd30307791caea9245b11360fea633544a928179a2e6797c9ed",
+      "status": "SDK或现有演示材料；禁止自动采用"
+    }
+  ],
+  "imageCount": 530,
+  "adoptedCount": 0
+}

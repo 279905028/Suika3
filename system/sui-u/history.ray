@@ -1,0 +1,170 @@
+// Native backlog viewer. The bundled GUI historyscroll widget is inert;
+// keep its GUI lifecycle/back action and render only the history contents here.
+// The menu dispatches H through the private native variable sui_ui_action.
+var suiHistoryActive = false;
+var suiHistoryRows = [];
+var suiHistoryPage = 0;
+var suiHistoryPages = 1;
+var suiHistoryTextures = [];
+var suiHistoryPageText = {};
+var suiHistoryPageTextLive = false;
+var suiHistoryUI = {};
+var suiHistoryDown = false;
+var suiHistoryDragging = false;
+var suiHistoryKeys = {};
+
+func suiHistoryStart() {
+    Suika.setVariableString({name: "sui_ui_action", value: ""});
+    suiHistoryUI.base = Engine.loadTexture({file: "system/sui-u/png/history.png"});
+    suiHistoryUI.row = Engine.loadTexture({file: "system/sui-u/png/history-item-idle.png"});
+    suiHistoryUI.hover = Engine.loadTexture({file: "system/sui-u/png/history-item-hover.png"});
+    suiHistoryUI.scroll = Engine.loadTexture({file: "system/sui-u/png/scroll-idle.png"});
+    suiHistoryUI.knob = Engine.loadTexture({file: "system/sui-u/png/scroll-knob.png"});
+}
+func suiHistoryText(value, size, accent) {
+    if (value == "") value = " ";
+    if (accent) return Engine.createTextTexture({slot: 1, text: value, size: size, r: 169, g: 208, b: 195, a: 255});
+    return Engine.createTextTexture({slot: 1, text: value, size: size, r: 238, g: 234, b: 224, a: 255});
+}
+func suiHistoryAppend(name, message, voice) {
+    var line = "";
+    var lines = [];
+    for (i in 0..String.charCount(message)) {
+        var c = String.charAt(message, i);
+        if (c == "\n") {
+            Array.push(lines, line);
+            line = "";
+        } else {
+            line = line + c;
+            if (String.charCount(line) >= 38) { Array.push(lines,line); line = ""; }
+        }
+        if (Array.size(lines) == 4) {
+            Array.push(suiHistoryRows, {name: name, lines: lines, voice: voice});
+            lines = [];
+        }
+    }
+    if (line != "" || String.charCount(message) == 0) Array.push(lines,line);
+    if (Array.size(lines) > 0) Array.push(suiHistoryRows,{name: name, lines: lines, voice: voice});
+}
+func suiHistoryReleasePage() {
+    for (row in suiHistoryTextures) {
+        Engine.destroyTexture({texture: row.name});
+        for (line in row.lines) Engine.destroyTexture({texture: line});
+    }
+    suiHistoryTextures = [];
+    if (suiHistoryPageTextLive) Engine.destroyTexture({texture: suiHistoryPageText});
+    suiHistoryPageTextLive = false;
+}
+func suiHistoryPreparePage() {
+    suiHistoryReleasePage();
+    var end = Array.size(suiHistoryRows) - suiHistoryPage * 2;
+    var start = end - 2;
+    if (start < 0) start = 0;
+    for (i in start..end) {
+        var row = suiHistoryRows[i];
+        var tex = {name: suiHistoryText(row.name,22,true), hasName: row.name != "", lines: [], voice: row.voice};
+        for (line in row.lines) Array.push(tex.lines,suiHistoryText(line,26,false));
+        Array.push(suiHistoryTextures,tex);
+    }
+    var label = "暂无阅读记录";
+    if (Array.size(suiHistoryRows)>0) label = "第 " + (suiHistoryPages-suiHistoryPage) + " / " + suiHistoryPages + " 页";
+    suiHistoryPageText = suiHistoryText(label,22,true);
+    suiHistoryPageTextLive = true;
+}
+func suiHistorySetPage(next) {
+    if (next < 0 || next >= suiHistoryPages || next == suiHistoryPage) return;
+    suiHistoryPage = next;
+    suiHistoryPreparePage();
+    suiUITrace("history-page|page=" + (suiHistoryPages-suiHistoryPage));
+}
+func suiHistoryEdge(key, down) {
+    var old = false;
+    if (Dict.hasKey(suiHistoryKeys,key)) old = suiHistoryKeys[key];
+    suiHistoryKeys[key] = down;
+    return down && !old;
+}
+func suiHistoryAfterUpdate() {
+    if (!Suika.isGUIRunning()) {
+        if (suiHistoryActive) {
+            suiHistoryReleasePage();
+            suiHistoryRows = [];
+            suiHistoryActive = false;
+        }
+        return;
+    }
+    var action = Suika.getVariableString({name: "sui_ui_action"});
+    if (action == "") return;
+    Suika.setVariableString({name: "sui_ui_action", value: ""});
+    if (action != "H") return;
+    var wasDown = Engine.isMouseLeftPressed || Suika.isMouseLeftPressed() || Suika.isMouseDragging();
+    if (!Suika.loadGUIFile({file: "system/sui-u/gui/history.gui", isSys: true})) return;
+    Suika.clearInputState();
+    Suika.startGUI();
+    suiHistoryActive = true;
+    suiHistoryRows = [];
+    suiHistoryPage = 0;
+    suiHistoryKeys = {};
+    suiHistoryDown = wasDown;
+    suiHistoryDragging = false;
+    var count = Suika.getHistoryCount();
+    // Suika history index 0 is the most recent entry.
+    for (i in 0..count) {
+        var index = count-1-i;
+        suiHistoryAppend(Suika.getHistoryName({index: index}),Suika.getHistoryMessage({index: index}),Suika.getHistoryVoice({index: index}));
+    }
+    suiHistoryPages = (Array.size(suiHistoryRows)+1)/2;
+    if (suiHistoryPages < 1) suiHistoryPages = 1;
+    suiHistoryPreparePage();
+    suiUITrace("history-open|entries="+count+"|pages="+suiHistoryPages);
+}
+func suiHistoryUpdate() {
+    var down = Engine.isMouseLeftPressed || Suika.isMouseLeftPressed() || Suika.isMouseDragging();
+    var click = down && !suiHistoryDown;
+    suiHistoryDown = down;
+    if (suiHistoryEdge("up",Engine.isUpKeyPressed) || suiHistoryEdge("pageup",Engine.isPageupKeyPressed)) suiHistorySetPage(suiHistoryPage+1);
+    if (suiHistoryEdge("down",Engine.isDownKeyPressed) || suiHistoryEdge("pagedown",Engine.isPagedownKeyPressed)) suiHistorySetPage(suiHistoryPage-1);
+    if (click && suiGalleryHit(64,588,176,56)) suiHistorySetPage(suiHistoryPage+1);
+    if (click && suiGalleryHit(1040,588,176,56)) suiHistorySetPage(suiHistoryPage-1);
+    if (click && suiGalleryHit(1174,136,44,444)) suiHistoryDragging = true;
+    if (!down) suiHistoryDragging = false;
+    if (suiHistoryDragging && suiHistoryPages>1) {
+        var nearest = 0;
+        var distance = 100000;
+        for (i in 0..suiHistoryPages) {
+            var y = 168 + 380*(suiHistoryPages-1-i)/(suiHistoryPages-1);
+            var d = Math.abs(Engine.mousePosY-y);
+            if (d < distance) { nearest=i; distance=d; }
+        }
+        suiHistorySetPage(nearest);
+    }
+    if (click) for (i in 0..Array.size(suiHistoryTextures)) {
+        var row = suiHistoryTextures[i];
+        if (row.voice != "" && suiGalleryHit(64,146+i*214,1080,208)) {
+            var ok = Suika.setMixerInputFile({track: Suika.TRACK_VOICE, file: row.voice, isLooped: false});
+            suiUITrace("history-voice|ok="+ok+"|file="+row.voice);
+        }
+    }
+}
+func suiHistoryRender() {
+    Engine.draw({texture:suiHistoryUI.base,x:0,y:0});
+    for (i in 0..Array.size(suiHistoryTextures)) {
+        var row=suiHistoryTextures[i];
+        var y=146+i*214;
+        var panel=suiHistoryUI.row;
+        if (row.voice!="" && suiGalleryHit(64,y,1080,208)) panel=suiHistoryUI.hover;
+        Engine.draw({texture:panel,x:64,y:y});
+        var textY=y+20;
+        if (row.hasName) { Engine.draw({texture:row.name,x:88,y:y+16}); textY=y+52; }
+        var n=0;
+        for (line in row.lines) { Engine.draw({texture:line,x:88,y:textY+n*36}); n=n+1; }
+    }
+    Engine.draw({texture:suiGalleryUI.back,x:1080,y:32});
+    if (suiHistoryPage+1<suiHistoryPages) Engine.draw({texture:suiGalleryUI.prev,x:64,y:588});
+    if (suiHistoryPage>0) Engine.draw({texture:suiGalleryUI.next,x:1040,y:588});
+    Engine.draw({texture:suiHistoryPageText,x:554,y:602});
+    if (suiHistoryPages>1) {
+        Engine.draw({texture:suiHistoryUI.scroll,x:1184,y:146});
+        var y=146+380*(suiHistoryPages-1-suiHistoryPage)/(suiHistoryPages-1);
+        Engine.draw({texture:suiHistoryUI.knob,x:1184,y:y});
+    }
+}

@@ -1,0 +1,180 @@
+{
+  "task": "SUI-A03",
+  "requirements": [
+    {
+      "id": "prop-zhouzhi-personal-box",
+      "kind": "personal-prop",
+      "owner": "SUI-A03",
+      "name": "私人物品箱/折伞/耳饰/发圈",
+      "deliverableMode": "持物/局部/派生照片候选",
+      "productionStatus": "需求已定位；本工程采用未登记",
+      "constraints": "借还连续，与公有设备箱分开",
+      "sources": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 33,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "我抱起她指的箱子，里面是外套、水杯和几包没拆的纸巾。很轻。她又把歌单塞了进去，最末那页有一首《后来》，蓝笔划掉，黑笔重新写了一次。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 627,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "306的茶几已经搬走，地毯上留着一圈深色水印。我把折伞靠到门后，腾出手搬箱子。她先去检查角落的纸袋，找出自己丢过的一个耳饰，站到残留的半面镜子前戴上，又摘下来。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 691,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "我说已经听见了。她抿着嘴看我，我起身，把她掉在地上的发圈递过去。我们都没把不合适的话装作没发生，也没有为一句话把昨夜全判成假的。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "packageRepresentation": {
+        "deliveredRepresentation": [
+          "角色图内的同款耳饰",
+          "角色扎发差分"
+        ],
+        "notSeparateImages": [
+          "私人物品箱",
+          "折伞",
+          "发圈独立特写"
+        ],
+        "continuity": [
+          "私人物品箱与设备箱分开",
+          "折伞按借还和门后遗留顺序切换，不画成一直随身",
+          "取物找到的耳饰沿用基础图圈形，不换新款"
+        ],
+        "mode": "未安排独立特写时按文字或场景表示；A09要求特写时本包提供专用参考"
+      },
+      "runtimeBound": false,
+      "sourcePolicy": "A01需求键作为需求族，不承诺一项必制一张独立图；逐镜特写依A09放行"
+    },
+    {
+      "id": "prop-zhouzhi-song-list",
+      "kind": "personal-prop",
+      "owner": "SUI-A03",
+      "name": "歌单",
+      "deliverableMode": "持物/局部/派生照片候选",
+      "productionStatus": "需求已定位；本工程采用未登记",
+      "constraints": "《后来》修改痕迹，不制作未给歌词；跨章同本",
+      "sources": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 33,
+          "heading": "完整内容",
+          "nearestNode": null,
+          "quote": "我抱起她指的箱子，里面是外套、水杯和几包没拆的纸巾。很轻。她又把歌单塞了进去，最末那页有一首《后来》，蓝笔划掉，黑笔重新写了一次。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "packageRepresentation": {
+        "deliveredRepresentation": [],
+        "notSeparateImages": [
+          "歌单正面及末页特写"
+        ],
+        "continuity": [
+          "《后来》蓝笔划掉、黑笔重写，跨章同一本",
+          "第60天文文交还周栀，不与采购单互用",
+          "只保留已给歌名，不生成歌词或其他曲目"
+        ],
+        "mode": "可读正面或特写待A09明确镜头需求；本批不谎报歌单图已制作"
+      },
+      "runtimeBound": false,
+      "sourcePolicy": "A01需求键作为需求族，不承诺一项必制一张独立图；逐镜特写依A09放行"
+    },
+    {
+      "id": "prop-zhouzhi-planning",
+      "kind": "personal-prop",
+      "owner": "SUI-A03",
+      "name": "摊位图/采购单",
+      "deliverableMode": "持物/局部/派生照片候选",
+      "productionStatus": "需求已定位；本工程采用未登记",
+      "constraints": "试摊不等于职业转型完成，文字按正文",
+      "sources": [
+        {
+          "path": "scenario/第一章-回到毕节.md",
+          "line": 395,
+          "heading": "第5—7天｜有人要去贵阳",
+          "nearestNode": null,
+          "quote": "她没继续笑我，从袋子里拿出一张夜市的摊位示意图，压在菜单底下。回声第三十天停业，她跟阿英打算第六十天去贵阳试夜宵摊。",
+          "sha256": "800780eb33725e9b2e38d750dc443ead5da6ec196b3d553a09acd080d39b3919"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 719,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "第45天，她拿着一张采购单来网吧。阿英写的字很密，她在旁边补了几种菜，说自己切坏的那些还得重新试。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "packageRepresentation": {
+        "deliveredRepresentation": [
+          "planning差分中的采购单背面"
+        ],
+        "notSeparateImages": [
+          "摊位示意图正面",
+          "采购单可读正面"
+        ],
+        "continuity": [
+          "折叠采购单只展示纸背，无金额、日期或数量",
+          "第45天与阿英共同采购计划，不代表创业完成",
+          "摊位图与采购单不是同一张图"
+        ],
+        "mode": "已有持纸动作；正面细节由A09镜头需要决定"
+      },
+      "runtimeBound": false,
+      "sourcePolicy": "A01需求键作为需求族，不承诺一项必制一张独立图；逐镜特写依A09放行"
+    },
+    {
+      "id": "prop-zhouzhi-blue-rim-cup",
+      "kind": "personal-prop",
+      "owner": "SUI-A03",
+      "name": "蓝沿白杯",
+      "deliverableMode": "持物/局部/派生照片候选",
+      "productionStatus": "需求已定位；本工程采用未登记",
+      "constraints": "与黄球球写名双杯、旧房缺口杯独立",
+      "sources": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 603,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "我到时她在杯子货架前，头发扎得乱，眼下有没睡够的痕迹。她拿起蓝沿白杯，问不好看吗。我点头又赶紧摇头，她翻个白眼。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        },
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 983,
+          "heading": "完整内容",
+          "nearestNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "quote": "第74天睡前，贵阳的天气预报说会下雨。我把材料袋又套了一层，伞放到最容易拿的位置。蓝沿白杯洗干净，留在柜台。",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "packageRepresentation": {
+        "deliveredRepresentation": [
+          "tied-tired-cup差分中的白杯蓝沿单把手"
+        ],
+        "notSeparateImages": [
+          "杯子独立转面或包装特写"
+        ],
+        "continuity": [
+          "第36天超市拿杯当拍使用，街边吃洋芋前退出",
+          "第60天所有四组合都把杯交文文",
+          "第74天杯在网吧柜台，不是随她留在贵阳",
+          "与黄球球写名双杯及旧房缺口杯区分"
+        ],
+        "mode": "已完成角色持杯表现；本批不单独生成商品式杯子图"
+      },
+      "runtimeBound": false,
+      "sourcePolicy": "A01需求键作为需求族，不承诺一项必制一张独立图；逐镜特写依A09放行"
+    }
+  ]
+}

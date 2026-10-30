@@ -1,0 +1,424 @@
+[
+  {
+    "assetId": "char-zhouzhi-human-option-a-base",
+    "ownerTask": "SUI-A03",
+    "package": "SUI-A03",
+    "sourceFile": "assets/sources/20261028/SUI-A03/option-a/char-zhouzhi-human-base-neutral-v001.png",
+    "existingWebP": "assets/sources/20261028/SUI-A03/option-a/char-zhouzhi-human-base-neutral-v001.webp",
+    "upstreamRecord": "assets/sources/20261028/SUI-A03/resource-records.json",
+    "upstreamRecordIndex": 9,
+    "expectedSourceSha256": "a56144b9b9b56a0a5b409ed023f72122eac4ee87597681a455efdde9cb441353",
+    "expectedWebPSha256": "2a4cf291b6e39277c8b0e31238ee3470b258b3b0609cf01e567f068c7859249d",
+    "role": "pending_adoption_review",
+    "selected": false,
+    "upstreamStatus": "比较留存（未选）",
+    "upstreamApproval": {
+      "appearanceEvidence": [
+        "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+      ],
+      "imageEvidence": [],
+      "baseApproval": "unselected_option",
+      "currentProjectAdopted": false,
+      "adoptionEvidence": null
+    },
+    "upstreamEncoding": {
+      "tool": "Pillow/libwebp",
+      "version": "11.3.0/1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "quality": null
+    },
+    "placement": {
+      "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+      "pivot": [
+        512,
+        1536
+      ],
+      "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+      "criticalRect": [
+        340,
+        115,
+        350,
+        310
+      ],
+      "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+      "actionRect": null,
+      "cropRect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "uiMaskReference": "system/sui-u/integration.json",
+      "previewPlacement": {
+        "canvas": [
+          1280,
+          720
+        ],
+        "x": 435,
+        "y": 64,
+        "scale": 0.4,
+        "frozenForRuntime": false
+      }
+    },
+    "usage": null,
+    "binding": {
+      "routeIds": [
+        "zhouzhi"
+      ],
+      "sceneNodeIds": [],
+      "condition": "未选用；不进入待采用集合",
+      "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+      "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+    },
+    "conditions": null,
+    "lifecycle": null,
+    "displayPolicy": null,
+    "anchors": [
+      {
+        "path": "scenario/周栀-十一点四十七分.md",
+        "line": 189,
+        "quote": "她今天本来就没上班。",
+        "heading": "## 第四章｜这句话她也说过",
+        "nearestDeclaredNode": null,
+        "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+      }
+    ],
+    "requiresApproval": true,
+    "adoptionApproved": false,
+    "runtimeAdopted": false
+  },
+  {
+    "assetId": "char-mengyao-human-teaching-option-b",
+    "ownerTask": "SUI-A04",
+    "package": "SUI-A04",
+    "sourceFile": "assets/sources/20261028/SUI-A04/option-b/char-mengyao-human-teaching-base-v001.png",
+    "existingWebP": "assets/sources/20261028/SUI-A04/option-b/char-mengyao-human-teaching-base-v001.webp",
+    "upstreamRecord": "qa/SUI-A04-20261028/resource-records.json",
+    "upstreamRecordIndex": 1,
+    "expectedSourceSha256": "9593c68b6685e784f695673b79b49aadc05076e5ae3624ee13d392d54e9cf8e7",
+    "expectedWebPSha256": "fdb9f0ed914e6afe120c1f5fdbcf71ea6859d1341472f51ce39273d83f997586",
+    "role": "pending_adoption_review",
+    "selected": false,
+    "upstreamStatus": "未选比较稿",
+    "upstreamApproval": {
+      "baseSelection": "qa/SUI-A04-20261028/approval.json",
+      "imageApproval": "未选；保留独立比较",
+      "currentProjectAdopted": false,
+      "adoptionEvidence": null
+    },
+    "upstreamEncoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "colorConversion": "none"
+    },
+    "placement": {
+      "coordinateBasis": "源图像素；左上原点",
+      "cropRect": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "pivot": [
+        512.0,
+        1536
+      ],
+      "pivotMeaning": "截幅图下边中心；不是脚底锚点，非NovelML坐标",
+      "criticalRects": {
+        "face": [
+          285,
+          140,
+          380,
+          340
+        ],
+        "handsOrProp": [
+          100,
+          700,
+          770,
+          475
+        ],
+        "coordinateBasis": "源图像素；人工保守范围[x,y,width,height]，以离线预览逐图复核"
+      },
+      "offlineUI": {
+        "scale": 0.3958333333333333,
+        "spriteRect": [
+          437,
+          24,
+          405,
+          608
+        ],
+        "screenBasis": "1280x720离线QA画布；不是运行定位参数",
+        "preview": "qa/SUI-A04-20261028/previews/char-mengyao-human-teaching-option-b-ui.png"
+      }
+    },
+    "usage": "仅保留独立A/B比较，不采用。",
+    "binding": {
+      "runtimeBound": false,
+      "sceneNodeIds": [],
+      "routeIds": [
+        "mengyao"
+      ],
+      "condition": "仅保留独立A/B比较，不采用。",
+      "enter": "由E/I按正文锚点接入；本包不写演出绑定",
+      "exitAndRestore": "换衣/持物切换需完整换图；读档/回退按剧情状态恢复，A11/I/E/Q另验"
+    },
+    "conditions": null,
+    "lifecycle": null,
+    "displayPolicy": null,
+    "anchors": [
+      {
+        "path": "docs/人物/孟遥.md",
+        "line": 35,
+        "heading": "表达与演出",
+        "nearestNode": null,
+        "quote": "现有栗色头发、米白衬衫形象仅为继承参考，本轮没有生产、复制或绑定新美术。原立绘中的相机不作为当前职业道具。美术制作仍须按新项目规范另行验收。",
+        "sha256": "5d7de1ca81a3464da647eaebbe92033677c50ce5fed8ba92d2513dc68748bb74"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 23,
+        "heading": "完整内容",
+        "nearestNode": null,
+        "quote": "负责人出来，把她叫到旁边，小声说先认个表达不清，别在走廊争。我站在楼梯拐角，看见她拿着考勤表，手指把纸边折起，又压平。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 618,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "她来时带着备课本，进门先放到桌上，说明早还得回机构。我看见本子旁边的手机，问陈晟知道她在这里吗。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      },
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 632,
+        "heading": "完整内容",
+        "nearestNode": "<!-- NODE MY-D36-RETURN -->",
+        "quote": "门关以后，杯子还多着一只，红笔落在她刚才放备课本的位置。我发消息问要不要送回，她说还有备用，下次再拿。后来几次碰面都没想起，它便一直留在抽屉里。我把杯子洗干净，放回平时的位置。昨夜确实发生过，可它没有替我换来她生活里的称呼，也没有替她取消丈夫。",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "requiresApproval": true,
+    "adoptionApproved": false,
+    "runtimeAdopted": false
+  },
+  {
+    "assetId": "piao-option-a",
+    "ownerTask": "SUI-A05",
+    "package": "SUI-A05",
+    "sourceFile": "assets/sources/20261028/SUI-A05/option-a/char-piao-human-base-painterly-v001.png",
+    "existingWebP": "assets/sources/20261028/SUI-A05/option-a/char-piao-human-base-painterly-v001.webp",
+    "upstreamRecord": "qa/SUI-A05-20261028/resource-records.json",
+    "upstreamRecordIndex": 0,
+    "expectedSourceSha256": "d362cfa61058a574849d3e41a155bd280ca8ca496a32e2c6424d00f9bee98540",
+    "expectedWebPSha256": "24fe6f85667e46c6a16e485c505b85b5bed5e028cf80ffdf3e0c3405705de937",
+    "role": "pending_adoption_review",
+    "selected": false,
+    "upstreamStatus": "未选对照；不撤销既有B",
+    "upstreamApproval": "未选对照；不撤销既有B",
+    "upstreamEncoding": {
+      "tool": "Pillow",
+      "version": "11.3.0",
+      "codec": "libwebp",
+      "codecVersion": "1.5.0",
+      "lossless": true,
+      "method": 6,
+      "exact": true,
+      "resized": false,
+      "colorConversion": "none"
+    },
+    "placement": {
+      "pivot": [
+        512.0,
+        1536
+      ],
+      "pivotMeaning": "截幅下边中心，非脚底、非运行坐标",
+      "cropRect": [
+        0,
+        0,
+        1024,
+        1536
+      ]
+    },
+    "usage": "同一已确认形象的较平滑绘制呈现；与B独立可看，不混入B差分。",
+    "binding": {},
+    "conditions": null,
+    "lifecycle": null,
+    "displayPolicy": null,
+    "anchors": [
+      {
+        "path": "docs/人物/飘.md",
+        "line": 31,
+        "quote": "采用 Option B＋双侧浅酒窝：黑色低马尾",
+        "heading": "## 已确认外形与资源",
+        "nearestNode": null,
+        "sha256": "daa7fdc7f3366f7c37788294215f9af7990575d467b0d40cc920c1c1d7ae837c"
+      }
+    ],
+    "requiresApproval": true,
+    "adoptionApproved": false,
+    "runtimeAdopted": false
+  },
+  {
+    "assetId": "yelan-a",
+    "ownerTask": "SUI-A07",
+    "package": "SUI-A07",
+    "sourceFile": "assets/sources/20261029/SUI-A07/yelan/option-a/char-yelan-base-v001.png",
+    "existingWebP": "assets/sources/20261029/SUI-A07/yelan/option-a/char-yelan-base-v001.webp",
+    "upstreamRecord": "assets/sources/20261029/SUI-A07/resource-records.json",
+    "upstreamRecordIndex": 8,
+    "expectedSourceSha256": "c9d51d426cb5c1fcf20d1f49bc886966ef619560e52dcc4c5fef30402c4cc10f",
+    "expectedWebPSha256": "9361e63d1050f92ab081bbffdf2aab1adaae35bd477e7b7a17eb138042775cb8",
+    "role": "pending_adoption_review",
+    "selected": false,
+    "upstreamStatus": "",
+    "upstreamApproval": {},
+    "upstreamEncoding": {
+      "format": "WebP",
+      "lossless": true,
+      "method": 6,
+      "exact": true
+    },
+    "placement": {
+      "pivot": [
+        512,
+        1536
+      ],
+      "pivotType": "大腿截幅下边中心，非脚底",
+      "coordinateBasis": "源图像素",
+      "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+    },
+    "usage": "用户未选的独立设计比较；不进入交付候选集合。",
+    "binding": {},
+    "conditions": null,
+    "lifecycle": null,
+    "displayPolicy": null,
+    "anchors": [
+      {
+        "path": "scenario/第二章-十四天.md",
+        "line": 324,
+        "quote": "这是我第一次在线下见她",
+        "heading": "#### 共同段",
+        "sha256": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9"
+      }
+    ],
+    "requiresApproval": true,
+    "adoptionApproved": false,
+    "runtimeAdopted": false
+  },
+  {
+    "assetId": "chensheng-a",
+    "ownerTask": "SUI-A07",
+    "package": "SUI-A07",
+    "sourceFile": "assets/sources/20261029/SUI-A07/chensheng/option-a/char-chensheng-base-v001.png",
+    "existingWebP": "assets/sources/20261029/SUI-A07/chensheng/option-a/char-chensheng-base-v001.webp",
+    "upstreamRecord": "assets/sources/20261029/SUI-A07/resource-records.json",
+    "upstreamRecordIndex": 12,
+    "expectedSourceSha256": "9cc25e8b2eeec9065d8f294b28cee50b84ff56a221d36c72eff1c304b2fd2a94",
+    "expectedWebPSha256": "932230fd7d411dbb2509b29874edcea08763d786de6ed38f91b006505e056af8",
+    "role": "pending_adoption_review",
+    "selected": false,
+    "upstreamStatus": "",
+    "upstreamApproval": {},
+    "upstreamEncoding": {
+      "format": "WebP",
+      "lossless": true,
+      "method": 6,
+      "exact": true
+    },
+    "placement": {
+      "pivot": [
+        512,
+        1536
+      ],
+      "pivotType": "大腿截幅下边中心，非脚底",
+      "coordinateBasis": "源图像素",
+      "headScaleAndPose": "同尺寸完整图替换；不是可叠加面部图层。视觉核对另记。"
+    },
+    "usage": "未选的独立外形比较稿。",
+    "binding": {},
+    "conditions": null,
+    "lifecycle": null,
+    "displayPolicy": null,
+    "anchors": [
+      {
+        "path": "scenario/孟遥-旧题.md",
+        "line": 269,
+        "quote": "穿一件洗得有点发白的深色外套",
+        "heading": "### 完整内容",
+        "sha256": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083"
+      }
+    ],
+    "requiresApproval": true,
+    "adoptionApproved": false,
+    "runtimeAdopted": false
+  },
+  {
+    "assetId": "photo-xiaoman-wenwen-day22-haircut-v001",
+    "ownerTask": "SUI-A02",
+    "package": "PREFLIGHT",
+    "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A02/photo-xiaoman-wenwen-day22-haircut-v001.png",
+    "existingWebP": null,
+    "upstreamRecord": "assets/sources/20261029-cg-preflight/resource-records.json",
+    "upstreamRecordIndex": 2,
+    "expectedSourceSha256": "313549e22377f27ed6fddf222400413d96de69d8ac50fc98d27a5ea813bef0cd",
+    "expectedWebPSha256": null,
+    "role": "reference_only",
+    "selected": false,
+    "upstreamStatus": "superseded-not-for-production",
+    "upstreamApproval": {},
+    "upstreamEncoding": {},
+    "placement": {
+      "pivot": null,
+      "pivotMeaning": null,
+      "cropRect": null
+    },
+    "usage": null,
+    "binding": {},
+    "conditions": null,
+    "lifecycle": null,
+    "displayPolicy": null,
+    "anchors": [],
+    "requiresApproval": true,
+    "adoptionApproved": false,
+    "runtimeAdopted": false
+  },
+  {
+    "assetId": "prop-piao-knots-reference-v001",
+    "ownerTask": "SUI-A05",
+    "package": "PREFLIGHT",
+    "sourceFile": "assets/sources/20261029-cg-preflight/SUI-A05/prop-piao-knots-reference-v001.png",
+    "existingWebP": null,
+    "upstreamRecord": "assets/sources/20261029-cg-preflight/resource-records.json",
+    "upstreamRecordIndex": 6,
+    "expectedSourceSha256": "d615b84009f0037e1adddc01de903f2eb859a76510fe9c54560f1462852211a4",
+    "expectedWebPSha256": null,
+    "role": "reference_only",
+    "selected": false,
+    "upstreamStatus": "superseded-not-for-production",
+    "upstreamApproval": {},
+    "upstreamEncoding": {},
+    "placement": {
+      "pivot": null,
+      "pivotMeaning": null,
+      "cropRect": null
+    },
+    "usage": null,
+    "binding": {},
+    "conditions": null,
+    "lifecycle": null,
+    "displayPolicy": null,
+    "anchors": [],
+    "requiresApproval": true,
+    "adoptionApproved": false,
+    "runtimeAdopted": false
+  }
+]

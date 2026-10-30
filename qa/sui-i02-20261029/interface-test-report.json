@@ -1,0 +1,201 @@
+{
+  "task": "SUI-I02",
+  "scope": "静态接口/负例与诊断样本；无用户采用、引擎或浏览器验收",
+  "interfaceSha256": "855d61be98cc7c19bb3e39c386c80715bf9ece5de6c22f68744fafd3efac5984",
+  "passed": 48,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "真实三图诊断合法输入",
+      "result": "pass"
+    },
+    {
+      "name": "未知schema版本",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "未知顶层字段",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "缺少必要字段",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "缺少快照参数",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "接口指纹漂移",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "绑定正文旧版本",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "绑定采用清单旧指纹",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "正文来源缺项",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "范围不一致",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "阶段缺项不明确",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "正式候选不能消费诊断",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "诊断不能写入dist",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "重复资源ID",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "重复运行路径",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "运行字节sha漂移",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "路径逃逸",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "运行文件绝对路径",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "运行文件错误大小",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "真实编码与声明不符",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "批准范围不含资源ID",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "诊断不得假冒approved",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "失效A11项目ID",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "尺寸不符A11",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "透明标记不符A11",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "重复绑定ID",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "重复节点绑定",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "失效源锚点",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "锚点来源错文件",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "锚点摘要漂移",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "取消叶岚路线",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "未知条件字段",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "非法选择值",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "非法条件括号",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "未知资源ID",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "资源类型错层",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "负数缩放",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "人物重复图层",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "人物使用背景层",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "恢复目标遗留CG",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "取消CG编号",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "CG禁止全图查看",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "无CG却虚报解锁",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "不支持退出时点",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "快照缺资源",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "快照重复项",
+      "result": "rejected-as-required"
+    },
+    {
+      "name": "拒绝符号链接输入",
+      "result": "pass"
+    },
+    {
+      "name": "批准证据存在且范围匹配的阶段校验",
+      "result": "pass"
+    }
+  ]
+}

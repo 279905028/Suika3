@@ -1,0 +1,218 @@
+{
+  "id": "CG098",
+  "title": "把不愿入镜的留在画外",
+  "package": "SUI-A10-COMMON",
+  "stem": "cg-common-cg098-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A05/piao-base",
+    "A07/maolang-base",
+    "A05/piao-prop-camera",
+    "A08/bg-friends-meal-shop-day"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+    "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+    "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+    "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+    "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-day-v001.png"
+  ],
+  "prompt": "用途：illustration-story。为成人视觉小说《毕节，雨停之前》制作一张完整独立CG，横向16:9，优先1280×720或更高分辨率同比例。不是参考板、分镜拼图、立绘贴图、海报或UI截图。\n风格：沿参考角色的细腻半写实日系绘制质感、真实衣料和克制生活光，不改变五官、发型、肤色或成年年龄；不要过度卡通。\n参考职责：\n图1：文文身份与牛仔袖，成年男，金黄短寸黑眉；按本镜决定是否露面\n图2：飘B成年女性，黑低马尾、黑滚边白短袖、红细绳、浅酒窝\n图3：毛狼D日常身份，黑图案T，黑护腕\n图4：同一无品牌黑相机，严格按本镜拍摄阶段\n图5：A08/bg-friends-meal-shop-day，仅本镜需要的场景布局/物件，按当拍状态，不整板复制\n核心画面：饭后小店中景，飘拿相机低于眼睛、先问是否拍照，毛狼日常黑图案T刚搬好一把椅子准备坐下。镜头边界留画外空间，文文仅牛仔袖前景，无未知配角脸，不生成已拍好的合照。\n衣装/形态硬约束：飘B、毛狼D日常；不加新配角定脸\n当拍道具：相机、椅子、桌；毛狼先搬椅子后才坐\n逐镜参考用法：只取普通饭桌/餐具材质，避开未给定门牌、窗外与时刻；不据参考补聚会日期。；CG061/CG098为征询许可、按快门之前，画内没有已拍照片；CG068是重对焦时的手与相机，不必出现第一次糊片屏幕。；固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。\n构图硬约束：这是一个瞬间，不连环不叠时序。关键脸、手、主物件集中在画面横向8%–90%、竖向15%–58%，底部32%以自然桌沿/衣物/背景延续，不放必须看清的动作或文字；顶部留正常场景空间，右上不放关键脸。不能使用人工黑条或空白块。\n禁止：对话框、菜单、标题、编号、图例、水印，复制参考板的多视图/相框、添加未列在场的人物、裸露、品牌/金额/日期/病史或新增剧情。参考同一人物的多图只是版本对照，绝不因此画重复人物。画内仅使用核心画面明确要求的文字；无文字要求的地方保持无可读新文字。\n最终取景限定：背景只见普通无字墙面和虚化桌椅，不露任何窗户、河流、山坡、店名、门面，避免为后日谈补造具体地点或时刻。",
+  "shot": {
+    "id": "CG098",
+    "kind": "retained-selection",
+    "title": "把不愿入镜的留在画外",
+    "originalTitle": "把不愿入镜的留在画外",
+    "originalSources": [
+      {
+        "path": "项目文档/故事/v1.1润色稿/后日谈-未写完的安排.md",
+        "line": 27,
+        "anchor": "饭后她问大家愿不愿意拍张照。有人说今天不想入镜，她就把那张椅子留在画面外，等其他人坐好。"
+      }
+    ],
+    "time": "LOW后日谈，饭后拍照之前",
+    "routeGroup": "PM",
+    "source": {
+      "path": "scenario/后日谈-未写完的安排.md",
+      "line": 40,
+      "paragraph": "TEXT_68920ef27f80c60a3e09",
+      "scope": "EP-LOW",
+      "nearestNode": "<!-- NODE EP-LOW -->",
+      "quote": "饭后她问大家愿不愿意拍张照。有人说今天不想入镜，她就把那张椅子留在画面外，等其他人坐好。毛狼去替店主搬椅子，她等他回来，又问一遍要不要一起。他点头，这才在桌边坐下。",
+      "conditions": [
+        "PIAO_RELATION=LOW",
+        "ENDING!=FR-E2"
+      ],
+      "sourceSha256": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb",
+      "matchText": "饭后她问大家愿不愿意拍张照。有人说今天不想入镜，她就把那张椅子留在画面外，等其他人坐好。",
+      "oldAnchorExact": true
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文、飘、毛狼；其余愿意入镜者不补脸",
+      "offscreenOrRemote": "明确不愿入镜者及其椅子留画外"
+    },
+    "wardrobeAndForm": "飘B、毛狼D日常；不加新配角定脸",
+    "propState": "相机、椅子、桌；毛狼先搬椅子后才坐",
+    "composition": "取飘询问是否拍照的局部，空出画外边界；不是已拍好的全员合照。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "epilogue",
+          "value": "后日谈-未写完的安排.md"
+        }
+      ],
+      "requiredExpressions": [
+        "PIAO_RELATION=LOW",
+        "ENDING!=FR-E2"
+      ]
+    },
+    "reviewNotes": "FR-E2没赴饭局；黄球球不参加，孟遥结局不追加公开情侣站位；同意后才可表现按快门。",
+    "referenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A07/maolang-base",
+      "A05/piao-prop-camera"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_68920ef27f80c60a3e09_1",
+      "visiblePageIds": [
+        "TEXT_68920ef27f80c60a3e09_1"
+      ],
+      "exitBeforeId": "TEXT_024d400a887c6fdc21cc_1",
+      "snapshotBefore": "LOW后日谈，饭后拍照之前；文文、飘、毛狼；其余愿意入镜者不补脸；飘B、毛狼D日常；不加新配角定脸；相机、椅子、桌；毛狼先搬椅子后才坐",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "FR-E2没赴饭局；黄球球不参加，孟遥结局不追加公开情侣站位；同意后才可表现按快门。"
+    },
+    "production": {
+      "package": "SUI-A10-COMMON",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": null,
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-piao-photos",
+        "owner": "SUI-A05",
+        "name": "桌角/群照/雨后老街照片",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-friends-meal-shop",
+        "owner": "SUI-A08",
+        "name": "朋友聚餐小店",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-friends-meal-shop-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-friends-meal-shop-evening-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-day"
+        ],
+        "frameUse": "只取普通饭桌/餐具材质，避开未给定门牌、窗外与时刻；不据参考补聚会日期。"
+      },
+      {
+        "requirementId": "prop-piao-photos",
+        "owner": "SUI-A05",
+        "name": "桌角/群照/雨后老街照片",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A05/piao-prop-camera"
+        ],
+        "frameUse": "CG061/CG098为征询许可、按快门之前，画内没有已拍照片；CG068是重对焦时的手与相机，不必出现第一次糊片屏幕。"
+      },
+      {
+        "requirementId": "prop-shared-food-boxes",
+        "owner": "SUI-A08",
+        "name": "食物杯碗菜单纸巾/外卖/搬运纸箱",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "A08/bg-friends-meal-shop-day"
+        ],
+        "frameUse": "固定场景组件按镜头取瓶水/牛奶袋、碗筷/纸巾、纸箱或餐盒；专属杯/资料箱不替换。CG044两只烧饼；CG077为吃过餐盒；CG108严格两份早饭。品牌/价格/地址均不补。"
+      }
+    ],
+    "internalWorkItems": [],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A05/piao-base",
+      "A07/maolang-base",
+      "A05/piao-prop-camera",
+      "A08/bg-friends-meal-shop-day"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg098-v001.png",
+  "sourceSha256": "dcdc49bfb0b5580696b9eae8b69381ecb50cd2b5b35aa8e8d35ab011ae629297",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-5236dfa3-4623-402d-8b6f-b6e7276ebcf9.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.png",
+      "sha256": "6b1e82bb8703ff87459f2eeb39d5082f1e600a159b4724b718724870b60366f9"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/selected-b/char-piao-human-base-v001.png",
+      "sha256": "8fd8b8c0f59e0321dca419d22c18525893ccd74fc8f4deabe6a5c38f851e3f9b"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A07/maolang/approved-basis/char-maolang-base-v001.png",
+      "sha256": "e6cf30699797672c913c70bb1bbe3eb18505de94948d878999fc7e67dd85c6b8"
+    },
+    {
+      "path": "assets/sources/20261028/SUI-A05/props/prop-piao-camera-v001.png",
+      "sha256": "3ef42bec24964195c3c70e4b21f8fca7655a958d07823882d9a7d7f11266bc9d"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-friends-meal-shop/bg-friends-meal-shop-day-v001.png",
+      "sha256": "016766734b022c1459bacfaa645a2f954b09d2b6468b3c3e1c4a8ad5d9f7711a"
+    }
+  ],
+  "runtimeAdopted": false
+}

@@ -1,0 +1,610 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:suika3:integration:interface-v1",
+  "title": "SUI-I01 / SUI-I02 冻结输入接口 v1",
+  "schemaVersion": "SUI-I-1",
+  "revision": "2026-10-29",
+  "description": "本文件中的 $defs.manifest、$defs.bindings、$defs.snapshot 分别为三个输入文档的 JSON Schema；校验器另执行指纹、源映射、批准、图鉴与路径检查。接口字节 SHA-256 写入交接快照。",
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "complete",
+            "partial",
+            "diagnostic"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "kind",
+        "description",
+        "missing"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "reference"
+      ],
+      "additionalProperties": false
+    },
+    "approval": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "approved",
+            "diagnostic-only"
+          ]
+        },
+        "evidence": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/evidence"
+            }
+          ]
+        },
+        "scope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "status",
+        "evidence",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "a11": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "assetId": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "assetId"
+      ],
+      "additionalProperties": false
+    },
+    "asset": {
+      "type": "object",
+      "properties": {
+        "assetId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+        },
+        "type": {
+          "enum": [
+            "background",
+            "character",
+            "prop",
+            "cg"
+          ]
+        },
+        "sourcePath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "runtimePath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "runtimeSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "format": {
+          "enum": [
+            "PNG",
+            "WEBP"
+          ]
+        },
+        "alpha": {
+          "type": "boolean"
+        },
+        "encoding": {
+          "type": "object",
+          "properties": {
+            "lossless": {
+              "type": "boolean"
+            },
+            "tool": {
+              "type": "string",
+              "minLength": 1
+            },
+            "parameters": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "lossless",
+            "tool",
+            "parameters"
+          ],
+          "additionalProperties": false
+        },
+        "approval": {
+          "$ref": "#/$defs/approval"
+        },
+        "a11": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/a11"
+            }
+          ]
+        },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "assetId",
+        "type",
+        "sourcePath",
+        "sourceSha256",
+        "runtimePath",
+        "runtimeSha256",
+        "bytes",
+        "width",
+        "height",
+        "format",
+        "alpha",
+        "encoding",
+        "approval",
+        "a11",
+        "restrictions"
+      ],
+      "additionalProperties": false
+    },
+    "placement": {
+      "type": "object",
+      "properties": {
+        "assetId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "enum": [
+            "bg",
+            "left",
+            "center",
+            "right",
+            "prop1",
+            "prop2",
+            "cg"
+          ]
+        },
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        },
+        "scale": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 8
+        },
+        "form": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "costume": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        }
+      },
+      "required": [
+        "assetId",
+        "layer",
+        "x",
+        "y",
+        "scale",
+        "form",
+        "costume"
+      ],
+      "additionalProperties": false
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "background": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/placement"
+            }
+          ]
+        },
+        "characters": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "$ref": "#/$defs/placement"
+          }
+        },
+        "props": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "$ref": "#/$defs/placement"
+          }
+        },
+        "cg": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/placement"
+            }
+          ]
+        }
+      },
+      "required": [
+        "background",
+        "characters",
+        "props",
+        "cg"
+      ],
+      "additionalProperties": false
+    },
+    "anchor": {
+      "type": "object",
+      "properties": {
+        "nodeId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "nodeId",
+        "file",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "binding": {
+      "type": "object",
+      "properties": {
+        "bindingId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+        },
+        "anchor": {
+          "$ref": "#/$defs/anchor"
+        },
+        "condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "routeIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "enter": {
+          "$ref": "#/$defs/state"
+        },
+        "exit": {
+          "type": "object",
+          "properties": {
+            "at": {
+              "const": "next-node"
+            },
+            "restore": {
+              "$ref": "#/$defs/state"
+            }
+          },
+          "required": [
+            "at",
+            "restore"
+          ],
+          "additionalProperties": false
+        },
+        "cgId": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^CG[0-9]{3}$"
+            }
+          ]
+        },
+        "fullView": {
+          "type": "boolean"
+        },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "bindingId",
+        "anchor",
+        "condition",
+        "routeIds",
+        "enter",
+        "exit",
+        "cgId",
+        "fullView",
+        "restrictions"
+      ],
+      "additionalProperties": false
+    },
+    "fileHash": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "SUI-I-1"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/asset"
+          }
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "version",
+        "scope",
+        "assets"
+      ],
+      "additionalProperties": false
+    },
+    "bindings": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "SUI-I-1"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "contentBuildId": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "manifestSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "sourceHashes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "minProperties": 1
+        },
+        "bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/binding"
+          }
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "version",
+        "scope",
+        "contentBuildId",
+        "manifestSha256",
+        "sourceHashes",
+        "bindings"
+      ],
+      "additionalProperties": false
+    },
+    "snapshot": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "SUI-I-1"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "interfaceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "manifest": {
+          "$ref": "#/$defs/fileHash"
+        },
+        "bindings": {
+          "$ref": "#/$defs/fileHash"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fileHash"
+          }
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "version",
+        "scope",
+        "interfaceSha256",
+        "manifest",
+        "bindings",
+        "files",
+        "missing"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "entryPoints": {
+    "validator": "tools/integration/runtime/validate.cjs",
+    "manifest": "assets/current/manifest.json",
+    "bindings": "docs/整合/bindings.json",
+    "snapshot": "qa/sui-i01-<批次>/snapshot.json"
+  },
+  "semantics": {
+    "paths": "所有 path / sourcePath / runtimePath / anchor.file 均为工程相对 POSIX 路径；禁止绝对、反斜杠、空段、.、..、符号链接或非文件。正式 runtimePath 须在 assets/current/，sourcePath 须在 assets/sources/；诊断文件仅允许 qa/sui-i02-<批次>/。",
+    "approval": "candidate 模式每项批准状态为 approved，evidence 指向可追溯的本地用户批准记录并锁定SHA；scope须明确包含本assetId。校验器验证记录存在与字节，不替代人工判定是否确为用户授权。A11离线通过不等于采用批准。diagnostic-only 仅能出现在诊断包，不能转换为正式批准。",
+    "a11": "正式项必须引用 pending-adoption.json 中唯一assetId，其 offlineStatus / formatStatus 通过，非仅参考项。sourceHash须匹配源PNG；运行字节须为该项已验WebP或PNG兼容衍生，尺寸/编码/alpha匹配元数据。若I01制作了新的运行衍生，先新增离线检查证据并升级接口，不能静默跳过。",
+    "sourceAnchor": "anchor.nodeId为当前 compile({pageSize:108}) source-map.units 的稳定ID；file为scenario/加source.file，sha256为source-map.source.sha256。行号不参与解析。正文/编译指纹必须匹配，任何漂移拒绝。 本版本只允许op=text或choice；CG只允许text。",
+    "condition": "ALL 为无条件；其余严格复用 tools/compiler/parse.cjs condition()，支持已登记选择ID、PIAO_RELATION、ENDING及=、!=、&、|。不支持括号与任意代码。未知/缺失状态为错误，不能默认LOW。routeIds为空表示不另加路线限制，否则只接受六条登记ID。",
+    "presentation": "每个enter和exit.restore是完整状态，空值/空数组表示清除，不能省略。背景仅bg层、人物仅left/center/right、道具仅prop1/prop2、CG仅cg层；每状态layer唯一。x/y为1280x720画布左上坐标、scale为源像素统一缩放。form/costume为I01明确状态元数据，null表示不适用，不推断衣装。",
+    "lifecycle": "进入时点为anchor.nodeId的sc_at执行；退出为下一个sc_at或sc_step执行前，包含控制节点。退出应用完整restore状态，然后尝试该新节点的绑定。单节点只允许一条绑定，条件未满足不进入。跨页镜头须每页明确绑定。存档恢复完整演出状态；选择回退清除下游演出，但不撤销已实际遇见的全局CG解锁。",
+    "cg": "cgId只能来自当前gallery.registry与CG当前选择交集；enter.cg非空时必须给cgId，fullView=true；恢复目标不允许保留cg。真实遇见后才调用U解锁；登记不解锁。complete要求覆盖当前60项登记，取消编号拒绝。",
+    "snapshot": "snapshot.files至少覆盖manifest/bindings、全部source/runtime图片、批准证据与A11引用；每项指纹核对，绑定sourceHashes必须与本次编译全部sourceHashes严格相等。构建器须在复制输入前后复核files与编译来源，不能读取仍变动输入。",
+    "completeness": "三文档scope必须完全一致。complete禁止missing且须六线与全部60项CG绑定；partial必须显式列missing且不可宣称全作完成；diagnostic必须显式列missing且输出限制qa/sui-i02-<批次>/。静态通过不等于真实加载、回退恢复、手机真机、电脑原生或发布通过。"
+  }
+}

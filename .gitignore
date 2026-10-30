@@ -1,0 +1,107 @@
+# Git 只保存可审阅源码、元数据与必要证据；完整说明见 docs/Git文件管理.md。
+# 未列入的根目录内容默认保留本机，不自动提交。
+/*
+!/.gitignore
+!/.gitattributes
+!/AGENTS.md
+!/README.md
+!/TODO-v1.1.md
+!/main.ray
+!/start.novel
+!/config.ini
+!/scenario/
+!/tools/
+!/docs/
+!/system/
+!/sound/
+!/assets/
+!/qa/
+!/dist/
+
+# 图片原件、运行图与海报压缩包单独保存；元数据进入 Git。
+/assets/**
+!/assets/**/
+!/assets/**/*.md
+!/assets/**/*.json
+!/assets/**/*.txt
+!/assets/**/*.html
+!/assets/**/*.css
+!/assets/**/*.js
+!/assets/**/*.cjs
+!/assets/**/*.py
+
+# QA 保留报告、脚本、快照和审批记录，截图另存。
+/qa/**
+!/qa/**/
+!/qa/**/*.md
+!/qa/**/*.json
+!/qa/**/*.jsonl
+!/qa/**/*.txt
+!/qa/**/*.tsv
+!/qa/**/*.csv
+!/qa/**/*.html
+!/qa/**/*.css
+!/qa/**/*.js
+!/qa/**/*.cjs
+!/qa/**/*.mjs
+!/qa/**/*.py
+!/qa/**/*.sh
+!/qa/**/*.ray
+!/qa/**/*.novel
+!/qa/**/*.ini
+
+# QA 内的构建副本和生成中间件不入库。
+/qa/**/input/
+/qa/**/stage/
+/qa/**/web/
+/qa/**/native/
+/qa/**/wasm/
+/qa/**/desktop/
+/qa/**/packages/
+/qa/**/bin/
+/qa/**/generated/
+/qa/**/*-generated/
+/qa/**/audit-oracle/
+/qa/**/package-test-work/
+
+# 这13张图被I01冻结快照逐字节引用，随证据进入普通Git。
+!/qa/sui-i01-20261030/static/cg-lifecycle-01.jpg
+!/qa/sui-i01-20261030/static/cg-lifecycle-02.jpg
+!/qa/sui-i01-20261030/static/cg-lifecycle-03.jpg
+!/qa/sui-i01-20261030/static/cg-lifecycle-04.jpg
+!/qa/sui-i01-20261030/static/cg-lifecycle-05.jpg
+!/qa/sui-i01-20261030/static/cg-lifecycle-06.jpg
+!/qa/sui-i01-20261030/static/cg-lifecycle-07.jpg
+!/qa/sui-i01-20261030/static/cg-lifecycle-08.jpg
+!/qa/sui-i01-20261030/static/portrait-composites-01.jpg
+!/qa/sui-i01-20261030/static/portrait-composites-02.jpg
+!/qa/sui-i01-20261030/static/portrait-composites-03.jpg
+!/qa/sui-i01-20261030/static/portrait-composites-04.jpg
+!/qa/sui-i01-20261030/static/portrait-composites-05.jpg
+
+# GUI小图和音效入库；大字体随SDK/资源归档恢复，许可文本保留。
+/system/font/*.ttc
+/system/font/*.ttf
+/system/font/*.otf
+
+# 分发目录仅保留说明，不收运行包。
+/dist/*
+!/dist/README.md
+
+# 系统杂项、缓存及本地配置。
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+node_modules/
+*.log
+*.tmp
+*.swp
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx

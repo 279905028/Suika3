@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "task": "SUI-A01",
+  "check": "技术规格静态复核",
+  "startedAt": "2026-10-28T15:32:23+08:00",
+  "completedAt": "2026-10-28T15:32:23+08:00",
+  "timezone": "Asia/Shanghai",
+  "status": "pass",
+  "scope": "仅静态读取技术说明、T/U清单及输出字节、六张GUI解码尺寸和E清单；未运行构建、引擎、浏览器、手机或桌面验收，未读取玩家存档。",
+  "sourceRefs": [
+    {
+      "path": "qa/SUI-A01-20261028/技术对齐.md",
+      "bytes": 24594,
+      "sha256": "e3926146eb05add79632aa73e8c23ce31e5d27712e3f3682af3f8d15427f1e35"
+    },
+    {
+      "path": "system/sui-u/integration.json",
+      "bytes": 2345,
+      "sha256": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3"
+    },
+    {
+      "path": "system/sui-u/config.patch.json",
+      "bytes": 6531,
+      "sha256": "8694027b15315928c4340f8b44386dadb5d66c50e5dc14c0849f7a0d4da21244"
+    },
+    {
+      "path": "qa/suika3-spike-20261028/build-manifest.json",
+      "bytes": 21632,
+      "sha256": "4145b60ab23021b873e411130676838cc66ea6e1d8ce136c7f9f289da9dfdfd3"
+    },
+    {
+      "path": "qa/sui-u-20261028/build-manifest.json",
+      "bytes": 24016,
+      "sha256": "16aa838c393df7f85c70803310a2cba6c9d1e19fe82e8f28342bee57adb0b7c5"
+    }
+  ],
+  "summary": {
+    "technicalInputFingerprints": 10,
+    "runtimeOutputFiles": 8,
+    "guiImageDimensions": 6,
+    "eManifestRead": true
+  },
+  "technicalInputFingerprints": [
+    {
+      "path": "qa/sui-u-20261028/交接.md",
+      "expectedSha256": "547b52d0082be5e1bf6523f4776d1a5450d49933a30330d2e7336c0eb29f7168",
+      "actualSha256": "547b52d0082be5e1bf6523f4776d1a5450d49933a30330d2e7336c0eb29f7168",
+      "actualBytes": 5766,
+      "status": "pass"
+    },
+    {
+      "path": "system/sui-u/integration.json",
+      "expectedSha256": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3",
+      "actualSha256": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3",
+      "actualBytes": 2345,
+      "status": "pass"
+    },
+    {
+      "path": "system/sui-u/config.patch.json",
+      "expectedSha256": "8694027b15315928c4340f8b44386dadb5d66c50e5dc14c0849f7a0d4da21244",
+      "actualSha256": "8694027b15315928c4340f8b44386dadb5d66c50e5dc14c0849f7a0d4da21244",
+      "actualBytes": 6531,
+      "status": "pass"
+    },
+    {
+      "path": "system/sui-u/README.md",
+      "expectedSha256": "fa2386a0b030ba788fc9e1c25b06d392880cfe91f57fec0936b14a01a3fe44ca",
+      "actualSha256": "fa2386a0b030ba788fc9e1c25b06d392880cfe91f57fec0936b14a01a3fe44ca",
+      "actualBytes": 6707,
+      "status": "pass"
+    },
+    {
+      "path": "qa/sui-u-20261028/build-manifest.json",
+      "expectedSha256": "16aa838c393df7f85c70803310a2cba6c9d1e19fe82e8f28342bee57adb0b7c5",
+      "actualSha256": "16aa838c393df7f85c70803310a2cba6c9d1e19fe82e8f28342bee57adb0b7c5",
+      "actualBytes": 24016,
+      "status": "pass"
+    },
+    {
+      "path": "qa/suika3-spike-20261028/交接.md",
+      "expectedSha256": "e9254902ee4ea93798a5fd8d84ad5e9a95de26b34a3a87a712c11f2269e30a50",
+      "actualSha256": "e9254902ee4ea93798a5fd8d84ad5e9a95de26b34a3a87a712c11f2269e30a50",
+      "actualBytes": 6426,
+      "status": "pass"
+    },
+    {
+      "path": "qa/suika3-spike-20261028/build-manifest.json",
+      "expectedSha256": "4145b60ab23021b873e411130676838cc66ea6e1d8ce136c7f9f289da9dfdfd3",
+      "actualSha256": "4145b60ab23021b873e411130676838cc66ea6e1d8ce136c7f9f289da9dfdfd3",
+      "actualBytes": 21632,
+      "status": "pass"
+    },
+    {
+      "path": "qa/suika3-spike-20261028/build.cjs",
+      "expectedSha256": "91e983209c981ce6462bc006586f7b861d295b4f4b74aebfe5292140f5ab2072",
+      "actualSha256": "91e983209c981ce6462bc006586f7b861d295b4f4b74aebfe5292140f5ab2072",
+      "actualBytes": 4944,
+      "status": "pass"
+    },
+    {
+      "path": "qa/suika3-spike-20261028/color-audit.json",
+      "expectedSha256": "94bd7f3425e25959ce2f7adf89885ccac438f456a1fa173f4ebbba0513427769",
+      "actualSha256": "94bd7f3425e25959ce2f7adf89885ccac438f456a1fa173f4ebbba0513427769",
+      "actualBytes": 27094,
+      "status": "pass"
+    },
+    {
+      "path": "qa/sui-c-20261028/交接.md",
+      "expectedSha256": "c6f181139508961b1cac78663cbcde88ae4d91a2e67ef23f1d506eb3eb5adfdd",
+      "actualSha256": "c6f181139508961b1cac78663cbcde88ae4d91a2e67ef23f1d506eb3eb5adfdd",
+      "actualBytes": 5666,
+      "status": "pass"
+    }
+  ],
+  "runtimeOutputFiles": [
+    {
+      "batch": "suika3-spike-20261028",
+      "manifestPath": "qa/suika3-spike-20261028/build-manifest.json",
+      "path": "qa/suika3-spike-20261028/web/assets.arc",
+      "expectedBytes": 32737328,
+      "actualBytes": 32737328,
+      "expectedSha256": "90cf70055b0c66352dee21b62074f42e02586eb83502d40a2bdef828a03b0907",
+      "actualSha256": "90cf70055b0c66352dee21b62074f42e02586eb83502d40a2bdef828a03b0907",
+      "status": "pass"
+    },
+    {
+      "batch": "suika3-spike-20261028",
+      "manifestPath": "qa/suika3-spike-20261028/build-manifest.json",
+      "path": "qa/suika3-spike-20261028/web/index.html",
+      "expectedBytes": 1997183,
+      "actualBytes": 1997183,
+      "expectedSha256": "cd9078d85d154d65b26cecc2f9ed4b67fda48eb747765c18b386721a2f60cd13",
+      "actualSha256": "cd9078d85d154d65b26cecc2f9ed4b67fda48eb747765c18b386721a2f60cd13",
+      "status": "pass"
+    },
+    {
+      "batch": "suika3-spike-20261028",
+      "manifestPath": "qa/suika3-spike-20261028/build-manifest.json",
+      "path": "qa/suika3-spike-20261028/web/shell.css",
+      "expectedBytes": 1574,
+      "actualBytes": 1574,
+      "expectedSha256": "76f0b97b28596812cbeb7afa9a303bde000d3626cb123bfdb52fab10b746fe22",
+      "actualSha256": "76f0b97b28596812cbeb7afa9a303bde000d3626cb123bfdb52fab10b746fe22",
+      "status": "pass"
+    },
+    {
+      "batch": "suika3-spike-20261028",
+      "manifestPath": "qa/suika3-spike-20261028/build-manifest.json",
+      "path": "qa/suika3-spike-20261028/web/shell.js",
+      "expectedBytes": 4041,
+      "actualBytes": 4041,
+      "expectedSha256": "55b96e4505b1e707fc837af00e06409281bc43907913ba369b3430e5506f3f6b",
+      "actualSha256": "55b96e4505b1e707fc837af00e06409281bc43907913ba369b3430e5506f3f6b",
+      "status": "pass"
+    },
+    {
+      "batch": "sui-u-20261028",
+      "manifestPath": "qa/sui-u-20261028/build-manifest.json",
+      "path": "qa/sui-u-20261028/web/assets.arc",
+      "expectedBytes": 19104667,
+      "actualBytes": 19104667,
+      "expectedSha256": "f1cf9eeae2f3a9d9ccbd89c54f3e1b3d65d1721d80f9bfc2ff374f6467747280",
+      "actualSha256": "f1cf9eeae2f3a9d9ccbd89c54f3e1b3d65d1721d80f9bfc2ff374f6467747280",
+      "status": "pass"
+    },
+    {
+      "batch": "sui-u-20261028",
+      "manifestPath": "qa/sui-u-20261028/build-manifest.json",
+      "path": "qa/sui-u-20261028/web/index.html",
+      "expectedBytes": 1996703,
+      "actualBytes": 1996703,
+      "expectedSha256": "9d4008b3ccc7044d14c4336887b6c11243729b1162f86b1af20ce3b0c05f86e9",
+      "actualSha256": "9d4008b3ccc7044d14c4336887b6c11243729b1162f86b1af20ce3b0c05f86e9",
+      "status": "pass"
+    },
+    {
+      "batch": "sui-u-20261028",
+      "manifestPath": "qa/sui-u-20261028/build-manifest.json",
+      "path": "qa/sui-u-20261028/web/shell.css",
+      "expectedBytes": 1981,
+      "actualBytes": 1981,
+      "expectedSha256": "20c4073d34eb272664b87a452e398ad9a80b9e120e92c5f19fa8e30ad2df65a9",
+      "actualSha256": "20c4073d34eb272664b87a452e398ad9a80b9e120e92c5f19fa8e30ad2df65a9",
+      "status": "pass"
+    },
+    {
+      "batch": "sui-u-20261028",
+      "manifestPath": "qa/sui-u-20261028/build-manifest.json",
+      "path": "qa/sui-u-20261028/web/shell.js",
+      "expectedBytes": 4332,
+      "actualBytes": 4332,
+      "expectedSha256": "0402cf6e966c2d719d82f2f8aad2388f54350f6295dc3e98154ae881964ccdce",
+      "actualSha256": "0402cf6e966c2d719d82f2f8aad2388f54350f6295dc3e98154ae881964ccdce",
+      "status": "pass"
+    }
+  ],
+  "loadTotals": [
+    {
+      "batch": "suika3-spike-20261028",
+      "inputCount": 127,
+      "manifestInputBytes": 32702776,
+      "actualWebOutputBytes": 34740126,
+      "note": "输入字节合计取自已核对指纹的构建清单；本次重新读取全部四个输出，未重新构建。"
+    },
+    {
+      "batch": "sui-u-20261028",
+      "inputCount": 139,
+      "manifestInputBytes": 19066851,
+      "actualWebOutputBytes": 21107683,
+      "note": "输入字节合计取自已核对指纹的构建清单；本次重新读取全部四个输出，未重新构建。"
+    }
+  ],
+  "guiImageDimensions": [
+    {
+      "path": "system/sui-u/png/message.png",
+      "bytes": 1508,
+      "sha256": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412",
+      "expectedSize": [
+        1184,
+        206
+      ],
+      "actualSize": [
+        1184,
+        206
+      ],
+      "actualFormat": "PNG",
+      "canvasPosition": [
+        48,
+        490
+      ],
+      "basis": "integration.json.message.rect",
+      "status": "pass"
+    },
+    {
+      "path": "system/sui-u/png/name.png",
+      "bytes": 220,
+      "sha256": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8",
+      "expectedSize": [
+        240,
+        48
+      ],
+      "actualSize": [
+        240,
+        48
+      ],
+      "actualFormat": "PNG",
+      "canvasPosition": [
+        76,
+        442
+      ],
+      "basis": "integration.json.name.rect",
+      "status": "pass"
+    },
+    {
+      "path": "system/sui-u/png/menu-idle.png",
+      "bytes": 2107,
+      "sha256": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579",
+      "expectedSize": [
+        128,
+        56
+      ],
+      "actualSize": [
+        128,
+        56
+      ],
+      "actualFormat": "PNG",
+      "canvasPosition": [
+        1104,
+        24
+      ],
+      "basis": "integration.json.menuRect",
+      "status": "pass"
+    },
+    {
+      "path": "system/sui-u/png/choice-idle.png",
+      "bytes": 687,
+      "sha256": "b2c14b3c06b084fb236b65cb77e671e2c7271604319196b9e1b3a2401615dc07",
+      "expectedSize": [
+        1040,
+        88
+      ],
+      "actualSize": [
+        1040,
+        88
+      ],
+      "actualFormat": "PNG",
+      "canvasPosition": [
+        120,
+        104
+      ],
+      "basis": "integration.json.choice",
+      "status": "pass"
+    },
+    {
+      "path": "system/sui-u/png/auto.png",
+      "bytes": 3217,
+      "sha256": "f28013f4ea0bcbc02cd84f4bef7c5cde67e790060da6cf590c0df7540fc33fd7",
+      "expectedSize": [
+        240,
+        48
+      ],
+      "actualSize": [
+        240,
+        48
+      ],
+      "actualFormat": "PNG",
+      "canvasPosition": [
+        48,
+        24
+      ],
+      "basis": "技术对齐.md 当前界面几何表，位置为config.patch.json.automode.x/y",
+      "status": "pass"
+    },
+    {
+      "path": "system/sui-u/png/skip.png",
+      "bytes": 4533,
+      "sha256": "6b9a8672e8b2b7a50994d50c0c8ba8abee060a7aca58da768b77925915bf6d43",
+      "expectedSize": [
+        240,
+        48
+      ],
+      "actualSize": [
+        240,
+        48
+      ],
+      "actualFormat": "PNG",
+      "canvasPosition": [
+        48,
+        24
+      ],
+      "basis": "技术对齐.md 当前界面几何表，位置为config.patch.json.skipmode.x/y",
+      "status": "pass"
+    }
+  ],
+  "uiGeometry": {
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "orientation": "landscape"
+    },
+    "messageRect": [
+      48,
+      490,
+      1184,
+      206
+    ],
+    "nameRect": [
+      76,
+      442,
+      240,
+      48
+    ],
+    "menuRect": [
+      1104,
+      24,
+      128,
+      56
+    ],
+    "criticalArtRectRecommendation": [
+      64,
+      96,
+      1152,
+      322
+    ],
+    "choice": {
+      "x": 120,
+      "firstY": 104,
+      "stepY": 96,
+      "width": 1040,
+      "height": 88,
+      "fontSize": 28
+    },
+    "note": "关键美术区是构图建议；静态坐标相符不替代真实人物/CG逐镜合成验收。"
+  },
+  "suiEObservation": {
+    "manifest": {
+      "path": "qa/sui-e-20261028/build-manifest.json",
+      "bytes": 40838,
+      "sha256": "ac6e31ea4c33381acb65b68057185ee23a4ac2d8de8d4346ab27e95a0daf5502"
+    },
+    "task": "SUI-E",
+    "project": "毕节，雨停之前 · Suika3",
+    "canvas": [
+      1280,
+      720
+    ],
+    "pageSize": 108,
+    "resourceBindings": [],
+    "webpCompatibility": "当前包仅包含PNG界面，没有美术WebP；后续SUI-I需接入按图层修复并另验保色",
+    "finalHandoffPresent": false,
+    "status": "observed",
+    "note": "只读取SUI-E当前构建清单；属于并行接入进度，不认定最终交接或运行验收。空resourceBindings表示该清单未绑定本作美术。"
+  },
+  "evidenceBoundary": [
+    "T/U原有运行验收不计作本次A01运行测试。",
+    "文件编码体积不等于解码峰值或全进程内存。",
+    "WebP保色需正式接入及加载/读档再验；本次不批准或导入任何本作资源。"
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "CG107",
+  "title": "五点不再等的提醒",
+  "package": "SUI-A10-HQ",
+  "stem": "cg-hq-cg107-v001",
+  "version": "v001",
+  "referenceKeys": [
+    "A07/wenwen-base",
+    "A08/bg-old-netcafe-counter-day",
+    "PRE/prop-wenwen-personal-kit-v001",
+    "A08/prop-hq-tableware-name-and-blank-reference"
+  ],
+  "refs": [
+    "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-day-v001.png",
+    "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png",
+    "assets/sources/20261029/SUI-A08/prop-hq-tableware/prop-hq-tableware-name-and-blank-reference-v002.png"
+  ],
+  "prompt": "Use case: illustration-story. FIRST PERSON POV close-up, landscape 16:9, delicately painted semi-realistic visual-novel CG. Show ONLY the adult male holder's hands with washed blue denim jacket cuffs holding one plain black smartphone. No face, no head, no body portrait, no person beyond the hands. Viewer shares the phone owner's viewpoint, looking down at the phone front. Palm supports the back, fingers curl around side edges, the front display has only a tiny earpiece, no rear camera array. The display has exactly two reminder rows: \"17:00\" with grey off switch, and \"今晚工作\" with green on switch. Readable Chinese, no dates, app brands or extra text. The old five-o-clock reminder is off, tonight's work reminder remains active. In shallow-focus background, use reference 1 old internet-cafe counter doorway materials, with one plain cup from reference 3 already placed inside a cabinet. Reference 2 establishes the single black phone and denim cuff only, never copy the multi-object board. Bright natural daylight, restrained mood. Hands and phone in the upper central two-thirds, natural table/denim continuation below. No Huang Qiuqiu, no second person, no floating UI, no captions or watermark.",
+  "shot": {
+    "id": "CG107",
+    "kind": "approved-addition",
+    "title": "五点不再等的提醒",
+    "originalTitle": null,
+    "originalSources": [],
+    "time": "第91天下午，HQ-E2",
+    "routeGroup": "HQ",
+    "source": {
+      "path": "scenario/黄球球-门后.md",
+      "line": 919,
+      "paragraph": "TEXT_79f9678b042e98d36f81",
+      "scope": "HQ-E2",
+      "nearestNode": "<!-- NODE HQ-D36-RETURN -->",
+      "quote": "柜台有人叫我，我把自己的杯子放进柜子，帮白班递了瓶水，就回去吃饭。走到门口，手机五点的旧提醒响了。我看了一会儿，把它取消，留下今晚真正要用的那一个。",
+      "conditions": [
+        "HQ07-01=B|HQ08-01=B"
+      ],
+      "sourceSha256": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "matchText": "手机五点的旧提醒响了。我看了一会儿，把它取消，",
+      "oldAnchorExact": false
+    },
+    "contextSources": [],
+    "cast": {
+      "present": "文文",
+      "offscreenOrRemote": "黄球球仍在自己房内且为人形，不同场"
+    },
+    "wardrobeAndForm": "文文B手/袖",
+    "propState": "旧五点提醒、柜中自己的杯子；保留今晚工作提醒",
+    "composition": "文文手机取消旧约，自己的杯子已放柜子；不让黄球球操作手机。",
+    "conditions": {
+      "entryGates": [
+        {
+          "type": "route",
+          "value": "huangqiuqiu"
+        }
+      ],
+      "requiredExpressions": [
+        "HQ07-01=B|HQ08-01=B"
+      ]
+    },
+    "reviewNotes": "非朋友线网吧未默认转手；不画黄球球消失、退回球形或伤病；不补恋爱惩罚。",
+    "referenceKeys": [
+      "A07/wenwen-base"
+    ],
+    "pendingDependencies": [],
+    "lifecycle": {
+      "policy": "A09-ONE-PARAGRAPH-v1",
+      "enterBeforeId": "TEXT_79f9678b042e98d36f81_1",
+      "visiblePageIds": [
+        "TEXT_79f9678b042e98d36f81_1"
+      ],
+      "exitBeforeId": "TEXT_362217ad4c23b8c5a9a4_1",
+      "snapshotBefore": "第91天下午，HQ-E2；文文；文文B手/袖；旧五点提醒、柜中自己的杯子；保留今晚工作提醒",
+      "exitRestore": "该段最后一页离开即清CG，恢复进入前背景/人物槽/衣装/形态/持物；若下一节点改变其中任一项，按下一节点演出重新计算。",
+      "saveRollback": "仅在本段稳定页保存；读档先验证来源指纹及本段条件，再恢复CG编号/页相位及进入前快照；回退跨出本段清CG，不写关系、事件或结局。",
+      "special": "非朋友线网吧未默认转手；不画黄球球消失、退回球形或伤病；不补恋爱惩罚。"
+    },
+    "production": {
+      "package": "SUI-A10-HQ",
+      "contentReviewed": true,
+      "state": "可制作",
+      "productionReady": true,
+      "userSelectionConfirmed": true,
+      "blockingReasons": [],
+      "selectionMethod": "用户委托助手选择",
+      "approvalRecord": "qa/SUI-A09-selection-20261029/selection-decision.json",
+      "gate": "all-60-upstream-before-first-cg",
+      "releasedBy": "A09本轮正文/参考核验",
+      "releaseEvidence": "qa/SUI-A09-release-20261029/verification.json",
+      "runtimeAdopted": false,
+      "generatedCG": false
+    },
+    "rationale": "补黄球球分开结局，同时保留她自主生活与人形持续。",
+    "previousCandidateId": "A09-C07",
+    "previousPendingDependencies": [
+      {
+        "requirementId": "bg-old-netcafe-counter",
+        "owner": "SUI-A08",
+        "name": "旧网吧柜台/机位",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "bg-old-netcafe-counter-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-clearing-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-handover-day-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": []
+      },
+      {
+        "requirementId": "prop-hq-tableware",
+        "owner": "SUI-A08",
+        "name": "写名双杯/铅笔/纸条/信封",
+        "status": "待对应制作包核验当拍版本",
+        "plannedVersions": [
+          {
+            "assetId": "prop-hq-tableware-name-and-blank-reference-v001",
+            "status": "planned"
+          }
+        ]
+      },
+      {
+        "requirementId": "prop-message-screen-cg107",
+        "owner": "SUI-A10-HQ",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "待补当拍参考；非已放行资源",
+        "templateKey": "prop-message-screen",
+        "previousRequirementId": "prop-message-screen-a09-c07"
+      }
+    ],
+    "resolvedDependencies": [
+      {
+        "requirementId": "bg-old-netcafe-counter",
+        "owner": "SUI-A08",
+        "name": "旧网吧柜台/机位",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "bg-old-netcafe-counter-day-v001",
+            "status": "generated-awaiting-qa"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-night-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-clearing-day-v001",
+            "status": "planned"
+          },
+          {
+            "assetId": "bg-old-netcafe-counter-fr-handover-day-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/bg-old-netcafe-counter-day"
+        ],
+        "frameUse": "采用此场景的布局和材质，按本镜当拍人物/时段重构横屏CG，不复制空场景为成品。"
+      },
+      {
+        "requirementId": "prop-wenwen-phone",
+        "owner": "SUI-A07",
+        "name": "手机/提醒/群聊/班表屏幕",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [],
+        "referenceKeys": [
+          "PRE/prop-wenwen-personal-kit-v001"
+        ],
+        "frameUse": "只取同一无品牌黑手机，前背多视图不表示多部；黄球球不拥有手机。"
+      },
+      {
+        "requirementId": "prop-hq-tableware",
+        "owner": "SUI-A08",
+        "name": "写名双杯/铅笔/纸条/信封",
+        "status": "resolved-reference-frozen",
+        "plannedVersions": [
+          {
+            "assetId": "prop-hq-tableware-name-and-blank-reference-v001",
+            "status": "planned"
+          }
+        ],
+        "referenceKeys": [
+          "A08/prop-hq-tableware-name-and-blank-reference"
+        ],
+        "frameUse": "CG073她杯底已有黄球球姓名、文文正在写自己的杯底，尚未倒水；CG077吃过的餐盒另取餐具；CG107文文杯已在柜中，提醒只在文文手机。"
+      }
+    ],
+    "internalWorkItems": [
+      {
+        "requirementId": "prop-message-screen-cg107",
+        "owner": "SUI-A10-HQ",
+        "name": "电话/消息/日历局部草图",
+        "reason": "每镜独立需求键，由该镜唯一A10包制作画内局部，不创建游戏GUI；只排原文明确文字，未给的头像、日期、金额、系统品牌不编造；设备外形交A07。",
+        "status": "in-package-production-work",
+        "templateKey": "prop-message-screen",
+        "previousRequirementId": "prop-message-screen-a09-c07",
+        "frameUse": "旧五点提醒、柜中自己的杯子；保留今晚工作提醒；按当前正文原句制作无品牌局部，禁止添加真实日期、金额、账号及未给消息。",
+        "referenceKeys": []
+      }
+    ],
+    "productionReferenceKeys": [
+      "A07/wenwen-base",
+      "A08/bg-old-netcafe-counter-day",
+      "PRE/prop-wenwen-personal-kit-v001",
+      "A08/prop-hq-tableware-name-and-blank-reference"
+    ]
+  },
+  "status": "generated-awaiting-visual-format-ui-review",
+  "sourceFile": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg107-v001.png",
+  "sourceSha256": "7c4b7fabb0640962b44dbad4266123e56dbda4587af620e3217342404ec69e48",
+  "generatedSource": "/Users/yipin/.codex/generated_images/01a18575-4365-7fc0-a515-5fcb5fe73d12/exec-6d0c8b4f-354a-46fb-acbf-61ed0108d4ee.png",
+  "tool": "built-in image_gen",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A08/bg-old-netcafe-counter/bg-old-netcafe-counter-day-v001.png",
+      "sha256": "e3eb005ee2ee9504930684191b283c127894f9c7b79c84691f66bfdcfb5f8e79"
+    },
+    {
+      "path": "assets/sources/20261029-cg-preflight/SUI-A07/prop-wenwen-personal-kit-v001.png",
+      "sha256": "b9abeb96d46f97a4cae9bc7f40b34d15f828c27f13c531e5eeaa0e4c3fa6def2"
+    },
+    {
+      "path": "assets/sources/20261029/SUI-A08/prop-hq-tableware/prop-hq-tableware-name-and-blank-reference-v002.png",
+      "sha256": "766183effc058a844f1ab04766918acf3e783b538178faefecb9a56007bc6090"
+    }
+  ],
+  "runtimeAdopted": false
+}

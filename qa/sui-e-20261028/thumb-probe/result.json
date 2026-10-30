@@ -1,0 +1,125 @@
+{
+  "scope": "仅缩略图一行修复派生探针，不是正式候选验收",
+  "baseRuntimeBuildId": "e25d27050ec4d62d90aa09a933462783531b03d6106d6a6ba1c4f8f211dafbb7",
+  "injection": "Suika.drawStageToThumb(); before executeSaveLocal",
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suie-thumb-IEzAjf",
+  "logs": [
+    "SUI_E|ready|e25d27050ec4d62d90aa09a933462783531b03d6106d6a6ba1c4f8f211dafbb7",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|notice|已保存阅读位置。"
+  ],
+  "errors": [],
+  "console": [
+    "SUI_E|ready|e25d27050ec4d62d90aa09a933462783531b03d6106d6a6ba1c4f8f211dafbb7",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|notice|已保存阅读位置。"
+  ],
+  "requests": [
+    "/",
+    "/shell.css",
+    "/shell.js",
+    "/assets.arc"
+  ],
+  "screenshots": [
+    "01-reading.png",
+    "02-save.png",
+    "03-load.png"
+  ],
+  "productionHashesBefore": [
+    {
+      "path": "main.ray",
+      "sha256": "bc706d4ccbcde1b6d202f00dad52ec3c1237eec990aecd41190eb4fd8599f6a7"
+    },
+    {
+      "path": "config.ini",
+      "sha256": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5"
+    },
+    {
+      "path": "start.novel",
+      "sha256": "6e6153398e0fd16847e84c486117d50d10a70ef171f92d82499519a8d3536723"
+    },
+    {
+      "path": "qa/sui-e-20261028/build-manifest.json",
+      "sha256": "054a758e9e75900fbf433365fd4e25d8e136758a65a6162c75204346f7b74382"
+    },
+    {
+      "path": "qa/sui-e-20261028/web/assets.arc",
+      "sha256": "84a5b35681ad6d9f9d66738d3bbc3adfb98bd05b7e78029f20c42ed4eabb550e"
+    }
+  ],
+  "canvasRect": {
+    "x": 0,
+    "y": 57,
+    "width": 1440,
+    "height": 810
+  },
+  "databases": [
+    {
+      "name": "bijie-rain-suika3-thumb-probe:/SUI-E 缩略图专用探针",
+      "version": 21
+    }
+  ],
+  "status": "pass",
+  "productionHashesAfter": [
+    {
+      "path": "main.ray",
+      "sha256": "bc706d4ccbcde1b6d202f00dad52ec3c1237eec990aecd41190eb4fd8599f6a7"
+    },
+    {
+      "path": "config.ini",
+      "sha256": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5"
+    },
+    {
+      "path": "start.novel",
+      "sha256": "6e6153398e0fd16847e84c486117d50d10a70ef171f92d82499519a8d3536723"
+    },
+    {
+      "path": "qa/sui-e-20261028/build-manifest.json",
+      "sha256": "054a758e9e75900fbf433365fd4e25d8e136758a65a6162c75204346f7b74382"
+    },
+    {
+      "path": "qa/sui-e-20261028/web/assets.arc",
+      "sha256": "84a5b35681ad6d9f9d66738d3bbc3adfb98bd05b7e78029f20c42ed4eabb550e"
+    }
+  ],
+  "visualReview": {
+    "02-save.png": {
+      "slot1ThumbnailScreenRect": [
+        765,
+        309,
+        216,
+        122
+      ],
+      "distinctRGBColors": 1010,
+      "standardDeviation": [
+        16.720995902256153,
+        17.226357263489724,
+        15.675242389211709
+      ],
+      "manualReview": "槽1显示雨窗、文字框和正文缩略图，确认为非空"
+    },
+    "03-load.png": {
+      "slot1ThumbnailScreenRect": [
+        765,
+        309,
+        216,
+        122
+      ],
+      "distinctRGBColors": 1009,
+      "standardDeviation": [
+        16.721256293260915,
+        17.223869807524633,
+        15.674584082914084
+      ],
+      "manualReview": "槽1显示雨窗、文字框和正文缩略图，确认为非空"
+    }
+  }
+}

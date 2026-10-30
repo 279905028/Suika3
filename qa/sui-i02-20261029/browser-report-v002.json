@@ -1,0 +1,1557 @@
+{
+  "layer": "SUI-I02 同一指定候选的独立Chrome实际UI、原生保存/恢复/回退、刷新重开及移动尺寸；诊断包不算正式资源采用或完整整合验收",
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suii02-qa-VeRRJr",
+  "web": "/Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/diag-v002/wasm/web",
+  "port": 49222,
+  "webHashes": {
+    "assets.arc": "45891e41bb41a0d138ea02dfafe23478a4548b85f12c062813269751a31d2e65",
+    "index.html": "2570d3bf4040ee923cc2e53380e0b6acb3a3cbe0199e5badd21e3699524e52c4",
+    "shell.css": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a",
+    "shell.js": "c8c2aa1ea87c85b29f3c4f7d76c8c2676cf62e2b01edd05fb49ec4737a9f3270"
+  },
+  "build": {
+    "schemaVersion": 1,
+    "task": "SUI-I02",
+    "runtimeBuildId": "efb071c50d9c50b24ba901cec9bd68ef8dca0ddaff7961d0bd0380bc1c30119b",
+    "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+    "project": "毕节，雨停之前 · Suika3",
+    "databasePrefix": "bijie-rain-suika3-i02-diagnostic:",
+    "canvas": [
+      1280,
+      720
+    ],
+    "sdkSha256": "f589ca123faccada973c65cd560f4d3bb0207ae3f701d4017fcf46d094ee74c0",
+    "pageSize": 108,
+    "sourceHashes": {
+      "config.ini": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5",
+      "main.ray": "1683a010b9b54770cbbcd5cd585748dd83cf668d5067b5258a9b18ecde92016d",
+      "qa/sui-i02-20261029/fixture/resources/bg-bijie-arrival-platform-day-rain.webp": "2297a928a8ed6835879d50bdbc86976bcb896290a4554e8e3405790ff95b724b",
+      "qa/sui-i02-20261029/fixture/resources/cg-common-cg001.webp": "d8510b2fb3e547956f19ce7fd6ef808aa3ae52ab59486bb0ece02500b525b1e6",
+      "qa/sui-i02-20261029/fixture/resources/char-xiaoman-base.webp": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab",
+      "sound/se/click.ogg": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca",
+      "start.novel": "6e6153398e0fd16847e84c486117d50d10a70ef171f92d82499519a8d3536723",
+      "system/choose/button.ogg": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff",
+      "system/emoji/heart.png": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634",
+      "system/emoji/sweat.png": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a",
+      "system/font/NotoSansCJK-Medium.ttc": "197d5e1e019faca33a4d55931c7d68b8056f3b97cb862049f5cb8de9efdfb8ce",
+      "system/font/OFL.txt": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb",
+      "system/sui-u/anime/auto-hide.anime": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c",
+      "system/sui-u/anime/auto-show.anime": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1",
+      "system/sui-u/anime/choice-hover.anime": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64",
+      "system/sui-u/anime/choice-idle.anime": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64",
+      "system/sui-u/anime/msgbox-hide.anime": "6ee6f5dcdf612350e3439b90bcd9f46d342886d7878e8ab38bb4aa1acc8ccf4c",
+      "system/sui-u/anime/msgbox-show.anime": "58b10087e6a973a3b747abb8dd616ff0d9b491acb421a84b21a6a81d09f62cdb",
+      "system/sui-u/anime/namebox-hide.anime": "b0443eb13be54efad0439715caed68138e2435e94aba97a6660f1e37df14f7eb",
+      "system/sui-u/anime/namebox-show.anime": "c518c7a66ce51d032797ac243eacfb957d891171b94b59c9a4f3c733f586ff88",
+      "system/sui-u/anime/skip-hide.anime": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c",
+      "system/sui-u/anime/skip-show.anime": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1",
+      "system/sui-u/anime/sysbtn-appear.anime": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb",
+      "system/sui-u/anime/sysbtn-fadein.anime": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb",
+      "system/sui-u/anime/sysbtn-fadeout.anime": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2",
+      "system/sui-u/anime/sysbtn-hover.anime": "0e22cfdf598734ea148744de4f9168db6df62183fb5dfaebc245c6747d86e7b1",
+      "system/sui-u/anime/sysbtn-out.anime": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2",
+      "system/sui-u/gallery-order.ray": "7a84fc4a0ec1ea32f895e9538c2655da963c3dbf39f7133a49d07a2ae27b8664",
+      "system/sui-u/gallery.ray": "1e4abccb3b0ca2bbfc5898d3f3a4956a2ea86c5cc46070c453b606ad10671785",
+      "system/sui-u/gui/config.gui": "ce47b56300e99182105bfa2a12a81885cb60a7f8de23a5c861949e437f3f7b85",
+      "system/sui-u/gui/confirm-title.gui": "10d8455785129d2bb0f05ad9d0382e2bf1077fdb7d5c0bc4ea193a6ff194bd39",
+      "system/sui-u/gui/history.gui": "5d0af345bbb4698d8b7e7670bfda664a18d117d6005551c076607752c7c92ad8",
+      "system/sui-u/gui/load.gui": "8c112d92e20a74e8c422a244dced658243cca55c7bad392d801adcd28b10c8ec",
+      "system/sui-u/gui/save.gui": "22a6573d3f3e7907e25168c1eeaadca5f789fe289f2eb16e33d43f8fc7af1ad9",
+      "system/sui-u/gui/sysmenu.gui": "81a01011377b8d1593e3028edf792e81c2e4d548afdc1f357196cdf017654e2e",
+      "system/sui-u/gui/title.gui": "191f20dcf451021822d3deae952797e5b2037959105aa9f2459a7b9637cc9861",
+      "system/sui-u/history.ray": "c4c5af4cb5c9b40cfa6d37b7758a4f64e96bd67ce20d7f249617fd83a76a045e",
+      "system/sui-u/integration.json": "82098b9da538368dc13e53b0cd650d6231d4fcacaff19c79785df61685d13ea3",
+      "system/sui-u/png/advance-1.png": "6e0e84a3dd60651e36a7a67414c59b82bd059bba41995f8d7d2624f321d37e15",
+      "system/sui-u/png/advance-2.png": "b0bc3fce05938534d0149f69e66dd7345980d0c3063d94ded028c5b3ab3a5d3f",
+      "system/sui-u/png/auto-save.png": "93d361c2eb068f0e8a27cec5fa22478265446c4440cb01e50c37fa68ade9ab91",
+      "system/sui-u/png/auto.png": "f28013f4ea0bcbc02cd84f4bef7c5cde67e790060da6cf590c0df7540fc33fd7",
+      "system/sui-u/png/back-hover.png": "c0a10488ae92be995419b17eb76f0af354b6c01201de4b7a25f5141bd792c521",
+      "system/sui-u/png/back-idle.png": "93cd389fea6fcf7849b27a157e22f559d8cce35c3e872d8f7994c20ad15e444b",
+      "system/sui-u/png/back-press.png": "657cbe3b8264786fd69a7f03a0b4643c2eb9ed871813d54dbacbd5d29d93cd03",
+      "system/sui-u/png/cancel-hover.png": "449d8f7fe0b581fb9e45a59337f78562cd98f2fab6fe505072cde2a3f011a8d2",
+      "system/sui-u/png/cancel-idle.png": "9cb6b336e2720e7ebddc9a9c89a5d7d907d1f15dc0cd2e6783dee3b9d1e9ed35",
+      "system/sui-u/png/cancel-press.png": "a4196b2e19b7cd0ddd022777a40e5119ee3227726776a805d5635915bb967dff",
+      "system/sui-u/png/cg-focus.png": "82b90cdf0fb9f4b59ff694d41eb4c7e0b9f64d9108be4734dc99b5169c2f8c59",
+      "system/sui-u/png/cg-locked.png": "69016dbc066d482ec5670336fb26f8aadf595c6b884b3dbbbf4531e8b1572523",
+      "system/sui-u/png/choice-hover.png": "0aa507c64d2084e17d6bc2ad8a01dc6bcde1c3e53903cb1f92e697323ee0d741",
+      "system/sui-u/png/choice-idle.png": "b2c14b3c06b084fb236b65cb77e671e2c7271604319196b9e1b3a2401615dc07",
+      "system/sui-u/png/config.png": "adb49bd6fd368af865e780cb8b2c164552332d5a5fd4f3ec455949e1e8f330b7",
+      "system/sui-u/png/confirm-hover.png": "1003862d42aedbff2210e40f9d121e93ee6122065a4534a3a8bc22634126068f",
+      "system/sui-u/png/confirm-idle.png": "abd1cb4352482b6cb3952a1ae664a179c730138f8c1a481c3331c911adf510e5",
+      "system/sui-u/png/confirm-press.png": "69692ea6290a41a12a61205ae55e1510b674d18d395e3cae5a8b3bd9fe401e2f",
+      "system/sui-u/png/continue-hover.png": "c2f10dd0e5213213b86b0962bde8b29b1af30dea96905fda2fa6bb43e3cccdc4",
+      "system/sui-u/png/continue-idle.png": "be929c336b7f5b5c940a949e1ee55ba1d4c4e1eba66f84a979ea6bfefe05a643",
+      "system/sui-u/png/continue-press.png": "d84a9efcccd1737343189f8ecd687c97511ccc299031fe1aca71ee9dee20d791",
+      "system/sui-u/png/fullscreen-hover.png": "2c8ac5097fac4858ed2f5e4d891196ac7dc2ca12fb884f70512146407de265a5",
+      "system/sui-u/png/fullscreen-idle.png": "09e5da7519a14502c7f9ab0220307f72e50f55d794cb1befca382ed2bf835efa",
+      "system/sui-u/png/fullscreen-press.png": "9425968c19c7f948f9c1cc78b429a86a2edac38e3eb0e293176f058bab205fac",
+      "system/sui-u/png/gallery-base.png": "7d02b57579c689760b1c35c4c93d958f38aacb1386f083ac2a76dbe260370df2",
+      "system/sui-u/png/gallery-hover.png": "cc1245d39a5030cec9a9851b686295281a34c8e3a32f45f3abb1616e4363dec7",
+      "system/sui-u/png/gallery-idle.png": "a73a43f6d421be70d32914f4b74fdc761dab47802adb314cd71453bbe42cb4be",
+      "system/sui-u/png/gallery-press.png": "b0ce156d315556c2fc5b03dc9ed4f5f3fb3b0a29eaa624d00e89ead2f0253173",
+      "system/sui-u/png/gallery-view.png": "cb1a7b4e76b58b1fcf0636bf59d8240795636303267927f288c91f7b554dde0f",
+      "system/sui-u/png/history-item-hover.png": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf",
+      "system/sui-u/png/history-item-idle.png": "35a7b5fa4c3e8639355c644002dc927db2edfb67e6575de44de9ae5caaec1252",
+      "system/sui-u/png/history-item-press.png": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf",
+      "system/sui-u/png/history.png": "7880124602fbe55a0ab6e4729ab7a742b77bcb41bd6aa1772fce020da58327e9",
+      "system/sui-u/png/load.png": "0c72e420c05839841164bbeb34fbe35fa0abbac3b4bdb76d5f821d93994b469f",
+      "system/sui-u/png/menu-hover.png": "ce32609bd911bc57ee8e767eec985ab847bd4e200cda940b6bf4f9d2b7e1b765",
+      "system/sui-u/png/menu-idle.png": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579",
+      "system/sui-u/png/menu-press.png": "5afa5e7b559fdd42ccc296ef6093dbee2ddc27c461d5846ae3c7bc6f86e21afa",
+      "system/sui-u/png/message.png": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412",
+      "system/sui-u/png/name.png": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8",
+      "system/sui-u/png/nav-auto-hover.png": "d6045b7ec8257456ff9d03706122b28962244af2cafb321de1d42d6f10f3114d",
+      "system/sui-u/png/nav-auto-idle.png": "7b641055aecbc5a4abb0d14780877ec35c0a6f8e155b75ed08e202507b65b5c7",
+      "system/sui-u/png/nav-auto-press.png": "740b4e21fca3444419c680864a010304cafcbcf9b07010989672c3e6a14db1ef",
+      "system/sui-u/png/nav-config-hover.png": "03ac187769c756926e26aaafce158357791812828dde493c23714f697361bb79",
+      "system/sui-u/png/nav-config-idle.png": "3f5bc511412427ea41dba12bb315dd80584511b137adcd1314770f9911154f24",
+      "system/sui-u/png/nav-config-press.png": "13c45c27c56176f436c09127b3f370add4c6c8e52661b983598686020b1c3bd2",
+      "system/sui-u/png/nav-history-hover.png": "c577eb2d3a387f0c2bfe43201698d0881bc451e0e50c91c9d9af4692511bd2bb",
+      "system/sui-u/png/nav-history-idle.png": "03c9ba86fac3a353971bd35edb73c06cc5ae0c5892f0925bd1b8e89cf9b33706",
+      "system/sui-u/png/nav-history-press.png": "b8929d1f17bbd56c3c0d3fd0de1151944c838bfa9e6c537a703cbb76de3bdfa0",
+      "system/sui-u/png/nav-load-hover.png": "90d077d73cae021f8288a231199cbe591b3327ddcdf30f5caff8e06558c4ceda",
+      "system/sui-u/png/nav-load-idle.png": "5c9231f367fea73240456036c3a8913135f07c446428a4f9a59af4dcb8aa5e47",
+      "system/sui-u/png/nav-load-press.png": "893473355ae9a348e4fbaee128e04645aee2d1b7919974eb383b577c9a9e929b",
+      "system/sui-u/png/nav-save-hover.png": "77a6bb67f5969b2e3f2a7e032e93e0f07751d698d906075bf6bd9e938f4c73ba",
+      "system/sui-u/png/nav-save-idle.png": "676d509295e0ae1a501b8b623fbc68c8e4aae984103975813714416e45d69f37",
+      "system/sui-u/png/nav-save-press.png": "01f200aec437ba5ba05c7d4be7a1755a94490fe97acd9faac7e2f081ad7be957",
+      "system/sui-u/png/nav-skip-hover.png": "ede13dbab843bcef1864c725380b1935d0362a7a011e4be96ef6b25c01772fcb",
+      "system/sui-u/png/nav-skip-idle.png": "cfccf22ac2ca0ade983205306c03da7dcb25cb2d077acc293488636e69009909",
+      "system/sui-u/png/nav-skip-press.png": "6055019de58be3b2f9a71ae4b262cdff295009874f49127203d1c9e591ae211a",
+      "system/sui-u/png/nav-title-hover.png": "03b587ebc8ccd7eedb33bce4b52c6831262b6615f79593ece5bc4a8cc7658df1",
+      "system/sui-u/png/nav-title-idle.png": "40dd3363ef1ea9cab8fd39b35e21ba4bf6a22f3d4deafbb3702c9f901c9abdae",
+      "system/sui-u/png/nav-title-press.png": "592eaf23f172d78b17edd8bc822d76eb127de2158a35cf98667fcbf0752c0890",
+      "system/sui-u/png/next-hover.png": "5dc55508c94983f20cbf17faf7464729c3601e5ed7f1d5cc7c0d41b83a4d5530",
+      "system/sui-u/png/next-idle.png": "5a3e166bb61c5e536d8ab1184742afed6edeb3447b613edebb84f1ad6bf3f41a",
+      "system/sui-u/png/next-press.png": "006f38a791a5c151395a458c98a779753a54edbd9ffa6964331a48320163ea19",
+      "system/sui-u/png/preview.png": "bba817b97ba51e2bf014b6757c3b7a54c57b5567b00f8dae03fcfff52ddaaee8",
+      "system/sui-u/png/previous-hover.png": "05a90d2b043d9cab855483b919bcee6d7bc0078f33eb0f5c19ce84822162e8b8",
+      "system/sui-u/png/previous-idle.png": "4d1eb68a1b61f0e3df8897445060b6411225bb360271b84c9d7717e7ba17dc75",
+      "system/sui-u/png/previous-press.png": "b89bce40e850266037eefe3fd9da1ca112932efca33472eb1f481cd8318f35a5",
+      "system/sui-u/png/reading-backdrop.png": "4223df8b5ff83cfafa5d7af5c2225824a0fac3340a8cc74e9de5cc9ac9135b7a",
+      "system/sui-u/png/reset-hover.png": "a266b8dd63e3a0a467b4e984a124d84e915fddedde4ffcf6d58ff7d4ce666ae9",
+      "system/sui-u/png/reset-idle.png": "d4aafb1de5670d7555a4de5c36faf92b672fbde8884e6d04e40ffbcf744a51d8",
+      "system/sui-u/png/reset-press.png": "0b1461ac89dc72b3e85c59398de190bb36274ea42903231be8924e2361079d12",
+      "system/sui-u/png/save-item-0-hover.png": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225",
+      "system/sui-u/png/save-item-0-idle.png": "f1784745d2f1a1d644e95c23646c2704f926aae00b33a404b550d5b65868a46a",
+      "system/sui-u/png/save-item-0-press.png": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225",
+      "system/sui-u/png/save-item-1-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-1-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "system/sui-u/png/save-item-1-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-2-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-2-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "system/sui-u/png/save-item-2-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-3-hover.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-3-idle.png": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839",
+      "system/sui-u/png/save-item-3-press.png": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068",
+      "system/sui-u/png/save-item-hover.png": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d",
+      "system/sui-u/png/save-item-idle.png": "ffdd0b719fd1a0fed28340cb76abf560a3c75eec585b3de1f63f461d067c09a8",
+      "system/sui-u/png/save-item-press.png": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d",
+      "system/sui-u/png/save.png": "eeb369ab803cdcc39b4501dabdb08b0a00e33024707bbc61db7facbe713ac37e",
+      "system/sui-u/png/scroll-hover.png": "e1b29e1954b5a0e62ac07f11bbbc30bbbc20c84499c0e92d74731d9cd3b530b3",
+      "system/sui-u/png/scroll-idle.png": "0df6eaa09efdd2b0a71c2ea2ee86332a2df324ed4b26f4f5ba9e489de2c7279f",
+      "system/sui-u/png/scroll-knob.png": "f5b197668d75e3d1a45cf77176a2417217105d016b84035861c1047d7cc755be",
+      "system/sui-u/png/settings-hover.png": "e9e3350e555b395d7381cc1355fb7ff33ca25e1e90288239ee8d8d3797e61a91",
+      "system/sui-u/png/settings-idle.png": "52e3c8be6e833384a88b8bae2e76eeb0260943e279cc2a49ad0af718caa58dd7",
+      "system/sui-u/png/settings-press.png": "10c869c5a922253785e19c53f892fde3bd213058a2db72113d2862abc3fe3bd2",
+      "system/sui-u/png/skip.png": "6b9a8672e8b2b7a50994d50c0c8ba8abee060a7aca58da768b77925915bf6d43",
+      "system/sui-u/png/slider-hover.png": "2f10e38a7f0938dd8d2d9012f3b001e9b8f0260fc07cb9aa1c112a654412e0c7",
+      "system/sui-u/png/slider-idle.png": "5e9d1b013dd8575ca3dfa709fddbeb49f9a216ca74f708b85e27ce5d0e7c1b8b",
+      "system/sui-u/png/slider-knob.png": "e98abcdd04d52ace4fd1b0630a45cfc9b1bd690b9d22ddef856d281610c724ed",
+      "system/sui-u/png/start-hover.png": "aa9a6120f220444787156901d6e14c9e017b1b613dc4d81a64b78008c044c596",
+      "system/sui-u/png/start-idle.png": "7218a7c3aba9334cf7c01d82073f91a4e19113082c92f2694bf7dd8a4b010356",
+      "system/sui-u/png/start-press.png": "d3cdf9523d76d682ec334230eb181aa061de667cda2d96c613c8fd37b7fc6f99",
+      "system/sui-u/png/sysmenu.png": "f42ce9c9dd2e429dbc34595c1496d8cdad53eccc604c4de0854f1c43b91dd7d6",
+      "system/sui-u/png/title-confirm.png": "90caa9f801c5ff02eb4bed3e8da7828145d9787b9cc80d3c5b334d177a9ab0f5",
+      "system/sui-u/png/title.png": "1c2beabfd1f9366322c852d4d4cd37773e4a828449cedcb3ab14cebbb08c97a7",
+      "system/sui-u/runtime.ray": "c2e9eddf219eb6e47240c5542666914c0dcc2196f95dac14c78924d59ee0aa1e",
+      "tools/runtime/rollback-button.py": "76b272b2e9e3823b7b70ff00aaddbd0eecf089479ca665862c8fb6d5acb1bd7d",
+      "tools/runtime/rollback-hover.png": "f521f0b2895aa923f93a5d9a3e821752d72cd87b100eae02129756c58d86b3ec",
+      "tools/runtime/rollback-idle.png": "f767467d5abd32e66ed901ec6027a374ef7ffb4a193d6afadbd340b4a157f52c",
+      "tools/runtime/rollback-press.png": "0cb681f382eece2234931aa86187f2515122d80b18142ee9c43e4ca069c4048d"
+    },
+    "runtimePositions": {
+      "count": 3217,
+      "lineBase": 1,
+      "batchSize": 12
+    },
+    "guiActions": {
+      "variable": "e_action",
+      "save": {
+        "1": "S",
+        "2": "D",
+        "3": "F"
+      },
+      "load": {
+        "0": "A",
+        "1": "1",
+        "2": "2",
+        "3": "3"
+      },
+      "openSave": "V",
+      "openLoad": "L",
+      "rollback": "R",
+      "nativeDirectSaveLoad": false
+    },
+    "resourceBindings": [
+      {
+        "bindingId": "diagnostic-scene",
+        "anchor": {
+          "nodeId": "TEXT_12e9affe350b12038970_1",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "4e0e26e3766a387948d48353124eb3a7d2a5d8b81bf40e29b80be61445b07b67"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-base",
+              "layer": "center",
+              "x": 451,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "diagnostic-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-arrival-platform-day-rain",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-xiaoman-base",
+                "layer": "center",
+                "x": 451,
+                "y": 50,
+                "scale": 0.37,
+                "form": "human",
+                "costume": "diagnostic-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+        ]
+      },
+      {
+        "bindingId": "diagnostic-cg",
+        "anchor": {
+          "nodeId": "TEXT_f5354c41d01bf0d95a4c_1",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-base",
+              "layer": "center",
+              "x": 451,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "diagnostic-base"
+            }
+          ],
+          "props": [],
+          "cg": {
+            "assetId": "cg-common-cg001",
+            "layer": "cg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          }
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-arrival-platform-day-rain",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-xiaoman-base",
+                "layer": "center",
+                "x": 451,
+                "y": 50,
+                "scale": 0.37,
+                "form": "human",
+                "costume": "diagnostic-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": "CG001",
+        "fullView": true,
+        "restrictions": [
+          "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+        ]
+      },
+      {
+        "bindingId": "diagnostic-clear-character",
+        "anchor": {
+          "nodeId": "TEXT_04f2fe2301318a26493d_1",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "16cf3ad3132326553ba8769f1bee29286d22c19e8b7c27734e46d68c0c2481c3"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-arrival-platform-day-rain",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-xiaoman-base",
+                "layer": "center",
+                "x": 451,
+                "y": 50,
+                "scale": 0.37,
+                "form": "human",
+                "costume": "diagnostic-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+        ]
+      },
+      {
+        "bindingId": "diagnostic-scene-return",
+        "anchor": {
+          "nodeId": "TEXT_982d9ac0f683c6bbb52b_1",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "edecb9a34780b494cd4159d7d3178c865317a03139e6bfdb0c98e4352def73bb"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-base",
+              "layer": "center",
+              "x": 451,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "diagnostic-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-arrival-platform-day-rain",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-xiaoman-base",
+                "layer": "center",
+                "x": 451,
+                "y": 50,
+                "scale": 0.37,
+                "form": "human",
+                "costume": "diagnostic-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+        ]
+      },
+      {
+        "bindingId": "diagnostic-first-choice",
+        "anchor": {
+          "nodeId": "C01-01",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "7c277944a63a0ec5b68a0921e6eabae1ed6a610f7c0c930be59d89818cd17ab0"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-arrival-platform-day-rain",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-xiaoman-base",
+                "layer": "center",
+                "x": 451,
+                "y": 50,
+                "scale": 0.37,
+                "form": "human",
+                "costume": "diagnostic-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "诊断绑定：仅技术演出，不作为本段剧情美术采用"
+        ]
+      }
+    ],
+    "webpCompatibility": "SUI-I02显式图层适配；以当前候选实测为准",
+    "inputs": [
+      {
+        "path": "config.ini",
+        "bytes": 20254,
+        "sha256": "e1da5e47396827994f1f8218856805c135ee308f941ffec72ecb4cd5811d6cc5"
+      },
+      {
+        "path": "main.ray",
+        "bytes": 448433,
+        "sha256": "4c2511764005e5a52ebd736d4df2083e44ad51b6468627bb9f3162da3df2ab0f"
+      },
+      {
+        "path": "qa/sui-i02-20261029/fixture/resources/bg-bijie-arrival-platform-day-rain.webp",
+        "bytes": 2179884,
+        "sha256": "2297a928a8ed6835879d50bdbc86976bcb896290a4554e8e3405790ff95b724b"
+      },
+      {
+        "path": "qa/sui-i02-20261029/fixture/resources/cg-common-cg001.webp",
+        "bytes": 1578606,
+        "sha256": "d8510b2fb3e547956f19ce7fd6ef808aa3ae52ab59486bb0ece02500b525b1e6"
+      },
+      {
+        "path": "qa/sui-i02-20261029/fixture/resources/char-xiaoman-base.webp",
+        "bytes": 1493464,
+        "sha256": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab"
+      },
+      {
+        "path": "sound/se/click.ogg",
+        "bytes": 18276,
+        "sha256": "a46de3af01237368b313689f4d206b296622fb2e72cee548afdd565134cf8dca"
+      },
+      {
+        "path": "start.novel",
+        "bytes": 797248,
+        "sha256": "11a6c8b2edeaf19621200d2d601f4d2e7877821105366c65e8da7706925c28cd"
+      },
+      {
+        "path": "system/choose/button.ogg",
+        "bytes": 11069,
+        "sha256": "e97d40c18e64f9cd525e6031dacc3a97e10ab201a91ff160354e5ac82325e6ff"
+      },
+      {
+        "path": "system/config/config.gui",
+        "bytes": 2401,
+        "sha256": "ce47b56300e99182105bfa2a12a81885cb60a7f8de23a5c861949e437f3f7b85"
+      },
+      {
+        "path": "system/emoji/heart.png",
+        "bytes": 4734,
+        "sha256": "95a4cc5c40632e7f0a347e7420f3800bc8cb56347b51cc7f5511813e0dc4d634"
+      },
+      {
+        "path": "system/emoji/sweat.png",
+        "bytes": 3032,
+        "sha256": "2ce0d5eb5382cd39c2e2cc1366d7dabf1e1885e24e37378e8a8e59451c9f277a"
+      },
+      {
+        "path": "system/font/NotoSansCJK-Medium.ttc",
+        "bytes": 18354360,
+        "sha256": "197d5e1e019faca33a4d55931c7d68b8056f3b97cb862049f5cb8de9efdfb8ce"
+      },
+      {
+        "path": "system/font/OFL.txt",
+        "bytes": 4489,
+        "sha256": "be2f3f8727ac2e18b714ad1c4336d4ddb3f3adbeb9a7f70bfab74d21f4d2b3fb"
+      },
+      {
+        "path": "system/history/history.gui",
+        "bytes": 474,
+        "sha256": "5d0af345bbb4698d8b7e7670bfda664a18d117d6005551c076607752c7c92ad8"
+      },
+      {
+        "path": "system/load/load.gui",
+        "bytes": 2684,
+        "sha256": "d2be7697e35842a876a7557a43fcb384f227638cc894bb0587ce20994abb0b78"
+      },
+      {
+        "path": "system/save/save.gui",
+        "bytes": 2248,
+        "sha256": "73b73331bf4c36a48c1d159dceb37013b3fadb62be29ab32daf77f2bc08a4243"
+      },
+      {
+        "path": "system/sui-e/rollback-hover.png",
+        "bytes": 3353,
+        "sha256": "f521f0b2895aa923f93a5d9a3e821752d72cd87b100eae02129756c58d86b3ec"
+      },
+      {
+        "path": "system/sui-e/rollback-idle.png",
+        "bytes": 3348,
+        "sha256": "f767467d5abd32e66ed901ec6027a374ef7ffb4a193d6afadbd340b4a157f52c"
+      },
+      {
+        "path": "system/sui-e/rollback-press.png",
+        "bytes": 3352,
+        "sha256": "0cb681f382eece2234931aa86187f2515122d80b18142ee9c43e4ca069c4048d"
+      },
+      {
+        "path": "system/sui-u/anime/auto-hide.anime",
+        "bytes": 145,
+        "sha256": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c"
+      },
+      {
+        "path": "system/sui-u/anime/auto-show.anime",
+        "bytes": 145,
+        "sha256": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1"
+      },
+      {
+        "path": "system/sui-u/anime/choice-hover.anime",
+        "bytes": 295,
+        "sha256": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64"
+      },
+      {
+        "path": "system/sui-u/anime/choice-idle.anime",
+        "bytes": 295,
+        "sha256": "eb13c449f3478e26fb07876705ca56a56f24a94dd6ddd2fcfa9d2ec5633b8e64"
+      },
+      {
+        "path": "system/sui-u/anime/msgbox-hide.anime",
+        "bytes": 149,
+        "sha256": "6ee6f5dcdf612350e3439b90bcd9f46d342886d7878e8ab38bb4aa1acc8ccf4c"
+      },
+      {
+        "path": "system/sui-u/anime/msgbox-show.anime",
+        "bytes": 149,
+        "sha256": "58b10087e6a973a3b747abb8dd616ff0d9b491acb421a84b21a6a81d09f62cdb"
+      },
+      {
+        "path": "system/sui-u/anime/namebox-hide.anime",
+        "bytes": 150,
+        "sha256": "b0443eb13be54efad0439715caed68138e2435e94aba97a6660f1e37df14f7eb"
+      },
+      {
+        "path": "system/sui-u/anime/namebox-show.anime",
+        "bytes": 150,
+        "sha256": "c518c7a66ce51d032797ac243eacfb957d891171b94b59c9a4f3c733f586ff88"
+      },
+      {
+        "path": "system/sui-u/anime/skip-hide.anime",
+        "bytes": 145,
+        "sha256": "d54841cdfef9760f16d67ef4f25e5ef34a052486d7a90bb1241c4c655ce95c2c"
+      },
+      {
+        "path": "system/sui-u/anime/skip-show.anime",
+        "bytes": 145,
+        "sha256": "cf917b55cd5f782b5c755eb0571786640d7f139fbcf99e0a9b51a2d87b8a88e1"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-appear.anime",
+        "bytes": 318,
+        "sha256": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-fadein.anime",
+        "bytes": 318,
+        "sha256": "0af3ec24e17b3ff18803b369d47a556be945ed79db6c0855913a4902ff2333fb"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-fadeout.anime",
+        "bytes": 314,
+        "sha256": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-hover.anime",
+        "bytes": 318,
+        "sha256": "0e22cfdf598734ea148744de4f9168db6df62183fb5dfaebc245c6747d86e7b1"
+      },
+      {
+        "path": "system/sui-u/anime/sysbtn-out.anime",
+        "bytes": 314,
+        "sha256": "3800c70b3a680899b106280d6d00f449bb3a81a35c9b4e409c3ed659bdf6feb2"
+      },
+      {
+        "path": "system/sui-u/gui/config.gui",
+        "bytes": 2401,
+        "sha256": "ce47b56300e99182105bfa2a12a81885cb60a7f8de23a5c861949e437f3f7b85"
+      },
+      {
+        "path": "system/sui-u/gui/confirm-title.gui",
+        "bytes": 724,
+        "sha256": "10d8455785129d2bb0f05ad9d0382e2bf1077fdb7d5c0bc4ea193a6ff194bd39"
+      },
+      {
+        "path": "system/sui-u/gui/history.gui",
+        "bytes": 474,
+        "sha256": "5d0af345bbb4698d8b7e7670bfda664a18d117d6005551c076607752c7c92ad8"
+      },
+      {
+        "path": "system/sui-u/gui/load.gui",
+        "bytes": 2684,
+        "sha256": "d2be7697e35842a876a7557a43fcb384f227638cc894bb0587ce20994abb0b78"
+      },
+      {
+        "path": "system/sui-u/gui/save.gui",
+        "bytes": 2248,
+        "sha256": "73b73331bf4c36a48c1d159dceb37013b3fadb62be29ab32daf77f2bc08a4243"
+      },
+      {
+        "path": "system/sui-u/gui/sysmenu.gui",
+        "bytes": 2511,
+        "sha256": "aa53134ecde1e02e7c184b91d35e6800d361c05aca7fff27704a1389919b1bbe"
+      },
+      {
+        "path": "system/sui-u/gui/title.gui",
+        "bytes": 1265,
+        "sha256": "f0308f4e2e51e9cd60e312a461f218bfbb85416cac988780270a1e676f2ad1aa"
+      },
+      {
+        "path": "system/sui-u/png/advance-1.png",
+        "bytes": 162,
+        "sha256": "6e0e84a3dd60651e36a7a67414c59b82bd059bba41995f8d7d2624f321d37e15"
+      },
+      {
+        "path": "system/sui-u/png/advance-2.png",
+        "bytes": 161,
+        "sha256": "b0bc3fce05938534d0149f69e66dd7345980d0c3063d94ded028c5b3ab3a5d3f"
+      },
+      {
+        "path": "system/sui-u/png/auto-save.png",
+        "bytes": 15773,
+        "sha256": "93d361c2eb068f0e8a27cec5fa22478265446c4440cb01e50c37fa68ade9ab91"
+      },
+      {
+        "path": "system/sui-u/png/auto.png",
+        "bytes": 3217,
+        "sha256": "f28013f4ea0bcbc02cd84f4bef7c5cde67e790060da6cf590c0df7540fc33fd7"
+      },
+      {
+        "path": "system/sui-u/png/back-hover.png",
+        "bytes": 1550,
+        "sha256": "c0a10488ae92be995419b17eb76f0af354b6c01201de4b7a25f5141bd792c521"
+      },
+      {
+        "path": "system/sui-u/png/back-idle.png",
+        "bytes": 1651,
+        "sha256": "93cd389fea6fcf7849b27a157e22f559d8cce35c3e872d8f7994c20ad15e444b"
+      },
+      {
+        "path": "system/sui-u/png/back-press.png",
+        "bytes": 1544,
+        "sha256": "657cbe3b8264786fd69a7f03a0b4643c2eb9ed871813d54dbacbd5d29d93cd03"
+      },
+      {
+        "path": "system/sui-u/png/cancel-hover.png",
+        "bytes": 4145,
+        "sha256": "449d8f7fe0b581fb9e45a59337f78562cd98f2fab6fe505072cde2a3f011a8d2"
+      },
+      {
+        "path": "system/sui-u/png/cancel-idle.png",
+        "bytes": 4635,
+        "sha256": "9cb6b336e2720e7ebddc9a9c89a5d7d907d1f15dc0cd2e6783dee3b9d1e9ed35"
+      },
+      {
+        "path": "system/sui-u/png/cancel-press.png",
+        "bytes": 4150,
+        "sha256": "a4196b2e19b7cd0ddd022777a40e5119ee3227726776a805d5635915bb967dff"
+      },
+      {
+        "path": "system/sui-u/png/cg-focus.png",
+        "bytes": 598,
+        "sha256": "82b90cdf0fb9f4b59ff694d41eb4c7e0b9f64d9108be4734dc99b5169c2f8c59"
+      },
+      {
+        "path": "system/sui-u/png/cg-locked.png",
+        "bytes": 3743,
+        "sha256": "69016dbc066d482ec5670336fb26f8aadf595c6b884b3dbbbf4531e8b1572523"
+      },
+      {
+        "path": "system/sui-u/png/choice-hover.png",
+        "bytes": 697,
+        "sha256": "0aa507c64d2084e17d6bc2ad8a01dc6bcde1c3e53903cb1f92e697323ee0d741"
+      },
+      {
+        "path": "system/sui-u/png/choice-idle.png",
+        "bytes": 687,
+        "sha256": "b2c14b3c06b084fb236b65cb77e671e2c7271604319196b9e1b3a2401615dc07"
+      },
+      {
+        "path": "system/sui-u/png/config.png",
+        "bytes": 46352,
+        "sha256": "adb49bd6fd368af865e780cb8b2c164552332d5a5fd4f3ec455949e1e8f330b7"
+      },
+      {
+        "path": "system/sui-u/png/confirm-hover.png",
+        "bytes": 4633,
+        "sha256": "1003862d42aedbff2210e40f9d121e93ee6122065a4534a3a8bc22634126068f"
+      },
+      {
+        "path": "system/sui-u/png/confirm-idle.png",
+        "bytes": 4599,
+        "sha256": "abd1cb4352482b6cb3952a1ae664a179c730138f8c1a481c3331c911adf510e5"
+      },
+      {
+        "path": "system/sui-u/png/confirm-press.png",
+        "bytes": 4544,
+        "sha256": "69692ea6290a41a12a61205ae55e1510b674d18d395e3cae5a8b3bd9fe401e2f"
+      },
+      {
+        "path": "system/sui-u/png/continue-hover.png",
+        "bytes": 4223,
+        "sha256": "c2f10dd0e5213213b86b0962bde8b29b1af30dea96905fda2fa6bb43e3cccdc4"
+      },
+      {
+        "path": "system/sui-u/png/continue-idle.png",
+        "bytes": 4716,
+        "sha256": "be929c336b7f5b5c940a949e1ee55ba1d4c4e1eba66f84a979ea6bfefe05a643"
+      },
+      {
+        "path": "system/sui-u/png/continue-press.png",
+        "bytes": 4230,
+        "sha256": "d84a9efcccd1737343189f8ecd687c97511ccc299031fe1aca71ee9dee20d791"
+      },
+      {
+        "path": "system/sui-u/png/fullscreen-hover.png",
+        "bytes": 3253,
+        "sha256": "2c8ac5097fac4858ed2f5e4d891196ac7dc2ca12fb884f70512146407de265a5"
+      },
+      {
+        "path": "system/sui-u/png/fullscreen-idle.png",
+        "bytes": 3570,
+        "sha256": "09e5da7519a14502c7f9ab0220307f72e50f55d794cb1befca382ed2bf835efa"
+      },
+      {
+        "path": "system/sui-u/png/fullscreen-press.png",
+        "bytes": 3243,
+        "sha256": "9425968c19c7f948f9c1cc78b429a86a2edac38e3eb0e293176f058bab205fac"
+      },
+      {
+        "path": "system/sui-u/png/gallery-base.png",
+        "bytes": 19893,
+        "sha256": "7d02b57579c689760b1c35c4c93d958f38aacb1386f083ac2a76dbe260370df2"
+      },
+      {
+        "path": "system/sui-u/png/gallery-hover.png",
+        "bytes": 2077,
+        "sha256": "cc1245d39a5030cec9a9851b686295281a34c8e3a32f45f3abb1616e4363dec7"
+      },
+      {
+        "path": "system/sui-u/png/gallery-idle.png",
+        "bytes": 2263,
+        "sha256": "a73a43f6d421be70d32914f4b74fdc761dab47802adb314cd71453bbe42cb4be"
+      },
+      {
+        "path": "system/sui-u/png/gallery-press.png",
+        "bytes": 2055,
+        "sha256": "b0ce156d315556c2fc5b03dc9ed4f5f3fb3b0a29eaa624d00e89ead2f0253173"
+      },
+      {
+        "path": "system/sui-u/png/gallery-view.png",
+        "bytes": 18586,
+        "sha256": "cb1a7b4e76b58b1fcf0636bf59d8240795636303267927f288c91f7b554dde0f"
+      },
+      {
+        "path": "system/sui-u/png/history-item-hover.png",
+        "bytes": 1416,
+        "sha256": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf"
+      },
+      {
+        "path": "system/sui-u/png/history-item-idle.png",
+        "bytes": 1412,
+        "sha256": "35a7b5fa4c3e8639355c644002dc927db2edfb67e6575de44de9ae5caaec1252"
+      },
+      {
+        "path": "system/sui-u/png/history-item-press.png",
+        "bytes": 1416,
+        "sha256": "067e4a8854da22385abe9ef95f0997f10a974670ef2413d514f11ce9d045aebf"
+      },
+      {
+        "path": "system/sui-u/png/history.png",
+        "bytes": 25112,
+        "sha256": "7880124602fbe55a0ab6e4729ab7a742b77bcb41bd6aa1772fce020da58327e9"
+      },
+      {
+        "path": "system/sui-u/png/load.png",
+        "bytes": 24015,
+        "sha256": "0c72e420c05839841164bbeb34fbe35fa0abbac3b4bdb76d5f821d93994b469f"
+      },
+      {
+        "path": "system/sui-u/png/menu-hover.png",
+        "bytes": 1958,
+        "sha256": "ce32609bd911bc57ee8e767eec985ab847bd4e200cda940b6bf4f9d2b7e1b765"
+      },
+      {
+        "path": "system/sui-u/png/menu-idle.png",
+        "bytes": 2107,
+        "sha256": "39c339107940dde88fc12288ca685b4ac52d211734594ffbf7b7d57be94bf579"
+      },
+      {
+        "path": "system/sui-u/png/menu-press.png",
+        "bytes": 1931,
+        "sha256": "5afa5e7b559fdd42ccc296ef6093dbee2ddc27c461d5846ae3c7bc6f86e21afa"
+      },
+      {
+        "path": "system/sui-u/png/message.png",
+        "bytes": 1508,
+        "sha256": "84ca62f764a974defbbe2a74dfdfebdcdad9b96d3299a1431a932d7daf562412"
+      },
+      {
+        "path": "system/sui-u/png/name.png",
+        "bytes": 220,
+        "sha256": "15ab23bc8989b7dd8bc4a041d537bd4e647a8c4e82eb4e4373dd78718f6aa0e8"
+      },
+      {
+        "path": "system/sui-u/png/nav-auto-hover.png",
+        "bytes": 3274,
+        "sha256": "d6045b7ec8257456ff9d03706122b28962244af2cafb321de1d42d6f10f3114d"
+      },
+      {
+        "path": "system/sui-u/png/nav-auto-idle.png",
+        "bytes": 3598,
+        "sha256": "7b641055aecbc5a4abb0d14780877ec35c0a6f8e155b75ed08e202507b65b5c7"
+      },
+      {
+        "path": "system/sui-u/png/nav-auto-press.png",
+        "bytes": 3253,
+        "sha256": "740b4e21fca3444419c680864a010304cafcbcf9b07010989672c3e6a14db1ef"
+      },
+      {
+        "path": "system/sui-u/png/nav-config-hover.png",
+        "bytes": 3586,
+        "sha256": "03ac187769c756926e26aaafce158357791812828dde493c23714f697361bb79"
+      },
+      {
+        "path": "system/sui-u/png/nav-config-idle.png",
+        "bytes": 3936,
+        "sha256": "3f5bc511412427ea41dba12bb315dd80584511b137adcd1314770f9911154f24"
+      },
+      {
+        "path": "system/sui-u/png/nav-config-press.png",
+        "bytes": 3580,
+        "sha256": "13c45c27c56176f436c09127b3f370add4c6c8e52661b983598686020b1c3bd2"
+      },
+      {
+        "path": "system/sui-u/png/nav-history-hover.png",
+        "bytes": 3225,
+        "sha256": "c577eb2d3a387f0c2bfe43201698d0881bc451e0e50c91c9d9af4692511bd2bb"
+      },
+      {
+        "path": "system/sui-u/png/nav-history-idle.png",
+        "bytes": 3535,
+        "sha256": "03c9ba86fac3a353971bd35edb73c06cc5ae0c5892f0925bd1b8e89cf9b33706"
+      },
+      {
+        "path": "system/sui-u/png/nav-history-press.png",
+        "bytes": 3204,
+        "sha256": "b8929d1f17bbd56c3c0d3fd0de1151944c838bfa9e6c537a703cbb76de3bdfa0"
+      },
+      {
+        "path": "system/sui-u/png/nav-load-hover.png",
+        "bytes": 3901,
+        "sha256": "90d077d73cae021f8288a231199cbe591b3327ddcdf30f5caff8e06558c4ceda"
+      },
+      {
+        "path": "system/sui-u/png/nav-load-idle.png",
+        "bytes": 4356,
+        "sha256": "5c9231f367fea73240456036c3a8913135f07c446428a4f9a59af4dcb8aa5e47"
+      },
+      {
+        "path": "system/sui-u/png/nav-load-press.png",
+        "bytes": 3839,
+        "sha256": "893473355ae9a348e4fbaee128e04645aee2d1b7919974eb383b577c9a9e929b"
+      },
+      {
+        "path": "system/sui-u/png/nav-save-hover.png",
+        "bytes": 3341,
+        "sha256": "77a6bb67f5969b2e3f2a7e032e93e0f07751d698d906075bf6bd9e938f4c73ba"
+      },
+      {
+        "path": "system/sui-u/png/nav-save-idle.png",
+        "bytes": 3684,
+        "sha256": "676d509295e0ae1a501b8b623fbc68c8e4aae984103975813714416e45d69f37"
+      },
+      {
+        "path": "system/sui-u/png/nav-save-press.png",
+        "bytes": 3289,
+        "sha256": "01f200aec437ba5ba05c7d4be7a1755a94490fe97acd9faac7e2f081ad7be957"
+      },
+      {
+        "path": "system/sui-u/png/nav-skip-hover.png",
+        "bytes": 3407,
+        "sha256": "ede13dbab843bcef1864c725380b1935d0362a7a011e4be96ef6b25c01772fcb"
+      },
+      {
+        "path": "system/sui-u/png/nav-skip-idle.png",
+        "bytes": 3727,
+        "sha256": "cfccf22ac2ca0ade983205306c03da7dcb25cb2d077acc293488636e69009909"
+      },
+      {
+        "path": "system/sui-u/png/nav-skip-press.png",
+        "bytes": 3381,
+        "sha256": "6055019de58be3b2f9a71ae4b262cdff295009874f49127203d1c9e591ae211a"
+      },
+      {
+        "path": "system/sui-u/png/nav-title-hover.png",
+        "bytes": 3374,
+        "sha256": "03b587ebc8ccd7eedb33bce4b52c6831262b6615f79593ece5bc4a8cc7658df1"
+      },
+      {
+        "path": "system/sui-u/png/nav-title-idle.png",
+        "bytes": 3695,
+        "sha256": "40dd3363ef1ea9cab8fd39b35e21ba4bf6a22f3d4deafbb3702c9f901c9abdae"
+      },
+      {
+        "path": "system/sui-u/png/nav-title-press.png",
+        "bytes": 3337,
+        "sha256": "592eaf23f172d78b17edd8bc822d76eb127de2158a35cf98667fcbf0752c0890"
+      },
+      {
+        "path": "system/sui-u/png/next-hover.png",
+        "bytes": 1543,
+        "sha256": "5dc55508c94983f20cbf17faf7464729c3601e5ed7f1d5cc7c0d41b83a4d5530"
+      },
+      {
+        "path": "system/sui-u/png/next-idle.png",
+        "bytes": 1671,
+        "sha256": "5a3e166bb61c5e536d8ab1184742afed6edeb3447b613edebb84f1ad6bf3f41a"
+      },
+      {
+        "path": "system/sui-u/png/next-press.png",
+        "bytes": 1534,
+        "sha256": "006f38a791a5c151395a458c98a779753a54edbd9ffa6964331a48320163ea19"
+      },
+      {
+        "path": "system/sui-u/png/preview.png",
+        "bytes": 444,
+        "sha256": "bba817b97ba51e2bf014b6757c3b7a54c57b5567b00f8dae03fcfff52ddaaee8"
+      },
+      {
+        "path": "system/sui-u/png/previous-hover.png",
+        "bytes": 1344,
+        "sha256": "05a90d2b043d9cab855483b919bcee6d7bc0078f33eb0f5c19ce84822162e8b8"
+      },
+      {
+        "path": "system/sui-u/png/previous-idle.png",
+        "bytes": 1461,
+        "sha256": "4d1eb68a1b61f0e3df8897445060b6411225bb360271b84c9d7717e7ba17dc75"
+      },
+      {
+        "path": "system/sui-u/png/previous-press.png",
+        "bytes": 1338,
+        "sha256": "b89bce40e850266037eefe3fd9da1ca112932efca33472eb1f481cd8318f35a5"
+      },
+      {
+        "path": "system/sui-u/png/reading-backdrop.png",
+        "bytes": 54208,
+        "sha256": "4223df8b5ff83cfafa5d7af5c2225824a0fac3340a8cc74e9de5cc9ac9135b7a"
+      },
+      {
+        "path": "system/sui-u/png/reset-hover.png",
+        "bytes": 4451,
+        "sha256": "a266b8dd63e3a0a467b4e984a124d84e915fddedde4ffcf6d58ff7d4ce666ae9"
+      },
+      {
+        "path": "system/sui-u/png/reset-idle.png",
+        "bytes": 4993,
+        "sha256": "d4aafb1de5670d7555a4de5c36faf92b672fbde8884e6d04e40ffbcf744a51d8"
+      },
+      {
+        "path": "system/sui-u/png/reset-press.png",
+        "bytes": 4442,
+        "sha256": "0b1461ac89dc72b3e85c59398de190bb36274ea42903231be8924e2361079d12"
+      },
+      {
+        "path": "system/sui-u/png/save-item-0-hover.png",
+        "bytes": 2761,
+        "sha256": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225"
+      },
+      {
+        "path": "system/sui-u/png/save-item-0-idle.png",
+        "bytes": 2760,
+        "sha256": "f1784745d2f1a1d644e95c23646c2704f926aae00b33a404b550d5b65868a46a"
+      },
+      {
+        "path": "system/sui-u/png/save-item-0-press.png",
+        "bytes": 2761,
+        "sha256": "e92ac34da956f7f2241f6342cf6963d3abfdb2e3a4a9dc3809f509c6ba223225"
+      },
+      {
+        "path": "system/sui-u/png/save-item-1-hover.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-1-idle.png",
+        "bytes": 3493,
+        "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+      },
+      {
+        "path": "system/sui-u/png/save-item-1-press.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-2-hover.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-2-idle.png",
+        "bytes": 3493,
+        "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+      },
+      {
+        "path": "system/sui-u/png/save-item-2-press.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-3-hover.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-3-idle.png",
+        "bytes": 3493,
+        "sha256": "dd8483bcea915bde2f66de427353e7b6c6bb27f0efeaee312137f8ae6601c839"
+      },
+      {
+        "path": "system/sui-u/png/save-item-3-press.png",
+        "bytes": 3427,
+        "sha256": "2ede7d67df1ecd1bf7b79d6bd56857eff3160b0e835a7153e5c601caf244b068"
+      },
+      {
+        "path": "system/sui-u/png/save-item-hover.png",
+        "bytes": 956,
+        "sha256": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d"
+      },
+      {
+        "path": "system/sui-u/png/save-item-idle.png",
+        "bytes": 951,
+        "sha256": "ffdd0b719fd1a0fed28340cb76abf560a3c75eec585b3de1f63f461d067c09a8"
+      },
+      {
+        "path": "system/sui-u/png/save-item-press.png",
+        "bytes": 956,
+        "sha256": "705d0c7bec53844d2d55a6ca983557f7ef160e9c7593658392718eb7ee87e25d"
+      },
+      {
+        "path": "system/sui-u/png/save.png",
+        "bytes": 27116,
+        "sha256": "eeb369ab803cdcc39b4501dabdb08b0a00e33024707bbc61db7facbe713ac37e"
+      },
+      {
+        "path": "system/sui-u/png/scroll-hover.png",
+        "bytes": 246,
+        "sha256": "e1b29e1954b5a0e62ac07f11bbbc30bbbc20c84499c0e92d74731d9cd3b530b3"
+      },
+      {
+        "path": "system/sui-u/png/scroll-idle.png",
+        "bytes": 245,
+        "sha256": "0df6eaa09efdd2b0a71c2ea2ee86332a2df324ed4b26f4f5ba9e489de2c7279f"
+      },
+      {
+        "path": "system/sui-u/png/scroll-knob.png",
+        "bytes": 166,
+        "sha256": "f5b197668d75e3d1a45cf77176a2417217105d016b84035861c1047d7cc755be"
+      },
+      {
+        "path": "system/sui-u/png/settings-hover.png",
+        "bytes": 1749,
+        "sha256": "e9e3350e555b395d7381cc1355fb7ff33ca25e1e90288239ee8d8d3797e61a91"
+      },
+      {
+        "path": "system/sui-u/png/settings-idle.png",
+        "bytes": 1884,
+        "sha256": "52e3c8be6e833384a88b8bae2e76eeb0260943e279cc2a49ad0af718caa58dd7"
+      },
+      {
+        "path": "system/sui-u/png/settings-press.png",
+        "bytes": 1747,
+        "sha256": "10c869c5a922253785e19c53f892fde3bd213058a2db72113d2862abc3fe3bd2"
+      },
+      {
+        "path": "system/sui-u/png/skip.png",
+        "bytes": 4533,
+        "sha256": "6b9a8672e8b2b7a50994d50c0c8ba8abee060a7aca58da768b77925915bf6d43"
+      },
+      {
+        "path": "system/sui-u/png/slider-hover.png",
+        "bytes": 192,
+        "sha256": "2f10e38a7f0938dd8d2d9012f3b001e9b8f0260fc07cb9aa1c112a654412e0c7"
+      },
+      {
+        "path": "system/sui-u/png/slider-idle.png",
+        "bytes": 192,
+        "sha256": "5e9d1b013dd8575ca3dfa709fddbeb49f9a216ca74f708b85e27ce5d0e7c1b8b"
+      },
+      {
+        "path": "system/sui-u/png/slider-knob.png",
+        "bytes": 162,
+        "sha256": "e98abcdd04d52ace4fd1b0630a45cfc9b1bd690b9d22ddef856d281610c724ed"
+      },
+      {
+        "path": "system/sui-u/png/start-hover.png",
+        "bytes": 3429,
+        "sha256": "aa9a6120f220444787156901d6e14c9e017b1b613dc4d81a64b78008c044c596"
+      },
+      {
+        "path": "system/sui-u/png/start-idle.png",
+        "bytes": 3396,
+        "sha256": "7218a7c3aba9334cf7c01d82073f91a4e19113082c92f2694bf7dd8a4b010356"
+      },
+      {
+        "path": "system/sui-u/png/start-press.png",
+        "bytes": 3373,
+        "sha256": "d3cdf9523d76d682ec334230eb181aa061de667cda2d96c613c8fd37b7fc6f99"
+      },
+      {
+        "path": "system/sui-u/png/sysmenu.png",
+        "bytes": 20928,
+        "sha256": "f42ce9c9dd2e429dbc34595c1496d8cdad53eccc604c4de0854f1c43b91dd7d6"
+      },
+      {
+        "path": "system/sui-u/png/title-confirm.png",
+        "bytes": 20580,
+        "sha256": "90caa9f801c5ff02eb4bed3e8da7828145d9787b9cc80d3c5b334d177a9ab0f5"
+      },
+      {
+        "path": "system/sui-u/png/title.png",
+        "bytes": 85310,
+        "sha256": "1c2beabfd1f9366322c852d4d4cd37773e4a828449cedcb3ab14cebbb08c97a7"
+      },
+      {
+        "path": "system/sysmenu/sysmenu.gui",
+        "bytes": 2511,
+        "sha256": "aa53134ecde1e02e7c184b91d35e6800d361c05aca7fff27704a1389919b1bbe"
+      }
+    ],
+    "outputs": [
+      {
+        "path": "web/assets.arc",
+        "bytes": 25590755,
+        "sha256": "45891e41bb41a0d138ea02dfafe23478a4548b85f12c062813269751a31d2e65"
+      },
+      {
+        "path": "web/index.html",
+        "bytes": 1996745,
+        "sha256": "2570d3bf4040ee923cc2e53380e0b6acb3a3cbe0199e5badd21e3699524e52c4"
+      },
+      {
+        "path": "web/shell.js",
+        "bytes": 4017,
+        "sha256": "c8c2aa1ea87c85b29f3c4f7d76c8c2676cf62e2b01edd05fb49ec4737a9f3270"
+      },
+      {
+        "path": "web/shell.css",
+        "bytes": 1954,
+        "sha256": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a"
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "指定候选标题、项目身份与独立空存档库",
+      "pass": true,
+      "detail": {
+        "mount": "毕节，雨停之前 · Suika3",
+        "dbs": {},
+        "width": 1280,
+        "height": 720
+      }
+    },
+    {
+      "name": "空槽拒绝且未创建进度",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "指定候选开场与手动档1保存",
+      "pass": true,
+      "detail": "TEXT_12e9affe350b12038970_1"
+    },
+    {
+      "name": "快速翻页后停留会补写自动档及手动档2",
+      "pass": true,
+      "detail": "TEXT_f5354c41d01bf0d95a4c_1"
+    },
+    {
+      "name": "手动档1恢复正文位置和状态",
+      "pass": true
+    },
+    {
+      "name": "手动档2恢复另一正文位置",
+      "pass": true
+    },
+    {
+      "name": "选择等待态自动快照及手动档3",
+      "pass": true,
+      "detail": "C01-01"
+    },
+    {
+      "name": "真实菜单回到选择前完整快照，下游选择可重选",
+      "pass": true,
+      "detail": "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133"
+    },
+    {
+      "name": "重选另一分支后，手动档3仍恢复原选择前状态",
+      "pass": true
+    },
+    {
+      "name": "页面刷新后选择存档保留并恢复",
+      "pass": true
+    },
+    {
+      "name": "关闭独立浏览器重新打开后存档持久化",
+      "pass": true
+    },
+    {
+      "name": "当前未选节点的回退跳过自身，回到上一已读选择",
+      "pass": true
+    },
+    {
+      "name": "自动档可从标题恢复",
+      "pass": true,
+      "detail": "SUI_E|load|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133"
+    },
+    {
+      "name": "数据库名与所有存档均属本作独立命名空间",
+      "pass": true,
+      "detail": [
+        {
+          "name": "bijie-rain-suika3-i02-diagnostic:/毕节，雨停之前 · Suika3",
+          "version": 21
+        }
+      ]
+    },
+    {
+      "name": "手机尺寸旋转保留选择位置，短触完成真实分支选择",
+      "pass": true
+    },
+    {
+      "name": "新游戏保留旧手动档和对应快照，读取旧档后回退不会串入新一轮",
+      "pass": true
+    },
+    {
+      "name": "浏览器实际写回失败可见、保留文件和待写状态，重试恢复",
+      "pass": true
+    },
+    {
+      "name": "测试期间所有网页产物指纹不变",
+      "pass": true,
+      "detail": {
+        "assets.arc": "45891e41bb41a0d138ea02dfafe23478a4548b85f12c062813269751a31d2e65",
+        "index.html": "2570d3bf4040ee923cc2e53380e0b6acb3a3cbe0199e5badd21e3699524e52c4",
+        "shell.css": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a",
+        "shell.js": "c8c2aa1ea87c85b29f3c4f7d76c8c2676cf62e2b01edd05fb49ec4737a9f3270"
+      }
+    }
+  ],
+  "errors": [
+    "SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1",
+    "SUI_I|exit|binding=diagnostic-scene|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|unlock|cg=CG001",
+    "SUI_I|enter|binding=diagnostic-cg|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|exit|binding=diagnostic-cg|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=diagnostic-clear-character|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|exit|binding=diagnostic-clear-character|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|enter|binding=diagnostic-scene-return|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|exit|binding=diagnostic-scene-return|node=TEXT_d21f786e12142417e468_1",
+    "SUI_I|enter|binding=diagnostic-first-choice|node=C01-01",
+    "SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1",
+    "SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1",
+    "SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1",
+    "SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1",
+    "SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1",
+    "SUI_I|exit|binding=diagnostic-scene|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|unlock|cg=CG001",
+    "SUI_I|enter|binding=diagnostic-cg|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|exit|binding=diagnostic-cg|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=diagnostic-clear-character|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|exit|binding=diagnostic-clear-character|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|enter|binding=diagnostic-scene-return|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|exit|binding=diagnostic-scene-return|node=TEXT_d21f786e12142417e468_1",
+    "SUI_I|enter|binding=diagnostic-first-choice|node=C01-01",
+    "SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1"
+  ],
+  "screenshots": [
+    "01-title.png",
+    "02-opening.png",
+    "03-saved.png",
+    "04-first-choice.png",
+    "05-rollback.png",
+    "06-mobile-portrait.png",
+    "07-mobile-landscape.png",
+    "08-storage-error.png",
+    "09-final-choice.png",
+    "failure.png"
+  ],
+  "browser": "156.0.8078.49",
+  "status": "fail",
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1',\n+   'SUI_I|exit|binding=diagnostic-scene|node=TEXT_f5354c41d01bf0d95a4c_1',\n+   'SUI_I|unlock|cg=CG001',\n+   'SUI_I|enter|binding=diagnostic-cg|node=TEXT_f5354c41d01bf0d95a4c_1',\n+   'SUI_I|exit|binding=diagnostic-cg|node=TEXT_04f2fe2301318a26493d_1',\n+   'SUI_I|enter|binding=diagnostic-clear-character|node=TEXT_04f2fe2301318a26493d_1',\n+   'SUI_I|exit|binding=diagnostic-clear-character|node=TEXT_982d9ac0f683c6bbb52b_1',\n+   'SUI_I|enter|binding=diagnostic-scene-return|node=TEXT_982d9ac0f683c6bbb52b_1',\n+   'SUI_I|exit|binding=diagnostic-scene-return|node=TEXT_d21f786e12142417e468_1',\n+   'SUI_I|enter|binding=diagnostic-first-choice|node=C01-01',\n+   'SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1',\n+   'SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1',\n+   'SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1',\n+   'SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1',\n+   'SUI_I|enter|binding=diagnostic-scene|node=TEXT_12e9affe350b12038970_1',\n+   'SUI_I|exit|binding=diagnostic-scene|node=TEXT_f5354c41d01bf0d95a4c_1',\n+   'SUI_I|unlock|cg=CG001',\n+   'SUI_I|enter|binding=diagnostic-cg|node=TEXT_f5354c41d01bf0d95a4c_1',\n+   'SUI_I|exit|binding=diagnostic-cg|node=TEXT_04f2fe2301318a26493d_1',\n+   'SUI_I|enter|binding=diagnostic-clear-character|node=TEXT_04f2fe2301318a26493d_1',\n+   'SUI_I|exit|binding=diagnostic-clear-character|node=TEXT_982d9ac0f683c6bbb52b_1',\n+   'SUI_I|enter|binding=diagnostic-scene-return|node=TEXT_982d9ac0f683c6bbb52b_1',\n+   'SUI_I|exit|binding=diagnostic-scene-return|node=TEXT_d21f786e12142417e468_1',\n+   'SUI_I|enter|binding=diagnostic-first-choice|node=C01-01',\n+   'SUI_I|exit|binding=diagnostic-first-choice|node=BRANCH_c68b81993efac45af2e1'\n+ ]\n- []\n\n    at /Users/yipin/Desktop/Suika3/qa/sui-i02-20261029/verify-browser.cjs:45:175",
+  "logs": [
+    "SUI_E|ready|efb071c50d9c50b24ba901cec9bd68ef8dca0ddaff7961d0bd0380bc1c30119b",
+    "SUI_E|title",
+    "SUI_E|notice|这个位置还没有存档。",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=0|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|load|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|load|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|stable|cursor=TEXT_e1427ee34fcf2aeca819_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+    "SUI_E|stable|cursor=TEXT_080c170244eff617925d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_E|stable|cursor=TEXT_eba83339c178c009eff6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_E|stable|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|stable|cursor=TEXT_e83b5f0a4167ec40ee58_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+    "SUI_E|stable|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_E|save|slot=0|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_E|stable|cursor=TEXT_3fe55dfb2dd63fbb3b0e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=69",
+    "SUI_E|stable|cursor=TEXT_945c8830453c2fe27c64_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=73",
+    "SUI_E|stable|cursor=TEXT_7b5cf5dd9537e65579e1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=77",
+    "SUI_E|stable|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+    "SUI_E|stable|cursor=TEXT_cf9813a6bde4d424ec26_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=85",
+    "SUI_E|stable|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_E|stable|cursor=TEXT_f79bca9d3ad4ce89cc75_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=93",
+    "SUI_E|stable|cursor=TEXT_0f8e774a8dc5b1ba5070_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=97",
+    "SUI_E|stable|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+    "SUI_E|stable|cursor=TEXT_093d48020869574e10bb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=105",
+    "SUI_E|stable|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+    "SUI_E|save|slot=0|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+    "SUI_E|stable|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+    "SUI_E|stable|cursor=TEXT_c63983d8a92b2d07edb4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=117",
+    "SUI_E|stable|cursor=TEXT_bc2c686eef08f9474502_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=121",
+    "SUI_E|stable|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+    "SUI_E|stable|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=11|generation=1|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|save|slot=0|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|notice|已回到选择之前，可重新选择。",
+    "SUI_E|rollback|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|stable|cursor=TEXT_e1defaa5ab911ec1695e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=157",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|ready|efb071c50d9c50b24ba901cec9bd68ef8dca0ddaff7961d0bd0380bc1c30119b",
+    "SUI_E|title",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|ready|efb071c50d9c50b24ba901cec9bd68ef8dca0ddaff7961d0bd0380bc1c30119b",
+    "SUI_E|title",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|stable|cursor=TEXT_4abe77d5f538f1cfc858_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=143",
+    "SUI_E|stable|cursor=TEXT_03ca33cca5ab91643347_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=147",
+    "SUI_E|stable|cursor=TEXT_166076994750bf748044_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=151",
+    "SUI_E|stable|cursor=TEXT_cd69d6bcd1049cfe55fb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=169",
+    "SUI_E|stable|cursor=TEXT_89266a1cfc9100482c8f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=173",
+    "SUI_E|stable|cursor=TEXT_a316303bd07daf1171aa_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=177",
+    "SUI_E|stable|cursor=TEXT_51fa096b3c9175bb4d82_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=181",
+    "SUI_E|save|slot=0|cursor=TEXT_51fa096b3c9175bb4d82_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=181",
+    "SUI_E|stable|cursor=TEXT_9f319b6f8239e315232b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=185",
+    "SUI_E|stable|cursor=TEXT_a5e87526f883d6644207_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=189",
+    "SUI_E|stable|cursor=TEXT_d6a05c9677f394ba707e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=193",
+    "SUI_E|stable|cursor=TEXT_3a8a624bb43c53d4e7e7_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=197",
+    "SUI_E|stable|cursor=TEXT_eb37663c5ae16d9d98b4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=201",
+    "SUI_E|stable|cursor=TEXT_09bf52d8182ab1ba8f1b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=205",
+    "SUI_E|stable|cursor=TEXT_231b265a1db9c9ca7ff9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=209",
+    "SUI_E|stable|cursor=TEXT_882e91640692acd2faa5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=213",
+    "SUI_E|stable|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_E|stable|cursor=TEXT_4353be5501361c8688c0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=221",
+    "SUI_E|stable|cursor=TEXT_446c0211640c31bcebd5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=225",
+    "SUI_E|save|slot=0|cursor=TEXT_446c0211640c31bcebd5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=225",
+    "SUI_E|stable|cursor=TEXT_d041417c5a7cba4d237f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=229",
+    "SUI_E|stable|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=233",
+    "SUI_E|save|slot=12|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=e_checkpoint|index=234",
+    "SUI_E|checkpoint|choice=C01-02|slot=12|generation=2|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=e_checkpoint|index=234",
+    "SUI_E|stable|cursor=C01-02|pending=C01-02|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=choose|index=237",
+    "SUI_E|save|slot=0|cursor=C01-02|pending=C01-02|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=choose|index=237",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|notice|已回到选择之前，可重新选择。",
+    "SUI_E|rollback|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|load|slot=2|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|ready|efb071c50d9c50b24ba901cec9bd68ef8dca0ddaff7961d0bd0380bc1c30119b",
+    "SUI_E|title",
+    "SUI_E|load|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|ready|efb071c50d9c50b24ba901cec9bd68ef8dca0ddaff7961d0bd0380bc1c30119b",
+    "SUI_E|title",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|stable|cursor=TEXT_e1defaa5ab911ec1695e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=157",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|stable|cursor=TEXT_e1427ee34fcf2aeca819_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+    "SUI_E|stable|cursor=TEXT_080c170244eff617925d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_E|stable|cursor=TEXT_eba83339c178c009eff6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_E|stable|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|stable|cursor=TEXT_e83b5f0a4167ec40ee58_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+    "SUI_E|stable|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_E|save|slot=0|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_E|stable|cursor=TEXT_3fe55dfb2dd63fbb3b0e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=69",
+    "SUI_E|stable|cursor=TEXT_945c8830453c2fe27c64_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=73",
+    "SUI_E|stable|cursor=TEXT_7b5cf5dd9537e65579e1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=77",
+    "SUI_E|stable|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+    "SUI_E|stable|cursor=TEXT_cf9813a6bde4d424ec26_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=85",
+    "SUI_E|stable|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_E|stable|cursor=TEXT_f79bca9d3ad4ce89cc75_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=93",
+    "SUI_E|stable|cursor=TEXT_0f8e774a8dc5b1ba5070_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=97",
+    "SUI_E|stable|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+    "SUI_E|stable|cursor=TEXT_093d48020869574e10bb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=105",
+    "SUI_E|stable|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+    "SUI_E|save|slot=0|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+    "SUI_E|stable|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+    "SUI_E|stable|cursor=TEXT_c63983d8a92b2d07edb4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=117",
+    "SUI_E|stable|cursor=TEXT_bc2c686eef08f9474502_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=121",
+    "SUI_E|stable|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+    "SUI_E|stable|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=13|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=13|generation=3|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|load|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|notice|已回到选择之前，可重新选择。",
+    "SUI_E|rollback|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133"
+  ],
+  "screenshotRoot": "browser-screenshots-v002",
+  "archiveNote": "报告与截图按候选版本保留；路径改指本版本截图副本，检查与指纹不变"
+}

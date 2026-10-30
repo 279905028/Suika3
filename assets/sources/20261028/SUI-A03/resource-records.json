@@ -1,0 +1,1876 @@
+{
+  "schemaVersion": "SUI-A03-package-1",
+  "task": "SUI-A03",
+  "scope": "本包记录；不是最终采用清单",
+  "selectedOption": "B",
+  "records": [
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-base",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "neutral",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 189,
+          "quote": "她今天本来就没上班。",
+          "heading": "## 第四章｜这句话她也说过",
+          "nearestDeclaredNode": null,
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/prompts.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.webp",
+      "sha256Source": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8",
+      "sha256Derivative": "c385e85d8d9db730191d494585cf37f27b43894f8b9ac63cbac65213691b6739",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1196204,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1023,
+          1536
+        ],
+        "transparentPixels": 660399,
+        "bboxAtAlpha16": [
+          150,
+          2,
+          807,
+          1534
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "所选当前路线正文允许的普通交谈；不表示已确立恋爱",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "user_selected_base",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1941264,
+        "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1023,
+            1536
+          ],
+          "transparentPixels": 660399,
+          "bboxAtAlpha16": [
+            150,
+            2,
+            807,
+            1534
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 深色长裤 / 披发",
+      "label": "B 基础",
+      "packageKey": "base",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-smile",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "smile",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 91,
+          "quote": "她笑得直往沙发里陷。",
+          "heading": "## 第三章｜门开着的时候",
+          "nearestDeclaredNode": null,
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+          "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/generation-log.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-smile-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-smile-v001.webp",
+      "sha256Source": "7909370f9243344863c2fb2a23d68a7dbf8f7c6cc6ba742ca900c77458f0c7ab",
+      "sha256Derivative": "ba4ba50b86fc8faad8ec912365ba79bdf2b46abd2bacaaef9c6476748d330243",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1174320,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1010,
+          1536
+        ],
+        "transparentPixels": 660281,
+        "bboxAtAlpha16": [
+          151,
+          5,
+          811,
+          1531
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第三章自发笑意或适用私人相处；不得把笑容本身编码成恋爱状态",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "approved_base_derivative_author_review",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1931354,
+        "sha256": "7909370f9243344863c2fb2a23d68a7dbf8f7c6cc6ba742ca900c77458f0c7ab",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1010,
+            1536
+          ],
+          "transparentPixels": 660281,
+          "bboxAtAlpha16": [
+            151,
+            5,
+            811,
+            1531
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 深色长裤 / 披发",
+      "label": "私人 · 自然笑",
+      "packageKey": "smile",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-serious",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "serious",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 225,
+          "quote": "你这张单子不是问。",
+          "heading": "## 第四章｜这句话她也说过",
+          "nearestDeclaredNode": null,
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+          "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/generation-log.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-serious-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-serious-v001.webp",
+      "sha256Source": "62dac5cc78e30052959205d121acc9f3f1c17a79a8be6b425a7dc4fbc3d4a794",
+      "sha256Derivative": "9d8310fca2552ac4a105319c821ce3519ebf4a532497ab8f2560c4d374a6e3b6",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1160454,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1006,
+          1536
+        ],
+        "transparentPixels": 660416,
+        "bboxAtAlpha16": [
+          149,
+          5,
+          811,
+          1531
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第24天撤单后的边界交谈等；工作裙装场景改用work-serious",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "approved_base_derivative_author_review",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1899432,
+        "sha256": "62dac5cc78e30052959205d121acc9f3f1c17a79a8be6b425a7dc4fbc3d4a794",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1006,
+            1536
+          ],
+          "transparentPixels": 660416,
+          "bboxAtAlpha16": [
+            149,
+            5,
+            811,
+            1531
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 深色长裤 / 披发",
+      "label": "私人 · 认真",
+      "packageKey": "serious",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-downcast",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "downcast",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 937,
+          "quote": "今天不答应了。",
+          "heading": "## 第八章｜回声关了，她还要上班",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+          "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/generation-log.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-downcast-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-downcast-v001.webp",
+      "sha256Source": "c5ee0f8cd33f9d09ca4df08465ad63d6db0af2fec108a7b16d6f4be80c5c6ab2",
+      "sha256Derivative": "7685df2784d88a552c2a9b304a825d022d283aec41ae7114a60ceabd34f4c9d8",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1158144,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          146,
+          0,
+          832,
+          1536
+        ],
+        "transparentPixels": 659095,
+        "bboxAtAlpha16": [
+          149,
+          5,
+          812,
+          1531
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第60天非AA组合的离别；AB/BA/BB表情可共用，动作和对白按各支分别处理",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "approved_base_derivative_author_review",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1899315,
+        "sha256": "c5ee0f8cd33f9d09ca4df08465ad63d6db0af2fec108a7b16d6f4be80c5c6ab2",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            146,
+            0,
+            832,
+            1536
+          ],
+          "transparentPixels": 659095,
+          "bboxAtAlpha16": [
+            149,
+            5,
+            812,
+            1531
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 深色长裤 / 披发",
+      "label": "私人 · 低落",
+      "packageKey": "downcast",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-tied-tired-cup",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "tired-cup",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi",
+        "prop-zhouzhi-blue-rim-cup",
+        "prop-zhouzhi-personal-box"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 603,
+          "quote": "她拿起蓝沿白杯，问不好看吗。",
+          "heading": "## 第七章｜没有包房的下午",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+          "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/generation-log.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-casual-tied-tired-cup-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-casual-tied-tired-cup-v001.webp",
+      "sha256Source": "99b935a879d16d09f87c7b612a627850214d4898f0caa30814bbb00eaa40940c",
+      "sha256Derivative": "6c04e16a9f9f051eb3a90de74e865caf9b12e10c51c18c07170924da461ab363",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1137916,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          9,
+          1002,
+          1527
+        ],
+        "transparentPixels": 728426,
+        "bboxAtAlpha16": [
+          160,
+          12,
+          790,
+          1524
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": [
+          290,
+          590,
+          420,
+          300
+        ],
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "仅第36天超市拿起蓝沿白杯的当拍；进入同节街边吃洋芋前退出；不能默认读成已买杯后的饮水动作",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "approved_base_derivative_author_review",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1858724,
+        "sha256": "99b935a879d16d09f87c7b612a627850214d4898f0caa30814bbb00eaa40940c",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            9,
+            1002,
+            1527
+          ],
+          "transparentPixels": 728426,
+          "bboxAtAlpha16": [
+            160,
+            12,
+            790,
+            1524
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 深色长裤 / 松扎长发",
+      "label": "第36天 · 扎发持杯",
+      "packageKey": "tied-tired-cup",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-planning",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "planning",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi",
+        "prop-zhouzhi-planning"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 719,
+          "quote": "第45天，她拿着一张采购单来网吧。",
+          "heading": "## 第七章｜没有包房的下午",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+          "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/generation-log.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-planning-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-base-planning-v001.webp",
+      "sha256Source": "18a8921900c28add78dc452973af171bbee833b4da8d5dac3ee228b045d630f5",
+      "sha256Derivative": "c8a368aab535496ba7b408bac915439c51133f6d6d2999333154f348ea45fd71",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1143182,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          982,
+          1536
+        ],
+        "transparentPixels": 678324,
+        "bboxAtAlpha16": [
+          130,
+          5,
+          829,
+          1531
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": [
+          100,
+          600,
+          620,
+          430
+        ],
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第45天在网吧讨论采购单；接电话时退出持纸动作；未制作可读正面、金额或采购数量",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "approved_base_derivative_author_review",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1888413,
+        "sha256": "18a8921900c28add78dc452973af171bbee833b4da8d5dac3ee228b045d630f5",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            982,
+            1536
+          ],
+          "transparentPixels": 678324,
+          "bboxAtAlpha16": [
+            130,
+            5,
+            829,
+            1531
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 深色长裤 / 披发",
+      "label": "第45天 · 采购单",
+      "packageKey": "planning",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-work-neutral",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "neutral",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi",
+        "prop-zhouzhi-personal-box"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 741,
+          "quote": "她换了裙子，头发重新弄过，耳饰是306里找回来的那只。",
+          "heading": "## 第八章｜回声关了，她还要上班",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+          "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/generation-log.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-neutral-v001.webp",
+      "sha256Source": "a461e91c1048314432685485233aba9d1af5eb8288709fddd43868d727e78a9e",
+      "sha256Derivative": "f992aefc7429519f78c9e823c57c1ae74fc4281243313fc7cb0bb2fdc24a30cf",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1182284,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1008,
+          1536
+        ],
+        "transparentPixels": 692234,
+        "bboxAtAlpha16": [
+          150,
+          5,
+          810,
+          1531
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第46天另接短班；朴素裙装为本批视觉设计，不新增正文服装色款设定；职业礼貌不是恋人承诺",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "approved_base_derivative_author_review",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1952690,
+        "sha256": "a461e91c1048314432685485233aba9d1af5eb8288709fddd43868d727e78a9e",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1008,
+            1536
+          ],
+          "transparentPixels": 692234,
+          "bboxAtAlpha16": [
+            150,
+            5,
+            810,
+            1531
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 素深色半裙 / 披发",
+      "label": "工作 · 裙装",
+      "packageKey": "work-neutral",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-work-serious",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "serious",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 775,
+          "quote": "我没跟你保证过不做了。",
+          "heading": "## 第八章｜回声关了，她还要上班",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+          "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-neutral-v001.png",
+          "sha256": "a461e91c1048314432685485233aba9d1af5eb8288709fddd43868d727e78a9e"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/generation-log.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-serious-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-work-skirt-serious-v001.webp",
+      "sha256Source": "6e0f76a6fe8957aa4efde902b168bdfc262a6607fec9c4fa366895c614b8f779",
+      "sha256Derivative": "c3a90d770bd41eb796ff4f1d52d42a151efecbcec7cfee360c565d6e5c775a4f",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1200064,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1002,
+          1536
+        ],
+        "transparentPixels": 688595,
+        "bboxAtAlpha16": [
+          161,
+          5,
+          802,
+          1531
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第46天接班解释，回声停业不表示职业停止；由work-neutral单独派生",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "approved_base_derivative_author_review",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1964367,
+        "sha256": "6e0f76a6fe8957aa4efde902b168bdfc262a6607fec9c4fa366895c614b8f779",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1002,
+            1536
+          ],
+          "transparentPixels": 688595,
+          "bboxAtAlpha16": [
+            161,
+            5,
+            802,
+            1531
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 同版深色半裙 / 披发",
+      "label": "工作 · 说清边界",
+      "packageKey": "work-serious",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-prep-apron",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "neutral",
+      "version": "v001",
+      "status": "制作完成；待A11/I",
+      "requirementKeys": [
+        "char-zhouzhi"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 1035,
+          "quote": "周栀应了一声，替最后一桌收完东西，摘下围裙。",
+          "heading": "## 第九章｜她在另一条街上",
+          "nearestDeclaredNode": "<!-- NODE ZZ-D36-RETURN -->",
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        },
+        {
+          "path": "assets/sources/20261028/SUI-A03/option-b/char-zhouzhi-human-base-neutral-v001.png",
+          "sha256": "7576cf3d617990f254de805e98cbd707e1f16fd02988627a089d0a0a7452bbf8"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/generation-log.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-prep-apron-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/variants/char-zhouzhi-human-prep-apron-neutral-v001.webp",
+      "sha256Source": "28f01420c2945c2e2f4790ee49d57e30a1ef171f6febd4822e7ceafd748d111d",
+      "sha256Derivative": "8195f87dcfc08c0b93ccad0bd67bcd9c0e843a362ac439c227c05e8a60a4b885",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1109248,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          9,
+          1008,
+          1527
+        ],
+        "transparentPixels": 763900,
+        "bboxAtAlpha16": [
+          193,
+          15,
+          756,
+          1521
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "第75天摊前当面见面，仅ZZ06-01=A & ZZ08-01=A；摘下围裙后切回无围裙图；其他分支不得用此图制造当面团聚",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [
+          "qa/SUI-A03-20261028/approval.json"
+        ],
+        "baseApproval": "approved_base_derivative_author_review",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1812351,
+        "sha256": "28f01420c2945c2e2f4790ee49d57e30a1ef171f6febd4822e7ceafd748d111d",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            9,
+            1008,
+            1527
+          ],
+          "transparentPixels": 763900,
+          "bboxAtAlpha16": [
+            193,
+            15,
+            756,
+            1521
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "青衬衫 / 深色长裤 / 深色腰围裙 / 松扎长发",
+      "label": "备菜 · 围裙",
+      "packageKey": "prep-apron",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    },
+    {
+      "schemaVersion": "SUI-A01-review-2",
+      "recordPurpose": "制作包交接模板；不是已采用资源，也不是冻结的运行契约",
+      "assetId": "char-zhouzhi-human-option-a-base",
+      "kind": "character",
+      "ownerTask": "SUI-A03",
+      "characterOrSceneKey": "zhouzhi",
+      "form": "human",
+      "variant": "neutral",
+      "version": "v001",
+      "status": "比较留存（未选）",
+      "requirementKeys": [
+        "char-zhouzhi"
+      ],
+      "storyAnchors": [
+        {
+          "path": "scenario/周栀-十一点四十七分.md",
+          "line": 189,
+          "quote": "她今天本来就没上班。",
+          "heading": "## 第四章｜这句话她也说过",
+          "nearestDeclaredNode": null,
+          "sha256": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c"
+        }
+      ],
+      "sources": [
+        {
+          "path": "assets/sources/20261028/SUI-A03/references/zhouzhi-face-v2-base-reference.webp",
+          "sha256": "8e875190bd3c2a1318ffb33ee7e74dee0415515b2e5753da7c3055bbdbe7931a"
+        }
+      ],
+      "promptOrProcessRecord": "qa/SUI-A03-20261028/prompts.json",
+      "sourceFile": "assets/sources/20261028/SUI-A03/option-a/char-zhouzhi-human-base-neutral-v001.png",
+      "derivativeFile": "assets/sources/20261028/SUI-A03/option-a/char-zhouzhi-human-base-neutral-v001.webp",
+      "sha256Source": "a56144b9b9b56a0a5b409ed023f72122eac4ee87597681a455efdde9cb441353",
+      "sha256Derivative": "2a4cf291b6e39277c8b0e31238ee3470b258b3b0609cf01e567f068c7859249d",
+      "format": "WEBP",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1172198,
+      "orientation": 1,
+      "colorSpace": "未嵌入ICC；未执行色彩转换",
+      "alpha": {
+        "present": true,
+        "range": [
+          0,
+          254
+        ],
+        "bbox": [
+          0,
+          0,
+          1008,
+          1536
+        ],
+        "transparentPixels": 670002,
+        "bboxAtAlpha16": [
+          168,
+          7,
+          794,
+          1529
+        ],
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "version": "11.3.0/1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "quality": null
+      },
+      "placement": {
+        "coordinateBasis": "源图像素；左上原点；[x,y,width,height]",
+        "pivot": [
+          512,
+          1536
+        ],
+        "pivotMeaning": "大腿截幅底部中心；不是脚底；不是NovelML ch参数",
+        "criticalRect": [
+          340,
+          115,
+          350,
+          310
+        ],
+        "criticalRectMethod": "制作人员手动包围脸部；见脸部校验图",
+        "actionRect": null,
+        "cropRect": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "uiMaskReference": "system/sui-u/integration.json",
+        "previewPlacement": {
+          "canvas": [
+            1280,
+            720
+          ],
+          "x": 435,
+          "y": 64,
+          "scale": 0.4,
+          "frozenForRuntime": false
+        }
+      },
+      "binding": {
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "sceneNodeIds": [],
+        "condition": "未选用；不进入待采用集合",
+        "enter": "由SUI-E/I按storyAnchors和逐拍演出映射；本记录不自动绑定",
+        "exitAndRestore": "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+      },
+      "approval": {
+        "appearanceEvidence": [
+          "docs/人物/周栀.md 已确认face-v2、深色长发、青衬衫"
+        ],
+        "imageEvidence": [],
+        "baseApproval": "unselected_option",
+        "currentProjectAdopted": false,
+        "adoptionEvidence": null
+      },
+      "checks": {
+        "metadata": "通过",
+        "decodedPixels": "PNG/WebP全部RGBA逐字节一致",
+        "compositeWhiteBlackDayNight": "本批人工回看通过；见visual-review.md",
+        "engine": "未测",
+        "browser": "未测",
+        "physicalPhone": "未测",
+        "desktop": "未测",
+        "deployment": "未执行"
+      },
+      "pending": [
+        "A11格式复核与待采用交接",
+        "SUI-I正式资源绑定",
+        "SUI-Q引擎/网页/真机/桌面验收"
+      ],
+      "supersedes": null,
+      "metadataFileRole": "derivativeFile：顶层format/width/height/bytes/orientation/colorSpace/alpha描述当前衍生文件；PNG兼容图与WebP各填一条记录并关联同一源图",
+      "sourceMetadata": {
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "bytes": 1910562,
+        "sha256": "a56144b9b9b56a0a5b409ed023f72122eac4ee87597681a455efdde9cb441353",
+        "orientation": 1,
+        "colorSpace": "未嵌入ICC；未执行色彩转换",
+        "iccProfileEmbedded": false,
+        "alpha": {
+          "present": true,
+          "range": [
+            0,
+            254
+          ],
+          "bbox": [
+            0,
+            0,
+            1008,
+            1536
+          ],
+          "transparentPixels": 670002,
+          "bboxAtAlpha16": [
+            168,
+            7,
+            794,
+            1529
+          ],
+          "coordinateBasis": "源图像素；左上原点；[x,y,width,height]"
+        },
+        "rgbaDecodedBytes": 6291456
+      },
+      "wardrobe": "原质感比较",
+      "label": "A 比较留存（未选）",
+      "packageKey": "option-a",
+      "rgbaDecodedBytes": 6291456,
+      "sizeReviewFlags": {
+        "over2MiB": false,
+        "longEdgeOver2048": false
+      }
+    }
+  ]
+}

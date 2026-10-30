@@ -1,0 +1,26 @@
+const fs=require('fs'),path=require('path'),os=require('os'),assert=require('assert/strict'),crypto=require('crypto');
+const{chromium}=require('/Users/yipin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const dir=__dirname,version=process.argv[2]||'diag-v003',port=Number(process.argv[3]||49223),base=path.join(dir,version),manifest=JSON.parse(fs.readFileSync(path.join(base,'wasm/build-manifest.json'))),out=path.join(dir,'presentation-'+version);fs.mkdirSync(out,{recursive:true});
+const report={scope:'真实资源诊断包演出/CG/图库/读档；不是正式采用或完整候选',version,runtimeBuildId:manifest.runtimeBuildId,checks:[],errors:[],shots:[],logs:[]};const profile=fs.mkdtempSync(path.join(os.tmpdir(),'suii-presentation-'));report.profile=profile;let ctx,p;
+const check=(name,details)=>{report.checks.push({name,pass:true,details});console.log('PASS '+name)};
+async function settle(){await p.waitForTimeout(250);await p.waitForFunction(()=>!suie.pending&&!suie.busy&&!suie.storageError,null,{timeout:20000});}
+async function click(x,y){const r=await p.locator('#canvas').boundingBox();await p.mouse.click(r.x+x*r.width/1280,r.y+y*r.height/720,{delay:60});await settle()}
+async function key(k){await p.locator('#canvas').focus();await p.keyboard.down(k);await p.waitForTimeout(60);await p.keyboard.up(k);await settle()}
+const state=()=>report.logs.filter(l=>/^SUI_E\|(stable|load|rollback)\|/.test(l)).at(-1);
+const cursor=()=>state()?.match(/\|cursor=([^|]+)/)?.[1];
+async function shot(name){const box=await p.locator('#canvas').boundingBox();const file=path.join(out,name+'.png');await p.locator('#canvas').screenshot({path:file});report.shots.push({name,file,canvasBox:box,canvas:[1280,720],sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')});}
+async function next(){const before=cursor();for(let i=0;i<10&&cursor()===before;i++)await key('Enter');assert.notEqual(cursor(),before);}
+async function save(slot){await click(1168,52);await click(260,230);await click(slot%2?920:280,slot<2?256:498);await key('Escape')}
+async function load(slot,title=false){if(!title)await click(1168,52);await click(title?240:640,title?466:230);await click(slot%2?920:280,slot<2?256:498)}
+async function launch(){ctx=await chromium.launchPersistentContext(profile,{channel:'chrome',headless:true,viewport:{width:1280,height:800},deviceScaleFactor:1});p=ctx.pages()[0];p.on('console',m=>{if(/^SUI_[EIU]\|/.test(m.text()))report.logs.push(m.text());if(m.type()==='error')report.errors.push(m.text());});p.on('pageerror',e=>report.errors.push(e.message));p.on('dialog',async d=>{const m=d.message();(report.dialogs??=[]).push(m);if(m.startsWith('SUI_I|'))report.logs.push(m);else report.errors.push(m);await d.dismiss()});await p.goto('http://127.0.0.1:'+port);await p.waitForFunction(()=>suie.events.some(x=>x.includes('SUI_E|title')),null,{timeout:30000});await settle();assert(report.logs.includes('SUI_E|ready|'+manifest.runtimeBuildId));}
+(async()=>{try{
+await launch();await click(312,546);await shot('01-gallery-locked');await click(240,220);await shot('02-locked-click');check('未遇见CG时图鉴保持锁定');await key('Escape');
+await click(240,386);await p.waitForFunction(()=>suie.events.some(x=>x.includes('SUI_E|stable')),null,{timeout:30000});await settle();await shot('03-character');const first=cursor();assert(report.logs.some(x=>x.includes('enter|binding=diagnostic-scene')));await save(1);check('背景与透明人物按真实资源绑定进入并可保存',first);
+await next();const cg=cursor();assert(report.logs.some(x=>x.includes('unlock|cg=CG001')));await shot('04-cg');await save(2);await key('v');await shot('05-cg-full');assert.equal(cursor(),cg);assert(report.logs.some(x=>x.includes('full-view|opened')));await key('Escape');assert.equal(cursor(),cg);check('CG遇见后解锁，全图开关停留原段',cg);
+await next();await shot('06-exit-hidden');assert(report.logs.some(x=>x.includes('exit|binding=diagnostic-cg')));check('下一节点按声明退场且隐藏人物',cursor());
+await load(2);assert.equal(cursor(),cg);await shot('07-cg-loaded');await key('v');await shot('08-cg-loaded-full');await key('Escape');assert.equal(cursor(),cg);check('手动档恢复CG与全图查看');await load(1);assert.equal(cursor(),first);await shot('09-character-loaded');check('手动档恢复背景/人物/站位');
+await ctx.close();await launch();await load(2,true);assert.equal(cursor(),cg);await shot('10-cg-reopened');await key('v');await shot('11-cg-reopened-full');await key('Escape');check('关闭浏览器重开后CG存档与全图恢复');
+// Return to title via UI confirmation, preserving global CG unlock.
+await click(1168,52);await click(260,558);await click(500,430);await p.waitForFunction(()=>suie.events.some(x=>x.includes('SUI_E|title')));await click(312,546);await shot('12-gallery-unlocked');await click(240,220);await shot('13-gallery-detail');check('遇见CG的全局图库登记和详情可用');await key('Escape');await key('Escape');await click(240,386);await settle();assert.equal(cursor(),first);check('新游戏恢复开场演出，不继承旧CG舞台');
+assert.deepEqual(report.errors,[]);assert.deepEqual(report.dialogs||[],[],'候选不应弹出诊断日志');check('原生/浏览器错误为零');report.status='pass';
+}catch(e){report.status='fail';report.failure=e.stack;console.error(e);if(p)await shot('failure').catch(()=>{});process.exitCode=1}finally{fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(report,null,2)+'\n');if(ctx)await ctx.close()}})();

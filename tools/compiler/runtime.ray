@@ -1,0 +1,315 @@
+// SUI-C semantic support. Host owns start/update/render and persistence.
+// Diagnostic counters are not save state; they reset on a new run.
+var sc_diagnostic_visits = 0;
+var sc_diagnostic_choices = 0;
+func sc_get(key) { return Suika.getVariableString({name: "sc_" + key}); }
+func sc_set(key, value) { Suika.setVariableString({name: "sc_" + key, value: String.from(value)}); }
+func sc_has(list, value) {
+    for (item in list) if (item == value) return true;
+    return false;
+}
+func sc_fail(message) {
+    if (sc_get("error") == "") print("SUI_C|error|" + message + "|cursor=" + sc_get("cursor"));
+    sc_set("error", message);
+    sc_set("status", "error");
+    return false;
+}
+func sc_ok() { return sc_get("error") == ""; }
+func sc_jump(label) {
+    if (!sc_ok()) label = "SC_ERROR";
+    Suika.moveToLabelTag({label: label});
+    return true;
+}
+func sc_new() {
+    sc_diagnostic_visits = 0;
+    sc_diagnostic_choices = 0;
+    for (id, data in sc_choices) sc_set("c_" + id, "");
+    sc_set("e_" + sc_meeting_event, "0");
+    sc_set("e_" + sc_pregnancy_event, "0");
+    sc_set("score", sc_initial);
+    sc_set("relation", "UNSET");
+    sc_set("route", "");
+    sc_set("ending", "");
+    sc_set("epilogue", "");
+    sc_set("dispatched", "0");
+    sc_set("return", "");
+    sc_set("pending", "");
+    sc_set("input", "");
+    sc_set("error", "");
+    sc_set("cursor", "SC_ENTRY");
+    sc_set("status", "running");
+    sc_set("build", sc_build_id);
+}
+func sc_field(field) {
+    if (field == "PIAO_RELATION") {
+        var relation = sc_get("relation");
+        if (relation != "HIGH" && relation != "LOW") sc_fail("relation-unfrozen-or-invalid");
+        return relation;
+    }
+    if (field == "ENDING") {
+        if (sc_get("ending") == "") sc_fail("ending-unvisited");
+        return sc_get("ending");
+    }
+    if (!Dict.hasKey(sc_choices, field)) { sc_fail("unknown-field:" + field); return ""; }
+    var value = sc_get("c_" + field);
+    if (!sc_has(sc_choices[field].values, value)) sc_fail("unvisited-or-invalid:" + field);
+    return value;
+}
+func sc_condition(groups) {
+    for (group in groups) {
+        var match = true;
+        for (term in group) {
+            if (match) {
+                var value = sc_field(term.field);
+                if (!sc_ok()) return false;
+                if (term.operator == "=") match = value == term.value;
+                else match = value != term.value;
+            }
+        }
+        if (match) return true;
+    }
+    return false;
+}
+func sc_hq_eligible() {
+    for (req in sc_hq_required) if (sc_get("c_" + req.id) != req.value) return false;
+    return sc_get("e_" + sc_meeting_event) == "1";
+}
+func sc_choose(id, value) {
+    if (!Dict.hasKey(sc_choices, id)) return sc_fail("unknown-choice");
+    if (sc_get("c_" + id) != "") return sc_fail("duplicate-choice:" + id);
+    var data = sc_choices[id];
+    if (!sc_has(data.values, value)) return sc_fail("invalid-choice:" + id);
+    if (data.owner != "") {
+        if (data.owner != sc_get("route")) return sc_fail("cross-route-choice");
+        if (data.owner == "piao" && data.low != (sc_get("relation") == "LOW")) return sc_fail("mixed-piao-path");
+    }
+    if (id == sc_route_choice) {
+        sc_field("PIAO_RELATION");
+        if (!sc_ok()) return false;
+        if (sc_get("route") != "") return sc_fail("route-immutable");
+        if (value == sc_hidden && !sc_hq_eligible()) return sc_fail("hidden-route-locked");
+    }
+    var score = Suika.getVariableInt({name: "sc_score"});
+    for (rule in sc_score_rules) {
+        if (rule.id == id) {
+            if (sc_get("relation") != "UNSET") return sc_fail("score-after-freeze");
+            if (value == "A") score = score + rule.a;
+            else score = score + rule.b;
+        }
+    }
+    // No content state is changed until all validation above succeeds.
+    sc_set("c_" + id, value);
+    sc_set("score", score);
+    if (id == sc_route_choice) sc_set("route", value);
+    sc_diagnostic_choices = sc_diagnostic_choices + 1;
+    return true;
+}
+func sc_freeze() {
+    if (sc_get("relation") != "UNSET") return sc_fail("duplicate-freeze");
+    var score = sc_initial;
+    for (rule in sc_score_rules) {
+        var value = sc_field(rule.id);
+        if (!sc_ok()) return false;
+        if (value == "A") score = score + rule.a;
+        else score = score + rule.b;
+    }
+    if (sc_get("score") != String.from(score)) return sc_fail("score-mismatch");
+    if (score >= sc_threshold) sc_set("relation", "HIGH");
+    else sc_set("relation", "LOW");
+    return true;
+}
+func sc_event(id) {
+    if (id != sc_meeting_event && id != sc_pregnancy_event) return sc_fail("unknown-event");
+    if (sc_get("e_" + id) != "0") return sc_fail("duplicate-or-invalid-event");
+    if (id == sc_meeting_event) {
+        for (req in sc_hq_required) if (sc_field(req.id) != req.value) return sc_fail("meeting-prerequisite");
+        sc_field(sc_meeting_neutral);
+    } else {
+        if (sc_field("PIAO_RELATION") != "LOW" || sc_get("route") == "") return sc_fail("pregnancy-prerequisite");
+    }
+    if (!sc_ok()) return false;
+    sc_set("e_" + id, "1");
+    return true;
+}
+func sc_expected_ending() {
+    var route = sc_get("route");
+    if (!Dict.hasKey(sc_routes, route)) { sc_fail("ending-without-route"); return ""; }
+    var data = sc_routes[route];
+    var relation = sc_field("PIAO_RELATION");
+    if (!sc_ok()) return "";
+    if (route == "piao" && relation == "LOW") {
+        var low = sc_field(data.lowChoice);
+        if (low == "A") return data.lowA;
+        if (low == "B") return data.lowB;
+        return "";
+    }
+    var combo = sc_field(data.keys[0]) + sc_field(data.keys[1]);
+    if (combo == "AA") return data.aa;
+    if (combo == "AB") return data.ab;
+    if (combo == "BA") return data.ba;
+    if (combo == "BB") return data.bb;
+    sc_fail("ending-missing-keys");
+    return "";
+}
+func sc_ending(id) {
+    if (sc_get("ending") != "") return sc_fail("duplicate-ending");
+    var expected = sc_expected_ending();
+    if (!sc_ok()) return false;
+    if (expected != id) return sc_fail("wrong-ending");
+    if ((sc_get("relation") == "LOW") != (sc_get("e_" + sc_pregnancy_event) == "1")) return sc_fail("ending-event-mismatch");
+    sc_set("ending", id);
+    return true;
+}
+func sc_dispatch() {
+    if (sc_get("dispatched") != "0") {sc_fail("duplicate-epilogue"); return "";}
+    if (sc_get("ending") != sc_expected_ending() || !sc_ok()) {sc_fail("epilogue-ending-mismatch"); return "";}
+    var count = 0;
+    var target = "";
+    for (rule in sc_ep_rules) {
+        if (rule.relation == sc_get("relation") && sc_has(rule.endings, sc_get("ending"))) {
+            count = count + 1;
+            if (rule.event != "" && sc_get("e_" + rule.event) != "1") {sc_fail("epilogue-missing-event"); return "";}
+            target = rule.target;
+        }
+    }
+    if (count != 1) {sc_fail("epilogue-not-unique"); return "";}
+    sc_set("dispatched", "1");
+    sc_set("epilogue", target);
+    return target;
+}
+// Call after native load and before updating the script; host also checks position and save version.
+func sc_validate() {
+    if (sc_get("build") != sc_build_id) return sc_fail("build-mismatch");
+    var score = sc_initial;
+    for (id, data in sc_choices) {
+        var value = sc_get("c_" + id);
+        if (value != "") {
+            if (!sc_has(data.values, value)) return sc_fail("invalid-saved-choice");
+            if (data.owner != "" && data.owner != sc_get("route")) return sc_fail("cross-route-saved-choice");
+            if (data.owner == "piao" && data.low != (sc_get("relation") == "LOW")) return sc_fail("mixed-piao-save");
+        }
+    }
+    for (rule in sc_score_rules) {
+        var value = sc_get("c_" + rule.id);
+        if (value == "A") score = score + rule.a;
+        if (value == "B") score = score + rule.b;
+        if (sc_get("relation") != "UNSET" && value == "") return sc_fail("freeze-missing-choice");
+    }
+    if (sc_get("score") != String.from(score)) return sc_fail("saved-score-mismatch");
+    var relation = sc_get("relation");
+    if (relation != "UNSET" && relation != "HIGH" && relation != "LOW") return sc_fail("invalid-saved-relation");
+    if (relation == "HIGH" && score < sc_threshold) return sc_fail("saved-relation-mismatch");
+    if (relation == "LOW" && score >= sc_threshold) return sc_fail("saved-relation-mismatch");
+    var meeting = sc_get("e_" + sc_meeting_event);
+    var pregnancy = sc_get("e_" + sc_pregnancy_event);
+    if (!sc_has(["0", "1"], meeting) || !sc_has(["0", "1"], pregnancy)) return sc_fail("invalid-event-flag");
+    if (meeting == "1") {
+        for (req in sc_hq_required) if (sc_field(req.id) != req.value) return sc_fail("saved-meeting-prerequisite");
+        sc_field(sc_meeting_neutral);
+    }
+    var route = sc_get("route");
+    if (route != "") {
+        sc_field("PIAO_RELATION");
+        if (!Dict.hasKey(sc_routes, route) || sc_get("c_" + sc_route_choice) != route) return sc_fail("saved-route-mismatch");
+        if (route == sc_hidden && !sc_hq_eligible()) return sc_fail("saved-hidden-locked");
+    } else if (sc_get("c_" + sc_route_choice) != "") return sc_fail("saved-route-missing");
+    if (pregnancy == "1" && (relation != "LOW" || route == "")) return sc_fail("saved-pregnancy-mismatch");
+    if (sc_get("ending") != "" && sc_get("ending") != sc_expected_ending()) return sc_fail("saved-ending-mismatch");
+    if (sc_get("return") != "") {
+        if (!Dict.hasKey(sc_routes, route)) return sc_fail("saved-return-no-route");
+        if (relation != "LOW" || route == "piao" || pregnancy == "1" || sc_routes[route].returnTo != sc_get("return")) return sc_fail("saved-return-invalid");
+    }
+    if (!sc_has(["0", "1"], sc_get("dispatched"))) return sc_fail("invalid-dispatch-flag");
+    if (sc_get("dispatched") == "1") {
+        var matched = false;
+        for (rule in sc_ep_rules) if (rule.relation == relation && sc_has(rule.endings, sc_get("ending")) && rule.target == sc_get("epilogue")) {
+            if (rule.event != "" && sc_get("e_" + rule.event) != "1") return sc_fail("saved-epilogue-event");
+            matched = true;
+        }
+        if (!matched) return sc_fail("saved-epilogue-mismatch");
+    } else if (sc_get("epilogue") != "") return sc_fail("saved-epilogue-undispatched");
+    return sc_ok();
+}
+func Tag_sc_at(params) {
+    sc_diagnostic_visits = sc_diagnostic_visits + 1;
+    sc_set("cursor", params.id);
+    if (sc_get("build") != sc_build_id) sc_fail("build-mismatch");
+    if (!sc_ok()) return sc_jump("SC_ERROR");
+    Suika.moveToNextTag();
+    return true;
+}
+func Tag_sc_choose(params) {
+    if (!sc_validate()) return sc_jump("SC_ERROR");
+    if (!Dict.hasKey(sc_choices, params.id)) {sc_fail("unknown-choice");return sc_jump("SC_ERROR");}
+    if (sc_get("c_" + params.id) != "") {sc_fail("duplicate-choice");return sc_jump("SC_ERROR");}
+    sc_set("input", "");
+    sc_set("pending", params.id);
+    if (params.id == sc_route_choice) {
+        sc_field("PIAO_RELATION");
+        if (!sc_hq_eligible()) return sc_jump(params.id + "__locked");
+    }
+    return sc_jump(params.id + "__all");
+}
+func Tag_sc_commit(params) {
+    if (sc_get("pending") != params.id) {sc_fail("choice-not-pending");return sc_jump("SC_ERROR");}
+    if (!sc_choose(params.id, sc_get("input"))) return sc_jump("SC_ERROR");
+    sc_set("pending", "");
+    sc_set("input", "");
+    return sc_jump(params.next);
+}
+func Tag_sc_step(params) {
+    sc_set("cursor", params.id);
+    if (!Dict.hasKey(sc_ops, params.id)) {sc_fail("unknown-step");return sc_jump("SC_ERROR");}
+    if (!sc_ok()) return sc_jump("SC_ERROR");
+    var node = sc_ops[params.id];
+    if (node.op == "branch") {
+        if (sc_condition(node.condition)) return sc_jump(node.next);
+        return sc_jump(node.otherwise);
+    }
+    if (node.op == "anchor") return sc_jump(node.next);
+    if (node.op == "freeze") {sc_freeze();return sc_jump(node.next);}
+    if (node.op == "event") {
+        if (node.event == sc_pregnancy_event) {
+            if (sc_get("route") != "piao") {sc_fail("piao-event-wrong-route");return sc_jump("SC_ERROR");}
+            sc_field(sc_routes["piao"].lowChoice);
+        }
+        if (sc_ok()) sc_event(node.event);
+        return sc_jump(node.next);
+    }
+    if (node.op == "call") {
+        if (sc_get("return") != "" || sc_get("route") != node.route || sc_field("PIAO_RELATION") != "LOW" || sc_get("e_" + sc_pregnancy_event) != "0") {
+            sc_fail("invalid-call");return sc_jump("SC_ERROR");
+        }
+        sc_set("return", node.returnTo);
+        return sc_jump(node.target);
+    }
+    if (node.op == "return") {
+        var target = sc_get("return");
+        if (target == "" || !sc_validate()) {sc_fail("return-without-valid-frame");return sc_jump("SC_ERROR");}
+        if (!sc_event(sc_pregnancy_event)) return sc_jump("SC_ERROR");
+        sc_set("return", "");
+        return sc_jump(target);
+    }
+    if (node.op == "ending") {sc_ending(node.ending);return sc_jump(node.next);}
+    if (node.op == "epilogue") {
+        var target = sc_dispatch();
+        if (!sc_ok()) return sc_jump("SC_ERROR");
+        if (target == "") {sc_set("status", "complete");return sc_jump("SC_DONE");}
+        return sc_jump(target);
+    }
+    if (node.op == "finish") {
+        if (node.kind == "common") return sc_jump(node.next);
+        if (node.kind == "route") {
+            var route = sc_get("route");
+            if (!Dict.hasKey(sc_entries, route)) {sc_fail("missing-route");return sc_jump("SC_ERROR");}
+            return sc_jump(sc_entries[route]);
+        }
+        if (node.kind == "invalid-return") {sc_fail("missing-return");return sc_jump("SC_ERROR");}
+        if (sc_get("ending") == "" || sc_get("return") != "") {sc_fail("unfinished-story");return sc_jump("SC_ERROR");}
+        if (sc_get("dispatched") == "0") if (sc_dispatch() != "") sc_fail("missing-epilogue-marker");
+        if (!sc_validate()) return sc_jump("SC_ERROR");
+        sc_set("status", "complete");return sc_jump("SC_DONE");
+    }
+    sc_fail("unsupported-step");return sc_jump("SC_ERROR");
+}
+func Tag_sc_halt(params) { return true; }

@@ -1,0 +1,44 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const ROOT=path.resolve(__dirname,'../..'),hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+const generated=require('../../tools/compiler/compile.cjs').compile({pageSize:108}),producer=require('../../assets/current/manifest.json'),doc=require('../../docs/整合/bindings.json');
+const assets=producer.records.map(r=>({assetId:r.assetId,type:r.type,runtimePath:r.runtime.path}));
+const ui=JSON.parse(fs.readFileSync(path.join(ROOT,'system/sui-u/integration.json'))),args={generated,host:fs.readFileSync(path.join(ROOT,'main.ray'),'utf8'),uiRay:ui.raySourceOrder.map(p=>fs.readFileSync(path.join(ROOT,p),'utf8')).join('\n'),assets,rawBindings:doc.bindings,mode:'diagnostic',sdkPlatform:'wasm'};
+const {integrateI01,compileCues}=require('../../tools/integration/runtime/i01-compose.cjs'),adapted=integrateI01(args),data=compileCues(args),R=generated.ir.contract;
+function extract(name){const s=adapted.ray.indexOf('func '+name+'(');assert(s>=0);assert.equal(adapted.ray.split('func '+name+'(').length,2,'函数不唯一');const paren=adapted.ray.indexOf(')',s),params=adapted.ray.slice(adapted.ray.indexOf('(',s)+1,paren),first=adapted.ray.indexOf('{',paren);let d=1,i=first+1;while(d){if(adapted.ray[i]==='{')d++;if(adapted.ray[i]==='}')d--;i++;}const body=adapted.ray.slice(first+1,i-1).replace(/for\s*\((\w+) in ([^)]+)\)/g,'for(const $1 of $2)');return 'function '+name+'('+params+') {'+body+'}';}
+let current={},stage={},failure='',applied='',predicateCalls=0;
+const iBindings=Object.fromEntries(data.bindings.map(b=>[b.bindingId,{id:b.bindingId,node:b.anchor.nodeId,routes:b.routeIds,condition:[],cg:b.cgId||'',full:b.fullView}])),iNodes={};for(const b of data.bindings)(iNodes[b.anchor.nodeId]??=[]).push(b.bindingId);
+const context={iBindings,iNodes,iCueData:data.cueData,iPredicates:data.predicates,iFullView:false,Array:{size:a=>a.length},Dict:{hasKey:(o,k)=>Object.hasOwn(o,k)},sc_routes:Object.fromEntries(R.routes.map(r=>[r.id,{returnTo:R.day36.calls.find(x=>x.routeId===r.id)?.returnAnchor||''}])),iGet:k=>current[k]??'',sc_get:k=>stage[k]??'',sc_fail:msg=>{failure=msg;return false;},sc_ok:()=>!failure,sc_has:(arr,v)=>arr.includes(v),iApply:s=>{applied=s;return true;}};
+context.sc_field=field=>{if(field==='PIAO_RELATION'){const r=stage.relation;if(!['HIGH','LOW'].includes(r))context.sc_fail('relation-unfrozen-or-invalid');return r;}if(field==='ENDING'){if(!stage.ending)context.sc_fail('ending-unvisited');return stage.ending||'';}const values=generated.ir.choices[field]?.options.map(o=>o.value),v=stage['c_'+field]||'';if(!values||!values.includes(v))context.sc_fail('unvisited-or-invalid:'+field);return v;};
+context.sc_condition=groups=>{for(const terms of groups){let matches=true;for(const term of terms){if(matches){const value=context.sc_field(term.field);if(!context.sc_ok())return false;matches=term.operator==='='?value===term.value:value!==term.value;}}if(matches)return true;}return false;};
+vm.createContext(context);for(const name of ['iMatchCue','iMatchPredicate','iMatches','iValidate','iRestore'])vm.runInContext(extract(name),context);
+const realMatch=context.iMatches;context.iMatches=b=>{predicateCalls++;return realMatch(b);};
+const checks=[];
+function stateTest(name,stored,sc,expect){current=stored;stage=sc;failure='';applied='';predicateCalls=0;const accepted=context.iRestore();assert.equal(accepted,expect,name);checks.push({name,status:'pass',accepted,error:failure||null,predicateCalls,appliedState:applied||null});}
+const cg=doc.bindings.find(x=>x.cgId==='CG001'),node=cg.enter.cursor,active='i01-state-'+node+'-1';
+stateTest('修复：有CG的游标不能用inactive/empty绕过',{active:'',state:'empty'},{cursor:node},false);
+stateTest('合法CG active/state按目标游标唯一条件重算',{active,state:active+':enter'},{cursor:node},true);
+stateTest('active与state错误组合被拒绝',{active,state:'empty'},{cursor:node},false);
+stateTest('未知active被拒绝',{active:'unknown',state:active+':enter'},{cursor:node},false);
+stateTest('同游标错误mask0不能绕过实际CG条件',{active:'i01-state-'+node+'-0',state:'i01-state-'+node+'-0:enter'},{cursor:node},false);
+const noCue=generated.ir.nodes.find(n=>n.op==='text'&&!iNodes[n.id]).id;
+stateTest('未绑定游标允许规范中性场',{active:'',state:'empty'},{cursor:noCue},true);
+stateTest('未绑定游标拒绝其他binding的restore状态',{active:'',state:active+':restore'},{cursor:noCue},false);
+stateTest('未绑定游标拒绝残留active',{active,state:active+':enter'},{cursor:noCue},false);
+const shared=Object.entries(data.cueData).find(([,v])=>v.gates.some(g=>g.kind==='sharedEvent'))[0],ep=Object.entries(data.cueData).find(([,v])=>v.gates.some(g=>g.kind==='epilogue'))[0];
+function gateTest(name,cueId,sc,expect,errorRequired){stage=sc;failure='';const matched=context.iMatchCue(cueId);assert.equal(matched,expect,name);if(errorRequired)assert(failure,name+'未报错');else assert.equal(failure,'',name);checks.push({name,status:'pass',matched,error:failure||null});}
+gateTest('修复：共享事件缺返回帧拒绝',shared,{route:'xiaoman',relation:'LOW',return:''},false,true);
+gateTest('修复：共享事件未知路线拒绝',shared,{route:'yelan',relation:'LOW',return:'XM-D36-RETURN'},false,true);
+gateTest('共享事件错误返回帧拒绝',shared,{route:'xiaoman',relation:'LOW',return:'ZZ-D36-RETURN'},false,true);
+gateTest('共享事件合法返回帧通过',shared,{route:'xiaoman',relation:'LOW',return:'XM-D36-RETURN'},true,false);
+gateTest('共享事件缺未冻结关系拒绝',shared,{route:'xiaoman',relation:'UNSET',return:'XM-D36-RETURN'},false,true);
+gateTest('修复：后日谈未知值拒绝',ep,{epilogue:'UNKNOWN',dispatched:'1'},false,true);
+gateTest('修复：后日谈未分派拒绝',ep,{epilogue:'EP-HIGH',dispatched:'0'},false,true);
+gateTest('后日谈缺状态拒绝',ep,{epilogue:'',dispatched:'1'},false,true);
+gateTest('后日谈合法条件通过',ep,{epilogue:'EP-HIGH',dispatched:'1',relation:'HIGH',ending:'XM-E1'},true,false);
+gateTest('合法另一后日谈仅不命中不报错',ep,{epilogue:'EP-LOW',dispatched:'1',relation:'LOW',ending:'XM-E1'},false,false);
+const choiceCue=doc.bindings.find(x=>x.conditions.requiredExpressions.includes('MY07-01=A')).bindingId;
+gateTest('未访问的必需选择拒绝',choiceCue,{route:'mengyao'},false,true);
+gateTest('合法但不同分支不命中',choiceCue,{route:'mengyao','c_MY07-01':'B'},false,false);
+const report={task:'SUI-I02',scope:'从最终integrateI01(args).ray抽取执行函数体的独立JS语义复核；不是原生引擎或浏览器验收',adaptedRaySha256:hash(adapted.ray),sourceHashes:Object.fromEntries(['tools/integration/runtime/i01-compose.cjs','tools/integration/runtime/presentation.cjs','tools/integration/runtime/presentation.ray','docs/整合/bindings.json'].map(p=>[p,hash(fs.readFileSync(path.join(ROOT,p)))])),passed:checks.length,failed:0,checks};
+fs.writeFileSync(path.join(__dirname,'presentation-review-i01-diag-v003-report.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({passed:checks.length,failed:0,adaptedRaySha256:report.adaptedRaySha256}));

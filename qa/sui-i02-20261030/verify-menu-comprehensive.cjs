@@ -1,0 +1,14 @@
+const fs=require('fs'),path=require('path'),assert=require('assert/strict'),{chromium}=require('/Users/yipin/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const port=process.argv[2],out=path.resolve(process.argv[3]);fs.mkdirSync(out,{recursive:true});
+(async()=>{const b=await chromium.launch({channel:'chrome',headless:true}),report={checks:[],errors:[]};try{for(const duration of [60,350,1000,0]){
+ const context=await b.newContext({viewport:{width:1440,height:900}}),p=await context.newPage(),logs=[];p.on('console',m=>{if(m.text().startsWith('SUI_'))logs.push(m.text())});p.on('dialog',async d=>{report.errors.push(d.message());await d.dismiss()});p.on('pageerror',e=>report.errors.push(e.message));
+ const wait=async()=>{await p.waitForTimeout(600);await p.waitForFunction(()=>!suie.pending&&!suie.busy&&!suie.storageError)};
+ const click=async(x,y,hold=60)=>{const r=await p.locator('#canvas').boundingBox();await p.mouse.click(r.x+x*r.width/1280,r.y+y*r.height/720,{delay:hold});await wait()};
+ const key=async k=>{await p.locator('#canvas').focus();await p.keyboard.press(k,{delay:350});await wait()};const cursor=l=>l.match(/\|cursor=([^|]*)/)[1];
+ await p.goto('http://127.0.0.1:'+port);await p.waitForFunction(()=>suie.events.includes('SUI_E|title'));await wait();await click(240,386);await p.waitForFunction(()=>suie.events.some(l=>l.startsWith('SUI_E|stable|')));const id=cursor(logs.findLast(l=>l.startsWith('SUI_E|stable|')));
+ await click(1168,52,duration);await click(260,230);await click(920,256);await p.waitForFunction(id=>suie.events.some(l=>l.startsWith('SUI_E|save|slot=1|')&&l.includes('|cursor='+id+'|')),id);await key('Escape');await p.screenshot({path:path.join(out,'after-escape-'+duration+'.png')});
+ for(let i=0;i<3;i++){await key('Enter')};fs.writeFileSync(path.join(out,'log-'+duration+'.json'),JSON.stringify(logs));await p.screenshot({path:path.join(out,'after-advance-'+duration+'.png')});assert.notEqual(cursor(logs.findLast(l=>l.startsWith('SUI_E|stable|'))),id);
+ await click(1168,52,duration);await click(640,230);await click(920,256);await p.waitForFunction(id=>suie.events.some(l=>l.startsWith('SUI_E|load|')&&l.includes('|cursor='+id+'|')),id);
+ await p.reload();await p.waitForFunction(()=>suie.events.includes('SUI_E|title'));await wait();await click(240,466);await click(920,256);await p.waitForFunction(id=>suie.events.some(l=>l.startsWith('SUI_E|load|')&&l.includes('|cursor='+id+'|')),id);
+ await p.screenshot({path:path.join(out,'restored-'+duration+'.png')});report.checks.push({duration,scope:'菜单入口点击时长；其他GUI按钮统一60ms',pass:true,cursor:id,logs});console.log('PASS menu '+duration+'ms');await context.close();
+ }assert.equal(report.errors.length,0);report.status='pass'}catch(e){report.status='fail';report.failure=e.stack;console.error(e);process.exitCode=1}finally{fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(report,null,2));await b.close()}})();

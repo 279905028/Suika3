@@ -1,0 +1,22 @@
+idle {
+    layer: sysbtn-idle;
+    start: 0.0;
+    end: 0.12;
+    from-x: 1104;
+    from-y: 24;
+    to-x: 1104;
+    to-y: 24;
+    from-a: 255;
+    to-a: 255;
+}
+hover {
+    layer: sysbtn-hover;
+    start: 0.0;
+    end: 0.12;
+    from-x: 1104;
+    from-y: 24;
+    to-x: 1104;
+    to-y: 24;
+    from-a: 0;
+    to-a: 0;
+}
