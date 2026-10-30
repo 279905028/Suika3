@@ -1,0 +1,14 @@
+{
+  "version": "sui-i02-20261030-title-b1-v1",
+  "runtimeBuildId": "95e78d6a4cd1fb65887b09232fa563ab79de925b5969939bf304c3310e696a34",
+  "checks": [],
+  "errors": [],
+  "logs": [
+    "SUI_E|ready|95e78d6a4cd1fb65887b09232fa563ab79de925b5969939bf304c3310e696a34",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1"
+  ],
+  "scope": "独立浏览器存储；标题动画、真实菜单/正文/存读档、尺寸模拟、媒体失败回退",
+  "pass": false,
+  "failure": "page.waitForFunction: Timeout 20000ms exceeded.\n    at visible (/Users/yipin/Desktop/Suika3/qa/title-motion-b1-20261030/verify-browser.cjs:12:21)\n    at /Users/yipin/Desktop/Suika3/qa/title-motion-b1-20261030/verify-browser.cjs:25:85"
+}

@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-30",
+  "layer": "同一SUI-I02正式候选的Suika3 Wasm全程原生输入烟测；非全篇人工审读、真机、电脑分发或发布验收",
+  "runtimeBuildId": "968944ded678aa121d09471c612dbf3a4946282eb5b214d90c3328e6937e099a",
+  "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+  "webHashes": {
+    "assets.arc": "3644ce51f1a4777917d2cc6e2d9325bb2e4248eff98e420b04381a20e9c4862b",
+    "index.html": "fa74b45f2a88e5ef4a8c49b132aa5fbc1c3895a835ef5888328a083ba1d9261a",
+    "shell.css": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a",
+    "shell.js": "40181b6eb9db15d7a0e715aa38445f99828311f3820c3607d799cba858b2f71f"
+  },
+  "checks": [],
+  "results": [
+    {
+      "name": "mengyao/HIGH/AB",
+      "status": "fail",
+      "inputMethod": "ordinary Enter keydown/keyup events and Playwright mouse clicks; no native state injection",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "A",
+        "MY08-01": "A",
+        "MY09-01": "B",
+        "MY10-01": "A"
+      },
+      "expected": {
+        "route": "mengyao",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "MY-E2",
+        "epilogue": "EP-HIGH",
+        "event": "0",
+        "return": ""
+      },
+      "error": "AssertionError [ERR_ASSERTION]: 实际加载候选ID不符\n    at runCase (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:41:3)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\n    at async worker (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:162:90)\n    at async Promise.all (index 1)\n    at async /Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:163:3",
+      "elapsedMs": 2967,
+      "clicks": [],
+      "decisions": [],
+      "nativeEnterChoices": 0,
+      "logs": [
+        "SUI_E|ready|739136601883c659403831f46eaa4e2afc2327fa419f6515c0b07727870c40fb",
+        "SUI_E|title"
+      ],
+      "errors": [],
+      "screenshots": [
+        "routes-mengyao-HIGH-AB-failure.png"
+      ]
+    },
+    {
+      "name": "mengyao/HIGH/BA",
+      "status": "fail",
+      "inputMethod": "ordinary Enter keydown/keyup events and Playwright mouse clicks; no native state injection",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "B",
+        "MY08-01": "A",
+        "MY09-01": "A",
+        "MY10-01": "A"
+      },
+      "expected": {
+        "route": "mengyao",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "MY-E2",
+        "epilogue": "EP-HIGH",
+        "event": "0",
+        "return": ""
+      },
+      "error": "AssertionError [ERR_ASSERTION]: 实际加载候选ID不符\n    at runCase (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:41:3)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\n    at async worker (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:162:90)\n    at async Promise.all (index 2)\n    at async /Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:163:3",
+      "elapsedMs": 2968,
+      "clicks": [],
+      "decisions": [],
+      "nativeEnterChoices": 0,
+      "logs": [
+        "SUI_E|ready|739136601883c659403831f46eaa4e2afc2327fa419f6515c0b07727870c40fb",
+        "SUI_E|title"
+      ],
+      "errors": [],
+      "screenshots": [
+        "routes-mengyao-HIGH-BA-failure.png"
+      ]
+    },
+    {
+      "name": "mengyao/HIGH/AA",
+      "status": "fail",
+      "inputMethod": "ordinary Enter keydown/keyup events and Playwright mouse clicks; no native state injection",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "A",
+        "MY08-01": "A",
+        "MY09-01": "A",
+        "MY10-01": "A"
+      },
+      "expected": {
+        "route": "mengyao",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "MY-E1",
+        "epilogue": "EP-HIGH",
+        "event": "0",
+        "return": ""
+      },
+      "error": "AssertionError [ERR_ASSERTION]: 实际加载候选ID不符\n    at runCase (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:41:3)\n    at async worker (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:162:90)\n    at async Promise.all (index 0)\n    at async /Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:163:3",
+      "elapsedMs": 2969,
+      "clicks": [],
+      "decisions": [],
+      "nativeEnterChoices": 0,
+      "logs": [
+        "SUI_E|ready|739136601883c659403831f46eaa4e2afc2327fa419f6515c0b07727870c40fb",
+        "SUI_E|title"
+      ],
+      "errors": [],
+      "screenshots": [
+        "routes-mengyao-HIGH-AA-failure.png"
+      ]
+    }
+  ],
+  "screenshots": [
+    "routes-mengyao-HIGH-AB-failure.png",
+    "routes-mengyao-HIGH-BA-failure.png",
+    "routes-mengyao-HIGH-AA-failure.png"
+  ],
+  "errors": [
+    {
+      "case": "mengyao/HIGH/AB",
+      "error": "AssertionError [ERR_ASSERTION]: 实际加载候选ID不符\n    at runCase (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:41:3)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\n    at async worker (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:162:90)\n    at async Promise.all (index 1)\n    at async /Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:163:3"
+    },
+    {
+      "case": "mengyao/HIGH/BA",
+      "error": "AssertionError [ERR_ASSERTION]: 实际加载候选ID不符\n    at runCase (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:41:3)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\n    at async worker (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:162:90)\n    at async Promise.all (index 2)\n    at async /Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:163:3"
+    },
+    {
+      "case": "mengyao/HIGH/AA",
+      "error": "AssertionError [ERR_ASSERTION]: 实际加载候选ID不符\n    at runCase (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:41:3)\n    at async worker (/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:162:90)\n    at async Promise.all (index 0)\n    at async /Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:163:3"
+    }
+  ],
+  "expressionTargets": {
+    "maolang-serious": "TEXT_50d29871f085719871c3_1",
+    "char-xiaoman-serious": "TEXT_f5fca15d7a68891386eb_1",
+    "char-xiaoman-downcast": "TEXT_7f843bff53878054c4ee_1",
+    "char-mengyao-human-base-expression-smile": "TEXT_f6de29e3f1b556f400c1_1",
+    "char-mengyao-human-base-expression-serious": "TEXT_3f249c0a8df924783fe0_1",
+    "char-zhouzhi-human-smile": "TEXT_4e8d2dfe043d78706757_1",
+    "char-zhouzhi-human-serious": "TEXT_5831bd733ea16ecd7df0_1",
+    "piao-expression-serious": "TEXT_b34a5a28cd943e10f8e9_1",
+    "piao-expression-displeased": "TEXT_f94d6e05c86b255b8b05_1",
+    "piao-expression-smile": "TEXT_6ef63cf71daba5244e88_1",
+    "shijiang-serious": "TEXT_06914ddd52b3526c4d39_1",
+    "char-mengyao-human-base-expression-hesitant": "TEXT_23349e7e129c7597f1f0_1",
+    "yelan-serious": "TEXT_ff19bd03996dfd701a93_1",
+    "char-xiaoman-displeased": "TEXT_d27d4cc0ee19d348fa48_1",
+    "sui-a06-orb-amused-v001": "TEXT_c772501f9ebb873ea3be_1",
+    "sui-a06-orb-serious-v001": "TEXT_c14b8a4e72ac3a7f9d68_1",
+    "char-xiaoman-embarrassed": "TEXT_ea0b3ac36b21df5f4f8b_1",
+    "char-xiaoman-hesitant": "TEXT_905d0d497a8466179694_1",
+    "char-zhouzhi-human-downcast": "TEXT_8f233869bee05907bd48_1",
+    "char-zhouzhi-human-work-serious": "TEXT_064443505fb647b8c384_1",
+    "char-mengyao-human-base-expression-tired": "TEXT_f601f59e7944cbac96fd_1",
+    "char-mengyao-human-base-expression-downcast": "TEXT_a911b20e10f9322d1f90_1",
+    "piao-expression-hesitant": "TEXT_33006466319ff9ec89d6_1",
+    "piao-expression-downcast": "TEXT_3642b185f007a41181ff_1",
+    "sui-a06-orb-downcast-v001": "TEXT_20a6d0e0f7c2089d06ee_1",
+    "sui-a06-human-downcast-v001": "TEXT_ce3e0e69f55d3bcbf136_1",
+    "sui-a06-human-serious-v001": "TEXT_5cda7eeb381d1ddd9d5e_1",
+    "sui-a06-human-tearful-v001": "TEXT_7360ae14ec3a3a5aa1ee_1"
+  },
+  "browser": "156.0.8078.74",
+  "status": "fail",
+  "error": "AssertionError [ERR_ASSERTION]: 未完成所有路线\n\n3 !== 16\n\n    at /Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/verify-routes.cjs:164:10",
+  "finishedAt": "2026-10-30T05:59:09.479Z"
+}

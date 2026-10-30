@@ -1,0 +1,58 @@
+{
+  "scope": "生成报告前的工作树；报告自身不计入本轮盘点",
+  "stats": {
+    "git": {
+      "files": 2043,
+      "bytes": 250013338
+    },
+    "archive": {
+      "files": 7484,
+      "bytes": 7465552904
+    },
+    "ignore": {
+      "files": 73435,
+      "bytes": 148293468796
+    },
+    "review": {
+      "files": 0,
+      "bytes": 0
+    }
+  },
+  "rootRepositoryInitialized": true,
+  "projectGitAttributesPreserveBytes": true,
+  "inputManifests": [
+    "build/sui-i02-20261030-cinema-v1/input-manifest.json",
+    "build/sui-i02-20261030-cinema-v2/input-manifest.json",
+    "build/sui-i02-20261030-cinema-v3/input-manifest.json",
+    "build/sui-i02-20261030-cinema-v4/input-manifest.json",
+    "build/sui-i02-20261030-cinema-v5/input-manifest.json",
+    "build/sui-i02-20261030-cinema-v6/input-manifest.json",
+    "build/sui-i02-20261030-cinema-v7/input-manifest.json",
+    "build/sui-i02-20261030-cover-a-v1/input-manifest.json",
+    "build/sui-i02-20261030-cover-b-v1/input-manifest.json",
+    "build/sui-i02-20261030-portraits-v1/input-manifest.json",
+    "build/sui-i02-20261030-portraits-v2/input-manifest.json",
+    "build/sui-i02-20261030-title-b1-v1/input-manifest.json",
+    "build/sui-i02-20261030-title-b1-v2/input-manifest.json",
+    "build/sui-i02-20261030-v1/input-manifest.json",
+    "build/sui-i02-20261030-v2/input-manifest.json",
+    "build/sui-i02-20261030-v3/input-manifest.json",
+    "build/sui-i02-20261030-v4/input-manifest.json",
+    "build/sui-i02-20261030-v5/input-manifest.json",
+    "build/sui-i02-20261030-v6/input-manifest.json",
+    "build/sui-i02-20261030-v7/input-manifest.json",
+    "build/sui-i02-20261030-v8/input-manifest.json",
+    "build/sui-i02-20261030-v9/input-manifest.json",
+    "build/v1.1.0-beta.1/input-manifest.json"
+  ],
+  "inputCoverage": {
+    "archive": 1234,
+    "git": 550
+  },
+  "uncoveredInputs": [],
+  "snapshotEntriesChecked": 488,
+  "snapshotPath": "qa/portrait-gap-fill-20261030/snapshot.json",
+  "snapshotHashMismatches": [],
+  "separateBackupCreated": false,
+  "unclassifiedFiles": []
+}

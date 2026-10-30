@@ -6,7 +6,7 @@ window.suie={
     const node=document.getElementById('storage-status');
     if(node){node.textContent=message;node.classList.toggle('error',error);}
   },
-  log(line){this.events.push(String(line));if(this.events.length>4000)this.events.shift();},
+  log(line){this.events.push(String(line));if(this.events.length>4000)this.events.shift();window.suiTitleMotion?.onLog(line);},
   fail(error,restoring=false){
     this.storageError=String(error);this.pending=!restoring;
     this.status(restoring?'无法读取存档，请保留原档并重试。':'保存失败，请保留当前页面并重试。',true);

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "canvas": [
+    1280,
+    720
+  ],
+  "approval": {
+    "status": "approved",
+    "date": "2026-10-30",
+    "userInstruction": "使用A作为封面，并在即梦CLI中生成一段循环播放的动图",
+    "scope": "三人核心方案A v002作为静态游戏标题封面；动画制作单独记录"
+  },
+  "source": {
+    "path": "assets/sources/20261030-trio-cover-options/cover-a-v002.png",
+    "sha256": "d9c9f387977a12aa1f850f2d7ef68a075129782672017048ce8189c7e84b30c6"
+  },
+  "gui": "system/sui-title/title.gui",
+  "resources": [
+    {
+      "path": "assets/current/title/cover-a-title.png",
+      "sha256": "99b9456794fa5a5f558d3b0b70ddc51737b8e010e7a0aa3ed860b6b355b2c10d"
+    }
+  ],
+  "archiveFiles": [
+    {
+      "path": "assets/current/title/cover-a-base.png",
+      "sha256": "d6fba01924e3e660ec116aa91e4a12c1226e80905394c2cd20ff663a7c73b1b0"
+    },
+    {
+      "path": "assets/current/title/cover-a-base.webp",
+      "sha256": "ed0616afd36ca887bf649be51aac3aa3fa3d78206a4c8e89f2dbfe7649d97522"
+    },
+    {
+      "path": "assets/current/title/cover-a-title.webp",
+      "sha256": "b62ac4ed17c4f10ac4555b273705c6ecaa648d0307bccc100c33bb759134cf0e"
+    }
+  ],
+  "adaptation": {
+    "originalSize": [
+      1671,
+      941
+    ],
+    "resizedSize": [
+      1279,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "crop": null,
+    "stretch": false,
+    "bottomMenuGradient": {
+      "startY": 578,
+      "endAlpha": 200,
+      "rgb": [
+        10,
+        25,
+        30
+      ]
+    },
+    "buttons": {
+      "START": [
+        168,
+        632
+      ],
+      "CONTINUE": [
+        488,
+        632
+      ],
+      "SETTINGS": [
+        808,
+        636
+      ],
+      "GALLERY": [
+        968,
+        636
+      ]
+    }
+  }
+}

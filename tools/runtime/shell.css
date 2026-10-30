@@ -7,6 +7,8 @@ button{min-height:40px;padding:0 18px;border:1px solid #435d60;border-radius:4px
 button:focus-visible{outline:2px solid #a9d0c3;outline-offset:2px}
 #canvas_holder{position:relative!important;inset:auto!important;width:100%!important;height:100%!important;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
 canvas{display:block;max-width:none;outline:0;touch-action:none}
+#title-motion{position:absolute;z-index:2;pointer-events:none;object-fit:contain}
+#title-motion[hidden]{display:none!important}
 #storage-status{font-size:12px;text-align:center;color:#a8b9b9;align-self:center}
 #storage-status.error{position:fixed;bottom:12px;left:12px;right:12px;padding:14px;background:#5b3030;color:#fff;z-index:20}
 #retry-save:not([hidden]){position:fixed;bottom:68px;right:24px;z-index:21;background:#374d4e}

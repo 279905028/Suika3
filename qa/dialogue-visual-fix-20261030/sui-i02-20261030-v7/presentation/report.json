@@ -1,0 +1,497 @@
+{
+  "scope": "正式候选自然开场背景/人物/CG/图库/读档；非全篇人工验收",
+  "version": "sui-i02-20261030-v7",
+  "runtimeBuildId": "0652c9148f5d0ec6d8c3fbb385ab0bad51907dfee0db07a03fe4617289ab27d5",
+  "checks": [
+    {
+      "name": "未遇见CG时图鉴保持锁定",
+      "pass": true
+    },
+    {
+      "name": "真实图库显示60项的第10页，未遇见项目保持锁定",
+      "pass": true
+    },
+    {
+      "name": "自然正文第2段实际显示毛狼与站台并保存",
+      "pass": true,
+      "details": "TEXT_f5354c41d01bf0d95a4c_1"
+    },
+    {
+      "name": "第4段CG首可见帧解锁，键盘/点击全图开关均不推进原段",
+      "pass": true,
+      "details": "TEXT_982d9ac0f683c6bbb52b_1"
+    },
+    {
+      "name": "下一节点按声明退场且隐藏人物",
+      "pass": true,
+      "details": "TEXT_d21f786e12142417e468_1"
+    },
+    {
+      "name": "手动档恢复CG与全图查看",
+      "pass": true
+    },
+    {
+      "name": "手动档恢复背景/人物/站位",
+      "pass": true
+    },
+    {
+      "name": "关闭浏览器重开后CG存档与全图恢复",
+      "pass": true
+    },
+    {
+      "name": "仅自然遇见CG001解锁，图库详情可用；其余59项未声称解锁",
+      "pass": true
+    },
+    {
+      "name": "新游戏恢复声明的站台开场，不继承旧CG舞台",
+      "pass": true
+    },
+    {
+      "name": "原生/浏览器错误为零",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "shots": [
+    {
+      "name": "01-gallery-locked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/01-gallery-locked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02-locked-click",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/02-locked-click.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02b-gallery-page10",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/02b-gallery-page10.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b6a4ee692771ff3922484156ee899ad4d2c4543dd8a1c651d7d942790453e0c4"
+    },
+    {
+      "name": "00-opening",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/00-opening.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "f728b18d4b254a9504c6e7dfcac34a47e1a8be4f1b0725df53d4f5c248c81d1e"
+    },
+    {
+      "name": "03-character",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/03-character.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "5cd4a329905f942e713e02a474d9741b4f8720d148ca4ed851217f7e23bbc59c"
+    },
+    {
+      "name": "03b-character-exit",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/03b-character-exit.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "93b53ee61b733fb5a49d9f493524d20c6195ffaaf1e6bc1496e5558a5e08ccf8"
+    },
+    {
+      "name": "04-cg",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/04-cg.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "4211de88023914842491912dcc4942c7877379b098733a353bd9859878c77aac"
+    },
+    {
+      "name": "05-cg-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/05-cg-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "05b-touch-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/05b-touch-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "06-exit-hidden",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/06-exit-hidden.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "70ccfb9de98e5ea6779c6daecee1ae52cee6d7cc061b8a7d4b33215d048d710f"
+    },
+    {
+      "name": "07-cg-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/07-cg-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b3af694c377e4c43a482eb9078830bda31278c5d7bf68e55e8bdbf97c3fe8e58"
+    },
+    {
+      "name": "08-cg-loaded-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/08-cg-loaded-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "09-character-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/09-character-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "11f3e07cbf16848b0c74ddeec725f67e3fe2e9b8eb30826241b56e3450acf7e5"
+    },
+    {
+      "name": "10-cg-reopened",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/10-cg-reopened.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a379f62bdb0abf2311b375b17b127c75bf82ff5af442d04cea1d3c3c5ab0d4ce"
+    },
+    {
+      "name": "11-cg-reopened-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/11-cg-reopened-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "12-gallery-unlocked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/12-gallery-unlocked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "3a1985065b07d7acaf5de2c328e7bd8c2aed03773f92731214f8b2331e4f562c"
+    },
+    {
+      "name": "13-gallery-detail",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v7/presentation/13-gallery-detail.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "1927d884d56737a6093f2f90f065539f4000d10447a9f07f7dfd8c7b0432bba7"
+    }
+  ],
+  "logs": [
+    "SUI_E|ready|0652c9148f5d0ec6d8c3fbb385ab0bad51907dfee0db07a03fe4617289ab27d5",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|exit|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=1|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|save|slot=0|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|exit|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|save|slot=0|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|save|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|exit|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_I|enter|binding=i01v2-TEXT_d21f786e12142417e468_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|save|slot=0|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|load|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|load|slot=1|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|ready|0652c9148f5d0ec6d8c3fbb385ab0bad51907dfee0db07a03fe4617289ab27d5",
+    "SUI_E|title",
+    "SUI_E|load|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+  ],
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suii-presentation-uldxBT",
+  "inputs": {
+    "adopted": 212,
+    "cues": 3086,
+    "cg": {
+      "bindingId": "i01v2-TEXT_982d9ac0f683c6bbb52b_1",
+      "anchor": {
+        "nodeId": "TEXT_982d9ac0f683c6bbb52b_1",
+        "file": "scenario/第一章-回到毕节.md",
+        "sha256": "edecb9a34780b494cd4159d7d3178c865317a03139e6bfdb0c98e4352def73bb"
+      },
+      "condition": "ALL",
+      "routeIds": [],
+      "enter": {
+        "background": {
+          "assetId": "bg-bijie-arrival-platform-day-rain",
+          "layer": "bg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7651434643995749,
+          "form": null,
+          "costume": null
+        },
+        "characters": [],
+        "props": [],
+        "cg": {
+          "assetId": "cg-common-cg001",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7651434643995749,
+          "form": null,
+          "costume": null
+        }
+      },
+      "exit": {
+        "at": "next-node",
+        "restore": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [],
+          "props": [],
+          "cg": null
+        }
+      },
+      "cgId": "CG001",
+      "fullView": true,
+      "restrictions": [
+        "scene-001: 按当前正文场所持续显示，至下一明确场景边界；不继承人物/道具",
+        "完整节点状态：任意跳转/回退/读档按目标节点重建背景、人物、形态、衣装、道具；不继承另一分支",
+        "人物/道具只在已审单拍特写显示；其余段落由场景和文字承载动作，不用站姿替坐姿或自动补持物",
+        "选择等待保留背景，清除人物、道具和CG；等待选择时不读取本次尚未提交的答案",
+        "CG当前段落内显示，下一节点先去CG恢复此场景，再按目标节点重算；全图查看隐藏正文/姓名/菜单且不推进正文",
+        "图鉴仅真实首个可见帧解锁，注册不解锁，全局解锁不随选择回退撤销"
+      ]
+    },
+    "scene": [
+      {
+        "bindingId": "i01v2-TEXT_f5354c41d01bf0d95a4c_1",
+        "anchor": {
+          "nodeId": "TEXT_f5354c41d01bf0d95a4c_1",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "maolang-base",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "maolang-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-arrival-platform-day-rain",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "maolang-base",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "maolang-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "scene-001: 按当前正文场所持续显示，至下一明确场景边界；不继承人物/道具",
+          "完整节点状态：任意跳转/回退/读档按目标节点重建背景、人物、形态、衣装、道具；不继承另一分支",
+          "人物/道具只在已审单拍特写显示；其余段落由场景和文字承载动作，不用站姿替坐姿或自动补持物",
+          "选择等待保留背景，清除人物、道具和CG；等待选择时不读取本次尚未提交的答案"
+        ]
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "status": "pass"
+}

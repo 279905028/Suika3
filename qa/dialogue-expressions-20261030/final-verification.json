@@ -1,0 +1,497 @@
+{
+  "status": "PASS_SCOPED_LOCAL_CHROME",
+  "version": "sui-i02-20261030-v9",
+  "runtimeBuildId": "968944ded678aa121d09471c612dbf3a4946282eb5b214d90c3328e6937e099a",
+  "summary": {
+    "ranges": 246,
+    "changedNodes": 1305,
+    "changedPortraits": 1356,
+    "protectedShots": 15,
+    "beforeCounts": {
+      "maolang-base": 343,
+      "shijiang-base": 217,
+      "char-xiaoman-base": 372,
+      "char-mengyao-human-base-neutral": 337,
+      "char-zhouzhi-human-base": 372,
+      "piao-base": 521,
+      "shijiang-calculator": 1,
+      "yelan-b": 16,
+      "yelan-phone": 1,
+      "yelan-serious": 1,
+      "char-xiaoman-displeased": 2,
+      "sui-a06-orb-base-v001": 153,
+      "char-xiaoman-practice-notebook": 1,
+      "char-xiaoman-skirt": 20,
+      "char-xiaoman-old-sweatshirt": 11,
+      "char-xiaoman-two-helmets": 1,
+      "char-xiaoman-hesitant": 1,
+      "char-xiaoman-downcast": 1,
+      "char-zhouzhi-human-serious": 1,
+      "char-zhouzhi-human-tied-tired-cup": 1,
+      "char-zhouzhi-human-planning": 1,
+      "char-zhouzhi-human-work-neutral": 21,
+      "char-zhouzhi-human-work-serious": 1,
+      "char-zhouzhi-human-downcast": 1,
+      "char-zhouzhi-human-prep-apron": 3,
+      "char-mengyao-human-base-expression-smile": 1,
+      "chensheng-documents": 2,
+      "chensheng-b": 15,
+      "char-mengyao-human-casual-jacket": 26,
+      "chensheng-book-bag": 3,
+      "chensheng-cable": 1,
+      "maolang-serious": 70,
+      "sui-a06-orb-downcast-v001": 1,
+      "sui-a06-orb-serious-v001": 1,
+      "sui-a06-orb-wave-v001": 1,
+      "sui-a06-human-toy-base-v001": 4,
+      "sui-a06-human-neutral-v001": 115,
+      "sui-a06-human-downcast-v001": 1,
+      "sui-a06-human-tearful-v001": 1,
+      "sui-a06-human-serious-v001": 1,
+      "shijiang-serious": 1,
+      "maolang-stage": 9,
+      "maolang-mic-bag": 9
+    },
+    "afterCounts": {
+      "maolang-base": 269,
+      "shijiang-base": 123,
+      "maolang-serious": 144,
+      "char-xiaoman-base": 154,
+      "char-xiaoman-serious": 107,
+      "char-xiaoman-downcast": 46,
+      "char-mengyao-human-base-neutral": 62,
+      "char-mengyao-human-base-expression-smile": 55,
+      "char-mengyao-human-base-expression-serious": 116,
+      "char-zhouzhi-human-smile": 73,
+      "char-zhouzhi-human-serious": 174,
+      "char-zhouzhi-human-base": 106,
+      "piao-base": 226,
+      "piao-expression-serious": 193,
+      "piao-expression-displeased": 47,
+      "piao-expression-smile": 20,
+      "shijiang-serious": 95,
+      "shijiang-calculator": 1,
+      "char-mengyao-human-base-expression-hesitant": 76,
+      "yelan-b": 9,
+      "yelan-phone": 1,
+      "yelan-serious": 8,
+      "char-xiaoman-displeased": 35,
+      "sui-a06-orb-base-v001": 101,
+      "sui-a06-orb-amused-v001": 7,
+      "sui-a06-orb-serious-v001": 36,
+      "char-xiaoman-practice-notebook": 1,
+      "char-xiaoman-embarrassed": 27,
+      "char-xiaoman-skirt": 20,
+      "char-xiaoman-old-sweatshirt": 11,
+      "char-xiaoman-two-helmets": 1,
+      "char-xiaoman-hesitant": 7,
+      "char-zhouzhi-human-downcast": 21,
+      "char-zhouzhi-human-tied-tired-cup": 1,
+      "char-zhouzhi-human-planning": 1,
+      "char-zhouzhi-human-work-neutral": 9,
+      "char-zhouzhi-human-work-serious": 13,
+      "char-zhouzhi-human-prep-apron": 3,
+      "char-mengyao-human-base-expression-tired": 17,
+      "chensheng-documents": 2,
+      "chensheng-b": 15,
+      "char-mengyao-human-casual-jacket": 26,
+      "chensheng-book-bag": 3,
+      "char-mengyao-human-base-expression-downcast": 12,
+      "chensheng-cable": 1,
+      "piao-expression-hesitant": 17,
+      "piao-expression-downcast": 18,
+      "sui-a06-orb-downcast-v001": 11,
+      "sui-a06-orb-wave-v001": 1,
+      "sui-a06-human-toy-base-v001": 4,
+      "sui-a06-human-neutral-v001": 52,
+      "sui-a06-human-downcast-v001": 43,
+      "sui-a06-human-serious-v001": 18,
+      "sui-a06-human-tearful-v001": 5,
+      "maolang-stage": 9,
+      "maolang-mic-bag": 9
+    }
+  },
+  "routes": [
+    {
+      "name": "mengyao/HIGH/BA",
+      "status": "pass",
+      "pages": 748,
+      "choices": 24
+    },
+    {
+      "name": "mengyao/HIGH/AA",
+      "status": "pass",
+      "pages": 778,
+      "choices": 24
+    },
+    {
+      "name": "mengyao/HIGH/AB",
+      "status": "pass",
+      "pages": 776,
+      "choices": 24
+    },
+    {
+      "name": "mengyao/HIGH/BB",
+      "status": "pass",
+      "pages": 746,
+      "choices": 24
+    },
+    {
+      "name": "friends/LOW/AA",
+      "status": "pass",
+      "pages": 708,
+      "choices": 24
+    },
+    {
+      "name": "xiaoman/HIGH/AA",
+      "status": "pass",
+      "pages": 820,
+      "choices": 24
+    },
+    {
+      "name": "piao/LOW/A",
+      "status": "pass",
+      "pages": 505,
+      "choices": 17
+    },
+    {
+      "name": "piao/HIGH/AA",
+      "status": "pass",
+      "pages": 829,
+      "choices": 24
+    },
+    {
+      "name": "zhouzhi/HIGH/AA",
+      "status": "pass",
+      "pages": 874,
+      "choices": 24
+    },
+    {
+      "name": "piao/LOW/B",
+      "status": "pass",
+      "pages": 506,
+      "choices": 17
+    },
+    {
+      "name": "huangqiuqiu/HIGH/AA",
+      "status": "pass",
+      "pages": 752,
+      "choices": 24
+    },
+    {
+      "name": "zhouzhi/HIGH/BA",
+      "status": "pass",
+      "pages": 849,
+      "choices": 24
+    },
+    {
+      "name": "friends/HIGH/AB",
+      "status": "pass",
+      "pages": 694,
+      "choices": 24
+    },
+    {
+      "name": "xiaoman/HIGH/AB",
+      "status": "pass",
+      "pages": 804,
+      "choices": 24
+    },
+    {
+      "name": "piao/HIGH/AB",
+      "status": "pass",
+      "pages": 838,
+      "choices": 24
+    },
+    {
+      "name": "huangqiuqiu/HIGH/AB",
+      "status": "pass",
+      "pages": 749,
+      "choices": 24
+    },
+    {
+      "name": "huangqiuqiu/HIGH/BB",
+      "status": "pass",
+      "pages": 752,
+      "choices": 24
+    },
+    {
+      "name": "huangqiuqiu/HIGH/BA",
+      "status": "pass",
+      "pages": 752,
+      "choices": 24
+    }
+  ],
+  "totalNarrativePages": 13480,
+  "totalChoiceClicks": 418,
+  "cg": [
+    "CG001",
+    "CG004",
+    "CG005",
+    "CG006",
+    "CG007",
+    "CG008",
+    "CG010",
+    "CG011",
+    "CG012",
+    "CG014",
+    "CG015",
+    "CG016",
+    "CG019",
+    "CG020",
+    "CG022",
+    "CG023",
+    "CG025",
+    "CG026",
+    "CG027",
+    "CG029",
+    "CG031",
+    "CG032",
+    "CG034",
+    "CG035",
+    "CG038",
+    "CG039",
+    "CG040",
+    "CG041",
+    "CG044",
+    "CG061",
+    "CG062",
+    "CG063",
+    "CG066",
+    "CG067",
+    "CG068",
+    "CG069",
+    "CG070",
+    "CG073",
+    "CG075",
+    "CG077",
+    "CG078",
+    "CG079",
+    "CG082",
+    "CG086",
+    "CG090",
+    "CG091",
+    "CG094",
+    "CG095",
+    "CG096",
+    "CG098",
+    "CG099",
+    "CG100",
+    "CG101",
+    "CG102",
+    "CG103",
+    "CG104",
+    "CG105",
+    "CG106",
+    "CG107",
+    "CG108"
+  ],
+  "expressionShots": [
+    {
+      "assetId": "maolang-serious",
+      "nodeId": "TEXT_50d29871f085719871c3_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_50d29871f085719871c3_1.png",
+      "sha256": "80f216978bf58b930482a62f5f7367e92f1923e19e0fc670d5bc2f8fc223f6f5"
+    },
+    {
+      "assetId": "char-xiaoman-serious",
+      "nodeId": "TEXT_f5fca15d7a68891386eb_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_f5fca15d7a68891386eb_1.png",
+      "sha256": "a8f11b126cf3c5392ebe838fa780570c1f39f0922016c65454b1470fd9ea04ac"
+    },
+    {
+      "assetId": "char-xiaoman-downcast",
+      "nodeId": "TEXT_7f843bff53878054c4ee_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_7f843bff53878054c4ee_1.png",
+      "sha256": "baca5862c53d7ae9bb76bedfcf108ee8f150562c7363e48bd2508cfb8010b3f6"
+    },
+    {
+      "assetId": "char-mengyao-human-base-expression-smile",
+      "nodeId": "TEXT_f6de29e3f1b556f400c1_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_f6de29e3f1b556f400c1_1.png",
+      "sha256": "011ceee0744ac06172dcf7f58a350e5eb41099d8531b01438eddbd12738a1544"
+    },
+    {
+      "assetId": "char-mengyao-human-base-expression-serious",
+      "nodeId": "TEXT_3f249c0a8df924783fe0_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_3f249c0a8df924783fe0_1.png",
+      "sha256": "a69be6cb756e6544bcf2be096dfa89d3245f33dc5cc37d54a12114fe069eb81e"
+    },
+    {
+      "assetId": "char-zhouzhi-human-smile",
+      "nodeId": "TEXT_4e8d2dfe043d78706757_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_4e8d2dfe043d78706757_1.png",
+      "sha256": "abd61d6cc8f3990c21598943e2d21f560cccd101b80f991e07e15adb9a882044"
+    },
+    {
+      "assetId": "char-zhouzhi-human-serious",
+      "nodeId": "TEXT_5831bd733ea16ecd7df0_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_5831bd733ea16ecd7df0_1.png",
+      "sha256": "3409ab92cef0d576dd8ab6cd0f0da15603ff0814b9462a46bfe00fa8186194d4"
+    },
+    {
+      "assetId": "piao-expression-serious",
+      "nodeId": "TEXT_b34a5a28cd943e10f8e9_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_b34a5a28cd943e10f8e9_1.png",
+      "sha256": "fce597a98cd74837c9e6fc974c3463fd6a5ec754d5c6f7a2fd2395a9130e4cf4"
+    },
+    {
+      "assetId": "piao-expression-displeased",
+      "nodeId": "TEXT_f94d6e05c86b255b8b05_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-friends-LOW-AA-TEXT_f94d6e05c86b255b8b05_1.png",
+      "sha256": "a810d1b021330b08e48331109d472481fe3688dbae9f3a0e8fe7d4e25fdef0eb"
+    },
+    {
+      "assetId": "piao-expression-smile",
+      "nodeId": "TEXT_6ef63cf71daba5244e88_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_6ef63cf71daba5244e88_1.png",
+      "sha256": "e7c0eac8a8aa8ae3bfbd038c5946240d521897341b8dab78ecfc1a7927c84286"
+    },
+    {
+      "assetId": "shijiang-serious",
+      "nodeId": "TEXT_06914ddd52b3526c4d39_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_06914ddd52b3526c4d39_1.png",
+      "sha256": "05e48dd1e7fbeb8fc429e74730d7e54ac316c8084a6b33cd29c69072b4da2f9b"
+    },
+    {
+      "assetId": "char-mengyao-human-base-expression-hesitant",
+      "nodeId": "TEXT_23349e7e129c7597f1f0_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_23349e7e129c7597f1f0_1.png",
+      "sha256": "7da888dac03da87acbe7a3380f102cdd72ebd2ea9e22e822cdcc8b80fb74fd3a"
+    },
+    {
+      "assetId": "yelan-serious",
+      "nodeId": "TEXT_ff19bd03996dfd701a93_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_ff19bd03996dfd701a93_1.png",
+      "sha256": "da9d90fbf32d9f95a69370dc9a58097371552277562fe2613d3f30950ef5ceca"
+    },
+    {
+      "assetId": "char-xiaoman-displeased",
+      "nodeId": "TEXT_d27d4cc0ee19d348fa48_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_d27d4cc0ee19d348fa48_1.png",
+      "sha256": "ad4bb0fa45d9888032374804b3eb5168d92b08cf01abcfd828d780d3ae0b4af8"
+    },
+    {
+      "assetId": "sui-a06-orb-amused-v001",
+      "nodeId": "TEXT_c772501f9ebb873ea3be_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_c772501f9ebb873ea3be_1.png",
+      "sha256": "0a7b28affd042db15634172f5a4968aebeca1f3823e62d28c7276ae7884b9499"
+    },
+    {
+      "assetId": "sui-a06-orb-serious-v001",
+      "nodeId": "TEXT_c14b8a4e72ac3a7f9d68_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_c14b8a4e72ac3a7f9d68_1.png",
+      "sha256": "c9f57eaa515c691d40e3cc76124690b0e36f4e225bcdf984611d3b5abaf30987"
+    },
+    {
+      "assetId": "char-xiaoman-embarrassed",
+      "nodeId": "TEXT_ea0b3ac36b21df5f4f8b_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-xiaoman-HIGH-AA-TEXT_ea0b3ac36b21df5f4f8b_1.png",
+      "sha256": "0c82ceb47f3c8990b517771eb2c87c5e10bc7aa1a40e24daecde7c7deefe0714"
+    },
+    {
+      "assetId": "char-xiaoman-hesitant",
+      "nodeId": "TEXT_905d0d497a8466179694_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-xiaoman-HIGH-AA-TEXT_905d0d497a8466179694_1.png",
+      "sha256": "1d3f8264a18977caa6bc6ad40f26ddf6b9471194b99c48032294591bf48519d1"
+    },
+    {
+      "assetId": "char-zhouzhi-human-downcast",
+      "nodeId": "TEXT_8f233869bee05907bd48_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-zhouzhi-HIGH-AA-TEXT_8f233869bee05907bd48_1.png",
+      "sha256": "66ba71557083f93cb405a4ed6fd1f7e22115f96d3ec30ee79e7c20e7fd721e38"
+    },
+    {
+      "assetId": "char-zhouzhi-human-work-serious",
+      "nodeId": "TEXT_064443505fb647b8c384_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-zhouzhi-HIGH-AA-TEXT_064443505fb647b8c384_1.png",
+      "sha256": "ea2d49af50d03b428b217ba293f983ae24c9fb201ccb99df5e31b25f6f7327ea"
+    },
+    {
+      "assetId": "char-mengyao-human-base-expression-tired",
+      "nodeId": "TEXT_f601f59e7944cbac96fd_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_f601f59e7944cbac96fd_1.png",
+      "sha256": "cb4acb14d0eb97c522a0af38aef0bfc3f422cd53ead0c561a9e8c0849f88cba1"
+    },
+    {
+      "assetId": "char-mengyao-human-base-expression-downcast",
+      "nodeId": "TEXT_a911b20e10f9322d1f90_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-mengyao-HIGH-BA-TEXT_a911b20e10f9322d1f90_1.png",
+      "sha256": "a2f899d6b337d454a7c8c521153d2bd56e7187d3f9a223b88c0a3b73928fa502"
+    },
+    {
+      "assetId": "piao-expression-hesitant",
+      "nodeId": "TEXT_33006466319ff9ec89d6_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-piao-HIGH-AA-TEXT_33006466319ff9ec89d6_1.png",
+      "sha256": "ede7bb62fe56b0dd1938d2be09670c7e8b21668bae42f56e62ebd2962c51f5d8"
+    },
+    {
+      "assetId": "piao-expression-downcast",
+      "nodeId": "TEXT_3642b185f007a41181ff_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-piao-HIGH-AA-TEXT_3642b185f007a41181ff_1.png",
+      "sha256": "ab6c25938216cec57ecc44c157e8c3522a7d1cf657b5183a2d067c56539b98c9"
+    },
+    {
+      "assetId": "sui-a06-orb-downcast-v001",
+      "nodeId": "TEXT_20a6d0e0f7c2089d06ee_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-huangqiuqiu-HIGH-AA-TEXT_20a6d0e0f7c2089d06ee_1.png",
+      "sha256": "90829f797d823f7c62fe20ebe193b00892f81b8681e4a92d76221f1b304fc721"
+    },
+    {
+      "assetId": "sui-a06-human-downcast-v001",
+      "nodeId": "TEXT_ce3e0e69f55d3bcbf136_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-huangqiuqiu-HIGH-AA-TEXT_ce3e0e69f55d3bcbf136_1.png",
+      "sha256": "cea9ba06e777885c5587dfb76d4b6fc081f27fe0aaca8f26d730084d71025798"
+    },
+    {
+      "assetId": "sui-a06-human-serious-v001",
+      "nodeId": "TEXT_5cda7eeb381d1ddd9d5e_1",
+      "screenshot": "sui-i02-20261030-v9/routes/screenshots/routes-huangqiuqiu-HIGH-AA-TEXT_5cda7eeb381d1ddd9d5e_1.png",
+      "sha256": "1dca55ab7e3aa7ca03bc835f8480e12c0b9422a27643c71952b1feee30c8b919"
+    },
+    {
+      "assetId": "sui-a06-human-tearful-v001",
+      "nodeId": "TEXT_7360ae14ec3a3a5aa1ee_1",
+      "screenshot": "sui-i02-20261030-v9/routes-hq-branches/screenshots/routes-huangqiuqiu-HIGH-BA-TEXT_7360ae14ec3a3a5aa1ee_1.png",
+      "sha256": "00b65b9e5c9ccf40791179c29e30e9bab1201d2b0e71543cb888c36b68f8e942"
+    }
+  ],
+  "presentationChecks": 16,
+  "errors": [],
+  "resolvedTestCoverageGap": "主套件16路径全部通过，但其截图目标选中未在16路径内的HQ-BA含泪首拍；补查BA/BB已抵达并截图。补查继承的全套最长段落目标又属于其他分支，由主套件提供实际截图。本汇总重新检查28表情、两个最长段落及同包指纹，全部要求均须有真实证据；两份原始缺覆盖报告均保留。",
+  "limitations": [
+    "只审阅表情相关正文，没有重审全部文案",
+    "图片字节沿用已批准资源，不是新美术制作",
+    "自动覆盖不代替逐帧人工美术终审",
+    "未新增Firefox/Safari、手机真机、电脑原生、长期压力或发布验收"
+  ],
+  "evidence": [
+    {
+      "path": "binding-check.json",
+      "sha256": "707f05adf646d4d42a3f949f003d91bb32bfef40a9dc45b66448775233b7a397"
+    },
+    {
+      "path": "sui-i02-20261030-v9/presentation/report.json",
+      "sha256": "7f5aedf08cd86bdb915ef951588de59f26b229cb09b57f563fef0c84da53f0cc"
+    },
+    {
+      "path": "sui-i02-20261030-v9/routes/routes-report.json",
+      "sha256": "787b51488307cf697aba20d92c638cd5ccb7d483979f472af5b18a1a47cc9585"
+    },
+    {
+      "path": "sui-i02-20261030-v9/routes-hq-branches/routes-report.json",
+      "sha256": "3602daf4c4eb59c98f564b3699d6b136ea2739fefafbb078e5e1eea491381cda"
+    },
+    {
+      "path": "package-check.json",
+      "sha256": "bc685096589fea6819263e30475b24215ca370cb00c84372d59d73975aa3660e"
+    },
+    {
+      "path": "visual-review.json",
+      "sha256": "4ccb52aba7e1d40bd8c1f181eb30cd239f6aec53cf44c731d8ae16353b56caec"
+    },
+    {
+      "path": "preview-check.json",
+      "sha256": "0468d1527eca92e751d14cf08a1f4bfc3a657cc333153167faff090c51d42158"
+    }
+  ]
+}

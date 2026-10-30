@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "base": "sui-i02-20261030-cinema-v6",
+  "final": "sui-i02-20261030-cinema-v7",
+  "sameNovelAndConfigBothPlatforms": true,
+  "sameRayExceptBuildIdBothPlatforms": true,
+  "sameChoiceValuesAndFileMapping": true,
+  "changedResources": [
+    "assets/current/ui-cinema/png/option-route-01-0.png",
+    "assets/current/ui-cinema/webp/option-route-01-0.webp",
+    "assets/current/ui-cinema/png/option-route-01-1.png",
+    "assets/current/ui-cinema/webp/option-route-01-1.webp",
+    "assets/current/ui-cinema/png/option-route-01-2.png",
+    "assets/current/ui-cinema/webp/option-route-01-2.webp",
+    "assets/current/ui-cinema/png/option-route-01-3.png",
+    "assets/current/ui-cinema/webp/option-route-01-3.webp",
+    "assets/current/ui-cinema/png/option-route-01-4.png",
+    "assets/current/ui-cinema/webp/option-route-01-4.webp",
+    "assets/current/ui-cinema/png/option-route-01-5.png",
+    "assets/current/ui-cinema/webp/option-route-01-5.webp"
+  ],
+  "scope": "仅六路线入口的名称/行动视觉分层；完整路径结果来自v6，最终v7重验受影响界面",
+  "allRuntimeInputDifferences": [
+    "assets/current/ui-cinema/png/option-route-01-0.png",
+    "assets/current/ui-cinema/png/option-route-01-1.png",
+    "assets/current/ui-cinema/png/option-route-01-2.png",
+    "assets/current/ui-cinema/png/option-route-01-3.png",
+    "assets/current/ui-cinema/png/option-route-01-4.png",
+    "assets/current/ui-cinema/png/option-route-01-5.png",
+    "main.ray"
+  ]
+}

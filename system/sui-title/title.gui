@@ -1,0 +1,56 @@
+# B夜班灯火 · title override; original SUI-U retained
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: no;
+    rightcancel: no;
+}
+
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: assets/current/title/cover-b-title.png;
+}
+START {
+    id: 1;
+    type: goto;
+    x: 168;
+    y: 632;
+    image-idle: system/sui-u/png/start-idle.png;
+    image-hover: system/sui-u/png/start-hover.png;
+    image-press: system/sui-u/png/start-press.png;
+    label: sui_start;
+}
+CONTINUE {
+    id: 2;
+    type: gui;
+    x: 488;
+    y: 632;
+    image-idle: system/sui-u/png/continue-idle.png;
+    image-hover: system/sui-u/png/continue-hover.png;
+    image-press: system/sui-u/png/continue-press.png;
+    file: system/sui-u/gui/load.gui;
+}
+SETTINGS {
+    id: 3;
+    type: gui;
+    x: 808;
+    y: 636;
+    image-idle: system/sui-u/png/settings-idle.png;
+    image-hover: system/sui-u/png/settings-hover.png;
+    image-press: system/sui-u/png/settings-press.png;
+    file: system/sui-u/gui/config.gui;
+}
+GALLERY {
+    id: 4;
+    type: goto;
+    x: 968;
+    y: 636;
+    image-idle: system/sui-u/png/gallery-idle.png;
+    image-hover: system/sui-u/png/gallery-hover.png;
+    image-press: system/sui-u/png/gallery-press.png;
+    label: sui_gallery;
+}

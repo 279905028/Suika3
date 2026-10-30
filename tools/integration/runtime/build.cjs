@@ -36,6 +36,10 @@ function build(options={}){
   const v=validate({root:ROOT,manifestPath:path.relative(ROOT,manifestPath),bindingsPath:path.relative(ROOT,bindingsPath),snapshotPath:path.relative(ROOT,snapshotPath),compiled,mode:diagnostic?'diagnostic':'candidate',outputDir:base,outputRoot:ROOT});
   const paths=new Set(['main.ray','start.novel','config.ini','docs/整合/interface-v1.json','docs/CG当前选择.json']);
   for(const dir of ['scenario','tools/compiler','tools/runtime','tools/integration/runtime','system/sui-u'])for(const p of walk(path.join(ROOT,dir)))paths.add(path.relative(ROOT,p));
+  const titleCover=require('../../runtime/title-cover.cjs').load(ROOT);
+  if(titleCover)for(const rel of titleCover.inputFiles)paths.add(rel);
+  const cinema=require('../../runtime/cinema-theme.cjs').load(ROOT);
+  if(cinema)for(const rel of cinema.inputFiles)paths.add(rel);
   for(const p of ['SDK/wasm/index.html','SDK/macos/suika3-pack','SDK/macos/root/bin/suika3','SDK/windows/suika3-win64.exe','SDK/windows/suika3-arm64.exe','system/font/NotoSansCJK-Medium.ttc','system/font/OFL.txt','sound/se/click.ogg'])paths.add(p);
   for(const line of fs.readFileSync(path.join(ROOT,'config.ini'),'utf8').split('\n')){if(!/^[a-z][^=]*=/.test(line))continue;const value=line.slice(line.indexOf('=')+1).trim();if(/\.(?:png|webp|anime|ogg|ttc|ttf)$/.test(value)){assert(value.startsWith('system/')||value==='sound/se/click.ogg','配置资源越界');paths.add(value);}}
   for(const entry of v.files)paths.add(entry.path);

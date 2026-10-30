@@ -20,19 +20,29 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
   const sdk=path.join(root,'SDK/wasm/index.html');
   assert.equal(fileHash(sdk),SDK_SHA,'SDK已变化，需重新审查网页兼容补丁');
   const ui=JSON.parse(fs.readFileSync(path.join(root,'system/sui-u/integration.json'),'utf8'));
-  const config=fs.readFileSync(path.join(root,'config.ini'),'utf8');
+  const titleCover=require('./title-cover.cjs').load(root);
+  const titleMotion=titleCover?.motion?require('./title-motion.cjs'):null;
+  const cinemaModule=require('./cinema-theme.cjs'),cinema=cinemaModule.load(root);
+  let config=fs.readFileSync(path.join(root,'config.ini'),'utf8');
   assert(config.split('\n').includes('game.title='+PROJECT),'根 config.ini 尚未使用冻结的 SUI-E 项目身份');
   assert(config.includes('msgbox.image=system/sui-u/png/message.png'),'根 config.ini 尚未接入 SUI-U 配置');
+  if(cinema)config=cinemaModule.config(config);
   const generated=compiled||compile({root,pageSize:108});
+  if(cinema)assert.equal(cinema.contentBuildId,generated.ir.buildId,'电影UI选项图与正文版本不符；请先运行 tools/ui-cinema/build.cjs');
   const stage=path.join(base,'stage'),web=path.join(base,'web'),bin=path.join(base,'bin');
   for(const dir of [stage,web,bin])mkdir(dir);
   writeCompiled(path.join(base,'generated'),generated);
   const inputs=new Set(),sources=new Set(['main.ray','start.novel','config.ini','system/sui-u/integration.json']);
+  if(titleCover)for(const rel of titleCover.inputFiles)sources.add(rel);
+  if(titleMotion)for(const rel of ['tools/runtime/title-motion.cjs','tools/runtime/title-motion.js'])sources.add(rel);
+  if(cinema)for(const rel of cinema.inputFiles)sources.add(rel);
   function write(rel,data){assert(!path.isAbsolute(rel)&&!rel.split('/').includes('..'));mkdir(path.dirname(path.join(stage,rel)));fs.writeFileSync(path.join(stage,rel),data);inputs.add(rel);}
   function copy(rel,source=rel){
+    if(titleCover&&rel==='system/sui-u/gui/title.gui')source=titleCover.gui;
     sources.add(source);let data=fs.readFileSync(path.join(root,source));
-    if(source==='system/sui-u/gui/title.gui'||source==='system/sui-u/gui/sysmenu.gui'){
-      const buttons=source.endsWith('/title.gui')?{CONTINUE:'L'}:{SAVE:'V',LOAD:'L'};
+    if(titleMotion&&rel==='system/sui-u/gui/title.gui')data=titleMotion.gui(data.toString());
+    if(rel==='system/sui-u/gui/title.gui'||source==='system/sui-u/gui/sysmenu.gui'){
+      const buttons=rel==='system/sui-u/gui/title.gui'?{CONTINUE:'L'}:{SAVE:'V',LOAD:'L'};
       data=data.toString();
       for(const [button,action]of Object.entries(buttons)){
         const pattern=new RegExp('^'+button+'\\s*\\{[^}]+\\}','m');
@@ -65,13 +75,15 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
       });
       assert.equal(changed,Object.keys(actions).length,'存读档回调转换未覆盖全部槽位');
     }
+    if(cinema)data=cinemaModule.gui(root,cinema,rel,data);
     write(rel,data);
   }
   write('config.ini',config);
   let host=fs.readFileSync(path.join(root,'main.ray'),'utf8');
   let uiRay=ui.raySourceOrder.map(rel=>{sources.add(rel);return fs.readFileSync(path.join(root,rel),'utf8');}).join('\n');
-  const adapted=integration?integration.adapt({generated,host,uiRay}):{host,uiRay,ray:'',contentRay:generated.artifacts['story.ray'],contentNovel:generated.artifacts['story.novel']};
-  host=adapted.host;uiRay=adapted.uiRay;
+  let adapted=integration?integration.adapt({generated,host,uiRay}):{host,uiRay,ray:'',contentRay:generated.artifacts['story.ray'],contentNovel:generated.artifacts['story.novel']};
+  if(cinema)adapted=cinemaModule.adapt(root,cinema,adapted);
+  host=titleMotion?titleMotion.host(adapted.host):adapted.host;uiRay=adapted.uiRay;
   const contentRay=adapted.contentRay.replace('func Tag_sc_choose(params)', 'func sc_content_choose(params)');
   assert.notEqual(contentRay,generated.artifacts['story.ray'],'选择入口包装锚点丢失');
   write('main.ray',contentRay+'\n'+uiRay+'\n'+adapted.ray+'\n'+host);
@@ -101,13 +113,15 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
   for(const dir of ['png','gui','anime'])for(const f of files(path.join(root,'system/sui-u',dir)))copy(path.relative(root,f));
   for(const [target,source] of Object.entries(ui.fixedGUIAliases))copy(target,source);
   for(const state of ['idle','hover','press'])copy('system/sui-e/rollback-'+state+'.png','tools/runtime/rollback-'+state+'.png');
+  if(titleCover)for(const resource of titleCover.resources)copy(resource.path);
+  if(cinema)for(const rel of [...Object.values(cinema.gui),...cinema.resources.filter(r=>r.path.endsWith('.png')).map(r=>r.path)])copy(rel);
   sources.add('tools/runtime/rollback-button.py');
   // Include only explicitly configured support assets; never package sample story/art folders.
   for(const line of config.split('\n')){
     if(!/^[a-z][^=]*=/.test(line))continue;
     const value=line.slice(line.indexOf('=')+1).trim();
     if(!/\.(?:png|webp|anime|ogg|ttc|ttf)$/.test(value))continue;
-    assert(value.startsWith('system/')||value==='sound/se/click.ogg','未经白名单批准的配置资源：'+value);
+    assert(value.startsWith('system/')||value==='sound/se/click.ogg'||cinema?.resources.some(r=>r.path===value),'未经白名单批准的配置资源：'+value);
     copy(value);
   }
   for(const rel of ['system/font/OFL.txt','sound/se/click.ogg'])copy(rel);
@@ -144,6 +158,11 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
   once('<script>var Module=','<div id="rotate" role="status"><div class="rotate-icon">↻</div><strong>请旋转手机，横屏阅读</strong><span>阅读进度会保留在当前页面。</span></div><div id="storage-status" role="status" aria-live="polite">正在载入阅读界面与存档…</div><button id="retry-save" type="button" hidden>重试保存</button><script>var Module=');
   html=html.replace('<html lang=en-us>','<html lang="zh-CN">');
   if(integration&&integration.diagnostic)html=html.replace('<span>毕节，雨停之前</span>','<span>SUI-I02 技术诊断 · 图片仅作负载样本</span>');
+  if(titleMotion){
+    once('</head>','<script>window.suiTitleMotionConfig='+JSON.stringify({src:'title-motion.mp4',fadeStart:titleCover.motion.menuFadeStart,fadeEnd:titleCover.motion.menuFadeEnd})+'</script><script src="title-motion.js"></script></head>');
+    fs.copyFileSync(path.join(root,titleCover.motion.path),path.join(web,'title-motion.mp4'));
+    fs.copyFileSync(path.join(root,'tools/runtime/title-motion.js'),path.join(web,'title-motion.js'));
+  }
   fs.writeFileSync(path.join(web,'index.html'),html);
   for(const name of ['shell.js','shell.css'])fs.copyFileSync(path.join(root,'tools/runtime',name),path.join(web,name));
   const manifest={schemaVersion:1,task:integration?'SUI-I02':'SUI-E',runtimeBuildId,contentBuildId:generated.ir.buildId,project:PROJECT,databasePrefix,canvas:[1280,720],sdkSha256:SDK_SHA,pageSize:108,sourceHashes,
@@ -151,7 +170,7 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
     guiActions:{variable:'e_action',save:{1:'S',2:'D',3:'F'},load:{0:'A',1:'1',2:'2',3:'3'},openSave:'V',openLoad:'L',rollback:'R',nativeDirectSaveLoad:false},
     resourceBindings:integration?integration.bindings:[],webpCompatibility:integration?'SUI-I02显式图层适配；以当前候选实测为准':'仅PNG界面',
     inputs:list.map(p=>({path:p,bytes:fs.statSync(path.join(stage,p)).size,sha256:fileHash(path.join(stage,p))})),
-    outputs:['assets.arc','index.html','shell.js','shell.css'].map(p=>({path:'web/'+p,bytes:fs.statSync(path.join(web,p)).size,sha256:fileHash(path.join(web,p))}))};
+    outputs:['assets.arc','index.html','shell.js','shell.css',...(titleMotion?['title-motion.mp4','title-motion.js']:[])].map(p=>({path:'web/'+p,bytes:fs.statSync(path.join(web,p)).size,sha256:fileHash(path.join(web,p))}))};
   fs.writeFileSync(path.join(base,'build-manifest.json'),JSON.stringify(manifest,null,2)+'\n');
   console.log(JSON.stringify({out:path.relative(root,base),runtimeBuildId,contentBuildId:generated.ir.buildId,inputs:list.length,pages:generated.manifest.counts.pages,archiveBytes:fs.statSync(path.join(web,'assets.arc')).size}));
   return manifest;

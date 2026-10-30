@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-30",
+  "version": "sui-i02-20261030-cinema-v7",
+  "preview": "http://127.0.0.1:49257/",
+  "pass": true,
+  "style": "电影侧栏",
+  "finalBrowserChecks": 10,
+  "finalRouteLayouts": [
+    {
+      "name": "five-locked",
+      "expectedVisible": 5
+    },
+    {
+      "name": "six-open",
+      "expectedVisible": 6
+    }
+  ],
+  "fullRouteRegression": {
+    "version": "sui-i02-20261030-cinema-v6",
+    "cases": 7,
+    "narrativePages": 5540,
+    "stablePages": 5706,
+    "choiceClicks": 166,
+    "uniqueChoices": 64,
+    "cgObserved": 48,
+    "semanticAndPresentationCursorsMatched": true
+  },
+  "delta": {
+    "proof": "final-delta-check.json",
+    "scope": "仅六路线标签位图视觉分层；双平台NovelML/配置一致、Ray仅构建ID变化，最终v7专项复测"
+  },
+  "optionsMeasured": 134,
+  "resourcePairs": 276,
+  "protectedFilesUnchanged": 256,
+  "packageOutputsVerified": 14,
+  "errors": [],
+  "playerSavesAccessed": false,
+  "notTested": [
+    "新增全文正文审校",
+    "全量人物CG逐帧审查",
+    "Firefox/Safari专项",
+    "手机真机",
+    "macOS/Windows原生运行",
+    "长期压力",
+    "签名/公证/ZIP/发布"
+  ],
+  "limitation": "当前SDK漏登记空槽之后的元数据时，后续存档可由全局登记识别并原生恢复，缩略图使用文字占位。",
+  "evidence": [
+    "sui-i02-20261030-cinema-v7/browser/report.json",
+    "sui-i02-20261030-cinema-v6/routes/routes-report.json",
+    "sui-i02-20261030-cinema-v7/route-layout/report.json",
+    "final-delta-check.json",
+    "asset-check.json",
+    "asset-delta-check.json",
+    "choice-measurements.json",
+    "protected-check.json",
+    "package-check.json",
+    "native-choice-check.json"
+  ]
+}

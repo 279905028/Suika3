@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "candidate": "sui-i02-20261030-cinema-v7",
+  "method": "SHA-256 of each manifest input against current workspace",
+  "inputs": 1733,
+  "matching": 1724,
+  "missing": 0,
+  "changed": [
+    "assets/current/manifest.json",
+    "docs/整合/bindings.json",
+    "system/sui-title/manifest.json",
+    "tools/runtime/README.md",
+    "tools/runtime/build.cjs",
+    "tools/runtime/serve.cjs",
+    "tools/runtime/shell.css",
+    "tools/runtime/shell.js",
+    "tools/runtime/title-cover.cjs"
+  ],
+  "boundary": "Point-in-time audit. No new build or runtime testing."
+}

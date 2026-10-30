@@ -1,0 +1,10 @@
+'use strict';
+const fs=require('fs'),path=require('path'),cp=require('child_process');
+const root=path.resolve(__dirname,'../..');
+const {compile}=require('../compiler/compile.cjs');
+const ir=compile({root,pageSize:108}).ir;
+const dir=path.join(root,'assets/sources/20261030-cinema-ui');fs.mkdirSync(dir,{recursive:true});
+const actions={xiaoman:'去理发店',zhouzhi:'去回声',mengyao:'去培训机构',piao:'去老街',friends:'去网吧',huangqiuqiu:'去后院'};
+fs.writeFileSync(path.join(dir,'choice-layout.json'),JSON.stringify({contentBuildId:ir.buildId,choices:Object.values(ir.choices).map(c=>({id:c.id,question:c.question,options:c.options.map(o=>({...o,action:c.id===ir.contract.storyEntry.routeChoice?actions[o.value]:null}))}))},null,2)+'\n');
+const result=cp.spawnSync('python3',[path.join(__dirname,'render.py')],{cwd:root,encoding:'utf8'});
+process.stdout.write(result.stdout||'');process.stderr.write(result.stderr||'');if(result.status!==0)process.exit(result.status||1);

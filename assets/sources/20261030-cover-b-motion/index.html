@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>夜班灯火 · 欢笑打闹双方案</title>
+<style>body{margin:0;background:#102127;color:#eeeae0;font:16px system-ui}main{max-width:1500px;margin:24px auto;padding:0 20px}.options{display:grid;grid-template-columns:1fr 1fr;gap:24px}h1{font-size:24px;font-weight:500}h2{font-size:19px}video{display:block;width:100%;border-radius:6px;background:#102127}a{color:#aed0c3}p{line-height:1.7}@media(max-width:800px){.options{grid-template-columns:1fr}}</style>
+<main><h1>B · 夜班灯火</h1><div class="options">
+<article><h2>方案一 · 损友笑场</h2><video id="b1" src="b1-loop.mp4" muted autoplay loop playsinline controls></video><p><a href="b1-loop.gif">GIF</a> · <a href="b1-loop.webp">动态WebP</a> · <a href="b1-loop.mp4">高清MP4</a></p></article>
+<article><h2>方案二 · 肩拍躲闪</h2><video id="b2" src="b2-loop.mp4" muted autoplay loop playsinline controls></video><p><a href="b2-loop.gif">GIF</a> · <a href="b2-loop.webp">动态WebP</a> · <a href="b2-loop.mp4">高清MP4</a></p></article>
+</div></main><script>window.motionLoops={b1:0,b2:0};for(const v of document.querySelectorAll('video')){let last=0;v.addEventListener('timeupdate',()=>{if(v.currentTime<last-1)motionLoops[v.id]++;last=v.currentTime})}</script></html>

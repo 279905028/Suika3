@@ -1,0 +1,87 @@
+{
+  "pass": true,
+  "server": "随Release网页ZIP解压的serve.cjs，仅本机49280端口",
+  "checks": [
+    {
+      "method": "GET",
+      "path": "/",
+      "range": "",
+      "status": 200,
+      "bytesRead": 1996849,
+      "contentType": "text/html; charset=utf-8",
+      "pass": true
+    },
+    {
+      "method": "HEAD",
+      "path": "/assets.arc",
+      "range": "",
+      "status": 200,
+      "bytesRead": 0,
+      "contentType": "application/octet-stream",
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "path": "/title-motion.mp4",
+      "range": "bytes=0-99",
+      "status": 206,
+      "bytesRead": 100,
+      "contentType": "video/mp4",
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "path": "/title-motion.mp4",
+      "range": "bytes=-64",
+      "status": 206,
+      "bytesRead": 64,
+      "contentType": "video/mp4",
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "path": "/title-motion.mp4",
+      "range": "bytes=999999999-",
+      "status": 416,
+      "bytesRead": 0,
+      "contentType": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "path": "/missing",
+      "range": "",
+      "status": 404,
+      "bytesRead": 0,
+      "contentType": null,
+      "pass": true
+    },
+    {
+      "method": "POST",
+      "path": "/",
+      "range": "",
+      "status": 405,
+      "bytesRead": 0,
+      "contentType": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "path": "/%2e%2e/candidate-manifest.json",
+      "range": "",
+      "status": 404,
+      "bytesRead": 0,
+      "contentType": null,
+      "pass": true
+    },
+    {
+      "method": "GET",
+      "path": "/%2e%2e%2fcandidate-manifest.json",
+      "range": "",
+      "status": 403,
+      "bytesRead": 0,
+      "contentType": null,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "status": "pass",
+  "version": "sui-i02-20261030-portraits-v2",
+  "artVersion": "sui-i01-portraits-20261030-v5",
+  "reviewedParagraphs": 786,
+  "newImages": 14,
+  "newDrawingParagraphs": 54,
+  "reusedParagraphs": 10,
+  "newPortraitParagraphs": 64,
+  "additionalExistingTextParagraphs": 55,
+  "choiceNodes": 3,
+  "modifiedNodes": 122,
+  "remainingBackgroundParagraphs": 722,
+  "currentParagraphs": {
+    "total": 3019,
+    "portraitsWithoutCG": 2237,
+    "cg": 60,
+    "backgroundOnly": 722
+  },
+  "validation": {
+    "sourceAndOriginal212ImageBytesUnchanged": true,
+    "rgbaExactImages": 14,
+    "newNPCsWithBrowserScreenshots": 14,
+    "chromeRepresentativePaths": 7,
+    "narrativeVisits": 5455,
+    "choiceClicks": 168,
+    "newPortraitPersistenceChecks": 5,
+    "errors": 0,
+    "offlinePlatforms": [
+      {
+        "sdkPlatform": "wasm",
+        "raySha256": "6458d895d05c1c163865debbf6faf5738c24e8d275fc985fa2b105e446e5d8f8",
+        "generatedStates": 418,
+        "fallbackStates": 34,
+        "bindings": 3086,
+        "validRestores": 3086,
+        "rejectedCorruptStates": 18516,
+        "placementComparisons": 6172
+      },
+      {
+        "sdkPlatform": "desktop",
+        "raySha256": "4d934eb74020ad3d93f63831648b8dce12fc5fcbca5e6afef3d0835e80d90981",
+        "generatedStates": 418,
+        "fallbackStates": 34,
+        "bindings": 3086,
+        "validRestores": 3086,
+        "rejectedCorruptStates": 18516,
+        "placementComparisons": 6172
+      }
+    ],
+    "packageFiles": 16
+  },
+  "inputs": {
+    "manifest": {
+      "path": "assets/current/manifest.json",
+      "sha256": "b4ba3a8368479dda0f8674b6e55fce882f5c17c49e92fc781baf3bb058bdc2d5"
+    },
+    "bindings": {
+      "path": "docs/整合/bindings.json",
+      "sha256": "8559b177247def5695898ac85b16a81cafd7b3e23f9d833325d53a39ea87304e"
+    },
+    "snapshot": {
+      "path": "qa/portrait-gap-fill-20261030/snapshot.json",
+      "sha256": "0e07e9e55a2fd3235cef2dace08714ac04d7c2df2060876544e1c746b5744a03"
+    }
+  },
+  "evidence": {
+    "review": "qa/portrait-gap-fill-20261030/review.json",
+    "images": "qa/portrait-gap-fill-20261030/image-checks.json",
+    "offline": "qa/portrait-gap-fill-20261030/binding-check.json",
+    "routes": "qa/portrait-gap-fill-20261030/sui-i02-20261030-portraits-v2/routes/routes-report.json",
+    "persistence": "qa/portrait-gap-fill-20261030/sui-i02-20261030-portraits-v2/portraits/report.json"
+  },
+  "scope": "本批786段已逐段决定并应用。保留段落不等于缺图；没有新增剧情。不是所有NPC/动作逐拍重绘，不代表其他浏览器、手机真机、电脑原生、完整全分支或发布验收。",
+  "runtimeVisualReview": {
+    "path": "qa/portrait-gap-fill-20261030/runtime-visual-review.json",
+    "sha256": "9a2d345ca1ce9ebc7af75e892c1da2490fafb0014792964be41ef55bb01249c2"
+  },
+  "canonicalArtMatch": {
+    "version": "sui-i02-20261030-title-b1-v2",
+    "manifest": true,
+    "bindings": true
+  }
+}

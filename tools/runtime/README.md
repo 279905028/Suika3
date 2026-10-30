@@ -1,10 +1,12 @@
 # 当前构建与运行入口（2026-10-30）
 
-正式候选为 `sui-i02-20261030-v7`，当前使用方式与完整证据见 [SUI-I02说明](../../docs/整合/SUI-I02.md)。
+立绘补全冻结为`sui-i01-portraits-20261030-v5`，226项美术资源。独立验收候选为`sui-i02-20261030-portraits-v2`，采用相同电影侧栏与B循环封面，入口[49262](http://127.0.0.1:49262/)；[补全结果与实际验证](../../qa/portrait-gap-fill-20261030/结果报告.md)。本批构建来源使用`qa/portrait-gap-fill-20261030/snapshot.json`；一次性制作/检查工具及其固定QA批次不直接重跑覆盖，后续修改另建批次。
+
+当前候选为 `sui-i02-20261030-title-b1-v2`，已采用[方案一动态标题](../../docs/方案一动态封面接入.md)，保留[电影侧栏UI](../../docs/UI-电影侧栏.md)及当前补画立绘。标题与UI分别由`system/sui-title/manifest.json`、`system/sui-cinema/manifest.json`登记，旧SUI-U资源保留。动态标题仅用于网页，电脑原生使用静态B。
 
 ```sh
-node tools/runtime/serve.cjs --web dist/sui-i02-20261030-v7/web --port 49244
-node tools/integration/runtime/verify-package.cjs dist/sui-i02-20261030-v7
+node tools/runtime/serve.cjs --web dist/sui-i02-20261030-title-b1-v2/web --port 49250
+node tools/integration/runtime/verify-package.cjs dist/sui-i02-20261030-title-b1-v2
 ```
 
 新候选通过 `tools/integration/runtime/build.cjs` 显式指定新版本和I01冻结快照生成；压缩包使用同目录 `archive.py`。现有版本、QA和玩家存档不覆盖。底层 `tools/runtime/build.cjs` 必须显式指定新的 `--out`，服务必须指定 `--web`，仅监听本机。

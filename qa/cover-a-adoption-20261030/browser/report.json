@@ -1,0 +1,49 @@
+{
+  "version": "sui-i02-20261030-cover-a-v1",
+  "runtimeBuildId": "e2c90dafe0f47e32dd476d7d96c779d7543fb20c48471bf48e58bd9f37d19a82",
+  "scope": "独立浏览器存储；标题封面、四个菜单入口、开场及尺寸模拟",
+  "checks": [
+    {
+      "name": "新封面版本实际载入，桌面标题截图",
+      "pass": true
+    },
+    {
+      "name": "底部设置入口与返回",
+      "pass": true
+    },
+    {
+      "name": "底部图鉴入口与返回",
+      "pass": true
+    },
+    {
+      "name": "底部继续入口与空档返回",
+      "pass": true
+    },
+    {
+      "name": "844×390横屏模拟完整呈现标题与菜单",
+      "pass": true
+    },
+    {
+      "name": "375×667竖屏模拟显示旋转提示",
+      "pass": true
+    },
+    {
+      "name": "底部开始入口进入正式正文",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "logs": [
+    "SUI_E|ready|e2c90dafe0f47e32dd476d7d96c779d7543fb20c48471bf48e58bd9f37d19a82",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+  ],
+  "pass": false,
+  "failure": "AssertionError [ERR_ASSERTION]: Expected \"actual\" to be strictly unequal to:\n\n'SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25'\n    at /Users/yipin/Desktop/Suika3/qa/cover-a-adoption-20261030/verify-title.cjs:23:173"
+}

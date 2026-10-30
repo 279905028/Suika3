@@ -1,0 +1,1210 @@
+{
+  "scope": "正式候选自然开场背景/人物/CG/图库/读档；非全篇人工验收",
+  "version": "sui-i02-20261030-v9",
+  "runtimeBuildId": "968944ded678aa121d09471c612dbf3a4946282eb5b214d90c3328e6937e099a",
+  "checks": [
+    {
+      "name": "未遇见CG时图鉴保持锁定",
+      "pass": true
+    },
+    {
+      "name": "真实图库显示60项的第10页，未遇见项目保持锁定",
+      "pass": true
+    },
+    {
+      "name": "自然正文第2段实际显示毛狼与站台并保存",
+      "pass": true,
+      "details": "TEXT_f5354c41d01bf0d95a4c_1"
+    },
+    {
+      "name": "第4段CG首可见帧解锁，键盘/点击全图开关均不推进原段",
+      "pass": true,
+      "details": "TEXT_982d9ac0f683c6bbb52b_1"
+    },
+    {
+      "name": "CG退出后恢复同场毛狼，下一句立绘持续存在",
+      "pass": true,
+      "details": "TEXT_d21f786e12142417e468_1"
+    },
+    {
+      "name": "手动档恢复CG与全图查看",
+      "pass": true
+    },
+    {
+      "name": "手动档恢复背景/人物/站位",
+      "pass": true
+    },
+    {
+      "name": "关闭浏览器重开后CG存档与全图恢复",
+      "pass": true
+    },
+    {
+      "name": "仅自然遇见CG001解锁，图库详情可用；其余59项未声称解锁",
+      "pass": true
+    },
+    {
+      "name": "新游戏恢复声明的站台开场，不继承旧CG舞台",
+      "pass": true
+    },
+    {
+      "name": "选择前保留毛狼与师匠，保存读取正确恢复",
+      "pass": true
+    },
+    {
+      "name": "原纯黑段117行显示雨窗阅读背景，保存读取恢复同段",
+      "pass": true
+    },
+    {
+      "name": "自然对话认真→微笑→认真实际改变人物像素，读档精确恢复微笑",
+      "pass": true,
+      "details": {
+        "serious": "TEXT_3f249c0a8df924783fe0_1",
+        "smile": "TEXT_675ed0c0610c5ef6815c_1",
+        "reply": "TEXT_705b101d2dd49eb7c0af_1"
+      }
+    },
+    {
+      "name": "关闭浏览器重开后表情与站位像素一致",
+      "pass": true
+    },
+    {
+      "name": "回退C01-04保留选择前表情，改选B恢复该分支认真表情",
+      "pass": true
+    },
+    {
+      "name": "原生/浏览器错误为零",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "shots": [
+    {
+      "name": "01-gallery-locked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/01-gallery-locked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02-locked-click",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/02-locked-click.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02b-gallery-page10",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/02b-gallery-page10.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b6a4ee692771ff3922484156ee899ad4d2c4543dd8a1c651d7d942790453e0c4"
+    },
+    {
+      "name": "00-opening",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/00-opening.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "f83dfd42398b3dc4011e3e30dd14a0901081169a4b6ed512f589fc6f6bc0386d"
+    },
+    {
+      "name": "03-character",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/03-character.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "fa97898a09dda379d4262064fd84280d3aad0027b6676e4fa1cde67ea567541b"
+    },
+    {
+      "name": "03b-next-paragraph",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/03b-next-paragraph.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "93b53ee61b733fb5a49d9f493524d20c6195ffaaf1e6bc1496e5558a5e08ccf8"
+    },
+    {
+      "name": "04-cg",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/04-cg.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "f6f366b4e583d35566b1974b85a2d662274ce0a98d8e0ae7d81352bcb713f948"
+    },
+    {
+      "name": "05-cg-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/05-cg-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "05b-touch-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/05b-touch-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "06-exit-hidden",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/06-exit-hidden.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "5655dbb82136f7a0a88ec5111b51bf27980aac78ac3a522df2b00846bad9e532"
+    },
+    {
+      "name": "07-cg-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/07-cg-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "dfbcb621a1e74f2eb8a491623973bbc148780fd26714dce01bb1a2c78f1f6f53"
+    },
+    {
+      "name": "08-cg-loaded-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/08-cg-loaded-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "09-character-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/09-character-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "11f3e07cbf16848b0c74ddeec725f67e3fe2e9b8eb30826241b56e3450acf7e5"
+    },
+    {
+      "name": "10-cg-reopened",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/10-cg-reopened.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a379f62bdb0abf2311b375b17b127c75bf82ff5af442d04cea1d3c3c5ab0d4ce"
+    },
+    {
+      "name": "11-cg-reopened-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/11-cg-reopened-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "12-gallery-unlocked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/12-gallery-unlocked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "3a1985065b07d7acaf5de2c328e7bd8c2aed03773f92731214f8b2331e4f562c"
+    },
+    {
+      "name": "13-gallery-detail",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/13-gallery-detail.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "1927d884d56737a6093f2f90f065539f4000d10447a9f07f7dfd8c7b0432bba7"
+    },
+    {
+      "name": "14-choice-portraits",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/14-choice-portraits.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "274f96c329d8e6c61176d440e2dc20ecb2896d96cbf704af9dcf289a586e1326"
+    },
+    {
+      "name": "15-choice-restored",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/15-choice-restored.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b2a830cc2f7e2079bdd5fd2807c0d445f34566b9ac45214d08c65f97ea55f5a1"
+    },
+    {
+      "name": "16-rain-backdrop",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/16-rain-backdrop.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "cc99293dcfff86b3e1cfd7524a4808785ac314496e186d266b087c948f4c9a20"
+    },
+    {
+      "name": "17-rain-backdrop-restored",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/17-rain-backdrop-restored.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "5048c1bc089efda71e90270eb78060f509df0e8cca300e782f1315ee3f1cd044"
+    },
+    {
+      "name": "18-mengyao-serious",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/18-mengyao-serious.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "54e39b5cfb4ba084e0835a61ec49978f062a1db952f4ad5536c61b718d7e7330"
+    },
+    {
+      "name": "19-mengyao-smile",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/19-mengyao-smile.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "3398a075a93306765c9415443eaa019ca6f5c5dcd1499c0180508b0b53f75f7b"
+    },
+    {
+      "name": "20-answer-A-serious",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/20-answer-A-serious.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "6ce9fe15f4ece4404ef494838a5d59b249405f2edc449b314920ae987fc1c03c"
+    },
+    {
+      "name": "21-expression-restored",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/21-expression-restored.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "116cb9365179aa39de3f6901884aaa48ab5f4aa0b8ed8294f70789b9846dd20a"
+    },
+    {
+      "name": "22-expression-choice-rollback",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/22-expression-choice-rollback.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "d96a21d764fd9718be7ca79ff9bdfe74fb81e2258b3072e4745a5edba6aff1e2"
+    },
+    {
+      "name": "23-answer-B-serious",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-expressions-20261030/sui-i02-20261030-v9/presentation/23-answer-B-serious.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "afe0ba09d12cdca97214dcdcb776b9dcb2bddb27a1aa4eb32b38b2271a2ebed0"
+    }
+  ],
+  "logs": [
+    "SUI_E|ready|968944ded678aa121d09471c612dbf3a4946282eb5b214d90c3328e6937e099a",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|exit|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=1|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|save|slot=0|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|exit|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|save|slot=0|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|save|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|exit|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_I|enter|binding=i01v2-TEXT_d21f786e12142417e468_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|save|slot=0|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|load|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|load|slot=1|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|ready|968944ded678aa121d09471c612dbf3a4946282eb5b214d90c3328e6937e099a",
+    "SUI_E|title",
+    "SUI_E|load|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|exit|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_E|save|slot=0|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|exit|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|exit|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_I|enter|binding=i01v2-TEXT_d21f786e12142417e468_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|save|slot=0|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_I|exit|binding=i01v2-TEXT_d21f786e12142417e468_1|node=TEXT_e1427ee34fcf2aeca819_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e1427ee34fcf2aeca819_1|node=TEXT_e1427ee34fcf2aeca819_1",
+    "SUI_E|stable|cursor=TEXT_e1427ee34fcf2aeca819_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+    "SUI_I|exit|binding=i01v2-TEXT_e1427ee34fcf2aeca819_1|node=TEXT_080c170244eff617925d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_080c170244eff617925d_1|node=TEXT_080c170244eff617925d_1",
+    "SUI_E|stable|cursor=TEXT_080c170244eff617925d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_I|exit|binding=i01v2-TEXT_080c170244eff617925d_1|node=TEXT_eba83339c178c009eff6_1",
+    "SUI_I|enter|binding=i01v2-TEXT_eba83339c178c009eff6_1|node=TEXT_eba83339c178c009eff6_1",
+    "SUI_E|stable|cursor=TEXT_eba83339c178c009eff6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_I|exit|binding=i01v2-TEXT_eba83339c178c009eff6_1|node=TEXT_1e1c1bfc6d8c25dfad34_1",
+    "SUI_I|enter|binding=i01v2-TEXT_1e1c1bfc6d8c25dfad34_1|node=TEXT_1e1c1bfc6d8c25dfad34_1",
+    "SUI_E|stable|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=0|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_I|exit|binding=i01v2-TEXT_1e1c1bfc6d8c25dfad34_1|node=TEXT_e83b5f0a4167ec40ee58_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e83b5f0a4167ec40ee58_1|node=TEXT_e83b5f0a4167ec40ee58_1",
+    "SUI_E|stable|cursor=TEXT_e83b5f0a4167ec40ee58_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+    "SUI_I|exit|binding=i01v2-TEXT_e83b5f0a4167ec40ee58_1|node=TEXT_89d10e6fbee6dd54dd08_1",
+    "SUI_I|enter|binding=i01v2-TEXT_89d10e6fbee6dd54dd08_1|node=TEXT_89d10e6fbee6dd54dd08_1",
+    "SUI_E|stable|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_I|exit|binding=i01v2-TEXT_89d10e6fbee6dd54dd08_1|node=TEXT_3fe55dfb2dd63fbb3b0e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3fe55dfb2dd63fbb3b0e_1|node=TEXT_3fe55dfb2dd63fbb3b0e_1",
+    "SUI_E|stable|cursor=TEXT_3fe55dfb2dd63fbb3b0e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=69",
+    "SUI_E|save|slot=0|cursor=TEXT_3fe55dfb2dd63fbb3b0e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=69",
+    "SUI_I|exit|binding=i01v2-TEXT_3fe55dfb2dd63fbb3b0e_1|node=TEXT_945c8830453c2fe27c64_1",
+    "SUI_I|enter|binding=i01v2-TEXT_945c8830453c2fe27c64_1|node=TEXT_945c8830453c2fe27c64_1",
+    "SUI_E|stable|cursor=TEXT_945c8830453c2fe27c64_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=73",
+    "SUI_I|exit|binding=i01v2-TEXT_945c8830453c2fe27c64_1|node=TEXT_7b5cf5dd9537e65579e1_1",
+    "SUI_I|enter|binding=i01v2-TEXT_7b5cf5dd9537e65579e1_1|node=TEXT_7b5cf5dd9537e65579e1_1",
+    "SUI_E|stable|cursor=TEXT_7b5cf5dd9537e65579e1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=77",
+    "SUI_I|exit|binding=i01v2-TEXT_7b5cf5dd9537e65579e1_1|node=TEXT_5a932c18fef16d486adb_1",
+    "SUI_I|enter|binding=i01v2-TEXT_5a932c18fef16d486adb_1|node=TEXT_5a932c18fef16d486adb_1",
+    "SUI_E|stable|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+    "SUI_E|save|slot=0|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+    "SUI_I|exit|binding=i01v2-TEXT_5a932c18fef16d486adb_1|node=TEXT_cf9813a6bde4d424ec26_1",
+    "SUI_I|enter|binding=i01v2-TEXT_cf9813a6bde4d424ec26_1|node=TEXT_cf9813a6bde4d424ec26_1",
+    "SUI_E|stable|cursor=TEXT_cf9813a6bde4d424ec26_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=85",
+    "SUI_I|exit|binding=i01v2-TEXT_cf9813a6bde4d424ec26_1|node=TEXT_3b95db884e8708a8946b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3b95db884e8708a8946b_1|node=TEXT_3b95db884e8708a8946b_1",
+    "SUI_E|stable|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_E|save|slot=0|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_I|exit|binding=i01v2-TEXT_3b95db884e8708a8946b_1|node=TEXT_f79bca9d3ad4ce89cc75_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f79bca9d3ad4ce89cc75_1|node=TEXT_f79bca9d3ad4ce89cc75_1",
+    "SUI_E|stable|cursor=TEXT_f79bca9d3ad4ce89cc75_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=93",
+    "SUI_I|exit|binding=i01v2-TEXT_f79bca9d3ad4ce89cc75_1|node=TEXT_0f8e774a8dc5b1ba5070_1",
+    "SUI_I|enter|binding=i01v2-TEXT_0f8e774a8dc5b1ba5070_1|node=TEXT_0f8e774a8dc5b1ba5070_1",
+    "SUI_E|stable|cursor=TEXT_0f8e774a8dc5b1ba5070_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=97",
+    "SUI_I|exit|binding=i01v2-TEXT_0f8e774a8dc5b1ba5070_1|node=TEXT_e2d31d64a6d8a073d5a2_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e2d31d64a6d8a073d5a2_1|node=TEXT_e2d31d64a6d8a073d5a2_1",
+    "SUI_E|stable|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+    "SUI_E|save|slot=0|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+    "SUI_I|exit|binding=i01v2-TEXT_e2d31d64a6d8a073d5a2_1|node=TEXT_093d48020869574e10bb_1",
+    "SUI_I|enter|binding=i01v2-TEXT_093d48020869574e10bb_1|node=TEXT_093d48020869574e10bb_1",
+    "SUI_E|stable|cursor=TEXT_093d48020869574e10bb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=105",
+    "SUI_I|exit|binding=i01v2-TEXT_093d48020869574e10bb_1|node=TEXT_53f50ed4bd1471f185b0_1",
+    "SUI_I|enter|binding=i01v2-TEXT_53f50ed4bd1471f185b0_1|node=TEXT_53f50ed4bd1471f185b0_1",
+    "SUI_E|stable|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+    "SUI_I|exit|binding=i01v2-TEXT_53f50ed4bd1471f185b0_1|node=TEXT_461ab2659577c4b5d2ea_1",
+    "SUI_I|enter|binding=i01v2-TEXT_461ab2659577c4b5d2ea_1|node=TEXT_461ab2659577c4b5d2ea_1",
+    "SUI_E|stable|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+    "SUI_E|save|slot=0|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+    "SUI_I|exit|binding=i01v2-TEXT_461ab2659577c4b5d2ea_1|node=TEXT_c63983d8a92b2d07edb4_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c63983d8a92b2d07edb4_1|node=TEXT_c63983d8a92b2d07edb4_1",
+    "SUI_E|stable|cursor=TEXT_c63983d8a92b2d07edb4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=117",
+    "SUI_I|exit|binding=i01v2-TEXT_c63983d8a92b2d07edb4_1|node=TEXT_bc2c686eef08f9474502_1",
+    "SUI_I|enter|binding=i01v2-TEXT_bc2c686eef08f9474502_1|node=TEXT_bc2c686eef08f9474502_1",
+    "SUI_E|stable|cursor=TEXT_bc2c686eef08f9474502_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=121",
+    "SUI_I|exit|binding=i01v2-TEXT_bc2c686eef08f9474502_1|node=TEXT_e0a3efdbbefa7d97bfc6_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e0a3efdbbefa7d97bfc6_1|node=TEXT_e0a3efdbbefa7d97bfc6_1",
+    "SUI_E|stable|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+    "SUI_E|save|slot=0|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+    "SUI_I|exit|binding=i01v2-TEXT_e0a3efdbbefa7d97bfc6_1|node=C01-01",
+    "SUI_I|enter|binding=i01v2-C01-01|node=C01-01",
+    "SUI_E|stable|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=3|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=11|generation=1|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_I|exit|binding=i01v2-C01-01|node=BRANCH_c68b81993efac45af2e1",
+    "SUI_I|enter|binding=i01v2-TEXT_39801422808c60124b1d_1|node=TEXT_39801422808c60124b1d_1",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=12|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=12|generation=2|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_I|exit|binding=i01v2-C01-01|node=BRANCH_c68b81993efac45af2e1",
+    "SUI_I|enter|binding=i01v2-TEXT_39801422808c60124b1d_1|node=TEXT_39801422808c60124b1d_1",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_I|exit|binding=i01v2-TEXT_39801422808c60124b1d_1|node=TEXT_4abe77d5f538f1cfc858_1",
+    "SUI_I|enter|binding=i01v2-TEXT_4abe77d5f538f1cfc858_1|node=TEXT_4abe77d5f538f1cfc858_1",
+    "SUI_E|stable|cursor=TEXT_4abe77d5f538f1cfc858_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=143",
+    "SUI_E|save|slot=0|cursor=TEXT_4abe77d5f538f1cfc858_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=143",
+    "SUI_I|exit|binding=i01v2-TEXT_4abe77d5f538f1cfc858_1|node=TEXT_03ca33cca5ab91643347_1",
+    "SUI_I|enter|binding=i01v2-TEXT_03ca33cca5ab91643347_1|node=TEXT_03ca33cca5ab91643347_1",
+    "SUI_E|stable|cursor=TEXT_03ca33cca5ab91643347_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=147",
+    "SUI_I|exit|binding=i01v2-TEXT_03ca33cca5ab91643347_1|node=TEXT_166076994750bf748044_1",
+    "SUI_I|enter|binding=i01v2-TEXT_166076994750bf748044_1|node=TEXT_166076994750bf748044_1",
+    "SUI_E|stable|cursor=TEXT_166076994750bf748044_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=151",
+    "SUI_I|exit|binding=i01v2-TEXT_166076994750bf748044_1|node=BRANCH_30b49936bcdcd9ff7423",
+    "SUI_I|enter|binding=i01v2-TEXT_cd69d6bcd1049cfe55fb_1|node=TEXT_cd69d6bcd1049cfe55fb_1",
+    "SUI_E|stable|cursor=TEXT_cd69d6bcd1049cfe55fb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=169",
+    "SUI_E|save|slot=0|cursor=TEXT_cd69d6bcd1049cfe55fb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=169",
+    "SUI_I|exit|binding=i01v2-TEXT_cd69d6bcd1049cfe55fb_1|node=TEXT_89266a1cfc9100482c8f_1",
+    "SUI_I|enter|binding=i01v2-TEXT_89266a1cfc9100482c8f_1|node=TEXT_89266a1cfc9100482c8f_1",
+    "SUI_E|stable|cursor=TEXT_89266a1cfc9100482c8f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=173",
+    "SUI_I|exit|binding=i01v2-TEXT_89266a1cfc9100482c8f_1|node=TEXT_a316303bd07daf1171aa_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a316303bd07daf1171aa_1|node=TEXT_a316303bd07daf1171aa_1",
+    "SUI_E|stable|cursor=TEXT_a316303bd07daf1171aa_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=177",
+    "SUI_I|exit|binding=i01v2-TEXT_a316303bd07daf1171aa_1|node=TEXT_51fa096b3c9175bb4d82_1",
+    "SUI_I|enter|binding=i01v2-TEXT_51fa096b3c9175bb4d82_1|node=TEXT_51fa096b3c9175bb4d82_1",
+    "SUI_E|stable|cursor=TEXT_51fa096b3c9175bb4d82_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=181",
+    "SUI_E|save|slot=0|cursor=TEXT_51fa096b3c9175bb4d82_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=181",
+    "SUI_I|exit|binding=i01v2-TEXT_51fa096b3c9175bb4d82_1|node=TEXT_9f319b6f8239e315232b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_9f319b6f8239e315232b_1|node=TEXT_9f319b6f8239e315232b_1",
+    "SUI_E|stable|cursor=TEXT_9f319b6f8239e315232b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=185",
+    "SUI_I|exit|binding=i01v2-TEXT_9f319b6f8239e315232b_1|node=TEXT_a5e87526f883d6644207_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a5e87526f883d6644207_1|node=TEXT_a5e87526f883d6644207_1",
+    "SUI_E|stable|cursor=TEXT_a5e87526f883d6644207_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=189",
+    "SUI_I|exit|binding=i01v2-TEXT_a5e87526f883d6644207_1|node=TEXT_d6a05c9677f394ba707e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_d6a05c9677f394ba707e_1|node=TEXT_d6a05c9677f394ba707e_1",
+    "SUI_E|stable|cursor=TEXT_d6a05c9677f394ba707e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=193",
+    "SUI_E|save|slot=0|cursor=TEXT_d6a05c9677f394ba707e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=193",
+    "SUI_I|exit|binding=i01v2-TEXT_d6a05c9677f394ba707e_1|node=TEXT_3a8a624bb43c53d4e7e7_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3a8a624bb43c53d4e7e7_1|node=TEXT_3a8a624bb43c53d4e7e7_1",
+    "SUI_E|stable|cursor=TEXT_3a8a624bb43c53d4e7e7_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=197",
+    "SUI_I|exit|binding=i01v2-TEXT_3a8a624bb43c53d4e7e7_1|node=TEXT_eb37663c5ae16d9d98b4_1",
+    "SUI_I|enter|binding=i01v2-TEXT_eb37663c5ae16d9d98b4_1|node=TEXT_eb37663c5ae16d9d98b4_1",
+    "SUI_E|stable|cursor=TEXT_eb37663c5ae16d9d98b4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=201",
+    "SUI_E|save|slot=0|cursor=TEXT_eb37663c5ae16d9d98b4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=201",
+    "SUI_I|exit|binding=i01v2-TEXT_eb37663c5ae16d9d98b4_1|node=TEXT_09bf52d8182ab1ba8f1b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_09bf52d8182ab1ba8f1b_1|node=TEXT_09bf52d8182ab1ba8f1b_1",
+    "SUI_E|stable|cursor=TEXT_09bf52d8182ab1ba8f1b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=205",
+    "SUI_I|exit|binding=i01v2-TEXT_09bf52d8182ab1ba8f1b_1|node=TEXT_231b265a1db9c9ca7ff9_1",
+    "SUI_I|enter|binding=i01v2-TEXT_231b265a1db9c9ca7ff9_1|node=TEXT_231b265a1db9c9ca7ff9_1",
+    "SUI_E|stable|cursor=TEXT_231b265a1db9c9ca7ff9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=209",
+    "SUI_E|save|slot=0|cursor=TEXT_231b265a1db9c9ca7ff9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=209",
+    "SUI_I|exit|binding=i01v2-TEXT_231b265a1db9c9ca7ff9_1|node=TEXT_882e91640692acd2faa5_1",
+    "SUI_I|enter|binding=i01v2-TEXT_882e91640692acd2faa5_1|node=TEXT_882e91640692acd2faa5_1",
+    "SUI_E|stable|cursor=TEXT_882e91640692acd2faa5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=213",
+    "SUI_I|exit|binding=i01v2-TEXT_882e91640692acd2faa5_1|node=TEXT_4438084ca2986b0fb81f_1",
+    "SUI_I|enter|binding=i01v2-TEXT_4438084ca2986b0fb81f_1|node=TEXT_4438084ca2986b0fb81f_1",
+    "SUI_E|stable|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_E|save|slot=0|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_E|save|slot=3|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|exit|binding=i01v2-TEXT_4438084ca2986b0fb81f_1|node=TEXT_4353be5501361c8688c0_1",
+    "SUI_I|enter|binding=i01v2-TEXT_4353be5501361c8688c0_1|node=TEXT_4353be5501361c8688c0_1",
+    "SUI_E|stable|cursor=TEXT_4353be5501361c8688c0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=221",
+    "SUI_E|save|slot=0|cursor=TEXT_4353be5501361c8688c0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=221",
+    "SUI_E|load|slot=3|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_I|exit|binding=i01v2-TEXT_4438084ca2986b0fb81f_1|node=TEXT_4353be5501361c8688c0_1",
+    "SUI_I|enter|binding=i01v2-TEXT_4353be5501361c8688c0_1|node=TEXT_4353be5501361c8688c0_1",
+    "SUI_E|stable|cursor=TEXT_4353be5501361c8688c0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=221",
+    "SUI_I|exit|binding=i01v2-TEXT_4353be5501361c8688c0_1|node=TEXT_446c0211640c31bcebd5_1",
+    "SUI_I|enter|binding=i01v2-TEXT_446c0211640c31bcebd5_1|node=TEXT_446c0211640c31bcebd5_1",
+    "SUI_E|stable|cursor=TEXT_446c0211640c31bcebd5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=225",
+    "SUI_E|save|slot=0|cursor=TEXT_446c0211640c31bcebd5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=225",
+    "SUI_I|exit|binding=i01v2-TEXT_446c0211640c31bcebd5_1|node=TEXT_d041417c5a7cba4d237f_1",
+    "SUI_I|enter|binding=i01v2-TEXT_d041417c5a7cba4d237f_1|node=TEXT_d041417c5a7cba4d237f_1",
+    "SUI_E|stable|cursor=TEXT_d041417c5a7cba4d237f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=229",
+    "SUI_I|exit|binding=i01v2-TEXT_d041417c5a7cba4d237f_1|node=C01-02",
+    "SUI_I|enter|binding=i01v2-C01-02|node=C01-02",
+    "SUI_E|stable|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=233",
+    "SUI_E|save|slot=13|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=e_checkpoint|index=234",
+    "SUI_E|checkpoint|choice=C01-02|slot=13|generation=3|cursor=C01-02|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=e_checkpoint|index=234",
+    "SUI_E|stable|cursor=C01-02|pending=C01-02|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=choose|index=237",
+    "SUI_E|save|slot=0|cursor=C01-02|pending=C01-02|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=choose|index=237",
+    "SUI_I|exit|binding=i01v2-C01-02|node=BRANCH_a3fe556ac8fcf04158ae",
+    "SUI_I|enter|binding=i01v2-TEXT_c2f8d57f1712cb40c4f3_1|node=TEXT_c2f8d57f1712cb40c4f3_1",
+    "SUI_E|stable|cursor=TEXT_c2f8d57f1712cb40c4f3_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=243",
+    "SUI_I|exit|binding=i01v2-TEXT_c2f8d57f1712cb40c4f3_1|node=TEXT_c2d7d101198c62b88b90_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c2d7d101198c62b88b90_1|node=TEXT_c2d7d101198c62b88b90_1",
+    "SUI_E|stable|cursor=TEXT_c2d7d101198c62b88b90_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=247",
+    "SUI_I|exit|binding=i01v2-TEXT_c2d7d101198c62b88b90_1|node=TEXT_fcf960bc1ad278b60fd5_1",
+    "SUI_I|enter|binding=i01v2-TEXT_fcf960bc1ad278b60fd5_1|node=TEXT_fcf960bc1ad278b60fd5_1",
+    "SUI_E|stable|cursor=TEXT_fcf960bc1ad278b60fd5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=251",
+    "SUI_E|save|slot=0|cursor=TEXT_fcf960bc1ad278b60fd5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=251",
+    "SUI_I|exit|binding=i01v2-TEXT_fcf960bc1ad278b60fd5_1|node=BRANCH_f188d97e1069a8103fe6",
+    "SUI_I|enter|binding=i01v2-TEXT_a6d9da8b62cf560424c2_1|node=TEXT_a6d9da8b62cf560424c2_1",
+    "SUI_E|stable|cursor=TEXT_a6d9da8b62cf560424c2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=265",
+    "SUI_I|exit|binding=i01v2-TEXT_a6d9da8b62cf560424c2_1|node=TEXT_180bcfb5fc1b07978619_1",
+    "SUI_I|enter|binding=i01v2-TEXT_180bcfb5fc1b07978619_1|node=TEXT_180bcfb5fc1b07978619_1",
+    "SUI_E|stable|cursor=TEXT_180bcfb5fc1b07978619_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=269",
+    "SUI_E|save|slot=0|cursor=TEXT_180bcfb5fc1b07978619_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=269",
+    "SUI_I|exit|binding=i01v2-TEXT_180bcfb5fc1b07978619_1|node=TEXT_c12059acf9c2d5331213_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c12059acf9c2d5331213_1|node=TEXT_c12059acf9c2d5331213_1",
+    "SUI_E|stable|cursor=TEXT_c12059acf9c2d5331213_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=273",
+    "SUI_I|exit|binding=i01v2-TEXT_c12059acf9c2d5331213_1|node=TEXT_c7f3ece9230b256c95e3_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c7f3ece9230b256c95e3_1|node=TEXT_c7f3ece9230b256c95e3_1",
+    "SUI_E|stable|cursor=TEXT_c7f3ece9230b256c95e3_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=277",
+    "SUI_E|save|slot=0|cursor=TEXT_c7f3ece9230b256c95e3_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=277",
+    "SUI_I|exit|binding=i01v2-TEXT_c7f3ece9230b256c95e3_1|node=TEXT_50d29871f085719871c3_1",
+    "SUI_I|enter|binding=i01v2-TEXT_50d29871f085719871c3_1|node=TEXT_50d29871f085719871c3_1",
+    "SUI_E|stable|cursor=TEXT_50d29871f085719871c3_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=281",
+    "SUI_I|exit|binding=i01v2-TEXT_50d29871f085719871c3_1|node=TEXT_41263fb4418f6466c4f3_1",
+    "SUI_I|enter|binding=i01v2-TEXT_41263fb4418f6466c4f3_1|node=TEXT_41263fb4418f6466c4f3_1",
+    "SUI_E|stable|cursor=TEXT_41263fb4418f6466c4f3_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=285",
+    "SUI_I|exit|binding=i01v2-TEXT_41263fb4418f6466c4f3_1|node=TEXT_df5c3a0370a68ae0aa2f_1",
+    "SUI_I|enter|binding=i01v2-TEXT_df5c3a0370a68ae0aa2f_1|node=TEXT_df5c3a0370a68ae0aa2f_1",
+    "SUI_E|stable|cursor=TEXT_df5c3a0370a68ae0aa2f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=289",
+    "SUI_E|save|slot=0|cursor=TEXT_df5c3a0370a68ae0aa2f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=289",
+    "SUI_I|exit|binding=i01v2-TEXT_df5c3a0370a68ae0aa2f_1|node=TEXT_c9a627a8ab3fdbc89d0a_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c9a627a8ab3fdbc89d0a_1|node=TEXT_c9a627a8ab3fdbc89d0a_1",
+    "SUI_E|stable|cursor=TEXT_c9a627a8ab3fdbc89d0a_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=293",
+    "SUI_I|exit|binding=i01v2-TEXT_c9a627a8ab3fdbc89d0a_1|node=TEXT_ec028d9c7c8ae87224b2_1",
+    "SUI_I|enter|binding=i01v2-TEXT_ec028d9c7c8ae87224b2_1|node=TEXT_ec028d9c7c8ae87224b2_1",
+    "SUI_E|stable|cursor=TEXT_ec028d9c7c8ae87224b2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=297",
+    "SUI_I|exit|binding=i01v2-TEXT_ec028d9c7c8ae87224b2_1|node=TEXT_674bf8752dbac56bdc7d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_674bf8752dbac56bdc7d_1|node=TEXT_674bf8752dbac56bdc7d_1",
+    "SUI_E|stable|cursor=TEXT_674bf8752dbac56bdc7d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=301",
+    "SUI_E|save|slot=0|cursor=TEXT_674bf8752dbac56bdc7d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=301",
+    "SUI_I|exit|binding=i01v2-TEXT_674bf8752dbac56bdc7d_1|node=TEXT_db44b64ca5eb30f2de92_1",
+    "SUI_I|enter|binding=i01v2-TEXT_db44b64ca5eb30f2de92_1|node=TEXT_db44b64ca5eb30f2de92_1",
+    "SUI_E|stable|cursor=TEXT_db44b64ca5eb30f2de92_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=305",
+    "SUI_I|exit|binding=i01v2-TEXT_db44b64ca5eb30f2de92_1|node=TEXT_33b485034b470e727bf6_1",
+    "SUI_I|enter|binding=i01v2-TEXT_33b485034b470e727bf6_1|node=TEXT_33b485034b470e727bf6_1",
+    "SUI_E|stable|cursor=TEXT_33b485034b470e727bf6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=309",
+    "SUI_E|save|slot=0|cursor=TEXT_33b485034b470e727bf6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=309",
+    "SUI_I|exit|binding=i01v2-TEXT_33b485034b470e727bf6_1|node=TEXT_199f74bf561fddbab3a9_1",
+    "SUI_I|enter|binding=i01v2-TEXT_199f74bf561fddbab3a9_1|node=TEXT_199f74bf561fddbab3a9_1",
+    "SUI_E|stable|cursor=TEXT_199f74bf561fddbab3a9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=313",
+    "SUI_I|exit|binding=i01v2-TEXT_199f74bf561fddbab3a9_1|node=TEXT_2d7edf65148f7f145460_1",
+    "SUI_I|enter|binding=i01v2-TEXT_2d7edf65148f7f145460_1|node=TEXT_2d7edf65148f7f145460_1",
+    "SUI_E|stable|cursor=TEXT_2d7edf65148f7f145460_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=317",
+    "SUI_I|exit|binding=i01v2-TEXT_2d7edf65148f7f145460_1|node=TEXT_f5fca15d7a68891386eb_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f5fca15d7a68891386eb_1|node=TEXT_f5fca15d7a68891386eb_1",
+    "SUI_E|stable|cursor=TEXT_f5fca15d7a68891386eb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=321",
+    "SUI_E|save|slot=0|cursor=TEXT_f5fca15d7a68891386eb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=321",
+    "SUI_I|exit|binding=i01v2-TEXT_f5fca15d7a68891386eb_1|node=TEXT_585cfd3f810f74b830a8_1",
+    "SUI_I|enter|binding=i01v2-TEXT_585cfd3f810f74b830a8_1|node=TEXT_585cfd3f810f74b830a8_1",
+    "SUI_E|stable|cursor=TEXT_585cfd3f810f74b830a8_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=325",
+    "SUI_I|exit|binding=i01v2-TEXT_585cfd3f810f74b830a8_1|node=TEXT_8caad2873c501b62a46e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_8caad2873c501b62a46e_1|node=TEXT_8caad2873c501b62a46e_1",
+    "SUI_E|stable|cursor=TEXT_8caad2873c501b62a46e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=329",
+    "SUI_E|save|slot=0|cursor=TEXT_8caad2873c501b62a46e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=329",
+    "SUI_I|exit|binding=i01v2-TEXT_8caad2873c501b62a46e_1|node=TEXT_aab107b4c81421f93a61_1",
+    "SUI_I|enter|binding=i01v2-TEXT_aab107b4c81421f93a61_1|node=TEXT_aab107b4c81421f93a61_1",
+    "SUI_E|stable|cursor=TEXT_aab107b4c81421f93a61_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=333",
+    "SUI_I|exit|binding=i01v2-TEXT_aab107b4c81421f93a61_1|node=TEXT_0bf5f5bc3f0f064ddebb_1",
+    "SUI_I|enter|binding=i01v2-TEXT_0bf5f5bc3f0f064ddebb_1|node=TEXT_0bf5f5bc3f0f064ddebb_1",
+    "SUI_E|stable|cursor=TEXT_0bf5f5bc3f0f064ddebb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=337",
+    "SUI_I|exit|binding=i01v2-TEXT_0bf5f5bc3f0f064ddebb_1|node=TEXT_fcf5746af9873378b9c2_1",
+    "SUI_I|enter|binding=i01v2-TEXT_fcf5746af9873378b9c2_1|node=TEXT_fcf5746af9873378b9c2_1",
+    "SUI_E|stable|cursor=TEXT_fcf5746af9873378b9c2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=341",
+    "SUI_E|save|slot=0|cursor=TEXT_fcf5746af9873378b9c2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=341",
+    "SUI_I|exit|binding=i01v2-TEXT_fcf5746af9873378b9c2_1|node=TEXT_655c81d24ec873eb8237_1",
+    "SUI_I|enter|binding=i01v2-TEXT_655c81d24ec873eb8237_1|node=TEXT_655c81d24ec873eb8237_1",
+    "SUI_E|stable|cursor=TEXT_655c81d24ec873eb8237_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=345",
+    "SUI_I|exit|binding=i01v2-TEXT_655c81d24ec873eb8237_1|node=TEXT_241247f02c4a87d2b4c8_1",
+    "SUI_I|enter|binding=i01v2-TEXT_241247f02c4a87d2b4c8_1|node=TEXT_241247f02c4a87d2b4c8_1",
+    "SUI_E|stable|cursor=TEXT_241247f02c4a87d2b4c8_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=349",
+    "SUI_I|exit|binding=i01v2-TEXT_241247f02c4a87d2b4c8_1|node=TEXT_b019814b7da4406749af_1",
+    "SUI_I|enter|binding=i01v2-TEXT_b019814b7da4406749af_1|node=TEXT_b019814b7da4406749af_1",
+    "SUI_E|stable|cursor=TEXT_b019814b7da4406749af_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=353",
+    "SUI_I|exit|binding=i01v2-TEXT_b019814b7da4406749af_1|node=TEXT_b2ae11b3ce706836b7b7_1",
+    "SUI_I|enter|binding=i01v2-TEXT_b2ae11b3ce706836b7b7_1|node=TEXT_b2ae11b3ce706836b7b7_1",
+    "SUI_E|stable|cursor=TEXT_b2ae11b3ce706836b7b7_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=357",
+    "SUI_E|save|slot=0|cursor=TEXT_b2ae11b3ce706836b7b7_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=357",
+    "SUI_I|exit|binding=i01v2-TEXT_b2ae11b3ce706836b7b7_1|node=TEXT_dc2199b8213a00518285_1",
+    "SUI_I|enter|binding=i01v2-TEXT_dc2199b8213a00518285_1|node=TEXT_dc2199b8213a00518285_1",
+    "SUI_E|stable|cursor=TEXT_dc2199b8213a00518285_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=361",
+    "SUI_I|exit|binding=i01v2-TEXT_dc2199b8213a00518285_1|node=TEXT_482607061ba460bb3724_1",
+    "SUI_I|enter|binding=i01v2-TEXT_482607061ba460bb3724_1|node=TEXT_482607061ba460bb3724_1",
+    "SUI_E|stable|cursor=TEXT_482607061ba460bb3724_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=365",
+    "SUI_I|exit|binding=i01v2-TEXT_482607061ba460bb3724_1|node=TEXT_fb66be0b3860e195d2f5_1",
+    "SUI_I|enter|binding=i01v2-TEXT_fb66be0b3860e195d2f5_1|node=TEXT_fb66be0b3860e195d2f5_1",
+    "SUI_E|stable|cursor=TEXT_fb66be0b3860e195d2f5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=369",
+    "SUI_E|save|slot=0|cursor=TEXT_fb66be0b3860e195d2f5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=369",
+    "SUI_I|exit|binding=i01v2-TEXT_fb66be0b3860e195d2f5_1|node=TEXT_b146152f9c2cd5032d9c_1",
+    "SUI_I|enter|binding=i01v2-TEXT_b146152f9c2cd5032d9c_1|node=TEXT_b146152f9c2cd5032d9c_1",
+    "SUI_I|unlock|cg=CG004|phase=first-visible-frame",
+    "SUI_E|stable|cursor=TEXT_b146152f9c2cd5032d9c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=373",
+    "SUI_I|exit|binding=i01v2-TEXT_b146152f9c2cd5032d9c_1|node=TEXT_c5d04d8e6d0a1f61c44c_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c5d04d8e6d0a1f61c44c_1|node=TEXT_c5d04d8e6d0a1f61c44c_1",
+    "SUI_E|stable|cursor=TEXT_c5d04d8e6d0a1f61c44c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=377",
+    "SUI_E|save|slot=0|cursor=TEXT_c5d04d8e6d0a1f61c44c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=377",
+    "SUI_I|exit|binding=i01v2-TEXT_c5d04d8e6d0a1f61c44c_1|node=TEXT_69740da3f5797222b8c9_1",
+    "SUI_I|enter|binding=i01v2-TEXT_69740da3f5797222b8c9_1|node=TEXT_69740da3f5797222b8c9_1",
+    "SUI_E|stable|cursor=TEXT_69740da3f5797222b8c9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=381",
+    "SUI_I|exit|binding=i01v2-TEXT_69740da3f5797222b8c9_1|node=TEXT_002d7d07dfa3b5bb1b4e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_002d7d07dfa3b5bb1b4e_1|node=TEXT_002d7d07dfa3b5bb1b4e_1",
+    "SUI_E|stable|cursor=TEXT_002d7d07dfa3b5bb1b4e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=385",
+    "SUI_I|exit|binding=i01v2-TEXT_002d7d07dfa3b5bb1b4e_1|node=TEXT_293c75551194baa9ddde_1",
+    "SUI_I|enter|binding=i01v2-TEXT_293c75551194baa9ddde_1|node=TEXT_293c75551194baa9ddde_1",
+    "SUI_E|stable|cursor=TEXT_293c75551194baa9ddde_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=389",
+    "SUI_E|save|slot=0|cursor=TEXT_293c75551194baa9ddde_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=389",
+    "SUI_I|exit|binding=i01v2-TEXT_293c75551194baa9ddde_1|node=TEXT_dacc6ffd33a16ad94adc_1",
+    "SUI_I|enter|binding=i01v2-TEXT_dacc6ffd33a16ad94adc_1|node=TEXT_dacc6ffd33a16ad94adc_1",
+    "SUI_E|stable|cursor=TEXT_dacc6ffd33a16ad94adc_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=393",
+    "SUI_I|exit|binding=i01v2-TEXT_dacc6ffd33a16ad94adc_1|node=C01-03",
+    "SUI_I|enter|binding=i01v2-C01-03|node=C01-03",
+    "SUI_E|stable|cursor=C01-03|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=2|tag=text|index=397",
+    "SUI_E|save|slot=14|cursor=C01-03|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=e_checkpoint|index=398",
+    "SUI_E|checkpoint|choice=C01-03|slot=14|generation=4|cursor=C01-03|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=e_checkpoint|index=398",
+    "SUI_E|stable|cursor=C01-03|pending=C01-03|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=choose|index=401",
+    "SUI_E|save|slot=0|cursor=C01-03|pending=C01-03|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=choose|index=401",
+    "SUI_I|exit|binding=i01v2-C01-03|node=BRANCH_7252eccec8d8f1026200",
+    "SUI_I|enter|binding=i01v2-TEXT_0152f5e96efa29fe5759_1|node=TEXT_0152f5e96efa29fe5759_1",
+    "SUI_E|stable|cursor=TEXT_0152f5e96efa29fe5759_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=407",
+    "SUI_I|exit|binding=i01v2-TEXT_0152f5e96efa29fe5759_1|node=TEXT_52a36a90765174ffb68d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_52a36a90765174ffb68d_1|node=TEXT_52a36a90765174ffb68d_1",
+    "SUI_E|stable|cursor=TEXT_52a36a90765174ffb68d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=411",
+    "SUI_E|save|slot=0|cursor=TEXT_52a36a90765174ffb68d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=411",
+    "SUI_I|exit|binding=i01v2-TEXT_52a36a90765174ffb68d_1|node=TEXT_599d6da91a8566b05012_1",
+    "SUI_I|enter|binding=i01v2-TEXT_599d6da91a8566b05012_1|node=TEXT_599d6da91a8566b05012_1",
+    "SUI_E|stable|cursor=TEXT_599d6da91a8566b05012_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=415",
+    "SUI_I|exit|binding=i01v2-TEXT_599d6da91a8566b05012_1|node=TEXT_a0f980eee922ff5037b4_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a0f980eee922ff5037b4_1|node=TEXT_a0f980eee922ff5037b4_1",
+    "SUI_E|stable|cursor=TEXT_a0f980eee922ff5037b4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=419",
+    "SUI_I|exit|binding=i01v2-TEXT_a0f980eee922ff5037b4_1|node=BRANCH_44dc0f52a519e016a34f",
+    "SUI_I|enter|binding=i01v2-TEXT_eeed5141a121ef63ed70_1|node=TEXT_eeed5141a121ef63ed70_1",
+    "SUI_E|stable|cursor=TEXT_eeed5141a121ef63ed70_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=441",
+    "SUI_E|save|slot=0|cursor=TEXT_eeed5141a121ef63ed70_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=441",
+    "SUI_I|exit|binding=i01v2-TEXT_eeed5141a121ef63ed70_1|node=TEXT_3f55edc48ea1f13430c9_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3f55edc48ea1f13430c9_1|node=TEXT_3f55edc48ea1f13430c9_1",
+    "SUI_E|stable|cursor=TEXT_3f55edc48ea1f13430c9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=445",
+    "SUI_I|exit|binding=i01v2-TEXT_3f55edc48ea1f13430c9_1|node=TEXT_7c9f66504c2bb069452b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_7c9f66504c2bb069452b_1|node=TEXT_7c9f66504c2bb069452b_1",
+    "SUI_E|stable|cursor=TEXT_7c9f66504c2bb069452b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=449",
+    "SUI_E|save|slot=0|cursor=TEXT_7c9f66504c2bb069452b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=449",
+    "SUI_I|exit|binding=i01v2-TEXT_7c9f66504c2bb069452b_1|node=TEXT_01d446a1a03d5e2492a1_1",
+    "SUI_I|enter|binding=i01v2-TEXT_01d446a1a03d5e2492a1_1|node=TEXT_01d446a1a03d5e2492a1_1",
+    "SUI_E|stable|cursor=TEXT_01d446a1a03d5e2492a1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=453",
+    "SUI_I|exit|binding=i01v2-TEXT_01d446a1a03d5e2492a1_1|node=TEXT_b0d37e3f0d6aa7b97f56_1",
+    "SUI_I|enter|binding=i01v2-TEXT_b0d37e3f0d6aa7b97f56_1|node=TEXT_b0d37e3f0d6aa7b97f56_1",
+    "SUI_E|stable|cursor=TEXT_b0d37e3f0d6aa7b97f56_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=457",
+    "SUI_I|exit|binding=i01v2-TEXT_b0d37e3f0d6aa7b97f56_1|node=TEXT_dc890e70c98f0516000a_1",
+    "SUI_I|enter|binding=i01v2-TEXT_dc890e70c98f0516000a_1|node=TEXT_dc890e70c98f0516000a_1",
+    "SUI_E|stable|cursor=TEXT_dc890e70c98f0516000a_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=461",
+    "SUI_I|exit|binding=i01v2-TEXT_dc890e70c98f0516000a_1|node=TEXT_b8453fd46e5f9117c08e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_b8453fd46e5f9117c08e_1|node=TEXT_b8453fd46e5f9117c08e_1",
+    "SUI_E|stable|cursor=TEXT_b8453fd46e5f9117c08e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=465",
+    "SUI_E|save|slot=0|cursor=TEXT_b8453fd46e5f9117c08e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=465",
+    "SUI_I|exit|binding=i01v2-TEXT_b8453fd46e5f9117c08e_1|node=TEXT_6b83094a5ec749c04d30_1",
+    "SUI_I|enter|binding=i01v2-TEXT_6b83094a5ec749c04d30_1|node=TEXT_6b83094a5ec749c04d30_1",
+    "SUI_E|stable|cursor=TEXT_6b83094a5ec749c04d30_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=469",
+    "SUI_I|exit|binding=i01v2-TEXT_6b83094a5ec749c04d30_1|node=TEXT_647caeb5b9a8311a0603_1",
+    "SUI_I|enter|binding=i01v2-TEXT_647caeb5b9a8311a0603_1|node=TEXT_647caeb5b9a8311a0603_1",
+    "SUI_E|stable|cursor=TEXT_647caeb5b9a8311a0603_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=473",
+    "SUI_E|save|slot=0|cursor=TEXT_647caeb5b9a8311a0603_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=473",
+    "SUI_I|exit|binding=i01v2-TEXT_647caeb5b9a8311a0603_1|node=TEXT_722eebbdf365e111cdfc_1",
+    "SUI_I|enter|binding=i01v2-TEXT_722eebbdf365e111cdfc_1|node=TEXT_722eebbdf365e111cdfc_1",
+    "SUI_E|stable|cursor=TEXT_722eebbdf365e111cdfc_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=477",
+    "SUI_I|exit|binding=i01v2-TEXT_722eebbdf365e111cdfc_1|node=TEXT_6688b5386eeb047d28aa_1",
+    "SUI_I|enter|binding=i01v2-TEXT_6688b5386eeb047d28aa_1|node=TEXT_6688b5386eeb047d28aa_1",
+    "SUI_E|stable|cursor=TEXT_6688b5386eeb047d28aa_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=481",
+    "SUI_I|exit|binding=i01v2-TEXT_6688b5386eeb047d28aa_1|node=TEXT_94cc3d6ddf945ee18192_1",
+    "SUI_I|enter|binding=i01v2-TEXT_94cc3d6ddf945ee18192_1|node=TEXT_94cc3d6ddf945ee18192_1",
+    "SUI_E|stable|cursor=TEXT_94cc3d6ddf945ee18192_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=485",
+    "SUI_E|save|slot=0|cursor=TEXT_94cc3d6ddf945ee18192_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=485",
+    "SUI_I|exit|binding=i01v2-TEXT_94cc3d6ddf945ee18192_1|node=TEXT_a26fa75999a4c00f44c9_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a26fa75999a4c00f44c9_1|node=TEXT_a26fa75999a4c00f44c9_1",
+    "SUI_E|stable|cursor=TEXT_a26fa75999a4c00f44c9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=489",
+    "SUI_I|exit|binding=i01v2-TEXT_a26fa75999a4c00f44c9_1|node=TEXT_7f843bff53878054c4ee_1",
+    "SUI_I|enter|binding=i01v2-TEXT_7f843bff53878054c4ee_1|node=TEXT_7f843bff53878054c4ee_1",
+    "SUI_E|stable|cursor=TEXT_7f843bff53878054c4ee_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=493",
+    "SUI_I|exit|binding=i01v2-TEXT_7f843bff53878054c4ee_1|node=TEXT_0af3407e6e3e9cf5b6d1_1",
+    "SUI_I|enter|binding=i01v2-TEXT_0af3407e6e3e9cf5b6d1_1|node=TEXT_0af3407e6e3e9cf5b6d1_1",
+    "SUI_E|stable|cursor=TEXT_0af3407e6e3e9cf5b6d1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=497",
+    "SUI_E|save|slot=0|cursor=TEXT_0af3407e6e3e9cf5b6d1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=497",
+    "SUI_I|exit|binding=i01v2-TEXT_0af3407e6e3e9cf5b6d1_1|node=TEXT_7451a0dbd9898367dbbc_1",
+    "SUI_I|enter|binding=i01v2-TEXT_7451a0dbd9898367dbbc_1|node=TEXT_7451a0dbd9898367dbbc_1",
+    "SUI_E|stable|cursor=TEXT_7451a0dbd9898367dbbc_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=501",
+    "SUI_I|exit|binding=i01v2-TEXT_7451a0dbd9898367dbbc_1|node=TEXT_a15e2a6fa2b02a2a2f44_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a15e2a6fa2b02a2a2f44_1|node=TEXT_a15e2a6fa2b02a2a2f44_1",
+    "SUI_E|stable|cursor=TEXT_a15e2a6fa2b02a2a2f44_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=505",
+    "SUI_E|save|slot=0|cursor=TEXT_a15e2a6fa2b02a2a2f44_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=505",
+    "SUI_I|exit|binding=i01v2-TEXT_a15e2a6fa2b02a2a2f44_1|node=TEXT_0e548685da29ec07eb38_1",
+    "SUI_I|enter|binding=i01v2-TEXT_0e548685da29ec07eb38_1|node=TEXT_0e548685da29ec07eb38_1",
+    "SUI_E|stable|cursor=TEXT_0e548685da29ec07eb38_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=509",
+    "SUI_I|exit|binding=i01v2-TEXT_0e548685da29ec07eb38_1|node=TEXT_af5719eefeae12401a7d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_af5719eefeae12401a7d_1|node=TEXT_af5719eefeae12401a7d_1",
+    "SUI_E|stable|cursor=TEXT_af5719eefeae12401a7d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=513",
+    "SUI_I|exit|binding=i01v2-TEXT_af5719eefeae12401a7d_1|node=TEXT_f86bfb5a296cb775f8e4_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f86bfb5a296cb775f8e4_1|node=TEXT_f86bfb5a296cb775f8e4_1",
+    "SUI_E|stable|cursor=TEXT_f86bfb5a296cb775f8e4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=517",
+    "SUI_E|save|slot=0|cursor=TEXT_f86bfb5a296cb775f8e4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=517",
+    "SUI_I|exit|binding=i01v2-TEXT_f86bfb5a296cb775f8e4_1|node=TEXT_f6de29e3f1b556f400c1_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f6de29e3f1b556f400c1_1|node=TEXT_f6de29e3f1b556f400c1_1",
+    "SUI_E|stable|cursor=TEXT_f6de29e3f1b556f400c1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=521",
+    "SUI_I|exit|binding=i01v2-TEXT_f6de29e3f1b556f400c1_1|node=TEXT_b8f8f590dd96f37eeb5d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_b8f8f590dd96f37eeb5d_1|node=TEXT_b8f8f590dd96f37eeb5d_1",
+    "SUI_E|stable|cursor=TEXT_b8f8f590dd96f37eeb5d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=525",
+    "SUI_I|exit|binding=i01v2-TEXT_b8f8f590dd96f37eeb5d_1|node=TEXT_a270153c252f7a364439_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a270153c252f7a364439_1|node=TEXT_a270153c252f7a364439_1",
+    "SUI_E|stable|cursor=TEXT_a270153c252f7a364439_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=529",
+    "SUI_E|save|slot=0|cursor=TEXT_a270153c252f7a364439_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=529",
+    "SUI_I|exit|binding=i01v2-TEXT_a270153c252f7a364439_1|node=TEXT_5a09864c03fabed93e4e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_5a09864c03fabed93e4e_1|node=TEXT_5a09864c03fabed93e4e_1",
+    "SUI_E|stable|cursor=TEXT_5a09864c03fabed93e4e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=533",
+    "SUI_I|exit|binding=i01v2-TEXT_5a09864c03fabed93e4e_1|node=TEXT_e7db910fe0b19a819345_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e7db910fe0b19a819345_1|node=TEXT_e7db910fe0b19a819345_1",
+    "SUI_E|stable|cursor=TEXT_e7db910fe0b19a819345_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=537",
+    "SUI_E|save|slot=0|cursor=TEXT_e7db910fe0b19a819345_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=537",
+    "SUI_I|exit|binding=i01v2-TEXT_e7db910fe0b19a819345_1|node=TEXT_85f64ff3b0dfa13d8a54_1",
+    "SUI_I|enter|binding=i01v2-TEXT_85f64ff3b0dfa13d8a54_1|node=TEXT_85f64ff3b0dfa13d8a54_1",
+    "SUI_E|stable|cursor=TEXT_85f64ff3b0dfa13d8a54_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=541",
+    "SUI_I|exit|binding=i01v2-TEXT_85f64ff3b0dfa13d8a54_1|node=TEXT_4621228009dcc4dc89f4_1",
+    "SUI_I|enter|binding=i01v2-TEXT_4621228009dcc4dc89f4_1|node=TEXT_4621228009dcc4dc89f4_1",
+    "SUI_E|stable|cursor=TEXT_4621228009dcc4dc89f4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=545",
+    "SUI_I|exit|binding=i01v2-TEXT_4621228009dcc4dc89f4_1|node=TEXT_3ae6727440fac4a9ab6d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3ae6727440fac4a9ab6d_1|node=TEXT_3ae6727440fac4a9ab6d_1",
+    "SUI_E|stable|cursor=TEXT_3ae6727440fac4a9ab6d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=549",
+    "SUI_I|exit|binding=i01v2-TEXT_3ae6727440fac4a9ab6d_1|node=TEXT_6bdbc147fb7f6cab9397_1",
+    "SUI_I|enter|binding=i01v2-TEXT_6bdbc147fb7f6cab9397_1|node=TEXT_6bdbc147fb7f6cab9397_1",
+    "SUI_E|stable|cursor=TEXT_6bdbc147fb7f6cab9397_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=553",
+    "SUI_E|save|slot=0|cursor=TEXT_6bdbc147fb7f6cab9397_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=553",
+    "SUI_I|exit|binding=i01v2-TEXT_6bdbc147fb7f6cab9397_1|node=TEXT_a5d6fc1307d478f31d60_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a5d6fc1307d478f31d60_1|node=TEXT_a5d6fc1307d478f31d60_1",
+    "SUI_E|stable|cursor=TEXT_a5d6fc1307d478f31d60_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=557",
+    "SUI_I|exit|binding=i01v2-TEXT_a5d6fc1307d478f31d60_1|node=TEXT_149df1a8e7083b45fa47_1",
+    "SUI_I|enter|binding=i01v2-TEXT_149df1a8e7083b45fa47_1|node=TEXT_149df1a8e7083b45fa47_1",
+    "SUI_E|stable|cursor=TEXT_149df1a8e7083b45fa47_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=561",
+    "SUI_I|exit|binding=i01v2-TEXT_149df1a8e7083b45fa47_1|node=TEXT_9fe871d8c268294e02b6_1",
+    "SUI_I|enter|binding=i01v2-TEXT_9fe871d8c268294e02b6_1|node=TEXT_9fe871d8c268294e02b6_1",
+    "SUI_E|stable|cursor=TEXT_9fe871d8c268294e02b6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=565",
+    "SUI_I|exit|binding=i01v2-TEXT_9fe871d8c268294e02b6_1|node=TEXT_8433fd41067d8221c906_1",
+    "SUI_I|enter|binding=i01v2-TEXT_8433fd41067d8221c906_1|node=TEXT_8433fd41067d8221c906_1",
+    "SUI_E|stable|cursor=TEXT_8433fd41067d8221c906_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=569",
+    "SUI_E|save|slot=0|cursor=TEXT_8433fd41067d8221c906_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=569",
+    "SUI_I|exit|binding=i01v2-TEXT_8433fd41067d8221c906_1|node=TEXT_3f249c0a8df924783fe0_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3f249c0a8df924783fe0_1|node=TEXT_3f249c0a8df924783fe0_1",
+    "SUI_E|stable|cursor=TEXT_3f249c0a8df924783fe0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=573",
+    "SUI_E|save|slot=0|cursor=TEXT_3f249c0a8df924783fe0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=573",
+    "SUI_I|exit|binding=i01v2-TEXT_3f249c0a8df924783fe0_1|node=TEXT_02cc9c0df254d131abb5_1",
+    "SUI_I|enter|binding=i01v2-TEXT_02cc9c0df254d131abb5_1|node=TEXT_02cc9c0df254d131abb5_1",
+    "SUI_E|stable|cursor=TEXT_02cc9c0df254d131abb5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=577",
+    "SUI_I|exit|binding=i01v2-TEXT_02cc9c0df254d131abb5_1|node=TEXT_877b602eb2d1ada6ae2a_1",
+    "SUI_I|enter|binding=i01v2-TEXT_877b602eb2d1ada6ae2a_1|node=TEXT_877b602eb2d1ada6ae2a_1",
+    "SUI_E|stable|cursor=TEXT_877b602eb2d1ada6ae2a_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=581",
+    "SUI_E|save|slot=0|cursor=TEXT_877b602eb2d1ada6ae2a_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=581",
+    "SUI_I|exit|binding=i01v2-TEXT_877b602eb2d1ada6ae2a_1|node=TEXT_663f8121c4f88e9bed99_1",
+    "SUI_I|enter|binding=i01v2-TEXT_663f8121c4f88e9bed99_1|node=TEXT_663f8121c4f88e9bed99_1",
+    "SUI_E|stable|cursor=TEXT_663f8121c4f88e9bed99_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=585",
+    "SUI_I|exit|binding=i01v2-TEXT_663f8121c4f88e9bed99_1|node=TEXT_c4112023a83174482ec8_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c4112023a83174482ec8_1|node=TEXT_c4112023a83174482ec8_1",
+    "SUI_E|stable|cursor=TEXT_c4112023a83174482ec8_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=589",
+    "SUI_I|exit|binding=i01v2-TEXT_c4112023a83174482ec8_1|node=TEXT_89a5614b3a64c011ca94_1",
+    "SUI_I|enter|binding=i01v2-TEXT_89a5614b3a64c011ca94_1|node=TEXT_89a5614b3a64c011ca94_1",
+    "SUI_E|stable|cursor=TEXT_89a5614b3a64c011ca94_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=593",
+    "SUI_E|save|slot=0|cursor=TEXT_89a5614b3a64c011ca94_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=593",
+    "SUI_I|exit|binding=i01v2-TEXT_89a5614b3a64c011ca94_1|node=TEXT_a07381924dc58f65c10e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a07381924dc58f65c10e_1|node=TEXT_a07381924dc58f65c10e_1",
+    "SUI_I|unlock|cg=CG005|phase=first-visible-frame",
+    "SUI_E|stable|cursor=TEXT_a07381924dc58f65c10e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=597",
+    "SUI_I|exit|binding=i01v2-TEXT_a07381924dc58f65c10e_1|node=TEXT_1b64571271da82fdec24_1",
+    "SUI_I|enter|binding=i01v2-TEXT_1b64571271da82fdec24_1|node=TEXT_1b64571271da82fdec24_1",
+    "SUI_E|stable|cursor=TEXT_1b64571271da82fdec24_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=601",
+    "SUI_E|save|slot=0|cursor=TEXT_1b64571271da82fdec24_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=601",
+    "SUI_I|exit|binding=i01v2-TEXT_1b64571271da82fdec24_1|node=TEXT_f22f257f7b2312f88789_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f22f257f7b2312f88789_1|node=TEXT_f22f257f7b2312f88789_1",
+    "SUI_E|stable|cursor=TEXT_f22f257f7b2312f88789_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=605",
+    "SUI_I|exit|binding=i01v2-TEXT_f22f257f7b2312f88789_1|node=TEXT_c41eaae6bfeeb15a73ef_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c41eaae6bfeeb15a73ef_1|node=TEXT_c41eaae6bfeeb15a73ef_1",
+    "SUI_E|stable|cursor=TEXT_c41eaae6bfeeb15a73ef_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=609",
+    "SUI_I|exit|binding=i01v2-TEXT_c41eaae6bfeeb15a73ef_1|node=TEXT_675ed0c0610c5ef6815c_1",
+    "SUI_I|enter|binding=i01v2-TEXT_675ed0c0610c5ef6815c_1|node=TEXT_675ed0c0610c5ef6815c_1",
+    "SUI_E|stable|cursor=TEXT_675ed0c0610c5ef6815c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=613",
+    "SUI_E|save|slot=0|cursor=TEXT_675ed0c0610c5ef6815c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=613",
+    "SUI_E|save|slot=3|cursor=TEXT_675ed0c0610c5ef6815c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=613",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|exit|binding=i01v2-TEXT_675ed0c0610c5ef6815c_1|node=TEXT_1f145ddb031e23d5cf51_1",
+    "SUI_I|enter|binding=i01v2-TEXT_1f145ddb031e23d5cf51_1|node=TEXT_1f145ddb031e23d5cf51_1",
+    "SUI_E|stable|cursor=TEXT_1f145ddb031e23d5cf51_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=617",
+    "SUI_E|save|slot=0|cursor=TEXT_1f145ddb031e23d5cf51_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=617",
+    "SUI_I|exit|binding=i01v2-TEXT_1f145ddb031e23d5cf51_1|node=C01-04",
+    "SUI_I|enter|binding=i01v2-C01-04|node=C01-04",
+    "SUI_E|stable|cursor=C01-04|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=621",
+    "SUI_E|save|slot=15|cursor=C01-04|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=e_checkpoint|index=622",
+    "SUI_E|checkpoint|choice=C01-04|slot=15|generation=5|cursor=C01-04|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=e_checkpoint|index=622",
+    "SUI_E|stable|cursor=C01-04|pending=C01-04|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=choose|index=625",
+    "SUI_E|save|slot=0|cursor=C01-04|pending=C01-04|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=choose|index=625",
+    "SUI_I|exit|binding=i01v2-C01-04|node=BRANCH_1b5d836d9b5fad165e7d",
+    "SUI_I|enter|binding=i01v2-TEXT_705b101d2dd49eb7c0af_1|node=TEXT_705b101d2dd49eb7c0af_1",
+    "SUI_E|stable|cursor=TEXT_705b101d2dd49eb7c0af_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=text|index=631",
+    "SUI_E|load|slot=3|cursor=TEXT_675ed0c0610c5ef6815c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=613",
+    "SUI_E|ready|968944ded678aa121d09471c612dbf3a4946282eb5b214d90c3328e6937e099a",
+    "SUI_E|title",
+    "SUI_E|load|slot=3|cursor=TEXT_675ed0c0610c5ef6815c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=613",
+    "SUI_I|exit|binding=i01v2-TEXT_675ed0c0610c5ef6815c_1|node=TEXT_1f145ddb031e23d5cf51_1",
+    "SUI_I|enter|binding=i01v2-TEXT_1f145ddb031e23d5cf51_1|node=TEXT_1f145ddb031e23d5cf51_1",
+    "SUI_E|stable|cursor=TEXT_1f145ddb031e23d5cf51_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=617",
+    "SUI_E|save|slot=0|cursor=TEXT_1f145ddb031e23d5cf51_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=617",
+    "SUI_I|exit|binding=i01v2-TEXT_1f145ddb031e23d5cf51_1|node=C01-04",
+    "SUI_I|enter|binding=i01v2-C01-04|node=C01-04",
+    "SUI_E|stable|cursor=C01-04|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=621",
+    "SUI_E|save|slot=16|cursor=C01-04|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=e_checkpoint|index=622",
+    "SUI_E|checkpoint|choice=C01-04|slot=16|generation=6|cursor=C01-04|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=e_checkpoint|index=622",
+    "SUI_E|stable|cursor=C01-04|pending=C01-04|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=choose|index=625",
+    "SUI_E|save|slot=0|cursor=C01-04|pending=C01-04|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=choose|index=625",
+    "SUI_I|exit|binding=i01v2-C01-04|node=BRANCH_1b5d836d9b5fad165e7d",
+    "SUI_I|enter|binding=i01v2-TEXT_705b101d2dd49eb7c0af_1|node=TEXT_705b101d2dd49eb7c0af_1",
+    "SUI_E|stable|cursor=TEXT_705b101d2dd49eb7c0af_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=text|index=631",
+    "SUI_E|load|slot=16|cursor=C01-04|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=e_checkpoint|index=622",
+    "SUI_E|notice|已回到选择之前，可重新选择。",
+    "SUI_E|rollback|cursor=C01-04|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=e_checkpoint|index=622",
+    "SUI_E|stable|cursor=C01-04|pending=C01-04|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=choose|index=625",
+    "SUI_E|save|slot=0|cursor=C01-04|pending=C01-04|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=choose|index=625",
+    "SUI_I|exit|binding=i01v2-C01-04|node=BRANCH_1b5d836d9b5fad165e7d",
+    "SUI_I|enter|binding=i01v2-TEXT_afdcb5e85035be20dcbb_1|node=TEXT_afdcb5e85035be20dcbb_1",
+    "SUI_E|stable|cursor=TEXT_afdcb5e85035be20dcbb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=4|tag=text|index=657"
+  ],
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suii-presentation-TLBjuU",
+  "inputs": {
+    "adopted": 212,
+    "cues": 3086,
+    "cg": {
+      "bindingId": "i01v2-TEXT_982d9ac0f683c6bbb52b_1",
+      "anchor": {
+        "nodeId": "TEXT_982d9ac0f683c6bbb52b_1",
+        "file": "scenario/第一章-回到毕节.md",
+        "sha256": "edecb9a34780b494cd4159d7d3178c865317a03139e6bfdb0c98e4352def73bb"
+      },
+      "condition": "ALL",
+      "routeIds": [],
+      "enter": {
+        "background": {
+          "assetId": "bg-bijie-arrival-platform-day-rain",
+          "layer": "bg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7651434643995749,
+          "form": null,
+          "costume": null
+        },
+        "characters": [
+          {
+            "assetId": "maolang-base",
+            "layer": "center",
+            "x": 445,
+            "y": 42,
+            "scale": 0.38,
+            "form": "human",
+            "costume": "maolang-base"
+          }
+        ],
+        "props": [],
+        "cg": {
+          "assetId": "cg-common-cg001",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7651434643995749,
+          "form": null,
+          "costume": null
+        }
+      },
+      "exit": {
+        "at": "next-node",
+        "restore": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "maolang-base",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "maolang-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        }
+      },
+      "cgId": "CG001",
+      "fullView": true,
+      "restrictions": [
+        "scene-001: 按当前正文场所持续显示，至下一明确场景边界；不继承人物/道具",
+        "完整节点状态：任意跳转/回退/读档按目标节点重建背景、人物、形态、衣装、道具；不继承另一分支",
+        "CG当前段落内显示，下一节点先去CG恢复此场景，再按目标节点重算；全图查看隐藏正文/姓名/菜单且不推进正文",
+        "图鉴仅真实首个可见帧解锁，注册不解锁，全局解锁不随选择回退撤销",
+        "人物按本批逐文件审阅的明确在场区间持续显示；选择保持在场人物，既有单拍差分优先；远程、离场、门外和跨日不继承人物",
+        "无明确地点的段落使用UI雨窗阅读底图，不指定新场所；CG退出和读档仍完整重建目标节点"
+      ]
+    },
+    "scene": [
+      {
+        "bindingId": "i01v2-TEXT_f5354c41d01bf0d95a4c_1",
+        "anchor": {
+          "nodeId": "TEXT_f5354c41d01bf0d95a4c_1",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "maolang-base",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "maolang-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-arrival-platform-day-rain",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "maolang-base",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "maolang-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "scene-001: 按当前正文场所持续显示，至下一明确场景边界；不继承人物/道具",
+          "完整节点状态：任意跳转/回退/读档按目标节点重建背景、人物、形态、衣装、道具；不继承另一分支",
+          "人物按本批逐文件审阅的明确在场区间持续显示；选择保持在场人物，既有单拍差分优先；远程、离场、门外和跨日不继承人物",
+          "无明确地点的段落使用UI雨窗阅读底图，不指定新场所；CG退出和读档仍完整重建目标节点"
+        ]
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "status": "pass"
+}

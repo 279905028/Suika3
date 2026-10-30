@@ -2,6 +2,12 @@
 
 2026-10-30｜采用“普通 Git 保存源码与证据索引，资源按清单独立保存”。`main` 已推送至公开仓库 [279905028/Suika3](https://github.com/279905028/Suika3)，首次内容提交已核验远程一致，见[推送记录](../qa/github-push-20261030/推送记录.md)。所有原文件仍在原位，未安装 LFS；外部资源未上传，也未新增独立备份。
 
+## 本次预览发布补充
+
+本轮仍不把大素材和运行包加入普通Git。最新全量独立资源盘点见[发布盘点](../qa/github-release-20261030/inventory-current/summary.json)及[资源清单](../qa/github-release-20261030/inventory-current/archive-manifest.json)。本次另生成仅含1,341项发布构建输入的ZIP；上传状态见[发布记录](../qa/github-release-20261030/发布记录.md)。它可恢复本版构建输入，不替代全部历史资源备份。
+
+后续盘点明确传入当时采用的冻结快照，例如`--snapshot qa/portrait-gap-fill-20261030/snapshot.json`；工具默认保留最早快照以兼容旧命令，不能把默认快照当作当前采用状态。
+
 ## 三类文件
 
 | 处理 | 内容 | 说明 |

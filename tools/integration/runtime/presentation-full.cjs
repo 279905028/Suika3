@@ -48,7 +48,11 @@ function integrate({generated,host,uiRay,assets=[],bindings=[],mode='candidate',
       }
       const key='state-'+sharedStates.size;stateNames.push(key);runtime[phase]=key;
       sharedStates.set(signature,key);add(`iStates[${q(key)}] = [];`);
+      // A location-unspecified paragraph is still a reading scene. Keep the
+      // approved UI backdrop behind it instead of clearing BG to transparent
+      // (which the engine renders as solid black). This does not invent a place.
       const placements=[state.background,...state.characters,...state.props,state.cg].filter(Boolean),usedLayers=new Set();
+      if(!state.background) add(`Array.push(iStates[${q(key)}],{assetId:"ui:backdrop",layer:"bg",file:"system/sui-u/png/reading-backdrop.png",x:0,y:0,scale:1.0,webp:false,form:"",costume:""});`);
       for(const p of placements){
         assert(!usedLayers.has(p.layer),'状态图层重复');usedLayers.add(p.layer);
         assert(Object.hasOwn(LAYERS,p.layer));

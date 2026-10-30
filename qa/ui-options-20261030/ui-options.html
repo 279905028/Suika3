@@ -1,0 +1,98 @@
+<div id="suika-ui-options">
+  <div class="viz-carousel viz-dotted-background" aria-label="三套全界面选项设计" data-previous-label="上一方案" data-next-label="下一方案">
+    <section data-variant="雨夜细线" aria-label="雨夜细线方案"><div class="sui-stage rain" aria-label="雨夜细线界面"></div></section>
+    <section data-variant="生活手札" aria-label="生活手札方案" hidden><div class="sui-stage paper" aria-label="生活手札界面"></div></section>
+    <section data-variant="电影侧栏" aria-label="电影侧栏方案" hidden><div class="sui-stage cinema" aria-label="电影侧栏界面"></div></section>
+  </div>
+</div>
+<style>
+#suika-ui-options { width:100%; }
+#suika-ui-options .sui-stage { --s-bg:#14262d; --s-surface:#1c343c; --s-ink:#f0eee7; --s-muted:#b3c8c9; --s-line:#496268; --s-accent:#bbd9cc; --s-active:#bbd9cc; --s-active-ink:#16312d; --s-radius:6px; background:var(--s-bg); color:var(--s-ink); padding:28px; min-height:710px; box-sizing:border-box; font:16px/1.6 -apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif; }
+#suika-ui-options .paper { --s-bg:#e8e1d3; --s-surface:#f7f2e8; --s-ink:#332e2a; --s-muted:#645d52; --s-line:#bdb29e; --s-accent:#70563c; --s-active:#70563c; --s-active-ink:#fff8e8; --s-radius:2px; }
+#suika-ui-options .cinema { --s-bg:#111b24; --s-surface:#1d2c38; --s-ink:#f2eee8; --s-muted:#b6c0c7; --s-line:#4b5a65; --s-accent:#dcc9a4; --s-active:#dcc9a4; --s-active-ink:#262319; --s-radius:0px; }
+#suika-ui-options .sui-stage * { box-sizing:border-box; }
+#suika-ui-options .sui-brand { font-family:'Songti SC',SimSun,serif; font-size:25px; letter-spacing:3px; margin:0 0 24px; padding-right:90px; }
+#suika-ui-options .sui-layout { display:grid; grid-template-columns:1.1fr 1fr; gap:28px; }
+#suika-ui-options .sui-label { color:var(--s-muted); font-size:12px; letter-spacing:2px; margin:0 0 10px; }
+#suika-ui-options h3 { font:500 24px/1.5 'Songti SC',SimSun,serif; margin:0 0 20px; color:var(--s-ink); }
+#suika-ui-options button { font:inherit; color:inherit; }
+#suika-ui-options .sui-choices { display:grid; gap:8px; }
+#suika-ui-options .sui-choice { display:flex; align-items:center; justify-content:space-between; text-align:left; min-height:58px; padding:10px 16px; border:1px solid var(--s-line); border-radius:var(--s-radius); background:var(--s-surface); gap:10px; transition:background 140ms ease; }
+#suika-ui-options .sui-choice small { display:block; color:var(--s-muted); font-size:12px; }
+#suika-ui-options .sui-choice .sui-arrow { opacity:0; }
+#suika-ui-options .sui-choice:hover .sui-arrow,#suika-ui-options .sui-choice[aria-pressed=true] .sui-arrow { opacity:1; }
+#suika-ui-options .sui-choice[aria-pressed=true] { border-color:var(--s-accent); box-shadow:inset 3px 0 var(--s-accent); }
+#suika-ui-options .sui-choice:hover { background:var(--s-bg); }
+#suika-ui-options .sui-tabs { display:flex; flex-wrap:wrap; border-bottom:1px solid var(--s-line); gap:2px; margin-bottom:20px; }
+#suika-ui-options .sui-tab { flex:1; min-height:44px; border:0; border-bottom:2px solid transparent; background:transparent; padding:8px 10px; white-space:nowrap; color:var(--s-muted); }
+#suika-ui-options .sui-tab[aria-pressed=true] { color:var(--s-ink); border-bottom-color:var(--s-accent); }
+#suika-ui-options .sui-panel { min-height:290px; }
+#suika-ui-options .sui-section { margin:16px 0; color:var(--s-muted); font-size:12px; letter-spacing:2px; }
+#suika-ui-options .sui-setting { display:block; padding:12px 0; border-bottom:1px solid var(--s-line); }
+#suika-ui-options .sui-setting span { display:flex; justify-content:space-between; gap:10px; }
+#suika-ui-options input[type=range] { width:100%; accent-color:var(--s-accent); margin:12px 0 0; min-height:20px; }
+#suika-ui-options .sui-toggle { display:flex; align-items:center; gap:10px; padding:16px 0; }
+#suika-ui-options input[type=checkbox] { width:20px; height:20px; accent-color:var(--s-active-ink); }
+#suika-ui-options .sui-save { background:var(--s-surface); border:1px solid var(--s-line); padding:14px; margin:10px 0; display:flex; gap:16px; align-items:center; }
+#suika-ui-options .sui-thumb { flex:0 0 50px; height:44px; background:var(--s-bg); border-left:2px solid var(--s-accent); }
+#suika-ui-options .sui-save small { display:block; color:var(--s-muted); }
+#suika-ui-options .sui-subtabs { display:flex; gap:10px; margin-bottom:12px; }
+#suika-ui-options .sui-subtabs button { padding:8px 14px; border:1px solid var(--s-line); border-radius:var(--s-radius); background:var(--s-surface); min-height:44px; }
+#suika-ui-options .sui-subtabs button[aria-pressed=true] { background:var(--s-active); color:var(--s-active-ink); border-color:var(--s-active); }
+#suika-ui-options .sui-empty { min-height:160px; display:grid; place-items:center; background:var(--s-surface); border:1px solid var(--s-line); color:var(--s-muted); }
+#suika-ui-options .sui-note { color:var(--s-muted); font-size:12px; min-height:22px; margin:16px 0 0; }
+#suika-ui-options .sui-preview { margin-top:16px; border-left:2px solid var(--s-accent); padding:8px 12px; font-family:'Songti SC',SimSun,serif; }
+#suika-ui-options .paper .sui-choices { grid-template-columns:1fr 1fr; gap:12px; }
+#suika-ui-options .paper .sui-choice { min-height:108px; align-items:flex-start; padding-top:18px; }
+#suika-ui-options .paper .sui-choice small { margin-top:8px; }
+#suika-ui-options .paper .sui-choice[aria-pressed=true] { box-shadow:0 3px 0 var(--s-accent); }
+#suika-ui-options .paper .sui-tabs { border:0; gap:6px; }
+#suika-ui-options .paper .sui-tab { background:var(--s-surface); border:1px solid var(--s-line); }
+#suika-ui-options .paper .sui-tab[aria-pressed=true] { background:var(--s-active); color:var(--s-active-ink); border-color:var(--s-active); }
+#suika-ui-options .cinema .sui-layout { grid-template-columns:.9fr 1.1fr; gap:38px; }
+#suika-ui-options .cinema .sui-choice { background:transparent; border:0; border-bottom:1px solid var(--s-line); padding-left:12px; }
+#suika-ui-options .cinema .sui-choice[aria-pressed=true] { background:var(--s-surface); }
+#suika-ui-options .cinema .sui-tools { display:grid; grid-template-columns:66px 1fr; gap:16px; }
+#suika-ui-options .cinema .sui-tabs { display:flex; flex-direction:column; border:0; gap:6px; align-self:start; }
+#suika-ui-options .cinema .sui-tab { flex:none; border:0; border-left:2px solid transparent; padding:10px 6px; text-align:left; }
+#suika-ui-options .cinema .sui-tab[aria-pressed=true] { border-left-color:var(--s-accent); background:var(--s-surface); }
+@media(max-width:620px) {
+ #suika-ui-options .sui-stage { padding:22px 18px; min-height:1120px; }
+ #suika-ui-options .sui-layout,#suika-ui-options .cinema .sui-layout { grid-template-columns:1fr; gap:32px; }
+ #suika-ui-options .sui-brand { font-size:20px; padding-right:55px; }
+}
+@media(prefers-reduced-motion:reduce) { #suika-ui-options .sui-choice { transition:none; } }
+</style>
+<script>
+(() => {
+ const root=document.getElementById('suika-ui-options');
+ const routes=[['罗小满','去理发店'],['周栀','去回声'],['孟遥','去培训机构'],['飘','去老街'],['朋友与职业','去网吧'],['黄球球','去后院']];
+ const values={ music:60, speed:50 };
+ const selections={};
+ root.querySelectorAll('.sui-stage').forEach((stage,i)=>{
+  stage.innerHTML=`<header class="sui-brand">毕节，雨停之前</header><div class="sui-layout"><div><p class="sui-label">剧情分支 · 六线已开放示意</p><h3>今天先去找谁？</h3><div class="sui-choices">${routes.map(([n,a],j)=>`<button type="button" class="sui-choice cursor-interaction" aria-pressed="false" data-choice="${j}"><span>${n}<small>${a}</small></span><span class="sui-arrow" aria-hidden="true">→</span></button>`).join('')}</div><p class="sui-note" aria-live="polite">选择状态预览</p></div><div><p class="sui-label">系统菜单 · 分类与控件</p><div class="sui-tools"><nav class="sui-tabs" aria-label="系统菜单分类">${['设置','存读档','回顾','图鉴'].map((n,j)=>`<button type="button" class="sui-tab cursor-interaction" data-tab="${j}" aria-pressed="${j===0}">${n}</button>`).join('')}</nav><div class="sui-panel" aria-live="polite"></div></div></div></div>`;
+  const panel=stage.querySelector('.sui-panel');
+  function showTab(tab){
+   stage.querySelectorAll('[data-tab]').forEach(b=>b.setAttribute('aria-pressed',Number(b.dataset.tab)===tab));
+   if(tab===0) panel.innerHTML=`<div class="sui-section">声音</div><label class="sui-setting"><span>音乐音量<output>${values.music}%</output></span><input aria-label="音乐音量" type="range" min="0" max="100" value="${values.music}" data-range="music"></label><div class="sui-section">阅读</div><label class="sui-setting"><span>文字速度<output>${values.speed}%</output></span><input aria-label="文字速度" type="range" min="0" max="100" value="${values.speed}" data-range="speed"></label><div class="sui-preview">我回：不躲。下午有安排了。</div>`;
+   if(tab===1) {panel.innerHTML=`<div class="sui-subtabs"><button type="button" aria-pressed="false" data-mode="保存" class="cursor-interaction">保存</button><button type="button" aria-pressed="true" data-mode="读取" class="cursor-interaction">读取</button></div><div class="sui-save"><div class="sui-thumb" aria-hidden="true"></div><span>自动档<small>随阅读进度更新</small></span></div>${[1,2,3].map(n=>`<div class="sui-save"><span>手动档 ${n}<small>空存档</small></span></div>`).join('')}<p class="sui-section" data-mode-status>读取进度</p>`;}
+   if(tab===2) panel.innerHTML='<div class="sui-section">阅读回顾</div><div class="sui-preview">毛狼发来消息：昨天的事，今天还躲不躲？</div><div class="sui-preview">我回：不躲。下午有安排了。</div>';
+   if(tab===3) panel.innerHTML='<div class="sui-section">图鉴</div><div class="sui-empty"><span>未解锁</span></div><p class="sui-note">解锁后显示画面与标题</p>';
+  }
+  showTab(0);
+  stage.addEventListener('click',e=>{
+   const choice=e.target.closest('[data-choice]');
+   if(choice){stage.querySelectorAll('[data-choice]').forEach(b=>b.setAttribute('aria-pressed',b===choice));const name=routes[Number(choice.dataset.choice)][0];stage.querySelector('.sui-note').textContent=`已聚焦：${name}`; selections[i]=name; save();}
+   const tab=e.target.closest('[data-tab]'); if(tab){showTab(Number(tab.dataset.tab));}
+   const mode=e.target.closest('[data-mode]');if(mode){panel.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',b===mode));panel.querySelector('[data-mode-status]').textContent=mode.dataset.mode==='保存'?'保存进度 · 自动档不可手动覆盖':'读取进度';}
+  });
+  stage.addEventListener('input',e=>{const r=e.target.closest('[data-range]');if(r){values[r.dataset.range]=Number(r.value); r.parentElement.querySelector('output').textContent=r.value+'%';save();}});
+  const appearance={radius:i===0?6:i===1?2:0};
+  if(globalThis.Tweak){const tweak=new Tweak({container:stage,onChange:()=>stage.style.setProperty('--s-radius',appearance.radius+'px')});tweak.addSlider(appearance,'radius',{label:'按钮圆角',min:0,max:20,unit:'px'});}
+ });
+ function save(){if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{聚焦路线:selections},privateContent:{values}}).catch(()=>{});}
+ function restore(state){const p=state?.privateContent;if(p?.values){Object.assign(values,p.values);root.querySelectorAll('[data-range]').forEach(r=>{r.value=values[r.dataset.range];r.parentElement.querySelector('output').textContent=r.value+'%';});}}
+ restore(window.openai?.widgetState);
+ window.addEventListener('openai:set_globals',e=>restore(e.detail?.globals?.widgetState));
+})();
+</script>

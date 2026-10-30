@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "date": "2026-10-30",
+  "scope": "实际查看最终v2的14人运行总览及陈孃单张运行截图；非全篇逐帧终审。",
+  "assetIds": [
+    "npc-chenniang-base",
+    "npc-ajun-base",
+    "npc-housing-clerk-base",
+    "npc-salon-newcomer-base",
+    "npc-aying-base",
+    "npc-key-handover-base",
+    "npc-grocery-owner-base",
+    "npc-shoe-repairer-base",
+    "npc-new-grocery-owner-base",
+    "npc-sign-repairer-base",
+    "npc-classmate-base",
+    "npc-boss-li-base",
+    "npc-cafe-customer-base",
+    "npc-cafe-colleague-base"
+  ],
+  "evidence": {
+    "path": "qa/portrait-gap-fill-20261030/运行截图总览.jpg",
+    "sha256": "dc8786c8d9945095626938c6a2a24c80dea1fc0c031baa6b17f806b7d3c8c81c"
+  },
+  "checks": [
+    "14名普通配角在相应场景显示，人物大小/轮廓可见，头脸在文字框上方。",
+    "新人与阿俊外形可辨；原/新店主和两个交接岗位分开，未看到别的角色替身或不该出现的女主。",
+    "同场双人和单人图正常；本批不把当面以外的722段改成实体。"
+  ],
+  "canonicalArtMatch": {
+    "version": "sui-i02-20261030-title-b1-v2",
+    "manifest": true,
+    "bindings": true
+  }
+}

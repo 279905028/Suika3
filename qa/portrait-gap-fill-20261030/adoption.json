@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-30",
+  "reference": "portrait-gap-delegated-adoption-20261030",
+  "userRequests": [
+    "帮我逐段筛定真正需要补画的段数并补充，最后告诉我补充的数量结果",
+    "由你按正文身份设计并补入游戏",
+    "配角的形象不要太好看，做成普通人就行"
+  ],
+  "basis": "用户委托设计及接入，助手按普通人外形方向与实际离线检查选用。非用户逐图选型。",
+  "assets": [
+    "npc-chenniang-base",
+    "npc-ajun-base",
+    "npc-housing-clerk-base",
+    "npc-salon-newcomer-base",
+    "npc-aying-base",
+    "npc-key-handover-base",
+    "npc-shoe-repairer-base",
+    "npc-grocery-owner-base",
+    "npc-new-grocery-owner-base",
+    "npc-sign-repairer-base",
+    "npc-classmate-base",
+    "npc-boss-li-base",
+    "npc-cafe-customer-base",
+    "npc-cafe-colleague-base"
+  ],
+  "visualReview": {
+    "path": "qa/portrait-gap-fill-20261030/visual-review.json",
+    "sha256": "0411dcd02801a8017b595a61512ddbd928b89464cccfe4bed5b06eca5de274cb"
+  },
+  "imageChecks": {
+    "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+    "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e"
+  }
+}

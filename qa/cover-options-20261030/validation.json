@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-30",
+  "scope": "封面候选离线文件与目视检查；未进行运行接入",
+  "outputs": [
+    {
+      "id": "a",
+      "name": "雨夜山城",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sourceOrientation": 1,
+      "sourceCopyIdentical": true,
+      "pngWebpDecodedRGBAIdentical": true,
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "files": [
+        {
+          "path": "assets/sources/20261030-cover-options/cover-a-v001.png",
+          "bytes": 2956435,
+          "sha256": "0dd627281967d462beaccf9f8c52d417031a634bf62ddd30a23ea0f79a7b450f"
+        },
+        {
+          "path": "assets/sources/20261030-cover-options/cover-a-v001.webp",
+          "bytes": 2184396,
+          "sha256": "c742dec484f3cd0dda8476c0289e5cd7ee3b1fab464a613d609b27d00f492313"
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "name": "雨中归城",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sourceOrientation": 1,
+      "sourceCopyIdentical": true,
+      "pngWebpDecodedRGBAIdentical": true,
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "files": [
+        {
+          "path": "assets/sources/20261030-cover-options/cover-b-v001.png",
+          "bytes": 2947136,
+          "sha256": "a1cfb2bd0ab634f082bcc00aa8447019e86a4a7e01cd35a5d0972e3e2e7afcb7"
+        },
+        {
+          "path": "assets/sources/20261030-cover-options/cover-b-v001.webp",
+          "bytes": 2151182,
+          "sha256": "d4b0e5a7bcb196546fea6317546fea489834bf64e735150f4f8082e0ede6c5d8"
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "name": "雨窗日常",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sourceOrientation": 1,
+      "sourceCopyIdentical": true,
+      "pngWebpDecodedRGBAIdentical": true,
+      "encoding": {
+        "tool": "Pillow",
+        "version": "11.3.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true
+      },
+      "files": [
+        {
+          "path": "assets/sources/20261030-cover-options/cover-c-v001.png",
+          "bytes": 2019856,
+          "sha256": "ba5a1f043cabe2b201d42f6071072d52487f32cea31a82c43fdcd5f35c5ffe48"
+        },
+        {
+          "path": "assets/sources/20261030-cover-options/cover-c-v001.webp",
+          "bytes": 1497894,
+          "sha256": "28f0704aa00d6a22a51f5bce7f19f5b546a0b7cdcf7daf75e6753726e0c7ef90"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "/Users/yipin/Desktop/Suika3/assets/current/SUI-A08/bg-bijie-slope-street-night.webp",
+      "bytes": 2119378,
+      "sha256": "41601323c098ece9d946586dfd0b52b405fc6b5b10f365686c426240c11e91c9",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/assets/sources/20261029-promo-v11-selected-D-v4/poster-D-selected-v002.png",
+      "bytes": 2580788,
+      "sha256": "5efc2d37bcdfaec57a31238f8325d1a0f8bf1a1a1c0272a51939559f5c3a0e72",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/yipin/Desktop/Suika3/assets/current/SUI-A08/bg-wenwen-bijie-rental-night.webp",
+      "bytes": 1404478,
+      "sha256": "8901da80d33186e5519ca6e8fdc4eb93c6a2b53d0c48bdc59dd6d422082bda13",
+      "unchanged": true
+    },
+    {
+      "path": "system/sui-u/png/title.png",
+      "bytes": 85310,
+      "sha256": "1c2beabfd1f9366322c852d4d4cd37773e4a828449cedcb3ab14cebbb08c97a7",
+      "unchanged": true
+    },
+    {
+      "path": "system/sui-u/webp/title.webp",
+      "bytes": 47954,
+      "sha256": "af53662a2074373740c7e97cbd250374c1a27b7b3e36c6de0eae84ab1a5402fc",
+      "unchanged": true
+    },
+    {
+      "path": "system/sui-u/gui/title.gui",
+      "bytes": 1257,
+      "sha256": "191f20dcf451021822d3deae952797e5b2037959105aa9f2459a7b9637cc9861",
+      "unchanged": true
+    }
+  ],
+  "visualReview": {
+    "allTitles": "三张均为“毕节，雨停之前”，无额外文案",
+    "a": "坡街、雨夜、雾山、暖窗；无人；与既有场景材质相符",
+    "b": "文文金黄短寸、牛仔夹克、米白内搭、黑色箱包与站台；无新增人物；无旧宣传文案",
+    "c": "雨窗、台灯、白杯与合上本子；无人物、婚恋或新剧情信息",
+    "status": "人工目视通过，最终风格和采用待用户选择"
+  },
+  "notValidated": [
+    "游戏菜单叠加与裁切适配",
+    "引擎与游戏浏览器加载",
+    "手机真机和电脑原生",
+    "印刷或发布"
+  ],
+  "runtimeAssetsChanged": false,
+  "playerStorageAccessed": false
+}

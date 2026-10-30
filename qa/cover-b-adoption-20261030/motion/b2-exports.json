@@ -1,0 +1,71 @@
+{
+  "id": "b2",
+  "source": "即梦CLI正常视频",
+  "model": "seedance_2.0_fast_vip",
+  "durationSeconds": 8,
+  "videoFPS": 24,
+  "originalMetadata": {
+    "ffmpeg_version": "7.1 built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(progressive)",
+    "audio_codec": "aac",
+    "fps": 24.07,
+    "source_size": [
+      1280,
+      720
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "rotate": 0,
+    "duration": 8.1
+  },
+  "loopFramesBeforeEncodingIdentical": true,
+  "processing": [
+    "原片保留",
+    "衍生去除音轨",
+    "固定原有标题字形区域",
+    "末0.33秒平滑回到首帧"
+  ],
+  "outputs": [
+    {
+      "path": "assets/sources/20261030-cover-b-motion/b2-original.mp4",
+      "bytes": 16411452,
+      "sha256": "10627685f4eafa0b8f03ff49d059fa75d86c93c6b10d4a06bc5b2818b548fb1d"
+    },
+    {
+      "path": "assets/sources/20261030-cover-b-motion/b2-loop.mp4",
+      "bytes": 12089226,
+      "sha256": "e999f9bc4c960fa825bee159b05cad6cef168aa7e974f22b3c1879dd47266701"
+    },
+    {
+      "path": "assets/sources/20261030-cover-b-motion/b2-loop.webp",
+      "bytes": 7102512,
+      "sha256": "3d0f353c5da82a686b02c97dcb6b87e3a942bd28baa17608b4bb50de976e2ec9",
+      "format": "WEBP",
+      "size": [
+        768,
+        432
+      ],
+      "frames": 120,
+      "loop": 0,
+      "durationMs": 8000,
+      "decodedFirstLastMAE": 0.0
+    },
+    {
+      "path": "assets/sources/20261030-cover-b-motion/b2-loop.gif",
+      "bytes": 16039282,
+      "sha256": "4d36430ef141703ae4ca2b658c19f85980d7a0fcf991071e68941471bcf2657e",
+      "format": "GIF",
+      "size": [
+        640,
+        360
+      ],
+      "frames": 80,
+      "loop": 0,
+      "durationMs": 8000,
+      "decodedFirstLastMAE": 0.0
+    }
+  ]
+}

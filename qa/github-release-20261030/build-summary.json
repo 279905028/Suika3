@@ -1,0 +1,28 @@
+{
+  "version": "v1.1.0-beta.1",
+  "baseCommit": "375b4195ead1df832779d2cc33b6a8e1c17fc28c",
+  "inputFingerprint": "f5565e0ad202edc2e4c5b9fd7699ff49191dd6360cbd9107ede5021f8ba67fec",
+  "runtimeBuildIds": {
+    "web": "6d1cf82aa450c7bec582569f9f98fee226415f7081384b221b12003bd1e34795",
+    "desktop": "a9ffe3b77f281a117dc6d859a96e653d42d991d76a36e30b7efa01c98d4403d9"
+  },
+  "inputCount": 1341,
+  "comparisonCandidate": "sui-i02-20261030-title-b1-v2",
+  "changedInputs": [
+    "tools/runtime/README.md"
+  ],
+  "browserTestSources": {
+    "verify-title.cjs": {
+      "source": "qa/title-motion-b1-20261030/verify-browser.cjs",
+      "sha256": "035a5f41b0333d040452b083b829ccdb4ac6c4371cb87aa0c8a902b2de1e0404"
+    },
+    "verify-ui.cjs": {
+      "source": "qa/portrait-gap-fill-20261030/verify-browser.cjs",
+      "sha256": "1b3fd79ef8dc1003f84c28d99d89b5102537ce92fe105e4e47deb9588ec75ca8"
+    },
+    "verify-portraits.cjs": {
+      "source": "qa/portrait-gap-fill-20261030/verify-portraits.cjs",
+      "sha256": "9fdbebb150fc8b1a030d4a64baf028a4e25631041a65c1219e2af5a79aa2828f"
+    }
+  }
+}

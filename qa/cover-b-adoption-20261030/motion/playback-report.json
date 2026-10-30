@@ -1,0 +1,29 @@
+{
+  "scope": "两个独立动画在Chrome实际自动循环；像素与时长另见各exports.json",
+  "errors": [],
+  "videos": [
+    {
+      "id": "b1",
+      "width": 1280,
+      "height": 720,
+      "duration": 8,
+      "muted": true,
+      "loop": true,
+      "paused": false
+    },
+    {
+      "id": "b2",
+      "width": 1280,
+      "height": 720,
+      "duration": 8,
+      "muted": true,
+      "loop": true,
+      "paused": false
+    }
+  ],
+  "loops": {
+    "b1": 1,
+    "b2": 1
+  },
+  "pass": true
+}

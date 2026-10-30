@@ -1,9 +1,9 @@
 {
   "schemaVersion": "SUI-I-1",
-  "version": "sui-i01-20261030-v2",
+  "version": "sui-i01-portraits-20261030-v5",
   "scope": {
     "kind": "complete",
-    "description": "I01全正文声明式场景：六线、共通、第36天及双后日谈；持续背景、逐拍人物/道具特写、60CG；未明场所/远程/过渡使用逐项注明的文字镜头。范围不含I02引擎与Q验收。",
+    "description": "六线完整演出：保留既有连续立绘/表情及60CG；逐段复核786段后补14名普通配角和明确现场肖像，远程/门外/亲密留白按正文保留。",
     "missing": []
   },
   "assets": [
@@ -91,7 +91,7 @@
         "夹克衣装的专注对话；第22天卷袖、含发夹及实际剪发动作仍以专门镜头为准。",
         "逐项依据storyAnchors；不得从情绪图推导路线状态",
         "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -179,7 +179,7 @@
         "耳红/目光短暂移开；第22天仅作表情参考，不能替代含发夹及卷袖动作；裙装需保持衣装连续。",
         "逐项依据storyAnchors；不得从情绪图推导路线状态",
         "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -399,7 +399,7 @@
         "白T/深灰围裙，闭合剪刀与梳子；用于理发店职业形象及道具连续性。擦手、举镜、剪发接触动作不由这张静态持物图代替。",
         "逐项依据storyAnchors；不得从情绪图推导路线状态",
         "换场、电话/视频、CG进出、回退/读档需清除或恢复正确衣装/道具；由E/I/Q实现并验收",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -571,7 +571,7 @@
       "restrictions": [
         "第三章自发笑意或适用私人相处；不得把笑容本身编码成恋爱状态",
         "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -909,7 +909,7 @@
         "普通教学/核课表；MY07=A第56天红笔遗落后不能将同一红笔画成已取回；笑容不表示公开复合。",
         "换衣/持物切换需完整换图；读档/回退按剧情状态恢复，A11/I/E/Q另验",
         "第44/56/75天亲密依当时MY07=A；不可倒推只限最终AA。AB之前真实发生，BA不重启。保留上游binding限制。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -997,7 +997,7 @@
         "普通下课疲倦与生活压力；不解释为疾病或新增经历。",
         "换衣/持物切换需完整换图；读档/回退按剧情状态恢复，A11/I/E/Q另验",
         "第44/56/75天亲密依当时MY07=A；不可倒推只限最终AA。AB之前真实发生，BA不重启。保留上游binding限制。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1041,7 +1041,7 @@
         "MY07=B停止私见及断开收束；BA保持停止，不新增身体接触。",
         "换衣/持物切换需完整换图；读档/回退按剧情状态恢复，A11/I/E/Q另验",
         "第44/56/75天亲密依当时MY07=A；不可倒推只限最终AA。AB之前真实发生，BA不重启。保留上游binding限制。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1085,7 +1085,7 @@
         "婚姻揭露后的困难谈话；不以眼神暗示离婚或恢复约见。",
         "换衣/持物切换需完整换图；读档/回退按剧情状态恢复，A11/I/E/Q另验",
         "第44/56/75天亲密依当时MY07=A；不可倒推只限最终AA。AB之前真实发生，BA不重启。保留上游binding限制。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1129,7 +1129,7 @@
         "退费争执、核课表、收入与生活边界。",
         "换衣/持物切换需完整换图；读档/回退按剧情状态恢复，A11/I/E/Q另验",
         "第44/56/75天亲密依当时MY07=A；不可倒推只限最终AA。AB之前真实发生，BA不重启。保留上游binding限制。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1261,7 +1261,7 @@
         "第21/34/56/59/60天按实际搬书取用；有内容物的书箱，不代替空书袋，不删除陈晟在场。",
         "换衣/持物切换需完整换图；读档/回退按剧情状态恢复，A11/I/E/Q另验",
         "第44/56/75天亲密依当时MY07=A；不可倒推只限最终AA。AB之前真实发生，BA不重启。保留上游binding限制。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1521,7 +1521,7 @@
       "restrictions": [
         "当场轻松对话；微笑不代表恋爱承诺，不能据此判定HIGH。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1563,7 +1563,7 @@
       "restrictions": [
         "核稿、说明边界、讨论安排；不把认真等同拒绝。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1605,7 +1605,7 @@
       "restrictions": [
         "当场尚未答复时；不替代PI-L06-01后飘的独立决定。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1647,7 +1647,7 @@
       "restrictions": [
         "明确受惊/意外反应时；不直接绑定LOW或怀孕状态。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1689,7 +1689,7 @@
       "restrictions": [
         "备用；可供A09核对被擅改稿件时的情绪，不默认生气贯穿全程。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1731,7 +1731,7 @@
       "restrictions": [
         "明确垂眼、失落的当场片段；不自动附加疾病或关系事实。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1773,7 +1773,7 @@
       "restrictions": [
         "普通打招呼；远程群消息不等于实际到场。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1815,7 +1815,7 @@
       "restrictions": [
         "停顿与考虑；不用于手中必须同时持物的镜头。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1857,7 +1857,7 @@
       "restrictions": [
         "普通摊掌说明；不得覆盖当场相机/册子持物状态。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1899,7 +1899,7 @@
       "restrictions": [
         "借来的相机、征得同意后拍摄的准备动作。共通/HIGH/LOW按当场实际持物使用；不替代第30天LOW未举相机的镜头。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1941,7 +1941,7 @@
       "restrictions": [
         "HIGH第34/39天核对恢复为空白的封二；不能用于已擅加作者介绍的错误稿、LOW未定稿册子或文文写过字的最后页。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -1983,7 +1983,7 @@
       "restrictions": [
         "相机包带的日常松结动作参考；公共第36天仅LOW使用且须按坐姿镜头复核。不是本线第36天湿绳的同一物件，也不替代衣角/布袋/纸袋绳结。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -2067,7 +2067,7 @@
       "restrictions": [
         "相机包带版本；不作为装照片布袋或衣角绳结的替身。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -2193,7 +2193,7 @@
       "restrictions": [
         "订书机、尺和普通布条的道具组合；整组使用，分层抽取或新增手持姿态须另制。",
         "人物站姿只供动作/道具参考，尤其第36天正文坐姿不能直接套用；湿绳、包带、衣角结、布袋不可互换。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -2277,7 +2277,7 @@
       "restrictions": [
         "剥橘子或第40天调收音机后的短暂笑意；仅覆盖表情，持橘子当拍待A08道具版本；不表示关系保证",
         "随正文动作结束退出；读档和回退恢复当前形态、表情和道具；本包未绑定运行",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -2487,7 +2487,7 @@
       "restrictions": [
         "第55天17:00起的普通交谈，无持续持有依据时用空手；本锚点的持纸当拍须用A08核定道具",
         "随正文动作结束退出；读档和回退恢复当前形态、表情和道具；本包未绑定运行",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -2655,7 +2655,7 @@
       "restrictions": [
         "保留已确认托腮习惯；普通交谈动作候选，不强指定未描写托腮的拍点",
         "随正文动作结束退出；读档和回退恢复当前形态、表情和道具；本包未绑定运行",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -2739,7 +2739,7 @@
       "restrictions": [
         "FR第25天被冒犯、PI第21天停止追求等需要克制边界的对话；若台词要求话筒包，改用持包版。",
         "离开冲突或人物退场后退出；不以此图自动判断友情/恋爱结局。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -3117,7 +3117,7 @@
       "restrictions": [
         "第27天首次被介绍后及正文明确在场的普通交流；现任丈夫，设备维护，不指定精确年龄。",
         "只被电话/文字提及时不显示在场；不提前泄露第27天婚姻介绍。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -3725,7 +3725,7 @@
         "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -3821,7 +3821,7 @@
         "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -3965,7 +3965,7 @@
         "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -4589,7 +4589,7 @@
         "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -5263,7 +5263,7 @@
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
         "成都理发学习图仅远程照片/屏幕参考，不能用作主角亲临背景。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -5599,7 +5599,7 @@
         "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -6079,7 +6079,7 @@
         "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -6175,7 +6175,7 @@
         "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -6607,7 +6607,7 @@
         "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
         "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
         "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。",
-        "批准备用，本版不显示；不属于必须补图缺项",
+        "批准资源按本版明确节点绑定采用；未使用者继续备用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
       ]
     },
@@ -9417,6 +9417,566 @@
         "lifecycle/conditions仍由I/E执行并另验；源图1672×941，1280×720等比contain常为1279×720＋1像素余边。",
         "只按本版明确节点绑定出现，不由目录自动采用",
         "人物衣装/形态以本assetId固定差分为准；详细来源、提示词、版本及几何见本批adoption-ledger.json"
+      ]
+    },
+    {
+      "assetId": "npc-chenniang-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-chenniang-base-v002.png",
+      "sourceSha256": "a6188d120bbab3720f5cfa7aff774c8978b9eee2ddbc13e7ce2e107ed5d3689e",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-chenniang-base.webp",
+      "runtimeSha256": "9c491c63ff04fe4aae926a50917e1daf5d44963fed2c6f3e357b32026199eb68",
+      "bytes": 1317718,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-chenniang-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-chenniang-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-ajun-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-ajun-base-v002.png",
+      "sourceSha256": "1a1e104d3a9416ed857b7b40ef5e42f11246c7ab4b1e5e720d25cae232863cff",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-ajun-base.webp",
+      "runtimeSha256": "9ff1ce1f3a096bc1a64c2a4285213c3451111aebb370276a75280f059a4cbef6",
+      "bytes": 1212862,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-ajun-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-ajun-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-housing-clerk-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-housing-clerk-base-v001.png",
+      "sourceSha256": "c0b9db79bfaf11d4d6d4e7d2f781ca24c98c0cd9fddd95409133caaee37eb019",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-housing-clerk-base.webp",
+      "runtimeSha256": "22a64a315a5bbd3615d743df3d8c45be5a03f2bfe42f53627f6fd80a7c4e6a00",
+      "bytes": 1113184,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-housing-clerk-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-housing-clerk-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-salon-newcomer-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-salon-newcomer-base-v002.png",
+      "sourceSha256": "f42721cdb40adb7f5d22cb8718dd9f86d94c1785088d1c23f86b6467fe832161",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-salon-newcomer-base-v002.webp",
+      "runtimeSha256": "46b9704f57a5861c0352a974efc40cf7eb821fe7028e3dde30fba1444131b30c",
+      "bytes": 1121006,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-salon-newcomer-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-salon-newcomer-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-aying-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-aying-base-v002.png",
+      "sourceSha256": "e4f056aded8b751d182794372c540ea22b619a3e379f9b6ef746b3db11c7bd90",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-aying-base.webp",
+      "runtimeSha256": "c25493af5061aea30d152ab6f3ac343cda99c0c140608bba49b9743fdab661f5",
+      "bytes": 1099246,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-aying-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-aying-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-key-handover-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-key-handover-base-v001.png",
+      "sourceSha256": "93099897b497856ac6617f1a564b6e12d515ab4dbba46606656772e7a068cc32",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-key-handover-base.webp",
+      "runtimeSha256": "d1efbce37ee31ee5ffdd673f53d04d7b527a1444fc064dd24abc3e26c1a5a020",
+      "bytes": 1178312,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-key-handover-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-key-handover-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-shoe-repairer-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-shoe-repairer-base-v001.png",
+      "sourceSha256": "fa0283ff10b337373fb5e88c8f3dbce06587d4c60434ba174f4786bd9fa3749f",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-shoe-repairer-base.webp",
+      "runtimeSha256": "b05b13188953c7282441a561fa0b2c5ca329ebc2ed6ba91788297c3ecf3cf5bf",
+      "bytes": 1330674,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-shoe-repairer-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-shoe-repairer-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-grocery-owner-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-grocery-owner-base-v001.png",
+      "sourceSha256": "97b5cdab568822347805e9614bf380f3b8827f7d4c23c82f87b247b278b8a426",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-grocery-owner-base.webp",
+      "runtimeSha256": "507ee0fdc92a4fcf14e4a6d7e4e045c65bbfaba2e842c4aa63bbd452216aae60",
+      "bytes": 1312826,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-grocery-owner-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-grocery-owner-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-new-grocery-owner-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-new-grocery-owner-base-v001.png",
+      "sourceSha256": "ef03a408eb038822d2f3d1786b8e5001e3d26f09aa959bbbca3ff06f50a001bd",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-new-grocery-owner-base.webp",
+      "runtimeSha256": "61dce64bcab2fe91354e9c3b28eada5b00a1fa0aa3221d589b9628902f8e89f7",
+      "bytes": 1154920,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-new-grocery-owner-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-new-grocery-owner-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-sign-repairer-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-sign-repairer-base-v001.png",
+      "sourceSha256": "7d5ffdc03ecb54c5b06a96395d4737f1deeefef652b5b0bdfe693ef757bea1a1",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-sign-repairer-base.webp",
+      "runtimeSha256": "d69a6d6d10ddc67d8bc657b12d853b9a3775b1c0c1a26aa1e45117b2eb0d1d5b",
+      "bytes": 1374372,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-sign-repairer-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-sign-repairer-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-classmate-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-classmate-base-v001.png",
+      "sourceSha256": "06782e1270ebecd3188145cb00f1acc2e325bda29fc3264d880c5e80c96e8ada",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-classmate-base.webp",
+      "runtimeSha256": "9da3ae76ed5e57bfd148afb47a0e0112c2618bd03f7fde2965d449446917a659",
+      "bytes": 1303916,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-classmate-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-classmate-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-boss-li-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-boss-li-base-v001.png",
+      "sourceSha256": "a9cbdbc46c2eddd984af0b9e98f6e55e614ae933b7d02aa53f581f3d4d2a7c3b",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-boss-li-base.webp",
+      "runtimeSha256": "b4fea58aeeda724ee04a46404c4d5979f0f83198e060e1ce1530651c4efed739",
+      "bytes": 1088400,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-boss-li-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-boss-li-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-cafe-customer-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-cafe-customer-base-v001.png",
+      "sourceSha256": "70a4939230b2a33326f6e23b53b9bcfdfc826f0b0bc39add4135cc023ccd28da",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-cafe-customer-base.webp",
+      "runtimeSha256": "1a608021ba560d01ec24ad98fef051d9379cb7cf045f727ef313f3fc6c7dd4e2",
+      "bytes": 1181486,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-cafe-customer-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-cafe-customer-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
+      ]
+    },
+    {
+      "assetId": "npc-cafe-colleague-base",
+      "type": "character",
+      "sourcePath": "assets/sources/20261030-portrait-gap-fill/production/npc-cafe-colleague-base-v001.png",
+      "sourceSha256": "d3cba1bbe1e0f9038cf9acb91833d89579bff4efe1cc4326207f2e75d2c50d9e",
+      "runtimePath": "assets/current/portrait-gap-20261030/npc-cafe-colleague-base.webp",
+      "runtimeSha256": "8f4b0483f22d25b52d1b270993b866beb629730ca7619a8392ab10df2f2d6689",
+      "bytes": 1265974,
+      "width": 1024,
+      "height": 1536,
+      "format": "WEBP",
+      "alpha": true,
+      "encoding": {
+        "lossless": true,
+        "tool": "Pillow / libwebp",
+        "parameters": "{\"tool\":\"Pillow / libwebp\",\"version\":\"11.3.0 / 1.5.0\",\"lossless\":true,\"method\":6,\"exact\":true,\"profileProcess\":\"保留源RGBA，不做像素色彩转换；原生PNG不重写\"}"
+      },
+      "approval": {
+        "status": "approved",
+        "evidence": {
+          "path": "qa/portrait-gap-fill-20261030/adoption.json",
+          "sha256": "b2a0afb97a46e48e74d0d47dc5bb2a74424e540df801c080b162824f92921517",
+          "reference": "portrait-gap-delegated-adoption-20261030"
+        },
+        "scope": [
+          "npc-cafe-colleague-base",
+          "用户委托按正文身份设计的普通人配角基础肖像，仅本批明确现场绑定；不新增经历。"
+        ]
+      },
+      "a11": {
+        "path": "qa/portrait-gap-fill-20261030/image-checks.json",
+        "sha256": "738c4278f87b49e01ef053a5c4887e464f24dbc22a419efea6ff36b599e6359e",
+        "assetId": "npc-cafe-colleague-base"
+      },
+      "restrictions": [
+        "只作当面对话肖像，不把站姿当作正在理发、搬运或交钥匙的动作。",
+        "电话、群聊、回忆、离场与隔门不自动延续；保持原CG、形态与路线规则。",
+        "不从图像补造精确年龄、家庭、婚史、疾病或其他剧情设定。"
       ]
     }
   ]

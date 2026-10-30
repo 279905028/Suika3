@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "canvas": [
+    1280,
+    720
+  ],
+  "approval": {
+    "status": "approved",
+    "date": "2026-10-30",
+    "userInstruction": "使用B作为封面，并在即梦CLI中生成一段循环播放的动图，动图是朋友之间的欢笑打闹，给我最终输出2个方案",
+    "scope": "三人核心方案B v001作为静态标题封面；两段朋友欢笑打闹循环动画独立待选"
+  },
+  "source": {
+    "path": "assets/sources/20261030-trio-cover-options/cover-b-v001.png",
+    "sha256": "c0184e8710cbd37a3c3ff7a0cb164f6b76594f3dad3576ca4a166ca9e056c0fc"
+  },
+  "gui": "system/sui-title/title.gui",
+  "resources": [
+    {
+      "path": "assets/current/title/cover-b-title.png",
+      "sha256": "0998bdfddc7af0ab5a038b1af979b799a62b5029f392b720842b13268c8a722d"
+    }
+  ],
+  "archiveFiles": [
+    {
+      "path": "assets/current/title/cover-b-base.png",
+      "sha256": "3e72b3c39e4023de2bc22798c51c2da7984496fc8631c715312a8eaef8ba9283"
+    },
+    {
+      "path": "assets/current/title/cover-b-base.webp",
+      "sha256": "a9a238942732e03ccdddb0485c77d20ce9d6710c6abcab43fc66b347fc4ced53"
+    },
+    {
+      "path": "assets/current/title/cover-b-title.webp",
+      "sha256": "40ba93f7df4e619d07cfaa073cde750d8193460b4915d5a05ba8b1d87ac4a6f6"
+    }
+  ],
+  "adaptation": {
+    "originalSize": [
+      1672,
+      941
+    ],
+    "resizedSize": [
+      1279,
+      720
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "crop": null,
+    "stretch": false,
+    "bottomMenuGradient": {
+      "startY": 578,
+      "endAlpha": 200,
+      "rgb": [
+        10,
+        25,
+        30
+      ]
+    },
+    "buttons": {
+      "START": [
+        168,
+        632
+      ],
+      "CONTINUE": [
+        488,
+        632
+      ],
+      "SETTINGS": [
+        808,
+        636
+      ],
+      "GALLERY": [
+        968,
+        636
+      ]
+    }
+  }
+}

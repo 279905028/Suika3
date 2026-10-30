@@ -1,0 +1,110 @@
+// Cinema theme: native choose hit-testing/keyboard/values and native GUI lifecycle are preserved.
+var cinemaChoiceTextures = [];
+var cinemaChoiceId = "";
+var cinemaHeading = false;
+var cinemaKeyboard = false;
+var cinemaFocus = 0;
+var cinemaKeys = {};
+var cinemaMouseX = -1;
+var cinemaMouseY = -1;
+var cinemaFocusTexture = false;
+var cinemaNoticeTexture = false;
+// Native startup metadata scanning stops at the first empty slot in the bundled SDK.
+// A successful save's global metadata is a fallback; native load and validation still decide validity.
+func cinemaHasSave(slot) {return Suika.checkSaveExists({index:slot}) || eGet("meta_build_"+slot)!="";}
+func cinemaSavedTimestamp(slot) {
+    if(Suika.checkSaveExists({index:slot})) return Suika.getSaveTimestamp({index:slot});
+    var value=eGet("meta_time_"+slot);if(value=="") return 0;return Int.from(value);
+}
+func cinemaSavedChapter(slot) {
+    if(Suika.checkSaveExists({index:slot})) return Suika.getSaveChapterName({index:slot});
+    return eGet("meta_chapter_"+slot);
+}
+func cinemaSavedMessage(slot) {
+    if(Suika.checkSaveExists({index:slot})) return Suika.getSaveLastMessage({index:slot});
+    return eGet("meta_message_"+slot);
+}
+func cinemaEdge(key,down) {
+    var before=false;if(Dict.hasKey(cinemaKeys,key)) before=cinemaKeys[key];
+    cinemaKeys[key]=down;return down && !before;
+}
+func cinemaAvailable() {
+    var out=[];var id=sc_get("cursor");
+    if(Dict.hasKey(cinemaChoices,id)) for(option in cinemaChoices[id]) if(id!=sc_route_choice || option.value!=sc_hidden || sc_hq_eligible()) Array.push(out,option);
+    return out;
+}
+func cinemaBeforeUpdate() {
+    var up=cinemaEdge("up",Engine.isUpKeyPressed);
+    var down=cinemaEdge("down",Engine.isDownKeyPressed);
+    var enter=cinemaEdge("enter",Engine.isReturnKeyPressed);
+    if(Engine.mousePosX!=cinemaMouseX || Engine.mousePosY!=cinemaMouseY) cinemaKeyboard=false;
+    cinemaMouseX=Engine.mousePosX;cinemaMouseY=Engine.mousePosY;
+    if(Suika.isGUIRunning() || Suika.getTagName()!="choose" || !eStable()) return false;
+    var options=cinemaAvailable();var count=Array.size(options);if(count==0) return false;
+    if(cinemaChoiceId!=sc_get("cursor")) cinemaFocus=0;
+    if(up) {cinemaKeyboard=true;cinemaFocus=(cinemaFocus+count-1)%count;}
+    if(down) {cinemaKeyboard=true;cinemaFocus=(cinemaFocus+1)%count;}
+    if(enter) {
+        sc_set("input",options[cinemaFocus].value);
+        Suika.stopCommandRepetition();eHideChoices();Suika.clearInputState();Suika.moveToNextTag();
+        return true;
+    }
+    return false;
+}
+// Render-only fit: restore all original layer transforms before any update/save operation.
+func cinemaFitStage(fit) {
+    if(Suika.getTagName()!="choose" || Suika.isGUIRunning() || !Dict.hasKey(cinemaChoices,sc_get("cursor"))) return;
+    var state=iGet("state");if(!Dict.hasKey(iStates,state)) return;
+    for(p in iStates[state]) {
+        var x=p.x;var y=p.y;var scale=p.scale;
+        if(fit) {x=Int.from(x*0.58);y=Int.from(y*0.58)+152;scale=scale*0.58;}
+        Suika.setLayerPosition({layer:iLayers[p.layer],x:x,y:y});
+        Suika.setLayerScale({layer:iLayers[p.layer],scaleX:scale,scaleY:scale});
+    }
+}
+func cinemaRenderNotice() {
+    if(cinemaNoticeTexture==false) cinemaNoticeTexture=Engine.loadTexture({file:"assets/current/ui-cinema/png/notice-backdrop.png"});
+    Engine.draw({texture:cinemaNoticeTexture,x:272,y:666});
+    Engine.draw({texture:eNotice,x:288,y:676});
+}
+func cinemaReleaseChoices() {
+    for(t in cinemaChoiceTextures) Engine.destroyTexture({texture:t});
+    cinemaChoiceTextures=[]; cinemaChoiceId="";
+}
+func cinemaRenderChoices() {
+    if(Suika.getTagName()!="choose" || Suika.isGUIRunning() || suiGalleryActive) {if(cinemaChoiceId!="") cinemaReleaseChoices();return;}
+    var id=sc_get("cursor");
+    if(!Dict.hasKey(cinemaChoices,id)) return;
+    if(cinemaHeading==false) cinemaHeading=Engine.loadTexture({file:"assets/current/ui-cinema/png/choice-heading.png"});
+    if(cinemaChoiceId!=id) {
+        cinemaReleaseChoices(); cinemaChoiceId=id;
+        for(option in cinemaChoices[id]) {
+            if(id!=sc_route_choice || option.value!=sc_hidden || sc_hq_eligible()) Array.push(cinemaChoiceTextures,Engine.loadTexture({file:option.file}));
+        }
+    }
+    Engine.draw({texture:cinemaHeading,x:768,y:32});
+    for(i in 0..Array.size(cinemaChoiceTextures)) Engine.draw({texture:cinemaChoiceTextures[i],x:768,y:128+i*88});
+    for(i in 0..Array.size(cinemaChoiceTextures)) if((cinemaKeyboard && cinemaFocus==i) || (!cinemaKeyboard && suiGalleryHit(768,128+i*88,480,80))) {
+        if(cinemaFocusTexture==false) cinemaFocusTexture=Engine.loadTexture({file:"assets/current/ui-cinema/png/choice-keyboard.png"});
+        Engine.draw({texture:cinemaFocusTexture,x:768,y:128+i*88});
+    }
+}
+func cinemaCleanup() {
+    if(suiHistoryActive) {suiHistoryReleasePage();suiHistoryRows=[];suiHistoryActive=false;}
+    if(suiGalleryActive) {suiGalleryReleasePage();suiGalleryActive=false;suiGalleryDetail=-1;}
+    eReleaseSlots(); Suika.stopGUI(); Suika.clearInputState();
+}
+func cinemaAction(action) {
+    if(action!="C" && action!="H" && action!="G" && action!="M") return false;
+    if(action=="M" && !eStable()) {eMessage("请先开始阅读。");return true;}
+    cinemaCleanup();
+    if(action=="H") {ePanel="history";cinemaOpenHistory();return true;}
+    var panel="config";
+    if(action=="M") panel="sysmenu";
+    if(action=="G") panel="gallery";
+    ePanel=panel;
+    if(!Suika.loadGUIFile({file:"system/sui-cinema/gui/"+panel+".gui",isSys:true})) return true;
+    Suika.clearInputState(); Suika.startGUI();
+    if(action=="G") {suiGalleryActive=true;suiGalleryPage=0;suiGalleryFocus=0;suiGalleryDetail=-1;suiGalleryKeys={};suiGalleryPreparePage();}
+    return true;
+}

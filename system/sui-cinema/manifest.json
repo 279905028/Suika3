@@ -1,0 +1,6213 @@
+{
+  "schemaVersion": 1,
+  "canvas": [
+    1280,
+    720
+  ],
+  "style": "电影侧栏",
+  "approval": {
+    "status": "approved",
+    "date": "2026-10-30",
+    "instruction": "使用方案三"
+  },
+  "resources": [
+    {
+      "path": "assets/current/ui-cinema/png/advance-1.png",
+      "sha256": "422603eea555c25bf2aecd72c6661d7776f0bb7d708f9a250996d930e6d1c2ea",
+      "width": 24,
+      "height": 24,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/advance-1.webp",
+      "sha256": "6505e99898776c2e84ba6067af0a3bb5014c3311f774a9092144b347e054b083",
+      "width": 24,
+      "height": 24,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/advance-2.png",
+      "sha256": "8ee074803471381289e9024051460529932bf863424f731d5dd421577a89103a",
+      "width": 24,
+      "height": 24,
+      "alpha": [
+        0,
+        120
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/advance-2.webp",
+      "sha256": "1efcf202407482d7759a22cb3ba3f437ffc423cb72cc9009994ce38d2fc913e2",
+      "width": 24,
+      "height": 24,
+      "alpha": [
+        0,
+        120
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/auto-save.png",
+      "sha256": "c3d957e569aaac5856d2f28005fba92f4a291394c605f2e8ac6e9c74792fa10d",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/auto-save.webp",
+      "sha256": "0bc9a4d0023184755e02244a425366d8cc270f7748d507ac07dfde69714637bf",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/auto.png",
+      "sha256": "d65abd6630c297fdaef288591b0ced871fef000754703b194f83bfe75efaa9bf",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/auto.webp",
+      "sha256": "316a4e7d0f1c14211cb78d24ee382526cf91a6756342cda2cd72be3e235c4038",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/back-hover.png",
+      "sha256": "bbf2da25d32bed58fa083a0c7b9f45caeb31448a48fdd2d8c732f39f996bcbd6",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/back-hover.webp",
+      "sha256": "9b0e67d165b309b75b13bf3c9e517581907eeae3299e997ecde5e0d1c4d7dec6",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/back-idle.png",
+      "sha256": "07c3f596e194c98f40cfb1060cff413281e8c96bdb7a9b33020a0cf949b778bd",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/back-idle.webp",
+      "sha256": "f250688348f2796b1704a6336bf4b2af142b242fc2dac2355d6f624eb74232e9",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/back-press.png",
+      "sha256": "2e771d0a28140826ac94f0c705b2277b11043f50ef3fd24d8c22a51ae5248cd5",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/back-press.webp",
+      "sha256": "779651ef7bbd8822d04ee3ec31c46a401d1c42507aa41d52380833e17fd86be4",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/cancel-hover.png",
+      "sha256": "5270b99da36de98f96ec0c250efcfd34a62f78832e07d7f8370ed43fc0f0f2e1",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/cancel-hover.webp",
+      "sha256": "6d3358a6f8db8c118d8a80c3108dbc49c40f862a69b7f27f60b31a5fe0eacf44",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/cancel-idle.png",
+      "sha256": "7b04f2c071bea58e19962c650123112836a1abd38eada8be5407aaf87ca48553",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/cancel-idle.webp",
+      "sha256": "9100f5dabfb61d22c78b2a6156090e93716d4894fc596b5508fe62617c278714",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/cancel-press.png",
+      "sha256": "def942e311f65ea05883094e9b633c09ce70c47fa6eb2a56b34643b98c9418ab",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/cancel-press.webp",
+      "sha256": "13490616e51994d8dd37a94465fd3ce1dab97037e896b9f7c9fce25c3b8d8e42",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/cg-focus.png",
+      "sha256": "ca03e3ca9c73697d851f886441fb273c47e2ab3985fc67605ee2c479d3bcee7e",
+      "width": 288,
+      "height": 184,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/cg-focus.webp",
+      "sha256": "28731237ab3ca3a836ebd24581c90b808eb95a3222a0a9e20115b95a5524cb3c",
+      "width": 288,
+      "height": 184,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/cg-locked.png",
+      "sha256": "3d33c9b2e0dab90d6164b2e728daa2741033736feb51b798e2a621cf4f3c0132",
+      "width": 288,
+      "height": 184,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/cg-locked.webp",
+      "sha256": "e6c61fb03cdc727b94a9b8f1b0fbb9c341010aca84ad9fde4a9394fea2d58a06",
+      "width": 288,
+      "height": 184,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/choice-hover.png",
+      "sha256": "30be1ff287740a8e5f10bfaf11064d33314f0e45dad21e9b4c18fc5f72b472d7",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/choice-hover.webp",
+      "sha256": "751db6e01136de0b79a06c6bb7eaea71731d6c572500240e756fd4cc60c0d999",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/choice-idle.png",
+      "sha256": "6543a06ef16826066800ee4746544dfc141ca030e376160e64afbed3035f3cb8",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/choice-idle.webp",
+      "sha256": "0a384a5764c19d6479d8f21542d355406196e5115e1ee4826eda5a7b498f754e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/config.png",
+      "sha256": "f5ec5b69d7a98d56630e3f954347a44f6c89f4cb61633e43ae2eef00f16b1b17",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/config.webp",
+      "sha256": "e45565b0b3a7a0864fae46df6e5d9ef4f96967ddd70ae2c178610b19fb564997",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/confirm-hover.png",
+      "sha256": "849845f9c501e20d9f54d42091c9e508dc3cc44ee8e8831959d012584e56ec4e",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/confirm-hover.webp",
+      "sha256": "74214039b402d5f85b8346aa7feedcce4e34a91aa12a6c92933f8e0da50e96c9",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/confirm-idle.png",
+      "sha256": "0f54f29e73f610d7f3dd30cd7b0778414db3b5cb2b22901ebd431686ea01792a",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/confirm-idle.webp",
+      "sha256": "ede823d8c5c84f92aaa5acf5b4d073d658e4221d91a6c9f171d1685254bff4db",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/confirm-press.png",
+      "sha256": "c724ec2b1ad0a57915b3d8dbfc4a8c723d6f5efd46d17e38bd15dcd5d23c485f",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/confirm-press.webp",
+      "sha256": "c525e7215b0a261d6019673a45848c0763cbf8841a35bf3ce95aa4478e8b7f81",
+      "width": 224,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/continue-hover.png",
+      "sha256": "d7f2e74ea8887d90c49606de2962d3ac60b72e8d0efa8c1ee7a54a2bff7c1aa1",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/continue-hover.webp",
+      "sha256": "2fb3d25d25add9a40cbf9e3f6f7b590fb427b7c969303eecd6410b7ea794707d",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/continue-idle.png",
+      "sha256": "aeb2dca695f58870586cf7990c017f61d9969796111cfd7af19ea78c10d6bbda",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/continue-idle.webp",
+      "sha256": "0bc2ec25ce3f57d51cbc57b0814a101984b79dca35041efea6ce74a8b1128c07",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/continue-press.png",
+      "sha256": "5637b335bc39db5ae55598ab1aaaf9b05f2fd2c76857c8fe15a701458615abc7",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/continue-press.webp",
+      "sha256": "87e1d2c5e7c06e597b395a938d9a32157e06044c10b9bd77f8d0abf5548c34e7",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/fullscreen-hover.png",
+      "sha256": "767742a1b176bce9c6aea172ce82a88c4ca59585703584ac04e74e6b49cc948c",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/fullscreen-hover.webp",
+      "sha256": "6160356def4f7a468ddc8deca1665f05269a0bcafc60f76240079246d91e3d68",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/fullscreen-idle.png",
+      "sha256": "e018f6184ab0362bfecabb91340058bf8759d7c0a9fa6a9fdc7c87ba6c549081",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/fullscreen-idle.webp",
+      "sha256": "353ed1b3eb2678d3dc3116afec21dcd9c21752ef5af6c310f356d0d5d94a6c3a",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/fullscreen-press.png",
+      "sha256": "9581261ea2fcabfbf64b167c6a3112d53767e7018e1b47334f44e81a6e05b5eb",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/fullscreen-press.webp",
+      "sha256": "523a03cad2722e66cac5fb8c4e84e27385149d614db29a07dbe45c6b870115ac",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/gallery-base.png",
+      "sha256": "27d6f6a924e68bd1b9a962ad52ca2d4019f56b9ee78f194ea94b55cd892c9d82",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/gallery-base.webp",
+      "sha256": "b8aa34abbd5a6d4b2a8000d6e0d42f7d121c9378efa0a4b66bfb57bc0cfec31b",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/gallery-hover.png",
+      "sha256": "f39bac0cafaa56a8cc6130979ccbf5e83cba951ee0a1080d03297ea048766d85",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/gallery-hover.webp",
+      "sha256": "9be7a1295d3e90d39bd7cc65b0ea0f6236853421033bcf83f56a63478b1a9a15",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/gallery-idle.png",
+      "sha256": "1e672e9b91965cc2adb33a80c53e7d249069633d59b6b08c87d3ecfe620a09f2",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/gallery-idle.webp",
+      "sha256": "c6cf4b306827c7f2a11253b2d3ae03aaf94b67cc7969408ce46323507fd055c2",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/gallery-press.png",
+      "sha256": "79d48b16f5da9ffc7bd00b54ef431afa417b78301a22684f91f439c9627f63b0",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/gallery-press.webp",
+      "sha256": "487b04e7525781ad0d5b72a7e9c2d3b015b39b8fa9dcb4df601336c8971d54d3",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/gallery-view.png",
+      "sha256": "9994b0eae383ac2fbab60b2959d1541e1cd09adb6986af93abb628be5a743c3c",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/gallery-view.webp",
+      "sha256": "dd5b298ddfa40481ab577c6ab9fea545190bc803046a4b54b95e20730040104c",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/history-item-hover.png",
+      "sha256": "976bd56fb68b2808d81db78551f4d538241b33fea79af5864d5661ae793e15b0",
+      "width": 880,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/history-item-hover.webp",
+      "sha256": "233aa9b96a705b9d3ac8fcc79a0c2d5725e25c241462d3cc0227d15b6bdda9cd",
+      "width": 880,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/history-item-idle.png",
+      "sha256": "976bd56fb68b2808d81db78551f4d538241b33fea79af5864d5661ae793e15b0",
+      "width": 880,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/history-item-idle.webp",
+      "sha256": "233aa9b96a705b9d3ac8fcc79a0c2d5725e25c241462d3cc0227d15b6bdda9cd",
+      "width": 880,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/history-item-press.png",
+      "sha256": "976bd56fb68b2808d81db78551f4d538241b33fea79af5864d5661ae793e15b0",
+      "width": 880,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/history-item-press.webp",
+      "sha256": "233aa9b96a705b9d3ac8fcc79a0c2d5725e25c241462d3cc0227d15b6bdda9cd",
+      "width": 880,
+      "height": 208,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/history.png",
+      "sha256": "29a2f2b6be37c05b63d9183b27575f09290f03e1b381a9211b326ecdf06a4634",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/history.webp",
+      "sha256": "64a9cdc63cbebd5818c23fadfa850fef6b1ddcde901ed4972791b77d26bc62df",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/load.png",
+      "sha256": "dd1abed322be868dc6a666a5b83b03e0ef8da2a55a094f7b90c67144fe73a6b1",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/load.webp",
+      "sha256": "bcd91df519c2552a92c6c6aad07e4752c1155d69d22e61e1f4b04e540034134a",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/menu-hover.png",
+      "sha256": "a2f042e5939c3f4c155145ec7b09180970a5cece2cdd28cceaf3d8a05fadd39e",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/menu-hover.webp",
+      "sha256": "69c7779f7f5d6566439eb822cf6657e7e82cbc266561764256494200b31f2ed9",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/menu-idle.png",
+      "sha256": "f7d1480767212d205cee79df3f15dcba75b1cb94657ad7ae25adae2a109921bc",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/menu-idle.webp",
+      "sha256": "903a095009836164668e18bfd1e45c8095506125c23e39d2ccc9d412d02d8d2f",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/menu-press.png",
+      "sha256": "f171f8e57e815e3edf857cf4c821d37dd854dce75c435831c23cfb0f68e668be",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/menu-press.webp",
+      "sha256": "d1cb9e113d3f101e538de7eb03e4ba08caeddf2e270fdddebd053a40df27949d",
+      "width": 128,
+      "height": 56,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/message.png",
+      "sha256": "10b9dff2c09388ebe76fbbce20b1db3bc10bf62492ec161e4819c74a078c3a90",
+      "width": 1184,
+      "height": 206,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/message.webp",
+      "sha256": "db2db898cb8c0de4cb9acd356bb1d48b76e721b01752c4c5f9e22734eeafe31f",
+      "width": 1184,
+      "height": 206,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/name.png",
+      "sha256": "bf248b49573ce204034a60ce6ed588bcfaa2978223ade6beceeb4a88d3c0b653",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/name.webp",
+      "sha256": "636cf55b1829a3cc86073a87b5ee58630799d080039a4349d687a9d09e145c2c",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-auto-hover.png",
+      "sha256": "c91e8c1cbd6788a3689241c3744a49920bb67982056d37a97be2182410748b50",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-auto-hover.webp",
+      "sha256": "2a0bc701325dbb024f54efed4262fb51c94be25d2292978653e8d30eee8c38d8",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-auto-idle.png",
+      "sha256": "b218c072046e557438b42fd28dfad9d0ecbcb8874b3bbfede6e14d0f5bff0af1",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-auto-idle.webp",
+      "sha256": "643e1fbb0d539adea47c2180b8e898db060e11fef8322a0275a3ca2892e89957",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-auto-press.png",
+      "sha256": "b568e5e046f4264e5fa8266be970fadf80ea8bd386347b074e0abadeba7e95d9",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-auto-press.webp",
+      "sha256": "151ad39a1c0e3295f777cfcb51bc477731b1128e82424b348948a09e57d3e143",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-config-hover.png",
+      "sha256": "ed43152edc99952cb9c40fb471258de1b8d777348db2dd779ce493c4974f3c14",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-config-hover.webp",
+      "sha256": "7e2bb44833a9f5bd978ab9eaa630486e11bf5d5c0aef3e4034ee16006e6f6984",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-config-idle.png",
+      "sha256": "a3bad67c3b1af9ef356346631f848839f074c6bedc985f96412027de70bc73ac",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-config-idle.webp",
+      "sha256": "ff9f270a6ac40c90b8e6b7bfd0a37d6caf1acbfd44a632e377eb3bcf6a750f74",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-config-press.png",
+      "sha256": "11f91e8c8f014aed70273fa5016587de7d4a9a79b0bad06936d90d163378ec06",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-config-press.webp",
+      "sha256": "38c410c12121761d57ac354ef3b8bb51b23e40f151f290f9bb6836b39eaa1a38",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-history-hover.png",
+      "sha256": "7535b78d6a57ecc85fe29e0b7390ba503ff55179fe1d8abda7d761a7edbf1f84",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-history-hover.webp",
+      "sha256": "a916e8168797d9295fb1b357f6bc6aa2680d404e17f3542ef4c863ce4fb97dd7",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-history-idle.png",
+      "sha256": "46d7c0f92abbfddd85de965f17a892812a2efb9f4b21bc39f9d0e8772c724481",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-history-idle.webp",
+      "sha256": "b0e067b513d41906ec07c9e012fdbb162fdcbc1261971577f96d8515efd0b7fe",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-history-press.png",
+      "sha256": "58367038032801880024007cd44741fafd75dbdb99ff221c3d3832a42a13f79d",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-history-press.webp",
+      "sha256": "2d11b260725759ebc5f7f9bbfe682f77661f7aae7a9bfc1c2e68a131f552bf08",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-load-hover.png",
+      "sha256": "1ac516e4d35d8283e9227d0c6bc1f6af10e3ac706c2d0965fbed12525c03fab2",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-load-hover.webp",
+      "sha256": "ccf125d8cb8bad61f5e4d917667fa924ddbfcbc4af3d971be7f8108c06abcf48",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-load-idle.png",
+      "sha256": "779a5aded3db73e9a02f0de29971237104cc77112756e476a074611fdcbe39a6",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-load-idle.webp",
+      "sha256": "d65cdbfa4b066c962051d6410083f96caca933cfab1124a44479ce5d75e82894",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-load-press.png",
+      "sha256": "e43cf50b86a87dafb674e8d93c91bc1787ea9ce09cfd40fd08e21810bc77b9bd",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-load-press.webp",
+      "sha256": "5408bae744d044f940f3a5a750b30b911799a7baf3cc3d73eeb09218f6c567f9",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-save-hover.png",
+      "sha256": "254dd5fd87ecbc804d5e5bdade8b3449c8feb9b4cbb654d68863032a4001c8da",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-save-hover.webp",
+      "sha256": "0ce6ac9d40418667a35fe5850a3f36be0b0227de7e7f49c3e5255805a508c28e",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-save-idle.png",
+      "sha256": "929c7214ad20a18adb29ebc440aaab14cd190876c57aa16924c77122c6936784",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-save-idle.webp",
+      "sha256": "f1b0ad8d8aa09f63282f10ebc22231f66659105b1f863129ab4622cdefbe20ae",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-save-press.png",
+      "sha256": "bafa1b95c95cca620cfb47de80738905f3205f24963a15efe22b20efcf0e22c5",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-save-press.webp",
+      "sha256": "b3eae054d3d9d17dcb18a2888ee4934ca12130b5ada929d40bb84a64d01c2e29",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-skip-hover.png",
+      "sha256": "1b99cba7dcb0da440b5d715916880bb6758bc6d88be4c92a9dfe59fd82e642f8",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-skip-hover.webp",
+      "sha256": "92458e0a2ab5ed7b7a6906066b85b81016111b65172c39aaef33a0491bf05f2c",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-skip-idle.png",
+      "sha256": "baef408a7e65090fa4ca463bcd847615df69c0416339c2262ae5bdffbe65d74e",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-skip-idle.webp",
+      "sha256": "366029259e1c7cc84e5119b61ddddcfa9245ff59632d1c45fae90ea371ad4313",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-skip-press.png",
+      "sha256": "44e3c0715b4d84ea82eb7b917fcb2e0ca2b06f4c735af15f39e5e821b2198718",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-skip-press.webp",
+      "sha256": "da26f85c48883cefdbad4afd41cae3d4c06b3f472f8dbcd84d6b4a3d418fbc35",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-title-hover.png",
+      "sha256": "c4e88974692e86bcdcc1c1637cd9e39b5b5e81a77284f6f7d1acf6a2ff4a34f5",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-title-hover.webp",
+      "sha256": "ff997b7a1c2cac4e20338daa1d0de2b132e5a3bf183115302bce80a06cf3620d",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-title-idle.png",
+      "sha256": "dcc8554e75aedb93845239e420091b90abff80e75412f3521289b4795a48e4fc",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-title-idle.webp",
+      "sha256": "b45037b5b75d27fd66353341a98f59299b45911b2bafcdc99c05a49a06e8d194",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/nav-title-press.png",
+      "sha256": "9e97a8c077fe54c26845ac9704ffc028e166543cc4ee3662f695c2e2541b962d",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/nav-title-press.webp",
+      "sha256": "79c52d9993ef016d6b8513c5fd61a6596d0f7f669bfe80a1cf4dc07f8a01cee7",
+      "width": 328,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/next-hover.png",
+      "sha256": "9ae7ed3e787549d48068cf9b9182f404965570cc78222f1466f700e5cd1c05a9",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/next-hover.webp",
+      "sha256": "b6a833ef4276bf85bcdc449f2dfc4f6137bc97fb4886e279ba8ddd8edb4391de",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/next-idle.png",
+      "sha256": "53566274bd35354bf7ce99d8dcf1ea54995639ec1324cac987c9792ab2df5952",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/next-idle.webp",
+      "sha256": "980d78abe08ee72ac86cf4447d8a28fc7d4f233114d3a108bbea3c0f05a443fe",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/next-press.png",
+      "sha256": "9b8f55d6bf171989046e4db2f0debdce3493f9135a3f9e1185a9d480f43bf2a7",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/next-press.webp",
+      "sha256": "02151c5bebb8c703ec764952a43b726751f25dec82f8d6c2fc5112def71576fc",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/preview.png",
+      "sha256": "c359991601840a8d9960740e643d0f23b347c9485840c641cc9c7a408dc13379",
+      "width": 440,
+      "height": 96,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/preview.webp",
+      "sha256": "16a126520607cdfb9820eb959076bd5ab458446e7f1b50b24fd89bcae35fce6e",
+      "width": 440,
+      "height": 96,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/previous-hover.png",
+      "sha256": "03befc9e8bfe6a6fd40add84cb3a117308763c472e73471b048a7783d621b141",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/previous-hover.webp",
+      "sha256": "d1d7b3f3339dea7eddfe4fbd1cf3b31914a0f84aca95e3eaba0ce737d7ded72c",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/previous-idle.png",
+      "sha256": "e9baa5ea94987b353a5f1eb879269b42dca4edb888f63765ad82a25997eb9faf",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/previous-idle.webp",
+      "sha256": "c3f0f89d3167779323f886a080e6c96a6b3960414f09837775b83197d674a2c9",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/previous-press.png",
+      "sha256": "cb7acf2d6bd7539f04cd783d825885b1de67a9582ef34669a792cdee87aa26f2",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/previous-press.webp",
+      "sha256": "bb3405ac02c0417faf57d4de179b45e1742a8811894faea313c9430ddaa3896c",
+      "width": 176,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/reading-backdrop.png",
+      "sha256": "7366ff2e69826c3705fc0bc4191873194ad41e73dad6e3d771e075bfb714326e",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/reading-backdrop.webp",
+      "sha256": "6de11d6ba98524c87b699e1492fa1896f3f75b1974ee90be21f791389ca60291",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/reset-hover.png",
+      "sha256": "fc714cbb341aad40e5b83582d4a2eb0435a8f5fd8cd461a2a3ff4ebe1abe8873",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/reset-hover.webp",
+      "sha256": "a113c5157f055811bb72bfb5310adbc9a56f4d1ccab20b051d825788004ad0f3",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/reset-idle.png",
+      "sha256": "feefd2fe7a88c2ba66a62b8fd4cb729317c5a2ee575afc8370f35d8b70e0327e",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/reset-idle.webp",
+      "sha256": "6c71b285a09e829412bb9aa883c137b44463e03d31ae055d0565de66f7035745",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/reset-press.png",
+      "sha256": "606001f2f7584a1c8fc06fb8d17f9734d851caeafb89d061e73c45e7434b7336",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/reset-press.webp",
+      "sha256": "6f8a582afd500e194000a0ba10ed157d5ad494b80d0b0d8ac5ecb447253402a3",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-0-hover.png",
+      "sha256": "f2b63f69864f357ff6f8a0984da7c2e606814f2383ec056d6e39c7ffdde1685f",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-0-hover.webp",
+      "sha256": "a326bffc945924378a6a95483f138cb24704d7eceee6a4b7c69d9b35e638477e",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-0-idle.png",
+      "sha256": "741b840f9b7454a6b077be6939f890782a5e24a5cd12d74dcf961130c29432f8",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-0-idle.webp",
+      "sha256": "030a6945fcb665be60515245883382551661d763ada41781d809835bfb52cafe",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-0-press.png",
+      "sha256": "f2b63f69864f357ff6f8a0984da7c2e606814f2383ec056d6e39c7ffdde1685f",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-0-press.webp",
+      "sha256": "a326bffc945924378a6a95483f138cb24704d7eceee6a4b7c69d9b35e638477e",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-1-hover.png",
+      "sha256": "cd4134a371820ebedded55d0def77cab1e2d836d9697901b1bdca0ba3fc0ac09",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-1-hover.webp",
+      "sha256": "d86112f7efab8d99d8b59a79bbdc5bd9aa1b147c7af6e0837d276b782add7775",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-1-idle.png",
+      "sha256": "8f152c2a1a1be5a6fe2f84c2b6cb843cac2a7ce9857e988aef252b8609e52a0d",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-1-idle.webp",
+      "sha256": "ea9f84fc9f1d71cf4b4bbacc8df3b88e03928808c504f88ff7857540af40b91a",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-1-press.png",
+      "sha256": "cd4134a371820ebedded55d0def77cab1e2d836d9697901b1bdca0ba3fc0ac09",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-1-press.webp",
+      "sha256": "d86112f7efab8d99d8b59a79bbdc5bd9aa1b147c7af6e0837d276b782add7775",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-2-hover.png",
+      "sha256": "b542b3ca40b451495dee02bb2a56cdeaebaa9121f62d12890b8d318a5ef80015",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-2-hover.webp",
+      "sha256": "d76dc9791c4aea815034a619735230c0b197b403dea7256bbe646b4b2cc08296",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-2-idle.png",
+      "sha256": "aabc82ba9b40636923fbf7d844167f0bf6d65a2ed2f3e2cef7a355f5682638fd",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-2-idle.webp",
+      "sha256": "e27a1957fa4f6a80b071cd6706d42ac791139b856d0d2e0cb2da8ab25b0ca8b7",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-2-press.png",
+      "sha256": "b542b3ca40b451495dee02bb2a56cdeaebaa9121f62d12890b8d318a5ef80015",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-2-press.webp",
+      "sha256": "d76dc9791c4aea815034a619735230c0b197b403dea7256bbe646b4b2cc08296",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-3-hover.png",
+      "sha256": "af41659f08768c405af3077dddb315e779a1772619f6b52a02eeb54ce5bb7ea9",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-3-hover.webp",
+      "sha256": "55df320031926c7c5306b53a07b8ecbf02837cc9dc88014369907657b3221b25",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-3-idle.png",
+      "sha256": "84fc8471fd3d286db8d41b6bea6e7366dba8299bc3611bb1a6272a418097e96e",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-3-idle.webp",
+      "sha256": "3e3efee9b167ffac8f0aaa33145a93936d24427f2cb4a8c839a4e9f2de4b8c1d",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-3-press.png",
+      "sha256": "af41659f08768c405af3077dddb315e779a1772619f6b52a02eeb54ce5bb7ea9",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-3-press.webp",
+      "sha256": "55df320031926c7c5306b53a07b8ecbf02837cc9dc88014369907657b3221b25",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-hover.png",
+      "sha256": "bcf5b07a05347b6356473e65c556d9d2c5b6561db17767b0cd6331acf8101340",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-hover.webp",
+      "sha256": "aed8d8e39ae56e8e5eb05bc41c7158cd3b971d63fd827c75b2108be5d06daf20",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-idle.png",
+      "sha256": "06fdb3da65f0d6ba7e9b38132cb031a0bdd9eb921941c94209631e483a216f2e",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-idle.webp",
+      "sha256": "cc05bfcc4ce1949ed3280fb691448c2c592d47e67e89bb6b49f45e4a6925690d",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save-item-press.png",
+      "sha256": "bcf5b07a05347b6356473e65c556d9d2c5b6561db17767b0cd6331acf8101340",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save-item-press.webp",
+      "sha256": "aed8d8e39ae56e8e5eb05bc41c7158cd3b971d63fd827c75b2108be5d06daf20",
+      "width": 456,
+      "height": 216,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/save.png",
+      "sha256": "4409281de6eb6b393347debdce6f95541cc10e890b4ae6ff37b47d9f83c6fb3c",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/save.webp",
+      "sha256": "8ab580fdfc7384359b24c25860d97d198de92c8fc3b7980c505decbd2e46f8c4",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/scroll-hover.png",
+      "sha256": "afe2c794250b5f841afbae848eadf71e79ec10159cf86ca3cd29cbd499d55aa3",
+      "width": 24,
+      "height": 424,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/scroll-hover.webp",
+      "sha256": "95363e4e4cd69661861fb41274736f33d1701512651126d854798254e9d075f9",
+      "width": 24,
+      "height": 424,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/scroll-idle.png",
+      "sha256": "0a21a296231cd59768fe673da5b7ce16d5350ab6bfd5241dfa5cf988bf2a099a",
+      "width": 24,
+      "height": 424,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/scroll-idle.webp",
+      "sha256": "f98db768e437748f3990a93f27cf08274b831dd2f85a776629f37be2972d06bb",
+      "width": 24,
+      "height": 424,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/scroll-knob.png",
+      "sha256": "9765080e27081ab2233a4b812bbd829d8b0f24deefa0d948d7bdf6c1e1052d98",
+      "width": 24,
+      "height": 44,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/scroll-knob.webp",
+      "sha256": "51d1e1d299f2a00c65414516211f460c384514c8fb3e30ea42230c295eb6b357",
+      "width": 24,
+      "height": 44,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/settings-hover.png",
+      "sha256": "91f7e2601fb31bffd5d0d16992b662eed7fee7636f9338c21fd9e4cdb87fa907",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/settings-hover.webp",
+      "sha256": "0ac15f953f57a3898edb0e63b4b81019e9a7c01069fc078e7795f6508aa6b413",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/settings-idle.png",
+      "sha256": "3d0672ee4d1ef8e0a99dcbef0b3138b129214b2a8f8266bce1c8767416ec7388",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/settings-idle.webp",
+      "sha256": "7f3ca947908eec5e5d9a6b60c7bc471d19bd7a652b82cc46cbf1b1ad88bf28ca",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/settings-press.png",
+      "sha256": "070889897ea8f82e5603182d0a1014e70b8e5f1fe1674076080675efe3fddf41",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/settings-press.webp",
+      "sha256": "e6edd93ed45c48aab8004c4c682d23a217da278723ff0375eb8a4dd34982b4ea",
+      "width": 144,
+      "height": 56,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/skip.png",
+      "sha256": "d8fb95dff718ea85b969d5c843bee60af4e74336f1f0ee0e1bdb1b26ebdb5f2e",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/skip.webp",
+      "sha256": "b4195e9810b0f33efc170b9fbaa940b1d0646ef54b6b9feb60bfd5028c793586",
+      "width": 240,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/slider-hover.png",
+      "sha256": "73050be00631dc031081add6da09dc85a99696a4fc03428d3ee81d34ba0774d8",
+      "width": 440,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/slider-hover.webp",
+      "sha256": "37ee106a2fefd4ac2fecffd516898c941e3c317a730beb8f6d2118fa04594bb1",
+      "width": 440,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/slider-idle.png",
+      "sha256": "73050be00631dc031081add6da09dc85a99696a4fc03428d3ee81d34ba0774d8",
+      "width": 440,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/slider-idle.webp",
+      "sha256": "37ee106a2fefd4ac2fecffd516898c941e3c317a730beb8f6d2118fa04594bb1",
+      "width": 440,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/slider-knob.png",
+      "sha256": "d538a6eed933077b0f0d3a01e6c111e53dd87afcf81ead10a2f19a1688f0b0a3",
+      "width": 32,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/slider-knob.webp",
+      "sha256": "03b960ffcf782a386093ff3e9ff69a31a73d08aa8ca0d3aa7f593d87d564dfbe",
+      "width": 32,
+      "height": 48,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/start-hover.png",
+      "sha256": "0838b49e5c57afb5d553052888bd6988074d0d3673b4fde65f3be07370e0278c",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/start-hover.webp",
+      "sha256": "2f2197e01f0b2837a2f7085264c090e1546aad9b37b6e4650ff93820dc6793e4",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/start-idle.png",
+      "sha256": "fdf56a295bc4e775a5fd8f4a6f11fe205408345f2c36972c3811e70ede966fc6",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/start-idle.webp",
+      "sha256": "a561a96392d450b06ad798be248b61dcf3095a787034ed18c54d41800439f88e",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/start-press.png",
+      "sha256": "71b553ee756467cb2a9601465b7265312b3a8d743ac475d9b511cb99223fbe86",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/start-press.webp",
+      "sha256": "a8ab3314ef4d36fac13465ceaef609475a9f1b913397c9b45395c33357fa02f1",
+      "width": 304,
+      "height": 64,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/sysmenu.png",
+      "sha256": "e3655dfda5d857334d2fe4113ec7c80871d7f16151675808e883d9b1632f6557",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/sysmenu.webp",
+      "sha256": "a53f9670d26d4871ee83c1675f55b19f3a78f12cb533e78e8be29a0e07a8de0f",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/title-confirm.png",
+      "sha256": "3918276207dd1597c38ae42c5ca08bcefa9146e4ff3534b65849e277c6f7d962",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        248,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/title-confirm.webp",
+      "sha256": "c64a1e76b0e691337c31fe62fbc33d49f07a25beefcf2229eca7e6091b660c75",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        248,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/title.png",
+      "sha256": "0ec627ad17d53f8cd03d7c10e4cdaadffb6e62c24e5af807e8699e70b9d690fb",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/title.webp",
+      "sha256": "1e578dbbafba555e47d31f90777b7f9fe6da590a9d3c3126f8396e7cbbbbd212",
+      "width": 1280,
+      "height": 720,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-menu-idle.png",
+      "sha256": "55a96230ea64d4fa08cfc9094088d1c334db3fd192c9448c86eea8807ea0cc24",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-menu-idle.webp",
+      "sha256": "d261fa483d08f9bf184d4c1a2af7d15fc7babb03b43614057f30215b4874a86b",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-menu-hover.png",
+      "sha256": "9fd76f871031bcacf9156f47cbdfdfb3ad86e6afa944428bc4dcdf69d2b079c9",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-menu-hover.webp",
+      "sha256": "d8f6bca03679650432cc549b42773cd3a878d34e2ad9178b6aa5e5f30126fff5",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-menu-press.png",
+      "sha256": "e1a68900ab740b765b0f49c1cc56be0e6e50f6519a03adeca3371c982a1b756c",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-menu-press.webp",
+      "sha256": "aa1b965dfd5d8c52f92b2af85f01b85adce415ddd1df824cb22d3a84867e3396",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-load-idle.png",
+      "sha256": "5e1ff339dec291469d69d63f3fb57a4e68ebc3bde20c4055963d05633ec5a928",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-load-idle.webp",
+      "sha256": "4fb2753c67c40388b9dff04be8db8a8373e2d8302d322430371caa3165bb7ea0",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-load-hover.png",
+      "sha256": "32717b4e01a52f364b8c7ae159da60ab886e25e4f2f76ce50f06bc3e36a0aab4",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-load-hover.webp",
+      "sha256": "01ebdee840dfe5465aeaaa0b2d7ca91ebf17a3a44f9f12133b2c10136da9bc56",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-load-press.png",
+      "sha256": "21469b0dd9f60b10f67d9caf304d82e3a9860eb0d74ffc2e57d5ff4acd58e666",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-load-press.webp",
+      "sha256": "4a1e976911db8aa4fc665e638f5790865649fdfc7807422f22928c742a7b3b9b",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-history-idle.png",
+      "sha256": "333665951a100138944d64421a34fe3a103a93f603361582aa5c1204cc5b1214",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-history-idle.webp",
+      "sha256": "9e08ac6fa6dbf4ef8a094340aae5a7e6b27e1710332110de2f2b75dd2fa45b71",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-history-hover.png",
+      "sha256": "db68827bb7b086cc0518f46dccc733822774e9ad80abe373b346c9860515c382",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-history-hover.webp",
+      "sha256": "0884ec1d942fea54bc674d5631476ed2358d506992922a584bede9aa6bb34d76",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-history-press.png",
+      "sha256": "d9cd6a78c89841401a0591df9bb97492410555ca4b8df05e88c3bc73d79bcd7c",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-history-press.webp",
+      "sha256": "bf2d4b9f730aa37781bb51a957f842410e0f986d68e11b5ac0adb84ab7a482a5",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-config-idle.png",
+      "sha256": "aefaaa4dce73d2bb939c207eb5ce3891bf39cd5cdb6661f42d5a28ddbc6806d1",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-config-idle.webp",
+      "sha256": "41b0bbb90db891ae9dff5a8cee4ae4a7f43dd3578efbcdbe28a596485a1e90be",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-config-hover.png",
+      "sha256": "1a2f4ee8da605c4f2c68057fdd6179f9446a5db889390665b359e8b9d5906883",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-config-hover.webp",
+      "sha256": "ed0f8070bdfa4bba38ec11ddd56d30d30890b813010246005776638382f21733",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-config-press.png",
+      "sha256": "4a3bbb34195dbfc18d947dad167522899af2a027b1cb72d898203d6ac6b6fb3d",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-config-press.webp",
+      "sha256": "4fa85162ad012cd39be90f009babae76ec1193e71ddfc8e1037307df359f2702",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-gallery-idle.png",
+      "sha256": "a30fb2d064007e11b69ffae845c8e74e19b39e3f0e61f593b59494e088c3c530",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-gallery-idle.webp",
+      "sha256": "9fc71c42c91708ea681a974563d7074964430d502fd78831a85cc59ff5e2ffc9",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-gallery-hover.png",
+      "sha256": "ef1ad31af29cf4b782851f6c797a4e382bebab47e4bde401deee9279fda98866",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-gallery-hover.webp",
+      "sha256": "d99234c7abd2875ddb2b7e9e30fcb3386d5411b53711b00f849a53a1df3afe5e",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/side-gallery-press.png",
+      "sha256": "e92e5020728a502396884e9f1faa5b172662632bd2f90ec8c302125cc9ad6d99",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/side-gallery-press.webp",
+      "sha256": "495eff192ea1312012dab952de4938402c31dfee3ed4f3ea6273bbed50ba2c2a",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/tab-save-idle.png",
+      "sha256": "ee1c114bbde3271871b354bd07875c2deaa3d5a74d4a99ca221f03b1860d7fbf",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/tab-save-idle.webp",
+      "sha256": "e97bc0499669d07cefd2082b58e69a6a42688f0db2efb75abbf7f570403b1527",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/tab-save-hover.png",
+      "sha256": "3c8b3ab2f3cbc6cfdb4b4a0cbfee0a35c93eaebfd923f8aa5c4db75e32667ead",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/tab-save-hover.webp",
+      "sha256": "d24ca9750e7c40f95ac97664614bca1cd48f1e673cf3cfc7b3c7a82c15f51b3e",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/tab-save-press.png",
+      "sha256": "0143f5fc3c15e67128181cbfba557459b56fec8a5e8778cfe6ce4d7c132e66ea",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/tab-save-press.webp",
+      "sha256": "2d6299b3c008c1c24551ce5311759a56105f2309ff6670496a7aebf3463c6eac",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/tab-load-idle.png",
+      "sha256": "a351ba34c886817ad9220b51803a24e589b18a15f0deba25cc86d041e5bef5f3",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/tab-load-idle.webp",
+      "sha256": "d17adc492d91259a72eb91bc0a499a5b4ddf20ba2ba91dac22d757073d8589aa",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/tab-load-hover.png",
+      "sha256": "a98331d5d2d2aab10d2d7a5da9a2d343c86a5b9bd0343c6535b899851b44e757",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/tab-load-hover.webp",
+      "sha256": "0a4b8794094f14103ecbaf1507b3be270600e1753221bd8d72d60df0139b66e4",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/tab-load-press.png",
+      "sha256": "f14866a4ddd9ad0f2a2ba00cc0a075c4aed2807f31d4c3fc5288939719d71bee",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/tab-load-press.webp",
+      "sha256": "c053bb2da628c2c4bd5001b10f83f23a7e5afbb3016282cd6b4c6a9dd1ed5ecb",
+      "width": 200,
+      "height": 64,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-auto-idle.png",
+      "sha256": "99cac4fec1f196e59b8846f8a25efdd61ed70377b1b5a94f95648dc6f8b79e3b",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-auto-idle.webp",
+      "sha256": "d7da9bdd4f0eb5d2b1a04cf3555830eb650282e025d93142b9ea8f2a96724652",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-auto-hover.png",
+      "sha256": "cdb994bac9ebaddf217e8e88ee5fe4f36ca83086ccc8aed5aa9ab205be95b430",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-auto-hover.webp",
+      "sha256": "6aefa88701fa2c108d51611682bb477848191e3a4d6607047bbd70621adaced2",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-auto-press.png",
+      "sha256": "0e372eb01e9fa94d83a394733831433a436854ac619448c183468725c4b747ac",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-auto-press.webp",
+      "sha256": "437c3fefb091da987f9d2482836253f72bc48ed485370630f934a0ef97036718",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-skip-idle.png",
+      "sha256": "fb0564f3641149a1b2b5d442075f55033540cee9beb27965777440a28291048b",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-skip-idle.webp",
+      "sha256": "574bb0b36a08b4800fdc6c30f0c2778a915dcbd13eaba159e92116b0b226900f",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-skip-hover.png",
+      "sha256": "f11ebcfe16d26bea73a316955bf4aa32e9d667af1709983a064a7fc88117cf3f",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-skip-hover.webp",
+      "sha256": "3c92806cb4ba1145191e55eff7d5f4415a4e9aaf8ac3b3eaf9c502cc7a87c4af",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-skip-press.png",
+      "sha256": "7f2690ea1958ce4c5fe8cd25d8b0a214af33daa41c2ff166c0242c0220d96b71",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-skip-press.webp",
+      "sha256": "e08286dfb30c013c5eecef8cff2e58cf6be76489da301937ad8cb481835d6fa5",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-rollback-idle.png",
+      "sha256": "c99f4404d79305e37661fa21fcf776301af15bd4ee4775569e843f957b9de8b0",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-rollback-idle.webp",
+      "sha256": "7a22b740abd9a15e726780f9ccccefb15ca8f123b31359ee516368d3844b2cbb",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-rollback-hover.png",
+      "sha256": "244553bf1ac1f97b5c274cdf4c6b47e3dcbebe18e4e4535074c8b92262536dd0",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-rollback-hover.webp",
+      "sha256": "590e1cbdb8873afc2f7005778d6f09059304956c843e857c61c971fa5b6879e1",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-rollback-press.png",
+      "sha256": "1b3f5e72ed15823c09515399905ce3b0bab704a9dc53b068789f348c17246733",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-rollback-press.webp",
+      "sha256": "9adb61f421a4e680058f7e904a0cf14dd7887c1b88e748ab03fbc9759aa2935a",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-title-idle.png",
+      "sha256": "2909ef26618e296d62e8c0272ac8576f76d78c6432ad6e5c8fbbcea28c2b9e7d",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-title-idle.webp",
+      "sha256": "2f7d2c3404a03a24b3fab4c86b95624117c24ad987b3d7d9293019de1e4f5e1f",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-title-hover.png",
+      "sha256": "00aae344e9719a31cca253f94993e0be16e642e7d78f2cc99ce404d999299cf1",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-title-hover.webp",
+      "sha256": "a569d070621d513db81b9b625c67d45872a738690fb9ccccf8e05f863fa6b3f9",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-title-press.png",
+      "sha256": "e80834581a5a69b9000cc2a3d55c44fd9e5996f18da5995301bdb401c4c224eb",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-title-press.webp",
+      "sha256": "c5c47a3d21a8112657b069821d05c9ddb3d74bdabeebabf2463568a11609835f",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-resume-idle.png",
+      "sha256": "f83c0496c111f1194b61b5b3465a9e07100cb469d94e3eae26cb9eafe7fcdf42",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-resume-idle.webp",
+      "sha256": "8c524ed686ee4a595945b7d4ff955b98117e067a9641c550f9509376800c490a",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-resume-hover.png",
+      "sha256": "0fd05f3aa408cf999b0b74000f39d9735c19e4ea70d9178f7f409be662f640fa",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-resume-hover.webp",
+      "sha256": "5c82777df499a7c850e969208c8ef904fdc4ad7c94065480993123ab655be97b",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/action-resume-press.png",
+      "sha256": "fdf7b8097115fce59b20d424115307691c2942a270b66aa7f81e59661343e490",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/action-resume-press.webp",
+      "sha256": "b6f151359cda5de686bd91ee8c8091201ba10911f08f65cfcc13c08e119b7e67",
+      "width": 400,
+      "height": 88,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/choice-heading.png",
+      "sha256": "2dd0f8ca3417d80c037e2aa136bdb9508c97d9d52d346ee50b732fe450fb3d27",
+      "width": 320,
+      "height": 72,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/choice-heading.webp",
+      "sha256": "30e862eed4318bf838d4904241bb8da0b88c2446bea04f7ca8c512820570e78f",
+      "width": 320,
+      "height": 72,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/notice-backdrop.png",
+      "sha256": "c3dc33b2efff8be8a5ab326dd4761ea9740f36a2fad23c014649e2e10e5bea5e",
+      "width": 960,
+      "height": 48,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/notice-backdrop.webp",
+      "sha256": "e4362319501f4dd059f73ee5d7a1ef983aa49255524d762dde2e54a5cd0e35be",
+      "width": 960,
+      "height": 48,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/choice-keyboard.png",
+      "sha256": "2dd5e6518d8c1cfa96198ac78e23545734fc6ab8113c844921a15c106ee70d3a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/choice-keyboard.webp",
+      "sha256": "f032d89b01711b3e40b0a4c8e23db4fddc3d37df54862d303b708e9a898b269d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-01-0.png",
+      "sha256": "951d24e8f7c25404840a6896c09b3c07db4179c9ce8b9910f0ccf11cb2999966",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-01-0.webp",
+      "sha256": "1b67a25af38abace2f1b650fcbc3383dd646c6bfd20735abaf1f42998a0b46c6",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-01-1.png",
+      "sha256": "dc06337d439a02632ada9b18da320055650c26ada4c3099a33216c1b0fd3c7b2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-01-1.webp",
+      "sha256": "20c4cc0f5b5190ec78f869ab0fe02a893f9a047a19bdef91b766caf2b286faeb",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-02-0.png",
+      "sha256": "912074817e183bbb1841189b56fa57d72304526ac4f9089ba40e43ce6b9d76e0",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-02-0.webp",
+      "sha256": "2a0df72a22ef1d4719a8b88602e9aee92c0f1b1af64b496662deb8082db8dd6c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-02-1.png",
+      "sha256": "b46e04833bca01addd72c657228e80e9088353b092f67ff6eec472459e7bcb9a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-02-1.webp",
+      "sha256": "e8e29e195bc104f81f4075e1b6805b4bc6383a935e72a5d01586e86478b9692c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-03-0.png",
+      "sha256": "03ef4592ac7e0a05cbac90c5aa9c5706eee2ed4eb92b7fd41f98b941ff7d656f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-03-0.webp",
+      "sha256": "ad279318fa8d4b91ba99b45937de253da60850ac3bc47a844ab60e184ab447b3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-03-1.png",
+      "sha256": "6c58250d0d1100c832ec1569726d37dc5f7a1a75cdd2e246731943b99ec67926",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-03-1.webp",
+      "sha256": "5c3d2a3aba8dade97e0d99aa776f4d617d3a86895c5ed25f05fe8bd2b9163808",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-04-0.png",
+      "sha256": "9784d83e287d874962ac5152cefc708c1753c0683e7e1daa995a48679c121691",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-04-0.webp",
+      "sha256": "9dfe532176ba75cf3a4a3c22044756cd12f3b35e847ea8be5aba2a8560feb8c0",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-04-1.png",
+      "sha256": "2e8352b90e62640cb26c36c5ca980f546faae1a17c9305b1ea3e76f5eb3f44e5",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-04-1.webp",
+      "sha256": "41cc5c8b14c2729068a0663bc45f2ea7e8f8f267d548025927ee817ddbdfb6a8",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-05-0.png",
+      "sha256": "b8aec78a2a6bcfa13851dac0a7b81e99a4a2ef9a3f8de7dd59cba95a8eb1e311",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-05-0.webp",
+      "sha256": "4c2f13abb2e810a9a4f795e292943893235eab3f0d0e5e22074f3f8ba238a6b6",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-05-1.png",
+      "sha256": "ef9c913a86c8e95f877091eba73f106b08fdafa984d0966b9557de577355714c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-05-1.webp",
+      "sha256": "8ef4896d236e85dcdc10d125afa675a6e031cc73bcc768ee9a18d3901d4dead3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-06-0.png",
+      "sha256": "ff7dc5aecb6ec251594d98b3b0e68c854ef45c976f5c76d41efe33ab38c16200",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-06-0.webp",
+      "sha256": "5529a5a328badc4399f34daa60f2b6e6eedadeeb6d627639143d57807342d900",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c01-06-1.png",
+      "sha256": "f198746beed1918e688d9d95d05cb3e987770311a94b49d0d2b51b8bbe130f04",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c01-06-1.webp",
+      "sha256": "a13ea7591761b4f0710d6128708a00d2cd26ca0eaf0d2690f8aeb8aa14f459f3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-01-0.png",
+      "sha256": "75708ae1bd4797cd7b24982f712ab42ba87958293676c64dc10fcf7c3c14a688",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-01-0.webp",
+      "sha256": "20c3c6c0f5aea0ca0b162f8dd8169358f4d221c0d2455819bbd77d2d31a6191f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-01-1.png",
+      "sha256": "146d273f998a8bb0b1c94e68531d49e79b3880cd8f9fd03e195997c07979b0bc",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-01-1.webp",
+      "sha256": "66be11cdac9c95b34e0e635439624ea1485b1150ce9da788905849e4ade6b546",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-02-0.png",
+      "sha256": "c5f86bfee4f52f6f576e6f69b553a98c5d4aa47a7b33a526e0f6719c32b9755a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-02-0.webp",
+      "sha256": "e40e85be88b71aeaa5f05ccdd3402f78be74f369b6e2308e4d9442f36cbd158d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-02-1.png",
+      "sha256": "9e31e017d380137cacd40754b353732ba2787becd8a406e55fce3eeea95e1766",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-02-1.webp",
+      "sha256": "67be76bf02e23b5647968c492fedca41a2c33b57031bfc8e30bf730fbec2ad83",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-03-0.png",
+      "sha256": "b9fde81f3473ea0e62ad8194693b5118b5941fcf3539bc46de5eb8a55efedc05",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-03-0.webp",
+      "sha256": "0ca0abe369e01fe48bcf44c8d9570936a973a48679574b9dd79175e385147a18",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-03-1.png",
+      "sha256": "c0d9a9706da8c6fae349ff2a55eb26167ff0da493bfa22ebe68ebb161a8d7281",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-03-1.webp",
+      "sha256": "0d7f11b2bec069b86676dd0d7e78a23cb1a07b841a4fdcc81371d6313465127a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-04-0.png",
+      "sha256": "e25702ae63dbda39112e08aa12d0d9e71e52758a74dceebd89362634b05fc3e9",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-04-0.webp",
+      "sha256": "d2a13b2f2669d98f6fa5bd34bbe92a659a916bd5071f18d3d74562e8353651d5",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-04-1.png",
+      "sha256": "13040eef49c4ef35d626f60f2bd68e17c4de4f990158b968c5762b9b48d36501",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-04-1.webp",
+      "sha256": "02da92182a7c41a66f4789291c69ef9a494f1d0beadb2196e916f4771bf2f524",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-08-0.png",
+      "sha256": "48a22b60a11bf26f5c37435a781e260eb48ecde99f57d0578eeefa0f501ebbd2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-08-0.webp",
+      "sha256": "1667184fc7e2c1f113c28cd365cac14ad44bf3771f6c1621c887946550b96dfe",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-08-1.png",
+      "sha256": "48f817eaa865742e26ca287169e25c2461233d062c75c9968f6c2b9cc0383f5b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-08-1.webp",
+      "sha256": "e21022fa2be033b41198ba736bc2296433ac612bb69f59a4642ef3265829cc8f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-05-0.png",
+      "sha256": "717e7aff6c32a2a30c1dd4c960e920a6dc763efe1402fbedb8246d08a2eaa366",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-05-0.webp",
+      "sha256": "78fe468877a41d9177fd648a8e593b1624ba9e5ab0fa6cb253860d1838aa2af9",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-05-1.png",
+      "sha256": "d6770885336441bd2299de48685591eeb2114ab52c77a2bbb13c30e03cff61e4",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-05-1.webp",
+      "sha256": "dcd35c4cee3bc63dfe8f0b8f77815fe049934e7812257ce725099b4380094db0",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-06-0.png",
+      "sha256": "9df59bb7298121ceacae229aacdd3425ca1448a2889dc4e277d3e7ea338f170a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-06-0.webp",
+      "sha256": "10413d3192dee65842a1226a2632384218382605b843298bd41d690f82de2b09",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-06-1.png",
+      "sha256": "ccdcdab68ed571e4436523723aa750911184b07e33880a9d93039df0c24d431d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-06-1.webp",
+      "sha256": "8a6579f2098f5fd37c424942e95f7c4fe556bdb4862722c0ee802f791a02ec9c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-07-0.png",
+      "sha256": "da6a605d5f74884f589b6f2a1be90b311c36fa475a430d493e31046e3bf222e9",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-07-0.webp",
+      "sha256": "bf137be6859f168ec362eef8569550bae1f889f4b114c1412f29494171425e39",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-07-1.png",
+      "sha256": "a0357200896ade2c0101f96c39ec144306a441382ceca27769fd227b1b879a1b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-07-1.webp",
+      "sha256": "9672a7bd4dcc80fec1585dc59825ff72bdb7c6ca4b8a2fbb276cd5886b4d77be",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-09-0.png",
+      "sha256": "26ed241442416dfc87a987f1ed60184f7bb159ea5a15991b3672a729162f077f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-09-0.webp",
+      "sha256": "a95afb11b77b74ea1619c5f5b1fdb8cdcaaeb40064d71548061d881cf5a48371",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-c02-09-1.png",
+      "sha256": "4a2bdab79a539fd22f858183074ba34f002b728bdfc95e9ff1e1a56499e11c3b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-c02-09-1.webp",
+      "sha256": "18f38c8dfef5336a39afd184f0ca9b3a4883cb44d0327730959470a7c4ca1601",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-route-01-0.png",
+      "sha256": "4378f95a1c7874020aeb88d6a292e67712092f1208c8539eae45d8a2f961170e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-route-01-0.webp",
+      "sha256": "35ea1f7994f813f921d61414a5eb8d119eccc32e36319c89476b692d75cd3d51",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-route-01-1.png",
+      "sha256": "1cb434432a449837f3e1542eafc1d37bf0a8c6e9c3cf4b84b5d31f7b90226483",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-route-01-1.webp",
+      "sha256": "4e863c0c3354a584d754bece6fe55bbf9a4edc3df52920856c8d43e15abe997a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-route-01-2.png",
+      "sha256": "fa6b0ff6451ae91a541730e6de03e8bebdf205a1f6186dc8393e6ae226048d0b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-route-01-2.webp",
+      "sha256": "5abe7d55a1a4903b33192b1679266bef81fa2875a04d3b4ca86cfa4c6ca29674",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-route-01-3.png",
+      "sha256": "38bb4c1ef3c5eb1776b643db93967a8f93c51d7d33579507b80f55ed8bea1765",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-route-01-3.webp",
+      "sha256": "94776c9d2802c6a2e3e5c0d2cc445729e04170a80f001060d3faf01ddb329f51",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-route-01-4.png",
+      "sha256": "2d47b5991a4218731181e61edd4751b0106ee88242b96a044bc69357d1b8a51f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-route-01-4.webp",
+      "sha256": "12ca5c5592a3a1c609138c0f16299274130d7016f62fe3c56e97e3fd85942004",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-route-01-5.png",
+      "sha256": "4538b0efeb3184a1c6ffc33cfc619e319e645dc1a767c5d93082372131de6973",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-route-01-5.webp",
+      "sha256": "8802fbc57086d2ee55507f77fce0e888a6415125c361a4cd10cac314b00b015a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm03-01-0.png",
+      "sha256": "1e004394c29932217af0d0f3bb6ad729dd573f1fe213023eb98a7c822cfa8128",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm03-01-0.webp",
+      "sha256": "9b404b85f103ffabb7b4d04befb6321ce48df1eebc9df3ea3b127726927c5a6e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm03-01-1.png",
+      "sha256": "e3af57fc10ba573339496d6c71d32f83c44f9f07c21ab98bb295f8b38e8e4680",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm03-01-1.webp",
+      "sha256": "4bcaf3c7591eb83c0ca24b3a7a330036918020d7468824189acad3a2cbda8edb",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm04-01-0.png",
+      "sha256": "632d175330dc4d97a1f59e2fe479f0613488fe53ede801b7072e1cc8ff065233",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm04-01-0.webp",
+      "sha256": "ddfa430aeac5b5c63d159ec2babba667aed202908763dc85a59c8dadc06d5a61",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm04-01-1.png",
+      "sha256": "d473ab5fe608951ce28dfa40760c13b0f4a0b1e933cf3c9911336ddb0d71b1f7",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm04-01-1.webp",
+      "sha256": "7130f6602ee2c0f14e7a8fcc68b93ac4f9250d571dba46afeaf3582207621e99",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm05-01-0.png",
+      "sha256": "be46a82048fbfe24723bb350548ca5fba7891873edba08904d3166d86c89f41a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm05-01-0.webp",
+      "sha256": "b82eee5930d4ee059dce98a76b8cac26d287ff4ccdfffd93409e4d2aa3b99cbb",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm05-01-1.png",
+      "sha256": "6ab7ecdd968756688cf90d73fb0f7f0c3ba67cbf1206b202dfef6fbb493395dc",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm05-01-1.webp",
+      "sha256": "79ffbf7e952ccffebe943ab1fa9fde8fb8bab0d8181935008435e7a43a07c65f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm06-01-0.png",
+      "sha256": "4147a8b5c61967f48edcb976de31d68509a3178bac008579ba27a3e8d160c9bd",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm06-01-0.webp",
+      "sha256": "06f986357bad8bbfd264514f6abc028782a9c5677cea3a181da406c80a43ffa4",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm06-01-1.png",
+      "sha256": "d44cec1834f2355513372dc9207c795f5fdc39672d69d893acf4b0f26238936d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm06-01-1.webp",
+      "sha256": "4b6589af3be5a7b053bea90c113cd2f94a59d1351e00f630e4a27900ea091d94",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm07-01-0.png",
+      "sha256": "39c85c9b74e9320ef5260a9f6598ee14d605926740006af6c1e355b65f3505e1",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm07-01-0.webp",
+      "sha256": "2298267134ff86aec567a1dff81e81d7ab36d03037378b98f96db40c4de7e12f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm07-01-1.png",
+      "sha256": "b849e60ffe5d3ebb2f23ebba013db55e2b1c4352feaf434b899af1f06613ae8b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm07-01-1.webp",
+      "sha256": "3f0167e0596721cbb085b4fdaf5bde88db31c40f9b3612f43d485973da4d2f72",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm08-01-0.png",
+      "sha256": "49a1a3ea4af4d494eaa814e9bd93f1b8b002050a4332ab589c54d18eb730caa2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm08-01-0.webp",
+      "sha256": "81e97d76e00809b2b809b6b7b6f3e93c8390e39e5c4d8217808634b4b54c6758",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm08-01-1.png",
+      "sha256": "037c54fcc82a8a7e68dfa1fc9aa4416eb8a70e95dafcd263521d20f50b26b333",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm08-01-1.webp",
+      "sha256": "89fbdf1c9f2b4ff883f070917825b3c7b8c613239dd7b860f997735dfb9ee1f1",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm09-01-0.png",
+      "sha256": "d165255891a239e315f862a3e129e33d68a72e39f9a9e7aba7f8a6a3cb02480d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm09-01-0.webp",
+      "sha256": "77f109940ce7d5a9b91c709bd7c67de09a77a9033a74fe6f91071df00dc2c2d4",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm09-01-1.png",
+      "sha256": "b99bc7a0755395a0786a02d0a9fdb444169192d4801123ac69c8612422a006ca",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm09-01-1.webp",
+      "sha256": "0e1d0a7d3ab770aa72c490fc859ab6ec7822e2e24ffe7335e36d2fac0e82cfc2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm10-01-0.png",
+      "sha256": "82f653018f073a9b74813f88726e7d66e71320f30d074170915212bf78d8238c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm10-01-0.webp",
+      "sha256": "e3ce1b15487cc87698d4666db3383f24bccb2d54e917c2f87d605b54e448c46b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-xm10-01-1.png",
+      "sha256": "cc3a6deddff7b3b5269187ae96f5e734a862378f9300bbd47b79fbac51cc3c73",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-xm10-01-1.webp",
+      "sha256": "a6df47ea20df3bb60e48f6e5193b9384acbd61e375def4dcca7e11eee8b6aebf",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz03-01-0.png",
+      "sha256": "bf7c5132b51e2ca3259a3387be659276b154154375036730fbaa246fefc92523",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz03-01-0.webp",
+      "sha256": "e4505bbcc1e7b0a1904b2230c211970de6a6c560f98836dcb1d7dfd39138372c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz03-01-1.png",
+      "sha256": "80722ee6ea66fc8c8463f058e96bb745b0e8a7cc16648c54d4079d4e4ee42d25",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz03-01-1.webp",
+      "sha256": "f8d640c0f70d8362d8cb2fbc053a2fa747f4b67c28da11377bdb6cba9a007f56",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz04-01-0.png",
+      "sha256": "32deaef6fe957f1f7e6e0405c463ee8eb326e7f69076aa30348ac60de481027f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz04-01-0.webp",
+      "sha256": "41897d0f5b5d12a62e95c4c7d420ccb4b8a3f01e3d4813885bd6d010742c997a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz04-01-1.png",
+      "sha256": "8b5497bd3362cf640627ad478d0450cd939878025cd7f76f2044360d69303881",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz04-01-1.webp",
+      "sha256": "f3401f058f324a95920acfc9ff626b5019191bc106dd63a572aa4944624031c7",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz05-01-0.png",
+      "sha256": "d10fb6feafa56446061f0b691dc10867fe8db29eb0d899fef25f09e545dd6b46",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz05-01-0.webp",
+      "sha256": "d7881a9fd00645e0ec280a8f0d248d79c2de89b38ee7c1ad731af30eebeaa49a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz05-01-1.png",
+      "sha256": "dbc6a2161bc8947b443ec7e39c01d67e1633a24042314499054e1190800de0cf",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz05-01-1.webp",
+      "sha256": "e299b58d17e21f1030ab954511160b74b797117a985f290803950a8c0f331811",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz06-01-0.png",
+      "sha256": "fb18ff7a664251d8e915f9037f093c8907ca42822dda8ce3d6a2a30b9749d158",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz06-01-0.webp",
+      "sha256": "aa8b160b37ef3b4a8a9de3f7f51ff34a9232526edccefa4458ec165f6afa7b14",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz06-01-1.png",
+      "sha256": "360e7f9a11d6bca70c0811449d9c070362bd067b6d2f2d1883442e3894c08de3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz06-01-1.webp",
+      "sha256": "6d57123478b6b72f0ef4d53eb50f5ac9713298e881cd195640e66bd619945831",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz07-01-0.png",
+      "sha256": "bbf75a7e91617f21320d80b8db1a3d817702fa637c4d6875ddc51ae37e7e1f7b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz07-01-0.webp",
+      "sha256": "84c8f10c590f867ed912b8647d0ece308628c063765fe53fd187ebf4b62d5c4f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz07-01-1.png",
+      "sha256": "f1551a19b95615168a21c30f6ab06e0a7240ce43e21177e29c7f811e30e643e3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz07-01-1.webp",
+      "sha256": "7003a3c8c72ba7acc2f98125eff71fe4d65b89eb78091e615e8bfdcf3c1d50bb",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz08-01-0.png",
+      "sha256": "ba103ad6f4180efa04b7fb3238ed7ec0b0712de96721d73e54999063d65f1937",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz08-01-0.webp",
+      "sha256": "38c430b4339699a60c76517761281958aea13365437d02a378bdcc4df7c41a2c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz08-01-1.png",
+      "sha256": "7b9a511f7f34538e91d1e5c9977034a838a7f9d0169a9cae58a076d16c8aea72",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz08-01-1.webp",
+      "sha256": "3c223dfc7498e473577cb86b19b9f202e9940eec35cfd85724c59608dfc2fbf3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz09-01-0.png",
+      "sha256": "f5357ce2863e41df3e18adf05181c4417f013e6152347717ec9a655b8f53fd1c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz09-01-0.webp",
+      "sha256": "53a5e99e24a36b10c82201e1db577f332965d0716380d222fb545c166a6fa253",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz09-01-1.png",
+      "sha256": "7e3b0a7663c6a2a38babf8f1b47c8e72a64ada784a669e569a4846fd10599e8b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz09-01-1.webp",
+      "sha256": "6633e627b773f9788137ff5331f6aaa53927ef56b5a8c782c645a63334ecce3e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz10-01-0.png",
+      "sha256": "f1a942d9deb59325788f491e75854d25d22a20e411505dceb9e87a1e383c7072",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz10-01-0.webp",
+      "sha256": "fb20531702e87f6d71c064a71131f67d5d9a6f93b4d23bed4b3981b23826c2a6",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-zz10-01-1.png",
+      "sha256": "8d5b291c41ffc331d35467a801606c77c0d37414b4f9f4be5b4756bd3d5edf5e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-zz10-01-1.webp",
+      "sha256": "b6772380f8f8f906ef0fec9d216372c166cb849c56b94a9f1795c56f1ba7cf7e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my03-01-0.png",
+      "sha256": "cbb946809a813ffe078b4ab816114f59e0be596d9b346b8c151c645bae9c816c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my03-01-0.webp",
+      "sha256": "8581ea3801e6c0f93ccccf6ed19444f3c19f7b5ff231c6db274a0885cf832aee",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my03-01-1.png",
+      "sha256": "2785867e5cc3207fe4501ac686dda50b72e7df9784a14ec9a0438d06b215878f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my03-01-1.webp",
+      "sha256": "7354747b9e4a7479edd4f1b2c6b2959928aff8e9db7243240c484485b918cc01",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my04-01-0.png",
+      "sha256": "432a807ac82891d85944744a5ae393794287de7a2fb0ea1326d9d36cd73845b3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my04-01-0.webp",
+      "sha256": "f1d6ba0fa5ad31d29343e3299c3259da099b0fe0ebe7ef28da114966da7411d2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my04-01-1.png",
+      "sha256": "8bb5494dfb3885d6c23cf8aa18ed00ffcd5e64aab15dfedc3c30ea3b827d8304",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my04-01-1.webp",
+      "sha256": "81fffa32a8de2f77a8caed3741db6bdc01a15cb7e585ce12e46b25e529a4aa80",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my05-01-0.png",
+      "sha256": "ab90960b7fb1a9632251200526e167e9a97e8ba2f070be8e889ac958d06a5c73",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my05-01-0.webp",
+      "sha256": "82f3d368d5be3fc8ec2d4dcf4cd033f6b501f63c4e4d4493816cbf216f16b5f5",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my05-01-1.png",
+      "sha256": "cff8b9dc5950b9e1d3079399ff9c304d59b032becc1f5a0a0d90972556314d93",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my05-01-1.webp",
+      "sha256": "4b64e5b67b4b7e35bb52b5fe14424a862ee143017835fe312b98e397fa4e3986",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my06-01-0.png",
+      "sha256": "7d9fb003f362024d06cf32d5970207afa3758b96050d2d3722c62a58fb8cf896",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my06-01-0.webp",
+      "sha256": "23cb4c078cabf5ca10e9284014097e1cd9f16221b003312f0aebd356ddf4bc68",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my06-01-1.png",
+      "sha256": "7d3019d8a96a0e304b3183e42cc9b8f8b5c43a2fbc9315397d59c8d34320187f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my06-01-1.webp",
+      "sha256": "f45a180b0a76918131acef20b18b4ac437cb9888c521bb89d9b344dcf2460798",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my07-01-0.png",
+      "sha256": "495de720ba4a49705f39166c5d9bc142df7eeb1880896242af26099aecdf3e5e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my07-01-0.webp",
+      "sha256": "d4230b6b6d2afcc3c6006a1b4b7ec6835b12196f6ea2543253beced4f576b80d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my07-01-1.png",
+      "sha256": "b0b426bd6ee9506bdde534b53e862dde0e8fb6033dfaf6cd9221fdc860e6d010",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my07-01-1.webp",
+      "sha256": "3b68be1baf1febd3144c3fbdfba44b2e439ba53385d7238a612208d8276c89a2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my08-01-0.png",
+      "sha256": "7a206d217013afa157bf72f0fce0e0ae15146435083d1b5d17a2b2b8396482ff",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my08-01-0.webp",
+      "sha256": "fcc8c8e40021aaddbe74d87e8eec93d048c77c61a775ca6a3539bacd4c65fffd",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my08-01-1.png",
+      "sha256": "b581a9b6d1cf3891aef6d69bc68e43fe3b3506fb96cbf0d4bead5a0e9a633bd5",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my08-01-1.webp",
+      "sha256": "13f65813882ad63bdcc9eeb4d147b0e07e97eee2506f14b32cbd160038f88e54",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my09-01-0.png",
+      "sha256": "fe225295021cf98d77ca9dd7168a16631b430d28f6459fd3b9b9009baeb58fb2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my09-01-0.webp",
+      "sha256": "ca1a3b28bfadf6f4abbe3685f4a1c890bf3fafeab09e3c2006ec672cc4e7d4e0",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my09-01-1.png",
+      "sha256": "ee8873a46b7139c63db9c6e8f4d52365b82c4826ef1ee2183d49ccbe20c4fde3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my09-01-1.webp",
+      "sha256": "a91019e17776b9be43387b8ec6fc153065a3966a13ad8169d7b9c288cc22d931",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my10-01-0.png",
+      "sha256": "2e2b5eff68d744890e2401339e7aad8d568495573929c5af4a55ce701eec3bf0",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my10-01-0.webp",
+      "sha256": "649fa3fde18a0481753352f0533ff2f2aaf28285dd27a346fa622369e49bee83",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-my10-01-1.png",
+      "sha256": "b5a9f7eedb95a682916957a4982035dc6db3cc8a8a813501a401b3c404e60085",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-my10-01-1.webp",
+      "sha256": "300c72b2f6ee3c130957f0bc86ffc2ce03db7ea334ab2d24f88eae8d3475852e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi03-01-0.png",
+      "sha256": "f8f57ba0ab4029f1cb6755e6a6118bf4d06d823cb1c9b9ba952f7bad30e7709c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi03-01-0.webp",
+      "sha256": "2a28912139a39cde5d16368fe495cfa0501603aabe2eb5c624b876bd18dbd5e2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi03-01-1.png",
+      "sha256": "ce4473b299a39d362b7a3f2d56337b4f642ee5e6e239f6934548155d6ac0ee26",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi03-01-1.webp",
+      "sha256": "bae72d0975d7b0acb979c98a8c97e11e4e86cbc473160fad3c91497f99d9a5fb",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi04-01-0.png",
+      "sha256": "5bc12fc100395b89c42021bb88b01d9ecb9ab72a62c7d5ee0f093abac699acc9",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi04-01-0.webp",
+      "sha256": "c94c658b6eb2e4aa56dd7993d14699435c52206d5ff1f2521a485f2ca3ade7f8",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi04-01-1.png",
+      "sha256": "a0821468e7cff1629a028453e6ed8e6792744df00bb8f7edffec6848060ddfef",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi04-01-1.webp",
+      "sha256": "7fc0b05b5eab9f5a367d25fd4389f00a80b985705ec60f95ff45e524497f3a73",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi05-01-0.png",
+      "sha256": "8d68d790633dcf043638ebddaa38959c8b9895ea5d1e55c92efad42a60907d95",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi05-01-0.webp",
+      "sha256": "10b9b3fa24101ff5194bf2a2c9022b403fa6c9ee063bac3e6d99dbe1a3ace63e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi05-01-1.png",
+      "sha256": "8b37127a75eaf33aebdae5505e69aa23c0f42b4dc648a6b2f4108f43ddf66ee4",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi05-01-1.webp",
+      "sha256": "c7f9555fd9366b9f33dc4e39a64b5ab9b35e85896c50ee6ad217b15e9603bb02",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi06-01-0.png",
+      "sha256": "eb570156874c1d320682dcc65f816c9e86802c2a5c98a708338ccd6934aba45d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi06-01-0.webp",
+      "sha256": "1480cfa8489c63d23029a989ff28d7c430587a5f10ff56d19c553b28ebb17ff4",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi06-01-1.png",
+      "sha256": "90cc92b53dbc4aff061f39bf1b0f4cec920bc62119fd0d9740070d2f689d6e2d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi06-01-1.webp",
+      "sha256": "5ff2af94f0841441571ca965fa0a1518edb4d804d905f7c5a48ce976ae10e479",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi07-01-0.png",
+      "sha256": "bc2a872549929b173eb19442e5b359362ae36888e50d13b3009109930dbda273",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi07-01-0.webp",
+      "sha256": "703096d2c38c939f8f4940ec737d816143efe6b5467bd144037729d24a8052ef",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi07-01-1.png",
+      "sha256": "89b56067b9bf8ae84d720d37541dbcf164cc301120cf72801c095e5050798fc0",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi07-01-1.webp",
+      "sha256": "cbf5d1c50e1e15dd209eeda2b6e92c3db866ca5625ba50bf55979cf0457c6492",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi08-01-0.png",
+      "sha256": "259ca9c239ea27833d67057820bce46387117c4da70228720104f2c5462d24ae",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi08-01-0.webp",
+      "sha256": "f5509cc8b55da2aa4ecb0636b01a4f73b9f279096404aafcab2b46491c9eca59",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi08-01-1.png",
+      "sha256": "6890a3d909b42eb2a666c500e0e805964426c6e73000bc36416cad0579d4cf5f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi08-01-1.webp",
+      "sha256": "17ef3a05b4e635b47883d53e9013957b60ad81d67bad05f51304e348503c2db5",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi09-01-0.png",
+      "sha256": "46abc64d7adaf568fabc33a988cffcc5765be0d4a3cea1f64c066f3b0ab1d62c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi09-01-0.webp",
+      "sha256": "b4ce1082791330f72bf29abb6755855b8bda9cfb210f58367a0fc73032c3419f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi09-01-1.png",
+      "sha256": "d493c41407b41d7aabce1936eb2098401636dbd0f900556edcfcc1d0f0118151",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi09-01-1.webp",
+      "sha256": "878f5ad793409d8ea0c0e7f407ec45d52dec67faf680f878d26b20dce37fcba5",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi10-01-0.png",
+      "sha256": "912ff29fe64d6f17943093563e09c415fbef1a549126f2c83c6dfa8e6b2eea65",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi10-01-0.webp",
+      "sha256": "04c624b9ad97176e0b3a319dfed8f03ef9ee4965467ef36caf60508b6a582ade",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi10-01-1.png",
+      "sha256": "cc21b3069d0eb7216120613e7af4d78f6cb1e083fcecb5aa55912c99069eed92",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi10-01-1.webp",
+      "sha256": "43deb2be2c51984aed1daefb221081ce1df9c85df67c98d32daa2039418cfe74",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi-l06-01-0.png",
+      "sha256": "8b79deec75ee68fe182dd258a781c03ac59ad7f742864cb8c305b73fc7323416",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi-l06-01-0.webp",
+      "sha256": "d28827f2a96c00fedf2f68d2212f819d69385be152179f7ba0c429aec7996457",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-pi-l06-01-1.png",
+      "sha256": "949c4867613f215d30f82c291dbcd8710a7cb232b789e6525a4d3bbef6d0b307",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-pi-l06-01-1.webp",
+      "sha256": "8e417011102b24834ded7d7d9152f4df98a67275462a55d1ab93e63286c8ed1e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq03-01-0.png",
+      "sha256": "a2825563cf7a266aca9412acd108451610ae72399863ae149df1b7b012ed6c7b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq03-01-0.webp",
+      "sha256": "1e09b5990124a963fedac16b9a1f113371b9bb2ab81b334039d87cfce91e571d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq03-01-1.png",
+      "sha256": "3403d777976c31a4a7a02cb265dbd233dd2f2b3e9cd7cfb94663ad046484dfc8",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq03-01-1.webp",
+      "sha256": "a4d24d5f7db2b6c2e320b838ba92ef30183b8bae1391a598b01b2434342ef1c9",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq04-01-0.png",
+      "sha256": "3dbac8b9863fdac515d44d4517008ad6b75fef87af44c1741f0682e8a7610aef",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq04-01-0.webp",
+      "sha256": "3ebe7aed712712edfd8044ec7dc763367e97cb3887d87674d5b04cdd41816aba",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq04-01-1.png",
+      "sha256": "6f4e2da9adb5652cae1ab19d6b17bf08dddac5c3678c2ce04a295aa71b133828",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq04-01-1.webp",
+      "sha256": "bf8c6d7008f4edc523f14667a3e585236c6e920f90c6b0d40ef76d5cc6472c5e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq05-01-0.png",
+      "sha256": "7a2386dba318cadc5fd4221c8d36696c596e6d9663d4692f12286cbdebd73c41",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq05-01-0.webp",
+      "sha256": "043064c6a0247e94042283a92b31fc0bfd2f5d46cf71ebce8ebaf661b233971c",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq05-01-1.png",
+      "sha256": "c839145875b58d9a4ccc79f675b75c375d7493809fc9378c08e7823f9fd90300",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq05-01-1.webp",
+      "sha256": "4a97ab62d45ef6347f6f14aae0c2fd0901250e8368e3c1e196fc273b132c4f0d",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq06-01-0.png",
+      "sha256": "851b4a005a355ca862056e2064ca8b96ac4b430497327b5940afcecb626a3811",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq06-01-0.webp",
+      "sha256": "674928eda77e4ab793f9f532f7c9424c853d2c877c69b7ca75c366f8281d33d0",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq06-01-1.png",
+      "sha256": "12654b32705a943d402b8fae763742ca5b20b7361148a59be9a4c9dc77f39986",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq06-01-1.webp",
+      "sha256": "6a250d9fee87f2a5e9d312afe384daf3763f26ffdf1f4b27c86539d3a1e98569",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq07-01-0.png",
+      "sha256": "f20ffee47a1a69c5d40742b7b5256e41a5fd8637367837720cca2a831f99cd3f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq07-01-0.webp",
+      "sha256": "e861bbf816b0a03cabb7a083e7d5a9bda5524a4d0627efe65cb19c5829f88cc1",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq07-01-1.png",
+      "sha256": "ec82c77e26ff1c362348edbc82dbda6ab48569fa65f3035de9aedf0279aab7cc",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq07-01-1.webp",
+      "sha256": "32c3bfd14914678ca54c5bae5921601356c5cc50ba5b9ff3eb9a429577e5b5b9",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq08-01-0.png",
+      "sha256": "c4adef95583481d1fbfac39e0af7ba8fc62045219ed4e449ac4f5d03b4262ea4",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq08-01-0.webp",
+      "sha256": "ca2b9e7a084b0242d29b85bfdd72978df9cc011541bd31bcbb056552c5a66e07",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq08-01-1.png",
+      "sha256": "b54b8ccb39700703dbc22fa100852be923f2c810c1ab5123eb1b60a9fb458b3a",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq08-01-1.webp",
+      "sha256": "60d8fb72c2185cbab5be7762d9c48340c26f0993e27f67cd1d3ad5b5d99079b0",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq09-01-0.png",
+      "sha256": "8a494012d3dd7554127349c83f02e6819e9abe0f5a48959c61032a517bfc45a6",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq09-01-0.webp",
+      "sha256": "8b06d982bd337782d57af60fec209fa36d878dfcb71e95b764e7dc17cbf45e09",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq09-01-1.png",
+      "sha256": "adac08246ce8cd5e6190dff28175bc2d9f6c41a8e06c3ade08ce6866bcefdf84",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq09-01-1.webp",
+      "sha256": "34c54d1bb429ed45d855f550deb162f3edef28a7a1e9f772fea892ecfc9aad41",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq10-01-0.png",
+      "sha256": "5fe7621fab18db3cf2ba3abf9868b9b0f02e87cdce2500619f93e42f78302b55",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq10-01-0.webp",
+      "sha256": "d9c8fadf9d95540d41072430046cba9b76a18576d42073ffadef0b1255cd41a7",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-hq10-01-1.png",
+      "sha256": "5d2b044b5db9dcedbb360f78e2109d310b4a7d4b292889ed22c93e7d5182f6d1",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-hq10-01-1.webp",
+      "sha256": "841329189aebbd4221d3f587ce177f623c43ad0928f591d354bc799442f369ff",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr03-01-0.png",
+      "sha256": "5c190f339ea039608996b3f15b012035188e57becd984433d30361925025b1d5",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr03-01-0.webp",
+      "sha256": "49b173d07c93094fb9a8e24eae8d10c1ec93173e031f1a6c1bab058415447971",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr03-01-1.png",
+      "sha256": "2681629a87364d86b3c7a418eea6068e786af0aa34f5acfc3784f150d6eb9900",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr03-01-1.webp",
+      "sha256": "ed027cd2c4bfab1a44906a20e6da2168fb3571b818d83c395e0380aaea39ec49",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr04-01-0.png",
+      "sha256": "a6c3765e6ab8bf65cdcd29773f634618ecc081d1b34d9a48496138145f9832b3",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr04-01-0.webp",
+      "sha256": "51dab5fb1bfb4d5d697b315bd5d7eb306d3af0854c08a18dae81f44fed02fee1",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr04-01-1.png",
+      "sha256": "bc90f2857aea7bf96d00eb79b8b3e8b570ee7eadd9dcc44ed4c51f242d85c191",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr04-01-1.webp",
+      "sha256": "dbecca4ed24b4a1e286d80b4e43678ac897e6881719cfe8ece4194453e563985",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr05-01-0.png",
+      "sha256": "f597e9300ae90297430504ee0a8a1b7c1c442dd32dacfe1a15b1d98e6fb23c78",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr05-01-0.webp",
+      "sha256": "bd859cc1740d48e5722bbbee2c8573067730259b5bf23b3513c0e97691dfe421",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr05-01-1.png",
+      "sha256": "3c854c48423d362f5a68291a7a0308a7639eccdf8a6c134ab36ec3ab9ddd54be",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr05-01-1.webp",
+      "sha256": "3902b6fb04c49834d350399cb05e7b93f40b1a44f87e93434d925fce69391dbf",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr06-01-0.png",
+      "sha256": "17efe186153f0a6696f9e00d0907f665ca18842553bb62a086a6c6e7452c5e17",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr06-01-0.webp",
+      "sha256": "6b73615e4502774c95f2f4539a41de77e40993fd8edba4bf6fae6535f72b512b",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr06-01-1.png",
+      "sha256": "8764ece1e523c06041620c1df2c7fa82ff100b4073a566214f09b9656ea65c26",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr06-01-1.webp",
+      "sha256": "7e324ee0b3f849715bf000880ed7ca3d7e09003835e96b75542e58848f2e430f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr07-01-0.png",
+      "sha256": "b8e06d81a70361246ec68f4024226b01cf7d84a3b316094497f4654b4900d380",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr07-01-0.webp",
+      "sha256": "9513bb329277d34dd57f9b90861f6028dd00c3905a9e2d6750b07cc68592d036",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr07-01-1.png",
+      "sha256": "08751546b478e9d5abd6816a5a79150b07e3854b129726277a55604bf67c346e",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr07-01-1.webp",
+      "sha256": "3853e0583935ce9894b93e19355825313712e06ac9449721855c404df30454b7",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr08-01-0.png",
+      "sha256": "78bfa385d6d7d20afe227ea7124047a232a8b4c72e424629225ac9cf55e13383",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr08-01-0.webp",
+      "sha256": "836710ed5599a565604eba29d01bfa93ddca298a9e07978f41e248c7148df0b2",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr08-01-1.png",
+      "sha256": "dbd9cd91257890e3e21d0518fb9d6522045a15790f4ec86778c0292c81e80e05",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr08-01-1.webp",
+      "sha256": "87a336edc5ea452774aa83a45d3285dcce7f1e071cfb9becaa3255c59993edae",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr09-01-0.png",
+      "sha256": "21cbd04a126296750611d1af41273e2db9115dbf54e054d31f0320b4cfaf3859",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr09-01-0.webp",
+      "sha256": "092bb39291ee7cfd1870be0f18a3545754021584ea29cfa21828473fea78395f",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr09-01-1.png",
+      "sha256": "0de811f3ea2526ee870e7147bbca6bfb90ec86f9ce15dd910c7bfd84b453ccb4",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr09-01-1.webp",
+      "sha256": "edd9da0507f6cf77ce824299de013cf90d5af7bdcac34f0a457bddababe37001",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr10-01-0.png",
+      "sha256": "1461e20f4f8b2f3b8eb0e21d3b625d419774d21f0a3d03c1f98a3b58773a1498",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr10-01-0.webp",
+      "sha256": "db53d0eedfb84c21cc8ee837756cba2fd6f8d6cee1aeb7632e11745e8b2e75cf",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/png/option-fr10-01-1.png",
+      "sha256": "23e0a41e5a8559200144c33cbb2b5a49a49d55c9a97ff8b6e51bcbbd30455094",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    },
+    {
+      "path": "assets/current/ui-cinema/webp/option-fr10-01-1.webp",
+      "sha256": "a76f1c84061d089f74213e9264a1c3bda114b361a4826d65920bbabd932fe4e4",
+      "width": 480,
+      "height": 80,
+      "alpha": [
+        255,
+        255
+      ]
+    }
+  ],
+  "choices": {
+    "C01-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c01-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c01-01-1.png"
+      }
+    ],
+    "C01-02": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c01-02-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c01-02-1.png"
+      }
+    ],
+    "C01-03": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c01-03-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c01-03-1.png"
+      }
+    ],
+    "C01-04": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c01-04-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c01-04-1.png"
+      }
+    ],
+    "C01-05": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c01-05-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c01-05-1.png"
+      }
+    ],
+    "C01-06": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c01-06-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c01-06-1.png"
+      }
+    ],
+    "C02-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-01-1.png"
+      }
+    ],
+    "C02-02": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-02-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-02-1.png"
+      }
+    ],
+    "C02-03": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-03-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-03-1.png"
+      }
+    ],
+    "C02-04": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-04-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-04-1.png"
+      }
+    ],
+    "C02-08": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-08-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-08-1.png"
+      }
+    ],
+    "C02-05": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-05-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-05-1.png"
+      }
+    ],
+    "C02-06": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-06-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-06-1.png"
+      }
+    ],
+    "C02-07": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-07-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-07-1.png"
+      }
+    ],
+    "C02-09": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-c02-09-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-c02-09-1.png"
+      }
+    ],
+    "ROUTE-01": [
+      {
+        "value": "xiaoman",
+        "path": "assets/current/ui-cinema/png/option-route-01-0.png"
+      },
+      {
+        "value": "zhouzhi",
+        "path": "assets/current/ui-cinema/png/option-route-01-1.png"
+      },
+      {
+        "value": "mengyao",
+        "path": "assets/current/ui-cinema/png/option-route-01-2.png"
+      },
+      {
+        "value": "piao",
+        "path": "assets/current/ui-cinema/png/option-route-01-3.png"
+      },
+      {
+        "value": "friends",
+        "path": "assets/current/ui-cinema/png/option-route-01-4.png"
+      },
+      {
+        "value": "huangqiuqiu",
+        "path": "assets/current/ui-cinema/png/option-route-01-5.png"
+      }
+    ],
+    "XM03-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-xm03-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-xm03-01-1.png"
+      }
+    ],
+    "XM04-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-xm04-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-xm04-01-1.png"
+      }
+    ],
+    "XM05-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-xm05-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-xm05-01-1.png"
+      }
+    ],
+    "XM06-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-xm06-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-xm06-01-1.png"
+      }
+    ],
+    "XM07-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-xm07-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-xm07-01-1.png"
+      }
+    ],
+    "XM08-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-xm08-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-xm08-01-1.png"
+      }
+    ],
+    "XM09-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-xm09-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-xm09-01-1.png"
+      }
+    ],
+    "XM10-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-xm10-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-xm10-01-1.png"
+      }
+    ],
+    "ZZ03-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-zz03-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-zz03-01-1.png"
+      }
+    ],
+    "ZZ04-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-zz04-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-zz04-01-1.png"
+      }
+    ],
+    "ZZ05-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-zz05-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-zz05-01-1.png"
+      }
+    ],
+    "ZZ06-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-zz06-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-zz06-01-1.png"
+      }
+    ],
+    "ZZ07-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-zz07-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-zz07-01-1.png"
+      }
+    ],
+    "ZZ08-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-zz08-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-zz08-01-1.png"
+      }
+    ],
+    "ZZ09-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-zz09-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-zz09-01-1.png"
+      }
+    ],
+    "ZZ10-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-zz10-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-zz10-01-1.png"
+      }
+    ],
+    "MY03-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-my03-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-my03-01-1.png"
+      }
+    ],
+    "MY04-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-my04-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-my04-01-1.png"
+      }
+    ],
+    "MY05-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-my05-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-my05-01-1.png"
+      }
+    ],
+    "MY06-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-my06-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-my06-01-1.png"
+      }
+    ],
+    "MY07-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-my07-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-my07-01-1.png"
+      }
+    ],
+    "MY08-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-my08-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-my08-01-1.png"
+      }
+    ],
+    "MY09-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-my09-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-my09-01-1.png"
+      }
+    ],
+    "MY10-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-my10-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-my10-01-1.png"
+      }
+    ],
+    "PI03-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi03-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi03-01-1.png"
+      }
+    ],
+    "PI04-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi04-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi04-01-1.png"
+      }
+    ],
+    "PI05-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi05-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi05-01-1.png"
+      }
+    ],
+    "PI06-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi06-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi06-01-1.png"
+      }
+    ],
+    "PI07-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi07-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi07-01-1.png"
+      }
+    ],
+    "PI08-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi08-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi08-01-1.png"
+      }
+    ],
+    "PI09-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi09-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi09-01-1.png"
+      }
+    ],
+    "PI10-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi10-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi10-01-1.png"
+      }
+    ],
+    "PI-L06-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-pi-l06-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-pi-l06-01-1.png"
+      }
+    ],
+    "HQ03-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-hq03-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-hq03-01-1.png"
+      }
+    ],
+    "HQ04-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-hq04-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-hq04-01-1.png"
+      }
+    ],
+    "HQ05-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-hq05-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-hq05-01-1.png"
+      }
+    ],
+    "HQ06-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-hq06-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-hq06-01-1.png"
+      }
+    ],
+    "HQ07-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-hq07-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-hq07-01-1.png"
+      }
+    ],
+    "HQ08-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-hq08-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-hq08-01-1.png"
+      }
+    ],
+    "HQ09-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-hq09-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-hq09-01-1.png"
+      }
+    ],
+    "HQ10-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-hq10-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-hq10-01-1.png"
+      }
+    ],
+    "FR03-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-fr03-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-fr03-01-1.png"
+      }
+    ],
+    "FR04-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-fr04-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-fr04-01-1.png"
+      }
+    ],
+    "FR05-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-fr05-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-fr05-01-1.png"
+      }
+    ],
+    "FR06-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-fr06-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-fr06-01-1.png"
+      }
+    ],
+    "FR07-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-fr07-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-fr07-01-1.png"
+      }
+    ],
+    "FR08-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-fr08-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-fr08-01-1.png"
+      }
+    ],
+    "FR09-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-fr09-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-fr09-01-1.png"
+      }
+    ],
+    "FR10-01": [
+      {
+        "value": "A",
+        "path": "assets/current/ui-cinema/png/option-fr10-01-0.png"
+      },
+      {
+        "value": "B",
+        "path": "assets/current/ui-cinema/png/option-fr10-01-1.png"
+      }
+    ]
+  },
+  "gui": {
+    "save.gui": "system/sui-cinema/gui/save.gui",
+    "history.gui": "system/sui-cinema/gui/history.gui",
+    "sysmenu.gui": "system/sui-cinema/gui/sysmenu.gui",
+    "config.gui": "system/sui-cinema/gui/config.gui",
+    "load.gui": "system/sui-cinema/gui/load.gui",
+    "gallery.gui": "system/sui-cinema/gui/gallery.gui"
+  },
+  "runtimeEncoding": "PNG用于当前SDK；保留等像素无损WebP",
+  "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd"
+}

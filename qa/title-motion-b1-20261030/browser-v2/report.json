@@ -1,0 +1,102 @@
+{
+  "version": "sui-i02-20261030-title-b1-v2",
+  "runtimeBuildId": "02fb669c609cba188b8e1c35f8f7ab839fc5d8fe5d644ba775f26b8ae61a8d49",
+  "checks": [
+    {
+      "name": "实际游戏标题自动静音播放方案一，视频不拦截菜单输入",
+      "pass": true
+    },
+    {
+      "name": "8秒动画至少完成一次真实循环",
+      "pass": true
+    },
+    {
+      "name": "settings面板打开暂停，返回标题恢复",
+      "pass": true
+    },
+    {
+      "name": "gallery面板打开暂停，返回标题恢复",
+      "pass": true
+    },
+    {
+      "name": "continue面板打开暂停，返回标题恢复",
+      "pass": true
+    },
+    {
+      "name": "844×390横屏模拟动画与原生菜单画布重合",
+      "pass": true
+    },
+    {
+      "name": "竖屏模拟旋转提示保持可见",
+      "pass": true
+    },
+    {
+      "name": "开始正文后动画立即隐藏并暂停",
+      "pass": true
+    },
+    {
+      "name": "正文通过电影侧栏保存独立手动档",
+      "pass": true
+    },
+    {
+      "name": "通过实际菜单返回标题，方案一重新循环",
+      "pass": true
+    },
+    {
+      "name": "从标题读取手动档后恢复正文且动画保持暂停",
+      "pass": true
+    },
+    {
+      "name": "媒体请求失败回退静态B，开始按钮仍进入正文",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "logs": [
+    "SUI_E|ready|02fb669c609cba188b8e1c35f8f7ab839fc5d8fe5d644ba775f26b8ae61a8d49",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|load|slot=1|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|ready|02fb669c609cba188b8e1c35f8f7ab839fc5d8fe5d644ba775f26b8ae61a8d49",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+  ],
+  "scope": "独立浏览器存储；标题动画、真实菜单/正文/存读档、尺寸模拟、媒体失败回退",
+  "loop": {
+    "loops": 1,
+    "duration": 8,
+    "muted": true
+  },
+  "fit": {
+    "dx": 0,
+    "dy": 0,
+    "dw": 0,
+    "dh": 0
+  },
+  "pass": true,
+  "browser": "156.0.8078.74"
+}

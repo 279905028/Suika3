@@ -1,0 +1,161 @@
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+    saveslots: 4;
+}
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: assets/current/ui-cinema/png/config.png;
+}
+NAV_MENU {
+    id: 20;
+    type: char;
+    x: 32;
+    y: 160;
+    image-idle: assets/current/ui-cinema/png/side-menu-idle.png;
+    image-hover: assets/current/ui-cinema/png/side-menu-hover.png;
+    image-press: assets/current/ui-cinema/png/side-menu-press.png;
+    var: e_action;
+    msg: M;
+    max: 1;
+}
+NAV_LOAD {
+    id: 21;
+    type: char;
+    x: 32;
+    y: 240;
+    image-idle: assets/current/ui-cinema/png/side-load-idle.png;
+    image-hover: assets/current/ui-cinema/png/side-load-hover.png;
+    image-press: assets/current/ui-cinema/png/side-load-press.png;
+    var: e_action;
+    msg: L;
+    max: 1;
+}
+NAV_HISTORY {
+    id: 22;
+    type: char;
+    x: 32;
+    y: 320;
+    image-idle: assets/current/ui-cinema/png/side-history-idle.png;
+    image-hover: assets/current/ui-cinema/png/side-history-hover.png;
+    image-press: assets/current/ui-cinema/png/side-history-press.png;
+    var: e_action;
+    msg: H;
+    max: 1;
+}
+NAV_CONFIG {
+    id: 23;
+    type: char;
+    x: 32;
+    y: 400;
+    image-idle: assets/current/ui-cinema/png/side-config-hover.png;
+    image-hover: assets/current/ui-cinema/png/side-config-hover.png;
+    image-press: assets/current/ui-cinema/png/side-config-press.png;
+    var: e_action;
+    msg: C;
+    max: 1;
+}
+NAV_GALLERY {
+    id: 24;
+    type: char;
+    x: 32;
+    y: 480;
+    image-idle: assets/current/ui-cinema/png/side-gallery-idle.png;
+    image-hover: assets/current/ui-cinema/png/side-gallery-hover.png;
+    image-press: assets/current/ui-cinema/png/side-gallery-press.png;
+    var: e_action;
+    msg: G;
+    max: 1;
+}
+BACK {
+    id: 30;
+    type: cancel;
+    x: 32;
+    y: 592;
+    image-idle: assets/current/ui-cinema/png/back-idle.png;
+    image-hover: assets/current/ui-cinema/png/back-hover.png;
+    image-press: assets/current/ui-cinema/png/back-press.png;
+}
+BGMVOL {
+    id: 1;
+    type: bgmvol;
+    x: 272;
+    y: 237;
+    image-idle: assets/current/ui-cinema/png/slider-idle.png;
+    image-hover: assets/current/ui-cinema/png/slider-hover.png;
+    image-knob: assets/current/ui-cinema/png/slider-knob.png;
+}
+SEVOL {
+    id: 2;
+    type: sevol;
+    x: 272;
+    y: 361;
+    image-idle: assets/current/ui-cinema/png/slider-idle.png;
+    image-hover: assets/current/ui-cinema/png/slider-hover.png;
+    image-knob: assets/current/ui-cinema/png/slider-knob.png;
+}
+VOICEVOL {
+    id: 3;
+    type: voicevol;
+    x: 272;
+    y: 485;
+    image-idle: assets/current/ui-cinema/png/slider-idle.png;
+    image-hover: assets/current/ui-cinema/png/slider-hover.png;
+    image-knob: assets/current/ui-cinema/png/slider-knob.png;
+}
+TEXTSPEED {
+    id: 4;
+    type: textspeed;
+    x: 776;
+    y: 237;
+    image-idle: assets/current/ui-cinema/png/slider-idle.png;
+    image-hover: assets/current/ui-cinema/png/slider-hover.png;
+    image-knob: assets/current/ui-cinema/png/slider-knob.png;
+}
+AUTOSPEED {
+    id: 5;
+    type: autospeed;
+    x: 776;
+    y: 361;
+    image-idle: assets/current/ui-cinema/png/slider-idle.png;
+    image-hover: assets/current/ui-cinema/png/slider-hover.png;
+    image-knob: assets/current/ui-cinema/png/slider-knob.png;
+}
+PREVIEW {
+    id: 6;
+    type: preview;
+    x: 776;
+    y: 441;
+    image-idle: assets/current/ui-cinema/png/preview.png;
+    msg: "文字正以你习惯的速度显现。";
+    msg-zh-cn: "文字正以你习惯的速度显现。";
+    margin-left: 18;
+    margin-top: 14;
+    margin-right: 18;
+    margin-bottom: 14;
+}
+RESET {
+    id: 7;
+    type: default;
+    x: 776;
+    y: 566;
+    image-idle: assets/current/ui-cinema/png/reset-idle.png;
+    image-hover: assets/current/ui-cinema/png/reset-hover.png;
+    image-press: assets/current/ui-cinema/png/reset-press.png;
+}
+FULLSCREEN {
+    id: 8;
+    type: fullscreen;
+    x: 272;
+    y: 566;
+    image-idle: assets/current/ui-cinema/png/fullscreen-idle.png;
+    image-hover: assets/current/ui-cinema/png/fullscreen-hover.png;
+    image-press: assets/current/ui-cinema/png/fullscreen-press.png;
+    image-disable: assets/current/ui-cinema/png/fullscreen-press.png;
+}

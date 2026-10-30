@@ -1,0 +1,58 @@
+{
+  "status": "pass",
+  "date": "2026-10-30",
+  "scope": "离线人工目视；不等于游戏引擎或逐帧终审",
+  "assetIds": [
+    "npc-chenniang-base",
+    "npc-ajun-base",
+    "npc-housing-clerk-base",
+    "npc-salon-newcomer-base",
+    "npc-aying-base",
+    "npc-key-handover-base",
+    "npc-shoe-repairer-base",
+    "npc-grocery-owner-base",
+    "npc-new-grocery-owner-base",
+    "npc-sign-repairer-base",
+    "npc-classmate-base",
+    "npc-boss-li-base",
+    "npc-cafe-customer-base",
+    "npc-cafe-colleague-base"
+  ],
+  "evidence": [
+    {
+      "path": "qa/portrait-gap-fill-20261030/draft-v001/composites/white.jpg",
+      "sha256": "45a70c784c19fb535fb0c60d1abee96348a776e8c1b9714212b78b69530793c7"
+    },
+    {
+      "path": "qa/portrait-gap-fill-20261030/draft-v001/composites/black.jpg",
+      "sha256": "23a44bd1a176fdff4b14703d189eb4d59f5775da78e0b342875ae9a3fbe280c3"
+    },
+    {
+      "path": "qa/portrait-gap-fill-20261030/draft-v001/composites/day.jpg",
+      "sha256": "156ce0345e69d83e765ad0009e3ca23d6eacf38b3d663f9b28d47e9d482c7da3"
+    },
+    {
+      "path": "qa/portrait-gap-fill-20261030/draft-v001/composites/night.jpg",
+      "sha256": "b1951214a4533b3a627664ce7efb332a43602f65eb77b82be6b98a7c39673fa4"
+    },
+    {
+      "path": "qa/portrait-gap-fill-20261030/角色总览.jpg",
+      "sha256": "81de713a09306a6da99918c5feab34d7781817085280b3345015ce70056077db"
+    },
+    {
+      "path": "qa/portrait-gap-fill-20261030/salon-v002-four-backgrounds.jpg",
+      "sha256": "0a5c1a1f4dfa2c35b68c92378ea76f8f699d45c3be2061a4b37032bef1d928ed"
+    }
+  ],
+  "checks": [
+    "逐张查看14张生成原图与四底合成，脸、手和轮廓没有明显破损或道具残留。",
+    "按普通人方向选用自然肤质与朴素日常服装，排除3张偏精致首稿。",
+    "新人原稿与阿俊偏相似，采用短圆脸/普通眼镜v002；另看四底局部与最终脸部总览。",
+    "白/黑/昼/夜底下透明边缘无明显色底或光晕；李老板左上角1/255原生alpha保留，合成下不可见。",
+    "窗口工作人员与旧房交接人员、原/新杂货店店主分别设计，不合并未确认身份。"
+  ],
+  "limitations": [
+    "这些是对话肖像；并未逐拍重画理发、搬运、卧床、骑车等动作。",
+    "配角基础肖像没有额外情绪差分，本批不增加不必要差分图。"
+  ]
+}

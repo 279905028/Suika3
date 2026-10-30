@@ -1,0 +1,521 @@
+{
+  "scope": "14图无损转码、alpha与四底目视完成；非游戏运行验收",
+  "encoding": {
+    "tool": "Pillow / libwebp",
+    "version": "11.3.0 / 1.5.0",
+    "lossless": true,
+    "method": 6,
+    "exact": true,
+    "profileProcess": "保留源RGBA，不做像素色彩转换；原生PNG不重写"
+  },
+  "records": [
+    {
+      "assetId": "npc-chenniang-base",
+      "name": "陈孃",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-chenniang-base-v002.png",
+      "expectedSourceSha256": "a6188d120bbab3720f5cfa7aff774c8978b9eee2ddbc13e7ce2e107ed5d3689e",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "9c491c63ff04fe4aae926a50917e1daf5d44963fed2c6f3e357b32026199eb68",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1317718,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 836122,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            166,
+            56,
+            904,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-ajun-base",
+      "name": "阿俊",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-ajun-base-v002.png",
+      "expectedSourceSha256": "1a1e104d3a9416ed857b7b40ef5e42f11246c7ab4b1e5e720d25cae232863cff",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "9ff1ce1f3a096bc1a64c2a4285213c3451111aebb370276a75280f059a4cbef6",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1212862,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 799291,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            96,
+            33,
+            862,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-housing-clerk-base",
+      "name": "窗口工作人员",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-housing-clerk-base-v001.png",
+      "expectedSourceSha256": "c0b9db79bfaf11d4d6d4e7d2f781ca24c98c0cd9fddd95409133caaee37eb019",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "22a64a315a5bbd3615d743df3d8c45be5a03f2bfe42f53627f6fd80a7c4e6a00",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1113184,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 847533,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            97,
+            71,
+            925,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-salon-newcomer-base",
+      "name": "理发店新人",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-salon-newcomer-base-v002.png",
+      "expectedSourceSha256": "f42721cdb40adb7f5d22cb8718dd9f86d94c1785088d1c23f86b6467fe832161",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "46b9704f57a5861c0352a974efc40cf7eb821fe7028e3dde30fba1444131b30c",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1121006,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 940372,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            176,
+            70,
+            830,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-aying-base",
+      "name": "阿英",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-aying-base-v002.png",
+      "expectedSourceSha256": "e4f056aded8b751d182794372c540ea22b619a3e379f9b6ef746b3db11c7bd90",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "c25493af5061aea30d152ab6f3ac343cda99c0c140608bba49b9743fdab661f5",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1099246,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 910209,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            182,
+            36,
+            789,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-key-handover-base",
+      "name": "旧房交接人员",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-key-handover-base-v001.png",
+      "expectedSourceSha256": "93099897b497856ac6617f1a564b6e12d515ab4dbba46606656772e7a068cc32",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "d1efbce37ee31ee5ffdd673f53d04d7b527a1444fc064dd24abc3e26c1a5a020",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1178312,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 792607,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            160,
+            50,
+            916,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-shoe-repairer-base",
+      "name": "修鞋师傅",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-shoe-repairer-base-v001.png",
+      "expectedSourceSha256": "fa0283ff10b337373fb5e88c8f3dbce06587d4c60434ba174f4786bd9fa3749f",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "b05b13188953c7282441a561fa0b2c5ca329ebc2ed6ba91788297c3ecf3cf5bf",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1330674,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 813214,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            137,
+            32,
+            888,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-grocery-owner-base",
+      "name": "原杂货店大姐",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-grocery-owner-base-v001.png",
+      "expectedSourceSha256": "97b5cdab568822347805e9614bf380f3b8827f7d4c23c82f87b247b278b8a426",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "507ee0fdc92a4fcf14e4a6d7e4e045c65bbfaba2e842c4aa63bbd452216aae60",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1312826,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 836423,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            154,
+            66,
+            875,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-new-grocery-owner-base",
+      "name": "新杂货店店主",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-new-grocery-owner-base-v001.png",
+      "expectedSourceSha256": "ef03a408eb038822d2f3d1786b8e5001e3d26f09aa959bbbca3ff06f50a001bd",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "61dce64bcab2fe91354e9c3b28eada5b00a1fa0aa3221d589b9628902f8e89f7",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1154920,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 887247,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            207,
+            36,
+            847,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-sign-repairer-base",
+      "name": "修招牌的人",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-sign-repairer-base-v001.png",
+      "expectedSourceSha256": "7d5ffdc03ecb54c5b06a96395d4737f1deeefef652b5b0bdfe693ef757bea1a1",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "d69a6d6d10ddc67d8bc657b12d853b9a3775b1c0c1a26aa1e45117b2eb0d1d5b",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1374372,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 738153,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            117,
+            64,
+            939,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-classmate-base",
+      "name": "老同学",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-classmate-base-v001.png",
+      "expectedSourceSha256": "06782e1270ebecd3188145cb00f1acc2e325bda29fc3264d880c5e80c96e8ada",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "9da3ae76ed5e57bfd148afb47a0e0112c2618bd03f7fde2965d449446917a659",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1303916,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 728283,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            149,
+            47,
+            930,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-boss-li-base",
+      "name": "李老板",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-boss-li-base-v001.png",
+      "expectedSourceSha256": "a9cbdbc46c2eddd984af0b9e98f6e55e614ae933b7d02aa53f581f3d4d2a7c3b",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "b4fea58aeeda724ee04a46404c4d5979f0f83198e060e1ce1530651c4efed739",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1088400,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 840948,
+          "cornerAlpha": [
+            1,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            148,
+            66,
+            864,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-cafe-customer-base",
+      "name": "退费顾客",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-cafe-customer-base-v001.png",
+      "expectedSourceSha256": "70a4939230b2a33326f6e23b53b9bcfdfc826f0b0bc39add4135cc023ccd28da",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "1a608021ba560d01ec24ad98fef051d9379cb7cf045f727ef313f3fc6c7dd4e2",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1181486,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 839372,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            125,
+            38,
+            879,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    },
+    {
+      "assetId": "npc-cafe-colleague-base",
+      "name": "新店同事",
+      "sourceFile": "assets/sources/20261030-portrait-gap-fill/production/npc-cafe-colleague-base-v001.png",
+      "expectedSourceSha256": "d3cba1bbe1e0f9038cf9acb91833d89579bff4efe1cc4326207f2e75d2c50d9e",
+      "offlineStatus": "通过",
+      "formatStatus": "通过",
+      "role": "pending_adoption_review",
+      "webpMetadata": {
+        "sha256": "8f4b0483f22d25b52d1b270993b866beb629730ca7619a8392ab10df2f2d6689",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 1265974,
+        "alpha": {
+          "channelPresent": true,
+          "range": [
+            0,
+            254
+          ],
+          "transparentPixels": 803820,
+          "cornerAlpha": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "visibleBBoxAlphaAbove32": [
+            165,
+            29,
+            894,
+            1536
+          ]
+        }
+      },
+      "rgbaPixelsEqual": true
+    }
+  ],
+  "visualReview": {
+    "path": "qa/portrait-gap-fill-20261030/visual-review.json",
+    "sha256": "0411dcd02801a8017b595a61512ddbd928b89464cccfe4bed5b06eca5de274cb"
+  }
+}

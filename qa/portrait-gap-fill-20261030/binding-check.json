@@ -1,0 +1,134 @@
+{
+  "scope": "本批逐段决定、来源/角色边界及两平台生成状态恢复的离线模型检查；复用既有可达状态见证，不表示新增引擎/真机/逐帧验收。",
+  "checks": [
+    {
+      "name": "正文、3086节点身份/分支、212原图登记、表情/衣装/形态、60CG和道具不变",
+      "pass": true,
+      "details": {
+        "assets": 226,
+        "newImages": 14,
+        "bindings": 3086,
+        "cg": 60
+      }
+    },
+    {
+      "name": "786段逐段决定完整应用：722保留，54补绘、10复用；分页不重复计段",
+      "pass": true,
+      "details": {
+        "paragraphs": 786,
+        "keptPages": 723,
+        "addedPages": 64
+      }
+    },
+    {
+      "name": "3019原文段落分页重组与来源逐字一致",
+      "pass": true,
+      "details": {
+        "paragraphs": 3019,
+        "pages": 3021
+      }
+    },
+    {
+      "name": "黄球球形态/开门约束和所有原有女主肖像保持原规则",
+      "pass": true
+    },
+    {
+      "name": "两平台生成enter/restore与声明一致，缺地点状态有UI底图",
+      "pass": true,
+      "details": {
+        "placementComparisons": 12344,
+        "platforms": [
+          {
+            "sdkPlatform": "wasm",
+            "raySha256": "6458d895d05c1c163865debbf6faf5738c24e8d275fc985fa2b105e446e5d8f8",
+            "generatedStates": 418,
+            "fallbackStates": 34,
+            "bindings": 3086,
+            "validRestores": 3086,
+            "rejectedCorruptStates": 18516,
+            "placementComparisons": 6172
+          },
+          {
+            "sdkPlatform": "desktop",
+            "raySha256": "4d934eb74020ad3d93f63831648b8dce12fc5fcbca5e6afef3d0835e80d90981",
+            "generatedStates": 418,
+            "fallbackStates": 34,
+            "bindings": 3086,
+            "validRestores": 3086,
+            "rejectedCorruptStates": 18516,
+            "placementComparisons": 6172
+          }
+        ]
+      }
+    },
+    {
+      "name": "沿用全部3086可达见证，真实生成函数通过合法恢复并拒绝损坏",
+      "pass": true,
+      "details": {
+        "totalRestores": 6172,
+        "totalRejects": 37032,
+        "validationAndRestoreRejections": 74064,
+        "usesMockedNativeImageAPI": true
+      }
+    },
+    {
+      "name": "FR-E2在两份后日谈可达节点不出现实体人物",
+      "pass": true,
+      "details": {
+        "frE2Checks": 36
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "sdkPlatform": "wasm",
+      "raySha256": "6458d895d05c1c163865debbf6faf5738c24e8d275fc985fa2b105e446e5d8f8",
+      "generatedStates": 418,
+      "fallbackStates": 34,
+      "bindings": 3086,
+      "validRestores": 3086,
+      "rejectedCorruptStates": 18516,
+      "placementComparisons": 6172
+    },
+    {
+      "sdkPlatform": "desktop",
+      "raySha256": "4d934eb74020ad3d93f63831648b8dce12fc5fcbca5e6afef3d0835e80d90981",
+      "generatedStates": 418,
+      "fallbackStates": 34,
+      "bindings": 3086,
+      "validRestores": 3086,
+      "rejectedCorruptStates": 18516,
+      "placementComparisons": 6172
+    }
+  ],
+  "status": "PASS_OFFLINE_BINDINGS_AND_GENERATED_STATE_MODEL",
+  "inputs": {
+    "bindings": {
+      "path": "docs/整合/bindings.json",
+      "sha256": "8559b177247def5695898ac85b16a81cafd7b3e23f9d833325d53a39ea87304e"
+    },
+    "manifest": {
+      "path": "assets/current/manifest.json",
+      "sha256": "b4ba3a8368479dda0f8674b6e55fce882f5c17c49e92fc781baf3bb058bdc2d5"
+    },
+    "witnesses": {
+      "path": "qa/sui-i01-closeout-20261030/state-witnesses.json",
+      "sha256": "32d59df8036b6369a15a1cb067487053fd74af58666caa13b6eca4177fca0909"
+    },
+    "sourceHashes": {
+      "scenario/routes.json": "21ee8f439e511b86f6c56174a86c68ee292abb076abbd777ab672e19cf235d32",
+      "scenario/第一章-回到毕节.md": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "scenario/第二章-十四天.md": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+      "scenario/第三章-选一条路.md": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8",
+      "scenario/罗小满-练习本.md": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "scenario/周栀-十一点四十七分.md": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "scenario/孟遥-旧题.md": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+      "scenario/飘-空白页.md": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "scenario/黄球球-门后.md": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "scenario/朋友与职业-夜班.md": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+      "scenario/跨路线-第36天的消息.md": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+      "scenario/后日谈-他们的日子.md": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+      "scenario/后日谈-未写完的安排.md": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-30",
+  "tool": "dreamina-canvas CLI 1.1.1",
+  "projectId": "8fe782cf-aafb-4ef0-b5b7-3511edba6b3a",
+  "firstNodeId": "node_yy8dy4fv2s",
+  "lastNodeId": "node_1rzwsbw4jp",
+  "source": "assets/sources/20261030-trio-cover-options/cover-b-v001.png",
+  "model": "seedance_2.0_fast_vip",
+  "durationSeconds": 8,
+  "resolution": "720p",
+  "jobs": [
+    {
+      "id": "b1",
+      "name": "损友笑场",
+      "nodeId": "node_wynvf4ygbr",
+      "updateId": "e7e776c1-5013-4d58-a6a8-53e76c43a163",
+      "submitId": "7b7bbfb7-de2e-4d77-82d6-1c05c0c42e68",
+      "state": "succeeded_and_downloaded",
+      "upstreamNodeIds": [
+        "node_yy8dy4fv2s",
+        "node_1rzwsbw4jp"
+      ],
+      "resourceIds": [
+        "0286d919-1f19-412e-a8d3-a60c062f6fb5"
+      ],
+      "resourceStatus": "success",
+      "download": {
+        "resourceId": "0286d919-1f19-412e-a8d3-a60c062f6fb5",
+        "path": "/Users/yipin/Desktop/Suika3/assets/sources/20261030-cover-b-motion/b1-original.mp4",
+        "size": 16165201,
+        "sha256": "c3ac6168b1fb9c27140029c3f05b8f51ecd70007e4473c94e903425e24fb5e55"
+      }
+    },
+    {
+      "id": "b2",
+      "name": "肩拍躲闪",
+      "nodeId": "node_0e5cx53r39",
+      "updateId": "6a1beb6b-9b7f-48f3-8069-245d21f6a9cd",
+      "submitId": "13242b26-381e-47e9-ae3e-eb5391529048",
+      "state": "succeeded_and_downloaded",
+      "upstreamNodeIds": [
+        "node_yy8dy4fv2s",
+        "node_1rzwsbw4jp"
+      ],
+      "resourceIds": [
+        "8f5c2b59-87ba-42f6-ad03-13438d9144d8"
+      ],
+      "resourceStatus": "success",
+      "download": {
+        "resourceId": "8f5c2b59-87ba-42f6-ad03-13438d9144d8",
+        "path": "/Users/yipin/Desktop/Suika3/assets/sources/20261030-cover-b-motion/b2-original.mp4",
+        "size": 16411452,
+        "sha256": "10627685f4eafa0b8f03ff49d059fa75d86c93c6b10d4a06bc5b2818b548fb1d"
+      }
+    }
+  ],
+  "quote": {
+    "consumptionSubject": {
+      "kind": "personal",
+      "userId": "174201935247147"
+    },
+    "items": [
+      {
+        "nodeId": "node_wynvf4ygbr",
+        "maxCredits": 48
+      },
+      {
+        "nodeId": "node_0e5cx53r39",
+        "maxCredits": 48
+      }
+    ],
+    "totalMaxCredits": 96,
+    "draftVersion": 4,
+    "confirmable": true,
+    "confirmationRequired": true
+  },
+  "approval": {
+    "userApproved": true,
+    "creditCeiling": 96,
+    "instruction": "批准，最多使用 96 积分"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "pass": false,
+  "type": "test-expectation",
+  "request": "/%2e%2e/candidate-manifest.json",
+  "expected": 403,
+  "actual": 404,
+  "explanation": "URL解析先规范化独立..路径段；得到web内不存在的文件并返回404，未读取工程外文件。补充编码斜杠路径验证403。"
+}

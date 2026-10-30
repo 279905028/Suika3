@@ -1,0 +1,752 @@
+{
+  "scope": "正式候选自然开场背景/人物/CG/图库/读档；非全篇人工验收",
+  "version": "sui-i02-20261030-v8",
+  "runtimeBuildId": "739136601883c659403831f46eaa4e2afc2327fa419f6515c0b07727870c40fb",
+  "checks": [
+    {
+      "name": "未遇见CG时图鉴保持锁定",
+      "pass": true
+    },
+    {
+      "name": "真实图库显示60项的第10页，未遇见项目保持锁定",
+      "pass": true
+    },
+    {
+      "name": "自然正文第2段实际显示毛狼与站台并保存",
+      "pass": true,
+      "details": "TEXT_f5354c41d01bf0d95a4c_1"
+    },
+    {
+      "name": "第4段CG首可见帧解锁，键盘/点击全图开关均不推进原段",
+      "pass": true,
+      "details": "TEXT_982d9ac0f683c6bbb52b_1"
+    },
+    {
+      "name": "CG退出后恢复同场毛狼，下一句立绘持续存在",
+      "pass": true,
+      "details": "TEXT_d21f786e12142417e468_1"
+    },
+    {
+      "name": "手动档恢复CG与全图查看",
+      "pass": true
+    },
+    {
+      "name": "手动档恢复背景/人物/站位",
+      "pass": true
+    },
+    {
+      "name": "关闭浏览器重开后CG存档与全图恢复",
+      "pass": true
+    },
+    {
+      "name": "仅自然遇见CG001解锁，图库详情可用；其余59项未声称解锁",
+      "pass": true
+    },
+    {
+      "name": "新游戏恢复声明的站台开场，不继承旧CG舞台",
+      "pass": true
+    },
+    {
+      "name": "选择前保留毛狼与师匠，保存读取正确恢复",
+      "pass": true
+    },
+    {
+      "name": "原纯黑段117行显示雨窗阅读背景，保存读取恢复同段",
+      "pass": true
+    },
+    {
+      "name": "原生/浏览器错误为零",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "shots": [
+    {
+      "name": "01-gallery-locked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/01-gallery-locked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02-locked-click",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/02-locked-click.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "607239a7147b022127e7c9440d581b77d106eb05e73dd2fa8e867bd6e77182b3"
+    },
+    {
+      "name": "02b-gallery-page10",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/02b-gallery-page10.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b6a4ee692771ff3922484156ee899ad4d2c4543dd8a1c651d7d942790453e0c4"
+    },
+    {
+      "name": "00-opening",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/00-opening.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "f83dfd42398b3dc4011e3e30dd14a0901081169a4b6ed512f589fc6f6bc0386d"
+    },
+    {
+      "name": "03-character",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/03-character.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "48ece410a21dea5327c67038ed1668607a8e4fd482b9d6433274c77828e09792"
+    },
+    {
+      "name": "03b-next-paragraph",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/03b-next-paragraph.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "93b53ee61b733fb5a49d9f493524d20c6195ffaaf1e6bc1496e5558a5e08ccf8"
+    },
+    {
+      "name": "04-cg",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/04-cg.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "4211de88023914842491912dcc4942c7877379b098733a353bd9859878c77aac"
+    },
+    {
+      "name": "05-cg-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/05-cg-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "05b-touch-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/05b-touch-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "06-exit-hidden",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/06-exit-hidden.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "5655dbb82136f7a0a88ec5111b51bf27980aac78ac3a522df2b00846bad9e532"
+    },
+    {
+      "name": "07-cg-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/07-cg-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "dfbcb621a1e74f2eb8a491623973bbc148780fd26714dce01bb1a2c78f1f6f53"
+    },
+    {
+      "name": "08-cg-loaded-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/08-cg-loaded-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "09-character-loaded",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/09-character-loaded.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "11f3e07cbf16848b0c74ddeec725f67e3fe2e9b8eb30826241b56e3450acf7e5"
+    },
+    {
+      "name": "10-cg-reopened",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/10-cg-reopened.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a379f62bdb0abf2311b375b17b127c75bf82ff5af442d04cea1d3c3c5ab0d4ce"
+    },
+    {
+      "name": "11-cg-reopened-full",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/11-cg-reopened-full.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "a5a2b6d4e7eb14c288439d4ae100feebaf8e441f2b88336779e6ba34dfba650f"
+    },
+    {
+      "name": "12-gallery-unlocked",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/12-gallery-unlocked.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "3a1985065b07d7acaf5de2c328e7bd8c2aed03773f92731214f8b2331e4f562c"
+    },
+    {
+      "name": "13-gallery-detail",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/13-gallery-detail.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "1927d884d56737a6093f2f90f065539f4000d10447a9f07f7dfd8c7b0432bba7"
+    },
+    {
+      "name": "14-choice-portraits",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/14-choice-portraits.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "274f96c329d8e6c61176d440e2dc20ecb2896d96cbf704af9dcf289a586e1326"
+    },
+    {
+      "name": "15-choice-restored",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/15-choice-restored.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "b2a830cc2f7e2079bdd5fd2807c0d445f34566b9ac45214d08c65f97ea55f5a1"
+    },
+    {
+      "name": "16-rain-backdrop",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/16-rain-backdrop.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "cc99293dcfff86b3e1cfd7524a4808785ac314496e186d266b087c948f4c9a20"
+    },
+    {
+      "name": "17-rain-backdrop-restored",
+      "file": "/Users/yipin/Desktop/Suika3/qa/dialogue-visual-fix-20261030/sui-i02-20261030-v8/presentation-2/17-rain-backdrop-restored.png",
+      "canvasBox": {
+        "x": 0,
+        "y": 52,
+        "width": 1280,
+        "height": 720
+      },
+      "canvas": [
+        1280,
+        720
+      ],
+      "sha256": "acac1ad201126a1afede9339ef03182bc804b20162970974f1992bb448c00781"
+    }
+  ],
+  "logs": [
+    "SUI_E|ready|739136601883c659403831f46eaa4e2afc2327fa419f6515c0b07727870c40fb",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|exit|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|save|slot=1|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|save|slot=0|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|exit|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|save|slot=0|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|save|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|exit|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_I|enter|binding=i01v2-TEXT_d21f786e12142417e468_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|save|slot=0|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|load|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|load|slot=1|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_E|ready|739136601883c659403831f46eaa4e2afc2327fa419f6515c0b07727870c40fb",
+    "SUI_E|title",
+    "SUI_E|load|slot=2|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_E|title",
+    "SUI_E|title",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_12e9affe350b12038970_1",
+    "SUI_E|stable|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=TEXT_12e9affe350b12038970_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|exit|binding=i01v2-TEXT_12e9affe350b12038970_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_f5354c41d01bf0d95a4c_1",
+    "SUI_E|stable|cursor=TEXT_f5354c41d01bf0d95a4c_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=i01v2-TEXT_f5354c41d01bf0d95a4c_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_04f2fe2301318a26493d_1",
+    "SUI_E|stable|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_E|save|slot=0|cursor=TEXT_04f2fe2301318a26493d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|exit|binding=i01v2-TEXT_04f2fe2301318a26493d_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_982d9ac0f683c6bbb52b_1",
+    "SUI_E|stable|cursor=TEXT_982d9ac0f683c6bbb52b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|exit|binding=i01v2-TEXT_982d9ac0f683c6bbb52b_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_I|enter|binding=i01v2-TEXT_d21f786e12142417e468_1|node=TEXT_d21f786e12142417e468_1",
+    "SUI_E|stable|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_E|save|slot=0|cursor=TEXT_d21f786e12142417e468_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_I|exit|binding=i01v2-TEXT_d21f786e12142417e468_1|node=TEXT_e1427ee34fcf2aeca819_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e1427ee34fcf2aeca819_1|node=TEXT_e1427ee34fcf2aeca819_1",
+    "SUI_E|stable|cursor=TEXT_e1427ee34fcf2aeca819_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+    "SUI_I|exit|binding=i01v2-TEXT_e1427ee34fcf2aeca819_1|node=TEXT_080c170244eff617925d_1",
+    "SUI_I|enter|binding=i01v2-TEXT_080c170244eff617925d_1|node=TEXT_080c170244eff617925d_1",
+    "SUI_E|stable|cursor=TEXT_080c170244eff617925d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_I|exit|binding=i01v2-TEXT_080c170244eff617925d_1|node=TEXT_eba83339c178c009eff6_1",
+    "SUI_I|enter|binding=i01v2-TEXT_eba83339c178c009eff6_1|node=TEXT_eba83339c178c009eff6_1",
+    "SUI_E|stable|cursor=TEXT_eba83339c178c009eff6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_I|exit|binding=i01v2-TEXT_eba83339c178c009eff6_1|node=TEXT_1e1c1bfc6d8c25dfad34_1",
+    "SUI_I|enter|binding=i01v2-TEXT_1e1c1bfc6d8c25dfad34_1|node=TEXT_1e1c1bfc6d8c25dfad34_1",
+    "SUI_E|stable|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=0|cursor=TEXT_1e1c1bfc6d8c25dfad34_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_I|exit|binding=i01v2-TEXT_1e1c1bfc6d8c25dfad34_1|node=TEXT_e83b5f0a4167ec40ee58_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e83b5f0a4167ec40ee58_1|node=TEXT_e83b5f0a4167ec40ee58_1",
+    "SUI_E|stable|cursor=TEXT_e83b5f0a4167ec40ee58_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+    "SUI_I|exit|binding=i01v2-TEXT_e83b5f0a4167ec40ee58_1|node=TEXT_89d10e6fbee6dd54dd08_1",
+    "SUI_I|enter|binding=i01v2-TEXT_89d10e6fbee6dd54dd08_1|node=TEXT_89d10e6fbee6dd54dd08_1",
+    "SUI_E|stable|cursor=TEXT_89d10e6fbee6dd54dd08_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_I|exit|binding=i01v2-TEXT_89d10e6fbee6dd54dd08_1|node=TEXT_3fe55dfb2dd63fbb3b0e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3fe55dfb2dd63fbb3b0e_1|node=TEXT_3fe55dfb2dd63fbb3b0e_1",
+    "SUI_E|stable|cursor=TEXT_3fe55dfb2dd63fbb3b0e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=69",
+    "SUI_I|exit|binding=i01v2-TEXT_3fe55dfb2dd63fbb3b0e_1|node=TEXT_945c8830453c2fe27c64_1",
+    "SUI_I|enter|binding=i01v2-TEXT_945c8830453c2fe27c64_1|node=TEXT_945c8830453c2fe27c64_1",
+    "SUI_E|stable|cursor=TEXT_945c8830453c2fe27c64_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=73",
+    "SUI_E|save|slot=0|cursor=TEXT_945c8830453c2fe27c64_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=73",
+    "SUI_I|exit|binding=i01v2-TEXT_945c8830453c2fe27c64_1|node=TEXT_7b5cf5dd9537e65579e1_1",
+    "SUI_I|enter|binding=i01v2-TEXT_7b5cf5dd9537e65579e1_1|node=TEXT_7b5cf5dd9537e65579e1_1",
+    "SUI_E|stable|cursor=TEXT_7b5cf5dd9537e65579e1_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=77",
+    "SUI_I|exit|binding=i01v2-TEXT_7b5cf5dd9537e65579e1_1|node=TEXT_5a932c18fef16d486adb_1",
+    "SUI_I|enter|binding=i01v2-TEXT_5a932c18fef16d486adb_1|node=TEXT_5a932c18fef16d486adb_1",
+    "SUI_E|stable|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+    "SUI_E|save|slot=0|cursor=TEXT_5a932c18fef16d486adb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=81",
+    "SUI_I|exit|binding=i01v2-TEXT_5a932c18fef16d486adb_1|node=TEXT_cf9813a6bde4d424ec26_1",
+    "SUI_I|enter|binding=i01v2-TEXT_cf9813a6bde4d424ec26_1|node=TEXT_cf9813a6bde4d424ec26_1",
+    "SUI_E|stable|cursor=TEXT_cf9813a6bde4d424ec26_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=85",
+    "SUI_I|exit|binding=i01v2-TEXT_cf9813a6bde4d424ec26_1|node=TEXT_3b95db884e8708a8946b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3b95db884e8708a8946b_1|node=TEXT_3b95db884e8708a8946b_1",
+    "SUI_E|stable|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_E|save|slot=0|cursor=TEXT_3b95db884e8708a8946b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=89",
+    "SUI_I|exit|binding=i01v2-TEXT_3b95db884e8708a8946b_1|node=TEXT_f79bca9d3ad4ce89cc75_1",
+    "SUI_I|enter|binding=i01v2-TEXT_f79bca9d3ad4ce89cc75_1|node=TEXT_f79bca9d3ad4ce89cc75_1",
+    "SUI_E|stable|cursor=TEXT_f79bca9d3ad4ce89cc75_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=93",
+    "SUI_I|exit|binding=i01v2-TEXT_f79bca9d3ad4ce89cc75_1|node=TEXT_0f8e774a8dc5b1ba5070_1",
+    "SUI_I|enter|binding=i01v2-TEXT_0f8e774a8dc5b1ba5070_1|node=TEXT_0f8e774a8dc5b1ba5070_1",
+    "SUI_E|stable|cursor=TEXT_0f8e774a8dc5b1ba5070_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=97",
+    "SUI_I|exit|binding=i01v2-TEXT_0f8e774a8dc5b1ba5070_1|node=TEXT_e2d31d64a6d8a073d5a2_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e2d31d64a6d8a073d5a2_1|node=TEXT_e2d31d64a6d8a073d5a2_1",
+    "SUI_E|stable|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+    "SUI_E|save|slot=0|cursor=TEXT_e2d31d64a6d8a073d5a2_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=101",
+    "SUI_I|exit|binding=i01v2-TEXT_e2d31d64a6d8a073d5a2_1|node=TEXT_093d48020869574e10bb_1",
+    "SUI_I|enter|binding=i01v2-TEXT_093d48020869574e10bb_1|node=TEXT_093d48020869574e10bb_1",
+    "SUI_E|stable|cursor=TEXT_093d48020869574e10bb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=105",
+    "SUI_I|exit|binding=i01v2-TEXT_093d48020869574e10bb_1|node=TEXT_53f50ed4bd1471f185b0_1",
+    "SUI_I|enter|binding=i01v2-TEXT_53f50ed4bd1471f185b0_1|node=TEXT_53f50ed4bd1471f185b0_1",
+    "SUI_E|stable|cursor=TEXT_53f50ed4bd1471f185b0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=109",
+    "SUI_I|exit|binding=i01v2-TEXT_53f50ed4bd1471f185b0_1|node=TEXT_461ab2659577c4b5d2ea_1",
+    "SUI_I|enter|binding=i01v2-TEXT_461ab2659577c4b5d2ea_1|node=TEXT_461ab2659577c4b5d2ea_1",
+    "SUI_E|stable|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+    "SUI_E|save|slot=0|cursor=TEXT_461ab2659577c4b5d2ea_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=113",
+    "SUI_I|exit|binding=i01v2-TEXT_461ab2659577c4b5d2ea_1|node=TEXT_c63983d8a92b2d07edb4_1",
+    "SUI_I|enter|binding=i01v2-TEXT_c63983d8a92b2d07edb4_1|node=TEXT_c63983d8a92b2d07edb4_1",
+    "SUI_E|stable|cursor=TEXT_c63983d8a92b2d07edb4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=117",
+    "SUI_I|exit|binding=i01v2-TEXT_c63983d8a92b2d07edb4_1|node=TEXT_bc2c686eef08f9474502_1",
+    "SUI_I|enter|binding=i01v2-TEXT_bc2c686eef08f9474502_1|node=TEXT_bc2c686eef08f9474502_1",
+    "SUI_E|stable|cursor=TEXT_bc2c686eef08f9474502_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=121",
+    "SUI_I|exit|binding=i01v2-TEXT_bc2c686eef08f9474502_1|node=TEXT_e0a3efdbbefa7d97bfc6_1",
+    "SUI_I|enter|binding=i01v2-TEXT_e0a3efdbbefa7d97bfc6_1|node=TEXT_e0a3efdbbefa7d97bfc6_1",
+    "SUI_E|stable|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+    "SUI_E|save|slot=0|cursor=TEXT_e0a3efdbbefa7d97bfc6_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=125",
+    "SUI_I|exit|binding=i01v2-TEXT_e0a3efdbbefa7d97bfc6_1|node=C01-01",
+    "SUI_I|enter|binding=i01v2-C01-01|node=C01-01",
+    "SUI_E|stable|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=3|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=11|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=11|generation=1|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_I|exit|binding=i01v2-C01-01|node=BRANCH_c68b81993efac45af2e1",
+    "SUI_I|enter|binding=i01v2-TEXT_39801422808c60124b1d_1|node=TEXT_39801422808c60124b1d_1",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_E|load|slot=3|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=129",
+    "SUI_E|save|slot=12|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|checkpoint|choice=C01-01|slot=12|generation=2|cursor=C01-01|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=e_checkpoint|index=130",
+    "SUI_E|stable|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_E|save|slot=0|cursor=C01-01|pending=C01-01|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=choose|index=133",
+    "SUI_I|exit|binding=i01v2-C01-01|node=BRANCH_c68b81993efac45af2e1",
+    "SUI_I|enter|binding=i01v2-TEXT_39801422808c60124b1d_1|node=TEXT_39801422808c60124b1d_1",
+    "SUI_E|stable|cursor=TEXT_39801422808c60124b1d_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=139",
+    "SUI_I|exit|binding=i01v2-TEXT_39801422808c60124b1d_1|node=TEXT_4abe77d5f538f1cfc858_1",
+    "SUI_I|enter|binding=i01v2-TEXT_4abe77d5f538f1cfc858_1|node=TEXT_4abe77d5f538f1cfc858_1",
+    "SUI_E|stable|cursor=TEXT_4abe77d5f538f1cfc858_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=143",
+    "SUI_E|save|slot=0|cursor=TEXT_4abe77d5f538f1cfc858_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=143",
+    "SUI_I|exit|binding=i01v2-TEXT_4abe77d5f538f1cfc858_1|node=TEXT_03ca33cca5ab91643347_1",
+    "SUI_I|enter|binding=i01v2-TEXT_03ca33cca5ab91643347_1|node=TEXT_03ca33cca5ab91643347_1",
+    "SUI_E|stable|cursor=TEXT_03ca33cca5ab91643347_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=147",
+    "SUI_I|exit|binding=i01v2-TEXT_03ca33cca5ab91643347_1|node=TEXT_166076994750bf748044_1",
+    "SUI_I|enter|binding=i01v2-TEXT_166076994750bf748044_1|node=TEXT_166076994750bf748044_1",
+    "SUI_E|stable|cursor=TEXT_166076994750bf748044_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=151",
+    "SUI_I|exit|binding=i01v2-TEXT_166076994750bf748044_1|node=BRANCH_30b49936bcdcd9ff7423",
+    "SUI_I|enter|binding=i01v2-TEXT_cd69d6bcd1049cfe55fb_1|node=TEXT_cd69d6bcd1049cfe55fb_1",
+    "SUI_E|stable|cursor=TEXT_cd69d6bcd1049cfe55fb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=169",
+    "SUI_E|save|slot=0|cursor=TEXT_cd69d6bcd1049cfe55fb_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=169",
+    "SUI_I|exit|binding=i01v2-TEXT_cd69d6bcd1049cfe55fb_1|node=TEXT_89266a1cfc9100482c8f_1",
+    "SUI_I|enter|binding=i01v2-TEXT_89266a1cfc9100482c8f_1|node=TEXT_89266a1cfc9100482c8f_1",
+    "SUI_E|stable|cursor=TEXT_89266a1cfc9100482c8f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=173",
+    "SUI_I|exit|binding=i01v2-TEXT_89266a1cfc9100482c8f_1|node=TEXT_a316303bd07daf1171aa_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a316303bd07daf1171aa_1|node=TEXT_a316303bd07daf1171aa_1",
+    "SUI_E|stable|cursor=TEXT_a316303bd07daf1171aa_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=177",
+    "SUI_I|exit|binding=i01v2-TEXT_a316303bd07daf1171aa_1|node=TEXT_51fa096b3c9175bb4d82_1",
+    "SUI_I|enter|binding=i01v2-TEXT_51fa096b3c9175bb4d82_1|node=TEXT_51fa096b3c9175bb4d82_1",
+    "SUI_E|stable|cursor=TEXT_51fa096b3c9175bb4d82_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=181",
+    "SUI_E|save|slot=0|cursor=TEXT_51fa096b3c9175bb4d82_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=181",
+    "SUI_I|exit|binding=i01v2-TEXT_51fa096b3c9175bb4d82_1|node=TEXT_9f319b6f8239e315232b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_9f319b6f8239e315232b_1|node=TEXT_9f319b6f8239e315232b_1",
+    "SUI_E|stable|cursor=TEXT_9f319b6f8239e315232b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=185",
+    "SUI_I|exit|binding=i01v2-TEXT_9f319b6f8239e315232b_1|node=TEXT_a5e87526f883d6644207_1",
+    "SUI_I|enter|binding=i01v2-TEXT_a5e87526f883d6644207_1|node=TEXT_a5e87526f883d6644207_1",
+    "SUI_E|stable|cursor=TEXT_a5e87526f883d6644207_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=189",
+    "SUI_I|exit|binding=i01v2-TEXT_a5e87526f883d6644207_1|node=TEXT_d6a05c9677f394ba707e_1",
+    "SUI_I|enter|binding=i01v2-TEXT_d6a05c9677f394ba707e_1|node=TEXT_d6a05c9677f394ba707e_1",
+    "SUI_E|stable|cursor=TEXT_d6a05c9677f394ba707e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=193",
+    "SUI_E|save|slot=0|cursor=TEXT_d6a05c9677f394ba707e_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=193",
+    "SUI_I|exit|binding=i01v2-TEXT_d6a05c9677f394ba707e_1|node=TEXT_3a8a624bb43c53d4e7e7_1",
+    "SUI_I|enter|binding=i01v2-TEXT_3a8a624bb43c53d4e7e7_1|node=TEXT_3a8a624bb43c53d4e7e7_1",
+    "SUI_E|stable|cursor=TEXT_3a8a624bb43c53d4e7e7_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=197",
+    "SUI_I|exit|binding=i01v2-TEXT_3a8a624bb43c53d4e7e7_1|node=TEXT_eb37663c5ae16d9d98b4_1",
+    "SUI_I|enter|binding=i01v2-TEXT_eb37663c5ae16d9d98b4_1|node=TEXT_eb37663c5ae16d9d98b4_1",
+    "SUI_E|stable|cursor=TEXT_eb37663c5ae16d9d98b4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=201",
+    "SUI_E|save|slot=0|cursor=TEXT_eb37663c5ae16d9d98b4_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=201",
+    "SUI_I|exit|binding=i01v2-TEXT_eb37663c5ae16d9d98b4_1|node=TEXT_09bf52d8182ab1ba8f1b_1",
+    "SUI_I|enter|binding=i01v2-TEXT_09bf52d8182ab1ba8f1b_1|node=TEXT_09bf52d8182ab1ba8f1b_1",
+    "SUI_E|stable|cursor=TEXT_09bf52d8182ab1ba8f1b_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=205",
+    "SUI_I|exit|binding=i01v2-TEXT_09bf52d8182ab1ba8f1b_1|node=TEXT_231b265a1db9c9ca7ff9_1",
+    "SUI_I|enter|binding=i01v2-TEXT_231b265a1db9c9ca7ff9_1|node=TEXT_231b265a1db9c9ca7ff9_1",
+    "SUI_E|stable|cursor=TEXT_231b265a1db9c9ca7ff9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=209",
+    "SUI_E|save|slot=0|cursor=TEXT_231b265a1db9c9ca7ff9_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=209",
+    "SUI_I|exit|binding=i01v2-TEXT_231b265a1db9c9ca7ff9_1|node=TEXT_882e91640692acd2faa5_1",
+    "SUI_I|enter|binding=i01v2-TEXT_882e91640692acd2faa5_1|node=TEXT_882e91640692acd2faa5_1",
+    "SUI_E|stable|cursor=TEXT_882e91640692acd2faa5_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=213",
+    "SUI_I|exit|binding=i01v2-TEXT_882e91640692acd2faa5_1|node=TEXT_4438084ca2986b0fb81f_1",
+    "SUI_I|enter|binding=i01v2-TEXT_4438084ca2986b0fb81f_1|node=TEXT_4438084ca2986b0fb81f_1",
+    "SUI_E|stable|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_E|save|slot=0|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_E|save|slot=3|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|exit|binding=i01v2-TEXT_4438084ca2986b0fb81f_1|node=TEXT_4353be5501361c8688c0_1",
+    "SUI_I|enter|binding=i01v2-TEXT_4353be5501361c8688c0_1|node=TEXT_4353be5501361c8688c0_1",
+    "SUI_E|stable|cursor=TEXT_4353be5501361c8688c0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=221",
+    "SUI_E|save|slot=0|cursor=TEXT_4353be5501361c8688c0_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=221",
+    "SUI_E|load|slot=3|cursor=TEXT_4438084ca2986b0fb81f_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=1|tag=text|index=217"
+  ],
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suii-presentation-trGwD1",
+  "inputs": {
+    "adopted": 212,
+    "cues": 3086,
+    "cg": {
+      "bindingId": "i01v2-TEXT_982d9ac0f683c6bbb52b_1",
+      "anchor": {
+        "nodeId": "TEXT_982d9ac0f683c6bbb52b_1",
+        "file": "scenario/第一章-回到毕节.md",
+        "sha256": "edecb9a34780b494cd4159d7d3178c865317a03139e6bfdb0c98e4352def73bb"
+      },
+      "condition": "ALL",
+      "routeIds": [],
+      "enter": {
+        "background": {
+          "assetId": "bg-bijie-arrival-platform-day-rain",
+          "layer": "bg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7651434643995749,
+          "form": null,
+          "costume": null
+        },
+        "characters": [
+          {
+            "assetId": "maolang-base",
+            "layer": "center",
+            "x": 445,
+            "y": 42,
+            "scale": 0.38,
+            "form": "human",
+            "costume": "maolang-base"
+          }
+        ],
+        "props": [],
+        "cg": {
+          "assetId": "cg-common-cg001",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7651434643995749,
+          "form": null,
+          "costume": null
+        }
+      },
+      "exit": {
+        "at": "next-node",
+        "restore": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "maolang-base",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "maolang-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        }
+      },
+      "cgId": "CG001",
+      "fullView": true,
+      "restrictions": [
+        "scene-001: 按当前正文场所持续显示，至下一明确场景边界；不继承人物/道具",
+        "完整节点状态：任意跳转/回退/读档按目标节点重建背景、人物、形态、衣装、道具；不继承另一分支",
+        "CG当前段落内显示，下一节点先去CG恢复此场景，再按目标节点重算；全图查看隐藏正文/姓名/菜单且不推进正文",
+        "图鉴仅真实首个可见帧解锁，注册不解锁，全局解锁不随选择回退撤销",
+        "人物按本批逐文件审阅的明确在场区间持续显示；选择保持在场人物，既有单拍差分优先；远程、离场、门外和跨日不继承人物",
+        "无明确地点的段落使用UI雨窗阅读底图，不指定新场所；CG退出和读档仍完整重建目标节点"
+      ]
+    },
+    "scene": [
+      {
+        "bindingId": "i01v2-TEXT_f5354c41d01bf0d95a4c_1",
+        "anchor": {
+          "nodeId": "TEXT_f5354c41d01bf0d95a4c_1",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-arrival-platform-day-rain",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "maolang-base",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "maolang-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-arrival-platform-day-rain",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "maolang-base",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "maolang-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "scene-001: 按当前正文场所持续显示，至下一明确场景边界；不继承人物/道具",
+          "完整节点状态：任意跳转/回退/读档按目标节点重建背景、人物、形态、衣装、道具；不继承另一分支",
+          "人物按本批逐文件审阅的明确在场区间持续显示；选择保持在场人物，既有单拍差分优先；远程、离场、门外和跨日不继承人物",
+          "无明确地点的段落使用UI雨窗阅读底图，不指定新场所；CG退出和读档仍完整重建目标节点"
+        ]
+      }
+    ]
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "status": "pass"
+}

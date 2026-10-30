@@ -1,0 +1,71 @@
+{
+  "source": "即梦CLI生成原视频，非样片",
+  "model": "seedance_2.0_fast_vip",
+  "requestedDurationSeconds": 6,
+  "originalMetadata": {
+    "ffmpeg_version": "7.1 built with Apple clang version 13.1.6 (clang-1316.0.21.2.5)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(progressive)",
+    "audio_codec": "aac",
+    "fps": 24.1,
+    "source_size": [
+      1280,
+      720
+    ],
+    "size": [
+      1280,
+      720
+    ],
+    "rotate": 0,
+    "duration": 6.08
+  },
+  "derivativeDurationSeconds": 6,
+  "derivativeFPS": 24,
+  "processing": [
+    "去除音轨",
+    "仅标题字形区域固定为首帧，避免文字闪动",
+    "末0.5秒平滑回到首帧，最后原始帧等于第一帧",
+    "GIF统一调色板，GIF/WebP无限循环"
+  ],
+  "loopFramesBeforeEncodingIdentical": true,
+  "outputs": [
+    {
+      "path": "assets/sources/20261030-cover-a-motion/dreamina-original.mp4",
+      "bytes": 11580785,
+      "sha256": "9e23fdb959238a201b31272534292000d49da3aad943e1ab009b8427c26d778b"
+    },
+    {
+      "path": "assets/sources/20261030-cover-a-motion/cover-a-loop.mp4",
+      "bytes": 9091957,
+      "sha256": "2e446fef117bdfc495f541b49b524784b48623cfb5e646f60f64d9b22bf10ebc"
+    },
+    {
+      "path": "assets/sources/20261030-cover-a-motion/cover-a-loop.webp",
+      "bytes": 14888898,
+      "sha256": "d030eb542458baf6d641924b00ec6b96a63322178f836b28d94df6ef611ea8b1",
+      "format": "WEBP",
+      "size": [
+        960,
+        540
+      ],
+      "frames": 120,
+      "loop": 0,
+      "durationMs": 6000,
+      "decodedFirstLastMAE": 0.0
+    },
+    {
+      "path": "assets/sources/20261030-cover-a-motion/cover-a-loop.gif",
+      "bytes": 18288426,
+      "sha256": "c0b0bcc8883991e7ead6eeeb52c0aa21ef81403b6c1ec40e26137fe7af7aaca0",
+      "format": "GIF",
+      "size": [
+        720,
+        405
+      ],
+      "frames": 72,
+      "loop": 0,
+      "durationMs": 6000,
+      "decodedFirstLastMAE": 0.0
+    }
+  ]
+}

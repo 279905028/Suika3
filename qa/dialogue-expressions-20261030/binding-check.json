@@ -1,0 +1,138 @@
+{
+  "scope": "当前编译与生成演出注册/恢复函数的离线模型回归；沿用冻结可达状态，不重新遍历全部路线。不含引擎、图片解码、浏览器、真机、原生或发布验收。",
+  "checks": [
+    {
+      "name": "同人在场、衣装、形态、槽位、缩放及位置不变，仅替换已批准差分",
+      "pass": true,
+      "details": {
+        "compared": 2662,
+        "changed": 1356
+      }
+    },
+    {
+      "name": "正文、节点身份、条件、路线、60CG及图片登记保持一致",
+      "pass": true,
+      "details": {
+        "bindings": 3086,
+        "paragraphs": 3019,
+        "cg": 60,
+        "assets": 212
+      }
+    },
+    {
+      "name": "全节点角色数、采用状态及选择等待人物",
+      "pass": true,
+      "details": {
+        "maxCharacters": 3,
+        "portraits": 2269,
+        "choicesWithCharacters": 48
+      }
+    },
+    {
+      "name": "黄球球先获准开门、第55天人形及结束后不回退形态",
+      "pass": true,
+      "details": {
+        "doorChecks": 603,
+        "formChecks": 278
+      }
+    },
+    {
+      "name": "两平台生成enter/restore与声明一致，缺地点状态有UI底图",
+      "pass": true,
+      "details": {
+        "placementComparisons": 12344,
+        "platforms": [
+          {
+            "sdkPlatform": "wasm",
+            "raySha256": "0065aa26155f08365ad2030df47d707f1a5e3fad7c8999f301c66ae9a3f26015",
+            "generatedStates": 394,
+            "fallbackStates": 33,
+            "bindings": 3086,
+            "validRestores": 3086,
+            "rejectedCorruptStates": 18516,
+            "placementComparisons": 6172
+          },
+          {
+            "sdkPlatform": "desktop",
+            "raySha256": "17be996b0859eb86a0762388e7edd8200f2741dfbc60e79321b5e43cb946d85f",
+            "generatedStates": 394,
+            "fallbackStates": 33,
+            "bindings": 3086,
+            "validRestores": 3086,
+            "rejectedCorruptStates": 18516,
+            "placementComparisons": 6172
+          }
+        ]
+      }
+    },
+    {
+      "name": "沿用全部3086可达见证，真实生成函数通过合法恢复并拒绝损坏",
+      "pass": true,
+      "details": {
+        "totalRestores": 6172,
+        "totalRejects": 37032,
+        "validationAndRestoreRejections": 74064,
+        "usesMockedNativeImageAPI": true
+      }
+    },
+    {
+      "name": "FR-E2在两份后日谈可达节点不出现实体人物",
+      "pass": true,
+      "details": {
+        "frE2Checks": 36
+      }
+    }
+  ],
+  "platforms": [
+    {
+      "sdkPlatform": "wasm",
+      "raySha256": "0065aa26155f08365ad2030df47d707f1a5e3fad7c8999f301c66ae9a3f26015",
+      "generatedStates": 394,
+      "fallbackStates": 33,
+      "bindings": 3086,
+      "validRestores": 3086,
+      "rejectedCorruptStates": 18516,
+      "placementComparisons": 6172
+    },
+    {
+      "sdkPlatform": "desktop",
+      "raySha256": "17be996b0859eb86a0762388e7edd8200f2741dfbc60e79321b5e43cb946d85f",
+      "generatedStates": 394,
+      "fallbackStates": 33,
+      "bindings": 3086,
+      "validRestores": 3086,
+      "rejectedCorruptStates": 18516,
+      "placementComparisons": 6172
+    }
+  ],
+  "status": "PASS_OFFLINE_BINDINGS_AND_GENERATED_STATE_MODEL",
+  "inputs": {
+    "bindings": {
+      "path": "docs/整合/bindings.json",
+      "sha256": "79272eb838c378176fdbec9b69eaa36637532025a06d4bcec8549f9fe7809cf8"
+    },
+    "manifest": {
+      "path": "assets/current/manifest.json",
+      "sha256": "fa6165a821b82b8960c7c34164611d33503eb6e9a1a976209dfdd11b578a31be"
+    },
+    "witnesses": {
+      "path": "qa/sui-i01-closeout-20261030/state-witnesses.json",
+      "sha256": "32d59df8036b6369a15a1cb067487053fd74af58666caa13b6eca4177fca0909"
+    },
+    "sourceHashes": {
+      "scenario/routes.json": "21ee8f439e511b86f6c56174a86c68ee292abb076abbd777ab672e19cf235d32",
+      "scenario/第一章-回到毕节.md": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+      "scenario/第二章-十四天.md": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+      "scenario/第三章-选一条路.md": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8",
+      "scenario/罗小满-练习本.md": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+      "scenario/周栀-十一点四十七分.md": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+      "scenario/孟遥-旧题.md": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+      "scenario/飘-空白页.md": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+      "scenario/黄球球-门后.md": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5",
+      "scenario/朋友与职业-夜班.md": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+      "scenario/跨路线-第36天的消息.md": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+      "scenario/后日谈-他们的日子.md": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+      "scenario/后日谈-未写完的安排.md": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb"
+    }
+  }
+}

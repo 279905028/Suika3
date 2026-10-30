@@ -46,7 +46,7 @@ def ignored_kind(rel):
     return 'review', '未登记文件；先决定归属，禁止静默遗漏'
 
 
-def inventory(out):
+def inventory(out, snapshot_path='qa/sui-i01-closeout-20261030/snapshot.json'):
     if out.exists():
         raise SystemExit('报告目录已存在，请使用新批次，禁止覆盖历史证据')
     all_paths = []
@@ -82,7 +82,10 @@ def inventory(out):
             record['mode'] = oct(full.stat().st_mode & 0o777)
         rows[category].append(record)
     classification = {r['path']: k for k, records in rows.items() for r in records}
-    snapshot_path = 'qa/sui-i01-closeout-20261030/snapshot.json'
+    snapshot_file = (ROOT / snapshot_path).resolve()
+    if not snapshot_file.is_relative_to(ROOT / 'qa'):
+        raise SystemExit('冻结快照须位于工程qa目录')
+    snapshot_path = snapshot_file.relative_to(ROOT).as_posix()
     snapshot = json.loads((ROOT / snapshot_path).read_text())
     required = {snapshot_path} | {x['path'] for x in snapshot['files']}
     manifests = sorted((ROOT / 'build').glob('*/input-manifest.json'))
@@ -107,6 +110,7 @@ def inventory(out):
         'inputCoverage': dict(collections.Counter(r['category'] for r in dependencies)),
         'uncoveredInputs': bad,
         'snapshotEntriesChecked': len(snapshot['files']),
+        'snapshotPath': snapshot_path,
         'snapshotHashMismatches': mismatch,
         'separateBackupCreated': False,
         'unclassifiedFiles': rows['review'],
@@ -149,6 +153,8 @@ if __name__ == '__main__':
     sub = parser.add_subparsers(dest='command', required=True)
     scan = sub.add_parser('inventory')
     scan.add_argument('--out', required=True)
+    scan.add_argument('--snapshot', default='qa/sui-i01-closeout-20261030/snapshot.json',
+                      help='本次采用的冻结快照；默认保留最初基线以兼容历史用法')
     verify = sub.add_parser('verify-archive')
     verify.add_argument('--manifest', required=True, type=Path)
     verify.add_argument('--root', required=True, type=Path)
@@ -157,6 +163,6 @@ if __name__ == '__main__':
         out = (ROOT / args.out).resolve()
         if not out.is_relative_to(ROOT / 'qa'):
             raise SystemExit('新报告须放入qa/<新批次>')
-        inventory(out)
+        inventory(out, args.snapshot)
     else:
         verify_archive(args.manifest, args.root.resolve())
