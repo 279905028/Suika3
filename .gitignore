@@ -33,6 +33,7 @@
 # QA 保留报告、脚本、快照和审批记录，截图另存。
 /qa/**
 !/qa/**/
+!/qa/**/.gitignore
 !/qa/**/*.md
 !/qa/**/*.json
 !/qa/**/*.jsonl

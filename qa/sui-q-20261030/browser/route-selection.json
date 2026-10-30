@@ -1,0 +1,199 @@
+{
+  "candidate": "sui-i02-20261030-v7",
+  "uniqueCandidatePaths": 482,
+  "selectedPaths": 27,
+  "expectedBindingNodes": 3086,
+  "bindingTotal": 3086,
+  "coverageBasis": "冻结候选 IR 参考执行器预测；必须由浏览器实际 enter 日志另验",
+  "cases": [
+    {
+      "name": "mengyao/HIGH/AA",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "ending": "MY-E1",
+      "nodes": 802
+    },
+    {
+      "name": "mengyao/HIGH/AB",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "ending": "MY-E2",
+      "nodes": 800
+    },
+    {
+      "name": "mengyao/HIGH/BA",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "ending": "MY-E2",
+      "nodes": 772
+    },
+    {
+      "name": "mengyao/HIGH/BB",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "ending": "MY-E2",
+      "nodes": 770
+    },
+    {
+      "name": "friends/LOW/AA",
+      "route": "friends",
+      "relation": "LOW",
+      "ending": "FR-E1",
+      "nodes": 732
+    },
+    {
+      "name": "xiaoman/HIGH/AA",
+      "route": "xiaoman",
+      "relation": "HIGH",
+      "ending": "XM-E1",
+      "nodes": 844
+    },
+    {
+      "name": "zhouzhi/HIGH/AA",
+      "route": "zhouzhi",
+      "relation": "HIGH",
+      "ending": "ZZ-E1",
+      "nodes": 898
+    },
+    {
+      "name": "piao/HIGH/AA",
+      "route": "piao",
+      "relation": "HIGH",
+      "ending": "PI-E1",
+      "nodes": 853
+    },
+    {
+      "name": "piao/LOW/A",
+      "route": "piao",
+      "relation": "LOW",
+      "ending": "PI-LE1",
+      "nodes": 522
+    },
+    {
+      "name": "piao/LOW/B",
+      "route": "piao",
+      "relation": "LOW",
+      "ending": "PI-LE2",
+      "nodes": 523
+    },
+    {
+      "name": "huangqiuqiu/HIGH/AA",
+      "route": "huangqiuqiu",
+      "relation": "HIGH",
+      "ending": "HQ-E1",
+      "nodes": 776
+    },
+    {
+      "name": "zhouzhi/HIGH/BA",
+      "route": "zhouzhi",
+      "relation": "HIGH",
+      "ending": "ZZ-E2",
+      "nodes": 873
+    },
+    {
+      "name": "friends/HIGH/AB",
+      "route": "friends",
+      "relation": "HIGH",
+      "ending": "FR-E2",
+      "nodes": 718
+    },
+    {
+      "name": "xiaoman/HIGH/AB",
+      "route": "xiaoman",
+      "relation": "HIGH",
+      "ending": "XM-E2",
+      "nodes": 828
+    },
+    {
+      "name": "piao/HIGH/AB",
+      "route": "piao",
+      "relation": "HIGH",
+      "ending": "PI-E2",
+      "nodes": 862
+    },
+    {
+      "name": "huangqiuqiu/HIGH/AB",
+      "route": "huangqiuqiu",
+      "relation": "HIGH",
+      "ending": "HQ-E2",
+      "nodes": 773
+    },
+    {
+      "name": "q-combined-326",
+      "route": "xiaoman",
+      "relation": "HIGH",
+      "ending": "XM-E2",
+      "nodes": 779
+    },
+    {
+      "name": "q-combined-368",
+      "route": "piao",
+      "relation": "HIGH",
+      "ending": "PI-E2",
+      "nodes": 864
+    },
+    {
+      "name": "q-combined-253",
+      "route": "huangqiuqiu",
+      "relation": "LOW",
+      "ending": "HQ-E2",
+      "nodes": 771
+    },
+    {
+      "name": "q-combined-042",
+      "route": "friends",
+      "relation": "LOW",
+      "ending": "FR-E2",
+      "nodes": 674
+    },
+    {
+      "name": "q-combined-040",
+      "route": "zhouzhi",
+      "relation": "LOW",
+      "ending": "ZZ-E2",
+      "nodes": 865
+    },
+    {
+      "name": "q-combined-001",
+      "route": "mengyao",
+      "relation": "HIGH",
+      "ending": "MY-E2",
+      "nodes": 774
+    },
+    {
+      "name": "q-combined-149",
+      "route": "xiaoman",
+      "relation": "LOW",
+      "ending": "XM-E2",
+      "nodes": 786
+    },
+    {
+      "name": "q-combined-118",
+      "route": "piao",
+      "relation": "HIGH",
+      "ending": "PI-E2",
+      "nodes": 863
+    },
+    {
+      "name": "q-combined-230",
+      "route": "huangqiuqiu",
+      "relation": "HIGH",
+      "ending": "HQ-E2",
+      "nodes": 775
+    },
+    {
+      "name": "q-combined-003",
+      "route": "zhouzhi",
+      "relation": "HIGH",
+      "ending": "ZZ-E2",
+      "nodes": 874
+    },
+    {
+      "name": "q-combined-049",
+      "route": "friends",
+      "relation": "HIGH",
+      "ending": "FR-E2",
+      "nodes": 665
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-30",
+  "scope": "按现有Git规则核对待提交文件及全部可达历史文本；只检查列出的密钥特征和文件名，不等于完整安全审计。报告自身及之后新增的推送说明不在统计内。",
+  "trackedFiles": 1741,
+  "newFiles": 66,
+  "candidateFiles": 1807,
+  "candidateBytes": 195953300,
+  "scannedWorkingTreeTextFiles": 1472,
+  "scannedHistoryTextBlobs": 1366,
+  "patterns": [
+    "private-key",
+    "github-token",
+    "aws-access-key",
+    "openai-key",
+    "slack-token",
+    "google-api-key",
+    "credential-url"
+  ],
+  "hits": [],
+  "credentialFilenameHits": [],
+  "filesAtOrAbove100MiB": [],
+  "largestCandidate": {
+    "path": "qa/sui-q-20261030/browser/sui-i02-20261030-v7/routes/routes-report.json",
+    "bytes": 8573822
+  },
+  "repo": "https://github.com/279905028/Suika3",
+  "visibilityAuthorized": "public",
+  "excludedLargeResources": "沿用docs/Git文件管理.md；大素材、SDK、字体、运行包、本机浏览器依赖不上传。"
+}

@@ -1,0 +1,298 @@
+{
+  "candidate": "sui-i02-20261030-v7",
+  "status": "NEEDS_EDITORIAL_AND_VISUAL_REVIEW",
+  "issues": [
+    {
+      "id": "Q-SPECIAL-01",
+      "priority": "P2",
+      "type": "镜头动作不一致",
+      "status": "需返修或用户明确接受偏差",
+      "source": "scenario/飘-空白页.md",
+      "lines": [
+        570,
+        632,
+        640,
+        646,
+        652
+      ],
+      "candidateNode": "TEXT_5e09854527cf7e1dc63f_1",
+      "cg": "CG066",
+      "description": "源稿明确两人分别坐床沿和矮凳，膝盖靠近，随后亲吻，纸从两人之间滑落；没有起身。CG066 v001为两人站在桌旁，纸在空中。它能正确显示，但不能记作逐拍动作完全一致。",
+      "suggestion": "优先按原稿将CG调整为床沿/矮凳坐姿；不要为了迁就图擅自改正文动作。",
+      "candidateEvidence": [
+        {
+          "nodeId": "TEXT_cc41c7e7ff3757298c04_1",
+          "line": 640,
+          "text": "我笑。她低头找下一个钉口，头发落到鼻尖上，吹了两次没吹开。我抬手替她拢到耳后，指尖停在那里。"
+        },
+        {
+          "nodeId": "TEXT_ce158cb0949018ef2089_1",
+          "line": 646,
+          "text": "我赶紧缩手，她抓住我的手腕，抽纸把墨擦掉，擦完还捏着。"
+        },
+        {
+          "nodeId": "TEXT_5e09854527cf7e1dc63f_1",
+          "line": 652,
+          "text": "纸从两人中间滑下去，落了一地。我们听见了，谁也没马上去捡。"
+        }
+      ]
+    },
+    {
+      "id": "Q-SPECIAL-02",
+      "priority": "P2",
+      "type": "正文与演出说明存在缺口",
+      "status": "待用户确认叙述媒介后修文",
+      "source": "scenario/飘-空白页.md",
+      "lines": [
+        1011,
+        1013,
+        1103,
+        1113,
+        1130
+      ],
+      "description": "第60天已经分别、部分组合已分手；第十章正文开头无时间/远程标记写她夹照片、系绳、当面说话。I01绑定说明却把它解释成寄来照片/册子过渡。玩家文案没有该寄送或回忆信息，不能靠隐藏的绑定说明补足。",
+      "suggestion": "确认此处是回忆、她发来的影像还是寄来的册子；只在得到确认后补最小衔接。",
+      "candidateEvidence": [
+        {
+          "nodeId": "TEXT_5ed5305ee2136b83418d_1",
+          "line": 1011,
+          "text": "她把新洗出的几张照片夹进册子，封面绑了一根细绳。结打得不算整齐，但拆开以后纸页不会卷。她说这一回自己满意，下一回还想试别的。"
+        },
+        {
+          "nodeId": "TEXT_1b6bb830ab6ce2568a57_1",
+          "line": 1013,
+          "text": "第91天早上，下班后我去了老街。"
+        },
+        {
+          "nodeId": "TEXT_a55bd923158e2d959e36_1",
+          "line": 1103,
+          "text": "她下午回，说那晚在房里，她也是真想留下我。没有一句是装的。但后来要她再次相信那些保证，她做不到了。"
+        },
+        {
+          "nodeId": "TEXT_8103664b599d3f311dab_1",
+          "line": 1113,
+          "text": "我给她发最后一条，确认电脑里的原件已删，问她还缺不缺什么。她说不缺了，也问我后面的材料有没有收齐。"
+        },
+        {
+          "nodeId": "TEXT_6ce47f13b6e9644759dd_1",
+          "line": 1130,
+          "text": "下午，我睡醒后把册子收进抽屉。没有扔，也没刻意放到每天一睁眼就看得见的地方。她留给我的那本已经属于我，最后一页不需要她再来确认。"
+        }
+      ]
+    },
+    {
+      "id": "Q-SPECIAL-03",
+      "priority": "P2",
+      "type": "第36天事件的物品来源不明",
+      "status": "待用户确认，不擅补新搬迁事件",
+      "source": "scenario/飘-空白页.md",
+      "lines": [
+        1204,
+        1208,
+        1234
+      ],
+      "description": "第30天回声停业搬箱，随后明确切到第36天面馆；PI-L06-01=B结尾仍说她回去帮周栀收最后一箱东西。没有交代第36天的箱子和去处，容易被读成回声搬迁仍是同一天。孟遥线第421行记录第31天回声已锁门，但本条不据跨线时间擅认新地点。",
+      "suggestion": "确认这句是否残留第30天旧稿；若不是，需明确其已存在的物品/地点依据。",
+      "candidateEvidence": [
+        {
+          "nodeId": "TEXT_93c5c8ef79bd56b002dd_1",
+          "line": 1204,
+          "text": "第三十天，回声停业，大家忙着搬东西。飘到得晚，把外套衣角系起来，帮周栀把照片装回纸袋。她没有举相机，只问有没有人需要她送一程。"
+        },
+        {
+          "nodeId": "TEXT_c84f638688ba74e20f84_1",
+          "line": 1208,
+          "text": "第36天，她约我到面馆门外。台阶上有一段被雨打湿的绳子，她捡起来，绕在手指上，又松开。"
+        },
+        {
+          "nodeId": "TEXT_5ce1f943051f47cf68f1_1",
+          "line": 1234,
+          "text": "“那就先这样。”她把绳子放回台阶边，“我也要想我自己的事。”我们没有约下次见面，她回去帮周栀收最后一箱东西。"
+        }
+      ]
+    },
+    {
+      "id": "Q-SPECIAL-04",
+      "priority": "P3",
+      "type": "照片媒介表述不清",
+      "status": "待文字修正",
+      "source": "scenario/飘-空白页.md",
+      "lines": [
+        905
+      ],
+      "description": "同一段写她发来照片、我放大查看，却称照片背面记着参数，没有说明另发了背面图。",
+      "suggestion": "按实际意图明确参数在附言/照片图像内，或两面影像；不自行决定媒介。",
+      "candidateEvidence": [
+        {
+          "nodeId": "TEXT_99e1d790be614d5250d9_1",
+          "line": 905,
+          "text": "她发来一张散场后空下来的桌子，问我看不看得见窗上的倒影。照片背面记着她练习时的参数。我放大了看，承认没看出来，她说那就下次再拍。"
+        }
+      ]
+    }
+  ],
+  "visualScope": "本轮查看三张历史联系表共23镜，并放大核对CG066原PNG；23原图和当前/冻结WebP指纹一致。不是23镜原生逐帧验收。",
+  "assetIdentity": [
+    {
+      "assetId": "cg-hq-cg073",
+      "sourcePath": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg073-v001.png",
+      "runtimePath": "assets/current/SUI-A10-HQ/cg-hq-cg073.webp",
+      "sourceSha256": "d542030aae1a6053c7a6684c302d95be7d33e12206311c2c9dddad6f34dedbbe",
+      "runtimeSha256": "8a81c8caa2378880d76c470a75da4ba8bc2a0bfa3796594756e1450dbb605d4d"
+    },
+    {
+      "assetId": "cg-hq-cg075",
+      "sourcePath": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg075-v001.png",
+      "runtimePath": "assets/current/SUI-A10-HQ/cg-hq-cg075.webp",
+      "sourceSha256": "ad9d8122078dec1a821ec79b9ee321f0e643b3538936993ecfe1cf154fc38c94",
+      "runtimeSha256": "d0368e04c5c79359a3e1619fad2d63af3a77a0a54046d7c5ef0e8ff6878666a8"
+    },
+    {
+      "assetId": "cg-hq-cg077",
+      "sourcePath": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg077-v002.png",
+      "runtimePath": "assets/current/SUI-A10-HQ/cg-hq-cg077.webp",
+      "sourceSha256": "c8e8687acf260c19aec21230039550ea764f6320fa028ac8d6e98bb80c95fa15",
+      "runtimeSha256": "c72834c237069e66ba03c9821cb22b9c06b26f3a6c8062e2d5a5bd29f43ac3e0"
+    },
+    {
+      "assetId": "cg-hq-cg078",
+      "sourcePath": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v002.png",
+      "runtimePath": "assets/current/SUI-A10-HQ/cg-hq-cg078.webp",
+      "sourceSha256": "a03f7691d0dbd62e6f9a3b7cf67bbefa1907ac56d23b19a4e34ffdc30700db11",
+      "runtimeSha256": "e99d33f4b4eb0d14a8aef5d56ced997e8a5d7c9140117515b4cb70a119cc6c9f"
+    },
+    {
+      "assetId": "cg-hq-cg079",
+      "sourcePath": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg079-v002.png",
+      "runtimePath": "assets/current/SUI-A10-HQ/cg-hq-cg079.webp",
+      "sourceSha256": "3fe27bd07061509acdbb624c5952d30584a4e57768b00c2cd60317d286fd7fce",
+      "runtimeSha256": "eb3480a89f529ce3669d8963790b3798c50fd47aaeef00f5056a3f16fcab1f76"
+    },
+    {
+      "assetId": "cg-hq-cg082",
+      "sourcePath": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg082-v001.png",
+      "runtimePath": "assets/current/SUI-A10-HQ/cg-hq-cg082.webp",
+      "sourceSha256": "0dc5683395ab72ab8e34bf9140e2b1b88f993254b8bc34713c1f60b17076e780",
+      "runtimeSha256": "6dbff10ed5fa6deb50080536eec1c47fe4ee845a9ac4af980b293a646026628a"
+    },
+    {
+      "assetId": "cg-hq-cg107",
+      "sourcePath": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg107-v001.png",
+      "runtimePath": "assets/current/SUI-A10-HQ/cg-hq-cg107.webp",
+      "sourceSha256": "7c4b7fabb0640962b44dbad4266123e56dbda4587af620e3217342404ec69e48",
+      "runtimeSha256": "84726689d74887118da3ba125f60968078c35b1e03f89c8a952cf45aa9e2d324"
+    },
+    {
+      "assetId": "cg-my-cg038",
+      "sourcePath": "assets/sources/20261029/SUI-A10-MY/cg-my-cg038-v001.png",
+      "runtimePath": "assets/current/SUI-A10-MY/cg-my-cg038.webp",
+      "sourceSha256": "fa636da8d8d4be56e6afbb25b242bb056d135bfcbb10f7dda930c8e1399b01ec",
+      "runtimeSha256": "1cfb915e9a564c7153d3694e10c2689d3a78a8d2819cec838636d1a5381863bc"
+    },
+    {
+      "assetId": "cg-my-cg039",
+      "sourcePath": "assets/sources/20261029/SUI-A10-MY/cg-my-cg039-v001.png",
+      "runtimePath": "assets/current/SUI-A10-MY/cg-my-cg039.webp",
+      "sourceSha256": "678aafa896cdb98d00f6e82e5c3bbd8d60f6ba663876e5670820a94ef47f8e6a",
+      "runtimeSha256": "ad292e765b85642210ef7e3f336dbe815c9f01db9560bd36e0964a0b326fdf93"
+    },
+    {
+      "assetId": "cg-my-cg040",
+      "sourcePath": "assets/sources/20261029/SUI-A10-MY/cg-my-cg040-v002.png",
+      "runtimePath": "assets/current/SUI-A10-MY/cg-my-cg040.webp",
+      "sourceSha256": "ce971ce68fccc86f8dd370ee442fed28ef88eca7aff7867af7e5021b5a273457",
+      "runtimeSha256": "5f9a1266f2cd9386e72b3854e8379e36a196c4c36593d38bc25fa3e438862a26"
+    },
+    {
+      "assetId": "cg-my-cg041",
+      "sourcePath": "assets/sources/20261029/SUI-A10-MY/cg-my-cg041-v001.png",
+      "runtimePath": "assets/current/SUI-A10-MY/cg-my-cg041.webp",
+      "sourceSha256": "6e82ce5e0912cd860887c66ec6043d38c3904c0c5801715710e8c74521d3c664",
+      "runtimeSha256": "638e0227e0cd31f92706d8b996f271ebbd9af3c3d74a3c8d22f56bcda7dcefe9"
+    },
+    {
+      "assetId": "cg-my-cg044",
+      "sourcePath": "assets/sources/20261029/SUI-A10-MY/cg-my-cg044-v001.png",
+      "runtimePath": "assets/current/SUI-A10-MY/cg-my-cg044.webp",
+      "sourceSha256": "9b8f45cb2a1556b83c36301591d78301bc9ade6b724b2f44a52e20efe030cb57",
+      "runtimeSha256": "18972131214749ed6a276a796965a9559f29cc8799091cd9e4e01a3e2d241cf2"
+    },
+    {
+      "assetId": "cg-my-cg104",
+      "sourcePath": "assets/sources/20261029/SUI-A10-MY/cg-my-cg104-v001.png",
+      "runtimePath": "assets/current/SUI-A10-MY/cg-my-cg104.webp",
+      "sourceSha256": "d7a6777fcb11cb668cd0a3192539cdc6582c137002f8a743ba0d58004ece48b2",
+      "runtimeSha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e"
+    },
+    {
+      "assetId": "cg-my-cg105",
+      "sourcePath": "assets/sources/20261029/SUI-A10-MY/cg-my-cg105-v002.png",
+      "runtimePath": "assets/current/SUI-A10-MY/cg-my-cg105.webp",
+      "sourceSha256": "9e4e678de461a7ac4c175133b73618fb78bdcafd436841bc94b223305a94209d",
+      "runtimeSha256": "5f0d06bb3a858d6d948bcea0d81c5bc956339e43fe7dd7de3188275d2867e804"
+    },
+    {
+      "assetId": "cg-pi-cg061",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg061-v002.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg061.webp",
+      "sourceSha256": "a01b791464762fa8b35647a1f12283b4d66fe8d6bbeb316e25bcb741640c5ac5",
+      "runtimeSha256": "bd34a93fe89f4f89077bf5d81099aa0afc58666f46a05799c72a420a03f8fd02"
+    },
+    {
+      "assetId": "cg-pi-cg062",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg062-v001.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg062.webp",
+      "sourceSha256": "979061d5e19f68328542f9be9afedd4236f65b252cf378aca35b1a1c4cd82940",
+      "runtimeSha256": "2a1e49f7a33b22910026deca77254d88c4889f0946002f4fbf9b2a6999c4f54d"
+    },
+    {
+      "assetId": "cg-pi-cg063",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg063-v001.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg063.webp",
+      "sourceSha256": "a987cac0f4207649747b993127dede4ba8648494af45484d284131dfc5625c56",
+      "runtimeSha256": "697c31eca09a6f2ada27d29e2abce50d0691fdda6071f2337a34b6e715cdc71c"
+    },
+    {
+      "assetId": "cg-pi-cg066",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg066-v001.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg066.webp",
+      "sourceSha256": "fe385bed1cae6f892f1070aedad2592a790f2cdb6013390d8b8317348f0c7a8e",
+      "runtimeSha256": "17e0a1a12e6663a419d52b900f3dabf87d74e66eb2c4f8ea13b0e599be603169"
+    },
+    {
+      "assetId": "cg-pi-cg067",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg067-v001.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg067.webp",
+      "sourceSha256": "6a20c2345908411c43f6be4ab07ec9b51e9fdb7819cffbfa5c4186eb8bae047b",
+      "runtimeSha256": "ca1ddf4373a5a171de235a9ba28c90b7f48dc3423724ab8d06d4c56d7f6fc613"
+    },
+    {
+      "assetId": "cg-pi-cg068",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg068-v002.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg068.webp",
+      "sourceSha256": "1b92bef902ca611ecfbdb8c9b8f2ddca57b1359352f3777de08b03b2a11b5f77",
+      "runtimeSha256": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579"
+    },
+    {
+      "assetId": "cg-pi-cg069",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg069-v001.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg069.webp",
+      "sourceSha256": "a950dd737160914e7bcd89aea0078962302f4bd17061031bc86f8e5ce1c09a2e",
+      "runtimeSha256": "95e0da2ef78c67c377bd703785c4a331acc8a4ac1200b23c8b926790d28de03d"
+    },
+    {
+      "assetId": "cg-pi-cg070",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg070-v003.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg070.webp",
+      "sourceSha256": "4570d79e3d265e7a0aac0b734af02780eda1b2e4040e240c3b09ea23fc1a9b44",
+      "runtimeSha256": "540ac77d34e06817ad0c6bfb326ce637edfd7d09cb695836dd2458b00d4ba7a3"
+    },
+    {
+      "assetId": "cg-pi-cg106",
+      "sourcePath": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg106-v001.png",
+      "runtimePath": "assets/current/SUI-A10-PI/cg-pi-cg106.webp",
+      "sourceSha256": "ff61804e620980892dfdc9dfcb3b35f9b75ce1dd5b2e644c3e041fffe217e723",
+      "runtimeSha256": "0a620206241c9f559d4f7a4dc07c9b8c90cadbb3f50158da64a6db2b80d0d471"
+    }
+  ]
+}

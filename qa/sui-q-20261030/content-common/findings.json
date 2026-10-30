@@ -1,0 +1,13 @@
+{
+  "candidate": "sui-i02-20261030-v7",
+  "status": "review-complete-with-findings",
+  "engineBlockersFound": 0,
+  "findings": [
+    {"id":"Q-COM-01","classification":"明确正文连续性缺陷","severity":"minor","file":"scenario/周栀-十一点四十七分.md","line":419,"relatedLines":[393,449,495],"title":"十点离场与九点四十五离场、十点接班冲突","condition":"全部周栀路径，ZZ06-01之前","inFrozenCandidate":true,"requiresNewNarrativeSetting":false},
+    {"id":"Q-COM-02","classification":"明确道具动作连续性缺陷","severity":"minor","file":"scenario/周栀-十一点四十七分.md","line":859,"relatedLines":[857,907,923,939,951],"title":"杯子尚在周栀手中却写她拿我的杯子","condition":"全部周栀路径，ZZ08-01之前","inFrozenCandidate":true,"requiresNewNarrativeSetting":false},
+    {"id":"Q-COM-03","classification":"作者提示旧口径","severity":"minor-documentation","locations":[{"file":"scenario/第一章-回到毕节.md","line":5},{"file":"scenario/第二章-十四天.md","line":5}],"title":"共通选择计数5/7应为6/9，第一章漏记持续关系选择","playerVisible":false,"inFrozenCandidate":true,"requiresNewNarrativeSetting":false}
+  ],
+  "questions": [
+    {"id":"Q-COM-D01","classification":"日程待确认，未判硬性矛盾","locations":[{"file":"scenario/第二章-十四天.md","line":108},{"file":"scenario/朋友与职业-夜班.md","line":77},{"file":"scenario/朋友与职业-夜班.md","line":792}],"title":"第60天出发前后两个月的长活，与第92天返程之间缺少说明","question":"第92天是中途回来还是长活时间缩短？是否需要补一句澄清？","requiresUserDecision":true}
+  ]
+}

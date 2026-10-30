@@ -1,0 +1,628 @@
+{
+  "date": "2026-10-30",
+  "candidate": "sui-i02-20261030-v7",
+  "auditComplete": true,
+  "acceptance": "PARTIAL_PASS_WITH_FINDINGS",
+  "fullPlatformRelease": false,
+  "protectedInputFiles": 1151,
+  "changedDuringQ": [],
+  "preexistingDifferenceFromFrozenCandidate": [
+    "tools/runtime/README.md"
+  ],
+  "candidateFinalVerification": {
+    "pass": true,
+    "version": "sui-i02-20261030-v7",
+    "mode": "candidate",
+    "scope": {
+      "kind": "complete",
+      "description": "I01全正文声明式场景：六线、共通、第36天及双后日谈；持续背景、逐拍人物/道具特写、60CG；未明场所/远程/过渡使用逐项注明的文字镜头。范围不含I02引擎与Q验收。",
+      "missing": []
+    },
+    "contentBuildId": "e6d026f4499bda5de649e8bac607cdbce76e398c1f5ab3edc80b4e3d5975f3fd",
+    "inputFingerprint": "9b05fdc1cb81cdbbce25c24e22f169f4e9255aa9f846c5bda8c96e8b4fe712c5",
+    "outputs": 14,
+    "bytes": 1389762866,
+    "runtimeBuildIds": {
+      "web": "0652c9148f5d0ec6d8c3fbb385ab0bad51907dfee0db07a03fe4617289ab27d5",
+      "desktop": "8ab6dc9772c3b1aebd71bf8c3dae64776e58bb69a02cb1dc4be6ec3e9b9a4e8b"
+    },
+    "nativeArchiveIdentical": true
+  },
+  "nativeCopyChecks": [
+    {
+      "path": "suika3",
+      "sameAsCandidate": true
+    },
+    {
+      "path": "assets.arc",
+      "sameAsCandidate": true
+    },
+    {
+      "path": "启动.command",
+      "sameAsCandidate": true
+    }
+  ],
+  "nativeStatus": "PARTIAL_OBSERVATION_NOT_ACCEPTED",
+  "testSaves": [
+    {
+      "path": "native/save/3030302e736176",
+      "bytes": 95491,
+      "sha256": "1572e1a3cf50f2b8b1bf6debec0a42e6b34ac22d06e7d286325ca0f8ffba6344"
+    },
+    {
+      "path": "native/save/3030312e736176",
+      "bytes": 95495,
+      "sha256": "d59b5e835e6255464b9ac42517d1a62c295867b9ef1b96ec36b41aa1aedc8dbc"
+    },
+    {
+      "path": "native/save/732d37333734363137323734326536653666373636353663",
+      "bytes": 32768,
+      "sha256": "8d4533dc84031b454317df0d8de897dbabe982f8eb653fb668479509c244a971"
+    },
+    {
+      "path": "native/save/673030302e736176",
+      "bytes": 3099,
+      "sha256": "dedd1bfe94e971434fb68e03a96229b4002016250a1c4da34ab77a9e66f3f308"
+    }
+  ],
+  "documentLinks": [
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "intake/package-verify.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "intake/identity.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-common/审校报告.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-special/审校报告.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-common/check-report.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-special/audit.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "browser/交接.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "browser/summary.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "browser/sui-i02-20261030-v7/routes/routes-report.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "browser/sui-i02-20261030-v7/restoration-pixels.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-common/visual/审查.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-special/审校报告.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-special/presentation/复核报告.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "browser/交接.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "browser/已发现问题.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-common/findings.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "content-special/findings.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "browser/network-load/report.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "原生观察.md",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "intake/current-inputs.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/验收报告.md",
+      "href": "收尾检查.json",
+      "exists": true
+    },
+    {
+      "file": "qa/sui-q-20261030/原生观察.md",
+      "href": "native/01-opening.png",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/git-readiness-20261030/检查报告.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/Git文件管理.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/git-layout-20261030/检查报告.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/git-first-commit-20261030/检查报告.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "assets/sources/20261029-promo-v11-selected-D-v4/README.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "assets/sources/20261029-promo-v11-scenes-v3/README.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "assets/sources/20261029-promo-v11-reference-v2/README.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/promo-v11-reference-v2-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/宣传海报-v1.1.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/promo-v11-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-u-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/suika3-spike-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-c-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-e-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i01-closeout-20261030/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i02-20261030/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-q-20261030/验收报告.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/SUI-I整合子任务.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i-split-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i01-closeout-20261030/snapshot.json",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i01-closeout-20261030/freeze-report.json",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i01-closeout-20261030/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i01-status-20261030/检查报告.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i02-20261030/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i02-20261030/final-verification.json",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-i02-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-q-20261030/验收报告.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-s-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-c-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-u-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-e-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "tools/runtime/README.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/SUI-A美术子任务.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-a-split-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A01.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A01-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A02.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A02-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A03-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A04.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A04-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A05.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A05-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A06.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A06-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A07.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A07-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A08.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A09.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A09-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A09-selection-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A09-release-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A10.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A10-production-20261029/CG总览.html",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A10-production-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/美术/SUI-A11.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A11-20261029/资源审阅.html",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A11-20261029/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/SUI-A05-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "scenario/README.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "docs/开发计划.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/sui-s-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "TODO-v1.1.md",
+      "href": "qa/route-merge-20261028/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "scenario/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "scenario/孟遥-旧题.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "docs/人物/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "TODO-v1.1.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "docs/开发计划.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "docs/工程结构.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "docs/CG调整清单.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "docs/美术资源规范.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "qa/sui-s-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "scenario/规则契约.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "qa/route-merge-20261028/README.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "dist/sui-i02-20261030-v7-packages/",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "docs/整合/SUI-I02.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "qa/sui-q-20261030/验收报告.md",
+      "exists": true
+    },
+    {
+      "file": "README.md",
+      "href": "qa/sui-i02-20261030/audit-compiler-report.json",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "../scenario/README.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "../scenario/规则契约.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "../scenario/routes.json",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "../qa/sui-e-20261028/交接.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "SUI-A美术子任务.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "../qa/sui-q-20261030/验收报告.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "SUI-A美术子任务.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "美术/SUI-A09.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "SUI-I整合子任务.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "整合/SUI-I02.md",
+      "exists": true
+    },
+    {
+      "file": "docs/开发计划.md",
+      "href": "CG调整清单.md",
+      "exists": true
+    }
+  ],
+  "gitDiffCheck": 0,
+  "gitStatus": " M README.md\n M TODO-v1.1.md\n M \"docs/\\345\\274\\200\\345\\217\\221\\350\\256\\241\\345\\210\\222.md\"\n?? qa/sui-q-20261030/\n",
+  "unavailableDevices": "用户确认暂无设备，手机/Windows另列待验，不阻塞本批收口"
+}

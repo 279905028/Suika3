@@ -1,0 +1,678 @@
+{
+  "date": "2026-10-30",
+  "candidate": "sui-i02-20261030-v7",
+  "runtimeBuildId": "0652c9148f5d0ec6d8c3fbb385ab0bad51907dfee0db07a03fe4617289ab27d5",
+  "status": "PARTIAL_PASS_WITH_OPEN_FIREFOX_TRANSITION_ISSUE",
+  "scope": "独立新批次重跑正式候选的自动浏览器验收；不是全篇人工试玩、真实手机或发布放行",
+  "chrome": {
+    "version": "156.0.8078.74",
+    "checks": 19,
+    "errors": 0
+  },
+  "presentation": {
+    "checks": 11,
+    "errors": 0
+  },
+  "routes": {
+    "paths": 27,
+    "narrativePageVisits": 20409,
+    "choiceClicks": 627,
+    "bindingNodes": 3086,
+    "cg": 60,
+    "missing": [],
+    "routeIds": [
+      "mengyao",
+      "friends",
+      "xiaoman",
+      "zhouzhi",
+      "piao",
+      "huangqiuqiu"
+    ],
+    "endings": [
+      "FR-E1",
+      "FR-E2",
+      "HQ-E1",
+      "HQ-E2",
+      "MY-E1",
+      "MY-E2",
+      "PI-E1",
+      "PI-E2",
+      "PI-LE1",
+      "PI-LE2",
+      "XM-E1",
+      "XM-E2",
+      "ZZ-E1",
+      "ZZ-E2"
+    ],
+    "relationStates": [
+      "HIGH",
+      "LOW"
+    ],
+    "results": [
+      {
+        "name": "mengyao/HIGH/AB",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "mengyao",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "MY-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 776,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 144002
+      },
+      {
+        "name": "mengyao/HIGH/AA",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "mengyao",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "MY-E1",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 778,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 144046
+      },
+      {
+        "name": "mengyao/HIGH/BB",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "mengyao",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "MY-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 746,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 108924
+      },
+      {
+        "name": "mengyao/HIGH/BA",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "mengyao",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "MY-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 748,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 109282
+      },
+      {
+        "name": "friends/LOW/AA",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_be618be2303eadac",
+          "pending": "",
+          "route": "friends",
+          "relation": "LOW",
+          "score": "5",
+          "return": "",
+          "event": "1",
+          "ending": "FR-E1",
+          "epilogue": "EP-LOW",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 708,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 116188
+      },
+      {
+        "name": "xiaoman/HIGH/AA",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "xiaoman",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "XM-E1",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 820,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 129261
+      },
+      {
+        "name": "zhouzhi/HIGH/AA",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "zhouzhi",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "ZZ-E1",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 874,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 134764
+      },
+      {
+        "name": "piao/HIGH/AA",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_715d4d4b203e06f4",
+          "pending": "",
+          "route": "piao",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "PI-E1",
+          "epilogue": "",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 829,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 121693
+      },
+      {
+        "name": "piao/LOW/A",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_be618be2303eadac",
+          "pending": "",
+          "route": "piao",
+          "relation": "LOW",
+          "score": "5",
+          "return": "",
+          "event": "1",
+          "ending": "PI-LE1",
+          "epilogue": "EP-LOW",
+          "depth": "17",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 505,
+        "nativeChoiceClicks": 17,
+        "elapsedMs": 80555
+      },
+      {
+        "name": "piao/LOW/B",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_be618be2303eadac",
+          "pending": "",
+          "route": "piao",
+          "relation": "LOW",
+          "score": "5",
+          "return": "",
+          "event": "1",
+          "ending": "PI-LE2",
+          "epilogue": "EP-LOW",
+          "depth": "17",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 506,
+        "nativeChoiceClicks": 17,
+        "elapsedMs": 80996
+      },
+      {
+        "name": "huangqiuqiu/HIGH/AA",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "huangqiuqiu",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "HQ-E1",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 752,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 118263
+      },
+      {
+        "name": "zhouzhi/HIGH/BA",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "zhouzhi",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "ZZ-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 849,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 123628
+      },
+      {
+        "name": "friends/HIGH/AB",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "friends",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "FR-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 694,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 105492
+      },
+      {
+        "name": "xiaoman/HIGH/AB",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "xiaoman",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "XM-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 804,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 118558
+      },
+      {
+        "name": "piao/HIGH/AB",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "piao",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "PI-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 838,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 119717
+      },
+      {
+        "name": "huangqiuqiu/HIGH/AB",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "huangqiuqiu",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "HQ-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 749,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 110908
+      },
+      {
+        "name": "q-combined-326",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "xiaoman",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "XM-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "22",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 757,
+        "nativeChoiceClicks": 22,
+        "elapsedMs": 110875
+      },
+      {
+        "name": "q-combined-368",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "piao",
+          "relation": "HIGH",
+          "score": "35",
+          "return": "",
+          "event": "0",
+          "ending": "PI-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 840,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 118889
+      },
+      {
+        "name": "q-combined-253",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_be618be2303eadac",
+          "pending": "",
+          "route": "huangqiuqiu",
+          "relation": "LOW",
+          "score": "20",
+          "return": "",
+          "event": "1",
+          "ending": "HQ-E2",
+          "epilogue": "EP-LOW",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 747,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 110964
+      },
+      {
+        "name": "q-combined-042",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_be618be2303eadac",
+          "pending": "",
+          "route": "friends",
+          "relation": "LOW",
+          "score": "20",
+          "return": "",
+          "event": "1",
+          "ending": "FR-E2",
+          "epilogue": "EP-LOW",
+          "depth": "22",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 652,
+        "nativeChoiceClicks": 22,
+        "elapsedMs": 98823
+      },
+      {
+        "name": "q-combined-001",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "mengyao",
+          "relation": "HIGH",
+          "score": "35",
+          "return": "",
+          "event": "0",
+          "ending": "MY-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 750,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 110190
+      },
+      {
+        "name": "q-combined-040",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_be618be2303eadac",
+          "pending": "",
+          "route": "zhouzhi",
+          "relation": "LOW",
+          "score": "20",
+          "return": "",
+          "event": "1",
+          "ending": "ZZ-E2",
+          "epilogue": "EP-LOW",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 841,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 121091
+      },
+      {
+        "name": "q-combined-149",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_be618be2303eadac",
+          "pending": "",
+          "route": "xiaoman",
+          "relation": "LOW",
+          "score": "20",
+          "return": "",
+          "event": "1",
+          "ending": "XM-E2",
+          "epilogue": "EP-LOW",
+          "depth": "23",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 763,
+        "nativeChoiceClicks": 23,
+        "elapsedMs": 111746
+      },
+      {
+        "name": "q-combined-118",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "piao",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "PI-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 839,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 118544
+      },
+      {
+        "name": "q-combined-230",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "huangqiuqiu",
+          "relation": "HIGH",
+          "score": "50",
+          "return": "",
+          "event": "0",
+          "ending": "HQ-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 751,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 109213
+      },
+      {
+        "name": "q-combined-003",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "zhouzhi",
+          "relation": "HIGH",
+          "score": "35",
+          "return": "",
+          "event": "0",
+          "ending": "ZZ-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "24",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 850,
+        "nativeChoiceClicks": 24,
+        "elapsedMs": 120899
+      },
+      {
+        "name": "q-combined-049",
+        "status": "pass",
+        "actual": {
+          "cursor": "END_b35cd699344cdc48",
+          "pending": "",
+          "route": "friends",
+          "relation": "HIGH",
+          "score": "35",
+          "return": "",
+          "event": "0",
+          "ending": "FR-E2",
+          "epilogue": "EP-HIGH",
+          "depth": "22",
+          "tag": "sc_halt",
+          "index": "13289"
+        },
+        "narrativePages": 643,
+        "nativeChoiceClicks": 22,
+        "elapsedMs": 95990
+      }
+    ]
+  },
+  "restoration": {
+    "naturalPaths": 2,
+    "targets": 4,
+    "pixelChecks": 8,
+    "maxPixelError": 0
+  },
+  "firefox": {
+    "version": "153.0",
+    "deliberateChecks": 19,
+    "deliberatePass": true,
+    "fastSequenceReproducedFailures": 2,
+    "clickDurationMs": 60,
+    "fastIntervalMs": 220,
+    "interval600MsRecheckPassed": true,
+    "menuOnlyCycles": 10,
+    "fullRelease": false
+  },
+  "uiExtras": {
+    "settingsKnobsPassed": true,
+    "completedChecks": [
+      "设置界面滑块可拖动并跨刷新保留视觉位置；像素比较另记",
+      "回顾上下页实际文字变化，返回同一正文位置",
+      "返回标题取消后正文位置保持"
+    ],
+    "fullscreenEntry": true,
+    "fullscreenExit": "headless合成Esc未退出；真实可见浏览器另验"
+  },
+  "network": {
+    "profile": {
+      "latencyMs": 60,
+      "downloadBytesPerSecond": 1250000,
+      "uploadBytesPerSecond": 625000
+    },
+    "titleReadyMs": 277950,
+    "offlineLocalSavePassed": true,
+    "observedJSHeapMaxBytes": 692611108,
+    "wasmBytes": 536870912,
+    "peakProcessMemoryMeasured": false
+  },
+  "webHashes": {
+    "assets.arc": "93a95fae00239ecf29e14f5d9708e1f048882d153344de5bf55cede5f643eaa5",
+    "index.html": "fa74b45f2a88e5ef4a8c49b132aa5fbc1c3895a835ef5888328a083ba1d9261a",
+    "shell.css": "8aef150ca15cbe3c3228a0e025f80e876cd78495ad95f9665da0fdbdcaabf81a",
+    "shell.js": "40181b6eb9db15d7a0e715aa38445f99828311f3820c3607d799cba858b2f71f"
+  },
+  "untested": [
+    "手机真机",
+    "Safari（本子任务未验，父任务另记）",
+    "Windows/macOS原生（父任务另记）",
+    "全部节点逐帧视觉与镜头意图人工审查",
+    "数小时持续运行与进程峰值内存",
+    "真实移动网络",
+    "音频实际听感",
+    "发布"
+  ],
+  "method": "从I02已读驱动复制到新QA并适配路径/独立端口，新增自然路线组合与全3086节点日志断言；所有正式路径从标题自然输入，不注入游戏变量。功能故障注入仅针对临时存档写回。",
+  "protected": "仅写本批browser目录及临时浏览器资料；正式候选、原QA和玩家资料未写。"
+}

@@ -1,0 +1,39 @@
+{
+  "scope": "识别实体滑块的中心位置，忽略焦点/悬停引起的细轨道亮色；默认→拖动需移动>15画布像素，拖动→刷新误差≤1像素；不声称实际音量听感",
+  "pass": true,
+  "checks": [
+    {
+      "name": "音乐音量",
+      "knobCenterCanvasX": [
+        512.0,
+        292.44444444444446,
+        292.44444444444446
+      ],
+      "defaultToChangedPixels": 219.55555555555554,
+      "changedToReloadedPixels": 0.0,
+      "pass": true
+    },
+    {
+      "name": "文字速度",
+      "knobCenterCanvasX": [
+        929.7777777777777,
+        830.2222222222222,
+        830.2222222222222
+      ],
+      "defaultToChangedPixels": 99.55555555555554,
+      "changedToReloadedPixels": 0.0,
+      "pass": true
+    },
+    {
+      "name": "自动间隔",
+      "knobCenterCanvasX": [
+        929.7777777777777,
+        1054.2222222222222,
+        1054.2222222222222
+      ],
+      "defaultToChangedPixels": 124.44444444444446,
+      "changedToReloadedPixels": 0.0,
+      "pass": true
+    }
+  ]
+}

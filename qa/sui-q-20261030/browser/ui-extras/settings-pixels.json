@@ -1,0 +1,24 @@
+{
+  "scope": "设置滑块区域视觉位置：默认→拖动确有变化，拖动→刷新像素相同；不声称音量实际听感",
+  "pass": false,
+  "checks": [
+    {
+      "name": "音乐音量",
+      "defaultToChangedMaxError": 175,
+      "changedToReloadedMaxError": 0,
+      "pass": true
+    },
+    {
+      "name": "文字速度",
+      "defaultToChangedMaxError": 175,
+      "changedToReloadedMaxError": 0,
+      "pass": true
+    },
+    {
+      "name": "自动间隔",
+      "defaultToChangedMaxError": 176,
+      "changedToReloadedMaxError": 115,
+      "pass": false
+    }
+  ]
+}
