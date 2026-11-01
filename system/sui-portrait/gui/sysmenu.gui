@@ -1,0 +1,133 @@
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+    saveslots: 4;
+}
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: assets/current/ui-portrait/png/sysmenu.png;
+}
+NAV_MENU {
+    id: 20;
+    type: char;
+    x: 8;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-menu-hover.png;
+    image-hover: assets/current/ui-portrait/png/nav-menu-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-menu-press.png;
+    var: e_action;
+    msg: M;
+    max: 1;
+}
+NAV_LOAD {
+    id: 21;
+    type: char;
+    x: 150;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-load-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-load-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-load-press.png;
+    var: e_action;
+    msg: L;
+    max: 1;
+}
+NAV_HISTORY {
+    id: 22;
+    type: char;
+    x: 292;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-history-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-history-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-history-press.png;
+    var: e_action;
+    msg: H;
+    max: 1;
+}
+NAV_CONFIG {
+    id: 23;
+    type: char;
+    x: 434;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-config-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-config-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-config-press.png;
+    var: e_action;
+    msg: C;
+    max: 1;
+}
+NAV_GALLERY {
+    id: 24;
+    type: char;
+    x: 576;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-gallery-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-gallery-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-gallery-press.png;
+    var: e_action;
+    msg: G;
+    max: 1;
+}
+BACK {
+    id: 30;
+    type: cancel;
+    x: 496;
+    y: 40;
+    image-idle: assets/current/ui-portrait/png/back-idle.png;
+    image-hover: assets/current/ui-portrait/png/back-hover.png;
+    image-press: assets/current/ui-portrait/png/back-press.png;
+}
+ACTION_AUTO {
+    id: 1;
+    type: auto;
+    x: 24;
+    y: 168;
+    image-idle: assets/current/ui-portrait/png/action-auto-idle.png;
+    image-hover: assets/current/ui-portrait/png/action-auto-hover.png;
+    image-press: assets/current/ui-portrait/png/action-auto-press.png;
+}
+ACTION_SKIP {
+    id: 2;
+    type: skip;
+    x: 24;
+    y: 272;
+    image-idle: assets/current/ui-portrait/png/action-skip-idle.png;
+    image-hover: assets/current/ui-portrait/png/action-skip-hover.png;
+    image-press: assets/current/ui-portrait/png/action-skip-press.png;
+}
+ACTION_ROLLBACK {
+    id: 3;
+    type: char;
+    x: 24;
+    y: 376;
+    image-idle: assets/current/ui-portrait/png/action-rollback-idle.png;
+    image-hover: assets/current/ui-portrait/png/action-rollback-hover.png;
+    image-press: assets/current/ui-portrait/png/action-rollback-press.png;
+    var: e_action;
+    msg: R;
+    max: 1;
+}
+ACTION_TITLE {
+    id: 4;
+    type: gui;
+    x: 24;
+    y: 480;
+    image-idle: assets/current/ui-portrait/png/action-title-idle.png;
+    image-hover: assets/current/ui-portrait/png/action-title-hover.png;
+    image-press: assets/current/ui-portrait/png/action-title-press.png;
+    file: system/sui-u/gui/confirm-title.gui;
+}
+ACTION_RESUME {
+    id: 5;
+    type: cancel;
+    x: 24;
+    y: 584;
+    image-idle: assets/current/ui-portrait/png/action-resume-idle.png;
+    image-hover: assets/current/ui-portrait/png/action-resume-hover.png;
+    image-press: assets/current/ui-portrait/png/action-resume-press.png;
+}

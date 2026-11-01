@@ -8,6 +8,8 @@
 
 当前已迁入六线正文并调整孟遥婚姻线：陈晟为丈夫，关系结局为秘密继续或彻底断开。叶岚保留普通游戏队友身份，独立路线、选择入口和结局已取消。正文与开发资料由此目录维护，旧工程保留为来源。
 
+**日常开发（Windows/macOS）**：安装 Node 18+，从 build-inputs 包恢复 SDK 和素材（只补缺少的文件），然后运行 `npm run dev`。浏览器会打开 `http://127.0.0.1:49300/`，修改正文或界面后约6秒自动刷新。竖屏手机会自动进入 720×1280 竖版页面（`/portrait/`），横竖版存档互通，见[竖版网页](docs/UI-竖版.md)。用 `npm run dev:native` 运行电脑原生版。准备交付时运行 `npm run release -- <版本>`，再用 `npm run release:verify -- dist/<版本>` 校验。详见[构建与运行入口](tools/runtime/README.md)。
+
 - [正文入口](scenario/README.md) · [孟遥完整路线](scenario/孟遥-旧题.md) · [人物索引](docs/人物/README.md)
 - [当前待办](TODO-v1.1.md) · [开发计划与分工](docs/开发计划.md) · [工程结构](docs/工程结构.md)
 - [CG选择调整](docs/CG调整清单.md) · [美术资源规范](docs/美术资源规范.md)

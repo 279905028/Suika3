@@ -22,22 +22,27 @@ function safeFile(root,rel){
   let cur=root;for(const part of rel.split('/')){cur=path.join(cur,part);const st=fs.lstatSync(cur);assert(!st.isSymbolicLink(),'禁止符号链接输入：'+rel);}
   assert(fs.statSync(cur).isFile(),'输入不是文件：'+rel);return cur;
 }
-function validate({root=ROOT,manifestPath='assets/current/manifest.json',bindingsPath='docs/整合/bindings.json',snapshotPath,compiled,mode='candidate',outputDir,outputRoot=root}={}){
+// lenient (dev only): text may differ from the frozen bindings; bindings on changed paragraphs are dropped with a warning.
+function validate({root=ROOT,manifestPath='assets/current/manifest.json',bindingsPath='docs/整合/bindings.json',snapshotPath,compiled,mode='candidate',outputDir,outputRoot=root,lenient=false}={}){
   root=path.resolve(root);assert(['candidate','diagnostic'].includes(mode),'未知构建模式：'+mode);assert(compiled?.ir&&compiled?.manifest&&compiled?.artifacts,'须传入当前compile({pageSize:108})结果');assert.equal(compiled.manifest.pageSize,108,'整合分页固定108');
-  const diagnostic=mode==='diagnostic';
+  const diagnostic=mode==='diagnostic',warnings=[];
   if(diagnostic){assert(outputDir,'诊断输出必须显式指定');const rel=path.relative(path.resolve(outputRoot),path.resolve(outputDir)).split(path.sep).join('/');assert(/^qa\/sui-i02-[^/]+(?:\/|$)/.test(rel)&&!rel.split('/').includes('..'),'诊断只允许输出至qa/sui-i02-<批次>/');}
   const records=new Map();
+  function peek(rel){const p=safeFile(root,rel),fd=fs.openSync(p,'r'),head=Buffer.alloc(16);try{fs.readSync(fd,head,0,16,0);}finally{fs.closeSync(fd);}head.size=fs.statSync(p).size;return head;}
   function read(rel,expected){const p=safeFile(root,rel),data=fs.readFileSync(p),sha256=hash(data);if(expected)assert.equal(sha256,expected,'输入指纹不符：'+rel);records.set(rel,{path:rel,sha256,bytes:data.length});return data;}
   const interfaceBytes=read(INTERFACE),spec=JSON.parse(interfaceBytes),defs=spec.$defs;
   const manifestBytes=read(manifestPath),manifest=JSON.parse(manifestBytes);checkSchema(manifest,defs.manifest,defs,'manifest');
   const bindingsBytes=read(bindingsPath),bindings=JSON.parse(bindingsBytes);checkSchema(bindings,defs.bindings,defs,'bindings');
-  assert(snapshotPath,'缺少I01冻结快照snapshotPath');const snapshotBytes=read(snapshotPath),snapshot=JSON.parse(snapshotBytes);checkSchema(snapshot,defs.snapshot,defs,'snapshot');
+  assert(snapshotPath||lenient,'缺少I01冻结快照snapshotPath');const snapshot=snapshotPath?JSON.parse(read(snapshotPath)):null;
+  if(snapshot){checkSchema(snapshot,defs.snapshot,defs,'snapshot');
   assert.equal(snapshot.interfaceSha256,hash(interfaceBytes),'接口指纹已变化，I01须重新核对');
-  assert.deepEqual(snapshot.manifest,{path:manifestPath,sha256:hash(manifestBytes)},'快照manifest不匹配');assert.deepEqual(snapshot.bindings,{path:bindingsPath,sha256:hash(bindingsBytes)},'快照bindings不匹配');
-  assert.equal(bindings.manifestSha256,hash(manifestBytes),'绑定采用清单指纹不符');assert.equal(bindings.contentBuildId,compiled.ir.buildId,'绑定正文构建版本已变化');assert.deepEqual(bindings.sourceHashes,compiled.manifest.sourceHashes,'绑定正文输入指纹已变化');
-  for(const[p,h]of Object.entries(bindings.sourceHashes))read(p,h);
+  assert.deepEqual(snapshot.manifest,{path:manifestPath,sha256:hash(manifestBytes)},'快照manifest不匹配');assert.deepEqual(snapshot.bindings,{path:bindingsPath,sha256:hash(bindingsBytes)},'快照bindings不匹配');}
+  assert.equal(bindings.manifestSha256,hash(manifestBytes),'绑定采用清单指纹不符');
+  const textChanged=bindings.contentBuildId!==compiled.ir.buildId||stable(bindings.sourceHashes)!==stable(compiled.manifest.sourceHashes);
+  if(textChanged){assert(lenient,bindings.contentBuildId!==compiled.ir.buildId?'绑定正文构建版本已变化':'绑定正文输入指纹已变化');warnings.push('正文已改动，绑定冻结于旧版本：失效段落的图片绑定被跳过');}
+  for(const[p,h]of Object.entries(textChanged?compiled.manifest.sourceHashes:bindings.sourceHashes))read(p,h);
   for(const[p,h]of Object.entries(compiled.manifest.compilerHashes))read(p,h);
-  assert.deepEqual(manifest.scope,bindings.scope,'资源/绑定范围不一致');assert.deepEqual(manifest.scope,snapshot.scope,'资源/快照范围不一致');assert.deepEqual(snapshot.missing,manifest.scope.missing,'缺项表不一致');
+  assert.deepEqual(manifest.scope,bindings.scope,'资源/绑定范围不一致');if(snapshot){assert.deepEqual(manifest.scope,snapshot.scope,'资源/快照范围不一致');assert.deepEqual(snapshot.missing,manifest.scope.missing,'缺项表不一致');}
   const scope=manifest.scope;assert.equal(scope.kind==='diagnostic',diagnostic,'诊断身份与构建模式不符');if(scope.kind==='complete')assert.equal(scope.missing.length,0,'完整候选仍有缺项');else assert(scope.missing.length>0,'阶段或诊断包须明确缺项');
   const sourceMap=JSON.parse(compiled.artifacts['source-map.json']);assert.equal(sourceMap.buildId,compiled.ir.buildId,'source-map版本不符');
   const R=compiled.ir.contract,routeIds=new Set(R.routes.map(r=>r.id));
@@ -49,7 +54,9 @@ function validate({root=ROOT,manifestPath='assets/current/manifest.json',binding
     assert(!assets.has(a.assetId),'重复assetId：'+a.assetId);assert(!runtimePaths.has(a.runtimePath),'运行文件重复映射：'+a.runtimePath);runtimePaths.add(a.runtimePath);assets.set(a.assetId,a);
     assert(a.sourcePath.startsWith('assets/sources/')||(diagnostic&&/^qa\/sui-i02-[^/]+\//.test(a.sourcePath)),'图片来源超出白名单：'+a.sourcePath);
     assert(diagnostic?/^qa\/sui-i02-[^/]+\//.test(a.runtimePath):a.runtimePath.startsWith('assets/current/'),'运行资源目录/身份不符：'+a.runtimePath);
-    read(a.sourcePath,a.sourceSha256);const image=read(a.runtimePath,a.runtimeSha256);assert.equal(image.length,a.bytes,'运行资源字节数不符：'+a.assetId);
+    // lenient: art content was verified by the strict check; dev only confirms presence, size and header.
+    if(!lenient)read(a.sourcePath,a.sourceSha256);else safeFile(root,a.sourcePath);
+    const image=lenient?peek(a.runtimePath):read(a.runtimePath,a.runtimeSha256);assert.equal(image.size??image.length,a.bytes,'运行资源字节数不符：'+a.assetId);
     if(a.format==='PNG')assert(image.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]))&&/\.png$/.test(a.runtimePath),'PNG签名/扩展名错误：'+a.assetId);
     else assert(image.toString('ascii',0,4)==='RIFF'&&image.toString('ascii',8,12)==='WEBP'&&/\.webp$/.test(a.runtimePath),'WebP签名/扩展名错误：'+a.assetId);
     assert(a.approval.scope.includes(a.assetId),'批准范围不含当前assetId：'+a.assetId);
@@ -65,11 +72,13 @@ function validate({root=ROOT,manifestPath='assets/current/manifest.json',binding
       assert.equal(a.alpha,Boolean(meta.alpha?.channelPresent),'alpha标记不符A11：'+a.assetId);assert.equal(a.encoding.lossless,true,'A11当前只交接无损衍生：'+a.assetId);
     }
   }
-  const bindingIds=new Set(),nodeIds=new Set(),boundCG=new Map(),resolvedBindings=[];
+  const bindingIds=new Set(),nodeIds=new Set(),boundCG=new Map(),resolvedBindings=[],skipped=[];
   function state(s,label){const layers=new Set();for(const[k,placements]of Object.entries({background:s.background?[s.background]:[],characters:s.characters,props:s.props,cg:s.cg?[s.cg]:[]})){const allowed={background:['bg'],characters:['left','center','right'],props:['prop1','prop2'],cg:['cg']}[k],type={background:'background',characters:'character',props:'prop',cg:'cg'}[k];for(const p of placements){assert(assets.has(p.assetId),label+' 未知资源 '+p.assetId);assert.equal(assets.get(p.assetId).type,type,label+' 类型不匹配 '+p.assetId);assert(allowed.includes(p.layer),label+' 显示层不匹配 '+p.layer);assert(!layers.has(p.layer),label+' 重复显示层 '+p.layer);layers.add(p.layer);}}}
   for(const b of bindings.bindings){
     assert(!bindingIds.has(b.bindingId),'重复bindingId：'+b.bindingId);bindingIds.add(b.bindingId);assert(!nodeIds.has(b.anchor.nodeId),'一个节点不允许多条重叠绑定：'+b.anchor.nodeId);nodeIds.add(b.anchor.nodeId);
-    const sourceUnit=sourceMap.units[b.anchor.nodeId];assert(sourceUnit,'失效正文锚点：'+b.anchor.nodeId);assert(['text','choice'].includes(sourceUnit.op),'仅允许正文/选择等待节点绑定：'+b.anchor.nodeId);
+    const sourceUnit=sourceMap.units[b.anchor.nodeId];
+    if(lenient&&(!sourceUnit||b.anchor.sha256!==sourceUnit.source.sha256)){skipped.push(b.bindingId);continue;}
+    assert(sourceUnit,'失效正文锚点：'+b.anchor.nodeId);assert(['text','choice'].includes(sourceUnit.op),'仅允许正文/选择等待节点绑定：'+b.anchor.nodeId);
     assert.equal(b.anchor.file,'scenario/'+sourceUnit.source.file,'锚点来源文件不匹配');assert.equal(b.anchor.sha256,sourceUnit.source.sha256,'锚点摘要指纹不匹配');
     for(const r of b.routeIds)assert(routeIds.has(r),'未知或取消路线：'+r);
     const route=R.routes.find(r=>b.anchor.file==='scenario/'+r.file);if(route)assert(b.routeIds.length===1&&b.routeIds[0]===route.id,'路线正文必须明确仅属自身路线：'+b.bindingId);
@@ -79,15 +88,17 @@ function validate({root=ROOT,manifestPath='assets/current/manifest.json',binding
     else{assert.equal(b.cgId,null,'没有CG画面却声明CG编号：'+b.bindingId);assert.equal(b.fullView,false,'无CG不可声明全图查看：'+b.bindingId);}
     resolvedBindings.push({...b,conditionAst,sourceUnit});
   }
-  if(scope.kind==='complete'){
+  if(skipped.length)warnings.push('跳过'+skipped.length+'条失效绑定：'+skipped.slice(0,8).join('、')+(skipped.length>8?' …':''));
+  if(scope.kind==='complete'&&!skipped.length){
     assert(manifest.assets.length>0&&bindings.bindings.length>0,'完整候选不可为空');assert.deepEqual([...boundCG.keys()].sort(),[...galleryIds].sort(),'完整候选未覆盖60项CG');
     for(const r of routeIds)assert(bindings.bindings.some(b=>b.routeIds.includes(r)),'完整候选缺路线绑定：'+r);
   }
-  const snapshotFiles=new Map();for(const f of snapshot.files){assert(!snapshotFiles.has(f.path),'快照重复路径：'+f.path);snapshotFiles.set(f.path,f.sha256);read(f.path,f.sha256);}
+  const snapshotFiles=new Map();if(snapshot)for(const f of snapshot.files){assert(!snapshotFiles.has(f.path),'快照重复路径：'+f.path);snapshotFiles.set(f.path,f.sha256);read(f.path,f.sha256);}
   const required=new Set([INTERFACE,manifestPath,bindingsPath,...manifest.assets.flatMap(a=>[a.sourcePath,a.runtimePath,...(a.a11?[a.a11.path]:[]),...(a.approval.evidence?[a.approval.evidence.path]:[])])]);
-  for(const p of required)assert.equal(snapshotFiles.get(p),records.get(p)?.sha256,'快照缺项/指纹不符：'+p);
+  if(snapshot)for(const p of required)assert.equal(snapshotFiles.get(p),records.get(p)?.sha256,'快照缺项/指纹不符：'+p);
   const files=[...records.values()].sort((a,b)=>a.path.localeCompare(b.path));
-  return {manifest,bindings,snapshot,assets:[...assets.values()],bindingsList:bindings.bindings,resolvedBindings,sourceMap,files,inputFingerprint:hash(stable(files)),scope,complete:scope.kind==='complete',diagnostic};
+  const kept=new Set(resolvedBindings.map(b=>b.bindingId));
+  return {manifest,bindings,snapshot,warnings,assets:[...assets.values()],bindingsList:bindings.bindings.filter(b=>kept.has(b.bindingId)),resolvedBindings,sourceMap,files,inputFingerprint:hash(stable(files)),scope,complete:scope.kind==='complete',diagnostic};
 }
 if(require.main===module){try{const args=process.argv.slice(2),opts={};while(args.length){const k=args.shift();const name={'--manifest':'manifestPath','--bindings':'bindingsPath','--snapshot':'snapshotPath','--mode':'mode','--out':'outputDir'}[k];assert(name,'未知参数：'+k);assert(args.length,'参数缺值：'+k);opts[name]=args.shift();}opts.compiled=require('../../compiler/compile.cjs').compile({pageSize:108});const r=validate(opts);console.log(JSON.stringify({ok:true,inputFingerprint:r.inputFingerprint,scope:r.scope,assets:r.assets.length,bindings:r.bindingsList.length,cgCount:new Set(r.bindingsList.map(b=>b.cgId).filter(Boolean)).size,files:r.files},null,2));}catch(e){console.error(e.stack);process.exitCode=1;}}
 module.exports={validate,checkSchema,safeFile,hash,INTERFACE};

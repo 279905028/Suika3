@@ -1,0 +1,60 @@
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: no;
+    rightcancel: no;
+}
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: assets/current/ui-portrait/png/title.png;
+}
+START {
+    id: 1;
+    type: goto;
+    x: 208;
+    y: 940;
+    image-idle: assets/current/ui-portrait/png/start-idle.png;
+    image-hover: assets/current/ui-portrait/png/start-hover.png;
+    image-press: assets/current/ui-portrait/png/start-press.png;
+    label: sui_start;
+}
+CONTINUE {
+    id: 2;
+    type: char;
+    x: 208;
+    y: 1024;
+    image-idle: assets/current/ui-portrait/png/continue-idle.png;
+    image-hover: assets/current/ui-portrait/png/continue-hover.png;
+    image-press: assets/current/ui-portrait/png/continue-press.png;
+    var: e_action;
+    msg: L;
+    max: 1;
+}
+SETTINGS {
+    id: 3;
+    type: char;
+    x: 208;
+    y: 1108;
+    image-idle: assets/current/ui-portrait/png/settings-idle.png;
+    image-hover: assets/current/ui-portrait/png/settings-hover.png;
+    image-press: assets/current/ui-portrait/png/settings-press.png;
+    var: e_action;
+    msg: C;
+    max: 1;
+}
+GALLERY {
+    id: 4;
+    type: char;
+    x: 368;
+    y: 1108;
+    image-idle: assets/current/ui-portrait/png/gallery-idle.png;
+    image-hover: assets/current/ui-portrait/png/gallery-hover.png;
+    image-press: assets/current/ui-portrait/png/gallery-press.png;
+    var: e_action;
+    msg: G;
+    max: 1;
+}

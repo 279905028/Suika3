@@ -1,0 +1,168 @@
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+    saveslots: 4;
+}
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: assets/current/ui-portrait/png/load.png;
+}
+NAV_MENU {
+    id: 20;
+    type: char;
+    x: 8;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-menu-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-menu-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-menu-press.png;
+    var: e_action;
+    msg: M;
+    max: 1;
+}
+NAV_LOAD {
+    id: 21;
+    type: char;
+    x: 150;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-load-hover.png;
+    image-hover: assets/current/ui-portrait/png/nav-load-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-load-press.png;
+    var: e_action;
+    msg: L;
+    max: 1;
+}
+NAV_HISTORY {
+    id: 22;
+    type: char;
+    x: 292;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-history-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-history-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-history-press.png;
+    var: e_action;
+    msg: H;
+    max: 1;
+}
+NAV_CONFIG {
+    id: 23;
+    type: char;
+    x: 434;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-config-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-config-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-config-press.png;
+    var: e_action;
+    msg: C;
+    max: 1;
+}
+NAV_GALLERY {
+    id: 24;
+    type: char;
+    x: 576;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-gallery-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-gallery-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-gallery-press.png;
+    var: e_action;
+    msg: G;
+    max: 1;
+}
+BACK {
+    id: 30;
+    type: cancel;
+    x: 496;
+    y: 40;
+    image-idle: assets/current/ui-portrait/png/back-idle.png;
+    image-hover: assets/current/ui-portrait/png/back-hover.png;
+    image-press: assets/current/ui-portrait/png/back-press.png;
+}
+TAB_SAVE {
+    id: 11;
+    type: char;
+    x: 24;
+    y: 156;
+    image-idle: assets/current/ui-portrait/png/tab-save-idle.png;
+    image-hover: assets/current/ui-portrait/png/tab-save-hover.png;
+    image-press: assets/current/ui-portrait/png/tab-save-press.png;
+    var: e_action;
+    msg: V;
+    max: 1;
+}
+TAB_LOAD {
+    id: 12;
+    type: char;
+    x: 232;
+    y: 156;
+    image-idle: assets/current/ui-portrait/png/tab-load-idle.png;
+    image-hover: assets/current/ui-portrait/png/tab-load-hover.png;
+    image-press: assets/current/ui-portrait/png/tab-load-press.png;
+    var: e_action;
+    msg: L;
+    max: 1;
+}
+SLOT0 {
+    id: 1;
+    type: char;
+    x: 24;
+    y: 236;
+    image-idle: assets/current/ui-portrait/png/save-item-0-idle.png;
+    image-hover: assets/current/ui-portrait/png/save-item-0-hover.png;
+    image-press: assets/current/ui-portrait/png/save-item-0-press.png;
+    var: e_action;
+    msg: A;
+    max: 1;
+    index: 0;
+    thumb-width: 192;
+    thumb-height: 108;
+}
+SLOT1 {
+    id: 2;
+    type: char;
+    x: 24;
+    y: 444;
+    image-idle: assets/current/ui-portrait/png/save-item-1-idle.png;
+    image-hover: assets/current/ui-portrait/png/save-item-1-hover.png;
+    image-press: assets/current/ui-portrait/png/save-item-1-press.png;
+    var: e_action;
+    msg: 1;
+    max: 1;
+    index: 1;
+    thumb-width: 192;
+    thumb-height: 108;
+}
+SLOT2 {
+    id: 3;
+    type: char;
+    x: 24;
+    y: 652;
+    image-idle: assets/current/ui-portrait/png/save-item-2-idle.png;
+    image-hover: assets/current/ui-portrait/png/save-item-2-hover.png;
+    image-press: assets/current/ui-portrait/png/save-item-2-press.png;
+    var: e_action;
+    msg: 2;
+    max: 1;
+    index: 2;
+    thumb-width: 192;
+    thumb-height: 108;
+}
+SLOT3 {
+    id: 4;
+    type: char;
+    x: 24;
+    y: 860;
+    image-idle: assets/current/ui-portrait/png/save-item-3-idle.png;
+    image-hover: assets/current/ui-portrait/png/save-item-3-hover.png;
+    image-press: assets/current/ui-portrait/png/save-item-3-press.png;
+    var: e_action;
+    msg: 3;
+    max: 1;
+    index: 3;
+    thumb-width: 192;
+    thumb-height: 108;
+}

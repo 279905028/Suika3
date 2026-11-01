@@ -1,3 +1,24 @@
+# 日常开发（2026-10-31）
+
+日常修改用开发链；准备交付时再走下方的正式候选流程。开发链可在 Windows、macOS 上运行，只需要 Node 18 或更新版本。
+
+```sh
+npm run dev          # 构建 build/dev/web，在 http://127.0.0.1:49300/ 预览，修改后自动重建并刷新
+npm run dev:native   # 构建 build/dev/desktop，并用 SDK 原生程序运行（Windows/macOS）
+npm run dev:build    # 只构建一次
+```
+
+- 监视 `scenario/`、`system/`、`assets/current/`、`docs/整合/`、根宿主文件和网页外壳。只改 `shell.css`/`shell.js` 时直接替换，不重新打包；其他改动重建约6秒，未变的素材从上次的 `assets.arc` 复用。
+- 正文改动后，冻结在旧版本的图片绑定只在失效段落被跳过，并在终端提示；选项文字改了要先运行 `npm run ui:cinema`。正式候选仍要求绑定与正文完全一致。
+- 存档使用独立前缀 `bijie-rain-suika3-dev:`，不碰正式版存档。每次重建都会生成新的构建身份，旧开发存档不能读取，需要从头开始。
+- `build/dev/` 每次清空重建，不要手工修改其中文件。素材以硬链接放入，构建过程会先断开链接再写入。
+- `tools/runtime/pack.cjs` 生成的 `assets.arc` 与 SDK 的 `suika3-pack` 字节一致（已用 v1.1.0-beta.1 验证），因此正式链也不再依赖 macOS。
+
+网页外壳是响应式的：桌面和平板等比显示画布；横屏手机隐藏页眉、画面占满。竖屏手机自动进入 `/portrait/` 竖版页面（720×1280，开发链与正式链都会同时构建），阅读中旋转会提示切换版式，横竖版存档互通，见[竖版网页](../../docs/UI-竖版.md)。用 `?layout=landscape` 固定横版时仍是信箱模式，底部有「菜单／继续／全屏」。检查记录见[开发链与网页适配](../../qa/dev-responsive-20261031/记录.md)。
+
+- 竖版主题在 `portrait-theme.cjs`，位图与 GUI 由 `npm run ui:portrait`（`tools/ui-portrait/`）生成；选项文字改了要同时运行 `npm run ui:cinema` 和 `npm run ui:portrait`。
+- 存档身份由 `build.cjs` 的 `saveIdentity()` 计算，两种版式写入同一个 `e_build_id`；`runtimeBuildId` 按版式分别记录。
+
 # 当前构建与运行入口（2026-10-30）
 
 立绘补全冻结为`sui-i01-portraits-20261030-v5`，226项美术资源。独立验收候选为`sui-i02-20261030-portraits-v2`，采用相同电影侧栏与B循环封面，入口[49262](http://127.0.0.1:49262/)；[补全结果与实际验证](../../qa/portrait-gap-fill-20261030/结果报告.md)。本批构建来源使用`qa/portrait-gap-fill-20261030/snapshot.json`；一次性制作/检查工具及其固定QA批次不直接重跑覆盖，后续修改另建批次。
@@ -9,7 +30,7 @@ node tools/runtime/serve.cjs --web dist/sui-i02-20261030-title-b1-v2/web --port 
 node tools/integration/runtime/verify-package.cjs dist/sui-i02-20261030-title-b1-v2
 ```
 
-新候选通过 `tools/integration/runtime/build.cjs` 显式指定新版本和I01冻结快照生成；压缩包使用同目录 `archive.py`。现有版本、QA和玩家存档不覆盖。底层 `tools/runtime/build.cjs` 必须显式指定新的 `--out`，服务必须指定 `--web`，仅监听本机。
+新候选通过 `tools/integration/runtime/build.cjs` 显式指定新版本和I01冻结快照生成（`npm run release -- <版本>`）；压缩包使用同目录 `archive.py`。现有版本、QA和玩家存档不覆盖。底层 `tools/runtime/build.cjs` 必须显式指定新的 `--out`，服务必须指定 `--web`，仅监听本机。
 
 下方为SUI-E历史设计说明，其历史包没有正式美术；历史复验命令会写入原批次，不能直接用于新验收。
 

@@ -1,0 +1,33 @@
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+}
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: assets/current/ui-portrait/png/title-confirm.png;
+}
+YES {
+    id: 1;
+    type: title;
+    x: 115;
+    y: 677;
+    image-idle: assets/current/ui-portrait/png/confirm-idle.png;
+    image-hover: assets/current/ui-portrait/png/confirm-hover.png;
+    image-press: assets/current/ui-portrait/png/confirm-press.png;
+    file: start.novel;
+}
+NO {
+    id: 2;
+    type: cancel;
+    x: 379;
+    y: 677;
+    image-idle: assets/current/ui-portrait/png/cancel-idle.png;
+    image-hover: assets/current/ui-portrait/png/cancel-hover.png;
+    image-press: assets/current/ui-portrait/png/cancel-press.png;
+}

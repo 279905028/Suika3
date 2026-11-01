@@ -1,0 +1,161 @@
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+    saveslots: 4;
+}
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: assets/current/ui-portrait/png/config.png;
+}
+NAV_MENU {
+    id: 20;
+    type: char;
+    x: 8;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-menu-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-menu-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-menu-press.png;
+    var: e_action;
+    msg: M;
+    max: 1;
+}
+NAV_LOAD {
+    id: 21;
+    type: char;
+    x: 150;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-load-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-load-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-load-press.png;
+    var: e_action;
+    msg: L;
+    max: 1;
+}
+NAV_HISTORY {
+    id: 22;
+    type: char;
+    x: 292;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-history-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-history-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-history-press.png;
+    var: e_action;
+    msg: H;
+    max: 1;
+}
+NAV_CONFIG {
+    id: 23;
+    type: char;
+    x: 434;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-config-hover.png;
+    image-hover: assets/current/ui-portrait/png/nav-config-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-config-press.png;
+    var: e_action;
+    msg: C;
+    max: 1;
+}
+NAV_GALLERY {
+    id: 24;
+    type: char;
+    x: 576;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-gallery-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-gallery-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-gallery-press.png;
+    var: e_action;
+    msg: G;
+    max: 1;
+}
+BACK {
+    id: 30;
+    type: cancel;
+    x: 496;
+    y: 40;
+    image-idle: assets/current/ui-portrait/png/back-idle.png;
+    image-hover: assets/current/ui-portrait/png/back-hover.png;
+    image-press: assets/current/ui-portrait/png/back-press.png;
+}
+BGMVOL {
+    id: 1;
+    type: bgmvol;
+    x: 24;
+    y: 236;
+    image-idle: assets/current/ui-portrait/png/slider-idle.png;
+    image-hover: assets/current/ui-portrait/png/slider-hover.png;
+    image-knob: assets/current/ui-portrait/png/slider-knob.png;
+}
+SEVOL {
+    id: 2;
+    type: sevol;
+    x: 24;
+    y: 336;
+    image-idle: assets/current/ui-portrait/png/slider-idle.png;
+    image-hover: assets/current/ui-portrait/png/slider-hover.png;
+    image-knob: assets/current/ui-portrait/png/slider-knob.png;
+}
+VOICEVOL {
+    id: 3;
+    type: voicevol;
+    x: 24;
+    y: 436;
+    image-idle: assets/current/ui-portrait/png/slider-idle.png;
+    image-hover: assets/current/ui-portrait/png/slider-hover.png;
+    image-knob: assets/current/ui-portrait/png/slider-knob.png;
+}
+TEXTSPEED {
+    id: 4;
+    type: textspeed;
+    x: 24;
+    y: 584;
+    image-idle: assets/current/ui-portrait/png/slider-idle.png;
+    image-hover: assets/current/ui-portrait/png/slider-hover.png;
+    image-knob: assets/current/ui-portrait/png/slider-knob.png;
+}
+AUTOSPEED {
+    id: 5;
+    type: autospeed;
+    x: 24;
+    y: 684;
+    image-idle: assets/current/ui-portrait/png/slider-idle.png;
+    image-hover: assets/current/ui-portrait/png/slider-hover.png;
+    image-knob: assets/current/ui-portrait/png/slider-knob.png;
+}
+PREVIEW {
+    id: 6;
+    type: preview;
+    x: 24;
+    y: 768;
+    image-idle: assets/current/ui-portrait/png/preview.png;
+    msg: "文字正以你习惯的速度显现。";
+    msg-zh-cn: "文字正以你习惯的速度显现。";
+    margin-left: 18;
+    margin-top: 14;
+    margin-right: 18;
+    margin-bottom: 14;
+}
+RESET {
+    id: 7;
+    type: default;
+    x: 24;
+    y: 896;
+    image-idle: assets/current/ui-portrait/png/reset-idle.png;
+    image-hover: assets/current/ui-portrait/png/reset-hover.png;
+    image-press: assets/current/ui-portrait/png/reset-press.png;
+}
+FULLSCREEN {
+    id: 8;
+    type: fullscreen;
+    x: 248;
+    y: 896;
+    image-idle: assets/current/ui-portrait/png/fullscreen-idle.png;
+    image-hover: assets/current/ui-portrait/png/fullscreen-hover.png;
+    image-press: assets/current/ui-portrait/png/fullscreen-press.png;
+    image-disable: assets/current/ui-portrait/png/fullscreen-press.png;
+}

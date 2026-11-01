@@ -1,17 +1,36 @@
 :root{color-scheme:dark}
 html,body{margin:0!important;padding:0!important;width:100%;height:100%;background:#0d1a20;color:#eeeae0;font:14px system-ui;position:static!important}
-body{display:grid;grid-template-rows:48px minmax(0,1fr) 24px;height:100dvh;overflow:hidden;box-sizing:border-box;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)!important}
-header{display:flex;align-items:center;gap:18px;padding:0 24px;border-bottom:1px solid #30484d}
-header button{margin-left:auto}
-button{min-height:40px;padding:0 18px;border:1px solid #435d60;border-radius:4px;background:#1e3135;color:#eeeae0;font:14px system-ui;cursor:pointer}
+body{display:grid;grid-template-rows:auto minmax(0,1fr) auto auto;height:100dvh;overflow:hidden;box-sizing:border-box;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)!important}
+header{display:flex;align-items:center;gap:18px;height:48px;padding:0 24px;border-bottom:1px solid #30484d;min-width:0}
+header span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+header button{margin-left:auto;flex:none}
+button{min-height:40px;padding:0 18px;border:1px solid #435d60;border-radius:4px;background:#1e3135;color:#eeeae0;font:14px system-ui;cursor:pointer;touch-action:manipulation}
 button:focus-visible{outline:2px solid #a9d0c3;outline-offset:2px}
 #canvas_holder{position:relative!important;inset:auto!important;width:100%!important;height:100%!important;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden}
 canvas{display:block;max-width:none;outline:0;touch-action:none}
 #title-motion{position:absolute;z-index:2;pointer-events:none;object-fit:contain}
 #title-motion[hidden]{display:none!important}
-#storage-status{font-size:12px;text-align:center;color:#a8b9b9;align-self:center}
-#storage-status.error{position:fixed;bottom:12px;left:12px;right:12px;padding:14px;background:#5b3030;color:#fff;z-index:20}
+#storage-status{font-size:12px;line-height:24px;text-align:center;color:#a8b9b9;align-self:center}
+#storage-status.error{position:fixed;bottom:12px;left:12px;right:12px;padding:14px;line-height:1.4;background:#5b3030;color:#fff;z-index:20}
 #retry-save:not([hidden]){position:fixed;bottom:68px;right:24px;z-index:21;background:#374d4e}
+#touchbar{display:none}
 #rotate{display:none}
-@media(max-width:1000px) and (max-height:600px){body{grid-template-rows:minmax(0,1fr)}header{display:none}#storage-status:not(.error){position:fixed;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}#canvas_holder{grid-row:1}}
-@media(orientation:portrait) and (max-width:1000px){#rotate{position:fixed;inset:0;z-index:15;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;background:#13272e;text-align:center;padding:24px}#rotate strong{font-size:22px;font-weight:500}#rotate span{font-size:15px;color:#a8b9b9}.rotate-icon{font-size:84px;color:#a9d0c3;font-weight:200}}
+#rotate:not([hidden]){display:flex;align-items:center;gap:8px;position:fixed;bottom:calc(16px + env(safe-area-inset-bottom));left:16px;right:16px;z-index:15;padding:8px 8px 8px 16px;border:1px solid #435d60;border-radius:6px;background:#13272ef0;font-size:15px}
+#rotate span{flex:1;min-width:0}
+#rotate button{min-height:40px;flex:none;padding:0 12px}
+#switch-layout{background:#2b4a4c;border-color:#5b7f80}
+/* Portrait page: the 720x1280 canvas has its own menu and reading controls. */
+html[data-layout=portrait] body{grid-template-rows:minmax(0,1fr)}
+html[data-layout=portrait] header,html[data-layout=portrait] #touchbar{display:none}
+html[data-layout=portrait] #storage-status:not(.error){position:fixed;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+/* Landscape phones: the canvas gets the whole screen. */
+@media(max-height:600px) and (orientation:landscape){body{grid-template-rows:minmax(0,1fr)}header{display:none}#storage-status:not(.error){position:fixed;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}#canvas_holder{grid-row:1}}
+/* Portrait phones/tablets: letterboxed canvas on top, touch controls below; taps on the free space continue. */
+@media(orientation:portrait) and (max-width:900px){
+  header{height:40px;padding:0 16px;gap:12px}
+  header button{display:none}
+  #touchbar{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:8px 16px}
+  #touchbar button{min-height:48px;font-size:16px;padding:0 8px}
+  #tb-next{background:#2b4a4c;border-color:#5b7f80}
+  html[data-layout=landscape] #rotate:not([hidden]){bottom:calc(96px + env(safe-area-inset-bottom))}
+}

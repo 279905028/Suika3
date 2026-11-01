@@ -15,7 +15,7 @@ http.createServer((req,res)=>{
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);res.end();return;}
   let rel;try{rel=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400);res.end();return;}
   if(rel.includes('\0')){res.writeHead(400);res.end();return;}
-  const file=path.resolve(web,'.'+(rel==='/'?'/index.html':rel));
+  const file=path.resolve(web,'.'+(rel.endsWith('/')?rel+'index.html':rel));
   if(!file.startsWith(web+path.sep)){res.writeHead(403);res.end();return;}
   fs.stat(file,(error,stat)=>{
     let real;try{real=fs.realpathSync(file);}catch{res.writeHead(404);res.end();return;}

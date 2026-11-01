@@ -38,6 +38,8 @@ function adapt(root,m,a){
  const ge=uiRay.indexOf('\nfunc suiGalleryDrawFit',gs);
  let pump=uiRay.slice(gs,ge).replace(/\n}\s*$/,'');
  pump=pump.replace('        Suika.stopCommandRepetition();\n','').replace('        Suika.moveToNextTag();','        Suika.stopGUI(); ePanel="";');
+ // This pump runs before Suika.update(), where isMouseLeftClicked() never reports the tap; use the press edge like the backlog.
+ pump=once(pump,'    var click = Suika.isMouseLeftClicked();','    var pressed = Engine.isMouseLeftPressed || Suika.isMouseLeftPressed() || Suika.isMouseDragging();\n    var click = pressed && !cinemaGalleryDown;\n    cinemaGalleryDown = pressed;');
  pump=pump.replace('suiGalleryHit(1080,32,136,56)','suiGalleryHit(32,592,200,64)');
  pump=pump.replaceAll('64 + (i % 3) * 400','272 + (i % 3) * 320').replaceAll('352,184','288,184').replaceAll('64,588','272,588');
  uiRay+='\nfunc cinemaGalleryUpdate() {\n'+pump+'\n}\n';

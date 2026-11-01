@@ -9,6 +9,8 @@ var cinemaMouseX = -1;
 var cinemaMouseY = -1;
 var cinemaFocusTexture = false;
 var cinemaNoticeTexture = false;
+// A press that opened the gallery must not count as a tap inside it.
+var cinemaGalleryDown = false;
 // Native startup metadata scanning stops at the first empty slot in the bundled SDK.
 // A successful save's global metadata is a fallback; native load and validation still decide validity.
 func cinemaHasSave(slot) {return Suika.checkSaveExists({index:slot}) || eGet("meta_build_"+slot)!="";}
@@ -105,6 +107,6 @@ func cinemaAction(action) {
     ePanel=panel;
     if(!Suika.loadGUIFile({file:"system/sui-cinema/gui/"+panel+".gui",isSys:true})) return true;
     Suika.clearInputState(); Suika.startGUI();
-    if(action=="G") {suiGalleryActive=true;suiGalleryPage=0;suiGalleryFocus=0;suiGalleryDetail=-1;suiGalleryKeys={};suiGalleryPreparePage();}
+    if(action=="G") {cinemaGalleryDown=true;suiGalleryActive=true;suiGalleryPage=0;suiGalleryFocus=0;suiGalleryDetail=-1;suiGalleryKeys={};suiGalleryPreparePage();}
     return true;
 }

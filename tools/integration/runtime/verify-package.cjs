@@ -18,6 +18,12 @@ function verify(directory){
   assert.equal(crypto.createHash('sha256').update(JSON.stringify(m.inputs)).digest('hex'),m.inputFingerprint,'输入总指纹不一致');
   for(const p of ['web','desktop'])assert(sha(m.runtimeBuildIds?.[p]),'非法运行指纹');
   const required=['web/index.html','web/assets.arc','web/shell.js','web/shell.css','阅读说明.md','macos/suika3','macos/启动.command','windows-x64/suika3.exe','windows-x64/启动.bat','windows-arm64/suika3.exe','windows-arm64/启动.bat',...['macos','windows-x64','windows-arm64'].map(p=>p+'/assets.arc')];
+  // A portrait web page, when built, sits at web/portrait/ and must read the landscape page's saves.
+  if(m.runtimeBuildIds.webPortrait){
+    assert(sha(m.runtimeBuildIds.webPortrait),'非法竖版运行指纹');
+    required.push(...['index.html','assets.arc','shell.js','shell.css'].map(f=>'web/portrait/'+f));
+    assert(sha(m.saveBuildIds?.web)&&m.saveBuildIds.webPortrait===m.saveBuildIds.web,'横竖版存档身份不一致');
+  }
   assert(Array.isArray(m.outputs),'缺产物清单');
   for(const p of required)assert(m.outputs.some(i=>i.path===p),'缺必需产物：'+p);
   const known=new Set(['candidate-manifest.json']);
@@ -29,7 +35,7 @@ function verify(directory){
     assert.equal(fs.statSync(file).size,item.bytes,'产物长度变化：'+item.path);
     assert.equal(hash(file),item.sha256,'产物指纹变化：'+item.path);
   }
-  const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.relative(root,path.join(dir,e.name))]);
+  const walk=dir=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.relative(root,path.join(dir,e.name)).split(path.sep).join('/')]);
   assert.deepEqual(walk(root).sort(),[...known].sort(),'分发包出现清单外文件');
   const native=hash(path.join(root,'macos/assets.arc'));
   for(const platform of ['windows-x64','windows-arm64'])assert.equal(hash(path.join(root,platform,'assets.arc')),native,'电脑平台资源包不一致');

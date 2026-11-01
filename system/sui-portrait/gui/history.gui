@@ -1,0 +1,84 @@
+global {
+    fadein: 0.12;
+    fadeout: 0.12;
+    clickcancel: no;
+    escapecancel: yes;
+    rightcancel: yes;
+    saveslots: 4;
+}
+BASE {
+    id: 32;
+    type: noaction;
+    x: 0;
+    y: 0;
+    image-idle: assets/current/ui-portrait/png/history.png;
+}
+NAV_MENU {
+    id: 20;
+    type: char;
+    x: 8;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-menu-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-menu-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-menu-press.png;
+    var: e_action;
+    msg: M;
+    max: 1;
+}
+NAV_LOAD {
+    id: 21;
+    type: char;
+    x: 150;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-load-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-load-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-load-press.png;
+    var: e_action;
+    msg: L;
+    max: 1;
+}
+NAV_HISTORY {
+    id: 22;
+    type: char;
+    x: 292;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-history-hover.png;
+    image-hover: assets/current/ui-portrait/png/nav-history-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-history-press.png;
+    var: e_action;
+    msg: H;
+    max: 1;
+}
+NAV_CONFIG {
+    id: 23;
+    type: char;
+    x: 434;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-config-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-config-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-config-press.png;
+    var: e_action;
+    msg: C;
+    max: 1;
+}
+NAV_GALLERY {
+    id: 24;
+    type: char;
+    x: 576;
+    y: 1136;
+    image-idle: assets/current/ui-portrait/png/nav-gallery-idle.png;
+    image-hover: assets/current/ui-portrait/png/nav-gallery-hover.png;
+    image-press: assets/current/ui-portrait/png/nav-gallery-press.png;
+    var: e_action;
+    msg: G;
+    max: 1;
+}
+BACK {
+    id: 30;
+    type: cancel;
+    x: 496;
+    y: 40;
+    image-idle: assets/current/ui-portrait/png/back-idle.png;
+    image-hover: assets/current/ui-portrait/png/back-hover.png;
+    image-press: assets/current/ui-portrait/png/back-press.png;
+}

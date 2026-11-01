@@ -1,0 +1,18 @@
+{
+  "name": "bijie-rain-suika3",
+  "private": true,
+  "description": "毕节，雨停之前 · Suika3 开发工程",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "node tools/dev/dev.cjs --open",
+    "dev:native": "node tools/dev/dev.cjs --native",
+    "dev:build": "node tools/dev/dev.cjs --once",
+    "ui:cinema": "node tools/ui-cinema/build.cjs",
+    "ui:portrait": "node tools/ui-portrait/build.cjs",
+    "check": "node tools/integration/runtime/validate.cjs --snapshot qa/portrait-gap-fill-20261030/snapshot.json",
+    "release": "node tools/integration/runtime/build.cjs --snapshot qa/portrait-gap-fill-20261030/snapshot.json --version",
+    "release:verify": "node tools/integration/runtime/verify-package.cjs"
+  }
+}

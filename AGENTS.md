@@ -1,7 +1,7 @@
 # 项目协作约定
 
 - 始终使用简体中文；未明确的剧情设定先问用户，不补造婚史、日期、疾病或家庭经历。
-- 唯一开发根目录是 `/Users/yipin/Desktop/Suika3`。正文、工具、素材制作、构建与新验收均在这里进行；`/Users/yipin/Desktop/cjb-v1.1-suika`、`/Users/yipin/Desktop/cjb-v1.1`、`/Users/yipin/Desktop/cjb` 仅作历史来源，不回写。
+- 唯一开发根目录是 `/Users/yipin/Desktop/Suika3`；Windows 工作副本 `F:\galgame_wen\suika3` 同样以本仓库为准，日常预览用 `npm run dev`。正文、工具、素材制作、构建与新验收均在这里进行；`/Users/yipin/Desktop/cjb-v1.1-suika`、`/Users/yipin/Desktop/cjb-v1.1`、`/Users/yipin/Desktop/cjb` 仅作历史来源，不回写。
 - 当前正文唯一来源为 `scenario/`，路线登记见 `scenario/routes.json`。六条路线：罗小满、周栀、孟遥、飘、黄球球、朋友与职业。叶岚仅为普通游戏队友，无攻略线与独立结局。
 - 孟遥23岁、英语老师、文文前女友；陈晟是她的现任丈夫。MY07-01与MY09-01均A才继续秘密关系，其余组合彻底断开。婚姻没有结束；不把AA写成公开复合或自动离婚，不在BA重启已经停止的亲密。
 - `SDK/` 为工具与平台材料，根 `main.ray`、`start.novel`、`config.ini`、`system/` 是现有Suika3入口及示例。引擎迁移未验收前，不把示例运行当成本作可玩。先冻结独立构建入口再生成正式NovelML，不引入旧JS播放器或旧story.js构建链。
