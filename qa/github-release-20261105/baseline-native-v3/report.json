@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-05",
+  "platform": "macOS 26.6.2 arm64",
+  "runtimeBuildId": "49aa385f6badbb2cd6cd41c2bf69976dbee697b470cad19047c293502b455f75",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "status": "pass-limited-native-smoke",
+  "scope": "Actual standard app; static presentation; common start to first choice; manual saves, restart recovery and texture lifecycle regression. Not full native routes or 29 motion clips.",
+  "app": "qa/dialogue-p5-motion-20261104/native/v3/run/P5原生安全版.app",
+  "saveDirectory": "qa/dialogue-p5-motion-20261104/native/v3/run/save",
+  "checks": [
+    {
+      "item": "title and common story",
+      "result": "pass",
+      "evidence": [
+        "01-title.png",
+        "02-story.png"
+      ]
+    },
+    {
+      "item": "first manual slot 1 save; success notice and metadata",
+      "result": "pass",
+      "evidence": [
+        "03-manual-saved.png"
+      ]
+    },
+    {
+      "item": "advance story then load slot 1 restores first sentence",
+      "result": "pass",
+      "evidence": [
+        "04-story-advanced.png",
+        "05b-loaded-full.png"
+      ]
+    },
+    {
+      "item": "native Quit; relaunch; load manual slot 1 restores first sentence",
+      "result": "pass",
+      "evidence": [
+        "06-reopened-title.png",
+        "07-reopened-manual-restored.png"
+      ]
+    },
+    {
+      "item": "first common choice shows both options",
+      "result": "pass",
+      "evidence": [
+        "08-first-choice.png"
+      ]
+    },
+    {
+      "item": "Down key moves keyboard focus",
+      "result": "pass",
+      "evidence": [
+        "09-keyboard-focus.png"
+      ]
+    },
+    {
+      "item": "choice slot 2 save and overwrite with success notice",
+      "result": "pass",
+      "evidence": [
+        "10-choice-overwrite-saved.png"
+      ]
+    },
+    {
+      "item": "choose A and advance, then load slot 2 restores both options",
+      "result": "pass",
+      "evidence": [
+        "11-choice-a-advanced.png",
+        "12-choice-restored.png"
+      ]
+    },
+    {
+      "item": "choice menu to gallery and return restores choice textures",
+      "result": "pass",
+      "evidence": [
+        "13-gallery.png",
+        "14-choice-returned.png"
+      ]
+    }
+  ],
+  "normalExit": {
+    "result": "pass",
+    "method": "CUA native application menu Quit suika3",
+    "observation": "AX after Quit returns procNotFound. Relaunch then visibly shows title. Final Quit again returns procNotFound.",
+    "processListCheck": "CLI pgrep unavailable: sysmond service not found; no process-list claim."
+  },
+  "newCrashReportCheck": {
+    "result": "no-new-report-observed",
+    "directory": "/Users/yipin/Library/Logs/DiagnosticReports",
+    "matchingFiles": [
+      "suika3-2026-11-05-092316.ips",
+      "suika3-2026-11-05-095403.ips"
+    ]
+  },
+  "inputNotes": [
+    "Default short key presses sometimes did not trigger; explicit 150ms Down did. Quit used native menu.",
+    "Two v3 default-size launches displayed fully; v2 resizing white-area observation was not retested."
+  ],
+  "isolatedSaves": [
+    {
+      "file": "3030302e736176",
+      "bytes": 95909,
+      "sha256": "dc2824c1bc868c1c1b8f63364bd160123629b61ec4a844b10ec1787eff4511c9"
+    },
+    {
+      "file": "3030312e736176",
+      "bytes": 95748,
+      "sha256": "0ce24ba57c0219444f5e635252304a6357aed5ef106be0d1f3613b3d5eef8876"
+    },
+    {
+      "file": "3030322e736176",
+      "bytes": 95904,
+      "sha256": "43d967016ce33a72847948cd678674eb07a0ad16332860d0612f700baaa5bf1e"
+    },
+    {
+      "file": "3031312e736176",
+      "bytes": 95884,
+      "sha256": "e96ae3624ddadcfcf9ccdbfa8235df1fc37fdbaff1b2f6510cae326bd50225f7"
+    },
+    {
+      "file": "673030302e736176",
+      "bytes": 3810,
+      "sha256": "84201d37e340ccb6e8ee17443faecd04e5fa2e01d43b5b51d60b677433fa0529"
+    },
+    {
+      "file": "732d37333734363137323734326536653666373636353663",
+      "bytes": 32768,
+      "sha256": "8cd17b96f7a0658727e65e28db02cb9ab676faa742d13858a47266960c91fd6f"
+    }
+  ],
+  "playerSavesAccessed": false,
+  "securityFlagsChanged": false,
+  "gatekeeperPromptObserved": false,
+  "remaining": [
+    "full native routes and all CG static fallback nodes",
+    "previous-choice rollback button and cross-route re-selection",
+    "long-duration run and window resizing",
+    "Windows native",
+    "physical mobile device",
+    "native video playback is outside this package"
+  ]
+}

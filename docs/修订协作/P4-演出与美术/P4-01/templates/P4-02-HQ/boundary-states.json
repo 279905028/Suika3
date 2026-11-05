@@ -1,0 +1,664 @@
+{
+  "schemaVersion": "p4-package-v1",
+  "packageId": "P4-02-HQ",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "boundaries": [
+    {
+      "boundaryId": "entry:T-HQ-000001_1",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:HQ03-01",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_fcf7724da5d004fac3bb",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_fcf7724da5d004fac3bb",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d0a77dcdaa5089c4f6bd",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d0a77dcdaa5089c4f6bd",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:HQ04-01",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_24b945e76f9dd1cef69d",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_24b945e76f9dd1cef69d",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a8d8732acfb1eeddb573",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a8d8732acfb1eeddb573",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:HQ05-01",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a6e038bba273fb42e492",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a6e038bba273fb42e492",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_50378f07d30c898e7d59",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_50378f07d30c898e7d59",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:HQ06-01",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d25c4c83b5569d75a8c2",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d25c4c83b5569d75a8c2",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b76ec9729d35e42e12a8",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b76ec9729d35e42e12a8",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_9604fbc957e5074d63aa",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_9604fbc957e5074d63aa",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "call:CALL_b2bb2539001a97f3c0a3",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:HQ07-01",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d2012fdf39ae6870034a",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d2012fdf39ae6870034a",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_67ee4571a812a31aaded",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_67ee4571a812a31aaded",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:HQ08-01",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5772cb71591b16cae37a",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5772cb71591b16cae37a",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_94e83ec1cc71eb755403",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_94e83ec1cc71eb755403",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_61c924d664df8fdb4e96",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_61c924d664df8fdb4e96",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6b99528b063bd20c25c0",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6b99528b063bd20c25c0",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_00511ed460baa13a940e",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_00511ed460baa13a940e",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3afc76ad0e612d6d3661",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3afc76ad0e612d6d3661",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b4775a0a4045d4d7cc21",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b4775a0a4045d4d7cc21",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_148bf38285c27c94766a",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_148bf38285c27c94766a",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_44a44ab0d689e6aa0c15",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_44a44ab0d689e6aa0c15",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a45c86c7f0fd3551db2d",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a45c86c7f0fd3551db2d",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:HQ09-01",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c412e7ec2b40d873da9e",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c412e7ec2b40d873da9e",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_53e08e9fada0a66e450f",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_53e08e9fada0a66e450f",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a0201d8cbfad644c9531",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a0201d8cbfad644c9531",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_595668d6807f03c335f1",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_595668d6807f03c335f1",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a0201d8cbfad644c9531_2",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a0201d8cbfad644c9531_2",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_595668d6807f03c335f1_2",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_595668d6807f03c335f1_2",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:HQ10-01",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_40cd6218e96dbc2c47e3",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_40cd6218e96dbc2c47e3",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b3ea4a504f809655cddf",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b3ea4a504f809655cddf",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_17858f11c420d436ca08",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_17858f11c420d436ca08",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:HQ-E1",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5d11d59e82237da8cf3d",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5d11d59e82237da8cf3d",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:HQ-E2",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_06c2d4ce065a6febe6b1",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_06c2d4ce065a6febe6b1",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_8ec73ae48b566b9b47e6",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_8ec73ae48b566b9b47e6",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c14b0916ca4d5049c123",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c14b0916ca4d5049c123",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "epilogue:EPILOGUE_19313c96cf0043f9c630",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_bfbff53804f5a9fd",
+      "status": "pending",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "",
+      "unresolved": []
+    }
+  ]
+}

@@ -20,7 +20,7 @@ function emit(ir){
   for(const n of ir.nodes){
     const start=novel.length+1;novel.push(`[label name=${quoted(n.id)}]`);
     if(n.op==='text'){
-      novel.push(`[sc_at id=${quoted(n.id)}]`,`[text text=${quoted(n.text)}]`,`[goto name=${quoted(n.next)}]`);
+      novel.push(`[sc_at id=${quoted(n.id)}]`,`[text${n.textMeta?.displayName?' name='+quoted(n.textMeta.displayName):''} text=${quoted(n.text)}]`,`[goto name=${quoted(n.next)}]`);
     } else if(n.op==='choice'){
       const c=ir.choices[n.choice];novel.push(`[sc_at id=${quoted(n.id)}]`,`[text text=${quoted(c.question)}]`,`[sc_choose id=${quoted(n.choice)}]`);
       const sets=n.choice===R.storyEntry.routeChoice?[['all',c.options],['locked',c.options.filter(o=>o.value!==R.hiddenEntry.routeId)]]:[['all',c.options]];
@@ -35,7 +35,7 @@ function emit(ir){
       const rayLine=code.length+1;code.push(`    sc_ops[${quoted(n.id)}] = ${ray(op)};`);
       novel.push(`[sc_step id=${quoted(n.id)}]`);mappings[n.id]={rayLine};
     }
-    mappings[n.id]={...mappings[n.id],source:n.source,op:n.op,novelStart:start,novelEnd:novel.length,...(n.op==='text'?{paragraph:n.paragraph,offset:n.offset,graphemes:Array.from(new Intl.Segmenter('zh',{granularity:'grapheme'}).segment(n.text)).length}:{})};
+    mappings[n.id]={...mappings[n.id],source:n.source,op:n.op,novelStart:start,novelEnd:novel.length,...(n.op==='text'?{paragraph:n.paragraph,offset:n.offset,graphemes:Array.from(new Intl.Segmenter('zh',{granularity:'grapheme'}).segment(n.text)).length,...(n.textMeta?{textMeta:n.textMeta,markerLine:n.markerLine}:{})}:{})};
   }
   code.push('}');
   // This bundled VM has a bounded per-function constant/register budget.

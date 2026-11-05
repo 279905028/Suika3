@@ -1,0 +1,1084 @@
+{
+  "schemaVersion": 1,
+  "status": "binding-plan",
+  "buildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "sceneCount": 18,
+  "reviewedMediaCount": 18,
+  "runtimeBindingCount": 0,
+  "items": [
+    {
+      "key": "KCG-XM-01",
+      "title": "第27天·烧烤摊",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000108_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "337fd62681b3723eb933d359e8671df6ebcb7a4f71d9d0bd0502e910bf06fd93",
+        "line": 568,
+        "originalLine": 568,
+        "text": "她抓住我的外套前襟，吻了过来。"
+      },
+      "condition": "ALL",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "烧烤摊灯光、抓前襟、亲吻后拇指掠过下巴可辨。",
+      "original": {
+        "resourceId": "a236b14b-25a1-4f50-b878-8d717a85fe66",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/raw-v001.mp4",
+        "sha256": "8c4ec8628ab48bbd5149a5c28bfbc19b55d4f92d84108285eea0a416e5709a36",
+        "bytes": 12331383,
+        "requestId": "202611041502253F9D8590442ABC31F6F2"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/runtime-v001.mp4",
+        "bytes": 2342406,
+        "sha256": "c7c0986799c0d0246bf276531804748c425812ddfd141d167a5adec46a3733c0",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/first-v001.webp",
+        "bytes": 927608,
+        "sha256": "63e90638d3f8282bbbbd6423937d8d0cce2e5b800549163d4f3bc4cee9a52163"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/last-v001.webp",
+        "bytes": 854958,
+        "sha256": "17836cb30be70a0f0817646da42001b44c0cd17554f497d02bd2be3ea40e569b"
+      },
+      "dreamina": {
+        "nodeId": "node_jjsv8twwqv",
+        "submitId": "ab9c88ba-c099-4e8e-9966-d7f93aae713e"
+      }
+    },
+    {
+      "key": "KCG-XM-02",
+      "title": "第27天·车棚背面",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000141_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "8c5a36e375b77f7152a4d81745b6756610f67499a2db2206923ad0bcce4870f2",
+        "line": 763,
+        "originalLine": 763,
+        "text": "我说是。她这次没有立刻亲上来，等我先低下头。碰到她时，她扣住我的手腕，收得很紧。那股想在朋友面前赢一回的劲还在，但我也听见她呼吸乱了。"
+      },
+      "condition": "ALL",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v002",
+      "visualReview": "车棚背面、冷色光和电动车可辨，已与烧烤摊区分。文文低头先靠近，小满的手抓在外套前襟。",
+      "original": {
+        "resourceId": "f7350189-1c94-41ff-86c7-ef140def3ef6",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/raw-v002.mp4",
+        "sha256": "0e6936b3e40c0ce444e01beb5c9291154f1ee868c9c5a7e2433acbd960b1184b",
+        "bytes": 10250074,
+        "requestId": "2026110415134398E71A1038A2B953FB43"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/runtime-v002.mp4",
+        "bytes": 1511698,
+        "sha256": "e723db456576e8895ad420c7d7e24bb88dbfd71167d22fd769c7d08a0618b03b",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/first-v002.webp",
+        "bytes": 624976,
+        "sha256": "9b5ebfad0d3680077e96578e0979ce42183bc4438ecabf8519d7f270a7c71316"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/last-v002.webp",
+        "bytes": 715986,
+        "sha256": "5e2854f4774b79d6e4137f13ab016eb929a1c3828bd5cd46da75e556a462dc2b"
+      },
+      "dreamina": {
+        "nodeId": "node_jah1rp6rfe",
+        "submitId": "80c403bb-f0f5-4f41-9633-e835da3d7088"
+      }
+    },
+    {
+      "key": "KCG-XM-03",
+      "title": "第45天·住处轻咬下唇",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000678_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "340dfb646bd3eb06ea78027a154798a18d834492df154051a0115f67d4b2994e",
+        "line": 1529,
+        "originalLine": 1529,
+        "text": "她瞪我，凑过来，咬了一下我的下唇，不重。我扶住她肩。"
+      },
+      "condition": "XM07-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "夜间住处与饭盒一致。下唇接触短暂，轻咬没有牙齿特写，结束靠近额头。",
+      "original": {
+        "resourceId": "eb054b67-3eec-48c4-b4e7-a20d5ac6317f",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/raw-v001.mp4",
+        "sha256": "272e7cfdebe73e8ee8dfa5b09a7b51d0b8c13d499ed6c15dcd7a0a28fca08bbb",
+        "bytes": 7994328,
+        "requestId": "20261104145643D35D7CF0F02E0D364EEE"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/runtime-v001.mp4",
+        "bytes": 1473275,
+        "sha256": "3f032e9af1da87e506121cfd02a3869f86a27c26a6c405c06a5a5cebfa60bd12",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/first-v001.webp",
+        "bytes": 587714,
+        "sha256": "97773574bae5f9130f30877d7dbc475a27b49b50d2363e1f2cf3b2cc715439e9"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/last-v001.webp",
+        "bytes": 637694,
+        "sha256": "d24c69f29eb54546fc2ea379e41d55b42bb844bedec44b6198b86938481c5834"
+      },
+      "dreamina": {
+        "nodeId": "node_4be4yfjfsr",
+        "submitId": "d14b303c-e81a-474a-9ff4-78d83bdb2ada"
+      }
+    },
+    {
+      "key": "KCG-XM-04",
+      "title": "第60天·车站送别",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000330_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "76956211eab12ab516df4ecd71b0e69b1801d7e38b8f0bda92759c14e588a314",
+        "line": 1876,
+        "originalLine": 1876,
+        "text": "她亲上来时，我先抱住了她。吻比烧烤摊那次慢，她的手指扣在我后颈，广播又响，我们都听见了，仍多停了几秒。最后是她先松开，把我的衣领拉平。"
+      },
+      "condition": "XM07-01=A&XM08-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "候车棚、行李、扣后颈和拉衣领可辨。",
+      "original": {
+        "resourceId": "2e7e2408-7a7e-415b-8b1a-939e5aa2b3de",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/raw-v001.mp4",
+        "sha256": "bfb3ee3ba390708c719bc8ac8c9b7588488b883195b74d130ef7baa2c7b4491d",
+        "bytes": 10393088,
+        "requestId": "20261104145817A457F7A7AEAF9735A70B"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/runtime-v001.mp4",
+        "bytes": 2033806,
+        "sha256": "415de8fa496c64076a4981574d89eca4aac093ae65985256b3aa6c56cdd47c5e",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/first-v001.webp",
+        "bytes": 832850,
+        "sha256": "4741f93b35f033bd2426d65a57f7a58a0a239876d31d63d6742fc59b8e0d4551"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/last-v001.webp",
+        "bytes": 849746,
+        "sha256": "32e217f45d61f7e22ea7f0c54ab8fa5abed1921f068817872c1762bb04ce8da1"
+      },
+      "dreamina": {
+        "nodeId": "node_x29pfq67zk",
+        "submitId": "6185cb06-e379-49d7-8cec-96f4365af3c6"
+      }
+    },
+    {
+      "key": "KCG-ZZ-01",
+      "title": "第24天·雨中店门外",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000580_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "cfd4989a3d5e659397ff770050da9e1b77672734a8f55cafb9ffcb2fd6f41c1a",
+        "line": 607,
+        "originalLine": 587,
+        "text": "那个吻没有旁人起哄，也没有人付钱。我却没因此突然分清她过去所有的笑。退开以后，她用拇指擦了一下我嘴边，做完便叹气。"
+      },
+      "condition": "ALL",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "雨后铺外、靠墙的伞、轻吻和拇指靠近嘴边可辨。",
+      "original": {
+        "resourceId": "58f5c526-72c1-4622-94cd-82042b4d429f",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/raw-v001.mp4",
+        "sha256": "ac0d19eae299956761560f66a460c5d0f301993ad6ef18d53b58f96d1beb0228",
+        "bytes": 7846172,
+        "requestId": "202611041456462B7F04C70E3F5535C547"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/runtime-v001.mp4",
+        "bytes": 1351515,
+        "sha256": "1fefe5a4360337bd500686fae7ce53df6ada4c77658d30a6342344b072026b04",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/first-v001.webp",
+        "bytes": 664516,
+        "sha256": "837b4299c7527d88ce64f87f46a14d03a43765a61ecffc369f3c9bbd85d2ec71"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/last-v001.webp",
+        "bytes": 711382,
+        "sha256": "aed4b0890a97965642d84a9b0e6cc8d8235bdb4c296a7e75c9490e49949c3196"
+      },
+      "dreamina": {
+        "nodeId": "node_q2c21xpgn6",
+        "submitId": "f5a8ea82-964b-4c2a-8d9f-908a88aa7132"
+      }
+    },
+    {
+      "key": "KCG-ZZ-02",
+      "title": "搬空的回声房间",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000754_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "ba846abd74c275740569aa6629729fdc20804749808cc8c4abd963b9c29fad01",
+        "line": 1597,
+        "originalLine": 1597,
+        "text": "她自己往旁边挪了半步。我们吻得有些急，像之前很多次停住的动作都挤在这里。"
+      },
+      "condition": "ZZ06-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "停钟、墙面、短吻与退开后抬手拍灰可辨。",
+      "original": {
+        "resourceId": "7d607af9-a7c7-48e1-8c25-939a1cdbfb56",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/raw-v001.mp4",
+        "sha256": "c7c946775129b0161a0989004fb6ee5aa282621a9f2f2819a149f934aed2572b",
+        "bytes": 7485309,
+        "requestId": "20261104145458E1C0943446232B4DABB0"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/runtime-v001.mp4",
+        "bytes": 1431454,
+        "sha256": "0452ec9db75766745c5ee476e884102e98815e27d663783441e4da47921fa36b",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/first-v001.webp",
+        "bytes": 581326,
+        "sha256": "a2d93ec3c20060d9fa80c649fcf637d553eb3c877133a0b450d9769bf2f47439"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/last-v001.webp",
+        "bytes": 647452,
+        "sha256": "7bb4c3791b900baaa2cf907da738da10f9879519f372855c41fe717e2ba7fff1"
+      },
+      "dreamina": {
+        "nodeId": "node_a9zbrxnqqj",
+        "submitId": "61c848d4-dbae-4cb6-8a88-7c3ea40744c4"
+      }
+    },
+    {
+      "key": "KCG-ZZ-03",
+      "title": "毕节住处·留宿次晨",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000766_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "4561825f84cce6ebc94603a290f1de3540cc2b912985f05a8e3303e449251b33",
+        "line": 1633,
+        "originalLine": 1633,
+        "text": "她走去洗脸，又折回来，低头在我嘴上亲了一下。"
+      },
+      "condition": "ZZ06-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "毕节住处晨光下，周栀折返低头亲吻再直起。",
+      "original": {
+        "resourceId": "3f7ea254-74c3-49eb-855e-c5c5d57cf1c2",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/raw-v001.mp4",
+        "sha256": "b7a77ee042f45ac1ad1a9681019b9328b679d19433086eb8810729df6c8ab0f1",
+        "bytes": 9048166,
+        "requestId": "202611041457416922F2CCB9AE348005A4"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/runtime-v001.mp4",
+        "bytes": 1347080,
+        "sha256": "b23a2d4859a6ace5236d7d97635f7862883885a08a2486887be59ebd2532ab57",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/first-v001.webp",
+        "bytes": 558362,
+        "sha256": "144e81a573de961cba807f75e41af65721342ec2b9959b7aac8f74ee5325d576"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/last-v001.webp",
+        "bytes": 656840,
+        "sha256": "6e1f6a10b1a814571b25ecc4e28dfad2101f5a737e42716e75bb9f143487147b"
+      },
+      "dreamina": {
+        "nodeId": "node_kkbktccnt3",
+        "submitId": "97bdef51-5583-483f-969a-c1afa7492168"
+      }
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "title": "第60天·车站",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000364_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "b2846fb1b224eaa77247fff3f94cb870a7b325890c8b8498202a56c09496aa2f",
+        "line": 2128,
+        "originalLine": 2128,
+        "text": "我看着她。她先亲过来，手掌贴在我颈侧。我抱住她，没有把那一下吻当成对所有未知的担保。她的呼吸乱了，退开以后仍抓着我的外套，不像在给一句话收尾。"
+      },
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "车站雨棚、颈侧手势与短吻之后抓衣襟可辨。",
+      "original": {
+        "resourceId": "8999c00b-c485-4ba8-a521-b2d194c06139",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/raw-v001.mp4",
+        "sha256": "83cc6762ec45eaf7be93ce110b0984fbdbeb39730b9607debae34ad15caf6418",
+        "bytes": 9802299,
+        "requestId": "20261104145710C60577405131765CE253"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/runtime-v001.mp4",
+        "bytes": 1773699,
+        "sha256": "15522e6f989643be07d78ffa935a42085a05d5bcce7441291706dbfd4666a40f",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/first-v001.webp",
+        "bytes": 770716,
+        "sha256": "226393a0144c793c3463c6709a0a1dcefd0c06b71597e5c8c353b70210970359"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/last-v001.webp",
+        "bytes": 794970,
+        "sha256": "914ac4d89760d662efc3a182de6ef09421c14626b028c30122fc85630e9614bc"
+      },
+      "dreamina": {
+        "nodeId": "node_fyq89407k6",
+        "submitId": "281c20c3-532f-453e-83e1-a1aba770a3d4"
+      }
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "title": "贵阳重见·次晨",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000939_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "3a655e5e932819de47cb6509ff2f344029762851019017e8010bbd321fca6b1a",
+        "line": 2516,
+        "originalLine": 2516,
+        "text": "我拉住她的手。她弯腰亲我一下。"
+      },
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v002",
+      "visualReview": "贵阳住处次晨，窗帘、桌边采购纸与两人牵手可辨。周栀俯身亲文文嘴唇后退开。",
+      "original": {
+        "resourceId": "d16c3904-f4cd-40a5-a638-fd1cfa3441ab",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/raw-v002.mp4",
+        "sha256": "09d9493e46c57929a61e29c08cd3a5e33b60bae1201b73d1e0920aa747ce9ea0",
+        "bytes": 6811582,
+        "requestId": "202611041518197F4F212FCE2F21331ADC"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/runtime-v002.mp4",
+        "bytes": 1167579,
+        "sha256": "6491151f77e264cb8d68a2b3b1ee757f7f9f039c8526fe6123a7204b4c41891c",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/first-v002.webp",
+        "bytes": 550346,
+        "sha256": "bc86bab5471ec0d1f6ff5844822e5fb4c3ab075e782e5b353bae58f9b9d09ee6"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/last-v002.webp",
+        "bytes": 658008,
+        "sha256": "9804f435ce6f45ae937a6714e7b3623d74d4476bbc5aae719bf4aa16bbc37d9c"
+      },
+      "dreamina": {
+        "nodeId": "node_d7f8h5rdck",
+        "submitId": "9d06ced6-a70e-4f6d-bd6a-f32e6311e311"
+      }
+    },
+    {
+      "key": "KCG-MY-01",
+      "title": "第27天·试讲后",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000103_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "8f3dee488a1a51ed73718f4cf49d217198e9a448a403f7938174ad3748e354aa",
+        "line": 498,
+        "originalLine": 498,
+        "text": "我说来了。她抬手摸了摸我领口，指尖碰到脖子。我握住她的手，问这次是不是可以。她看着我，点头，随后先吻了过来。"
+      },
+      "condition": "ALL",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "空教室、试讲手机与两人亲吻相符。",
+      "original": {
+        "resourceId": "e5862734-9dd8-43e0-b39d-eb222857bf21",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/raw-v001.mp4",
+        "sha256": "534d8682e5d5bb27105816651a563209803c0e2f01516bf4d1705540a21d71f2",
+        "bytes": 9409247,
+        "requestId": "20261104145942B9AE9810A619F85A7D81"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/runtime-v001.mp4",
+        "bytes": 1492408,
+        "sha256": "9aa8b351f24e574a9dbce82e3e48f514bb137fdcbcbf873ba1fca5b6f6cc6efb",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/first-v001.webp",
+        "bytes": 684658,
+        "sha256": "4c95be30cacba5ed7c58896717ad7bb4349f75279b5e433a743e49432bb92db8"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/last-v001.webp",
+        "bytes": 762862,
+        "sha256": "8aef7bd179038fe10774f25e9c850d848f50fd772e2d562a5ccdedfdd64e7305"
+      },
+      "dreamina": {
+        "nodeId": "node_0epge5kq6p",
+        "submitId": "6202d488-b640-49b4-8d8b-1f2019f90c91"
+      }
+    },
+    {
+      "key": "KCG-MY-02",
+      "title": "第44天·河边树后",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000227_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "51f536a21a2b561644469b34c02626477db732b60e4910d6a44dea59f014289c",
+        "line": 1127,
+        "originalLine": 1127,
+        "text": "她慢慢坐直，没有责怪我扫兴。我们吃完那两只烧饼，再到树后短短吻了一下。手机响时，她去另一边接，我留在原处，把自己那只空纸袋折好。"
+      },
+      "condition": "MY07-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "河边树后和烧饼纸袋可辨。尾段手机光偏亮，正文进入来电。",
+      "original": {
+        "resourceId": "226d469a-e3b5-444f-888f-03518172fa8d",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/raw-v001.mp4",
+        "sha256": "970db4c49cfc9b6ed19c5b0d8b50ef143d28566cdcf7d509d790966f310cb3b8",
+        "bytes": 10257108,
+        "requestId": "2026110414561098306D87CD9E5632D557"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/runtime-v001.mp4",
+        "bytes": 1529340,
+        "sha256": "045ba3ee4c6f29c53bd9327059efcbf8f798dd78342ed107bada650d26d2fe55",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/first-v001.webp",
+        "bytes": 725900,
+        "sha256": "1b1d91a50a5341aa048eab82288775f6942851e578bcad6e5d65e98da746bc72"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/last-v001.webp",
+        "bytes": 789742,
+        "sha256": "ab8fc280afc691b4778dc5eab157ce949146065020ebec200b7e45c718d749ac"
+      },
+      "dreamina": {
+        "nodeId": "node_p7qcweqzyh",
+        "submitId": "75472403-0b67-4db8-b0d0-97fe38672c9b"
+      }
+    },
+    {
+      "key": "KCG-MY-03",
+      "title": "第56天·文文住处",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000431_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "ab09d2170b9cc6ada82822b820dc8f3e44d853abb4407387d8dd631b664dfe8b",
+        "line": 1274,
+        "originalLine": 1274,
+        "text": "她先吻过来。"
+      },
+      "condition": "MY07-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "夜间出租屋、备课本、手机及孟遥主动靠近相符。",
+      "original": {
+        "resourceId": "2b0c6bfd-ea24-4b76-9cf8-9f6e02d2898a",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/raw-v001.mp4",
+        "sha256": "f41a37ddd549571af1a88c731f150c698ea126943f5da41c51915e6a761f9fae",
+        "bytes": 8904442,
+        "requestId": "2026110414571324FF9E2C7561DB31EFF9"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/runtime-v001.mp4",
+        "bytes": 1250333,
+        "sha256": "79b40d9fcb9a2e26cdeec0723a4ce8a271027e2df8b84e404a7f24a69652fecb",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/first-v001.webp",
+        "bytes": 538658,
+        "sha256": "8accadf69c8b0b4b94c085ff2c16aad9e453eed0da410788d43b01a339991a94"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/last-v001.webp",
+        "bytes": 655642,
+        "sha256": "f7907406252ea79a20f3a488bd4d44d42dad9e8ab5684f2fccf2f5484f1008ad"
+      },
+      "dreamina": {
+        "nodeId": "node_tek80t1a1v",
+        "submitId": "600b2b83-38b8-49d0-a444-767a3c03428b"
+      }
+    },
+    {
+      "key": "KCG-MY-04",
+      "title": "第75天·贵阳录示范课后",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000282_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "b9258b432f1e014813bc7d6d91223276f8927d9f7aa64ceaa55ebfae041efae6",
+        "line": 1527,
+        "originalLine": 1527,
+        "text": "我抬头吻她，她回应了。支架上的手机还在录，直到她碰到桌角才想起来，伸手按停。我在镜头里叫过她以前的小名，声音很清楚。"
+      },
+      "condition": "MY07-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v002",
+      "visualReview": "场景已改成贵阳住处。窗光、书垫和手机支架可辨。两人亲吻后，她按暗桌上的手机。",
+      "original": {
+        "resourceId": "bdafd7f1-f796-4edc-ba33-74ae73cbef9f",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/raw-v002.mp4",
+        "sha256": "6ccb60bfaaf32769641c5be9a47b5b1f1cb768a1c409599bf40d7edc65b6d86f",
+        "bytes": 9152481,
+        "requestId": "20261104151534D35D7CF0F02E0D374688"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/runtime-v002.mp4",
+        "bytes": 1385952,
+        "sha256": "168105d2224494c6ed22397c22e70683c571c77cc9b21eaff33cf9d74e0bd9aa",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/first-v002.webp",
+        "bytes": 621588,
+        "sha256": "0fcb860fedac962bbe5637f8f0d68eac02f4caca27f71da5ecdc6f4710a1aef6"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/last-v002.webp",
+        "bytes": 702028,
+        "sha256": "89805aa42b604cbf131f976d9e8a29e2c051629b79b05bd129a85ed291adba50"
+      },
+      "dreamina": {
+        "nodeId": "node_asppw8g5cs",
+        "submitId": "349bed9c-b689-44ea-bbb6-41d04e9f97b2"
+      }
+    },
+    {
+      "key": "KCG-PI-01",
+      "title": "高好感·装订册子",
+      "route": "piao",
+      "anchor": {
+        "nodeId": "T-PI-000271_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "6428eb08bbc1e8a972905269fc67adf52dccc7a144ddcc81a2c4146b9228a0ac",
+        "line": 1338,
+        "originalLine": 1338,
+        "text": "我靠过去，她先吻了我一下。很短，退开后眼睛还盯着我的嘴。我把手贴到她颈后，问还可以不。她没笑我问得笨，只说可以，然后将我往自己这边拉。"
+      },
+      "condition": "PIAO_RELATION=HIGH",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001",
+      "visualReview": "窗光、册子、亲吻和纸张滑落可辨。",
+      "original": {
+        "resourceId": "41a9e327-db4d-47a7-85f6-748efcf2f092",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/raw-v001.mp4",
+        "sha256": "e3a5a3007fefec4a627a31286e1cce102cacbd08a3d69f94a436db3e088d27e5",
+        "bytes": 10211016,
+        "requestId": "202611041457437C9CE7A0B6353259C60B"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/runtime-v001.mp4",
+        "bytes": 1508696,
+        "sha256": "003c74f94d0e54bfdd32ac12333496779fd42eb6dbe197e255379bd979881c1e",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/first-v001.webp",
+        "bytes": 669990,
+        "sha256": "3e9b4ece262faa0b2e2eb169f36336304d9d2054d76aadd756009354c15f86dd"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/last-v001.webp",
+        "bytes": 725286,
+        "sha256": "0a38109eda6036ce5e2c41b0a15792f6357932148e6049f46daaa3cfbd98d0ae"
+      },
+      "dreamina": {
+        "nodeId": "node_whqehvjejv",
+        "submitId": "85c05405-3fdd-4852-b8b3-dfd5d61b9e66"
+      }
+    },
+    {
+      "key": "KCG-PI-02",
+      "title": "高好感·第60天车站",
+      "route": "piao",
+      "anchor": {
+        "nodeId": "T-PI-000345_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "1aa909492f53de48adf08daa8a2f0e80521b817654e3e0bd6bcfe19d271f396b",
+        "line": 1675,
+        "originalLine": 1675,
+        "text": "我点头，刚要说话，她抬脸吻住我。广播又响了一遍，我们都听见了。她没急着退，我的手收紧，又慢慢松开，让她能看见进站口。"
+      },
+      "condition": "PIAO_RELATION=HIGH&PI08-01=A&PI06-01=A",
+      "entryEvents": [],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v001-cut",
+      "visualReview": "车站拥吻与松开手臂相符。片头裁去 0.375 秒的生成字幕，运行候选 4.63 秒。",
+      "original": {
+        "resourceId": "5b016640-64ee-49c1-b9a7-6094bfcc7956",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/raw-v001.mp4",
+        "sha256": "9003756bfff51d4adb5f8a2bc0acf6f71fdae702da6f50eb0b0b21635c24e937",
+        "bytes": 9724309,
+        "requestId": "2026110414574651B1121FDC315D346545"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/runtime-v001-cut.mp4",
+        "bytes": 1467782,
+        "sha256": "85c41681c5bac9df8fb180df689a546925d860b480c2b40e10c3ecc2623d1a73",
+        "durationSeconds": 4.63,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 111
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/first-v001-cut.webp",
+        "bytes": 645826,
+        "sha256": "11d0e820fe8a61e6e0c6285f12e7d62ac6817029cfc7ff23b841f19cd4b2bccd"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/last-v001-cut.webp",
+        "bytes": 682926,
+        "sha256": "df88f19bf8dec87159ccb4dbd7a9709e88bf41e6d3948447e4c3f6f24fa65548"
+      },
+      "dreamina": {
+        "nodeId": "node_s96atk4h5t",
+        "submitId": "3fd723f9-0c41-4dcf-ad7a-9cd644f50291"
+      }
+    },
+    {
+      "key": "KCG-HQ-01",
+      "title": "第57天·擦外套",
+      "route": "huangqiuqiu",
+      "anchor": {
+        "nodeId": "T-HQ-000212_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "cd2105ca54cb9a41ec4a8301331618d7345a26f087f9b97fc6d73f76adb3de2c",
+        "line": 1151,
+        "originalLine": 1151,
+        "text": "她把纸巾放下，往这边挪了一点。第一次碰到嘴唇，我轻得像没碰到，退开才发现她还抓着外套。"
+      },
+      "condition": "ALL",
+      "entryEvents": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v002",
+      "visualReview": "门内、湿纸巾、眼部遮片和颈饰可辨。亲吻后她抓住文文外套。",
+      "original": {
+        "resourceId": "4c98e3b4-2cbf-4fa4-b8c5-81df40eb36fc",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/raw-v002.mp4",
+        "sha256": "63496b23de82518f7e409b4a8dc38744465821a8bebeae853679a8c314699832",
+        "bytes": 10936742,
+        "requestId": "20261104151558DBE8B8F48D502F79E430"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/runtime-v002.mp4",
+        "bytes": 1657662,
+        "sha256": "269d80fffe664375906cf0f4ee6a51b7eb176e1d94cab3b6946d5f90df976b37",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/first-v002.webp",
+        "bytes": 705448,
+        "sha256": "d7867054d752918f22706e7e2b29f197de79f962e4f0bfd99a9fe59a01b79dd9"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/last-v002.webp",
+        "bytes": 755528,
+        "sha256": "1abc68ba516c2b647284e3c0eb628962c0440a29dc92fd3f69a7cbe0939592fb"
+      },
+      "dreamina": {
+        "nodeId": "node_5q5hrcbrxn",
+        "submitId": "67ef1e69-db39-475a-b96d-cabc088002dd"
+      }
+    },
+    {
+      "key": "KCG-HQ-02",
+      "title": "第63天·重新见面",
+      "route": "huangqiuqiu",
+      "anchor": {
+        "nodeId": "T-HQ-000544_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "eae83ecb2a03689fa77c8dc07470ef480544e0fdcb30e532a1d762a41f4a9075",
+        "line": 1558,
+        "originalLine": 1558,
+        "text": "她先在我嘴角碰了一下。"
+      },
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "entryEvents": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v002",
+      "visualReview": "纸条留在桌上，眼部遮片和颈饰连贯。她靠近文文嘴角，两人松开。",
+      "original": {
+        "resourceId": "68b992d6-defa-4e01-af5d-410b898031fb",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/raw-v002.mp4",
+        "sha256": "7078a7fa5f14361e475e88b3b02b91f59775b329ae167ae074f0f2188a04c3bf",
+        "bytes": 11396552,
+        "requestId": "202611041516268450C6B2B46DB753615C"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/runtime-v002.mp4",
+        "bytes": 1736187,
+        "sha256": "36b1010be9c5114f4c830c1edad93f2b94f08b6416088f899308ffb7309eeff2",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/first-v002.webp",
+        "bytes": 779242,
+        "sha256": "a607750d48c5942dd1b0fbd9e975c1a5d6bcdd0f429d0fa178ec59492a6fe3e3"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/last-v002.webp",
+        "bytes": 829490,
+        "sha256": "2a72db4de2049768f868cf5f2aecb5e5eac6e6b6d2a3946d6ca2c4316aed2fc4"
+      },
+      "dreamina": {
+        "nodeId": "node_v8zs6rg05w",
+        "submitId": "ee9cc918-c33d-46a2-9020-6cb3a569443d"
+      }
+    },
+    {
+      "key": "KCG-HQ-03",
+      "title": "第91天·写杯子名字",
+      "route": "huangqiuqiu",
+      "anchor": {
+        "nodeId": "T-HQ-000588_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "ebc61cceacbf059bc4903519a2f83ee4a6c9a734a7020df56668ac0e8e0a9bc1",
+        "line": 1856,
+        "originalLine": 1856,
+        "text": "我转头，她没躲，先亲在我嘴角，然后把笔拿开。"
+      },
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "entryEvents": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      },
+      "status": "planned-with-reviewed-media",
+      "version": "v002",
+      "visualReview": "写杯底名字、眼部遮片与靠肩动作连贯。3.76 秒单帧确认轻触嘴角，笔仍握在文文手中。",
+      "original": {
+        "resourceId": "567902c5-8820-4df6-ba93-69b01698f264",
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/raw-v002.mp4",
+        "sha256": "06b495050578752d7ae67f4e81e5eb79bcde8a38883886b8e77cdb7910f95623",
+        "bytes": 12406211,
+        "requestId": "20261104151755F6382C9369B9375BCC71"
+      },
+      "playback": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/runtime-v002.mp4",
+        "bytes": 1921466,
+        "sha256": "db8604febc25e69e768837d72254218eac938a9744d970f429f354198a6f42f7",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "decodedFrames": 120
+      },
+      "poster": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/first-v002.webp",
+        "bytes": 803990,
+        "sha256": "2e5e483d5903720410e7e79f6c4de164afd1d874f51b96934b084d9bdc88ce21"
+      },
+      "lastFrame": {
+        "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/last-v002.webp",
+        "bytes": 826566,
+        "sha256": "db833473ab3353815a8e266a98a6ce996aab861a5dd50578e926c32fb7ef18c1"
+      },
+      "dreamina": {
+        "nodeId": "node_rm17r6m857",
+        "submitId": "146579ac-595f-45db-8bec-6c102d4cd9d5"
+      }
+    }
+  ]
+}

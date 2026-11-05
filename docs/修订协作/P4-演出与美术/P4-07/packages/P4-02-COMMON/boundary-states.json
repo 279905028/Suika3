@@ -1,0 +1,1192 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-COMMON",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "boundaries": [
+    {
+      "boundaryId": "entry:T-C01-000001_1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "file-entry：文件外 → T-C01-000001_1；先清源包所有层，再按本文件第一个实际可达显示节点重建。公共事件只从五线LOW合法CALL进入；双后日谈先按单身/关系值/已读事件规则分派。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "entry:BRANCH_5e901cfb2b67e974505f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "file-entry：文件外 → BRANCH_5e901cfb2b67e974505f；先清源包所有层，再按本文件第一个实际可达显示节点重建。公共事件只从五线LOW合法CALL进入；双后日谈先按单身/关系值/已读事件规则分派。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "entry:T-C03-000001_1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "file-entry：文件外 → T-C03-000001_1；先清源包所有层，再按本文件第一个实际可达显示节点重建。公共事件只从五线LOW合法CALL进入；双后日谈先按单身/关系值/已读事件规则分派。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "entry:PIAO-D36",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "file-entry：文件外 → PIAO-D36；先清源包所有层，再按本文件第一个实际可达显示节点重建。公共事件只从五线LOW合法CALL进入；双后日谈先按单身/关系值/已读事件规则分派。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "entry:EP-HIGH",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "file-entry：文件外 → EP-HIGH；先清源包所有层，再按本文件第一个实际可达显示节点重建。公共事件只从五线LOW合法CALL进入；双后日谈先按单身/关系值/已读事件规则分派。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "entry:EP-LOW",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "file-entry：文件外 → EP-LOW；先清源包所有层，再按本文件第一个实际可达显示节点重建。公共事件只从五线LOW合法CALL进入；双后日谈先按单身/关系值/已读事件规则分派。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C01-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C01-01 → BRANCH_c68b81993efac45af2e1；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c68b81993efac45af2e1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_c68b81993efac45af2e1 → T-C01-000027_1 / BRANCH_30b49936bcdcd9ff7423；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c68b81993efac45af2e1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_c68b81993efac45af2e1 → BRANCH_30b49936bcdcd9ff7423；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_30b49936bcdcd9ff7423",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_30b49936bcdcd9ff7423 → T-C01-000031_1 / T-C01-000034_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_30b49936bcdcd9ff7423",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_30b49936bcdcd9ff7423 → T-C01-000034_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C01-02",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C01-02 → BRANCH_a3fe556ac8fcf04158ae；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a3fe556ac8fcf04158ae",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_a3fe556ac8fcf04158ae → T-C01-000050_1 / BRANCH_f188d97e1069a8103fe6；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a3fe556ac8fcf04158ae",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_a3fe556ac8fcf04158ae → BRANCH_f188d97e1069a8103fe6；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_f188d97e1069a8103fe6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_f188d97e1069a8103fe6 → T-C01-000053_1 / T-C01-000280_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_f188d97e1069a8103fe6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_f188d97e1069a8103fe6 → T-C01-000280_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C01-03",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C01-03 → BRANCH_7252eccec8d8f1026200；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_7252eccec8d8f1026200",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_7252eccec8d8f1026200 → T-C01-000088_1 / BRANCH_44dc0f52a519e016a34f；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_7252eccec8d8f1026200",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_7252eccec8d8f1026200 → BRANCH_44dc0f52a519e016a34f；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_44dc0f52a519e016a34f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_44dc0f52a519e016a34f → T-C01-000092_1 / T-C01-000318_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_44dc0f52a519e016a34f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_44dc0f52a519e016a34f → T-C01-000318_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C01-04",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C01-04 → BRANCH_1b5d836d9b5fad165e7d；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_1b5d836d9b5fad165e7d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_1b5d836d9b5fad165e7d → T-C01-000141_1 / BRANCH_aac8088443ac9c1ec09f；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_1b5d836d9b5fad165e7d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_1b5d836d9b5fad165e7d → BRANCH_aac8088443ac9c1ec09f；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_aac8088443ac9c1ec09f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_aac8088443ac9c1ec09f → T-C01-000147_1 / T-C01-000151_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_aac8088443ac9c1ec09f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_aac8088443ac9c1ec09f → T-C01-000151_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C01-05",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C01-05 → BRANCH_6f38f5c0c0131f9d7719；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6f38f5c0c0131f9d7719",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_6f38f5c0c0131f9d7719 → T-C01-000193_1 / BRANCH_e8b1017b1c5fbd62ab8a；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6f38f5c0c0131f9d7719",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_6f38f5c0c0131f9d7719 → BRANCH_e8b1017b1c5fbd62ab8a；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_e8b1017b1c5fbd62ab8a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_e8b1017b1c5fbd62ab8a → T-C01-000197_1 / T-C01-000421_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_e8b1017b1c5fbd62ab8a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_e8b1017b1c5fbd62ab8a → T-C01-000421_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C01-06",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C01-06 → BRANCH_7059540adc274a80d763；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_7059540adc274a80d763",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_7059540adc274a80d763 → T-C01-000204_1 / BRANCH_5c8e4e3880488c8fcc5b；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_7059540adc274a80d763",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_7059540adc274a80d763 → BRANCH_5c8e4e3880488c8fcc5b；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5c8e4e3880488c8fcc5b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_5c8e4e3880488c8fcc5b → T-C01-000432_1 / T-C01-000438_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5c8e4e3880488c8fcc5b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_5c8e4e3880488c8fcc5b → T-C01-000438_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_043ed7d12966901b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "finish：END_043ed7d12966901b → BRANCH_5e901cfb2b67e974505f；章节结束后清场，第三章分派由目的路线独占。最终结束清除人物、CG，不留婚后饭桌。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5e901cfb2b67e974505f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_5e901cfb2b67e974505f → T-C02-000001_1 / T-C02-000269_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5e901cfb2b67e974505f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_5e901cfb2b67e974505f → T-C02-000269_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-01 → BRANCH_0564965d5a8159d4ae3e；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_0564965d5a8159d4ae3e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_0564965d5a8159d4ae3e → T-C02-000006_1 / BRANCH_e9ba94967e159c7db1a6；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_0564965d5a8159d4ae3e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_0564965d5a8159d4ae3e → BRANCH_e9ba94967e159c7db1a6；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_e9ba94967e159c7db1a6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_e9ba94967e159c7db1a6 → T-C02-000015_1 / T-C02-000269_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_e9ba94967e159c7db1a6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_e9ba94967e159c7db1a6 → T-C02-000269_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-02",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-02 → BRANCH_3c1a90ce2e944a49c0a1；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3c1a90ce2e944a49c0a1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_3c1a90ce2e944a49c0a1 → T-C02-000027_1 / BRANCH_7d6e095c3e7f0e55e324；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3c1a90ce2e944a49c0a1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_3c1a90ce2e944a49c0a1 → BRANCH_7d6e095c3e7f0e55e324；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_7d6e095c3e7f0e55e324",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_7d6e095c3e7f0e55e324 → T-C02-000030_1 / T-C02-000278_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_7d6e095c3e7f0e55e324",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_7d6e095c3e7f0e55e324 → T-C02-000278_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-03",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-03 → BRANCH_09e062fb8d1dd46ac040；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_09e062fb8d1dd46ac040",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_09e062fb8d1dd46ac040 → T-C02-000053_1 / BRANCH_6c8c317e33df28ccd8db；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_09e062fb8d1dd46ac040",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_09e062fb8d1dd46ac040 → BRANCH_6c8c317e33df28ccd8db；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6c8c317e33df28ccd8db",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_6c8c317e33df28ccd8db → T-C02-000057_1 / T-C02-000061_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6c8c317e33df28ccd8db",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_6c8c317e33df28ccd8db → T-C02-000061_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-04",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-04 → BRANCH_26fbb0be33605692647f；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_26fbb0be33605692647f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_26fbb0be33605692647f → T-C02-000319_1 / BRANCH_ecb4af8c2466061dd3e0；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_26fbb0be33605692647f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_26fbb0be33605692647f → BRANCH_ecb4af8c2466061dd3e0；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_ecb4af8c2466061dd3e0",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_ecb4af8c2466061dd3e0 → T-C02-000323_1 / T-C02-000329_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_ecb4af8c2466061dd3e0",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_ecb4af8c2466061dd3e0 → T-C02-000329_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-08",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-08 → BRANCH_6ee51b976e373ab7e5fc；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6ee51b976e373ab7e5fc",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_6ee51b976e373ab7e5fc → T-C02-000117_1 / BRANCH_1e1e8d2bb4256d8a204e；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6ee51b976e373ab7e5fc",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_6ee51b976e373ab7e5fc → BRANCH_1e1e8d2bb4256d8a204e；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_1e1e8d2bb4256d8a204e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_1e1e8d2bb4256d8a204e → T-C02-000120_1 / T-C02-000123_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_1e1e8d2bb4256d8a204e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_1e1e8d2bb4256d8a204e → T-C02-000123_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-05",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-05 → BRANCH_a2447df7c4d0091f2868；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a2447df7c4d0091f2868",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_a2447df7c4d0091f2868 → T-C02-000393_1 / BRANCH_32c08a02c1dd23af94d2；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a2447df7c4d0091f2868",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_a2447df7c4d0091f2868 → BRANCH_32c08a02c1dd23af94d2；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_32c08a02c1dd23af94d2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_32c08a02c1dd23af94d2 → T-C02-000134_1 / T-C02-000138_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_32c08a02c1dd23af94d2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_32c08a02c1dd23af94d2 → T-C02-000138_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_45428441485048039c81",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_45428441485048039c81 → T-C02-000409_1 / BRANCH_87dfb89ce8047e520bf3；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_45428441485048039c81",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_45428441485048039c81 → BRANCH_87dfb89ce8047e520bf3；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_87dfb89ce8047e520bf3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_87dfb89ce8047e520bf3 → T-C02-000411_1 / T-C02-000415_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_87dfb89ce8047e520bf3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_87dfb89ce8047e520bf3 → T-C02-000415_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-06",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-06 → BRANCH_fc17c3a25d17a1362cae；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_fc17c3a25d17a1362cae",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_fc17c3a25d17a1362cae → T-C02-000198_1 / BRANCH_f9de1c18d191d1ad0907；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_fc17c3a25d17a1362cae",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_fc17c3a25d17a1362cae → BRANCH_f9de1c18d191d1ad0907；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_f9de1c18d191d1ad0907",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_f9de1c18d191d1ad0907 → T-C02-000201_1 / T-C02-000204_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_f9de1c18d191d1ad0907",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_f9de1c18d191d1ad0907 → T-C02-000204_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a3adba0f6661f9629d4d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_a3adba0f6661f9629d4d → BRANCH_1a1ebdc4813b6c35a62b / T-C02-000245_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a3adba0f6661f9629d4d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_a3adba0f6661f9629d4d → T-C02-000245_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_1a1ebdc4813b6c35a62b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_1a1ebdc4813b6c35a62b → T-C02-000484_1 / T-C02-000245_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_1a1ebdc4813b6c35a62b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_1a1ebdc4813b6c35a62b → T-C02-000245_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-07",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-07 → BRANCH_fe75e13a284f1e3c1d86；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_fe75e13a284f1e3c1d86",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_fe75e13a284f1e3c1d86 → T-C02-000236_1 / BRANCH_55b93103982f7163f148；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_fe75e13a284f1e3c1d86",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_fe75e13a284f1e3c1d86 → BRANCH_55b93103982f7163f148；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_55b93103982f7163f148",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_55b93103982f7163f148 → T-C02-000239_1 / T-C02-000506_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_55b93103982f7163f148",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_55b93103982f7163f148 → T-C02-000506_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "event:EVENT_2d54ea5bea826857dcb6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "event：EVENT_2d54ea5bea826857dcb6 → T-C02-000245_1；公共事件已读/黄球球相识等规则仅依正文控制流，演出不另写状态或改变事件结果。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:C02-09",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：C02-09 → BRANCH_5d7b32b7e20abb07466d；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5d7b32b7e20abb07466d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_5d7b32b7e20abb07466d → T-C02-000511_1 / BRANCH_5d8ec46c13dec125543e；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5d7b32b7e20abb07466d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_5d7b32b7e20abb07466d → BRANCH_5d8ec46c13dec125543e；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5d8ec46c13dec125543e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_5d8ec46c13dec125543e → T-C02-000514_1 / T-C02-000517_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5d8ec46c13dec125543e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_5d8ec46c13dec125543e → T-C02-000517_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "freeze:FREEZE_363d3239b53a6c76a1c8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "freeze：FREEZE_363d3239b53a6c76a1c8 → END_d8a9a1456e1c7a7d；关系HIGH/LOW沿正文在共通结束冻结，不由角色图或选择外观推断；目的节点重建。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_d8a9a1456e1c7a7d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "finish：END_d8a9a1456e1c7a7d → T-C03-000001_1；章节结束后清场，第三章分派由目的路线独占。最终结束清除人物、CG，不留婚后饭桌。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ROUTE-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：ROUTE-01 → BRANCH_e6166561daaff5486826；进入选择清姓名、CG与全图模式；改选不继承前一次结果或选项分支中的道具。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_e6166561daaff5486826",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_e6166561daaff5486826 → T-C03-000021_1 / BRANCH_2a896087ade091d27abb；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_e6166561daaff5486826",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_e6166561daaff5486826 → BRANCH_2a896087ade091d27abb；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_2a896087ade091d27abb",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_2a896087ade091d27abb → T-C03-000023_1 / BRANCH_363a11fffa19ce99d0fe；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_2a896087ade091d27abb",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_2a896087ade091d27abb → BRANCH_363a11fffa19ce99d0fe；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_363a11fffa19ce99d0fe",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_363a11fffa19ce99d0fe → T-C03-000028_1 / BRANCH_3bde78f9bea3ae6e4382；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_363a11fffa19ce99d0fe",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_363a11fffa19ce99d0fe → BRANCH_3bde78f9bea3ae6e4382；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3bde78f9bea3ae6e4382",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_3bde78f9bea3ae6e4382 → T-C03-000031_1 / BRANCH_da9c7d4ad911b048e3e9；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3bde78f9bea3ae6e4382",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_3bde78f9bea3ae6e4382 → BRANCH_da9c7d4ad911b048e3e9；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_da9c7d4ad911b048e3e9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_da9c7d4ad911b048e3e9 → T-C03-000036_1 / BRANCH_f6f3d26ab4029f9ae57f；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_da9c7d4ad911b048e3e9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_da9c7d4ad911b048e3e9 → BRANCH_f6f3d26ab4029f9ae57f；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_f6f3d26ab4029f9ae57f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_f6f3d26ab4029f9ae57f → T-C03-000017_1 / END_13f5f05cfee48ad8；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_f6f3d26ab4029f9ae57f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_f6f3d26ab4029f9ae57f → END_13f5f05cfee48ad8；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_13f5f05cfee48ad8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "finish：END_13f5f05cfee48ad8 → T-XM-000001_1 / T-ZZ-000001_1 / T-MY-000001_1 / BRANCH_0a5e73eb914f1ce5e648 / T-HQ-000001_1 / T-FR-000001_1；章节结束后清场，第三章分派由目的路线独占。最终结束清除人物、CG，不留婚后饭桌。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "return:RETURN_c661bd50196b9ce2f451",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "return：RETURN_c661bd50196b9ce2f451 → XM-D36-RETURN / ZZ-D36-RETURN / MY-D36-RETURN / HQ-D36-RETURN / FR-D36-RETURN；D36只回当前调用路线的登记RETURN；先清飘/毛狼/门口/CG，不把坐谈状态带回各线。五个目标是合法返回集合，不是五个同时发生的出口。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_b28aad9f02870f1b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "finish：END_b28aad9f02870f1b → ；章节结束后清场，第三章分派由目的路线独占。最终结束清除人物、CG，不留婚后饭桌。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_64d75dfc0e50b72ca7c2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_64d75dfc0e50b72ca7c2 → BRANCH_95af8d6b03e8abf3ee60 / END_b35cd699344cdc48；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_64d75dfc0e50b72ca7c2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_64d75dfc0e50b72ca7c2 → END_b35cd699344cdc48；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_95af8d6b03e8abf3ee60",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_95af8d6b03e8abf3ee60 → BRANCH_dad17d50339f18a9e516 / END_b35cd699344cdc48；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_95af8d6b03e8abf3ee60",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_95af8d6b03e8abf3ee60 → END_b35cd699344cdc48；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_dad17d50339f18a9e516",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_dad17d50339f18a9e516 → T-EPH-000001_1 / BRANCH_09650da8312953529dad；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_dad17d50339f18a9e516",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_dad17d50339f18a9e516 → BRANCH_09650da8312953529dad；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d265ef7c854047ad7954",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_d265ef7c854047ad7954 → T-EPH-000002_1 / BRANCH_da7f34f60efad673bc6b；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d265ef7c854047ad7954",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_d265ef7c854047ad7954 → BRANCH_da7f34f60efad673bc6b；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_da7f34f60efad673bc6b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_da7f34f60efad673bc6b → T-EPH-000003_1 / BRANCH_41b8f54acf4c2227d140；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_da7f34f60efad673bc6b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_da7f34f60efad673bc6b → BRANCH_41b8f54acf4c2227d140；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_41b8f54acf4c2227d140",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_41b8f54acf4c2227d140 → T-EPH-000004_1 / T-EPH-000042_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_41b8f54acf4c2227d140",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_41b8f54acf4c2227d140 → T-EPH-000042_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_09650da8312953529dad",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_09650da8312953529dad → T-EPH-000053_1 / BRANCH_d60c1989f098c2d1a5ca；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_09650da8312953529dad",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_09650da8312953529dad → BRANCH_d60c1989f098c2d1a5ca；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d60c1989f098c2d1a5ca",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_d60c1989f098c2d1a5ca → T-EPH-000060_1 / BRANCH_8bd25c2fbf8e585faffc；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d60c1989f098c2d1a5ca",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_d60c1989f098c2d1a5ca → BRANCH_8bd25c2fbf8e585faffc；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_8bd25c2fbf8e585faffc",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_8bd25c2fbf8e585faffc → T-EPH-000069_1 / T-EPH-000087_1；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_8bd25c2fbf8e585faffc",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_8bd25c2fbf8e585faffc → T-EPH-000087_1；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_94e35382b32667beee38",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_94e35382b32667beee38 → T-EPH-000098_1 / BRANCH_21fff6c47ceed3efd014；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_94e35382b32667beee38",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_94e35382b32667beee38 → BRANCH_21fff6c47ceed3efd014；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_21fff6c47ceed3efd014",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_21fff6c47ceed3efd014 → T-EPH-000025_1 / BRANCH_b902ceeacc8aefb89127；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_21fff6c47ceed3efd014",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_21fff6c47ceed3efd014 → BRANCH_b902ceeacc8aefb89127；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b902ceeacc8aefb89127",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_b902ceeacc8aefb89127 → T-EPH-000027_1 / BRANCH_68504029d776399cf6d3；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b902ceeacc8aefb89127",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_b902ceeacc8aefb89127 → BRANCH_68504029d776399cf6d3；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_68504029d776399cf6d3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_68504029d776399cf6d3 → T-EPH-000142_1 / END_b35cd699344cdc48；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_68504029d776399cf6d3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_68504029d776399cf6d3 → END_b35cd699344cdc48；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_b35cd699344cdc48",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "finish：END_b35cd699344cdc48 → ；章节结束后清场，第三章分派由目的路线独占。最终结束清除人物、CG，不留婚后饭桌。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c2ab2214b1979bb8db1b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_c2ab2214b1979bb8db1b → BRANCH_c1604aee14a73b38688f / END_be618be2303eadac；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c2ab2214b1979bb8db1b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_c2ab2214b1979bb8db1b → END_be618be2303eadac；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c1604aee14a73b38688f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_c1604aee14a73b38688f → T-EPL-000015_1 / END_be618be2303eadac；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c1604aee14a73b38688f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_c1604aee14a73b38688f → END_be618be2303eadac；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_2e8781a6ef9f8bf0d739",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_2e8781a6ef9f8bf0d739 → T-EPL-000020_1 / BRANCH_573cf523c167d5bdf62a；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_2e8781a6ef9f8bf0d739",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_2e8781a6ef9f8bf0d739 → BRANCH_573cf523c167d5bdf62a；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_573cf523c167d5bdf62a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_573cf523c167d5bdf62a → T-EPL-000011_1 / END_be618be2303eadac；只按冻结条件选择目标，不把目标集合中的互斥分支同时显示；未获黄球球门禁时不能显球形。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_573cf523c167d5bdf62a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_573cf523c167d5bdf62a → END_be618be2303eadac；合流后按目的段完整画面重建，清除A/B独有道具与表情；不把异地/消息人物带到现场。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_be618be2303eadac",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "finish：END_be618be2303eadac → ；章节结束后清场，第三章分派由目的路线独占。最终结束清除人物、CG，不留婚后饭桌。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "page:T-C02-000153_2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "pagination：T-C02-000153_1 → T-C02-000153_2；T-C02-000153两页使用相同完整画面与TEXT姓名/媒介；分页不额外换表情或解锁CG。 FR-E2后日谈只读消息；六种仍维持恋爱的结局直接结束。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    }
+  ]
+}

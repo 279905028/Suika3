@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-04",
+  "status": "pass-scoped-local-chrome",
+  "runtimeBuildId": "72ce7c93889f70d0d124975ab0c298e1d2f4be8c2946ee18e32448b3b32dd0e0",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "counts": {
+    "assets": 262,
+    "bindings": 4814,
+    "cg": 81,
+    "choices": 65,
+    "options": 134
+  },
+  "baseline": {
+    "fingerprint": "33b93405bac884e25723c6d72a95eab52f3da7a4aae4d74e01ffbd0f597e4832",
+    "changedFrozenFiles": [
+      "tools/integration/runtime/presentation-full.ray",
+      "tools/story-revision/p4-adoption/build.cjs"
+    ]
+  },
+  "static": {
+    "report": "qa/dialogue-p5-cg-hold-20261104/browser-v6/report.json",
+    "checks": 17,
+    "firstVisibleToReadyMs": 1501,
+    "ordinaryAdvanceMs": 101
+  },
+  "dynamic": {
+    "report": "qa/ending-motion-cg-hold-20261104/browser-v1/report.json",
+    "checks": 34,
+    "negativeCases": 34,
+    "media": {
+      "path": "assets/sources/20261104/P4-V/XM-E1/runtime-v002.mp4",
+      "sha256": "61651d4308ea4ead0682981ec0d13b880ebcb9817a74a3e4cc731b4c0a3279ec"
+    },
+    "controllerSha256": "23f37d06896313514dab24d8625e271d9c73a3604b9f657f4f6d24ee75ef3b42",
+    "formalIntegration": false
+  },
+  "sources": [
+    {
+      "path": "tools/integration/runtime/presentation-full.ray",
+      "sha256": "ea7f943de31f407093cecc1ced6acec761878272846851eb7eb80726a2660c9e"
+    },
+    {
+      "path": "tools/story-revision/p4-adoption/build.cjs",
+      "sha256": "8bdfae01a29905590c307dbafb66d3655716386bd585fa9c47d8b6b2a0716ef9"
+    },
+    {
+      "path": "tools/story-revision/p4-adoption/runtime-patch.cjs",
+      "sha256": "aa5fadb6dfa3d94c363f370bed7d91806dc9f692660956da22921b87bd43ec62"
+    },
+    {
+      "path": "tools/runtime/verify-cg-hold.cjs",
+      "sha256": "df76c0c7725bf991336c962fdf9a735e6b374442c7c89eaabea759dbdf419a14"
+    },
+    {
+      "path": "tools/story-revision/ending-motion/controller.js",
+      "sha256": "23f37d06896313514dab24d8625e271d9c73a3604b9f657f4f6d24ee75ef3b42"
+    },
+    {
+      "path": "tools/story-revision/ending-motion/build-probe.cjs",
+      "sha256": "61305a835291983afdbee34471bd63efaece7f0666593ec7e3d1345a222a18bb"
+    },
+    {
+      "path": "tools/story-revision/ending-motion/verify.cjs",
+      "sha256": "b122ba79af8910385e8c2e6fe2e9e250dc92e5590316201ed7139c81c81bfde0"
+    }
+  ],
+  "limitations": [
+    "动态正式接入待完成",
+    "未跑全线及自动模式完整路径",
+    "未新增其他浏览器、手机真机、电脑原生或发布验收",
+    "旧版试玩入口未回写、玩家旧档未访问"
+  ]
+}

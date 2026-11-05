@@ -11,6 +11,37 @@ var iViewDrain = false;
 var iViewDrainUntil = 0;
 var iPointerDown = false;
 var iViewHint = false;
+// Transient input protection: never persist an old deadline in a save.
+var iCGHoldMs = 1500;
+var iCGHoldBinding = "";
+var iCGHoldUntil = -1;
+var iCGHoldDrainUntil = 0;
+func iCGHoldBegin(binding) {
+    iCGHoldBinding="";iCGHoldUntil=-1;iCGHoldDrainUntil=0;
+    if(binding=="" || iBindings[binding].cg=="") return;
+    iCGHoldBinding=binding;
+    // Stop fast-forward before the VM can consume the new text in this frame.
+    Suika.stopAutoMode();Suika.stopSkipMode();Suika.clearInputState();
+}
+func iCGHoldVisible() {
+    if(iCGHoldBinding=="" || iCGHoldUntil>=0 || !iCanView()) return;
+    // Engine.millisec is sampled before image decoding; use the live clock here.
+    iCGHoldUntil=Suika.getMillisec()+iCGHoldMs;
+    print("SUI_I|cg-hold|start|node="+sc_get("cursor")+"|ms="+iCGHoldMs);
+}
+func iCGHoldBlock() {
+    if(iCGHoldBinding=="" || !iCanView()) return false;
+    var now=Suika.getMillisec();
+    var held=Engine.isMouseLeftPressed||Suika.isMouseLeftPressed()||Suika.isMouseDragging()||Engine.isReturnKeyPressed||Engine.isSpaceKeyPressed||Engine.isDownKeyPressed||Engine.isControlKeyPressed||Engine.isGamepadAPressed;
+    if(held) iCGHoldDrainUntil=now+180;
+    Suika.stopAutoMode();Suika.stopSkipMode();Suika.clearInputState();
+    if(iCGHoldUntil>=0 && now>=iCGHoldUntil && now>=iCGHoldDrainUntil) {
+        iCGHoldBinding="";
+        print("SUI_I|cg-hold|ready|node="+sc_get("cursor"));
+    }
+    // Also drain the release/unlock frame; only a fresh input can continue.
+    return true;
+}
 func iRegister(binding) {
     iBindings[binding.id]=binding;
     iNodes[binding.node]=[binding.id];
@@ -95,7 +126,7 @@ func iExit(id) {
     if(active!="" && (!Dict.hasKey(iBindings,active) || iBindings[active].node!=id)) {
         if(!Dict.hasKey(iBindings,active)) return sc_fail("presentation-active-unknown");
         if(!iApply(iBindings[active].restore)) return false;
-        iSet("active",""); iFullView=false;
+        iSet("active",""); iFullView=false;iCGHoldBegin("");
         print("SUI_I|exit|binding="+active+"|node="+id);
     }
     return true;
@@ -115,16 +146,19 @@ func iAt(id) {
     if(selected=="") return sc_fail("presentation-unresolved:"+id);
     if(!iApply(iBindings[selected].enter)) return false;
     iSet("active",selected); iFullView=false;
+    iCGHoldBegin(selected);
     print("SUI_I|enter|binding="+selected+"|node="+id);
     return true;
 }
-func iNew() { iFullView=false;iLiveLayers={};iSet("active","");return iApply("empty"); }
+func iNew() { iFullView=false;iLiveLayers={};iCGHoldBegin("");iSet("active","");return iApply("empty"); }
 func iRestore() {
     iFullView=false;
     if(!iValidate()) return sc_fail("presentation-invalid-save");
     // Loading source images afresh avoids swapping already repaired pixels twice.
     iLiveLayers={};
-    return iApply(iGet("state"));
+    if(!iApply(iGet("state"))) return false;
+    iCGHoldBegin(iGet("active"));
+    return true;
 }
 func iCanView() {
     var active=iGet("active");
@@ -152,7 +186,7 @@ func iBeforeUpdate() {
         iFullView=true;iViewDrain=true;iViewDrainUntil=Engine.millisec+180;Suika.stopAutoMode();Suika.stopSkipMode();Suika.clearInputState();
         print("SUI_I|full-view|opened");return true;
     }
-    return false;
+    return iCGHoldBlock();
 }
 func iUnlockVisible() {
     var active=iGet("active");
@@ -166,6 +200,7 @@ func iUnlockVisible() {
 }
 func iRender() {
     // Host calls this after Suika.render: only an actually rendered CG unlocks.
+    iCGHoldVisible();
     iUnlockVisible();
     if(iFullView&&iCanView()) {
         // Cover every UI layer without advancing the source paragraph.

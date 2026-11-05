@@ -1,0 +1,4113 @@
+{
+  "schemaVersion": 1,
+  "batch": "dialogue-p2-closeout-20261103",
+  "scope": "P2候选总编复核；不采用正式scenario；保持选择、条件与结局。",
+  "corrections": [
+    {
+      "id": "T-C01-000192",
+      "file": "scenario/第一章-回到毕节.md",
+      "category": "归属",
+      "reason": "本场由飘回答凉糕店的采访安排，孟遥不在场。",
+      "sourceOldIds": [
+        "T-C01-000192"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C01-000192",
+          "kind": "dialogue",
+          "speaker": "mengyao",
+          "name": "孟遥",
+          "channel": "face",
+          "group": null
+        },
+        "text": "开。下次去问老板能不能留一句话。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C01-000192",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "开。下次去问老板能不能留一句话。"
+      }
+    },
+    {
+      "id": "T-C01-000215",
+      "file": "scenario/第一章-回到毕节.md",
+      "category": "归属",
+      "reason": "毛狼回答飘关于演出第二遍是否有人笑的问题。",
+      "sourceOldIds": [
+        "T-C01-000215"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C01-000215",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "更没得。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C01-000215",
+          "kind": "dialogue",
+          "speaker": "maolang",
+          "name": "毛狼",
+          "channel": "face",
+          "group": null
+        },
+        "text": "更没得。"
+      }
+    },
+    {
+      "id": "T-C01-000450",
+      "file": "scenario/第一章-回到毕节.md",
+      "category": "媒介",
+      "reason": "饭桌上飘当面询问下一场演出时间。",
+      "sourceOldIds": [
+        "T-C01-000217"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C01-000450",
+          "kind": "message",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "text",
+          "group": null
+        },
+        "text": "你上一场的消息发得太晚，我没赶上。下一场几点，要先讲。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C01-000450",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "你上一场的消息发得太晚，我没赶上。下一场几点，要先讲。"
+      }
+    },
+    {
+      "id": "T-C02-000003",
+      "file": "scenario/第二章-十四天.md",
+      "category": "知情边界",
+      "reason": "自报姓名的台词结束前，姓名框只显示门内的声音。",
+      "sourceOldIds": [
+        "T-C02-000003"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000003",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "你手机很响。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000003",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "门内的声音",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "你手机很响。"
+      }
+    },
+    {
+      "id": "T-C02-000005",
+      "file": "scenario/第二章-十四天.md",
+      "category": "知情边界",
+      "reason": "自报姓名的台词结束前，姓名框只显示门内的声音。",
+      "sourceOldIds": [
+        "T-C02-000005"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000005",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "我又没说你吵。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000005",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "门内的声音",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "我又没说你吵。"
+      }
+    },
+    {
+      "id": "T-C02-000010",
+      "file": "scenario/第二章-十四天.md",
+      "category": "知情边界",
+      "reason": "自报姓名的台词结束前，姓名框只显示门内的声音。",
+      "sourceOldIds": [
+        "T-C02-000010"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000010",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "后面那句，你还没听。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000010",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "门内的声音",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "后面那句，你还没听。"
+      }
+    },
+    {
+      "id": "T-C02-000264",
+      "file": "scenario/第二章-十四天.md",
+      "category": "知情边界",
+      "reason": "自报姓名的台词结束前，姓名框只显示门内的声音。",
+      "sourceOldIds": [
+        "T-C02-000011"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000264",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "第十四天，晚上八点半。你先敲门，我愿意开，你再进去。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000264",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "门内的声音",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "第十四天，晚上八点半。你先敲门，我愿意开，你再进去。"
+      }
+    },
+    {
+      "id": "T-C02-000013",
+      "file": "scenario/第二章-十四天.md",
+      "category": "知情边界",
+      "reason": "自报姓名的台词结束前，姓名框只显示门内的声音。",
+      "sourceOldIds": [
+        "T-C02-000013"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000013",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "等见面再说。你现在连我的门都没看清。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000013",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "门内的声音",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "等见面再说。你现在连我的门都没看清。"
+      }
+    },
+    {
+      "id": "T-C02-000016",
+      "file": "scenario/第二章-十四天.md",
+      "category": "知情边界",
+      "reason": "自报姓名的台词结束前，姓名框只显示门内的声音。",
+      "sourceOldIds": [
+        "T-C02-000016"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000016",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "那你去。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000016",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "门内的声音",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "那你去。"
+      }
+    },
+    {
+      "id": "T-C02-000218",
+      "file": "scenario/第二章-十四天.md",
+      "category": "知情边界",
+      "reason": "自报姓名的台词结束前，姓名框只显示门内的声音。",
+      "sourceOldIds": [
+        "T-C02-000218"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000218",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "黄球球。黄是黄色的黄。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000218",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "门内的声音",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "黄球球。黄是黄色的黄。"
+      }
+    },
+    {
+      "id": "T-C02-000235",
+      "file": "scenario/第二章-十四天.md",
+      "category": "媒介",
+      "reason": "正式相识后已经开门，两人在同一房间交谈。",
+      "sourceOldIds": [
+        "T-C02-000235"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000235",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "有人回答就说。没人回答，我也有自己的事。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000235",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "有人回答就说。没人回答，我也有自己的事。"
+      }
+    },
+    {
+      "id": "T-C02-000237",
+      "file": "scenario/第二章-十四天.md",
+      "category": "媒介",
+      "reason": "正式相识后已经开门，两人在同一房间交谈。",
+      "sourceOldIds": [
+        "T-C02-000237"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000237",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "嗯。门没开也先等，我不一定能马上应。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000237",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "嗯。门没开也先等，我不一定能马上应。"
+      }
+    },
+    {
+      "id": "T-C02-000240",
+      "file": "scenario/第二章-十四天.md",
+      "category": "媒介",
+      "reason": "正式相识后已经开门，两人在同一房间交谈。",
+      "sourceOldIds": [
+        "T-C02-000240"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000240",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "那是为了哪样？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000240",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "那是为了哪样？"
+      }
+    },
+    {
+      "id": "T-C02-000329",
+      "file": "scenario/第二章-十四天.md",
+      "category": "衔接",
+      "reason": "明确夜里回看下午的消息，没有再次点单。",
+      "sourceOldIds": [
+        "T-C02-000088"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000329",
+          "kind": "narration",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "三点后店里空下来，我把明天的闹钟往前调了半小时。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000329",
+          "kind": "narration",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "三点后店里空下来，我把明天的闹钟往前调了半小时。屏幕上还留着孟遥下午那条消息。"
+      }
+    },
+    {
+      "id": "T-C02-000339",
+      "file": "scenario/第二章-十四天.md",
+      "category": "衔接",
+      "reason": "点明转发者，避免承接上一场飘的代词。",
+      "sourceOldIds": [
+        "T-C02-000092"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000339",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "另一个聊天群的语音，从她转来的消息里漏了两句。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000339",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "这句语音来自小满转来的另一个聊天群。"
+      }
+    },
+    {
+      "id": "T-C02-000347",
+      "file": "scenario/第二章-十四天.md",
+      "category": "衔接",
+      "reason": "先引出语音，再呈现半句答话，消除断开后的发言。",
+      "sourceOldIds": [
+        "T-C02-000098"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-C02-000347",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "随后有人在她身后喊帮忙拿东西，她的语音断了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-C02-000347",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "随后小满发来一条语音，身后有人喊她帮忙拿东西。她只来得及回一句。"
+      }
+    },
+    {
+      "id": "T-XM-000463",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "前段明确是朋友发来的语音。",
+      "sourceOldIds": [
+        "T-XM-000041"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000463",
+          "kind": "message",
+          "speaker": "friend-xm",
+          "name": "小满的朋友",
+          "channel": "text",
+          "group": null
+        },
+        "text": "是不是陪贵阳回来的？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000463",
+          "kind": "dialogue",
+          "speaker": "friend-xm",
+          "name": "小满的朋友",
+          "channel": "voice",
+          "group": null
+        },
+        "text": "是不是陪贵阳回来的？"
+      }
+    },
+    {
+      "id": "T-XM-000469",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "语义",
+      "reason": "分清让文文抱腰与提醒路面颠簸。",
+      "sourceOldIds": [
+        "T-XM-000043"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000469",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "face",
+          "group": null
+        },
+        "text": "抱这儿会颠。别坐得像随时要跳车。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000469",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "face",
+          "group": null
+        },
+        "text": "抱这儿。路上会颠，别坐得像随时要跳车。"
+      }
+    },
+    {
+      "id": "T-XM-000235",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "归属",
+      "reason": "文文承诺当面说明借钱缘由，紧接小满的反问。",
+      "sourceOldIds": [
+        "T-XM-000235"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000235",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "face",
+          "group": null
+        },
+        "text": "他们说不用还，我就说不是。你那天讲大的了，你自己收回来。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000235",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "他们说不用还，我就说不是。你那天讲大的了，你自己收回来。"
+      }
+    },
+    {
+      "id": "T-XM-000359",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "两人通过消息讨论重剪作品，当前没有见面。",
+      "sourceOldIds": [
+        "T-XM-000359"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000359",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "face",
+          "group": null
+        },
+        "text": "要。不能拿缺的那块去交。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000359",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "要。不能拿缺的那块去交。"
+      }
+    },
+    {
+      "id": "T-XM-000828",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "衔接",
+      "reason": "承接共同段来电，非AA结尾全场为音频通话。",
+      "sourceOldIds": [
+        "T-XM-000413"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000828",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她发来消息。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000828",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "电话接通，她先问起照片。"
+      }
+    },
+    {
+      "id": "T-XM-000829",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000413"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000829",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "第22天的侧面照能不能再发一次？老师要把第一次和最近的作品放在一起看。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000829",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "第22天的侧面照能不能再发一次？老师要把第一次和最近的作品放在一起看。"
+      }
+    },
+    {
+      "id": "T-XM-000830",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000413"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000830",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "能。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000830",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "能。"
+      }
+    },
+    {
+      "id": "T-XM-000832",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000414"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000832",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "没裁那张。耳边剪坏的地方也要。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000832",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "没裁那张。耳边剪坏的地方也要。"
+      }
+    },
+    {
+      "id": "T-XM-000834",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000415"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000834",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "刚才是不是又去店里？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000834",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "刚才是不是又去店里？"
+      }
+    },
+    {
+      "id": "T-XM-000835",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000415"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000835",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "是。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000835",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "是。"
+      }
+    },
+    {
+      "id": "T-XM-000837",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000416"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000837",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "剩下的钱收回来了。阿俊还是会说难听话，我已经不想每一句都回。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000837",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "剩下的钱收回来了。阿俊还是会说难听话，我已经不想每一句都回。"
+      }
+    },
+    {
+      "id": "T-XM-000838",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000416"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000838",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "那天你没退回去，挺难的。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000838",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "那天你没退回去，挺难的。"
+      }
+    },
+    {
+      "id": "T-XM-000839",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000417"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000839",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "你当时在，我省一点劲。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000839",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "你当时在，我省一点劲。"
+      }
+    },
+    {
+      "id": "T-XM-000840",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000419"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000840",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "前几天阿俊又来网吧，我把所谓材料钱是我们编的说清了，也说那天是我自己接的话，没把责任都推给你。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000840",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "前几天阿俊又来网吧，我把所谓材料钱是我们编的说清了，也说那天是我自己接的话，没把责任都推给你。"
+      }
+    },
+    {
+      "id": "T-XM-000841",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000420"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000841",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "晓得了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000841",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "晓得了。"
+      }
+    },
+    {
+      "id": "T-XM-000842",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000422"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000842",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "钱的事处理完了，后面还有不顺，我自己会慢慢弄。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000842",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "钱的事处理完了，后面还有不顺，我自己会慢慢弄。"
+      }
+    },
+    {
+      "id": "T-XM-000843",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000422"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000843",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "嗯。照片够不够？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000843",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "嗯。照片够不够？"
+      }
+    },
+    {
+      "id": "T-XM-000844",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000422"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000844",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "够，今天就这几张。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000844",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "够，今天就这几张。"
+      }
+    },
+    {
+      "id": "T-XM-000846",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000424"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000846",
+          "kind": "message",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "text",
+          "group": null
+        },
+        "text": "再见。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000846",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "再见。"
+      }
+    },
+    {
+      "id": "T-XM-000847",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "非AA结局承接来电，后文上课声与挂断动作均发生在通话中。",
+      "sourceOldIds": [
+        "T-XM-000424"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000847",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "再见。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000847",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "再见。"
+      }
+    },
+    {
+      "id": "T-XM-000758",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000366"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000758",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "别笑。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000758",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "别笑。"
+      }
+    },
+    {
+      "id": "T-XM-000760",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000367"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000760",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "门关上没有？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000760",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "门关上没有？"
+      }
+    },
+    {
+      "id": "T-XM-000368",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000368"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000368",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "关了。钥匙也交了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000368",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "关了。钥匙也交了。"
+      }
+    },
+    {
+      "id": "T-XM-000762",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000369"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000762",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "等一下。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000762",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "等一下。"
+      }
+    },
+    {
+      "id": "T-XM-000763",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000369"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000763",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "你先去。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000763",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "你先去。"
+      }
+    },
+    {
+      "id": "T-XM-000764",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000369"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000764",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "那挂了以后还打不打？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000764",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "那挂了以后还打不打？"
+      }
+    },
+    {
+      "id": "T-XM-000370",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000370"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000370",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "打。我不是叫你别管。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000370",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "打。我不是叫你别管。"
+      }
+    },
+    {
+      "id": "T-XM-000803",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000394"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000803",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "昨晚睡了没有？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000803",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "昨晚睡了没有？"
+      }
+    },
+    {
+      "id": "T-XM-000805",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000394"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000805",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "下夜班还跑去剪头发，精神怎么这么好。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000805",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "下夜班还跑去剪头发，精神怎么这么好。"
+      }
+    },
+    {
+      "id": "T-XM-000395",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000395"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000395",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "刚才差点睡着。师傅拍了两下椅子。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000395",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "刚才差点睡着。师傅拍了两下椅子。"
+      }
+    },
+    {
+      "id": "T-XM-000807",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000396"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000807",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "可以。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000807",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "可以。"
+      }
+    },
+    {
+      "id": "T-XM-000809",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000397"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000809",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "那两个头盔还在。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000809",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "那两个头盔还在。"
+      }
+    },
+    {
+      "id": "T-XM-000811",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000398"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000811",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "先放着，以后想骑再自己买。我那边的钱还得省，不能现在就挑新车。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000811",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "先放着，以后想骑再自己买。我那边的钱还得省，不能现在就挑新车。"
+      }
+    },
+    {
+      "id": "T-XM-000812",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000399"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000812",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "我今天收回最后那笔了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000812",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "我今天收回最后那笔了。"
+      }
+    },
+    {
+      "id": "T-XM-000814",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000399"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000814",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "阿俊说我不够朋友。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000814",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "阿俊说我不够朋友。"
+      }
+    },
+    {
+      "id": "T-XM-000400",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000400"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000400",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "你怎么回？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000400",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "你怎么回？"
+      }
+    },
+    {
+      "id": "T-XM-000401",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000401"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000401",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "我说他也没够。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000401",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "我说他也没够。"
+      }
+    },
+    {
+      "id": "T-XM-000403",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000403"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000403",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "你房子的明细什么时候来？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000403",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "你房子的明细什么时候来？"
+      }
+    },
+    {
+      "id": "T-XM-000404",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000404"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000404",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "还在等。来了我会跟你讲。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000404",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "还在等。来了我会跟你讲。"
+      }
+    },
+    {
+      "id": "T-XM-000405",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000405"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000405",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "难听的也讲。别又先编一遍好听的。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000405",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "难听的也讲。别又先编一遍好听的。"
+      }
+    },
+    {
+      "id": "T-XM-000816",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000406"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000816",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "你也是。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000816",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "你也是。"
+      }
+    },
+    {
+      "id": "T-XM-000818",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000406"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000818",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "学得快。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000818",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "学得快。"
+      }
+    },
+    {
+      "id": "T-XM-000820",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000407"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000820",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "我男朋友。说了几回了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000820",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "我男朋友。说了几回了。"
+      }
+    },
+    {
+      "id": "T-XM-000822",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000408"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000822",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "小满。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000822",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "小满。"
+      }
+    },
+    {
+      "id": "T-XM-000824",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000408"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000824",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "等你课表稳定，我把能休的日子发过去，先约一次真正能见上的。不买还不知道能不能坐的票，也不让你推掉练习。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000824",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "等你课表稳定，我把能休的日子发过去，先约一次真正能见上的。不买还不知道能不能坐的票，也不让你推掉练习。"
+      }
+    },
+    {
+      "id": "T-XM-000825",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000409"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000825",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "好。来的时候想亲就自己过来，别在门口站得像等叫号。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000825",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "好。来的时候想亲就自己过来，别在门口站得像等叫号。"
+      }
+    },
+    {
+      "id": "T-XM-000410",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000410"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000410",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "现在想怎么办？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000410",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "video",
+          "group": null
+        },
+        "text": "现在想怎么办？"
+      }
+    },
+    {
+      "id": "T-XM-000827",
+      "file": "scenario/罗小满-练习本.md",
+      "category": "媒介",
+      "reason": "本场明确使用视频，可见镜头、表情和练习本。",
+      "sourceOldIds": [
+        "T-XM-000411"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-XM-000827",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "站路边还讲这个。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-XM-000827",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "video",
+          "group": null
+        },
+        "text": "站路边还讲这个。"
+      }
+    },
+    {
+      "id": "T-ZZ-000527",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "知情边界",
+      "reason": "本句尚未介绍乔哥，只能显示已知的熟客身份。",
+      "sourceOldIds": [
+        "T-ZZ-000049"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000527",
+          "kind": "dialogue",
+          "speaker": "qiaoge",
+          "name": "乔哥",
+          "channel": "face",
+          "group": null
+        },
+        "text": "总算记得我了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000527",
+          "kind": "dialogue",
+          "speaker": "qiaoge",
+          "name": "熟客",
+          "channel": "face",
+          "group": null
+        },
+        "text": "总算记得我了。"
+      }
+    },
+    {
+      "id": "T-ZZ-000588",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "措辞",
+      "reason": "避免把整条消息误计为三个字。",
+      "sourceOldIds": [
+        "T-ZZ-000123"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000588",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我盯着那三个字，直到网吧有人来买水，才把手机放下。水找错一瓶，客人叫住我，我又折回去换。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000588",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我盯着那条消息，直到网吧有人来买水，才把手机放下。水找错一瓶，客人叫住我，我又折回去换。"
+      }
+    },
+    {
+      "id": "T-ZZ-000232",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "归属",
+      "reason": "周栀询问文文是否好受，文文随后回答。",
+      "sourceOldIds": [
+        "T-ZZ-000232"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000232",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "好受没有？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000232",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "face",
+          "group": null
+        },
+        "text": "好受没有？"
+      }
+    },
+    {
+      "id": "T-ZZ-000756",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "问答",
+      "reason": "与周栀先吃完再问的回答衔接，保留原有试探。",
+      "sourceOldIds": [
+        "T-ZZ-000276"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000756",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "晚饭有什么安排？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000756",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "那晚饭以后呢？"
+      }
+    },
+    {
+      "id": "T-ZZ-000826",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "语义",
+      "reason": "原稿是阿英嫌她边讲话边动刀，不是鼓励分心。",
+      "sourceOldIds": [
+        "T-ZZ-000322"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000826",
+          "kind": "dialogue",
+          "speaker": "aying",
+          "name": "阿英",
+          "channel": "face",
+          "group": null
+        },
+        "text": "一边讲话一边动手。先把旁边的袋子拆了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000826",
+          "kind": "dialogue",
+          "speaker": "aying",
+          "name": "阿英",
+          "channel": "face",
+          "group": null
+        },
+        "text": "拿着刀就别分心。先把旁边的袋子拆了。"
+      }
+    },
+    {
+      "id": "T-ZZ-000850",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "媒介",
+      "reason": "两人在台阶上当面吃早饭，未打电话。",
+      "sourceOldIds": [
+        "T-ZZ-000341"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000850",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "昨天你说来，我不想拆。我知道再问下去就没这么高兴了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000850",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "face",
+          "group": null
+        },
+        "text": "昨天你说来，我不想拆。我知道再问下去就没这么高兴了。"
+      }
+    },
+    {
+      "id": "T-ZZ-000851",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "媒介",
+      "reason": "两人在台阶上当面吃早饭，未打电话。",
+      "sourceOldIds": [
+        "T-ZZ-000342"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000851",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "辞职还没发，停在输入框里。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000851",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "辞职还没发，停在输入框里。"
+      }
+    },
+    {
+      "id": "T-ZZ-000853",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "媒介",
+      "reason": "两人在台阶上当面吃早饭，未打电话。",
+      "sourceOldIds": [
+        "T-ZZ-000342"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000853",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "是不是专门把截图拿来逼我负责？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000853",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "face",
+          "group": null
+        },
+        "text": "是不是专门把截图拿来逼我负责？"
+      }
+    },
+    {
+      "id": "T-ZZ-000854",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "媒介",
+      "reason": "两人在台阶上当面吃早饭，未打电话。",
+      "sourceOldIds": [
+        "T-ZZ-000343"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000854",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "昨天靠过来，是不是已经不计较那张单子？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000854",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "昨天靠过来，是不是已经不计较那张单子？"
+      }
+    },
+    {
+      "id": "T-ZZ-000856",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "媒介",
+      "reason": "两人在台阶上当面吃早饭，未打电话。",
+      "sourceOldIds": [
+        "T-ZZ-000343"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000856",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "想挨着你，不等于敢重新答应。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000856",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "face",
+          "group": null
+        },
+        "text": "想挨着你，不等于敢重新答应。"
+      }
+    },
+    {
+      "id": "T-ZZ-000904",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "知情边界",
+      "reason": "文字消息无法让文文直接知道对方来了客人。",
+      "sourceOldIds": [
+        "T-ZZ-000400"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000904",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "那头又来了客人，他没再陪我聊，我把手机收好。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000904",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "他没再回消息，我把手机收好。"
+      }
+    },
+    {
+      "id": "T-ZZ-000908",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "衔接",
+      "reason": "先回应口气，下一段再完成吃东西的动作。",
+      "sourceOldIds": [
+        "T-ZZ-000403"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000908",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我站着吃完，说完才发现这是周栀平时的口气。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000908",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "话说出口，我才发现这是周栀平时的口气。"
+      }
+    },
+    {
+      "id": "T-ZZ-000922",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "人称",
+      "reason": "当面向周栀说明安排，应称你。",
+      "sourceOldIds": [
+        "T-ZZ-000419"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000922",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "如果去了，我不会坐在门口等着看你怎样对客人。想找她，我约下班以后；临时做不到，你也得提前说。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000922",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "如果去了，我不会坐在门口等着看你怎样对客人。想找你，我约下班以后；临时做不到，你也得提前说。"
+      }
+    },
+    {
+      "id": "T-ZZ-000460",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "媒介",
+      "reason": "第91天双方异地通话。",
+      "sourceOldIds": [
+        "T-ZZ-000460"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000460",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "那现在给你。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000460",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "那现在给你。"
+      }
+    },
+    {
+      "id": "T-ZZ-000462",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "媒介",
+      "reason": "第91天双方异地通话。",
+      "sourceOldIds": [
+        "T-ZZ-000462"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000462",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "只有这句？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000462",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "只有这句？"
+      }
+    },
+    {
+      "id": "T-ZZ-000463",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "category": "媒介",
+      "reason": "第91天双方异地通话。",
+      "sourceOldIds": [
+        "T-ZZ-000463"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-ZZ-000463",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我还没想好别的。你别催我营业。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-ZZ-000463",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "我还没想好别的。你别催我营业。"
+      }
+    },
+    {
+      "id": "T-MY-000536",
+      "file": "scenario/孟遥-旧题.md",
+      "category": "措辞",
+      "reason": "上一句为我想你，不是两个字；沿用P1关系走向。",
+      "sourceOldIds": [
+        "T-MY-000313"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-MY-000536",
+          "kind": "narration",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我没有把那两个字听成别的。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-MY-000536",
+          "kind": "narration",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我没有把这句想念听成别的。"
+      }
+    },
+    {
+      "id": "T-MY-000636",
+      "file": "scenario/孟遥-旧题.md",
+      "category": "衔接",
+      "reason": "补回原稿下午通话的时间转换，避免与早上开场黏连。",
+      "sourceOldIds": [
+        "T-MY-000329"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-MY-000636",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "吃过东西，再按约给孟遥打电话。她刚下课，在机构附近找了一处能坐的地方，背景里有人吆喝卖水果。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-MY-000636",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "到了约好的下午，我吃过东西，再给孟遥打电话。她刚下课，在机构附近找了一处能坐的地方，背景里有人吆喝卖水果。"
+      }
+    },
+    {
+      "id": "T-MY-000660",
+      "file": "scenario/孟遥-旧题.md",
+      "category": "媒介",
+      "reason": "结尾正在通话；红笔在过夜后留下，去除容易误指的具体落笔日期。",
+      "sourceOldIds": [
+        "T-MY-000352"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-MY-000660",
+          "kind": "message",
+          "speaker": "mengyao",
+          "name": "孟遥",
+          "channel": "text",
+          "group": null
+        },
+        "text": "单号收到了。第56天落在你桌边的红笔，能不能一起寄？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-MY-000660",
+          "kind": "dialogue",
+          "speaker": "mengyao",
+          "name": "孟遥",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "单号收到了。那支落在你桌边的红笔，能不能一起寄？"
+      }
+    },
+    {
+      "id": "T-MY-000353",
+      "file": "scenario/孟遥-旧题.md",
+      "category": "衔接",
+      "reason": "对应已写出的翻课表动作，不补寻找红笔的经历。",
+      "sourceOldIds": [
+        "T-MY-000353"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-MY-000353",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我把笔包进另一小袋，补在包裹尚未取走前。那支笔曾压着她过夜带来的备课本，我拿起来时，仍然记得早上她找它的声音。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-MY-000353",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我把笔包进另一小袋，补在包裹尚未取走前。那支笔曾压着她过夜带来的备课本，我拿起来时，仍然记得她清早翻课表的声音。"
+      }
+    },
+    {
+      "id": "T-MY-000562",
+      "file": "scenario/孟遥-旧题.md",
+      "category": "媒介",
+      "reason": "BA结尾仍是收束通话，不重启见面或亲密。",
+      "sourceOldIds": [
+        "T-MY-000359"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-MY-000562",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "那天可能会动摇。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-MY-000562",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "那天可能会动摇。"
+      }
+    },
+    {
+      "id": "T-PI-000672",
+      "file": "scenario/飘-空白页.md",
+      "category": "重复",
+      "reason": "前段已经写她没有坐，改为回应未经同意的作者介绍。",
+      "sourceOldIds": [
+        "T-PI-000112"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000672",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她没有坐。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000672",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她的手指停在那段作者介绍上。"
+      }
+    },
+    {
+      "id": "T-PI-000674",
+      "file": "scenario/飘-空白页.md",
+      "category": "归属",
+      "reason": "网吧喊加水者没有群友身份；保留必要环境声音，不误套配角。",
+      "sourceOldIds": [
+        "T-PI-000115"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000674",
+          "kind": "dialogue",
+          "speaker": "group-friend",
+          "name": "群里的朋友",
+          "channel": "face",
+          "group": null
+        },
+        "text": "加水。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000674",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "网吧里有人喊加水。"
+      }
+    },
+    {
+      "id": "T-PI-000682",
+      "file": "scenario/飘-空白页.md",
+      "category": "重复",
+      "reason": "前文已放下尺子，不重复放置动作。",
+      "sourceOldIds": [
+        "T-PI-000140"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000682",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她把尺子放下。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000682",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她看着我。"
+      }
+    },
+    {
+      "id": "T-PI-000196",
+      "file": "scenario/飘-空白页.md",
+      "category": "媒介",
+      "reason": "文文正在向修鞋师傅打电话说明擅改稿件。",
+      "sourceOldIds": [
+        "T-PI-000196"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000196",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "是。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000196",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "是。"
+      }
+    },
+    {
+      "id": "T-PI-000198",
+      "file": "scenario/飘-空白页.md",
+      "category": "媒介",
+      "reason": "文文正在向修鞋师傅打电话说明擅改稿件。",
+      "sourceOldIds": [
+        "T-PI-000198"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000198",
+          "kind": "dialogue",
+          "speaker": "shoe-repairer",
+          "name": "修鞋师傅",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我自己那几个字，有这么难看？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000198",
+          "kind": "dialogue",
+          "speaker": "shoe-repairer",
+          "name": "修鞋师傅",
+          "channel": "phone",
+          "group": null
+        },
+        "text": "我自己那几个字，有这么难看？"
+      }
+    },
+    {
+      "id": "T-PI-000316",
+      "file": "scenario/飘-空白页.md",
+      "category": "归属",
+      "reason": "飘被质问后试图解释，下一句由文文接着反问。",
+      "sourceOldIds": [
+        "T-PI-000316"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000316",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我不是——"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000316",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我不是——"
+      }
+    },
+    {
+      "id": "T-PI-000317",
+      "file": "scenario/飘-空白页.md",
+      "category": "归属",
+      "reason": "票与出行计划由飘决定，文文表达自己未被商量的感受。",
+      "sourceOldIds": [
+        "T-PI-000317"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000317",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "你不让我替你决定。那你把票买好，把事情都定了，只叫我来按纸、提包，我就算参与了？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000317",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "你不让我替你决定。那你把票买好，把事情都定了，只叫我来按纸、提包，我就算参与了？"
+      }
+    },
+    {
+      "id": "T-PI-000751",
+      "file": "scenario/飘-空白页.md",
+      "category": "重复",
+      "reason": "钥匙已交到文文手上，接续她此前没有松手的动作。",
+      "sourceOldIds": [
+        "T-PI-000282"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000751",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她把钥匙放到我掌心。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000751",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她这才松开抓着我的手。"
+      }
+    },
+    {
+      "id": "T-PI-000764",
+      "file": "scenario/飘-空白页.md",
+      "category": "重复",
+      "reason": "上一段已抱住，不再次拥抱。",
+      "sourceOldIds": [
+        "T-PI-000344"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000764",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她抱住我。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000764",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她的声音贴着我的颈侧。"
+      }
+    },
+    {
+      "id": "T-PI-000774",
+      "file": "scenario/飘-空白页.md",
+      "category": "物品",
+      "reason": "勘误已经递给文文，后文由文文夹进册子。",
+      "sourceOldIds": [
+        "T-PI-000372"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000774",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她把勘误夹进册子。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000774",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她指了指我手里的勘误。"
+      }
+    },
+    {
+      "id": "T-PI-000436",
+      "file": "scenario/飘-空白页.md",
+      "category": "衔接",
+      "reason": "明确通话中同时发送图片，后续台词仍是电话回应。",
+      "sourceOldIds": [
+        "T-PI-000436"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000436",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "拍给她后，消息停了一会儿。她发来窗台的照片，两本册子被杯子压着，一张写有见面时间的纸放在旁边。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000436",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我趁通话还在，把那页也拍给她。她看过后发来窗台的照片，两本册子被杯子压着，一张写有见面时间的纸放在旁边。"
+      }
+    },
+    {
+      "id": "T-PI-000440",
+      "file": "scenario/飘-空白页.md",
+      "category": "媒介",
+      "reason": "回应刚听到的电话台词。",
+      "sourceOldIds": [
+        "T-PI-000440"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000440",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我看着这句话，耳朵慢慢热起来。她没有让我把后面那句想念改掉。往返的车次要再核一遍，房子的账也还要核。我把这两件事分别记下，没有再让其中一件替另一件作保证。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000440",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "听她这么说，耳朵慢慢热起来。她没有让我把后面那句想念改掉。往返的车次要再核一遍，房子的账也还要核。我把这两件事分别记下，没有再让其中一件替另一件作保证。"
+      }
+    },
+    {
+      "id": "T-PI-000819",
+      "file": "scenario/飘-空白页.md",
+      "category": "措辞",
+      "reason": "我知道了不是三个字，不添无谓计数。",
+      "sourceOldIds": [
+        "T-PI-000449"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000819",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我盯着“真想”两个字，几乎又要问既然这样，为什么不能再试。手指落在输入框上，最后只回了三个字。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000819",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我盯着“真想”两个字，几乎又要问既然这样，为什么不能再试。手指落在输入框上，最后只回了一句。"
+      }
+    },
+    {
+      "id": "T-PI-000604",
+      "file": "scenario/飘-空白页.md",
+      "category": "时空",
+      "reason": "周栀第60天已赴贵阳，未设返乡；去除第77天无依据的同场动作，保留摄影练习。",
+      "sourceOldIds": [
+        "T-PI-000495"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000604",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她等他放下筷子，拍了他和周栀争最后一块豆腐的样子。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000604",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她等他放下筷子，才拍下他面前还没吃完的那碗面。"
+      }
+    },
+    {
+      "id": "T-PI-000645",
+      "file": "scenario/飘-空白页.md",
+      "category": "物品",
+      "reason": "第91天共同段收到的是桌面照，统一照片对象。",
+      "sourceOldIds": [
+        "T-PI-000505"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000645",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我把合照发给飘。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000645",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我拍下收到的桌面照，发给飘。"
+      }
+    },
+    {
+      "id": "T-PI-000635",
+      "file": "scenario/飘-空白页.md",
+      "category": "物品",
+      "reason": "与桌面照保持一致，保留普通朋友交流。",
+      "sourceOldIds": [
+        "T-PI-000505"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-PI-000635",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "合照收到了。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-PI-000635",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "照片收到了。"
+      }
+    },
+    {
+      "id": "T-HQ-000005",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000005"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000005",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "堆东西的地方，你还来做哪样？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000005",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "堆东西的地方，你还来做哪样？"
+      }
+    },
+    {
+      "id": "T-HQ-000127",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000127"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000127",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "几点了？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000127",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "几点了？"
+      }
+    },
+    {
+      "id": "T-HQ-000129",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000129"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000129",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "你说八点。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000129",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "你说八点。"
+      }
+    },
+    {
+      "id": "T-HQ-000131",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000131"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000131",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我也知道你上班的时间。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000131",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "我也知道你上班的时间。"
+      }
+    },
+    {
+      "id": "T-HQ-000134",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000134"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000134",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我现在不想吃。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000134",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "我现在不想吃。"
+      }
+    },
+    {
+      "id": "T-HQ-000138",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000138"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000138",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "明天我还没想好。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000138",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "明天我还没想好。"
+      }
+    },
+    {
+      "id": "T-HQ-000410",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000126"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000410",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "是我，买好了。你想吃的那家今天还开。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000410",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "是我，买好了。你想吃的那家今天还开。"
+      }
+    },
+    {
+      "id": "T-HQ-000128",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000128"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000128",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "九点二十几。我刚才——"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000128",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "九点二十几。我刚才——"
+      }
+    },
+    {
+      "id": "T-HQ-000133",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000133"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000133",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "先吃一点。还热。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000133",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "先吃一点。还热。"
+      }
+    },
+    {
+      "id": "T-HQ-000135",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000135"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000135",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我专门——"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000135",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "我专门——"
+      }
+    },
+    {
+      "id": "T-HQ-000463",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000185"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000463",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "以后每天五点都来。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000463",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "以后每天五点都来。"
+      }
+    },
+    {
+      "id": "T-HQ-000186",
+      "file": "scenario/黄球球-门后.md",
+      "category": "媒介",
+      "reason": "门尚未打开，双方隔门说话；不据此显示同场立绘。",
+      "sourceOldIds": [
+        "T-HQ-000186"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000186",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "你明天是不是还得睡觉？后天有没有班？别再给我一整排你自己都没看过的五点。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000186",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "你明天是不是还得睡觉？后天有没有班？别再给我一整排你自己都没看过的五点。"
+      }
+    },
+    {
+      "id": "T-HQ-000168",
+      "file": "scenario/黄球球-门后.md",
+      "category": "衔接",
+      "reason": "补清师匠来电，接续后文挂断。",
+      "sourceOldIds": [
+        "T-HQ-000168"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000168",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "第二天睡醒，师匠来问，有一批机器和配件要清点，下午四点到七点，临时按工时结账。我打开自己的账，前几天买错又浪费的两份饭还在里面，后面几项支出一点也没有少。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000168",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "第二天睡醒，师匠打电话来问，有一批机器和配件要清点，下午四点到七点，临时按工时结账。我打开自己的账，前几天买错又浪费的两份饭还在里面，后面几项支出一点也没有少。"
+      }
+    },
+    {
+      "id": "T-HQ-000464",
+      "file": "scenario/黄球球-门后.md",
+      "category": "知情边界",
+      "reason": "门外的文文看不见她摇头。",
+      "sourceOldIds": [
+        "T-HQ-000185"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000464",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "她直接摇头。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000464",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "门里很快传来她的回答。"
+      }
+    },
+    {
+      "id": "T-HQ-000187",
+      "file": "scenario/黄球球-门后.md",
+      "category": "知情边界",
+      "reason": "保留拒绝与等待的后果，删除隔门不可见的收纸动作。",
+      "sourceOldIds": [
+        "T-HQ-000187"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000187",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我没能回答。她把第45天那张纸折起来，放进抽屉，没有扔，也没有再挂到门边。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000187",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我没能回答。门一直没有开，我也没有再敲。"
+      }
+    },
+    {
+      "id": "T-HQ-000569",
+      "file": "scenario/黄球球-门后.md",
+      "category": "人称",
+      "reason": "黄球球说的是文文当天的难受；此时已在屋内见面。",
+      "sourceOldIds": [
+        "T-HQ-000307"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000569",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "offscreen",
+          "group": null
+        },
+        "text": "我们已经分开。不是今天我不好过，就要从头谈一遍。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000569",
+          "kind": "dialogue",
+          "speaker": "huangqiuqiu",
+          "name": "黄球球",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我们已经分开。不是今天你不好过，就要从头谈一遍。"
+      }
+    },
+    {
+      "id": "T-HQ-000314",
+      "file": "scenario/黄球球-门后.md",
+      "category": "衔接",
+      "reason": "非AA没有去后院，接下来的倾诉由打给毛狼的电话承接。",
+      "sourceOldIds": [
+        "T-HQ-000314"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-HQ-000314",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我在出租屋坐到天黑。几次想去后院，最后把那只杯子洗好，倒了水，自己喝了一口。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-HQ-000314",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我在出租屋坐到天黑。几次想去后院，最后把那只杯子洗好，倒了水，自己喝了一口。我给毛狼打了电话。"
+      }
+    },
+    {
+      "id": "T-EPH-000042",
+      "file": "scenario/后日谈-他们的日子.md",
+      "category": "重复",
+      "reason": "下一段已经写出邀约，不先转述一遍。",
+      "sourceOldIds": [
+        "T-EPH-000005"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-EPH-000042",
+          "kind": "narration",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "从我回毕节算，约半年以后，飘自己在群里问毛狼周末有没有空。她要回来核几页旧记录，想约他吃东西。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-EPH-000042",
+          "kind": "narration",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "从我回毕节算，约半年以后，飘在群里点了毛狼的名字。"
+      }
+    },
+    {
+      "id": "T-EPH-000074",
+      "file": "scenario/后日谈-他们的日子.md",
+      "category": "衔接",
+      "reason": "保留原稿另一次晚饭的转换；文字消息为席间回看，不与眼前饭桌同时发生。",
+      "sourceOldIds": [
+        "T-EPH-000013"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-EPH-000074",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "毛狼吃了两口，自己接着讲，没有换成哪个老板多怕他的故事。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-EPH-000074",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "毛狼吃了两口，自己接着讲，没有换成哪个老板多怕他的故事。说起后来另一次晚饭，飘翻出当时发给他的消息。"
+      }
+    },
+    {
+      "id": "T-EPH-000123",
+      "file": "scenario/后日谈-他们的日子.md",
+      "category": "时序",
+      "reason": "两年后饭桌正在回述决定经过，不是现场再次求婚。",
+      "sourceOldIds": [
+        "T-EPH-000031"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-EPH-000123",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "最后是我又把结婚的事提起来。现在愿不愿意按已经商量过的日子过？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-EPH-000123",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "最后是我又把结婚的事提起来。我问他，愿不愿意按已经商量过的日子过。"
+      }
+    },
+    {
+      "id": "T-EPH-000124",
+      "file": "scenario/后日谈-他们的日子.md",
+      "category": "时序",
+      "reason": "保持对先前决定的回述。",
+      "sourceOldIds": [
+        "T-EPH-000031"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-EPH-000124",
+          "kind": "dialogue",
+          "speaker": "maolang",
+          "name": "毛狼",
+          "channel": "face",
+          "group": null
+        },
+        "text": "愿意。你是不是真的想好了？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-EPH-000124",
+          "kind": "dialogue",
+          "speaker": "maolang",
+          "name": "毛狼",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我说愿意，又问她是不是真的想好了。"
+      }
+    },
+    {
+      "id": "T-EPH-000125",
+      "file": "scenario/后日谈-他们的日子.md",
+      "category": "时序",
+      "reason": "明确此句是回述当时的回应。",
+      "sourceOldIds": [
+        "T-EPH-000031"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-EPH-000125",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我问你，就是我的意思。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-EPH-000125",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null
+        },
+        "text": "我就跟他说，问你，就是我的意思。"
+      }
+    },
+    {
+      "id": "T-FR-000308",
+      "file": "scenario/朋友与职业-夜班.md",
+      "category": "重复",
+      "reason": "后面保留师匠指向文文的揭示，不提前重复。",
+      "sourceOldIds": [
+        "T-FR-000013"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-FR-000308",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "客人说看错了，转身就走。师匠叫住他，等他回头，却指了指我。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-FR-000308",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "客人说看错了，转身就走。师匠叫住他，等他回头。"
+      }
+    },
+    {
+      "id": "T-FR-000331",
+      "file": "scenario/朋友与职业-夜班.md",
+      "category": "知情边界",
+      "reason": "买家当面向文文提议，不凭空知道他的名字。",
+      "sourceOldIds": [
+        "T-FR-000038"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-FR-000331",
+          "kind": "dialogue",
+          "speaker": "shop-buyer-fr",
+          "name": "来看店的人",
+          "channel": "face",
+          "group": null
+        },
+        "text": "如果文文愿意，装修时有些零活也可以另外谈，但不是原来的工作。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-FR-000331",
+          "kind": "dialogue",
+          "speaker": "shop-buyer-fr",
+          "name": "来看店的人",
+          "channel": "face",
+          "group": null
+        },
+        "text": "你要是愿意，装修时有些零活也可以另外谈，但不是原来的工作。"
+      }
+    },
+    {
+      "id": "T-FR-000489",
+      "file": "scenario/朋友与职业-夜班.md",
+      "category": "媒介",
+      "reason": "拆店现场两人正在一起看猫的照片，发图后当面商量洗印。",
+      "sourceOldIds": [
+        "T-FR-000217"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-FR-000489",
+          "kind": "message",
+          "speaker": "shijiang",
+          "name": "师匠",
+          "channel": "text",
+          "group": null
+        },
+        "text": "附近有没有能洗照片的店？"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-FR-000489",
+          "kind": "dialogue",
+          "speaker": "shijiang",
+          "name": "师匠",
+          "channel": "face",
+          "group": null
+        },
+        "text": "附近有没有能洗照片的店？"
+      }
+    },
+    {
+      "id": "T-FR-000490",
+      "file": "scenario/朋友与职业-夜班.md",
+      "category": "媒介",
+      "reason": "拆店现场两人正在一起看猫的照片，发图后当面商量洗印。",
+      "sourceOldIds": [
+        "T-FR-000217"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-FR-000490",
+          "kind": "message",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "text",
+          "group": null
+        },
+        "text": "有，等新店班次定稳就去。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-FR-000490",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null
+        },
+        "text": "有，等新店班次定稳就去。"
+      }
+    },
+    {
+      "id": "T-FR-000491",
+      "file": "scenario/朋友与职业-夜班.md",
+      "category": "媒介",
+      "reason": "拆店现场两人正在一起看猫的照片，发图后当面商量洗印。",
+      "sourceOldIds": [
+        "T-FR-000217"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-FR-000491",
+          "kind": "message",
+          "speaker": "shijiang",
+          "name": "师匠",
+          "channel": "text",
+          "group": null
+        },
+        "text": "留着原图，别用聊天里压小的那张。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-FR-000491",
+          "kind": "dialogue",
+          "speaker": "shijiang",
+          "name": "师匠",
+          "channel": "face",
+          "group": null
+        },
+        "text": "留着原图，别用聊天里压小的那张。"
+      }
+    },
+    {
+      "id": "T-FR-000508",
+      "file": "scenario/朋友与职业-夜班.md",
+      "category": "衔接",
+      "reason": "毛狼先打电话，师匠再回消息，不能统称两条回复。",
+      "sourceOldIds": [
+        "T-FR-000231"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-FR-000508",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我看着两条回复，把原先想发的解释删掉。工作落实了，他们却没有因此同时回到原来的位置。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-FR-000508",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我听过毛狼的话，又看着师匠的回复，把原先想发的解释删掉。工作落实了，他们却没有因此同时回到原来的位置。"
+      }
+    },
+    {
+      "id": "T-FR-000519",
+      "file": "scenario/朋友与职业-夜班.md",
+      "category": "衔接",
+      "reason": "补齐到新店的动作，姓名从此时才明确。",
+      "sourceOldIds": [
+        "T-FR-000239"
+      ],
+      "expected": {
+        "meta": {
+          "id": "T-FR-000519",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "第63天，新老板姓李。"
+      },
+      "replacement": {
+        "meta": {
+          "id": "T-FR-000519",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "第63天，我到新店报到。新老板姓李。"
+      }
+    }
+  ],
+  "insertBefore": [
+    {
+      "beforeId": "T-PI-000711",
+      "file": "scenario/飘-空白页.md",
+      "category": "衔接",
+      "reason": "恢复原稿T-PI-000195的拨号动作，电话对白才有起点。",
+      "sourceOldIds": [
+        "T-PI-000195"
+      ],
+      "entry": {
+        "meta": {
+          "id": "T-PI-000832",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "我先给修鞋师傅打电话。"
+      }
+    },
+    {
+      "beforeId": "T-HQ-000573",
+      "file": "scenario/黄球球-门后.md",
+      "category": "衔接",
+      "reason": "恢复原稿T-HQ-000312的AA专属赴约与开门，不把同场台词直接接在收消息后。",
+      "sourceOldIds": [
+        "T-HQ-000312"
+      ],
+      "entry": {
+        "meta": {
+          "id": "T-HQ-000599",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "那天原本约好上班前见面。我没有取消，也没把行李带过去。她给我开了门。"
+      }
+    },
+    {
+      "beforeId": "T-HQ-000580",
+      "file": "scenario/黄球球-门后.md",
+      "category": "衔接",
+      "reason": "恢复原稿T-HQ-000321的既定见面时间和进门，不新增约会。",
+      "sourceOldIds": [
+        "T-HQ-000321"
+      ],
+      "entry": {
+        "meta": {
+          "id": "T-HQ-000600",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null
+        },
+        "text": "下午四点半，我按昨晚约好的时间到后院。黄球球开门，先看了看我的眼睛。"
+      }
+    }
+  ],
+  "notes": [
+    {
+      "file": "scenario/第一章-回到毕节.md",
+      "expected": "> 本章6处选择，各读一项后接共同段。除记录三拍会影响黄球球线入口外，其余选择只改变当前交流，不锁定人物路线。",
+      "replacement": "> 本章6处选择，各读一项后接共同段。记录三拍影响黄球球线入口；C01-06记录飘的关系值，A增加10分，B减少5分。其余选择只改变当前交流；本章不锁定人物路线。",
+      "reason": "补齐已有的飘关系计分说明，不改变计分。"
+    },
+    {
+      "file": "scenario/第二章-十四天.md",
+      "expected": "> 本章9处选择，其中回应敲门与正式相识中的交流仅在对应前置成立时阅读。新增选择不改离开计划、拍卖日期或选线结果；A／B各读一项。C02-09的A增加飘好感10分，B减少5分，此后冻结飘的关系结果。",
+      "replacement": "> 本章9处选择，其中回应敲门与正式相识中的交流仅在对应前置成立时阅读。新增选择不改离开计划、拍卖日期或选线结果；A／B各读一项。C02-08与C02-09分别记录飘的关系值，均为A增加10分、B减少5分；C02-09结束后冻结关系结果。",
+      "reason": "补齐C02-08，冻结时点仍为C02-09之后。"
+    }
+  ]
+}

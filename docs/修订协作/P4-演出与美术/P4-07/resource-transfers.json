@@ -1,0 +1,435 @@
+{
+  "version": "sui-p4-07-20261104-v7",
+  "policy": "逐字节采用；不重新缩放/压缩，不覆盖旧文件",
+  "transfers": [
+    {
+      "assetId": "bg-bridge-shaobing-dusk",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-bridge-shaobing-dusk.webp",
+        "sha256": "773fae67abf508a3d3e0d191ecd29bf4a1a89bd06a07875bc891d99eaf78c2c6"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-bridge-shaobing-dusk.webp",
+        "sha256": "773fae67abf508a3d3e0d191ecd29bf4a1a89bd06a07875bc891d99eaf78c2c6"
+      }
+    },
+    {
+      "assetId": "bg-guiyang-bus-stop-day",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-guiyang-bus-stop-day.webp",
+        "sha256": "55e5bde1fc6646b8a1a5ef2ebeeb14bd14134a93f7314263ae40fe1ff0c15a9b"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-guiyang-bus-stop-day.webp",
+        "sha256": "55e5bde1fc6646b8a1a5ef2ebeeb14bd14134a93f7314263ae40fe1ff0c15a9b"
+      }
+    },
+    {
+      "assetId": "bg-huisheng-306-operating-day",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-huisheng-306-operating-day.webp",
+        "sha256": "6b2a1fc44bebfafe8143e5989900a01a6ee38f7c56b3fd626fa2de161319cefb"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-huisheng-306-operating-day.webp",
+        "sha256": "6b2a1fc44bebfafe8143e5989900a01a6ee38f7c56b3fd626fa2de161319cefb"
+      }
+    },
+    {
+      "assetId": "bg-huisheng-corridor-operating-night",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-huisheng-corridor-operating-night.webp",
+        "sha256": "6fd13f14aad53a79f1f2ec46e34bf5663532732096a7875d7f4057c007fc6478"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-huisheng-corridor-operating-night.webp",
+        "sha256": "6fd13f14aad53a79f1f2ec46e34bf5663532732096a7875d7f4057c007fc6478"
+      }
+    },
+    {
+      "assetId": "bg-my-restaurant-eaves-rain",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-my-restaurant-eaves-rain.webp",
+        "sha256": "81d6f8ab06d4582eb9a8158c097e70e34e3471cfd0e112e181472e4a7c35a106"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-my-restaurant-eaves-rain.webp",
+        "sha256": "81d6f8ab06d4582eb9a8158c097e70e34e3471cfd0e112e181472e4a7c35a106"
+      }
+    },
+    {
+      "assetId": "bg-noodle-shop-evening",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-noodle-shop-evening.webp",
+        "sha256": "29ab52ae1086f155eab39434a8b6b12a87b03f5a39aacbef4a2c562d2def7d2a"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-noodle-shop-evening.webp",
+        "sha256": "29ab52ae1086f155eab39434a8b6b12a87b03f5a39aacbef4a2c562d2def7d2a"
+      }
+    },
+    {
+      "assetId": "bg-old-netcafe-backroom-neutral-day",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-old-netcafe-backroom-neutral-day.webp",
+        "sha256": "a48a5fec54aab42b4141b79858b490b3d3e3255da834092eeb2c6e3d6422acfc"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-old-netcafe-backroom-neutral-day.webp",
+        "sha256": "a48a5fec54aab42b4141b79858b490b3d3e3255da834092eeb2c6e3d6422acfc"
+      }
+    },
+    {
+      "assetId": "bg-old-netcafe-yard-door-closed-night",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-old-netcafe-yard-door-closed-night.webp",
+        "sha256": "3f04694b52f7afec607c8c1f3daa32fe5b0b4f18225fd5ac2eb25e805ac27f23"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-old-netcafe-yard-door-closed-night.webp",
+        "sha256": "3f04694b52f7afec607c8c1f3daa32fe5b0b4f18225fd5ac2eb25e805ac27f23"
+      }
+    },
+    {
+      "assetId": "bg-old-netcafe-yard-door-open-morning",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-old-netcafe-yard-door-open-morning.webp",
+        "sha256": "6299b5a983c0d3d718e615a928b17bfa35a5ac8f87adfcfaf6adf4056b4f5eec"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-old-netcafe-yard-door-open-morning.webp",
+        "sha256": "6299b5a983c0d3d718e615a928b17bfa35a5ac8f87adfcfaf6adf4056b4f5eec"
+      }
+    },
+    {
+      "assetId": "bg-performance-mall-side-stage-evening",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-performance-mall-side-stage-evening.webp",
+        "sha256": "65bd4cc235b05081526097de2816dcb05fd67b3950c153146b56508b8011d92f"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-performance-mall-side-stage-evening.webp",
+        "sha256": "65bd4cc235b05081526097de2816dcb05fd67b3950c153146b56508b8011d92f"
+      }
+    },
+    {
+      "assetId": "piao-seated-base",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/piao-seated-base.webp",
+        "sha256": "7d13723ba0fcd282b9622b89f9b72f1dfa9892cef8b45a0553be16cab0c1f6b4"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/piao-seated-base.webp",
+        "sha256": "7d13723ba0fcd282b9622b89f9b72f1dfa9892cef8b45a0553be16cab0c1f6b4"
+      }
+    },
+    {
+      "assetId": "bg-xiaoman-packing-interior",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-xiaoman-packing-interior.webp",
+        "sha256": "e0b2f5cd6537b61565250d338a91b158d0954005be1a01693763df416f0ffa33"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-xiaoman-packing-interior.webp",
+        "sha256": "e0b2f5cd6537b61565250d338a91b158d0954005be1a01693763df416f0ffa33"
+      }
+    },
+    {
+      "assetId": "char-xiaoman-work-apron-empty-hands",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/char-xiaoman-work-apron-empty-hands.webp",
+        "sha256": "c28c20abef3f44cc13c6be1f97f314ca5b277b1f2b8483b1de032d8a56e1d969"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/char-xiaoman-work-apron-empty-hands.webp",
+        "sha256": "c28c20abef3f44cc13c6be1f97f314ca5b277b1f2b8483b1de032d8a56e1d969"
+      }
+    },
+    {
+      "assetId": "bg-my-riverside-afternoon",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-my-riverside-afternoon.webp",
+        "sha256": "99f0830f8f37d23d6e609c8e0b376b650eed7fe4ffa903b039ed5fcb2bc0d293"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-my-riverside-afternoon.webp",
+        "sha256": "99f0830f8f37d23d6e609c8e0b376b650eed7fe4ffa903b039ed5fcb2bc0d293"
+      }
+    },
+    {
+      "assetId": "bg-guiyang-bus-stop-evening",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/bg-guiyang-bus-stop-evening.webp",
+        "sha256": "e21615c223934353fb1fb5f1b8e61e670da05587f59e89c98f535f227b7821d2"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/bg-guiyang-bus-stop-evening.webp",
+        "sha256": "e21615c223934353fb1fb5f1b8e61e670da05587f59e89c98f535f227b7821d2"
+      }
+    },
+    {
+      "assetId": "cg-pi-cg066",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-pi-cg066.webp",
+        "sha256": "4af93544c278c56d5ff0b3e3a9f271892dd58cb63f778b14a4bf691eacc9d1f1"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-pi-cg066.webp",
+        "sha256": "4af93544c278c56d5ff0b3e3a9f271892dd58cb63f778b14a4bf691eacc9d1f1"
+      }
+    },
+    {
+      "assetId": "cg-common-cg101",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-common-cg101.webp",
+        "sha256": "c0d01cf3dfb1b62d3f6ef9763f6d554287976404ad603b4c1c7aae6f4993a23e"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-common-cg101.webp",
+        "sha256": "c0d01cf3dfb1b62d3f6ef9763f6d554287976404ad603b4c1c7aae6f4993a23e"
+      }
+    },
+    {
+      "assetId": "cg-zz-cg025",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-zz-cg025.webp",
+        "sha256": "51506ab844f8f7983b9f2719775b5cfbccbbf027260b0495cc61ffc850627a39"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-zz-cg025.webp",
+        "sha256": "51506ab844f8f7983b9f2719775b5cfbccbbf027260b0495cc61ffc850627a39"
+      }
+    },
+    {
+      "assetId": "cg-hq-cg109",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-hq-cg109.webp",
+        "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-hq-cg109.webp",
+        "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380"
+      }
+    },
+    {
+      "assetId": "cg-common-cg110",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-common-cg110.webp",
+        "sha256": "5b9d11e8819b49b72c86fbd5e248ff870bebe86f6511a910145ed516435a3c52"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-common-cg110.webp",
+        "sha256": "5b9d11e8819b49b72c86fbd5e248ff870bebe86f6511a910145ed516435a3c52"
+      }
+    },
+    {
+      "assetId": "cg-common-cg111",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-common-cg111.webp",
+        "sha256": "9515fc7d9625689c4ea9428d486454fbb5658de40312ef2a8c28022167f4e57d"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-common-cg111.webp",
+        "sha256": "9515fc7d9625689c4ea9428d486454fbb5658de40312ef2a8c28022167f4e57d"
+      }
+    },
+    {
+      "assetId": "cg-xm-cg112",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-xm-cg112.webp",
+        "sha256": "c1112f24abab7bb3e0fce0662739af5a808122822df05b285cf1cd8f6125ca2b"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-xm-cg112.webp",
+        "sha256": "c1112f24abab7bb3e0fce0662739af5a808122822df05b285cf1cd8f6125ca2b"
+      }
+    },
+    {
+      "assetId": "cg-xm-cg113",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-xm-cg113.webp",
+        "sha256": "6c96c46d592cc169e1ec3081b6dc6bb16567985cdbd3e2bebebd2b1fd7f3094e"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-xm-cg113.webp",
+        "sha256": "6c96c46d592cc169e1ec3081b6dc6bb16567985cdbd3e2bebebd2b1fd7f3094e"
+      }
+    },
+    {
+      "assetId": "cg-xm-cg114",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-xm-cg114.webp",
+        "sha256": "95f071b5dc48471e7d51fd6d054480cd37319bce7cb8365e7a6d85da5fe89a9b"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-xm-cg114.webp",
+        "sha256": "95f071b5dc48471e7d51fd6d054480cd37319bce7cb8365e7a6d85da5fe89a9b"
+      }
+    },
+    {
+      "assetId": "cg-zz-cg115",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-zz-cg115.webp",
+        "sha256": "77e50b619deedcac7068e527ca8aec5c999a59a2efc357ae3771a3c81891e585"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-zz-cg115.webp",
+        "sha256": "77e50b619deedcac7068e527ca8aec5c999a59a2efc357ae3771a3c81891e585"
+      }
+    },
+    {
+      "assetId": "cg-zz-cg116",
+      "from": {
+        "path": "assets/sources/20261104/P4-07/CG116/cg116-dawn-v002.webp",
+        "sha256": "a4a62cacc266cc65aa9a7b17e315ec89e0adb560124b16494a44ed3d83efdbfb"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-zz-cg116.webp",
+        "sha256": "a4a62cacc266cc65aa9a7b17e315ec89e0adb560124b16494a44ed3d83efdbfb"
+      }
+    },
+    {
+      "assetId": "cg-zz-cg117",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-zz-cg117.webp",
+        "sha256": "d76cd88e5972927caaa32695ee7d9bdb55319bc5338b7ca6e23d90e80fe8e4bd"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-zz-cg117.webp",
+        "sha256": "d76cd88e5972927caaa32695ee7d9bdb55319bc5338b7ca6e23d90e80fe8e4bd"
+      }
+    },
+    {
+      "assetId": "cg-my-cg118",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-my-cg118.webp",
+        "sha256": "905a699547b1985d2a4fdcf7932cd8bb033a8b009b305796efad693de48a3a4c"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-my-cg118.webp",
+        "sha256": "905a699547b1985d2a4fdcf7932cd8bb033a8b009b305796efad693de48a3a4c"
+      }
+    },
+    {
+      "assetId": "cg-my-cg119",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-my-cg119.webp",
+        "sha256": "7471eaed8b18f38ffff3e75d13aba37717c6632cce61005de492a96b764f20c7"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-my-cg119.webp",
+        "sha256": "7471eaed8b18f38ffff3e75d13aba37717c6632cce61005de492a96b764f20c7"
+      }
+    },
+    {
+      "assetId": "cg-my-cg120",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-my-cg120.webp",
+        "sha256": "a5b8e1eb0e47d8a741efe7aed941e08f9a61a672c402ac6eb715b75d2200ec86"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-my-cg120.webp",
+        "sha256": "a5b8e1eb0e47d8a741efe7aed941e08f9a61a672c402ac6eb715b75d2200ec86"
+      }
+    },
+    {
+      "assetId": "cg-pi-cg121",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-pi-cg121.webp",
+        "sha256": "403b6540f0e02f57a79b3290fcf83aa2cfe859ebda1876bfe4fd0be2e0f6c21e"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-pi-cg121.webp",
+        "sha256": "403b6540f0e02f57a79b3290fcf83aa2cfe859ebda1876bfe4fd0be2e0f6c21e"
+      }
+    },
+    {
+      "assetId": "cg-pi-cg122",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-pi-cg122.webp",
+        "sha256": "c770d1e484ccff5824c92740558773b939f2cbd136aafbba3f75cd9b10fe6586"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-pi-cg122.webp",
+        "sha256": "c770d1e484ccff5824c92740558773b939f2cbd136aafbba3f75cd9b10fe6586"
+      }
+    },
+    {
+      "assetId": "cg-pi-cg123",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-pi-cg123.webp",
+        "sha256": "5788c310616b530384b5962b9bddad9ae12c6c709fceef82e89fc6b4809156f8"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-pi-cg123.webp",
+        "sha256": "5788c310616b530384b5962b9bddad9ae12c6c709fceef82e89fc6b4809156f8"
+      }
+    },
+    {
+      "assetId": "cg-hq-cg124",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-hq-cg124.webp",
+        "sha256": "ff42d33d8a8f6d0338867d32b3e27fd9b1cd1f04a67407495076f106c4334231"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-hq-cg124.webp",
+        "sha256": "ff42d33d8a8f6d0338867d32b3e27fd9b1cd1f04a67407495076f106c4334231"
+      }
+    },
+    {
+      "assetId": "cg-hq-cg125",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-hq-cg125.webp",
+        "sha256": "d0d09c59ba0d5b9de5e9c6ac68b0e9fa671c2f623d4e56952f4b9ed0b7514776"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-hq-cg125.webp",
+        "sha256": "d0d09c59ba0d5b9de5e9c6ac68b0e9fa671c2f623d4e56952f4b9ed0b7514776"
+      }
+    },
+    {
+      "assetId": "cg-hq-cg126",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-hq-cg126.webp",
+        "sha256": "e8149291852193f2b92aa1a196006d5aa692358d9c8e9fd5a46b806267f8a43a"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-hq-cg126.webp",
+        "sha256": "e8149291852193f2b92aa1a196006d5aa692358d9c8e9fd5a46b806267f8a43a"
+      }
+    },
+    {
+      "assetId": "cg-fr-cg127",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-fr-cg127.webp",
+        "sha256": "8758934c88dc44e3d6cefeec01e6372584a4708fbd584d491390a19037ed1e87"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-fr-cg127.webp",
+        "sha256": "8758934c88dc44e3d6cefeec01e6372584a4708fbd584d491390a19037ed1e87"
+      }
+    },
+    {
+      "assetId": "cg-fr-cg128",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-fr-cg128.webp",
+        "sha256": "5ea652f7ef246c030b6fab1806028df92faec7f4162af7c5ecc24dc72f22d3cb"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-fr-cg128.webp",
+        "sha256": "5ea652f7ef246c030b6fab1806028df92faec7f4162af7c5ecc24dc72f22d3cb"
+      }
+    },
+    {
+      "assetId": "cg-fr-cg129",
+      "from": {
+        "path": "assets/sources/20261103/P4-05/cg-fr-cg129.webp",
+        "sha256": "a4bf937327ec2e158e48b2b85dec000621265b391119b57c582e2d6a03f6ab2c"
+      },
+      "to": {
+        "path": "assets/current/P4-07-20261104/cg-fr-cg129.webp",
+        "sha256": "a4bf937327ec2e158e48b2b85dec000621265b391119b57c582e2d6a03f6ab2c"
+      }
+    }
+  ]
+}

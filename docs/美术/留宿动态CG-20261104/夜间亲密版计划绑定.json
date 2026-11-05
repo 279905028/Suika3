@@ -1,0 +1,661 @@
+{
+  "schemaVersion": 1,
+  "version": "v003",
+  "status": "candidate-review-complete",
+  "direction": "夜间双人镜头。正文已有的拥抱、靠肩与牵手。两人外套已脱，保留朴素内搭。",
+  "selectionPolicy": "夜间方案用于本轮制作。次晨首版和双人版仅供回看，同一次留宿只计划播放一段。",
+  "newReferenceUploads": [
+    {
+      "assetId": "bg-wenwen-bijie-rental-night",
+      "runtimePath": "assets/current/SUI-A08/bg-wenwen-bijie-rental-night.webp",
+      "runtimeSha256": "8901da80d33186e5519ca6e8fdc4eb93c6a2b53d0c48bdc59dd6d422082bda13",
+      "uploadStatus": "uploaded",
+      "canvasNodeId": "node_vrgfk67k0t"
+    },
+    {
+      "assetId": "bg-zhouzhi-bijie-home-night",
+      "runtimePath": "assets/current/SUI-A08/bg-zhouzhi-bijie-home-night.webp",
+      "runtimeSha256": "a2134730d7c2de68508da5bcb41a79273724d3fccfa369904c4f2a271533beb3",
+      "uploadStatus": "uploaded",
+      "canvasNodeId": "node_z0f4e3wd69"
+    },
+    {
+      "assetId": "bg-zhouzhi-guiyang-home-night",
+      "runtimePath": "assets/current/SUI-A08/bg-zhouzhi-guiyang-home-night.webp",
+      "runtimeSha256": "15a23aca189a3559663bcd09fe208c0fb9ff5bd192c0e3af1be649ea6a0fa44c",
+      "uploadStatus": "uploaded",
+      "canvasNodeId": "node_k4c72bqar9"
+    },
+    {
+      "assetId": "bg-piao-bijie-room-night",
+      "runtimePath": "assets/current/SUI-A08/bg-piao-bijie-room-night.webp",
+      "runtimeSha256": "b8fbd525daf37393ef3845db76daaa80821fbf3e7d78ccfceddfd23422ae3678",
+      "uploadStatus": "uploaded",
+      "canvasNodeId": "node_xwp1xxkahh"
+    },
+    {
+      "assetId": "bg-huangqiuqiu-room-night",
+      "runtimePath": "assets/current/SUI-A08/bg-huangqiuqiu-room-night.webp",
+      "runtimeSha256": "d1ce98a0935a89e25ab364f97f15697e33a5a99af80e6d4cf494b79b2f8de2de",
+      "uploadStatus": "uploaded",
+      "canvasNodeId": "node_8v8fw730p1"
+    }
+  ],
+  "playback": {
+    "durationSeconds": 5,
+    "width": 1280,
+    "height": 720,
+    "format": "MP4 H.264",
+    "audio": "silent",
+    "placement": "当前正文页，播完停在尾帧，等玩家确认",
+    "fallback": "成片终验后导出同镜首帧，未具备视频或静帧时保持现有正文页画面",
+    "adopted": false,
+    "review": "全片确认两人可辨、内搭符合分镜、实际接触可见、夜间光源连贯。逐镜叠框，有遮挡时全画面播放并恢复同页正文。"
+  },
+  "items": [
+    {
+      "key": "OV-XM45",
+      "title": "第45天 · 放下饭盒后抱住她",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000269_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "3da3129435a8618c8666c92d5d993ee0389652e4ec227ab12d75e0ce3138fd4c"
+      },
+      "sourceLine": 1542,
+      "sourceAction": "这次她说得没有平时响。我把饭盒挪到桌上，才抱住她。窗帘没拉严，她伸手去够，我先起身拉上，回来时她已经把鞋摆到了床边。",
+      "condition": "XM07-01=A",
+      "entryRequires": [],
+      "earlierMorningAnchor": "T-XM-000271_1",
+      "references": {
+        "heroineExisting": "char-xiaoman-base",
+        "wenwenExisting": "wenwen-approved-basis",
+        "nightRoom": "bg-wenwen-bijie-rental-night"
+      },
+      "heroineClothes": "米白圆领棉质内搭",
+      "shot": "从床边侧面看见小满和文文两张脸。桌边已经有饭盒。文文转回身，轻轻抱住小满，两人的肩和手臂贴合，停在抱住的姿势。窗帘与床沿维持在背景。镜头到拥抱结束，不连拍起身或拉窗帘。",
+      "prompt": "从床边侧面看见小满和文文两张脸。桌边已经有饭盒。文文转回身，轻轻抱住小满，两人的肩和手臂贴合，停在抱住的姿势。窗帘与床沿维持在背景。镜头到拥抱结束，不连拍起身或拉窗帘。女主衣着为米白圆领棉质内搭。五秒、16:9、固定第三人称双人夜景，文文与女主从开场即同框。文文金黄色短寸、黑眉、圆脸可辨，穿米白圆领棉T和深色家常长裤。两位角色在开场已脱下外套，身上只有完整朴素的内搭与家常长裤。角色立绘仅参考脸型、头发和角色识别特征，明确排除牛仔外套、夹克、连帽衫、外出衬衣、硬领、拉链和鞋。镜头中不表演脱衣。保留两人自然的肢体距离和正文已有的接触。动作开始、接触和停住连续可见，手臂与手归属明确。夜景房间参考用于布局和光向，脸和接触处留柔和夜光。采用 Live2D 式微动效。胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按动作偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有很缓的呼吸感。微动衬托主动作。为下方文字框留白，无对白、音乐、文字、水印或切镜。",
+      "status": "candidate",
+      "canvasNodeId": "node_8j2dwgjbmq",
+      "result": {
+        "version": "v003",
+        "submitId": "03a1de0c-9f63-42e0-8fae-def896d6232b",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-XM45",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/raw-v003.mp4",
+            "bytes": 6578508,
+            "sha256": "7e808ee96c3ac05b07f46dcb118d4fa1f401c433d982e2605449979a26baf763",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/runtime-v003.mp4",
+            "bytes": 1078152,
+            "sha256": "5327ada9407fe9c43df2cd17be8668642a84e3550fe0de9fba7980b799ebc6ef",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/first-v003.webp",
+            "bytes": 525174,
+            "sha256": "d2bebb7a8bb94535339c204dba4e806dab6da8ce2b65719a130dd12bc0a20954"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/last-v003.webp",
+            "bytes": 614750,
+            "sha256": "dbea2ad97f088526a0fa5e0df4cc77f4b997ef87dfb8ab8b2490ed577f12163b"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-XM45/v003/contact-sheet.jpg",
+            "bytes": 169103,
+            "sha256": "c804a3ffd85aa9f9c1716d748af0efffcb4997b468abfdc86ec25dbd918cb34b"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-XM45/v003/ui-overlay.jpg",
+        "resourceId": "70d6ea53-5d59-47df-9011-2e44faad77dc",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "indoorClothes": true,
+        "contactVisible": true,
+        "presentation": "with-text",
+        "finding": "文文与小满都穿素色短袖，床边由对视过渡到双臂拥抱，保留毕节租屋夜景。正文的饭盒只留作背景，镜头聚焦拥抱。"
+      },
+      "plannedMedia": {
+        "runtime": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/runtime-v003.mp4",
+        "staticFallback": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/first-v003.webp",
+        "endFrame": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/last-v003.webp",
+        "presentation": "with-text"
+      }
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "title": "毕节 · 拥抱后关灯",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000763_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "59fef8c134a1219cd27f06000359e482367c57d4ce42e921eacefe59eb23a646"
+      },
+      "sourceLine": 1624,
+      "sourceAction": "我伸手抱住她。窗外经过一辆车，光从窗帘下面扫过去，她把灯关了。",
+      "condition": "ZZ06-01=A",
+      "entryRequires": [],
+      "earlierMorningAnchor": "T-ZZ-000764_1",
+      "references": {
+        "heroineExisting": "char-zhouzhi-human-base",
+        "wenwenExisting": "wenwen-approved-basis",
+        "nightRoom": "bg-zhouzhi-bijie-home-night"
+      },
+      "heroineClothes": "深青素色柔软内搭",
+      "shot": "床边侧面中近景，周栀和文文面对面。文文伸手抱住她，周栀在怀里稍微松下肩膀，两人的侧脸始终留在画面上部。窗帘底部掠过一道车灯。最后灯暗下来，保留微弱的窗边光让轮廓可见。",
+      "prompt": "床边侧面中近景，周栀和文文面对面。文文伸手抱住她，周栀在怀里稍微松下肩膀，两人的侧脸始终留在画面上部。窗帘底部掠过一道车灯。最后灯暗下来，保留微弱的窗边光让轮廓可见。女主衣着为深青素色柔软内搭。五秒、16:9、固定第三人称双人夜景，文文与女主从开场即同框。文文金黄色短寸、黑眉、圆脸可辨，穿米白圆领棉T和深色家常长裤。两位角色在开场已脱下外套，身上只有完整朴素的内搭与家常长裤。角色立绘仅参考脸型、头发和角色识别特征，明确排除牛仔外套、夹克、连帽衫、外出衬衣、硬领、拉链和鞋。镜头中不表演脱衣。保留两人自然的肢体距离和正文已有的接触。动作开始、接触和停住连续可见，手臂与手归属明确。夜景房间参考用于布局和光向，脸和接触处留柔和夜光。采用 Live2D 式微动效。胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按动作偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有很缓的呼吸感。微动衬托主动作。为下方文字框留白，无对白、音乐、文字、水印或切镜。",
+      "status": "candidate",
+      "canvasNodeId": "node_9cd32vw49h",
+      "result": {
+        "version": "v003",
+        "submitId": "8b7701bb-1ff1-40c9-9c85-c25b793eb4b6",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-ZZ-BJ",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/raw-v003.mp4",
+            "bytes": 8832546,
+            "sha256": "c67a608172bfbe7020d7774aef85cab8d22441ce3b4821c7207cda9a91d50792",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/runtime-v003.mp4",
+            "bytes": 1644268,
+            "sha256": "dc53a714eb35d495d27de0ae788a27ca91fd4048620d9bea6726bca9cdb34ac4",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/first-v003.webp",
+            "bytes": 458268,
+            "sha256": "933e3f72ef2a04a621f79deae5c5983acf6e5e6a2de5a547e37cae500785515b"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/last-v003.webp",
+            "bytes": 362930,
+            "sha256": "ece1e5456a87d47d9da52ed3c975a52a29d2b0224525a797576ae22fa84bb2b8"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-ZZ-BJ/v003/contact-sheet.jpg",
+            "bytes": 148831,
+            "sha256": "bfc440d36ef6348b5e8b96732b292f7228afcb15945f6212a5b769ddbaaddc7f"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-ZZ-BJ/v003/ui-overlay.jpg",
+        "resourceId": "e3a951f4-d89a-4416-bea7-2ba2c5f7f64a",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "indoorClothes": true,
+        "contactVisible": true,
+        "presentation": "with-text",
+        "finding": "文文穿米白短袖，周栀穿深色软质内搭。双方拥抱，窗外车灯掠过，末尾屋内变暗，侧脸仍可辨认。画面表现关灯的明暗变化，开关动作未入镜。"
+      },
+      "plannedMedia": {
+        "runtime": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/runtime-v003.mp4",
+        "staticFallback": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/first-v003.webp",
+        "endFrame": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/last-v003.webp",
+        "presentation": "with-text"
+      }
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "title": "贵阳 · 额头抵上肩头",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000932_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "b50d9eefb2624917ebfd679dea1a640b37077fc90944e6decc5356fb04744050"
+      },
+      "sourceLine": 2495,
+      "sourceAction": "她按掉，把手机放到床头，翻身过来，额头抵在我肩上。",
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "entryRequires": [],
+      "earlierMorningAnchor": "T-ZZ-000933_1",
+      "references": {
+        "heroineExisting": "char-zhouzhi-human-base",
+        "wenwenExisting": "wenwen-approved-basis",
+        "nightRoom": "bg-zhouzhi-guiyang-home-night"
+      },
+      "heroineClothes": "深青素色柔软内搭",
+      "shot": "床边偏侧双人近景。周栀把已经按掉的手机放在床头，屏幕暗下，翻过身把额头抵在文文肩上。文文侧脸朝她转一点，最后停在清楚可见的额头与肩部接触。光源是关灯后窗边余光。",
+      "prompt": "床边偏侧双人近景。周栀把已经按掉的手机放在床头，屏幕暗下，翻过身把额头抵在文文肩上。文文侧脸朝她转一点，最后停在清楚可见的额头与肩部接触。光源是关灯后窗边余光。女主衣着为深青素色柔软内搭。五秒、16:9、固定第三人称双人夜景，文文与女主从开场即同框。文文金黄色短寸、黑眉、圆脸可辨，穿米白圆领棉T和深色家常长裤。两位角色在开场已脱下外套，身上只有完整朴素的内搭与家常长裤。角色立绘仅参考脸型、头发和角色识别特征，明确排除牛仔外套、夹克、连帽衫、外出衬衣、硬领、拉链和鞋。镜头中不表演脱衣。保留两人自然的肢体距离和正文已有的接触。动作开始、接触和停住连续可见，手臂与手归属明确。夜景房间参考用于布局和光向，脸和接触处留柔和夜光。采用 Live2D 式微动效。胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按动作偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有很缓的呼吸感。微动衬托主动作。为下方文字框留白，无对白、音乐、文字、水印或切镜。",
+      "status": "candidate",
+      "canvasNodeId": "node_ynte9hf43z",
+      "result": {
+        "version": "v003",
+        "submitId": "b13ea7f2-f083-4668-84fe-87afa66d9a0f",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-ZZ-GY",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/raw-v003.mp4",
+            "bytes": 7287463,
+            "sha256": "e864eb29fc4778b0fef2a0be12b780cabc33c5ed2d531d20b82bc7e8336e43cd",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/runtime-v003-framed.mp4",
+            "bytes": 1188247,
+            "sha256": "04f686cce6b2c866368d8e2d546b589cb3e348ac7168e9223af6ebac6f3d0e91",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/first-v003.webp",
+            "bytes": 511932,
+            "sha256": "303b6e86c41f5f4d34c84111b8a573a44e21c7007516bcdd4ef2cbaa8842d744"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/last-v003.webp",
+            "bytes": 554490,
+            "sha256": "de1cf179bd8e513587ff4dfcbc8fe89471610610f11bb26d4694fa9e0654ed32"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-ZZ-GY/v003/contact-sheet.jpg",
+            "bytes": 146367,
+            "sha256": "dff96e78a22c743c3a22dc2ab4641657631ef86f06dc92683df41d82a124e1ae"
+          },
+          "framing": {
+            "crop": [
+              52,
+              30,
+              1176,
+              660
+            ],
+            "reason": "去除原片固定的上下白边"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-ZZ-GY/v003/ui-overlay.jpg",
+        "resourceId": "daa41fa4-d801-462a-8a2f-66e7c35e4f0a",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "indoorClothes": true,
+        "contactVisible": true,
+        "presentation": "full-frame-then-restore-text",
+        "finding": "两人穿朴素室内衣着。周栀放下手机，坐着倚向文文肩侧，两人额侧相贴。未呈现正文的翻身，手机放下后屏幕仍亮。静音候选裁去原片上下固定白边。"
+      },
+      "plannedMedia": {
+        "runtime": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/runtime-v003-framed.mp4",
+        "staticFallback": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/first-v003.webp",
+        "endFrame": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/last-v003.webp",
+        "presentation": "full-frame-then-restore-text"
+      }
+    },
+    {
+      "key": "OV-MY56",
+      "title": "第56天 · 夜里握手又松开",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000253_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "b89a50cc2bf9da71f1949772e451bd45da38fbd5a3a2bcaf63d75416dff8107c"
+      },
+      "sourceLine": 1292,
+      "sourceAction": "灯关以后，窗外那盏路灯把墙照出一小片黄。我们说了几句很小的话，后来没有再说。夜里我醒过一次，她摸到我的手，握了一会儿，又松开。",
+      "condition": "MY07-01=A",
+      "entryRequires": [],
+      "earlierMorningAnchor": "T-MY-000437_1",
+      "references": {
+        "heroineExisting": "char-mengyao-human-casual-jacket",
+        "wenwenExisting": "wenwen-approved-basis",
+        "nightRoom": "bg-wenwen-bijie-rental-night"
+      },
+      "heroineClothes": "炭灰素色圆领内搭",
+      "shot": "灯已经关了，墙上有窗外路灯投来的一小片暖黄。第三人称床侧斜拍，文文夜里睁开眼。孟遥摸到他的手，握住一会儿再慢慢松开，两个侧脸和手都能看清。亲近里保留犹豫，停在松开后的短暂安静。",
+      "prompt": "灯已经关了，墙上有窗外路灯投来的一小片暖黄。第三人称床侧斜拍，文文夜里睁开眼。孟遥摸到他的手，握住一会儿再慢慢松开，两个侧脸和手都能看清。亲近里保留犹豫，停在松开后的短暂安静。女主衣着为炭灰素色圆领内搭。五秒、16:9、固定第三人称双人夜景，文文与女主从开场即同框。文文金黄色短寸、黑眉、圆脸可辨，穿米白圆领棉T和深色家常长裤。两位角色在开场已脱下外套，身上只有完整朴素的内搭与家常长裤。角色立绘仅参考脸型、头发和角色识别特征，明确排除牛仔外套、夹克、连帽衫、外出衬衣、硬领、拉链和鞋。镜头中不表演脱衣。保留两人自然的肢体距离和正文已有的接触。动作开始、接触和停住连续可见，手臂与手归属明确。夜景房间参考用于布局和光向，脸和接触处留柔和夜光。采用 Live2D 式微动效。胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按动作偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有很缓的呼吸感。微动衬托主动作。为下方文字框留白，无对白、音乐、文字、水印或切镜。",
+      "status": "candidate",
+      "canvasNodeId": "node_z5etgw765p",
+      "result": {
+        "version": "v003",
+        "submitId": "29b8039f-6f80-4c20-ac5c-f59f98b25cd6",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-MY56",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/raw-v003.mp4",
+            "bytes": 4577104,
+            "sha256": "70152d22a1223d3175d331bbcbd085e74e7f3475ca57a3230409add372a4762e",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/runtime-v003.mp4",
+            "bytes": 724848,
+            "sha256": "396a2432b9512336a09c4b2d29b00381729ea10e8fbc7df4e30bcc0153cf269f",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/first-v003.webp",
+            "bytes": 397516,
+            "sha256": "efe0d99187afd8a34fdba6387953d0db948b79cf913163c9332917ec5a256452"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/last-v003.webp",
+            "bytes": 516430,
+            "sha256": "6987f5049cc84befc2f6ca122d1f36bfa414b2644fd9d0d2b7bfbc9ef1456e1e"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-MY56/v003/contact-sheet.jpg",
+            "bytes": 140444,
+            "sha256": "66a8a39c9b9e3ca0afa93c1888ce824dff3b96853ccf3a81cdd9ad1a734cf424"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-MY56/v003/ui-overlay.jpg",
+        "resourceId": "3f0f063a-3909-400a-b4e5-fec5e2c437b2",
+        "disposition": "review-only-needs-action-fix",
+        "wenwenVisible": true,
+        "indoorClothes": true,
+        "contactVisible": false,
+        "presentation": "pending",
+        "finding": "两人穿素内搭在夜里并排躺着，暖黄路灯和双人侧脸符合场景。近景两条手臂都连向孟遥，成片变成她把一只手覆在自己另一只手上。正文里的握住文文的手并松开没有清楚呈现，本镜保留供审片，计划绑定暂不指向这份成片。"
+      },
+      "plannedMedia": {
+        "version": "v004",
+        "runtime": "assets/sources/20261105/留宿动态CG/OV-MY56/v004/runtime-v004.mp4",
+        "staticFallback": "assets/sources/20261105/留宿动态CG/OV-MY56/v004/first-v004.webp",
+        "endFrame": "assets/sources/20261105/留宿动态CG/OV-MY56/v004/last-v004.webp",
+        "presentation": "full-frame-then-restore-text"
+      },
+      "actionRetake": {
+        "version": "v004",
+        "status": "candidate",
+        "durationSeconds": 5,
+        "prompt": "固定第三人称镜头，从床脚一侧偏高斜拍。灯关着，窗外路灯在墙上留一小片暖黄。两位成年角色平躺在同一张床上，文文始终在画面左边，孟遥始终在画面右边。文文金黄色短寸、黑眉、圆脸，穿米白素短袖。孟遥穿炭灰素短袖。两人都已脱外套，衣着完整。两张脸和两条靠中间的前臂全程同框，关键接触落在画面中部。文文的右手连着从左侧米白袖口伸出的右前臂，手掌朝上放在两人之间。孟遥的左手连着从右侧炭灰袖口伸出的左前臂。两条前臂从各自袖口到手腕连续可见，中间留空，手没有交叉。每个人外侧那只手始终停在身体外侧画面之外。第0至1秒，文文睁眼，孟遥从右侧将左手缓缓移向左侧文文摊开的右手。第1至3.6秒，孟遥的手落到文文掌心，手指自然轻拢，文文的右手留在原处，两个袖口和腕部都看得见。第3.6至5秒，孟遥松开手指，左手向右撤回约一个掌宽。左侧文文的手仍留在原处，最后能看到两手之间重新出现空隙。无交叉、无十指交扣。脸型发型遵从两张角色参考，服饰以上述素短袖为准。采用 Live2D 式微动效。肩膀与胸腹有轻微呼吸，头发和衣摆慢半拍摆动，偶尔眨眼和极轻的眼神移动，镜头固定，暖色路灯光缓慢变化。安静、克制，无对白、配乐、字幕、文字、水印或切镜。",
+        "reviewGates": [
+          "文文米白袖口至右手连续可见",
+          "孟遥炭灰袖口至左手连续可见",
+          "手从分开到握住再到明确分开",
+          "双人同框与夜间素内搭符合当前版本"
+        ],
+        "canvasProjectId": "94f7886c-d771-4c06-a5b1-e7f843a439fa",
+        "canvasNodeId": "node_jk468cdmf4",
+        "quotedMaxCredits": 100,
+        "finding": "左侧文文的米白袖口可沿右前臂看到摊开的手，右侧孟遥的炭灰袖口可沿左前臂看到她伸手。约1.5秒手掌接触，停留至约3.5秒，4.5秒清楚分开。夜景、双人侧脸和素色内搭均可见。动作靠近文字框范围，登记为全画面播放，结束后恢复同页正文。",
+        "media": {
+          "key": "OV-MY56",
+          "original": {
+            "path": "assets/sources/20261105/留宿动态CG/OV-MY56/v004/raw-v004.mp4",
+            "bytes": 6123467,
+            "sha256": "c630295641e1f897286cbb573960bd65585b134f227bdad8eedf96f99fb44892",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261105/留宿动态CG/OV-MY56/v004/runtime-v004.mp4",
+            "bytes": 960254,
+            "sha256": "36ffa3962823ae62e91eaccd25875aad669d8ed76ede21bcbc851ae0b8e657c9",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261105/留宿动态CG/OV-MY56/v004/first-v004.webp",
+            "bytes": 480082,
+            "sha256": "55b16ea3786ca7c6adf178407e41789343828d0dc5e9f3aed6b0028949985cd1"
+          },
+          "last": {
+            "path": "assets/sources/20261105/留宿动态CG/OV-MY56/v004/last-v004.webp",
+            "bytes": 581534,
+            "sha256": "1207c923954a556fa5105b080166d9603fe706eafae30bcc9003dbab9edae4bd"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-MY56/v004/contact-sheet.jpg",
+            "bytes": 167113,
+            "sha256": "2e102fd38e09bc2ded61883f8b1ccea1e24f9edfdb68800285fd5550b862ae23"
+          }
+        },
+        "resourceId": "d7163dd5-afdd-424f-b32b-66c05afbdcaf"
+      }
+    },
+    {
+      "key": "OV-PI39",
+      "title": "第39天 · 雨声里重新牵手",
+      "route": "piao",
+      "anchor": {
+        "nodeId": "T-PI-000286_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "1438d0fb36996bebb5a3973ceed5f1ee2d1bfffa812bb6c7d9670a25acc7cb30"
+      },
+      "sourceLine": 1400,
+      "sourceAction": "那晚，我们先在矮桌旁吃完一碗太烫的粉。她把杯子挪开，腾出位置让我坐近些，后来又嫌那盏灯太亮。窗外雨密起来，我问要不要停，她摇头，把我的手重新牵回去。",
+      "condition": "PIAO_RELATION=HIGH",
+      "entryRequires": [],
+      "earlierMorningAnchor": "T-PI-000287_1",
+      "references": {
+        "heroineExisting": "piao-base",
+        "wenwenExisting": "wenwen-approved-basis",
+        "nightRoom": "bg-piao-bijie-room-night"
+      },
+      "heroineClothes": "素白短袖内搭",
+      "shot": "夜间矮桌旁，两人靠近坐着，桌上保留杯子和刚吃完粉的碗。窗外有雨，屋内是局部灯光。文文的手略停，飘轻轻摇头，主动把他的手牵回自己这边。两张侧脸与两只手持续同框，停在重新牵住的一刻。",
+      "prompt": "夜间矮桌旁，两人靠近坐着，桌上保留杯子和刚吃完粉的碗。窗外有雨，屋内是局部灯光。文文的手略停，飘轻轻摇头，主动把他的手牵回自己这边。两张侧脸与两只手持续同框，停在重新牵住的一刻。女主衣着为素白短袖内搭。五秒、16:9、固定第三人称双人夜景，文文与女主从开场即同框。文文金黄色短寸、黑眉、圆脸可辨，穿米白圆领棉T和深色家常长裤。两位角色在开场已脱下外套，身上只有完整朴素的内搭与家常长裤。角色立绘仅参考脸型、头发和角色识别特征，明确排除牛仔外套、夹克、连帽衫、外出衬衣、硬领、拉链和鞋。镜头中不表演脱衣。保留两人自然的肢体距离和正文已有的接触。动作开始、接触和停住连续可见，手臂与手归属明确。夜景房间参考用于布局和光向，脸和接触处留柔和夜光。采用 Live2D 式微动效。胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按动作偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有很缓的呼吸感。微动衬托主动作。为下方文字框留白，无对白、音乐、文字、水印或切镜。",
+      "status": "candidate",
+      "canvasNodeId": "node_k8mcdgk43e",
+      "result": {
+        "version": "v003",
+        "submitId": "e10b2a36-133e-43c0-8e7c-43b7f8f089aa",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-PI39",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/raw-v003.mp4",
+            "bytes": 7421380,
+            "sha256": "4a917e448b242f1d95f211df4a2718d1edbe09259f3fbab1f810608e9f575658",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/runtime-v003.mp4",
+            "bytes": 1147977,
+            "sha256": "88a8a4ee6fcf4527679afb8fba9cf4688ff5932cb360a6a9893719b809161286",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/first-v003.webp",
+            "bytes": 516578,
+            "sha256": "37a84f788d16315e99c26a47cfc59871fd28620173237937d591ad714f3c6084"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/last-v003.webp",
+            "bytes": 631072,
+            "sha256": "65743dc87f1cef8cd62227a0dbae89852b0e850c34d0abf998af529b73320828"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-PI39/v003/contact-sheet.jpg",
+            "bytes": 186430,
+            "sha256": "0159de894e40903ad21910d8e21eb23228f1bf53c43f27390babf0aae0124caf"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-PI39/v003/ui-overlay.jpg",
+        "resourceId": "1b53c79d-ca18-4f17-bb54-04f1d32f9310",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "indoorClothes": true,
+        "contactVisible": true,
+        "presentation": "full-frame-then-restore-text",
+        "finding": "两人穿白色素内搭，夜间矮桌旁同框。飘主动伸手覆上文文的手，两人的手转为相握。手部在文字框范围内，需全画面播放。"
+      },
+      "plannedMedia": {
+        "runtime": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/runtime-v003.mp4",
+        "staticFallback": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/first-v003.webp",
+        "endFrame": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/last-v003.webp",
+        "presentation": "full-frame-then-restore-text"
+      }
+    },
+    {
+      "key": "OV-HQ57",
+      "title": "第57天 · 手从袖口滑进掌心",
+      "route": "huangqiuqiu",
+      "anchor": {
+        "nodeId": "T-HQ-000486_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "fd92fa9deea51eae6efeaa57a228d49b5c232088c07b8e2d7ded39bc8d243b94"
+      },
+      "sourceLine": 1201,
+      "sourceAction": "她的手从袖口滑到我掌心。",
+      "condition": "ALL",
+      "entryRequires": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "earlierMorningAnchor": "T-HQ-000222_1",
+      "references": {
+        "heroineExisting": "sui-a06-human-neutral-v001",
+        "wenwenExisting": "wenwen-approved-basis",
+        "nightRoom": "bg-huangqiuqiu-room-night"
+      },
+      "heroineClothes": "米白素色短袖内搭，保留既有眼罩与颈饰",
+      "shot": "门内房间的沙发双人中近景，手机已放下。黄球球保持成年女性人形，靠在文文旁边。她的指尖从他米白短袖的袖缘轻轻滑向手掌，两只手自然握住。两人用很小的眼神变化回应彼此，停在掌心贴合。",
+      "prompt": "门内房间的沙发双人中近景，手机已放下。黄球球保持成年女性人形，靠在文文旁边。她的指尖从他米白短袖的袖缘轻轻滑向手掌，两只手自然握住。两人用很小的眼神变化回应彼此，停在掌心贴合。女主衣着为米白素色短袖内搭，保留既有眼罩与颈饰。五秒、16:9、固定第三人称双人夜景，文文与女主从开场即同框。文文金黄色短寸、黑眉、圆脸可辨，穿米白圆领棉T和深色家常长裤。两位角色在开场已脱下外套，身上只有完整朴素的内搭与家常长裤。角色立绘仅参考脸型、头发和角色识别特征，明确排除牛仔外套、夹克、连帽衫、外出衬衣、硬领、拉链和鞋。镜头中不表演脱衣。保留两人自然的肢体距离和正文已有的接触。动作开始、接触和停住连续可见，手臂与手归属明确。夜景房间参考用于布局和光向，脸和接触处留柔和夜光。采用 Live2D 式微动效。胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按动作偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有很缓的呼吸感。微动衬托主动作。为下方文字框留白，无对白、音乐、文字、水印或切镜。",
+      "status": "candidate",
+      "canvasNodeId": "node_0aqk30n5sf",
+      "result": {
+        "version": "v003",
+        "submitId": "ce4339ab-d367-4952-912c-4138dcc26355",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-HQ57",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/raw-v003.mp4",
+            "bytes": 5478146,
+            "sha256": "da86de0988ef323d684496a949aa5e489648f31f507f882c36076cb4a5b6bd12",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/runtime-v003.mp4",
+            "bytes": 831075,
+            "sha256": "0314cb4c48d7d6003d39fd9bab67bdf25b417c749abdf852fe7507b0423e01bc",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/first-v003.webp",
+            "bytes": 471820,
+            "sha256": "71ddfc1770ba504994c90fd56508b1b7176654d539a9d099eabce669df44e8e4"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/last-v003.webp",
+            "bytes": 580968,
+            "sha256": "c105af074e6c8160f7783e40001f448833434d5ae129cd30e3ed6f5df33224fc"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-HQ57/v003/contact-sheet.jpg",
+            "bytes": 166215,
+            "sha256": "56bbdbedad96f79d2035474d103b31b0414c83d4ff5ed75e243ae026621cc136"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-HQ57/v003/ui-overlay.jpg",
+        "resourceId": "69728c09-0e29-484a-abff-90a20d376d76",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "indoorClothes": true,
+        "contactVisible": true,
+        "presentation": "full-frame-then-restore-text",
+        "finding": "夜景沙发双人同框，外套已脱，黄球球保留眼罩与颈饰。她的手从文文短袖袖缘移入掌心，随后两人对望。牵手靠画面下缘，需全画面播放。"
+      },
+      "plannedMedia": {
+        "runtime": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/runtime-v003.mp4",
+        "staticFallback": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/first-v003.webp",
+        "endFrame": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/last-v003.webp",
+        "presentation": "full-frame-then-restore-text"
+      }
+    }
+  ],
+  "canvasProjectId": "ea255834-7459-4096-b779-d72a4e905dae"
+}

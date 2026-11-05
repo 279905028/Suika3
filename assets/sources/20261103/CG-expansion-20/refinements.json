@@ -1,0 +1,43 @@
+{
+  "tool": "built-in image_gen",
+  "records": [
+    {
+      "cgId": "CG124",
+      "selectedVersion": "v002",
+      "rejectedVersion": "v001",
+      "reason": "橘子刀切面与剥橘瓣动作不符。",
+      "prompt": "只编辑第一张图的橘子：把黄球球手里和桌面上的两块刀切橙子，改为已经剥掉橘皮、沿橘瓣天然连接处分成的两簇橘瓣，保留薄白筋和完整瓣膜，绝不能有圆形刀切断面。手里是半个剥开的橘子，桌上是另外半个。其他角色形状、两只小手、表情、蓝凳、收音机、房间、光线与构图全部保持，仍为一张横幅游戏CG，没有文字。",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/CG124/cg124-v001.png",
+          "sha256": "26abd604cda1c677872d81fd28acc7f8682a4b60c83dd359e97af664f7fe6cec",
+          "bytes": 2021269
+        }
+      ]
+    },
+    {
+      "cgId": "CG125",
+      "selectedVersion": "v002",
+      "rejectedVersion": "v001",
+      "reason": "门内误生成为电脑机房，应为黄球球生活房间。",
+      "prompt": "局部修订第一张CG，只修正门内房间的背景：黄球球住的是后院普通生活房间，绝非网吧机房。移除门内所有电脑、电脑桌、办公椅和机箱，改成第二张参考图对应的旧沙发一角、木书架、矮木柜及普通收音机，生活室内的细节自然虚化。保持第一张中黄色球形黄球球、她举起的小手、文文前景背影与举手、门槛、门框、阳光和构图不变；黄球球必须一直在门槛里面，不能长腿、不能变成人。第三张是同一后院门的材质参考。无画内文字。",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/CG125/cg125-v001.png",
+          "sha256": "46a878e2b4cb21e2f0f3808372b26ae38ea8d49b198e63ad1c32a0d1debcac78",
+          "bytes": 2321949
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-huangqiuqiu-room-day.webp",
+          "sha256": "070568fb51f21178af3b18e8d089fb07b1f706e8374764e00cb13d25d303b4d3",
+          "bytes": 1825376
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-open-afternoon.webp",
+          "sha256": "24d3ba84b6535c7a295120572dafdeb45a905b161eee4a83320e18d2cb707995",
+          "bytes": 2222166
+        }
+      ]
+    }
+  ]
+}

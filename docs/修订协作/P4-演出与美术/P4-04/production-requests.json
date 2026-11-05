@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "p4-cg-production-requests-v1",
+  "taskId": "P4-04",
+  "status": "production-complete-awaiting-P4-05",
+  "requests": [
+    {
+      "cgId": "CG066",
+      "assetId": "cg-pi-cg066",
+      "needId": "P4-02-PI-N001",
+      "type": "cg",
+      "source": {
+        "path": "assets/sources/20261103/P4-04/CG066/cg066-v003.png",
+        "sha256": "70725f09b9bddf58945493469c6365e31d23908694a516061d0fb575578dc737",
+        "bytes": 2174346
+      },
+      "runtime": {
+        "path": "assets/sources/20261103/P4-04/CG066/cg066-v003.webp",
+        "sha256": "4af93544c278c56d5ff0b3e3a9f271892dd58cb63f778b14a4bf691eacc9d1f1",
+        "bytes": 1528130
+      },
+      "width": 1672,
+      "height": 941,
+      "format": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "libwebp": "1.5.0",
+        "pixelEquality": "passed"
+      },
+      "productionStatus": "complete",
+      "visualStatus": "reviewed-full-image",
+      "P4-05": "pending",
+      "adoptionStatus": "not-adopted",
+      "briefSource": "assets/sources/20261103/P4-04/prompts.json",
+      "finalPromptSource": "assets/sources/20261103/P4-04/final-prompts.json"
+    },
+    {
+      "cgId": "CG101",
+      "assetId": "cg-common-cg101",
+      "needId": "P4-02-COMMON-N006",
+      "type": "cg",
+      "source": {
+        "path": "assets/sources/20261103/P4-04/CG101/cg101-v003.png",
+        "sha256": "549452bc7210d520a77251a70108263a2188765faa0575c8c74e715c0c4db0a5",
+        "bytes": 2693563
+      },
+      "runtime": {
+        "path": "assets/sources/20261103/P4-04/CG101/cg101-v003.webp",
+        "sha256": "c0d01cf3dfb1b62d3f6ef9763f6d554287976404ad603b4c1c7aae6f4993a23e",
+        "bytes": 1810528
+      },
+      "width": 1672,
+      "height": 941,
+      "format": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "libwebp": "1.5.0",
+        "pixelEquality": "passed"
+      },
+      "productionStatus": "complete",
+      "visualStatus": "reviewed-full-image",
+      "P4-05": "pending",
+      "adoptionStatus": "not-adopted",
+      "briefSource": "assets/sources/20261103/P4-04/prompts.json",
+      "finalPromptSource": "assets/sources/20261103/P4-04/final-prompts.json"
+    },
+    {
+      "cgId": "CG025",
+      "assetId": "cg-zz-cg025",
+      "needId": "P4-02-ZZ-N001",
+      "type": "cg",
+      "source": {
+        "path": "assets/sources/20261103/P4-04/CG025/cg025-v002.png",
+        "sha256": "38cfda6bdb39fc572dda288e8ba4e55d63f224bc15aaa99c64208d5dc1df58d6",
+        "bytes": 2448391
+      },
+      "runtime": {
+        "path": "assets/sources/20261103/P4-04/CG025/cg025-v002.webp",
+        "sha256": "51506ab844f8f7983b9f2719775b5cfbccbbf027260b0495cc61ffc850627a39",
+        "bytes": 1625964
+      },
+      "width": 1672,
+      "height": 941,
+      "format": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "libwebp": "1.5.0",
+        "pixelEquality": "passed"
+      },
+      "productionStatus": "complete",
+      "visualStatus": "reviewed-full-image",
+      "P4-05": "pending",
+      "adoptionStatus": "not-adopted",
+      "briefSource": "assets/sources/20261103/P4-04/prompts.json",
+      "finalPromptSource": "assets/sources/20261103/P4-04/final-prompts.json"
+    },
+    {
+      "cgId": "CG109",
+      "assetId": "cg-hq-cg109",
+      "needId": "P4-02-HQ-N010",
+      "type": "cg",
+      "source": {
+        "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.png",
+        "sha256": "671a5f07f67e7386d9e2fa1e8a8bd0dd57f2463b913258f32ced261552cdf70f",
+        "bytes": 2440691
+      },
+      "runtime": {
+        "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.webp",
+        "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380",
+        "bytes": 1658610
+      },
+      "width": 1672,
+      "height": 941,
+      "format": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "quality": 100,
+        "method": 6,
+        "libwebp": "1.5.0",
+        "pixelEquality": "passed"
+      },
+      "productionStatus": "complete",
+      "visualStatus": "reviewed-full-image",
+      "P4-05": "pending",
+      "adoptionStatus": "not-adopted",
+      "briefSource": "assets/sources/20261103/P4-04/prompts.json",
+      "finalPromptSource": "assets/sources/20261103/P4-04/final-prompts.json"
+    }
+  ],
+  "nonArtHandoff": [
+    {
+      "ownerTask": "P4-06",
+      "key": "CG001-reading-contrast",
+      "status": "pending",
+      "proposal": "x72/y36全图提示加深底板，亮暗底都做运行验收，不改CG001美术"
+    },
+    {
+      "ownerTask": "P4-06",
+      "key": "CG109-gallery-capacity",
+      "status": "pending",
+      "proposal": "候选61CG，支持新编号、解锁与分页；不截断第61项"
+    }
+  ]
+}

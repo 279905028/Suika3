@@ -1,0 +1,118 @@
+{
+  "taskStatus": "production-complete-awaiting-P4-05",
+  "verificationStatus": "passed",
+  "checks": [
+    {
+      "name": "冻结输入及接口保护",
+      "files": 576,
+      "status": "passed"
+    },
+    {
+      "name": "60个编号保持、新增CG109、无退役号复用",
+      "status": "passed"
+    },
+    {
+      "name": "锚点、条件、门禁、媒介、退出与122份预览",
+      "status": "passed"
+    },
+    {
+      "name": "七包分配与副本一致",
+      "status": "passed",
+      "counts": {
+        "P4-02-COMMON": 15,
+        "P4-02-XM": 8,
+        "P4-02-ZZ": 9,
+        "P4-02-MY": 7,
+        "P4-02-PI": 9,
+        "P4-02-HQ": 8,
+        "P4-02-FR": 5
+      }
+    },
+    {
+      "name": "14结局完整审读段落与复用理由登记",
+      "status": "passed",
+      "paragraphs": 369
+    },
+    {
+      "name": "返修已交候选但未伪称05通过、关键分支约束",
+      "status": "passed"
+    },
+    {
+      "name": "预览与文档本地链接",
+      "status": "passed"
+    },
+    {
+      "name": "4项制作候选PNG/WebP无损像素及指纹",
+      "status": "passed"
+    },
+    {
+      "name": "20项上游CG需求全部有制作/复核回执",
+      "status": "passed"
+    }
+  ],
+  "upstreamSnapshot": [
+    {
+      "packageId": "P4-02-COMMON",
+      "path": "docs/修订协作/P4-演出与美术/P4-02-COMMON/needs.json",
+      "exists": true,
+      "cgNeeds": 2
+    },
+    {
+      "packageId": "P4-02-XM",
+      "path": "docs/修订协作/P4-演出与美术/P4-02-XM/needs.json",
+      "exists": true,
+      "cgNeeds": 0
+    },
+    {
+      "packageId": "P4-02-ZZ",
+      "path": "docs/修订协作/P4-演出与美术/P4-02-ZZ/needs.json",
+      "exists": true,
+      "cgNeeds": 1
+    },
+    {
+      "packageId": "P4-02-MY",
+      "path": "docs/修订协作/P4-演出与美术/P4-02-MY/needs.json",
+      "exists": true,
+      "cgNeeds": 1
+    },
+    {
+      "packageId": "P4-02-PI",
+      "path": "docs/修订协作/P4-演出与美术/P4-02-PI/needs.json",
+      "exists": true,
+      "cgNeeds": 3
+    },
+    {
+      "packageId": "P4-02-HQ",
+      "path": "docs/修订协作/P4-演出与美术/P4-02-HQ/needs.json",
+      "exists": true,
+      "cgNeeds": 8
+    },
+    {
+      "packageId": "P4-02-FR",
+      "path": "docs/修订协作/P4-演出与美术/P4-02-FR/needs.json",
+      "exists": true,
+      "cgNeeds": 5
+    }
+  ],
+  "decisionCounts": {
+    "reuse": 37,
+    "rebind": 20,
+    "repair-complete": 3,
+    "new": 1
+  },
+  "notTested": [
+    "引擎",
+    "浏览器",
+    "手机真机",
+    "电脑原生",
+    "P4-05资源终审",
+    "发布"
+  ],
+  "unfinished": [
+    "02回填需求与最终绑定",
+    "05独立检查",
+    "06提示改善与61项容量",
+    "07采用",
+    "P5运行验收"
+  ]
+}

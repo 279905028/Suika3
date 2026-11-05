@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-05",
+  "status": "pass",
+  "key": "KCG-MY-03",
+  "node": "T-MY-000431_1",
+  "text": "她先吻过来。",
+  "condition": "MY07-01=A",
+  "asset": "assets/current/motion/KCG-MY-03-libtv-v001.mp4",
+  "fallback": "assets/current/motion/KCG-MY-03-libtv-v001.webp",
+  "runtimeBuildId": "af83aacf3be43901b4dce67a42b59e1c145058c3eb15f037695f9421517742d8",
+  "routes": [
+    {
+      "combo": "AA",
+      "visible": true,
+      "naturalEnd": true,
+      "ending": "MY-E1",
+      "pages": 1140
+    },
+    {
+      "combo": "BA",
+      "visible": false,
+      "naturalEnd": false,
+      "ending": "MY-E2",
+      "pages": 1160
+    },
+    {
+      "combo": "AB",
+      "visible": true,
+      "naturalEnd": true,
+      "ending": "MY-E2",
+      "pages": 1213
+    },
+    {
+      "combo": "BB",
+      "visible": false,
+      "naturalEnd": false,
+      "ending": "MY-E2",
+      "pages": 1157
+    }
+  ],
+  "scope": "Chrome 独立上下文孟遥 HIGH 四种关键组合完整路线及新素材首次可见与自然播放结束",
+  "stillAndTextInputs": "构建器确认与既有冻结稿一致",
+  "otherMotionItemsUnchanged": 28,
+  "release": "本机新候选，尚未部署",
+  "notTested": [
+    "Firefox/Safari",
+    "手机真机",
+    "Windows/macOS原生"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "cgId": "CG109",
+  "assetId": "cg-hq-cg109",
+  "title": "自己的名字自己写",
+  "needId": "P4-02-HQ-N010",
+  "resourceKey": "hq-e1-cup-name-close",
+  "nodeIds": [
+    "T-HQ-000586_1"
+  ],
+  "condition": "HQ07-01=A&HQ08-01=A",
+  "routeIds": [
+    "huangqiuqiu"
+  ],
+  "status": "production-candidate",
+  "reason": "现CG073为球形，不能覆盖人形第91天写杯名靠肩；一张合并动作收束图，不拆成三张。",
+  "unlock": "on-actual-first-visible-frame",
+  "exit": "next-node / clear-before-target / recompute-destination",
+  "numbering": "当前60项最大编号CG108；新分配CG109，不复用8个退役编号",
+  "downstream": "需P4-05复验、P4-06解除60项容量约束、P4-07采用"
+}

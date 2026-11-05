@@ -1,0 +1,74 @@
+{
+  "packageId": "P4-02-HQ",
+  "status": "passed-scoped-static",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "checks": [
+    {
+      "name": "冻结输入与接口逐字节保持",
+      "status": "passed"
+    },
+    {
+      "name": "草稿全覆盖、条件、资源类型及生命周期通过",
+      "status": "passed"
+    },
+    {
+      "name": "所有选择明确清CG和全图",
+      "status": "passed"
+    },
+    {
+      "name": "每张CG仅一个新段落、退出底层无CG",
+      "status": "passed"
+    },
+    {
+      "name": "待补背景段与选择均保持blocked及双向需求引用",
+      "status": "passed"
+    },
+    {
+      "name": "完成门禁真实拒绝开放需求",
+      "status": "passed"
+    },
+    {
+      "name": "对外引用路径可达",
+      "status": "passed"
+    },
+    {
+      "name": "第55天开门前无任何人形，之后无任何角色球形",
+      "status": "passed"
+    },
+    {
+      "name": "首次人形只在55天门开后，进屋即清玩偶棒",
+      "status": "passed"
+    },
+    {
+      "name": "拒见和隔门不显示黄球球",
+      "status": "passed"
+    },
+    {
+      "name": "回声黄球球原话仅回忆，选择回到毛狼现场",
+      "status": "passed"
+    },
+    {
+      "name": "BA哭泣不重启亲密，E2叙事不把回忆当在场",
+      "status": "passed"
+    },
+    {
+      "name": "公共消息返回重建球形室内；结束跨包不带球球",
+      "status": "passed"
+    },
+    {
+      "name": "夜闭门背景与COMMON共享键",
+      "status": "passed"
+    }
+  ],
+  "scope": "只验证候选结构与人工镜头方案的关键语义约束，不代表资源目视或运行验收。",
+  "counts": {
+    "paragraphs": 500,
+    "displayNodes": 508,
+    "reviewed": 463,
+    "blocked": 45,
+    "boundaries": 82,
+    "openNeeds": 10,
+    "checks": 14
+  }
+}

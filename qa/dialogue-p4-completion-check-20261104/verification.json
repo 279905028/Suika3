@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-04",
+  "status": "pass-static-P4-completion-recheck",
+  "scope": "完成状态、当前文件指纹、采用接口、七包闭合与既有验收记录核对；未重做视觉或运行验收",
+  "version": "sui-p4-07-20261104-v7",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "executedCommands": [
+    {
+      "command": "node tools/story-revision/p4-adoption/freeze.cjs --check",
+      "exitCode": 0,
+      "result": {
+        "status": "pass",
+        "files": 1762,
+        "fingerprint": "33b93405bac884e25723c6d72a95eab52f3da7a4aae4d74e01ffbd0f597e4832"
+      }
+    },
+    {
+      "command": "node tools/story-revision/p4-adoption/validate.cjs --adopted",
+      "exitCode": 0,
+      "result": {
+        "status": "pass",
+        "adoptionReady": true,
+        "assets": 262,
+        "bindings": 4814,
+        "cg": 81
+      }
+    }
+  ],
+  "counts": {
+    "paragraphs": 4748,
+    "displayNodes": 4814,
+    "assets": 262,
+    "cg": 81,
+    "choices": 65,
+    "options": 134
+  },
+  "packages": [
+    {
+      "package": "P4-02-COMMON",
+      "bindings": 1014,
+      "reviews": 1013,
+      "needsResolved": 10,
+      "boundaries": 148
+    },
+    {
+      "package": "P4-02-FR",
+      "bindings": 488,
+      "reviews": 488,
+      "needsResolved": 11,
+      "boundaries": 74
+    },
+    {
+      "package": "P4-02-HQ",
+      "bindings": 508,
+      "reviews": 508,
+      "needsResolved": 13,
+      "boundaries": 82
+    },
+    {
+      "package": "P4-02-MY",
+      "bindings": 574,
+      "reviews": 574,
+      "needsResolved": 9,
+      "boundaries": 82
+    },
+    {
+      "package": "P4-02-PI",
+      "bindings": 730,
+      "reviews": 730,
+      "needsResolved": 7,
+      "boundaries": 108
+    },
+    {
+      "package": "P4-02-XM",
+      "bindings": 689,
+      "reviews": 689,
+      "needsResolved": 6,
+      "boundaries": 78
+    },
+    {
+      "package": "P4-02-ZZ",
+      "bindings": 811,
+      "reviews": 811,
+      "needsResolved": 7,
+      "boundaries": 82
+    }
+  ],
+  "totals": {
+    "bindings": 4814,
+    "reviews": 4813,
+    "needsResolved": 63,
+    "boundaries": 654
+  },
+  "historicalEvidenceReviewed": [
+    {
+      "path": "docs/P4演出与美术子任务.md",
+      "bytes": 13449,
+      "sha256": "0996ce473519a1da04361bdd69b9ca256038d0efd856646672e500dc82a24cb3"
+    },
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-07/freeze.json",
+      "bytes": 337431,
+      "sha256": "f3f598241b461104bac73a8a902f817e1d9e47dd977d6f3ea9ea4e0ee26e5b84"
+    },
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-07/交接.md",
+      "bytes": 5235,
+      "sha256": "d7c9511284ee9a5dd138158ac81301e4197b12c36f37cbcd8a208dd1d5e2437d"
+    },
+    {
+      "path": "qa/dialogue-p4-P4-01-20261103/verification-final.json",
+      "bytes": 6552,
+      "sha256": "a8e95859eda1fc0f2bc80b75d26b4753543bfec26590f51cb303fa0e1841920c"
+    },
+    {
+      "path": "qa/dialogue-p4-P4-04-20261103/verification.json",
+      "bytes": 2774,
+      "sha256": "2a0216f43400316aefacba93e9592993746ff634d30d421334de59aac07c9c1d"
+    },
+    {
+      "path": "qa/dialogue-p4-P4-05-20261103/verification-final.json",
+      "bytes": 7184,
+      "sha256": "12cad1ebb869e4bd73dd1ec40a548d795f1f74141a6b16d07c864af930dd4656"
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/static-ready/verification.json",
+      "bytes": 5397,
+      "sha256": "cd4aa8fe60e00ac59dd9014873faca4bae003c5d12b93213235a2a9fe680d0f3"
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/engine-final-v2/report.json",
+      "bytes": 18507,
+      "sha256": "4ce4d4f5a8144f387abfad19d3df89187e3365468926e6c46e5d5f619f6e224b"
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/browser-ready/report.json",
+      "bytes": 4419,
+      "sha256": "b8c74827644b78e9f2428762a325b20d252009900fa4b7a1280ad9525f499144"
+    },
+    {
+      "path": "qa/dialogue-p4-P4-07-20261104/verification-adopted.json",
+      "bytes": 2500,
+      "sha256": "e2876272f84a0848d1b5a11cf51fd0416710b2e44fd8c26e065fc6b453cec73a"
+    },
+    {
+      "path": "qa/dialogue-p4-P4-07-20261104/browser-adopted/report.json",
+      "bytes": 5030,
+      "sha256": "0060792541f70ed7f16397d2b3b94912be57cf48a3c47925c2e67f8074c491fa"
+    },
+    {
+      "path": "qa/ending-motion-P4-V00-20261104/final-verification.json",
+      "bytes": 3764,
+      "sha256": "cb6501df614672887e352dfbfe60fc081265704ae1d396d128831b042b86159c"
+    },
+    {
+      "path": "qa/ending-motion-P4-V-Q-20261104/selection.json",
+      "bytes": 16469,
+      "sha256": "8887694aa011a24fd5fddf3f653709ac8c061bfdf9ba6088fde327f7c73ccb83"
+    }
+  ],
+  "motionCandidateFilesRechecked": [
+    {
+      "path": "assets/sources/20261104/P4-V/XM-E1/raw-v002.mp4",
+      "bytes": 6920684,
+      "sha256": "817771c9838b3f15e17e16595c18375bf1356355f392c898d514b029e0ac8ca3"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/XM-E1/runtime-v002.mp4",
+      "bytes": 1329855,
+      "sha256": "61651d4308ea4ead0682981ec0d13b880ebcb9817a74a3e4cc731b4c0a3279ec"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/XM-E1/first-v002.webp",
+      "bytes": 932468,
+      "sha256": "2e89caf89bbc06c63c533a0559c3f9094df44436a778ebcd7cc4a134561f6cf9"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/XM-E1/last-v002.webp",
+      "bytes": 937362,
+      "sha256": "ebf141084feb6636f4e8133d27f615bc0d134b0b742ddda7abf581330776b0e1"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/XM-E1/fallback-v001.webp",
+      "bytes": 1632872,
+      "sha256": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/XM-E1/video-v002-prompt.txt",
+      "bytes": 1217,
+      "sha256": "48064039c759998f291b46e8e2e1566a722e21b738108450ed6d1bb62125fd70"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/ZZ-E1/raw-v001.mp4",
+      "bytes": 11790215,
+      "sha256": "52c1d443625f08e6797cf44709ca4c4a63bf80700172aa8a6f9b8b54f8ca97a0"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/ZZ-E1/runtime-v001.mp4",
+      "bytes": 1915703,
+      "sha256": "8b671aeaffd697052e824e8d50e2752a894eb186035acdb666c2fe685ea911ae"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/ZZ-E1/first-v001.webp",
+      "bytes": 866480,
+      "sha256": "dba7f87329a73ad4485d6fe013931d0de183c3f2611b003c623747f0f76c876b"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/ZZ-E1/last-v001.webp",
+      "bytes": 852654,
+      "sha256": "73da400ef788ddab1ebc12d97224cb2b5ac8f99a331077c3e14018e04d4d0c0b"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/ZZ-E1/fallback-v001.webp",
+      "bytes": 1603528,
+      "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/ZZ-E1/video-v001-prompt.txt",
+      "bytes": 1386,
+      "sha256": "df5ab32f695dfdb1873da77a064400df2fddd8def03d5f69cac5d8b32bd38471"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/MY-E1/raw-v001.mp4",
+      "bytes": 9443674,
+      "sha256": "b0baac9ce651a9f5d39615018281427054bed42881286e8f181a1759c36e2c3a"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/MY-E1/runtime-v001.mp4",
+      "bytes": 1860795,
+      "sha256": "9621b98013929be1875e4b224c06966a94b0f1ee7c204737646b7658398f8456"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/MY-E1/first-v001.webp",
+      "bytes": 823168,
+      "sha256": "cd637d7acf5b39f75be9e141c7fe83cf3d713c75c428cc5e54871f6f5fbc0837"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/MY-E1/last-v001.webp",
+      "bytes": 791098,
+      "sha256": "25e1ce3d4e4e187d18da31b5d7d5783c506ebce8a37426a7375837ec7a14bc1a"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/MY-E1/fallback-v001.webp",
+      "bytes": 1523194,
+      "sha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/MY-E1/video-v001-prompt.txt",
+      "bytes": 1366,
+      "sha256": "6ffb61d4bd52e7928fa79feb709782fd15e24f970b154ccc96156b78c00f00e4"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-E1/raw-v001.mp4",
+      "bytes": 12946675,
+      "sha256": "f3f5e9935d3a8a301491d6c97421529e0dd3881ab4d5310baf2738c0ea3f2d78"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-E1/runtime-v001.mp4",
+      "bytes": 2683036,
+      "sha256": "7f8c6dcc2c1b301efe30781fb7b32404fb338f905e76a5058f5b6c2aecd95dc0"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-E1/first-v001.webp",
+      "bytes": 1055514,
+      "sha256": "0f61d68dee0c108db32758d6b52ba0432d062ada303afd6f11f35a4327ecd3ee"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-E1/last-v001.webp",
+      "bytes": 905206,
+      "sha256": "2acdbc5865975bf4921971d4f15f9355b755e8d2790f0b8ea913ce63f86c74c8"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-E1/fallback-v001.webp",
+      "bytes": 1889440,
+      "sha256": "490d0005d84cd727332bb29cdb1786c2764074fb85941be6b7ba1d7751d4c231"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-E1/video-v001-prompt.txt",
+      "bytes": 1099,
+      "sha256": "bff8308dfe79d08324a1d80849d5273a72d78d66aa584b219c7aa72ec9934c3b"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-LE1/raw-v002.mp4",
+      "bytes": 7227410,
+      "sha256": "41c00615bc2b00bf88667f039bf31425811e7b48a031af57aba44cc0fe63f9b3"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-LE1/runtime-v002.mp4",
+      "bytes": 1273841,
+      "sha256": "9df5d9c9a034e205487263548bbbf51db65ad1befc76a5c07ee6d8746475b610"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-LE1/first-v002.webp",
+      "bytes": 768462,
+      "sha256": "a88eac2da7d5ef79eda85e58da1843145b331b6f907e64c8b60d56eb6d9b9e95"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-LE1/last-v002.webp",
+      "bytes": 782842,
+      "sha256": "b56793f8b615dbb061bb9c9f796259477697d46f37bf83caa319f79c13dcff85"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-LE1/fallback-v001.webp",
+      "bytes": 1400932,
+      "sha256": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/PI-LE1/video-v002-prompt.txt",
+      "bytes": 1272,
+      "sha256": "904876e662d9f6e6e0c7c66ddacfbd91f5293f916e7f8b8e67c2f7f374268679"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/HQ-E1/raw-v001.mp4",
+      "bytes": 11744965,
+      "sha256": "61233c746a008142d84575d32d6665c8a4b65ab355290217514caa6dec82baf4"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/HQ-E1/runtime-v001.mp4",
+      "bytes": 1951434,
+      "sha256": "34eddbae8b95aeba93dd991dbcc3ac42a8665f06f50959e8624d9c46af5c94cd"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/HQ-E1/first-v001.webp",
+      "bytes": 955182,
+      "sha256": "291c1e53d043a222edf85fbcf321119fd96ce30f5c0025e8a0a9847c8f8d8614"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/HQ-E1/last-v001.webp",
+      "bytes": 896218,
+      "sha256": "1030cb49a0eeb00f6a7b6ea3be461cd0675c028f1595cd57fc9bb75557ce858e"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/HQ-E1/fallback-v001.webp",
+      "bytes": 1658610,
+      "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380"
+    },
+    {
+      "path": "assets/sources/20261104/P4-V/HQ-E1/video-v001-prompt.txt",
+      "bytes": 1534,
+      "sha256": "e8ac2bc316655da20e4cc9dcc7c2211ffe36b581f1c5ace732bbb9eda366a0e2"
+    }
+  ],
+  "motionStatus": {
+    "selectedCandidates": 6,
+    "formalBindings": 0,
+    "independentReview": "pending",
+    "runtimeIntegration": "pending"
+  },
+  "remaining": [
+    "P5全线14结局实玩、完整存读档/回退/改选/刷新恢复",
+    "跨浏览器、手机真机、电脑原生及负载验收",
+    "CG116清晨返修的独立复看和实际引擎呈现",
+    "P4-V独立素材终验、正式桥接及动态采用"
+  ],
+  "notExecuted": [
+    "新增全稿审校",
+    "图片视觉复验",
+    "引擎或浏览器运行",
+    "手机真机",
+    "电脑原生",
+    "发布"
+  ]
+}

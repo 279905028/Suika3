@@ -1,0 +1,40 @@
+[
+  {
+    "key": "xiaoman-day40-packing-interior",
+    "assetId": "bg-xiaoman-packing-interior",
+    "type": "background",
+    "transparent": false,
+    "needIds": [
+      "P4-02-XM-N001"
+    ],
+    "refs": [],
+    "prompt": "Use case: illustration-story. Asset: empty visual novel background, full-bleed 16:9 landscape for a 1280×720 stage. A restrained, close, anonymous interior corner during an adult woman's luggage packing, Chinese small-town contemporary everyday setting. Show only a simple worn wooden table edge and table legs at one side, plain warm-grey plaster wall, ordinary muted floor with open central space. At the extreme bottom-left edge a small cropped portion of the SIDE of an ordinary wheeled suitcase may be visible; its lid/open-versus-closed state must be outside the frame. No complete room floor plan. No bed, kitchen, ownership signs, family pictures, posters, luxury decoration, identifying personal belongings. No characters, hands, feet, scissors, combs, loose documents, readable tickets or writing. This is the neutral environment behind changing text-described actions: the actual suitcase packing, sitting on it, opening it, hair clips and receipts will be conveyed separately and must not be frozen into the background. Soft ordinary diffuse indoor daylight without a specific hour, realistic painterly textures matching an understated Chinese visual novel, muted browns and greys, no stylized anime outlines, no dramatic cinema effect. Eye-level room-corner framing; enough plain upper wall for character sprites, quiet lower quarter for dialogue. No text, logos, border, collage or watermark."
+  },
+  {
+    "key": "guiyang-bus-stop-day",
+    "assetId": "bg-guiyang-bus-stop-day",
+    "type": "background",
+    "transparent": false,
+    "needIds": [
+      "P4-02-PI-N003"
+    ],
+    "refs": [
+      "assets/current/SUI-A08/bg-guiyang-housing-office-day.webp"
+    ],
+    "prompt": "Use case: illustration-story. Asset: an entirely NEW empty visual-novel environment background, full-bleed 16:9 landscape. The supplied image is STYLE AND REGIONAL LIGHTING REFERENCE ONLY; do not retain the office interior or counter. Depict a close partial view from beneath an anonymous ordinary urban bus shelter in Guiyang, looking diagonally toward the roadway. Simple metal-and-glass canopy, a vertical shelter post, a small edge of bench, curb and a modest queue marking on paving. Across the road only unremarkable contemporary mid-rise residential/commercial facades and trees, softly detailed; no recognizable landmark or historic scenic bridge. Crop the main waiting area out of view so offscreen crowd sounds and the narrator's line that many people are waiting remain possible; do not show a wide deserted station. This is a bus STOP, not railway platform or intercity terminal. Daytime soft neutral overcast illumination, neither dawn nor golden sunset. No people, protagonist, woman, human silhouettes, arms, readable signs, route numbers, district names, clocks, dates, license plates or advertising. View bus route information edge-on/unreadable. Do not show the inside of a bus. Realistic painterly material treatment and muted natural palette consistent with the reference. No text, UI, border or watermark."
+  },
+  {
+    "key": "old-netcafe-yard-door-open-morning",
+    "assetId": "bg-old-netcafe-yard-door-open-morning",
+    "type": "background",
+    "transparent": false,
+    "needIds": [
+      "P4-02-HQ-N002"
+    ],
+    "refs": [
+      "assets/current/SUI-A08/bg-old-netcafe-yard-door-closed-morning.webp",
+      "assets/current/SUI-A08/bg-old-netcafe-yard-door-open-afternoon.webp"
+    ],
+    "prompt": "Use case: precise-object-edit. Asset: full-bleed 16:9 visual novel background. Image 1 is the edit target: the established backyard in MORNING light. Image 2 is only the same door's open geometry reference. Open the door of image 1 to the same angle as image 2, leaving the threshold and full doorframe unobstructed so a person can hold the frame and withdraw indoors. Preserve image 1's MORNING lighting, identical courtyard, viewpoint, peeling wooden door and plaster walls, plants, mop, bucket, faucet, blue stool, window and damp stone paving. No new furniture or a breakfast table, no cups added, no people, no hands, no human silhouettes, no yellow orb, no body or clothing. Interior remains dim and anonymous, just enough to see a doorway recess, not a new room plan. The actual character stays a separate upper-body sprite and must not be painted into this background. Same realistic painterly visual-novel style, no clock, readable text, signage, watermarks, UI or border."
+  }
+]

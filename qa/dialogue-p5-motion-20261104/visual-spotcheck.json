@@ -1,0 +1,41 @@
+{
+  "status": "pass-scoped-visual-spotcheck",
+  "runtimeBuildId": "df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+  "method": "读取本批真实路线截图并逐张目视核对",
+  "limitations": [
+    "6张截图抽查，不冒称81静态CG和29视频逐帧全量人工审查。",
+    "正文完整性与条件以独立模型及路线日志为准。"
+  ],
+  "items": [
+    {
+      "screenshot": "routes-v5-resume/08-zhouzhi-LOW-ZZ-E2-CG116.png",
+      "check": "CG116清晨",
+      "observation": "卷帘门外为清晨亮度，箱子与人物可见，正文完整可读。"
+    },
+    {
+      "screenshot": "routes-v5-resume/05-zhouzhi-HIGH-ZZ-E1-OV-ZZ-BJ-playing.png",
+      "check": "周栀毕节夜间动态",
+      "observation": "全画面视频实际出帧，夜间人物构图完整，欣赏提示可读，无正文框遮挡。仅此截图不代表人工连续审片。"
+    },
+    {
+      "screenshot": "routes-v5-resume/07-zhouzhi-LOW-ZZ-E1-day36-event-refreshed.png",
+      "check": "第36天事件刷新恢复",
+      "observation": "恢复到第36天开头，面馆背景正确；截图时文字仍在逐字显示。"
+    },
+    {
+      "screenshot": "routes-v5-resume/08-zhouzhi-LOW-ZZ-E2-CG101.png",
+      "check": "第36天台阶镜头",
+      "observation": "文文与飘坐在门口台阶，毛狼站在后方通话；全图/菜单按钮及亮底正文可读。"
+    },
+    {
+      "screenshot": "routes-v5-resume/10-mengyao-HIGH-MY-E2-CG120.png",
+      "check": "孟遥断开送书",
+      "observation": "机构前台送书画面及原文吻合，姓名栏无旧姓名残留；分支门槛以路线断言为证。"
+    },
+    {
+      "screenshot": "routes-v5-full/01-xiaoman-HIGH-XM-E1-helmet-T-XM-000296_1-refreshed.png",
+      "check": "头盔寄放节点刷新恢复",
+      "observation": "恢复后无人物重复持盔立绘残留；截图时正文尚在逐字显示，道具条件以路线恢复断言为证。"
+    }
+  ]
+}

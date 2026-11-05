@@ -1,0 +1,224 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "4814节点/七包精确覆盖",
+      "status": "pass"
+    },
+    {
+      "name": "81图鉴/14页/原60项顺序及解锁变量保持",
+      "status": "pass"
+    },
+    {
+      "name": "生成确定性",
+      "status": "pass"
+    },
+    {
+      "name": "压缩登记与旧生成器4814条完整状态逐项等价",
+      "status": "pass"
+    },
+    {
+      "name": "独立目录选择版本/65题134图完全复用",
+      "status": "pass"
+    },
+    {
+      "name": "60项目录兼容（无固定81项上限）",
+      "status": "pass"
+    },
+    {
+      "name": "61项目录兼容（无固定81项上限）",
+      "status": "pass"
+    },
+    {
+      "name": "重复CG拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "旧编号换资源拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "退役CG复用拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "未登记新编号拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "新增编号错配图片拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "伪造04证据入口拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "新增登记错误指纹拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "漏旧CG拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "漏CG登记拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "路径穿越拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "资源指纹漂移拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "资源检查错配拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "passed无批准依据拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "资源清单版本漂移拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "条件放宽拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "目标路线串线拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "锚点指纹漂移拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "恢复状态残留CG拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "未知显示资源拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "缺显示节点拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "未知包字段拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "真实未闭合包不能交正式采用",
+      "status": "pass"
+    },
+    {
+      "name": "选择文案变化不能偷用旧图",
+      "status": "pass"
+    },
+    {
+      "name": "选项顺序变化拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "登记/进入不提前解锁",
+      "status": "pass"
+    },
+    {
+      "name": "菜单/回顾/图鉴遮挡不解锁",
+      "status": "pass"
+    },
+    {
+      "name": "仅正文可见帧解锁一次",
+      "status": "pass"
+    },
+    {
+      "name": "跨节点清CG/关闭全图/目标完整重算",
+      "status": "pass"
+    },
+    {
+      "name": "回退/恢复不撤销全局解锁",
+      "status": "pass"
+    },
+    {
+      "name": "错误active/恢复状态组合拒绝",
+      "status": "pass"
+    },
+    {
+      "name": "其他路线状态不能通过恢复",
+      "status": "pass"
+    },
+    {
+      "name": "受保护正式/冻结输入保持",
+      "status": "pass"
+    }
+  ],
+  "passed": 39,
+  "counts": {
+    "assets": 262,
+    "bindings": 4814,
+    "cg": 81,
+    "galleryPages": 14,
+    "boundCG": 59
+  },
+  "pendingCounts": {
+    "need": 42,
+    "review": 622,
+    "unbound-cg": 22,
+    "adoption-evidence": 39
+  },
+  "sourceFiles": [
+    {
+      "path": "tools/story-revision/p4-integration/assemble.cjs",
+      "sha256": "a373aedbb299f66d11f850428a0373397c5321e0026798e8d09051958ccfa7e4",
+      "bytes": 4125
+    },
+    {
+      "path": "tools/story-revision/p4-integration/build.cjs",
+      "sha256": "b26a85620120289636976406ba161c95bb4f303343ae83f07394a42a1578f06e",
+      "bytes": 4222
+    },
+    {
+      "path": "tools/story-revision/p4-integration/catalog.cjs",
+      "sha256": "7068b77939fc5bdf9c8f7179969b9ca58b180381a160f6e4500ac8a659f0929c",
+      "bytes": 3734
+    },
+    {
+      "path": "tools/story-revision/p4-integration/choices.cjs",
+      "sha256": "5c26c73031b1bc63ba0ff4f01bc31dc832e7cb5c226b306b2a8bdec8c8152bd1",
+      "bytes": 1603
+    },
+    {
+      "path": "tools/story-revision/p4-integration/common.cjs",
+      "sha256": "ef428b0789d6db68f3b62d9210606a797b0d72eda8c236512abc9059343eeb18",
+      "bytes": 2115
+    },
+    {
+      "path": "tools/story-revision/p4-integration/presentation.cjs",
+      "sha256": "2d3f36a6bd1262ff95f5c3e64b8a8042dee66f2b52a2c1645074b696fdf80523",
+      "bytes": 6252
+    },
+    {
+      "path": "tools/story-revision/p4-integration/verify-engine.cjs",
+      "sha256": "90c2ec3aea9599cf0c109e004f9cf11e0f5594457920ed15c54d046d1c3423bd",
+      "bytes": 9190
+    },
+    {
+      "path": "tools/story-revision/p4-integration/verify-preview.cjs",
+      "sha256": "011da9fad39d3de471962a0922da443d12f57c516e4946856613ff9be857e340",
+      "bytes": 4793
+    },
+    {
+      "path": "tools/story-revision/p4-integration/verify.cjs",
+      "sha256": "eaf2905c304e00837b6e1928a94d33ab29a021eb9f2917c56d3b862982b31ee7",
+      "bytes": 11177
+    }
+  ],
+  "runtimeRayFingerprint": "2631f6c836d57066d316344a3591580525c3f71da5e9a4337bc0f40ea3c77ada",
+  "scope": "候选/非法输入/确定性/抽取Ray逻辑检查；原生浏览器另录"
+}

@@ -1,0 +1,119 @@
+{
+  "task": "P4-07",
+  "status": "pass",
+  "adopted": true,
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "scope": "结构、分支模型、资源指纹和完整演出状态；不是P5运行验收",
+  "checks": [
+    {
+      "name": "确定性双编译",
+      "status": "pass"
+    },
+    {
+      "name": "4748段原文/姓名/媒介/条件不变；仅头盔整段移位",
+      "status": "pass"
+    },
+    {
+      "name": "3018原段来源与4748新段映射闭合",
+      "status": "pass"
+    },
+    {
+      "name": "七包handoff与81CG唯一锚点",
+      "status": "pass"
+    },
+    {
+      "name": "65题134张选项贴图逐字/顺序/值及文件不变",
+      "status": "pass"
+    },
+    {
+      "name": "32768组共通与2818条路线同P3分支结果；全部段落/14结局/81CG可达",
+      "status": "pass"
+    },
+    {
+      "name": "照片/回忆/形态/远程与CG116清晨专项",
+      "status": "pass"
+    },
+    {
+      "name": "历史冻结与来源原件保护",
+      "status": "pass"
+    }
+  ],
+  "negativeCases": [
+    {
+      "name": "旧P3版本头",
+      "status": "rejected"
+    },
+    {
+      "name": "过期输入指纹",
+      "status": "rejected"
+    },
+    {
+      "name": "漏绑定",
+      "status": "rejected"
+    },
+    {
+      "name": "重复绑定",
+      "status": "rejected"
+    },
+    {
+      "name": "未审段落",
+      "status": "rejected"
+    },
+    {
+      "name": "开放需求",
+      "status": "rejected"
+    },
+    {
+      "name": "放宽条件",
+      "status": "rejected"
+    },
+    {
+      "name": "假锚点",
+      "status": "rejected"
+    },
+    {
+      "name": "跨路线",
+      "status": "rejected"
+    },
+    {
+      "name": "CG退出残留",
+      "status": "rejected"
+    },
+    {
+      "name": "选择带CG",
+      "status": "rejected"
+    },
+    {
+      "name": "未知资源",
+      "status": "rejected"
+    },
+    {
+      "name": "边界待审",
+      "status": "rejected"
+    },
+    {
+      "name": "CG漏登记",
+      "status": "rejected"
+    },
+    {
+      "name": "资源指纹漂移",
+      "status": "rejected"
+    },
+    {
+      "name": "未批准资产",
+      "status": "rejected"
+    },
+    {
+      "name": "错误新CG依据",
+      "status": "rejected"
+    }
+  ],
+  "warnings": [],
+  "commonAssignments": 32768,
+  "routeAssignments": 2818,
+  "endingCount": 14,
+  "dispatchConfigurations": 24,
+  "reachableCG": 81,
+  "reachableParagraphs": 4748,
+  "protectedFiles": 981
+}

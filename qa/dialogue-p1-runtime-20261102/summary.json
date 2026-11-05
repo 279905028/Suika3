@@ -1,0 +1,42 @@
+{
+  "status": "pass",
+  "date": "2026-11-02",
+  "scope": "P1独立小样技术验收；未正式采用全稿或发布",
+  "version": "preview-v6",
+  "contentBuildId": "97f2bd9fc4a71bd8f28b2862202ea5e502de8a05fb699e8559d289ef659142ef",
+  "runtimeBuildId": "0acbb627030b8831a9c04c5f4d37412b0ac0d17b1a9df6f7f746da13ccd9bf93",
+  "explicitParagraphs": 468,
+  "coveredExplicitParagraphs": 468,
+  "staticChecks": 29,
+  "invalidTextCases": 21,
+  "offlineRouteAssignments": 2818,
+  "dispatchConfigurations": 24,
+  "browser": "156.0.8078.74",
+  "browserPaths": 8,
+  "pageVisits": 1094,
+  "choiceClicks": 20,
+  "nativeNamedParagraphVisits": 505,
+  "interactionChecks": 15,
+  "nativeFixturePages": 13,
+  "nativePage2SaveRestore": true,
+  "stageFiles": 651,
+  "webFiles": 6,
+  "inputDifferencesFromP0": [
+    "tools/compiler/README.md",
+    "tools/compiler/compile.cjs",
+    "tools/compiler/emit.cjs",
+    "tools/compiler/parse.cjs",
+    "tools/runtime/README.md",
+    "tools/runtime/build.cjs"
+  ],
+  "sourceAndAdoptedAssetsUnchanged": true,
+  "browserErrors": 0,
+  "finalizedDate": "2026-11-03",
+  "inputDifferencesBeforeDocumentation": [
+    "tools/compiler/compile.cjs",
+    "tools/compiler/emit.cjs",
+    "tools/compiler/parse.cjs",
+    "tools/runtime/build.cjs"
+  ],
+  "finalCheck": "final-check.json"
+}

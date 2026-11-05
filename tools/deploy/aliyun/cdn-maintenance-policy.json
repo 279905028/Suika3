@@ -1,0 +1,15 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["cdn:SetCdnDomainSSLCertificate", "cdn:StopCdnDomain"],
+      "Resource": "acs:cdn:*:1404309464596412:domain/galagame.site"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "bssapi:QueryResourcePackageInstances",
+      "Resource": "*"
+    }
+  ]
+}

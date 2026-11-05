@@ -1,0 +1,646 @@
+{
+  "status": "pass",
+  "scope": "当前正文模型穷举与条件拒绝；不是浏览器实玩",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "commonCount": 32768,
+  "routeCount": 2818,
+  "paragraphs": 4748,
+  "endings": [
+    "XM-E1",
+    "XM-E2",
+    "ZZ-E1",
+    "ZZ-E2",
+    "MY-E1",
+    "MY-E2",
+    "PI-E1",
+    "PI-E2",
+    "PI-LE1",
+    "PI-LE2",
+    "HQ-E1",
+    "HQ-E2",
+    "FR-E1",
+    "FR-E2"
+  ],
+  "staticCG": 81,
+  "motionCG": 29,
+  "initiallyMissing": [],
+  "additionalPaths": 0,
+  "negativeCases": [
+    {
+      "key": "MCG-XM-E1",
+      "name": "错误节点"
+    },
+    {
+      "key": "MCG-XM-E1",
+      "name": "错误路线"
+    },
+    {
+      "key": "MCG-XM-E1",
+      "name": "改选 XM07-01"
+    },
+    {
+      "key": "MCG-XM-E1",
+      "name": "未访问 XM07-01"
+    },
+    {
+      "key": "MCG-XM-E1",
+      "name": "改选 XM08-01"
+    },
+    {
+      "key": "MCG-XM-E1",
+      "name": "未访问 XM08-01"
+    },
+    {
+      "key": "MCG-ZZ-E1",
+      "name": "错误节点"
+    },
+    {
+      "key": "MCG-ZZ-E1",
+      "name": "错误路线"
+    },
+    {
+      "key": "MCG-ZZ-E1",
+      "name": "改选 ZZ06-01"
+    },
+    {
+      "key": "MCG-ZZ-E1",
+      "name": "未访问 ZZ06-01"
+    },
+    {
+      "key": "MCG-ZZ-E1",
+      "name": "改选 ZZ08-01"
+    },
+    {
+      "key": "MCG-ZZ-E1",
+      "name": "未访问 ZZ08-01"
+    },
+    {
+      "key": "MCG-MY-E1",
+      "name": "错误节点"
+    },
+    {
+      "key": "MCG-MY-E1",
+      "name": "错误路线"
+    },
+    {
+      "key": "MCG-MY-E1",
+      "name": "改选 MY07-01"
+    },
+    {
+      "key": "MCG-MY-E1",
+      "name": "未访问 MY07-01"
+    },
+    {
+      "key": "MCG-MY-E1",
+      "name": "改选 MY09-01"
+    },
+    {
+      "key": "MCG-MY-E1",
+      "name": "未访问 MY09-01"
+    },
+    {
+      "key": "MCG-PI-E1",
+      "name": "错误节点"
+    },
+    {
+      "key": "MCG-PI-E1",
+      "name": "错误路线"
+    },
+    {
+      "key": "MCG-PI-E1",
+      "name": "错误HIGH/LOW"
+    },
+    {
+      "key": "MCG-PI-E1",
+      "name": "改选 PI06-01"
+    },
+    {
+      "key": "MCG-PI-E1",
+      "name": "未访问 PI06-01"
+    },
+    {
+      "key": "MCG-PI-E1",
+      "name": "改选 PI08-01"
+    },
+    {
+      "key": "MCG-PI-E1",
+      "name": "未访问 PI08-01"
+    },
+    {
+      "key": "MCG-PI-LE1",
+      "name": "错误节点"
+    },
+    {
+      "key": "MCG-PI-LE1",
+      "name": "错误路线"
+    },
+    {
+      "key": "MCG-PI-LE1",
+      "name": "错误HIGH/LOW"
+    },
+    {
+      "key": "MCG-PI-LE1",
+      "name": "改选 PI-L06-01"
+    },
+    {
+      "key": "MCG-PI-LE1",
+      "name": "未访问 PI-L06-01"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "错误节点"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "错误路线"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "改选 HQ07-01"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "未访问 HQ07-01"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "改选 HQ08-01"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "未访问 HQ08-01"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "改选 C01-02"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "未访问 C01-02"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "改选 C02-01"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "未访问 C02-01"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "name": "未读相识事件"
+    },
+    {
+      "key": "KCG-XM-01",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-XM-01",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-XM-02",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-XM-02",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-XM-03",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-XM-03",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-XM-03",
+      "name": "改选 XM07-01"
+    },
+    {
+      "key": "KCG-XM-03",
+      "name": "未访问 XM07-01"
+    },
+    {
+      "key": "KCG-XM-04",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-XM-04",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-XM-04",
+      "name": "改选 XM07-01"
+    },
+    {
+      "key": "KCG-XM-04",
+      "name": "未访问 XM07-01"
+    },
+    {
+      "key": "KCG-XM-04",
+      "name": "改选 XM08-01"
+    },
+    {
+      "key": "KCG-XM-04",
+      "name": "未访问 XM08-01"
+    },
+    {
+      "key": "KCG-ZZ-01",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-ZZ-01",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-ZZ-02",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-ZZ-02",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-ZZ-02",
+      "name": "改选 ZZ06-01"
+    },
+    {
+      "key": "KCG-ZZ-02",
+      "name": "未访问 ZZ06-01"
+    },
+    {
+      "key": "KCG-ZZ-03",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-ZZ-03",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-ZZ-03",
+      "name": "改选 ZZ06-01"
+    },
+    {
+      "key": "KCG-ZZ-03",
+      "name": "未访问 ZZ06-01"
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "name": "改选 ZZ06-01"
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "name": "未访问 ZZ06-01"
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "name": "改选 ZZ08-01"
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "name": "未访问 ZZ08-01"
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "name": "改选 ZZ06-01"
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "name": "未访问 ZZ06-01"
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "name": "改选 ZZ08-01"
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "name": "未访问 ZZ08-01"
+    },
+    {
+      "key": "KCG-MY-01",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-MY-01",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-MY-02",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-MY-02",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-MY-02",
+      "name": "改选 MY07-01"
+    },
+    {
+      "key": "KCG-MY-02",
+      "name": "未访问 MY07-01"
+    },
+    {
+      "key": "KCG-MY-03",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-MY-03",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-MY-03",
+      "name": "改选 MY07-01"
+    },
+    {
+      "key": "KCG-MY-03",
+      "name": "未访问 MY07-01"
+    },
+    {
+      "key": "KCG-MY-04",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-MY-04",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-MY-04",
+      "name": "改选 MY07-01"
+    },
+    {
+      "key": "KCG-MY-04",
+      "name": "未访问 MY07-01"
+    },
+    {
+      "key": "KCG-PI-01",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-PI-01",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-PI-01",
+      "name": "错误HIGH/LOW"
+    },
+    {
+      "key": "KCG-PI-02",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-PI-02",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-PI-02",
+      "name": "错误HIGH/LOW"
+    },
+    {
+      "key": "KCG-PI-02",
+      "name": "改选 PI08-01"
+    },
+    {
+      "key": "KCG-PI-02",
+      "name": "未访问 PI08-01"
+    },
+    {
+      "key": "KCG-PI-02",
+      "name": "改选 PI06-01"
+    },
+    {
+      "key": "KCG-PI-02",
+      "name": "未访问 PI06-01"
+    },
+    {
+      "key": "KCG-HQ-01",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-HQ-01",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-HQ-01",
+      "name": "改选 C01-02"
+    },
+    {
+      "key": "KCG-HQ-01",
+      "name": "未访问 C01-02"
+    },
+    {
+      "key": "KCG-HQ-01",
+      "name": "改选 C02-01"
+    },
+    {
+      "key": "KCG-HQ-01",
+      "name": "未访问 C02-01"
+    },
+    {
+      "key": "KCG-HQ-01",
+      "name": "未读相识事件"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "改选 HQ07-01"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "未访问 HQ07-01"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "改选 HQ08-01"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "未访问 HQ08-01"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "改选 C01-02"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "未访问 C01-02"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "改选 C02-01"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "未访问 C02-01"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "name": "未读相识事件"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "错误节点"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "错误路线"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "改选 HQ07-01"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "未访问 HQ07-01"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "改选 HQ08-01"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "未访问 HQ08-01"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "改选 C01-02"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "未访问 C01-02"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "改选 C02-01"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "未访问 C02-01"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "name": "未读相识事件"
+    },
+    {
+      "key": "OV-XM45",
+      "name": "错误节点"
+    },
+    {
+      "key": "OV-XM45",
+      "name": "错误路线"
+    },
+    {
+      "key": "OV-XM45",
+      "name": "改选 XM07-01"
+    },
+    {
+      "key": "OV-XM45",
+      "name": "未访问 XM07-01"
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "name": "错误节点"
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "name": "错误路线"
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "name": "改选 ZZ06-01"
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "name": "未访问 ZZ06-01"
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "name": "错误节点"
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "name": "错误路线"
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "name": "改选 ZZ06-01"
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "name": "未访问 ZZ06-01"
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "name": "改选 ZZ08-01"
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "name": "未访问 ZZ08-01"
+    },
+    {
+      "key": "OV-PI39",
+      "name": "错误节点"
+    },
+    {
+      "key": "OV-PI39",
+      "name": "错误路线"
+    },
+    {
+      "key": "OV-PI39",
+      "name": "错误HIGH/LOW"
+    },
+    {
+      "key": "OV-HQ57",
+      "name": "错误节点"
+    },
+    {
+      "key": "OV-HQ57",
+      "name": "错误路线"
+    },
+    {
+      "key": "OV-HQ57",
+      "name": "改选 C01-02"
+    },
+    {
+      "key": "OV-HQ57",
+      "name": "未访问 C01-02"
+    },
+    {
+      "key": "OV-HQ57",
+      "name": "改选 C02-01"
+    },
+    {
+      "key": "OV-HQ57",
+      "name": "未访问 C02-01"
+    },
+    {
+      "key": "OV-HQ57",
+      "name": "未读相识事件"
+    }
+  ]
+}

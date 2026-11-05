@@ -1,0 +1,90 @@
+{
+  "taskId": "P4-03",
+  "date": "2026-11-03",
+  "status": "PASS_PRODUCER_DELIVERY_ONLY",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "checks": [
+    {
+      "name": "冻结输入及接口保持",
+      "status": "passed",
+      "detail": {
+        "files": 576,
+        "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+        "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc"
+      }
+    },
+    {
+      "name": "七包收件未漂移",
+      "status": "passed",
+      "detail": {
+        "packages": 7,
+        "files": 28
+      }
+    },
+    {
+      "name": "23需求20键完整处置且保持来源条件",
+      "status": "passed",
+      "detail": {
+        "needs": 23,
+        "keys": 20,
+        "sourceNeedsOpen": 22,
+        "sourceNeedsResolved": 1
+      }
+    },
+    {
+      "name": "241项候选目录通过统一格式且全部待复验",
+      "status": "passed",
+      "detail": {
+        "existing": 226,
+        "added": 15,
+        "cgUnchanged": 60,
+        "passed": 0
+      }
+    },
+    {
+      "name": "15张选定图与生成/复用来源闭合",
+      "status": "passed",
+      "detail": {
+        "selected": 15,
+        "newOrRepaired": 14,
+        "sourceReuse": 1
+      }
+    },
+    {
+      "name": "关键处置边界",
+      "status": "passed",
+      "detail": {
+        "headgear": "pending-text-refreeze",
+        "busStop": "4-evening-2-day-7-offscreen",
+        "hqMixedTime": "offscreen",
+        "workSkirt": "scope-extension-candidate"
+      }
+    }
+  ],
+  "inventoryCounts": {
+    "character": 81,
+    "prop": 9,
+    "background": 76
+  },
+  "producerNeeds": {
+    "packages": 7,
+    "needs": 23,
+    "resourceKeys": 20,
+    "dispositionsDelivered": 19,
+    "upstreamTextDependency": 1,
+    "selectedImages": 15,
+    "newOrRepairedImages": 14,
+    "copiedReference": 1,
+    "reuseKeys": 5,
+    "offscreenKeys": 1
+  },
+  "unperformed": [
+    "P4-05独立图片复验与运行衍生",
+    "P4-02需求/绑定闭合",
+    "头盔正文重冻结",
+    "P4-07采用",
+    "引擎/浏览器/手机/原生/存读档/发布"
+  ]
+}

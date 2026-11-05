@@ -1,0 +1,1046 @@
+{
+  "schemaVersion": "p4-03-source-delivery-v1",
+  "taskId": "P4-03",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "counts": {
+    "selected": 15,
+    "newOrRepaired": 14,
+    "sourceReuse": 1,
+    "background": 13,
+    "character": 2
+  },
+  "assets": [
+    {
+      "resourceKey": "bridge-shaobing-dusk",
+      "assetId": "bg-bridge-shaobing-dusk",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/bridge-shaobing-dusk/bg-bridge-shaobing-dusk-v001.png",
+        "sha256": "332d6b6c420c17bcd76adaafa8fdef60ebaafc75fa21d0942e429404b4c4b9da",
+        "bytes": 2777718,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/bridge-shaobing-dusk/generation.json",
+        "sha256": "7fa8c0ca86bb2d9129f8b55868c8aea204e6675db35006c5023d81cbc032b53c"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-bridge-shaobing-day.webp",
+          "sha256": "56c4624bf575d91bceed45a920724c0ade1a7c3f4f506cecc91ecf432072d30b"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/bridge-shaobing-dusk/bg-bridge-shaobing-dusk-v001.lossless.webp",
+        "sha256": "773fae67abf508a3d3e0d191ecd29bf4a1a89bd06a07875bc891d99eaf78c2c6",
+        "bytes": 1983188,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-COMMON-N008"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#bridge-shaobing-dusk"
+    },
+    {
+      "resourceKey": "guiyang-bus-stop-day",
+      "assetId": "bg-guiyang-bus-stop-day",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/bg-guiyang-bus-stop-day-v001.png",
+        "sha256": "75f81784c52cdfd59459a06a12e98a0ff09d25d49cb6124dece191d1c8deb26e",
+        "bytes": 3062566,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/generation.json",
+        "sha256": "e25e21e90413c4847114e56ec8dc0ba2c92d3b1c29a947099208ee0a0204692d"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-guiyang-housing-office-day.webp",
+          "sha256": "7223eb18b2a3d92467f3f3429c53d4d3e330eeb9f44fe5b85ea9cb3ff9ddf309"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/bg-guiyang-bus-stop-day-v001.lossless.webp",
+        "sha256": "55e5bde1fc6646b8a1a5ef2ebeeb14bd14134a93f7314263ae40fe1ff0c15a9b",
+        "bytes": 2058590,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-PI-N003"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#guiyang-bus-stop-day"
+    },
+    {
+      "resourceKey": "huisheng-306-operating-daylight",
+      "assetId": "bg-huisheng-306-operating-day",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/huisheng-306-operating-daylight/bg-huisheng-306-operating-day-v001.png",
+        "sha256": "a1bd4d2bdac55667e3ac322444454ae1cabbbfaaa45e0f1a2ffb399da8981abe",
+        "bytes": 2536843,
+        "format": "PNG",
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/huisheng-306-operating-daylight/generation.json",
+        "sha256": "3b45de9f039c583712b9a92aecca3f6eb62f56b4975460ed6550c41d1a443e90"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-huisheng-306-operating-night.webp",
+          "sha256": "11a3352deae35480b832d817d4dc3f231e7065beb99d20d57b904bdeebc847f6"
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-huisheng-306-cleared-day.webp",
+          "sha256": "5d28669c6d040eb2a9d325217fd0e02a7f5cc17a3b9a4eaac26fb1269247301b"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/huisheng-306-operating-daylight/bg-huisheng-306-operating-day-v001.lossless.webp",
+        "sha256": "6b2a1fc44bebfafe8143e5989900a01a6ee38f7c56b3fd626fa2de161319cefb",
+        "bytes": 1826424,
+        "format": "WEBP",
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-ZZ-N002"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#huisheng-306-operating-daylight"
+    },
+    {
+      "resourceKey": "huisheng-corridor-night",
+      "assetId": "bg-huisheng-corridor-operating-night",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/huisheng-corridor-night/bg-huisheng-corridor-operating-night-v001.png",
+        "sha256": "fb55e6c08968484ab6609438d06f6ed322348aa18b7f0958ab393ba865947ee4",
+        "bytes": 2437497,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/huisheng-corridor-night/generation.json",
+        "sha256": "08f24098d54f4a7a47493e201ee2c0f66210ac2db85c3edd30b5860621c4a0e3"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-huisheng-corridor-operating-day.webp",
+          "sha256": "0db63527f7d2ccb6e9216de5fe2056910d232b9d1d9ad256eab4ee27999305e7"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/huisheng-corridor-night/bg-huisheng-corridor-operating-night-v001.lossless.webp",
+        "sha256": "6fd13f14aad53a79f1f2ec46e34bf5663532732096a7875d7f4057c007fc6478",
+        "bytes": 1693030,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-ZZ-N003",
+        "P4-02-MY-N005"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#huisheng-corridor-night"
+    },
+    {
+      "resourceKey": "my-restaurant-eaves-rain",
+      "assetId": "bg-my-restaurant-eaves-rain",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/my-restaurant-eaves-rain/bg-my-restaurant-eaves-rain-v001.png",
+        "sha256": "02f0eefbe8a63c2e9a824a105b62ade5812b6e62bade4b40672172c171ea44ef",
+        "bytes": 2891639,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/my-restaurant-eaves-rain/generation.json",
+        "sha256": "26de2aa87241d4ab5be1efa4b2cc7973b14664d70320d9209fe2a4b091185b28"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg039.webp",
+          "sha256": "ad292e765b85642210ef7e3f336dbe815c9f01db9560bd36e0964a0b326fdf93"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/my-restaurant-eaves-rain/bg-my-restaurant-eaves-rain-v001.lossless.webp",
+        "sha256": "81d6f8ab06d4582eb9a8158c097e70e34e3471cfd0e112e181472e4a7c35a106",
+        "bytes": 2090404,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-MY-N001"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#my-restaurant-eaves-rain"
+    },
+    {
+      "resourceKey": "noodle-shop-evening",
+      "assetId": "bg-noodle-shop-evening",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/noodle-shop-evening/bg-noodle-shop-evening-v001.png",
+        "sha256": "331f587f682bc0eadaa67070c7dec41c51b8d436104392c478c8d9a80a79f3f0",
+        "bytes": 2586840,
+        "format": "PNG",
+        "width": 1672,
+        "height": 940,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/noodle-shop-evening/generation.json",
+        "sha256": "31d59eb938f4e4e7deca18ddb461797f5b15b1a34fa142823cc43853ffbff3f1"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-noodle-shop-day.webp",
+          "sha256": "4f20a589dd2095626da10f12540cb42ad0dadf03022e79ebd671bc20b187b737"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/noodle-shop-evening/bg-noodle-shop-evening-v001.lossless.webp",
+        "sha256": "29ab52ae1086f155eab39434a8b6b12a87b03f5a39aacbef4a2c562d2def7d2a",
+        "bytes": 1958720,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 940,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-FR-N002"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#noodle-shop-evening"
+    },
+    {
+      "resourceKey": "old-netcafe-backroom-neutral-day",
+      "assetId": "bg-old-netcafe-backroom-neutral-day",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-backroom-neutral-day/bg-old-netcafe-backroom-neutral-day-v001.png",
+        "sha256": "9173dcdd2e8799140ca5c21ff638a8d63d82f4fbd488ec8a6d233e6bd669c531",
+        "bytes": 2355069,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-backroom-neutral-day/generation.json",
+        "sha256": "ebd99e7b90dfb986e3c9c1db91dee0b3584c2f8838f4192d00026233f6027a08"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-old-netcafe-backroom-night.webp",
+          "sha256": "47696934829fecde45d6a32406bcaf0fab897188816492beb1b50273c5be5966"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-backroom-neutral-day/bg-old-netcafe-backroom-neutral-day-v001.lossless.webp",
+        "sha256": "a48a5fec54aab42b4141b79858b490b3d3e3255da834092eeb2c6e3d6422acfc",
+        "bytes": 1660324,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-FR-N003"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#old-netcafe-backroom-neutral-day"
+    },
+    {
+      "resourceKey": "old-netcafe-yard-door-closed-night",
+      "assetId": "bg-old-netcafe-yard-door-closed-night",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-yard-door-closed-night/bg-old-netcafe-yard-door-closed-night-v001.png",
+        "sha256": "43a80cb08da699279ef943a31c6e71361a338e79f3579257d78cc0a039970f69",
+        "bytes": 2458144,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-yard-door-closed-night/generation.json",
+        "sha256": "9ce075c6fb96c58d3eac0eb9953043bec5b0a5f9fad8920741b72d52fd11662b"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-ajar-night.webp",
+          "sha256": "6d8b727ac1c48dec2125e2b68ed3e8752505041511b6be67b532f8b4d2df4501"
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-closed-morning.webp",
+          "sha256": "67efd015362f224a75032d9d44bfc2c984dbf62d5cbbddafd6f5f12816e76145"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-yard-door-closed-night/bg-old-netcafe-yard-door-closed-night-v001.lossless.webp",
+        "sha256": "3f04694b52f7afec607c8c1f3daa32fe5b0b4f18225fd5ac2eb25e805ac27f23",
+        "bytes": 1808802,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-COMMON-N002",
+        "P4-02-HQ-N001"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#old-netcafe-yard-door-closed-night"
+    },
+    {
+      "resourceKey": "old-netcafe-yard-door-open-morning",
+      "assetId": "bg-old-netcafe-yard-door-open-morning",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-yard-door-open-morning/bg-old-netcafe-yard-door-open-morning-v001.png",
+        "sha256": "23c65da2d429cb07a2279cfaee529ceaf37785f48d63d44a85c72628baf06869",
+        "bytes": 2948738,
+        "format": "PNG",
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-yard-door-open-morning/generation.json",
+        "sha256": "a1cb80298dcd781f0c1b91ecb6acf41f525bee36deeb1a1c152e88b168a650d3"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-closed-morning.webp",
+          "sha256": "67efd015362f224a75032d9d44bfc2c984dbf62d5cbbddafd6f5f12816e76145"
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-open-afternoon.webp",
+          "sha256": "24d3ba84b6535c7a295120572dafdeb45a905b161eee4a83320e18d2cb707995"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/old-netcafe-yard-door-open-morning/bg-old-netcafe-yard-door-open-morning-v001.lossless.webp",
+        "sha256": "6299b5a983c0d3d718e615a928b17bfa35a5ac8f87adfcfaf6adf4056b4f5eec",
+        "bytes": 2103072,
+        "format": "WEBP",
+        "width": 1671,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-HQ-N002"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#old-netcafe-yard-door-open-morning"
+    },
+    {
+      "resourceKey": "performance-mall-side-stage-evening",
+      "assetId": "bg-performance-mall-side-stage-evening",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/performance-mall-side-stage-evening/bg-performance-mall-side-stage-evening-v001.png",
+        "sha256": "77ee281080359ac4bc283d97a3e80268c968d1a7c817eab7607d5791543c683d",
+        "bytes": 2598310,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/performance-mall-side-stage-evening/generation.json",
+        "sha256": "f979479b93ab9e6ac5f1ba8a170792aa97531d843379de0d866476684678cf8e"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A08/bg-performance-mall-side-stage-day.webp",
+          "sha256": "8f67a5817f37f0ee3f7c97c111c97630aaed81d8caac4c575b7ad77925fcc3b9"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/performance-mall-side-stage-evening/bg-performance-mall-side-stage-evening-v001.lossless.webp",
+        "sha256": "65bd4cc235b05081526097de2816dcb05fd67b3950c153146b56508b8011d92f",
+        "bytes": 1841050,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-FR-N001"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#performance-mall-side-stage-evening"
+    },
+    {
+      "resourceKey": "piao-seated-base-common-d36",
+      "assetId": "piao-seated-base",
+      "type": "character",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/piao-seated-base-common-d36/piao-seated-base-v001.png",
+        "sha256": "ab827aaddd373bee5e438e9bed79161112a70283493459465a1e4ddbbeecf935",
+        "bytes": 1867870,
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "orientation": 1,
+        "alphaExtrema": [
+          0,
+          254
+        ],
+        "nontransparentBBox": [
+          0,
+          16,
+          986,
+          1536
+        ],
+        "visibleBBoxAlpha8": [
+          102,
+          18,
+          915,
+          1536
+        ],
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/piao-seated-base-common-d36/generation.json",
+        "sha256": "cbe5cc13178fbe02213fcade8e20bb9998307230f364fe77fdb48807e45a5f3b"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A05/piao-base.webp",
+          "sha256": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5"
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-noodle-shop-day.webp",
+          "sha256": "4f20a589dd2095626da10f12540cb42ad0dadf03022e79ebd671bc20b187b737"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/piao-seated-base-common-d36/piao-seated-base-v001.lossless.webp",
+        "sha256": "7d13723ba0fcd282b9622b89f9b72f1dfa9892cef8b45a0553be16cab0c1f6b4",
+        "bytes": 1139480,
+        "format": "WEBP",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "orientation": 1,
+        "alphaExtrema": [
+          0,
+          254
+        ],
+        "nontransparentBBox": [
+          0,
+          16,
+          986,
+          1536
+        ],
+        "visibleBBoxAlpha8": [
+          102,
+          18,
+          915,
+          1536
+        ],
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-COMMON-N005"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#piao-seated-base-common-d36"
+    },
+    {
+      "resourceKey": "xiaoman-day40-packing-interior",
+      "assetId": "bg-xiaoman-packing-interior",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v002",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/xiaoman-day40-packing-interior/bg-xiaoman-packing-interior-v002.png",
+        "sha256": "0e68ec919e051a4666747fbb3c28409bed74828fbea16932b5831c7f856bf24f",
+        "bytes": 1856101,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/xiaoman-day40-packing-interior/generation-v002.json",
+        "sha256": "ee3976ab1d60e8cd0341e7983e1d2f5b8f58d382e19c41528802df2856a0f0ff"
+      },
+      "references": [
+        {
+          "path": "assets/sources/20261103/P4-03/xiaoman-day40-packing-interior/bg-xiaoman-packing-interior-v001.png",
+          "sha256": "54f905a84626f0536575a4751fa421b18d6dbfba6f208ac0c7997bc5b26f2d2d"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/xiaoman-day40-packing-interior/bg-xiaoman-packing-interior-v002.lossless.webp",
+        "sha256": "e0b2f5cd6537b61565250d338a91b158d0954005be1a01693763df416f0ffa33",
+        "bytes": 1230986,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-XM-N001"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#xiaoman-day40-packing-interior"
+    },
+    {
+      "resourceKey": "xiaoman-work-apron-empty-hands",
+      "assetId": "char-xiaoman-work-apron-empty-hands",
+      "type": "character",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/xiaoman-work-apron-empty-hands/char-xiaoman-work-apron-empty-hands-v001.png",
+        "sha256": "7e5b30da82a361481a5061cdf5bc5fb3d767757c505135990ba2dafb46dace99",
+        "bytes": 2100031,
+        "format": "PNG",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "orientation": 1,
+        "alphaExtrema": [
+          0,
+          254
+        ],
+        "nontransparentBBox": [
+          0,
+          0,
+          908,
+          1536
+        ],
+        "visibleBBoxAlpha8": [
+          128,
+          8,
+          886,
+          1536
+        ],
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/xiaoman-work-apron-empty-hands/generation.json",
+        "sha256": "ef3f2a90e206474608ff08c74c11e44f51c1494a4e6f421e9aa8630f769c13b4"
+      },
+      "references": [
+        {
+          "path": "assets/current/SUI-A02/char-xiaoman-work-apron.webp",
+          "sha256": "7a46c1ac2d3db02e3a35970d90eab87f81c2dd9f3037b80fe7043e07826f89c2"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/xiaoman-work-apron-empty-hands/char-xiaoman-work-apron-empty-hands-v001.lossless.webp",
+        "sha256": "c28c20abef3f44cc13c6be1f97f314ca5b277b1f2b8483b1de032d8a56e1d969",
+        "bytes": 1276008,
+        "format": "WEBP",
+        "width": 1024,
+        "height": 1536,
+        "mode": "RGBA",
+        "orientation": 1,
+        "alphaExtrema": [
+          0,
+          254
+        ],
+        "nontransparentBBox": [
+          0,
+          0,
+          908,
+          1536
+        ],
+        "visibleBBoxAlpha8": [
+          128,
+          8,
+          886,
+          1536
+        ],
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-COMMON-N001",
+        "P4-02-XM-N003"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#xiaoman-work-apron-empty-hands"
+    },
+    {
+      "resourceKey": "my-riverside-day",
+      "assetId": "bg-my-riverside-afternoon",
+      "type": "background",
+      "origin": "reused-source-copy",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/my-riverside-day/bg-my-riverside-afternoon-v001.png",
+        "sha256": "6d93a0a6ffa67f7a9e2510b05d335ca704cb6dc06bb67166311252f58e2822ab",
+        "bytes": 3362248,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/my-riverside-day/origin.json",
+        "sha256": "0be923f7500f3eb073ce0f58a4e4162ae99b9b396795cb49adcc489c1cb9666f"
+      },
+      "references": [
+        {
+          "path": "assets/sources/20261029-cg-preflight/SUI-A08/bg-my-riverside-afternoon-v001.png",
+          "sha256": "6d93a0a6ffa67f7a9e2510b05d335ca704cb6dc06bb67166311252f58e2822ab"
+        }
+      ],
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/my-riverside-day/bg-my-riverside-afternoon-v001.lossless.webp",
+        "sha256": "99f0830f8f37d23d6e609c8e0b376b650eed7fe4ffa903b039ed5fcb2bc0d293",
+        "bytes": 2311580,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "保留源ICC；未标记源不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-MY-N002"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户在本聊天要求完成P4-03；仅授权制作与交付候选，未记为逐图视觉批准或运行采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#my-riverside-day"
+    },
+    {
+      "resourceKey": "guiyang-bus-stop-day",
+      "assetId": "bg-guiyang-bus-stop-evening",
+      "type": "background",
+      "origin": "generated-this-batch",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/bg-guiyang-bus-stop-evening-v001.png",
+        "sha256": "89ab63116350d05acd8b4fc5eb4707c6640ce7a3f05df2ca214cf4c05ef87eef",
+        "bytes": 2551738,
+        "format": "PNG",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "archiveWebP": {
+        "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/bg-guiyang-bus-stop-evening-v001.lossless.webp",
+        "sha256": "e21615c223934353fb1fb5f1b8e61e670da05587f59e89c98f535f227b7821d2",
+        "bytes": 1814362,
+        "format": "WEBP",
+        "width": 1672,
+        "height": 941,
+        "mode": "RGB",
+        "orientation": 1,
+        "alphaExtrema": null,
+        "nontransparentBBox": null,
+        "visibleBBoxAlpha8": null,
+        "iccProfileBytes": 0
+      },
+      "productionEvidence": {
+        "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/generation-evening.json",
+        "sha256": "3bd9641fde9a87b994dd4e147de82c30dea81a66329e690c2f7fa00ed2995879"
+      },
+      "references": [
+        {
+          "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/bg-guiyang-bus-stop-day-v001.png",
+          "sha256": "75f81784c52cdfd59459a06a12e98a0ff09d25d49cb6124dece191d1c8deb26e"
+        }
+      ],
+      "encoding": {
+        "tool": "Pillow/libwebp",
+        "Pillow": "11.3.0",
+        "libwebp": "1.5.0",
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "resized": false,
+        "profile": "源无ICC；不作像素转换",
+        "rgbaPixelEqual": true
+      },
+      "needIds": [
+        "P4-02-PI-N003"
+      ],
+      "reviewStatus": "pending",
+      "producerStatus": "selected-candidate-awaiting-P4-05",
+      "authorizationBasis": "用户要求完成P4-03；按冻结正文明确晚间补同地点时段版，不等于逐图批准或正式采用。",
+      "adoption": "P4-05独立复验与运行衍生、P4-02逐节点闭合、P4-07正式采用均另行进行。",
+      "candidateUse": "docs/修订协作/P4-演出与美术/P4-03/decisions.json#guiyang-bus-stop-day"
+    }
+  ]
+}

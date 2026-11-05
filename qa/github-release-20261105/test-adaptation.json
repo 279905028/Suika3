@@ -1,0 +1,11 @@
+{
+  "source": "tools/story-revision/p5/verify-restoration.cjs",
+  "sourceSha256": "057ee70cdb4911d7ea162b77e79bde522d1621d91469d0742d4e4d31e8507abb",
+  "copy": "qa/github-release-20261105/verify-restoration.cjs",
+  "changes": [
+    "调整本批脚本根目录",
+    "300ms固定UI等待改为500ms",
+    "标题读档入口前等待1500ms，避免首次重绘尚未接受输入；产品文件不变"
+  ],
+  "firstAttempt": "browser-restoration/report.json"
+}

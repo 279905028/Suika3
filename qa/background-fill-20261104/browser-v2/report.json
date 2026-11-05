@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "status": "fail",
+  "scope": "同版本完整包从标题实际进入共通新背景、CG全图、选择与手动保存/刷新恢复；非P5六线14结局全量运行",
+  "checks": [
+    "标题进入真实共通路径，两种新增背景实际显示",
+    "自然选择与CG首可见帧/1.5秒保护正常",
+    "CG全图关闭仍停在原页"
+  ],
+  "screenshots": [
+    "cg001-full.png",
+    "T-C01-000368_1.png",
+    "T-C02-000332_1.png",
+    "manual-save.png"
+  ],
+  "errors": [],
+  "browser": "156.0.8078.80",
+  "error": "page.waitForFunction: Timeout 10000ms exceeded.\n    at /Users/yipin/Desktop/Suika3/qa/background-fill-20261104/verify-browser.cjs:40:10",
+  "events": [
+    "SUI_E|ready|6072c5469013989ab8b7290f062526cf577593d3b723942cc94422bbb0a7ba8d",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|load|slot=1|cursor=T-C02-000332_1|pending=|route=|relation=UNSET|score=30|return=|event=0|ending=|epilogue=|depth=10|tag=text|index=2137"
+  ]
+}

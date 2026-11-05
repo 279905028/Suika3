@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "status": "fail",
+  "scope": "独立夹具：全部补图差异状态的真实Suika加载、画面、原生保存/恢复；非正式路线逐页实玩",
+  "uniqueChangedStates": 26,
+  "backgrounds": [
+    "bg-insert-computer-neutral",
+    "bg-insert-phone-neutral",
+    "bg-xiaoman-packing-interior",
+    "bg-insert-papers-neutral",
+    "bg-guiyang-roadside-overcast",
+    "bg-intercity-coach-neutral",
+    "bg-departure-station-morning-rain",
+    "bg-elevator-interior-neutral",
+    "bg-huangqiuqiu-room-day",
+    "bg-bijie-slope-street-night",
+    "bg-wenwen-bijie-rental-day",
+    "bg-old-netcafe-yard-door-closed-morning",
+    "bg-old-netcafe-backroom-night"
+  ],
+  "screenshots": [],
+  "errors": [],
+  "checks": [],
+  "browser": "156.0.8078.80",
+  "error": "page.waitForFunction: Timeout 60000ms exceeded.\n    at /Users/yipin/Desktop/Suika3/qa/background-fill-20261104/verify-engine.cjs:47:10",
+  "events": [
+    "ERROR|SUI_I|enter|binding=probe-BGF_000|node=BGF_000",
+    "ERROR|BGF|visible|node=BGF_000|bg=assets/current/background-fill-20261104/bg-insert-computer-neutral.webp|alpha=255",
+    "ERROR|BGF|saved|pass=1"
+  ]
+}

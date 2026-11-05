@@ -1,0 +1,1042 @@
+{
+  "schemaVersion": "p4-cg-review-v1",
+  "taskId": "P4-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "status": "production-complete-awaiting-P4-05",
+  "scope": "CG图文复核建议；不是02完整绑定或05资源通过目录",
+  "packageId": "P4-02-ZZ",
+  "records": [
+    {
+      "cgId": "CG025",
+      "assetId": "cg-zz-cg025",
+      "title": "两支麦克风",
+      "packageId": "P4-02-ZZ",
+      "decision": "repair-complete",
+      "basis": "收到ZZ-N001正式白天镜头需求，按该演出口径改为阴天下午，保留人物、双麦与笑场动作。P3该页无直接钟点，此处记录02场景选择，不能把旧QA当本轮时段实证。",
+      "legacyParagraphIds": [
+        "T-ZZ-000034"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000034_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000034_1",
+        "paragraphId": "T-ZZ-000034",
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000034",
+          "kind": "narration",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 189,
+          "context": "ZZ03-01/COMMON",
+          "sha256": "6420b485cb4488c66a3a710a8062a697a801aeef87b879ca68d912bb81437324"
+        }
+      },
+      "text": "我的嗓子一紧，后半句直接破了。她把麦克风扣在腿上，笑得肩膀发颤，不是饭桌上那种留给别人的笑。我突然不知道该看她哪里，只能盯着掉到她袖口上的一粒瓜子壳。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-ZZ-000035_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261103/P4-04/CG025/cg025-v002.png",
+          "sha256": "38cfda6bdb39fc572dda288e8ba4e55d63f224bc15aaa99c64208d5dc1df58d6",
+          "bytes": 2448391,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/sources/20261103/P4-04/CG025/cg025-v002.webp",
+          "sha256": "51506ab844f8f7983b9f2719775b5cfbccbbf027260b0495cc61ffc850627a39",
+          "bytes": 1625964,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": {
+        "cgId": "CG025",
+        "assetId": "cg-zz-cg025",
+        "needId": "P4-02-ZZ-N001",
+        "type": "cg",
+        "source": {
+          "path": "assets/sources/20261103/P4-04/CG025/cg025-v002.png",
+          "sha256": "38cfda6bdb39fc572dda288e8ba4e55d63f224bc15aaa99c64208d5dc1df58d6",
+          "bytes": 2448391
+        },
+        "runtime": {
+          "path": "assets/sources/20261103/P4-04/CG025/cg025-v002.webp",
+          "sha256": "51506ab844f8f7983b9f2719775b5cfbccbbf027260b0495cc61ffc850627a39",
+          "bytes": 1625964
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "WEBP",
+        "alpha": false,
+        "encoding": {
+          "lossless": true,
+          "quality": 100,
+          "method": 6,
+          "libwebp": "1.5.0",
+          "pixelEquality": "passed"
+        },
+        "productionStatus": "complete",
+        "visualStatus": "reviewed-full-image",
+        "P4-05": "pending",
+        "adoptionStatus": "not-adopted"
+      },
+      "previousAsset": {
+        "sourcePath": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg025-v001.png",
+        "runtimePath": "assets/current/SUI-A10-ZZ/cg-zz-cg025.webp"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG025-full.webp",
+          "sha256": "1d039d227ddcf8fb52436e833db93834ef4e514612e0956a768fb17e5dba3d32",
+          "bytes": 1075706
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG025-overlay.webp",
+          "sha256": "f5949ea24264c6dc85057ba954b78e9672b5355c12f7364e7bfbf1a9f46b11d7",
+          "bytes": 942376
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-full-image-and-overlay",
+        "overlayNote": "已看1280×720叠框：两人面部和白天窗景清楚，腿上麦克风部分遮挡，完整图补看；时段返修完成。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG026",
+      "assetId": "cg-zz-cg026",
+      "title": "同样的一下袖口",
+      "packageId": "P4-02-ZZ",
+      "decision": "reuse",
+      "basis": "周栀整理乔哥袖口，文文在旁；不将工作场景处理成单独恋爱承诺。",
+      "legacyParagraphIds": [
+        "T-ZZ-000061"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000061_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000061_1",
+        "paragraphId": "T-ZZ-000061",
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000061",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 331,
+          "context": "### 剧情简介",
+          "sha256": "e8255ee895145eebe95b09fd0c511741c0ada95b2ef84e68a851179eb6a6b50c"
+        }
+      },
+      "text": "过了几分钟，乔哥出来接电话，袖口翻着。她随后出来递手机套，看见便替他压下去，也捏了那一下。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-ZZ-000062_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg026-v001.png",
+          "sha256": "9b76565e503c34c7007adf12da5f9430c9fa46079fa75bb855955d7890712c63",
+          "bytes": 2324662,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg026.webp",
+          "sha256": "30365f0e9bed3bdabb75c422b2a4302a2ae52c6643e3d7a165ab026e17cadd05",
+          "bytes": 1526162,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG026-full.webp",
+          "sha256": "ba76611268e4c79c14687272695337167e500275f323acd6f07adf60d3e2616b",
+          "bytes": 991368
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG026-overlay.webp",
+          "sha256": "429fb17cc5aa70517539f4fdb7554858e234c011fbf1f1a6e0a1813d4d7ab7f9",
+          "bytes": 856890
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG027",
+      "assetId": "cg-zz-cg027",
+      "title": "隔在两人之间的单子",
+      "packageId": "P4-02-ZZ",
+      "decision": "reuse",
+      "basis": "前台与隔在两人之间的单据成立，表情保持疏离；不得把这张订单当成周栀自愿约会。",
+      "legacyParagraphIds": [
+        "T-ZZ-000077"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000077_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000077_1",
+        "paragraphId": "T-ZZ-000077",
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000077",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 433,
+          "context": "### 剧情简介",
+          "sha256": "d742fa15e3e9cbec43f0b1758e0fe870e500eb5e581e39cdf28e4c1fc466fc2d"
+        }
+      },
+      "text": "她今天本来就没上班。那张单子挡在我们中间，前台还在等我确认。我突然想起乔哥说下回还找她，自己竟用了差不多的办法，只是更不熟练。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-ZZ-000556_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg027-v001.png",
+          "sha256": "7e1c16e7fcf0e73ce3b0d849a659226f8c355bde6c40edf2746cdea7d2c8b811",
+          "bytes": 2357317,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg027.webp",
+          "sha256": "48ceb629eeea7b83ee69da00335182a178a7529e9c0c18d7af13e2fed39e5eff",
+          "bytes": 1566364,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG027-full.webp",
+          "sha256": "513d38d7d1a835e6c94ed44040cf2204eedc9becfef749feaa3f1382184a608e",
+          "bytes": 1021682
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG027-overlay.webp",
+          "sha256": "a388431f5e1baae6694b04e1e64f8a659977385ef1955563ccca2a24012ecf23",
+          "bytes": 879594
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG029",
+      "assetId": "cg-zz-cg029",
+      "title": "男朋友不是客人",
+      "packageId": "P4-02-ZZ",
+      "decision": "reuse",
+      "basis": "包房中周栀站立拒接单，文文坐着；ZZ06选B才出现，不改成A支的和解。",
+      "legacyParagraphIds": [
+        "T-ZZ-000204"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000204_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000204_1",
+        "paragraphId": "T-ZZ-000204",
+        "condition": "ZZ06-01=B",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000204",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "face",
+          "group": null,
+          "displayName": "周栀"
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 1149,
+          "context": "ZZ06-01/B",
+          "sha256": "c937f9f974cb3faab8e7ea50f958927ae21429395784bda5147da34815c1ec5e"
+        }
+      },
+      "text": "这张单我不接。你要找的是我，就别这样叫。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-ZZ-000205_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg029-v001.png",
+          "sha256": "0a8cb2d5ecdc00e470daf4ffa17e13f6c84d99645d6858f85a4b8abfd1918f1f",
+          "bytes": 2224126,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg029.webp",
+          "sha256": "872a94dc282a5fc64ce030d2c968ab973c8acc84030f15bd5163fb8fdfab08c1",
+          "bytes": 1587798,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG029-full.webp",
+          "sha256": "3aa1578542e6f4766882f24e982b9dda0c6de866027018239decdd5f48e669b8",
+          "bytes": 1060686
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG029-overlay.webp",
+          "sha256": "ad7b4c30cb638ffad2f94132c580bd624f398ed05fc62534c25627b21bc41066",
+          "bytes": 877520
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG031",
+      "assetId": "cg-zz-cg031",
+      "title": "把不走的钟留在原处",
+      "packageId": "P4-02-ZZ",
+      "decision": "rebind",
+      "basis": "停业搬迁、停钟、两人抬头吻合；落在她明确不带走停钟的回应，不暗示将钟迁入新家。",
+      "legacyParagraphIds": [
+        "T-ZZ-000744",
+        "T-ZZ-000745",
+        "T-ZZ-000746",
+        "T-ZZ-000747",
+        "T-ZZ-000748"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000748_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000748_1",
+        "paragraphId": "T-ZZ-000748",
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000748",
+          "kind": "dialogue",
+          "speaker": "zhouzhi",
+          "name": "周栀",
+          "channel": "face",
+          "group": null,
+          "displayName": "周栀"
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 1567,
+          "context": "ZZ07-01/COMMON",
+          "sha256": "a6f6b599e870d2cf526a3a5fbc86773abd9beb55bbe2f55d736e178f8fd4433c"
+        }
+      },
+      "text": "不想把一只不走的钟又挂到新地方。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "BRANCH_2fa02fd8187e486f8c00",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg031-v004.png",
+          "sha256": "40f41b96e157480ed02a64c2b727fdb18639daa4091ff807599f6d2efe5b04d4",
+          "bytes": 1970522,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg031.webp",
+          "sha256": "582b1dd5157e26aa9b323dadd812fac3ec5825091d65e42095f967e81d89ad04",
+          "bytes": 1392294,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG031-full.webp",
+          "sha256": "f43ed5aa30348c5ab4a50686d6d56ea9ef0fa198e30f01a97136c2b51dfa854d",
+          "bytes": 935134
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG031-overlay.webp",
+          "sha256": "17ee0d18ff01b126134efc85b8295992f4f5f3f669db63e673075d8eb086e465",
+          "bytes": 771966
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG032",
+      "assetId": "cg-zz-cg032",
+      "title": "回声关了，她还上班",
+      "packageId": "P4-02-ZZ",
+      "decision": "reuse",
+      "basis": "换裙后在门外递伞，仍要上班；不是停工或从此只为文文生活。",
+      "legacyParagraphIds": [
+        "T-ZZ-000800",
+        "T-ZZ-000801"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000800_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000800_1",
+        "paragraphId": "T-ZZ-000800",
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000800",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 1773,
+          "context": "### 剧情简介",
+          "sha256": "ac04565b1184e2b659cadbd1fa06facb00b451d1ebe544ed1a3c842be329dc69"
+        }
+      },
+      "text": "她换了裙子，头发重新弄过，耳饰是306里找回来的那只。她把伞递给我。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-ZZ-000801_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg032-v001.png",
+          "sha256": "12cb431449cf6db7ac8e3f47ad8be80f75ee49affd4cd43905a99176b3ec48d1",
+          "bytes": 2397629,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg032.webp",
+          "sha256": "b9b958ba0e624df55d895817da0cd23542e616b84d2b9b869519fade668f1623",
+          "bytes": 1684980,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG032-full.webp",
+          "sha256": "7d6a5eae77d13f83b0a5be5409e8dfac153e344f706ccf7ae76446422979a79f",
+          "bytes": 1117834
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG032-overlay.webp",
+          "sha256": "5f44697eb2aceb440aa7c35f4147c795a127b08ecbee099584e157855781b4fe",
+          "bytes": 952252
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG034",
+      "assetId": "cg-zz-cg034",
+      "title": "留住人，交出杯子",
+      "packageId": "P4-02-ZZ",
+      "decision": "rebind",
+      "basis": "画面是分开拥抱后的交杯定格；只放本段的交杯动作，下一页清CG，不能留到她已拖箱检票之后。",
+      "legacyParagraphIds": [
+        "T-ZZ-000872",
+        "T-ZZ-000873",
+        "T-ZZ-000874"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000872_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000872_1",
+        "paragraphId": "T-ZZ-000872",
+        "condition": "ZZ06-01=A&ZZ08-01=A",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000872",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 2139,
+          "context": "ZZ08-01/COMMON",
+          "sha256": "37de5fd97a75b117464606d54c2df145c922dcc9f7feaf67422161285aa568b0"
+        }
+      },
+      "text": "她嗯了一声，这次没嫌我不够热烈。我们抱到第二遍广播响，才分开。她把杯子交给我。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-ZZ-000873_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg034-v001.png",
+          "sha256": "2fb53df1542bf2e4e81b65bc682b61aa2d5c95b33d9b4cfd84f25c12e66e5cbd",
+          "bytes": 2589981,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg034.webp",
+          "sha256": "5978ecd93d21a3271a0255cc30468ae6be734aaaa37d0fe235d3ee39b099fdaf",
+          "bytes": 1768898,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG034-full.webp",
+          "sha256": "be4b380bd7e5395c50875c1d6a73ac5ad64ec38b247b74a0813c24629ec00de9",
+          "bytes": 1156280
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG034-overlay.webp",
+          "sha256": "8568ef5f352ad707941addb10bf4a657cda711981a5edb89494dc1c0a12b9e1a",
+          "bytes": 991888
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG035",
+      "assetId": "cg-zz-cg035",
+      "title": "清晨电话里的人",
+      "packageId": "P4-02-ZZ",
+      "decision": "reuse",
+      "basis": "文文在租屋吃饼、手机语音通话，周栀不在房间；AA结尾生活落点已经足够，无需另画同居。",
+      "legacyParagraphIds": [
+        "T-ZZ-000478"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000478_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000478_1",
+        "paragraphId": "T-ZZ-000478",
+        "condition": "ZZ06-01=A&ZZ08-01=A",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000478",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 2863,
+          "context": "ZZ-E1",
+          "sha256": "f5dfc0ff25e9caa5c5112203c8dc9daaaa28f477746749bf681458632fae7c69"
+        }
+      },
+      "text": "我咬下一口饼，她在那头打了个哈欠。我们都没急着为这段关系再讲一遍保证。手机放在手边，声音还在。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "BRANCH_8c8ab199349bbae2509d",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg035-v001.png",
+          "sha256": "3593e7e8b6666a1e0feadc94fd8d939e831a986120a91b2bfbf4d1af720b0c3f",
+          "bytes": 2362182,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp",
+          "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc",
+          "bytes": 1603528,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG035-full.webp",
+          "sha256": "f3e3a97ed022d11121e9209804e849b019c4704653c7430e69308c9ad6c03838",
+          "bytes": 1050900
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG035-overlay.webp",
+          "sha256": "03bb0155b9350ddd5ebe50cac2040563f3e90cbb930f523df52605e66a9f9a82",
+          "bytes": 886802
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG103",
+      "assetId": "cg-zz-cg103",
+      "title": "自己把袖口捋平",
+      "packageId": "P4-02-ZZ",
+      "decision": "reuse",
+      "basis": "独自对玻璃捋袖口，分开收束成立；不出现周栀的实体或重逢剪影。",
+      "legacyParagraphIds": [
+        "T-ZZ-000489"
+      ],
+      "proposedNodeIds": [
+        "T-ZZ-000489_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000489_1",
+        "paragraphId": "T-ZZ-000489",
+        "condition": "ZZ06-01=B|ZZ08-01=B",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000489",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 2944,
+          "context": "ZZ-E2",
+          "sha256": "ab9c61d5f5443859b9d5fd7cfb647871c211a9dbdf841c22769dee879e7cd1fb"
+        }
+      },
+      "text": "我起身，把装纸袋的垃圾拿到桶边。回声玻璃上照出一个站着的人，头发没打理，外套袖口皱着。没有她伸手帮我压平，我便自己往下捋了一下。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-ZZ-001011_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg103-v002.png",
+          "sha256": "7b1ef1d23aff7646c72bb3f9ed2359e9b42078e25ab67962a780e36b8a28ba8d",
+          "bytes": 2480721,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg103.webp",
+          "sha256": "6fcc0fd00bc0a67a6c4025dec2d3b9e6e20525e4afed94f284ec1f765b409bcc",
+          "bytes": 1667994,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG103-full.webp",
+          "sha256": "e2cab7f00e7d931d979bf363fcd67ce5ccf2065f78d89bfc5561a6726671593f",
+          "bytes": 1088618
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG103-overlay.webp",
+          "sha256": "d22a437af545b9434032110287a68703dbd018239d00d28bcd0646251c407ac9",
+          "bytes": 939458
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T02:23:41.329240+00:00",
+  "status": "PARTIAL_PASS_PLATFORM_COVERAGE_OPEN",
+  "localWebRepresentativeAcceptance": "pass",
+  "macOSNativeAcceptance": "pass-limited-native-smoke",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "runtimeBuildId": "df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+  "nativeRuntimeBuildId": "49aa385f6badbb2cd6cd41c2bf69976dbee697b470cad19047c293502b455f75",
+  "adoptedMotionCG": 29,
+  "selection": {
+    "ending": 6,
+    "kiss": 18,
+    "overnight": 5,
+    "mengyaoNight": "static-fallback",
+    "historicalMorning": 6
+  },
+  "passedEvidence": {
+    "chromeRoutes": {
+      "path": "qa/dialogue-p5-motion-20261105/routes-summary/report.json",
+      "sha256": "c654959321cb01337ac8ca1d124584bda8ceb44b04a9e1cb08b445a8fa86d88a",
+      "status": "pass",
+      "scope": "web"
+    },
+    "firefoxRoute": {
+      "path": "qa/dialogue-p5-motion-20261105/routes-v5-firefox-retry/report.json",
+      "sha256": "f7395d8baf598e92006198257dbcaf3fda24a83bacfb355fa0003d0c8d79eb26",
+      "status": "pass",
+      "scope": "web"
+    },
+    "firefoxRestoration": {
+      "path": "qa/dialogue-p5-motion-20261104/restoration-v5-firefox/report.json",
+      "sha256": "bae2af8dc3607f621672a69376cf2dab14a9b5caec414828aeb2c27c6f6fefb4",
+      "status": "pass",
+      "scope": "web"
+    },
+    "runtimeLifecycle": {
+      "path": "qa/dialogue-p5-motion-20261104/runtime-v5b/report.json",
+      "sha256": "f03653b971202a0dd7d96192bb527c2b8a0ea22d424ceae411e39c725df83ae3",
+      "status": "pass",
+      "scope": "web"
+    },
+    "staticClickGuard": {
+      "path": "qa/dialogue-p5-motion-20261104/static-hold-v5-awake/report.json",
+      "sha256": "f870a98f1a3e58e97a8b11f2d3e7c73a6489da49ab1d598ce355d1d6df7fbeba",
+      "status": "pass",
+      "scope": "web"
+    },
+    "galleryAllMedia": {
+      "path": "qa/dialogue-p5-motion-20261105/gallery-v5-headless/report.json",
+      "sha256": "5582f394bf94cfe496fa2da2122e842904de9b9ad58b3a04eb4c719832b373b7",
+      "status": "pass",
+      "scope": "web"
+    },
+    "safariMedia": {
+      "path": "qa/dialogue-p5-motion-20261105/safari-compat/completed.json",
+      "sha256": "573532b9be534f186be0d8040ceed661807fa5e504408a1fdf2231abbd673b7e",
+      "status": "pass",
+      "scope": "web"
+    },
+    "safariSmoke": {
+      "path": "qa/dialogue-p5-motion-20261104/platform/safari-smoke.json",
+      "sha256": "a0f49b9b07deba6b09441fd34803a4f88ea04ebda263cd5856142c2cdefd9ceb",
+      "status": "pass-scoped-smoke",
+      "scope": "web"
+    },
+    "realBackground": {
+      "path": "qa/dialogue-p5-motion-20261105/background-native-cdp-v2/report.json",
+      "sha256": "dd6181046f581a546522d34ea2f041c50aabc5a6d2162362991f7253f55f76f2",
+      "status": "pass",
+      "scope": "web"
+    },
+    "autoSaveCGAndEvent": {
+      "path": "qa/dialogue-p5-motion-20261105/auto-edge-v5/report.json",
+      "sha256": "8acb7ff8951f2f3c822c0a0e870ab343360ad961a569e6a2b88ca78fddae507b",
+      "status": "pass",
+      "scope": "web"
+    },
+    "hiddenGateAndCriticalRollback": {
+      "path": "qa/dialogue-p5-motion-20261105/edge-restoration-v1/report.json",
+      "sha256": "f38dee1b953efdc39c81405c17e6d223797cb8242345dcc3b069ce24e1086d00",
+      "status": "pass",
+      "scope": "web"
+    },
+    "characterFrames": {
+      "path": "qa/dialogue-p5-motion-20261105/character-frames-v5/report.json",
+      "sha256": "48c5dcf990137a85f1e97d9235c2fb57bb209c5e2bd7d627dfc18bf3356193e0",
+      "status": "pass-scoped",
+      "scope": "web"
+    },
+    "nameFadeAndEventExit": {
+      "path": "qa/dialogue-p5-motion-20261105/auto-edge-v5-name-observation/name-fade-review.json",
+      "sha256": "eff552a1f2715282bfb72915538e501042be88ba7abbbf90a3c33dccfa6c8b90",
+      "status": "pass-transient-fade-confirmed",
+      "scope": "web"
+    },
+    "additionalCGVisuals": {
+      "path": "qa/dialogue-p5-motion-20261105/visual-checklist-supplement.json",
+      "sha256": "841e63fca2e998b26ea36946dcd3578c1b8ca61e52d6f0ebc9fa9c6e79217835",
+      "status": "pass-scoped-visual-review",
+      "scope": "web"
+    },
+    "package": {
+      "path": "qa/dialogue-p5-motion-20261105/package-verification-final.json",
+      "sha256": "d8962f1e62269f53afbad8b471d087857103707bc7b11f18b4f68855aaa96987",
+      "status": "pass",
+      "scope": "web"
+    },
+    "macOSNative": {
+      "path": "qa/dialogue-p5-motion-20261104/native/v3/report.json",
+      "sha256": "48c08c6b387afca0e66a09aa439eb30fa9c859b752d926d2b31bf39be7e38e4d",
+      "status": "pass-limited-native-smoke",
+      "scope": "native"
+    },
+    "nativeRenderReview": {
+      "path": "qa/dialogue-p5-motion-20261104/native/v3/render-lifecycle-review.json",
+      "sha256": "45d9c9f76674d978b51aac06d9baedfdc1a116fa570a73faab55a892b078d034",
+      "status": "pass-static-review",
+      "scope": "native"
+    }
+  },
+  "representativeCoverage": {
+    "fullChromePaths": 28,
+    "endings": 14,
+    "staticCG": 81,
+    "motionCG": 29,
+    "targetedManualRestorations": 40,
+    "uniqueSourceParagraphs": 4347,
+    "sourceParagraphs": 4748,
+    "notIndividuallyPlayed": 401,
+    "supplementalTestsDoNotIncreaseFullPathCount": true
+  },
+  "currentKnownFailuresWithinPassedScope": [],
+  "historicalFailuresPreserved": [
+    "native v1 invalid thumbnail handle",
+    "native v2 Metal texture upload during render",
+    "earlier web build and test-script failures remain in original evidence"
+  ],
+  "open": [
+    "手机真机",
+    "Windows原生",
+    "Safari完整剧情路线",
+    "macOS完整路线、全部静态CG节点、回退改选、窗口缩放及长时运行",
+    "401源段落仅模型可达性验证，本轮28代表路线未逐段实玩",
+    "外网首开及多小时压力；Firefox已有约15分19秒连续自动化阅读窗口"
+  ],
+  "nativeMotion": "static presentation only; this package does not provide native video playback",
+  "artNotes": "3处已披露动作差异保留；孟遥夜间错误成片未采用；6段次晨备选不重复接入",
+  "release": "not-executed",
+  "playerOldSaves": "not-accessed",
+  "desktopTestApp": "quit-normally",
+  "preview": "http://127.0.0.1:49345/",
+  "previewHTTPStatus": 200,
+  "report": "docs/整合/P5动态CG整合验收.md",
+  "previousSnapshot": "qa/dialogue-p5-motion-20261105/summary.json"
+}

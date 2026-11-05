@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "p4-package-v1",
+  "packageId": "P4-02-PI",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "needs": [
+    {
+      "needId": "P4-02-PI-N001",
+      "resourceKey": "CG066",
+      "kind": "cg",
+      "action": "repair",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000272_1"
+      ],
+      "reason": "缩略构图复核确认既有CG066两人站立；冻结段落前文为文文床沿、飘矮凳，纸在两人之间，未写起身。不能改正文迁就图。",
+      "constraints": [
+        "修为床沿/矮凳之间坐姿亲吻与散纸",
+        "沿用人物已确认形象、同一小屋",
+        "不得扩大到LOW或远程段；只T-PI-000272_1",
+        "保留CG066编号，新原件另存，P4-05复验后闭合"
+      ],
+      "existingAssetIds": [
+        "cg-pi-cg066"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG066",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-PI-N002",
+      "resourceKey": "CG069-morning-station",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000343_1"
+      ],
+      "reason": "第60天早上站前拥抱，现CG069缩略图窗外偏蓝暗且暖灯明显，需P4-04判断是否确为晨间、否则返修，不能使用夜站替换早晨。",
+      "constraints": [
+        "仅PI06=A与PI08=A拥抱继续",
+        "文本明确早上、屋檐与进站口，时段不能改",
+        "不得用于分开支的告别拥抱"
+      ],
+      "existingAssetIds": [
+        "cg-pi-cg069"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG069",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-PI-N003",
+      "resourceKey": "guiyang-bus-stop-day",
+      "kind": "background",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-PI-000391_1",
+        "T-PI-000793_1",
+        "T-PI-000794_1",
+        "T-PI-000795_1",
+        "T-PI-000796_1",
+        "T-PI-000393_1",
+        "T-PI-000394_1",
+        "T-PI-000395_1",
+        "T-PI-000396_1",
+        "T-PI-000397_1",
+        "T-PI-000398_1",
+        "T-PI-000399_1",
+        "T-PI-000400_1"
+      ],
+      "reason": "第75天贵阳交钥匙后公交站/车上，现目录只有明确毕节公交站，不能套用地点。",
+      "constraints": [
+        "候车与车内分别确认可复用范围",
+        "HIGH AA电话与E2不联系共用地点，不生成飘到场",
+        "不补具体站名/新地标"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-PI-N004",
+      "resourceKey": "piao-low-ending-camera-rope",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000630_1"
+      ],
+      "reason": "LOW继续结局已扩成真实试交往、相机绳结与递机；现CG068是递相机近景，旧锚已不准确。本包移到T-PI-000630，由P4-04复核是否可表现试交往收束，无需机械新增CG。",
+      "constraints": [
+        "镜头为相机转交，不是相机包带结",
+        "前后两页清CG，交机后飘不得继续持机",
+        "孩子相关责任和自主决定不通过画面改写"
+      ],
+      "existingAssetIds": [
+        "cg-pi-cg068"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG068",
+      "status": "open",
+      "resolution": null
+    }
+  ]
+}

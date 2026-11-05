@@ -1,0 +1,69 @@
+{
+  "date": "2026-11-05",
+  "status": "PARTIAL_PASS_PENDING_DESKTOP_RETEST_AND_DEVICE_COVERAGE",
+  "runtimeBuildId": "df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+  "adoptedMotionCG": 29,
+  "selection": {
+    "ending": 6,
+    "kiss": 18,
+    "overnight": 5,
+    "mengyaoNight": "static-fallback",
+    "historicalMorning": 6
+  },
+  "passedEvidence": {
+    "chromeRoutes": {
+      "path": "qa/dialogue-p5-motion-20261105/routes-summary/report.json",
+      "sha256": "c654959321cb01337ac8ca1d124584bda8ceb44b04a9e1cb08b445a8fa86d88a",
+      "status": "pass"
+    },
+    "firefoxRoute": {
+      "path": "qa/dialogue-p5-motion-20261105/routes-v5-firefox-retry/report.json",
+      "sha256": "f7395d8baf598e92006198257dbcaf3fda24a83bacfb355fa0003d0c8d79eb26",
+      "status": "pass"
+    },
+    "firefoxRestoration": {
+      "path": "qa/dialogue-p5-motion-20261104/restoration-v5-firefox/report.json",
+      "sha256": "bae2af8dc3607f621672a69376cf2dab14a9b5caec414828aeb2c27c6f6fefb4",
+      "status": "pass"
+    },
+    "runtimeLifecycle": {
+      "path": "qa/dialogue-p5-motion-20261104/runtime-v5b/report.json",
+      "sha256": "f03653b971202a0dd7d96192bb527c2b8a0ea22d424ceae411e39c725df83ae3",
+      "status": "pass"
+    },
+    "staticClickGuard": {
+      "path": "qa/dialogue-p5-motion-20261104/static-hold-v5-awake/report.json",
+      "sha256": "f870a98f1a3e58e97a8b11f2d3e7c73a6489da49ab1d598ce355d1d6df7fbeba",
+      "status": "pass"
+    },
+    "galleryAllMedia": {
+      "path": "qa/dialogue-p5-motion-20261105/gallery-v5-headless/report.json",
+      "sha256": "5582f394bf94cfe496fa2da2122e842904de9b9ad58b3a04eb4c719832b373b7",
+      "status": "pass"
+    },
+    "safariMedia": {
+      "path": "qa/dialogue-p5-motion-20261105/safari-compat/completed.json",
+      "sha256": "573532b9be534f186be0d8040ceed661807fa5e504408a1fdf2231abbd673b7e",
+      "status": "pass"
+    },
+    "safariSmoke": {
+      "path": "qa/dialogue-p5-motion-20261104/platform/safari-smoke.json",
+      "sha256": "a0f49b9b07deba6b09441fd34803a4f88ea04ebda263cd5856142c2cdefd9ceb",
+      "status": "pass-scoped-smoke"
+    },
+    "package": {
+      "path": "qa/dialogue-p5-motion-20261105/package-verification.json",
+      "sha256": "08ca88c31fa80e2c4ba0bb7ea0adad7a0e22cd1752e5d6afd129c92b107b0ad8",
+      "status": "pass"
+    }
+  },
+  "open": [
+    "真实后台隐藏暂停和返回恢复尚待实际界面证据",
+    "macOS原生存档缩略图崩溃已出v2修复候选，真实保存/读取/重启待测",
+    "401源段落仅模型验证，本轮28代表路线未逐段实玩",
+    "Safari完整路线、手机真机、Windows原生、外网首开与长期压力未测"
+  ],
+  "release": "not-executed",
+  "playerOldSaves": "not-accessed",
+  "report": "docs/整合/P5动态CG整合验收.md"
+}

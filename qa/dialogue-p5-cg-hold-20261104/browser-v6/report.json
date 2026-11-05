@@ -1,0 +1,333 @@
+{
+  "status": "pass",
+  "checks": [
+    "真实正文到达CG001并启动保护",
+    "1.5秒内鼠标连点均被丢弃",
+    "首个可见帧起至少1.5秒",
+    "解锁后旧点击不会自动翻页",
+    "CG页手动保存成功",
+    "仍可打开全图",
+    "关闭全图保持当前CG",
+    "新点击可以正常进入下一段",
+    "普通正文不增加1.5秒等待",
+    "读档重计时且长按确认键不能越过CG",
+    "松开确认键不触发补发翻页",
+    "鼠标按住跨过期限后松开不翻页",
+    "触控连续轻点受同一保护",
+    "按住快进键不能绕过等待",
+    "快进键松开后仍停在CG",
+    "使用独立存储",
+    "无浏览器或引擎错误"
+  ],
+  "errors": [],
+  "events": [
+    {
+      "at": 1793779202723,
+      "line": "SUI_E|ready|72ce7c93889f70d0d124975ab0c298e1d2f4be8c2946ee18e32448b3b32dd0e0"
+    },
+    {
+      "at": 1793779202724,
+      "line": "SUI_E|title"
+    },
+    {
+      "at": 1793779202753,
+      "line": "SUI_E|title-motion|visible=1"
+    },
+    {
+      "at": 1793779203713,
+      "line": "SUI_E|title-motion|visible=0"
+    },
+    {
+      "at": 1793779203754,
+      "line": "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9"
+    },
+    {
+      "at": 1793779203903,
+      "line": "SUI_I|enter|binding=p4-T-C01-000001_1|node=T-C01-000001_1"
+    },
+    {
+      "at": 1793779203907,
+      "line": "SUI_E|stable|cursor=T-C01-000001_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+    },
+    {
+      "at": 1793779203912,
+      "line": "SUI_E|save|slot=0|cursor=T-C01-000001_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+    },
+    {
+      "at": 1793779204113,
+      "line": "SUI_I|exit|binding=p4-T-C01-000001_1|node=T-C01-000243_1"
+    },
+    {
+      "at": 1793779204228,
+      "line": "SUI_I|enter|binding=p4-T-C01-000243_1|node=T-C01-000243_1"
+    },
+    {
+      "at": 1793779204232,
+      "line": "SUI_E|stable|cursor=T-C01-000243_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29"
+    },
+    {
+      "at": 1793779204412,
+      "line": "SUI_I|exit|binding=p4-T-C01-000243_1|node=T-C01-000244_1"
+    },
+    {
+      "at": 1793779204413,
+      "line": "SUI_I|enter|binding=p4-T-C01-000244_1|node=T-C01-000244_1"
+    },
+    {
+      "at": 1793779204429,
+      "line": "SUI_E|stable|cursor=T-C01-000244_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33"
+    },
+    {
+      "at": 1793779204613,
+      "line": "SUI_I|exit|binding=p4-T-C01-000244_1|node=T-C01-000245_1"
+    },
+    {
+      "at": 1793779204613,
+      "line": "SUI_I|enter|binding=p4-T-C01-000245_1|node=T-C01-000245_1"
+    },
+    {
+      "at": 1793779204630,
+      "line": "SUI_E|stable|cursor=T-C01-000245_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37"
+    },
+    {
+      "at": 1793779204729,
+      "line": "SUI_I|exit|binding=p4-T-C01-000245_1|node=T-C01-000246_1"
+    },
+    {
+      "at": 1793779204729,
+      "line": "SUI_I|enter|binding=p4-T-C01-000246_1|node=T-C01-000246_1"
+    },
+    {
+      "at": 1793779204746,
+      "line": "SUI_E|stable|cursor=T-C01-000246_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41"
+    },
+    {
+      "at": 1793779204963,
+      "line": "SUI_I|exit|binding=p4-T-C01-000246_1|node=T-C01-000247_1"
+    },
+    {
+      "at": 1793779204963,
+      "line": "SUI_I|enter|binding=p4-T-C01-000247_1|node=T-C01-000247_1"
+    },
+    {
+      "at": 1793779204980,
+      "line": "SUI_E|stable|cursor=T-C01-000247_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45"
+    },
+    {
+      "at": 1793779205180,
+      "line": "SUI_I|exit|binding=p4-T-C01-000247_1|node=T-C01-000248_1"
+    },
+    {
+      "at": 1793779205180,
+      "line": "SUI_I|enter|binding=p4-T-C01-000248_1|node=T-C01-000248_1"
+    },
+    {
+      "at": 1793779205195,
+      "line": "SUI_E|stable|cursor=T-C01-000248_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49"
+    },
+    {
+      "at": 1793779205413,
+      "line": "SUI_I|exit|binding=p4-T-C01-000248_1|node=T-C01-000249_1"
+    },
+    {
+      "at": 1793779205413,
+      "line": "SUI_I|enter|binding=p4-T-C01-000249_1|node=T-C01-000249_1"
+    },
+    {
+      "at": 1793779205430,
+      "line": "SUI_E|stable|cursor=T-C01-000249_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53"
+    },
+    {
+      "at": 1793779205434,
+      "line": "SUI_E|save|slot=0|cursor=T-C01-000249_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53"
+    },
+    {
+      "at": 1793779205529,
+      "line": "SUI_I|exit|binding=p4-T-C01-000249_1|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793779205760,
+      "line": "SUI_I|enter|binding=p4-T-C01-000004_1|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793779205762,
+      "line": "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500"
+    },
+    {
+      "at": 1793779205763,
+      "line": "SUI_I|unlock|cg=CG001|phase=first-visible-frame"
+    },
+    {
+      "at": 1793779207263,
+      "line": "SUI_I|cg-hold|ready|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793779207279,
+      "line": "SUI_E|stable|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    },
+    {
+      "at": 1793779207286,
+      "line": "SUI_E|save|slot=0|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    },
+    {
+      "at": 1793779209068,
+      "line": "SUI_E|save|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    },
+    {
+      "at": 1793779209068,
+      "line": "SUI_E|notice|已保存阅读位置。"
+    },
+    {
+      "at": 1793779209928,
+      "line": "SUI_I|full-view|opened"
+    },
+    {
+      "at": 1793779210312,
+      "line": "SUI_I|full-view|closed"
+    },
+    {
+      "at": 1793779210812,
+      "line": "SUI_I|exit|binding=p4-T-C01-000004_1|node=T-C01-000005_1"
+    },
+    {
+      "at": 1793779210812,
+      "line": "SUI_I|enter|binding=p4-T-C01-000005_1|node=T-C01-000005_1"
+    },
+    {
+      "at": 1793779210829,
+      "line": "SUI_E|stable|cursor=T-C01-000005_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61"
+    },
+    {
+      "at": 1793779210835,
+      "line": "SUI_E|save|slot=0|cursor=T-C01-000005_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61"
+    },
+    {
+      "at": 1793779211029,
+      "line": "SUI_I|exit|binding=p4-T-C01-000005_1|node=T-C01-000006_1"
+    },
+    {
+      "at": 1793779211029,
+      "line": "SUI_I|enter|binding=p4-T-C01-000006_1|node=T-C01-000006_1"
+    },
+    {
+      "at": 1793779211046,
+      "line": "SUI_E|stable|cursor=T-C01-000006_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65"
+    },
+    {
+      "at": 1793779212773,
+      "line": "SUI_E|load|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    },
+    {
+      "at": 1793779212777,
+      "line": "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500"
+    },
+    {
+      "at": 1793779214713,
+      "line": "SUI_I|cg-hold|ready|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793779216707,
+      "line": "SUI_E|load|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    },
+    {
+      "at": 1793779216710,
+      "line": "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500"
+    },
+    {
+      "at": 1793779218212,
+      "line": "SUI_I|cg-hold|ready|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793779220549,
+      "line": "SUI_E|load|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    },
+    {
+      "at": 1793779220551,
+      "line": "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500"
+    },
+    {
+      "at": 1793779222062,
+      "line": "SUI_I|cg-hold|ready|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793779224601,
+      "line": "SUI_E|load|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    },
+    {
+      "at": 1793779224604,
+      "line": "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500"
+    },
+    {
+      "at": 1793779226545,
+      "line": "SUI_I|cg-hold|ready|node=T-C01-000004_1"
+    }
+  ],
+  "browser": "156.0.8078.80",
+  "firstHoldMs": 1501,
+  "ordinaryAdvanceMs": 101,
+  "databases": [
+    "bijie-p4-07-isolated:/毕节，雨停之前 · Suika3"
+  ],
+  "nativeEvents": [
+    "SUI_E|ready|72ce7c93889f70d0d124975ab0c298e1d2f4be8c2946ee18e32448b3b32dd0e0",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=p4-T-C01-000001_1|node=T-C01-000001_1",
+    "SUI_E|stable|cursor=T-C01-000001_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=T-C01-000001_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|exit|binding=p4-T-C01-000001_1|node=T-C01-000243_1",
+    "SUI_I|enter|binding=p4-T-C01-000243_1|node=T-C01-000243_1",
+    "SUI_E|stable|cursor=T-C01-000243_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=p4-T-C01-000243_1|node=T-C01-000244_1",
+    "SUI_I|enter|binding=p4-T-C01-000244_1|node=T-C01-000244_1",
+    "SUI_E|stable|cursor=T-C01-000244_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|exit|binding=p4-T-C01-000244_1|node=T-C01-000245_1",
+    "SUI_I|enter|binding=p4-T-C01-000245_1|node=T-C01-000245_1",
+    "SUI_E|stable|cursor=T-C01-000245_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|exit|binding=p4-T-C01-000245_1|node=T-C01-000246_1",
+    "SUI_I|enter|binding=p4-T-C01-000246_1|node=T-C01-000246_1",
+    "SUI_E|stable|cursor=T-C01-000246_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_I|exit|binding=p4-T-C01-000246_1|node=T-C01-000247_1",
+    "SUI_I|enter|binding=p4-T-C01-000247_1|node=T-C01-000247_1",
+    "SUI_E|stable|cursor=T-C01-000247_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+    "SUI_I|exit|binding=p4-T-C01-000247_1|node=T-C01-000248_1",
+    "SUI_I|enter|binding=p4-T-C01-000248_1|node=T-C01-000248_1",
+    "SUI_E|stable|cursor=T-C01-000248_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_I|exit|binding=p4-T-C01-000248_1|node=T-C01-000249_1",
+    "SUI_I|enter|binding=p4-T-C01-000249_1|node=T-C01-000249_1",
+    "SUI_E|stable|cursor=T-C01-000249_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_E|save|slot=0|cursor=T-C01-000249_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_I|exit|binding=p4-T-C01-000249_1|node=T-C01-000004_1",
+    "SUI_I|enter|binding=p4-T-C01-000004_1|node=T-C01-000004_1",
+    "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_I|cg-hold|ready|node=T-C01-000004_1",
+    "SUI_E|stable|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=0|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|notice|已保存阅读位置。",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed",
+    "SUI_I|exit|binding=p4-T-C01-000004_1|node=T-C01-000005_1",
+    "SUI_I|enter|binding=p4-T-C01-000005_1|node=T-C01-000005_1",
+    "SUI_E|stable|cursor=T-C01-000005_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+    "SUI_E|save|slot=0|cursor=T-C01-000005_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=61",
+    "SUI_I|exit|binding=p4-T-C01-000005_1|node=T-C01-000006_1",
+    "SUI_I|enter|binding=p4-T-C01-000006_1|node=T-C01-000006_1",
+    "SUI_E|stable|cursor=T-C01-000006_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=65",
+    "SUI_E|load|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500",
+    "SUI_I|cg-hold|ready|node=T-C01-000004_1",
+    "SUI_E|load|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500",
+    "SUI_I|cg-hold|ready|node=T-C01-000004_1",
+    "SUI_E|load|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500",
+    "SUI_I|cg-hold|ready|node=T-C01-000004_1",
+    "SUI_E|load|slot=1|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500",
+    "SUI_I|cg-hold|ready|node=T-C01-000004_1"
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "task": "SUI-A10",
-  "status": "制作包交付完成；待A11汇总复核、I采用、E/Q运行验收",
+  "status": "原60张制作记录保留；当前81张已由P4-07统一采用，P5另验",
   "generatedCGCount": 60,
   "packageCount": 7,
   "originalPNGCount": 88,
@@ -14,5 +14,15 @@
   "gallery": "qa/SUI-A10-production-20261029/CG总览.html",
   "handoff": "qa/SUI-A10-production-20261029/交接.md",
   "recordsSha256": "f17ce1d917d9b88bf96ed7f933a67dfd0009d921e4721952506b19376eafcf4e",
-  "completedAt": "2026-10-29T07:14:11Z"
+  "completedAt": "2026-10-29T07:14:11Z",
+  "currentAdoption": {
+    "date": "2026-11-04",
+    "task": "P4-07",
+    "version": "sui-p4-07-20261104-v7",
+    "adoptedCG": 81,
+    "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+    "anchors": "docs/修订协作/P4-演出与美术/P4-07/cg-anchors.json",
+    "P5": "pending",
+    "note": "本对象为当前状态；原制作字段保留所属批次。CG116已在07改为正文明确的清晨。"
+  }
 }

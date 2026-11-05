@@ -1,0 +1,3233 @@
+{
+  "status": "fail",
+  "date": "2026-11-04",
+  "runtimeBuildId": "df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "webHashes": {
+    "assets.arc": "69dea2c1d67bd0cc5cdbd855aed7867c6c439f5155a2b8c3afa73687769d5ecd",
+    "index.html": "38be50b5946ecd19b37022e3e5dd4e45a8b3f87d36607646c0771bf1d3758a90",
+    "motion/KCG-HQ-01.mp4": "269d80fffe664375906cf0f4ee6a51b7eb176e1d94cab3b6946d5f90df976b37",
+    "motion/KCG-HQ-01.webp": "d7867054d752918f22706e7e2b29f197de79f962e4f0bfd99a9fe59a01b79dd9",
+    "motion/KCG-HQ-02.mp4": "36b1010be9c5114f4c830c1edad93f2b94f08b6416088f899308ffb7309eeff2",
+    "motion/KCG-HQ-02.webp": "a607750d48c5942dd1b0fbd9e975c1a5d6bcdd0f429d0fa178ec59492a6fe3e3",
+    "motion/KCG-HQ-03.mp4": "db8604febc25e69e768837d72254218eac938a9744d970f429f354198a6f42f7",
+    "motion/KCG-HQ-03.webp": "2e5e483d5903720410e7e79f6c4de164afd1d874f51b96934b084d9bdc88ce21",
+    "motion/KCG-MY-01.mp4": "9aa8b351f24e574a9dbce82e3e48f514bb137fdcbcbf873ba1fca5b6f6cc6efb",
+    "motion/KCG-MY-01.webp": "4c95be30cacba5ed7c58896717ad7bb4349f75279b5e433a743e49432bb92db8",
+    "motion/KCG-MY-02.mp4": "045ba3ee4c6f29c53bd9327059efcbf8f798dd78342ed107bada650d26d2fe55",
+    "motion/KCG-MY-02.webp": "1b1d91a50a5341aa048eab82288775f6942851e578bcad6e5d65e98da746bc72",
+    "motion/KCG-MY-03.mp4": "79b40d9fcb9a2e26cdeec0723a4ce8a271027e2df8b84e404a7f24a69652fecb",
+    "motion/KCG-MY-03.webp": "8accadf69c8b0b4b94c085ff2c16aad9e453eed0da410788d43b01a339991a94",
+    "motion/KCG-MY-04.mp4": "168105d2224494c6ed22397c22e70683c571c77cc9b21eaff33cf9d74e0bd9aa",
+    "motion/KCG-MY-04.webp": "0fcb860fedac962bbe5637f8f0d68eac02f4caca27f71da5ecdc6f4710a1aef6",
+    "motion/KCG-PI-01.mp4": "003c74f94d0e54bfdd32ac12333496779fd42eb6dbe197e255379bd979881c1e",
+    "motion/KCG-PI-01.webp": "3e9b4ece262faa0b2e2eb169f36336304d9d2054d76aadd756009354c15f86dd",
+    "motion/KCG-PI-02.mp4": "85c41681c5bac9df8fb180df689a546925d860b480c2b40e10c3ecc2623d1a73",
+    "motion/KCG-PI-02.webp": "11d0e820fe8a61e6e0c6285f12e7d62ac6817029cfc7ff23b841f19cd4b2bccd",
+    "motion/KCG-XM-01.mp4": "c7c0986799c0d0246bf276531804748c425812ddfd141d167a5adec46a3733c0",
+    "motion/KCG-XM-01.webp": "63e90638d3f8282bbbbd6423937d8d0cce2e5b800549163d4f3bc4cee9a52163",
+    "motion/KCG-XM-02.mp4": "e723db456576e8895ad420c7d7e24bb88dbfd71167d22fd769c7d08a0618b03b",
+    "motion/KCG-XM-02.webp": "9b5ebfad0d3680077e96578e0979ce42183bc4438ecabf8519d7f270a7c71316",
+    "motion/KCG-XM-03.mp4": "3f032e9af1da87e506121cfd02a3869f86a27c26a6c405c06a5a5cebfa60bd12",
+    "motion/KCG-XM-03.webp": "97773574bae5f9130f30877d7dbc475a27b49b50d2363e1f2cf3b2cc715439e9",
+    "motion/KCG-XM-04.mp4": "415de8fa496c64076a4981574d89eca4aac093ae65985256b3aa6c56cdd47c5e",
+    "motion/KCG-XM-04.webp": "4741f93b35f033bd2426d65a57f7a58a0a239876d31d63d6742fc59b8e0d4551",
+    "motion/KCG-ZZ-01.mp4": "1fefe5a4360337bd500686fae7ce53df6ada4c77658d30a6342344b072026b04",
+    "motion/KCG-ZZ-01.webp": "837b4299c7527d88ce64f87f46a14d03a43765a61ecffc369f3c9bbd85d2ec71",
+    "motion/KCG-ZZ-02.mp4": "0452ec9db75766745c5ee476e884102e98815e27d663783441e4da47921fa36b",
+    "motion/KCG-ZZ-02.webp": "a2d93ec3c20060d9fa80c649fcf637d553eb3c877133a0b450d9769bf2f47439",
+    "motion/KCG-ZZ-03.mp4": "b23a2d4859a6ace5236d7d97635f7862883885a08a2486887be59ebd2532ab57",
+    "motion/KCG-ZZ-03.webp": "144e81a573de961cba807f75e41af65721342ec2b9959b7aac8f74ee5325d576",
+    "motion/KCG-ZZ-04.mp4": "15522e6f989643be07d78ffa935a42085a05d5bcce7441291706dbfd4666a40f",
+    "motion/KCG-ZZ-04.webp": "226393a0144c793c3463c6709a0a1dcefd0c06b71597e5c8c353b70210970359",
+    "motion/KCG-ZZ-05.mp4": "6491151f77e264cb8d68a2b3b1ee757f7f9f039c8526fe6123a7204b4c41891c",
+    "motion/KCG-ZZ-05.webp": "bc86bab5471ec0d1f6ff5844822e5fb4c3ab075e782e5b353bae58f9b9d09ee6",
+    "motion/MCG-HQ-E1.mp4": "34eddbae8b95aeba93dd991dbcc3ac42a8665f06f50959e8624d9c46af5c94cd",
+    "motion/MCG-HQ-E1.webp": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380",
+    "motion/MCG-MY-E1.mp4": "9621b98013929be1875e4b224c06966a94b0f1ee7c204737646b7658398f8456",
+    "motion/MCG-MY-E1.webp": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e",
+    "motion/MCG-PI-E1.mp4": "7f8c6dcc2c1b301efe30781fb7b32404fb338f905e76a5058f5b6c2aecd95dc0",
+    "motion/MCG-PI-E1.webp": "490d0005d84cd727332bb29cdb1786c2764074fb85941be6b7ba1d7751d4c231",
+    "motion/MCG-PI-LE1.mp4": "9df5d9c9a034e205487263548bbbf51db65ad1befc76a5c07ee6d8746475b610",
+    "motion/MCG-PI-LE1.webp": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579",
+    "motion/MCG-XM-E1.mp4": "61651d4308ea4ead0682981ec0d13b880ebcb9817a74a3e4cc731b4c0a3279ec",
+    "motion/MCG-XM-E1.webp": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267",
+    "motion/MCG-ZZ-E1.mp4": "8b671aeaffd697052e824e8d50e2752a894eb186035acdb666c2fe685ea911ae",
+    "motion/MCG-ZZ-E1.webp": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc",
+    "motion/OV-HQ57.mp4": "0314cb4c48d7d6003d39fd9bab67bdf25b417c749abdf852fe7507b0423e01bc",
+    "motion/OV-HQ57.webp": "71ddfc1770ba504994c90fd56508b1b7176654d539a9d099eabce669df44e8e4",
+    "motion/OV-PI39.mp4": "88a8a4ee6fcf4527679afb8fba9cf4688ff5932cb360a6a9893719b809161286",
+    "motion/OV-PI39.webp": "37a84f788d16315e99c26a47cfc59871fd28620173237937d591ad714f3c6084",
+    "motion/OV-XM45.mp4": "5327ada9407fe9c43df2cd17be8668642a84e3550fe0de9fba7980b799ebc6ef",
+    "motion/OV-XM45.webp": "d2bebb7a8bb94535339c204dba4e806dab6da8ce2b65719a130dd12bc0a20954",
+    "motion/OV-ZZ-BJ.mp4": "dc53a714eb35d495d27de0ae788a27ca91fd4048620d9bea6726bca9cdb34ac4",
+    "motion/OV-ZZ-BJ.webp": "933e3f72ef2a04a621f79deae5c5983acf6e5e6a2de5a547e37cae500785515b",
+    "motion/OV-ZZ-GY.mp4": "04f686cce6b2c866368d8e2d546b589cb3e348ac7168e9223af6ebac6f3d0e91",
+    "motion/OV-ZZ-GY.webp": "303b6e86c41f5f4d34c84111b8a573a44e21c7007516bcdd4ef2cbaa8842d744",
+    "motion-bridge.js": "e83fd9718fe46ceb0686ce26cfd59287809dee84782997a1af5d553504ac8c83",
+    "motion-controller.css": "f8659d33b9177645cdfe2f6b00e1356383bf95febae02959ba5a0fd33cca920d",
+    "motion-controller.js": "9e2f2cd08ed160447649e0d114b4dae59debf7a604ae50b7fdd9724d5f9ec066",
+    "shell.css": "37bcee09c5cb379aef41b26b84dbfd9711995d10b8743f2ba5fa4bad208422da",
+    "shell.js": "46d4d9714a13991a51a94224b3ce057758225e6430b184e778ba995cb516ec19",
+    "title-motion.js": "b199001cebaeeb4cb831d58e298043fe3a7e517c19271720857c300f417cc749",
+    "title-motion.mp4": "d9159cfbcbc3fc5439d13ecbee89f17f6fd4606ee1cba9b06e906b7414e148c3"
+  },
+  "scope": "正式完整构建，独立浏览器上下文，从标题开始，普通键盘鼠标逐页对照；不注入引擎状态，不代替人工全稿审读或真机",
+  "plannedCases": [
+    "01-xiaoman-HIGH-XM-E1",
+    "02-xiaoman-HIGH-XM-E2",
+    "03-xiaoman-LOW-XM-E1",
+    "04-xiaoman-LOW-XM-E2",
+    "05-zhouzhi-HIGH-ZZ-E1",
+    "06-zhouzhi-HIGH-ZZ-E2",
+    "07-zhouzhi-LOW-ZZ-E1",
+    "08-zhouzhi-LOW-ZZ-E2",
+    "09-mengyao-HIGH-MY-E1",
+    "10-mengyao-HIGH-MY-E2",
+    "11-mengyao-LOW-MY-E1",
+    "12-mengyao-LOW-MY-E2",
+    "13-piao-HIGH-PI-E1",
+    "14-piao-HIGH-PI-E2",
+    "15-piao-LOW-PI-LE1",
+    "16-piao-LOW-PI-LE2",
+    "17-huangqiuqiu-HIGH-HQ-E1",
+    "18-huangqiuqiu-HIGH-HQ-E2",
+    "19-huangqiuqiu-LOW-HQ-E1",
+    "20-huangqiuqiu-LOW-HQ-E2",
+    "21-friends-HIGH-FR-E1",
+    "22-friends-HIGH-FR-E2",
+    "23-friends-LOW-FR-E1",
+    "24-friends-LOW-FR-E2",
+    "mengyao-HIGH-AB",
+    "mengyao-HIGH-BB",
+    "mengyao-LOW-AB",
+    "mengyao-LOW-BB"
+  ],
+  "results": [
+    {
+      "name": "01-xiaoman-HIGH-XM-E1",
+      "status": "pass",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "A",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "A"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "A"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "value": "A"
+        },
+        {
+          "id": "XM07-01",
+          "value": "A"
+        },
+        {
+          "id": "XM08-01",
+          "value": "A"
+        },
+        {
+          "id": "XM09-01",
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "xiaoman",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "XM-E1",
+        "epilogue": "",
+        "event": "0",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 3262,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 552.5,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "screenshots": [
+        "01-xiaoman-HIGH-XM-E1-CG001.png",
+        "01-xiaoman-HIGH-XM-E1-CG004.png",
+        "01-xiaoman-HIGH-XM-E1-CG005.png",
+        "01-xiaoman-HIGH-XM-E1-CG006.png",
+        "01-xiaoman-HIGH-XM-E1-CG007.png",
+        "01-xiaoman-HIGH-XM-E1-CG008.png",
+        "01-xiaoman-HIGH-XM-E1-CG111.png",
+        "01-xiaoman-HIGH-XM-E1-CG010.png",
+        "01-xiaoman-HIGH-XM-E1-CG011.png",
+        "01-xiaoman-HIGH-XM-E1-CG012.png",
+        "01-xiaoman-HIGH-XM-E1-CG110.png",
+        "01-xiaoman-HIGH-XM-E1-route-options.png",
+        "01-xiaoman-HIGH-XM-E1-CG014.png",
+        "01-xiaoman-HIGH-XM-E1-CG015.png",
+        "01-xiaoman-HIGH-XM-E1-KCG-XM-01-playing.png",
+        "01-xiaoman-HIGH-XM-E1-CG016.png",
+        "01-xiaoman-HIGH-XM-E1-KCG-XM-02-playing.png",
+        "01-xiaoman-HIGH-XM-E1-CG112.png",
+        "01-xiaoman-HIGH-XM-E1-CG113.png",
+        "01-xiaoman-HIGH-XM-E1-KCG-XM-03-playing.png",
+        "01-xiaoman-HIGH-XM-E1-OV-XM45-playing.png",
+        "01-xiaoman-HIGH-XM-E1-CG019.png",
+        "01-xiaoman-HIGH-XM-E1-helmet-T-XM-000296_1-saved.png",
+        "01-xiaoman-HIGH-XM-E1-helmet-T-XM-000296_1-loaded.png",
+        "01-xiaoman-HIGH-XM-E1-helmet-T-XM-000296_1-refreshed.png",
+        "01-xiaoman-HIGH-XM-E1-CG022.png",
+        "01-xiaoman-HIGH-XM-E1-KCG-XM-04-playing.png",
+        "01-xiaoman-HIGH-XM-E1-helmet-T-XM-000794_1-saved.png",
+        "01-xiaoman-HIGH-XM-E1-helmet-T-XM-000794_1-loaded.png",
+        "01-xiaoman-HIGH-XM-E1-helmet-T-XM-000794_1-refreshed.png",
+        "01-xiaoman-HIGH-XM-E1-MCG-XM-E1-playing.png",
+        "01-xiaoman-HIGH-XM-E1-CG023.png",
+        "01-xiaoman-HIGH-XM-E1-complete.png"
+      ],
+      "lastChoice": "XM10-01",
+      "motionProgress": {
+        "unlocks": [
+          "KCG-XM-01",
+          "KCG-XM-02",
+          "KCG-XM-03",
+          "OV-XM45",
+          "KCG-XM-04"
+        ],
+        "phase": "idle"
+      },
+      "elapsedMs": 341250,
+      "restorations": [
+        {
+          "label": "helmet-T-XM-000296_1",
+          "node": "T-XM-000296_1",
+          "expected": {
+            "cursor": "T-XM-000296_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "HIGH",
+            "score": "50",
+            "return": "",
+            "event": "0",
+            "ending": "",
+            "epilogue": "",
+            "depth": "21",
+            "tag": "text",
+            "index": "5428"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-xiaoman-packing-interior",
+              "layer": "bg",
+              "x": 0.34006376195532084,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-XM-000296_1|node=T-XM-000710_1",
+            "SUI_I|enter|binding=p4-T-XM-000710_1|node=T-XM-000710_1",
+            "SUI_E|stable|cursor=T-XM-000710_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5432",
+            "SUI_E|save|slot=0|cursor=T-XM-000710_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5432",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5428"
+          ]
+        },
+        {
+          "label": "helmet-T-XM-000794_1",
+          "node": "T-XM-000794_1",
+          "expected": {
+            "cursor": "T-XM-000794_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "HIGH",
+            "score": "50",
+            "return": "",
+            "event": "0",
+            "ending": "",
+            "epilogue": "",
+            "depth": "23",
+            "tag": "text",
+            "index": "6008"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-salon-bijie-day91-mirror",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "npc-salon-newcomer-base",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "npc-salon-newcomer-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-XM-000794_1|node=T-XM-000795_1",
+            "SUI_I|enter|binding=p4-T-XM-000795_1|node=T-XM-000795_1",
+            "SUI_E|stable|cursor=T-XM-000795_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6012",
+            "SUI_E|save|slot=0|cursor=T-XM-000795_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6012",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6008"
+          ]
+        }
+      ],
+      "actual": {
+        "cursor": "EPILOGUE_7f651f125411bc7b3db7",
+        "pending": "",
+        "route": "xiaoman",
+        "relation": "HIGH",
+        "score": "50",
+        "return": "",
+        "event": "0",
+        "ending": "XM-E1",
+        "epilogue": "",
+        "depth": "24",
+        "tag": "sc_halt",
+        "index": "20199"
+      },
+      "pages": 1225,
+      "actualCG": [
+        "CG001",
+        "CG004",
+        "CG005",
+        "CG006",
+        "CG007",
+        "CG008",
+        "CG010",
+        "CG011",
+        "CG012",
+        "CG014",
+        "CG015",
+        "CG016",
+        "CG019",
+        "CG020",
+        "CG022",
+        "CG023",
+        "CG110",
+        "CG111",
+        "CG112",
+        "CG113",
+        "CG114"
+      ],
+      "eventInProgress": false,
+      "eventComplete": false,
+      "databases": [
+        "bijie-p5-motion-20261104:/毕节，雨停之前 · Suika3"
+      ],
+      "motion": {
+        "events": [
+          {
+            "type": "start",
+            "key": "MCG-XM-E1",
+            "phase": "loading",
+            "time": 16566.90000000596
+          },
+          {
+            "type": "minimum-display-start",
+            "key": "MCG-XM-E1",
+            "phase": "playing",
+            "time": 16701.40000000596,
+            "minimumMs": 1500
+          },
+          {
+            "type": "first-visible-frame",
+            "key": "MCG-XM-E1",
+            "phase": "playing",
+            "time": 16701.5
+          },
+          {
+            "type": "ended",
+            "key": "MCG-XM-E1",
+            "phase": "static",
+            "time": 21647.5
+          },
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 22604.79999999702
+          },
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 22874.29999999702
+          }
+        ],
+        "unlocks": [
+          "KCG-XM-01",
+          "KCG-XM-02",
+          "KCG-XM-03",
+          "KCG-XM-04",
+          "MCG-XM-E1",
+          "OV-XM45"
+        ],
+        "phase": "idle",
+        "contextKey": ""
+      },
+      "expectedMotion": [
+        "KCG-XM-01",
+        "KCG-XM-02",
+        "KCG-XM-03",
+        "KCG-XM-04",
+        "MCG-XM-E1",
+        "OV-XM45"
+      ]
+    },
+    {
+      "name": "02-xiaoman-HIGH-XM-E2",
+      "status": "pass",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "B",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "A"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "A"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "value": "A"
+        },
+        {
+          "id": "XM07-01",
+          "value": "B"
+        },
+        {
+          "id": "XM08-01",
+          "value": "A"
+        },
+        {
+          "id": "XM09-01",
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "xiaoman",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "XM-E2",
+        "epilogue": "EP-HIGH",
+        "event": "0",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 5794,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 1655.4000000059605,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "screenshots": [
+        "02-xiaoman-HIGH-XM-E2-CG001.png",
+        "02-xiaoman-HIGH-XM-E2-CG004.png",
+        "02-xiaoman-HIGH-XM-E2-CG005.png",
+        "02-xiaoman-HIGH-XM-E2-CG006.png",
+        "02-xiaoman-HIGH-XM-E2-CG007.png",
+        "02-xiaoman-HIGH-XM-E2-CG008.png",
+        "02-xiaoman-HIGH-XM-E2-CG111.png",
+        "02-xiaoman-HIGH-XM-E2-CG010.png",
+        "02-xiaoman-HIGH-XM-E2-CG011.png",
+        "02-xiaoman-HIGH-XM-E2-CG012.png",
+        "02-xiaoman-HIGH-XM-E2-CG110.png",
+        "02-xiaoman-HIGH-XM-E2-route-options.png",
+        "02-xiaoman-HIGH-XM-E2-CG014.png",
+        "02-xiaoman-HIGH-XM-E2-CG015.png",
+        "02-xiaoman-HIGH-XM-E2-KCG-XM-01-playing.png",
+        "02-xiaoman-HIGH-XM-E2-CG016.png",
+        "02-xiaoman-HIGH-XM-E2-KCG-XM-02-playing.png",
+        "02-xiaoman-HIGH-XM-E2-CG112.png",
+        "02-xiaoman-HIGH-XM-E2-CG113.png",
+        "02-xiaoman-HIGH-XM-E2-CG020.png",
+        "02-xiaoman-HIGH-XM-E2-helmet-T-XM-000296_1-saved.png",
+        "02-xiaoman-HIGH-XM-E2-helmet-T-XM-000296_1-loaded.png",
+        "02-xiaoman-HIGH-XM-E2-helmet-T-XM-000296_1-refreshed.png",
+        "02-xiaoman-HIGH-XM-E2-helmet-T-XM-000794_1-saved.png",
+        "02-xiaoman-HIGH-XM-E2-helmet-T-XM-000794_1-loaded.png",
+        "02-xiaoman-HIGH-XM-E2-helmet-T-XM-000794_1-refreshed.png",
+        "02-xiaoman-HIGH-XM-E2-CG114.png",
+        "02-xiaoman-HIGH-XM-E2-CG102.png",
+        "02-xiaoman-HIGH-XM-E2-CG095.png",
+        "02-xiaoman-HIGH-XM-E2-CG099.png",
+        "02-xiaoman-HIGH-XM-E2-complete.png"
+      ],
+      "lastChoice": "XM10-01",
+      "motionProgress": {
+        "unlocks": [
+          "KCG-XM-01",
+          "KCG-XM-02"
+        ],
+        "phase": "idle"
+      },
+      "elapsedMs": 330493,
+      "restorations": [
+        {
+          "label": "helmet-T-XM-000296_1",
+          "node": "T-XM-000296_1",
+          "expected": {
+            "cursor": "T-XM-000296_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "HIGH",
+            "score": "50",
+            "return": "",
+            "event": "0",
+            "ending": "",
+            "epilogue": "",
+            "depth": "21",
+            "tag": "text",
+            "index": "5428"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-xiaoman-packing-interior",
+              "layer": "bg",
+              "x": 0.34006376195532084,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-XM-000296_1|node=T-XM-000710_1",
+            "SUI_I|enter|binding=p4-T-XM-000710_1|node=T-XM-000710_1",
+            "SUI_E|stable|cursor=T-XM-000710_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5432",
+            "SUI_E|save|slot=0|cursor=T-XM-000710_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5432",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=21|tag=text|index=5428"
+          ]
+        },
+        {
+          "label": "helmet-T-XM-000794_1",
+          "node": "T-XM-000794_1",
+          "expected": {
+            "cursor": "T-XM-000794_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "HIGH",
+            "score": "50",
+            "return": "",
+            "event": "0",
+            "ending": "",
+            "epilogue": "",
+            "depth": "23",
+            "tag": "text",
+            "index": "6008"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-salon-bijie-day91-mirror",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "npc-salon-newcomer-base",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "npc-salon-newcomer-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-XM-000794_1|node=T-XM-000795_1",
+            "SUI_I|enter|binding=p4-T-XM-000795_1|node=T-XM-000795_1",
+            "SUI_E|stable|cursor=T-XM-000795_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6012",
+            "SUI_E|save|slot=0|cursor=T-XM-000795_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6012",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=23|tag=text|index=6008"
+          ]
+        }
+      ],
+      "actual": {
+        "cursor": "END_b35cd699344cdc48",
+        "pending": "",
+        "route": "xiaoman",
+        "relation": "HIGH",
+        "score": "50",
+        "return": "",
+        "event": "0",
+        "ending": "XM-E2",
+        "epilogue": "EP-HIGH",
+        "depth": "24",
+        "tag": "sc_halt",
+        "index": "20199"
+      },
+      "pages": 1276,
+      "actualCG": [
+        "CG001",
+        "CG004",
+        "CG005",
+        "CG006",
+        "CG007",
+        "CG008",
+        "CG010",
+        "CG011",
+        "CG012",
+        "CG014",
+        "CG015",
+        "CG016",
+        "CG020",
+        "CG095",
+        "CG099",
+        "CG102",
+        "CG110",
+        "CG111",
+        "CG112",
+        "CG113",
+        "CG114"
+      ],
+      "eventInProgress": false,
+      "eventComplete": false,
+      "databases": [
+        "bijie-p5-motion-20261104:/毕节，雨停之前 · Suika3"
+      ],
+      "motion": {
+        "events": [
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 33889.79999999702
+          }
+        ],
+        "unlocks": [
+          "KCG-XM-01",
+          "KCG-XM-02"
+        ],
+        "phase": "idle",
+        "contextKey": ""
+      },
+      "expectedMotion": [
+        "KCG-XM-01",
+        "KCG-XM-02"
+      ]
+    },
+    {
+      "name": "03-xiaoman-LOW-XM-E1",
+      "status": "pass",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "B",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "A",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "B"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "B"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "B"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "value": "A"
+        },
+        {
+          "id": "XM07-01",
+          "value": "A"
+        },
+        {
+          "id": "XM08-01",
+          "value": "A"
+        },
+        {
+          "id": "XM09-01",
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "xiaoman",
+        "relation": "LOW",
+        "score": "5",
+        "ending": "XM-E1",
+        "epilogue": "",
+        "event": "1",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 5793,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 1653.800000011921,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "screenshots": [
+        "03-xiaoman-LOW-XM-E1-CG001.png",
+        "03-xiaoman-LOW-XM-E1-CG004.png",
+        "03-xiaoman-LOW-XM-E1-CG005.png",
+        "03-xiaoman-LOW-XM-E1-CG006.png",
+        "03-xiaoman-LOW-XM-E1-CG007.png",
+        "03-xiaoman-LOW-XM-E1-CG008.png",
+        "03-xiaoman-LOW-XM-E1-CG111.png",
+        "03-xiaoman-LOW-XM-E1-CG010.png",
+        "03-xiaoman-LOW-XM-E1-CG011.png",
+        "03-xiaoman-LOW-XM-E1-CG012.png",
+        "03-xiaoman-LOW-XM-E1-route-options.png",
+        "03-xiaoman-LOW-XM-E1-CG014.png",
+        "03-xiaoman-LOW-XM-E1-CG015.png",
+        "03-xiaoman-LOW-XM-E1-KCG-XM-01-playing.png",
+        "03-xiaoman-LOW-XM-E1-CG016.png",
+        "03-xiaoman-LOW-XM-E1-KCG-XM-02-playing.png",
+        "03-xiaoman-LOW-XM-E1-CG112.png",
+        "03-xiaoman-LOW-XM-E1-day36-event-saved.png",
+        "03-xiaoman-LOW-XM-E1-day36-event-loaded.png",
+        "03-xiaoman-LOW-XM-E1-day36-event-refreshed.png",
+        "03-xiaoman-LOW-XM-E1-CG101.png",
+        "03-xiaoman-LOW-XM-E1-helmet-T-XM-000296_1-saved.png",
+        "03-xiaoman-LOW-XM-E1-helmet-T-XM-000296_1-loaded.png",
+        "03-xiaoman-LOW-XM-E1-helmet-T-XM-000296_1-refreshed.png",
+        "03-xiaoman-LOW-XM-E1-helmet-T-XM-000794_1-saved.png",
+        "03-xiaoman-LOW-XM-E1-helmet-T-XM-000794_1-loaded.png",
+        "03-xiaoman-LOW-XM-E1-helmet-T-XM-000794_1-refreshed.png",
+        "03-xiaoman-LOW-XM-E1-complete.png"
+      ],
+      "lastChoice": "XM10-01",
+      "motionProgress": {
+        "unlocks": [
+          "KCG-XM-01",
+          "KCG-XM-02",
+          "KCG-XM-03",
+          "OV-XM45",
+          "KCG-XM-04"
+        ],
+        "phase": "idle"
+      },
+      "elapsedMs": 364526,
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "expected": {
+            "cursor": "T-D36-000001_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "LOW",
+            "score": "5",
+            "return": "XM-D36-RETURN",
+            "event": "0",
+            "ending": "",
+            "epilogue": "",
+            "depth": "20",
+            "tag": "text",
+            "index": "19382"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-noodle-shop-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-D36-000001_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-D36-000001_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-D36-000001_1|node=T-D36-000012_1",
+            "SUI_I|enter|binding=p4-T-D36-000012_1|node=T-D36-000012_1",
+            "SUI_E|stable|cursor=T-D36-000012_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19386",
+            "SUI_E|save|slot=0|cursor=T-D36-000012_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19386",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-D36-000001_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-D36-000001_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382"
+          ]
+        },
+        {
+          "label": "helmet-T-XM-000296_1",
+          "node": "T-XM-000296_1",
+          "expected": {
+            "cursor": "T-XM-000296_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "LOW",
+            "score": "5",
+            "return": "",
+            "event": "1",
+            "ending": "",
+            "epilogue": "",
+            "depth": "21",
+            "tag": "text",
+            "index": "5428"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-xiaoman-packing-interior",
+              "layer": "bg",
+              "x": 0.34006376195532084,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-XM-000296_1|node=T-XM-000710_1",
+            "SUI_I|enter|binding=p4-T-XM-000710_1|node=T-XM-000710_1",
+            "SUI_E|stable|cursor=T-XM-000710_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5432",
+            "SUI_E|save|slot=0|cursor=T-XM-000710_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5432",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5428"
+          ]
+        },
+        {
+          "label": "helmet-T-XM-000794_1",
+          "node": "T-XM-000794_1",
+          "expected": {
+            "cursor": "T-XM-000794_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "LOW",
+            "score": "5",
+            "return": "",
+            "event": "1",
+            "ending": "",
+            "epilogue": "",
+            "depth": "23",
+            "tag": "text",
+            "index": "6008"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-salon-bijie-day91-mirror",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "npc-salon-newcomer-base",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "npc-salon-newcomer-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-XM-000794_1|node=T-XM-000795_1",
+            "SUI_I|enter|binding=p4-T-XM-000795_1|node=T-XM-000795_1",
+            "SUI_E|stable|cursor=T-XM-000795_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6012",
+            "SUI_E|save|slot=0|cursor=T-XM-000795_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6012",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6008"
+          ]
+        }
+      ],
+      "actual": {
+        "cursor": "EPILOGUE_7f651f125411bc7b3db7",
+        "pending": "",
+        "route": "xiaoman",
+        "relation": "LOW",
+        "score": "5",
+        "return": "",
+        "event": "1",
+        "ending": "XM-E1",
+        "epilogue": "",
+        "depth": "24",
+        "tag": "sc_halt",
+        "index": "20199"
+      },
+      "pages": 1255,
+      "actualCG": [
+        "CG001",
+        "CG004",
+        "CG005",
+        "CG006",
+        "CG007",
+        "CG008",
+        "CG010",
+        "CG011",
+        "CG012",
+        "CG014",
+        "CG015",
+        "CG016",
+        "CG019",
+        "CG020",
+        "CG022",
+        "CG023",
+        "CG101",
+        "CG110",
+        "CG111",
+        "CG112",
+        "CG113",
+        "CG114"
+      ],
+      "eventInProgress": true,
+      "eventComplete": true,
+      "databases": [
+        "bijie-p5-motion-20261104:/毕节，雨停之前 · Suika3"
+      ],
+      "motion": {
+        "events": [
+          {
+            "type": "start",
+            "key": "MCG-XM-E1",
+            "phase": "loading",
+            "time": 19266.09999999404
+          },
+          {
+            "type": "minimum-display-start",
+            "key": "MCG-XM-E1",
+            "phase": "playing",
+            "time": 19529.09999999404,
+            "minimumMs": 1500
+          },
+          {
+            "type": "first-visible-frame",
+            "key": "MCG-XM-E1",
+            "phase": "playing",
+            "time": 19529.09999999404
+          },
+          {
+            "type": "ended",
+            "key": "MCG-XM-E1",
+            "phase": "static",
+            "time": 24493.5
+          },
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 24732.69999998808
+          },
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 24984.29999999702
+          }
+        ],
+        "unlocks": [
+          "KCG-XM-01",
+          "KCG-XM-02",
+          "KCG-XM-03",
+          "KCG-XM-04",
+          "MCG-XM-E1",
+          "OV-XM45"
+        ],
+        "phase": "idle",
+        "contextKey": ""
+      },
+      "expectedMotion": [
+        "KCG-XM-01",
+        "KCG-XM-02",
+        "KCG-XM-03",
+        "KCG-XM-04",
+        "MCG-XM-E1",
+        "OV-XM45"
+      ]
+    },
+    {
+      "name": "04-xiaoman-LOW-XM-E2",
+      "status": "pass",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "B",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "B",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "B"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "B"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "B"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "value": "A"
+        },
+        {
+          "id": "XM06-01",
+          "value": "A"
+        },
+        {
+          "id": "XM07-01",
+          "value": "B"
+        },
+        {
+          "id": "XM08-01",
+          "value": "A"
+        },
+        {
+          "id": "XM09-01",
+          "value": "A"
+        },
+        {
+          "id": "XM10-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "xiaoman",
+        "relation": "LOW",
+        "score": "5",
+        "ending": "XM-E2",
+        "epilogue": "EP-LOW",
+        "event": "1",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 5800,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 1657.7000000029802,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "screenshots": [
+        "04-xiaoman-LOW-XM-E2-CG001.png",
+        "04-xiaoman-LOW-XM-E2-CG004.png",
+        "04-xiaoman-LOW-XM-E2-CG005.png",
+        "04-xiaoman-LOW-XM-E2-CG006.png",
+        "04-xiaoman-LOW-XM-E2-CG007.png",
+        "04-xiaoman-LOW-XM-E2-CG008.png",
+        "04-xiaoman-LOW-XM-E2-CG111.png",
+        "04-xiaoman-LOW-XM-E2-CG010.png",
+        "04-xiaoman-LOW-XM-E2-CG011.png",
+        "04-xiaoman-LOW-XM-E2-CG012.png",
+        "04-xiaoman-LOW-XM-E2-CG110.png",
+        "04-xiaoman-LOW-XM-E2-route-options.png",
+        "04-xiaoman-LOW-XM-E2-CG014.png",
+        "04-xiaoman-LOW-XM-E2-CG015.png",
+        "04-xiaoman-LOW-XM-E2-KCG-XM-01-playing.png",
+        "04-xiaoman-LOW-XM-E2-CG016.png",
+        "04-xiaoman-LOW-XM-E2-KCG-XM-02-playing.png",
+        "04-xiaoman-LOW-XM-E2-CG112.png",
+        "04-xiaoman-LOW-XM-E2-day36-event-saved.png",
+        "04-xiaoman-LOW-XM-E2-day36-event-loaded.png",
+        "04-xiaoman-LOW-XM-E2-day36-event-refreshed.png",
+        "04-xiaoman-LOW-XM-E2-CG101.png",
+        "04-xiaoman-LOW-XM-E2-helmet-T-XM-000296_1-saved.png",
+        "04-xiaoman-LOW-XM-E2-helmet-T-XM-000296_1-loaded.png",
+        "04-xiaoman-LOW-XM-E2-helmet-T-XM-000296_1-refreshed.png",
+        "04-xiaoman-LOW-XM-E2-helmet-T-XM-000794_1-saved.png",
+        "04-xiaoman-LOW-XM-E2-helmet-T-XM-000794_1-loaded.png",
+        "04-xiaoman-LOW-XM-E2-helmet-T-XM-000794_1-refreshed.png",
+        "04-xiaoman-LOW-XM-E2-CG096.png",
+        "04-xiaoman-LOW-XM-E2-CG098.png",
+        "04-xiaoman-LOW-XM-E2-complete.png"
+      ],
+      "lastChoice": "XM10-01",
+      "motionProgress": {
+        "unlocks": [
+          "KCG-XM-01",
+          "KCG-XM-02"
+        ],
+        "phase": "idle"
+      },
+      "elapsedMs": 344468,
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "expected": {
+            "cursor": "T-D36-000001_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "LOW",
+            "score": "5",
+            "return": "XM-D36-RETURN",
+            "event": "0",
+            "ending": "",
+            "epilogue": "",
+            "depth": "20",
+            "tag": "text",
+            "index": "19382"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-noodle-shop-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-D36-000001_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-D36-000001_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-D36-000001_1|node=T-D36-000012_1",
+            "SUI_I|enter|binding=p4-T-D36-000012_1|node=T-D36-000012_1",
+            "SUI_E|stable|cursor=T-D36-000012_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19386",
+            "SUI_E|save|slot=0|cursor=T-D36-000012_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19386",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-D36-000001_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-D36-000001_1|pending=|route=xiaoman|relation=LOW|score=5|return=XM-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382"
+          ]
+        },
+        {
+          "label": "helmet-T-XM-000296_1",
+          "node": "T-XM-000296_1",
+          "expected": {
+            "cursor": "T-XM-000296_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "LOW",
+            "score": "5",
+            "return": "",
+            "event": "1",
+            "ending": "",
+            "epilogue": "",
+            "depth": "21",
+            "tag": "text",
+            "index": "5428"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-xiaoman-packing-interior",
+              "layer": "bg",
+              "x": 0.34006376195532084,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-XM-000296_1|node=T-XM-000710_1",
+            "SUI_I|enter|binding=p4-T-XM-000710_1|node=T-XM-000710_1",
+            "SUI_E|stable|cursor=T-XM-000710_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5432",
+            "SUI_E|save|slot=0|cursor=T-XM-000710_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5432",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5428",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-XM-000296_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=5428"
+          ]
+        },
+        {
+          "label": "helmet-T-XM-000794_1",
+          "node": "T-XM-000794_1",
+          "expected": {
+            "cursor": "T-XM-000794_1",
+            "pending": "",
+            "route": "xiaoman",
+            "relation": "LOW",
+            "score": "5",
+            "return": "",
+            "event": "1",
+            "ending": "",
+            "epilogue": "",
+            "depth": "23",
+            "tag": "text",
+            "index": "6008"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-salon-bijie-day91-mirror",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "npc-salon-newcomer-base",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "npc-salon-newcomer-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-XM-000794_1|node=T-XM-000795_1",
+            "SUI_I|enter|binding=p4-T-XM-000795_1|node=T-XM-000795_1",
+            "SUI_E|stable|cursor=T-XM-000795_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6012",
+            "SUI_E|save|slot=0|cursor=T-XM-000795_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6012",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6008",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-XM-000794_1|pending=|route=xiaoman|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=23|tag=text|index=6008"
+          ]
+        }
+      ],
+      "actual": {
+        "cursor": "END_be618be2303eadac",
+        "pending": "",
+        "route": "xiaoman",
+        "relation": "LOW",
+        "score": "5",
+        "return": "",
+        "event": "1",
+        "ending": "XM-E2",
+        "epilogue": "EP-LOW",
+        "depth": "24",
+        "tag": "sc_halt",
+        "index": "20199"
+      },
+      "pages": 1259,
+      "actualCG": [
+        "CG001",
+        "CG004",
+        "CG005",
+        "CG006",
+        "CG007",
+        "CG008",
+        "CG010",
+        "CG011",
+        "CG012",
+        "CG014",
+        "CG015",
+        "CG016",
+        "CG020",
+        "CG096",
+        "CG098",
+        "CG101",
+        "CG102",
+        "CG110",
+        "CG111",
+        "CG112",
+        "CG113",
+        "CG114"
+      ],
+      "eventInProgress": true,
+      "eventComplete": true,
+      "databases": [
+        "bijie-p5-motion-20261104:/毕节，雨停之前 · Suika3"
+      ],
+      "motion": {
+        "events": [
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 28980.70000000298
+          }
+        ],
+        "unlocks": [
+          "KCG-XM-01",
+          "KCG-XM-02"
+        ],
+        "phase": "idle",
+        "contextKey": ""
+      },
+      "expectedMotion": [
+        "KCG-XM-01",
+        "KCG-XM-02"
+      ]
+    },
+    {
+      "name": "05-zhouzhi-HIGH-ZZ-E1",
+      "status": "fail",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "A",
+        "ZZ07-01": "A",
+        "ZZ08-01": "A",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "A"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "A"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ07-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "zhouzhi",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "ZZ-E1",
+        "epilogue": "",
+        "event": "0",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 6234,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 2355.1000000089407,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "lastChoice": "ZZ08-01",
+      "motionProgress": {
+        "unlocks": [
+          "KCG-ZZ-01",
+          "KCG-ZZ-02",
+          "OV-ZZ-BJ",
+          "KCG-ZZ-03"
+        ],
+        "phase": "idle"
+      },
+      "elapsedMs": 1275022,
+      "screenshots": [
+        "05-zhouzhi-HIGH-ZZ-E1-route-options.png",
+        "05-zhouzhi-HIGH-ZZ-E1-CG025.png",
+        "05-zhouzhi-HIGH-ZZ-E1-CG026.png",
+        "05-zhouzhi-HIGH-ZZ-E1-CG027.png",
+        "05-zhouzhi-HIGH-ZZ-E1-KCG-ZZ-01-playing.png",
+        "05-zhouzhi-HIGH-ZZ-E1-CG115.png",
+        "05-zhouzhi-HIGH-ZZ-E1-CG116.png",
+        "05-zhouzhi-HIGH-ZZ-E1-CG031.png",
+        "05-zhouzhi-HIGH-ZZ-E1-KCG-ZZ-02-playing.png",
+        "05-zhouzhi-HIGH-ZZ-E1-OV-ZZ-BJ-playing.png",
+        "05-zhouzhi-HIGH-ZZ-E1-KCG-ZZ-03-playing.png",
+        "05-zhouzhi-HIGH-ZZ-E1-CG032.png",
+        "05-zhouzhi-HIGH-ZZ-E1-CG117.png",
+        "05-zhouzhi-HIGH-ZZ-E1-KCG-ZZ-04-playing.png",
+        "05-zhouzhi-HIGH-ZZ-E1-failure.png"
+      ],
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:68:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "diagnostic": {
+        "now": 313188,
+        "bridge": {
+          "ready": true,
+          "desired": true,
+          "acknowledged": true,
+          "active": null
+        },
+        "heartbeat": {
+          "frames": 14860,
+          "ticks": 1114,
+          "lastFrame": 313178.90000000596,
+          "lastTick": 313037.60000000894
+        },
+        "visibility": "visible",
+        "focus": true,
+        "input": {
+          "down": false,
+          "reason": null,
+          "state": null
+        },
+        "motion": {
+          "phase": "playing",
+          "key": "KCG-ZZ-04",
+          "contextKey": "KCG-ZZ-04",
+          "busy": true,
+          "menu": false,
+          "drainUntil": 310835.8000000119,
+          "events": [
+            {
+              "type": "cleanup",
+              "key": "",
+              "phase": "idle",
+              "time": 6501.100000008941
+            },
+            {
+              "type": "start",
+              "key": "KCG-ZZ-01",
+              "phase": "loading",
+              "time": 225833.30000001192
+            },
+            {
+              "type": "minimum-display-start",
+              "key": "KCG-ZZ-01",
+              "phase": "playing",
+              "time": 225909.60000000894,
+              "minimumMs": 1500
+            },
+            {
+              "type": "first-visible-frame",
+              "key": "KCG-ZZ-01",
+              "phase": "playing",
+              "time": 225909.70000000298
+            },
+            {
+              "type": "ended",
+              "key": "KCG-ZZ-01",
+              "phase": "static",
+              "time": 230889.30000001192
+            },
+            {
+              "type": "cleanup",
+              "key": "",
+              "phase": "idle",
+              "time": 231127.10000000894
+            },
+            {
+              "type": "start",
+              "key": "KCG-ZZ-02",
+              "phase": "loading",
+              "time": 272370
+            },
+            {
+              "type": "minimum-display-start",
+              "key": "KCG-ZZ-02",
+              "phase": "playing",
+              "time": 272558.10000000894,
+              "minimumMs": 1500
+            },
+            {
+              "type": "first-visible-frame",
+              "key": "KCG-ZZ-02",
+              "phase": "playing",
+              "time": 272558.10000000894
+            },
+            {
+              "type": "ended",
+              "key": "KCG-ZZ-02",
+              "phase": "static",
+              "time": 277519.90000000596
+            },
+            {
+              "type": "cleanup",
+              "key": "",
+              "phase": "idle",
+              "time": 277776
+            },
+            {
+              "type": "start",
+              "key": "OV-ZZ-BJ",
+              "phase": "loading",
+              "time": 278962.3000000119
+            },
+            {
+              "type": "minimum-display-start",
+              "key": "OV-ZZ-BJ",
+              "phase": "playing",
+              "time": 279041.200000003,
+              "minimumMs": 1500
+            },
+            {
+              "type": "first-visible-frame",
+              "key": "OV-ZZ-BJ",
+              "phase": "playing",
+              "time": 279043.700000003
+            },
+            {
+              "type": "ended",
+              "key": "OV-ZZ-BJ",
+              "phase": "static",
+              "time": 284004.3000000119
+            },
+            {
+              "type": "cleanup",
+              "key": "",
+              "phase": "idle",
+              "time": 284751
+            },
+            {
+              "type": "start",
+              "key": "KCG-ZZ-03",
+              "phase": "loading",
+              "time": 284948.5
+            },
+            {
+              "type": "minimum-display-start",
+              "key": "KCG-ZZ-03",
+              "phase": "playing",
+              "time": 285074,
+              "minimumMs": 1500
+            },
+            {
+              "type": "first-visible-frame",
+              "key": "KCG-ZZ-03",
+              "phase": "playing",
+              "time": 285074.10000000894
+            },
+            {
+              "type": "ended",
+              "key": "KCG-ZZ-03",
+              "phase": "static",
+              "time": 290031.200000003
+            },
+            {
+              "type": "cleanup",
+              "key": "",
+              "phase": "idle",
+              "time": 290258.3000000119
+            },
+            {
+              "type": "start",
+              "key": "KCG-ZZ-04",
+              "phase": "loading",
+              "time": 310576.10000000894
+            },
+            {
+              "type": "minimum-display-start",
+              "key": "KCG-ZZ-04",
+              "phase": "playing",
+              "time": 310639.40000000596,
+              "minimumMs": 1500
+            },
+            {
+              "type": "first-visible-frame",
+              "key": "KCG-ZZ-04",
+              "phase": "playing",
+              "time": 310639.40000000596
+            }
+          ]
+        },
+        "lastEvents": [
+          "SUI_I|exit|binding=p4-T-ZZ-000865_1|node=T-ZZ-000354_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000354_1|node=T-ZZ-000354_1",
+          "SUI_E|stable|cursor=T-ZZ-000354_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8708",
+          "SUI_I|exit|binding=p4-T-ZZ-000354_1|node=T-ZZ-000866_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000866_1|node=T-ZZ-000866_1",
+          "SUI_E|stable|cursor=T-ZZ-000866_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8712",
+          "SUI_I|exit|binding=p4-T-ZZ-000866_1|node=T-ZZ-000867_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000867_1|node=T-ZZ-000867_1",
+          "SUI_E|stable|cursor=T-ZZ-000867_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8716",
+          "SUI_I|exit|binding=p4-T-ZZ-000867_1|node=BRANCH_ca5328a16d26cf300a0d",
+          "SUI_I|enter|binding=p4-T-ZZ-000360_1|node=T-ZZ-000360_1",
+          "SUI_E|stable|cursor=T-ZZ-000360_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8738",
+          "SUI_I|exit|binding=p4-T-ZZ-000360_1|node=BRANCH_b23543a5d9000b3a493b",
+          "SUI_I|enter|binding=p4-T-ZZ-000869_1|node=T-ZZ-000869_1",
+          "SUI_E|stable|cursor=T-ZZ-000869_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8744",
+          "SUI_I|exit|binding=p4-T-ZZ-000869_1|node=T-ZZ-000870_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000870_1|node=T-ZZ-000870_1",
+          "SUI_E|stable|cursor=T-ZZ-000870_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8748",
+          "SUI_I|exit|binding=p4-T-ZZ-000870_1|node=T-ZZ-000362_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000362_1|node=T-ZZ-000362_1",
+          "SUI_E|stable|cursor=T-ZZ-000362_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8752",
+          "SUI_I|exit|binding=p4-T-ZZ-000362_1|node=T-ZZ-000363_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000363_1|node=T-ZZ-000363_1",
+          "SUI_E|stable|cursor=T-ZZ-000363_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8756",
+          "SUI_E|save|slot=0|cursor=T-ZZ-000363_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8756",
+          "SUI_I|exit|binding=p4-T-ZZ-000363_1|node=T-ZZ-000364_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000364_1|node=T-ZZ-000364_1",
+          "SUI_E|stable|cursor=T-ZZ-000364_1|pending=|route=zhouzhi|relation=HIGH|score=50|return=|event=0|ending=|epilogue=|depth=22|tag=text|index=8760",
+          "SUI_M|context|KCG-ZZ-04|enter|10",
+          "SUI_M|held|1"
+        ]
+      }
+    },
+    {
+      "name": "06-zhouzhi-HIGH-ZZ-E2",
+      "status": "pass",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "B",
+        "ZZ07-01": "A",
+        "ZZ08-01": "A",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "A"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "A"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "value": "B"
+        },
+        {
+          "id": "ZZ07-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ08-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ09-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ10-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "zhouzhi",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "ZZ-E2",
+        "epilogue": "EP-HIGH",
+        "event": "0",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 5239,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 1450.5,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "lastChoice": "ZZ10-01",
+      "motionProgress": {
+        "unlocks": [
+          "KCG-ZZ-01"
+        ],
+        "phase": "idle"
+      },
+      "elapsedMs": 1283003,
+      "screenshots": [
+        "06-zhouzhi-HIGH-ZZ-E2-route-options.png",
+        "06-zhouzhi-HIGH-ZZ-E2-CG026.png",
+        "06-zhouzhi-HIGH-ZZ-E2-CG027.png",
+        "06-zhouzhi-HIGH-ZZ-E2-CG029.png",
+        "06-zhouzhi-HIGH-ZZ-E2-CG032.png",
+        "06-zhouzhi-HIGH-ZZ-E2-CG117.png",
+        "06-zhouzhi-HIGH-ZZ-E2-CG103.png",
+        "06-zhouzhi-HIGH-ZZ-E2-complete.png"
+      ],
+      "actual": {
+        "cursor": "END_b35cd699344cdc48",
+        "pending": "",
+        "route": "zhouzhi",
+        "relation": "HIGH",
+        "score": "50",
+        "return": "",
+        "event": "0",
+        "ending": "ZZ-E2",
+        "epilogue": "EP-HIGH",
+        "depth": "24",
+        "tag": "sc_halt",
+        "index": "20199"
+      },
+      "pages": 1369,
+      "actualCG": [
+        "CG001",
+        "CG004",
+        "CG005",
+        "CG006",
+        "CG007",
+        "CG008",
+        "CG010",
+        "CG011",
+        "CG012",
+        "CG025",
+        "CG026",
+        "CG027",
+        "CG029",
+        "CG031",
+        "CG032",
+        "CG095",
+        "CG099",
+        "CG103",
+        "CG110",
+        "CG111",
+        "CG115",
+        "CG116",
+        "CG117"
+      ],
+      "eventInProgress": false,
+      "eventComplete": false,
+      "databases": [
+        "bijie-p5-motion-20261104:/毕节，雨停之前 · Suika3"
+      ],
+      "motion": {
+        "events": [
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 4639.79999999702
+          },
+          {
+            "type": "start",
+            "key": "KCG-ZZ-01",
+            "phase": "loading",
+            "time": 220059.5
+          },
+          {
+            "type": "minimum-display-start",
+            "key": "KCG-ZZ-01",
+            "phase": "playing",
+            "time": 220167.19999998808,
+            "minimumMs": 1500
+          },
+          {
+            "type": "first-visible-frame",
+            "key": "KCG-ZZ-01",
+            "phase": "playing",
+            "time": 220167.29999999702
+          },
+          {
+            "type": "ended",
+            "key": "KCG-ZZ-01",
+            "phase": "static",
+            "time": 225147.09999999404
+          },
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 225383.89999999106
+          },
+          {
+            "type": "cleanup",
+            "key": "",
+            "phase": "idle",
+            "time": 321130.59999999404
+          }
+        ],
+        "unlocks": [
+          "KCG-ZZ-01"
+        ],
+        "phase": "idle",
+        "contextKey": ""
+      },
+      "expectedMotion": [
+        "KCG-ZZ-01"
+      ]
+    },
+    {
+      "name": "07-zhouzhi-LOW-ZZ-E1",
+      "status": "fail",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "B",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "A",
+        "ZZ07-01": "A",
+        "ZZ08-01": "A",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "B"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "B"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "B"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ07-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "zhouzhi",
+        "relation": "LOW",
+        "score": "5",
+        "ending": "ZZ-E1",
+        "epilogue": "",
+        "event": "1",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 6688,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 2151.0999999940395,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "lastChoice": "ZZ07-01",
+      "motionProgress": {
+        "unlocks": [
+          "KCG-ZZ-01"
+        ],
+        "phase": "idle"
+      },
+      "elapsedMs": 1261339,
+      "screenshots": [
+        "07-zhouzhi-LOW-ZZ-E1-route-options.png",
+        "07-zhouzhi-LOW-ZZ-E1-CG026.png",
+        "07-zhouzhi-LOW-ZZ-E1-CG116.png",
+        "07-zhouzhi-LOW-ZZ-E1-day36-event-saved.png",
+        "07-zhouzhi-LOW-ZZ-E1-day36-event-loaded.png",
+        "07-zhouzhi-LOW-ZZ-E1-day36-event-refreshed.png",
+        "07-zhouzhi-LOW-ZZ-E1-failure.png"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "expected": {
+            "cursor": "T-D36-000001_1",
+            "pending": "",
+            "route": "zhouzhi",
+            "relation": "LOW",
+            "score": "5",
+            "return": "ZZ-D36-RETURN",
+            "event": "0",
+            "ending": "",
+            "epilogue": "",
+            "depth": "20",
+            "tag": "text",
+            "index": "19382"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-noodle-shop-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-D36-000001_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-D36-000001_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-D36-000001_1|node=T-D36-000012_1",
+            "SUI_I|enter|binding=p4-T-D36-000012_1|node=T-D36-000012_1",
+            "SUI_E|stable|cursor=T-D36-000012_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19386",
+            "SUI_E|save|slot=0|cursor=T-D36-000012_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19386",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-D36-000001_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-D36-000001_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382"
+          ]
+        }
+      ],
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:68:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "diagnostic": {
+        "now": 38074.20000000298,
+        "bridge": {
+          "ready": true,
+          "desired": false,
+          "acknowledged": false,
+          "active": null
+        },
+        "visibility": "visible",
+        "focus": true,
+        "input": {
+          "down": false,
+          "reason": null,
+          "state": null
+        },
+        "motion": {
+          "phase": "static",
+          "key": "KCG-ZZ-03",
+          "contextKey": "KCG-ZZ-03",
+          "busy": false,
+          "menu": false,
+          "events": [
+            {
+              "type": "start",
+              "key": "KCG-ZZ-02",
+              "phase": "loading",
+              "time": 20343.5
+            },
+            {
+              "type": "minimum-display-start",
+              "key": "KCG-ZZ-02",
+              "phase": "playing",
+              "time": 20440.5,
+              "minimumMs": 1500
+            },
+            {
+              "type": "first-visible-frame",
+              "key": "KCG-ZZ-02",
+              "phase": "playing",
+              "time": 20440.5
+            },
+            {
+              "type": "ended",
+              "key": "KCG-ZZ-02",
+              "phase": "static",
+              "time": 25401.70000000298
+            },
+            {
+              "type": "cleanup",
+              "key": "",
+              "phase": "idle",
+              "time": 25657.79999999702
+            },
+            {
+              "type": "start",
+              "key": "OV-ZZ-BJ",
+              "phase": "loading",
+              "time": 26876.90000000596
+            },
+            {
+              "type": "minimum-display-start",
+              "key": "OV-ZZ-BJ",
+              "phase": "playing",
+              "time": 26957,
+              "minimumMs": 1500
+            },
+            {
+              "type": "first-visible-frame",
+              "key": "OV-ZZ-BJ",
+              "phase": "playing",
+              "time": 26957.09999999404
+            },
+            {
+              "type": "ended",
+              "key": "OV-ZZ-BJ",
+              "phase": "static",
+              "time": 31923.29999999702
+            },
+            {
+              "type": "cleanup",
+              "key": "",
+              "phase": "idle",
+              "time": 32546.09999999404
+            },
+            {
+              "type": "start",
+              "key": "KCG-ZZ-03",
+              "phase": "loading",
+              "time": 32743
+            },
+            {
+              "type": "minimum-display-start",
+              "key": "KCG-ZZ-03",
+              "phase": "playing",
+              "time": 32806.70000000298,
+              "minimumMs": 1500
+            },
+            {
+              "type": "first-visible-frame",
+              "key": "KCG-ZZ-03",
+              "phase": "playing",
+              "time": 32806.70000000298
+            },
+            {
+              "type": "ended",
+              "key": "KCG-ZZ-03",
+              "phase": "static",
+              "time": 37895.20000000298
+            }
+          ]
+        },
+        "lastEvents": [
+          "SUI_E|stable|cursor=T-ZZ-000759_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8156",
+          "SUI_I|exit|binding=p4-T-ZZ-000759_1|node=T-ZZ-000760_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000760_1|node=T-ZZ-000760_1",
+          "SUI_E|stable|cursor=T-ZZ-000760_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8160",
+          "SUI_I|exit|binding=p4-T-ZZ-000760_1|node=T-ZZ-000761_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000761_1|node=T-ZZ-000761_1",
+          "SUI_E|stable|cursor=T-ZZ-000761_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8164",
+          "SUI_I|exit|binding=p4-T-ZZ-000761_1|node=T-ZZ-000762_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000762_1|node=T-ZZ-000762_1",
+          "SUI_E|stable|cursor=T-ZZ-000762_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8168",
+          "SUI_I|exit|binding=p4-T-ZZ-000762_1|node=T-ZZ-000763_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000763_1|node=T-ZZ-000763_1",
+          "SUI_E|stable|cursor=T-ZZ-000763_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8172",
+          "SUI_M|context|OV-ZZ-BJ|enter|3",
+          "SUI_M|held|1",
+          "SUI_M|held|0",
+          "SUI_E|save|slot=0|cursor=T-ZZ-000763_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8172",
+          "SUI_I|exit|binding=p4-T-ZZ-000763_1|node=T-ZZ-000764_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000764_1|node=T-ZZ-000764_1",
+          "SUI_M|context||enter|4",
+          "SUI_E|stable|cursor=T-ZZ-000764_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8176",
+          "SUI_I|exit|binding=p4-T-ZZ-000764_1|node=T-ZZ-000765_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000765_1|node=T-ZZ-000765_1",
+          "SUI_E|stable|cursor=T-ZZ-000765_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8180",
+          "SUI_I|exit|binding=p4-T-ZZ-000765_1|node=T-ZZ-000766_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000766_1|node=T-ZZ-000766_1",
+          "SUI_E|stable|cursor=T-ZZ-000766_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8184",
+          "SUI_M|context|KCG-ZZ-03|enter|5",
+          "SUI_M|held|1",
+          "SUI_M|held|0"
+        ]
+      }
+    },
+    {
+      "name": "08-zhouzhi-LOW-ZZ-E2",
+      "status": "fail",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "B",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "B",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "B",
+        "ROUTE-01": "zhouzhi",
+        "ZZ03-01": "A",
+        "ZZ04-01": "A",
+        "ZZ05-01": "A",
+        "ZZ06-01": "B",
+        "ZZ07-01": "A",
+        "ZZ08-01": "A",
+        "ZZ09-01": "A",
+        "ZZ10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "B"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "B"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "B"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "zhouzhi"
+        },
+        {
+          "id": "ZZ03-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ04-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ05-01",
+          "value": "A"
+        },
+        {
+          "id": "ZZ06-01",
+          "value": "B"
+        },
+        {
+          "id": "ZZ07-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "zhouzhi",
+        "relation": "LOW",
+        "score": "5",
+        "ending": "ZZ-E2",
+        "epilogue": "EP-LOW",
+        "event": "1",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 5026,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 2057.7000000029802,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "lastChoice": "ZZ07-01",
+      "motionProgress": {
+        "unlocks": [
+          "KCG-ZZ-01"
+        ],
+        "phase": "idle"
+      },
+      "elapsedMs": 1240863,
+      "screenshots": [
+        "08-zhouzhi-LOW-ZZ-E2-route-options.png",
+        "08-zhouzhi-LOW-ZZ-E2-CG027.png",
+        "08-zhouzhi-LOW-ZZ-E2-day36-event-saved.png",
+        "08-zhouzhi-LOW-ZZ-E2-day36-event-loaded.png",
+        "08-zhouzhi-LOW-ZZ-E2-day36-event-refreshed.png",
+        "08-zhouzhi-LOW-ZZ-E2-failure.png"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "expected": {
+            "cursor": "T-D36-000001_1",
+            "pending": "",
+            "route": "zhouzhi",
+            "relation": "LOW",
+            "score": "5",
+            "return": "ZZ-D36-RETURN",
+            "event": "0",
+            "ending": "",
+            "epilogue": "",
+            "depth": "20",
+            "tag": "text",
+            "index": "19382"
+          },
+          "binding": {
+            "background": {
+              "assetId": "bg-noodle-shop-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          },
+          "pass": true,
+          "events": [
+            "SUI_E|save|slot=0|cursor=T-D36-000001_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_M|menu|1",
+            "SUI_E|save|slot=1|cursor=T-D36-000001_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_E|notice|已保存阅读位置。",
+            "SUI_M|menu|0",
+            "SUI_I|exit|binding=p4-T-D36-000001_1|node=T-D36-000012_1",
+            "SUI_I|enter|binding=p4-T-D36-000012_1|node=T-D36-000012_1",
+            "SUI_E|stable|cursor=T-D36-000012_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19386",
+            "SUI_E|save|slot=0|cursor=T-D36-000012_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19386",
+            "SUI_M|menu|1",
+            "SUI_E|load|slot=1|cursor=T-D36-000001_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382",
+            "SUI_M|menu|0",
+            "SUI_E|ready|df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+            "SUI_E|title",
+            "SUI_E|title-motion|visible=1",
+            "SUI_M|ready",
+            "SUI_M|held|0",
+            "SUI_E|title-motion|visible=0",
+            "SUI_E|load|slot=1|cursor=T-D36-000001_1|pending=|route=zhouzhi|relation=LOW|score=5|return=ZZ-D36-RETURN|event=0|ending=|epilogue=|depth=20|tag=text|index=19382"
+          ]
+        }
+      ],
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:68:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "diagnostic": {
+        "now": 28553.69999998808,
+        "bridge": {
+          "ready": true,
+          "desired": false,
+          "acknowledged": false,
+          "active": null
+        },
+        "visibility": "visible",
+        "focus": true,
+        "input": {
+          "down": false,
+          "reason": null,
+          "state": null
+        },
+        "motion": {
+          "phase": "idle",
+          "key": "",
+          "contextKey": "",
+          "busy": false,
+          "menu": false,
+          "events": []
+        },
+        "lastEvents": [
+          "SUI_E|stable|cursor=T-ZZ-000313_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8438",
+          "SUI_I|exit|binding=p4-T-ZZ-000313_1|node=T-ZZ-000314_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000314_1|node=T-ZZ-000314_1",
+          "SUI_E|stable|cursor=T-ZZ-000314_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8442",
+          "SUI_I|exit|binding=p4-T-ZZ-000314_1|node=T-ZZ-000315_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000315_1|node=T-ZZ-000315_1",
+          "SUI_E|stable|cursor=T-ZZ-000315_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8446",
+          "SUI_I|exit|binding=p4-T-ZZ-000315_1|node=T-ZZ-000316_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000316_1|node=T-ZZ-000316_1",
+          "SUI_E|stable|cursor=T-ZZ-000316_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8450",
+          "SUI_I|exit|binding=p4-T-ZZ-000316_1|node=T-ZZ-000815_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000815_1|node=T-ZZ-000815_1",
+          "SUI_E|stable|cursor=T-ZZ-000815_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8454",
+          "SUI_I|exit|binding=p4-T-ZZ-000815_1|node=T-ZZ-000816_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000816_1|node=T-ZZ-000816_1",
+          "SUI_E|stable|cursor=T-ZZ-000816_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8458",
+          "SUI_I|exit|binding=p4-T-ZZ-000816_1|node=T-ZZ-000817_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000817_1|node=T-ZZ-000817_1",
+          "SUI_E|stable|cursor=T-ZZ-000817_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8462",
+          "SUI_E|save|slot=0|cursor=T-ZZ-000817_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8462",
+          "SUI_I|exit|binding=p4-T-ZZ-000817_1|node=T-ZZ-000318_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000318_1|node=T-ZZ-000318_1",
+          "SUI_E|stable|cursor=T-ZZ-000318_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8466",
+          "SUI_I|exit|binding=p4-T-ZZ-000318_1|node=T-ZZ-000818_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000818_1|node=T-ZZ-000818_1",
+          "SUI_E|stable|cursor=T-ZZ-000818_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8470",
+          "SUI_E|save|slot=0|cursor=T-ZZ-000818_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8470",
+          "SUI_I|exit|binding=p4-T-ZZ-000818_1|node=T-ZZ-000819_1",
+          "SUI_I|enter|binding=p4-T-ZZ-000819_1|node=T-ZZ-000819_1",
+          "SUI_E|stable|cursor=T-ZZ-000819_1|pending=|route=zhouzhi|relation=LOW|score=5|return=|event=1|ending=|epilogue=|depth=21|tag=text|index=8474"
+        ]
+      }
+    },
+    {
+      "name": "09-mengyao-HIGH-MY-E1",
+      "status": "fail",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "mengyao",
+        "MY03-01": "A",
+        "MY04-01": "A",
+        "MY05-01": "A",
+        "MY06-01": "A",
+        "MY07-01": "A",
+        "MY08-01": "A",
+        "MY09-01": "A",
+        "MY10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "mengyao",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "MY-E1",
+        "epilogue": "",
+        "event": "0",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 1126,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 272.5,
+            "transferSize": 431425483,
+            "decodedBodySize": 431425183
+          }
+        ]
+      },
+      "lastChoice": "C01-03",
+      "motionProgress": {
+        "unlocks": [],
+        "phase": "idle"
+      },
+      "elapsedMs": 940605,
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:68:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "diagnostic": {
+        "now": 27343.70000000298,
+        "bridge": {
+          "ready": true,
+          "desired": false,
+          "acknowledged": false,
+          "active": null
+        },
+        "heartbeat": {
+          "frames": 1356,
+          "ticks": 102,
+          "lastFrame": 27342.60000000894,
+          "lastTick": 27343.30000001192
+        },
+        "visibility": "visible",
+        "focus": true,
+        "input": {
+          "down": false,
+          "reason": null,
+          "state": null
+        },
+        "motion": {
+          "phase": "idle",
+          "key": "",
+          "contextKey": "",
+          "busy": false,
+          "menu": false,
+          "events": [
+            {
+              "type": "cleanup",
+              "key": "",
+              "phase": "idle",
+              "time": 1886.5
+            }
+          ]
+        },
+        "lastEvents": [
+          "SUI_E|stable|cursor=T-C01-000337_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=705",
+          "SUI_I|exit|binding=p4-T-C01-000337_1|node=T-C01-000110_1",
+          "SUI_I|enter|binding=p4-T-C01-000110_1|node=T-C01-000110_1",
+          "SUI_E|stable|cursor=T-C01-000110_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=709",
+          "SUI_I|exit|binding=p4-T-C01-000110_1|node=T-C01-000111_1",
+          "SUI_I|enter|binding=p4-T-C01-000111_1|node=T-C01-000111_1",
+          "SUI_E|stable|cursor=T-C01-000111_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=713",
+          "SUI_I|exit|binding=p4-T-C01-000111_1|node=T-C01-000112_1",
+          "SUI_I|enter|binding=p4-T-C01-000112_1|node=T-C01-000112_1",
+          "SUI_E|stable|cursor=T-C01-000112_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=717",
+          "SUI_I|exit|binding=p4-T-C01-000112_1|node=T-C01-000113_1",
+          "SUI_I|enter|binding=p4-T-C01-000113_1|node=T-C01-000113_1",
+          "SUI_E|stable|cursor=T-C01-000113_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=721",
+          "SUI_E|save|slot=0|cursor=T-C01-000113_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=721",
+          "SUI_I|exit|binding=p4-T-C01-000113_1|node=T-C01-000338_1",
+          "SUI_I|enter|binding=p4-T-C01-000338_1|node=T-C01-000338_1",
+          "SUI_E|stable|cursor=T-C01-000338_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=725",
+          "SUI_I|exit|binding=p4-T-C01-000338_1|node=T-C01-000339_1",
+          "SUI_I|enter|binding=p4-T-C01-000339_1|node=T-C01-000339_1",
+          "SUI_E|stable|cursor=T-C01-000339_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=729",
+          "SUI_I|exit|binding=p4-T-C01-000339_1|node=T-C01-000340_1",
+          "SUI_I|enter|binding=p4-T-C01-000340_1|node=T-C01-000340_1",
+          "SUI_E|stable|cursor=T-C01-000340_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=733",
+          "SUI_I|exit|binding=p4-T-C01-000340_1|node=T-C01-000341_1",
+          "SUI_I|enter|binding=p4-T-C01-000341_1|node=T-C01-000341_1",
+          "SUI_E|stable|cursor=T-C01-000341_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=737",
+          "SUI_I|exit|binding=p4-T-C01-000341_1|node=T-C01-000115_1",
+          "SUI_I|enter|binding=p4-T-C01-000115_1|node=T-C01-000115_1",
+          "SUI_E|stable|cursor=T-C01-000115_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=741",
+          "SUI_E|save|slot=0|cursor=T-C01-000115_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=3|tag=text|index=741"
+        ]
+      },
+      "screenshots": [
+        "09-mengyao-HIGH-MY-E1-failure.png"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "case": "05-zhouzhi-HIGH-ZZ-E1",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded."
+    },
+    {
+      "case": "07-zhouzhi-LOW-ZZ-E1",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded."
+    },
+    {
+      "case": "08-zhouzhi-LOW-ZZ-E2",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded."
+    },
+    {
+      "case": "09-mengyao-HIGH-MY-E1",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded."
+    }
+  ],
+  "browser": "chrome 156.0.8078.80",
+  "softwareRendering": false,
+  "error": "AssertionError [ERR_ASSERTION]: 路径尚未全部执行\n\n9 !== 28\n\n    at /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:124:10",
+  "finishedAt": "2026-11-04T10:36:20.840Z"
+}

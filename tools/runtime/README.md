@@ -1,8 +1,43 @@
-# 当前构建与运行入口（2026-10-30）
+# 当前动态CG整合版（2026-11-04）
+
+29段动态已接入；当前网页为`qa/dialogue-p5-motion-20261104/build-v5/runtime/web/`，端口49345。孟遥夜间保留静态，同次留宿只播夜间。正式条件、播放约定、同版本标识和各平台实际结果统一见[P5整合验收](../../docs/整合/P5动态CG整合验收.md)；重建与路线测试见[P5工具](../story-revision/p5/README.md)。同版已部署[阿里云网页](http://106.14.32.114/)，外网验收与带宽限制另见[部署记录](../../docs/部署/阿里云.md)。重新开始，旧档保留。
+
+```sh
+node tools/runtime/serve.cjs --web qa/dialogue-p5-motion-20261104/build-v5/runtime/web --port 49345
+```
+
+下方均为历史基线，不作为当前试玩入口。
+
+# 背景补全基线（2026-11-04）
+
+当前为`sui-bg-fill-20261104-v1`，268资源、4,814绑定、81CG；495处原无背景节点已补齐。采用与复核入口见[背景补全交接](../../docs/美术/背景补全-20261104/交接.md)。同版本运行文件为`qa/background-fill-20261104/build/runtime/web/`，本机端口49333。P5全线和设备另验，旧档保留；下方P4构建入口已属历史冻结基线。
+
+# P4采用基线（2026-11-04）
+
+当前为`sui-p4-07-20261104-v7`，262资源、4,814绑定、81CG。使用[P4-07构建入口](../story-revision/p4-adoption/README.md)与[同版本交接](../../docs/修订协作/P4-演出与美术/P4-07/交接.md)；从头开始，独立存储，P5全线/存档/设备另验。下文预览、命令和结果均属历史版本。
+
+# 当前构建与运行入口（2026-11-03）
+
+P1独立小样已通过：点击[本机小样](http://127.0.0.1:49285/)中的“开始阅读”，选择网吧多人、飘LOW或孟遥条件段。详见[P1交接](../../qa/dialogue-p1-runtime-20261102/交接.md)。该小样使用独立存储；根正文与下方全稿候选保持原样。
+
+```sh
+node tools/runtime/serve.cjs --web qa/dialogue-p1-runtime-20261102/preview-v6/runtime/web --port 49285
+```
+
+本批构建支持长姓名适配，并拒绝会造成存档行号偏移的多行text标签及漏打包的入口资源。姓名来自编译元数据，不从立绘猜测。新正文与分页需要新构建，从头开始；正式全稿仍须后续冻结和整合。
+
+当前候选为 `sui-i02-20261102-epilogue-v1`：后日谈仅接文文主结局仍单身的路径，恋爱／秘密关系继续及试着交往的结局直接结束。保留226项美术、电影侧栏和B循环封面；新版从头开始，旧候选与玩家存档保留。变更与实际验证见[本批交接](../../qa/epilogue-single-only-20261102/交接.md)。
+
+```sh
+node tools/runtime/serve.cjs --web dist/sui-i02-20261102-epilogue-v1/web --port 49270
+node tools/integration/runtime/verify-package.cjs dist/sui-i02-20261102-epilogue-v1
+```
+
+后日谈版本的I01冻结快照为 `qa/epilogue-single-only-20261102/snapshot.json`。下方为2026-10-30的候选来源与历史入口。
 
 立绘补全冻结为`sui-i01-portraits-20261030-v5`，226项美术资源。独立验收候选为`sui-i02-20261030-portraits-v2`，采用相同电影侧栏与B循环封面，入口[49262](http://127.0.0.1:49262/)；[补全结果与实际验证](../../qa/portrait-gap-fill-20261030/结果报告.md)。本批构建来源使用`qa/portrait-gap-fill-20261030/snapshot.json`；一次性制作/检查工具及其固定QA批次不直接重跑覆盖，后续修改另建批次。
 
-当前候选为 `sui-i02-20261030-title-b1-v2`，已采用[方案一动态标题](../../docs/方案一动态封面接入.md)，保留[电影侧栏UI](../../docs/UI-电影侧栏.md)及当前补画立绘。标题与UI分别由`system/sui-title/manifest.json`、`system/sui-cinema/manifest.json`登记，旧SUI-U资源保留。动态标题仅用于网页，电脑原生使用静态B。
+上一候选为 `sui-i02-20261030-title-b1-v2`，已采用[方案一动态标题](../../docs/方案一动态封面接入.md)，保留[电影侧栏UI](../../docs/UI-电影侧栏.md)及当前补画立绘。标题与UI分别由`system/sui-title/manifest.json`、`system/sui-cinema/manifest.json`登记，旧SUI-U资源保留。动态标题仅用于网页，电脑原生使用静态B。
 
 ```sh
 node tools/runtime/serve.cjs --web dist/sui-i02-20261030-title-b1-v2/web --port 49250

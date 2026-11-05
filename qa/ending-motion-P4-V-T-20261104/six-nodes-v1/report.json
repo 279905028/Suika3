@@ -1,0 +1,188 @@
+{
+  "status": "fail",
+  "scope": "独立Suika Wasm六个合成触发点；真实切标签待验",
+  "checks": [
+    "XM-E1真实引擎入镜、跳过、出镜清理",
+    "ZZ-E1真实引擎入镜、跳过、出镜清理",
+    "MY-E1真实引擎入镜、跳过、出镜清理",
+    "PI-E1真实引擎入镜、跳过、出镜清理",
+    "PI-LE1真实引擎入镜、跳过、出镜清理",
+    "HQ-E1真实引擎入镜、跳过、出镜清理",
+    "六个合成正例可见后各解锁一次"
+  ],
+  "errors": [],
+  "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n\n    at run (/Users/yipin/Desktop/Suika3/tools/story-revision/ending-motion/verify-background.cjs:25:74)",
+  "engineEvents": [
+    "P4V|started",
+    "SUI_M|context|MCG-XM-E1|enter|1",
+    "P4V|node|T-XM-000826_1",
+    "SUI_M|context||enter|2",
+    "P4V|node|AFTER-XM-E1",
+    "SUI_M|context|MCG-ZZ-E1|enter|3",
+    "P4V|node|T-ZZ-000478_1",
+    "SUI_M|context||enter|4",
+    "P4V|node|AFTER-ZZ-E1",
+    "SUI_M|context|MCG-MY-E1|enter|5",
+    "P4V|node|T-MY-000349_1",
+    "SUI_M|context||enter|6",
+    "P4V|node|AFTER-MY-E1",
+    "SUI_M|context|MCG-PI-E1|enter|7",
+    "P4V|node|T-PI-000444_1",
+    "SUI_M|context||enter|8",
+    "P4V|node|AFTER-PI-E1",
+    "SUI_M|context|MCG-PI-LE1|enter|9",
+    "P4V|node|T-PI-000630_1",
+    "SUI_M|context||enter|10",
+    "P4V|node|AFTER-PI-LE1",
+    "SUI_M|context|MCG-HQ-E1|enter|11",
+    "P4V|node|T-HQ-000586_1",
+    "SUI_M|context||enter|12",
+    "P4V|node|AFTER-HQ-E1"
+  ],
+  "mediaEvents": [
+    {
+      "type": "start",
+      "key": "MCG-XM-E1",
+      "phase": "loading",
+      "time": 354.29999999701977
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-XM-E1",
+      "phase": "playing",
+      "time": 451.69999999552965
+    },
+    {
+      "type": "skip",
+      "key": "MCG-XM-E1",
+      "phase": "static",
+      "time": 463.79999999701977
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 853.5
+    },
+    {
+      "type": "start",
+      "key": "MCG-ZZ-E1",
+      "phase": "loading",
+      "time": 1203.3999999985099
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-ZZ-E1",
+      "phase": "playing",
+      "time": 1253.2999999970198
+    },
+    {
+      "type": "skip",
+      "key": "MCG-ZZ-E1",
+      "phase": "static",
+      "time": 1544.6999999955297
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 1937.0999999940395
+    },
+    {
+      "type": "start",
+      "key": "MCG-MY-E1",
+      "phase": "loading",
+      "time": 2285.89999999851
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-MY-E1",
+      "phase": "playing",
+      "time": 2351.89999999851
+    },
+    {
+      "type": "skip",
+      "key": "MCG-MY-E1",
+      "phase": "static",
+      "time": 2630.6999999955297
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 3020.5999999940395
+    },
+    {
+      "type": "start",
+      "key": "MCG-PI-E1",
+      "phase": "loading",
+      "time": 3386.5999999940395
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-PI-E1",
+      "phase": "playing",
+      "time": 3452.5999999940395
+    },
+    {
+      "type": "skip",
+      "key": "MCG-PI-E1",
+      "phase": "static",
+      "time": 3718.2999999970198
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 4103.0999999940395
+    },
+    {
+      "type": "start",
+      "key": "MCG-PI-LE1",
+      "phase": "loading",
+      "time": 4470.29999999702
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-PI-LE1",
+      "phase": "playing",
+      "time": 4535.79999999702
+    },
+    {
+      "type": "skip",
+      "key": "MCG-PI-LE1",
+      "phase": "static",
+      "time": 4807.5
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 5203.5999999940395
+    },
+    {
+      "type": "start",
+      "key": "MCG-HQ-E1",
+      "phase": "loading",
+      "time": 5552.5999999940395
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-HQ-E1",
+      "phase": "playing",
+      "time": 5618.5999999940395
+    },
+    {
+      "type": "skip",
+      "key": "MCG-HQ-E1",
+      "phase": "static",
+      "time": 5894.79999999702
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 6286.29999999702
+    }
+  ]
+}

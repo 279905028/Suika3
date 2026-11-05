@@ -1,0 +1,282 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS_PLANNING_ONLY",
+  "userConfirmed": {
+    "form": "approximately-5-second-motion-video",
+    "coverage": "ongoing-romance-at-ending"
+  },
+  "counts": {
+    "routes": 6,
+    "allEndings": 14,
+    "coveredRomanceEndings": 6,
+    "masterPrompts": 1,
+    "independentProductionPrompts": 6,
+    "existingCgStartingPoints": 5,
+    "newKeyframesNeeded": 1,
+    "referencedFilesChecked": 12,
+    "visualReferencesViewed": 8,
+    "protectedFilesUnchanged": 854,
+    "newVideos": 0,
+    "newFormalBindings": 0,
+    "localLinksChecked": 17
+  },
+  "checks": {
+    "romanceEndingSetMatchesRoutes": true,
+    "sixSourceQuotesExact": true,
+    "sixNodeConditionsMatchP4Candidates": true,
+    "fiveCgReferencesMatchP4Review": true,
+    "referencePathsAndHashesRecorded": true,
+    "newDocumentLinksChecked": true,
+    "protectedInputFingerprintsUnchanged": true
+  },
+  "visualReferencesViewed": [
+    "assets/current/SUI-A10-XM/cg-xm-cg023.webp",
+    "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp",
+    "assets/current/SUI-A10-MY/cg-my-cg104.webp",
+    "assets/sources/20261103/CG-expansion-20/CG122/cg122-v001.png",
+    "assets/current/SUI-A10-PI/cg-pi-cg068.webp",
+    "assets/sources/20261103/P4-04/CG109/cg109-v002.webp",
+    "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.webp",
+    "assets/current/SUI-A08/bg-oldstreet-shops-grocery-changed-day67.webp"
+  ],
+  "shots": [
+    {
+      "endingId": "XM-E1",
+      "routeId": "xiaoman",
+      "paragraphId": "T-XM-000826",
+      "nodeId": "T-XM-000826_1",
+      "condition": "XM07-01=A&XM08-01=A",
+      "entryRequirements": {
+        "routeId": "xiaoman"
+      },
+      "source": {
+        "path": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+        "sha256": "11b3becd743c3a24497c7c4b2e413b1a92c407b59932a7413a78e09f4de5a073",
+        "text": "她看了我一眼，突然拿练习本挡住半张脸。过了几秒，又放下来，对着镜头飞快亲了一下。"
+      },
+      "staticCgReference": "CG023",
+      "needsNewKeyframe": false,
+      "prompt": "docs/美术/恋爱结局动态CG-20261104/01-罗小满-XM-E1.md",
+      "references": [
+        {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg023.webp",
+          "sha256": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.png",
+          "sha256": "ed27c92642a3df992865cd5651b8fcbc44f2a1122e4b19e40668c10524196273"
+        }
+      ],
+      "status": "planned-not-generated-not-bound"
+    },
+    {
+      "endingId": "ZZ-E1",
+      "routeId": "zhouzhi",
+      "paragraphId": "T-ZZ-000478",
+      "nodeId": "T-ZZ-000478_1",
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "entryRequirements": {
+        "routeId": "zhouzhi"
+      },
+      "source": {
+        "path": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+        "sha256": "ce65686dfb00cef83d6de8f3ac9e0624d532615ef6cedbb40dace08d9fd28074",
+        "text": "我咬下一口饼，她在那头打了个哈欠。我们都没急着为这段关系再讲一遍保证。手机放在手边，声音还在。"
+      },
+      "staticCgReference": "CG035",
+      "needsNewKeyframe": false,
+      "prompt": "docs/美术/恋爱结局动态CG-20261104/02-周栀-ZZ-E1.md",
+      "references": [
+        {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp",
+          "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg035-v001.png",
+          "sha256": "3593e7e8b6666a1e0feadc94fd8d939e831a986120a91b2bfbf4d1af720b0c3f"
+        }
+      ],
+      "status": "planned-not-generated-not-bound"
+    },
+    {
+      "endingId": "MY-E1",
+      "routeId": "mengyao",
+      "paragraphId": "T-MY-000349",
+      "nodeId": "T-MY-000349_1",
+      "condition": "MY07-01=A&MY09-01=A",
+      "entryRequirements": {
+        "routeId": "mengyao"
+      },
+      "source": {
+        "path": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+        "sha256": "403657d75961213fada1736c918a0c78955b337b32eba559ca67ac0583db5be0",
+        "text": "我把第98天先留空，车票没买。红笔收进抽屉，旧练习册放在另一侧。我们没有公开复合，她没有离婚，我也没有重新得到房子。"
+      },
+      "staticCgReference": "CG104",
+      "needsNewKeyframe": false,
+      "prompt": "docs/美术/恋爱结局动态CG-20261104/03-孟遥-MY-E1.md",
+      "references": [
+        {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg104.webp",
+          "sha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg104-v001.png",
+          "sha256": "d7a6777fcb11cb668cd0a3192539cdc6582c137002f8a743ba0d58004ece48b2"
+        }
+      ],
+      "status": "planned-not-generated-not-bound"
+    },
+    {
+      "endingId": "PI-E1",
+      "routeId": "piao",
+      "paragraphId": "T-PI-000444",
+      "nodeId": "T-PI-000444_1",
+      "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A",
+      "entryRequirements": {
+        "routeId": "piao"
+      },
+      "source": {
+        "path": "docs/修订协作/P3-独立审读-20261103/正文/飘-空白页.md",
+        "sha256": "9c80839fa60194a68e0bb813e68f8a84e53e168f3bd461973bfa2e5a8feed003",
+        "text": "我笑着答应。电话断了，我把册子合上，这次空白页里终于有了我自己也认得的话。"
+      },
+      "staticCgReference": null,
+      "needsNewKeyframe": true,
+      "prompt": "docs/美术/恋爱结局动态CG-20261104/04-飘-HIGH-PI-E1.md",
+      "references": [
+        {
+          "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.webp",
+          "sha256": "83e0be332751d53ae2f96a1fecf50df0ae8ac5fb778bc465178400f46b57d108"
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-oldstreet-shops-grocery-changed-day67.webp",
+          "sha256": "5baf2445c10ea89b1204722291c60cd914faa736f845fa138eb2b656cdcf3281"
+        },
+        {
+          "path": "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp",
+          "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc"
+        }
+      ],
+      "status": "planned-not-generated-not-bound"
+    },
+    {
+      "endingId": "PI-LE1",
+      "routeId": "piao",
+      "paragraphId": "T-PI-000630",
+      "nodeId": "T-PI-000630_1",
+      "condition": "PIAO_RELATION=LOW&PI-L06-01=A",
+      "entryRequirements": {
+        "routeId": "piao"
+      },
+      "source": {
+        "path": "docs/修订协作/P3-独立审读-20261103/正文/飘-空白页.md",
+        "sha256": "9c80839fa60194a68e0bb813e68f8a84e53e168f3bd461973bfa2e5a8feed003",
+        "text": "她递给我相机，让我拍她打结的手。第一张糊了。"
+      },
+      "staticCgReference": "CG068",
+      "needsNewKeyframe": false,
+      "prompt": "docs/美术/恋爱结局动态CG-20261104/05-飘-LOW-PI-LE1.md",
+      "references": [
+        {
+          "path": "assets/current/SUI-A10-PI/cg-pi-cg068.webp",
+          "sha256": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579"
+        },
+        {
+          "path": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg068-v002.png",
+          "sha256": "1b92bef902ca611ecfbdb8c9b8f2ddca57b1359352f3777de08b03b2a11b5f77"
+        }
+      ],
+      "status": "planned-not-generated-not-bound"
+    },
+    {
+      "endingId": "HQ-E1",
+      "routeId": "huangqiuqiu",
+      "paragraphId": "T-HQ-000586",
+      "nodeId": "T-HQ-000586_1",
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "entryRequirements": {
+        "routeId": "huangqiuqiu",
+        "choiceRequirements": {
+          "C01-02": "A",
+          "C02-01": "A"
+        },
+        "readEvent": "day14-meeting-read",
+        "source": {
+          "file": "第二章-十四天.md",
+          "anchor": "HQ-MEETING-COMPLETE"
+        },
+        "markAfterWholeSection": true,
+        "neutralChoice": "C02-07"
+      },
+      "source": {
+        "path": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+        "sha256": "99f811222abc8c3d44af4983861aa16c7338a545dbe9d068df58b6f0bc2e377e",
+        "text": "写到一半，她靠过来，下巴贴在我肩边。我的字歪了一点。"
+      },
+      "staticCgReference": "CG109",
+      "needsNewKeyframe": false,
+      "prompt": "docs/美术/恋爱结局动态CG-20261104/06-黄球球-HQ-E1.md",
+      "references": [
+        {
+          "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.webp",
+          "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380"
+        },
+        {
+          "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.png",
+          "sha256": "671a5f07f67e7386d9e2fa1e8a8bd0dd57f2463b913258f32ced261552cdf70f"
+        }
+      ],
+      "status": "planned-not-generated-not-bound"
+    }
+  ],
+  "notPerformed": [
+    "视频或新首帧制作",
+    "正式资源/绑定/正文采用",
+    "引擎运行",
+    "游戏浏览器运行",
+    "手机真机",
+    "电脑原生",
+    "存读档/回退/刷新",
+    "发布"
+  ],
+  "protectedInputRecord": "qa/ending-motion-plan-20261104/protected-inputs.json",
+  "deliveryFiles": [
+    {
+      "path": "docs/恋爱结局动态CG任务.md",
+      "sha256": "3c2b7b83e36c64eff170d9d7e82bc6b478aeb85f5ca0c1433b24122a51478d08"
+    },
+    {
+      "path": "docs/美术/恋爱结局动态CG-20261104/00-总任务提示词.md",
+      "sha256": "bdc1f24d8651b02c36a14e0c5dc2efc8b05d1bdb581dee3164009c9c4d06261e"
+    },
+    {
+      "path": "docs/美术/恋爱结局动态CG-20261104/01-罗小满-XM-E1.md",
+      "sha256": "537cd6fb64796c953fb41fac33feff0dd547df7a0c5dbbec235584117e9f6f16"
+    },
+    {
+      "path": "docs/美术/恋爱结局动态CG-20261104/02-周栀-ZZ-E1.md",
+      "sha256": "11f70f6fcfb778a551cd4fd28130583937bdc38edc74b0f20661128a0c072692"
+    },
+    {
+      "path": "docs/美术/恋爱结局动态CG-20261104/03-孟遥-MY-E1.md",
+      "sha256": "9f2f08ca8898d7d48fc6be85bd44d189438c32c074c32b1393b07a31b7a3ad0b"
+    },
+    {
+      "path": "docs/美术/恋爱结局动态CG-20261104/04-飘-HIGH-PI-E1.md",
+      "sha256": "df0a7c308fb9ff00725246a6a812274350937c5d43c6a84d88fa6a249d295273"
+    },
+    {
+      "path": "docs/美术/恋爱结局动态CG-20261104/05-飘-LOW-PI-LE1.md",
+      "sha256": "47e5e316025ce829bc2e15a763ae701faa0b4f15cf02a3dea79d4a1c6aa718a8"
+    },
+    {
+      "path": "docs/美术/恋爱结局动态CG-20261104/06-黄球球-HQ-E1.md",
+      "sha256": "c289fb6cc8a9d4ef14f9337468b5d309cfc2643206d3c8b95a9ae21270977d25"
+    },
+    {
+      "path": "qa/ending-motion-plan-20261104/交接.md",
+      "sha256": "341340881a99fb5a15e3c3ac54ea026d29068720239442c45ebe7e832ad1a50e"
+    }
+  ]
+}

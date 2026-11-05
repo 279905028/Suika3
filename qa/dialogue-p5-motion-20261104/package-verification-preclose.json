@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "runtimeBuildId": "df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "checks": [
+    "构建记录与运行清单同版本",
+    "全部冻结输入保持原指纹，当前运行/正文/资源输入无漂移",
+    "全部网页产物与构建时指纹一致",
+    "原静态资源清单未改写",
+    "原静态绑定未改写",
+    "29段视频和29张回退静帧从采用清单到网页逐字节一致"
+  ],
+  "nonRuntimeChanges": [
+    {
+      "path": "tools/runtime/verify-cg-hold.cjs",
+      "frozenSha256": "df76c0c7725bf991336c962fdf9a735e6b374442c7c89eaabea759dbdf419a14",
+      "currentSha256": "515bb08fd2f902786fdf69c032b5e396ae7a728f0273a4fcff2619b317fb2623"
+    },
+    {
+      "path": "tools/runtime/verify-motion.cjs",
+      "frozenSha256": "706f50c8b013621f333d0c9e710157383dd5fcf53461e3a59cbd1c3b3645e7fc",
+      "currentSha256": "5d32619002f8e246e4b007eee2a9d40614fd6bb2ef4896836ca94c44dc8a83e4"
+    },
+    {
+      "path": "tools/story-revision/p5/verify-routes.cjs",
+      "frozenSha256": "56c0a128609119a46a2f1ea7ebf9b61060c702060a3d64412375acecb4118c88",
+      "currentSha256": "06fc7d4853ade89ad5a040d8ee1d0a0c18107094853cb8344061edb57fb43c62"
+    }
+  ],
+  "frozenInputCount": 1234,
+  "outputCount": 67,
+  "motionCG": 29
+}

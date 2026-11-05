@@ -1,0 +1,240 @@
+{
+  "status": "pass",
+  "scope": "条件单元验证与独立Suika Wasm视频技术夹具，不是六段成片或P5全路线验收",
+  "checks": [
+    "XM-E1准确节点与选择通过",
+    "ZZ-E1准确节点与选择通过",
+    "MY-E1准确节点与选择通过",
+    "PI-E1准确节点与选择通过",
+    "PI-LE1准确节点与选择通过",
+    "HQ-E1准确节点与选择通过",
+    "孟遥AB禁止播放",
+    "孟遥BA禁止播放",
+    "孟遥BB禁止播放",
+    "不依赖尚未提交的ENDING",
+    "真实Suika启动并显示H.264首帧",
+    "首个可见帧才解锁",
+    "首次确认只跳视频、保留正文节点",
+    "后续确认允许正文继续",
+    "原生菜单暂停视频并遮住媒体层",
+    "原生菜单返回恢复同一视频",
+    "原生存档成功",
+    "返回标题清理媒体与回调",
+    "原生读档恢复静态且不自动播放",
+    "同节点手动重播",
+    "自然结束留在原节点",
+    "浏览器冻结与恢复后没有换节点",
+    "缺失视频回退、不中断正文、不解锁",
+    "解码失败回退且不解锁",
+    "自动播放被拒时回退且不解锁",
+    "退出后迟到回调不复活视频、不解锁",
+    "图鉴只有已可见视频可重播",
+    "图鉴返回清理播放器",
+    "横屏模拟画面等比对齐",
+    "刷新保留解锁记录、不持久化播放器对象",
+    "仅独立测试存储"
+  ],
+  "errors": [],
+  "negativeCases": 34,
+  "browser": "156.0.8078.80",
+  "backgroundBoundary": "CDP生命周期冻结/恢复；实际切标签另验",
+  "beforeReload": {
+    "engineEvents": [
+      "P4V|started",
+      "SUI_M|context|MCG-XM-E1|enter|1",
+      "P4V|node|T-XM-000826_1",
+      "SUI_M|context||enter|2",
+      "P4V|node|AFTER-XM-E1",
+      "SUI_M|context|MCG-ZZ-E1|enter|3",
+      "P4V|node|T-ZZ-000478_1",
+      "SUI_M|exit",
+      "SUI_M|context|MCG-XM-E1|enter|4",
+      "P4V|node|T-XM-000826_1",
+      "SUI_M|menu|1",
+      "SUI_M|menu|0",
+      "P4V|save|ok=1",
+      "SUI_M|exit",
+      "SUI_M|context||enter|5",
+      "P4V|node|TITLE",
+      "P4V|load|ok=1",
+      "SUI_M|context|MCG-XM-E1|restore|6"
+    ],
+    "mediaEvents": [
+      {
+        "type": "start",
+        "key": "MCG-XM-E1",
+        "phase": "loading",
+        "time": 509.79999999701977
+      },
+      {
+        "type": "first-visible-frame",
+        "key": "MCG-XM-E1",
+        "phase": "playing",
+        "time": 621.1999999955297
+      },
+      {
+        "type": "skip",
+        "key": "MCG-XM-E1",
+        "phase": "static",
+        "time": 692
+      },
+      {
+        "type": "cleanup",
+        "key": "",
+        "phase": "idle",
+        "time": 1103.0999999940395
+      },
+      {
+        "type": "start",
+        "key": "MCG-ZZ-E1",
+        "phase": "loading",
+        "time": 1487.1999999955297
+      },
+      {
+        "type": "first-visible-frame",
+        "key": "MCG-ZZ-E1",
+        "phase": "playing",
+        "time": 1537.5
+      },
+      {
+        "type": "cleanup",
+        "key": "",
+        "phase": "idle",
+        "time": 1871.6999999955297
+      },
+      {
+        "type": "start",
+        "key": "MCG-XM-E1",
+        "phase": "loading",
+        "time": 1904
+      },
+      {
+        "type": "pause",
+        "key": "MCG-XM-E1",
+        "phase": "playing",
+        "time": 2260.39999999851,
+        "menu": true,
+        "hidden": false
+      },
+      {
+        "type": "cleanup",
+        "key": "",
+        "phase": "idle",
+        "time": 3836.89999999851
+      },
+      {
+        "type": "cleanup",
+        "key": "",
+        "phase": "idle",
+        "time": 3854.5999999940395
+      },
+      {
+        "type": "restore-static",
+        "key": "MCG-XM-E1",
+        "phase": "static",
+        "time": 4284.5
+      },
+      {
+        "type": "start",
+        "key": "MCG-XM-E1",
+        "phase": "loading",
+        "time": 4657
+      },
+      {
+        "type": "ended",
+        "key": "MCG-XM-E1",
+        "phase": "static",
+        "time": 9719.89999999851
+      },
+      {
+        "type": "start",
+        "key": "MCG-ZZ-E1",
+        "phase": "loading",
+        "time": 9725.39999999851
+      },
+      {
+        "type": "restore-static",
+        "key": "MCG-MY-E1",
+        "phase": "static",
+        "time": 10051.59999999404
+      },
+      {
+        "type": "start",
+        "key": "MCG-MY-E1",
+        "phase": "loading",
+        "time": 10051.59999999404
+      },
+      {
+        "type": "media-error",
+        "key": "MCG-MY-E1",
+        "phase": "static",
+        "time": 10055.89999999851
+      },
+      {
+        "type": "start",
+        "key": "MCG-PI-E1",
+        "phase": "loading",
+        "time": 10058.29999999702
+      },
+      {
+        "type": "media-error",
+        "key": "MCG-PI-E1",
+        "phase": "static",
+        "time": 10065.79999999702
+      },
+      {
+        "type": "start",
+        "key": "MCG-PI-LE1",
+        "phase": "loading",
+        "time": 10073.69999999553
+      },
+      {
+        "type": "autoplay-rejected",
+        "key": "MCG-PI-LE1",
+        "phase": "static",
+        "time": 10089.09999999404
+      },
+      {
+        "type": "start",
+        "key": "MCG-HQ-E1",
+        "phase": "loading",
+        "time": 10108.59999999404
+      },
+      {
+        "type": "cleanup",
+        "key": "",
+        "phase": "idle",
+        "time": 10109.09999999404
+      },
+      {
+        "type": "start",
+        "key": "MCG-XM-E1",
+        "phase": "loading",
+        "time": 12475.39999999851
+      },
+      {
+        "type": "gallery-return",
+        "key": "",
+        "phase": "idle",
+        "time": 12574.19999999553
+      },
+      {
+        "type": "start",
+        "key": "MCG-HQ-E1",
+        "phase": "loading",
+        "time": 12578.69999999553
+      },
+      {
+        "type": "first-visible-frame",
+        "key": "MCG-HQ-E1",
+        "phase": "playing",
+        "time": 12636.19999999553
+      }
+    ]
+  },
+  "databases": [
+    "suika3-p4v-engine-probe:/P4-V正文视频技术夹具"
+  ],
+  "engineEvents": [],
+  "mediaEvents": []
+}

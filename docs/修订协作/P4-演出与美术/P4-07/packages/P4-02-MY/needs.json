@@ -1,0 +1,433 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-MY",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "needs": [
+    {
+      "needId": "P4-02-MY-N001",
+      "resourceKey": "my-restaurant-eaves-rain",
+      "kind": "background",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-MY-000077_1",
+        "T-MY-000078_1",
+        "T-MY-000079_1",
+        "T-MY-000080_1",
+        "T-MY-000081_1",
+        "T-MY-000082_1",
+        "T-MY-000083_1",
+        "T-MY-000084_1",
+        "T-MY-000085_1",
+        "T-MY-000086_1",
+        "T-MY-000087_1",
+        "T-MY-000088_1"
+      ],
+      "reason": "饭店檐下撑伞不等于桥头烧饼店，当前无该场准确背景。",
+      "constraints": [
+        "与CG039饭店檐下雨景核对",
+        "不新增地点身份或店名",
+        "新图先制作/检查再补引用"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-my-restaurant-eaves-rain",
+        "reason": "从CG039保留檐口、木门、暖灯和雨势，去两人、伞及烧饼陈列，作为匿名饭店空镜。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-my-restaurant-eaves-rain@P4-03.json",
+            "sha256": "b3b84296014de78f88fba1d5448794ce4d9ef9644ae8d2ac0068a533d9b1c7df"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-MY-N002",
+      "resourceKey": "my-riverside-day",
+      "kind": "background",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-MY-000399_1",
+        "T-MY-000400_1",
+        "T-MY-000401_1",
+        "T-MY-000402_1",
+        "T-MY-000403_1",
+        "T-MY-000224_1",
+        "T-MY-000225_1",
+        "T-MY-000404_1",
+        "T-MY-000405_1",
+        "T-MY-000227_1",
+        "T-MY-000228_1"
+      ],
+      "reason": "MY07=A第44天下午河边坐谈、烧饼与亲吻，资源库无明确河边背景。",
+      "constraints": [
+        "仅MY07=A；AB前史真实发生，不能按未来MY09过滤",
+        "与CG044保持河岸空间一致"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-my-riverside-afternoon",
+        "reason": "找到CG044制作前冻结的无人河岸原件，逐字节复制；与CG044的河水、树、石栏和路口空间一致，无需重生。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-my-riverside-afternoon@P4-03.json",
+            "sha256": "08111c4cb72866cda76881597c0924896120e1308f829d2369f0d04289471d6f"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-MY-N003",
+      "resourceKey": "my-guiyang-elevator",
+      "kind": "background",
+      "action": "offscreen",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-MY-000296_1"
+      ],
+      "reason": "正文为离开孟遥住处的电梯；既有文文旧房走廊不能当作她的电梯。",
+      "constraints": [
+        "候选背景暂空且明确blocked，正式采用前补准确电梯或有依据的画外处置，不使用占位图",
+        "不改剧情地点"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": null,
+        "reason": "T-MY-000296_1是电梯内的内心独白，没有需可见的动作或楼层细节；可保持画外叙述。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-MY-N004",
+      "resourceKey": "my-rental-afternoon-light",
+      "kind": "background",
+      "action": "reuse",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-MY-000636_1",
+        "T-MY-000637_1",
+        "T-MY-000559_1",
+        "T-MY-000560_1",
+        "T-MY-000561_1",
+        "T-MY-000638_1",
+        "T-MY-000639_1",
+        "T-MY-000640_1",
+        "T-MY-000332_1",
+        "T-MY-000333_1",
+        "T-MY-000641_1",
+        "T-MY-000642_1",
+        "T-MY-000643_1",
+        "T-MY-000644_1",
+        "T-MY-000335_1",
+        "T-MY-000336_1",
+        "T-MY-000645_1",
+        "T-MY-000646_1",
+        "T-MY-000338_1",
+        "T-MY-000339_1",
+        "T-MY-000340_1",
+        "T-MY-000341_1",
+        "T-MY-000647_1",
+        "T-MY-000648_1",
+        "T-MY-000343_1",
+        "T-MY-000344_1",
+        "T-MY-000345_1",
+        "T-MY-000649_1",
+        "T-MY-000650_1",
+        "T-MY-000651_1",
+        "T-MY-000347_1",
+        "T-MY-000652_1",
+        "T-MY-000653_1",
+        "T-MY-000349_1",
+        "T-MY-000654_1",
+        "T-MY-000655_1",
+        "T-MY-000656_1",
+        "T-MY-000657_1",
+        "T-MY-000658_1",
+        "T-MY-000351_1",
+        "T-MY-000659_1",
+        "T-MY-000660_1",
+        "T-MY-000353_1",
+        "T-MY-000354_1",
+        "T-MY-000355_1",
+        "T-MY-000661_1",
+        "T-MY-000662_1",
+        "T-MY-000663_1",
+        "T-MY-000357_1",
+        "T-MY-000664_1",
+        "T-MY-000665_1",
+        "T-MY-000562_1",
+        "T-MY-000563_1",
+        "T-MY-000564_1",
+        "T-MY-000360_1",
+        "T-MY-000361_1",
+        "T-MY-000362_1",
+        "T-MY-000666_1",
+        "T-MY-000667_1",
+        "T-MY-000668_1",
+        "T-MY-000669_1",
+        "T-MY-000670_1",
+        "T-MY-000671_1",
+        "T-MY-000672_1",
+        "T-MY-000673_1",
+        "T-MY-000366_1",
+        "T-MY-000367_1",
+        "T-MY-000368_1",
+        "T-MY-000674_1",
+        "T-MY-000675_1",
+        "T-MY-000676_1",
+        "T-MY-000677_1",
+        "T-MY-000370_1",
+        "MY10-01"
+      ],
+      "reason": "同一白昼出租屋用于约好的下午电话，P4-03须核图片光照是否能覆盖下午；不使用晚饭/婚后场景。",
+      "constraints": [
+        "P4-03给出复用或返修理由",
+        "不把天亮衣装场景继承到下午"
+      ],
+      "existingAssetIds": [
+        "bg-wenwen-bijie-rental-day"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-wenwen-bijie-rental-day",
+        "reason": "现有白昼图为正常窗光，没有日出、早餐或精确时钟限定，可以覆盖下午电话。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-wenwen-bijie-rental-day@baseline.json",
+            "sha256": "19acbaf7a895e29ce4c53026102f37af71f8acd30900fd83509ec6460aea4eaa"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-MY-N005",
+      "resourceKey": "huisheng-corridor-night",
+      "kind": "background",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-MY-000159_1",
+        "T-MY-000617_1",
+        "T-MY-000618_1",
+        "T-MY-000619_1",
+        "T-MY-000161_1",
+        "T-MY-000162_1",
+        "T-MY-000163_1",
+        "T-MY-000164_1",
+        "T-MY-000165_1",
+        "T-MY-000166_1",
+        "T-MY-000167_1",
+        "T-MY-000568_1",
+        "T-MY-000569_1",
+        "T-MY-000570_1",
+        "T-MY-000169_1",
+        "T-MY-000170_1",
+        "T-MY-000171_1",
+        "T-MY-000571_1",
+        "T-MY-000572_1",
+        "T-MY-000573_1",
+        "T-MY-000620_1",
+        "T-MY-000621_1",
+        "T-MY-000622_1",
+        "T-MY-000174_1",
+        "MY06-01"
+      ],
+      "reason": "现楼道图目视有强烈白昼窗光，而本段承接回声夜间聚会并在21:25去接班，不能在室内/楼道之间错误换成白昼。",
+      "constraints": [
+        "沿用回声同一楼道空间与纸箱位置，补夜间照明",
+        "MY06选择及A/B分支均用同一夜景",
+        "新原件另存，不改现有白昼图"
+      ],
+      "existingAssetIds": [
+        "bg-huisheng-corridor-operating-day"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-huisheng-corridor-operating-night",
+        "reason": "原白昼走廊有明显窗光；补同地点蓝夜窗景和室内照明，保留楼梯、前台和纸箱。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-huisheng-corridor-operating-night@P4-03.json",
+            "sha256": "601f18c36e661e652afe0ce2691b4221a92ba6268f378fbbe5896355e36f8f6c"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-MY-N006",
+      "resourceKey": "my-cg040-post-kiss",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-MY-000105_1"
+      ],
+      "reason": "缩略图显示教室两人近距离与支架，需P4-04核对吻后手机/夹子动作及窗外时段；CG040仅吻后这一句。",
+      "constraints": [
+        "第27天吻后，不得覆盖婚姻揭露或第75天",
+        "保留编号，不拿CG替代亲吻全过程"
+      ],
+      "existingAssetIds": [
+        "cg-my-cg040"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG040",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-my-cg040",
+        "reason": "试讲结束、额头相抵、手机和教学桌吻合；这是揭示丈夫前的既有亲密，不据此推导单身。完整图见手机支架、桌边发夹与额头相抵；窗外尚有低角度日光，可与第27天五点半试讲后的傍晚相容。镜头定格在坐直拾夹前，不铺满整段动作。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-my-cg040@baseline.json",
+            "sha256": "e0991545802aa9a56d290abd1f30fc4fed5b269d30f6b148bd2a0648e22c7a34"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-MY-P407-CG118",
+      "resourceKey": "CG118",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-MY-000057_1"
+      ],
+      "reason": "教室讨论入职材料；两项收入区与折角，文字不作可读承诺。",
+      "constraints": [
+        "教室讨论入职材料；两项收入区与折角，文字不作可读承诺。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-my-cg118",
+      "cgId": "CG118",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-my-cg118",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-my-cg118@CG-expansion-20.json",
+            "sha256": "7dbd580ddabd6c37e67b2fa743573b635b9e81ba9c6b200e62556fb822691c4f"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-MY-P407-CG119",
+      "resourceKey": "CG119",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-MY-000236_1"
+      ],
+      "reason": "贴单和垫箱角，书箱与虚化同事；未加入相机或亲密动作。",
+      "constraints": [
+        "贴单和垫箱角，书箱与虚化同事；未加入相机或亲密动作。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-my-cg119",
+      "cgId": "CG119",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-my-cg119",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-my-cg119@CG-expansion-20.json",
+            "sha256": "9197dd237b7a16aa54c7546f6e6008dae42dc7d0e35a9fd3a934696df34f664f"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-MY-P407-CG120",
+      "resourceKey": "CG120",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-MY-000508_1"
+      ],
+      "reason": "借书放前台，两人保持距离；MY07=B，BA也不重启亲密。",
+      "constraints": [
+        "借书放前台，两人保持距离；MY07=B，BA也不重启亲密。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-my-cg120",
+      "cgId": "CG120",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-my-cg120",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-my-cg120@CG-expansion-20.json",
+            "sha256": "4c8a1092ad83d0d917d0ed765b21ca64d5f8e858379ac80566db628aae8354c6"
+          }
+        ]
+      }
+    }
+  ]
+}

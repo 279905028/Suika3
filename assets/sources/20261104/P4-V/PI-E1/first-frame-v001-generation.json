@@ -1,0 +1,54 @@
+{
+  "tool": "image_gen.imagegen",
+  "model": "工具未公开具体模型标识，未指定或猜测",
+  "transparent_background": false,
+  "mode": "reference-based new first frame",
+  "references": [
+    {
+      "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.webp",
+      "sha256": "83e0be332751d53ae2f96a1fecf50df0ae8ac5fb778bc465178400f46b57d108"
+    },
+    {
+      "path": "assets/current/SUI-A08/bg-oldstreet-shops-grocery-changed-day67.webp",
+      "sha256": "5baf2445c10ea89b1204722291c60cd914faa736f845fa138eb2b656cdcf3281"
+    },
+    {
+      "path": "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp",
+      "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc"
+    }
+  ],
+  "p3BuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "paragraphId": "T-PI-000444",
+  "nodeId": "T-PI-000444_1",
+  "resourceKey": "MCG-PI-E1",
+  "condition": "route=piao & PIAO_RELATION=HIGH & PI06-01=A & PI08-01=A",
+  "status": "generated-and-maker-reviewed",
+  "actualOutput": {
+    "png": "assets/sources/20261104/P4-V/PI-E1/first-frame-v001.png",
+    "webp": "assets/sources/20261104/P4-V/PI-E1/first-frame-v001.webp",
+    "width": 1672,
+    "height": 941,
+    "webpLossless": true,
+    "decodedPixelsEqual": true,
+    "sha256": {
+      "png": "720e17b6ab0353a3257a2a57d7e41495b46d39bde2560970ef6b717243e94fa4",
+      "webp": "490d0005d84cd727332bb29cdb1786c2764074fb85941be6b7ba1d7751d4c231"
+    }
+  },
+  "resumeReview": {
+    "date": "2026-11-04",
+    "reviewer": "当前执行代理；非独立P4-V-Q",
+    "checks": [
+      "文文外形与衣装匹配已确认参考",
+      "独自坐老街杂货店外的小凳",
+      "膝上一本打开的册子，手机与册子分离",
+      "飘不在现场，无车站或照片现场化",
+      "画面无新增可读剧情文字、日期、字幕或水印"
+    ],
+    "note": "尺寸实际1672×941，满足最低1280×720；生成图中左右手分工与提示左右相反，不影响正文合册动作，视频按实际首帧接续。册页含静态图文痕迹。"
+  },
+  "executedPrompt": {
+    "path": "assets/sources/20261104/P4-V/PI-E1/first-frame-v001-prompt-executed.txt",
+    "sha256": "8bb9e9df2bb8a537eb7702d64b2d8119ea0182186db8ee14834697f40035bec2"
+  }
+}

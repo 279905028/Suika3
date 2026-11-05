@@ -1,0 +1,205 @@
+{
+  "date": "2026-11-04",
+  "status": "PASS_P4_05_OFFLINE_RESOURCE_HANDOFF_WITH_INTEGRATION_DEPENDENCIES",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "counts": {
+    "versions": 265,
+    "sourceAndWebP": 530,
+    "candidateAssets": 262,
+    "transparentAssets": 92,
+    "cg": 81,
+    "runtimeCandidates": 39,
+    "catalogPassed": 223,
+    "pendingAdoptionEvidence": 39,
+    "protectedFilesUnchanged": 1796,
+    "checkedProvenanceFiles": 249,
+    "contactSheetsViewed": 44,
+    "additionalFullImagesViewed": 20,
+    "additionalReferenceBoardsViewed": 6,
+    "compatibleDraftPackages": 7,
+    "assignedBindings": 4814,
+    "additionalBindingPlansChecked": 20,
+    "additionalBindingsApplied": 0
+  },
+  "priorVerification": {
+    "path": "qa/dialogue-p4-P4-05-20261103/verification.json",
+    "sha256": "2c552b573748d45b9954d1e8d190ce8232254dd323453214c453d76ecc3a2822"
+  },
+  "resourceCatalog": {
+    "path": "docs/修订协作/P4-演出与美术/P4-05/resources.expanded.candidate.json",
+    "sha256": "562bb769779f864d98b3d30a92033344d62518cd8ace23ade5db89190a93bb70"
+  },
+  "originalCompatibleCatalog": {
+    "path": "docs/修订协作/P4-演出与美术/P4-05/resources.candidate.json",
+    "sha256": "88e1a4101f91137419701215cf89c1fa6b29176be918dca475298f5d04399755"
+  },
+  "registrationInterface": {
+    "status": "blocked-for-full-expanded-catalog",
+    "assetSchemaAndFiles": "passed-262-assets",
+    "originalCGRegistration": "passed-61-cg",
+    "additionalRegistrationIdsAndFiles": "passed-20-cg",
+    "rejectedByOriginalChecker": "新CG编号须P4-04登记证据",
+    "owner": "P4-06/P4-07",
+    "reason": "新增20CG真实登记位于CG扩充20张目录，不在冻结检查器的新编号登记路径白名单；未篡改旧工具或伪造04证据。"
+  },
+  "packResults": [
+    {
+      "status": "pass",
+      "mode": "draft",
+      "packageId": "P4-02-COMMON",
+      "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+      "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+      "resourceFingerprint": "4fc738945d9785e72274e9933b0ad34e7167bd55048039a2b414a18c82d6e957",
+      "counts": {
+        "paragraphs": 997,
+        "textPages": 998,
+        "choices": 16,
+        "displayNodes": 1014,
+        "reviewedUnits": 848,
+        "assignedBindings": 1014,
+        "needs": 8,
+        "boundaries": 148
+      },
+      "handoffReady": false,
+      "notRuntimeAcceptance": true
+    },
+    {
+      "status": "pass",
+      "mode": "draft",
+      "packageId": "P4-02-XM",
+      "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+      "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+      "resourceFingerprint": "4fc738945d9785e72274e9933b0ad34e7167bd55048039a2b414a18c82d6e957",
+      "counts": {
+        "paragraphs": 681,
+        "textPages": 681,
+        "choices": 8,
+        "displayNodes": 689,
+        "reviewedUnits": 548,
+        "assignedBindings": 689,
+        "needs": 3,
+        "boundaries": 78
+      },
+      "handoffReady": false,
+      "notRuntimeAcceptance": true
+    },
+    {
+      "status": "pass",
+      "mode": "draft",
+      "packageId": "P4-02-ZZ",
+      "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+      "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+      "resourceFingerprint": "4fc738945d9785e72274e9933b0ad34e7167bd55048039a2b414a18c82d6e957",
+      "counts": {
+        "paragraphs": 803,
+        "textPages": 803,
+        "choices": 8,
+        "displayNodes": 811,
+        "reviewedUnits": 703,
+        "assignedBindings": 811,
+        "needs": 4,
+        "boundaries": 82
+      },
+      "handoffReady": false,
+      "notRuntimeAcceptance": true
+    },
+    {
+      "status": "pass",
+      "mode": "draft",
+      "packageId": "P4-02-MY",
+      "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+      "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+      "resourceFingerprint": "4fc738945d9785e72274e9933b0ad34e7167bd55048039a2b414a18c82d6e957",
+      "counts": {
+        "paragraphs": 566,
+        "textPages": 566,
+        "choices": 8,
+        "displayNodes": 574,
+        "reviewedUnits": 450,
+        "assignedBindings": 574,
+        "needs": 6,
+        "boundaries": 82
+      },
+      "handoffReady": false,
+      "notRuntimeAcceptance": true
+    },
+    {
+      "status": "pass",
+      "mode": "draft",
+      "packageId": "P4-02-PI",
+      "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+      "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+      "resourceFingerprint": "4fc738945d9785e72274e9933b0ad34e7167bd55048039a2b414a18c82d6e957",
+      "counts": {
+        "paragraphs": 721,
+        "textPages": 721,
+        "choices": 9,
+        "displayNodes": 730,
+        "reviewedUnits": 714,
+        "assignedBindings": 730,
+        "needs": 4,
+        "boundaries": 108
+      },
+      "handoffReady": false,
+      "notRuntimeAcceptance": true
+    },
+    {
+      "status": "pass",
+      "mode": "draft",
+      "packageId": "P4-02-HQ",
+      "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+      "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+      "resourceFingerprint": "4fc738945d9785e72274e9933b0ad34e7167bd55048039a2b414a18c82d6e957",
+      "counts": {
+        "paragraphs": 500,
+        "textPages": 500,
+        "choices": 8,
+        "displayNodes": 508,
+        "reviewedUnits": 463,
+        "assignedBindings": 508,
+        "needs": 10,
+        "boundaries": 82
+      },
+      "handoffReady": false,
+      "notRuntimeAcceptance": true
+    },
+    {
+      "status": "pass",
+      "mode": "draft",
+      "packageId": "P4-02-FR",
+      "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+      "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+      "resourceFingerprint": "4fc738945d9785e72274e9933b0ad34e7167bd55048039a2b414a18c82d6e957",
+      "counts": {
+        "paragraphs": 480,
+        "textPages": 480,
+        "choices": 8,
+        "displayNodes": 488,
+        "reviewedUnits": 465,
+        "assignedBindings": 488,
+        "needs": 8,
+        "boundaries": 74
+      },
+      "handoffReady": false,
+      "notRuntimeAcceptance": true
+    }
+  ],
+  "handoffReadyForP4_07Adoption": false,
+  "pending": [
+    "39项采用依据登记",
+    "新增20CG登记入口接入",
+    "P4-02需求/边界和20计划锚点闭合及小满重冻结",
+    "P4-06全图提示和81项图鉴接入",
+    "P4-07统一采用"
+  ],
+  "notTested": [
+    "引擎",
+    "游戏浏览器",
+    "手机真机",
+    "电脑原生",
+    "存档/回退/改选/刷新",
+    "发布"
+  ]
+}

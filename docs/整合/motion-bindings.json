@@ -1,0 +1,954 @@
+{
+  "schemaVersion": 1,
+  "version": "sui-motion-p5-20261105-my56-libtv-v2",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "bindings": [
+    {
+      "key": "MCG-XM-E1",
+      "node": "T-XM-000826_1",
+      "route": "xiaoman",
+      "relation": null,
+      "choices": {
+        "XM07-01": "A",
+        "XM08-01": "A"
+      },
+      "meeting": false,
+      "condition": "XM07-01=A&XM08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "XM07-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "XM08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000826_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "cf2de64dfa80bffdc222d4a3cd3471560fea49a434279912a7a5bbc2fda8851f",
+        "line": 2430,
+        "text": "她看了我一眼，突然拿练习本挡住半张脸。过了几秒，又放下来，对着镜头飞快亲了一下。"
+      },
+      "staticBindingId": "p4-T-XM-000826_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "MCG-ZZ-E1",
+      "node": "T-ZZ-000478_1",
+      "route": "zhouzhi",
+      "relation": null,
+      "choices": {
+        "ZZ06-01": "A",
+        "ZZ08-01": "A"
+      },
+      "meeting": false,
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "ZZ06-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "ZZ08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000478_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "f5dfc0ff25e9caa5c5112203c8dc9daaaa28f477746749bf681458632fae7c69",
+        "line": 2863,
+        "text": "我咬下一口饼，她在那头打了个哈欠。我们都没急着为这段关系再讲一遍保证。手机放在手边，声音还在。"
+      },
+      "staticBindingId": "p4-T-ZZ-000478_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "MCG-MY-E1",
+      "node": "T-MY-000349_1",
+      "route": "mengyao",
+      "relation": null,
+      "choices": {
+        "MY07-01": "A",
+        "MY09-01": "A"
+      },
+      "meeting": false,
+      "condition": "MY07-01=A&MY09-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "MY07-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "MY09-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000349_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "a69313efb6471af57ff297731d8e1279d3bc0068f58d8cd617a4f44bab7eaa17",
+        "line": 1953,
+        "text": "我把第98天先留空，车票没买。红笔收进抽屉，旧练习册放在另一侧。我们没有公开复合，她没有离婚，我也没有重新得到房子。"
+      },
+      "staticBindingId": "p4-T-MY-000349_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "MCG-PI-E1",
+      "node": "T-PI-000444_1",
+      "route": "piao",
+      "relation": "HIGH",
+      "choices": {
+        "PI06-01": "A",
+        "PI08-01": "A"
+      },
+      "meeting": false,
+      "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "PIAO_RELATION",
+            "operator": "=",
+            "value": "HIGH"
+          },
+          {
+            "field": "PI06-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "PI08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-PI-000444_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "266f70e11a3d14e3e735896055718c8758f637a7518b52bb2e01a1de60523148",
+        "line": 2217,
+        "text": "我笑着答应。电话断了，我把册子合上，这次空白页里终于有了我自己也认得的话。"
+      },
+      "staticBindingId": "p4-T-PI-000444_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "MCG-PI-LE1",
+      "node": "T-PI-000630_1",
+      "route": "piao",
+      "relation": "LOW",
+      "choices": {
+        "PI-L06-01": "A"
+      },
+      "meeting": false,
+      "condition": "PIAO_RELATION=LOW&PI-L06-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "PIAO_RELATION",
+            "operator": "=",
+            "value": "LOW"
+          },
+          {
+            "field": "PI-L06-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-PI-000630_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "8f52d788dc26b56cc7b3048c23fb7aac4d0f9ab98063be48be5b50f58a6387d3",
+        "line": 2814,
+        "text": "她递给我相机，让我拍她打结的手。第一张糊了。"
+      },
+      "staticBindingId": "p4-T-PI-000630_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "node": "T-HQ-000586_1",
+      "route": "huangqiuqiu",
+      "relation": null,
+      "choices": {
+        "HQ07-01": "A",
+        "HQ08-01": "A",
+        "C01-02": "A",
+        "C02-01": "A"
+      },
+      "meeting": true,
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "HQ07-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "HQ08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000586_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "80703fa218fb281fe309fde7de9e70ee577f007054c54b895f1c8d9eb71e8b0d",
+        "line": 1850,
+        "text": "写到一半，她靠过来，下巴贴在我肩边。我的字歪了一点。"
+      },
+      "staticBindingId": "p4-T-HQ-000586_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-XM-01",
+      "node": "T-XM-000108_1",
+      "route": "xiaoman",
+      "relation": null,
+      "choices": {},
+      "meeting": false,
+      "condition": "ALL",
+      "conditionAst": [],
+      "anchor": {
+        "nodeId": "T-XM-000108_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "337fd62681b3723eb933d359e8671df6ebcb7a4f71d9d0bd0502e910bf06fd93",
+        "line": 568,
+        "text": "她抓住我的外套前襟，吻了过来。"
+      },
+      "staticBindingId": "p4-T-XM-000108_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-XM-02",
+      "node": "T-XM-000141_1",
+      "route": "xiaoman",
+      "relation": null,
+      "choices": {},
+      "meeting": false,
+      "condition": "ALL",
+      "conditionAst": [],
+      "anchor": {
+        "nodeId": "T-XM-000141_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "8c5a36e375b77f7152a4d81745b6756610f67499a2db2206923ad0bcce4870f2",
+        "line": 763,
+        "text": "我说是。她这次没有立刻亲上来，等我先低下头。碰到她时，她扣住我的手腕，收得很紧。那股想在朋友面前赢一回的劲还在，但我也听见她呼吸乱了。"
+      },
+      "staticBindingId": "p4-T-XM-000141_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-XM-03",
+      "node": "T-XM-000678_1",
+      "route": "xiaoman",
+      "relation": null,
+      "choices": {
+        "XM07-01": "A"
+      },
+      "meeting": false,
+      "condition": "XM07-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "XM07-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000678_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "340dfb646bd3eb06ea78027a154798a18d834492df154051a0115f67d4b2994e",
+        "line": 1529,
+        "text": "她瞪我，凑过来，咬了一下我的下唇，不重。我扶住她肩。"
+      },
+      "staticBindingId": "p4-T-XM-000678_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-XM-04",
+      "node": "T-XM-000330_1",
+      "route": "xiaoman",
+      "relation": null,
+      "choices": {
+        "XM07-01": "A",
+        "XM08-01": "A"
+      },
+      "meeting": false,
+      "condition": "XM07-01=A&XM08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "XM07-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "XM08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000330_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "76956211eab12ab516df4ecd71b0e69b1801d7e38b8f0bda92759c14e588a314",
+        "line": 1876,
+        "text": "她亲上来时，我先抱住了她。吻比烧烤摊那次慢，她的手指扣在我后颈，广播又响，我们都听见了，仍多停了几秒。最后是她先松开，把我的衣领拉平。"
+      },
+      "staticBindingId": "p4-T-XM-000330_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-ZZ-01",
+      "node": "T-ZZ-000580_1",
+      "route": "zhouzhi",
+      "relation": null,
+      "choices": {},
+      "meeting": false,
+      "condition": "ALL",
+      "conditionAst": [],
+      "anchor": {
+        "nodeId": "T-ZZ-000580_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "cfd4989a3d5e659397ff770050da9e1b77672734a8f55cafb9ffcb2fd6f41c1a",
+        "line": 607,
+        "text": "那个吻没有旁人起哄，也没有人付钱。我却没因此突然分清她过去所有的笑。退开以后，她用拇指擦了一下我嘴边，做完便叹气。"
+      },
+      "staticBindingId": "p4-T-ZZ-000580_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-ZZ-02",
+      "node": "T-ZZ-000754_1",
+      "route": "zhouzhi",
+      "relation": null,
+      "choices": {
+        "ZZ06-01": "A"
+      },
+      "meeting": false,
+      "condition": "ZZ06-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "ZZ06-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000754_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "ba846abd74c275740569aa6629729fdc20804749808cc8c4abd963b9c29fad01",
+        "line": 1597,
+        "text": "她自己往旁边挪了半步。我们吻得有些急，像之前很多次停住的动作都挤在这里。"
+      },
+      "staticBindingId": "p4-T-ZZ-000754_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-ZZ-03",
+      "node": "T-ZZ-000766_1",
+      "route": "zhouzhi",
+      "relation": null,
+      "choices": {
+        "ZZ06-01": "A"
+      },
+      "meeting": false,
+      "condition": "ZZ06-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "ZZ06-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000766_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "4561825f84cce6ebc94603a290f1de3540cc2b912985f05a8e3303e449251b33",
+        "line": 1633,
+        "text": "她走去洗脸，又折回来，低头在我嘴上亲了一下。"
+      },
+      "staticBindingId": "p4-T-ZZ-000766_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "node": "T-ZZ-000364_1",
+      "route": "zhouzhi",
+      "relation": null,
+      "choices": {
+        "ZZ06-01": "A",
+        "ZZ08-01": "A"
+      },
+      "meeting": false,
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "ZZ06-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "ZZ08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000364_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "b2846fb1b224eaa77247fff3f94cb870a7b325890c8b8498202a56c09496aa2f",
+        "line": 2128,
+        "text": "我看着她。她先亲过来，手掌贴在我颈侧。我抱住她，没有把那一下吻当成对所有未知的担保。她的呼吸乱了，退开以后仍抓着我的外套，不像在给一句话收尾。"
+      },
+      "staticBindingId": "p4-T-ZZ-000364_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "node": "T-ZZ-000939_1",
+      "route": "zhouzhi",
+      "relation": null,
+      "choices": {
+        "ZZ06-01": "A",
+        "ZZ08-01": "A"
+      },
+      "meeting": false,
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "ZZ06-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "ZZ08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000939_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "3a655e5e932819de47cb6509ff2f344029762851019017e8010bbd321fca6b1a",
+        "line": 2516,
+        "text": "我拉住她的手。她弯腰亲我一下。"
+      },
+      "staticBindingId": "p4-T-ZZ-000939_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-MY-01",
+      "node": "T-MY-000103_1",
+      "route": "mengyao",
+      "relation": null,
+      "choices": {},
+      "meeting": false,
+      "condition": "ALL",
+      "conditionAst": [],
+      "anchor": {
+        "nodeId": "T-MY-000103_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "8f3dee488a1a51ed73718f4cf49d217198e9a448a403f7938174ad3748e354aa",
+        "line": 498,
+        "text": "我说来了。她抬手摸了摸我领口，指尖碰到脖子。我握住她的手，问这次是不是可以。她看着我，点头，随后先吻了过来。"
+      },
+      "staticBindingId": "p4-T-MY-000103_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-MY-02",
+      "node": "T-MY-000227_1",
+      "route": "mengyao",
+      "relation": null,
+      "choices": {
+        "MY07-01": "A"
+      },
+      "meeting": false,
+      "condition": "MY07-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "MY07-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000227_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "51f536a21a2b561644469b34c02626477db732b60e4910d6a44dea59f014289c",
+        "line": 1127,
+        "text": "她慢慢坐直，没有责怪我扫兴。我们吃完那两只烧饼，再到树后短短吻了一下。手机响时，她去另一边接，我留在原处，把自己那只空纸袋折好。"
+      },
+      "staticBindingId": "p4-T-MY-000227_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-MY-03",
+      "node": "T-MY-000431_1",
+      "route": "mengyao",
+      "relation": null,
+      "choices": {
+        "MY07-01": "A"
+      },
+      "meeting": false,
+      "condition": "MY07-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "MY07-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000431_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "ab09d2170b9cc6ada82822b820dc8f3e44d853abb4407387d8dd631b664dfe8b",
+        "line": 1274,
+        "text": "她先吻过来。"
+      },
+      "staticBindingId": "p4-T-MY-000431_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery",
+      "mediaRevision": "libtv-v001"
+    },
+    {
+      "key": "KCG-MY-04",
+      "node": "T-MY-000282_1",
+      "route": "mengyao",
+      "relation": null,
+      "choices": {
+        "MY07-01": "A"
+      },
+      "meeting": false,
+      "condition": "MY07-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "MY07-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000282_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "b9258b432f1e014813bc7d6d91223276f8927d9f7aa64ceaa55ebfae041efae6",
+        "line": 1527,
+        "text": "我抬头吻她，她回应了。支架上的手机还在录，直到她碰到桌角才想起来，伸手按停。我在镜头里叫过她以前的小名，声音很清楚。"
+      },
+      "staticBindingId": "p4-T-MY-000282_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-PI-01",
+      "node": "T-PI-000271_1",
+      "route": "piao",
+      "relation": "HIGH",
+      "choices": {},
+      "meeting": false,
+      "condition": "PIAO_RELATION=HIGH",
+      "conditionAst": [
+        [
+          {
+            "field": "PIAO_RELATION",
+            "operator": "=",
+            "value": "HIGH"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-PI-000271_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "6428eb08bbc1e8a972905269fc67adf52dccc7a144ddcc81a2c4146b9228a0ac",
+        "line": 1338,
+        "text": "我靠过去，她先吻了我一下。很短，退开后眼睛还盯着我的嘴。我把手贴到她颈后，问还可以不。她没笑我问得笨，只说可以，然后将我往自己这边拉。"
+      },
+      "staticBindingId": "p4-T-PI-000271_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-PI-02",
+      "node": "T-PI-000345_1",
+      "route": "piao",
+      "relation": "HIGH",
+      "choices": {
+        "PI08-01": "A",
+        "PI06-01": "A"
+      },
+      "meeting": false,
+      "condition": "PIAO_RELATION=HIGH&PI08-01=A&PI06-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "PIAO_RELATION",
+            "operator": "=",
+            "value": "HIGH"
+          },
+          {
+            "field": "PI08-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "PI06-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-PI-000345_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "1aa909492f53de48adf08daa8a2f0e80521b817654e3e0bd6bcfe19d271f396b",
+        "line": 1675,
+        "text": "我点头，刚要说话，她抬脸吻住我。广播又响了一遍，我们都听见了。她没急着退，我的手收紧，又慢慢松开，让她能看见进站口。"
+      },
+      "staticBindingId": "p4-T-PI-000345_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-HQ-01",
+      "node": "T-HQ-000212_1",
+      "route": "huangqiuqiu",
+      "relation": null,
+      "choices": {
+        "C01-02": "A",
+        "C02-01": "A"
+      },
+      "meeting": true,
+      "condition": "ALL",
+      "conditionAst": [],
+      "anchor": {
+        "nodeId": "T-HQ-000212_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "cd2105ca54cb9a41ec4a8301331618d7345a26f087f9b97fc6d73f76adb3de2c",
+        "line": 1151,
+        "text": "她把纸巾放下，往这边挪了一点。第一次碰到嘴唇，我轻得像没碰到，退开才发现她还抓着外套。"
+      },
+      "staticBindingId": "p4-T-HQ-000212_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-HQ-02",
+      "node": "T-HQ-000544_1",
+      "route": "huangqiuqiu",
+      "relation": null,
+      "choices": {
+        "HQ07-01": "A",
+        "HQ08-01": "A",
+        "C01-02": "A",
+        "C02-01": "A"
+      },
+      "meeting": true,
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "HQ07-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "HQ08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000544_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "eae83ecb2a03689fa77c8dc07470ef480544e0fdcb30e532a1d762a41f4a9075",
+        "line": 1558,
+        "text": "她先在我嘴角碰了一下。"
+      },
+      "staticBindingId": "p4-T-HQ-000544_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "KCG-HQ-03",
+      "node": "T-HQ-000588_1",
+      "route": "huangqiuqiu",
+      "relation": null,
+      "choices": {
+        "HQ07-01": "A",
+        "HQ08-01": "A",
+        "C01-02": "A",
+        "C02-01": "A"
+      },
+      "meeting": true,
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "HQ07-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "HQ08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000588_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "ebc61cceacbf059bc4903519a2f83ee4a6c9a734a7020df56668ac0e8e0a9bc1",
+        "line": 1856,
+        "text": "我转头，她没躲，先亲在我嘴角，然后把笔拿开。"
+      },
+      "staticBindingId": "p4-T-HQ-000588_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "OV-XM45",
+      "node": "T-XM-000269_1",
+      "route": "xiaoman",
+      "relation": null,
+      "choices": {
+        "XM07-01": "A"
+      },
+      "meeting": false,
+      "condition": "XM07-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "XM07-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000269_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "3da3129435a8618c8666c92d5d993ee0389652e4ec227ab12d75e0ce3138fd4c",
+        "line": 1542,
+        "text": "这次她说得没有平时响。我把饭盒挪到桌上，才抱住她。窗帘没拉严，她伸手去够，我先起身拉上，回来时她已经把鞋摆到了床边。"
+      },
+      "staticBindingId": "p4-T-XM-000269_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "node": "T-ZZ-000763_1",
+      "route": "zhouzhi",
+      "relation": null,
+      "choices": {
+        "ZZ06-01": "A"
+      },
+      "meeting": false,
+      "condition": "ZZ06-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "ZZ06-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000763_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "59fef8c134a1219cd27f06000359e482367c57d4ce42e921eacefe59eb23a646",
+        "line": 1624,
+        "text": "我伸手抱住她。窗外经过一辆车，光从窗帘下面扫过去，她把灯关了。"
+      },
+      "staticBindingId": "p4-T-ZZ-000763_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "node": "T-ZZ-000932_1",
+      "route": "zhouzhi",
+      "relation": null,
+      "choices": {
+        "ZZ06-01": "A",
+        "ZZ08-01": "A"
+      },
+      "meeting": false,
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "conditionAst": [
+        [
+          {
+            "field": "ZZ06-01",
+            "operator": "=",
+            "value": "A"
+          },
+          {
+            "field": "ZZ08-01",
+            "operator": "=",
+            "value": "A"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000932_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "b50d9eefb2624917ebfd679dea1a640b37077fc90944e6decc5356fb04744050",
+        "line": 2495,
+        "text": "她按掉，把手机放到床头，翻身过来，额头抵在我肩上。"
+      },
+      "staticBindingId": "p4-T-ZZ-000932_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "OV-PI39",
+      "node": "T-PI-000286_1",
+      "route": "piao",
+      "relation": "HIGH",
+      "choices": {},
+      "meeting": false,
+      "condition": "PIAO_RELATION=HIGH",
+      "conditionAst": [
+        [
+          {
+            "field": "PIAO_RELATION",
+            "operator": "=",
+            "value": "HIGH"
+          }
+        ]
+      ],
+      "anchor": {
+        "nodeId": "T-PI-000286_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "1438d0fb36996bebb5a3973ceed5f1ee2d1bfffa812bb6c7d9670a25acc7cb30",
+        "line": 1400,
+        "text": "那晚，我们先在矮桌旁吃完一碗太烫的粉。她把杯子挪开，腾出位置让我坐近些，后来又嫌那盏灯太亮。窗外雨密起来，我问要不要停，她摇头，把我的手重新牵回去。"
+      },
+      "staticBindingId": "p4-T-PI-000286_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    },
+    {
+      "key": "OV-HQ57",
+      "node": "T-HQ-000486_1",
+      "route": "huangqiuqiu",
+      "relation": null,
+      "choices": {
+        "C01-02": "A",
+        "C02-01": "A"
+      },
+      "meeting": true,
+      "condition": "ALL",
+      "conditionAst": [],
+      "anchor": {
+        "nodeId": "T-HQ-000486_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "fd92fa9deea51eae6efeaa57a228d49b5c232088c07b8e2d7ded39bc8d243b94",
+        "line": 1201,
+        "text": "她的手从袖口滑到我掌心。"
+      },
+      "staticBindingId": "p4-T-HQ-000486_1",
+      "exit": "next-node",
+      "restore": "existing-static-presentation",
+      "gallery": "separate-motion-gallery"
+    }
+  ],
+  "excluded": [
+    {
+      "key": "OV-MY56",
+      "node": "T-MY-000253_1",
+      "reason": "用户确认：孟遥夜间手部归属错误，保留原静态底层；不绑定该视频。"
+    },
+    {
+      "group": "morning",
+      "count": 6,
+      "reason": "用户确认沿用夜间替代次晨的约定；六段次晨仅历史备选。"
+    }
+  ]
+}

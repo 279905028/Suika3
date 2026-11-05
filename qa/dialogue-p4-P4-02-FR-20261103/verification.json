@@ -1,0 +1,66 @@
+{
+  "packageId": "P4-02-FR",
+  "status": "passed-scoped-static",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "checks": [
+    {
+      "name": "冻结输入与接口逐字节保持",
+      "status": "passed"
+    },
+    {
+      "name": "草稿全覆盖、条件、资源类型及生命周期通过",
+      "status": "passed"
+    },
+    {
+      "name": "所有选择明确清CG和全图",
+      "status": "passed"
+    },
+    {
+      "name": "每张CG仅一个新段落、退出底层无CG",
+      "status": "passed"
+    },
+    {
+      "name": "待补背景段与选择均保持blocked及双向需求引用",
+      "status": "passed"
+    },
+    {
+      "name": "完成门禁真实拒绝开放需求",
+      "status": "passed"
+    },
+    {
+      "name": "对外引用路径可达",
+      "status": "passed"
+    },
+    {
+      "name": "毛狼现场电话可见、远端负责人不添加肖像",
+      "status": "passed"
+    },
+    {
+      "name": "E1消息邀约尚未聚餐，E2短信/结尾无旧友群像",
+      "status": "passed"
+    },
+    {
+      "name": "E1早餐只有师匠，毛狼仍在外地；E2不套E1 CG",
+      "status": "passed"
+    },
+    {
+      "name": "公共消息返回为36天下午取游戏机，不倒回35天",
+      "status": "passed"
+    },
+    {
+      "name": "FR-E2双后日谈只消息，叶岚没有独立加入此稿",
+      "status": "passed"
+    }
+  ],
+  "scope": "只验证候选结构与人工镜头方案的关键语义约束，不代表资源目视或运行验收。",
+  "counts": {
+    "paragraphs": 480,
+    "displayNodes": 488,
+    "reviewed": 465,
+    "blocked": 23,
+    "boundaries": 74,
+    "openNeeds": 8,
+    "checks": 12
+  }
+}

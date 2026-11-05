@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "status": "pass",
+  "formalAdoptionValidation": {
+    "command": "node tools/story-revision/p4-adoption/validate.cjs --adopted",
+    "status": "pass",
+    "assets": 262,
+    "bindings": 4814,
+    "cg": 81
+  },
+  "frozenInputCheck": {
+    "command": "node tools/story-revision/p4-adoption/freeze.cjs --check",
+    "status": "pass",
+    "files": 1762,
+    "fingerprint": "33b93405bac884e25723c6d72a95eab52f3da7a4aae4d74e01ffbd0f597e4832"
+  },
+  "newAudit": {
+    "status": "pass",
+    "allDisplayNodes": 4814,
+    "rainOnlyText": 430,
+    "rainOnlyChoices": 4,
+    "cgBound": 81,
+    "unboundCG": 0,
+    "imageDecode": 262,
+    "reportLinks": "pass",
+    "protectedInputsUnchanged": true
+  },
+  "scope": {
+    "engine": "not-run",
+    "browser": "not-run",
+    "mobile": "not-tested",
+    "native": "not-tested",
+    "release": "not-executed"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-ZZ",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "needs": [
+    {
+      "needId": "P4-02-ZZ-N001",
+      "resourceKey": "CG025-daytime",
+      "kind": "cg",
+      "action": "repair",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-ZZ-000034_1"
+      ],
+      "reason": "P0-18保留的CG025时段问题：新文为开班前下午唱歌笑场，须核实夜感镜头。",
+      "constraints": [
+        "以T-ZZ-000034为唯一入点，不改台词迎合图片。",
+        "返修/保留由P4-04出完整图和文字遮挡证据，P4-05复验。"
+      ],
+      "existingAssetIds": [
+        "cg-zz-cg025"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG025",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-zz-cg025",
+        "reason": "收到ZZ-N001正式白天镜头需求，按该演出口径改为阴天下午，保留人物、双麦与笑场动作。P3该页无直接钟点，此处记录02场景选择，不能把旧QA当本轮时段实证。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-zz-cg025@P4-04.json",
+            "sha256": "2bb58ba8623f6891126a37ba05acf2d2ed430ddc27de0421bc60ff6893d94d54"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-ZZ-N002",
+      "resourceKey": "huisheng-306-operating-daylight",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-ZZ-000013_1",
+        "T-ZZ-000506_1",
+        "T-ZZ-000507_1",
+        "T-ZZ-000508_1",
+        "T-ZZ-000509_1",
+        "T-ZZ-000510_1",
+        "T-ZZ-000016_1",
+        "T-ZZ-000017_1",
+        "T-ZZ-000018_1",
+        "T-ZZ-000511_1",
+        "T-ZZ-000512_1",
+        "T-ZZ-000020_1",
+        "T-ZZ-000021_1",
+        "T-ZZ-000513_1",
+        "T-ZZ-000514_1",
+        "T-ZZ-000023_1",
+        "T-ZZ-000024_1",
+        "T-ZZ-000025_1",
+        "T-ZZ-000026_1",
+        "T-ZZ-000027_1",
+        "T-ZZ-000515_1",
+        "T-ZZ-000516_1",
+        "T-ZZ-000517_1",
+        "T-ZZ-000030_1",
+        "T-ZZ-000031_1",
+        "T-ZZ-000032_1",
+        "T-ZZ-000033_1",
+        "T-ZZ-000034_1",
+        "T-ZZ-000035_1",
+        "T-ZZ-000036_1",
+        "T-ZZ-000037_1",
+        "T-ZZ-000038_1",
+        "T-ZZ-000518_1",
+        "T-ZZ-000519_1",
+        "T-ZZ-000520_1",
+        "T-ZZ-000521_1",
+        "T-ZZ-000041_1",
+        "T-ZZ-000052_1",
+        "T-ZZ-000053_1",
+        "T-ZZ-000054_1",
+        "T-ZZ-000529_1",
+        "T-ZZ-000530_1",
+        "T-ZZ-000531_1",
+        "ZZ03-01"
+      ],
+      "reason": "第15天和第22天明确下午，既有306营业底登记为night，需核窗外与灯光能否适配。",
+      "constraints": [
+        "室内灯光可以复用，但不能出现不符时段的窗外夜景；需实际目视判定。",
+        "保留旧场所布局与停钟，不用清空306替营业场景。"
+      ],
+      "existingAssetIds": [
+        "bg-huisheng-306-operating-night"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-huisheng-306-operating-day",
+        "reason": "营业夜底窗外明确为夜晚；改为白昼窗光，保留沙发、桌麦克风、杯子、电视及停钟，不用搬空房。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-huisheng-306-operating-day@P4-03.json",
+            "sha256": "4be155d36f15f300493d67fe4a89ce90493f0078ae5dec5564221ab622666880"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-ZZ-N003",
+      "resourceKey": "huisheng-corridor-night",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-ZZ-000166_1",
+        "T-ZZ-000629_1",
+        "T-ZZ-000630_1",
+        "T-ZZ-000631_1",
+        "T-ZZ-000632_1",
+        "T-ZZ-000633_1",
+        "T-ZZ-000634_1",
+        "T-ZZ-000169_1",
+        "T-ZZ-000635_1",
+        "T-ZZ-000636_1",
+        "T-ZZ-000637_1",
+        "T-ZZ-000638_1",
+        "T-ZZ-000639_1",
+        "T-ZZ-000662_1"
+      ],
+      "reason": "第30天20:30后楼梯/走廊仍营业；day目录底需实际核夜间适用。",
+      "constraints": [
+        "不得用已停业锁闭走廊提前表示关门。",
+        "若图为无窗通用内景，复核可复用后有证据关闭，无需机械补图。"
+      ],
+      "existingAssetIds": [
+        "bg-huisheng-corridor-operating-day"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-huisheng-corridor-operating-night",
+        "reason": "原白昼走廊有明显窗光；补同地点蓝夜窗景和室内照明，保留楼梯、前台和纸箱。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-huisheng-corridor-operating-night@P4-03.json",
+            "sha256": "601f18c36e661e652afe0ce2691b4221a92ba6268f378fbbe5896355e36f8f6c"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-ZZ-N004",
+      "resourceKey": "zhouzhi-day30-work-skirt",
+      "kind": "character",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-ZZ-000640_1",
+        "T-ZZ-000641_1",
+        "T-ZZ-000642_1",
+        "T-ZZ-000173_1",
+        "T-ZZ-000174_1",
+        "T-ZZ-000643_1",
+        "T-ZZ-000176_1",
+        "T-ZZ-000644_1",
+        "T-ZZ-000645_1",
+        "T-ZZ-000646_1",
+        "T-ZZ-000647_1",
+        "T-ZZ-000648_1",
+        "T-ZZ-000178_1",
+        "T-ZZ-000179_1",
+        "T-ZZ-000649_1",
+        "T-ZZ-000650_1",
+        "T-ZZ-000651_1",
+        "T-ZZ-000181_1",
+        "T-ZZ-000182_1",
+        "T-ZZ-000183_1",
+        "T-ZZ-000184_1",
+        "T-ZZ-000652_1",
+        "T-ZZ-000653_1",
+        "T-ZZ-000654_1",
+        "T-ZZ-000655_1",
+        "T-ZZ-000656_1",
+        "T-ZZ-000188_1",
+        "T-ZZ-000189_1",
+        "T-ZZ-000657_1",
+        "T-ZZ-000658_1",
+        "T-ZZ-000659_1",
+        "T-ZZ-000191_1",
+        "T-ZZ-000192_1",
+        "T-ZZ-000660_1",
+        "T-ZZ-000194_1",
+        "T-ZZ-000661_1",
+        "T-ZZ-000667_1",
+        "T-ZZ-000668_1",
+        "T-ZZ-000199_1",
+        "T-ZZ-000669_1",
+        "T-ZZ-000670_1",
+        "T-ZZ-000671_1",
+        "T-ZZ-000201_1",
+        "T-ZZ-000672_1",
+        "T-ZZ-000673_1",
+        "T-ZZ-000674_1",
+        "T-ZZ-000675_1",
+        "T-ZZ-000203_1",
+        "T-ZZ-000204_1",
+        "ZZ06-01"
+      ],
+      "reason": "第30天明确裙摆，而已登记work-neutral/work-serious仅批准第46天另场短班；不能自动扩张批准范围。",
+      "constraints": [
+        "先由P4-03核可否同装复用并补适用范围证据，再决定是否补图；本包不新定色款。",
+        "第30天营业与私人关系冲突分开，不能用职业礼貌当恋人承诺。"
+      ],
+      "existingAssetIds": [
+        "char-zhouzhi-human-work-neutral",
+        "char-zhouzhi-human-work-serious"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "char-zhouzhi-human-work-neutral",
+        "reason": "T-ZZ-000176_1明确裙摆，未指定另一色款；既有工作形象确为朴素裙装，可同装复用，不再造新衣。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/char-zhouzhi-human-work-neutral@baseline.json",
+            "sha256": "c5a1df0c4f55f73c50f6823d1f7b555926ee3082c0a88c1951ef43602cfdf62b"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-ZZ-P407-CG115",
+      "resourceKey": "CG115",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-ZZ-000610_1"
+      ],
+      "reason": "两半大小不同的烧饼，两个面碗，递饼动作清楚。",
+      "constraints": [
+        "两半大小不同的烧饼，两个面碗，递饼动作清楚。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-zz-cg115",
+      "cgId": "CG115",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-zz-cg115",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-zz-cg115@CG-expansion-20.json",
+            "sha256": "471ede5be5090d3017e8c115d7ea3413c2e8464c7b2d4d9fa907e967d1719b81"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-ZZ-P407-CG116",
+      "resourceKey": "CG116",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-ZZ-000240_1"
+      ],
+      "reason": "周栀与阿英搬箱，关闭卷帘门；T-ZZ-000237已明确天亮，采用清晨修图与次晨街道底层，纠正上游夜景推断。",
+      "constraints": [
+        "周栀与阿英搬箱，关闭卷帘门；T-ZZ-000237已明确天亮，采用清晨修图与次晨街道底层，纠正上游夜景推断。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-zz-cg116",
+      "cgId": "CG116",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-zz-cg116",
+        "reason": "已按天亮正文修为清晨，旧夜图退选；仅本段。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-07-20261104/cg116-inspection.json",
+            "sha256": "c360f1fd6215bd0290362c998784debde8557b9a53173717f8a9b267f044d411"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-ZZ-P407-CG117",
+      "resourceKey": "CG117",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-ZZ-000345_1"
+      ],
+      "reason": "清晨台阶、豆浆与保持距离的两人；没有把普通对话画成复合。",
+      "constraints": [
+        "清晨台阶、豆浆与保持距离的两人；没有把普通对话画成复合。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-zz-cg117",
+      "cgId": "CG117",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-zz-cg117",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-zz-cg117@CG-expansion-20.json",
+            "sha256": "7ce5544c70b517af8c768e01d2b5efa7f7bda7b9240dc44878dcbc563a324f66"
+          }
+        ]
+      }
+    }
+  ]
+}

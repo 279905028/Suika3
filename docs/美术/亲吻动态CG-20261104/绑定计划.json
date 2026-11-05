@@ -1,0 +1,846 @@
+{
+  "schemaVersion": 1,
+  "status": "planned",
+  "buildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "projectId": "506ed8a9-829a-4dbe-bae6-b01311ee93e6",
+  "model": "seedance_2.5",
+  "duration": 5,
+  "resolution": "720p",
+  "ratio": "16:9",
+  "items": [
+    {
+      "key": "KCG-XM-01",
+      "title": "第27天·烧烤摊",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000108_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "337fd62681b3723eb933d359e8671df6ebcb7a4f71d9d0bd0502e910bf06fd93",
+        "line": 568,
+        "originalLine": 568,
+        "text": "她抓住我的外套前襟，吻了过来。"
+      },
+      "condition": "ALL",
+      "entryEvents": [],
+      "visual": {
+        "mode": "first_last_frame",
+        "references": [
+          {
+            "assetId": "cg-xm-cg016",
+            "role": "首帧",
+            "path": "assets/current/SUI-A10-XM/cg-xm-cg016.webp",
+            "sha256": "0d59f5f9db8f5204413971243930e48567faedf76ba7364651f54e6b0441094f"
+          }
+        ],
+        "prompt": "贴合既有夜摊构图。小满已经抓住文文外套前襟，从接触的一拍起，短暂停顿后她先退半寸，拇指轻掠下巴，后景杯子与朋友保持柔焦。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-XM-02",
+      "title": "第27天·车棚背面",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000141_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "8c5a36e375b77f7152a4d81745b6756610f67499a2db2206923ad0bcce4870f2",
+        "line": 763,
+        "originalLine": 763,
+        "text": "我说是。她这次没有立刻亲上来，等我先低下头。碰到她时，她扣住我的手腕，收得很紧。那股想在朋友面前赢一回的劲还在，但我也听见她呼吸乱了。"
+      },
+      "condition": "ALL",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-xm-cg016",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-XM/cg-xm-cg016.webp",
+            "sha256": "0d59f5f9db8f5204413971243930e48567faedf76ba7364651f54e6b0441094f"
+          },
+          {
+            "assetId": "char-xiaoman-embarrassed",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A02/char-xiaoman-embarrassed.webp",
+            "sha256": "6b70cb8419392cd6b77bbacb368c8eb01f63d4cbccce4037e9d3636f3ecb53b3"
+          },
+          {
+            "assetId": "bg-bbq-xiaoman-friends-bike-shed-night",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-bbq-xiaoman-friends-bike-shed-night.webp",
+            "sha256": "35cf9c6468fc3e0a792d9234fa8d145f7ab4c5bc1a10c5454ccaf62d090ad2dd"
+          }
+        ],
+        "prompt": "夜里车棚背面，金属棚柱隔开摊边灯光，小满抓住文文袖口等他先低头。短吻后她指尖在他手腕停一拍，两人松开，亲近里有一点刚谈清楚的局促。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-XM-03",
+      "title": "第45天·住处轻咬下唇",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000678_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "340dfb646bd3eb06ea78027a154798a18d834492df154051a0115f67d4b2994e",
+        "line": 1529,
+        "originalLine": 1529,
+        "text": "她瞪我，凑过来，咬了一下我的下唇，不重。我扶住她肩。"
+      },
+      "condition": "XM07-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-xm-cg016",
+            "role": "仅文文脸型、发色和体型参考",
+            "path": "assets/current/SUI-A10-XM/cg-xm-cg016.webp",
+            "sha256": "0d59f5f9db8f5204413971243930e48567faedf76ba7364651f54e6b0441094f"
+          },
+          {
+            "assetId": "cg-xm-cg019",
+            "role": "小满白色内搭和发型参考",
+            "path": "assets/current/SUI-A10-XM/cg-xm-cg019.webp",
+            "sha256": "f89322c345f5f64cc4478f56c0682326fa612f6fd315a8b5d2062da258369d35"
+          },
+          {
+            "assetId": "char-xiaoman-base",
+            "role": "小满脸型参考",
+            "path": "assets/current/SUI-A02/char-xiaoman-base.webp",
+            "sha256": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-night",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-wenwen-bijie-rental-night.webp",
+            "sha256": "8901da80d33186e5519ca6e8fdc4eb93c6a2b53d0c48bdc59dd6d422082bda13"
+          }
+        ],
+        "prompt": "夜间出租屋，床沿与饭盒只在边缘，双人肩部以上。小满像在瞪他，靠近轻碰并轻咬一下文文下唇，随即放开，额头轻抵；不拍牙齿特写，动作停在额头相抵。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。 小满衣着沿用 CG019 的白色内搭，外套不入镜。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-XM-04",
+      "title": "第60天·车站送别",
+      "route": "xiaoman",
+      "anchor": {
+        "nodeId": "T-XM-000330_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "76956211eab12ab516df4ecd71b0e69b1801d7e38b8f0bda92759c14e588a314",
+        "line": 1876,
+        "originalLine": 1876,
+        "text": "她亲上来时，我先抱住了她。吻比烧烤摊那次慢，她的手指扣在我后颈，广播又响，我们都听见了，仍多停了几秒。最后是她先松开，把我的衣领拉平。"
+      },
+      "condition": "XM07-01=A&XM08-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-xm-cg022",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-XM/cg-xm-cg022.webp",
+            "sha256": "4316bd03c366f4e796eb836b294cc175e98baed03e1b271fed42a2ef2401ce38"
+          },
+          {
+            "assetId": "char-xiaoman-embarrassed",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A02/char-xiaoman-embarrassed.webp",
+            "sha256": "6b70cb8419392cd6b77bbacb368c8eb01f63d4cbccce4037e9d3636f3ecb53b3"
+          },
+          {
+            "assetId": "bg-departure-station-morning-rain",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-departure-station-morning-rain.webp",
+            "sha256": "da3d0266f246264b9a9c967a8419c7c4013ddcc4cf1d478985d23996bbcec318"
+          }
+        ],
+        "prompt": "清晨车站，小满手指扣住文文后颈，文文扶她后背。两人慢慢吻一拍，她先松开替他拉平衣领。保留行李和站口，远处人流虚焦。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-ZZ-01",
+      "title": "第24天·雨中店门外",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000580_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "cfd4989a3d5e659397ff770050da9e1b77672734a8f55cafb9ffcb2fd6f41c1a",
+        "line": 607,
+        "originalLine": 587,
+        "text": "那个吻没有旁人起哄，也没有人付钱。我却没因此突然分清她过去所有的笑。退开以后，她用拇指擦了一下我嘴边，做完便叹气。"
+      },
+      "condition": "ALL",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-zz-cg031",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-ZZ/cg-zz-cg031.webp",
+            "sha256": "582b1dd5157e26aa9b323dadd812fac3ec5825091d65e42095f967e81d89ad04"
+          },
+          {
+            "assetId": "char-zhouzhi-human-smile",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A03/char-zhouzhi-human-smile.webp",
+            "sha256": "ba4ba50b86fc8faad8ec912365ba79bdf2b46abd2bacaaef9c6476748d330243"
+          },
+          {
+            "assetId": "bg-bijie-slope-street-day-overcast",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-bijie-slope-street-day-overcast.webp",
+            "sha256": "e6611d30b2aecb2c7579ea202c885c84cc96fb96401cc638dea0ff156adaaf7c"
+          }
+        ],
+        "prompt": "雨天沿街未开门的铺面，伞靠墙。周栀捏住文文袖口，他在她点头后才靠近。很轻的一吻，分开后周栀拇指擦过他嘴边。近景侧面，门外雨沿自然垂落。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-ZZ-02",
+      "title": "搬空的回声房间",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000754_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "ba846abd74c275740569aa6629729fdc20804749808cc8c4abd963b9c29fad01",
+        "line": 1597,
+        "originalLine": 1597,
+        "text": "她自己往旁边挪了半步。我们吻得有些急，像之前很多次停住的动作都挤在这里。"
+      },
+      "condition": "ZZ06-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-zz-cg031",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-ZZ/cg-zz-cg031.webp",
+            "sha256": "582b1dd5157e26aa9b323dadd812fac3ec5825091d65e42095f967e81d89ad04"
+          },
+          {
+            "assetId": "char-zhouzhi-human-smile",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A03/char-zhouzhi-human-smile.webp",
+            "sha256": "ba4ba50b86fc8faad8ec912365ba79bdf2b46abd2bacaaef9c6476748d330243"
+          },
+          {
+            "assetId": "bg-huisheng-306-cleared-day",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-huisheng-306-cleared-day.webp",
+            "sha256": "5d28669c6d040eb2a9d325217fd0e02a7f5cc17a3b9a4eaac26fb1269247301b"
+          }
+        ],
+        "prompt": "回声306已搬空，保留停钟和墙面。周栀先挪半步，二人短促一吻，贴墙的人肩头沾一点灰，她退开拍灰，镜头停在各自仍紧张的呼吸。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。 取紧景裁掉参考背景里的沙发和茶几，只留停钟和已腾空的墙边。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-ZZ-03",
+      "title": "毕节住处·留宿次晨",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000766_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "4561825f84cce6ebc94603a290f1de3540cc2b912985f05a8e3303e449251b33",
+        "line": 1633,
+        "originalLine": 1633,
+        "text": "她走去洗脸，又折回来，低头在我嘴上亲了一下。"
+      },
+      "condition": "ZZ06-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-zz-cg031",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-ZZ/cg-zz-cg031.webp",
+            "sha256": "582b1dd5157e26aa9b323dadd812fac3ec5825091d65e42095f967e81d89ad04"
+          },
+          {
+            "assetId": "char-zhouzhi-human-base",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A03/char-zhouzhi-human-base.webp",
+            "sha256": "c385e85d8d9db730191d494585cf37f27b43894f8b9ac63cbac65213691b6739"
+          },
+          {
+            "assetId": "bg-zhouzhi-bijie-home-morning",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-zhouzhi-bijie-home-morning.webp",
+            "sha256": "e3a5fddd9db1acd2bfec604d3751708e1e45fc05428497ed5a3b441dfc662124"
+          }
+        ],
+        "prompt": "毕节住处清晨，窗帘漏进冷白光。周栀已穿衣，去洗脸前折回来，低头在半坐起的文文嘴上亲一下，随即直起，动作短而自然。肩部以上，床不占主体。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "title": "第60天·车站",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000364_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "b2846fb1b224eaa77247fff3f94cb870a7b325890c8b8498202a56c09496aa2f",
+        "line": 2128,
+        "originalLine": 2128,
+        "text": "我看着她。她先亲过来，手掌贴在我颈侧。我抱住她，没有把那一下吻当成对所有未知的担保。她的呼吸乱了，退开以后仍抓着我的外套，不像在给一句话收尾。"
+      },
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-zz-cg034",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-ZZ/cg-zz-cg034.webp",
+            "sha256": "5978ecd93d21a3271a0255cc30468ae6be734aaaa37d0fe235d3ee39b099fdaf"
+          },
+          {
+            "assetId": "char-zhouzhi-human-smile",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A03/char-zhouzhi-human-smile.webp",
+            "sha256": "ba4ba50b86fc8faad8ec912365ba79bdf2b46abd2bacaaef9c6476748d330243"
+          },
+          {
+            "assetId": "bg-departure-station-morning-rain",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-departure-station-morning-rain.webp",
+            "sha256": "da3d0266f246264b9a9c967a8419c7c4013ddcc4cf1d478985d23996bbcec318"
+          }
+        ],
+        "prompt": "清晨候车棚，周栀先亲过来，掌心贴文文颈侧；文文抱住她。分开后她还攥着外套，行李安放一旁。克制表演，车站冷光下保留一点急促呼吸。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "title": "贵阳重见·次晨",
+      "route": "zhouzhi",
+      "anchor": {
+        "nodeId": "T-ZZ-000939_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "3a655e5e932819de47cb6509ff2f344029762851019017e8010bbd321fca6b1a",
+        "line": 2516,
+        "originalLine": 2516,
+        "text": "我拉住她的手。她弯腰亲我一下。"
+      },
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-zz-cg034",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-ZZ/cg-zz-cg034.webp",
+            "sha256": "5978ecd93d21a3271a0255cc30468ae6be734aaaa37d0fe235d3ee39b099fdaf"
+          },
+          {
+            "assetId": "char-zhouzhi-human-base",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A03/char-zhouzhi-human-base.webp",
+            "sha256": "c385e85d8d9db730191d494585cf37f27b43894f8b9ac63cbac65213691b6739"
+          },
+          {
+            "assetId": "bg-zhouzhi-guiyang-home-morning",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-zhouzhi-guiyang-home-morning.webp",
+            "sha256": "18bf29c21b8741b5927b9ac0e629711f3e155cef8810cb33eb2a817d38244996"
+          }
+        ],
+        "prompt": "贵阳住处次晨，两人衣着完整，采购单在背景桌边。文文拉住周栀的手，她弯腰轻亲一下，随后直起看向他。柔和晨光、肩部以上，和毕节清晨用不同构图。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-MY-01",
+      "title": "第27天·试讲后",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000103_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "8f3dee488a1a51ed73718f4cf49d217198e9a448a403f7938174ad3748e354aa",
+        "line": 498,
+        "originalLine": 498,
+        "text": "我说来了。她抬手摸了摸我领口，指尖碰到脖子。我握住她的手，问这次是不是可以。她看着我，点头，随后先吻了过来。"
+      },
+      "condition": "ALL",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-my-cg040",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-MY/cg-my-cg040.webp",
+            "sha256": "5f9a1266f2cd9386e72b3854e8379e36a196c4c36593d38bc25fa3e438862a26"
+          },
+          {
+            "assetId": "char-mengyao-human-base-neutral",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A04/char-mengyao-human-base-neutral.webp",
+            "sha256": "26b139e65a8012e9e072a196f54f09b948e974873562939f12caf7ba6e1043c9"
+          },
+          {
+            "assetId": "bg-mengyao-bijie-school-classroom-day",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-mengyao-bijie-school-classroom-day.webp",
+            "sha256": "9ba3b11df8ccc89e9e66647cd292f93b962b33b9351c869d018af82e210c61ce"
+          }
+        ],
+        "prompt": "傍晚的毕节空教室，手机支架和教具在后景。文文握住孟遥碰到领口的手，孟遥点头后主动短吻，随后额头相抵。只拍两人，走廊动静以光影表现。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-MY-02",
+      "title": "第44天·河边树后",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000227_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "51f536a21a2b561644469b34c02626477db732b60e4910d6a44dea59f014289c",
+        "line": 1127,
+        "originalLine": 1127,
+        "text": "她慢慢坐直，没有责怪我扫兴。我们吃完那两只烧饼，再到树后短短吻了一下。手机响时，她去另一边接，我留在原处，把自己那只空纸袋折好。"
+      },
+      "condition": "MY07-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-my-cg044",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-MY/cg-my-cg044.webp",
+            "sha256": "18972131214749ed6a276a796965a9559f29cc8799091cd9e4e01a3e2d241cf2"
+          },
+          {
+            "assetId": "char-mengyao-human-base-neutral",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A04/char-mengyao-human-base-neutral.webp",
+            "sha256": "26b139e65a8012e9e072a196f54f09b948e974873562939f12caf7ba6e1043c9"
+          },
+          {
+            "assetId": "bg-my-riverside-afternoon",
+            "role": "场景与光线",
+            "path": "assets/current/P4-07-20261104/bg-my-riverside-afternoon.webp",
+            "sha256": "99f0830f8f37d23d6e609c8e0b376b650eed7fe4ffa903b039ed5fcb2bc0d293"
+          }
+        ],
+        "prompt": "毕节河边树后，两只空烧饼纸袋在边缘。孟遥和文文侧身避开路口，短短亲一下，稍微分开，手机亮一下。背景只有树影、水光和远处路面。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-MY-03",
+      "title": "第56天·文文住处",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000431_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "ab09d2170b9cc6ada82822b820dc8f3e44d853abb4407387d8dd631b664dfe8b",
+        "line": 1274,
+        "originalLine": 1274,
+        "text": "她先吻过来。"
+      },
+      "condition": "MY07-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-my-cg044",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-MY/cg-my-cg044.webp",
+            "sha256": "18972131214749ed6a276a796965a9559f29cc8799091cd9e4e01a3e2d241cf2"
+          },
+          {
+            "assetId": "char-mengyao-human-base-neutral",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A04/char-mengyao-human-base-neutral.webp",
+            "sha256": "26b139e65a8012e9e072a196f54f09b948e974873562939f12caf7ba6e1043c9"
+          },
+          {
+            "assetId": "bg-wenwen-bijie-rental-night",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-wenwen-bijie-rental-night.webp",
+            "sha256": "8901da80d33186e5519ca6e8fdc4eb93c6a2b53d0c48bdc59dd6d422082bda13"
+          }
+        ],
+        "prompt": "毕节出租屋夜里，备课本与手机在桌上。文文抱住孟遥，她主动短吻，随后两人在灯下分开一点。动作止于此，人物衣着完整，不表现过夜或额外动作。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-MY-04",
+      "title": "第75天·贵阳录示范课后",
+      "route": "mengyao",
+      "anchor": {
+        "nodeId": "T-MY-000282_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "b9258b432f1e014813bc7d6d91223276f8927d9f7aa64ceaa55ebfae041efae6",
+        "line": 1527,
+        "originalLine": 1527,
+        "text": "我抬头吻她，她回应了。支架上的手机还在录，直到她碰到桌角才想起来，伸手按停。我在镜头里叫过她以前的小名，声音很清楚。"
+      },
+      "condition": "MY07-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-my-cg040",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-MY/cg-my-cg040.webp",
+            "sha256": "5f9a1266f2cd9386e72b3854e8379e36a196c4c36593d38bc25fa3e438862a26"
+          },
+          {
+            "assetId": "char-mengyao-human-base-neutral",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A04/char-mengyao-human-base-neutral.webp",
+            "sha256": "26b139e65a8012e9e072a196f54f09b948e974873562939f12caf7ba6e1043c9"
+          },
+          {
+            "assetId": "bg-mengyao-guiyang-home-day",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-mengyao-guiyang-home-day.webp",
+            "sha256": "77609126301e23efee1b607f36708f356a2bb4fb47f9aaca2eb3b7a337d7cd63"
+          }
+        ],
+        "prompt": "贵阳住处午后，几本书垫高手机支架。文文抬头亲孟遥，她回应，短吻后她想起仍在录制，伸手按停。手机屏无可读字，陈晟此刻不入镜。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-PI-01",
+      "title": "高好感·装订册子",
+      "route": "piao",
+      "anchor": {
+        "nodeId": "T-PI-000271_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "6428eb08bbc1e8a972905269fc67adf52dccc7a144ddcc81a2c4146b9228a0ac",
+        "line": 1338,
+        "originalLine": 1338,
+        "text": "我靠过去，她先吻了我一下。很短，退开后眼睛还盯着我的嘴。我把手贴到她颈后，问还可以不。她没笑我问得笨，只说可以，然后将我往自己这边拉。"
+      },
+      "condition": "PIAO_RELATION=HIGH",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-pi-cg066",
+            "role": "人物身份与画风",
+            "path": "assets/current/P4-07-20261104/cg-pi-cg066.webp",
+            "sha256": "4af93544c278c56d5ff0b3e3a9f271892dd58cb63f778b14a4bf691eacc9d1f1"
+          },
+          {
+            "assetId": "piao-base",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A05/piao-base.webp",
+            "sha256": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5"
+          },
+          {
+            "assetId": "bg-piao-bijie-room-day",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-piao-bijie-room-day.webp",
+            "sha256": "43b62f19be8a1234de6085651cd56c0ad365f90d813f01b93fb9ace2ed24d9f6"
+          }
+        ],
+        "prompt": "装订房间的窗光与二十一本小册保留。飘擦过文文手上的墨后没松手，先亲一下，退开半寸，得到回应后纸滑落。焦点留在两人的动作，末段不跨到夜晚。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-PI-02",
+      "title": "高好感·第60天车站",
+      "route": "piao",
+      "anchor": {
+        "nodeId": "T-PI-000345_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "1aa909492f53de48adf08daa8a2f0e80521b817654e3e0bd6bcfe19d271f396b",
+        "line": 1675,
+        "originalLine": 1675,
+        "text": "我点头，刚要说话，她抬脸吻住我。广播又响了一遍，我们都听见了。她没急着退，我的手收紧，又慢慢松开，让她能看见进站口。"
+      },
+      "condition": "PIAO_RELATION=HIGH&PI08-01=A&PI06-01=A",
+      "entryEvents": [],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-pi-cg069",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-PI/cg-pi-cg069.webp",
+            "sha256": "95e0da2ef78c67c377bd703785c4a331acc8a4ac1200b23c8b926790d28de03d"
+          },
+          {
+            "assetId": "piao-base",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A05/piao-base.webp",
+            "sha256": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5"
+          },
+          {
+            "assetId": "bg-departure-station-morning-rain",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-departure-station-morning-rain.webp",
+            "sha256": "da3d0266f246264b9a9c967a8419c7c4013ddcc4cf1d478985d23996bbcec318"
+          }
+        ],
+        "prompt": "站口和行李与前一拍连贯。飘抬脸吻住文文，短停后文文慢慢松开手，她的视线转回进站口。保持双人近景和清晨光线。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-HQ-01",
+      "title": "第57天·擦外套",
+      "route": "huangqiuqiu",
+      "anchor": {
+        "nodeId": "T-HQ-000212_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "cd2105ca54cb9a41ec4a8301331618d7345a26f087f9b97fc6d73f76adb3de2c",
+        "line": 1151,
+        "originalLine": 1151,
+        "text": "她把纸巾放下，往这边挪了一点。第一次碰到嘴唇，我轻得像没碰到，退开才发现她还抓着外套。"
+      },
+      "condition": "ALL",
+      "entryEvents": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-hq-cg079",
+            "role": "人物身份与画风",
+            "path": "assets/current/SUI-A10-HQ/cg-hq-cg079.webp",
+            "sha256": "eb3480a89f529ce3669d8963790b3798c50fd47aaeef00f5056a3f16fcab1f76"
+          },
+          {
+            "assetId": "sui-a06-human-neutral-v001",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A06/sui-a06-human-neutral-v001.webp",
+            "sha256": "3f41ff7bb087c1faa1f8cf71d7862076c6b515cc1259afca8791b84d7648153a"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-day",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-huangqiuqiu-room-day.webp",
+            "sha256": "070568fb51f21178af3b18e8d089fb07b1f706e8374764e00cb13d25d303b4d3"
+          }
+        ],
+        "prompt": "黄球球以既定成年女性人形坐在门后沙发，放下湿纸巾，凑近轻触文文嘴唇，退开时手还抓着他的外套。保留眼部遮片、颈饰和原衣装，只拍上身，不补下装。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-HQ-02",
+      "title": "第63天·重新见面",
+      "route": "huangqiuqiu",
+      "anchor": {
+        "nodeId": "T-HQ-000544_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "eae83ecb2a03689fa77c8dc07470ef480544e0fdcb30e532a1d762a41f4a9075",
+        "line": 1558,
+        "originalLine": 1558,
+        "text": "她先在我嘴角碰了一下。"
+      },
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "entryEvents": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-hq-cg109",
+            "role": "人物身份与画风",
+            "path": "assets/current/P4-07-20261104/cg-hq-cg109.webp",
+            "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380"
+          },
+          {
+            "assetId": "sui-a06-human-neutral-v001",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A06/sui-a06-human-neutral-v001.webp",
+            "sha256": "3f41ff7bb087c1faa1f8cf71d7862076c6b515cc1259afca8791b84d7648153a"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-day",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-huangqiuqiu-room-day.webp",
+            "sha256": "070568fb51f21178af3b18e8d089fb07b1f706e8374764e00cb13d25d303b4d3"
+          }
+        ],
+        "prompt": "门内刚把写着下次时间的纸推来，黄球球先轻碰文文嘴角，退开后手仍靠着纸。保留既定成年女性人形、眼部遮片和颈饰，上身裁切；不提前引入结局写杯的动作。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    },
+    {
+      "key": "KCG-HQ-03",
+      "title": "第91天·写杯子名字",
+      "route": "huangqiuqiu",
+      "anchor": {
+        "nodeId": "T-HQ-000588_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "ebc61cceacbf059bc4903519a2f83ee4a6c9a734a7020df56668ac0e8e0a9bc1",
+        "line": 1856,
+        "originalLine": 1856,
+        "text": "我转头，她没躲，先亲在我嘴角，然后把笔拿开。"
+      },
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "entryEvents": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "visual": {
+        "mode": "m2v",
+        "references": [
+          {
+            "assetId": "cg-hq-cg109",
+            "role": "人物身份与画风",
+            "path": "assets/current/P4-07-20261104/cg-hq-cg109.webp",
+            "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380"
+          },
+          {
+            "assetId": "sui-a06-human-neutral-v001",
+            "role": "女主造型",
+            "path": "assets/current/SUI-A06/sui-a06-human-neutral-v001.webp",
+            "sha256": "3f41ff7bb087c1faa1f8cf71d7862076c6b515cc1259afca8791b84d7648153a"
+          },
+          {
+            "assetId": "bg-huangqiuqiu-room-day",
+            "role": "场景与光线",
+            "path": "assets/current/SUI-A08/bg-huangqiuqiu-room-day.webp",
+            "sha256": "070568fb51f21178af3b18e8d089fb07b1f706e8374764e00cb13d25d303b4d3"
+          }
+        ],
+        "prompt": "沿用写杯底名字的环境和黄球球成年女性人形。她从下巴贴在文文肩边的姿势稍抬头，亲在嘴角，手把笔拿开，杯子留在桌上。保留遮片与颈饰，只表现确认过的上身。 横屏16:9，5秒，单镜头，沿用Suika3已采用的成人角色脸型、发色、相对身高和半写实视觉小说画风。两位均为成年人，衣着完整；亲吻简短自然。以参考图锁定人物身份，场景参考只规定空间与光线。将表情和手势布置在画面中上部，留底部对白区。Live2D式微动效：角色胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影也带有非常缓的呼吸感。按镜头只表现当下可见细节。五官、唇形、遮挡和手指解剖稳定，无多余人物肢体，无字幕水印，单次播放。"
+      },
+      "binding": {
+        "state": "planned",
+        "at": "anchor-once",
+        "exit": "next-node",
+        "fallback": "existing-static-presentation",
+        "gallery": "no-new-slot"
+      }
+    }
+  ]
+}

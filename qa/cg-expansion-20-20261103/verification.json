@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "cg-expansion-plan-v1",
+  "batch": "CG-expansion-20-20261103",
+  "completedOn": "2026-11-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "status": "passed-offline",
+  "runtimeAdoptedCount": 0,
+  "checks": {
+    "newCgCount": 20,
+    "originalPngCount": 22,
+    "selectedPngCount": 20,
+    "losslessWebPCount": 20,
+    "pixelEqualPairs": 20,
+    "fullPreviews": 20,
+    "overlayPreviews": 20,
+    "uniqueNodeAnchors": 20,
+    "existingCgConflicts": 0,
+    "retiredIdReuse": 0,
+    "sourceTextMatches": 20,
+    "conditionRouteGateMatches": 20,
+    "protectedFilesUnchanged": 576
+  },
+  "visualReviewRecord": "visual-review.json",
+  "scope": "资源解码、无损像素、节点/条件/入口/文字和冻结输入；目视另记，未做引擎、游戏浏览器、手机、桌面、发布验收。"
+}

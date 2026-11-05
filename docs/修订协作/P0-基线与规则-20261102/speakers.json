@@ -1,0 +1,492 @@
+{
+  "version": "dialogue-speakers-v1-p0",
+  "status": "已登记26个核心或场景身份；其余发言者改稿时先据原文登记，非全稿逐句说话人标注",
+  "speakers": [
+    {
+      "id": "wenwen",
+      "canonical": "文文",
+      "allowedNames": [
+        "文文"
+      ],
+      "knowledge": "文文开口显示姓名；明确心声另加媒介后缀。第一人称旁白不挂文文姓名。",
+      "voice": "会接玩笑，也用“先干着”避开难处；逐渐肯说明班表与限制。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 41,
+          "sha256": "2222d40cc67d2af058dba050442fb5e919f32f5a6d16805d00c10606ed6a9064",
+          "paragraphId": "T-C01-000014",
+          "quote": "“文文，我又没问你多大。搭一把手，真重。”"
+        }
+      ]
+    },
+    {
+      "id": "xiaoman",
+      "canonical": "罗小满",
+      "allowedNames": [
+        "罗小满",
+        "小满"
+      ],
+      "knowledge": "姓名框统一罗小满；正文对话可沿用小满，不新造昵称。",
+      "voice": "直爽、嘴硬；有原稿“莫”等地方口语，不能每句都套方言。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 171,
+          "sha256": "09b9549a4d5f743f9f4497aad560c3b775e879a23e57054f25b44207407ad970",
+          "paragraphId": "T-C01-000067",
+          "quote": "小满没有让我坐理发椅。"
+        }
+      ]
+    },
+    {
+      "id": "zhouzhi",
+      "canonical": "周栀",
+      "allowedNames": [
+        "周栀"
+      ],
+      "knowledge": "区分工作招呼与私人回应，不把营业亲近都当成恋爱确认。",
+      "voice": "会接话，也会避开追问；谈工作与收入时具体，不写成道理总结。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 389,
+          "sha256": "8fa01aa4bfaecd96ead30043c4dd6871c8b029a2df2099c56926273f0a291568",
+          "paragraphId": "T-C01-000165",
+          "quote": "第六天，毛狼约吃面，周栀已经坐在店里拌辣椒。我学着舀了一勺，辣得眼睛直冒水。她把汤碗推过来，笑了半天。"
+        }
+      ]
+    },
+    {
+      "id": "mengyao",
+      "canonical": "孟遥",
+      "allowedNames": [
+        "孟遥"
+      ],
+      "knowledge": "共通只知前女友和英语老师；第27天本线才揭示婚姻。朋友不自动知道秘密关系。",
+      "voice": "熟人面前较劲、调侃；工作先核课表与费用，不能总当导师。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 277,
+          "sha256": "640905eea5d3b423210146ca5650d404052c6ebca869b84cf3291f9e5062e306",
+          "paragraphId": "T-C01-000115",
+          "quote": "隔天下午，我在便利店看见孟遥。她正把多拿的一盒牛奶放回冷柜，转过身，和我撞个正着。"
+        }
+      ]
+    },
+    {
+      "id": "piao",
+      "canonical": "飘",
+      "allowedNames": [
+        "飘"
+      ],
+      "knowledge": "HIGH／LOW同一人物；各自路径独立，不混用另一条经历或关系称呼。",
+      "voice": "先讲具体安排和作品，再讲自己愿不愿意；不替她作主。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 437,
+          "sha256": "194c26e4640ac0b642f68bb86fed246f224107688a12c6616b672bd7ebb32709",
+          "paragraphId": "T-C01-000189",
+          "quote": "第七天，飘比毛狼早到饭桌。她的小册子摆在一边，有几页还空着。她把衬衫下摆松松打了个结，桌边放着一台借来的相机。她说自己在学摄影，聚会时喜欢看看朋友说话之外在做什么。"
+        }
+      ]
+    },
+    {
+      "id": "huangqiuqiu",
+      "canonical": "黄球球",
+      "allowedNames": [
+        "门内的声音",
+        "黄球球"
+      ],
+      "knowledge": "自报姓名这一句仍显示门内的声音；该句之后才显示黄球球。形态不改人物键和姓名，不用“球球”作默认称呼。",
+      "voice": "干巴巴地吐槽，关键处直接；不能扩成读心或许愿能力。",
+      "evidence": [
+        {
+          "file": "scenario/第二章-十四天.md",
+          "line": 548,
+          "sha256": "c7017b93519283263015fb959af086d5db1526ef14c759ad474a873413ff5951",
+          "paragraphId": "T-C02-000218",
+          "quote": "“黄球球。黄是黄色的黄。”"
+        }
+      ]
+    },
+    {
+      "id": "maolang",
+      "canonical": "毛狼",
+      "allowedNames": [
+        "毛狼"
+      ],
+      "knowledge": "沿用已有称呼，不补真实姓名；工作与孩子事务由本人承诺。",
+      "voice": "接梗、爱热闹，也会说错话；受伤时不立即用笑话抵消。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 17,
+          "sha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf",
+          "paragraphId": "T-C01-000002",
+          "quote": "轮子滚下站台，被毛狼一脚踩住。他低头看看轮子，又看看我。电话那头问我是不是文文，我说是，毛狼正要喊，听见“逾期”两个字，把嘴闭上了。"
+        }
+      ]
+    },
+    {
+      "id": "shijiang",
+      "canonical": "师匠",
+      "allowedNames": [
+        "师匠"
+      ],
+      "knowledge": "称呼不是师徒身世；仍是雇主。",
+      "voice": "谈班表、交接与钱时简短务实；照顾和拖薪后果都保留。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 43,
+          "sha256": "617b9101f14ded528c07dc387425bf67db94ef2fd34877013cdef1a4d5d72d09",
+          "paragraphId": "T-C01-000015",
+          "quote": "网吧在坡下。师匠看见我们，先把门撑住，再让毛狼擦鞋。"
+        }
+      ]
+    },
+    {
+      "id": "yelan",
+      "canonical": "叶岚",
+      "allowedNames": [
+        "叶岚"
+      ],
+      "knowledge": "普通游戏队友；游戏麦用voice，不把远程队友画成现场人物。",
+      "voice": "指出配合问题、能接玩笑，也有自己的工作安排。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 363,
+          "sha256": "297e17aa5c03672dd6644d03b62a818d339e151d0f5e64be3ba6d22ecdb74739",
+          "paragraphId": "T-C01-000152",
+          "quote": "第五天休班，我刚进游戏，叶岚就问我是不是拿脚走位。"
+        }
+      ]
+    },
+    {
+      "id": "chensheng",
+      "canonical": "陈晟",
+      "allowedNames": [
+        "陈晟"
+      ],
+      "knowledge": "MY第15天手机出现姓名；第27天门口段旁白已点名，可随原文显示陈晟。丈夫身份直到孟遥正式介绍才揭示，不能提前写进姓名框。",
+      "voice": "普通人的简短问答与生活安排，不反派化，不替他获知秘密。",
+      "evidence": [
+        {
+          "file": "scenario/孟遥-旧题.md",
+          "line": 279,
+          "sha256": "9a0df4f16d33ad4acb2bc7b4d50d3c5ee646d180ec15535adca3c9952630b58b",
+          "paragraphId": "T-MY-000117",
+          "quote": "“陈晟，我丈夫。”"
+        }
+      ]
+    },
+    {
+      "id": "chenniang",
+      "canonical": "陈孃",
+      "allowedNames": [
+        "陈孃"
+      ],
+      "knowledge": "原稿写“陈孃”，资源台账另写“陈嬢”，不自动带入正文。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-chenniang-base",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 109,
+          "sha256": "f7d31ec21a26a6bd509bf6fc54db908af3383c640fefc91589b4aca71012e991",
+          "paragraphId": "T-C01-000043",
+          "quote": "傍晚，我把箱子搬进坡上的出租屋。五百一个月，窗外正对着一堵墙。陈孃收了房租，拿来一碗汤，问我要不要旧凳子。"
+        }
+      ]
+    },
+    {
+      "id": "ajun",
+      "canonical": "阿俊",
+      "allowedNames": [
+        "阿俊"
+      ],
+      "knowledge": "只采用原有熟人身份。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-ajun-base",
+      "evidence": [
+        {
+          "file": "scenario/罗小满-练习本.md",
+          "line": 241,
+          "sha256": "c9fff3b1ad830b0f2f4ffea39c69eec2ce9b5290b508653439c69f5327779486",
+          "paragraphId": "T-XM-000096",
+          "quote": "这桌人我只认识两个。阿俊以前在水果店帮过忙，另外几个是她平时一起出门的朋友。我刚坐稳，阿俊便凑过来看我的头发。"
+        }
+      ]
+    },
+    {
+      "id": "housing-clerk-xm",
+      "canonical": "办事的人",
+      "allowedNames": [
+        "办事的人"
+      ],
+      "knowledge": "正文未给职业细分，不显示资源名“租房办事员”。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-housing-clerk-base",
+      "evidence": [
+        {
+          "file": "scenario/罗小满-练习本.md",
+          "line": 911,
+          "sha256": "b7f6c3c548a87fc3797f6db2529340cffc09ac89a6e530ef553a94d5ec06c03c",
+          "paragraphId": "T-XM-000362",
+          "quote": "办事的人问我以前住哪边，我指了方向，说过一会儿还要去拿东西。话说出口，我才听见自己用了以前。"
+        }
+      ]
+    },
+    {
+      "id": "salon-newcomer",
+      "canonical": "理发店新人",
+      "allowedNames": [
+        "理发店新人"
+      ],
+      "knowledge": "不补姓名、年龄或与小满的竞争经历。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-salon-newcomer-base",
+      "evidence": [
+        {
+          "file": "scenario/罗小满-练习本.md",
+          "line": 975,
+          "sha256": "d1d057f94b01f79bbb16f52491b24d1bfca7403d9182f160c218972d874bb5cd",
+          "paragraphId": "T-XM-000384",
+          "quote": "第91天上午，店里新人替我围好围布，问是不是只修边。"
+        }
+      ]
+    },
+    {
+      "id": "aying",
+      "canonical": "阿英",
+      "allowedNames": [
+        "阿英"
+      ],
+      "knowledge": "与周栀的相处和夜宵摊安排以原稿为准。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-aying-base",
+      "evidence": [
+        {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "line": 303,
+          "sha256": "13ab9f0111e270950f30496d642f2ff66769c4fd1bbaf3761348ab230c54d19c",
+          "paragraphId": "T-ZZ-000124",
+          "quote": "第27天，我把师匠借给我的完好麦克风线带去。原来那根时断时续，她前几天随口提过。阿英在门口，让我把东西放下。"
+        }
+      ]
+    },
+    {
+      "id": "key-handover-zz",
+      "canonical": "交接的人",
+      "allowedNames": [
+        "交接的人"
+      ],
+      "knowledge": "不擅称买家、中介或银行职员。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-key-handover-base",
+      "evidence": [
+        {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "line": 997,
+          "sha256": "58b71c43d8ca4c401d52e6f36744fda0b5160e9cef4e21cb364a668367df7b11",
+          "paragraphId": "T-ZZ-000397",
+          "quote": "来交接的人问钥匙齐不齐。我把贵阳那把从钥匙圈上抠下来，卡环很紧，指甲被顶得疼。剩下的是出租屋和网吧侧门的钥匙，不会因为轻一些，就替我开回这扇门。"
+        }
+      ]
+    },
+    {
+      "id": "grocery-owner",
+      "canonical": "杂货店大姐",
+      "allowedNames": [
+        "杂货店大姐"
+      ],
+      "knowledge": "与后来接手的新店主分开。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-grocery-owner-base",
+      "evidence": [
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 22,
+          "sha256": "df5c4b1015943bf1ec467d7523ae2ba4b97f65dad8a7d49c467fd1711cfa4370",
+          "paragraphId": "T-PI-000002",
+          "quote": "第15天，我还没坐稳，杂货店的大姐就把本子按住了。"
+        }
+      ]
+    },
+    {
+      "id": "shoe-repairer",
+      "canonical": "修鞋师傅",
+      "allowedNames": [
+        "修鞋师傅"
+      ],
+      "knowledge": "不借作品受访关系补家庭经历。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-shoe-repairer-base",
+      "evidence": [
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 484,
+          "sha256": "38b9cf61f20ff99d8656ee3d1daff4991d60bfb81540ae271709954807d0fd90",
+          "paragraphId": "T-PI-000203",
+          "quote": "第31天下午，我带着新旧两稿去了两家店。师傅让我站到不挡客人的地方，一边补鞋一边听。顾客来时我就停，等他忙完再读下一句。他最后拿笔画了一个圈，圈住自己的名字，说这个字也打错了。"
+        }
+      ]
+    },
+    {
+      "id": "new-grocery-owner",
+      "canonical": "新店主",
+      "allowedNames": [
+        "新店主"
+      ],
+      "knowledge": "来源女性代词保留，不编姓名或接店缘由。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-new-grocery-owner-base",
+      "evidence": [
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 907,
+          "sha256": "ea2e3cb760fe14a6981d80195eded59eba35546a166b20d79d7c1c07f255388a",
+          "paragraphId": "T-PI-000378",
+          "quote": "第67天，老街杂货店换了人。我拿着册子找那张小凳，新店主说旧东西都搬走了，只有门后还有一张。"
+        }
+      ]
+    },
+    {
+      "id": "sign-repairer",
+      "canonical": "修招牌的人",
+      "allowedNames": [
+        "修招牌的人"
+      ],
+      "knowledge": "只知道门外当场信息，不知黄球球身份。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-sign-repairer-base",
+      "evidence": [
+        {
+          "file": "scenario/黄球球-门后.md",
+          "line": 17,
+          "sha256": "436970bb1f7d61f41a58a619db47b6defa29582b0b09fb3ac3bd4858acd8b028",
+          "paragraphId": "T-HQ-000001",
+          "quote": "“后面有人没有？借个插座。”"
+        }
+      ]
+    },
+    {
+      "id": "classmate-fr",
+      "canonical": "老同学",
+      "allowedNames": [
+        "老同学"
+      ],
+      "knowledge": "与孟遥被对外称作老同学的语境不同。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-classmate-base",
+      "evidence": [
+        {
+          "file": "scenario/朋友与职业-夜班.md",
+          "line": 211,
+          "sha256": "32ae314cd942880df3a4847d40e5aeb372caeaca0f9eefb8402309284875b6d7",
+          "paragraphId": "T-FR-000078",
+          "quote": "老同学把车钥匙放在柜台上，问我是不是回来开店。"
+        }
+      ]
+    },
+    {
+      "id": "boss-li",
+      "canonical": "新老板",
+      "allowedNames": [
+        "新老板",
+        "李老板"
+      ],
+      "knowledge": "第63天明确姓李后可用李老板；前文来看旧店的买家不自动并成此人。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-boss-li-base",
+      "evidence": [
+        {
+          "file": "scenario/朋友与职业-夜班.md",
+          "line": 645,
+          "sha256": "cf688d91e9072252364ed18bfbc36c0d55de5ddc4da6beb44928179d826fa931",
+          "paragraphId": "T-FR-000239",
+          "quote": "第63天，新老板姓李，问我以前干过什么。我说网管，夜班，没有再加“网络这一块”。他带我认配电箱的位置，告诉我哪几台机经常出问题，又把交班本放到桌上。"
+        }
+      ]
+    },
+    {
+      "id": "cafe-customer-fr",
+      "canonical": "顾客",
+      "allowedNames": [
+        "顾客"
+      ],
+      "knowledge": "仅指FR退费场景该顾客，别处顾客另登记场景限定键。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-cafe-customer-base",
+      "evidence": [
+        {
+          "file": "scenario/朋友与职业-夜班.md",
+          "line": 647,
+          "sha256": "b6b93b069e853b49a1cdc4ba735bfc5abd7b6622c892752f0b4c3bcecd8530d8",
+          "paragraphId": "T-FR-000240",
+          "quote": "第一个夜班，有个客人要求退掉整局的钱，说机器卡了。我找到断开的记录，他仍不肯听，拍着桌子问我懂不懂输一局是什么心情。"
+        }
+      ]
+    },
+    {
+      "id": "cafe-colleague-fr",
+      "canonical": "同事",
+      "allowedNames": [
+        "同事"
+      ],
+      "knowledge": "仅指FR新柜台同事，不能合并其他路线同事。",
+      "voice": "按该场原话保持简短生活口语，不添加身份背景。",
+      "assetReference": "npc-cafe-colleague-base",
+      "evidence": [
+        {
+          "file": "scenario/朋友与职业-夜班.md",
+          "line": 798,
+          "sha256": "1973180efb2e2ca675eb8d31fa90833898ab4643dcb977db95e3dffc3ca74c71",
+          "paragraphId": "T-FR-000287",
+          "quote": "十点前我到新柜台，把饮料和零钱核完。同事问我从前那家店是不是没了，我说换了老板，现在做奶茶。"
+        }
+      ]
+    },
+    {
+      "id": "qiaoge",
+      "canonical": "乔哥",
+      "allowedNames": [
+        "熟客",
+        "乔哥"
+      ],
+      "knowledge": "ZZ正文已介绍“叫乔哥的熟客”后使用乔哥，不补真实姓名或幕后关系。",
+      "voice": "保留原稿熟客劝酒语境，不扩大成新反派线。",
+      "evidence": [
+        {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "line": 139,
+          "sha256": "ae50aafa77bfa531c4dfac7c9c05b03eca4198f3c239a4c7a2d64d399546b46c",
+          "paragraphId": "T-ZZ-000052",
+          "quote": "门开着一半。周栀坐在靠边的位置，手里没有一直拿酒，杯子放在自己能看见的地方。旁边一个叫乔哥的熟客说只喝一点有什么意思，她把新开的那瓶推到他面前。"
+        }
+      ]
+    },
+    {
+      "id": "phone-c01-001",
+      "canonical": "电话那头的人",
+      "allowedNames": [
+        "电话那头的人"
+      ],
+      "knowledge": "开场电话仅知道问姓名与逾期，不擅自命名银行或联系人；只限本场。",
+      "voice": "原稿未展开的内容不自行编造。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 17,
+          "sha256": "5202718e2779e52b2bdce0eec3323ac437b7e2f160bc8db0813006594b1c28bf",
+          "paragraphId": "T-C01-000002",
+          "quote": "轮子滚下站台，被毛狼一脚踩住。他低头看看轮子，又看看我。电话那头问我是不是文文，我说是，毛狼正要喊，听见“逾期”两个字，把嘴闭上了。"
+        }
+      ]
+    }
+  ]
+}

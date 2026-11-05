@@ -1,0 +1,14 @@
+{
+  "status": "fail",
+  "scope": "P4-07完整静态候选启动、图鉴和CG001全图冒烟；不是P5全路线/存档验收",
+  "checks": [],
+  "errors": [],
+  "browser": "156.0.8078.80",
+  "error": "AssertionError [ERR_ASSERTION]: 未真正到达第14页\n    at verify (/Users/yipin/Desktop/Suika3/tools/story-revision/p4-adoption/verify-smoke.cjs:20:3)",
+  "events": [
+    "SUI_E|ready|b1eba44a0d3a03aa72cde947eddd819362758a16ce17dacbfcf5b299f3c53ca2",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0"
+  ]
+}

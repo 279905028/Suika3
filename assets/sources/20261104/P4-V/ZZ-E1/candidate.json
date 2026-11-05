@@ -1,0 +1,124 @@
+{
+  "key": "MCG-ZZ-E1",
+  "ending": "ZZ-E1",
+  "route": "zhouzhi",
+  "node": "T-ZZ-000478_1",
+  "choices": {
+    "ZZ06-01": "A",
+    "ZZ08-01": "A"
+  },
+  "relation": null,
+  "fallback": "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp",
+  "meeting": false,
+  "adopted": false,
+  "paragraphId": "T-ZZ-000478",
+  "condition": "ZZ06-01=A&ZZ08-01=A",
+  "entryGate": {
+    "type": "route",
+    "value": "zhouzhi"
+  },
+  "text": "我咬下一口饼，她在那头打了个哈欠。我们都没急着为这段关系再讲一遍保证。手机放在手边，声音还在。",
+  "source": {
+    "file": "scenario/周栀-十一点四十七分.md",
+    "candidateFile": "docs/修订协作/P4-演出与美术/P4-07/正文/周栀-十一点四十七分.md",
+    "lineHint": 2863,
+    "context": "ZZ-E1",
+    "sha256": "f5dfc0ff25e9caa5c5112203c8dc9daaaa28f477746749bf681458632fae7c69"
+  },
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "firstFrame": {
+    "path": "assets/current/SUI-A10-ZZ/cg-zz-cg035.webp",
+    "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc"
+  },
+  "prompt": {
+    "path": "assets/sources/20261104/P4-V/ZZ-E1/video-v001-prompt.txt",
+    "sha256": "df5ab32f695dfdb1873da77a064400df2fddd8def03d5f69cac5d8b32bd38471"
+  },
+  "spec": {
+    "duration": 5,
+    "tolerance": [
+      4.5,
+      5.5
+    ],
+    "ratio": "16:9",
+    "minimumSize": [
+      1280,
+      720
+    ],
+    "runtimeCodec": "h264",
+    "runtimePixelFormat": "yuv420p",
+    "runtimeFps": 24,
+    "audio": false
+  },
+  "status": "video-v001-production-pass",
+  "formalBinding": false,
+  "staticFallback": {
+    "path": "assets/sources/20261104/P4-V/ZZ-E1/fallback-v001.webp",
+    "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc",
+    "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+  },
+  "dreamina": {
+    "imageNodeId": "node_ss90zzjbrg",
+    "videoNodeId": "node_44ehnaccj2",
+    "submitId": "2747fb65-7f32-420b-89f8-c592a017b621",
+    "model": "seedance_2.5",
+    "resolution": "720p",
+    "duration": 5,
+    "resourceId": "4455b2c6-ca1d-4660-88ea-1056a7dc96a7",
+    "downloadSha256": "52c1d443625f08e6797cf44709ca4c4a63bf80700172aa8a6f9b8b54f8ca97a0"
+  },
+  "originalVideo": {
+    "path": "assets/sources/20261104/P4-V/ZZ-E1/raw-v001.mp4",
+    "bytes": 11790215,
+    "sha256": "52c1d443625f08e6797cf44709ca4c4a63bf80700172aa8a6f9b8b54f8ca97a0",
+    "durationSeconds": 5.06,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.12,
+    "audioPresent": true,
+    "decodedFrames": 121,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "runtimeCandidate": {
+    "path": "assets/sources/20261104/P4-V/ZZ-E1/runtime-v001.mp4",
+    "bytes": 1915703,
+    "sha256": "8b671aeaffd697052e824e8d50e2752a894eb186035acdb666c2fe685ea911ae",
+    "durationSeconds": 5.0,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "audioPresent": false,
+    "decodedFrames": 120,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "firstGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/ZZ-E1/first-v001.webp",
+    "bytes": 866480,
+    "sha256": "dba7f87329a73ad4485d6fe013931d0de183c3f2611b003c623747f0f76c876b"
+  },
+  "lastGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/ZZ-E1/last-v001.webp",
+    "bytes": 852654,
+    "sha256": "73da400ef788ddab1ebc12d97224cb2b5ac8f99a331077c3e14018e04d4d0c0b"
+  },
+  "mediaCheck": "qa/ending-motion-P4-V-Q-20261104/ZZ-E1/media-check.json",
+  "productionReview": {
+    "ending": "ZZ-E1",
+    "status": "production-pass",
+    "observations": [
+      "一口饼后放低、咀嚼并望向语音通话手机，动作完整。",
+      "周栀未实体出现；手机未变为人物视频；人物与桌面布局连续。"
+    ],
+    "repair": [],
+    "evidence": "qa/ending-motion-P4-V-Q-20261104/ZZ-E1/contact-sheet.jpg",
+    "independentReview": "pending",
+    "formalAdoption": false
+  },
+  "independentReview": "pending"
+}

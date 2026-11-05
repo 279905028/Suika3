@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "p4-package-v1",
+  "packageId": "P4-02-FR",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "needs": [
+    {
+      "needId": "P4-02-FR-N001",
+      "resourceKey": "performance-mall-side-stage-evening",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-FR-000050_1",
+        "T-FR-000344_1",
+        "T-FR-000345_1",
+        "T-FR-000346_1",
+        "T-FR-000347_1",
+        "T-FR-000052_1",
+        "T-FR-000348_1",
+        "T-FR-000349_1",
+        "T-FR-000054_1",
+        "T-FR-000055_1",
+        "T-FR-000056_1",
+        "T-FR-000350_1",
+        "T-FR-000351_1"
+      ],
+      "reason": "演出七点开场，现有商场侧台资源标day；不得无依据沿用日景。",
+      "constraints": [
+        "确认既有舞台室内光可用于晚间则交复用证据，否则交同地点晚间版本；不改变人物西装和负责人画外。"
+      ],
+      "existingAssetIds": [
+        "bg-performance-mall-side-stage-day"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-FR-N002",
+      "resourceKey": "noodle-shop-evening",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-FR-000352_1",
+        "T-FR-000353_1"
+      ],
+      "reason": "七点演出结束后吃面，现有面馆标day；需核对室内照明/窗外或补晚间版本。",
+      "constraints": [
+        "保持同一面馆布局与散场西装，不替换成朋友聚餐店；若复用需说明窗外与光线适用。"
+      ],
+      "existingAssetIds": [
+        "bg-noodle-shop-day"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-FR-N003",
+      "resourceKey": "old-netcafe-backroom-neutral-day",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-FR-000159_1",
+        "T-FR-000430_1",
+        "T-FR-000431_1",
+        "T-FR-000432_1",
+        "T-FR-000433_1",
+        "T-FR-000434_1",
+        "T-FR-000435_1",
+        "T-FR-000161_1"
+      ],
+      "reason": "第34天取班饭，原文未定夜间；现有后间夜图照明须核对或交中性室内光版本。",
+      "constraints": [
+        "沿用后间布局及饭盒位置，不改正文补夜晚；人物到场时点按节点。"
+      ],
+      "existingAssetIds": [
+        "bg-old-netcafe-backroom-night"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-FR-N004",
+      "resourceKey": "cg086-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000040_1"
+      ],
+      "reason": "拟复用 CG086：仅覆盖“至少让我自己答应。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg086"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG086",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-FR-N005",
+      "resourceKey": "cg090-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000440_1"
+      ],
+      "reason": "拟复用 CG090：仅覆盖“他把游戏机留下的灰印擦了两遍。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg090"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG090",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-FR-N006",
+      "resourceKey": "cg091-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000475_1"
+      ],
+      "reason": "拟复用 CG091：仅覆盖“他在旁边坐下。我想说只要没人知道是我，想到我们一起吃过的那些面，又说不出口。毛狼把那页选中，按了删除。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg091"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG091",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-FR-N007",
+      "resourceKey": "cg108-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000264_1"
+      ],
+      "reason": "拟复用 CG108：仅覆盖“师匠递来一份早饭，这回只买了两份。毛狼还在外地，没有一份多出来的被摆在台阶上装作人齐了。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg108"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG108",
+      "status": "open",
+      "resolution": null
+    },
+    {
+      "needId": "P4-02-FR-N008",
+      "resourceKey": "cg094-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000603_1"
+      ],
+      "reason": "拟复用 CG094：仅覆盖“我拿着笔，过了一会儿才说。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg094"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG094",
+      "status": "open",
+      "resolution": null
+    }
+  ]
+}

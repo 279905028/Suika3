@@ -1,0 +1,1224 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "P4候选交付接口 v1",
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "complete",
+            "partial",
+            "diagnostic"
+          ]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "kind",
+        "description",
+        "missing"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "reference"
+      ],
+      "additionalProperties": false
+    },
+    "approval": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "enum": [
+            "approved",
+            "diagnostic-only"
+          ]
+        },
+        "evidence": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/evidence"
+            }
+          ]
+        },
+        "scope": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "status",
+        "evidence",
+        "scope"
+      ],
+      "additionalProperties": false
+    },
+    "a11": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "assetId": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "path",
+        "sha256",
+        "assetId"
+      ],
+      "additionalProperties": false
+    },
+    "asset": {
+      "type": "object",
+      "properties": {
+        "assetId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+        },
+        "type": {
+          "enum": [
+            "background",
+            "character",
+            "prop",
+            "cg"
+          ]
+        },
+        "sourcePath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "runtimePath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "runtimeSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "format": {
+          "enum": [
+            "PNG",
+            "WEBP"
+          ]
+        },
+        "alpha": {
+          "type": "boolean"
+        },
+        "encoding": {
+          "type": "object",
+          "properties": {
+            "lossless": {
+              "type": "boolean"
+            },
+            "tool": {
+              "type": "string",
+              "minLength": 1
+            },
+            "parameters": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "lossless",
+            "tool",
+            "parameters"
+          ],
+          "additionalProperties": false
+        },
+        "approval": {
+          "$ref": "#/$defs/approval"
+        },
+        "a11": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/a11"
+            }
+          ]
+        },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "assetId",
+        "type",
+        "sourcePath",
+        "sourceSha256",
+        "runtimePath",
+        "runtimeSha256",
+        "bytes",
+        "width",
+        "height",
+        "format",
+        "alpha",
+        "encoding",
+        "approval",
+        "a11",
+        "restrictions"
+      ],
+      "additionalProperties": false
+    },
+    "placement": {
+      "type": "object",
+      "properties": {
+        "assetId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "enum": [
+            "bg",
+            "left",
+            "center",
+            "right",
+            "prop1",
+            "prop2",
+            "cg"
+          ]
+        },
+        "x": {
+          "type": "integer"
+        },
+        "y": {
+          "type": "integer"
+        },
+        "scale": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 8
+        },
+        "form": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        },
+        "costume": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "minLength": 1
+            }
+          ]
+        }
+      },
+      "required": [
+        "assetId",
+        "layer",
+        "x",
+        "y",
+        "scale",
+        "form",
+        "costume"
+      ],
+      "additionalProperties": false
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "background": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/placement"
+            }
+          ]
+        },
+        "characters": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "$ref": "#/$defs/placement"
+          }
+        },
+        "props": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "$ref": "#/$defs/placement"
+          }
+        },
+        "cg": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/placement"
+            }
+          ]
+        }
+      },
+      "required": [
+        "background",
+        "characters",
+        "props",
+        "cg"
+      ],
+      "additionalProperties": false
+    },
+    "anchor": {
+      "type": "object",
+      "properties": {
+        "nodeId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "nodeId",
+        "file",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "binding": {
+      "type": "object",
+      "properties": {
+        "bindingId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"
+        },
+        "anchor": {
+          "$ref": "#/$defs/anchor"
+        },
+        "condition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "routeIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "enter": {
+          "$ref": "#/$defs/state"
+        },
+        "exit": {
+          "type": "object",
+          "properties": {
+            "at": {
+              "const": "next-node"
+            },
+            "restore": {
+              "$ref": "#/$defs/state"
+            }
+          },
+          "required": [
+            "at",
+            "restore"
+          ],
+          "additionalProperties": false
+        },
+        "cgId": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^CG[0-9]{3}$"
+            }
+          ]
+        },
+        "fullView": {
+          "type": "boolean"
+        },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "bindingId",
+        "anchor",
+        "condition",
+        "routeIds",
+        "enter",
+        "exit",
+        "cgId",
+        "fullView",
+        "restrictions"
+      ],
+      "additionalProperties": false
+    },
+    "fileHash": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "manifest": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "SUI-I-1"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/asset"
+          }
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "version",
+        "scope",
+        "assets"
+      ],
+      "additionalProperties": false
+    },
+    "bindings": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "SUI-I-1"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "contentBuildId": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "manifestSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "sourceHashes": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          },
+          "minProperties": 1
+        },
+        "bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/binding"
+          }
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "version",
+        "scope",
+        "contentBuildId",
+        "manifestSha256",
+        "sourceHashes",
+        "bindings"
+      ],
+      "additionalProperties": false
+    },
+    "snapshot": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "SUI-I-1"
+        },
+        "version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "interfaceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "manifest": {
+          "$ref": "#/$defs/fileHash"
+        },
+        "bindings": {
+          "$ref": "#/$defs/fileHash"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fileHash"
+          }
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "version",
+        "scope",
+        "interfaceSha256",
+        "manifest",
+        "bindings",
+        "files",
+        "missing"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "schemas": {
+    "bindings": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "p4-package-v1"
+        },
+        "packageId": {
+          "enum": [
+            "P4-02-COMMON",
+            "P4-02-XM",
+            "P4-02-ZZ",
+            "P4-02-MY",
+            "P4-02-PI",
+            "P4-02-HQ",
+            "P4-02-FR"
+          ]
+        },
+        "inputFingerprint": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "contentBuildId": {
+          "const": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353"
+        },
+        "bindings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nodeId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "binding": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "$ref": "#/$defs/binding"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "nodeId",
+              "binding"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "packageId",
+        "inputFingerprint",
+        "contentBuildId",
+        "bindings"
+      ],
+      "additionalProperties": false
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "p4-package-v1"
+        },
+        "packageId": {
+          "enum": [
+            "P4-02-COMMON",
+            "P4-02-XM",
+            "P4-02-ZZ",
+            "P4-02-MY",
+            "P4-02-PI",
+            "P4-02-HQ",
+            "P4-02-FR"
+          ]
+        },
+        "inputFingerprint": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "contentBuildId": {
+          "const": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353"
+        },
+        "reviews": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "unitId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "nodeIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "status": {
+                "enum": [
+                  "pending",
+                  "reviewed",
+                  "blocked"
+                ]
+              },
+              "decision": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "enum": [
+                      "reuse",
+                      "rebind",
+                      "neutral",
+                      "new-art"
+                    ]
+                  }
+                ]
+              },
+              "basis": {
+                "type": "string"
+              },
+              "needIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "unresolved": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "unitId",
+              "nodeIds",
+              "status",
+              "decision",
+              "basis",
+              "needIds",
+              "unresolved"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "packageId",
+        "inputFingerprint",
+        "contentBuildId",
+        "reviews"
+      ],
+      "additionalProperties": false
+    },
+    "needs": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "p4-package-v1"
+        },
+        "packageId": {
+          "enum": [
+            "P4-02-COMMON",
+            "P4-02-XM",
+            "P4-02-ZZ",
+            "P4-02-MY",
+            "P4-02-PI",
+            "P4-02-HQ",
+            "P4-02-FR"
+          ]
+        },
+        "inputFingerprint": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "contentBuildId": {
+          "const": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353"
+        },
+        "needs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "needId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "resourceKey": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "enum": [
+                  "character",
+                  "expression",
+                  "background",
+                  "prop",
+                  "cg"
+                ]
+              },
+              "action": {
+                "enum": [
+                  "reuse",
+                  "offscreen",
+                  "new",
+                  "repair"
+                ]
+              },
+              "ownerTask": {
+                "enum": [
+                  "P4-03",
+                  "P4-04"
+                ]
+              },
+              "nodeIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              },
+              "constraints": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "existingAssetIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "proposedAssetId": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                ]
+              },
+              "cgId": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "string",
+                    "pattern": "^CG[0-9]{3}$"
+                  }
+                ]
+              },
+              "status": {
+                "enum": [
+                  "open",
+                  "resolved",
+                  "cancelled"
+                ]
+              },
+              "resolution": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "assetId": {
+                        "anyOf": [
+                          {
+                            "type": "null"
+                          },
+                          {
+                            "type": "string",
+                            "minLength": 1
+                          }
+                        ]
+                      },
+                      "reason": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "evidence": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "path": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "sha256": {
+                              "type": "string",
+                              "pattern": "^[0-9a-f]{64}$"
+                            }
+                          },
+                          "required": [
+                            "path",
+                            "sha256"
+                          ],
+                          "additionalProperties": false
+                        },
+                        "uniqueItems": true
+                      }
+                    },
+                    "required": [
+                      "assetId",
+                      "reason",
+                      "evidence"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "needId",
+              "resourceKey",
+              "kind",
+              "action",
+              "ownerTask",
+              "nodeIds",
+              "reason",
+              "constraints",
+              "existingAssetIds",
+              "proposedAssetId",
+              "cgId",
+              "status",
+              "resolution"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "packageId",
+        "inputFingerprint",
+        "contentBuildId",
+        "needs"
+      ],
+      "additionalProperties": false
+    },
+    "boundaries": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "p4-package-v1"
+        },
+        "packageId": {
+          "enum": [
+            "P4-02-COMMON",
+            "P4-02-XM",
+            "P4-02-ZZ",
+            "P4-02-MY",
+            "P4-02-PI",
+            "P4-02-HQ",
+            "P4-02-FR"
+          ]
+        },
+        "inputFingerprint": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "contentBuildId": {
+          "const": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353"
+        },
+        "boundaries": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "boundaryId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "enum": [
+                  "pending",
+                  "reviewed",
+                  "blocked"
+                ]
+              },
+              "exitPolicy": {
+                "const": "clear-before-target"
+              },
+              "restorePolicy": {
+                "const": "recompute-destination"
+              },
+              "basis": {
+                "type": "string"
+              },
+              "unresolved": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              }
+            },
+            "required": [
+              "boundaryId",
+              "status",
+              "exitPolicy",
+              "restorePolicy",
+              "basis",
+              "unresolved"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "packageId",
+        "inputFingerprint",
+        "contentBuildId",
+        "boundaries"
+      ],
+      "additionalProperties": false
+    },
+    "resources": {
+      "type": "object",
+      "properties": {
+        "schemaVersion": {
+          "const": "p4-resources-v1"
+        },
+        "inputFingerprint": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "assetId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "type": {
+                "enum": [
+                  "character",
+                  "background",
+                  "prop",
+                  "cg"
+                ]
+              },
+              "source": {
+                "type": "object",
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "additionalProperties": false
+              },
+              "runtime": {
+                "type": "object",
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "additionalProperties": false
+              },
+              "reviewStatus": {
+                "enum": [
+                  "pending",
+                  "passed",
+                  "rework"
+                ]
+              },
+              "approvalEvidence": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[0-9a-f]{64}$"
+                      }
+                    },
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              },
+              "checkEvidence": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "path": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "sha256": {
+                        "type": "string",
+                        "pattern": "^[0-9a-f]{64}$"
+                      }
+                    },
+                    "required": [
+                      "path",
+                      "sha256"
+                    ],
+                    "additionalProperties": false
+                  }
+                ]
+              }
+            },
+            "required": [
+              "assetId",
+              "type",
+              "source",
+              "runtime",
+              "reviewStatus",
+              "approvalEvidence",
+              "checkEvidence"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        },
+        "cg": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "cgId": {
+                "type": "string",
+                "pattern": "^CG[0-9]{3}$"
+              },
+              "assetId": {
+                "type": "string",
+                "minLength": 1
+              },
+              "registrationEvidence": {
+                "type": "object",
+                "properties": {
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[0-9a-f]{64}$"
+                  }
+                },
+                "required": [
+                  "path",
+                  "sha256"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "cgId",
+              "assetId",
+              "registrationEvidence"
+            ],
+            "additionalProperties": false
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "inputFingerprint",
+        "assets",
+        "cg"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

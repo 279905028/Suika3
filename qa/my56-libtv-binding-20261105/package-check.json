@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "runtimeBuildId": "af83aacf3be43901b4dce67a42b59e1c145058c3eb15f037695f9421517742d8",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "checks": [
+    "构建记录与运行清单同版本",
+    "全部冻结输入保持原指纹，当前运行/正文/资源输入无漂移",
+    "全部网页产物与构建时指纹一致",
+    "原静态资源清单未改写",
+    "原静态绑定未改写",
+    "29段视频和29张回退静帧从采用清单到网页逐字节一致"
+  ],
+  "nonRuntimeChanges": [],
+  "frozenInputCount": 1248,
+  "outputCount": 67,
+  "motionCG": 29
+}

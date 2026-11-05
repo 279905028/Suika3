@@ -1,0 +1,126 @@
+{
+  "key": "MCG-HQ-E1",
+  "ending": "HQ-E1",
+  "route": "huangqiuqiu",
+  "node": "T-HQ-000586_1",
+  "choices": {
+    "HQ07-01": "A",
+    "HQ08-01": "A",
+    "C01-02": "A",
+    "C02-01": "A"
+  },
+  "relation": null,
+  "fallback": "assets/sources/20261103/P4-04/CG109/cg109-v002.webp",
+  "meeting": true,
+  "adopted": false,
+  "paragraphId": "T-HQ-000586",
+  "condition": "HQ07-01=A&HQ08-01=A",
+  "entryGate": {
+    "type": "route",
+    "value": "huangqiuqiu"
+  },
+  "text": "写到一半，她靠过来，下巴贴在我肩边。我的字歪了一点。",
+  "source": {
+    "file": "scenario/黄球球-门后.md",
+    "candidateFile": "docs/修订协作/P4-演出与美术/P4-07/正文/黄球球-门后.md",
+    "lineHint": 1850,
+    "context": "HQ-E1",
+    "sha256": "80703fa218fb281fe309fde7de9e70ee577f007054c54b895f1c8d9eb71e8b0d"
+  },
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "firstFrame": {
+    "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.webp",
+    "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380"
+  },
+  "prompt": {
+    "path": "assets/sources/20261104/P4-V/HQ-E1/video-v001-prompt.txt",
+    "sha256": "e8ac2bc316655da20e4cc9dcc7c2211ffe36b581f1c5ace732bbb9eda366a0e2"
+  },
+  "spec": {
+    "duration": 5,
+    "tolerance": [
+      4.5,
+      5.5
+    ],
+    "ratio": "16:9",
+    "minimumSize": [
+      1280,
+      720
+    ],
+    "runtimeCodec": "h264",
+    "runtimePixelFormat": "yuv420p",
+    "runtimeFps": 24,
+    "audio": false
+  },
+  "status": "video-v001-production-pass",
+  "formalBinding": false,
+  "staticFallback": {
+    "path": "assets/sources/20261104/P4-V/HQ-E1/fallback-v001.webp",
+    "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380",
+    "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+  },
+  "dreamina": {
+    "imageNodeId": "node_ghzngzv4r2",
+    "videoNodeId": "node_1rk77jbpa3",
+    "submitId": "279904e7-4220-4789-ac5d-6f0c4dd4ce95",
+    "model": "seedance_2.5",
+    "resolution": "720p",
+    "duration": 5,
+    "resourceId": "075a5c7e-20a7-4d6f-8892-1e9bcd78d2dd",
+    "downloadSha256": "61233c746a008142d84575d32d6665c8a4b65ab355290217514caa6dec82baf4"
+  },
+  "originalVideo": {
+    "path": "assets/sources/20261104/P4-V/HQ-E1/raw-v001.mp4",
+    "bytes": 11744965,
+    "sha256": "61233c746a008142d84575d32d6665c8a4b65ab355290217514caa6dec82baf4",
+    "durationSeconds": 5.06,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.12,
+    "audioPresent": true,
+    "decodedFrames": 121,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "runtimeCandidate": {
+    "path": "assets/sources/20261104/P4-V/HQ-E1/runtime-v001.mp4",
+    "bytes": 1951434,
+    "sha256": "34eddbae8b95aeba93dd991dbcc3ac42a8665f06f50959e8624d9c46af5c94cd",
+    "durationSeconds": 5.0,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "audioPresent": false,
+    "decodedFrames": 120,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "firstGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/HQ-E1/first-v001.webp",
+    "bytes": 955182,
+    "sha256": "291c1e53d043a222edf85fbcf321119fd96ce30f5c0025e8a0a9847c8f8d8614"
+  },
+  "lastGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/HQ-E1/last-v001.webp",
+    "bytes": 896218,
+    "sha256": "1030cb49a0eeb00f6a7b6ea3be461cd0675c028f1595cd57fc9bb75557ce858e"
+  },
+  "mediaCheck": "qa/ending-motion-P4-V-Q-20261104/HQ-E1/media-check.json",
+  "productionReview": {
+    "ending": "HQ-E1",
+    "status": "production-pass",
+    "observations": [
+      "人形黄球球靠肩、笔尖短暂移动后停笔；杯子及既有杯名保持连续。",
+      "未提前出现后段亲吻，未改变形态或新增手机。"
+    ],
+    "repair": [],
+    "evidence": "qa/ending-motion-P4-V-Q-20261104/HQ-E1/contact-sheet.jpg",
+    "independentReview": "pending",
+    "formalAdoption": false
+  },
+  "independentReview": "pending"
+}

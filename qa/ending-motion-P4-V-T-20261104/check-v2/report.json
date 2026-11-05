@@ -1,0 +1,25 @@
+{
+  "status": "fail",
+  "scope": "条件单元验证与独立Suika Wasm视频技术夹具，不是六段成片或P5全路线验收",
+  "checks": [
+    "XM-E1准确节点与选择通过",
+    "ZZ-E1准确节点与选择通过",
+    "MY-E1准确节点与选择通过",
+    "PI-E1准确节点与选择通过",
+    "PI-LE1准确节点与选择通过",
+    "HQ-E1准确节点与选择通过",
+    "孟遥AB禁止播放",
+    "孟遥BA禁止播放",
+    "孟遥BB禁止播放",
+    "不依赖尚未提交的ENDING"
+  ],
+  "errors": [],
+  "negativeCases": 34,
+  "browser": "156.0.8078.80",
+  "error": "AssertionError [ERR_ASSERTION]: Invalid config line at file \"config.ini\" line 1.\nError: :4: \n    at verify (/Users/yipin/Desktop/Suika3/tools/story-revision/ending-motion/verify.cjs:29:46)",
+  "engineEvents": [
+    "Invalid config line at file \"config.ini\" line 1.",
+    "Error: :4: "
+  ],
+  "mediaEvents": []
+}

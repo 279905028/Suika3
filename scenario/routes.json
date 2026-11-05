@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "revision": "sui-s-rules-20261028",
+  "revision": "sui-s-single-epilogue-20261102",
   "status": "manuscript-only",
   "developmentRoot": "/Users/yipin/Desktop/Suika3",
   "entry": "第三章-选一条路.md",
@@ -166,7 +166,7 @@
   "unresolved": [],
   "runtimeReady": false,
   "contentContract": {
-    "version": 1,
+    "version": 2,
     "status": "frozen",
     "scope": "内容规则与源稿控制流；非引擎、存档或资源契约",
     "document": "规则契约.md"
@@ -350,26 +350,35 @@
   },
   "epilogues": {
     "dispatchMarker": "EPILOGUE PM",
+    "entryPolicy": "no-ongoing-romance-at-ending",
+    "romanceEndings": [
+      "XM-E1",
+      "ZZ-E1",
+      "MY-E1",
+      "PI-E1",
+      "PI-LE1",
+      "HQ-E1"
+    ],
     "readAtMostOne": true,
     "rules": [
       {
         "relation": "HIGH",
         "endings": [
-          "PI-E1"
+          "XM-E1",
+          "ZZ-E1",
+          "MY-E1",
+          "PI-E1",
+          "HQ-E1"
         ],
         "target": null
       },
       {
         "relation": "HIGH",
         "endings": [
-          "XM-E1",
           "XM-E2",
-          "ZZ-E1",
           "ZZ-E2",
-          "MY-E1",
           "MY-E2",
           "PI-E2",
-          "HQ-E1",
           "HQ-E2",
           "FR-E1",
           "FR-E2"
@@ -383,16 +392,22 @@
         "relation": "LOW",
         "endings": [
           "XM-E1",
-          "XM-E2",
           "ZZ-E1",
-          "ZZ-E2",
           "MY-E1",
-          "MY-E2",
           "HQ-E1",
+          "PI-LE1"
+        ],
+        "target": null
+      },
+      {
+        "relation": "LOW",
+        "endings": [
+          "XM-E2",
+          "ZZ-E2",
+          "MY-E2",
           "HQ-E2",
           "FR-E1",
           "FR-E2",
-          "PI-LE1",
           "PI-LE2"
         ],
         "requiresEvent": "PIAO-PREGNANCY-READ",

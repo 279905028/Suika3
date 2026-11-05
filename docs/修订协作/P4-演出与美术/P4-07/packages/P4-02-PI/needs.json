@@ -1,0 +1,268 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-PI",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "needs": [
+    {
+      "needId": "P4-02-PI-N001",
+      "resourceKey": "CG066",
+      "kind": "cg",
+      "action": "repair",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000272_1"
+      ],
+      "reason": "缩略构图复核确认既有CG066两人站立；冻结段落前文为文文床沿、飘矮凳，纸在两人之间，未写起身。不能改正文迁就图。",
+      "constraints": [
+        "修为床沿/矮凳之间坐姿亲吻与散纸",
+        "沿用人物已确认形象、同一小屋",
+        "不得扩大到LOW或远程段；只T-PI-000272_1",
+        "保留CG066编号，新原件另存，P4-05复验后闭合"
+      ],
+      "existingAssetIds": [
+        "cg-pi-cg066"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG066",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-pi-cg066",
+        "reason": "已按PI-N001返修为文文坐床沿、飘坐矮凳、纸已落地；v003同时恢复黑帆布鞋和细红绳。原图保留。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-pi-cg066@P4-04.json",
+            "sha256": "93eac37728b779d007d1e22a8b7bd622a05b3320061b22d794693816c37d6899"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-PI-N002",
+      "resourceKey": "CG069-morning-station",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000343_1"
+      ],
+      "reason": "第60天早上站前拥抱，现CG069缩略图窗外偏蓝暗且暖灯明显，需P4-04判断是否确为晨间、否则返修，不能使用夜站替换早晨。",
+      "constraints": [
+        "仅PI06=A与PI08=A拥抱继续",
+        "文本明确早上、屋檐与进站口，时段不能改",
+        "不得用于分开支的告别拥抱"
+      ],
+      "existingAssetIds": [
+        "cg-pi-cg069"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG069",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-pi-cg069",
+        "reason": "车站放包、主动拥抱符合HIGH继续；不可搬到第91天远程电话里。完整图复核：山体、雨云与建筑可见漫射天光，天空不是黑夜，屋檐暖灯与阴雨清晨不冲突；只认第60天早上，不拿此图证明具体钟点。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-pi-cg069@baseline.json",
+            "sha256": "84bfed7964b580d8ba0b423fb8aa29389e2c7b731ff553056b371d5ca2374be6"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-PI-N003",
+      "resourceKey": "guiyang-bus-stop-day",
+      "kind": "background",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-PI-000391_1",
+        "T-PI-000793_1",
+        "T-PI-000794_1",
+        "T-PI-000795_1",
+        "T-PI-000796_1",
+        "T-PI-000393_1",
+        "T-PI-000394_1",
+        "T-PI-000395_1",
+        "T-PI-000396_1",
+        "T-PI-000397_1",
+        "T-PI-000398_1",
+        "T-PI-000399_1",
+        "T-PI-000400_1"
+      ],
+      "reason": "第75天贵阳交钥匙后公交站/车上，现目录只有明确毕节公交站，不能套用地点。",
+      "constraints": [
+        "候车与车内分别确认可复用范围",
+        "HIGH AA电话与E2不联系共用地点，不生成飘到场",
+        "不补具体站名/新地标"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-guiyang-bus-stop-day",
+        "reason": "现行目录仅有明确毕节站台，不能代贵阳。另因T-PI-000393_1明确“那个晚上没见成”，为AA候车补同站晚间版。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-guiyang-bus-stop-day@P4-03.json",
+            "sha256": "62415a80da264566bb69f32e3f105c404a4497b4592e31a2501f714cd8b9f282"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-PI-N004",
+      "resourceKey": "piao-low-ending-camera-rope",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000630_1"
+      ],
+      "reason": "LOW继续结局已扩成真实试交往、相机绳结与递机；现CG068是递相机近景，旧锚已不准确。本包移到T-PI-000630，由P4-04复核是否可表现试交往收束，无需机械新增CG。",
+      "constraints": [
+        "镜头为相机转交，不是相机包带结",
+        "前后两页清CG，交机后飘不得继续持机",
+        "孩子相关责任和自主决定不通过画面改写"
+      ],
+      "existingAssetIds": [
+        "cg-pi-cg068"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG068",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-pi-cg068",
+        "reason": "只复用递交相机瞬间：人物、红绳、黑色相机和下午街巷吻合。不能从000627打结起铺满000634，也不能在000632第二张已拍时继续递相机。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-pi-cg068@baseline.json",
+            "sha256": "397255559873f7f14d51270adbc58fd82270e669debe89f700b9abe73dc8a318"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-PI-P407-CG121",
+      "resourceKey": "CG121",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000327_1"
+      ],
+      "reason": "HIGH短住房安排，文文记录、飘确认；未把地址具体化为新剧情。",
+      "constraints": [
+        "HIGH短住房安排，文文记录、飘确认；未把地址具体化为新剧情。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-pi-cg121",
+      "cgId": "CG121",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-pi-cg121",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-pi-cg121@CG-expansion-20.json",
+            "sha256": "c71177dddf9483d28ad4aee7fe7087db93d5cac6a3265281fd107458cb3b5af4"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-PI-P407-CG122",
+      "resourceKey": "CG122",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000436_1"
+      ],
+      "reason": "作为收到的照片显示，两本册子、一杯、一纸片；无现场人物。见面时间由正文解释，不从模糊纸片读数。",
+      "constraints": [
+        "作为收到的照片显示，两本册子、一杯、一纸片；无现场人物。见面时间由正文解释，不从模糊纸片读数。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-pi-cg122",
+      "cgId": "CG122",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-pi-cg122",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-pi-cg122@CG-expansion-20.json",
+            "sha256": "d02af0b512a09ad2eb1d15ca8f45fe931f4d06395df010404dc4149fd2ad2a9b"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-PI-P407-CG123",
+      "resourceKey": "CG123",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-PI-000641_1"
+      ],
+      "reason": "LOW朋友结局，毛狼与飘对日程，大片空白；文文未被画成恋人。",
+      "constraints": [
+        "LOW朋友结局，毛狼与飘对日程，大片空白；文文未被画成恋人。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-pi-cg123",
+      "cgId": "CG123",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-pi-cg123",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-pi-cg123@CG-expansion-20.json",
+            "sha256": "63f01cc2073b983b09cb830d68ac1663f3b23032b20f69a268d40b72225ff8fa"
+          }
+        ]
+      }
+    }
+  ]
+}

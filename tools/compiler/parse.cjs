@@ -4,6 +4,7 @@ const crypto = require('node:crypto');
 const hash = s => crypto.createHash('sha256').update(s).digest('hex');
 const choiceRE = /^\*\*选择 ([A-Z0-9]+(?:-[A-Z0-9]+)*-\d{2})｜(.+)\*\*$/;
 const endingRE = /^#### 结局 ([A-Z]+-L?E[12])｜(.+)$/;
+const {metadata,fileCodes}=require('./text.cjs');
 
 function condition(expr, choices, endings) {
   return expr.split('|').map(group => group.split('&').map(term => {
@@ -17,7 +18,8 @@ function condition(expr, choices, endings) {
   }));
 }
 
-function parse(R, sources, {pageSize = 120} = {}) {
+function parse(R, sources, {pageSize = 120, textPolicy = 'legacy'} = {}) {
+  assert(['legacy','mixed','required'].includes(textPolicy),'textPolicy非法');
   assert(Number.isInteger(pageSize) && pageSize >= 32 && pageSize <= 200, 'pageSize须为32至200的整数');
   assert.equal(R.schemaVersion, 2, '只支持schemaVersion 2');
   assert.equal(R.contentContract.status, 'frozen');
@@ -52,9 +54,10 @@ function parse(R, sources, {pageSize = 120} = {}) {
     assert.deepEqual(c.options.map(o => o.value).sort(), expected, `${c.id}选项缺失、重复或非法`);
   }
   const segments = new Intl.Segmenter('zh', {granularity:'grapheme'});
+  const codes=fileCodes(R),textIds=new Set(),groupScopes=new Map();
   for (const file of files) {
     const list = [], stack = [], occurrences = new Map();
-    let body = false, activeChoice = null, optionBranch = null, scope = 'FILE', lastNode = null;
+    let body = false, activeChoice = null, optionBranch = null, scope = 'FILE', lastNode = null, pendingText = null, textBoundary = 0, previousExplicit = false;
     const loc = (line, raw) => ({file, line, anchor:scope, sha256:hash(raw)});
     const unique = (kind, raw) => {
       const base = `${kind}_${hash(file+'\0'+scope+'\0'+raw).slice(0,20)}`;
@@ -68,6 +71,16 @@ function parse(R, sources, {pageSize = 120} = {}) {
     for (const [index, raw] of sources[file].split('\n').entries()) {
       const line = raw.trim(), ln = index+1; let m;
       try {
+        if(pendingText)assert(line&&!/^(#|<!--|>|→|\*\*|\||```|---$)/.test(line),'TEXT后必须紧接一行正文');
+        if (/^<!-- TEXT (.+) -->$/.test(line)) {
+          assert(textPolicy!=='legacy','TEXT须显式启用mixed或required策略');
+          assert(body,'TEXT在正文外');
+          const data=metadata(/^<!-- TEXT (.+) -->$/.exec(line)[1],{code:codes[file]});
+          assert(!textIds.has(data.id),'重复TEXT id：'+data.id);textIds.add(data.id);
+          if(data.group){const boundary=file+':'+textBoundary;assert(!groupScopes.has(data.group)||groupScopes.get(data.group)===boundary,'TEXT group跨越结构边界');groupScopes.set(data.group,boundary);}
+          pendingText={data,line:ln};previousExplicit=false;continue;
+        }
+        if(line.startsWith('#')||line.startsWith('<!--')||choiceRE.test(line))textBoundary++;
         if ((m = /^<!-- IF (.+) -->$/.exec(line))) {
           const node = emit('branch',ln,raw,{condition:condition(m[1],choices,endings)}); stack.push(node);
         } else if (line === '<!-- ENDIF -->') {
@@ -115,11 +128,17 @@ function parse(R, sources, {pageSize = 120} = {}) {
           scope=line;omitted.push({file,line:ln,reason:'标题'});
         } else if (body) {
           assert(!/^(\||```|---$)/.test(line),'正文中不支持的Markdown结构');
-          const chars=Array.from(segments.segment(line),x=>x.segment), paragraph=unique('TEXT',line);
-          for(let start=0;start<chars.length;start+=pageSize)emit('text',ln,raw,{text:chars.slice(start,start+pageSize).join(''),paragraph,offset:start},paragraph+'_'+(start/pageSize+1));
+          assert(!previousExplicit,'TEXT正文必须为单行，段落间须空行');
+          assert(textPolicy!=='required'||pendingText,'正文缺少TEXT标记');
+          const chars=Array.from(segments.segment(line),x=>x.segment), paragraph=pendingText?.data.id||unique('TEXT',line);
+          for(let start=0;start<chars.length;start+=pageSize)emit('text',ln,raw,{text:chars.slice(start,start+pageSize).join(''),paragraph,offset:start,...(pendingText?{textMeta:pendingText.data,markerLine:pendingText.line}:{})},paragraph+'_'+(start/pageSize+1));
+          previousExplicit=!!pendingText;pendingText=null;
         } else omitted.push({file,line:ln,reason:'简介或元数据'});
+        assert(!pendingText,'TEXT后不能跳过编辑导航或非正文行');
+        if(!line||line.startsWith('#')||line.startsWith('<!--')||choiceRE.test(line))previousExplicit=false;
       } catch(e) {throw Error(`${file}:${ln} ${e.message}`,{cause:e});}
     }
+    assert(!pendingText,file+' TEXT缺正文');
     assert(!stack.length,file+' IF未闭合');endOption();
     emit('finish',sources[file].split('\n').length,'',{file},'END_'+hash(file).slice(0,16));
     for(let i=0;i<list.length;i++){
@@ -136,6 +155,6 @@ function parse(R, sources, {pageSize = 120} = {}) {
   for(const n of nodes)for(const k of ['next','otherwise','target','returnTo'])if(n[k])assert(allIds.has(n[k]),'悬空目标：'+n[k]);
   for(const c of R.piaoRelation.choices)assert(choices[c.id]?.source.file===c.file,'计分选择缺失或来源不符');
   const entries=Object.fromEntries(files.map(f=>[f,programs[f][0].id]));
-  return {version:1,contract:R,pageSize,entries,entry:entries[R.storyEntry.common[0]],choices,nodes,omitted};
+  return {version:1,contract:R,pageSize,textPolicy,entries,entry:entries[R.storyEntry.common[0]],choices,nodes,omitted};
 }
 module.exports={parse,condition,hash};

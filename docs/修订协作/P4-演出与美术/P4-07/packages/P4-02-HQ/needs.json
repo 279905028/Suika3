@@ -1,0 +1,514 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-HQ",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "needs": [
+    {
+      "needId": "P4-02-HQ-N001",
+      "resourceKey": "old-netcafe-yard-door-closed-night",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-HQ-000125_1",
+        "T-HQ-000409_1",
+        "T-HQ-000410_1",
+        "T-HQ-000411_1",
+        "T-HQ-000127_1",
+        "T-HQ-000128_1",
+        "T-HQ-000129_1",
+        "T-HQ-000412_1",
+        "T-HQ-000413_1",
+        "T-HQ-000131_1",
+        "T-HQ-000132_1",
+        "T-HQ-000133_1",
+        "T-HQ-000134_1",
+        "T-HQ-000135_1",
+        "T-HQ-000136_1",
+        "T-HQ-000414_1",
+        "T-HQ-000415_1",
+        "T-HQ-000416_1",
+        "T-HQ-000417_1",
+        "T-HQ-000138_1",
+        "T-HQ-000418_1",
+        "T-HQ-000419_1",
+        "T-HQ-000420_1",
+        "T-HQ-000421_1",
+        "T-HQ-000141_1",
+        "T-HQ-000181_1",
+        "T-HQ-000456_1",
+        "T-HQ-000457_1",
+        "T-HQ-000458_1",
+        "T-HQ-000459_1",
+        "T-HQ-000460_1",
+        "T-HQ-000461_1",
+        "T-HQ-000462_1",
+        "T-HQ-000184_1",
+        "T-HQ-000463_1",
+        "T-HQ-000464_1",
+        "T-HQ-000186_1",
+        "T-HQ-000187_1",
+        "T-HQ-000277_1"
+      ],
+      "reason": "夜间门始终未开：既有夜图为半开，不能表示拒绝见面。",
+      "constraints": [
+        "保持原后院布局与关闭的门；按夜间及清晨纸条近景分时段输出；不画球球或门内人物；与COMMON共享此资源键。"
+      ],
+      "existingAssetIds": [
+        "bg-old-netcafe-yard-door-ajar-night",
+        "bg-old-netcafe-yard-door-closed-morning"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-old-netcafe-yard-door-closed-night",
+        "reason": "既有夜图门半开，不能表示拒绝见面；保留后院布局，改为严闭门扉的夜间空镜。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-old-netcafe-yard-door-closed-night@P4-03.json",
+            "sha256": "f853281ba7eacc0a4b3912b512f1c1591a960ce3429fe2cebb94fa1739b1e102"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N002",
+      "resourceKey": "old-netcafe-yard-door-open-morning",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-HQ-000225_1",
+        "T-HQ-000496_1",
+        "T-HQ-000497_1",
+        "T-HQ-000498_1",
+        "T-HQ-000499_1",
+        "T-HQ-000500_1"
+      ],
+      "reason": "第60天晨间扶门框退回屋内，既有晨图关门，与动作不符。",
+      "constraints": [
+        "晨光、门打开可扶门框；人物不离门槛，维持人形上身裁切；不补下装。"
+      ],
+      "existingAssetIds": [
+        "bg-old-netcafe-yard-door-closed-morning",
+        "bg-old-netcafe-yard-door-open-afternoon"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-old-netcafe-yard-door-open-morning",
+        "reason": "第60天早晨扶门框退回屋内需开门，原晨图关门；保留晨光和后院，打开门扉。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-old-netcafe-yard-door-open-morning@P4-03.json",
+            "sha256": "d65cfb18e8a8cd4612e4597c930a94f7d3cd06416e6cd91cfbd6ed0585a2b2c0"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N003",
+      "resourceKey": "cg073-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000034_1"
+      ],
+      "reason": "拟复用 CG073：仅覆盖“她把铅笔递过来。我握着杯把，写下两个文，吹了吹笔迹才放稳。她往两只杯子里各倒一点水，拿走写着自己名字的那只，剩下一只留在我手边。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "按锚点守住球形/人形、门禁、文文手机归属与未确认下装裁切；不把普通黄色小球当角色。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-hq-cg073"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG073",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg073",
+        "reason": "两只写名字的杯子与球形黄球球成立；下部杯底文字需全图，不将此球形图复用到人形结尾重写名字。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-hq-cg073@baseline.json",
+            "sha256": "8cda6ad9c337ab5e13196bbd50468c67a6202388e79bf06f287a5ac02a265f9c"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N004",
+      "resourceKey": "cg075-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000058_1"
+      ],
+      "reason": "拟复用 CG075：仅覆盖“第24天，我拍到了那簇白花。照片糊了一半，她拿着我的手机看，想放大，又被自己的小手挡住。我按她说的位置放大，她嫌我放太大，两个人折腾了一会儿才看清。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "按锚点守住球形/人形、门禁、文文手机归属与未确认下装裁切；不把普通黄色小球当角色。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-hq-cg075"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG075",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg075",
+        "reason": "黄球球用文文手机看白花照片，仍球形；设备归文文，不登记她拥有手机。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-hq-cg075@baseline.json",
+            "sha256": "0d74f82a4c70be7a5852ad68cfa8fea0ff5f502ad4de7411d9e7a5de6cb572d2"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N005",
+      "resourceKey": "cg077-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000176_1"
+      ],
+      "reason": "拟复用 CG077：仅覆盖“快吃完时，她把手伸到我这边。不是拿筷子，也没让我帮忙，就在桌沿放着。我把手挪过去，她的小手搭上来，停了一会儿。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "按锚点守住球形/人形、门禁、文文手机归属与未确认下装裁切；不把普通黄色小球当角色。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-hq-cg077"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG077",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg077",
+        "reason": "球形小手搭在桌边文文手上，HQ07选A；不是第55天后的形态。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-hq-cg077@baseline.json",
+            "sha256": "730195c81d1021ff4b51cd26c9e970d62333244facb06cda9d7f8e765a3708ed"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N006",
+      "resourceKey": "cg078-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000197_1"
+      ],
+      "reason": "拟复用 CG078：仅覆盖“棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。黑色颈饰贴着脖颈，右侧眼睛上是白色遮片，手里握着那根浅色的圆脸玩偶棒。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "按锚点守住球形/人形、门禁、文文手机归属与未确认下装裁切；不把普通黄色小球当角色。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-hq-cg078"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG078",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg078",
+        "reason": "门内自主变成人形，眼部遮片、颈饰、外套和玩偶棒吻合；裁切止于已确认上身，不扩下装。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-hq-cg078@baseline.json",
+            "sha256": "5d3852dc2b5e9269ccc375310ec449a91d9f360fad23b4bc441d15ebada52bc4"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N007",
+      "resourceKey": "cg079-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000476_1"
+      ],
+      "reason": "拟复用 CG079：仅覆盖“第二次是她靠过来。我原本撑在沙发边的手被她牵到肩侧，她把额头抵着我。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "按锚点守住球形/人形、门禁、文文手机归属与未确认下装裁切；不把普通黄色小球当角色。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-hq-cg079"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG079",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg079",
+        "reason": "人形黄球球主动额头相抵，室内裁切可用；仅第55天后的既有亲密，不能用于已分开结局。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-hq-cg079@baseline.json",
+            "sha256": "320b2316e9fad25023fd95bfa24685de62099d0fe981dbaceca59885e9d675df"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N008",
+      "resourceKey": "cg082-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000563_1"
+      ],
+      "reason": "拟复用 CG082：仅覆盖“她指了指还挂在钥匙圈上的出租屋钥匙。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "按锚点守住球形/人形、门禁、文文手机归属与未确认下装裁切；不把普通黄色小球当角色。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-hq-cg082"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG082",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg082",
+        "reason": "室内指出租屋钥匙，两人并坐的画面可用；钥匙的求助含义不自动表示同居或恋爱恢复。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-hq-cg082@baseline.json",
+            "sha256": "a31fba6b84403e5266f6a3180ec39954048ee90273c2ef76e3649b2c50f4d052"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N009",
+      "resourceKey": "cg107-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000343_1"
+      ],
+      "reason": "拟复用 CG107：仅覆盖“柜台有人叫我，我把自己的杯子放进柜子，帮白班递了瓶水，就回去吃饭。走到门口，手机五点的旧提醒响了。我看了一会儿，把它取消，留下今晚真正要用的那一个。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "按锚点守住球形/人形、门禁、文文手机归属与未确认下装裁切；不把普通黄色小球当角色。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-hq-cg107"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG107",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg107",
+        "reason": "文文取消五点旧提醒，黄球球不在网吧公开出现；断开后各自生活，无重新球形。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-hq-cg107@baseline.json",
+            "sha256": "063cfaee44d92ca0a94a3231548cf693775f2a873a8978a2679c1c6d40e3c8b2"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-N010",
+      "resourceKey": "hq-e1-cup-name-close",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000586_1",
+        "T-HQ-000588_1",
+        "T-HQ-000598_1"
+      ],
+      "reason": "E1重新写杯名、靠肩与商量下一次已有完整动作，但没有对应结尾近景；交P4-04评估一张必要收束图，不能复用57天初吻图冒充91天。",
+      "constraints": [
+        "优先复用现有形象与房间，仅文文/黄球球；保持人形、上身构图及未确认下装裁切。",
+        "可合并为一张写名靠肩镜头；不要为了三个锚点生产三张图。",
+        "若P4-04判断背景＋正文足够，需有明确取消依据；当前不自行分配CG编号。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": null,
+      "cgId": "CG109",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg109",
+        "reason": "依据HQ-N010新增人形结尾：文文重写杯底名字，黄球球下巴靠肩，双手不碰他的写字手。只这一拍，不提前显示亲吻，不延用到选下次吃什么；上身裁切不补下装。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-hq-cg109@P4-04.json",
+            "sha256": "d5c18c04bb7a7f7d84707a5d31383b415af735625845190061d6b4b557447f77"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-P407-CG124",
+      "resourceKey": "CG124",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000351_1"
+      ],
+      "reason": "采用v002，刀切面已换成剥开的橘瓣；球形、蓝凳与调收音机动作保留。",
+      "constraints": [
+        "采用v002，刀切面已换成剥开的橘瓣；球形、蓝凳与调收音机动作保留。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-hq-cg124",
+      "cgId": "CG124",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg124",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-hq-cg124@CG-expansion-20.json",
+            "sha256": "f4a26cd03011853578b1a0563b25b8397047a04dc9ee7a56e82817f7b4510444"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-P407-CG125",
+      "resourceKey": "CG125",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000194_1"
+      ],
+      "reason": "采用v002，门内电脑已移除并恢复生活房间；黄球球仍为球形，位于门槛内。",
+      "constraints": [
+        "采用v002，门内电脑已移除并恢复生活房间；黄球球仍为球形，位于门槛内。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-hq-cg125",
+      "cgId": "CG125",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg125",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-hq-cg125@CG-expansion-20.json",
+            "sha256": "35226415611b560b7ee80a1adfe94ff3d955bf0257f380bac4b7d716b1821ba0"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-HQ-P407-CG126",
+      "resourceKey": "CG126",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-HQ-000342_1"
+      ],
+      "reason": "仅作最后告别的回忆CG；人形眼贴、项圈、外套保留，杯子包好交还；不把当前电台声变成再次见面。",
+      "constraints": [
+        "仅作最后告别的回忆CG；人形眼贴、项圈、外套保留，杯子包好交还；不把当前电台声变成再次见面。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-hq-cg126",
+      "cgId": "CG126",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-hq-cg126",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-hq-cg126@CG-expansion-20.json",
+            "sha256": "74c1e92ccd5c9bf312c0046938b3d3cb39df27a9f74d48ee5ea90d4e79bc9318"
+          }
+        ]
+      }
+    }
+  ]
+}

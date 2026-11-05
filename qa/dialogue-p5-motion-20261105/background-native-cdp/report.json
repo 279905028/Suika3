@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-05",
+  "status": "fail",
+  "scope": "正式v5播放器的独立媒体夹具；独立临时Chrome、原始CDP、没有焦点或可见性模拟；不是完整剧情或存档测试",
+  "checks": [
+    "首帧确实在前台播放",
+    "真实隐藏并暂停，1.2秒内媒体时间不推进",
+    "实际回到原标签后继续同镜头"
+  ],
+  "events": [
+    {
+      "method": "Target.attachedToTarget",
+      "params": {
+        "sessionId": "729B227588A3EC1ED514AC0082B21704",
+        "targetInfo": {
+          "targetId": "EA98041853607485E571EF56FD055F8D",
+          "type": "page",
+          "title": "P5 动态媒体兼容夹具",
+          "url": "http://127.0.0.1:49357/",
+          "attached": true,
+          "canAccessOpener": false,
+          "browserContextId": "52480D82445D3A1A48814DF0F933F5E4"
+        },
+        "waitingForDebugger": false
+      }
+    },
+    {
+      "method": "Runtime.executionContextCreated",
+      "params": {
+        "context": {
+          "id": 1,
+          "origin": "http://127.0.0.1:49357",
+          "name": "",
+          "uniqueId": "4101472625554797030.-7463470115582069387",
+          "auxData": {
+            "isDefault": true,
+            "type": "default",
+            "frameId": "EA98041853607485E571EF56FD055F8D"
+          }
+        }
+      },
+      "sessionId": "729B227588A3EC1ED514AC0082B21704"
+    },
+    {
+      "method": "Page.domContentEventFired",
+      "params": {
+        "timestamp": 3095.671956
+      },
+      "sessionId": "729B227588A3EC1ED514AC0082B21704"
+    },
+    {
+      "method": "Page.loadEventFired",
+      "params": {
+        "timestamp": 3095.672119
+      },
+      "sessionId": "729B227588A3EC1ED514AC0082B21704"
+    },
+    {
+      "method": "Page.frameStoppedLoading",
+      "params": {
+        "frameId": "EA98041853607485E571EF56FD055F8D"
+      },
+      "sessionId": "729B227588A3EC1ED514AC0082B21704"
+    }
+  ],
+  "profile": "/var/folders/m5/q0b_ssrn1zb_g7fzs17nsj1h0000gn/T/suika-p5-raw-background-L2OcT1",
+  "pid": 29258,
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Chrome/156.0.8078.80",
+    "revision": "@fb096c0011f9d50f0a264a9376420cdea9c421e3",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36",
+    "jsVersion": "15.6.75.27"
+  },
+  "targetId": "EA98041853607485E571EF56FD055F8D",
+  "before": {
+    "hidden": false,
+    "state": "visible",
+    "focus": true
+  },
+  "visibleBefore": {
+    "hidden": false,
+    "key": "MCG-XM-E1",
+    "time": 0.0471,
+    "paused": false
+  },
+  "otherTargetId": "E07EB9E49AECC3F0C7DBB645F7719B49",
+  "hidden": {
+    "before": {
+      "hidden": true,
+      "time": 0.064,
+      "paused": true,
+      "key": "MCG-XM-E1"
+    },
+    "after": {
+      "hidden": true,
+      "time": 0.064,
+      "paused": true,
+      "key": "MCG-XM-E1"
+    }
+  },
+  "resumed": {
+    "before": {
+      "hidden": false,
+      "time": 0.0842,
+      "paused": false,
+      "key": "MCG-XM-E1"
+    },
+    "after": {
+      "hidden": false,
+      "time": 0.5897,
+      "paused": false,
+      "key": "MCG-XM-E1"
+    }
+  },
+  "error": "Error: 等待超时 endingMotion.phase===\"static\" && endingMotion.gallery\n    at until (/Users/yipin/Desktop/Suika3/tools/runtime/verify-motion-background-native.cjs:19:132)\n    at async /Users/yipin/Desktop/Suika3/tools/runtime/verify-motion-background-native.cjs:26:2"
+}

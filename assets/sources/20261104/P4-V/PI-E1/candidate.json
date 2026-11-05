@@ -1,0 +1,124 @@
+{
+  "key": "MCG-PI-E1",
+  "ending": "PI-E1",
+  "route": "piao",
+  "node": "T-PI-000444_1",
+  "choices": {
+    "PI06-01": "A",
+    "PI08-01": "A"
+  },
+  "relation": "HIGH",
+  "fallback": "assets/sources/20261104/P4-V/PI-E1/first-frame-v001.webp",
+  "meeting": false,
+  "adopted": false,
+  "paragraphId": "T-PI-000444",
+  "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A",
+  "entryGate": {
+    "type": "route",
+    "value": "piao"
+  },
+  "text": "我笑着答应。电话断了，我把册子合上，这次空白页里终于有了我自己也认得的话。",
+  "source": {
+    "file": "scenario/飘-空白页.md",
+    "candidateFile": "docs/修订协作/P4-演出与美术/P4-07/正文/飘-空白页.md",
+    "lineHint": 2217,
+    "context": "PI-E1",
+    "sha256": "266f70e11a3d14e3e735896055718c8758f637a7518b52bb2e01a1de60523148"
+  },
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "firstFrame": {
+    "path": "assets/sources/20261104/P4-V/PI-E1/first-frame-v001.webp",
+    "sha256": "490d0005d84cd727332bb29cdb1786c2764074fb85941be6b7ba1d7751d4c231"
+  },
+  "prompt": {
+    "path": "assets/sources/20261104/P4-V/PI-E1/video-v001-prompt.txt",
+    "sha256": "bff8308dfe79d08324a1d80849d5273a72d78d66aa584b219c7aa72ec9934c3b"
+  },
+  "spec": {
+    "duration": 5,
+    "tolerance": [
+      4.5,
+      5.5
+    ],
+    "ratio": "16:9",
+    "minimumSize": [
+      1280,
+      720
+    ],
+    "runtimeCodec": "h264",
+    "runtimePixelFormat": "yuv420p",
+    "runtimeFps": 24,
+    "audio": false
+  },
+  "status": "video-v001-production-pass",
+  "formalBinding": false,
+  "staticFallback": {
+    "path": "assets/sources/20261104/P4-V/PI-E1/fallback-v001.webp",
+    "sha256": "490d0005d84cd727332bb29cdb1786c2764074fb85941be6b7ba1d7751d4c231",
+    "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+  },
+  "dreamina": {
+    "imageNodeId": "node_ea7tte92nt",
+    "videoNodeId": "node_1t9h5e2pjz",
+    "submitId": "f1335038-9f93-48bd-8e8b-b2a7d2a91236",
+    "model": "seedance_2.5",
+    "resolution": "720p",
+    "duration": 5,
+    "resourceId": "19fbe436-348e-4362-bb18-dfb12d685c81",
+    "downloadSha256": "f3f5e9935d3a8a301491d6c97421529e0dd3881ab4d5310baf2738c0ea3f2d78"
+  },
+  "originalVideo": {
+    "path": "assets/sources/20261104/P4-V/PI-E1/raw-v001.mp4",
+    "bytes": 12946675,
+    "sha256": "f3f5e9935d3a8a301491d6c97421529e0dd3881ab4d5310baf2738c0ea3f2d78",
+    "durationSeconds": 5.06,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.12,
+    "audioPresent": true,
+    "decodedFrames": 121,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "runtimeCandidate": {
+    "path": "assets/sources/20261104/P4-V/PI-E1/runtime-v001.mp4",
+    "bytes": 2683036,
+    "sha256": "7f8c6dcc2c1b301efe30781fb7b32404fb338f905e76a5058f5b6c2aecd95dc0",
+    "durationSeconds": 5.0,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "audioPresent": false,
+    "decodedFrames": 120,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "firstGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/PI-E1/first-v001.webp",
+    "bytes": 1055514,
+    "sha256": "0f61d68dee0c108db32758d6b52ba0432d062ada303afd6f11f35a4327ecd3ee"
+  },
+  "lastGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/PI-E1/last-v001.webp",
+    "bytes": 905206,
+    "sha256": "2acdbc5865975bf4921971d4f15f9355b755e8d2790f0b8ea913ce63f86c74c8"
+  },
+  "mediaCheck": "qa/ending-motion-P4-V-Q-20261104/PI-E1/media-check.json",
+  "productionReview": {
+    "ending": "PI-E1",
+    "status": "production-pass",
+    "observations": [
+      "通话结束后的手机下移，册子由打开到完全合上，末段手掌停在封面。",
+      "保持老街店外、文文独处；未将照片内容动画化，未出现飘。"
+    ],
+    "repair": [],
+    "evidence": "qa/ending-motion-P4-V-Q-20261104/PI-E1/contact-sheet.jpg",
+    "independentReview": "pending",
+    "formalAdoption": false
+  },
+  "independentReview": "pending"
+}

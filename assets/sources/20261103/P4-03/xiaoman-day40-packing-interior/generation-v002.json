@@ -1,0 +1,20 @@
+{
+  "key": "xiaoman-day40-packing-interior",
+  "assetId": "bg-xiaoman-packing-interior",
+  "type": "background",
+  "transparent": false,
+  "version": "v002",
+  "refs": [
+    "assets/sources/20261103/P4-03/xiaoman-day40-packing-interior/bg-xiaoman-packing-interior-v001.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Remove ONLY the partial upright suitcase at the extreme left edge of this image. Reconstruct the small obscured area as the same wall/floor and table-leg surroundings, naturally continuous. Keep the rest of this anonymous interior background exactly unchanged: table, wall, floor, camera, lighting, textures, composition, 16:9 landscape size. Do not add any item or any person. In the story the suitcase changes between packing, closed, sitting on it, and reopened; this neutral background must not freeze any suitcase orientation/state. No suitcase, no travel bags, no tickets, text or UI. Return the same composition without the partial suitcase, no border or watermark.",
+  "tool": "built-in imagegen",
+  "generatedPath": "/Users/yipin/.codex/generated_images/01a19ff9-5794-7763-98a8-617da53e663c/exec-e222cca8-41b8-42cb-b3a3-a4c70374895f.png",
+  "savedPath": "assets/sources/20261103/P4-03/xiaoman-day40-packing-interior/bg-xiaoman-packing-interior-v002.png",
+  "sha256": "0e68ec919e051a4666747fbb3c28409bed74828fbea16932b5831c7f856bf24f",
+  "needIds": [
+    "P4-02-XM-N001"
+  ],
+  "supersedes": "bg-xiaoman-packing-interior-v001.png",
+  "reason": "删去固定竖放箱子，避免与打包、开箱、坐箱动作冲突；首稿保留不采用。"
+}

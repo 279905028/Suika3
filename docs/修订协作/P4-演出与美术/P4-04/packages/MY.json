@@ -1,0 +1,787 @@
+{
+  "schemaVersion": "p4-cg-review-v1",
+  "taskId": "P4-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "status": "production-complete-awaiting-P4-05",
+  "scope": "CG图文复核建议；不是02完整绑定或05资源通过目录",
+  "packageId": "P4-02-MY",
+  "records": [
+    {
+      "cgId": "CG038",
+      "assetId": "cg-my-cg038",
+      "title": "四十八和六十",
+      "packageId": "P4-02-MY",
+      "decision": "rebind",
+      "basis": "练习册、48与60分、英语教学书箱成立；在展示旧册时出现，不扩大为新课程或旧相机职业。",
+      "legacyParagraphIds": [
+        "T-MY-000587",
+        "T-MY-000588"
+      ],
+      "proposedNodeIds": [
+        "T-MY-000587_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000587_1",
+        "paragraphId": "T-MY-000587",
+        "condition": "ALL",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "textMeta": {
+          "id": "T-MY-000587",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 143,
+          "context": "### 剧情简介",
+          "sha256": "d75cf6f40219b2333143635a6e8b0ef6688a0519d906d5c0409f15b2368964e3"
+        }
+      },
+      "text": "封面有我的名字。四十八分，旁边还写着六十。我伸手想拿，她先翻给我看。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-MY-000588_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg038-v001.png",
+          "sha256": "fa636da8d8d4be56e6afbb25b242bb056d135bfcbb10f7dda930c8e1399b01ec",
+          "bytes": 2408692,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg038.webp",
+          "sha256": "1cfb915e9a564c7153d3694e10c2689d3a78a8d2819cec838636d1a5381863bc",
+          "bytes": 1622488,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG038-full.webp",
+          "sha256": "ab4f55c4bdec217cc13a1e7009474ad7be61c9535025da2c39d756a8904e676b",
+          "bytes": 1046056
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG038-overlay.webp",
+          "sha256": "adaa609cd1c7fc6390ed9c5ba451484716049f7ffe3b47935fddb0256e92d938",
+          "bytes": 875510
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG039",
+      "assetId": "cg-my-cg039",
+      "title": "一起把伞撑正",
+      "packageId": "P4-02-MY",
+      "decision": "reuse",
+      "basis": "两人共同撑伞、近距离没有先退，符合此时情节；不覆盖之后已断开分支。",
+      "legacyParagraphIds": [
+        "T-MY-000078"
+      ],
+      "proposedNodeIds": [
+        "T-MY-000078_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000078_1",
+        "paragraphId": "T-MY-000078",
+        "condition": "ALL",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "textMeta": {
+          "id": "T-MY-000078",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 385,
+          "context": "MY04-01/COMMON",
+          "sha256": "bce338133dee995b5aeb214d53eb5009489e234bccfb8a0aebd4cd86fc7bb904"
+        }
+      },
+      "text": "她伸手帮我，一只手抓住伞柄，另一只手从我胳膊底下穿过去。伞撑开时，她整个人几乎贴进我怀里。我们都没有先退，我闻到她头发上很淡的洗发水味。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-MY-000079_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg039-v001.png",
+          "sha256": "678aafa896cdb98d00f6e82e5c3bbd8d60f6ba663876e5670820a94ef47f8e6a",
+          "bytes": 2879574,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg039.webp",
+          "sha256": "ad292e765b85642210ef7e3f336dbe815c9f01db9560bd36e0964a0b326fdf93",
+          "bytes": 1887984,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG039-full.webp",
+          "sha256": "30d35bccd17d0e8b06d740584d3007d7f916734b2222fe0cccc58c54fb20eb75",
+          "bytes": 1224796
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG039-overlay.webp",
+          "sha256": "278717e00d20d4c960058096a32e7a569c86dd1836cc5e13471244ddc3912bae",
+          "bytes": 1062070
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG040",
+      "assetId": "cg-my-cg040",
+      "title": "试讲播完以后",
+      "packageId": "P4-02-MY",
+      "decision": "reuse",
+      "basis": "试讲结束、额头相抵、手机和教学桌吻合；这是揭示丈夫前的既有亲密，不据此推导单身。完整图见手机支架、桌边发夹与额头相抵；窗外尚有低角度日光，可与第27天五点半试讲后的傍晚相容。镜头定格在坐直拾夹前，不铺满整段动作。",
+      "legacyParagraphIds": [
+        "T-MY-000105"
+      ],
+      "proposedNodeIds": [
+        "T-MY-000105_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000105_1",
+        "paragraphId": "T-MY-000105",
+        "condition": "ALL",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "textMeta": {
+          "id": "T-MY-000105",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 506,
+          "context": "### 剧情简介",
+          "sha256": "0ac4e6d64f222793fb0b0213a05016501d7c6b6c98d72f1c702a71c66c755461"
+        }
+      },
+      "text": "分开时，视频已经播完。她额头抵着我的，呼吸还没稳，手却先摸到手机。屏幕亮起来，她看见时间，坐直，把掉到桌边的夹子拾起来。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-MY-000106_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg040-v002.png",
+          "sha256": "ce971ce68fccc86f8dd370ee442fed28ef88eca7aff7867af7e5021b5a273457",
+          "bytes": 2298157,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg040.webp",
+          "sha256": "5f9a1266f2cd9386e72b3854e8379e36a196c4c36593d38bc25fa3e438862a26",
+          "bytes": 1555174,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG040-full.webp",
+          "sha256": "3c53328f61c95088e762cd52f8013bef1b76f178ca7142d5214ae6ebfd48c796",
+          "bytes": 1020194
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG040-overlay.webp",
+          "sha256": "e500e7d38474196a921cfbd5202c016d260628d5aebab0f1810eea8c14b8ee43",
+          "bytes": 874156
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG041",
+      "assetId": "cg-my-cg041",
+      "title": "楼下另一个约定",
+      "packageId": "P4-02-MY",
+      "decision": "reuse",
+      "basis": "陈晟拿文件袋挪纸箱，正常等候；丈夫身份保留，不反派化。",
+      "legacyParagraphIds": [
+        "T-MY-000112"
+      ],
+      "proposedNodeIds": [
+        "T-MY-000112_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000112_1",
+        "paragraphId": "T-MY-000112",
+        "condition": "ALL",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "textMeta": {
+          "id": "T-MY-000112",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 536,
+          "context": "### 剧情简介",
+          "sha256": "673a0bb3ed2430ee9654b7ee7cbfa8c783edc0719a9bc79e6949c695ffc6f632"
+        }
+      },
+      "text": "陈晟站在门口，穿一件洗得有点发白的深色外套，鞋上沾了水。他拿着文件袋，见我们出来，先把挡着门的一只纸箱挪开。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-MY-000113_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg041-v001.png",
+          "sha256": "6e82ce5e0912cd860887c66ec6043d38c3904c0c5801715710e8c74521d3c664",
+          "bytes": 2556294,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg041.webp",
+          "sha256": "638e0227e0cd31f92706d8b996f271ebbd9af3c3d74a3c8d22f56bcda7dcefe9",
+          "bytes": 1719898,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG041-full.webp",
+          "sha256": "5f9fad623ebae728ecdfb8d5bafa59fa0d616f9a801ee2e5ee80a3aa15396bf3",
+          "bytes": 1110572
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG041-overlay.webp",
+          "sha256": "b4f34cf3ddee8be87419e3f6ddc8101f2a6dfd8f57fdbf21d78e0e08330047c4",
+          "bytes": 950342
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG044",
+      "assetId": "cg-my-cg044",
+      "title": "也让她烦一会儿",
+      "packageId": "P4-02-MY",
+      "decision": "rebind",
+      "basis": "烧饼递来和靠肩已发生才进入；MY07选A限定，不能放到MY07选B或BA后段。",
+      "legacyParagraphIds": [
+        "T-MY-000402",
+        "T-MY-000403"
+      ],
+      "proposedNodeIds": [
+        "T-MY-000403_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000403_1",
+        "paragraphId": "T-MY-000403",
+        "condition": "MY07-01=A",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "textMeta": {
+          "id": "T-MY-000403",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 1112,
+          "context": "MY07-01/COMMON",
+          "sha256": "b6ee2264ddab98e2b378ab7189a4f565db9785efd1b8efff94c79ac2f6e90b93"
+        }
+      },
+      "text": "她从袋里拿出两只烧饼，把一只递给我，头靠到肩上。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-MY-000224_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg044-v001.png",
+          "sha256": "9b8f45cb2a1556b83c36301591d78301bc9ade6b724b2f44a52e20efe030cb57",
+          "bytes": 2744903,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg044.webp",
+          "sha256": "18972131214749ed6a276a796965a9559f29cc8799091cd9e4e01a3e2d241cf2",
+          "bytes": 1832674,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG044-full.webp",
+          "sha256": "97be7b2fdf754219261bdd72990938d42ea9c7d38b9129f113de1f827ebfa265",
+          "bytes": 1195626
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG044-overlay.webp",
+          "sha256": "7f24f1ffa081047ceeeb979b902f7fa8d9ebfc41fcd5612736009aeedc307083",
+          "bytes": 1025278
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG104",
+      "assetId": "cg-my-cg104",
+      "title": "第98天先留空",
+      "packageId": "P4-02-MY",
+      "decision": "reuse",
+      "basis": "文文独处收红笔、留旧册，画面没有公开情侣或同居；AA秘密继续且婚姻仍在。",
+      "legacyParagraphIds": [
+        "T-MY-000349"
+      ],
+      "proposedNodeIds": [
+        "T-MY-000349_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000349_1",
+        "paragraphId": "T-MY-000349",
+        "condition": "MY07-01=A&MY09-01=A",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "textMeta": {
+          "id": "T-MY-000349",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 1953,
+          "context": "MY-E1",
+          "sha256": "a69313efb6471af57ff297731d8e1279d3bc0068f58d8cd617a4f44bab7eaa17"
+        }
+      },
+      "text": "我把第98天先留空，车票没买。红笔收进抽屉，旧练习册放在另一侧。我们没有公开复合，她没有离婚，我也没有重新得到房子。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-MY-000654_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg104-v001.png",
+          "sha256": "d7a6777fcb11cb668cd0a3192539cdc6582c137002f8a743ba0d58004ece48b2",
+          "bytes": 2250165,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg104.webp",
+          "sha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e",
+          "bytes": 1523194,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG104-full.webp",
+          "sha256": "2db268527ae2928992e462cb45998c04b01547e3dd83e0c33aaf6a889cab4a95",
+          "bytes": 1004600
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG104-overlay.webp",
+          "sha256": "ca0c424006ad6bef9e2c2599bb226b69507d6883d395f580c2eee2d8a4ce499c",
+          "bytes": 858604
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG105",
+      "assetId": "cg-my-cg105",
+      "title": "取消单独的提醒",
+      "packageId": "P4-02-MY",
+      "decision": "rebind",
+      "basis": "手机取消置顶/单独提醒，延后到实际操作时进入；三种断开共同收束，挂断之前不能提前显示操作完成。",
+      "legacyParagraphIds": [
+        "T-MY-000674",
+        "T-MY-000675",
+        "T-MY-000676",
+        "T-MY-000677"
+      ],
+      "proposedNodeIds": [
+        "T-MY-000677_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000677_1",
+        "paragraphId": "T-MY-000677",
+        "condition": "MY07-01=B|MY09-01=B",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "textMeta": {
+          "id": "T-MY-000677",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 2097,
+          "context": "MY-E2",
+          "sha256": "b82dbd424b6e41b0358e647b0e90ba4ef836a43776b31be0c7064cfd6f7dd294"
+        }
+      },
+      "text": "我等手心不再都是汗，才取消置顶，关掉单独的提醒。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-MY-000370_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-MY/cg-my-cg105-v002.png",
+          "sha256": "9e4e678de461a7ac4c175133b73618fb78bdcafd436841bc94b223305a94209d",
+          "bytes": 1843743,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-MY/cg-my-cg105.webp",
+          "sha256": "5f0d06bb3a858d6d948bcea0d81c5bc956339e43fe7dd7de3188275d2867e804",
+          "bytes": 1251672,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG105-full.webp",
+          "sha256": "119a4b1bfa2b8a830afba48bb296f1f8ab57bfd11071e1fc986fec9470637ffc",
+          "bytes": 834626
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG105-overlay.webp",
+          "sha256": "bb5759b1e4e0e38691aca596c38c80b8f91f4794e07dd2cadabea0f8d021b6de",
+          "bytes": 680738
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "屏幕主体仍可辨，但手机下部/发送键或最后消息接近文字框；完整图补看。只能按冻结的通话/消息时点出现。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    }
+  ]
+}

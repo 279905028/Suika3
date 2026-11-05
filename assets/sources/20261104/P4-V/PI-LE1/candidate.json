@@ -1,0 +1,208 @@
+{
+  "key": "MCG-PI-LE1",
+  "ending": "PI-LE1",
+  "route": "piao",
+  "node": "T-PI-000630_1",
+  "choices": {
+    "PI-L06-01": "A"
+  },
+  "relation": "LOW",
+  "fallback": "assets/current/SUI-A10-PI/cg-pi-cg068.webp",
+  "meeting": false,
+  "adopted": false,
+  "paragraphId": "T-PI-000630",
+  "condition": "PIAO_RELATION=LOW&PI-L06-01=A",
+  "entryGate": {
+    "type": "route",
+    "value": "piao"
+  },
+  "text": "她递给我相机，让我拍她打结的手。第一张糊了。",
+  "source": {
+    "file": "scenario/飘-空白页.md",
+    "candidateFile": "docs/修订协作/P4-演出与美术/P4-07/正文/飘-空白页.md",
+    "lineHint": 2814,
+    "context": "PI-LE1",
+    "sha256": "8f52d788dc26b56cc7b3048c23fb7aac4d0f9ab98063be48be5b50f58a6387d3"
+  },
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "firstFrame": {
+    "path": "assets/current/SUI-A10-PI/cg-pi-cg068.webp",
+    "sha256": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579"
+  },
+  "prompt": {
+    "path": "assets/sources/20261104/P4-V/PI-LE1/video-v002-prompt.txt",
+    "sha256": "904876e662d9f6e6e0c7c66ddacfbd91f5293f916e7f8b8e67c2f7f374268679"
+  },
+  "spec": {
+    "duration": 5,
+    "tolerance": [
+      4.5,
+      5.5
+    ],
+    "ratio": "16:9",
+    "minimumSize": [
+      1280,
+      720
+    ],
+    "runtimeCodec": "h264",
+    "runtimePixelFormat": "yuv420p",
+    "runtimeFps": 24,
+    "audio": false
+  },
+  "status": "video-v002-production-pass",
+  "formalBinding": false,
+  "staticFallback": {
+    "path": "assets/sources/20261104/P4-V/PI-LE1/fallback-v001.webp",
+    "sha256": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579",
+    "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+  },
+  "dreamina": {
+    "imageNodeId": "node_4rc7knbm98",
+    "videoNodeId": "node_wbfs49kjkw",
+    "submitId": "bc9e8166-0aff-4d40-a3f5-dba56e8b4c7a",
+    "model": "seedance_2.5",
+    "resolution": "720p",
+    "duration": 5,
+    "resourceId": "fa42a735-c1e0-48e1-ac06-443233367fbe",
+    "downloadSha256": "41c00615bc2b00bf88667f039bf31425811e7b48a031af57aba44cc0fe63f9b3"
+  },
+  "originalVideo": {
+    "path": "assets/sources/20261104/P4-V/PI-LE1/raw-v002.mp4",
+    "bytes": 7227410,
+    "sha256": "41c00615bc2b00bf88667f039bf31425811e7b48a031af57aba44cc0fe63f9b3",
+    "durationSeconds": 5.06,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.12,
+    "audioPresent": true,
+    "decodedFrames": 121,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "runtimeCandidate": {
+    "path": "assets/sources/20261104/P4-V/PI-LE1/runtime-v002.mp4",
+    "bytes": 1273841,
+    "sha256": "9df5d9c9a034e205487263548bbbf51db65ad1befc76a5c07ee6d8746475b610",
+    "durationSeconds": 5.0,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "audioPresent": false,
+    "decodedFrames": 120,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "firstGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/PI-LE1/first-v002.webp",
+    "bytes": 768462,
+    "sha256": "a88eac2da7d5ef79eda85e58da1843145b331b6f907e64c8b60d56eb6d9b9e95"
+  },
+  "lastGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/PI-LE1/last-v002.webp",
+    "bytes": 782842,
+    "sha256": "b56793f8b615dbb061bb9c9f796259477697d46f37bf83caa319f79c13dcff85"
+  },
+  "mediaCheck": "qa/ending-motion-P4-V-Q-20261104/PI-LE1/v002/media-check.json",
+  "productionReview": {
+    "ending": "PI-LE1",
+    "version": "v002",
+    "status": "production-pass",
+    "observations": [
+      "飘约1.5秒起松开手指，约2.5秒完全离开机身，末1.5秒与相机保持清楚空隙。",
+      "唯一相机稳定留在文文手中；相机带、人物衣装连续，无再次握回或举机拍照。"
+    ],
+    "repair": [],
+    "evidence": "qa/ending-motion-P4-V-Q-20261104/PI-LE1/v002/contact-sheet.jpg",
+    "independentReview": "pending",
+    "formalAdoption": false
+  },
+  "independentReview": "pending",
+  "revisionDraft": {
+    "state": "generated-production-pass",
+    "nodeId": "node_wbfs49kjkw",
+    "submitId": "bc9e8166-0aff-4d40-a3f5-dba56e8b4c7a",
+    "prompt": {
+      "path": "assets/sources/20261104/P4-V/PI-LE1/video-v002-prompt.txt",
+      "sha256": "904876e662d9f6e6e0c7c66ddacfbd91f5293f916e7f8b8e67c2f7f374268679"
+    }
+  },
+  "versionHistory": {
+    "v001": {
+      "status": "video-v001-needs-revision",
+      "originalVideo": {
+        "path": "assets/sources/20261104/P4-V/PI-LE1/raw-v001.mp4",
+        "bytes": 8587257,
+        "sha256": "aeb86b9ec968cc283e7f0c2403417c63620ca6bb928ce40a1b1b137db4715bc0",
+        "durationSeconds": 5.06,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.12,
+        "audioPresent": true,
+        "decodedFrames": 121,
+        "completeDecode": true,
+        "decodeExitCode": 0
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261104/P4-V/PI-LE1/runtime-v001.mp4",
+        "bytes": 1442722,
+        "sha256": "dfed93e3f41ce7bb2c5928625141a4175e50e3fea4fad39da0a889f2edfd35ea",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audioPresent": false,
+        "decodedFrames": 120,
+        "completeDecode": true,
+        "decodeExitCode": 0
+      },
+      "firstGeneratedFrame": {
+        "path": "assets/sources/20261104/P4-V/PI-LE1/first-v001.webp",
+        "bytes": 763980,
+        "sha256": "ba952b99c3065a5173e1a793da6d9abd28ff97801435048dcca16d50898f398a"
+      },
+      "lastGeneratedFrame": {
+        "path": "assets/sources/20261104/P4-V/PI-LE1/last-v001.webp",
+        "bytes": 760234,
+        "sha256": "a830356457e4d2888900536e00f0bd49d86e982370b9559848b618bdbc5fc799"
+      },
+      "mediaCheck": "qa/ending-motion-P4-V-Q-20261104/PI-LE1/media-check.json",
+      "productionReview": {
+        "ending": "PI-LE1",
+        "status": "needs-revision",
+        "observations": [
+          "只有一台相机，人物和相机带保持连续。",
+          "全片至尾帧飘仍扶住机身；手指短暂松动后回到原握姿，未完成交接。"
+        ],
+        "repair": [
+          "必须将整只手撤到身前，最后1.5秒手与相机保持可见空隙，禁止返回握姿。"
+        ],
+        "evidence": "qa/ending-motion-P4-V-Q-20261104/PI-LE1/contact-sheet.jpg",
+        "independentReview": "pending",
+        "formalAdoption": false
+      },
+      "dreamina": {
+        "imageNodeId": "node_4rc7knbm98",
+        "videoNodeId": "node_h5a3z7fxdj",
+        "submitId": "babeada7-2b63-4cc2-a59f-3894f85e1004",
+        "model": "seedance_2.5",
+        "resolution": "720p",
+        "duration": 5,
+        "resourceId": "47f60067-0904-4a21-838f-9211001eeda9",
+        "downloadSha256": "aeb86b9ec968cc283e7f0c2403417c63620ca6bb928ce40a1b1b137db4715bc0"
+      },
+      "prompt": {
+        "path": "assets/sources/20261104/P4-V/PI-LE1/video-v001-prompt.txt",
+        "sha256": "7b498897ca69fe888d307276c1db4dba893e52d4de60e0e6b0e25f7f5887b61b"
+      }
+    }
+  },
+  "candidateVersion": "v002"
+}

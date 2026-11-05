@@ -1,0 +1,3819 @@
+{
+  "date": "2026-11-04",
+  "sourceHashes": {
+    "qa/ending-motion-P4-V-Q-20261104/selection.json": "8887694aa011a24fd5fddf3f653709ac8c061bfdf9ba6088fde327f7c73ccb83",
+    "docs/美术/亲吻动态CG-20261104/成片与绑定.json": "e9649c22a5ab058adaa6792e2103d23c0c9afabfd426708fb349d09df2646721",
+    "docs/美术/留宿动态CG-20261104/计划绑定.json": "a6673380fe28e7a086dd740c85ebf27ded3bf2c662f78b92827cd21681eba765",
+    "docs/美术/留宿动态CG-20261104/夜间亲密版计划绑定.json": "b1073570992234d85ee527e7ca29777af3b470761191061df1a8e4a88fbff9cf"
+  },
+  "count": 36,
+  "items": [
+    {
+      "key": "MCG-XM-E1",
+      "group": "ending",
+      "auditId": "ending-MCG-XM-E1",
+      "source": "qa/ending-motion-P4-V-Q-20261104/selection.json",
+      "node": "T-XM-000826_1",
+      "condition": "XM07-01=A&XM08-01=A",
+      "route": "xiaoman",
+      "text": "她看了我一眼，突然拿练习本挡住半张脸。过了几秒，又放下来，对着镜头飞快亲了一下。",
+      "file": "scenario/罗小满-练习本.md",
+      "line": 2430,
+      "anchorMatches": true,
+      "bindingCondition": "XM07-01=A&XM08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "path": "assets/sources/20261104/P4-V/XM-E1/raw-v002.mp4",
+          "bytes": 6920684,
+          "sha256": "817771c9838b3f15e17e16595c18375bf1356355f392c898d514b029e0ac8ca3",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audioPresent": true,
+          "decodedFrames": 121,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/P4-V/XM-E1/runtime-v002.mp4",
+          "bytes": 1329855,
+          "sha256": "61651d4308ea4ead0682981ec0d13b880ebcb9817a74a3e4cc731b4c0a3279ec",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audioPresent": false,
+          "decodedFrames": 120,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "first": {
+          "path": "assets/sources/20261104/P4-V/XM-E1/first-v002.webp",
+          "bytes": 932468,
+          "sha256": "2e89caf89bbc06c63c533a0559c3f9094df44436a778ebcd7cc4a134561f6cf9"
+        },
+        "last": {
+          "path": "assets/sources/20261104/P4-V/XM-E1/last-v002.webp",
+          "bytes": 937362,
+          "sha256": "ebf141084feb6636f4e8133d27f615bc0d134b0b742ddda7abf581330776b0e1"
+        },
+        "fallback": {
+          "path": "assets/sources/20261104/P4-V/XM-E1/fallback-v001.webp",
+          "sha256": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267",
+          "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+        }
+      },
+      "sourceFinding": [
+        "手机上、下边框和四角全程可见；外部镜头基本固定。",
+        "小满完成放低练习本、一次飞吻、回到笑容，末段稳定；始终局限在手机画面内。"
+      ],
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/P4-V/XM-E1/raw-v002.mp4",
+          "sha256": "817771c9838b3f15e17e16595c18375bf1356355f392c898d514b029e0ac8ca3",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/P4-V/XM-E1/runtime-v002.mp4",
+          "sha256": "61651d4308ea4ead0682981ec0d13b880ebcb9817a74a3e4cc731b4c0a3279ec",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/P4-V/XM-E1/first-v002.webp",
+          "sha256": "2e89caf89bbc06c63c533a0559c3f9094df44436a778ebcd7cc4a134561f6cf9",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/P4-V/XM-E1/last-v002.webp",
+          "sha256": "ebf141084feb6636f4e8133d27f615bc0d134b0b742ddda7abf581330776b0e1",
+          "matches": true
+        },
+        {
+          "role": "fallback",
+          "path": "assets/sources/20261104/P4-V/XM-E1/fallback-v001.webp",
+          "sha256": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/ending-MCG-XM-E1/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "小满始终在手机画面内；练习本从半遮脸到放低，飞吻后微笑。手机边框保持可辨。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "MCG-ZZ-E1",
+      "group": "ending",
+      "auditId": "ending-MCG-ZZ-E1",
+      "source": "qa/ending-motion-P4-V-Q-20261104/selection.json",
+      "node": "T-ZZ-000478_1",
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "route": "zhouzhi",
+      "text": "我咬下一口饼，她在那头打了个哈欠。我们都没急着为这段关系再讲一遍保证。手机放在手边，声音还在。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 2863,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A&ZZ08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/raw-v001.mp4",
+          "bytes": 11790215,
+          "sha256": "52c1d443625f08e6797cf44709ca4c4a63bf80700172aa8a6f9b8b54f8ca97a0",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audioPresent": true,
+          "decodedFrames": 121,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/runtime-v001.mp4",
+          "bytes": 1915703,
+          "sha256": "8b671aeaffd697052e824e8d50e2752a894eb186035acdb666c2fe685ea911ae",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audioPresent": false,
+          "decodedFrames": 120,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "first": {
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/first-v001.webp",
+          "bytes": 866480,
+          "sha256": "dba7f87329a73ad4485d6fe013931d0de183c3f2611b003c623747f0f76c876b"
+        },
+        "last": {
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/last-v001.webp",
+          "bytes": 852654,
+          "sha256": "73da400ef788ddab1ebc12d97224cb2b5ac8f99a331077c3e14018e04d4d0c0b"
+        },
+        "fallback": {
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/fallback-v001.webp",
+          "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc",
+          "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+        }
+      },
+      "sourceFinding": [
+        "一口饼后放低、咀嚼并望向语音通话手机，动作完整。",
+        "周栀未实体出现；手机未变为人物视频；人物与桌面布局连续。"
+      ],
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/raw-v001.mp4",
+          "sha256": "52c1d443625f08e6797cf44709ca4c4a63bf80700172aa8a6f9b8b54f8ca97a0",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/runtime-v001.mp4",
+          "sha256": "8b671aeaffd697052e824e8d50e2752a894eb186035acdb666c2fe685ea911ae",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/first-v001.webp",
+          "sha256": "dba7f87329a73ad4485d6fe013931d0de183c3f2611b003c623747f0f76c876b",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/last-v001.webp",
+          "sha256": "73da400ef788ddab1ebc12d97224cb2b5ac8f99a331077c3e14018e04d4d0c0b",
+          "matches": true
+        },
+        {
+          "role": "fallback",
+          "path": "assets/sources/20261104/P4-V/ZZ-E1/fallback-v001.webp",
+          "sha256": "373bf4e59279552e48a47d23fd0d0a9f8bd9f9f5490c354049ddcf72a7cef0dc",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/ending-MCG-ZZ-E1/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "文文独处吃饼，放低后转向桌面通话手机；未出现周栀实体或视频画面。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "MCG-MY-E1",
+      "group": "ending",
+      "auditId": "ending-MCG-MY-E1",
+      "source": "qa/ending-motion-P4-V-Q-20261104/selection.json",
+      "node": "T-MY-000349_1",
+      "condition": "MY07-01=A&MY09-01=A",
+      "route": "mengyao",
+      "text": "我把第98天先留空，车票没买。红笔收进抽屉，旧练习册放在另一侧。我们没有公开复合，她没有离婚，我也没有重新得到房子。",
+      "file": "scenario/孟遥-旧题.md",
+      "line": 1953,
+      "anchorMatches": true,
+      "bindingCondition": "MY07-01=A&MY09-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "path": "assets/sources/20261104/P4-V/MY-E1/raw-v001.mp4",
+          "bytes": 9443674,
+          "sha256": "b0baac9ce651a9f5d39615018281427054bed42881286e8f181a1759c36e2c3a",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audioPresent": true,
+          "decodedFrames": 121,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/P4-V/MY-E1/runtime-v001.mp4",
+          "bytes": 1860795,
+          "sha256": "9621b98013929be1875e4b224c06966a94b0f1ee7c204737646b7658398f8456",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audioPresent": false,
+          "decodedFrames": 120,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "first": {
+          "path": "assets/sources/20261104/P4-V/MY-E1/first-v001.webp",
+          "bytes": 823168,
+          "sha256": "cd637d7acf5b39f75be9e141c7fe83cf3d713c75c428cc5e54871f6f5fbc0837"
+        },
+        "last": {
+          "path": "assets/sources/20261104/P4-V/MY-E1/last-v001.webp",
+          "bytes": 791098,
+          "sha256": "25e1ce3d4e4e187d18da31b5d7d5783c506ebce8a37426a7375837ec7a14bc1a"
+        },
+        "fallback": {
+          "path": "assets/sources/20261104/P4-V/MY-E1/fallback-v001.webp",
+          "sha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e",
+          "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+        }
+      },
+      "sourceFinding": [
+        "红笔留入抽屉，手指放开后撤回，旧练习册仍在桌面。",
+        "文文独处，未出现复合、离婚或新增人物的视觉暗示。"
+      ],
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/P4-V/MY-E1/raw-v001.mp4",
+          "sha256": "b0baac9ce651a9f5d39615018281427054bed42881286e8f181a1759c36e2c3a",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/P4-V/MY-E1/runtime-v001.mp4",
+          "sha256": "9621b98013929be1875e4b224c06966a94b0f1ee7c204737646b7658398f8456",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/P4-V/MY-E1/first-v001.webp",
+          "sha256": "cd637d7acf5b39f75be9e141c7fe83cf3d713c75c428cc5e54871f6f5fbc0837",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/P4-V/MY-E1/last-v001.webp",
+          "sha256": "25e1ce3d4e4e187d18da31b5d7d5783c506ebce8a37426a7375837ec7a14bc1a",
+          "matches": true
+        },
+        {
+          "role": "fallback",
+          "path": "assets/sources/20261104/P4-V/MY-E1/fallback-v001.webp",
+          "sha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/ending-MCG-MY-E1/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "文文将红笔放入抽屉并撤手，练习册留在桌面；不产生婚姻结束或公开复合暗示。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "MCG-PI-E1",
+      "group": "ending",
+      "auditId": "ending-MCG-PI-E1",
+      "source": "qa/ending-motion-P4-V-Q-20261104/selection.json",
+      "node": "T-PI-000444_1",
+      "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A",
+      "route": "piao",
+      "text": "我笑着答应。电话断了，我把册子合上，这次空白页里终于有了我自己也认得的话。",
+      "file": "scenario/飘-空白页.md",
+      "line": 2217,
+      "anchorMatches": true,
+      "bindingCondition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "path": "assets/sources/20261104/P4-V/PI-E1/raw-v001.mp4",
+          "bytes": 12946675,
+          "sha256": "f3f5e9935d3a8a301491d6c97421529e0dd3881ab4d5310baf2738c0ea3f2d78",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audioPresent": true,
+          "decodedFrames": 121,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/P4-V/PI-E1/runtime-v001.mp4",
+          "bytes": 2683036,
+          "sha256": "7f8c6dcc2c1b301efe30781fb7b32404fb338f905e76a5058f5b6c2aecd95dc0",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audioPresent": false,
+          "decodedFrames": 120,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "first": {
+          "path": "assets/sources/20261104/P4-V/PI-E1/first-v001.webp",
+          "bytes": 1055514,
+          "sha256": "0f61d68dee0c108db32758d6b52ba0432d062ada303afd6f11f35a4327ecd3ee"
+        },
+        "last": {
+          "path": "assets/sources/20261104/P4-V/PI-E1/last-v001.webp",
+          "bytes": 905206,
+          "sha256": "2acdbc5865975bf4921971d4f15f9355b755e8d2790f0b8ea913ce63f86c74c8"
+        },
+        "fallback": {
+          "path": "assets/sources/20261104/P4-V/PI-E1/fallback-v001.webp",
+          "sha256": "490d0005d84cd727332bb29cdb1786c2764074fb85941be6b7ba1d7751d4c231",
+          "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+        }
+      },
+      "sourceFinding": [
+        "通话结束后的手机下移，册子由打开到完全合上，末段手掌停在封面。",
+        "保持老街店外、文文独处；未将照片内容动画化，未出现飘。"
+      ],
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/P4-V/PI-E1/raw-v001.mp4",
+          "sha256": "f3f5e9935d3a8a301491d6c97421529e0dd3881ab4d5310baf2738c0ea3f2d78",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/P4-V/PI-E1/runtime-v001.mp4",
+          "sha256": "7f8c6dcc2c1b301efe30781fb7b32404fb338f905e76a5058f5b6c2aecd95dc0",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/P4-V/PI-E1/first-v001.webp",
+          "sha256": "0f61d68dee0c108db32758d6b52ba0432d062ada303afd6f11f35a4327ecd3ee",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/P4-V/PI-E1/last-v001.webp",
+          "sha256": "2acdbc5865975bf4921971d4f15f9355b755e8d2790f0b8ea913ce63f86c74c8",
+          "matches": true
+        },
+        {
+          "role": "fallback",
+          "path": "assets/sources/20261104/P4-V/PI-E1/fallback-v001.webp",
+          "sha256": "490d0005d84cd727332bb29cdb1786c2764074fb85941be6b7ba1d7751d4c231",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/ending-MCG-PI-E1/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "文文独处老街合上膝上册子；未把收到的照片变成现场，也未出现飘实体。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "MCG-PI-LE1",
+      "group": "ending",
+      "auditId": "ending-MCG-PI-LE1",
+      "source": "qa/ending-motion-P4-V-Q-20261104/selection.json",
+      "node": "T-PI-000630_1",
+      "condition": "PIAO_RELATION=LOW&PI-L06-01=A",
+      "route": "piao",
+      "text": "她递给我相机，让我拍她打结的手。第一张糊了。",
+      "file": "scenario/飘-空白页.md",
+      "line": 2814,
+      "anchorMatches": true,
+      "bindingCondition": "PIAO_RELATION=LOW&PI-L06-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "path": "assets/sources/20261104/P4-V/PI-LE1/raw-v002.mp4",
+          "bytes": 7227410,
+          "sha256": "41c00615bc2b00bf88667f039bf31425811e7b48a031af57aba44cc0fe63f9b3",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audioPresent": true,
+          "decodedFrames": 121,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/P4-V/PI-LE1/runtime-v002.mp4",
+          "bytes": 1273841,
+          "sha256": "9df5d9c9a034e205487263548bbbf51db65ad1befc76a5c07ee6d8746475b610",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audioPresent": false,
+          "decodedFrames": 120,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "first": {
+          "path": "assets/sources/20261104/P4-V/PI-LE1/first-v002.webp",
+          "bytes": 768462,
+          "sha256": "a88eac2da7d5ef79eda85e58da1843145b331b6f907e64c8b60d56eb6d9b9e95"
+        },
+        "last": {
+          "path": "assets/sources/20261104/P4-V/PI-LE1/last-v002.webp",
+          "bytes": 782842,
+          "sha256": "b56793f8b615dbb061bb9c9f796259477697d46f37bf83caa319f79c13dcff85"
+        },
+        "fallback": {
+          "path": "assets/sources/20261104/P4-V/PI-LE1/fallback-v001.webp",
+          "sha256": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579",
+          "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+        }
+      },
+      "sourceFinding": [
+        "飘约1.5秒起松开手指，约2.5秒完全离开机身，末1.5秒与相机保持清楚空隙。",
+        "唯一相机稳定留在文文手中；相机带、人物衣装连续，无再次握回或举机拍照。"
+      ],
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/P4-V/PI-LE1/raw-v002.mp4",
+          "sha256": "41c00615bc2b00bf88667f039bf31425811e7b48a031af57aba44cc0fe63f9b3",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/P4-V/PI-LE1/runtime-v002.mp4",
+          "sha256": "9df5d9c9a034e205487263548bbbf51db65ad1befc76a5c07ee6d8746475b610",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/P4-V/PI-LE1/first-v002.webp",
+          "sha256": "a88eac2da7d5ef79eda85e58da1843145b331b6f907e64c8b60d56eb6d9b9e95",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/P4-V/PI-LE1/last-v002.webp",
+          "sha256": "b56793f8b615dbb061bb9c9f796259477697d46f37bf83caa319f79c13dcff85",
+          "matches": true
+        },
+        {
+          "role": "fallback",
+          "path": "assets/sources/20261104/P4-V/PI-LE1/fallback-v001.webp",
+          "sha256": "f3ed7d6e9d7aad317fb74823e1f7954dfa33d649da714d8b1749de9d7abf9579",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/ending-MCG-PI-LE1/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "唯一一台相机由飘交到文文手中，飘松指撤手；红手绳与相机背带可区分。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "MCG-HQ-E1",
+      "group": "ending",
+      "auditId": "ending-MCG-HQ-E1",
+      "source": "qa/ending-motion-P4-V-Q-20261104/selection.json",
+      "node": "T-HQ-000586_1",
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "route": "huangqiuqiu",
+      "text": "写到一半，她靠过来，下巴贴在我肩边。我的字歪了一点。",
+      "file": "scenario/黄球球-门后.md",
+      "line": 1850,
+      "anchorMatches": true,
+      "bindingCondition": "HQ07-01=A&HQ08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "path": "assets/sources/20261104/P4-V/HQ-E1/raw-v001.mp4",
+          "bytes": 11744965,
+          "sha256": "61233c746a008142d84575d32d6665c8a4b65ab355290217514caa6dec82baf4",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audioPresent": true,
+          "decodedFrames": 121,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/P4-V/HQ-E1/runtime-v001.mp4",
+          "bytes": 1951434,
+          "sha256": "34eddbae8b95aeba93dd991dbcc3ac42a8665f06f50959e8624d9c46af5c94cd",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audioPresent": false,
+          "decodedFrames": 120,
+          "completeDecode": true,
+          "decodeExitCode": 0
+        },
+        "first": {
+          "path": "assets/sources/20261104/P4-V/HQ-E1/first-v001.webp",
+          "bytes": 955182,
+          "sha256": "291c1e53d043a222edf85fbcf321119fd96ce30f5c0025e8a0a9847c8f8d8614"
+        },
+        "last": {
+          "path": "assets/sources/20261104/P4-V/HQ-E1/last-v001.webp",
+          "bytes": 896218,
+          "sha256": "1030cb49a0eeb00f6a7b6ea3be461cd0675c028f1595cd57fc9bb75557ce858e"
+        },
+        "fallback": {
+          "path": "assets/sources/20261104/P4-V/HQ-E1/fallback-v001.webp",
+          "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380",
+          "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+        }
+      },
+      "sourceFinding": [
+        "人形黄球球靠肩、笔尖短暂移动后停笔；杯子及既有杯名保持连续。",
+        "未提前出现后段亲吻，未改变形态或新增手机。"
+      ],
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/P4-V/HQ-E1/raw-v001.mp4",
+          "sha256": "61233c746a008142d84575d32d6665c8a4b65ab355290217514caa6dec82baf4",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/P4-V/HQ-E1/runtime-v001.mp4",
+          "sha256": "34eddbae8b95aeba93dd991dbcc3ac42a8665f06f50959e8624d9c46af5c94cd",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/P4-V/HQ-E1/first-v001.webp",
+          "sha256": "291c1e53d043a222edf85fbcf321119fd96ce30f5c0025e8a0a9847c8f8d8614",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/P4-V/HQ-E1/last-v001.webp",
+          "sha256": "1030cb49a0eeb00f6a7b6ea3be461cd0675c028f1595cd57fc9bb75557ce858e",
+          "matches": true
+        },
+        {
+          "role": "fallback",
+          "path": "assets/sources/20261104/P4-V/HQ-E1/fallback-v001.webp",
+          "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/ending-MCG-HQ-E1/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "人形黄球球靠在文文肩上，文文拿杯书写并微笑；杯子、笔与人物位置连续。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-XM-01",
+      "group": "kiss",
+      "auditId": "kiss-KCG-XM-01",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-XM-000108_1",
+      "condition": "ALL",
+      "route": "xiaoman",
+      "text": "她抓住我的外套前襟，吻了过来。",
+      "file": "scenario/罗小满-练习本.md",
+      "line": 568,
+      "anchorMatches": true,
+      "bindingCondition": "ALL",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "a236b14b-25a1-4f50-b878-8d717a85fe66",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/raw-v001.mp4",
+          "sha256": "8c4ec8628ab48bbd5149a5c28bfbc19b55d4f92d84108285eea0a416e5709a36",
+          "bytes": 12331383,
+          "requestId": "202611041502253F9D8590442ABC31F6F2"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/runtime-v001.mp4",
+          "bytes": 2342406,
+          "sha256": "c7c0986799c0d0246bf276531804748c425812ddfd141d167a5adec46a3733c0",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/first-v001.webp",
+          "bytes": 927608,
+          "sha256": "63e90638d3f8282bbbbd6423937d8d0cce2e5b800549163d4f3bc4cee9a52163"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/last-v001.webp",
+          "bytes": 854958,
+          "sha256": "17836cb30be70a0f0817646da42001b44c0cd17554f497d02bd2be3ea40e569b"
+        }
+      },
+      "sourceFinding": "烧烤摊灯光、抓前襟、亲吻后拇指掠过下巴可辨。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/raw-v001.mp4",
+          "sha256": "8c4ec8628ab48bbd5149a5c28bfbc19b55d4f92d84108285eea0a416e5709a36",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/runtime-v001.mp4",
+          "sha256": "c7c0986799c0d0246bf276531804748c425812ddfd141d167a5adec46a3733c0",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/first-v001.webp",
+          "sha256": "63e90638d3f8282bbbbd6423937d8d0cce2e5b800549163d4f3bc4cee9a52163",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-01/last-v001.webp",
+          "sha256": "17836cb30be70a0f0817646da42001b44c0cd17554f497d02bd2be3ea40e569b",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-XM-01/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "暖色摊位中抓前襟、接吻及退开后摸下巴连续；两人身份稳定。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-XM-02",
+      "group": "kiss",
+      "auditId": "kiss-KCG-XM-02",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-XM-000141_1",
+      "condition": "ALL",
+      "route": "xiaoman",
+      "text": "我说是。她这次没有立刻亲上来，等我先低下头。碰到她时，她扣住我的手腕，收得很紧。那股想在朋友面前赢一回的劲还在，但我也听见她呼吸乱了。",
+      "file": "scenario/罗小满-练习本.md",
+      "line": 763,
+      "anchorMatches": true,
+      "bindingCondition": "ALL",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "f7350189-1c94-41ff-86c7-ef140def3ef6",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/raw-v002.mp4",
+          "sha256": "0e6936b3e40c0ce444e01beb5c9291154f1ee868c9c5a7e2433acbd960b1184b",
+          "bytes": 10250074,
+          "requestId": "2026110415134398E71A1038A2B953FB43"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/runtime-v002.mp4",
+          "bytes": 1511698,
+          "sha256": "e723db456576e8895ad420c7d7e24bb88dbfd71167d22fd769c7d08a0618b03b",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/first-v002.webp",
+          "bytes": 624976,
+          "sha256": "9b5ebfad0d3680077e96578e0979ce42183bc4438ecabf8519d7f270a7c71316"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/last-v002.webp",
+          "bytes": 715986,
+          "sha256": "5e2854f4774b79d6e4137f13ab016eb929a1c3828bd5cd46da75e556a462dc2b"
+        }
+      },
+      "sourceFinding": "车棚背面、冷色光和电动车可辨，已与烧烤摊区分。文文低头先靠近，小满的手抓在外套前襟。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/raw-v002.mp4",
+          "sha256": "0e6936b3e40c0ce444e01beb5c9291154f1ee868c9c5a7e2433acbd960b1184b",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/runtime-v002.mp4",
+          "sha256": "e723db456576e8895ad420c7d7e24bb88dbfd71167d22fd769c7d08a0618b03b",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/first-v002.webp",
+          "sha256": "9b5ebfad0d3680077e96578e0979ce42183bc4438ecabf8519d7f270a7c71316",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-02/last-v002.webp",
+          "sha256": "5e2854f4774b79d6e4137f13ab016eb929a1c3828bd5cd46da75e556a462dc2b",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-XM-02/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "reviewed-with-action-difference",
+        "observation": "冷色车棚和电动车背景可辨，文文低头接吻；小满抓前襟而非正文所写扣手腕，保留动作简化说明。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-XM-03",
+      "group": "kiss",
+      "auditId": "kiss-KCG-XM-03",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-XM-000678_1",
+      "condition": "XM07-01=A",
+      "route": "xiaoman",
+      "text": "她瞪我，凑过来，咬了一下我的下唇，不重。我扶住她肩。",
+      "file": "scenario/罗小满-练习本.md",
+      "line": 1529,
+      "anchorMatches": true,
+      "bindingCondition": "XM07-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "eb054b67-3eec-48c4-b4e7-a20d5ac6317f",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/raw-v001.mp4",
+          "sha256": "272e7cfdebe73e8ee8dfa5b09a7b51d0b8c13d499ed6c15dcd7a0a28fca08bbb",
+          "bytes": 7994328,
+          "requestId": "20261104145643D35D7CF0F02E0D364EEE"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/runtime-v001.mp4",
+          "bytes": 1473275,
+          "sha256": "3f032e9af1da87e506121cfd02a3869f86a27c26a6c405c06a5a5cebfa60bd12",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/first-v001.webp",
+          "bytes": 587714,
+          "sha256": "97773574bae5f9130f30877d7dbc475a27b49b50d2363e1f2cf3b2cc715439e9"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/last-v001.webp",
+          "bytes": 637694,
+          "sha256": "d24c69f29eb54546fc2ea379e41d55b42bb844bedec44b6198b86938481c5834"
+        }
+      },
+      "sourceFinding": "夜间住处与饭盒一致。下唇接触短暂，轻咬没有牙齿特写，结束靠近额头。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/raw-v001.mp4",
+          "sha256": "272e7cfdebe73e8ee8dfa5b09a7b51d0b8c13d499ed6c15dcd7a0a28fca08bbb",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/runtime-v001.mp4",
+          "sha256": "3f032e9af1da87e506121cfd02a3869f86a27c26a6c405c06a5a5cebfa60bd12",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/first-v001.webp",
+          "sha256": "97773574bae5f9130f30877d7dbc475a27b49b50d2363e1f2cf3b2cc715439e9",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-03/last-v001.webp",
+          "sha256": "d24c69f29eb54546fc2ea379e41d55b42bb844bedec44b6198b86938481c5834",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-XM-03/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "reviewed-with-action-difference",
+        "observation": "租屋中双人轻吻可辨；抽帧不能明确区分轻咬下唇与普通亲吻，不宣称咬唇细节通过。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-XM-04",
+      "group": "kiss",
+      "auditId": "kiss-KCG-XM-04",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-XM-000330_1",
+      "condition": "XM07-01=A&XM08-01=A",
+      "route": "xiaoman",
+      "text": "她亲上来时，我先抱住了她。吻比烧烤摊那次慢，她的手指扣在我后颈，广播又响，我们都听见了，仍多停了几秒。最后是她先松开，把我的衣领拉平。",
+      "file": "scenario/罗小满-练习本.md",
+      "line": 1876,
+      "anchorMatches": true,
+      "bindingCondition": "XM07-01=A&XM08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "2e7e2408-7a7e-415b-8b1a-939e5aa2b3de",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/raw-v001.mp4",
+          "sha256": "bfb3ee3ba390708c719bc8ac8c9b7588488b883195b74d130ef7baa2c7b4491d",
+          "bytes": 10393088,
+          "requestId": "20261104145817A457F7A7AEAF9735A70B"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/runtime-v001.mp4",
+          "bytes": 2033806,
+          "sha256": "415de8fa496c64076a4981574d89eca4aac093ae65985256b3aa6c56cdd47c5e",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/first-v001.webp",
+          "bytes": 832850,
+          "sha256": "4741f93b35f033bd2426d65a57f7a58a0a239876d31d63d6742fc59b8e0d4551"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/last-v001.webp",
+          "bytes": 849746,
+          "sha256": "32e217f45d61f7e22ea7f0c54ab8fa5abed1921f068817872c1762bb04ce8da1"
+        }
+      },
+      "sourceFinding": "候车棚、行李、扣后颈和拉衣领可辨。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/raw-v001.mp4",
+          "sha256": "bfb3ee3ba390708c719bc8ac8c9b7588488b883195b74d130ef7baa2c7b4491d",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/runtime-v001.mp4",
+          "sha256": "415de8fa496c64076a4981574d89eca4aac093ae65985256b3aa6c56cdd47c5e",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/first-v001.webp",
+          "sha256": "4741f93b35f033bd2426d65a57f7a58a0a239876d31d63d6742fc59b8e0d4551",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-XM-04/last-v001.webp",
+          "sha256": "32e217f45d61f7e22ea7f0c54ab8fa5abed1921f068817872c1762bb04ce8da1",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-XM-04/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "站台双人拥吻，后颈与前襟接触及退开整理衣领可辨；手臂未出现突增。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-ZZ-01",
+      "group": "kiss",
+      "auditId": "kiss-KCG-ZZ-01",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-ZZ-000580_1",
+      "condition": "ALL",
+      "route": "zhouzhi",
+      "text": "那个吻没有旁人起哄，也没有人付钱。我却没因此突然分清她过去所有的笑。退开以后，她用拇指擦了一下我嘴边，做完便叹气。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 607,
+      "anchorMatches": true,
+      "bindingCondition": "ALL",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "58f5c526-72c1-4622-94cd-82042b4d429f",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/raw-v001.mp4",
+          "sha256": "ac0d19eae299956761560f66a460c5d0f301993ad6ef18d53b58f96d1beb0228",
+          "bytes": 7846172,
+          "requestId": "202611041456462B7F04C70E3F5535C547"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/runtime-v001.mp4",
+          "bytes": 1351515,
+          "sha256": "1fefe5a4360337bd500686fae7ce53df6ada4c77658d30a6342344b072026b04",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/first-v001.webp",
+          "bytes": 664516,
+          "sha256": "837b4299c7527d88ce64f87f46a14d03a43765a61ecffc369f3c9bbd85d2ec71"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/last-v001.webp",
+          "bytes": 711382,
+          "sha256": "aed4b0890a97965642d84a9b0e6cc8d8235bdb4c296a7e75c9490e49949c3196"
+        }
+      },
+      "sourceFinding": "雨后铺外、靠墙的伞、轻吻和拇指靠近嘴边可辨。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/raw-v001.mp4",
+          "sha256": "ac0d19eae299956761560f66a460c5d0f301993ad6ef18d53b58f96d1beb0228",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/runtime-v001.mp4",
+          "sha256": "1fefe5a4360337bd500686fae7ce53df6ada4c77658d30a6342344b072026b04",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/first-v001.webp",
+          "sha256": "837b4299c7527d88ce64f87f46a14d03a43765a61ecffc369f3c9bbd85d2ec71",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-01/last-v001.webp",
+          "sha256": "aed4b0890a97965642d84a9b0e6cc8d8235bdb4c296a7e75c9490e49949c3196",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-ZZ-01/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "雨后街边靠近、接吻、退开及拇指触碰嘴边可辨；雨伞和街景保持。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-ZZ-02",
+      "group": "kiss",
+      "auditId": "kiss-KCG-ZZ-02",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-ZZ-000754_1",
+      "condition": "ZZ06-01=A",
+      "route": "zhouzhi",
+      "text": "她自己往旁边挪了半步。我们吻得有些急，像之前很多次停住的动作都挤在这里。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 1597,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "7d607af9-a7c7-48e1-8c25-939a1cdbfb56",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/raw-v001.mp4",
+          "sha256": "c7c946775129b0161a0989004fb6ee5aa282621a9f2f2819a149f934aed2572b",
+          "bytes": 7485309,
+          "requestId": "20261104145458E1C0943446232B4DABB0"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/runtime-v001.mp4",
+          "bytes": 1431454,
+          "sha256": "0452ec9db75766745c5ee476e884102e98815e27d663783441e4da47921fa36b",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/first-v001.webp",
+          "bytes": 581326,
+          "sha256": "a2d93ec3c20060d9fa80c649fcf637d553eb3c877133a0b450d9769bf2f47439"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/last-v001.webp",
+          "bytes": 647452,
+          "sha256": "7bb4c3791b900baaa2cf907da738da10f9879519f372855c41fe717e2ba7fff1"
+        }
+      },
+      "sourceFinding": "停钟、墙面、短吻与退开后抬手拍灰可辨。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/raw-v001.mp4",
+          "sha256": "c7c946775129b0161a0989004fb6ee5aa282621a9f2f2819a149f934aed2572b",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/runtime-v001.mp4",
+          "sha256": "0452ec9db75766745c5ee476e884102e98815e27d663783441e4da47921fa36b",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/first-v001.webp",
+          "sha256": "a2d93ec3c20060d9fa80c649fcf637d553eb3c877133a0b450d9769bf2f47439",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-02/last-v001.webp",
+          "sha256": "7bb4c3791b900baaa2cf907da738da10f9879519f372855c41fe717e2ba7fff1",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-ZZ-02/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "室内门边双人接吻，双臂抱住后退开；角色与空间连续。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-ZZ-03",
+      "group": "kiss",
+      "auditId": "kiss-KCG-ZZ-03",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-ZZ-000766_1",
+      "condition": "ZZ06-01=A",
+      "route": "zhouzhi",
+      "text": "她走去洗脸，又折回来，低头在我嘴上亲了一下。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 1633,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "3f7ea254-74c3-49eb-855e-c5c5d57cf1c2",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/raw-v001.mp4",
+          "sha256": "b7a77ee042f45ac1ad1a9681019b9328b679d19433086eb8810729df6c8ab0f1",
+          "bytes": 9048166,
+          "requestId": "202611041457416922F2CCB9AE348005A4"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/runtime-v001.mp4",
+          "bytes": 1347080,
+          "sha256": "b23a2d4859a6ace5236d7d97635f7862883885a08a2486887be59ebd2532ab57",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/first-v001.webp",
+          "bytes": 558362,
+          "sha256": "144e81a573de961cba807f75e41af65721342ec2b9959b7aac8f74ee5325d576"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/last-v001.webp",
+          "bytes": 656840,
+          "sha256": "6e1f6a10b1a814571b25ecc4e28dfad2101f5a737e42716e75bb9f143487147b"
+        }
+      },
+      "sourceFinding": "毕节住处晨光下，周栀折返低头亲吻再直起。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/raw-v001.mp4",
+          "sha256": "b7a77ee042f45ac1ad1a9681019b9328b679d19433086eb8810729df6c8ab0f1",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/runtime-v001.mp4",
+          "sha256": "b23a2d4859a6ace5236d7d97635f7862883885a08a2486887be59ebd2532ab57",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/first-v001.webp",
+          "sha256": "144e81a573de961cba807f75e41af65721342ec2b9959b7aac8f74ee5325d576",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-03/last-v001.webp",
+          "sha256": "6e1f6a10b1a814571b25ecc4e28dfad2101f5a737e42716e75bb9f143487147b",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-ZZ-03/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "晨光卧室，周栀俯身亲吻坐在床上的文文后起身；接触清楚。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-ZZ-04",
+      "group": "kiss",
+      "auditId": "kiss-KCG-ZZ-04",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-ZZ-000364_1",
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "route": "zhouzhi",
+      "text": "我看着她。她先亲过来，手掌贴在我颈侧。我抱住她，没有把那一下吻当成对所有未知的担保。她的呼吸乱了，退开以后仍抓着我的外套，不像在给一句话收尾。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 2128,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A&ZZ08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "8999c00b-c485-4ba8-a521-b2d194c06139",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/raw-v001.mp4",
+          "sha256": "83cc6762ec45eaf7be93ce110b0984fbdbeb39730b9607debae34ad15caf6418",
+          "bytes": 9802299,
+          "requestId": "20261104145710C60577405131765CE253"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/runtime-v001.mp4",
+          "bytes": 1773699,
+          "sha256": "15522e6f989643be07d78ffa935a42085a05d5bcce7441291706dbfd4666a40f",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/first-v001.webp",
+          "bytes": 770716,
+          "sha256": "226393a0144c793c3463c6709a0a1dcefd0c06b71597e5c8c353b70210970359"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/last-v001.webp",
+          "bytes": 794970,
+          "sha256": "914ac4d89760d662efc3a182de6ef09421c14626b028c30122fc85630e9614bc"
+        }
+      },
+      "sourceFinding": "车站雨棚、颈侧手势与短吻之后抓衣襟可辨。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/raw-v001.mp4",
+          "sha256": "83cc6762ec45eaf7be93ce110b0984fbdbeb39730b9607debae34ad15caf6418",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/runtime-v001.mp4",
+          "sha256": "15522e6f989643be07d78ffa935a42085a05d5bcce7441291706dbfd4666a40f",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/first-v001.webp",
+          "sha256": "226393a0144c793c3463c6709a0a1dcefd0c06b71597e5c8c353b70210970359",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-04/last-v001.webp",
+          "sha256": "914ac4d89760d662efc3a182de6ef09421c14626b028c30122fc85630e9614bc",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-ZZ-04/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "站台周栀先靠近，手贴颈侧，文文抱住她；退开仍抓前襟。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-ZZ-05",
+      "group": "kiss",
+      "auditId": "kiss-KCG-ZZ-05",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-ZZ-000939_1",
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "route": "zhouzhi",
+      "text": "我拉住她的手。她弯腰亲我一下。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 2516,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A&ZZ08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "d16c3904-f4cd-40a5-a638-fd1cfa3441ab",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/raw-v002.mp4",
+          "sha256": "09d9493e46c57929a61e29c08cd3a5e33b60bae1201b73d1e0920aa747ce9ea0",
+          "bytes": 6811582,
+          "requestId": "202611041518197F4F212FCE2F21331ADC"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/runtime-v002.mp4",
+          "bytes": 1167579,
+          "sha256": "6491151f77e264cb8d68a2b3b1ee757f7f9f039c8526fe6123a7204b4c41891c",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/first-v002.webp",
+          "bytes": 550346,
+          "sha256": "bc86bab5471ec0d1f6ff5844822e5fb4c3ab075e782e5b353bae58f9b9d09ee6"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/last-v002.webp",
+          "bytes": 658008,
+          "sha256": "9804f435ce6f45ae937a6714e7b3623d74d4476bbc5aae719bf4aa16bbc37d9c"
+        }
+      },
+      "sourceFinding": "贵阳住处次晨，窗帘、桌边采购纸与两人牵手可辨。周栀俯身亲文文嘴唇后退开。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/raw-v002.mp4",
+          "sha256": "09d9493e46c57929a61e29c08cd3a5e33b60bae1201b73d1e0920aa747ce9ea0",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/runtime-v002.mp4",
+          "sha256": "6491151f77e264cb8d68a2b3b1ee757f7f9f039c8526fe6123a7204b4c41891c",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/first-v002.webp",
+          "sha256": "bc86bab5471ec0d1f6ff5844822e5fb4c3ab075e782e5b353bae58f9b9d09ee6",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-ZZ-05/last-v002.webp",
+          "sha256": "9804f435ce6f45ae937a6714e7b3623d74d4476bbc5aae719bf4aa16bbc37d9c",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-ZZ-05/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "晨光室内二人牵手后靠近轻吻，脸部与衣装稳定。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-MY-01",
+      "group": "kiss",
+      "auditId": "kiss-KCG-MY-01",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-MY-000103_1",
+      "condition": "ALL",
+      "route": "mengyao",
+      "text": "我说来了。她抬手摸了摸我领口，指尖碰到脖子。我握住她的手，问这次是不是可以。她看着我，点头，随后先吻了过来。",
+      "file": "scenario/孟遥-旧题.md",
+      "line": 498,
+      "anchorMatches": true,
+      "bindingCondition": "ALL",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "e5862734-9dd8-43e0-b39d-eb222857bf21",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/raw-v001.mp4",
+          "sha256": "534d8682e5d5bb27105816651a563209803c0e2f01516bf4d1705540a21d71f2",
+          "bytes": 9409247,
+          "requestId": "20261104145942B9AE9810A619F85A7D81"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/runtime-v001.mp4",
+          "bytes": 1492408,
+          "sha256": "9aa8b351f24e574a9dbce82e3e48f514bb137fdcbcbf873ba1fca5b6f6cc6efb",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/first-v001.webp",
+          "bytes": 684658,
+          "sha256": "4c95be30cacba5ed7c58896717ad7bb4349f75279b5e433a743e49432bb92db8"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/last-v001.webp",
+          "bytes": 762862,
+          "sha256": "8aef7bd179038fe10774f25e9c850d848f50fd772e2d562a5ccdedfdd64e7305"
+        }
+      },
+      "sourceFinding": "空教室、试讲手机与两人亲吻相符。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/raw-v001.mp4",
+          "sha256": "534d8682e5d5bb27105816651a563209803c0e2f01516bf4d1705540a21d71f2",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/runtime-v001.mp4",
+          "sha256": "9aa8b351f24e574a9dbce82e3e48f514bb137fdcbcbf873ba1fca5b6f6cc6efb",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/first-v001.webp",
+          "sha256": "4c95be30cacba5ed7c58896717ad7bb4349f75279b5e433a743e49432bb92db8",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-01/last-v001.webp",
+          "sha256": "8aef7bd179038fe10774f25e9c850d848f50fd772e2d562a5ccdedfdd64e7305",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-MY-01/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "桌前孟遥主动靠近接吻，两人均在场；没有陈晟或婚姻变化画面。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-MY-02",
+      "group": "kiss",
+      "auditId": "kiss-KCG-MY-02",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-MY-000227_1",
+      "condition": "MY07-01=A",
+      "route": "mengyao",
+      "text": "她慢慢坐直，没有责怪我扫兴。我们吃完那两只烧饼，再到树后短短吻了一下。手机响时，她去另一边接，我留在原处，把自己那只空纸袋折好。",
+      "file": "scenario/孟遥-旧题.md",
+      "line": 1127,
+      "anchorMatches": true,
+      "bindingCondition": "MY07-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "226d469a-e3b5-444f-888f-03518172fa8d",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/raw-v001.mp4",
+          "sha256": "970db4c49cfc9b6ed19c5b0d8b50ef143d28566cdcf7d509d790966f310cb3b8",
+          "bytes": 10257108,
+          "requestId": "2026110414561098306D87CD9E5632D557"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/runtime-v001.mp4",
+          "bytes": 1529340,
+          "sha256": "045ba3ee4c6f29c53bd9327059efcbf8f798dd78342ed107bada650d26d2fe55",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/first-v001.webp",
+          "bytes": 725900,
+          "sha256": "1b1d91a50a5341aa048eab82288775f6942851e578bcad6e5d65e98da746bc72"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/last-v001.webp",
+          "bytes": 789742,
+          "sha256": "ab8fc280afc691b4778dc5eab157ce949146065020ebec200b7e45c718d749ac"
+        }
+      },
+      "sourceFinding": "河边树后和烧饼纸袋可辨。尾段手机光偏亮，正文进入来电。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/raw-v001.mp4",
+          "sha256": "970db4c49cfc9b6ed19c5b0d8b50ef143d28566cdcf7d509d790966f310cb3b8",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/runtime-v001.mp4",
+          "sha256": "045ba3ee4c6f29c53bd9327059efcbf8f798dd78342ed107bada650d26d2fe55",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/first-v001.webp",
+          "sha256": "1b1d91a50a5341aa048eab82288775f6942851e578bcad6e5d65e98da746bc72",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-02/last-v001.webp",
+          "sha256": "ab8fc280afc691b4778dc5eab157ce949146065020ebec200b7e45c718d749ac",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-MY-02/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "河边树旁短吻，牵手及退出可辨；仅表现原动作段，不扩入后续电话。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-MY-03",
+      "group": "kiss",
+      "auditId": "kiss-KCG-MY-03",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-MY-000431_1",
+      "condition": "MY07-01=A",
+      "route": "mengyao",
+      "text": "她先吻过来。",
+      "file": "scenario/孟遥-旧题.md",
+      "line": 1274,
+      "anchorMatches": true,
+      "bindingCondition": "MY07-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "2b0c6bfd-ea24-4b76-9cf8-9f6e02d2898a",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/raw-v001.mp4",
+          "sha256": "f41a37ddd549571af1a88c731f150c698ea126943f5da41c51915e6a761f9fae",
+          "bytes": 8904442,
+          "requestId": "2026110414571324FF9E2C7561DB31EFF9"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/runtime-v001.mp4",
+          "bytes": 1250333,
+          "sha256": "79b40d9fcb9a2e26cdeec0723a4ce8a271027e2df8b84e404a7f24a69652fecb",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/first-v001.webp",
+          "bytes": 538658,
+          "sha256": "8accadf69c8b0b4b94c085ff2c16aad9e453eed0da410788d43b01a339991a94"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/last-v001.webp",
+          "bytes": 655642,
+          "sha256": "f7907406252ea79a20f3a488bd4d44d42dad9e8ab5684f2fccf2f5484f1008ad"
+        }
+      },
+      "sourceFinding": "夜间出租屋、备课本、手机及孟遥主动靠近相符。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/raw-v001.mp4",
+          "sha256": "f41a37ddd549571af1a88c731f150c698ea126943f5da41c51915e6a761f9fae",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/runtime-v001.mp4",
+          "sha256": "79b40d9fcb9a2e26cdeec0723a4ce8a271027e2df8b84e404a7f24a69652fecb",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/first-v001.webp",
+          "sha256": "8accadf69c8b0b4b94c085ff2c16aad9e453eed0da410788d43b01a339991a94",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/last-v001.webp",
+          "sha256": "f7907406252ea79a20f3a488bd4d44d42dad9e8ab5684f2fccf2f5484f1008ad",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-MY-03/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "夜间书桌边孟遥先靠近、接吻后退开；教案与房间连续。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-MY-04",
+      "group": "kiss",
+      "auditId": "kiss-KCG-MY-04",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-MY-000282_1",
+      "condition": "MY07-01=A",
+      "route": "mengyao",
+      "text": "我抬头吻她，她回应了。支架上的手机还在录，直到她碰到桌角才想起来，伸手按停。我在镜头里叫过她以前的小名，声音很清楚。",
+      "file": "scenario/孟遥-旧题.md",
+      "line": 1527,
+      "anchorMatches": true,
+      "bindingCondition": "MY07-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "bdafd7f1-f796-4edc-ba33-74ae73cbef9f",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/raw-v002.mp4",
+          "sha256": "6ccb60bfaaf32769641c5be9a47b5b1f1cb768a1c409599bf40d7edc65b6d86f",
+          "bytes": 9152481,
+          "requestId": "20261104151534D35D7CF0F02E0D374688"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/runtime-v002.mp4",
+          "bytes": 1385952,
+          "sha256": "168105d2224494c6ed22397c22e70683c571c77cc9b21eaff33cf9d74e0bd9aa",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/first-v002.webp",
+          "bytes": 621588,
+          "sha256": "0fcb860fedac962bbe5637f8f0d68eac02f4caca27f71da5ecdc6f4710a1aef6"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/last-v002.webp",
+          "bytes": 702028,
+          "sha256": "89805aa42b604cbf131f976d9e8a29e2c051629b79b05bd129a85ed291adba50"
+        }
+      },
+      "sourceFinding": "场景已改成贵阳住处。窗光、书垫和手机支架可辨。两人亲吻后，她按暗桌上的手机。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/raw-v002.mp4",
+          "sha256": "6ccb60bfaaf32769641c5be9a47b5b1f1cb768a1c409599bf40d7edc65b6d86f",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/runtime-v002.mp4",
+          "sha256": "168105d2224494c6ed22397c22e70683c571c77cc9b21eaff33cf9d74e0bd9aa",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/first-v002.webp",
+          "sha256": "0fcb860fedac962bbe5637f8f0d68eac02f4caca27f71da5ecdc6f4710a1aef6",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-04/last-v002.webp",
+          "sha256": "89805aa42b604cbf131f976d9e8a29e2c051629b79b05bd129a85ed291adba50",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-MY-04/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "桌边接吻后孟遥伸向手机，支架手机保留；未把拍摄解释为公开关系。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-PI-01",
+      "group": "kiss",
+      "auditId": "kiss-KCG-PI-01",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-PI-000271_1",
+      "condition": "PIAO_RELATION=HIGH",
+      "route": "piao",
+      "text": "我靠过去，她先吻了我一下。很短，退开后眼睛还盯着我的嘴。我把手贴到她颈后，问还可以不。她没笑我问得笨，只说可以，然后将我往自己这边拉。",
+      "file": "scenario/飘-空白页.md",
+      "line": 1338,
+      "anchorMatches": true,
+      "bindingCondition": "PIAO_RELATION=HIGH",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "41a9e327-db4d-47a7-85f6-748efcf2f092",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/raw-v001.mp4",
+          "sha256": "e3a5a3007fefec4a627a31286e1cce102cacbd08a3d69f94a436db3e088d27e5",
+          "bytes": 10211016,
+          "requestId": "202611041457437C9CE7A0B6353259C60B"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/runtime-v001.mp4",
+          "bytes": 1508696,
+          "sha256": "003c74f94d0e54bfdd32ac12333496779fd42eb6dbe197e255379bd979881c1e",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/first-v001.webp",
+          "bytes": 669990,
+          "sha256": "3e9b4ece262faa0b2e2eb169f36336304d9d2054d76aadd756009354c15f86dd"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/last-v001.webp",
+          "bytes": 725286,
+          "sha256": "0a38109eda6036ce5e2c41b0a15792f6357932148e6049f46daaa3cfbd98d0ae"
+        }
+      },
+      "sourceFinding": "窗光、册子、亲吻和纸张滑落可辨。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/raw-v001.mp4",
+          "sha256": "e3a5a3007fefec4a627a31286e1cce102cacbd08a3d69f94a436db3e088d27e5",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/runtime-v001.mp4",
+          "sha256": "003c74f94d0e54bfdd32ac12333496779fd42eb6dbe197e255379bd979881c1e",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/first-v001.webp",
+          "sha256": "3e9b4ece262faa0b2e2eb169f36336304d9d2054d76aadd756009354c15f86dd",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-01/last-v001.webp",
+          "sha256": "0a38109eda6036ce5e2c41b0a15792f6357932148e6049f46daaa3cfbd98d0ae",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-PI-01/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "白昼房间飘主动短吻，文文手移到颈后；人物、相机背景和衣装稳定。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-PI-02",
+      "group": "kiss",
+      "auditId": "kiss-KCG-PI-02",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-PI-000345_1",
+      "condition": "PIAO_RELATION=HIGH&PI08-01=A&PI06-01=A",
+      "route": "piao",
+      "text": "我点头，刚要说话，她抬脸吻住我。广播又响了一遍，我们都听见了。她没急着退，我的手收紧，又慢慢松开，让她能看见进站口。",
+      "file": "scenario/飘-空白页.md",
+      "line": 1675,
+      "anchorMatches": true,
+      "bindingCondition": "PIAO_RELATION=HIGH&PI08-01=A&PI06-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "5b016640-64ee-49c1-b9a7-6094bfcc7956",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/raw-v001.mp4",
+          "sha256": "9003756bfff51d4adb5f8a2bc0acf6f71fdae702da6f50eb0b0b21635c24e937",
+          "bytes": 9724309,
+          "requestId": "2026110414574651B1121FDC315D346545"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/runtime-v001-cut.mp4",
+          "bytes": 1467782,
+          "sha256": "85c41681c5bac9df8fb180df689a546925d860b480c2b40e10c3ecc2623d1a73",
+          "durationSeconds": 4.63,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 111
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/first-v001-cut.webp",
+          "bytes": 645826,
+          "sha256": "11d0e820fe8a61e6e0c6285f12e7d62ac6817029cfc7ff23b841f19cd4b2bccd"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/last-v001-cut.webp",
+          "bytes": 682926,
+          "sha256": "df88f19bf8dec87159ccb4dbd7a9709e88bf41e6d3948447e4c3f6f24fa65548"
+        }
+      },
+      "sourceFinding": "车站拥吻与松开手臂相符。片头裁去 0.375 秒的生成字幕，运行候选 4.63 秒。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/raw-v001.mp4",
+          "sha256": "9003756bfff51d4adb5f8a2bc0acf6f71fdae702da6f50eb0b0b21635c24e937",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/runtime-v001-cut.mp4",
+          "sha256": "85c41681c5bac9df8fb180df689a546925d860b480c2b40e10c3ecc2623d1a73",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/first-v001-cut.webp",
+          "sha256": "11d0e820fe8a61e6e0c6285f12e7d62ac6817029cfc7ff23b841f19cd4b2bccd",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-PI-02/last-v001-cut.webp",
+          "sha256": "df88f19bf8dec87159ccb4dbd7a9709e88bf41e6d3948447e4c3f6f24fa65548",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 111,
+        "seconds": 4.63
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-PI-02/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "车站近景持续亲吻再退开，裁剪版4.63秒；画面内无尾部人物突变。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-HQ-01",
+      "group": "kiss",
+      "auditId": "kiss-KCG-HQ-01",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-HQ-000212_1",
+      "condition": "ALL",
+      "route": "huangqiuqiu",
+      "text": "她把纸巾放下，往这边挪了一点。第一次碰到嘴唇，我轻得像没碰到，退开才发现她还抓着外套。",
+      "file": "scenario/黄球球-门后.md",
+      "line": 1151,
+      "anchorMatches": true,
+      "bindingCondition": "ALL",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "4c98e3b4-2cbf-4fa4-b8c5-81df40eb36fc",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/raw-v002.mp4",
+          "sha256": "63496b23de82518f7e409b4a8dc38744465821a8bebeae853679a8c314699832",
+          "bytes": 10936742,
+          "requestId": "20261104151558DBE8B8F48D502F79E430"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/runtime-v002.mp4",
+          "bytes": 1657662,
+          "sha256": "269d80fffe664375906cf0f4ee6a51b7eb176e1d94cab3b6946d5f90df976b37",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/first-v002.webp",
+          "bytes": 705448,
+          "sha256": "d7867054d752918f22706e7e2b29f197de79f962e4f0bfd99a9fe59a01b79dd9"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/last-v002.webp",
+          "bytes": 755528,
+          "sha256": "1abc68ba516c2b647284e3c0eb628962c0440a29dc92fd3f69a7cbe0939592fb"
+        }
+      },
+      "sourceFinding": "门内、湿纸巾、眼部遮片和颈饰可辨。亲吻后她抓住文文外套。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/raw-v002.mp4",
+          "sha256": "63496b23de82518f7e409b4a8dc38744465821a8bebeae853679a8c314699832",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/runtime-v002.mp4",
+          "sha256": "269d80fffe664375906cf0f4ee6a51b7eb176e1d94cab3b6946d5f90df976b37",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/first-v002.webp",
+          "sha256": "d7867054d752918f22706e7e2b29f197de79f962e4f0bfd99a9fe59a01b79dd9",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-01/last-v002.webp",
+          "sha256": "1abc68ba516c2b647284e3c0eb628962c0440a29dc92fd3f69a7cbe0939592fb",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-HQ-01/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "人形黄球球与文文初吻后退开；保持人形与既有脸部特征。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-HQ-02",
+      "group": "kiss",
+      "auditId": "kiss-KCG-HQ-02",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-HQ-000544_1",
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "route": "huangqiuqiu",
+      "text": "她先在我嘴角碰了一下。",
+      "file": "scenario/黄球球-门后.md",
+      "line": 1558,
+      "anchorMatches": true,
+      "bindingCondition": "HQ07-01=A&HQ08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "68b992d6-defa-4e01-af5d-410b898031fb",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/raw-v002.mp4",
+          "sha256": "7078a7fa5f14361e475e88b3b02b91f59775b329ae167ae074f0f2188a04c3bf",
+          "bytes": 11396552,
+          "requestId": "202611041516268450C6B2B46DB753615C"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/runtime-v002.mp4",
+          "bytes": 1736187,
+          "sha256": "36b1010be9c5114f4c830c1edad93f2b94f08b6416088f899308ffb7309eeff2",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/first-v002.webp",
+          "bytes": 779242,
+          "sha256": "a607750d48c5942dd1b0fbd9e975c1a5d6bcdd0f429d0fa178ec59492a6fe3e3"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/last-v002.webp",
+          "bytes": 829490,
+          "sha256": "2a72db4de2049768f868cf5f2aecb5e5eac6e6b6d2a3946d6ca2c4316aed2fc4"
+        }
+      },
+      "sourceFinding": "纸条留在桌上，眼部遮片和颈饰连贯。她靠近文文嘴角，两人松开。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/raw-v002.mp4",
+          "sha256": "7078a7fa5f14361e475e88b3b02b91f59775b329ae167ae074f0f2188a04c3bf",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/runtime-v002.mp4",
+          "sha256": "36b1010be9c5114f4c830c1edad93f2b94f08b6416088f899308ffb7309eeff2",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/first-v002.webp",
+          "sha256": "a607750d48c5942dd1b0fbd9e975c1a5d6bcdd0f429d0fa178ec59492a6fe3e3",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-02/last-v002.webp",
+          "sha256": "2a72db4de2049768f868cf5f2aecb5e5eac6e6b6d2a3946d6ca2c4316aed2fc4",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-HQ-02/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "人形黄球球向文文嘴角靠近接触后退开；没有球形切换。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "KCG-HQ-03",
+      "group": "kiss",
+      "auditId": "kiss-KCG-HQ-03",
+      "source": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+      "node": "T-HQ-000588_1",
+      "condition": "HQ07-01=A&HQ08-01=A",
+      "route": "huangqiuqiu",
+      "text": "我转头，她没躲，先亲在我嘴角，然后把笔拿开。",
+      "file": "scenario/黄球球-门后.md",
+      "line": 1856,
+      "anchorMatches": true,
+      "bindingCondition": "HQ07-01=A&HQ08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "original": {
+          "resourceId": "567902c5-8820-4df6-ba93-69b01698f264",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/raw-v002.mp4",
+          "sha256": "06b495050578752d7ae67f4e81e5eb79bcde8a38883886b8e77cdb7910f95623",
+          "bytes": 12406211,
+          "requestId": "20261104151755F6382C9369B9375BCC71"
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/runtime-v002.mp4",
+          "bytes": 1921466,
+          "sha256": "db8604febc25e69e768837d72254218eac938a9744d970f429f354198a6f42f7",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/first-v002.webp",
+          "bytes": 803990,
+          "sha256": "2e5e483d5903720410e7e79f6c4de164afd1d874f51b96934b084d9bdc88ce21"
+        },
+        "last": {
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/last-v002.webp",
+          "bytes": 826566,
+          "sha256": "db833473ab3353815a8e266a98a6ce996aab861a5dd50578e926c32fb7ef18c1"
+        }
+      },
+      "sourceFinding": "写杯底名字、眼部遮片与靠肩动作连贯。3.76 秒单帧确认轻触嘴角，笔仍握在文文手中。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/raw-v002.mp4",
+          "sha256": "06b495050578752d7ae67f4e81e5eb79bcde8a38883886b8e77cdb7910f95623",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/runtime-v002.mp4",
+          "sha256": "db8604febc25e69e768837d72254218eac938a9744d970f429f354198a6f42f7",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/first-v002.webp",
+          "sha256": "2e5e483d5903720410e7e79f6c4de164afd1d874f51b96934b084d9bdc88ce21",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/亲吻动态CG/KCG-HQ-03/last-v002.webp",
+          "sha256": "db833473ab3353815a8e266a98a6ce996aab861a5dd50578e926c32fb7ef18c1",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/kiss-KCG-HQ-03/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "写杯名场景黄球球转头亲吻文文，杯笔保留；没有形态切换。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-XM45",
+      "group": "morning",
+      "auditId": "morning-OV-XM45",
+      "source": "docs/美术/留宿动态CG-20261104/计划绑定.json",
+      "node": "T-XM-000271_1",
+      "condition": "XM07-01=A",
+      "route": "xiaoman",
+      "text": "第二天醒来，她抢先坐起，头发乱得不像理发店的人。我刚笑，她便把枕头按到我脸上。闹了一会儿，她停住，接了阿俊的电话。",
+      "file": "scenario/罗小满-练习本.md",
+      "line": 1550,
+      "anchorMatches": true,
+      "bindingCondition": "XM07-01=A",
+      "policy": "historical-alternative",
+      "media": {
+        "key": "OV-XM45",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/raw-v002.mp4",
+          "bytes": 7711855,
+          "sha256": "1116133f56ca67ebdac9e85ccb5ba6b485be6f180b566e40a527b585593f8f7c",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/runtime-v002.mp4",
+          "bytes": 1201392,
+          "sha256": "8bf5e4951a41c174d69a878592a98e94145b15bb60c6cb8b8b1b1300a295fd1e",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/first-v002.webp",
+          "bytes": 605888,
+          "sha256": "bd60095d954cf7b9adf5f93a743b027e263bb13c5fac5d2e03b5f66029cb8d89"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/last-v002.webp",
+          "bytes": 709154,
+          "sha256": "fa4de562cd97333b3700b62442170a7d5c6b29f48b461616bfd76cbfc88d8623"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-XM45/v002/contact-sheet.jpg",
+          "bytes": 206159,
+          "sha256": "ddde17109b54491b90865e39850a319afacbc1483feef964d0b80e487e707758"
+        }
+      },
+      "sourceFinding": "两人从开场同框。文文笑着看小满，小满用轮廓完整的枕头挡住他的笑，两人的侧脸和主要动作在默认文字框上方。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/raw-v002.mp4",
+          "sha256": "1116133f56ca67ebdac9e85ccb5ba6b485be6f180b566e40a527b585593f8f7c",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/runtime-v002.mp4",
+          "sha256": "8bf5e4951a41c174d69a878592a98e94145b15bb60c6cb8b8b1b1300a295fd1e",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/first-v002.webp",
+          "sha256": "bd60095d954cf7b9adf5f93a743b027e263bb13c5fac5d2e03b5f66029cb8d89",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/last-v002.webp",
+          "sha256": "fa4de562cd97333b3700b62442170a7d5c6b29f48b461616bfd76cbfc88d8623",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-XM45/v002/contact-sheet.jpg",
+          "sha256": "ddde17109b54491b90865e39850a319afacbc1483feef964d0b80e487e707758",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/morning-OV-XM45/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "historical-alternative-only",
+        "observation": "小满拿枕头推向文文脸侧；二人可辨，留作历史备选。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "group": "morning",
+      "auditId": "morning-OV-ZZ-BJ",
+      "source": "docs/美术/留宿动态CG-20261104/计划绑定.json",
+      "node": "T-ZZ-000764_1",
+      "condition": "ZZ06-01=A",
+      "route": "zhouzhi",
+      "text": "次日清晨，她先醒，烦躁地找一根总掉到床缝里的发圈。我想再搂她一会儿，被她拍了下手。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 1627,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A",
+      "policy": "historical-alternative",
+      "media": {
+        "key": "OV-ZZ-BJ",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/raw-v002.mp4",
+          "bytes": 8401654,
+          "sha256": "974eaa0d59d8c4753ac74280a7655412fe5669be8c8a108fdc1fed48f2183f21",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/runtime-v002.mp4",
+          "bytes": 1635391,
+          "sha256": "6b58ba8dc0b38a543bf40e9c8516683883dc8449be9d78aa1013214793b87384",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/first-v002.webp",
+          "bytes": 581196,
+          "sha256": "5b41ac921f782b3bdfdc25c661a54ce24744d8e41a78b1a20289115df476bf7b"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/last-v002.webp",
+          "bytes": 662366,
+          "sha256": "f5eab67d6da81fafa7adfbe6629a7090f4900174c942b8fa8b6b130b726c079d"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-ZZ-BJ/v002/contact-sheet.jpg",
+          "bytes": 191224,
+          "sha256": "07c9a8ec3034f6f9200d477a562c415de10e2b5c74ff1370accf3d63eb9f4484"
+        }
+      },
+      "sourceFinding": "周栀俯身在床缝边摸索，文文伸手碰她肩膀，她抬手拨开并继续找。两人的脸可辨认。发圈在抽帧里不显眼，床边摸索手部会被文字框遮挡，计划全画面播放。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/raw-v002.mp4",
+          "sha256": "974eaa0d59d8c4753ac74280a7655412fe5669be8c8a108fdc1fed48f2183f21",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/runtime-v002.mp4",
+          "sha256": "6b58ba8dc0b38a543bf40e9c8516683883dc8449be9d78aa1013214793b87384",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/first-v002.webp",
+          "sha256": "5b41ac921f782b3bdfdc25c661a54ce24744d8e41a78b1a20289115df476bf7b",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/last-v002.webp",
+          "sha256": "f5eab67d6da81fafa7adfbe6629a7090f4900174c942b8fa8b6b130b726c079d",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-ZZ-BJ/v002/contact-sheet.jpg",
+          "sha256": "07c9a8ec3034f6f9200d477a562c415de10e2b5c74ff1370accf3d63eb9f4484",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/morning-OV-ZZ-BJ/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "historical-alternative-only",
+        "observation": "周栀俯身找物，拨开文文伸来的手后继续；发圈细节不明显，留作历史备选。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "group": "morning",
+      "auditId": "morning-OV-ZZ-GY",
+      "source": "docs/美术/留宿动态CG-20261104/计划绑定.json",
+      "node": "T-ZZ-000933_1",
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "route": "zhouzhi",
+      "text": "第二天她比我先起，拿走桌上的采购单。我刚睁眼，她就问。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 2498,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A&ZZ08-01=A",
+      "policy": "historical-alternative",
+      "media": {
+        "key": "OV-ZZ-GY",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/raw-v002.mp4",
+          "bytes": 6384905,
+          "sha256": "1626396e0cdba7a5a805d2361b0fdd25e752b0605ed2709437e8f44bd8409a23",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/runtime-v002.mp4",
+          "bytes": 1129789,
+          "sha256": "febd9472e62651e01de45ce89e09b8e078ee0bb672d4da86eaae88235fa48f8f",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/first-v002.webp",
+          "bytes": 661526,
+          "sha256": "fd1787757b389b9567b06430730b62c73c8e789d41aafef1536934247a0d5ba1"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/last-v002.webp",
+          "bytes": 731866,
+          "sha256": "aff1daf797119b57d49d1c7f92eebb28f9756c3701ede379d3e407a059d0f89a"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-ZZ-GY/v002/contact-sheet.jpg",
+          "bytes": 223621,
+          "sha256": "fc0e01fa81ae4f774eb7342d0c1768936b3dd375432708acf660742e29a7ce00"
+        }
+      },
+      "sourceFinding": "周栀拿起采购单后回头看床头的文文，两人从开场就在同一画面。文文靠后，仍可凭金色短寸和侧脸辨认。默认文字框会压住采购单和桌边手部，计划用全画面播放，结束后恢复同页正文。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/raw-v002.mp4",
+          "sha256": "1626396e0cdba7a5a805d2361b0fdd25e752b0605ed2709437e8f44bd8409a23",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/runtime-v002.mp4",
+          "sha256": "febd9472e62651e01de45ce89e09b8e078ee0bb672d4da86eaae88235fa48f8f",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/first-v002.webp",
+          "sha256": "fd1787757b389b9567b06430730b62c73c8e789d41aafef1536934247a0d5ba1",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/last-v002.webp",
+          "sha256": "aff1daf797119b57d49d1c7f92eebb28f9756c3701ede379d3e407a059d0f89a",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-ZZ-GY/v002/contact-sheet.jpg",
+          "sha256": "fc0e01fa81ae4f774eb7342d0c1768936b3dd375432708acf660742e29a7ce00",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/morning-OV-ZZ-GY/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "historical-alternative-only",
+        "observation": "周栀写采购纸后回望床上文文；两人可辨，留作历史备选。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-MY56",
+      "group": "morning",
+      "auditId": "morning-OV-MY56",
+      "source": "docs/美术/留宿动态CG-20261104/计划绑定.json",
+      "node": "T-MY-000437_1",
+      "condition": "MY07-01=A",
+      "route": "mengyao",
+      "text": "天刚亮，她就起床。备课本还在桌上，她翻出夹在里面的一张课表，核过早上第一节，把另一只袖子穿进去。",
+      "file": "scenario/孟遥-旧题.md",
+      "line": 1295,
+      "anchorMatches": true,
+      "bindingCondition": "MY07-01=A",
+      "policy": "historical-alternative",
+      "media": {
+        "key": "OV-MY56",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/raw-v002.mp4",
+          "bytes": 7089343,
+          "sha256": "852c8d452003910eb3c4c554e2b7fa055b07aa71e5463c47b525f2f37c975b1b",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/runtime-v002.mp4",
+          "bytes": 1220579,
+          "sha256": "d192dc32c13a16a01c3f427d7ff624b3e5d58da2e3d05d2c211ad5794040aebb",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/first-v002.webp",
+          "bytes": 613980,
+          "sha256": "5e08da005e6a0d488cc64357aa9f4883e25e69f9cb3b590fbb37cb2e4e1b6a17"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/last-v002.webp",
+          "bytes": 681118,
+          "sha256": "519abe60619fadd986bffd7a12db9f5b5f144f97d992ac447b2744eb58d1e54e"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-MY56/v002/contact-sheet.jpg",
+          "bytes": 201227,
+          "sha256": "d1bfe66a6924c0d6cff62983a8878e968859a012585036796bb066c1267bab95"
+        }
+      },
+      "sourceFinding": "文文坐在床边看向桌旁的孟遥。孟遥翻出课表核对，随后穿好另一边袖子，纠正首版的视角反转。两人的脸及课表举起后的动作在文字框上方。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/raw-v002.mp4",
+          "sha256": "852c8d452003910eb3c4c554e2b7fa055b07aa71e5463c47b525f2f37c975b1b",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/runtime-v002.mp4",
+          "sha256": "d192dc32c13a16a01c3f427d7ff624b3e5d58da2e3d05d2c211ad5794040aebb",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/first-v002.webp",
+          "sha256": "5e08da005e6a0d488cc64357aa9f4883e25e69f9cb3b590fbb37cb2e4e1b6a17",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/last-v002.webp",
+          "sha256": "519abe60619fadd986bffd7a12db9f5b5f144f97d992ac447b2744eb58d1e54e",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-MY56/v002/contact-sheet.jpg",
+          "sha256": "d1bfe66a6924c0d6cff62983a8878e968859a012585036796bb066c1267bab95",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/morning-OV-MY56/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "historical-alternative-only",
+        "observation": "孟遥整理教案并穿外套，文文坐在床侧；留作历史备选，不替代夜间缺陷片。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-PI39",
+      "group": "morning",
+      "auditId": "morning-OV-PI39",
+      "source": "docs/美术/留宿动态CG-20261104/计划绑定.json",
+      "node": "T-PI-000287_1",
+      "condition": "PIAO_RELATION=HIGH",
+      "route": "piao",
+      "text": "天亮时，她的头发压在我胳膊上。我醒得早，想起身看时间，她闭着眼把我的手拉住，说没到，昨晚听见我设闹钟了。",
+      "file": "scenario/飘-空白页.md",
+      "line": 1404,
+      "anchorMatches": true,
+      "bindingCondition": "PIAO_RELATION=HIGH",
+      "policy": "historical-alternative",
+      "media": {
+        "key": "OV-PI39",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/raw-v002.mp4",
+          "bytes": 8170946,
+          "sha256": "5ed52ab89ba3c69de678994052f757c887d5ddaee4442a4b6ce205cb45569380",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/runtime-v002.mp4",
+          "bytes": 1132661,
+          "sha256": "11b1fdd3e78edc0e2bd3d02176dd30a50113fb42467f81ce0d6b43fb151e7109",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/first-v002.webp",
+          "bytes": 572442,
+          "sha256": "5cc3f7e6bad9a845f2a6d5046a844aa22e2375d8839b764b3bf0a9657c6e9783"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/last-v002.webp",
+          "bytes": 658876,
+          "sha256": "dbb1b808dde2b6be27c08dcb22da03d37e78d840f3ab809c3e6c16e0aa23f20d"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-PI39/v002/contact-sheet.jpg",
+          "bytes": 190442,
+          "sha256": "bac1bc803e573c6bebec01f533f2f7f8fca58f46d5f76eb30339d18c83c6399a"
+        }
+      },
+      "sourceFinding": "飘闭眼枕着文文的手臂，手由袖边移到他的手腕与手背。文文的侧脸、金色短寸和牛仔衣可辨，画面上缘裁掉了部分头顶。默认文字框会遮住手部，计划全画面播放。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/raw-v002.mp4",
+          "sha256": "5ed52ab89ba3c69de678994052f757c887d5ddaee4442a4b6ce205cb45569380",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/runtime-v002.mp4",
+          "sha256": "11b1fdd3e78edc0e2bd3d02176dd30a50113fb42467f81ce0d6b43fb151e7109",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/first-v002.webp",
+          "sha256": "5cc3f7e6bad9a845f2a6d5046a844aa22e2375d8839b764b3bf0a9657c6e9783",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/last-v002.webp",
+          "sha256": "dbb1b808dde2b6be27c08dcb22da03d37e78d840f3ab809c3e6c16e0aa23f20d",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-PI39/v002/contact-sheet.jpg",
+          "sha256": "bac1bc803e573c6bebec01f533f2f7f8fca58f46d5f76eb30339d18c83c6399a",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/morning-OV-PI39/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "historical-alternative-only",
+        "observation": "飘靠在文文肩头，手放到他的手上；留作历史备选。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-HQ57",
+      "group": "morning",
+      "auditId": "morning-OV-HQ57",
+      "source": "docs/美术/留宿动态CG-20261104/计划绑定.json",
+      "node": "T-HQ-000222_1",
+      "condition": "ALL",
+      "route": "huangqiuqiu",
+      "text": "清晨，我被手臂上的酸麻弄醒。她靠得很近，头发压在我衣领下，伸手去找那只已经没响的闹钟。我说今天不用赶，她睁开眼看我，很慢地笑了一下。",
+      "file": "scenario/黄球球-门后.md",
+      "line": 1219,
+      "anchorMatches": true,
+      "bindingCondition": "ALL",
+      "policy": "historical-alternative",
+      "media": {
+        "key": "OV-HQ57",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/raw-v002.mp4",
+          "bytes": 7181204,
+          "sha256": "9a0f37ad85510986fc2fae5b4ded1aff364a2929047158dadc971fc7e4290d9b",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/runtime-v002.mp4",
+          "bytes": 1050169,
+          "sha256": "314fe622f1707de44de0b2cec33a98579c5dd7319ffd3f991b103239f7978f1a",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/first-v002.webp",
+          "bytes": 670642,
+          "sha256": "472d843a42e3f3feb9cb712e398ac72b33f50481cc5c19adc116d1a1e60a73fc"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/last-v002.webp",
+          "bytes": 753828,
+          "sha256": "c4ab45d76f57397a93273c79db920884cc52b5bb5dd731be74f6596e6fc75176"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-HQ57/v002/contact-sheet.jpg",
+          "bytes": 218518,
+          "sha256": "cda8a152968c1320b386da2a556f9186fec547efdd687b670ae93aab056d9442"
+        }
+      },
+      "sourceFinding": "文文侧脸和黄球球从开场同框。黄球球维持成年女性人形，由她抬手够闹钟，随后睁眼望向文文。抽帧叠框中，两人的脸和闹钟均可见。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/raw-v002.mp4",
+          "sha256": "9a0f37ad85510986fc2fae5b4ded1aff364a2929047158dadc971fc7e4290d9b",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/runtime-v002.mp4",
+          "sha256": "314fe622f1707de44de0b2cec33a98579c5dd7319ffd3f991b103239f7978f1a",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/first-v002.webp",
+          "sha256": "472d843a42e3f3feb9cb712e398ac72b33f50481cc5c19adc116d1a1e60a73fc",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/last-v002.webp",
+          "sha256": "c4ab45d76f57397a93273c79db920884cc52b5bb5dd731be74f6596e6fc75176",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-HQ57/v002/contact-sheet.jpg",
+          "sha256": "cda8a152968c1320b386da2a556f9186fec547efdd687b670ae93aab056d9442",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/morning-OV-HQ57/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "historical-alternative-only",
+        "observation": "人形黄球球与文文并躺，伸手触向闹钟；留作历史备选。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-XM45",
+      "group": "night",
+      "auditId": "night-OV-XM45",
+      "source": "docs/美术/留宿动态CG-20261104/夜间亲密版计划绑定.json",
+      "node": "T-XM-000269_1",
+      "condition": "XM07-01=A",
+      "route": "xiaoman",
+      "text": "这次她说得没有平时响。我把饭盒挪到桌上，才抱住她。窗帘没拉严，她伸手去够，我先起身拉上，回来时她已经把鞋摆到了床边。",
+      "file": "scenario/罗小满-练习本.md",
+      "line": 1542,
+      "anchorMatches": true,
+      "bindingCondition": "XM07-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "key": "OV-XM45",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/raw-v003.mp4",
+          "bytes": 6578508,
+          "sha256": "7e808ee96c3ac05b07f46dcb118d4fa1f401c433d982e2605449979a26baf763",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/runtime-v003.mp4",
+          "bytes": 1078152,
+          "sha256": "5327ada9407fe9c43df2cd17be8668642a84e3550fe0de9fba7980b799ebc6ef",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/first-v003.webp",
+          "bytes": 525174,
+          "sha256": "d2bebb7a8bb94535339c204dba4e806dab6da8ce2b65719a130dd12bc0a20954"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/last-v003.webp",
+          "bytes": 614750,
+          "sha256": "dbea2ad97f088526a0fa5e0df4cc77f4b997ef87dfb8ab8b2490ed577f12163b"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-XM45/v003/contact-sheet.jpg",
+          "bytes": 169103,
+          "sha256": "c804a3ffd85aa9f9c1716d748af0efffcb4997b468abfdc86ec25dbd918cb34b"
+        }
+      },
+      "sourceFinding": "文文与小满都穿素色短袖，床边由对视过渡到双臂拥抱，保留毕节租屋夜景。正文的饭盒只留作背景，镜头聚焦拥抱。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/raw-v003.mp4",
+          "sha256": "7e808ee96c3ac05b07f46dcb118d4fa1f401c433d982e2605449979a26baf763",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/runtime-v003.mp4",
+          "sha256": "5327ada9407fe9c43df2cd17be8668642a84e3550fe0de9fba7980b799ebc6ef",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/first-v003.webp",
+          "sha256": "d2bebb7a8bb94535339c204dba4e806dab6da8ce2b65719a130dd12bc0a20954",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v003/last-v003.webp",
+          "sha256": "dbea2ad97f088526a0fa5e0df4cc77f4b997ef87dfb8ab8b2490ed577f12163b",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-XM45/v003/contact-sheet.jpg",
+          "sha256": "c804a3ffd85aa9f9c1716d748af0efffcb4997b468abfdc86ec25dbd918cb34b",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/night-OV-XM45/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "素色内搭的文文与小满从对视到双臂拥抱；租屋夜景连续，手臂归属清楚。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "group": "night",
+      "auditId": "night-OV-ZZ-BJ",
+      "source": "docs/美术/留宿动态CG-20261104/夜间亲密版计划绑定.json",
+      "node": "T-ZZ-000763_1",
+      "condition": "ZZ06-01=A",
+      "route": "zhouzhi",
+      "text": "我伸手抱住她。窗外经过一辆车，光从窗帘下面扫过去，她把灯关了。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 1624,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "key": "OV-ZZ-BJ",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/raw-v003.mp4",
+          "bytes": 8832546,
+          "sha256": "c67a608172bfbe7020d7774aef85cab8d22441ce3b4821c7207cda9a91d50792",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/runtime-v003.mp4",
+          "bytes": 1644268,
+          "sha256": "dc53a714eb35d495d27de0ae788a27ca91fd4048620d9bea6726bca9cdb34ac4",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/first-v003.webp",
+          "bytes": 458268,
+          "sha256": "933e3f72ef2a04a621f79deae5c5983acf6e5e6a2de5a547e37cae500785515b"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/last-v003.webp",
+          "bytes": 362930,
+          "sha256": "ece1e5456a87d47d9da52ed3c975a52a29d2b0224525a797576ae22fa84bb2b8"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-ZZ-BJ/v003/contact-sheet.jpg",
+          "bytes": 148831,
+          "sha256": "bfc440d36ef6348b5e8b96732b292f7228afcb15945f6212a5b769ddbaaddc7f"
+        }
+      },
+      "sourceFinding": "文文穿米白短袖，周栀穿深色软质内搭。双方拥抱，窗外车灯掠过，末尾屋内变暗，侧脸仍可辨认。画面表现关灯的明暗变化，开关动作未入镜。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/raw-v003.mp4",
+          "sha256": "c67a608172bfbe7020d7774aef85cab8d22441ce3b4821c7207cda9a91d50792",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/runtime-v003.mp4",
+          "sha256": "dc53a714eb35d495d27de0ae788a27ca91fd4048620d9bea6726bca9cdb34ac4",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/first-v003.webp",
+          "sha256": "933e3f72ef2a04a621f79deae5c5983acf6e5e6a2de5a547e37cae500785515b",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v003/last-v003.webp",
+          "sha256": "ece1e5456a87d47d9da52ed3c975a52a29d2b0224525a797576ae22fa84bb2b8",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-ZZ-BJ/v003/contact-sheet.jpg",
+          "sha256": "bfc440d36ef6348b5e8b96732b292f7228afcb15945f6212a5b769ddbaaddc7f",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/night-OV-ZZ-BJ/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "双方在床边拥抱，窗外车灯经过后室内变暗，轮廓仍可辨；开关动作在画外。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "group": "night",
+      "auditId": "night-OV-ZZ-GY",
+      "source": "docs/美术/留宿动态CG-20261104/夜间亲密版计划绑定.json",
+      "node": "T-ZZ-000932_1",
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "route": "zhouzhi",
+      "text": "她按掉，把手机放到床头，翻身过来，额头抵在我肩上。",
+      "file": "scenario/周栀-十一点四十七分.md",
+      "line": 2495,
+      "anchorMatches": true,
+      "bindingCondition": "ZZ06-01=A&ZZ08-01=A",
+      "policy": "adoption-candidate",
+      "media": {
+        "key": "OV-ZZ-GY",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/raw-v003.mp4",
+          "bytes": 7287463,
+          "sha256": "e864eb29fc4778b0fef2a0be12b780cabc33c5ed2d531d20b82bc7e8336e43cd",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/runtime-v003-framed.mp4",
+          "bytes": 1188247,
+          "sha256": "04f686cce6b2c866368d8e2d546b589cb3e348ac7168e9223af6ebac6f3d0e91",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/first-v003.webp",
+          "bytes": 511932,
+          "sha256": "303b6e86c41f5f4d34c84111b8a573a44e21c7007516bcdd4ef2cbaa8842d744"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/last-v003.webp",
+          "bytes": 554490,
+          "sha256": "de1cf179bd8e513587ff4dfcbc8fe89471610610f11bb26d4694fa9e0654ed32"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-ZZ-GY/v003/contact-sheet.jpg",
+          "bytes": 146367,
+          "sha256": "dff96e78a22c743c3a22dc2ab4641657631ef86f06dc92683df41d82a124e1ae"
+        },
+        "framing": {
+          "crop": [
+            52,
+            30,
+            1176,
+            660
+          ],
+          "reason": "去除原片固定的上下白边"
+        }
+      },
+      "sourceFinding": "两人穿朴素室内衣着。周栀放下手机，坐着倚向文文肩侧，两人额侧相贴。未呈现正文的翻身，手机放下后屏幕仍亮。静音候选裁去原片上下固定白边。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/raw-v003.mp4",
+          "sha256": "e864eb29fc4778b0fef2a0be12b780cabc33c5ed2d531d20b82bc7e8336e43cd",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/runtime-v003-framed.mp4",
+          "sha256": "04f686cce6b2c866368d8e2d546b589cb3e348ac7168e9223af6ebac6f3d0e91",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/first-v003.webp",
+          "sha256": "303b6e86c41f5f4d34c84111b8a573a44e21c7007516bcdd4ef2cbaa8842d744",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v003/last-v003.webp",
+          "sha256": "de1cf179bd8e513587ff4dfcbc8fe89471610610f11bb26d4694fa9e0654ed32",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-ZZ-GY/v003/contact-sheet.jpg",
+          "sha256": "dff96e78a22c743c3a22dc2ab4641657631ef86f06dc92683df41d82a124e1ae",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/night-OV-ZZ-GY/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "reviewed-with-action-difference",
+        "observation": "实际使用runtime-v003-framed.mp4。周栀放手机后低头靠近，最终额头与文文额头接触；没有翻身，也未清楚抵在肩上。保留剧情动作差异，不计逐动作一致通过。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-MY56",
+      "group": "night",
+      "auditId": "night-OV-MY56",
+      "source": "docs/美术/留宿动态CG-20261104/夜间亲密版计划绑定.json",
+      "node": "T-MY-000253_1",
+      "condition": "MY07-01=A",
+      "route": "mengyao",
+      "text": "灯关以后，窗外那盏路灯把墙照出一小片黄。我们说了几句很小的话，后来没有再说。夜里我醒过一次，她摸到我的手，握了一会儿，又松开。",
+      "file": "scenario/孟遥-旧题.md",
+      "line": 1292,
+      "anchorMatches": true,
+      "bindingCondition": "MY07-01=A",
+      "policy": "static-fallback",
+      "media": {
+        "key": "OV-MY56",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/raw-v003.mp4",
+          "bytes": 4577104,
+          "sha256": "70152d22a1223d3175d331bbcbd085e74e7f3475ca57a3230409add372a4762e",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/runtime-v003.mp4",
+          "bytes": 724848,
+          "sha256": "396a2432b9512336a09c4b2d29b00381729ea10e8fbc7df4e30bcc0153cf269f",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/first-v003.webp",
+          "bytes": 397516,
+          "sha256": "efe0d99187afd8a34fdba6387953d0db948b79cf913163c9332917ec5a256452"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/last-v003.webp",
+          "bytes": 516430,
+          "sha256": "6987f5049cc84befc2f6ca122d1f36bfa414b2644fd9d0d2b7bfbc9ef1456e1e"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-MY56/v003/contact-sheet.jpg",
+          "bytes": 140444,
+          "sha256": "66a8a39c9b9e3ca0afa93c1888ce824dff3b96853ccf3a81cdd9ad1a734cf424"
+        }
+      },
+      "sourceFinding": "两人穿素内搭在夜里并排躺着，暖黄路灯和双人侧脸符合场景。近景两条手臂都连向孟遥，成片变成她把一只手覆在自己另一只手上。正文里的握住文文的手并松开没有清楚呈现，本镜保留供审片，计划绑定暂不指向这份成片。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/raw-v003.mp4",
+          "sha256": "70152d22a1223d3175d331bbcbd085e74e7f3475ca57a3230409add372a4762e",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/runtime-v003.mp4",
+          "sha256": "396a2432b9512336a09c4b2d29b00381729ea10e8fbc7df4e30bcc0153cf269f",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/first-v003.webp",
+          "sha256": "efe0d99187afd8a34fdba6387953d0db948b79cf913163c9332917ec5a256452",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v003/last-v003.webp",
+          "sha256": "6987f5049cc84befc2f6ca122d1f36bfa414b2644fd9d0d2b7bfbc9ef1456e1e",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-MY56/v003/contact-sheet.jpg",
+          "sha256": "66a8a39c9b9e3ca0afa93c1888ce824dff3b96853ccf3a81cdd9ad1a734cf424",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/night-OV-MY56/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "exclude-static-fallback",
+        "observation": "手部归属仍有错误，按用户决定不接动态，使用原静态演出。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-PI39",
+      "group": "night",
+      "auditId": "night-OV-PI39",
+      "source": "docs/美术/留宿动态CG-20261104/夜间亲密版计划绑定.json",
+      "node": "T-PI-000286_1",
+      "condition": "PIAO_RELATION=HIGH",
+      "route": "piao",
+      "text": "那晚，我们先在矮桌旁吃完一碗太烫的粉。她把杯子挪开，腾出位置让我坐近些，后来又嫌那盏灯太亮。窗外雨密起来，我问要不要停，她摇头，把我的手重新牵回去。",
+      "file": "scenario/飘-空白页.md",
+      "line": 1400,
+      "anchorMatches": true,
+      "bindingCondition": "PIAO_RELATION=HIGH",
+      "policy": "adoption-candidate",
+      "media": {
+        "key": "OV-PI39",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/raw-v003.mp4",
+          "bytes": 7421380,
+          "sha256": "4a917e448b242f1d95f211df4a2718d1edbe09259f3fbab1f810608e9f575658",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/runtime-v003.mp4",
+          "bytes": 1147977,
+          "sha256": "88a8a4ee6fcf4527679afb8fba9cf4688ff5932cb360a6a9893719b809161286",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/first-v003.webp",
+          "bytes": 516578,
+          "sha256": "37a84f788d16315e99c26a47cfc59871fd28620173237937d591ad714f3c6084"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/last-v003.webp",
+          "bytes": 631072,
+          "sha256": "65743dc87f1cef8cd62227a0dbae89852b0e850c34d0abf998af529b73320828"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-PI39/v003/contact-sheet.jpg",
+          "bytes": 186430,
+          "sha256": "0159de894e40903ad21910d8e21eb23228f1bf53c43f27390babf0aae0124caf"
+        }
+      },
+      "sourceFinding": "两人穿白色素内搭，夜间矮桌旁同框。飘主动伸手覆上文文的手，两人的手转为相握。手部在文字框范围内，需全画面播放。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/raw-v003.mp4",
+          "sha256": "4a917e448b242f1d95f211df4a2718d1edbe09259f3fbab1f810608e9f575658",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/runtime-v003.mp4",
+          "sha256": "88a8a4ee6fcf4527679afb8fba9cf4688ff5932cb360a6a9893719b809161286",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/first-v003.webp",
+          "sha256": "37a84f788d16315e99c26a47cfc59871fd28620173237937d591ad714f3c6084",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v003/last-v003.webp",
+          "sha256": "65743dc87f1cef8cd62227a0dbae89852b0e850c34d0abf998af529b73320828",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-PI39/v003/contact-sheet.jpg",
+          "sha256": "0159de894e40903ad21910d8e21eb23228f1bf53c43f27390babf0aae0124caf",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/night-OV-PI39/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "飘在桌边将手覆到文文手上并合握，内搭、两张脸与夜景连续。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    },
+    {
+      "key": "OV-HQ57",
+      "group": "night",
+      "auditId": "night-OV-HQ57",
+      "source": "docs/美术/留宿动态CG-20261104/夜间亲密版计划绑定.json",
+      "node": "T-HQ-000486_1",
+      "condition": "ALL",
+      "route": "huangqiuqiu",
+      "text": "她的手从袖口滑到我掌心。",
+      "file": "scenario/黄球球-门后.md",
+      "line": 1201,
+      "anchorMatches": true,
+      "bindingCondition": "ALL",
+      "policy": "adoption-candidate",
+      "media": {
+        "key": "OV-HQ57",
+        "original": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/raw-v003.mp4",
+          "bytes": 5478146,
+          "sha256": "da86de0988ef323d684496a949aa5e489648f31f507f882c36076cb4a5b6bd12",
+          "durationSeconds": 5.06,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.12,
+          "audio": true,
+          "decodedFrames": 121
+        },
+        "runtime": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/runtime-v003.mp4",
+          "bytes": 831075,
+          "sha256": "0314cb4c48d7d6003d39fd9bab67bdf25b417c749abdf852fe7507b0423e01bc",
+          "durationSeconds": 5.0,
+          "codec": "h264",
+          "pixelFormat": "yuv420p",
+          "width": 1280,
+          "height": 720,
+          "fps": 24.0,
+          "audio": false,
+          "decodedFrames": 120
+        },
+        "first": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/first-v003.webp",
+          "bytes": 471820,
+          "sha256": "71ddfc1770ba504994c90fd56508b1b7176654d539a9d099eabce669df44e8e4"
+        },
+        "last": {
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/last-v003.webp",
+          "bytes": 580968,
+          "sha256": "c105af074e6c8160f7783e40001f448833434d5ae129cd30e3ed6f5df33224fc"
+        },
+        "contactSheet": {
+          "path": "qa/overnight-motion-20261104/OV-HQ57/v003/contact-sheet.jpg",
+          "bytes": 166215,
+          "sha256": "56bbdbedad96f79d2035474d103b31b0414c83d4ff5ed75e243ae026621cc136"
+        }
+      },
+      "sourceFinding": "夜景沙发双人同框，外套已脱，黄球球保留眼罩与颈饰。她的手从文文短袖袖缘移入掌心，随后两人对望。牵手靠画面下缘，需全画面播放。",
+      "fileChecks": [
+        {
+          "role": "original",
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/raw-v003.mp4",
+          "sha256": "da86de0988ef323d684496a949aa5e489648f31f507f882c36076cb4a5b6bd12",
+          "matches": true
+        },
+        {
+          "role": "runtime",
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/runtime-v003.mp4",
+          "sha256": "0314cb4c48d7d6003d39fd9bab67bdf25b417c749abdf852fe7507b0423e01bc",
+          "matches": true
+        },
+        {
+          "role": "first",
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/first-v003.webp",
+          "sha256": "71ddfc1770ba504994c90fd56508b1b7176654d539a9d099eabce669df44e8e4",
+          "matches": true
+        },
+        {
+          "role": "last",
+          "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v003/last-v003.webp",
+          "sha256": "c105af074e6c8160f7783e40001f448833434d5ae129cd30e3ed6f5df33224fc",
+          "matches": true
+        },
+        {
+          "role": "contactSheet",
+          "path": "qa/overnight-motion-20261104/OV-HQ57/v003/contact-sheet.jpg",
+          "sha256": "56bbdbedad96f79d2035474d103b31b0414c83d4ff5ed75e243ae026621cc136",
+          "matches": true
+        }
+      ],
+      "decoded": {
+        "exitCode": 0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audio": false,
+        "frames": 120,
+        "seconds": 5.0
+      },
+      "evidence": "qa/dialogue-p5-motion-20261104/media-review/night-OV-HQ57/contact-sheet.jpg",
+      "visualReview": {
+        "method": "独立审查者检查本批新抽取的2fps全时段接触表，逐镜10帧（PI站台9帧）；另查CG116原尺寸图与周栀贵阳夜间原尺寸尾帧。",
+        "result": "sampled-visual-pass",
+        "observation": "人形黄球球触碰并握住文文手，二人内搭与窗外夜景连续，无球形变化。"
+      },
+      "originalDecode": {
+        "exitCode": 0,
+        "frames": 121
+      }
+    }
+  ],
+  "status": "29-adoption-candidates-reviewed-with-disclosed-differences",
+  "reviewer": "P5独立素材复验子任务；不是生成制作方原报告",
+  "scope": {
+    "runtimeCompleteDecodes": 36,
+    "originalCompleteDecodes": 36,
+    "selectedRuntimeCount": 29,
+    "historicalMorningAlternatives": 6,
+    "excludedNightCount": 1,
+    "sampledFrames": 359,
+    "selectedSampledFrames": 289,
+    "continuousVisualPlayback": "未做完整速度人工播放审看；完整解码与抽帧目视分开记录",
+    "browserOrEngineAcceptance": false
+  },
+  "cg116": {
+    "path": "assets/current/P4-07-20261104/cg-zz-cg116.webp",
+    "sha256": "a4a62cacc266cc65aa9a7b17e315ec89e0adb560124b16494a44ed3d83efdbfb",
+    "result": "原尺寸素材目视通过：冷灰清晨环境、两位女性搬箱及湿路可辨，非夜间灯光；引擎叠框另由P5执行。"
+  }
+}

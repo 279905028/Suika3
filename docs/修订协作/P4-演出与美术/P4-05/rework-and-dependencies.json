@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-04",
+  "imageReworkRequests": [],
+  "imageNotTested": [],
+  "supersededVersions": [
+    {
+      "assetId": "cg-common-cg101",
+      "oldSource": {
+        "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg101-v001.png",
+        "sha256": "b49b823fc988d2759e0b555e67c3d5e15369f83ea51a792edd2cbd3848f82f84"
+      },
+      "oldRuntime": {
+        "path": "assets/current/SUI-A10-COMMON/cg-common-cg101.webp",
+        "sha256": "cef835f180b8bafb0696891b03b90f6d99a00d08e786ab6b74faf8fd0cd3af4d"
+      },
+      "replacement": {
+        "path": "assets/sources/20261103/P4-05/cg-common-cg101.webp",
+        "sha256": "c0d01cf3dfb1b62d3f6ef9763f6d554287976404ad603b4c1c7aae6f4993a23e"
+      },
+      "reason": "站姿替换为台阶坐姿v003"
+    },
+    {
+      "assetId": "cg-pi-cg066",
+      "oldSource": {
+        "path": "assets/sources/20261029/SUI-A10-PI/cg-pi-cg066-v001.png",
+        "sha256": "fe385bed1cae6f892f1070aedad2592a790f2cdb6013390d8b8317348f0c7a8e"
+      },
+      "oldRuntime": {
+        "path": "assets/current/SUI-A10-PI/cg-pi-cg066.webp",
+        "sha256": "17e0a1a12e6663a419d52b900f3dabf87d74e66eb2c4f8ea13b0e599be603169"
+      },
+      "replacement": {
+        "path": "assets/sources/20261103/P4-05/cg-pi-cg066.webp",
+        "sha256": "4af93544c278c56d5ff0b3e3a9f271892dd58cb63f778b14a4bf691eacc9d1f1"
+      },
+      "reason": "站姿替换为床沿/矮凳坐姿v003"
+    },
+    {
+      "assetId": "cg-zz-cg025",
+      "oldSource": {
+        "path": "assets/sources/20261029/SUI-A10-ZZ/cg-zz-cg025-v001.png",
+        "sha256": "1b338825c57d8cc4e2caa27686f90a5c3ad23b4e60cbbc6aad2a7f8b6b1813ec"
+      },
+      "oldRuntime": {
+        "path": "assets/current/SUI-A10-ZZ/cg-zz-cg025.webp",
+        "sha256": "0794acd1f012be0d5a4c0818f4f92b7c3926bc20b61edf12dd8c9734854f2c9a"
+      },
+      "replacement": {
+        "path": "assets/sources/20261103/P4-05/cg-zz-cg025.webp",
+        "sha256": "51506ab844f8f7983b9f2719775b5cfbccbbf027260b0495cc61ffc850627a39"
+      },
+      "reason": "夜景替换为白昼v002"
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "P4-05-D01",
+      "owner": "P4-06",
+      "status": "open",
+      "kind": "ui",
+      "assets": [
+        "cg-common-cg001",
+        "cg-zz-cg031",
+        "cg-common-cg101"
+      ],
+      "action": "全图入口提示在亮天空/窗/墙上对比不足；使用稳定深色底板或等效高对比呈现，全图隐藏菜单，保留不推进文字/可见帧解锁语义。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG001-overlay.webp",
+          "sha256": "f047b0eb2b55720bb34cc3c53c6c4e6d01dbcde573297f97cf3725d2503fb998"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG031-overlay.webp",
+          "sha256": "17ee0d18ff01b126134efc85b8295992f4f5f3f669db63e673075d8eb086e465"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG101-overlay.webp",
+          "sha256": "eb2ab7a0dc43818e1ba7a4a89adf50d7fc807f978422e014f20ca1bd23fe7ff8"
+        }
+      ]
+    },
+    {
+      "id": "P4-05-D02",
+      "owner": "P4-02/P4-07",
+      "status": "open",
+      "kind": "binding",
+      "assets": [
+        "piao-seated-base",
+        "char-xiaoman-work-apron-empty-hands"
+      ],
+      "action": "两张新立绘保留源尺寸和透明边；坐姿含凳且下缘截幅，按真实场景定落点、遮挡及退出。小满空手不等于能直接表演理发/扫地。不能照抄制作方示意参数。"
+    },
+    {
+      "id": "P4-05-D03",
+      "owner": "P4-07",
+      "status": "open",
+      "kind": "adoption-evidence",
+      "assets": [
+        "bg-bridge-shaobing-dusk",
+        "bg-guiyang-bus-stop-day",
+        "bg-huisheng-306-operating-day",
+        "bg-huisheng-corridor-operating-night",
+        "bg-my-restaurant-eaves-rain",
+        "bg-noodle-shop-evening",
+        "bg-old-netcafe-backroom-neutral-day",
+        "bg-old-netcafe-yard-door-closed-night",
+        "bg-old-netcafe-yard-door-open-morning",
+        "bg-performance-mall-side-stage-evening",
+        "piao-seated-base",
+        "bg-xiaoman-packing-interior",
+        "char-xiaoman-work-apron-empty-hands",
+        "bg-my-riverside-afternoon",
+        "bg-guiyang-bus-stop-evening",
+        "cg-pi-cg066",
+        "cg-common-cg101",
+        "cg-zz-cg025",
+        "cg-hq-cg109"
+      ],
+      "action": "19张候选检查通过，尚无对应新字节的采用批准记录；合并时核对授权并登记依据，再更新目录reviewStatus。不得把制作记录或旧CG批准指向新图充数；本任务不请求重复确认已授权事项。"
+    },
+    {
+      "id": "P4-05-D04",
+      "owner": "P4-02/P4-07",
+      "status": "open",
+      "kind": "scope-and-freeze",
+      "action": "消费03/04节点范围并回填需求；既有图扩展到下午/第30天工作裙仅为候选范围。小满头盔顺序须按已确认移段另行重冻结，复核受影响锚点；勿回写旧P3/P4-01。"
+    },
+    {
+      "id": "P4-05-D05",
+      "owner": "P4-06/P4-07",
+      "status": "open",
+      "kind": "integration",
+      "action": "接入61项CG，使用本目录文件/检查证据，保留3个返修CG的原编号；02、06、07联动与P5运行另验。"
+    }
+  ],
+  "closedObservations": [
+    {
+      "id": "P4-05-O01",
+      "assets": [
+        "bg-huangqiuqiu-room-day",
+        "bg-huangqiuqiu-room-night",
+        "bg-huangqiuqiu-room-table-close-day"
+      ],
+      "status": "closed-by-existing-source",
+      "finding": "图内黄色球体容易被误认为黄球球本人；初判未成为返修。",
+      "resolution": "现行采用清单已明确该小球是普通道具，允许两种形态共用房间；保留原批准，不擅自删球。",
+      "evidence": {
+        "path": "assets/current/manifest.json",
+        "sha256": "4d6eaa9ee6a62beb5b45d3cf8f8e9cc64e52ddad4c9add490d82b60d35ddc17f"
+      }
+    }
+  ],
+  "notTested": [
+    "全部候选在引擎/浏览器/手机真机/电脑原生中的呈现、存读档/回退/改选/刷新恢复",
+    "正式采用与发布"
+  ]
+}

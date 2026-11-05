@@ -1,0 +1,124 @@
+{
+  "key": "MCG-MY-E1",
+  "ending": "MY-E1",
+  "route": "mengyao",
+  "node": "T-MY-000349_1",
+  "choices": {
+    "MY07-01": "A",
+    "MY09-01": "A"
+  },
+  "relation": null,
+  "fallback": "assets/current/SUI-A10-MY/cg-my-cg104.webp",
+  "meeting": false,
+  "adopted": false,
+  "paragraphId": "T-MY-000349",
+  "condition": "MY07-01=A&MY09-01=A",
+  "entryGate": {
+    "type": "route",
+    "value": "mengyao"
+  },
+  "text": "我把第98天先留空，车票没买。红笔收进抽屉，旧练习册放在另一侧。我们没有公开复合，她没有离婚，我也没有重新得到房子。",
+  "source": {
+    "file": "scenario/孟遥-旧题.md",
+    "candidateFile": "docs/修订协作/P4-演出与美术/P4-07/正文/孟遥-旧题.md",
+    "lineHint": 1953,
+    "context": "MY-E1",
+    "sha256": "a69313efb6471af57ff297731d8e1279d3bc0068f58d8cd617a4f44bab7eaa17"
+  },
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "firstFrame": {
+    "path": "assets/current/SUI-A10-MY/cg-my-cg104.webp",
+    "sha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e"
+  },
+  "prompt": {
+    "path": "assets/sources/20261104/P4-V/MY-E1/video-v001-prompt.txt",
+    "sha256": "6ffb61d4bd52e7928fa79feb709782fd15e24f970b154ccc96156b78c00f00e4"
+  },
+  "spec": {
+    "duration": 5,
+    "tolerance": [
+      4.5,
+      5.5
+    ],
+    "ratio": "16:9",
+    "minimumSize": [
+      1280,
+      720
+    ],
+    "runtimeCodec": "h264",
+    "runtimePixelFormat": "yuv420p",
+    "runtimeFps": 24,
+    "audio": false
+  },
+  "status": "video-v001-production-pass",
+  "formalBinding": false,
+  "staticFallback": {
+    "path": "assets/sources/20261104/P4-V/MY-E1/fallback-v001.webp",
+    "sha256": "3acdf40a65b29d88d8873bd0544066f9a67e1c8f6eb19f04b702b302c0e6299e",
+    "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+  },
+  "dreamina": {
+    "imageNodeId": "node_6a7xae1c0d",
+    "videoNodeId": "node_43x4czckcg",
+    "submitId": "379adfe8-b86a-46e3-a3de-be273c2bd437",
+    "model": "seedance_2.5",
+    "resolution": "720p",
+    "duration": 5,
+    "resourceId": "d7d44820-d320-4abc-8f2d-c7da936d0577",
+    "downloadSha256": "b0baac9ce651a9f5d39615018281427054bed42881286e8f181a1759c36e2c3a"
+  },
+  "originalVideo": {
+    "path": "assets/sources/20261104/P4-V/MY-E1/raw-v001.mp4",
+    "bytes": 9443674,
+    "sha256": "b0baac9ce651a9f5d39615018281427054bed42881286e8f181a1759c36e2c3a",
+    "durationSeconds": 5.06,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.12,
+    "audioPresent": true,
+    "decodedFrames": 121,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "runtimeCandidate": {
+    "path": "assets/sources/20261104/P4-V/MY-E1/runtime-v001.mp4",
+    "bytes": 1860795,
+    "sha256": "9621b98013929be1875e4b224c06966a94b0f1ee7c204737646b7658398f8456",
+    "durationSeconds": 5.0,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "audioPresent": false,
+    "decodedFrames": 120,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "firstGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/MY-E1/first-v001.webp",
+    "bytes": 823168,
+    "sha256": "cd637d7acf5b39f75be9e141c7fe83cf3d713c75c428cc5e54871f6f5fbc0837"
+  },
+  "lastGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/MY-E1/last-v001.webp",
+    "bytes": 791098,
+    "sha256": "25e1ce3d4e4e187d18da31b5d7d5783c506ebce8a37426a7375837ec7a14bc1a"
+  },
+  "mediaCheck": "qa/ending-motion-P4-V-Q-20261104/MY-E1/media-check.json",
+  "productionReview": {
+    "ending": "MY-E1",
+    "status": "production-pass",
+    "observations": [
+      "红笔留入抽屉，手指放开后撤回，旧练习册仍在桌面。",
+      "文文独处，未出现复合、离婚或新增人物的视觉暗示。"
+    ],
+    "repair": [],
+    "evidence": "qa/ending-motion-P4-V-Q-20261104/MY-E1/contact-sheet.jpg",
+    "independentReview": "pending",
+    "formalAdoption": false
+  },
+  "independentReview": "pending"
+}

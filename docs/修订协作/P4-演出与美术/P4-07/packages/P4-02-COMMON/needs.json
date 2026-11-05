@@ -1,0 +1,549 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-COMMON",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "needs": [
+    {
+      "needId": "P4-02-COMMON-N001",
+      "resourceKey": "xiaoman-work-apron-empty-hands",
+      "kind": "character",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-C01-000067_1",
+        "T-C01-000294_1",
+        "T-C01-000295_1",
+        "T-C01-000296_1",
+        "T-C01-000297_1",
+        "T-C01-000298_1",
+        "T-C01-000299_1",
+        "T-C01-000300_1",
+        "T-C01-000301_1",
+        "T-C01-000302_1",
+        "T-C01-000303_1",
+        "T-C01-000071_1",
+        "T-C01-000072_1",
+        "T-C01-000073_1",
+        "T-C01-000074_1",
+        "T-C01-000075_1",
+        "T-C01-000076_1",
+        "T-C01-000077_1",
+        "T-C01-000078_1",
+        "T-C01-000304_1",
+        "T-C01-000305_1",
+        "T-C01-000080_1",
+        "T-C01-000081_1",
+        "T-C01-000306_1",
+        "T-C01-000307_1",
+        "T-C01-000308_1",
+        "T-C01-000309_1",
+        "T-C01-000310_1",
+        "T-C01-000311_1",
+        "T-C01-000312_1",
+        "T-C01-000084_1",
+        "T-C01-000085_1",
+        "T-C01-000313_1",
+        "T-C01-000314_1",
+        "T-C01-000087_1",
+        "T-C01-000088_1",
+        "T-C01-000315_1",
+        "T-C01-000316_1",
+        "T-C01-000317_1",
+        "T-C01-000090_1",
+        "T-C01-000091_1",
+        "T-C01-000092_1",
+        "T-C01-000093_1",
+        "T-C01-000094_1",
+        "T-C01-000095_1",
+        "T-C01-000318_1",
+        "T-C01-000319_1",
+        "T-C01-000320_1",
+        "T-C01-000321_1",
+        "T-C01-000322_1",
+        "T-C01-000323_1",
+        "C01-03"
+      ],
+      "reason": "围裙职业形象需空手版，现图固定持剪刀/梳子与扫地、吃包子、摊本、洗手不兼容。保持已确认服装与外形，动作道具由正文/单拍CG承担。",
+      "constraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "existingAssetIds": [
+        "char-xiaoman-work-apron"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "char-xiaoman-work-apron-empty-hands",
+        "reason": "保留已确认白T、深灰围裙与脸型；去除固定剪刀和梳子，避免与换物动作冲突。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/char-xiaoman-work-apron-empty-hands@P4-03.json",
+            "sha256": "e3340118bc73e0dbc1acf836e1383a1cc43961145bba9199faeda2a61ab18604"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-N002",
+      "resourceKey": "old-netcafe-yard-door-closed-night",
+      "kind": "background",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-C02-000001_1",
+        "T-C02-000002_1",
+        "T-C02-000003_1",
+        "T-C02-000004_1",
+        "T-C02-000005_1",
+        "T-C02-000006_1",
+        "T-C02-000007_1",
+        "T-C02-000261_1",
+        "T-C02-000009_1",
+        "T-C02-000010_1",
+        "T-C02-000262_1",
+        "T-C02-000263_1",
+        "T-C02-000264_1",
+        "T-C02-000265_1",
+        "T-C02-000013_1",
+        "T-C02-000014_1",
+        "T-C02-000015_1",
+        "T-C02-000016_1",
+        "T-C02-000484_1",
+        "T-C02-000485_1",
+        "T-C02-000486_1",
+        "T-C02-000217_1",
+        "T-C02-000218_1",
+        "T-C02-000219_1",
+        "T-C02-000220_1",
+        "T-C02-000221_1",
+        "T-C02-000244_1",
+        "C02-01"
+      ],
+      "reason": "第8天上班前门关严，第14天晚间未获允许前及离场合门均不能复用门半开夜图。",
+      "constraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "existingAssetIds": [
+        "bg-old-netcafe-yard-door-ajar-night",
+        "bg-old-netcafe-yard-door-closed-morning"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-old-netcafe-yard-door-closed-night",
+        "reason": "既有夜图门半开，不能表示拒绝见面；保留后院布局，改为严闭门扉的夜间空镜。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-old-netcafe-yard-door-closed-night@P4-03.json",
+            "sha256": "f853281ba7eacc0a4b3912b512f1c1591a960ce3429fe2cebb94fa1739b1e102"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-N003",
+      "resourceKey": "old-netcafe-yard-door-closed-afternoon",
+      "kind": "background",
+      "action": "reuse",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-C03-000017_1",
+        "T-C03-000018_1"
+      ],
+      "reason": "第三章下午隐藏线敲门；请复核既有闭门晨景能否作为不强调时段的日景；不通过则制作闭门下午衍生。",
+      "constraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "existingAssetIds": [
+        "bg-old-netcafe-yard-door-closed-morning"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-old-netcafe-yard-door-closed-morning",
+        "reason": "完整图为正常日照，未见朝阳、晨雾或精确钟点限定；同一闭门后院可用于该2个下午敲门节点。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-old-netcafe-yard-door-closed-morning@baseline.json",
+            "sha256": "976c88bb3806c2f10b7ebd05855813468f1008ac3b9e917761f5f4d0b096b5ac"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-N004",
+      "resourceKey": "noodle-shop-front-day-seated",
+      "kind": "background",
+      "action": "reuse",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-D36-000001_1",
+        "T-D36-000012_1",
+        "T-D36-000013_1",
+        "T-D36-000014_1",
+        "T-D36-000015_1",
+        "T-D36-000016_1",
+        "T-D36-000017_1",
+        "T-D36-000018_1",
+        "T-D36-000019_1",
+        "T-D36-000020_1",
+        "T-D36-000021_1",
+        "T-D36-000022_1",
+        "T-D36-000023_1",
+        "T-D36-000024_1",
+        "T-D36-000025_1",
+        "T-D36-000026_1",
+        "T-D36-000027_1",
+        "T-D36-000028_1",
+        "T-D36-000029_1",
+        "T-D36-000030_1",
+        "T-D36-000031_1",
+        "T-D36-000032_1",
+        "T-D36-000033_1",
+        "T-D36-000034_1",
+        "T-D36-000035_1",
+        "T-D36-000036_1",
+        "T-D36-000037_1",
+        "T-D36-000038_1",
+        "T-D36-000039_1",
+        "T-D36-000040_1"
+      ],
+      "reason": "公共事件坐在面馆门口凳子，本轮实际目视日景有门外空凳、台阶及门框，可复用；不追加钟点。",
+      "constraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "existingAssetIds": [
+        "bg-noodle-shop-day",
+        "bg-noodle-shop-front-dawn"
+      ],
+      "proposedAssetId": "bg-noodle-shop-day",
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-noodle-shop-day",
+        "reason": "完整图含门外木凳、门槛和开敞门框，足以承担门口坐谈；COMMON已据本批目视将该need记为resolved。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-noodle-shop-day@baseline.json",
+            "sha256": "f22a8c591762fb9650a74fed7ff0b14fee870f1ff7fa776e6e49f9f9b0624130"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-N005",
+      "resourceKey": "piao-seated-base-common-d36",
+      "kind": "character",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-D36-000001_1",
+        "T-D36-000012_1",
+        "T-D36-000013_1",
+        "T-D36-000014_1",
+        "T-D36-000015_1",
+        "T-D36-000016_1",
+        "T-D36-000017_1",
+        "T-D36-000018_1",
+        "T-D36-000019_1",
+        "T-D36-000020_1",
+        "T-D36-000021_1",
+        "T-D36-000022_1",
+        "T-D36-000023_1",
+        "T-D36-000024_1",
+        "T-D36-000025_1",
+        "T-D36-000026_1",
+        "T-D36-000027_1",
+        "T-D36-000028_1",
+        "T-D36-000029_1",
+        "T-D36-000030_1",
+        "T-D36-000031_1",
+        "T-D36-000032_1",
+        "T-D36-000033_1",
+        "T-D36-000034_1",
+        "T-D36-000035_1",
+        "T-D36-000036_1",
+        "T-D36-000037_1"
+      ],
+      "reason": "飘从开场至文文拎饭仍坐在门口；现有相机/包带动作图为站姿。需既定白衬衫坐姿安全截幅，不补孕期外貌、孕周及身体变化。",
+      "constraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "existingAssetIds": [
+        "piao-base",
+        "piao-action-knot"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "piao-seated-base",
+        "reason": "现有相机与包带打结图均为站姿；补与既定外观一致的空手坐姿，保持低马尾、白衬衫、黑裤与浅酒窝。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/piao-seated-base@P4-03.json",
+            "sha256": "b4a0b9d1ed2fda83e1b4774ddbce5f833b9ef08aefeebd1e0c2b900da29fcdb4"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-N006",
+      "resourceKey": "CG101",
+      "kind": "cg",
+      "action": "repair",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-D36-000034_1"
+      ],
+      "reason": "接电话走开与写下次课日期才与现图动作最接近，但缩略目视见文文和飘站姿，与该拍仍坐着的正文冲突。保持LOW五线公共事件，重构坐姿文文/飘与稍远处毛狼，修好后才绑定。",
+      "constraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "existingAssetIds": [
+        "cg-common-cg101"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG101",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-common-cg101",
+        "reason": "已按COMMON-N006返修为文文与飘并坐台阶、毛狼稍远接电话，写本子和包带仍保留；v003恢复文文黑帆布鞋。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-common-cg101@P4-04.json",
+            "sha256": "bae9cb373aeb1e68e7ac3cd4bf30304d72f0b4fd0207f22bc4ab9f134dc19556"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-N007",
+      "resourceKey": "CG001-reading-contrast",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-C01-000004_1"
+      ],
+      "reason": "本批缩略图确认递轮子动作，P0-18文字对比/遮挡仍需P4-04在完整图和实际阅读框叠加下复核，不能用缩略图关闭。",
+      "constraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "existingAssetIds": [
+        "cg-common-cg001"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG001",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-common-cg001",
+        "reason": "毛狼递回坏轮子，车站、雨棚与文文接物手势吻合；底部接物手会被正文框遮挡，完整图保留。亮天空上的浅色全图提示交06加深底板，不以修图改变天空。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-common-cg001@baseline.json",
+            "sha256": "6cfa42b8feef6b71ae0f3085d397d21dab6587a1d7658f027e5641f48aaad0b2"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-N008",
+      "resourceKey": "bridge-shaobing-dusk",
+      "kind": "background",
+      "action": "reuse",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-C02-000044_1",
+        "T-C02-000290_1",
+        "T-C02-000291_1",
+        "T-C02-000292_1",
+        "T-C02-000293_1",
+        "T-C02-000294_1",
+        "T-C02-000295_1",
+        "T-C02-000296_1",
+        "T-C02-000297_1",
+        "T-C02-000048_1",
+        "T-C02-000049_1",
+        "T-C02-000050_1",
+        "T-C02-000298_1",
+        "T-C02-000299_1",
+        "T-C02-000300_1",
+        "T-C02-000052_1",
+        "T-C02-000053_1",
+        "T-C02-000054_1",
+        "T-C02-000055_1",
+        "T-C02-000301_1",
+        "T-C02-000302_1",
+        "T-C02-000303_1",
+        "T-C02-000057_1",
+        "T-C02-000058_1",
+        "T-C02-000059_1",
+        "T-C02-000304_1",
+        "T-C02-000305_1",
+        "T-C02-000061_1",
+        "T-C02-000062_1",
+        "T-C02-000063_1",
+        "T-C02-000064_1",
+        "T-C02-000306_1",
+        "T-C02-000307_1",
+        "T-C02-000308_1",
+        "T-C02-000309_1",
+        "T-C02-000310_1",
+        "T-C02-000067_1",
+        "T-C02-000311_1",
+        "T-C02-000312_1",
+        "T-C02-000069_1",
+        "T-C02-000070_1",
+        "T-C02-000071_1",
+        "T-C02-000072_1",
+        "T-C02-000073_1",
+        "T-C02-000313_1",
+        "T-C02-000314_1",
+        "T-C02-000075_1",
+        "T-C02-000076_1",
+        "T-C02-000315_1",
+        "T-C02-000316_1",
+        "T-C02-000078_1",
+        "T-C02-000079_1",
+        "T-C02-000317_1",
+        "T-C02-000318_1",
+        "C02-03"
+      ],
+      "reason": "明确六点四十七到七点十分的傍晚会面；现有day背景需P4-03目视适用性判断，不能因旧绑定用过就视为时段通过。",
+      "constraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "existingAssetIds": [
+        "bg-bridge-shaobing-day"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-bridge-shaobing-dusk",
+        "reason": "现有day图有明显日照，不能直接覆盖正文六点四十七至七点十分的傍晚会面；制作同店暮色版。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-bridge-shaobing-dusk@P4-03.json",
+            "sha256": "d765c5f7bd53ddf45553953dda64035134ec4785b511927b47cbae49e7e1ffca"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-P407-CG110",
+      "resourceKey": "CG110",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-C03-000003_1"
+      ],
+      "reason": "三把钥匙与通知袋；底部两把钥匙需查看全图。",
+      "constraints": [
+        "三把钥匙与通知袋；底部两把钥匙需查看全图。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-common-cg110",
+      "cgId": "CG110",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-common-cg110",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-common-cg110@CG-expansion-20.json",
+            "sha256": "005913427f4dec7bd3b955b3c10bd724cfc6846a14ebdff2040b8678fd3da8e2"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-COMMON-P407-CG111",
+      "resourceKey": "CG111",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-C01-000455_1"
+      ],
+      "reason": "独自读通知，纸面朝向角色，无虚构日期金额；纸张下部需全图。",
+      "constraints": [
+        "独自读通知，纸面朝向角色，无虚构日期金额；纸张下部需全图。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-common-cg111",
+      "cgId": "CG111",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-common-cg111",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-common-cg111@CG-expansion-20.json",
+            "sha256": "039b69309103bffc594d90133db051eb015318d1421ead17c663174cd459e401"
+          }
+        ]
+      }
+    }
+  ]
+}

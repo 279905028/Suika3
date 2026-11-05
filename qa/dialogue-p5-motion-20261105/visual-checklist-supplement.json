@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "status": "pass-scoped-visual-review",
+  "runtimeBuildId": "df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+  "method": "查看本批实际路线截图并目视复核P4-07指定演出点",
+  "items": [
+    {
+      "screenshot": "qa/dialogue-p5-motion-20261104/routes-v5-full/05-zhouzhi-HIGH-ZZ-E1-CG025.png",
+      "sha256": "6df79ac7aa9049e20967b18b0f0bd4dae301cd56005d27347a4777670006dabf",
+      "check": "CG025白昼",
+      "observation": "窗外天光、湖面及远处建筑可见，为白昼；人物和正文清晰。"
+    },
+    {
+      "screenshot": "qa/dialogue-p5-motion-20261104/routes-v5-resume/13-piao-HIGH-PI-E1-CG066.png",
+      "sha256": "e768b239391b053eac79fe1891b39da4f9139841731b5c1ecc2e69cd072de197",
+      "check": "CG066床沿与矮凳",
+      "observation": "文文坐在床沿、飘坐在床前较低位置，左下凳面露出；正文框覆盖下肢部分，未据此声称完整下肢构图已见。"
+    },
+    {
+      "screenshot": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/17-huangqiuqiu-HIGH-HQ-E1-CG109.png",
+      "sha256": "e995c7299e9e6d89a344235567530184c7651af4fa4725306fc2f3b3b559e700",
+      "check": "CG109写名",
+      "observation": "文文以铅笔在杯底写文文，黄球球眼罩及依靠姿态可见，正文与写名场景一致。"
+    },
+    {
+      "screenshot": "qa/dialogue-p5-motion-20261104/routes-v5-resume/13-piao-HIGH-PI-E1-CG122.png",
+      "sha256": "780ad804eb062aeadfbf7ae850f60075b7386d49dad53e3f6a43b45fba37dbb8",
+      "check": "CG122照片特写",
+      "observation": "窗台杯子、纸页和书本的近景，画面不呈现两人在场互动；截图文字仍在逐字显示，照片来源门禁另以正式路线日志为证。"
+    },
+    {
+      "screenshot": "qa/dialogue-p5-motion-20261105/routes-v5-hq-recheck/18-huangqiuqiu-HIGH-HQ-E2-hq-late-human-T-HQ-000342_1-saved.png",
+      "sha256": "64c0cf22c01b00c02f9d94c9379283f3a288ebf7fa973b6ea53106600ff8f18e",
+      "node": "T-HQ-000342_1",
+      "check": "CG126回忆边界",
+      "observation": "黄球球保持人形、眼罩可见，将包裹交回文文；画面低饱和，完整正文含“最后见面时她仍是人形”“我们已经说过再见”，读者能区分回忆与当前时点。图像和正文均实际可见。"
+    }
+  ],
+  "scope": "5张实际运行截图；补充原6张抽查，不冒称全部81张人工终验或浏览器新执行。"
+}

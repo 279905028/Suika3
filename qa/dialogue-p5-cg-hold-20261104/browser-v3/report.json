@@ -1,0 +1,200 @@
+{
+  "status": "fail",
+  "checks": [
+    "真实正文到达CG001并启动保护",
+    "1.5秒内鼠标连点均被丢弃"
+  ],
+  "errors": [],
+  "events": [
+    {
+      "at": 1793778763592,
+      "line": "SUI_E|ready|836238cefe1f6f51b695479cd48284023c57ddd8a79b93cb6a6d9aa0da77d2b0"
+    },
+    {
+      "at": 1793778763594,
+      "line": "SUI_E|title"
+    },
+    {
+      "at": 1793778763623,
+      "line": "SUI_E|title-motion|visible=1"
+    },
+    {
+      "at": 1793778764590,
+      "line": "SUI_E|title-motion|visible=0"
+    },
+    {
+      "at": 1793778764635,
+      "line": "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9"
+    },
+    {
+      "at": 1793778764794,
+      "line": "SUI_I|enter|binding=p4-T-C01-000001_1|node=T-C01-000001_1"
+    },
+    {
+      "at": 1793778764798,
+      "line": "SUI_E|stable|cursor=T-C01-000001_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+    },
+    {
+      "at": 1793778764803,
+      "line": "SUI_E|save|slot=0|cursor=T-C01-000001_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25"
+    },
+    {
+      "at": 1793778765007,
+      "line": "SUI_I|exit|binding=p4-T-C01-000001_1|node=T-C01-000243_1"
+    },
+    {
+      "at": 1793778765120,
+      "line": "SUI_I|enter|binding=p4-T-C01-000243_1|node=T-C01-000243_1"
+    },
+    {
+      "at": 1793778765127,
+      "line": "SUI_E|stable|cursor=T-C01-000243_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29"
+    },
+    {
+      "at": 1793778765323,
+      "line": "SUI_I|exit|binding=p4-T-C01-000243_1|node=T-C01-000244_1"
+    },
+    {
+      "at": 1793778765323,
+      "line": "SUI_I|enter|binding=p4-T-C01-000244_1|node=T-C01-000244_1"
+    },
+    {
+      "at": 1793778765340,
+      "line": "SUI_E|stable|cursor=T-C01-000244_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33"
+    },
+    {
+      "at": 1793778765557,
+      "line": "SUI_I|exit|binding=p4-T-C01-000244_1|node=T-C01-000245_1"
+    },
+    {
+      "at": 1793778765557,
+      "line": "SUI_I|enter|binding=p4-T-C01-000245_1|node=T-C01-000245_1"
+    },
+    {
+      "at": 1793778765573,
+      "line": "SUI_E|stable|cursor=T-C01-000245_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37"
+    },
+    {
+      "at": 1793778765673,
+      "line": "SUI_I|exit|binding=p4-T-C01-000245_1|node=T-C01-000246_1"
+    },
+    {
+      "at": 1793778765674,
+      "line": "SUI_I|enter|binding=p4-T-C01-000246_1|node=T-C01-000246_1"
+    },
+    {
+      "at": 1793778765689,
+      "line": "SUI_E|stable|cursor=T-C01-000246_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41"
+    },
+    {
+      "at": 1793778765907,
+      "line": "SUI_I|exit|binding=p4-T-C01-000246_1|node=T-C01-000247_1"
+    },
+    {
+      "at": 1793778765907,
+      "line": "SUI_I|enter|binding=p4-T-C01-000247_1|node=T-C01-000247_1"
+    },
+    {
+      "at": 1793778765924,
+      "line": "SUI_E|stable|cursor=T-C01-000247_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45"
+    },
+    {
+      "at": 1793778766140,
+      "line": "SUI_I|exit|binding=p4-T-C01-000247_1|node=T-C01-000248_1"
+    },
+    {
+      "at": 1793778766140,
+      "line": "SUI_I|enter|binding=p4-T-C01-000248_1|node=T-C01-000248_1"
+    },
+    {
+      "at": 1793778766157,
+      "line": "SUI_E|stable|cursor=T-C01-000248_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49"
+    },
+    {
+      "at": 1793778766312,
+      "line": "SUI_E|save|slot=0|cursor=T-C01-000248_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49"
+    },
+    {
+      "at": 1793778766357,
+      "line": "SUI_I|exit|binding=p4-T-C01-000248_1|node=T-C01-000249_1"
+    },
+    {
+      "at": 1793778766357,
+      "line": "SUI_I|enter|binding=p4-T-C01-000249_1|node=T-C01-000249_1"
+    },
+    {
+      "at": 1793778766373,
+      "line": "SUI_E|stable|cursor=T-C01-000249_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53"
+    },
+    {
+      "at": 1793778766473,
+      "line": "SUI_I|exit|binding=p4-T-C01-000249_1|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793778766715,
+      "line": "SUI_I|enter|binding=p4-T-C01-000004_1|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793778766717,
+      "line": "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500"
+    },
+    {
+      "at": 1793778766718,
+      "line": "SUI_I|unlock|cg=CG001|phase=first-visible-frame"
+    },
+    {
+      "at": 1793778768073,
+      "line": "SUI_I|cg-hold|ready|node=T-C01-000004_1"
+    },
+    {
+      "at": 1793778768090,
+      "line": "SUI_E|stable|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    },
+    {
+      "at": 1793778768095,
+      "line": "SUI_E|save|slot=0|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+    }
+  ],
+  "browser": "156.0.8078.80",
+  "firstHoldMs": 1356,
+  "error": "AssertionError [ERR_ASSERTION]: 首个可见帧起至少1.5秒\n    at check (/Users/yipin/Desktop/Suika3/tools/runtime/verify-cg-hold.cjs:10:30)\n    at verify (/Users/yipin/Desktop/Suika3/tools/runtime/verify-cg-hold.cjs:34:5)\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)",
+  "nativeEvents": [
+    "SUI_E|ready|836238cefe1f6f51b695479cd48284023c57ddd8a79b93cb6a6d9aa0da77d2b0",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1",
+    "SUI_E|title-motion|visible=0",
+    "SUI_E|new|cursor=SC_ENTRY|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=e_new|index=9",
+    "SUI_I|enter|binding=p4-T-C01-000001_1|node=T-C01-000001_1",
+    "SUI_E|stable|cursor=T-C01-000001_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_E|save|slot=0|cursor=T-C01-000001_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=25",
+    "SUI_I|exit|binding=p4-T-C01-000001_1|node=T-C01-000243_1",
+    "SUI_I|enter|binding=p4-T-C01-000243_1|node=T-C01-000243_1",
+    "SUI_E|stable|cursor=T-C01-000243_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=29",
+    "SUI_I|exit|binding=p4-T-C01-000243_1|node=T-C01-000244_1",
+    "SUI_I|enter|binding=p4-T-C01-000244_1|node=T-C01-000244_1",
+    "SUI_E|stable|cursor=T-C01-000244_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=33",
+    "SUI_I|exit|binding=p4-T-C01-000244_1|node=T-C01-000245_1",
+    "SUI_I|enter|binding=p4-T-C01-000245_1|node=T-C01-000245_1",
+    "SUI_E|stable|cursor=T-C01-000245_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=37",
+    "SUI_I|exit|binding=p4-T-C01-000245_1|node=T-C01-000246_1",
+    "SUI_I|enter|binding=p4-T-C01-000246_1|node=T-C01-000246_1",
+    "SUI_E|stable|cursor=T-C01-000246_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=41",
+    "SUI_I|exit|binding=p4-T-C01-000246_1|node=T-C01-000247_1",
+    "SUI_I|enter|binding=p4-T-C01-000247_1|node=T-C01-000247_1",
+    "SUI_E|stable|cursor=T-C01-000247_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=45",
+    "SUI_I|exit|binding=p4-T-C01-000247_1|node=T-C01-000248_1",
+    "SUI_I|enter|binding=p4-T-C01-000248_1|node=T-C01-000248_1",
+    "SUI_E|stable|cursor=T-C01-000248_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_E|save|slot=0|cursor=T-C01-000248_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_I|exit|binding=p4-T-C01-000248_1|node=T-C01-000249_1",
+    "SUI_I|enter|binding=p4-T-C01-000249_1|node=T-C01-000249_1",
+    "SUI_E|stable|cursor=T-C01-000249_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_I|exit|binding=p4-T-C01-000249_1|node=T-C01-000004_1",
+    "SUI_I|enter|binding=p4-T-C01-000004_1|node=T-C01-000004_1",
+    "SUI_I|cg-hold|start|node=T-C01-000004_1|ms=1500",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_I|cg-hold|ready|node=T-C01-000004_1",
+    "SUI_E|stable|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=0|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+  ]
+}

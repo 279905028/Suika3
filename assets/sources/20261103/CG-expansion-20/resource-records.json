@@ -1,0 +1,1226 @@
+{
+  "schemaVersion": "cg-expansion-plan-v1",
+  "batch": "CG-expansion-20-20261103",
+  "completedOn": "2026-11-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "status": "produced-planned-binding",
+  "runtimeAdoptedCount": 0,
+  "records": [
+    {
+      "cgId": "CG110",
+      "assetId": "cg-common-cg110",
+      "title": "三把钥匙，各自归位",
+      "packageId": "P4-02-COMMON",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG110/cg110-v001.png",
+        "sha256": "f747ddc89e39c11a760bc8a9fd7797d5b3b51b8294fd6a20677138e4eaed1218",
+        "bytes": 2234018
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG110/cg110-v001.webp",
+        "sha256": "5b9d11e8819b49b72c86fbd5e248ff870bebe86f6511a910145ed516435a3c52",
+        "bytes": 1550208
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-common-cg110.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-FR.png",
+          "sha256": "a76852dd431b5526d051e2371283af5bb896381e02fe227c3ef3a5a209dd8607",
+          "bytes": 555021
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "三把钥匙与通知袋；底部两把钥匙需查看全图。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG110-full.webp",
+          "sha256": "172d52a4e350830cc8723fb43853e23da2758a32d598d4b81c7110c3cde48aaf",
+          "bytes": 994774
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG110-overlay.webp",
+          "sha256": "951337d95b44ae91b42185a2282d60d4d21d6d913bac10bd6ec0e634f6d028f6",
+          "bytes": 833070
+        }
+      }
+    },
+    {
+      "cgId": "CG111",
+      "assetId": "cg-common-cg111",
+      "title": "拆开的通知",
+      "packageId": "P4-02-COMMON",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG111/cg111-v001.png",
+        "sha256": "7cdbef3441de762061fcca9d4c2e9d058f8e83b263e2b5c104f3abc2a4997c89",
+        "bytes": 1962085
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG111/cg111-v001.webp",
+        "sha256": "9515fc7d9625689c4ea9428d486454fbb5658de40312ef2a8c28022167f4e57d",
+        "bytes": 1378804
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-common-cg111.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-FR.png",
+          "sha256": "a76852dd431b5526d051e2371283af5bb896381e02fe227c3ef3a5a209dd8607",
+          "bytes": 555021
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "独自读通知，纸面朝向角色，无虚构日期金额；纸张下部需全图。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG111-full.webp",
+          "sha256": "f024ed7e388408b5f30a614651d96c9f000d17cd4073c17cf08183a62891b20e",
+          "bytes": 890240
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG111-overlay.webp",
+          "sha256": "c358b3aecff93dbb25e1cbf1cb5268baad43ad2f28b4d1188a8dcd1779d61780",
+          "bytes": 735558
+        }
+      }
+    },
+    {
+      "cgId": "CG112",
+      "assetId": "cg-xm-cg112",
+      "title": "没笑端正的合照",
+      "packageId": "P4-02-XM",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG112/cg112-v001.png",
+        "sha256": "f967527adcc2f7373333f77592aab164332a18b1169a02ee7d01fcdd59f0967a",
+        "bytes": 2125129
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG112/cg112-v001.webp",
+        "sha256": "c1112f24abab7bb3e0fce0662739af5a808122822df05b285cf1cd8f6125ca2b",
+        "bytes": 1438632
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-xm-cg112.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-XM.png",
+          "sha256": "e9de3a8039435dd60e24a3cd4ecc425bc427fa23b605c663fa081a484a8d5f80",
+          "bytes": 583840
+        },
+        {
+          "path": "assets/current/SUI-A02/char-xiaoman-skirt.webp",
+          "sha256": "4ac96f7dae3340a9b53362a13659d3175abc62d2d1ec291f743e7bf4fcc37e4e",
+          "bytes": 1399632
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "小满裙装与文文合照；拍摄者在画外，未变成自拍。背后轻掐细节由正文补足。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG112-full.webp",
+          "sha256": "bf16ae6e0f47b72f616a0757abe004f85fcc25a3f5095fc13d01c96aa3709b42",
+          "bytes": 918548
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG112-overlay.webp",
+          "sha256": "5b94fcced51007d2a2738b14f761e894840330685c9836f0e6b5bc56f497987b",
+          "bytes": 768308
+        }
+      }
+    },
+    {
+      "cgId": "CG113",
+      "assetId": "cg-xm-cg113",
+      "title": "箱子里没有退掉的车票",
+      "packageId": "P4-02-XM",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG113/cg113-v001.png",
+        "sha256": "9e3b38c9d3ca026f727ddfebcfb353296e33f535ee5890f52909f88c9dd2648c",
+        "bytes": 2365492
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG113/cg113-v001.webp",
+        "sha256": "6c96c46d592cc169e1ec3081b6dc6bb16567985cdbd3e2bebebd2b1fd7f3094e",
+        "bytes": 1550208
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-xm-cg113.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-XM.png",
+          "sha256": "e9de3a8039435dd60e24a3cd4ecc425bc427fa23b605c663fa081a484a8d5f80",
+          "bytes": 583840
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "小满与行李箱；车票仅露一角，不承担文字阅读；须查看全图确认票与剪刀包。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG113-full.webp",
+          "sha256": "16f503719f6a90567b8557ac537033c345351d7ab7b613dc82f999e7983c3c8d",
+          "bytes": 981546
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG113-overlay.webp",
+          "sha256": "7b9b455b53a14aebce9951463e0ec48373d2980a655adb7a3df00d72f83eb86b",
+          "bytes": 815914
+        }
+      }
+    },
+    {
+      "cgId": "CG114",
+      "assetId": "cg-xm-cg114",
+      "title": "镜子里的新一次",
+      "packageId": "P4-02-XM",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG114/cg114-v001.png",
+        "sha256": "24e66f08e9efcd25140a8d63c8372ae94f5e8ea698d8d4a2d97eb0154857c6a9",
+        "bytes": 1940246
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG114/cg114-v001.webp",
+        "sha256": "95f071b5dc48471e7d51fd6d054480cd37319bce7cb8365e7a6d85da5fe89a9b",
+        "bytes": 1328342
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-xm-cg114.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-XM.png",
+          "sha256": "e9de3a8039435dd60e24a3cd4ecc425bc427fa23b605c663fa081a484a8d5f80",
+          "bytes": 583840
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "文文与新人理发师，镜中反射合理，小满不在场。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG114-full.webp",
+          "sha256": "ca50da0ee609551b234d352b0085a4c954bccc221157f9a08626273b6977d5f7",
+          "bytes": 865276
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG114-overlay.webp",
+          "sha256": "31fdb4040dfcf25487d48a8308c46bcd482d0d0dd820fafad903efb49d488e8b",
+          "bytes": 722316
+        }
+      }
+    },
+    {
+      "cgId": "CG115",
+      "assetId": "cg-zz-cg115",
+      "title": "大的那半块给你",
+      "packageId": "P4-02-ZZ",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG115/cg115-v001.png",
+        "sha256": "7b6387397b8d7727dacf50e74c72e80817b971d6955cbd498591d0d03e5bec1e",
+        "bytes": 2314502
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG115/cg115-v001.webp",
+        "sha256": "77e50b619deedcac7068e527ca8aec5c999a59a2efc357ae3771a3c81891e585",
+        "bytes": 1580068
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-zz-cg115.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-ZZ.png",
+          "sha256": "6617e2f0f669b758ff3f32ce6c6d2ef9628a5e618d724ab75636f3209153f828",
+          "bytes": 544061
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "两半大小不同的烧饼，两个面碗，递饼动作清楚。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG115-full.webp",
+          "sha256": "96db45d435cab5f0f70c3690bbf91e6705291f5b8e155d88d99da558c9c91ba6",
+          "bytes": 1017430
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG115-overlay.webp",
+          "sha256": "93b058d3cbf137bdc5b971a0d10c50db13ebbc751e8cbe255351cd02fcdf48dd",
+          "bytes": 818404
+        }
+      }
+    },
+    {
+      "cgId": "CG116",
+      "assetId": "cg-zz-cg116",
+      "title": "最后一箱搬上车",
+      "packageId": "P4-02-ZZ",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG116/cg116-v001.png",
+        "sha256": "5264e66b4539103c0c80f59f6108b81afcd495aedd7f43d60122fd9f475827b2",
+        "bytes": 2150219
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG116/cg116-v001.webp",
+        "sha256": "f62aff7de12d6faa7a0f8e801834ec71458919a13b8cd7940de0a320050a1fee",
+        "bytes": 1505006
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-zz-cg116.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-ZZ.png",
+          "sha256": "6617e2f0f669b758ff3f32ce6c6d2ef9628a5e618d724ab75636f3209153f828",
+          "bytes": 544061
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "周栀与阿英搬箱，关闭卷帘门；按正文营业结束后的夜景。02旧候选底图为阴天街道，接入时须一起核准退出底层时段。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG116-full.webp",
+          "sha256": "954c404095ed8778cba225adef42446a9c35ba321b46319c9c7b226a222961c9",
+          "bytes": 962632
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG116-overlay.webp",
+          "sha256": "8e8c1e64a3ecdf6c4d5a1c58b941a3868c70ebefd10af71fe2073da2e45d0615",
+          "bytes": 798828
+        }
+      }
+    },
+    {
+      "cgId": "CG117",
+      "assetId": "cg-zz-cg117",
+      "title": "台阶上的豆浆",
+      "packageId": "P4-02-ZZ",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG117/cg117-v001.png",
+        "sha256": "c4dc093b88ffc5f38b07466b2426cdd56c744bc6eec254984a8123a4d7ccb603",
+        "bytes": 2331015
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG117/cg117-v001.webp",
+        "sha256": "d76cd88e5972927caaa32695ee7d9bdb55319bc5338b7ca6e23d90e80fe8e4bd",
+        "bytes": 1583506
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-zz-cg117.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-ZZ.png",
+          "sha256": "6617e2f0f669b758ff3f32ce6c6d2ef9628a5e618d724ab75636f3209153f828",
+          "bytes": 544061
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "清晨台阶、豆浆与保持距离的两人；没有把普通对话画成复合。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG117-full.webp",
+          "sha256": "652614e1bbc914804499a9734601f816f16ba48e9e20e518282b02dd4580dfb8",
+          "bytes": 1005052
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG117-overlay.webp",
+          "sha256": "eaf06b2b10b11445750cb445c71615494d58e82f17abe5273d3bda2c37436252",
+          "bytes": 833904
+        }
+      }
+    },
+    {
+      "cgId": "CG118",
+      "assetId": "cg-my-cg118",
+      "title": "先讲今天的课时",
+      "packageId": "P4-02-MY",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG118/cg118-v001.png",
+        "sha256": "b7adff1a6f289584ea4c541e6f802cc8c17002d41b9c8cfffa00b034927acbfe",
+        "bytes": 2414932
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG118/cg118-v001.webp",
+        "sha256": "905a699547b1985d2a4fdcf7932cd8bb033a8b009b305796efad693de48a3a4c",
+        "bytes": 1594100
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-my-cg118.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-MY.png",
+          "sha256": "631502d4897c99bbd34964e496fffd1a259c1def5d031254176da43cf111348b",
+          "bytes": 587407
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "教室讨论入职材料；两项收入区与折角，文字不作可读承诺。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG118-full.webp",
+          "sha256": "47c479fd9309693f6e00be9375790f7f37da946c6c628b027da88f7ba4440c07",
+          "bytes": 1009722
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG118-overlay.webp",
+          "sha256": "452abc3739533a4377cb6aaeae0f33efb89aea55704e3481b1de0ae07153eabc",
+          "bytes": 860484
+        }
+      }
+    },
+    {
+      "cgId": "CG119",
+      "assetId": "cg-my-cg119",
+      "title": "留给书箱的空隙",
+      "packageId": "P4-02-MY",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG119/cg119-v001.png",
+        "sha256": "a86001158b250712f583c450cf16e0ca3d32ddf844caef0e1c2c09e267bd4ea0",
+        "bytes": 2293414
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG119/cg119-v001.webp",
+        "sha256": "7471eaed8b18f38ffff3e75d13aba37717c6632cce61005de492a96b764f20c7",
+        "bytes": 1528966
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-my-cg119.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-MY.png",
+          "sha256": "631502d4897c99bbd34964e496fffd1a259c1def5d031254176da43cf111348b",
+          "bytes": 587407
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "贴单和垫箱角，书箱与虚化同事；未加入相机或亲密动作。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG119-full.webp",
+          "sha256": "751f0d77eef6f3816bda7d53ba36ed3966cb5ee57f6218746ff8dc260cd8027c",
+          "bytes": 977750
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG119-overlay.webp",
+          "sha256": "bda60f6036892c0b27b185b92761fa69c92019acb15fda14aa1b3d2eb63de843",
+          "bytes": 825466
+        }
+      }
+    },
+    {
+      "cgId": "CG120",
+      "assetId": "cg-my-cg120",
+      "title": "借书归还前台",
+      "packageId": "P4-02-MY",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG120/cg120-v001.png",
+        "sha256": "a31639f9ccff709e00738ddd1a348d80a419e2be6e7615945a356007d36eb2b1",
+        "bytes": 2275563
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG120/cg120-v001.webp",
+        "sha256": "a5b8e1eb0e47d8a741efe7aed941e08f9a61a672c402ac6eb715b75d2200ec86",
+        "bytes": 1555928
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-my-cg120.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-MY.png",
+          "sha256": "631502d4897c99bbd34964e496fffd1a259c1def5d031254176da43cf111348b",
+          "bytes": 587407
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "借书放前台，两人保持距离；MY07=B，BA也不重启亲密。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG120-full.webp",
+          "sha256": "72238144c9ca7d7b999a3e18284f24826bfb6a06dcec09e420cd292ec39e252b",
+          "bytes": 1000638
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG120-overlay.webp",
+          "sha256": "cd8cb30e2b749286fc71159abf50707f1171ef842e59d6aa9ff00e21d66fedfa",
+          "bytes": 830364
+        }
+      }
+    },
+    {
+      "cgId": "CG121",
+      "assetId": "cg-pi-cg121",
+      "title": "到站那晚有了地址",
+      "packageId": "P4-02-PI",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG121/cg121-v001.png",
+        "sha256": "162559e077ceed1a382e3d5df751d0e3a3e792274593b993b241a83c61f53f02",
+        "bytes": 2409421
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG121/cg121-v001.webp",
+        "sha256": "403b6540f0e02f57a79b3290fcf83aa2cfe859ebda1876bfe4fd0be2e0f6c21e",
+        "bytes": 1614448
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-pi-cg121.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-PI.png",
+          "sha256": "73bd7329c86ab1da2f85abca65b0dc5f471bfcd261a024d0497ac6c318afeb5a",
+          "bytes": 529362
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "HIGH短住房安排，文文记录、飘确认；未把地址具体化为新剧情。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG121-full.webp",
+          "sha256": "14e77e4a9028703e15f1f6db067aec004148985054bdb726fadcdf810c08c4e9",
+          "bytes": 1015540
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG121-overlay.webp",
+          "sha256": "131f0e37854e4a8bf9b1830683518e93860767551f3f53788508776b7783449f",
+          "bytes": 857928
+        }
+      }
+    },
+    {
+      "cgId": "CG122",
+      "assetId": "cg-pi-cg122",
+      "title": "窗台上压住的两本册子",
+      "packageId": "P4-02-PI",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG122/cg122-v001.png",
+        "sha256": "12bb30dd13445b5727ef77731b2bcc4d060c62aa44abedfd30728204a3197874",
+        "bytes": 2095085
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG122/cg122-v001.webp",
+        "sha256": "c770d1e484ccff5824c92740558773b939f2cbd136aafbba3f75cd9b10fe6586",
+        "bytes": 1454392
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-pi-cg122.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-PI.png",
+          "sha256": "73bd7329c86ab1da2f85abca65b0dc5f471bfcd261a024d0497ac6c318afeb5a",
+          "bytes": 529362
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "作为收到的照片显示，两本册子、一杯、一纸片；无现场人物。见面时间由正文解释，不从模糊纸片读数。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG122-full.webp",
+          "sha256": "bb5fd7e01e261ff46bea930869c4083b30f071ee9c69486b64629a16cc75b27b",
+          "bytes": 909746
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG122-overlay.webp",
+          "sha256": "d50016270c5edd62ecf137814952c10d439563d82a50f26547c875bdfdc7c7aa",
+          "bytes": 754852
+        }
+      }
+    },
+    {
+      "cgId": "CG123",
+      "assetId": "cg-pi-cg123",
+      "title": "各自空着的日程",
+      "packageId": "P4-02-PI",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG123/cg123-v001.png",
+        "sha256": "9e63de9a82d879bb4c5532c6b2cf69d64e842c64a15ba11050f47af47d89b4c5",
+        "bytes": 2367909
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG123/cg123-v001.webp",
+        "sha256": "5788c310616b530384b5962b9bddad9ae12c6c709fceef82e89fc6b4809156f8",
+        "bytes": 1625508
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-pi-cg123.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-PI.png",
+          "sha256": "73bd7329c86ab1da2f85abca65b0dc5f471bfcd261a024d0497ac6c318afeb5a",
+          "bytes": 529362
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "LOW朋友结局，毛狼与飘对日程，大片空白；文文未被画成恋人。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG123-full.webp",
+          "sha256": "43f572f17c4f56af16697aacf09135184806883fe5d353cbeb1d1c6ccfb9fea0",
+          "bytes": 1037984
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG123-overlay.webp",
+          "sha256": "e7615b5e6a7c4ae7e3df7c79ef83fa9c3fc58a3b4c7e9cb5a01bebd2cc1bb463",
+          "bytes": 866994
+        }
+      }
+    },
+    {
+      "cgId": "CG124",
+      "assetId": "cg-hq-cg124",
+      "title": "护住半个橘子",
+      "packageId": "P4-02-HQ",
+      "status": "produced-planned-binding",
+      "version": "v002",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG124/cg124-v002.png",
+        "sha256": "f5b37571b85800c3397967a363a1c6aabb42c6b5d4dc03431ca64309f3965cdd",
+        "bytes": 1950193
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG124/cg124-v002.webp",
+        "sha256": "ff42d33d8a8f6d0338867d32b3e27fd9b1cd1f04a67407495076f106c4334231",
+        "bytes": 1371456
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-hq-cg124.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-HQ.png",
+          "sha256": "7844d135d0fdfa250a1f1ec87b078b15c457fb6cbbe5f6c4bc305a4c3bea3b96",
+          "bytes": 553815
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "采用v002，刀切面已换成剥开的橘瓣；球形、蓝凳与调收音机动作保留。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG124-full.webp",
+          "sha256": "943a2fc35d4add489d633b2f50624dcbb79bfcc14e86ad38019176b289147876",
+          "bytes": 896064
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG124-overlay.webp",
+          "sha256": "8679bedd3c8b9f3204734bb389277be8c618ed721e8f75940653c7fdd3d4f6dd",
+          "bytes": 725090
+        }
+      },
+      "refinementRecord": {
+        "path": "assets/sources/20261103/CG-expansion-20/refinements.json",
+        "sha256": "76382a689a3b97a1661c3800d5718b2e3076a6b448e4e9f4196e714ad7cf92c0",
+        "bytes": 2389
+      }
+    },
+    {
+      "cgId": "CG125",
+      "assetId": "cg-hq-cg125",
+      "title": "门合上以前",
+      "packageId": "P4-02-HQ",
+      "status": "produced-planned-binding",
+      "version": "v002",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG125/cg125-v002.png",
+        "sha256": "c756aebae4e3f63a40c376e18fdeb2adb17a5fd39b277a399d8a90ceb8f2b641",
+        "bytes": 2249393
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG125/cg125-v002.webp",
+        "sha256": "d0d09c59ba0d5b9de5e9c6ac68b0e9fa671c2f623d4e56952f4b9ed0b7514776",
+        "bytes": 1558366
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-hq-cg125.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-HQ.png",
+          "sha256": "7844d135d0fdfa250a1f1ec87b078b15c457fb6cbbe5f6c4bc305a4c3bea3b96",
+          "bytes": 553815
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "采用v002，门内电脑已移除并恢复生活房间；黄球球仍为球形，位于门槛内。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG125-full.webp",
+          "sha256": "b465b5d6389da33bafefc5b8c774aa33c8241204b9bd2cfc94c1d3c1c5bc3a79",
+          "bytes": 1006672
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG125-overlay.webp",
+          "sha256": "efc0eac3d28f3e9ced82381944e8b1eb834ef629504059ffc19e49a642583021",
+          "bytes": 839356
+        }
+      },
+      "refinementRecord": {
+        "path": "assets/sources/20261103/CG-expansion-20/refinements.json",
+        "sha256": "76382a689a3b97a1661c3800d5718b2e3076a6b448e4e9f4196e714ad7cf92c0",
+        "bytes": 2389
+      }
+    },
+    {
+      "cgId": "CG126",
+      "assetId": "cg-hq-cg126",
+      "title": "包好交还的杯子",
+      "packageId": "P4-02-HQ",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG126/cg126-v001.png",
+        "sha256": "7a0ba86230c95f3520f631f6d456dc6e22273ad48385b1c8983da60088142f0f",
+        "bytes": 2277533
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG126/cg126-v001.webp",
+        "sha256": "e8149291852193f2b92aa1a196006d5aa692358d9c8e9fd5a46b806267f8a43a",
+        "bytes": 1485666
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-hq-cg126.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-HQ.png",
+          "sha256": "7844d135d0fdfa250a1f1ec87b078b15c457fb6cbbe5f6c4bc305a4c3bea3b96",
+          "bytes": 553815
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "仅作最后告别的回忆CG；人形眼贴、项圈、外套保留，杯子包好交还；不把当前电台声变成再次见面。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG126-full.webp",
+          "sha256": "ab04999ef7778047a445ed4a77d4cf1b9651c9d17689e26b07aa8a8a4e09900d",
+          "bytes": 927616
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG126-overlay.webp",
+          "sha256": "0486cd7901c9314497cf9a506f68c340acc9b5e48a1c842ce8c623987789262a",
+          "bytes": 780722
+        }
+      }
+    },
+    {
+      "cgId": "CG127",
+      "assetId": "cg-fr-cg127",
+      "title": "拨回快了十分钟的钟",
+      "packageId": "P4-02-FR",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG127/cg127-v001.png",
+        "sha256": "b27f5944ef7f430b0c16bf1a6d71a0ef372ee39b283c4f41fb206ea54d4ded1f",
+        "bytes": 2217390
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG127/cg127-v001.webp",
+        "sha256": "8758934c88dc44e3d6cefeec01e6372584a4708fbd584d491390a19037ed1e87",
+        "bytes": 1511450
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-fr-cg127.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-FR.png",
+          "sha256": "a76852dd431b5526d051e2371283af5bb896381e02fe227c3ef3a5a209dd8607",
+          "bytes": 555021
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "师匠拨钟，文文旁观，人物身份正确；不是回声那只停钟。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG127-full.webp",
+          "sha256": "e6195ec0322ba7651eb4899eb66f572d7e2a5bf52d851db0ce32325a25b41a7f",
+          "bytes": 959932
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG127-overlay.webp",
+          "sha256": "1fe1a3beb2ab46467d1b402e3522177ab015fa68fe6e753894f5520315af852d",
+          "bytes": 792216
+        }
+      }
+    },
+    {
+      "cgId": "CG128",
+      "assetId": "cg-fr-cg128",
+      "title": "柜子里的三张点卡",
+      "packageId": "P4-02-FR",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG128/cg128-v001.png",
+        "sha256": "d29956671cad31c7c1554b6a5db0471ee0ede63023179b806f1ce22de60ed8f2",
+        "bytes": 2093939
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG128/cg128-v001.webp",
+        "sha256": "5ea652f7ef246c030b6fab1806028df92faec7f4162af7c5ecc24dc72f22d3cb",
+        "bytes": 1478636
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-fr-cg128.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-FR.png",
+          "sha256": "a76852dd431b5526d051e2371283af5bb896381e02fe227c3ef3a5a209dd8607",
+          "bytes": 555021
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "三张点卡与拍照手机，毛狼不在场；手机反射中的三卡不是额外实物。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG128-full.webp",
+          "sha256": "1aa901e822962ae161929e5eb16bb4560dff1806f96d292506319314703f7f97",
+          "bytes": 958160
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG128-overlay.webp",
+          "sha256": "31d98edbccbb5a40add4e07a6c0a5b14acbcc9460bbec56e5a498a5b8513ae4b",
+          "bytes": 793374
+        }
+      }
+    },
+    {
+      "cgId": "CG129",
+      "assetId": "cg-fr-cg129",
+      "title": "最后一颗螺丝",
+      "packageId": "P4-02-FR",
+      "status": "produced-planned-binding",
+      "version": "v001",
+      "source": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG129/cg129-v001.png",
+        "sha256": "188b2d4b3614897de775d1a15e135167fa825bdeee00d7c4acb90cfa7664ac67",
+        "bytes": 2399661
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261103/CG-expansion-20/CG129/cg129-v001.webp",
+        "sha256": "a4bf937327ec2e158e48b2b85dec000621265b391119b57c582e2d6a03f6ab2c",
+        "bytes": 1633092
+      },
+      "plannedRuntimePath": "assets/current/CG-expansion-20/cg-fr-cg129.webp",
+      "width": 1672,
+      "height": 941,
+      "sourceMode": "RGB",
+      "runtimeFormat": "WEBP",
+      "alpha": false,
+      "encoding": {
+        "lossless": true,
+        "method": 6,
+        "exact": true,
+        "libwebp": "1.5.0"
+      },
+      "decodedPixelsEqual": true,
+      "generationTool": "built-in image_gen",
+      "promptRecord": "assets/sources/20261103/CG-expansion-20/prompts.json",
+      "references": [
+        {
+          "path": "assets/sources/20261103/CG-expansion-20/reference-FR.png",
+          "sha256": "a76852dd431b5526d051e2371283af5bb896381e02fe227c3ef3a5a209dd8607",
+          "bytes": 555021
+        }
+      ],
+      "review": {
+        "fullImage": "reviewed-in-generation-session",
+        "note": "文文扶板、师匠拆螺丝，墙上猫图案被遮住；未加毛狼或真猫。文文一手扶板一手搭肩，属于画面演绎，最终采用时复核。",
+        "P4-05": "pending",
+        "runtime": "not-tested",
+        "overlay": "reviewed-in-contact-sheet",
+        "overlayNote": "人物面部可辨；正文框下部细节以同段全图核对，具体限制见逐镜备注。"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG129-full.webp",
+          "sha256": "2dcab0164aa9e25503507439cb29970758a7fff33cfd6e2276d278888266a202",
+          "bytes": 1030080
+        },
+        "overlay": {
+          "path": "qa/cg-expansion-20-20261103/previews/CG129-overlay.webp",
+          "sha256": "e6fd43c95767af1e5ca48053d338ab70842b7d59c0e21221c117eb3c93c96471",
+          "bytes": 872710
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "status": "pass",
+  "scope": "独立Suika Wasm六个合成触发点；真实切标签待验",
+  "checks": [
+    "XM-E1真实引擎入镜、跳过、出镜清理",
+    "ZZ-E1真实引擎入镜、跳过、出镜清理",
+    "MY-E1真实引擎入镜、跳过、出镜清理",
+    "PI-E1真实引擎入镜、跳过、出镜清理",
+    "PI-LE1真实引擎入镜、跳过、出镜清理",
+    "HQ-E1真实引擎入镜、跳过、出镜清理",
+    "六个合成正例可见后各解锁一次",
+    "宿主退出通知同时清理图鉴对话框"
+  ],
+  "errors": [],
+  "browser": "156.0.8078.80",
+  "engineEvents": [
+    "P4V|started",
+    "SUI_M|context|MCG-XM-E1|enter|1",
+    "P4V|node|T-XM-000826_1",
+    "SUI_M|context||enter|2",
+    "P4V|node|AFTER-XM-E1",
+    "SUI_M|context|MCG-ZZ-E1|enter|3",
+    "P4V|node|T-ZZ-000478_1",
+    "SUI_M|context||enter|4",
+    "P4V|node|AFTER-ZZ-E1",
+    "SUI_M|context|MCG-MY-E1|enter|5",
+    "P4V|node|T-MY-000349_1",
+    "SUI_M|context||enter|6",
+    "P4V|node|AFTER-MY-E1",
+    "SUI_M|context|MCG-PI-E1|enter|7",
+    "P4V|node|T-PI-000444_1",
+    "SUI_M|context||enter|8",
+    "P4V|node|AFTER-PI-E1",
+    "SUI_M|context|MCG-PI-LE1|enter|9",
+    "P4V|node|T-PI-000630_1",
+    "SUI_M|context||enter|10",
+    "P4V|node|AFTER-PI-LE1",
+    "SUI_M|context|MCG-HQ-E1|enter|11",
+    "P4V|node|T-HQ-000586_1",
+    "SUI_M|context||enter|12",
+    "P4V|node|AFTER-HQ-E1"
+  ],
+  "mediaEvents": [
+    {
+      "type": "start",
+      "key": "MCG-XM-E1",
+      "phase": "loading",
+      "time": 370.1000000014901
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-XM-E1",
+      "phase": "playing",
+      "time": 471.3999999985099
+    },
+    {
+      "type": "skip",
+      "key": "MCG-XM-E1",
+      "phase": "static",
+      "time": 483.80000000447035
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 873.1000000014901
+    },
+    {
+      "type": "start",
+      "key": "MCG-ZZ-E1",
+      "phase": "loading",
+      "time": 1222.7000000029802
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-ZZ-E1",
+      "phase": "playing",
+      "time": 1273
+    },
+    {
+      "type": "skip",
+      "key": "MCG-ZZ-E1",
+      "phase": "static",
+      "time": 1563.3999999985099
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 1955.7000000029802
+    },
+    {
+      "type": "start",
+      "key": "MCG-MY-E1",
+      "phase": "loading",
+      "time": 2306.5
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-MY-E1",
+      "phase": "playing",
+      "time": 2373
+    },
+    {
+      "type": "skip",
+      "key": "MCG-MY-E1",
+      "phase": "static",
+      "time": 2651.2000000029802
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 3039.10000000149
+    },
+    {
+      "type": "start",
+      "key": "MCG-PI-E1",
+      "phase": "loading",
+      "time": 3407.10000000149
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-PI-E1",
+      "phase": "playing",
+      "time": 3472.8000000044703
+    },
+    {
+      "type": "skip",
+      "key": "MCG-PI-E1",
+      "phase": "static",
+      "time": 3739.89999999851
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 4123.80000000447
+    },
+    {
+      "type": "start",
+      "key": "MCG-PI-LE1",
+      "phase": "loading",
+      "time": 4490.20000000298
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-PI-LE1",
+      "phase": "playing",
+      "time": 4554.39999999851
+    },
+    {
+      "type": "skip",
+      "key": "MCG-PI-LE1",
+      "phase": "static",
+      "time": 4828.80000000447
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 5223.39999999851
+    },
+    {
+      "type": "start",
+      "key": "MCG-HQ-E1",
+      "phase": "loading",
+      "time": 5589.80000000447
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-HQ-E1",
+      "phase": "playing",
+      "time": 5656.30000000447
+    },
+    {
+      "type": "skip",
+      "key": "MCG-HQ-E1",
+      "phase": "static",
+      "time": 5922.60000000149
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 6306.70000000298
+    },
+    {
+      "type": "cleanup",
+      "key": "",
+      "phase": "idle",
+      "time": 6668.20000000298
+    }
+  ]
+}

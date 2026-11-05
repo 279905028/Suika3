@@ -1,0 +1,33 @@
+{
+  "status": "captured",
+  "errors": [],
+  "scope": "同冻结正式包，独立Chrome仅复看电话结束到CG001的稳定姓名画面",
+  "settledEvents": [
+    "SUI_I|enter|binding=p4-T-C01-000248_1|node=T-C01-000248_1",
+    "SUI_E|stable|cursor=T-C01-000248_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=49",
+    "SUI_I|exit|binding=p4-T-C01-000248_1|node=T-C01-000249_1",
+    "SUI_I|enter|binding=p4-T-C01-000249_1|node=T-C01-000249_1",
+    "SUI_E|stable|cursor=T-C01-000249_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_I|exit|binding=p4-T-C01-000249_1|node=T-C01-000004_1",
+    "SUI_I|enter|binding=p4-T-C01-000004_1|node=T-C01-000004_1",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_E|stable|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=0|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57"
+  ],
+  "nextEvents": [
+    "SUI_I|exit|binding=p4-T-C01-000248_1|node=T-C01-000249_1",
+    "SUI_I|enter|binding=p4-T-C01-000249_1|node=T-C01-000249_1",
+    "SUI_E|stable|cursor=T-C01-000249_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=53",
+    "SUI_I|exit|binding=p4-T-C01-000249_1|node=T-C01-000004_1",
+    "SUI_I|enter|binding=p4-T-C01-000004_1|node=T-C01-000004_1",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame",
+    "SUI_E|stable|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_E|save|slot=0|cursor=T-C01-000004_1|pending=|route=|relation=UNSET|score=20|return=|event=0|ending=|epilogue=|depth=0|tag=text|index=57",
+    "SUI_I|full-view|opened",
+    "SUI_I|full-view|closed"
+  ],
+  "databases": [
+    "bijie-p4-07-isolated:/毕节，雨停之前 · Suika3"
+  ],
+  "browser": "156.0.8078.80"
+}

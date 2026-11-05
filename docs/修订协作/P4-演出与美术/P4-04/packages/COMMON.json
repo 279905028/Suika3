@@ -1,0 +1,1766 @@
+{
+  "schemaVersion": "p4-cg-review-v1",
+  "taskId": "P4-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "status": "production-complete-awaiting-P4-05",
+  "scope": "CG图文复核建议；不是02完整绑定或05资源通过目录",
+  "packageId": "P4-02-COMMON",
+  "records": [
+    {
+      "cgId": "CG001",
+      "assetId": "cg-common-cg001",
+      "title": "坏轮子的返乡",
+      "packageId": "P4-02-COMMON",
+      "decision": "reuse",
+      "basis": "毛狼递回坏轮子，车站、雨棚与文文接物手势吻合；底部接物手会被正文框遮挡，完整图保留。亮天空上的浅色全图提示交06加深底板，不以修图改变天空。",
+      "legacyParagraphIds": [
+        "T-C01-000004"
+      ],
+      "proposedNodeIds": [
+        "T-C01-000004_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C01-000004_1",
+        "paragraphId": "T-C01-000004",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C01-000004",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/第一章-回到毕节.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第一章-回到毕节.md",
+          "lineHint": 40,
+          "context": "### 第1天｜你带了个拖拉机",
+          "sha256": "edecb9a34780b494cd4159d7d3178c865317a03139e6bfdb0c98e4352def73bb"
+        }
+      },
+      "text": "挂电话以后，毛狼把轮子放进我掌心。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C01-000005_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg001-v001.png",
+          "sha256": "7836e63fd115178ebb0ae1b15a7abf73147a67ecca31021c69d7f58b21ad8b09",
+          "bytes": 2303523,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg001.webp",
+          "sha256": "d8510b2fb3e547956f19ce7fd6ef808aa3ae52ab59486bb0ece02500b525b1e6",
+          "bytes": 1578606,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG001-full.webp",
+          "sha256": "e5ef0264bfa28aaa71798feb2ac0c059c7389511640adbdbaf4f10db4ddf42a4",
+          "bytes": 1041924
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG001-overlay.webp",
+          "sha256": "f047b0eb2b55720bb34cc3c53c6c4e6d01dbcde573297f97cf3725d2503fb998",
+          "bytes": 872812
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG004",
+      "assetId": "cg-common-cg004",
+      "title": "她自己的练习本",
+      "packageId": "P4-02-COMMON",
+      "decision": "reuse",
+      "basis": "练习本中的后脑勺习作与桌边共同查看吻合；只在翻页展示段出现，不提前带走练习本。",
+      "legacyParagraphIds": [
+        "T-C01-000306",
+        "T-C01-000307",
+        "T-C01-000308",
+        "T-C01-000309"
+      ],
+      "proposedNodeIds": [
+        "T-C01-000306_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C01-000306_1",
+        "paragraphId": "T-C01-000306",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C01-000306",
+          "kind": "narration",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/第一章-回到毕节.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第一章-回到毕节.md",
+          "lineHint": 409,
+          "context": "### 第3—4天｜重逢的人不站在原地",
+          "sha256": "dc5d2cca38c1326082cf81fa85c68b8c82231dbaa62c733af064a5a2aff2249b"
+        }
+      },
+      "text": "里面画了好几个后脑勺，下面写着哪里剪短了、哪边层次不对。最后一张比前面稳。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C01-000307_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg004-v001.png",
+          "sha256": "add17b08495bb22a303b6409d4eb5afe223a13e481dc394c994f368e84f05a8f",
+          "bytes": 2494013,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg004.webp",
+          "sha256": "65673f2cc5b8b1f991c037da4cf5cb638383849998ca11e1264d3d31254be1ae",
+          "bytes": 1641522,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG004-full.webp",
+          "sha256": "2b1d724aeb58cf35261026b2621d31bf2f0faad0c8f0ce62c4fb8d2e270e54f1",
+          "bytes": 1054680
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG004-overlay.webp",
+          "sha256": "cc558008d231522b62dfb57734d5989ba659ffafd73933d9ba8a128b64ddc793",
+          "bytes": 904598
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "书页/相机主体在框上方仍可辨，下部手腕或绳带被遮挡；完整图补足细节。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG005",
+      "assetId": "cg-common-cg005",
+      "title": "便利店里的前任",
+      "packageId": "P4-02-COMMON",
+      "decision": "reuse",
+      "basis": "孟遥在便利店出口掀帘，文文自己持水；没有替付款或婚姻结束暗示。",
+      "legacyParagraphIds": [
+        "T-C01-000135"
+      ],
+      "proposedNodeIds": [
+        "T-C01-000135_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C01-000135_1",
+        "paragraphId": "T-C01-000135",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C01-000135",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/第一章-回到毕节.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第一章-回到毕节.md",
+          "lineHint": 698,
+          "context": "C01-03/COMMON",
+          "sha256": "0b6363bb19a188dd5c137fdb93a9dd84541b5b6dcbf590ddbccab17148bda97a"
+        }
+      },
+      "text": "孟遥在出口等，没替我付那瓶水。我付好过去，她把挡门的布帘抬起来一点。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C01-000136_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg005-v002.png",
+          "sha256": "f867fdc5343e9e4499072bf2611dcfeadbcea23e6c8266e2e5d529e82977d80b",
+          "bytes": 2513749,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg005.webp",
+          "sha256": "f91e34d834e0a7fc8d074f1780a44cb483c04ab43864b79f292bd0f5f3eacfcf",
+          "bytes": 1673294,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG005-full.webp",
+          "sha256": "2fb07eac2f67b20db971d1e5233d8d989e23350eda2b8261f5ebcf5001afb92c",
+          "bytes": 1091808
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG005-overlay.webp",
+          "sha256": "936a19ee65ee33f74c1435e123f85e9e7cec51eb5401018d6e2072129d1a6e9d",
+          "bytes": 945276
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG006",
+      "assetId": "cg-common-cg006",
+      "title": "屏幕上只剩她的角色",
+      "packageId": "P4-02-COMMON",
+      "decision": "reuse",
+      "basis": "画面只见游戏屏幕、手与耳机，叶岚仍是远程队友；不将电话声音转成现场人物。",
+      "legacyParagraphIds": [
+        "T-C01-000372",
+        "T-C01-000373",
+        "T-C01-000374"
+      ],
+      "proposedNodeIds": [
+        "T-C01-000372_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C01-000372_1",
+        "paragraphId": "T-C01-000372",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C01-000372",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/第一章-回到毕节.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第一章-回到毕节.md",
+          "lineHint": 809,
+          "context": "### 第5—7天｜有人要去贵阳",
+          "sha256": "4238fda8eaafa6edf1a9a0416126f2c777f4ea6f88cd117367d8fdc37ebc0321"
+        }
+      },
+      "text": "快赢时她忽然没了声音，角色停在角落。队伍输了，毛狼还在喊再一局。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C01-000373_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg006-v003.png",
+          "sha256": "009d0f23a6e2281bea5dfbc804265e2aba1b4224c324fef51e285ac36dfcf8a6",
+          "bytes": 2964949,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg006.webp",
+          "sha256": "03feab1a16e1482392693e48db5727fdc4e2b88e7e4900731b79fa58cd7f6002",
+          "bytes": 2098222,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG006-full.webp",
+          "sha256": "73b2cbb2f47ed1a9880abf54d2ac848e0b662ecb7317acd48c05d973b0ffac2e",
+          "bytes": 1416666
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG006-overlay.webp",
+          "sha256": "6d015994765cd05f02bb045b07911e712520be99c879c85039782e782c45e317",
+          "bytes": 1255718
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG007",
+      "assetId": "cg-common-cg007",
+      "title": "一碗面和一通工作电话",
+      "packageId": "P4-02-COMMON",
+      "decision": "reuse",
+      "basis": "周栀折摊位图、桌上面碗与工作电话处于同一场景；只作电话结束附近的动作定格，下一页清除。",
+      "legacyParagraphIds": [
+        "T-C01-000173"
+      ],
+      "proposedNodeIds": [
+        "T-C01-000173_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C01-000173_1",
+        "paragraphId": "T-C01-000173",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C01-000173",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/第一章-回到毕节.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第一章-回到毕节.md",
+          "lineHint": 922,
+          "context": "### 第5—7天｜有人要去贵阳",
+          "sha256": "09edf9b84328cf883bb4deb43e6067ba13e29e70dc94d631ed7afb0819db05c4"
+        }
+      },
+      "text": "我抬头。她靠在椅背上，声音比刚才软，手却把摊位图折得方方正正。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C01-000174_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg007-v001.png",
+          "sha256": "4ccaa07b3a76fead4e97201effacd4bea8b09e83e3cdccb59d832e969a4a3bc6",
+          "bytes": 2290951,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg007.webp",
+          "sha256": "136e73563832974d287d0c72327b562e67517b51a46ba5b2a457d46b3413274b",
+          "bytes": 1535850,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG007-full.webp",
+          "sha256": "7f54fdcfded6cb9adb43ccde221083860323f0943e5bd93a2c57559a2166c323",
+          "bytes": 1014896
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG007-overlay.webp",
+          "sha256": "d9e73d6b5e71aa11496a2ece4c014986487726a5e1f3ca2dfeff283e270c5e17",
+          "bytes": 846962
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG008",
+      "assetId": "cg-common-cg008",
+      "title": "册子里留白的地方",
+      "packageId": "P4-02-COMMON",
+      "decision": "rebind",
+      "basis": "册子推来与留白可见；从允许查看后的递册动作进入，不抢在请求之前展示，不将留白补成确定的文字。",
+      "legacyParagraphIds": [
+        "T-C01-000413",
+        "T-C01-000414",
+        "T-C01-000415"
+      ],
+      "proposedNodeIds": [
+        "T-C01-000414_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C01-000414_1",
+        "paragraphId": "T-C01-000414",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C01-000414",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/第一章-回到毕节.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第一章-回到毕节.md",
+          "lineHint": 1009,
+          "context": "### 第5—7天｜有人要去贵阳",
+          "sha256": "a93aa55db6bc54208b189740085d42f523e2b883b85863973cd55dbeaa3d3528"
+        }
+      },
+      "text": "她推过来。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C01-000415_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg008-v001.png",
+          "sha256": "89c5c886478a2bb162880c24b79ed1c9b4ffdcd84df954453e4437a5926bf3eb",
+          "bytes": 2271451,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg008.webp",
+          "sha256": "861df5270cab79e7df74515d11d1d97d65561523fd0ce733f03b288c97b28b07",
+          "bytes": 1600102,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG008-full.webp",
+          "sha256": "bb0ad4ecf6d16153789e9d53d50daeade6c2029298d42027b8175ab54d774e81",
+          "bytes": 1067378
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG008-overlay.webp",
+          "sha256": "88c3ef632fbf342693e5cecff78b2a3f8be1ababad69c6a9ae42fc2c9aa2127a",
+          "bytes": 894690
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "书页/相机主体在框上方仍可辨，下部手腕或绳带被遮挡；完整图补足细节。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG010",
+      "assetId": "cg-common-cg010",
+      "title": "她还没有开口",
+      "packageId": "P4-02-COMMON",
+      "decision": "rebind",
+      "basis": "毛狼、飘、文文三人当面，飘尚未答应他人安排；图不等于恋爱选择。",
+      "legacyParagraphIds": [
+        "T-C02-000365",
+        "T-C02-000366",
+        "T-C02-000367"
+      ],
+      "proposedNodeIds": [
+        "T-C02-000367_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C02-000367_1",
+        "paragraphId": "T-C02-000367",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C02-000367",
+          "kind": "dialogue",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "face",
+          "group": null,
+          "displayName": "飘"
+        },
+        "source": {
+          "file": "scenario/第二章-十四天.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第二章-十四天.md",
+          "lineHint": 647,
+          "context": "### 第11—12天｜屏幕外的座位",
+          "sha256": "1bb50a5c2c84061eadf10dd06dbb2dc02d593926b017fe401265483f6485ec3d"
+        }
+      },
+      "text": "就给我算完了？",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C02-000368_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg010-v001.png",
+          "sha256": "31c99d7dcdf0975419428f672a05ddd0ab08b85911d206fcde985399ee573e55",
+          "bytes": 2279906,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg010.webp",
+          "sha256": "c1906eaf304e6a77879f9964e519ed81c6641eed2821c2cdb4fba6ab1f830385",
+          "bytes": 1588076,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG010-full.webp",
+          "sha256": "41902221dd640bd98ce1f22d289132c8e290f741663871f502626343a210c820",
+          "bytes": 1044670
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG010-overlay.webp",
+          "sha256": "bc869d466d4e39d1b31e529343d884c6ff1626f0e879be41ab781d5b1914eee3",
+          "bytes": 868788
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG011",
+      "assetId": "cg-common-cg011",
+      "title": "饭桌上说出拍卖",
+      "packageId": "P4-02-COMMON",
+      "decision": "reuse",
+      "basis": "文文向饭桌众人说明拍卖，场上包含已确认群像；不扩大到未到场的孟遥、黄球球或叶岚。",
+      "legacyParagraphIds": [
+        "T-C02-000170"
+      ],
+      "proposedNodeIds": [
+        "T-C02-000170_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C02-000170_1",
+        "paragraphId": "T-C02-000170",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C02-000170",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null,
+          "displayName": "文文"
+        },
+        "source": {
+          "file": "scenario/第二章-十四天.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第二章-十四天.md",
+          "lineHint": 1012,
+          "context": "### 第13—14天｜没有那间客房",
+          "sha256": "121deab8e31224f7783ee8f32ce7d6f40b6040443f64e42ba1fd76f66b8bae8b"
+        }
+      },
+      "text": "房子要拍卖。日子已经定了。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C02-000171_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg011-v002.png",
+          "sha256": "ccc58f23cdd0623776aa052646982c0b1b59dce6f42e5a4c67d6ba406f5cfb78",
+          "bytes": 2411980,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg011.webp",
+          "sha256": "d8beeb2a2e72da8bff22be03237ee17ac3434239ce3e9fc1f1db922bf43eaf31",
+          "bytes": 1696908,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG011-full.webp",
+          "sha256": "6cb47ddd57e3567e1e6d761f8cd3e8b7ffb629fe02d419b030b10a4e40ff4e7f",
+          "bytes": 1137604
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG011-overlay.webp",
+          "sha256": "b9b7d766c7b383ea79e06e33de7d1e2a093bebd0ff0877c25b10705c13f5c5db",
+          "bytes": 944386
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG012",
+      "assetId": "cg-common-cg012",
+      "title": "门后的第一次见面",
+      "packageId": "P4-02-COMMON",
+      "decision": "reuse",
+      "basis": "门内蓝凳与球形黄球球吻合；仅在双前置A的首次见面分支，不提前显示人形。",
+      "legacyParagraphIds": [
+        "T-C02-000487",
+        "T-C02-000488"
+      ],
+      "proposedNodeIds": [
+        "T-C02-000487_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C02-000487_1",
+        "paragraphId": "T-C02-000487",
+        "condition": "C01-02=A&C02-01=A",
+        "routeIds": [],
+        "entryGate": null,
+        "textMeta": {
+          "id": "T-C02-000487",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/第二章-十四天.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第二章-十四天.md",
+          "lineHint": 1295,
+          "context": "### 第14天·20:30｜正式相识",
+          "sha256": "5097c43e79cbaa22775d6e9f102fbdf46ac6d8fc9abe525e18e87788f3f6e65f"
+        }
+      },
+      "text": "蓝色凳子上坐着一个黄色圆球，有眼睛、有眉毛，一只小手托着脸。我扶在门框上的手慢慢收紧。她等了几秒。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-C02-000488_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg012-v001.png",
+          "sha256": "94996f364d3b0ac8c2fbd7800c94e45e13fba426060ad449e3a60476e4bccca0",
+          "bytes": 1852375,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg012.webp",
+          "sha256": "b222c3b3d4c52960cd1b30f842f850edf420a2cba5839832d16949ec26060c1d",
+          "bytes": 1331000,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG012-full.webp",
+          "sha256": "fa77ca100d2cb01d8a48aa7e0a94b906aef3625c41f1afaa1efdfcf73f4226e4",
+          "bytes": 894632
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG012-overlay.webp",
+          "sha256": "08fad499a784abce2fddfecb04c37eab29e0a7738264fb7a6ae45dfe8cf19f13",
+          "bytes": 750914
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG101",
+      "assetId": "cg-common-cg101",
+      "title": "先问这件事能告诉谁",
+      "packageId": "P4-02-COMMON",
+      "decision": "repair-complete",
+      "basis": "已按COMMON-N006返修为文文与飘并坐台阶、毛狼稍远接电话，写本子和包带仍保留；v003恢复文文黑帆布鞋。",
+      "legacyParagraphIds": [
+        "T-D36-000031",
+        "T-D36-000032",
+        "T-D36-000033",
+        "T-D36-000034"
+      ],
+      "proposedNodeIds": [
+        "T-D36-000034_1"
+      ],
+      "anchor": {
+        "nodeId": "T-D36-000034_1",
+        "paragraphId": "T-D36-000034",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": {
+          "type": "sharedEvent",
+          "value": "PIAO-D36",
+          "routes": [
+            "xiaoman",
+            "zhouzhi",
+            "mengyao",
+            "huangqiuqiu",
+            "friends"
+          ],
+          "relation": "LOW"
+        },
+        "textMeta": {
+          "id": "T-D36-000034",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/跨路线-第36天的消息.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/跨路线-第36天的消息.md",
+          "lineHint": 80,
+          "context": "PIAO-D36",
+          "sha256": "b9fb81ce4d2cccb713cd0ab098330daae1f7952c5c291ddd9e5dbfec867a948c"
+        }
+      },
+      "text": "毛狼接了个演出电话，走远两步去确认时间。她拿出小本子，写下下次课的日期，又把相机包带的结解开重打。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-D36-000035_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261103/P4-04/CG101/cg101-v003.png",
+          "sha256": "549452bc7210d520a77251a70108263a2188765faa0575c8c74e715c0c4db0a5",
+          "bytes": 2693563,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/sources/20261103/P4-04/CG101/cg101-v003.webp",
+          "sha256": "c0d01cf3dfb1b62d3f6ef9763f6d554287976404ad603b4c1c7aae6f4993a23e",
+          "bytes": 1810528,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": {
+        "cgId": "CG101",
+        "assetId": "cg-common-cg101",
+        "needId": "P4-02-COMMON-N006",
+        "type": "cg",
+        "source": {
+          "path": "assets/sources/20261103/P4-04/CG101/cg101-v003.png",
+          "sha256": "549452bc7210d520a77251a70108263a2188765faa0575c8c74e715c0c4db0a5",
+          "bytes": 2693563
+        },
+        "runtime": {
+          "path": "assets/sources/20261103/P4-04/CG101/cg101-v003.webp",
+          "sha256": "c0d01cf3dfb1b62d3f6ef9763f6d554287976404ad603b4c1c7aae6f4993a23e",
+          "bytes": 1810528
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "WEBP",
+        "alpha": false,
+        "encoding": {
+          "lossless": true,
+          "quality": 100,
+          "method": 6,
+          "libwebp": "1.5.0",
+          "pixelEquality": "passed"
+        },
+        "productionStatus": "complete",
+        "visualStatus": "reviewed-full-image",
+        "P4-05": "pending",
+        "adoptionStatus": "not-adopted"
+      },
+      "previousAsset": {
+        "sourcePath": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg101-v001.png",
+        "runtimePath": "assets/current/SUI-A10-COMMON/cg-common-cg101.webp"
+      },
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG101-full.webp",
+          "sha256": "2326e099591314b43b2d3df9b2e61758a71d86f3aa8df879676f0630ec1eb996",
+          "bytes": 1211134
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG101-overlay.webp",
+          "sha256": "eb2ab7a0dc43818e1ba7a4a89adf50d7fc807f978422e014f20ca1bd23fe7ff8",
+          "bytes": 1025064
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-full-image-and-overlay",
+        "overlayNote": "已看1280×720叠框：写本子的手、两人坐姿上半部与远处接电话的毛狼均清楚；台阶与鞋由完整图补看。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG095",
+      "assetId": "cg-common-cg095",
+      "title": "先把饭吃完再骂",
+      "packageId": "P4-02-COMMON",
+      "decision": "rebind",
+      "basis": "飘推回毛狼饭碗，文文旁观；仅HIGH单身后日谈且排除FR-E2，不越到后来手机消息段。",
+      "legacyParagraphIds": [
+        "T-EPH-000072",
+        "T-EPH-000073",
+        "T-EPH-000074"
+      ],
+      "proposedNodeIds": [
+        "T-EPH-000072_1"
+      ],
+      "anchor": {
+        "nodeId": "T-EPH-000072_1",
+        "paragraphId": "T-EPH-000072",
+        "condition": "PIAO_RELATION=HIGH&ENDING=XM-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=ZZ-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=MY-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=PI-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=HQ-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=FR-E1&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=FR-E2&ENDING!=FR-E2",
+        "routeIds": [],
+        "entryGate": {
+          "type": "epilogue",
+          "value": "后日谈-他们的日子.md",
+          "rules": [
+            {
+              "relation": "HIGH",
+              "endings": [
+                "XM-E2",
+                "ZZ-E2",
+                "MY-E2",
+                "PI-E2",
+                "HQ-E2",
+                "FR-E1",
+                "FR-E2"
+              ],
+              "target": {
+                "file": "后日谈-他们的日子.md",
+                "anchor": "EP-HIGH"
+              }
+            }
+          ]
+        },
+        "textMeta": {
+          "id": "T-EPH-000072",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/后日谈-他们的日子.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/后日谈-他们的日子.md",
+          "lineHint": 164,
+          "context": "### 第一年｜她先问有没有空",
+          "sha256": "5f4980650d9b5ab76a4493cfc6b5ec112fc0e3189009c47cb71fea83062529c0"
+        }
+      },
+      "text": "她把他推远的饭碗推回来。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-EPH-000073_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg095-v002.png",
+          "sha256": "739e36696eccf07ba4ac82b17bd35ed82291c3f646b8a1bbea278638442ca2cc",
+          "bytes": 2223222,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg095.webp",
+          "sha256": "f351bf69c3e61494178a257711ad41aea4d943072fdd39c5f3161c98891219af",
+          "bytes": 1508076,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG095-full.webp",
+          "sha256": "81021819c69f4f3d4806a4ea32b68a53c654b0924f7623a751c7c4dfe38adcf9",
+          "bytes": 1008226
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG095-overlay.webp",
+          "sha256": "45ca7356c575b7a387a931524fcdd3f6dd186b5823d7e0f0f1ad1cd5e3595d76",
+          "bytes": 827344
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG099",
+      "assetId": "cg-common-cg099",
+      "title": "婚后的饭还热着",
+      "packageId": "P4-02-COMMON",
+      "decision": "reuse",
+      "basis": "婚后朋友饭、便装擦桌与新册子吻合；仅HIGH单身且非FR-E2，人物不扩黄球球。",
+      "legacyParagraphIds": [
+        "T-EPH-000027"
+      ],
+      "proposedNodeIds": [
+        "T-EPH-000027_1"
+      ],
+      "anchor": {
+        "nodeId": "T-EPH-000027_1",
+        "paragraphId": "T-EPH-000027",
+        "condition": "PIAO_RELATION=HIGH&ENDING=XM-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=ZZ-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=MY-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=PI-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=HQ-E2&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=FR-E1&ENDING!=FR-E2|PIAO_RELATION=HIGH&ENDING=FR-E2&ENDING!=FR-E2",
+        "routeIds": [],
+        "entryGate": {
+          "type": "epilogue",
+          "value": "后日谈-他们的日子.md",
+          "rules": [
+            {
+              "relation": "HIGH",
+              "endings": [
+                "XM-E2",
+                "ZZ-E2",
+                "MY-E2",
+                "PI-E2",
+                "HQ-E2",
+                "FR-E1",
+                "FR-E2"
+              ],
+              "target": {
+                "file": "后日谈-他们的日子.md",
+                "anchor": "EP-HIGH"
+              }
+            }
+          ]
+        },
+        "textMeta": {
+          "id": "T-EPH-000027",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/后日谈-他们的日子.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/后日谈-他们的日子.md",
+          "lineHint": 310,
+          "context": "### 两年后｜饭还没凉",
+          "sha256": "d40c4a87ded9c488883fe86132a0b1e996f944b1d61d403aa274d24962d93c3e"
+        }
+      },
+      "text": "毛狼把婚后的第一顿朋友饭约在小店。飘到时没穿礼裙，手里拿着一本新改过的册子，先把桌上的水渍擦掉才放下。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-EPH-000114_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg099-v001.png",
+          "sha256": "e0d7553bfe85fab1846de73b576b9624b94b56508e6b317df2a68a08603d4ed5",
+          "bytes": 2313531,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg099.webp",
+          "sha256": "7a6f418df33725d36343e6a556d447d7416bce01293b67019b6779add3174d20",
+          "bytes": 1578424,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG099-full.webp",
+          "sha256": "55f7c7ef68e98d797113c76e1fa7d3b30b739e3b7cb8984138467e28483c8a37",
+          "bytes": 1038122
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG099-overlay.webp",
+          "sha256": "5f5a64906f50f9160f4dc4efb852fd0a8a67945349e64e2f5866a34c638d4067",
+          "bytes": 877808
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG100",
+      "assetId": "cg-common-cg100",
+      "title": "只在群里收到婚讯",
+      "packageId": "P4-02-COMMON",
+      "decision": "rebind",
+      "basis": "图中已含谢谢/收到，故到最后一条收到才显示，避免提前暴露回复；FR-E2只有手机消息视角，不进入婚宴现场。",
+      "legacyParagraphIds": [
+        "T-EPH-000142",
+        "T-EPH-000143",
+        "T-EPH-000144",
+        "T-EPH-000145",
+        "T-EPH-000146",
+        "T-EPH-000147"
+      ],
+      "proposedNodeIds": [
+        "T-EPH-000147_1"
+      ],
+      "anchor": {
+        "nodeId": "T-EPH-000147_1",
+        "paragraphId": "T-EPH-000147",
+        "condition": "PIAO_RELATION=HIGH&ENDING=XM-E2&ENDING=FR-E2|PIAO_RELATION=HIGH&ENDING=ZZ-E2&ENDING=FR-E2|PIAO_RELATION=HIGH&ENDING=MY-E2&ENDING=FR-E2|PIAO_RELATION=HIGH&ENDING=PI-E2&ENDING=FR-E2|PIAO_RELATION=HIGH&ENDING=HQ-E2&ENDING=FR-E2|PIAO_RELATION=HIGH&ENDING=FR-E1&ENDING=FR-E2|PIAO_RELATION=HIGH&ENDING=FR-E2&ENDING=FR-E2",
+        "routeIds": [],
+        "entryGate": {
+          "type": "epilogue",
+          "value": "后日谈-他们的日子.md",
+          "rules": [
+            {
+              "relation": "HIGH",
+              "endings": [
+                "XM-E2",
+                "ZZ-E2",
+                "MY-E2",
+                "PI-E2",
+                "HQ-E2",
+                "FR-E1",
+                "FR-E2"
+              ],
+              "target": {
+                "file": "后日谈-他们的日子.md",
+                "anchor": "EP-HIGH"
+              }
+            }
+          ]
+        },
+        "textMeta": {
+          "id": "T-EPH-000147",
+          "kind": "message",
+          "speaker": "piao",
+          "name": "飘",
+          "channel": "text",
+          "group": null,
+          "displayName": "飘（消息）"
+        },
+        "source": {
+          "file": "scenario/后日谈-他们的日子.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/后日谈-他们的日子.md",
+          "lineHint": 421,
+          "context": "### 两年后｜饭还没凉",
+          "sha256": "d55b704f1348a1eead227fe3eba91e476fdad55bfcf9f772b23583127eae46ff"
+        }
+      },
+      "text": "收到。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-EPH-000148_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg100-v003.png",
+          "sha256": "22961a13b59fdd2d62bd0bf2af547e6813588eeee3204ce5e904025091f3a17e",
+          "bytes": 1917850,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg100.webp",
+          "sha256": "cd172061f913c887caffee2482b92550dabcd017bfab01197baf6e74244583e4",
+          "bytes": 1287890,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG100-full.webp",
+          "sha256": "dc833ed7fb4b97cd4fcb3fe8642c8b1fa434cb9f6b8de5aaab4bc049ff97cd96",
+          "bytes": 863848
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG100-overlay.webp",
+          "sha256": "2374a8b75232f7074d7e6a3851afa40ef42dc37711b16743d6c14f6b274a2e40",
+          "bytes": 702956
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "屏幕主体仍可辨，但手机下部/发送键或最后消息接近文字框；完整图补看。只能按冻结的通话/消息时点出现。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG096",
+      "assetId": "cg-common-cg096",
+      "title": "先把未定的留空",
+      "packageId": "P4-02-COMMON",
+      "decision": "rebind",
+      "basis": "飘与毛狼共同核费用，纸面留白；仅LOW单身且非FR-E2，不把未定开销画成已承诺。",
+      "legacyParagraphIds": [
+        "T-EPL-000025",
+        "T-EPL-000026",
+        "T-EPL-000027",
+        "T-EPL-000028",
+        "T-EPL-000029"
+      ],
+      "proposedNodeIds": [
+        "T-EPL-000025_1"
+      ],
+      "anchor": {
+        "nodeId": "T-EPL-000025_1",
+        "paragraphId": "T-EPL-000025",
+        "condition": "PIAO_RELATION=LOW&ENDING=XM-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=ZZ-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=MY-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=HQ-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=FR-E1&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=FR-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=PI-LE2&ENDING!=FR-E2",
+        "routeIds": [],
+        "entryGate": {
+          "type": "epilogue",
+          "value": "后日谈-未写完的安排.md",
+          "rules": [
+            {
+              "relation": "LOW",
+              "endings": [
+                "XM-E2",
+                "ZZ-E2",
+                "MY-E2",
+                "HQ-E2",
+                "FR-E1",
+                "FR-E2",
+                "PI-LE2"
+              ],
+              "requiresEvent": "PIAO-PREGNANCY-READ",
+              "target": {
+                "file": "后日谈-未写完的安排.md",
+                "anchor": "EP-LOW"
+              }
+            }
+          ]
+        },
+        "textMeta": {
+          "id": "T-EPL-000025",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/后日谈-未写完的安排.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/后日谈-未写完的安排.md",
+          "lineHint": 46,
+          "context": "EP-LOW",
+          "sha256": "306f3a585290bf33773c89673559d1bf6f3a18e7defac3e0f6cd267fc9181db4"
+        }
+      },
+      "text": "他们又谈到费用。毛狼说出自己这阵实际能拿出的数，飘记在纸上，空着的部分另约时间继续谈。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-EPL-000026_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg096-v002.png",
+          "sha256": "f219ea05744f895ed14f2d149b779c433c07697b8fd9e6498fb51bd835e28c57",
+          "bytes": 2222071,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg096.webp",
+          "sha256": "10d57a2ea07e6487fb7ae2777828168fc0bd65da430fb2bb13810385f18ebd75",
+          "bytes": 1503942,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG096-full.webp",
+          "sha256": "80346a1557c7d123af67377a42fc5b82cd5858599ba70ae633dc0a08c27fe70d",
+          "bytes": 994154
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG096-overlay.webp",
+          "sha256": "ddc5213e45dad7d66fcb112b6003c5133b8cb5938e081b1f6aead814019b5ff2",
+          "bytes": 837496
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG098",
+      "assetId": "cg-common-cg098",
+      "title": "把不愿入镜的留在画外",
+      "packageId": "P4-02-COMMON",
+      "decision": "rebind",
+      "basis": "毛狼搬椅子回来、答应入镜后，仍在就座准备阶段，吻合图中站着扶椅的动作；下一页他已坐下即清除，不提前越过拍摄同意。",
+      "legacyParagraphIds": [
+        "T-EPL-000037",
+        "T-EPL-000038",
+        "T-EPL-000039",
+        "T-EPL-000040",
+        "T-EPL-000041"
+      ],
+      "proposedNodeIds": [
+        "T-EPL-000040_1"
+      ],
+      "anchor": {
+        "nodeId": "T-EPL-000040_1",
+        "paragraphId": "T-EPL-000040",
+        "condition": "PIAO_RELATION=LOW&ENDING=XM-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=ZZ-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=MY-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=HQ-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=FR-E1&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=FR-E2&ENDING!=FR-E2|PIAO_RELATION=LOW&ENDING=PI-LE2&ENDING!=FR-E2",
+        "routeIds": [],
+        "entryGate": {
+          "type": "epilogue",
+          "value": "后日谈-未写完的安排.md",
+          "rules": [
+            {
+              "relation": "LOW",
+              "endings": [
+                "XM-E2",
+                "ZZ-E2",
+                "MY-E2",
+                "HQ-E2",
+                "FR-E1",
+                "FR-E2",
+                "PI-LE2"
+              ],
+              "requiresEvent": "PIAO-PREGNANCY-READ",
+              "target": {
+                "file": "后日谈-未写完的安排.md",
+                "anchor": "EP-LOW"
+              }
+            }
+          ]
+        },
+        "textMeta": {
+          "id": "T-EPL-000040",
+          "kind": "dialogue",
+          "speaker": "maolang",
+          "name": "毛狼",
+          "channel": "face",
+          "group": null,
+          "displayName": "毛狼"
+        },
+        "source": {
+          "file": "scenario/后日谈-未写完的安排.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/后日谈-未写完的安排.md",
+          "lineHint": 91,
+          "context": "EP-LOW",
+          "sha256": "bf48001181a2f6469384dce7df48cd63500df36aa881774098ff28f957953f40"
+        }
+      },
+      "text": "要。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-EPL-000041_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-COMMON/cg-common-cg098-v001.png",
+          "sha256": "dcdc49bfb0b5580696b9eae8b69381ecb50cd2b5b35aa8e8d35ab011ae629297",
+          "bytes": 2092262,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-COMMON/cg-common-cg098.webp",
+          "sha256": "098b8b65967b9c5ce1f1fe9df5e955fbf5b5ff92b3db105f06fd0376f10bf915",
+          "bytes": 1428070,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG098-full.webp",
+          "sha256": "7ac12c7537cac8add99d39742c23472c66ba11f70b882b02add4248436b1b916",
+          "bytes": 947616
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG098-overlay.webp",
+          "sha256": "3721332421b0b201fc7cc3a9b553ffc0230d80a75f824c804cd09cebf039699f",
+          "bytes": 779376
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "目视发现画中毛狼仍站着扶椅；把建议锚点调整到答应拍照的000040，不能放在已坐下的000041。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    }
+  ]
+}

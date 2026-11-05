@@ -1,0 +1,26 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "platform": "macos",
+      "architecture": "fat Mach-O",
+      "binarySha256": "e53c15076b9bb87267b6f1885c9c2edb9755c386b47c9faaf50e3f374f28bcc5",
+      "pass": true
+    },
+    {
+      "platform": "windows-x64",
+      "architecture": "PE x64",
+      "binarySha256": "9c9b9463f22b63256dd6f32ec9e03f04da7194869e3375bae17cdacfe0ad3cdc",
+      "pass": true
+    },
+    {
+      "platform": "windows-arm64",
+      "architecture": "PE ARM64",
+      "binarySha256": "32f046a5983a1a6047a4b3181e179b2f0a489074888841f48e245ecdbac247ff",
+      "pass": true
+    }
+  ],
+  "scope": "ZIP内架构、执行文件指纹；不表示本轮原生运行验收",
+  "matchesPreviouslyTestedMacBinary": true,
+  "previousMacEvidence": "qa/dialogue-p5-motion-20261104/native/v3/report.json"
+}

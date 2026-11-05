@@ -1,0 +1,68 @@
+{
+  "status": "pass",
+  "scope": "仅P1中文候选稿静态结构、来源映射和文本尺度；不含TEXT编译、分页、姓名运行、回顾、自动/快进、存读档或浏览器验收",
+  "baselineFingerprint": "0cf1828f5c16c7c32858828788bf7edaee2ad53883b6d3d6028f417f1597cd12",
+  "sourceBuildId": "bafc873cdc8b681b64ec83115e3a0bc8108e4fca470d53fea89492742ff4915c",
+  "errors": [],
+  "warnings": [],
+  "stats": [
+    {
+      "sample": "网吧多人",
+      "sourceParagraphs": 45,
+      "candidateParagraphs": 63,
+      "retainedSourceIds": 32,
+      "splitSourceIds": 13,
+      "sourceCompactCharacters": 980,
+      "candidateCompactCharacters": 964,
+      "characterRatio": 0.984,
+      "candidateKinds": {
+        "action": 23,
+        "dialogue": 35,
+        "narration": 5
+      },
+      "candidateSpokenCharacterShare": 0.34,
+      "controlsPreserved": 1,
+      "nextSerialAfterCandidate": 276
+    },
+    {
+      "sample": "飘LOW",
+      "sourceParagraphs": 45,
+      "candidateParagraphs": 148,
+      "retainedSourceIds": 12,
+      "splitSourceIds": 33,
+      "sourceCompactCharacters": 2592,
+      "candidateCompactCharacters": 2575,
+      "characterRatio": 0.993,
+      "candidateKinds": {
+        "action": 41,
+        "dialogue": 66,
+        "message": 19,
+        "narration": 22
+      },
+      "candidateSpokenCharacterShare": 0.435,
+      "controlsPreserved": 30,
+      "nextSerialAfterCandidate": 646
+    },
+    {
+      "sample": "孟遥",
+      "sourceParagraphs": 138,
+      "candidateParagraphs": 257,
+      "retainedSourceIds": 81,
+      "splitSourceIds": 57,
+      "sourceCompactCharacters": 5454,
+      "candidateCompactCharacters": 5178,
+      "characterRatio": 0.949,
+      "candidateKinds": {
+        "action": 62,
+        "dialogue": 117,
+        "message": 12,
+        "narration": 66
+      },
+      "candidateSpokenCharacterShare": 0.288,
+      "controlsPreserved": 27,
+      "nextSerialAfterCandidate": 556
+    }
+  ],
+  "totalSourceParagraphs": 228,
+  "totalCandidateParagraphs": 468
+}

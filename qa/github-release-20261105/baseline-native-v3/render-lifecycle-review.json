@@ -1,0 +1,104 @@
+{
+  "createdAt": "2026-11-05T02:02:10.938Z",
+  "status": "pass-static-review",
+  "evidenceLayer": "read-only-generated-Ray-render-lifecycle-review",
+  "runtimeBuildId": "49aa385f6badbb2cd6cd41c2bf69976dbee697b470cad19047c293502b455f75",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "source": {
+    "path": "qa/dialogue-p5-motion-20261104/build-native-v3/runtime/stage/main.ray",
+    "bytes": 1063329,
+    "sha256": "0bb853c7f5329cd2718db093e034db0b9035c1f5a4bddcf203fa3ef1fe2f02e0",
+    "manifestMatch": true
+  },
+  "reviewedFiles": [
+    "qa/dialogue-p5-motion-20261104/build-native-v3/runtime/stage/main.ray",
+    "tools/story-revision/p5/build-native-preload.cjs",
+    "qa/dialogue-p5-motion-20261104/native/v2/crash-20261105-095403.json",
+    "system/sui-cinema/runtime.ray",
+    "tools/integration/runtime/presentation-full.ray"
+  ],
+  "checks": {
+    "renderLocalCallGraph": {
+      "method": "Strip string literals/comments; identify named local functions and traverse direct function calls rooted at render. SDK internals are outside this analysis.",
+      "reachableFunctions": [
+        "render",
+        "cinemaFitStage",
+        "sc_get",
+        "iGet",
+        "suiUIRender",
+        "suiHistoryRender",
+        "suiGalleryHit",
+        "suiGalleryDrawFit",
+        "iDrawFit",
+        "cinemaRenderChoices",
+        "cinemaRenderNotice",
+        "iRender",
+        "iCGHoldVisible",
+        "iCanView",
+        "iUnlockVisible",
+        "sc_fail",
+        "sc_set"
+      ],
+      "resourceMutationFunctions": [],
+      "pass": true
+    },
+    "textureUploadLocations": {
+      "functions": [
+        {
+          "name": "suiUIStart",
+          "line": 7174
+        },
+        {
+          "name": "suiHistoryStart",
+          "line": 7356
+        },
+        {
+          "name": "iInstall",
+          "line": 15702
+        },
+        {
+          "name": "start",
+          "line": 15739
+        },
+        {
+          "name": "update",
+          "line": 15902
+        }
+      ],
+      "pass": true
+    },
+    "noticeHeadingAndFocus": {
+      "pass": true,
+      "reason": "All three textures are initialized in start before render; render uses existing handles."
+    },
+    "choiceLifecycle": {
+      "pass": true,
+      "reason": "update prepares choice textures for the current cursor after menu/load dispatch; cursor change releases old textures before loading new ones. Menu/gallery/non-choice state releases the array. render only draws matching prepared cursor."
+    },
+    "earlyReturnReview": {
+      "pass": true,
+      "reason": "cinemaBeforeUpdate returns early after confirming and leaving choose; render rejects non-choose or cursor mismatch. iBeforeUpdate holds text/full-view inputs; the next non-held update prepares the current choice. Error/completion branches leave reading and cannot require choice drawing."
+    },
+    "thumbnailDrawRemoved": {
+      "pass": true,
+      "reason": "No native save thumbnail handle is passed to Suika.renderImage in this derivative."
+    }
+  },
+  "diagnosis": {
+    "v2ObservedStack": "Engine_loadTexture -> pf_load_texture -> hal_notify_image_update -> AGXG17GFamilyCommandBuffer blitCommandEncoderCommon -> SIGABRT",
+    "inference": "The original cinemaRenderNotice loads notice-backdrop during render on the first successful manual-save message, matching the observed API stack. v3 moves this upload and choice uploads before render. Metal internals are unavailable locally; causality still requires native runtime reproduction."
+  },
+  "requiredNativeUiRegression": [
+    "First manual save with success notice",
+    "Overwrite save and reload the exact paragraph",
+    "First choice card and keyboard focus",
+    "Open menu/gallery at a choice then return",
+    "Save and load at a choice then confirm selection"
+  ],
+  "limitations": [
+    "This report is source and lifecycle review only; it does not establish native UI pass.",
+    "No SDK or frozen web v5 code was changed.",
+    "The direct local call graph does not inspect SDK-native implementation or dynamically dispatched engine tags.",
+    "No desktop UI was used by this review."
+  ]
+}

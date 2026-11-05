@@ -1,0 +1,872 @@
+{
+  "schemaVersion": 1,
+  "playback": {
+    "durationSeconds": 5,
+    "width": 1280,
+    "height": 720,
+    "format": "MP4 H.264",
+    "audio": "silent",
+    "placement": "当前正文页，播完停在尾帧，等玩家确认",
+    "fallback": "成片终验后导出同镜首帧，未具备视频或静帧时保持现有正文页画面",
+    "adopted": false
+  },
+  "items": [
+    {
+      "key": "OV-XM45",
+      "title": "第45天 · 枕头",
+      "anchor": {
+        "nodeId": "T-XM-000271_1",
+        "file": "scenario/罗小满-练习本.md",
+        "sha256": "202e723d56e4bb028a8d601db0feef40f312f67a1bcfea9fb6b39e669c594557"
+      },
+      "route": "xiaoman",
+      "condition": "XM07-01=A",
+      "entryRequires": [],
+      "references": [
+        {
+          "assetId": "char-xiaoman-base",
+          "runtimePath": "assets/current/SUI-A02/char-xiaoman-base.webp",
+          "runtimeSha256": "bf45e979e9de997feeab9d3144327628895c1e5d9f4bda4fd5c332a82825cfab"
+        },
+        {
+          "assetId": "bg-wenwen-bijie-rental-day",
+          "runtimePath": "assets/current/SUI-A08/bg-wenwen-bijie-rental-day.webp",
+          "runtimeSha256": "e1941067743593c0ba1a4202486909e53cf90e0db419747e1ee9a3797cecbbff"
+        }
+      ],
+      "existingBackground": "bg-wenwen-bijie-rental-day",
+      "shot": "第二天清晨，第一人称从枕边看罗小满坐起，发梢有一点乱。她见文文笑，抿嘴伸手，把枕头轻轻推向镜头，枕角掠过前景后停住。枕头保持完整，不拍阿俊，也不提前演接电话。",
+      "prompt": "第二天清晨，第一人称从枕边看罗小满坐起，发梢有一点乱。她见文文笑，抿嘴伸手，把枕头轻轻推向镜头，枕角掠过前景后停住。枕头保持完整，不拍阿俊，也不提前演接电话。一段连续的五秒横屏游戏CG，延续角色参考的脸型、发色、服装特征、线稿与上色，参考背景的房间布局与材质，重构成该镜头的透视，不照搬站姿或参考图边缘。成年角色穿着完整的家常衣物，文文以主观视角或衣袖入镜。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按分镜需要偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有非常缓的呼吸感。镜头固定为主，微动只衬托当下主动作。低对比的晨光、日常的神情。关键脸、手与物件尽量位于画面上部和中部，为下方文字框留出空间。画面无文字、字幕、标志、水印，无对白与配乐，不切镜、不跳时。",
+      "status": "planned-v002-dual-character",
+      "revisionV002": {
+        "status": "candidate",
+        "camera": "第三人称床侧双人镜头，两位成年角色都有可辨认的侧脸或正侧脸。",
+        "referenceAssetId": "wenwen-approved-basis",
+        "shot": "床边侧面双人中近景。文文靠床头露出清楚侧脸，笑起来。罗小满坐起，用一只完整、蓬松的枕头轻轻挡他的脸，停在枕头边还能看见文文笑眼的位置。",
+        "prompt": "床边侧面双人中近景。文文靠床头露出清楚侧脸，笑起来。罗小满坐起，用一只完整、蓬松的枕头轻轻挡他的脸，停在枕头边还能看见文文笑眼的位置。第三人称固定床侧镜头，从开头就有两位成年人物同框。文文的金黄色短寸、黑眉和圆脸与定稿参考一致，衣着完整，室内可见米白圆领T恤。文文至少清楚露出侧脸，发型、面部、视线和手的归属从头到尾稳定。沿用女主参考的脸型、发色、衣着与绘画质感，按房间图重建布局和晨光。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按场景偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影带非常缓的呼吸感。微动衬托主动作。脸、手和道具尽量在画面上部和中部，为底部文字框留白。5秒单一连续镜头，完整日常衣着，无对白、配乐、文字、水印或切镜。",
+        "canvasNodeId": "node_vy2bk45b91",
+        "version": "v002",
+        "submitId": "805e29a7-b911-4aed-bb3e-2c224ac612b8",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-XM45",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/raw-v002.mp4",
+            "bytes": 7711855,
+            "sha256": "1116133f56ca67ebdac9e85ccb5ba6b485be6f180b566e40a527b585593f8f7c",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/runtime-v002.mp4",
+            "bytes": 1201392,
+            "sha256": "8bf5e4951a41c174d69a878592a98e94145b15bb60c6cb8b8b1b1300a295fd1e",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/first-v002.webp",
+            "bytes": 605888,
+            "sha256": "bd60095d954cf7b9adf5f93a743b027e263bb13c5fac5d2e03b5f66029cb8d89"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-XM45/v002/last-v002.webp",
+            "bytes": 709154,
+            "sha256": "fa4de562cd97333b3700b62442170a7d5c6b29f48b461616bfd76cbfc88d8623"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-XM45/v002/contact-sheet.jpg",
+            "bytes": 206159,
+            "sha256": "ddde17109b54491b90865e39850a319afacbc1483feef964d0b80e487e707758"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-XM45/v002/ui-overlay.jpg",
+        "resourceId": "3d115586-8c9a-4d29-b48e-2a7eb829fdc5",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "presentation": "with-text",
+        "finding": "两人从开场同框。文文笑着看小满，小满用轮廓完整的枕头挡住他的笑，两人的侧脸和主要动作在默认文字框上方。"
+      },
+      "v001": {
+        "version": "v001",
+        "nodeId": "node_zwqwh6m93x",
+        "submitId": "451c2df1-4135-4ff9-9510-7fb7aadbe7a5",
+        "generationState": "succeeded",
+        "status": "review-only",
+        "media": {
+          "key": "OV-XM45",
+          "original": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-XM45/raw-v001.mp4",
+            "bytes": 7441341,
+            "sha256": "234f313b6a716a48cd63a2cd78c81205f6cf01de4969cedbfd8c9f56e2cac234",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-XM45/runtime-v001.mp4",
+            "bytes": 1341142,
+            "sha256": "992fa7561c4786bea0c02be1e81617fe5256e36d6262ae8892d4332b6658b839",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-XM45/first-v001.webp",
+            "bytes": 464922,
+            "sha256": "5fa7b50bccb2c6066fee98d71796498848f2e7fa61350303ee0f9035ea827f08"
+          },
+          "last": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-XM45/last-v001.webp",
+            "bytes": 374568,
+            "sha256": "e54492a0c345ad2ee10a515d69ffd8e5e98deab06450417b8c53fa8018940b56"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-XM45/contact-sheet.jpg",
+            "bytes": 145492,
+            "sha256": "821b2d8016b8b41ebfb44237154e08a0a0ba102c47d0b88f74ee2c0d4826f8a0"
+          }
+        },
+        "note": "小满的外观与服饰吻合，镜头呈现她笑着将格纹织物推向前景。织物在末尾像薄被，枕头轮廓不够清楚。文文为画外视角。"
+      }
+    },
+    {
+      "key": "OV-ZZ-BJ",
+      "title": "毕节次晨 · 发圈",
+      "anchor": {
+        "nodeId": "T-ZZ-000764_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "58549457d1a44998ba8759aed1d852b9b837a2fee30ee377ac8a214d9569f1e4"
+      },
+      "route": "zhouzhi",
+      "condition": "ZZ06-01=A",
+      "entryRequires": [],
+      "references": [
+        {
+          "assetId": "char-zhouzhi-human-base",
+          "runtimePath": "assets/current/SUI-A03/char-zhouzhi-human-base.webp",
+          "runtimeSha256": "c385e85d8d9db730191d494585cf37f27b43894f8b9ac63cbac65213691b6739"
+        },
+        {
+          "assetId": "bg-zhouzhi-bijie-home-morning",
+          "runtimePath": "assets/current/SUI-A08/bg-zhouzhi-bijie-home-morning.webp",
+          "runtimeSha256": "e3a5fddd9db1acd2bfec604d3751708e1e45fc05428497ed5a3b441dfc662124"
+        }
+      ],
+      "existingBackground": "bg-zhouzhi-bijie-home-morning",
+      "shot": "毕节住处，清晨床沿的侧近景。周栀已醒，低头用指尖在床缝边摸索发圈，眉梢略微一紧。文文只以画面边缘的衣袖和一只手出现；她轻拍手背，视线转回床缝，镜头停在找发圈的动作。",
+      "prompt": "毕节住处，清晨床沿的侧近景。周栀已醒，低头用指尖在床缝边摸索发圈，眉梢略微一紧。文文只以画面边缘的衣袖和一只手出现；她轻拍手背，视线转回床缝，镜头停在找发圈的动作。一段连续的五秒横屏游戏CG，延续角色参考的脸型、发色、服装特征、线稿与上色，参考背景的房间布局与材质，重构成该镜头的透视，不照搬站姿或参考图边缘。成年角色穿着完整的家常衣物，文文以主观视角或衣袖入镜。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按分镜需要偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有非常缓的呼吸感。镜头固定为主，微动只衬托当下主动作。低对比的晨光、日常的神情。关键脸、手与物件尽量位于画面上部和中部，为下方文字框留出空间。画面无文字、字幕、标志、水印，无对白与配乐，不切镜、不跳时。",
+      "status": "planned-v002-dual-character",
+      "revisionV002": {
+        "status": "candidate",
+        "camera": "第三人称床侧双人镜头，两位成年角色都有可辨认的侧脸或正侧脸。",
+        "referenceAssetId": "wenwen-approved-basis",
+        "shot": "毕节住处，床侧斜拍双人。周栀低头沿床缝找发圈。文文半靠在旁，带着倦意探手想搂。周栀轻拍他的手背，马上低头接着找。发圈始终是单个小黑色松紧圈。",
+        "prompt": "毕节住处，床侧斜拍双人。周栀低头沿床缝找发圈。文文半靠在旁，带着倦意探手想搂。周栀轻拍他的手背，马上低头接着找。发圈始终是单个小黑色松紧圈。第三人称固定床侧镜头，从开头就有两位成年人物同框。文文的金黄色短寸、黑眉和圆脸与定稿参考一致，衣着完整，室内可见米白圆领T恤。文文至少清楚露出侧脸，发型、面部、视线和手的归属从头到尾稳定。沿用女主参考的脸型、发色、衣着与绘画质感，按房间图重建布局和晨光。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按场景偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影带非常缓的呼吸感。微动衬托主动作。脸、手和道具尽量在画面上部和中部，为底部文字框留白。5秒单一连续镜头，完整日常衣着，无对白、配乐、文字、水印或切镜。",
+        "canvasNodeId": "node_q91rnqd3q0",
+        "version": "v002",
+        "submitId": "8833bbba-8e1c-482f-9995-feaefdfd6358",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-ZZ-BJ",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/raw-v002.mp4",
+            "bytes": 8401654,
+            "sha256": "974eaa0d59d8c4753ac74280a7655412fe5669be8c8a108fdc1fed48f2183f21",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/runtime-v002.mp4",
+            "bytes": 1635391,
+            "sha256": "6b58ba8dc0b38a543bf40e9c8516683883dc8449be9d78aa1013214793b87384",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/first-v002.webp",
+            "bytes": 581196,
+            "sha256": "5b41ac921f782b3bdfdc25c661a54ce24744d8e41a78b1a20289115df476bf7b"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-BJ/v002/last-v002.webp",
+            "bytes": 662366,
+            "sha256": "f5eab67d6da81fafa7adfbe6629a7090f4900174c942b8fa8b6b130b726c079d"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-ZZ-BJ/v002/contact-sheet.jpg",
+            "bytes": 191224,
+            "sha256": "07c9a8ec3034f6f9200d477a562c415de10e2b5c74ff1370accf3d63eb9f4484"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-ZZ-BJ/v002/ui-overlay.jpg",
+        "resourceId": "2103980b-5dae-4843-8e0c-c1c25b19a6a2",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "presentation": "full-frame-then-restore-text",
+        "finding": "周栀俯身在床缝边摸索，文文伸手碰她肩膀，她抬手拨开并继续找。两人的脸可辨认。发圈在抽帧里不显眼，床边摸索手部会被文字框遮挡，计划全画面播放。"
+      },
+      "v001": {
+        "version": "v001",
+        "nodeId": "node_mk5zzm1vw2",
+        "submitId": "923d873d-6bbb-488d-95e2-f165ae556973",
+        "generationState": "succeeded",
+        "status": "review-only",
+        "media": {
+          "key": "OV-ZZ-BJ",
+          "original": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-ZZ-BJ/raw-v001.mp4",
+            "bytes": 8213740,
+            "sha256": "d525925cca4a60fb6547ff2ffd15e8f2d5ad3ab121f014b8aa26b8f677667ca9",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-ZZ-BJ/runtime-v001.mp4",
+            "bytes": 1228746,
+            "sha256": "f024d6f37112b7d7493725ac682d41b9a4300ed4fb33f5215bafeeb53ee2085d",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-ZZ-BJ/first-v001.webp",
+            "bytes": 561456,
+            "sha256": "6a43be68d4295acb33024acc99b8d9fa71275d355137e136199da6a452f1f7f1"
+          },
+          "last": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-ZZ-BJ/last-v001.webp",
+            "bytes": 651308,
+            "sha256": "340b55080962bf5bb1d8cb890bf555e0aab09cf7b80a17229d99f28d014b9b54"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-ZZ-BJ/contact-sheet.jpg",
+            "bytes": 191418,
+            "sha256": "3ad067e64d933d66379725eaba784506f9bc18f51e19f6d42f5708561cc456ea"
+          }
+        },
+        "note": "毕节房间和周栀的服饰可辨。发圈在开头已经拿在手里，文文只伸进一只手，没有清楚表现先摸索再轻拍手背。"
+      }
+    },
+    {
+      "key": "OV-ZZ-GY",
+      "title": "贵阳次晨 · 采购单",
+      "anchor": {
+        "nodeId": "T-ZZ-000933_1",
+        "file": "scenario/周栀-十一点四十七分.md",
+        "sha256": "2e5a1849b4838b0e8231e1bf2cc34b5c442a790d1eb78574a14118e259059719"
+      },
+      "route": "zhouzhi",
+      "condition": "ZZ06-01=A&ZZ08-01=A",
+      "entryRequires": [],
+      "references": [
+        {
+          "assetId": "char-zhouzhi-human-base",
+          "runtimePath": "assets/current/SUI-A03/char-zhouzhi-human-base.webp",
+          "runtimeSha256": "c385e85d8d9db730191d494585cf37f27b43894f8b9ac63cbac65213691b6739"
+        },
+        {
+          "assetId": "bg-zhouzhi-guiyang-home-morning",
+          "runtimePath": "assets/current/SUI-A08/bg-zhouzhi-guiyang-home-morning.webp",
+          "runtimeSha256": "18bf29c21b8741b5927b9ac0e629711f3e155cef8810cb33eb2a817d38244996"
+        }
+      ],
+      "existingBackground": "bg-zhouzhi-guiyang-home-morning",
+      "shot": "贵阳住处，第一人称从刚醒的低视角望向晨光中的小桌。周栀已起身，拿起原本放在桌上的一张采购单，纸角轻弹，她回头看向镜头，停在开口前。只见纸张与淡线条，不生成可辨文字，也不提前演后面的亲吻。",
+      "prompt": "贵阳住处，第一人称从刚醒的低视角望向晨光中的小桌。周栀已起身，拿起原本放在桌上的一张采购单，纸角轻弹，她回头看向镜头，停在开口前。只见纸张与淡线条，不生成可辨文字，也不提前演后面的亲吻。一段连续的五秒横屏游戏CG，延续角色参考的脸型、发色、服装特征、线稿与上色，参考背景的房间布局与材质，重构成该镜头的透视，不照搬站姿或参考图边缘。成年角色穿着完整的家常衣物，文文以主观视角或衣袖入镜。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按分镜需要偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有非常缓的呼吸感。镜头固定为主，微动只衬托当下主动作。低对比的晨光、日常的神情。关键脸、手与物件尽量位于画面上部和中部，为下方文字框留出空间。画面无文字、字幕、标志、水印，无对白与配乐，不切镜、不跳时。",
+      "status": "planned-v002-dual-character",
+      "revisionV002": {
+        "status": "candidate",
+        "camera": "第三人称床侧双人镜头，两位成年角色都有可辨认的侧脸或正侧脸。",
+        "referenceAssetId": "wenwen-approved-basis",
+        "shot": "贵阳住处，从小桌斜侧把桌边的周栀和床头的文文纳入同一构图。文文刚睁眼，周栀从桌上拿起采购单，纸角微颤。她回头看向文文，停在开口前。",
+        "prompt": "贵阳住处，从小桌斜侧把桌边的周栀和床头的文文纳入同一构图。文文刚睁眼，周栀从桌上拿起采购单，纸角微颤。她回头看向文文，停在开口前。第三人称固定床侧镜头，从开头就有两位成年人物同框。文文的金黄色短寸、黑眉和圆脸与定稿参考一致，衣着完整，室内可见米白圆领T恤。文文至少清楚露出侧脸，发型、面部、视线和手的归属从头到尾稳定。沿用女主参考的脸型、发色、衣着与绘画质感，按房间图重建布局和晨光。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按场景偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影带非常缓的呼吸感。微动衬托主动作。脸、手和道具尽量在画面上部和中部，为底部文字框留白。5秒单一连续镜头，完整日常衣着，无对白、配乐、文字、水印或切镜。",
+        "canvasNodeId": "node_rbrct90nnp",
+        "version": "v002",
+        "submitId": "5cb3b80b-f2ec-4c60-9a9b-8198d11e00dc",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-ZZ-GY",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/raw-v002.mp4",
+            "bytes": 6384905,
+            "sha256": "1626396e0cdba7a5a805d2361b0fdd25e752b0605ed2709437e8f44bd8409a23",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/runtime-v002.mp4",
+            "bytes": 1129789,
+            "sha256": "febd9472e62651e01de45ce89e09b8e078ee0bb672d4da86eaae88235fa48f8f",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/first-v002.webp",
+            "bytes": 661526,
+            "sha256": "fd1787757b389b9567b06430730b62c73c8e789d41aafef1536934247a0d5ba1"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-ZZ-GY/v002/last-v002.webp",
+            "bytes": 731866,
+            "sha256": "aff1daf797119b57d49d1c7f92eebb28f9756c3701ede379d3e407a059d0f89a"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-ZZ-GY/v002/contact-sheet.jpg",
+            "bytes": 223621,
+            "sha256": "fc0e01fa81ae4f774eb7342d0c1768936b3dd375432708acf660742e29a7ce00"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-ZZ-GY/v002/ui-overlay.jpg",
+        "resourceId": "5f672383-7e06-4063-b9ae-946a63f99e08",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "presentation": "full-frame-then-restore-text",
+        "finding": "周栀拿起采购单后回头看床头的文文，两人从开场就在同一画面。文文靠后，仍可凭金色短寸和侧脸辨认。默认文字框会压住采购单和桌边手部，计划用全画面播放，结束后恢复同页正文。"
+      },
+      "v001": {
+        "version": "v001",
+        "nodeId": "node_w9se1fk713",
+        "submitId": "e7d4e69a-2644-41a9-99bd-bf02db1da8c4",
+        "generationState": "succeeded",
+        "status": "review-only",
+        "media": {
+          "key": "OV-ZZ-GY",
+          "original": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-ZZ-GY/raw-v001.mp4",
+            "bytes": 7506380,
+            "sha256": "7343c5a25df7fefd21c5e516dda1457ed5fbf5890938ed537436a0100b27858a",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-ZZ-GY/runtime-v001.mp4",
+            "bytes": 1169600,
+            "sha256": "30373dec1d4360907e5313e733f8a1bbeb5aebffd2ad774a175af705855cd1da",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-ZZ-GY/first-v001.webp",
+            "bytes": 535222,
+            "sha256": "9e87d98597445828bf6fee69ed013a493f8eda0507ffd74b0f8651c5b1eb96a1"
+          },
+          "last": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-ZZ-GY/last-v001.webp",
+            "bytes": 636372,
+            "sha256": "0069c7be42b654a5905ad15f7a8d5e894594bc671826232c8f274dfd327c8754"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-ZZ-GY/contact-sheet.jpg",
+            "bytes": 197616,
+            "sha256": "266ec65a29d8557fa176e82e11b4d05b53514dccab37381d36d670554fb1c053"
+          }
+        },
+        "note": "周栀拿起采购单再回头，动作与贵阳晨景吻合。文文只作为画外视角，双人版将把他刚睁眼的反应带入同一构图。"
+      }
+    },
+    {
+      "key": "OV-MY56",
+      "title": "第56天次晨 · 课表",
+      "anchor": {
+        "nodeId": "T-MY-000437_1",
+        "file": "scenario/孟遥-旧题.md",
+        "sha256": "9cb5d412cfd5e1f5f79d1748f26a464bc1c76aa725cb1debf7b06cf7cb9ca5a6"
+      },
+      "route": "mengyao",
+      "condition": "MY07-01=A",
+      "entryRequires": [],
+      "references": [
+        {
+          "assetId": "char-mengyao-human-casual-jacket",
+          "runtimePath": "assets/current/SUI-A04/char-mengyao-human-casual-jacket.webp",
+          "runtimeSha256": "1054261af60d545472fb4450f1d714c877f27d13e9edbe507608bbaf539b611b"
+        },
+        {
+          "assetId": "bg-wenwen-bijie-rental-day",
+          "runtimePath": "assets/current/SUI-A08/bg-wenwen-bijie-rental-day.webp",
+          "runtimeSha256": "e1941067743593c0ba1a4202486909e53cf90e0db419747e1ee9a3797cecbbff"
+        }
+      ],
+      "existingBackground": "bg-wenwen-bijie-rental-day",
+      "shot": "文文的毕节租屋刚天亮。第一人称从床边斜看桌侧的孟遥。她从备课本里翻出夹着的课表，低眼核过早上第一节，将另一只手穿进外套袖子，动作轻而急，镜头停在她整理袖口时。课表只画细格，无可辨文字。文文和陈晟都不出镜。",
+      "prompt": "文文的毕节租屋刚天亮。第一人称从床边斜看桌侧的孟遥。她从备课本里翻出夹着的课表，低眼核过早上第一节，将另一只手穿进外套袖子，动作轻而急，镜头停在她整理袖口时。课表只画细格，无可辨文字。文文和陈晟都不出镜。一段连续的五秒横屏游戏CG，延续角色参考的脸型、发色、服装特征、线稿与上色，参考背景的房间布局与材质，重构成该镜头的透视，不照搬站姿或参考图边缘。成年角色穿着完整的家常衣物，文文以主观视角或衣袖入镜。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按分镜需要偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有非常缓的呼吸感。镜头固定为主，微动只衬托当下主动作。低对比的晨光、日常的神情。关键脸、手与物件尽量位于画面上部和中部，为下方文字框留出空间。画面无文字、字幕、标志、水印，无对白与配乐，不切镜、不跳时。",
+      "status": "planned-v002-dual-character",
+      "revisionV002": {
+        "status": "candidate",
+        "camera": "第三人称床侧双人镜头，两位成年角色都有可辨认的侧脸或正侧脸。",
+        "referenceAssetId": "wenwen-approved-basis",
+        "shot": "文文毕节租屋，床侧斜拍。文文在床边刚坐起，侧脸留在左侧，视线落在右侧桌旁的孟遥身上。孟遥从备课本抽出课表，低头核对，再穿好另一只外套袖子。课表只有淡线格，陈晟不入镜。",
+        "prompt": "文文毕节租屋，床侧斜拍。文文在床边刚坐起，侧脸留在左侧，视线落在右侧桌旁的孟遥身上。孟遥从备课本抽出课表，低头核对，再穿好另一只外套袖子。课表只有淡线格，陈晟不入镜。第三人称固定床侧镜头，从开头就有两位成年人物同框。文文的金黄色短寸、黑眉和圆脸与定稿参考一致，衣着完整，室内可见米白圆领T恤。文文至少清楚露出侧脸，发型、面部、视线和手的归属从头到尾稳定。沿用女主参考的脸型、发色、衣着与绘画质感，按房间图重建布局和晨光。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按场景偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影带非常缓的呼吸感。微动衬托主动作。脸、手和道具尽量在画面上部和中部，为底部文字框留白。5秒单一连续镜头，完整日常衣着，无对白、配乐、文字、水印或切镜。",
+        "canvasNodeId": "node_31bvx0z6x2",
+        "version": "v002",
+        "submitId": "f8deb97b-6ad9-41dd-9ca6-199106bdb914",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-MY56",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/raw-v002.mp4",
+            "bytes": 7089343,
+            "sha256": "852c8d452003910eb3c4c554e2b7fa055b07aa71e5463c47b525f2f37c975b1b",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/runtime-v002.mp4",
+            "bytes": 1220579,
+            "sha256": "d192dc32c13a16a01c3f427d7ff624b3e5d58da2e3d05d2c211ad5794040aebb",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/first-v002.webp",
+            "bytes": 613980,
+            "sha256": "5e08da005e6a0d488cc64357aa9f4883e25e69f9cb3b590fbb37cb2e4e1b6a17"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-MY56/v002/last-v002.webp",
+            "bytes": 681118,
+            "sha256": "519abe60619fadd986bffd7a12db9f5b5f144f97d992ac447b2744eb58d1e54e"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-MY56/v002/contact-sheet.jpg",
+            "bytes": 201227,
+            "sha256": "d1bfe66a6924c0d6cff62983a8878e968859a012585036796bb066c1267bab95"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-MY56/v002/ui-overlay.jpg",
+        "resourceId": "56fd64f3-b1e9-4346-b25b-c5a9850b8150",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "presentation": "with-text",
+        "finding": "文文坐在床边看向桌旁的孟遥。孟遥翻出课表核对，随后穿好另一边袖子，纠正首版的视角反转。两人的脸及课表举起后的动作在文字框上方。"
+      },
+      "v001": {
+        "version": "v001",
+        "nodeId": "node_qaybn3hxxw",
+        "submitId": "b65658e5-6be0-4783-b52a-52134097d3b5",
+        "generationState": "succeeded",
+        "status": "review-only",
+        "media": {
+          "key": "OV-MY56",
+          "original": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-MY56/raw-v001.mp4",
+            "bytes": 8409573,
+            "sha256": "59b5355032b38ff43e67e28414a80a5f5c5b78f0930c9fa8cee6f6976dcb4f04",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-MY56/runtime-v001.mp4",
+            "bytes": 1616074,
+            "sha256": "647384172460cdc3e88733fbd0f5dc34533a244058476e1ef8e436a19dc5eecb",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-MY56/first-v001.webp",
+            "bytes": 638844,
+            "sha256": "525df27a23f0ce6820254041202d7cfcf51d33ebedabd623bc73d7ef70479bb8"
+          },
+          "last": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-MY56/last-v001.webp",
+            "bytes": 638866,
+            "sha256": "e6dd2fb668ee9a2c1cefe71771ae2f7006245ef37eee0d4621699e83697defdf"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-MY56/contact-sheet.jpg",
+            "bytes": 196559,
+            "sha256": "a46709fc218d31c46cff9b81dd7f3839fa4e20cb7836197964c5f45351432d89"
+          }
+        },
+        "note": "课表、袖口及租屋晨光都出现。镜头却从孟遥自己的眼睛向下看她的手，应由床侧看见孟遥翻课表和穿袖子。"
+      }
+    },
+    {
+      "key": "OV-PI39",
+      "title": "第39天次晨 · 拉住手",
+      "anchor": {
+        "nodeId": "T-PI-000287_1",
+        "file": "scenario/飘-空白页.md",
+        "sha256": "a75d0cd9d936f02411f00a8af5e1f9c30e5d835713bf33f0a204b00feae543da"
+      },
+      "route": "piao",
+      "condition": "PIAO_RELATION=HIGH",
+      "entryRequires": [],
+      "references": [
+        {
+          "assetId": "piao-base",
+          "runtimePath": "assets/current/SUI-A05/piao-base.webp",
+          "runtimeSha256": "c74f49a20e22c46aae4348faef0bbf4cf7a8830c3ae4986bd173128727cbeec5"
+        },
+        {
+          "assetId": "bg-piao-bijie-room-day",
+          "runtimePath": "assets/current/SUI-A08/bg-piao-bijie-room-day.webp",
+          "runtimeSha256": "43b62f19be8a1234de6085651cd56c0ad365f90d813f01b93fb9ace2ed24d9f6"
+        }
+      ],
+      "existingBackground": "bg-piao-bijie-room-day",
+      "shot": "飘的毕节房间天刚亮。镜头在文文肩侧，近拍飘闭眼枕在文文胳膊上的侧脸。文文的手略动，她闭着眼用一只手轻轻拉住，发梢留在衣袖上，手安稳落下。保持闭眼到结尾；窗边只留柔和晨光，不提前表现车票。",
+      "prompt": "飘的毕节房间天刚亮。镜头在文文肩侧，近拍飘闭眼枕在文文胳膊上的侧脸。文文的手略动，她闭着眼用一只手轻轻拉住，发梢留在衣袖上，手安稳落下。保持闭眼到结尾；窗边只留柔和晨光，不提前表现车票。一段连续的五秒横屏游戏CG，延续角色参考的脸型、发色、服装特征、线稿与上色，参考背景的房间布局与材质，重构成该镜头的透视，不照搬站姿或参考图边缘。成年角色穿着完整的家常衣物，文文以主观视角或衣袖入镜。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按分镜需要偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有非常缓的呼吸感。镜头固定为主，微动只衬托当下主动作。低对比的晨光、日常的神情。关键脸、手与物件尽量位于画面上部和中部，为下方文字框留出空间。画面无文字、字幕、标志、水印，无对白与配乐，不切镜、不跳时。",
+      "status": "planned-v002-dual-character",
+      "revisionV002": {
+        "status": "candidate",
+        "camera": "第三人称床侧双人镜头，两位成年角色都有可辨认的侧脸或正侧脸。",
+        "referenceAssetId": "wenwen-approved-basis",
+        "shot": "飘的房间，床侧近景，把文文和飘的侧脸纳入同一构图。飘闭眼枕着文文的胳膊。文文微微抬身时，飘闭着眼伸手拉住他的手。动作结束时他停下，两个人仍在画面里。",
+        "prompt": "飘的房间，床侧近景，把文文和飘的侧脸纳入同一构图。飘闭眼枕着文文的胳膊。文文微微抬身时，飘闭着眼伸手拉住他的手。动作结束时他停下，两个人仍在画面里。第三人称固定床侧镜头，从开头就有两位成年人物同框。文文的金黄色短寸、黑眉和圆脸与定稿参考一致，衣着完整，室内可见米白圆领T恤。文文至少清楚露出侧脸，发型、面部、视线和手的归属从头到尾稳定。沿用女主参考的脸型、发色、衣着与绘画质感，按房间图重建布局和晨光。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按场景偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影带非常缓的呼吸感。微动衬托主动作。脸、手和道具尽量在画面上部和中部，为底部文字框留白。5秒单一连续镜头，完整日常衣着，无对白、配乐、文字、水印或切镜。",
+        "canvasNodeId": "node_yez51cvkc5",
+        "version": "v002",
+        "submitId": "64446ce8-c955-41be-a93e-66211c0d3cc9",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-PI39",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/raw-v002.mp4",
+            "bytes": 8170946,
+            "sha256": "5ed52ab89ba3c69de678994052f757c887d5ddaee4442a4b6ce205cb45569380",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/runtime-v002.mp4",
+            "bytes": 1132661,
+            "sha256": "11b1fdd3e78edc0e2bd3d02176dd30a50113fb42467f81ce0d6b43fb151e7109",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/first-v002.webp",
+            "bytes": 572442,
+            "sha256": "5cc3f7e6bad9a845f2a6d5046a844aa22e2375d8839b764b3bf0a9657c6e9783"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-PI39/v002/last-v002.webp",
+            "bytes": 658876,
+            "sha256": "dbb1b808dde2b6be27c08dcb22da03d37e78d840f3ab809c3e6c16e0aa23f20d"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-PI39/v002/contact-sheet.jpg",
+            "bytes": 190442,
+            "sha256": "bac1bc803e573c6bebec01f533f2f7f8fca58f46d5f76eb30339d18c83c6399a"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-PI39/v002/ui-overlay.jpg",
+        "resourceId": "3da0359d-812e-40dc-9fea-75394b0658db",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "presentation": "full-frame-then-restore-text",
+        "finding": "飘闭眼枕着文文的手臂，手由袖边移到他的手腕与手背。文文的侧脸、金色短寸和牛仔衣可辨，画面上缘裁掉了部分头顶。默认文字框会遮住手部，计划全画面播放。"
+      },
+      "v001": {
+        "version": "v001",
+        "nodeId": "node_sjf5v6d2vc",
+        "submitId": "3fd80928-46ac-4d73-9c6a-a9684d8108e6",
+        "generationState": "succeeded",
+        "status": "review-only",
+        "media": {
+          "key": "OV-PI39",
+          "original": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-PI39/raw-v001.mp4",
+            "bytes": 7074499,
+            "sha256": "6b51fd5f4c7979d1b57816d4d9c1e276bb3aaf3924cb84048a20e22a28b32820",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-PI39/runtime-v001.mp4",
+            "bytes": 1004342,
+            "sha256": "8d72dd6e8661bcf93620be9d181ab39d3592de3370090357182f93557b7c6f2a",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-PI39/first-v001.webp",
+            "bytes": 459478,
+            "sha256": "53010678294fd2142be4ebc35ed8145e284069b291baf9a3e39ff8ed8974d64c"
+          },
+          "last": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-PI39/last-v001.webp",
+            "bytes": 563908,
+            "sha256": "0cfdc854e0039ae3b648447a928e2454cbc180173f8f3c071472c7444ce9e3ee"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-PI39/contact-sheet.jpg",
+            "bytes": 152438,
+            "sha256": "1dd03b3a91c89921f1699c11cea121c21eae7be7c9328b843ad4892946ac1fd9"
+          }
+        },
+        "note": "飘闭眼靠在衣袖上，晨光和微动吻合。她抓住的是布料，文文的手没有出现，牵手未呈现。"
+      }
+    },
+    {
+      "key": "OV-HQ57",
+      "title": "第57天次晨 · 闹钟",
+      "anchor": {
+        "nodeId": "T-HQ-000222_1",
+        "file": "scenario/黄球球-门后.md",
+        "sha256": "4726cee327aac3049e7d9a1380ac1af968cf86888ebf387e7da972adbc2e7e00"
+      },
+      "route": "huangqiuqiu",
+      "condition": "ALL",
+      "entryRequires": [
+        "C01-02=A",
+        "C02-01=A",
+        "day14-meeting-read"
+      ],
+      "references": [
+        {
+          "assetId": "sui-a06-human-neutral-v001",
+          "runtimePath": "assets/current/SUI-A06/sui-a06-human-neutral-v001.webp",
+          "runtimeSha256": "3f41ff7bb087c1faa1f8cf71d7862076c6b515cc1259afca8791b84d7648153a"
+        },
+        {
+          "assetId": "bg-huangqiuqiu-room-day",
+          "runtimePath": "assets/current/SUI-A08/bg-huangqiuqiu-room-day.webp",
+          "runtimeSha256": "070568fb51f21178af3b18e8d089fb07b1f706e8374764e00cb13d25d303b4d3"
+        }
+      ],
+      "existingBackground": "bg-huangqiuqiu-room-day",
+      "shot": "黄球球门内的房间，清晨第一人称的近距离侧卧视角。成年女性人形黄球球靠在文文肩侧，发梢压在衣领下。她朝近旁安静的闹钟伸手，听见文文后慢慢睁眼，视线移回镜头，笑意刚起时定住。闹钟无闪烁，角色维持人形。",
+      "prompt": "黄球球门内的房间，清晨第一人称的近距离侧卧视角。成年女性人形黄球球靠在文文肩侧，发梢压在衣领下。她朝近旁安静的闹钟伸手，听见文文后慢慢睁眼，视线移回镜头，笑意刚起时定住。闹钟无闪烁，角色维持人形。一段连续的五秒横屏游戏CG，延续角色参考的脸型、发色、服装特征、线稿与上色，参考背景的房间布局与材质，重构成该镜头的透视，不照搬站姿或参考图边缘。成年角色穿着完整的家常衣物，文文以主观视角或衣袖入镜。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按分镜需要偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影有非常缓的呼吸感。镜头固定为主，微动只衬托当下主动作。低对比的晨光、日常的神情。关键脸、手与物件尽量位于画面上部和中部，为下方文字框留出空间。画面无文字、字幕、标志、水印，无对白与配乐，不切镜、不跳时。",
+      "status": "planned-v002-dual-character",
+      "revisionV002": {
+        "status": "candidate",
+        "camera": "第三人称床侧双人镜头，两位成年角色都有可辨认的侧脸或正侧脸。",
+        "referenceAssetId": "wenwen-approved-basis",
+        "shot": "门内房间，床侧双人近景。文文侧脸清楚，停在黄球球身旁。黄球球保持成年女性人形，由她自己伸手找近处的闹钟；文文的手安静停在自己身边。她随后睁眼看向文文并慢慢笑。",
+        "prompt": "门内房间，床侧双人近景。文文侧脸清楚，停在黄球球身旁。黄球球保持成年女性人形，由她自己伸手找近处的闹钟；文文的手安静停在自己身边。她随后睁眼看向文文并慢慢笑。第三人称固定床侧镜头，从开头就有两位成年人物同框。文文的金黄色短寸、黑眉和圆脸与定稿参考一致，衣着完整，室内可见米白圆领T恤。文文至少清楚露出侧脸，发型、面部、视线和手的归属从头到尾稳定。沿用女主参考的脸型、发色、衣着与绘画质感，按房间图重建布局和晨光。采用 Live2D 式微动效。可见的胸腹与肩膀随呼吸轻微起伏，头发与衣摆慢半拍摆动，按场景偶尔眨眼、嘴唇微动、眼神轻移，镜头与光影带非常缓的呼吸感。微动衬托主动作。脸、手和道具尽量在画面上部和中部，为底部文字框留白。5秒单一连续镜头，完整日常衣着，无对白、配乐、文字、水印或切镜。",
+        "canvasNodeId": "node_mxcqkh73qg",
+        "version": "v002",
+        "submitId": "f6609583-fcda-4bfe-8611-a539d118219d",
+        "generationState": "succeeded",
+        "media": {
+          "key": "OV-HQ57",
+          "original": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/raw-v002.mp4",
+            "bytes": 7181204,
+            "sha256": "9a0f37ad85510986fc2fae5b4ded1aff364a2929047158dadc971fc7e4290d9b",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/runtime-v002.mp4",
+            "bytes": 1050169,
+            "sha256": "314fe622f1707de44de0b2cec33a98579c5dd7319ffd3f991b103239f7978f1a",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/first-v002.webp",
+            "bytes": 670642,
+            "sha256": "472d843a42e3f3feb9cb712e398ac72b33f50481cc5c19adc116d1a1e60a73fc"
+          },
+          "last": {
+            "path": "assets/sources/20261104/留宿动态CG/OV-HQ57/v002/last-v002.webp",
+            "bytes": 753828,
+            "sha256": "c4ab45d76f57397a93273c79db920884cc52b5bb5dd731be74f6596e6fc75176"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-HQ57/v002/contact-sheet.jpg",
+            "bytes": 218518,
+            "sha256": "cda8a152968c1320b386da2a556f9186fec547efdd687b670ae93aab056d9442"
+          }
+        },
+        "uiOverlay": "qa/overnight-motion-20261104/OV-HQ57/v002/ui-overlay.jpg",
+        "resourceId": "39eb3bcc-8d31-4f52-9429-6ef4c257028d",
+        "disposition": "candidate",
+        "wenwenVisible": true,
+        "presentation": "with-text",
+        "finding": "文文侧脸和黄球球从开场同框。黄球球维持成年女性人形，由她抬手够闹钟，随后睁眼望向文文。抽帧叠框中，两人的脸和闹钟均可见。"
+      },
+      "v001": {
+        "version": "v001",
+        "nodeId": "node_3ppbwm8gdd",
+        "submitId": "8546ec69-5d3e-4d42-adca-04ab124fdf60",
+        "generationState": "succeeded",
+        "status": "review-only",
+        "media": {
+          "key": "OV-HQ57",
+          "original": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-HQ57/raw-v001.mp4",
+            "bytes": 8786114,
+            "sha256": "111dfcba8c8b9f0ba6db467813a3b4f43b349704be1c9ba5de3387292ce24c47",
+            "durationSeconds": 5.06,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.12,
+            "audio": true,
+            "decodedFrames": 121
+          },
+          "runtime": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-HQ57/runtime-v001.mp4",
+            "bytes": 1127020,
+            "sha256": "1df5d5914294709797c3857d395fc891bcc07ccfd1df75fdfb7957479f2f41e9",
+            "durationSeconds": 5.0,
+            "codec": "h264",
+            "pixelFormat": "yuv420p",
+            "width": 1280,
+            "height": 720,
+            "fps": 24.0,
+            "audio": false,
+            "decodedFrames": 120
+          },
+          "first": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-HQ57/first-v001.webp",
+            "bytes": 569928,
+            "sha256": "55fe731ac3e748f1abaf527f6ad4fc7e997c0d6c9f032d2e9b088c02136d7239"
+          },
+          "last": {
+            "path": "assets/sources/20261104/亲吻动态CG/OV-HQ57/last-v001.webp",
+            "bytes": 673316,
+            "sha256": "b1c72bef4141769735fe81d1b63cec87d91a52a837da5c44e12493ab1d91bef7"
+          },
+          "contactSheet": {
+            "path": "qa/overnight-motion-20261104/OV-HQ57/contact-sheet.jpg",
+            "bytes": 189440,
+            "sha256": "6d4400a5f0c8990b83ab02e833edfcbc64f17f097b1542398fce3d73c374fd59"
+          }
+        },
+        "note": "黄球球保持成年女性人形并睁眼微笑。伸向闹钟的手从画面前方进入，没能辨认是她主动伸手。文文没有露脸。"
+      }
+    }
+  ],
+  "revisionReference": {
+    "assetId": "wenwen-approved-basis",
+    "path": "assets/sources/20261029/SUI-A07/wenwen/approved-basis/char-wenwen-base-reference-v001.webp",
+    "sha256": "83e0be332751d53ae2f96a1fecf50df0ae8ac5fb778bc465178400f46b57d108",
+    "uploadStatus": "uploaded",
+    "canvasNodeId": "node_eeh2fxzv8j"
+  }
+}

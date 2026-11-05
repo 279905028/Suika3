@@ -1,4 +1,18 @@
-# SUI-C 编译入口与接口 v1
+# P4正式正文（2026-11-04）
+
+根`scenario/`已全量采用TEXT，正式构建须使用`textPolicy=required`、108字素分页。当前整合入口见[P4-07工具](../story-revision/p4-adoption/README.md)。下方默认legacy说明与历史小样保留原接口，不用于本版正式构建。
+
+# 编译入口与 TEXT 支持（2026-11-03）
+
+正式编译模块已支持P1显式段落；[格式、策略与模板](../../docs/修订协作/P1-小样贯通-20261102/README.md)和[实际验收](../../qa/dialogue-p1-runtime-20261102/交接.md)为当前说明。正文唯一正式来源仍为根`scenario/`，本批小样只在隔离输入中拼接三份候选。
+
+- `compile({root,pageSize,textPolicy})`或CLI `--text-policy`可指定`legacy`、`mixed`、`required`。默认legacy保留旧稿且拒绝TEXT；mixed用于独立小样；完整迁移后的required拒绝任一正文漏标。
+- `text-format.json`和`speakers.json`定义严格字段、媒介与允许称呼，并进入构建指纹。TEXT不修改控制NODE或条件作用。
+- 显式段落保留`T-文件码-序号`，分页节点附页号；IR及source-map记录`textMeta`、`markerLine`与字素偏移。旧格式段落仍使用原哈希身份，不推测说话人。
+- 具名页输出原生`text name`；旁白、动作、旧格式页及选择省略name，让引擎清名。回顾与恢复使用相同参数。
+- 输出须指定新QA目录；不要重跑下方历史命令覆盖旧证据。正式整合前重新冻结内容、演出绑定和选项图版本。
+
+# SUI-C 原始接口交接（2026-10-28）
 
 2026-10-28。唯一输入为本工程 `scenario/`，内容契约为 schemaVersion 2。编译器只写显式输出目录；本任务默认输出到 `qa/sui-c-20261028/generated/`，不覆盖根入口，不接入旧 JS 播放器。
 

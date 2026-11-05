@@ -1,0 +1,896 @@
+{
+  "schemaVersion": "p4-cg-review-v1",
+  "taskId": "P4-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "status": "production-complete-awaiting-P4-05",
+  "scope": "CG图文复核建议；不是02完整绑定或05资源通过目录",
+  "packageId": "P4-02-XM",
+  "records": [
+    {
+      "cgId": "CG014",
+      "assetId": "cg-xm-cg014",
+      "title": "镜子里掉下的发夹",
+      "packageId": "P4-02-XM",
+      "decision": "reuse",
+      "basis": "发夹落在围布上，理发店镜前人物吻合；下部围布需全图查看。",
+      "legacyParagraphIds": [
+        "T-XM-000071"
+      ],
+      "proposedNodeIds": [
+        "T-XM-000071_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000071_1",
+        "paragraphId": "T-XM-000071",
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "textMeta": {
+          "id": "T-XM-000071",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 388,
+          "context": "XM04-01/COMMON",
+          "sha256": "4ee826014d621ca401c2f349c8e85d99cf3519c3e2d4ec22738e8b2f90ede476"
+        }
+      },
+      "text": "夹子从她嘴边掉下来，落在围布上。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-XM-000072_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg014-v002.png",
+          "sha256": "d9628b4a17ad12f70dbe346cf1ac4a9485a82f469c4536603dc6f28e4bd5c624",
+          "bytes": 2229246,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg014.webp",
+          "sha256": "a806575b89f6715d073a95075e18ceb4f40d1590f2a534fd2132ec76c7748655",
+          "bytes": 1500444,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG014-full.webp",
+          "sha256": "a3dbaa18dbf3bb332b2466e372a68843a51d014739fa6538acf3c175439c7a58",
+          "bytes": 1001840
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG014-overlay.webp",
+          "sha256": "bf39148edae67292ad9558d9c9180941b1b0aa6cf630c5f7a8e901b72853de67",
+          "bytes": 855844
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG015",
+      "assetId": "cg-xm-cg015",
+      "title": "洗头池上的几秒",
+      "packageId": "P4-02-XM",
+      "decision": "reuse",
+      "basis": "洗头池近距离捻碎发动作吻合；不扩展为额外亲吻。",
+      "legacyParagraphIds": [
+        "T-XM-000082"
+      ],
+      "proposedNodeIds": [
+        "T-XM-000082_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000082_1",
+        "paragraphId": "T-XM-000082",
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "textMeta": {
+          "id": "T-XM-000082",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 433,
+          "context": "XM04-01/COMMON",
+          "sha256": "b39845c1f7aabded6c443f07e43be3374cf21610252f7dbe73d1b307bde9f9f1"
+        }
+      },
+      "text": "我忍着没动。她的手从毛巾边伸进去，把那根扎人的碎发捻掉。再睁眼，她正低着头，离我很近。我看见她左边睫毛上沾了一点水。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-XM-000083_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg015-v004.png",
+          "sha256": "3b49d067a31a6beca4a34a18f17d5ee48b3f8b55b18152ae9e56ede3e302c37c",
+          "bytes": 2242765,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg015.webp",
+          "sha256": "0e9fb28c8697ce3f3df700cd701ed9670483f34dcae757901c051cbf024ec265",
+          "bytes": 1529798,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG015-full.webp",
+          "sha256": "7e2a4a04274494aa3882899ada6938cc338cd59ca877eddb80aa49aefb64f32a",
+          "bytes": 1015606
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG015-overlay.webp",
+          "sha256": "e437c6264051867fa8d38268282fe6e485fa449e0be0b14b421c4647debc16b8",
+          "bytes": 861442
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG016",
+      "assetId": "cg-xm-cg016",
+      "title": "当众说我对象",
+      "packageId": "P4-02-XM",
+      "decision": "reuse",
+      "basis": "抓外套前襟主动亲吻吻合；仅当次现场，不将此图延用到后来分开结局。",
+      "legacyParagraphIds": [
+        "T-XM-000108"
+      ],
+      "proposedNodeIds": [
+        "T-XM-000108_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000108_1",
+        "paragraphId": "T-XM-000108",
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "textMeta": {
+          "id": "T-XM-000108",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 568,
+          "context": "### 剧情简介",
+          "sha256": "337fd62681b3723eb933d359e8671df6ebcb7a4f71d9d0bd0502e910bf06fd93"
+        }
+      },
+      "text": "她抓住我的外套前襟，吻了过来。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-XM-000500_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg016-v001.png",
+          "sha256": "2ae73ca58a9b391457d7a9443f480ac7a1e1425df65ef49afa403a8bf5b3855f",
+          "bytes": 2556815,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg016.webp",
+          "sha256": "0d59f5f9db8f5204413971243930e48567faedf76ba7364651f54e6b0441094f",
+          "bytes": 1713340,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG016-full.webp",
+          "sha256": "412e2c3675cc41f40bdd1e5f01280e0c94efe9211dd72bcc180719c7388c8ac1",
+          "bytes": 1118958
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG016-overlay.webp",
+          "sha256": "ad09f470cd76af1798c34e919be846d21d1c15e90cb95cf08c1a43f833a83fe3",
+          "bytes": 942760
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG019",
+      "assetId": "cg-xm-cg019",
+      "title": "她自己催回那笔钱",
+      "packageId": "P4-02-XM",
+      "decision": "reuse",
+      "basis": "小满自己打电话催款，画面没有文文代她处理；保留XM07选A条件。",
+      "legacyParagraphIds": [
+        "T-XM-000272"
+      ],
+      "proposedNodeIds": [
+        "T-XM-000272_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000272_1",
+        "paragraphId": "T-XM-000272",
+        "condition": "XM07-01=A",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "textMeta": {
+          "id": "T-XM-000272",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "phone",
+          "group": null,
+          "displayName": "罗小满（电话）"
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 1554,
+          "context": "XM07-01/COMMON",
+          "sha256": "683130a8053717c7bd5d1b6814477f47b5df21d055eb49fee9e21dce882a1d8a"
+        }
+      },
+      "text": "今天说好的那一笔，下午给。你别又喊我算了。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-XM-000273_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg019-v001.png",
+          "sha256": "a56cf849d9fc0bf5f199ee8e8c46d63e07d1a41e38c151263d0074da53461eeb",
+          "bytes": 2288271,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg019.webp",
+          "sha256": "f89322c345f5f64cc4478f56c0682326fa612f6fd315a8b5d2062da258369d35",
+          "bytes": 1488846,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG019-full.webp",
+          "sha256": "e3a65b93c44a2baacce12efbe720b6fad0e53cab25356ed990ca5c3111a57e98",
+          "bytes": 970316
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG019-overlay.webp",
+          "sha256": "c310fc86c209fe0903b8fbfeb13097f7533f6cae6a9ac7bfa48e1706621f566d",
+          "bytes": 815016
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG020",
+      "assetId": "cg-xm-cg020",
+      "title": "两顶头盔，没有车",
+      "packageId": "P4-02-XM",
+      "decision": "reuse",
+      "basis": "台阶、两顶头盔与无车状态吻合；失落情绪不是已复合，头盔下沿需全图看清。",
+      "legacyParagraphIds": [
+        "T-XM-000702"
+      ],
+      "proposedNodeIds": [
+        "T-XM-000702_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000702_1",
+        "paragraphId": "T-XM-000702",
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "textMeta": {
+          "id": "T-XM-000702",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 1689,
+          "context": "### 剧情简介",
+          "sha256": "7470b5ee6a4a4b0775d6e9da76443e6af2afb13bd378f9e0cf67128bd09af15f"
+        }
+      },
+      "text": "我看了一眼站牌，告诉她。她嗯了一声，没往站台去，先找了个台阶坐下。那顶留给我的头盔放在她膝上，安全带拖到地面，她猛地提起来，拍掉灰。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-XM-000296_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg020-v001.png",
+          "sha256": "9729cbfac6eff3fe584bbacd3edc0d2af4d049bf1c54846d3af01dc1a13c597f",
+          "bytes": 2856854,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg020.webp",
+          "sha256": "d8d6f883cc70cb03a59d07e890f27ecd488f512948de145bc5f3b621a4332551",
+          "bytes": 1877768,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG020-full.webp",
+          "sha256": "660249fe5af13017d7bc4f0eab4a6abe15f8830ddaa7c1a0506b6abcd9f1e873",
+          "bytes": 1228874
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG020-overlay.webp",
+          "sha256": "8da407223c3b4f2c6c967f05b8b9fd1f020c7110fe07bccb8b54361a403185d7",
+          "bytes": 1065896
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG022",
+      "assetId": "cg-xm-cg022",
+      "title": "这次没观众",
+      "packageId": "P4-02-XM",
+      "decision": "reuse",
+      "basis": "车站两人相对和抓衣襟吻合，只在AA继续关系出现。",
+      "legacyParagraphIds": [
+        "T-XM-000725"
+      ],
+      "proposedNodeIds": [
+        "T-XM-000725_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000725_1",
+        "paragraphId": "T-XM-000725",
+        "condition": "XM07-01=A&XM08-01=A",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "textMeta": {
+          "id": "T-XM-000725",
+          "kind": "dialogue",
+          "speaker": "xiaoman",
+          "name": "罗小满",
+          "channel": "face",
+          "group": null,
+          "displayName": "罗小满"
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 1868,
+          "context": "XM08-01/COMMON",
+          "sha256": "02cc123cc704194b778630f665fc9ec6f7c0c73a0d0fa62f060e9d7012beef63"
+        }
+      },
+      "text": "这次没观众。还认不认？",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-XM-000329_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg022-v001.png",
+          "sha256": "05f9f4a7e6b75fe3245cd244debfe57c8126d5bb7089b81b2589f815e60c3a46",
+          "bytes": 2738433,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg022.webp",
+          "sha256": "4316bd03c366f4e796eb836b294cc175e98baed03e1b271fed42a2ef2401ce38",
+          "bytes": 1832032,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG022-full.webp",
+          "sha256": "20977799a575d1fe5a495716b730fbf17c96aeb3dc8b977e016b1c6ef1d447ec",
+          "bytes": 1187376
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG022-overlay.webp",
+          "sha256": "73d2afdec5b40af899ab890f31e57b822b9ff375992a2b0f8b19ade1832b7ce1",
+          "bytes": 990410
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG023",
+      "assetId": "cg-xm-cg023",
+      "title": "隔着练习本的吻",
+      "packageId": "P4-02-XM",
+      "decision": "rebind",
+      "basis": "练习本遮脸发生在视频内；只覆盖本段的挡脸动作定格，下一对白清除，不把屏幕里的人放到街上。",
+      "legacyParagraphIds": [
+        "T-XM-000826",
+        "T-XM-000827"
+      ],
+      "proposedNodeIds": [
+        "T-XM-000826_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000826_1",
+        "paragraphId": "T-XM-000826",
+        "condition": "XM07-01=A&XM08-01=A",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "textMeta": {
+          "id": "T-XM-000826",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 2429,
+          "context": "XM-E1",
+          "sha256": "cf2de64dfa80bffdc222d4a3cd3471560fea49a434279912a7a5bbc2fda8851f"
+        }
+      },
+      "text": "她看了我一眼，突然拿练习本挡住半张脸。过了几秒，又放下来，对着镜头飞快亲了一下。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-XM-000827_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg023-v001.png",
+          "sha256": "ed27c92642a3df992865cd5651b8fcbc44f2a1122e4b19e40668c10524196273",
+          "bytes": 2496934,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg023.webp",
+          "sha256": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267",
+          "bytes": 1632872,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG023-full.webp",
+          "sha256": "47aa0e442692b7611a02fa51e568c444215f8076b30b218a48a8692c7a7f594d",
+          "bytes": 1071364
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG023-overlay.webp",
+          "sha256": "7ea0e46f90355a5b4061a2eb025cfed196fe2d6856e235abd99f99f8472d6406",
+          "bytes": 912328
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "屏幕主体仍可辨，但手机下部/发送键或最后消息接近文字框；完整图补看。只能按冻结的通话/消息时点出现。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG102",
+      "assetId": "cg-xm-cg102",
+      "title": "没裁掉的失败处",
+      "packageId": "P4-02-XM",
+      "decision": "rebind",
+      "basis": "发送旧侧面作品照，不是视频通话；延后到补传未裁照片，避免误示双方开视频或重启恋爱。",
+      "legacyParagraphIds": [
+        "T-XM-000833",
+        "T-XM-000834",
+        "T-XM-000835",
+        "T-XM-000836"
+      ],
+      "proposedNodeIds": [
+        "T-XM-000833_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000833_1",
+        "paragraphId": "T-XM-000833",
+        "condition": "XM07-01=B|XM08-01=B",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "textMeta": {
+          "id": "T-XM-000833",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 2462,
+          "context": "XM-E2",
+          "sha256": "6b32612dcf8c38cbccf4a3ca76a57e5eba023f0033ea136816e3a729f965971e"
+        }
+      },
+      "text": "我把另一张补上。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-XM-000834_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-XM/cg-xm-cg102-v002.png",
+          "sha256": "f4c67b641ff606a5025c5d961113b268fac294e45f3f21f52dfc1ceb890ef1a2",
+          "bytes": 1957724,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-XM/cg-xm-cg102.webp",
+          "sha256": "2b53f1c9b841300356169744838179ef503ffd208a5a9808f387c6e7ec07847a",
+          "bytes": 1305114,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG102-full.webp",
+          "sha256": "bf4194af26047bb2083ccf654eac9aa42ea4f0f5151ae8219ba4110c5d7d7927",
+          "bytes": 853196
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG102-overlay.webp",
+          "sha256": "5b3b340909265e08dc62648d7934f26db4f680df3e28e315fca935c034c2c38e",
+          "bytes": 704474
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "屏幕主体仍可辨，但手机下部/发送键或最后消息接近文字框；完整图补看。只能按冻结的通话/消息时点出现。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    }
+  ]
+}

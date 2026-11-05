@@ -1,0 +1,44 @@
+[
+  {
+    "key": "old-netcafe-yard-door-closed-night",
+    "assetId": "bg-old-netcafe-yard-door-closed-night",
+    "type": "background",
+    "transparent": false,
+    "needIds": [
+      "P4-02-COMMON-N002",
+      "P4-02-HQ-N001"
+    ],
+    "refs": [
+      "assets/current/SUI-A08/bg-old-netcafe-yard-door-ajar-night.webp",
+      "assets/current/SUI-A08/bg-old-netcafe-yard-door-closed-morning.webp"
+    ],
+    "prompt": "Use case: precise-object-edit. Asset: full-bleed landscape 16:9 visual novel background. IMAGE 1 is the edit target, the backyard AT NIGHT. IMAGE 2 is only a reference for the exact same door CLOSED. In image 1 close the wooden door completely, flush inside the original frame exactly like image 2; remove the visible gap and all views of the room and inside stool. Remove the strip of interior light on the threshold that came through the open door. Keep nighttime blue sky, all other illumination from the existing outdoor lamp and the right window, damp paving, same wall, plants, mop, bucket, faucet, blue stool, furniture and camera composition unchanged. The door must be visibly fully shut, not ajar. It is a quiet empty exterior, no people, no yellow orb, no silhouettes, no interior character visible, no supernatural light. Same realistic painterly style and natural detail, no sign/text, no watermark or UI. No daylight."
+  },
+  {
+    "key": "bridge-shaobing-dusk",
+    "assetId": "bg-bridge-shaobing-dusk",
+    "type": "background",
+    "transparent": false,
+    "needIds": [
+      "P4-02-COMMON-N008"
+    ],
+    "refs": [
+      "assets/current/SUI-A08/bg-bridge-shaobing-day.webp"
+    ],
+    "prompt": "Use case: lighting-weather. Asset: landscape 16:9 visual novel empty background. Edit this exact bakery/shaobing stall beside the bridge into DUSK, early evening during an ongoing ordinary meeting. Keep every object and all geometry: same oven, wooden counters, trays of sesame flatbreads, bowls, doorway, bench, stone bridge, river and hillside buildings, exact camera. Change only natural lighting and sky: soft muted blue-grey twilight with subdued warm horizon, outdoor daylight much lower than the original, the existing warm hanging lamp provides the main warm foreground light. No strong daytime sun patches or bright blue daytime sky. Not deep midnight and not dramatic flaming sunset. Keep the shop open, food in place, and no people. Same detailed realistic painterly visual-novel style, preserve material colors and readable midtones. No new signage, writing, people, UI, border or watermark."
+  },
+  {
+    "key": "piao-seated-base-common-d36",
+    "assetId": "piao-seated-base",
+    "type": "character",
+    "transparent": true,
+    "needIds": [
+      "P4-02-COMMON-N005"
+    ],
+    "refs": [
+      "assets/current/SUI-A05/piao-base.webp",
+      "assets/current/SUI-A08/bg-noodle-shop-day.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Asset: single isolated TRANSPARENT character sprite for a visual novel, portrait 1024×1536. Image 1 is the EXACT approved adult woman Piao identity and outfit; image 2 is only a reference for a simple low wooden stool at a noodle-shop entrance. Preserve the same face, side-parted wispy fringe, low black ponytail, tiny gold earrings, subtle shallow dimples, red cord bracelet, white short-sleeved blouse with black piping, high-waisted black trousers and the realistic painterly style. Change her standing pose into a natural SEATED pose, sitting upright on a plain backless low wooden stool, knees bent with upper legs angled slightly toward viewer, BOTH hands empty resting lightly on her lap. Calm attentive neutral expression with mouth relaxed, not broadly smiling or distressed. Body size/proportions remain unchanged from the reference; do not add a pregnancy bump or any physical change. This is a neutral seated base, not a knot-tying or camera-holding action. Crop at just below the knees, no feet or shoes. Keep head fully visible with a small top margin and similar face scale; allow space for the bent knees. A small natural part of the stool seat may be visible under her, but no floor, wall, room, storefront or environment. Real transparent alpha background including gaps around arms; no artificial background, no glow, checkerboard, vignette, halo, text, watermark, bag, camera, props or extra limbs."
+  }
+]

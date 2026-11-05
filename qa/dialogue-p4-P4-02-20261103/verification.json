@@ -1,0 +1,420 @@
+{
+  "status": "candidate-delivery-verified-final-handoff-blocked",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "packs": [
+    {
+      "packageId": "P4-02-COMMON",
+      "draft": "pass",
+      "handoff": "blocked",
+      "firstHandoffFailure": "仍有未决需求：P4-02-COMMON-N001",
+      "counts": {
+        "paragraphs": 997,
+        "textPages": 998,
+        "choices": 16,
+        "displayNodes": 1014,
+        "reviewedUnits": 848,
+        "assignedBindings": 1014,
+        "needs": 8,
+        "boundaries": 148,
+        "reviewed": 848,
+        "blocked": 165,
+        "openNeeds": 7,
+        "resolvedNeeds": 1
+      }
+    },
+    {
+      "packageId": "P4-02-XM",
+      "draft": "pass",
+      "handoff": "blocked",
+      "firstHandoffFailure": "仍有未决需求：P4-02-XM-N001",
+      "counts": {
+        "paragraphs": 681,
+        "textPages": 681,
+        "choices": 8,
+        "displayNodes": 689,
+        "reviewedUnits": 548,
+        "assignedBindings": 689,
+        "needs": 3,
+        "boundaries": 78,
+        "reviewed": 548,
+        "blocked": 141,
+        "openNeeds": 3,
+        "resolvedNeeds": 0
+      }
+    },
+    {
+      "packageId": "P4-02-ZZ",
+      "draft": "pass",
+      "handoff": "blocked",
+      "firstHandoffFailure": "仍有未决需求：P4-02-ZZ-N001",
+      "counts": {
+        "paragraphs": 803,
+        "textPages": 803,
+        "choices": 8,
+        "displayNodes": 811,
+        "reviewedUnits": 703,
+        "assignedBindings": 811,
+        "needs": 4,
+        "boundaries": 82,
+        "reviewed": 703,
+        "blocked": 108,
+        "openNeeds": 4,
+        "resolvedNeeds": 0
+      }
+    },
+    {
+      "packageId": "P4-02-MY",
+      "draft": "pass",
+      "handoff": "blocked",
+      "firstHandoffFailure": "仍有未决需求：P4-02-MY-N001",
+      "counts": {
+        "paragraphs": 566,
+        "textPages": 566,
+        "choices": 8,
+        "displayNodes": 574,
+        "reviewedUnits": 450,
+        "assignedBindings": 574,
+        "needs": 6,
+        "boundaries": 82,
+        "reviewed": 450,
+        "blocked": 124,
+        "openNeeds": 6,
+        "resolvedNeeds": 0
+      }
+    },
+    {
+      "packageId": "P4-02-PI",
+      "draft": "pass",
+      "handoff": "blocked",
+      "firstHandoffFailure": "仍有未决需求：P4-02-PI-N001",
+      "counts": {
+        "paragraphs": 721,
+        "textPages": 721,
+        "choices": 9,
+        "displayNodes": 730,
+        "reviewedUnits": 714,
+        "assignedBindings": 730,
+        "needs": 4,
+        "boundaries": 108,
+        "reviewed": 714,
+        "blocked": 16,
+        "openNeeds": 4,
+        "resolvedNeeds": 0
+      }
+    },
+    {
+      "packageId": "P4-02-HQ",
+      "draft": "pass",
+      "handoff": "blocked",
+      "firstHandoffFailure": "仍有未决需求：P4-02-HQ-N001",
+      "counts": {
+        "paragraphs": 500,
+        "textPages": 500,
+        "choices": 8,
+        "displayNodes": 508,
+        "reviewedUnits": 463,
+        "assignedBindings": 508,
+        "needs": 10,
+        "boundaries": 82,
+        "reviewed": 463,
+        "blocked": 45,
+        "openNeeds": 10,
+        "resolvedNeeds": 0
+      }
+    },
+    {
+      "packageId": "P4-02-FR",
+      "draft": "pass",
+      "handoff": "blocked",
+      "firstHandoffFailure": "仍有未决需求：P4-02-FR-N001",
+      "counts": {
+        "paragraphs": 480,
+        "textPages": 480,
+        "choices": 8,
+        "displayNodes": 488,
+        "reviewedUnits": 465,
+        "assignedBindings": 488,
+        "needs": 8,
+        "boundaries": 74,
+        "reviewed": 465,
+        "blocked": 23,
+        "openNeeds": 8,
+        "resolvedNeeds": 0
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "七包完整且唯一覆盖4748段、65选择、4814节点",
+      "status": "pass",
+      "evidence": {
+        "paragraphs": 4748,
+        "choices": 65,
+        "nodes": 4814,
+        "boundaries": 654
+      }
+    },
+    {
+      "name": "所有节点完整恢复、选择无CG、分页一致，由冻结检查器逐节点验证",
+      "status": "pass",
+      "evidence": [
+        {
+          "packageId": "P4-02-COMMON",
+          "draft": "pass"
+        },
+        {
+          "packageId": "P4-02-XM",
+          "draft": "pass"
+        },
+        {
+          "packageId": "P4-02-ZZ",
+          "draft": "pass"
+        },
+        {
+          "packageId": "P4-02-MY",
+          "draft": "pass"
+        },
+        {
+          "packageId": "P4-02-PI",
+          "draft": "pass"
+        },
+        {
+          "packageId": "P4-02-HQ",
+          "draft": "pass"
+        },
+        {
+          "packageId": "P4-02-FR",
+          "draft": "pass"
+        }
+      ]
+    },
+    {
+      "name": "共通线上游戏没有现场队友",
+      "status": "pass",
+      "evidence": [
+        "T-C01-000368",
+        "T-C01-000369",
+        "T-C01-000370",
+        "T-C01-000371",
+        "T-C01-000372",
+        "T-C01-000373",
+        "T-C01-000374",
+        "T-C01-000276",
+        "T-C01-000277",
+        "T-C01-000375",
+        "T-C01-000157",
+        "T-C01-000376",
+        "T-C01-000377",
+        "T-C01-000378",
+        "T-C01-000379",
+        "T-C01-000380",
+        "T-C01-000381",
+        "T-C01-000382",
+        "T-C01-000383",
+        "T-C01-000384",
+        "T-C01-000385",
+        "T-C01-000386",
+        "T-C01-000387",
+        "T-C01-000388",
+        "T-C01-000389",
+        "T-C01-000390",
+        "T-C01-000391",
+        "T-C01-000164"
+      ]
+    },
+    {
+      "name": "黄球球开门前及离场后不显示，首次相识仍球形",
+      "status": "pass",
+      "evidence": [
+        "T-C02-000484",
+        "T-C02-000488",
+        "T-C02-000244"
+      ]
+    },
+    {
+      "name": "同段跨页没有额外换镜或重复CG",
+      "status": "pass",
+      "evidence": [
+        "T-C02-000153_1",
+        "T-C02-000153_2"
+      ]
+    },
+    {
+      "name": "孟遥未到饭局前不提前出现、叶岚未参加第14天饭局",
+      "status": "pass",
+      "evidence": true
+    },
+    {
+      "name": "第36天远端师匠不入镜、CG101已知站坐冲突保留返修",
+      "status": "pass",
+      "evidence": true
+    },
+    {
+      "name": "FR-E2两篇后日谈仅消息构图，允许已收到的婚讯手机CG",
+      "status": "pass",
+      "evidence": {
+        "paragraphs": 39,
+        "ids": [
+          "T-EPH-000060",
+          "T-EPH-000061",
+          "T-EPH-000062",
+          "T-EPH-000063",
+          "T-EPH-000064",
+          "T-EPH-000065",
+          "T-EPH-000066",
+          "T-EPH-000067",
+          "T-EPH-000068",
+          "T-EPH-000025",
+          "T-EPH-000110",
+          "T-EPH-000111",
+          "T-EPH-000112",
+          "T-EPH-000113",
+          "T-EPH-000142",
+          "T-EPH-000143",
+          "T-EPH-000144",
+          "T-EPH-000145",
+          "T-EPH-000146",
+          "T-EPH-000147",
+          "T-EPH-000148",
+          "T-EPH-000149",
+          "T-EPH-000150",
+          "T-EPH-000151",
+          "T-EPH-000152",
+          "T-EPH-000153",
+          "T-EPH-000154",
+          "T-EPH-000155",
+          "T-EPH-000041",
+          "T-EPL-000011",
+          "T-EPL-000046",
+          "T-EPL-000047",
+          "T-EPL-000048",
+          "T-EPL-000049",
+          "T-EPL-000050",
+          "T-EPL-000051",
+          "T-EPL-000052",
+          "T-EPL-000053",
+          "T-EPL-000054"
+        ]
+      }
+    },
+    {
+      "name": "scene-260群消息与链接消息没有继承现场飘",
+      "status": "pass",
+      "evidence": [
+        "T-PI-000570",
+        "T-PI-000571",
+        "T-PI-000572",
+        "T-PI-000573",
+        "T-PI-000574",
+        "T-PI-000576",
+        "T-PI-000577",
+        "T-PI-000578",
+        "T-PI-000597"
+      ]
+    },
+    {
+      "name": "孟遥秘密继续CG只在AA，断开CG只在非AA，冻结条件未放宽",
+      "status": "pass",
+      "evidence": true
+    },
+    {
+      "name": "小满与周栀亲密结局CG保持双A门禁",
+      "status": "pass",
+      "evidence": true
+    },
+    {
+      "name": "每个CG至多一个新显示锚点，不把拆分对白机械复用同CG",
+      "status": "pass",
+      "evidence": {
+        "CG001": "T-C01-000004_1",
+        "CG004": "T-C01-000306_1",
+        "CG005": "T-C01-000135_1",
+        "CG006": "T-C01-000372_1",
+        "CG007": "T-C01-000173_1",
+        "CG008": "T-C01-000414_1",
+        "CG010": "T-C02-000367_1",
+        "CG011": "T-C02-000170_1",
+        "CG012": "T-C02-000487_1",
+        "CG095": "T-EPH-000072_1",
+        "CG099": "T-EPH-000027_1",
+        "CG100": "T-EPH-000144_1",
+        "CG096": "T-EPL-000025_1",
+        "CG098": "T-EPL-000038_1",
+        "CG014": "T-XM-000071_1",
+        "CG015": "T-XM-000082_1",
+        "CG016": "T-XM-000108_1",
+        "CG019": "T-XM-000272_1",
+        "CG020": "T-XM-000702_1",
+        "CG022": "T-XM-000330_1",
+        "CG023": "T-XM-000826_1",
+        "CG102": "T-XM-000836_1",
+        "CG025": "T-ZZ-000034_1",
+        "CG026": "T-ZZ-000061_1",
+        "CG027": "T-ZZ-000077_1",
+        "CG029": "T-ZZ-000204_1",
+        "CG031": "T-ZZ-000744_1",
+        "CG032": "T-ZZ-000800_1",
+        "CG034": "T-ZZ-000872_1",
+        "CG035": "T-ZZ-000478_1",
+        "CG103": "T-ZZ-000489_1",
+        "CG038": "T-MY-000587_1",
+        "CG039": "T-MY-000078_1",
+        "CG040": "T-MY-000105_1",
+        "CG041": "T-MY-000112_1",
+        "CG044": "T-MY-000403_1",
+        "CG104": "T-MY-000349_1",
+        "CG105": "T-MY-000676_1",
+        "CG062": "T-PI-000053_1",
+        "CG063": "T-PI-000072_1",
+        "CG066": "T-PI-000272_1",
+        "CG069": "T-PI-000343_1",
+        "CG106": "T-PI-000457_1",
+        "CG061": "T-PI-000521_1",
+        "CG067": "T-PI-000476_1",
+        "CG068": "T-PI-000630_1",
+        "CG070": "T-PI-000645_1",
+        "CG073": "T-HQ-000034_1",
+        "CG075": "T-HQ-000058_1",
+        "CG077": "T-HQ-000176_1",
+        "CG078": "T-HQ-000197_1",
+        "CG079": "T-HQ-000476_1",
+        "CG082": "T-HQ-000563_1",
+        "CG107": "T-HQ-000343_1",
+        "CG086": "T-FR-000040_1",
+        "CG090": "T-FR-000440_1",
+        "CG091": "T-FR-000475_1",
+        "CG108": "T-FR-000264_1",
+        "CG094": "T-FR-000603_1"
+      }
+    },
+    {
+      "name": "全部654项边界声明按目标重建，公共返回不保存另一包源画面",
+      "status": "pass",
+      "evidence": 654
+    },
+    {
+      "name": "全部候选资源仅引用已登记ID，未伪造P4-05通过",
+      "status": "pass",
+      "evidence": {
+        "uniqueResources": 202,
+        "resourceReviewStatus": "pending"
+      }
+    }
+  ],
+  "totals": {
+    "paragraphs": 4748,
+    "displayNodes": 4814,
+    "reviewUnits": 4813,
+    "reviewed": 4191,
+    "blocked": 622,
+    "boundaries": 654,
+    "openNeeds": 42,
+    "resolvedNeeds": 1,
+    "uniqueResourceKeys": 40,
+    "referencedResources": 202
+  },
+  "handoffReady": false,
+  "notRuntimeAcceptance": true
+}

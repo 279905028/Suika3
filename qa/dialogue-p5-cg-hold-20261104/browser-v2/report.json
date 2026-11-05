@@ -1,0 +1,26 @@
+{
+  "status": "fail",
+  "checks": [],
+  "errors": [],
+  "events": [
+    {
+      "at": 1793778589949,
+      "line": "SUI_E|ready|836238cefe1f6f51b695479cd48284023c57ddd8a79b93cb6a6d9aa0da77d2b0"
+    },
+    {
+      "at": 1793778589951,
+      "line": "SUI_E|title"
+    },
+    {
+      "at": 1793778589982,
+      "line": "SUI_E|title-motion|visible=1"
+    }
+  ],
+  "browser": "156.0.8078.80",
+  "error": "AssertionError [ERR_ASSERTION]: 真实正文到达CG001并启动保护\n    at check (/Users/yipin/Desktop/Suika3/tools/runtime/verify-cg-hold.cjs:10:30)\n    at verify (/Users/yipin/Desktop/Suika3/tools/runtime/verify-cg-hold.cjs:27:5)",
+  "nativeEvents": [
+    "SUI_E|ready|836238cefe1f6f51b695479cd48284023c57ddd8a79b93cb6a6d9aa0da77d2b0",
+    "SUI_E|title",
+    "SUI_E|title-motion|visible=1"
+  ]
+}

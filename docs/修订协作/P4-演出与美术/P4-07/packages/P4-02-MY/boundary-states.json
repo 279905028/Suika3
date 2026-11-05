@@ -1,0 +1,664 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-MY",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "boundaries": [
+    {
+      "boundaryId": "entry:T-MY-000001_1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对file-entry 文件入口 → T-MY-000001_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:MY03-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice MY03-01 → BRANCH_2a950ac86a0aa73a17a8；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_2a950ac86a0aa73a17a8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_2a950ac86a0aa73a17a8 → T-MY-000035_1、BRANCH_91808add447eeb7222d3；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_2a950ac86a0aa73a17a8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_2a950ac86a0aa73a17a8 → BRANCH_91808add447eeb7222d3；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_91808add447eeb7222d3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_91808add447eeb7222d3 → T-MY-000038_1、T-MY-000043_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_91808add447eeb7222d3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_91808add447eeb7222d3 → T-MY-000043_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:MY04-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice MY04-01 → BRANCH_196aeba917573c2a08c8；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_196aeba917573c2a08c8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_196aeba917573c2a08c8 → T-MY-000069_1、BRANCH_db58721d7f734f24e635；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_196aeba917573c2a08c8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_196aeba917573c2a08c8 → BRANCH_db58721d7f734f24e635；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_db58721d7f734f24e635",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_db58721d7f734f24e635 → T-MY-000072_1、T-MY-000077_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_db58721d7f734f24e635",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_db58721d7f734f24e635 → T-MY-000077_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:MY05-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice MY05-01 → BRANCH_da33e6a7b431fc30297e；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_da33e6a7b431fc30297e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_da33e6a7b431fc30297e → T-MY-000134_1、BRANCH_d5e9bee4d168b83eca21；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_da33e6a7b431fc30297e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_da33e6a7b431fc30297e → BRANCH_d5e9bee4d168b83eca21；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d5e9bee4d168b83eca21",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_d5e9bee4d168b83eca21 → T-MY-000139_1、T-MY-000143_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d5e9bee4d168b83eca21",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_d5e9bee4d168b83eca21 → T-MY-000143_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:MY06-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice MY06-01 → BRANCH_a2d5a16d87617e079e5d；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a2d5a16d87617e079e5d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_a2d5a16d87617e079e5d → T-MY-000568_1、BRANCH_ccf90ba9636da3e87bf2；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a2d5a16d87617e079e5d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_a2d5a16d87617e079e5d → BRANCH_ccf90ba9636da3e87bf2；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_ccf90ba9636da3e87bf2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_ccf90ba9636da3e87bf2 → T-MY-000571_1、T-MY-000175_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_ccf90ba9636da3e87bf2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_ccf90ba9636da3e87bf2 → T-MY-000175_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3a3c335df96c7af890da",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_3a3c335df96c7af890da → CALL_4aa9263463036ff23e68、MY-D36-RETURN；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3a3c335df96c7af890da",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_3a3c335df96c7af890da → MY-D36-RETURN；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "call:CALL_4aa9263463036ff23e68",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对call CALL_4aa9263463036ff23e68 → PIAO-D36；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-COMMON；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:MY07-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice MY07-01 → BRANCH_9ab0793caf545803ba84；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_9ab0793caf545803ba84",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_9ab0793caf545803ba84 → T-MY-000208_1、BRANCH_d5eb5887eed10699c404；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_9ab0793caf545803ba84",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_9ab0793caf545803ba84 → BRANCH_d5eb5887eed10699c404；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d5eb5887eed10699c404",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_d5eb5887eed10699c404 → T-MY-000214_1、T-MY-000220_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d5eb5887eed10699c404",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_d5eb5887eed10699c404 → T-MY-000220_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_f85b20630b863259ce9e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_f85b20630b863259ce9e → T-MY-000399_1、BRANCH_c3fc9bb7a1cc730949ef；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_f85b20630b863259ce9e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_f85b20630b863259ce9e → BRANCH_c3fc9bb7a1cc730949ef；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c3fc9bb7a1cc730949ef",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_c3fc9bb7a1cc730949ef → T-MY-000229_1、T-MY-000232_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c3fc9bb7a1cc730949ef",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_c3fc9bb7a1cc730949ef → T-MY-000232_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:MY08-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice MY08-01 → BRANCH_a0c1575460146718d16c；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a0c1575460146718d16c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_a0c1575460146718d16c → T-MY-000241_1、BRANCH_647cea1751cdb440fa08；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a0c1575460146718d16c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_a0c1575460146718d16c → BRANCH_647cea1751cdb440fa08；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_647cea1751cdb440fa08",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_647cea1751cdb440fa08 → T-MY-000244_1、T-MY-000247_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_647cea1751cdb440fa08",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_647cea1751cdb440fa08 → T-MY-000247_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_82df41cd8520a7687ecd",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_82df41cd8520a7687ecd → T-MY-000423_1、BRANCH_dcdce4ae1cf12c931313；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_82df41cd8520a7687ecd",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_82df41cd8520a7687ecd → BRANCH_dcdce4ae1cf12c931313；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_dcdce4ae1cf12c931313",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_dcdce4ae1cf12c931313 → T-MY-000448_1、T-MY-000453_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_dcdce4ae1cf12c931313",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_dcdce4ae1cf12c931313 → T-MY-000453_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_27a22e6d4116489c53a4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_27a22e6d4116489c53a4 → T-MY-000461_1、BRANCH_e5c637c7211a63468ce4；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_27a22e6d4116489c53a4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_27a22e6d4116489c53a4 → BRANCH_e5c637c7211a63468ce4；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_e5c637c7211a63468ce4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_e5c637c7211a63468ce4 → T-MY-000475_1、T-MY-000276_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_e5c637c7211a63468ce4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_e5c637c7211a63468ce4 → T-MY-000276_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_27a22e6d4116489c53a4_2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_27a22e6d4116489c53a4_2 → T-MY-000278_1、BRANCH_e5c637c7211a63468ce4_2；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_27a22e6d4116489c53a4_2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_27a22e6d4116489c53a4_2 → BRANCH_e5c637c7211a63468ce4_2；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_e5c637c7211a63468ce4_2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_e5c637c7211a63468ce4_2 → T-MY-000508_1、T-MY-000304_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_e5c637c7211a63468ce4_2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_e5c637c7211a63468ce4_2 → T-MY-000304_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:MY09-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice MY09-01 → BRANCH_5d7b0484a1e93d466719；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5d7b0484a1e93d466719",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_5d7b0484a1e93d466719 → BRANCH_8a9ce2ae7aa12fe3acb7、BRANCH_c9e5ffb92c89ceac4f29；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5d7b0484a1e93d466719",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_5d7b0484a1e93d466719 → BRANCH_c9e5ffb92c89ceac4f29；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_8a9ce2ae7aa12fe3acb7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_8a9ce2ae7aa12fe3acb7 → T-MY-000309_1、BRANCH_451fc2ac68c64af775ff；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_8a9ce2ae7aa12fe3acb7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_8a9ce2ae7aa12fe3acb7 → BRANCH_451fc2ac68c64af775ff；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_451fc2ac68c64af775ff",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_451fc2ac68c64af775ff → T-MY-000314_1、BRANCH_c9e5ffb92c89ceac4f29；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_451fc2ac68c64af775ff",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_451fc2ac68c64af775ff → BRANCH_c9e5ffb92c89ceac4f29；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c9e5ffb92c89ceac4f29",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_c9e5ffb92c89ceac4f29 → BRANCH_43532319d15dc344a0c8、T-MY-000553_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c9e5ffb92c89ceac4f29",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_c9e5ffb92c89ceac4f29 → T-MY-000553_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_43532319d15dc344a0c8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_43532319d15dc344a0c8 → T-MY-000318_1、BRANCH_d3aa4e013de24777b273；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_43532319d15dc344a0c8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_43532319d15dc344a0c8 → BRANCH_d3aa4e013de24777b273；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d3aa4e013de24777b273",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_d3aa4e013de24777b273 → T-MY-000322_1、T-MY-000553_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d3aa4e013de24777b273",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_d3aa4e013de24777b273 → T-MY-000553_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:MY10-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice MY10-01 → BRANCH_93cdf45ba743ae8f7c13；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_93cdf45ba743ae8f7c13",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_93cdf45ba743ae8f7c13 → T-MY-000559_1、BRANCH_0355d186c3c45df1ebe9；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_93cdf45ba743ae8f7c13",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_93cdf45ba743ae8f7c13 → BRANCH_0355d186c3c45df1ebe9；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_0355d186c3c45df1ebe9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_0355d186c3c45df1ebe9 → T-MY-000333_1、T-MY-000336_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_0355d186c3c45df1ebe9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_0355d186c3c45df1ebe9 → T-MY-000336_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_622e16d4173ce06c4221",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_622e16d4173ce06c4221 → MY-E1、BRANCH_93c86afe26fa46618695；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_622e16d4173ce06c4221",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_622e16d4173ce06c4221 → BRANCH_93c86afe26fa46618695；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:MY-E1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对ending MY-E1 → T-MY-000645_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_93c86afe26fa46618695",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_93c86afe26fa46618695 → MY-E2、EPILOGUE_8d089e1c85448481f42b；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_93c86afe26fa46618695",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_93c86afe26fa46618695 → EPILOGUE_8d089e1c85448481f42b；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:MY-E2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对ending MY-E2 → BRANCH_3e0b204fb4197f258761；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3e0b204fb4197f258761",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_3e0b204fb4197f258761 → T-MY-000659_1、BRANCH_1529509bb6198ef2faec；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3e0b204fb4197f258761",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_3e0b204fb4197f258761 → BRANCH_1529509bb6198ef2faec；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_1529509bb6198ef2faec",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_1529509bb6198ef2faec → T-MY-000664_1、BRANCH_0b6b5d9670a037032f0e；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_1529509bb6198ef2faec",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_1529509bb6198ef2faec → BRANCH_0b6b5d9670a037032f0e；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_0b6b5d9670a037032f0e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_0b6b5d9670a037032f0e → T-MY-000362_1、T-MY-000671_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_0b6b5d9670a037032f0e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_0b6b5d9670a037032f0e → T-MY-000671_1；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-MY；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "epilogue:EPILOGUE_8d089e1c85448481f42b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对epilogue EPILOGUE_8d089e1c85448481f42b → EP-HIGH、EP-LOW；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=P4-02-COMMON；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_92b0a2ee37dcf59d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对finish END_92b0a2ee37dcf59d → ；MY07=A只影响已发生的44/56/75日亲密，MY07与MY09均A才继续秘密关系；B后读档与改选不得恢复亲密；婚姻持续。目标包=；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    }
+  ]
+}

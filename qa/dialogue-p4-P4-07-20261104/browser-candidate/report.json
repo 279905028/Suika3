@@ -1,0 +1,7 @@
+{
+  "status": "fail",
+  "scope": "P4-07完整静态候选启动、图鉴和CG001全图冒烟；不是P5全路线/存档验收",
+  "checks": [],
+  "errors": [],
+  "error": "Error: listen EPERM: operation not permitted 127.0.0.1:49317\n    at Server.setupListenHandle [as _listen2] (node:net:1919:21)\n    at listenInCluster (node:net:1998:12)\n    at node:net:2207:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)"
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "status": "adopted",
+  "version": "sui-bg-fill-20261104-v1",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "manifestSha256": "a09b03a81e654bc87952e1538b966dd92424e99cb90d46e9e148feac8f4c31b9",
+  "bindingsSha256": "2b0249a3e389922304d6c95ea2ded2f0d66dbcfabaef1e349639fc42de437cba",
+  "counts": {
+    "displayNodes": 4814,
+    "paragraphs": 4748,
+    "assets": 268,
+    "staticCG": 81,
+    "changedBackgroundNodes": 495,
+    "onlyRainNodes": 0,
+    "missingBackgroundNodes": 0,
+    "newImages": 6,
+    "reusedBackgrounds": 7,
+    "reuseNodes": 78,
+    "newImageNodes": 417
+  },
+  "build": "qa/background-fill-20261104/build",
+  "runtimeBuildId": "6072c5469013989ab8b7290f062526cf577593d3b723942cc94422bbb0a7ba8d",
+  "preview": "http://127.0.0.1:49333/",
+  "evidence": {
+    "images": "qa/background-fill-20261104/image-check.json",
+    "static": "qa/background-fill-20261104/static-verification.json",
+    "engine": "qa/background-fill-20261104/engine-v4/report.json",
+    "browser": "qa/background-fill-20261104/browser-review.json"
+  },
+  "scope": "仅背景与退出底层采用；旧262图片字节、正文、分支、人物、道具、81静态CG/图鉴保持；动态CG另案，未发布。"
+}

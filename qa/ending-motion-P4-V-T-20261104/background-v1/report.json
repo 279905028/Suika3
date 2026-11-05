@@ -1,0 +1,32 @@
+{
+  "status": "fail",
+  "scope": "本机Chrome临时资料目录；真实切标签与六个合成触发点",
+  "checks": [],
+  "errors": [],
+  "error": "page.waitForFunction: Timeout 30000ms exceeded.\n    at run (/Users/yipin/Desktop/Suika3/tools/story-revision/ending-motion/verify-background.cjs:12:99)",
+  "engineEvents": [
+    "P4V|started",
+    "SUI_M|context|MCG-XM-E1|enter|1",
+    "P4V|node|T-XM-000826_1"
+  ],
+  "mediaEvents": [
+    {
+      "type": "start",
+      "key": "MCG-XM-E1",
+      "phase": "loading",
+      "time": 331.3999999985099
+    },
+    {
+      "type": "first-visible-frame",
+      "key": "MCG-XM-E1",
+      "phase": "playing",
+      "time": 443.1000000014901
+    },
+    {
+      "type": "ended",
+      "key": "MCG-XM-E1",
+      "phase": "static",
+      "time": 5399.39999999851
+    }
+  ]
+}

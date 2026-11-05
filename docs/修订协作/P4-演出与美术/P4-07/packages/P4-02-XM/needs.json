@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-XM",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "needs": [
+    {
+      "needId": "P4-02-XM-N001",
+      "resourceKey": "xiaoman-day40-packing-interior",
+      "kind": "background",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-XM-000212_1",
+        "T-XM-000213_1",
+        "T-XM-000214_1",
+        "T-XM-000215_1",
+        "T-XM-000216_1",
+        "T-XM-000217_1",
+        "T-XM-000218_1",
+        "T-XM-000219_1",
+        "T-XM-000220_1",
+        "T-XM-000221_1",
+        "T-XM-000222_1",
+        "T-XM-000621_1",
+        "T-XM-000622_1",
+        "T-XM-000623_1",
+        "T-XM-000624_1",
+        "T-XM-000625_1",
+        "T-XM-000626_1",
+        "T-XM-000627_1",
+        "T-XM-000628_1",
+        "T-XM-000629_1",
+        "T-XM-000226_1",
+        "T-XM-000227_1",
+        "T-XM-000228_1",
+        "T-XM-000630_1",
+        "T-XM-000631_1",
+        "T-XM-000632_1",
+        "T-XM-000230_1",
+        "T-XM-000231_1",
+        "T-XM-000232_1",
+        "T-XM-000233_1",
+        "T-XM-000234_1",
+        "T-XM-000235_1",
+        "T-XM-000633_1",
+        "XM07-01"
+      ],
+      "reason": "打包行李的场景未有匹配背景；不能用男主出租屋代她所在室内。",
+      "constraints": [
+        "仅据行李箱、桌脚、发夹、车票等已写细节设计中性局部，完整房型/产权不补设。",
+        "若P4-03确认局部留白足以承担镜头，可提交有证据的画外处置，不强制补整屋。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-xiaoman-packing-interior",
+        "reason": "使用墙面、地面和桌脚局部承担已写室内场景，不借用文文出租屋，不补完整房型或产权。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-xiaoman-packing-interior@P4-03.json",
+            "sha256": "f70fb0b22c0b351e20129dc93cab0350e11f679b482c76642895c5089aba483b"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-XM-N002",
+      "resourceKey": "xiaoman-helmets-day53-continuity",
+      "kind": "prop",
+      "action": "offscreen",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-XM-000706_1",
+        "T-XM-000707_1",
+        "T-XM-000708_1",
+        "T-XM-000709_1",
+        "T-XM-000301_1",
+        "T-XM-000302_1"
+      ],
+      "reason": "用户已确定先等车告别、之后再寄放头盔；当前冻结仍先写寄放，须移动T-XM-000296并另行重冻结，本包不改旧原件。",
+      "constraints": [
+        "总协调已取得用户决定：先等车告别，之后再寄放；将T-XM-000296移至两支站台段后、T-XM-000710第59天电话前，保留ID。",
+        "在独立候选应用修订并重冻结后，更新节点/条件/输入指纹和头盔进退场；当前need仍open，不将决定冒充已采用。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": null,
+        "reason": "已在新冻结版落实先告别、后寄放；文字/ID/条件保持；道具画外。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-07/text-amendment.json",
+            "sha256": "7b2b3a6577e85d82d8b7d453ce5a6e75d43d7b730697a856dc4a3292302b2aa6"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-XM-N003",
+      "resourceKey": "xiaoman-work-apron-empty-hands",
+      "kind": "character",
+      "action": "new",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-XM-000001_1",
+        "T-XM-000435_1",
+        "T-XM-000436_1",
+        "T-XM-000437_1",
+        "T-XM-000438_1",
+        "T-XM-000439_1",
+        "T-XM-000004_1",
+        "T-XM-000005_1",
+        "T-XM-000440_1",
+        "T-XM-000441_1",
+        "T-XM-000007_1",
+        "T-XM-000008_1",
+        "T-XM-000009_1",
+        "T-XM-000010_1",
+        "T-XM-000011_1",
+        "T-XM-000012_1",
+        "T-XM-000442_1",
+        "T-XM-000443_1",
+        "T-XM-000444_1",
+        "T-XM-000445_1",
+        "T-XM-000015_1",
+        "T-XM-000016_1",
+        "T-XM-000017_1",
+        "T-XM-000018_1",
+        "T-XM-000019_1",
+        "T-XM-000020_1",
+        "T-XM-000021_1",
+        "T-XM-000022_1",
+        "T-XM-000023_1",
+        "T-XM-000024_1",
+        "T-XM-000446_1",
+        "T-XM-000447_1",
+        "T-XM-000026_1",
+        "T-XM-000448_1",
+        "T-XM-000449_1",
+        "T-XM-000450_1",
+        "T-XM-000451_1",
+        "T-XM-000029_1",
+        "T-XM-000030_1",
+        "T-XM-000031_1",
+        "T-XM-000032_1",
+        "T-XM-000033_1",
+        "T-XM-000034_1",
+        "T-XM-000048_1",
+        "T-XM-000049_1",
+        "T-XM-000477_1",
+        "T-XM-000478_1",
+        "T-XM-000051_1",
+        "T-XM-000052_1",
+        "T-XM-000053_1",
+        "T-XM-000054_1",
+        "T-XM-000055_1",
+        "T-XM-000056_1",
+        "T-XM-000057_1",
+        "T-XM-000479_1",
+        "T-XM-000480_1",
+        "T-XM-000059_1",
+        "T-XM-000060_1",
+        "T-XM-000061_1",
+        "T-XM-000062_1",
+        "T-XM-000481_1",
+        "T-XM-000482_1",
+        "T-XM-000064_1",
+        "T-XM-000065_1",
+        "T-XM-000066_1",
+        "T-XM-000067_1",
+        "T-XM-000068_1",
+        "T-XM-000069_1",
+        "T-XM-000070_1",
+        "T-XM-000071_1",
+        "T-XM-000072_1",
+        "T-XM-000073_1",
+        "T-XM-000483_1",
+        "T-XM-000484_1",
+        "T-XM-000075_1",
+        "T-XM-000076_1",
+        "T-XM-000077_1",
+        "T-XM-000078_1",
+        "T-XM-000485_1",
+        "T-XM-000080_1",
+        "T-XM-000081_1",
+        "T-XM-000082_1",
+        "T-XM-000083_1",
+        "T-XM-000084_1",
+        "T-XM-000085_1",
+        "T-XM-000086_1",
+        "T-XM-000486_1",
+        "T-XM-000487_1",
+        "T-XM-000488_1",
+        "T-XM-000489_1",
+        "T-XM-000490_1",
+        "T-XM-000089_1",
+        "T-XM-000090_1",
+        "T-XM-000601_1",
+        "T-XM-000602_1",
+        "T-XM-000603_1",
+        "T-XM-000604_1",
+        "T-XM-000605_1",
+        "T-XM-000606_1",
+        "XM03-01",
+        "XM04-01"
+      ],
+      "reason": "既有围裙图固定闭合剪刀与梳子，不能覆盖扫发、举镜、摸班表、打开练习本、洗头等空手/换物动作。",
+      "constraints": [
+        "复用已确认白T/深灰围裙与脸，不新增服装设定。",
+        "制作无固定持物差分；动作段当前只保留背景并标阻塞，不能将静态工具图当正在接触剪发。",
+        "与COMMON同一resourceKey合并制作；闭本图不得代打开错误页或报名材料。"
+      ],
+      "existingAssetIds": [
+        "char-xiaoman-work-apron"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "char-xiaoman-work-apron-empty-hands",
+        "reason": "保留已确认白T、深灰围裙与脸型；去除固定剪刀和梳子，避免与换物动作冲突。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/char-xiaoman-work-apron-empty-hands@P4-03.json",
+            "sha256": "e3340118bc73e0dbc1acf836e1383a1cc43961145bba9199faeda2a61ab18604"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-XM-P407-CG112",
+      "resourceKey": "CG112",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-XM-000160_1"
+      ],
+      "reason": "小满裙装与文文合照；拍摄者在画外，未变成自拍。背后轻掐细节由正文补足。",
+      "constraints": [
+        "小满裙装与文文合照；拍摄者在画外，未变成自拍。背后轻掐细节由正文补足。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-xm-cg112",
+      "cgId": "CG112",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-xm-cg112",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-xm-cg112@CG-expansion-20.json",
+            "sha256": "2abe39c0ae1c76534a3df7a20fee0aa99ca924f55adcf48f29b8288cd38ce328"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-XM-P407-CG113",
+      "resourceKey": "CG113",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-XM-000228_1"
+      ],
+      "reason": "小满与行李箱；车票仅露一角，不承担文字阅读；须查看全图确认票与剪刀包。",
+      "constraints": [
+        "小满与行李箱；车票仅露一角，不承担文字阅读；须查看全图确认票与剪刀包。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-xm-cg113",
+      "cgId": "CG113",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-xm-cg113",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-xm-cg113@CG-expansion-20.json",
+            "sha256": "42d6e70e7b1a6a15aa5951f266fe7dd92b5eb10df4955b293932f5a64c5044f0"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-XM-P407-CG114",
+      "resourceKey": "CG114",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-XM-000387_1"
+      ],
+      "reason": "文文与新人理发师，镜中反射合理，小满不在场。",
+      "constraints": [
+        "文文与新人理发师，镜中反射合理，小满不在场。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-xm-cg114",
+      "cgId": "CG114",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-xm-cg114",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-xm-cg114@CG-expansion-20.json",
+            "sha256": "76ae90de1e8610c7c28a261f9adeb3c93929378c41e9e33331f64531614a4057"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "task": "P4-06",
+  "date": "2026-11-04",
+  "status": "technical-delivery-complete",
+  "formalAdoption": false,
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "runtimeBuildId": "7935a810c80cc41907fd113836f78d50ab36f730d451d048e33045595dfb1932",
+  "counts": {
+    "assets": 262,
+    "bindings": 4814,
+    "cg": 81,
+    "galleryPages": 14,
+    "boundCG": 59
+  },
+  "functionCount": 982,
+  "outputs": [
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/preview-ready/manifest.json",
+      "sha256": "2fa56315f00ff0f87a13680dd250a5c79951a19d44f3bdb4e63c031d941c6e8e",
+      "bytes": 241582
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/preview-ready/resources.json",
+      "sha256": "562bb769779f864d98b3d30a92033344d62518cd8ace23ade5db89190a93bb70",
+      "bytes": 249859
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/preview-ready/runtime-assets.json",
+      "sha256": "2a58b4373c36bb844f1915d88a136eefc077ae2c1667f08ef4e23dbd85e9bba4",
+      "bytes": 111459
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/preview-ready/bindings.json",
+      "sha256": "722e73276edf57928a5a7a1e895eb96e186a11ad324491a96b25953b731290f4",
+      "bytes": 9518250
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/preview-ready/gallery.registry.json",
+      "sha256": "788792aeaa1b8cd8baff76821022336d1692eff17960d5fbbf2cdbbf8b910151",
+      "bytes": 13781
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/preview-ready/choice-comparison.json",
+      "sha256": "e6174913e18d77b1e5c436081f97baffa45afe369a2ed30313168053421c9649",
+      "bytes": 49652
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/preview-ready/candidate-fingerprint.json",
+      "sha256": "010ca369bea54e4d56f7bbf6905072c3f82b16720ed5ab1bd14faff939382752",
+      "bytes": 88
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/preview-ready/build-result.json",
+      "sha256": "258f1db5a99f3e17e2dc8017dd5e4b5c2cf50b99da0683be798984591a873e8a",
+      "bytes": 268758
+    }
+  ],
+  "validation": [
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/static-ready/verification.json",
+      "sha256": "cd4aa8fe60e00ac59dd9014873faca4bae003c5d12b93213235a2a9fe680d0f3",
+      "bytes": 5397
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/engine-final-v2/report.json",
+      "sha256": "4ce4d4f5a8144f387abfad19d3df89187e3365468926e6c46e5d5f619f6e224b",
+      "bytes": 18507
+    },
+    {
+      "path": "qa/dialogue-p4-P4-06-20261104/browser-ready/report.json",
+      "sha256": "b8c74827644b78e9f2428762a325b20d252009900fa4b7a1280ad9525f499144",
+      "bytes": 4419
+    }
+  ],
+  "sourceTools": [
+    {
+      "path": "tools/story-revision/p4-integration/assemble.cjs",
+      "sha256": "a373aedbb299f66d11f850428a0373397c5321e0026798e8d09051958ccfa7e4",
+      "bytes": 4125
+    },
+    {
+      "path": "tools/story-revision/p4-integration/build.cjs",
+      "sha256": "77894853f4cfbc832b9008ffdd38e3d65581814caef3dabb9958cee0ba0d58ba",
+      "bytes": 4512
+    },
+    {
+      "path": "tools/story-revision/p4-integration/catalog.cjs",
+      "sha256": "7068b77939fc5bdf9c8f7179969b9ca58b180381a160f6e4500ac8a659f0929c",
+      "bytes": 3734
+    },
+    {
+      "path": "tools/story-revision/p4-integration/choices.cjs",
+      "sha256": "5c26c73031b1bc63ba0ff4f01bc31dc832e7cb5c226b306b2a8bdec8c8152bd1",
+      "bytes": 1603
+    },
+    {
+      "path": "tools/story-revision/p4-integration/common.cjs",
+      "sha256": "ef428b0789d6db68f3b62d9210606a797b0d72eda8c236512abc9059343eeb18",
+      "bytes": 2115
+    },
+    {
+      "path": "tools/story-revision/p4-integration/presentation.cjs",
+      "sha256": "2aaa49f94fe86c30a76de5257aa9f3c1dc3ed2babcbdac2c6dfedc18456a1567",
+      "bytes": 7063
+    },
+    {
+      "path": "tools/story-revision/p4-integration/README.md",
+      "sha256": "611e2311673436b55b985fbc34dac967463646f03028cb117d40ae4e027c97c3",
+      "bytes": 3273
+    },
+    {
+      "path": "tools/story-revision/p4-integration/verify-engine.cjs",
+      "sha256": "0e8b2bfcc5f8d8386bd2c4f601f589eb5b1edc5efe712157cec75f27cd441b1e",
+      "bytes": 9227
+    },
+    {
+      "path": "tools/story-revision/p4-integration/verify-preview.cjs",
+      "sha256": "f62d19108f489aad35dea6fc14765cfc37e80286b3a364ed719da7771eaef12c",
+      "bytes": 5001
+    },
+    {
+      "path": "tools/story-revision/p4-integration/verify.cjs",
+      "sha256": "eaf2905c304e00837b6e1928a94d33ab29a021eb9f2917c56d3b862982b31ee7",
+      "bytes": 11177
+    }
+  ]
+}

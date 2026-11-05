@@ -1,0 +1,415 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-FR",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "needs": [
+    {
+      "needId": "P4-02-FR-N001",
+      "resourceKey": "performance-mall-side-stage-evening",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-FR-000050_1",
+        "T-FR-000344_1",
+        "T-FR-000345_1",
+        "T-FR-000346_1",
+        "T-FR-000347_1",
+        "T-FR-000052_1",
+        "T-FR-000348_1",
+        "T-FR-000349_1",
+        "T-FR-000054_1",
+        "T-FR-000055_1",
+        "T-FR-000056_1",
+        "T-FR-000350_1",
+        "T-FR-000351_1"
+      ],
+      "reason": "演出七点开场，现有商场侧台资源标day；不得无依据沿用日景。",
+      "constraints": [
+        "确认既有舞台室内光可用于晚间则交复用证据，否则交同地点晚间版本；不改变人物西装和负责人画外。"
+      ],
+      "existingAssetIds": [
+        "bg-performance-mall-side-stage-day"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-performance-mall-side-stage-evening",
+        "reason": "正文七点开场，原侧台是显著日景；保留商场、台侧和设备，改蓝夜与工作灯。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-performance-mall-side-stage-evening@P4-03.json",
+            "sha256": "5e54970602d5587e5b1d4932e6f725f0521d5b4523c45e70e077f305551e33f5"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-N002",
+      "resourceKey": "noodle-shop-evening",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-FR-000352_1",
+        "T-FR-000353_1"
+      ],
+      "reason": "七点演出结束后吃面，现有面馆标day；需核对室内照明/窗外或补晚间版本。",
+      "constraints": [
+        "保持同一面馆布局与散场西装，不替换成朋友聚餐店；若复用需说明窗外与光线适用。"
+      ],
+      "existingAssetIds": [
+        "bg-noodle-shop-day"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-noodle-shop-evening",
+        "reason": "七点演出结束后吃面，去白昼窗光与门外阳光，保留同店桌凳、锅台及暖灯。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-noodle-shop-evening@P4-03.json",
+            "sha256": "38cd4db4ef727417d1888094a67e6da6d19a50f9af9b07eadd8e57c319728b8a"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-N003",
+      "resourceKey": "old-netcafe-backroom-neutral-day",
+      "kind": "background",
+      "action": "repair",
+      "ownerTask": "P4-03",
+      "nodeIds": [
+        "T-FR-000159_1",
+        "T-FR-000430_1",
+        "T-FR-000431_1",
+        "T-FR-000432_1",
+        "T-FR-000433_1",
+        "T-FR-000434_1",
+        "T-FR-000435_1",
+        "T-FR-000161_1"
+      ],
+      "reason": "第34天取班饭，原文未定夜间；现有后间夜图照明须核对或交中性室内光版本。",
+      "constraints": [
+        "沿用后间布局及饭盒位置，不改正文补夜晚；人物到场时点按节点。"
+      ],
+      "existingAssetIds": [
+        "bg-old-netcafe-backroom-night"
+      ],
+      "proposedAssetId": null,
+      "cgId": null,
+      "status": "resolved",
+      "resolution": {
+        "assetId": "bg-old-netcafe-backroom-neutral-day",
+        "reason": "第34天取班饭未定夜间；原图门外深夜明显，改漫射日光且保留后间电脑、饭具、桌与门。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-03/decisions.json",
+            "sha256": "fc1991b6934e5d75e8f9b7e81550796ecebe1e1c87987b4e47164a4197741d5f"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/bg-old-netcafe-backroom-neutral-day@P4-03.json",
+            "sha256": "ee487d5375497a07c86dc800f05a8c40c61225d9b6d582acb9297b5fb666f443"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-N004",
+      "resourceKey": "cg086-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000040_1"
+      ],
+      "reason": "拟复用 CG086：仅覆盖“至少让我自己答应。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg086"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG086",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-fr-cg086",
+        "reason": "搬箱现场文文、师匠、毛狼三人在场，要求先询问本人；不作恋爱镜头。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-fr-cg086@baseline.json",
+            "sha256": "9078cc494e652dcd7d8c3f9cc97758e39d47bf43e1242c9689ce424369a70727"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-N005",
+      "resourceKey": "cg090-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000440_1"
+      ],
+      "reason": "拟复用 CG090：仅覆盖“他把游戏机留下的灰印擦了两遍。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg090"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG090",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-fr-cg090",
+        "reason": "师匠擦去游戏机留下的灰印，文文在旁；不显示机器尚未卖出的状态。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-fr-cg090@baseline.json",
+            "sha256": "28aa3acc80df7a30fcfc3044f826fb82e6eec36f410cf3f53c58acff20f834e0"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-N006",
+      "resourceKey": "cg091-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000475_1"
+      ],
+      "reason": "拟复用 CG091：仅覆盖“他在旁边坐下。我想说只要没人知道是我，想到我们一起吃过的那些面，又说不出口。毛狼把那页选中，按了删除。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg091"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG091",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-fr-cg091",
+        "reason": "毛狼在电脑前删除朋友笑料，文文坐旁边；不能把删除文稿扩成已解决全部友情。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-fr-cg091@baseline.json",
+            "sha256": "b913b457971075d287f77822ad25bd7eb8410e6a72c54a84744f719a8aac008f"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-N007",
+      "resourceKey": "cg108-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000264_1"
+      ],
+      "reason": "拟复用 CG108：仅覆盖“师匠递来一份早饭，这回只买了两份。毛狼还在外地，没有一份多出来的被摆在台阶上装作人齐了。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg108"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG108",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-fr-cg108",
+        "reason": "早饭确实只有文文和师匠两份，毛狼未到场；AA平等往来，不挪用到疏远结局。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-fr-cg108@baseline.json",
+            "sha256": "4140e29eb78ca187b8606f60f7f6128b2c6b2b7d5172459fc248384c202fc9f9"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-N008",
+      "resourceKey": "cg094-p4-review",
+      "kind": "cg",
+      "action": "reuse",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000603_1"
+      ],
+      "reason": "拟复用 CG094：仅覆盖“我拿着笔，过了一会儿才说。”这一个新段。拆分后的相邻段不重复进CG。",
+      "constraints": [
+        "P4-04核对完整图与文字框遮挡；P4-05本批解码/目视复验前不可采用。",
+        "人物、衣装、时段和在场人数须与当前锚点一致；FR-E2不得使用E1团聚语义。",
+        "退出到本节点去CG底层；下一页完整重建，回退/读档亦按目标状态。"
+      ],
+      "existingAssetIds": [
+        "cg-fr-cg094"
+      ],
+      "proposedAssetId": null,
+      "cgId": "CG094",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-fr-cg094",
+        "reason": "文文独自在新柜台持笔，回话是过去式；不让师匠或毛狼入镜恢复亲密。；采用限定节点及实际目标重建，P5运行另验。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+            "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/checks/cg-fr-cg094@baseline.json",
+            "sha256": "f09ca65f3d0da79e26110c6d6a3433b0b116cc986e34ed69fddcf6e995be1322"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-P407-CG127",
+      "resourceKey": "CG127",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000010_1"
+      ],
+      "reason": "师匠拨钟，文文旁观，人物身份正确；不是回声那只停钟。",
+      "constraints": [
+        "师匠拨钟，文文旁观，人物身份正确；不是回声那只停钟。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-fr-cg127",
+      "cgId": "CG127",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-fr-cg127",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-fr-cg127@CG-expansion-20.json",
+            "sha256": "46a54350bc493ad77a73f45edcf5b9d6f987895f20eb449235047a7c8d27cfe2"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-P407-CG128",
+      "resourceKey": "CG128",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000442_1"
+      ],
+      "reason": "三张点卡与拍照手机，毛狼不在场；手机反射中的三卡不是额外实物。",
+      "constraints": [
+        "三张点卡与拍照手机，毛狼不在场；手机反射中的三卡不是额外实物。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-fr-cg128",
+      "cgId": "CG128",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-fr-cg128",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-fr-cg128@CG-expansion-20.json",
+            "sha256": "cdcaecceab7ba7a6e162cd9cc9dad653f5b77e270d21fca9993baee6c4e4ea4b"
+          }
+        ]
+      }
+    },
+    {
+      "needId": "P4-02-FR-P407-CG129",
+      "resourceKey": "CG129",
+      "kind": "cg",
+      "action": "new",
+      "ownerTask": "P4-04",
+      "nodeIds": [
+        "T-FR-000220_1"
+      ],
+      "reason": "文文扶板、师匠拆螺丝，墙上猫图案被遮住；未加毛狼或真猫。文文一手扶板一手搭肩，属于画面演绎，最终采用时复核。",
+      "constraints": [
+        "文文扶板、师匠拆螺丝，墙上猫图案被遮住；未加毛狼或真猫。文文一手扶板一手搭肩，属于画面演绎，最终采用时复核。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "existingAssetIds": [],
+      "proposedAssetId": "cg-fr-cg129",
+      "cgId": "CG129",
+      "status": "resolved",
+      "resolution": {
+        "assetId": "cg-fr-cg129",
+        "reason": "接受冻结锚点；本页首可见帧解锁，下一实际目标重建。",
+        "evidence": [
+          {
+            "path": "docs/修订协作/P4-演出与美术/CG扩充20张/binding-plans.json",
+            "sha256": "2a91486a107462b4f3a30237639de77fda88c6910d7a183d1ee864eb346ad3f3"
+          },
+          {
+            "path": "qa/dialogue-p4-P4-05-20261103/cg110-129/checks/cg-fr-cg129@CG-expansion-20.json",
+            "sha256": "20482a5090c4ba98cf4d5077e892f06c4fac0fcdf1b5f3c90897304985e77e68"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "key": "MCG-XM-E1",
+  "ending": "XM-E1",
+  "route": "xiaoman",
+  "node": "T-XM-000826_1",
+  "choices": {
+    "XM07-01": "A",
+    "XM08-01": "A"
+  },
+  "relation": null,
+  "fallback": "assets/current/SUI-A10-XM/cg-xm-cg023.webp",
+  "meeting": false,
+  "adopted": false,
+  "paragraphId": "T-XM-000826",
+  "condition": "XM07-01=A&XM08-01=A",
+  "entryGate": {
+    "type": "route",
+    "value": "xiaoman"
+  },
+  "text": "她看了我一眼，突然拿练习本挡住半张脸。过了几秒，又放下来，对着镜头飞快亲了一下。",
+  "source": {
+    "file": "scenario/罗小满-练习本.md",
+    "candidateFile": "docs/修订协作/P4-演出与美术/P4-07/正文/罗小满-练习本.md",
+    "lineHint": 2430,
+    "context": "XM-E1",
+    "sha256": "cf2de64dfa80bffdc222d4a3cd3471560fea49a434279912a7a5bbc2fda8851f"
+  },
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "firstFrame": {
+    "path": "assets/current/SUI-A10-XM/cg-xm-cg023.webp",
+    "sha256": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267"
+  },
+  "prompt": {
+    "path": "assets/sources/20261104/P4-V/XM-E1/video-v002-prompt.txt",
+    "sha256": "48064039c759998f291b46e8e2e1566a722e21b738108450ed6d1bb62125fd70"
+  },
+  "spec": {
+    "duration": 5,
+    "tolerance": [
+      4.5,
+      5.5
+    ],
+    "ratio": "16:9",
+    "minimumSize": [
+      1280,
+      720
+    ],
+    "runtimeCodec": "h264",
+    "runtimePixelFormat": "yuv420p",
+    "runtimeFps": 24,
+    "audio": false
+  },
+  "status": "video-v002-production-pass",
+  "formalBinding": false,
+  "staticFallback": {
+    "path": "assets/sources/20261104/P4-V/XM-E1/fallback-v001.webp",
+    "sha256": "0b623b32107d485b443d18d0d789f3de2ec073f03e9b18dbdd72e67709827267",
+    "derivation": "已核对首帧原样复制；不是生成视频的尾帧"
+  },
+  "dreamina": {
+    "imageNodeId": "node_sd6787pn3t",
+    "videoNodeId": "node_1g6gxrnqa0",
+    "submitId": "6cf9c302-fd9e-4a56-aca8-5f203a2e5008",
+    "model": "seedance_2.5",
+    "resolution": "720p",
+    "duration": 5,
+    "resourceId": "667d4b76-5a70-4ff3-a424-fe219776a5d4",
+    "downloadSha256": "817771c9838b3f15e17e16595c18375bf1356355f392c898d514b029e0ac8ca3"
+  },
+  "originalVideo": {
+    "path": "assets/sources/20261104/P4-V/XM-E1/raw-v002.mp4",
+    "bytes": 6920684,
+    "sha256": "817771c9838b3f15e17e16595c18375bf1356355f392c898d514b029e0ac8ca3",
+    "durationSeconds": 5.06,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.12,
+    "audioPresent": true,
+    "decodedFrames": 121,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "runtimeCandidate": {
+    "path": "assets/sources/20261104/P4-V/XM-E1/runtime-v002.mp4",
+    "bytes": 1329855,
+    "sha256": "61651d4308ea4ead0682981ec0d13b880ebcb9817a74a3e4cc731b4c0a3279ec",
+    "durationSeconds": 5.0,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "width": 1280,
+    "height": 720,
+    "fps": 24.0,
+    "audioPresent": false,
+    "decodedFrames": 120,
+    "completeDecode": true,
+    "decodeExitCode": 0
+  },
+  "firstGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/XM-E1/first-v002.webp",
+    "bytes": 932468,
+    "sha256": "2e89caf89bbc06c63c533a0559c3f9094df44436a778ebcd7cc4a134561f6cf9"
+  },
+  "lastGeneratedFrame": {
+    "path": "assets/sources/20261104/P4-V/XM-E1/last-v002.webp",
+    "bytes": 937362,
+    "sha256": "ebf141084feb6636f4e8133d27f615bc0d134b0b742ddda7abf581330776b0e1"
+  },
+  "mediaCheck": "qa/ending-motion-P4-V-Q-20261104/XM-E1/v002/media-check.json",
+  "productionReview": {
+    "ending": "XM-E1",
+    "version": "v002",
+    "status": "production-pass",
+    "observations": [
+      "手机上、下边框和四角全程可见；外部镜头基本固定。",
+      "小满完成放低练习本、一次飞吻、回到笑容，末段稳定；始终局限在手机画面内。"
+    ],
+    "repair": [],
+    "evidence": "qa/ending-motion-P4-V-Q-20261104/XM-E1/v002/contact-sheet.jpg",
+    "independentReview": "pending",
+    "formalAdoption": false
+  },
+  "independentReview": "pending",
+  "revisionDraft": {
+    "state": "generated-production-pass",
+    "nodeId": "node_1g6gxrnqa0",
+    "submitId": "6cf9c302-fd9e-4a56-aca8-5f203a2e5008",
+    "prompt": {
+      "path": "assets/sources/20261104/P4-V/XM-E1/video-v002-prompt.txt",
+      "sha256": "48064039c759998f291b46e8e2e1566a722e21b738108450ed6d1bb62125fd70"
+    }
+  },
+  "versionHistory": {
+    "v001": {
+      "status": "video-v001-needs-revision",
+      "originalVideo": {
+        "path": "assets/sources/20261104/P4-V/XM-E1/raw-v001.mp4",
+        "bytes": 9971162,
+        "sha256": "948fda83eb03620ce80debe1192067128f0ffae1e60fc1833b13dec545069d4f",
+        "durationSeconds": 5.06,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.12,
+        "audioPresent": true,
+        "decodedFrames": 121,
+        "completeDecode": true,
+        "decodeExitCode": 0
+      },
+      "runtimeCandidate": {
+        "path": "assets/sources/20261104/P4-V/XM-E1/runtime-v001.mp4",
+        "bytes": 1904848,
+        "sha256": "46879896919719b67deced336dd779fe6928fc3a53e4f2cd6d94bad8ca07e5af",
+        "durationSeconds": 5.0,
+        "codec": "h264",
+        "pixelFormat": "yuv420p",
+        "width": 1280,
+        "height": 720,
+        "fps": 24.0,
+        "audioPresent": false,
+        "decodedFrames": 120,
+        "completeDecode": true,
+        "decodeExitCode": 0
+      },
+      "firstGeneratedFrame": {
+        "path": "assets/sources/20261104/P4-V/XM-E1/first-v001.webp",
+        "bytes": 936554,
+        "sha256": "dcfca2d8f3edaddced6321b39b8e6695d2823be73c112f759d46621e2010b652"
+      },
+      "lastGeneratedFrame": {
+        "path": "assets/sources/20261104/P4-V/XM-E1/last-v001.webp",
+        "bytes": 757332,
+        "sha256": "d75726a158f7394041df7e521819171c17ad561a25f2ce310a921eb58d082d1c"
+      },
+      "mediaCheck": "qa/ending-motion-P4-V-Q-20261104/XM-E1/media-check.json",
+      "productionReview": {
+        "ending": "XM-E1",
+        "status": "needs-revision",
+        "observations": [
+          "放低练习本和一次飞吻可辨；小满始终留在手机画面内。",
+          "约2.75～4.5秒推近裁到手机上下边缘，未满足全程完整边框要求。"
+        ],
+        "repair": [
+          "锁定外部镜头，保留手机四角及边缘；只允许屏幕内人物动作。"
+        ],
+        "evidence": "qa/ending-motion-P4-V-Q-20261104/XM-E1/contact-sheet.jpg",
+        "independentReview": "pending",
+        "formalAdoption": false
+      },
+      "dreamina": {
+        "imageNodeId": "node_sd6787pn3t",
+        "videoNodeId": "node_bd00yn6w9d",
+        "submitId": "33ef7e43-9df2-46bd-8304-8b7b2262cabb",
+        "model": "seedance_2.5",
+        "resolution": "720p",
+        "duration": 5,
+        "resourceId": "e4071d1e-3ece-4610-a54c-c272c4383982",
+        "downloadSha256": "948fda83eb03620ce80debe1192067128f0ffae1e60fc1833b13dec545069d4f"
+      },
+      "prompt": {
+        "path": "assets/sources/20261104/P4-V/XM-E1/video-v001-prompt.txt",
+        "sha256": "208b9a8409792b80b082682e243fad41828ca52d3fc123b5b2d4ecd144fb9961"
+      }
+    }
+  },
+  "candidateVersion": "v002"
+}

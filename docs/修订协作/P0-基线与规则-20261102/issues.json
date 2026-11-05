@@ -1,0 +1,385 @@
+{
+  "version": "p0-issues-v1",
+  "baselineFingerprint": "0cf1828f5c16c7c32858828788bf7edaee2ad53883b6d3d6028f417f1597cd12",
+  "scope": "计划初审逐项回查及历史问题继承，不代表全稿审校；open不阻塞P0资料完成",
+  "issues": [
+    {
+      "id": "P0-01",
+      "kind": "明确错误",
+      "stage": "P2",
+      "status": "open",
+      "title": "第一章选择数及计分说明过时",
+      "detail": "写5处且称其他选择只影响当前交流；实际6处，C01-06计入飘关系。",
+      "acceptance": "按当前登记改为6处并说明计分；ID、效果不变。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 5,
+          "sha256": "1516913c5bad8939b77af9ac9a5bd69f33e4b3465687df37e4f019776e9f0ba5",
+          "paragraphId": null,
+          "quote": "> 本章5处选择，各读一项后接共同段。除记录三拍会影响黄球球线入口外，其余选择只改变当前交流，不锁定人物路线。"
+        }
+      ]
+    },
+    {
+      "id": "P0-02",
+      "kind": "明确错误",
+      "stage": "P2",
+      "status": "open",
+      "title": "第二章选择数过时",
+      "detail": "章首写7处，实际9处；两次新增计分选择都已登记。",
+      "acceptance": "改为9处，保留隐藏段前置与单次计分规则。",
+      "evidence": [
+        {
+          "file": "scenario/第二章-十四天.md",
+          "line": 5,
+          "sha256": "8783b6ebed79723143c86d7735f7f64a771dac4852bdd6b2adc6f69ca6dedfcd",
+          "paragraphId": null,
+          "quote": "> 本章7处选择，其中回应敲门与正式相识中的交流仅在对应前置成立时阅读。新增选择不改离开计划、拍卖日期或选线结果；A／B各读一项。"
+        }
+      ]
+    },
+    {
+      "id": "P0-03",
+      "kind": "明确错误",
+      "stage": "P2",
+      "status": "open",
+      "title": "周栀离场与接班时间",
+      "detail": "先约9:45离场，后来又说10点才走，夜班10点接手。",
+      "acceptance": "统一成既定9:45离场／10点接班，不另造排班。",
+      "evidence": [
+        {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "line": 393,
+          "sha256": "bfbdf01cdb78fc5bc3bbd93a74b50f3c8357c17a848578e2d23a2cf6c2f6d713",
+          "paragraphId": "T-ZZ-000164",
+          "quote": "最后回她：我来。九点四十五得走，我会当面跟你说。"
+        },
+        {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "line": 419,
+          "sha256": "f5089e8d31d174e4086f881e7a8a42bfd16bb4bb2e577eb23a8e13891007795c",
+          "paragraphId": "T-ZZ-000172",
+          "quote": "“我十点得走。”我提醒她。"
+        }
+      ]
+    },
+    {
+      "id": "P0-04",
+      "kind": "明确错误",
+      "stage": "P2",
+      "status": "open",
+      "title": "蓝沿白杯交付方向",
+      "detail": "她刚从包里取出杯子，尚未交给文文，后文却写她伸手拿“我的杯子”。",
+      "acceptance": "逐分支统一拿取者、持有人和最终交付动作。",
+      "evidence": [
+        {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "line": 857,
+          "sha256": "6a8d4778fc3dd7d6cda85db9b10573bb6e635c64820136300eb0a16db990e91c",
+          "paragraphId": "T-ZZ-000349",
+          "quote": "我们把东西送到托运处。她从包里取出那只蓝沿白杯，纸包了两层。我把借着的歌单交还给她，两种笔迹仍在末页。"
+        },
+        {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "line": 859,
+          "sha256": "99ea33f0ee3461aa0edfe2b13f73ea160676ac1680dad58c2efd2a365aaf8edc",
+          "paragraphId": "T-ZZ-000350",
+          "quote": "广播开始检票，她没急着伸手拿我的杯子，也没贴过来叫我别舍不得。"
+        }
+      ]
+    },
+    {
+      "id": "P0-05",
+      "kind": "衔接不足",
+      "stage": "P2",
+      "status": "open",
+      "title": "电子照片与照片背面",
+      "detail": "发来照片、放大查看和“背面记着参数”并置，媒介未交代。",
+      "acceptance": "按现有媒介改清；不擅增洗印、寄送经历。若需新事实先问用户。",
+      "evidence": [
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 905,
+          "sha256": "e119448acea6e422f315a8fb1c7b3cb0d7bf6664011788d234d2a1f1d1476150",
+          "paragraphId": "T-PI-000377",
+          "quote": "她发来一张散场后空下来的桌子，问我看不看得见窗上的倒影。照片背面记着她练习时的参数。我放大了看，承认没看出来，她说那就下次再拍。"
+        }
+      ]
+    },
+    {
+      "id": "P0-06",
+      "kind": "衔接不足",
+      "stage": "P2",
+      "status": "open",
+      "title": "飘HIGH第十章同场错觉",
+      "detail": "已赴贵阳，章首夹照片、绑细绳和“她说”缺乏当下／回忆／远程定位。",
+      "acceptance": "先核对分支及册子归属；未确认前不写返乡重逢或新寄件事件。",
+      "evidence": [
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 1011,
+          "sha256": "ff56fcc37f2e7f90246690e522d3fcf8bec70e3af6d8eb3f1c94a2e2142fcfad",
+          "paragraphId": "T-PI-000413",
+          "quote": "她把新洗出的几张照片夹进册子，封面绑了一根细绳。结打得不算整齐，但拆开以后纸页不会卷。她说这一回自己满意，下一回还想试别的。"
+        }
+      ]
+    },
+    {
+      "id": "P0-07",
+      "kind": "衔接不足",
+      "stage": "P2",
+      "status": "open",
+      "title": "飘LOW第36天收最后一箱",
+      "detail": "第30天回声已停业，第36天面馆谈话后“回去”帮周栀收箱，地点与缘由不明。",
+      "acceptance": "删除非必要歧义动作或用既有事实澄清，不补设搬运地址。",
+      "evidence": [
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 1204,
+          "sha256": "d0a8f17b1ab2113f55a289804a9b19872c198f250d9de6c52e73b584fc0f7067",
+          "paragraphId": "T-PI-000475",
+          "quote": "第三十天，回声停业，大家忙着搬东西。飘到得晚，把外套衣角系起来，帮周栀把照片装回纸袋。她没有举相机，只问有没有人需要她送一程。"
+        },
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 1234,
+          "sha256": "e844a8f4fa5816afdac9f5db94ec90ede2d6ac818cb60095dce7c3a4bb1dc5f4",
+          "paragraphId": "T-PI-000483",
+          "quote": "“那就先这样。”她把绳子放回台阶边，“我也要想我自己的事。”我们没有约下次见面，她回去帮周栀收最后一箱东西。"
+        }
+      ]
+    },
+    {
+      "id": "P0-08",
+      "kind": "衔接不足",
+      "stage": "P2",
+      "status": "open",
+      "title": "飘LOW两个短结局",
+      "detail": "试交往主要靠转述，两个结局各两段，尚不足以证明决定、回应和生活落点完整。",
+      "acceptance": "按既有场景补足约2—3段短场景；A保留试交往、B保留朋友，孩子责任不转移。",
+      "evidence": [
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 1334,
+          "sha256": "209157e76aafab145acc0abb40c68b320866e8e2b12be6fa836f8115dbc505f4",
+          "paragraphId": "T-PI-000503",
+          "quote": "我约飘散步，她选了下午，带着相机来。她说想过那次谈话，也喜欢和我在一起，愿意和我试着交往。我们说好遇到拿不准的事就先问，不用一句“都可以”把困难盖过去。"
+        },
+        {
+          "file": "scenario/飘-空白页.md",
+          "line": 1346,
+          "sha256": "c3fad8fc5927defec028cbef2ef2c9f94a9e88755b63d496cdcc9e35c3979af7",
+          "paragraphId": "T-PI-000506",
+          "quote": "我们没有再开始恋爱。她继续学摄影，与毛狼商量孩子的事，也自己安排每天的生活。下一次聚会，她仍会先问大家愿不愿意入镜；我愿意的话，就坐在朋友的位置上。"
+        }
+      ]
+    },
+    {
+      "id": "P0-09",
+      "kind": "明确错误",
+      "stage": "P2",
+      "status": "open",
+      "title": "四条恋爱路线尾注遗漏单身门禁",
+      "detail": "小满、周栀、孟遥、黄球球旧尾注只按HIGH/LOW说接后日谈，与已生效门禁不完整一致；朋友线本来均单身。",
+      "acceptance": "按当前rules同步导航；飘及公共事件的新尾注保留。",
+      "evidence": [
+        {
+          "file": "scenario/罗小满-练习本.md",
+          "line": 1109,
+          "sha256": "779202035584c8a29d8b562a38c5c550e5265302c47f7c99f2df3c5f53068e73",
+          "paragraphId": null,
+          "quote": "> 后续阅读：低好感怀孕路径接[未写完的安排](后日谈-未写完的安排.md)；高好感路径接[原后日谈](后日谈-他们的日子.md)，按结局编号读取。关系条件沿用共通第14天冻结结果；引擎接入另行验收。"
+        },
+        {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "line": 1269,
+          "sha256": "779202035584c8a29d8b562a38c5c550e5265302c47f7c99f2df3c5f53068e73",
+          "paragraphId": null,
+          "quote": "> 后续阅读：低好感怀孕路径接[未写完的安排](后日谈-未写完的安排.md)；高好感路径接[原后日谈](后日谈-他们的日子.md)，按结局编号读取。关系条件沿用共通第14天冻结结果；引擎接入另行验收。"
+        },
+        {
+          "file": "scenario/孟遥-旧题.md",
+          "line": 959,
+          "sha256": "6bf0e0392d091f18f52c8d093a7452c99cfbabe09f49fe8d1a516f686fe9f460",
+          "paragraphId": null,
+          "quote": "> 后续阅读：低好感怀孕路径接[未写完的安排](后日谈-未写完的安排.md)；高好感路径接[原后日谈](后日谈-他们的日子.md)，按结局编号读取。MY-E1仍为秘密关系，MY-E2维持彻底断开；公共后日谈不重选孟遥的婚姻或两人关系。关系条件沿用共通第14天冻结结果；引擎接入另行验收。"
+        },
+        {
+          "file": "scenario/黄球球-门后.md",
+          "line": 924,
+          "sha256": "779202035584c8a29d8b562a38c5c550e5265302c47f7c99f2df3c5f53068e73",
+          "paragraphId": null,
+          "quote": "> 后续阅读：低好感怀孕路径接[未写完的安排](后日谈-未写完的安排.md)；高好感路径接[原后日谈](后日谈-他们的日子.md)，按结局编号读取。关系条件沿用共通第14天冻结结果；引擎接入另行验收。"
+        }
+      ]
+    },
+    {
+      "id": "P0-10",
+      "kind": "工程缺口",
+      "stage": "P1",
+      "status": "open",
+      "title": "编译链缺显式说话人",
+      "detail": "现行parse仅有text，emit未贯通姓名；配置启用姓名框不代表已有数据。",
+      "acceptance": "三个小样通过解析、分页、清名、回顾及恢复再铺全稿。",
+      "evidence": [],
+      "files": [
+        "tools/compiler/parse.cjs",
+        "tools/compiler/emit.cjs",
+        "config.ini"
+      ]
+    },
+    {
+      "id": "P0-11",
+      "kind": "工程缺口",
+      "stage": "P1/P4",
+      "status": "open",
+      "title": "旧段落及行号绑定在改稿后失效",
+      "detail": "旧ID含原文哈希，制作表还有start/end行号。",
+      "acceptance": "采用稳定ID及一对多来源映射；变化节点全部重审绑定，不自动套图。",
+      "evidence": [],
+      "files": [
+        "tools/compiler/parse.cjs",
+        "tools/integration/assets/portrait-gap-plan.cjs",
+        "docs/整合/bindings.json"
+      ]
+    },
+    {
+      "id": "P0-12",
+      "kind": "工程缺口",
+      "stage": "P4",
+      "status": "open",
+      "title": "CG固定60项与选项文字图",
+      "detail": "新增CG需联动登记、容量、解锁和校验；改选项文案需重建电影侧栏文字图。",
+      "acceptance": "新编号不复用取消编号；清单与图鉴、绑定、界面和文字图一起验证。",
+      "evidence": [],
+      "files": [
+        "tools/integration/runtime/validate.cjs",
+        "system/sui-u/gallery.registry.json",
+        "system/sui-cinema/manifest.json"
+      ]
+    },
+    {
+      "id": "P0-13",
+      "kind": "历史待复核",
+      "stage": "P4",
+      "status": "open",
+      "title": "CG066坐姿／站立偏差",
+      "detail": "旧QA记录站立拥吻与正文坐姿冲突，本次只保留问题，不重新目视判定。",
+      "acceptance": "按冻结正文复查、必要时修图；不改正文迁就画面。",
+      "evidence": [],
+      "files": [
+        "qa/sui-q-20261030/验收报告.md"
+      ],
+      "historicalId": "Q-SPECIAL-01"
+    },
+    {
+      "id": "P0-14",
+      "kind": "历史待复核",
+      "stage": "P5",
+      "status": "open",
+      "title": "Firefox快速面板交互漏操作",
+      "detail": "旧QA的快速存读档衔接未通过，慢速通过不能关闭；P0未复现。",
+      "acceptance": "修复后按原快节奏复测，独立存储并记录浏览器版本。",
+      "evidence": [],
+      "files": [
+        "qa/sui-q-20261030/验收报告.md"
+      ],
+      "historicalId": "Q-B01"
+    },
+    {
+      "id": "P0-15",
+      "kind": "工程缺口",
+      "stage": "P1/P2",
+      "status": "open",
+      "title": "资源称呼不能充当剧情揭示",
+      "detail": "陈孃／资源名陈嬢、办事的人／资源名租房办事员不同；陈晟手机姓名不等于已认识本人。",
+      "acceptance": "以称呼表与原文信息时点逐句标注；陌生声音不显示真实姓名。",
+      "evidence": [
+        {
+          "file": "scenario/第一章-回到毕节.md",
+          "line": 109,
+          "sha256": "f7d31ec21a26a6bd509bf6fc54db908af3383c640fefc91589b4aca71012e991",
+          "paragraphId": "T-C01-000043",
+          "quote": "傍晚，我把箱子搬进坡上的出租屋。五百一个月，窗外正对着一堵墙。陈孃收了房租，拿来一碗汤，问我要不要旧凳子。"
+        },
+        {
+          "file": "scenario/罗小满-练习本.md",
+          "line": 911,
+          "sha256": "b7f6c3c548a87fc3797f6db2529340cffc09ac89a6e530ef553a94d5ec06c03c",
+          "paragraphId": "T-XM-000362",
+          "quote": "办事的人问我以前住哪边，我指了方向，说过一会儿还要去拿东西。话说出口，我才听见自己用了以前。"
+        },
+        {
+          "file": "scenario/孟遥-旧题.md",
+          "line": 63,
+          "sha256": "1b3ec279b1e79d8c8e26f3233de06c6d9a740cc5033da0ae32917104b7fa9e3c",
+          "paragraphId": "T-MY-000025",
+          "quote": "她说完没有往下安排我的一天。我看见她在手机上回复一个人：资料我看了，等确认课时费再定。对话上方写着陈晟，我不认识。"
+        }
+      ]
+    },
+    {
+      "id": "P0-16",
+      "kind": "说明过时",
+      "stage": "P3",
+      "status": "open",
+      "title": "旧文档仍写未接入引擎",
+      "detail": "部分正文／人物说明保留迁移前状态；不能据此忽略已完成的本机候选验收。",
+      "acceptance": "合审时更新状态说明并引用相应QA；不把P0当作新引擎验收。",
+      "evidence": [
+        {
+          "file": "scenario/README.md",
+          "line": 3,
+          "sha256": "9f6a7a6bc47a458ddfbdcec640641e37661cbc35544338626b5b70bb2724f5e6",
+          "paragraphId": null,
+          "quote": "更新：2026-10-28｜当前可编辑文稿，尚未转换或接入Suika3引擎。"
+        }
+      ],
+      "files": [
+        "docs/人物/文文.md",
+        "docs/人物/孟遥.md"
+      ]
+    },
+    {
+      "id": "P0-17",
+      "kind": "需用户决定",
+      "stage": "P2/P3",
+      "status": "open",
+      "title": "毛狼两个月长活与第92天回来",
+      "detail": "共通原话是“可能”“前后两个月”，朋友线第91天说明天回来；旧QA未认定为确定矛盾。",
+      "acceptance": "修到此处若须解释提前结束或短暂回来，应先问用户；也可保留未定安排，不擅自定因果。",
+      "evidence": [
+        {
+          "file": "scenario/第二章-十四天.md",
+          "line": 108,
+          "sha256": "4743c9c0a2626a61c3406638556c0f4b8645272d4fba9a566e73cff4800bfe11",
+          "paragraphId": "T-C02-000033",
+          "quote": "毛狼过来时，给我们带了两杯奶茶。他说第六十天开始可能接个长活，跟演出队去几个县，前后两个月。"
+        },
+        {
+          "file": "scenario/朋友与职业-夜班.md",
+          "line": 792,
+          "sha256": "6e08a44709d0b9698937563c3d45818875796d49f0cdcf7104041910e5f9ebf4",
+          "paragraphId": "T-FR-000284",
+          "quote": "吃完，他往停车的地方走，我留在路边把袋子扔进垃圾桶。毛狼在群里发来一张路牌，说明天下午回来。我看过，回了路上慢点，没有接着安排三个人一定要聚齐。"
+        }
+      ],
+      "decision": "unresolved; P0只登记，不新增叙事规则"
+    },
+    {
+      "id": "P0-18",
+      "kind": "历史待复核",
+      "stage": "P4/P5",
+      "status": "open",
+      "title": "次要视觉、首开负载与设备缺口",
+      "detail": "旧QA还留CG025时段、CG001全图提示对比度、scene-260消息／见面边界，以及首开负载、Safari、手机／桌面原生与长期压力待验。",
+      "acceptance": "按实际修订影响重新检查，保留独立验收层级，不以Chrome专项代替其他范围。",
+      "evidence": [],
+      "files": [
+        "qa/sui-q-20261030/验收报告.md",
+        "qa/ui-cinema-20261030/验收记录.md"
+      ]
+    }
+  ]
+}

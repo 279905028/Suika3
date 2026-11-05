@@ -11,7 +11,7 @@ const hash=data=>crypto.createHash('sha256').update(data).digest('hex');
 const fileHash=p=>hash(fs.readFileSync(p));
 const mkdir=p=>fs.mkdirSync(p,{recursive:true});
 function files(dir){return fs.readdirSync(dir,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name)).flatMap(e=>e.isDirectory()?files(path.join(dir,e.name)):[path.join(dir,e.name)]);}
-function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABASE_PREFIX}={}){
+function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABASE_PREFIX,motionPlatform="web"}={}){
   assert(out,'必须显式指定新输出目录；SUI-I02 请使用 tools/integration/runtime/build.cjs');
   const root=path.resolve(projectRoot);
   const base=path.resolve(out),relative=path.relative(ROOT,base);
@@ -28,6 +28,16 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
   assert(config.includes('msgbox.image=system/sui-u/png/message.png'),'根 config.ini 尚未接入 SUI-U 配置');
   if(cinema)config=cinemaModule.config(config);
   const generated=compiled||compile({root,pageSize:108});
+  assert(["web","native"].includes(motionPlatform));
+  const motionModule=require("./motion.cjs"),motion=motionPlatform==="web"?motionModule.load(root,generated):null;
+  // Explicit media suffixes can be wider than the former 240px name plate.
+  // Keep its approved image; fit the current names without shortening identity.
+  const nameLength=Math.max(0,...generated.ir.nodes.map(n=>Array.from(n.textMeta?.displayName||'').length));
+  if(nameLength){
+    const size=Math.min(26,Math.floor(208/nameLength));
+    assert(size>=18,'姓名过长，须先调整姓名框布局');
+    config=config.replace(/^namebox.font.size=.*$/m,'namebox.font.size='+size).replace(/^namebox.margin.top=.*$/m,'namebox.margin.top='+Math.floor((48-size)/2));
+  }
   if(cinema)assert.equal(cinema.contentBuildId,generated.ir.buildId,'电影UI选项图与正文版本不符；请先运行 tools/ui-cinema/build.cjs');
   const stage=path.join(base,'stage'),web=path.join(base,'web'),bin=path.join(base,'bin');
   for(const dir of [stage,web,bin])mkdir(dir);
@@ -36,6 +46,7 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
   if(titleCover)for(const rel of titleCover.inputFiles)sources.add(rel);
   if(titleMotion)for(const rel of ['tools/runtime/title-motion.cjs','tools/runtime/title-motion.js'])sources.add(rel);
   if(cinema)for(const rel of cinema.inputFiles)sources.add(rel);
+  if(motion)for(const rel of motion.inputFiles)sources.add(rel);
   function write(rel,data){assert(!path.isAbsolute(rel)&&!rel.split('/').includes('..'));mkdir(path.dirname(path.join(stage,rel)));fs.writeFileSync(path.join(stage,rel),data);inputs.add(rel);}
   function copy(rel,source=rel){
     if(titleCover&&rel==='system/sui-u/gui/title.gui')source=titleCover.gui;
@@ -83,6 +94,7 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
   let uiRay=ui.raySourceOrder.map(rel=>{sources.add(rel);return fs.readFileSync(path.join(root,rel),'utf8');}).join('\n');
   let adapted=integration?integration.adapt({generated,host,uiRay}):{host,uiRay,ray:'',contentRay:generated.artifacts['story.ray'],contentNovel:generated.artifacts['story.novel']};
   if(cinema)adapted=cinemaModule.adapt(root,cinema,adapted);
+  if(motion){assert(integration,"动态CG需要正式演出接口");adapted=motionModule.adapt(root,motion,adapted);}
   host=titleMotion?titleMotion.host(adapted.host):adapted.host;uiRay=adapted.uiRay;
   const contentRay=adapted.contentRay.replace('func Tag_sc_choose(params)', 'func sc_content_choose(params)');
   assert.notEqual(contentRay,generated.artifacts['story.ray'],'选择入口包装锚点丢失');
@@ -91,6 +103,7 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
   const contentNovel=adapted.contentNovel.replace(/^\[sc_choose id=("[^"]+")\]$/gm,(line,id)=>{checkpointCount++;return '[e_checkpoint id='+id+']\n'+line;});
   assert.equal(checkpointCount,generated.manifest.counts.choices);
   write('start.novel',fs.readFileSync(path.join(root,'start.novel'),'utf8')+'\n'+contentNovel);
+  for(const line of fs.readFileSync(path.join(stage,'start.novel'),'utf8').split('\n'))if(line.startsWith('[text '))assert(line.endsWith(']'),'text标签必须为单行；换行请使用转义，避免原生行号漂移');
   const positions={};let cursor='';
   fs.readFileSync(path.join(stage,'start.novel'),'utf8').split('\n').forEach((line,index)=>{
     const at=line.match(/^\[sc_at id="([^"]+)"\]/);if(at)cursor=at[1];
@@ -134,6 +147,7 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
     }
   }
   if(integration){for(const asset of integration.assets)copy(asset.runtimePath);for(const rel of integration.extraFiles||[])copy(rel);}
+  for(const match of fs.readFileSync(path.join(stage,'start.novel'),'utf8').matchAll(/\[(?:gui|bg) file="([^"]+)"/g))assert(inputs.has(match[1]),'入口依赖未打包：'+match[1]);
   const list=[...inputs].sort();
   const sourceHashes=Object.fromEntries([...sources].sort().map(p=>[p,fileHash(path.join(root,p))]));
   const runtimeBuildId=hash(JSON.stringify({contentBuildId:generated.ir.buildId,sourceHashes,sdk:SDK_SHA,shell:fileHash(path.join(root,'tools/runtime/shell.js')),css:fileHash(path.join(root,'tools/runtime/shell.css')),build:fileHash(path.join(root,'tools/runtime/build.cjs')),integration:integration?integration.fingerprint:null}));
@@ -163,14 +177,17 @@ function build({out,projectRoot=ROOT,compiled,integration,databasePrefix=DATABAS
     fs.copyFileSync(path.join(root,titleCover.motion.path),path.join(web,'title-motion.mp4'));
     fs.copyFileSync(path.join(root,'tools/runtime/title-motion.js'),path.join(web,'title-motion.js'));
   }
+  const motionWeb=motion?motionModule.web(root,motion,web,databasePrefix):null;
+  if(motionWeb)once('</head>',motionWeb.head+'</head>');
   fs.writeFileSync(path.join(web,'index.html'),html);
   for(const name of ['shell.js','shell.css'])fs.copyFileSync(path.join(root,'tools/runtime',name),path.join(web,name));
   const manifest={schemaVersion:1,task:integration?'SUI-I02':'SUI-E',runtimeBuildId,contentBuildId:generated.ir.buildId,project:PROJECT,databasePrefix,canvas:[1280,720],sdkSha256:SDK_SHA,pageSize:108,sourceHashes,
+    motion:motion?{count:motion.manifest.items.length,version:motion.manifest.version,manifest:motionModule.MANIFEST,bindings:motionModule.BINDINGS,native:"static-fallback",web:"full-frame-stop-at-source-node"}:null,
     runtimePositions:{count:Object.keys(positions).length,lineBase:1,batchSize:12},
     guiActions:{variable:'e_action',save:{1:'S',2:'D',3:'F'},load:{0:'A',1:'1',2:'2',3:'3'},openSave:'V',openLoad:'L',rollback:'R',nativeDirectSaveLoad:false},
     resourceBindings:integration?integration.bindings:[],webpCompatibility:integration?'SUI-I02显式图层适配；以当前候选实测为准':'仅PNG界面',
     inputs:list.map(p=>({path:p,bytes:fs.statSync(path.join(stage,p)).size,sha256:fileHash(path.join(stage,p))})),
-    outputs:['assets.arc','index.html','shell.js','shell.css',...(titleMotion?['title-motion.mp4','title-motion.js']:[])].map(p=>({path:'web/'+p,bytes:fs.statSync(path.join(web,p)).size,sha256:fileHash(path.join(web,p))}))};
+    outputs:['assets.arc','index.html','shell.js','shell.css',...(titleMotion?['title-motion.mp4','title-motion.js']:[]),...(motionWeb?.outputs||[])].map(p=>({path:'web/'+p,bytes:fs.statSync(path.join(web,p)).size,sha256:fileHash(path.join(web,p))}))};
   fs.writeFileSync(path.join(base,'build-manifest.json'),JSON.stringify(manifest,null,2)+'\n');
   console.log(JSON.stringify({out:path.relative(root,base),runtimeBuildId,contentBuildId:generated.ir.buildId,inputs:list.length,pages:generated.manifest.counts.pages,archiveBytes:fs.statSync(path.join(web,'assets.arc')).size}));
   return manifest;

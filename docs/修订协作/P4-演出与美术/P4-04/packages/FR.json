@@ -1,0 +1,564 @@
+{
+  "schemaVersion": "p4-cg-review-v1",
+  "taskId": "P4-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "status": "production-complete-awaiting-P4-05",
+  "scope": "CG图文复核建议；不是02完整绑定或05资源通过目录",
+  "packageId": "P4-02-FR",
+  "records": [
+    {
+      "cgId": "CG086",
+      "assetId": "cg-fr-cg086",
+      "title": "至少让我自己答应",
+      "packageId": "P4-02-FR",
+      "decision": "reuse",
+      "basis": "搬箱现场文文、师匠、毛狼三人在场，要求先询问本人；不作恋爱镜头。",
+      "legacyParagraphIds": [
+        "T-FR-000040"
+      ],
+      "proposedNodeIds": [
+        "T-FR-000040_1"
+      ],
+      "anchor": {
+        "nodeId": "T-FR-000040_1",
+        "paragraphId": "T-FR-000040",
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "friends"
+        },
+        "textMeta": {
+          "id": "T-FR-000040",
+          "kind": "dialogue",
+          "speaker": "wenwen",
+          "name": "文文",
+          "channel": "face",
+          "group": null,
+          "displayName": "文文"
+        },
+        "source": {
+          "file": "scenario/朋友与职业-夜班.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/朋友与职业-夜班.md",
+          "lineHint": 231,
+          "context": "FR03-01/COMMON",
+          "sha256": "cca964f7238f3180a6f608829e5095d014bf8a432f725f7210eb18f63e8ef596"
+        }
+      },
+      "text": "至少让我自己答应。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-FR-000332_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg086-v002.png",
+          "sha256": "4dd48f873f80fce9f7468d4b4253dac14fb5ebf5b258d0ed13500b95b0a15910",
+          "bytes": 2390355,
+          "format": "PNG",
+          "size": [
+            1672,
+            940
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-FR/cg-fr-cg086.webp",
+          "sha256": "965c1a29f75a55e8f774fca0a767b8de24c16c1185ad60998ffded8cd2e4ef05",
+          "bytes": 1612456,
+          "format": "WEBP",
+          "size": [
+            1672,
+            940
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG086-full.webp",
+          "sha256": "7093f032d7207a79b28db424d0780003c58d22ef43f65d894ef25200905a54d3",
+          "bytes": 1063878
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG086-overlay.webp",
+          "sha256": "754a50731e792ca8dcdaa15e187c6dfe736a4aad1cf18d49fedf29d50f5d3fb0",
+          "bytes": 884664
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG090",
+      "assetId": "cg-fr-cg090",
+      "title": "卖掉旧游戏机",
+      "packageId": "P4-02-FR",
+      "decision": "rebind",
+      "basis": "师匠擦去游戏机留下的灰印，文文在旁；不显示机器尚未卖出的状态。",
+      "legacyParagraphIds": [
+        "T-FR-000440",
+        "T-FR-000441"
+      ],
+      "proposedNodeIds": [
+        "T-FR-000440_1"
+      ],
+      "anchor": {
+        "nodeId": "T-FR-000440_1",
+        "paragraphId": "T-FR-000440",
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "friends"
+        },
+        "textMeta": {
+          "id": "T-FR-000440",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/朋友与职业-夜班.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/朋友与职业-夜班.md",
+          "lineHint": 970,
+          "context": "FR-D36-RETURN",
+          "sha256": "1aec2ef86aa3a41d4c11992ffdbfb35e363c6ab5679ff3fafae3ea00dac9582b"
+        }
+      },
+      "text": "他把游戏机留下的灰印擦了两遍。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-FR-000441_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg090-v001.png",
+          "sha256": "931a4ac97c8a2f7abdf1134074903f07623b45e68b778385a956effc51b17334",
+          "bytes": 2414324,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-FR/cg-fr-cg090.webp",
+          "sha256": "1d5775bd47c05ab40b513a9050bdf422000710a600eb2eb3c89efae7f3c6baa1",
+          "bytes": 1626616,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG090-full.webp",
+          "sha256": "da62451ff72d4df6bc4719d441d46c1103663f7dff91b7d011d2056af66023b5",
+          "bytes": 1055750
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG090-overlay.webp",
+          "sha256": "dae16ffbb237204a79a49d81583ccc629e067f16380f656d3f582d07a4d699d7",
+          "bytes": 883148
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG091",
+      "assetId": "cg-fr-cg091",
+      "title": "删掉朋友的笑料",
+      "packageId": "P4-02-FR",
+      "decision": "reuse",
+      "basis": "毛狼在电脑前删除朋友笑料，文文坐旁边；不能把删除文稿扩成已解决全部友情。",
+      "legacyParagraphIds": [
+        "T-FR-000475"
+      ],
+      "proposedNodeIds": [
+        "T-FR-000475_1"
+      ],
+      "anchor": {
+        "nodeId": "T-FR-000475_1",
+        "paragraphId": "T-FR-000475",
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "friends"
+        },
+        "textMeta": {
+          "id": "T-FR-000475",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/朋友与职业-夜班.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/朋友与职业-夜班.md",
+          "lineHint": 1173,
+          "context": "FR07-01/COMMON",
+          "sha256": "7a14ad4ad63ec5c95c15a7f5791a0b0fe7ef2f2fc0f2806aeb4935441a0651b6"
+        }
+      },
+      "text": "他在旁边坐下。我想说只要没人知道是我，想到我们一起吃过的那些面，又说不出口。毛狼把那页选中，按了删除。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-FR-000205_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg091-v001.png",
+          "sha256": "c2803d9134fbbb37db8c92a9d5bc5a0fca56d858ed25a5263ddccaffff6aeb42",
+          "bytes": 2191908,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-FR/cg-fr-cg091.webp",
+          "sha256": "c083b2d71de5a8a399cf60c854a2ac166d781e93b488dba4433852cf7ece1296",
+          "bytes": 1511448,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG091-full.webp",
+          "sha256": "b2f131211dfc649f3d82c97086a844e91548220ea14a408160587de215e384bb",
+          "bytes": 998008
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG091-overlay.webp",
+          "sha256": "66f128f0f28b6c6840a286f885631451f16f88a944624a17de1013896372afc2",
+          "bytes": 848670
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG108",
+      "assetId": "cg-fr-cg108",
+      "title": "两份早饭，不假装人齐",
+      "packageId": "P4-02-FR",
+      "decision": "reuse",
+      "basis": "早饭确实只有文文和师匠两份，毛狼未到场；AA平等往来，不挪用到疏远结局。",
+      "legacyParagraphIds": [
+        "T-FR-000264"
+      ],
+      "proposedNodeIds": [
+        "T-FR-000264_1"
+      ],
+      "anchor": {
+        "nodeId": "T-FR-000264_1",
+        "paragraphId": "T-FR-000264",
+        "condition": "FR06-01=A&FR08-01=A",
+        "routeIds": [
+          "friends"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "friends"
+        },
+        "textMeta": {
+          "id": "T-FR-000264",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/朋友与职业-夜班.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/朋友与职业-夜班.md",
+          "lineHint": 1629,
+          "context": "FR-E1",
+          "sha256": "451d21ce9bf3c37368158dbe97e38d7e1072d98d6ea6648483a7d24c004f30a6"
+        }
+      },
+      "text": "师匠递来一份早饭，这回只买了两份。毛狼还在外地，没有一份多出来的被摆在台阶上装作人齐了。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-FR-000265_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg108-v002.png",
+          "sha256": "4c6db0003622ef621ee5eb780b7d462025cb2cb1f29ee7228c95700170478ab6",
+          "bytes": 2622440,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-FR/cg-fr-cg108.webp",
+          "sha256": "cc9a55ee0660e6ff1f2f85867218511334174f1392a5a29e2a8beca54352ebc3",
+          "bytes": 1817820,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG108-full.webp",
+          "sha256": "75894ae1389430662c6b6bb20ac761a79ab44c3e1465f86cc912023cf9706fe6",
+          "bytes": 1196744
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG108-overlay.webp",
+          "sha256": "7713f8c6f4bfc37e3ee8fcecd54ce8b120ee2da5332b30696eb355846bba9552",
+          "bytes": 1015358
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG094",
+      "assetId": "cg-fr-cg094",
+      "title": "挺好过",
+      "packageId": "P4-02-FR",
+      "decision": "rebind",
+      "basis": "文文独自在新柜台持笔，回话是过去式；不让师匠或毛狼入镜恢复亲密。",
+      "legacyParagraphIds": [
+        "T-FR-000603",
+        "T-FR-000604"
+      ],
+      "proposedNodeIds": [
+        "T-FR-000603_1"
+      ],
+      "anchor": {
+        "nodeId": "T-FR-000603_1",
+        "paragraphId": "T-FR-000603",
+        "condition": "FR06-01=B|FR08-01=B",
+        "routeIds": [
+          "friends"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "friends"
+        },
+        "textMeta": {
+          "id": "T-FR-000603",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/朋友与职业-夜班.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/朋友与职业-夜班.md",
+          "lineHint": 1823,
+          "context": "FR-E2",
+          "sha256": "6031a668081a1962ee780c6418d177f875f95c699da9422ef26fb32671c35e99"
+        }
+      },
+      "text": "我拿着笔，过了一会儿才说。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-FR-000604_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-FR/cg-fr-cg094-v001.png",
+          "sha256": "eff27f0afac2366488bd1c4c627faf28f0122a5e85fac711b865421236b3fe71",
+          "bytes": 2404680,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-FR/cg-fr-cg094.webp",
+          "sha256": "c2d83e377ec5db4f3d882b4f5126385f4b50adf3797830b8b3573e2ea6839be4",
+          "bytes": 1651912,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG094-full.webp",
+          "sha256": "2e8bd3ef91a5703b34ac956fb2968509d77ab0fadf66832c03448aed10afce4c",
+          "bytes": 1093588
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG094-overlay.webp",
+          "sha256": "11586eba1763a55764d5c68b0d29b5ef3ae52b58161a0159d64ef556b14a3c4b",
+          "bytes": 921812
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    }
+  ]
+}

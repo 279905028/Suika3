@@ -1,0 +1,600 @@
+{
+  "schemaVersion": "p4-package-v2",
+  "packageId": "P4-02-FR",
+  "inputFingerprint": "133295aea6cac5e6bf506521681af0343d81418d2ca00b64fc4a425d0a1ac82c",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "boundaries": [
+    {
+      "boundaryId": "entry:T-FR-000001_1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "file-entry：文件入口 → T-FR-000001_1（text，ALL，none）。进入旧店第15天下午买家量柜台，不继承共通网游群像或其他路线女主。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:FR03-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：FR03-01 → BRANCH_38026d20a7154895adc3（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_38026d20a7154895adc3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_38026d20a7154895adc3 → T-FR-000019_1（text，FR03-01=A，face）、BRANCH_732477d2879bcfb6cc99（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_38026d20a7154895adc3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_38026d20a7154895adc3 → BRANCH_732477d2879bcfb6cc99（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_732477d2879bcfb6cc99",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_732477d2879bcfb6cc99 → T-FR-000315_1（text，FR03-01=B，face）、T-FR-000026_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_732477d2879bcfb6cc99",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_732477d2879bcfb6cc99 → T-FR-000026_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:FR04-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：FR04-01 → BRANCH_be5618199e5979b697f6（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_be5618199e5979b697f6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_be5618199e5979b697f6 → T-FR-000340_1（text，FR04-01=A，text）、BRANCH_d4645905f256deb4f245（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_be5618199e5979b697f6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_be5618199e5979b697f6 → BRANCH_d4645905f256deb4f245（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d4645905f256deb4f245",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_d4645905f256deb4f245 → T-FR-000354_1（text，FR04-01=B，none）、T-FR-000067_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d4645905f256deb4f245",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_d4645905f256deb4f245 → T-FR-000067_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:FR05-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：FR05-01 → BRANCH_53a148f02651156575db（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_53a148f02651156575db",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_53a148f02651156575db → T-FR-000102_1（text，FR05-01=A，face）、BRANCH_6d81a2732423e539f5f4（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_53a148f02651156575db",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_53a148f02651156575db → BRANCH_6d81a2732423e539f5f4（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6d81a2732423e539f5f4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_6d81a2732423e539f5f4 → T-FR-000106_1（text，FR05-01=B，face）、T-FR-000111_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6d81a2732423e539f5f4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_6d81a2732423e539f5f4 → T-FR-000111_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:FR06-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：FR06-01 → BRANCH_5e005328fa05adeb6bb2（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5e005328fa05adeb6bb2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_5e005328fa05adeb6bb2 → T-FR-000397_1（text，FR06-01=A，text）、BRANCH_43882ea203db7bd8837f（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5e005328fa05adeb6bb2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_5e005328fa05adeb6bb2 → BRANCH_43882ea203db7bd8837f（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_43882ea203db7bd8837f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_43882ea203db7bd8837f → T-FR-000410_1（text，FR06-01=B，none）、T-FR-000154_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_43882ea203db7bd8837f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_43882ea203db7bd8837f → T-FR-000154_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_39d59ded154931bdd118",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_39d59ded154931bdd118 → T-FR-000430_1（text，FR06-01=A，none）、BRANCH_683aff49051732068597（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_39d59ded154931bdd118",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_39d59ded154931bdd118 → BRANCH_683aff49051732068597（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_683aff49051732068597",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_683aff49051732068597 → T-FR-000161_1（text，FR06-01=B，none）、T-FR-000162_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_683aff49051732068597",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_683aff49051732068597 → T-FR-000162_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d523a215a7e3431e61d3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_d523a215a7e3431e61d3 → CALL_094a30775549fb2f29fb（控制锚点）、FR-D36-RETURN（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d523a215a7e3431e61d3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_d523a215a7e3431e61d3 → FR-D36-RETURN（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "call:CALL_094a30775549fb2f29fb",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "call：CALL_094a30775549fb2f29fb → PIAO-D36（控制锚点）。只在LOW读第36天消息；第35天二手页面退出，COMMON独占消息镜头，返回FR-D36-RETURN后从T-FR-000163_1进入第36天下午买家取游戏机。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:FR07-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：FR07-01 → BRANCH_a19664fce3becf990f94（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a19664fce3becf990f94",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_a19664fce3becf990f94 → T-FR-000187_1（text，FR07-01=A，face）、BRANCH_bfd61a71b4f2a56be15d（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a19664fce3becf990f94",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_a19664fce3becf990f94 → BRANCH_bfd61a71b4f2a56be15d（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_bfd61a71b4f2a56be15d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_bfd61a71b4f2a56be15d → T-FR-000467_1（text，FR07-01=B，none）、T-FR-000195_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_bfd61a71b4f2a56be15d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_bfd61a71b4f2a56be15d → T-FR-000195_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:FR08-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：FR08-01 → BRANCH_8fe7d0705657a85dbc44（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_8fe7d0705657a85dbc44",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_8fe7d0705657a85dbc44 → T-FR-000492_1（text，FR08-01=A，none）、BRANCH_4ce1b363b4bf402d6e3e（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_8fe7d0705657a85dbc44",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_8fe7d0705657a85dbc44 → BRANCH_4ce1b363b4bf402d6e3e（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_5da21a778789b91c38a2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_5da21a778789b91c38a2 → T-FR-000494_1（text，FR08-01=A&FR06-01=A，none）、BRANCH_1ba9de57d634bbc0e2a5（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_5da21a778789b91c38a2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_5da21a778789b91c38a2 → BRANCH_1ba9de57d634bbc0e2a5（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_1ba9de57d634bbc0e2a5",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_1ba9de57d634bbc0e2a5 → T-FR-000501_1（text，FR08-01=A&FR06-01=B，phone）、BRANCH_4ce1b363b4bf402d6e3e（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_1ba9de57d634bbc0e2a5",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_1ba9de57d634bbc0e2a5 → BRANCH_4ce1b363b4bf402d6e3e（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_4ce1b363b4bf402d6e3e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_4ce1b363b4bf402d6e3e → T-FR-000232_1（text，FR08-01=B，none）、T-FR-000237_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_4ce1b363b4bf402d6e3e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_4ce1b363b4bf402d6e3e → T-FR-000237_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_2efe57f37356af518267",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_2efe57f37356af518267 → T-FR-000509_1（text，FR08-01=B&FR06-01=A，face）、BRANCH_b1cccb392621fe80a3a9（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_2efe57f37356af518267",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_2efe57f37356af518267 → BRANCH_b1cccb392621fe80a3a9（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b1cccb392621fe80a3a9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_b1cccb392621fe80a3a9 → T-FR-000515_1（text，FR08-01=B&FR06-01=B，none）、T-FR-000237_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b1cccb392621fe80a3a9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_b1cccb392621fe80a3a9 → T-FR-000237_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:FR09-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：FR09-01 → BRANCH_38872088c3a63fa94677（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_38872088c3a63fa94677",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_38872088c3a63fa94677 → T-FR-000526_1（text，FR09-01=A，none）、BRANCH_16819bbfe72cc8c811e1（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_38872088c3a63fa94677",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_38872088c3a63fa94677 → BRANCH_16819bbfe72cc8c811e1（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_16819bbfe72cc8c811e1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_16819bbfe72cc8c811e1 → T-FR-000530_1（text，FR09-01=B，none）、T-FR-000244_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_16819bbfe72cc8c811e1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_16819bbfe72cc8c811e1 → T-FR-000244_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_993b66b56387c0aeeeec",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_993b66b56387c0aeeeec → T-FR-000536_1（text，FR06-01=A&FR08-01=A，text）、BRANCH_384048492597835b5203（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_993b66b56387c0aeeeec",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_993b66b56387c0aeeeec → BRANCH_384048492597835b5203（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_384048492597835b5203",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_384048492597835b5203 → T-FR-000255_1（text，FR06-01=B|FR08-01=B，none）、T-FR-000259_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_384048492597835b5203",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_384048492597835b5203 → T-FR-000259_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:FR10-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "choice：FR10-01 → BRANCH_1bc15d561924125c3942（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_1bc15d561924125c3942",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_1bc15d561924125c3942 → T-FR-000555_1（text，FR10-01=A，none）、BRANCH_d169e6ce56d2f8a1ebe6（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_1bc15d561924125c3942",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_1bc15d561924125c3942 → BRANCH_d169e6ce56d2f8a1ebe6（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d169e6ce56d2f8a1ebe6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_d169e6ce56d2f8a1ebe6 → T-FR-000559_1（text，FR10-01=B，none）、T-FR-000263_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d169e6ce56d2f8a1ebe6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_d169e6ce56d2f8a1ebe6 → T-FR-000263_1（text，ALL，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a22cf8d1374266470c98",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_a22cf8d1374266470c98 → FR-E1（控制锚点）、BRANCH_d01968b95556c900f316（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a22cf8d1374266470c98",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_a22cf8d1374266470c98 → BRANCH_d01968b95556c900f316（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:FR-E1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "ending：FR-E1 → T-FR-000264_1（text，FR06-01=A&FR08-01=A，none）。AA为E1，其他三组合E2；工资均结清不作为友情恢复条件；E2早餐是告别，不展示团圆CG。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d01968b95556c900f316",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_d01968b95556c900f316 → FR-E2（控制锚点）、EPILOGUE_2dc85f87cbe74188cf52（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d01968b95556c900f316",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_d01968b95556c900f316 → EPILOGUE_2dc85f87cbe74188cf52（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:FR-E2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "ending：FR-E2 → T-FR-000580_1（text，FR06-01=B|FR08-01=B，none）。AA为E1，其他三组合E2；工资均结清不作为友情恢复条件；E2早餐是告别，不展示团圆CG。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_16d03699e7b66d58b4b7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_16d03699e7b66d58b4b7 → T-FR-000277_1（text，FR06-01=B&FR06-01=A&FR08-01=B|FR08-01=B&FR06-01=A&FR08-01=B，face）、BRANCH_bfc6019c9215108d3b47（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_16d03699e7b66d58b4b7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_16d03699e7b66d58b4b7 → BRANCH_bfc6019c9215108d3b47（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_bfc6019c9215108d3b47",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_bfc6019c9215108d3b47 → T-FR-000588_1（text，FR06-01=B&FR06-01=B&FR08-01=A|FR08-01=B&FR06-01=B&FR08-01=A，face）、BRANCH_db2be876a3932cc7aacb（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_bfc6019c9215108d3b47",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_bfc6019c9215108d3b47 → BRANCH_db2be876a3932cc7aacb（控制锚点）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_db2be876a3932cc7aacb",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch：BRANCH_db2be876a3932cc7aacb → T-FR-000283_1（text，FR06-01=B&FR06-01=B&FR08-01=B|FR08-01=B&FR06-01=B&FR08-01=B，none）、T-FR-000591_1（text，FR06-01=B|FR08-01=B，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_db2be876a3932cc7aacb",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "branch-merge：BRANCH_db2be876a3932cc7aacb → T-FR-000591_1（text，FR06-01=B|FR08-01=B，none）。选择/分支汇合不沿用上一条词法分支；以实际跳转目的地的完整绑定重建。控制锚点期间不得自动展示候选目标；选择清姓名及CG，表情与在场由目标段决定。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "epilogue:EPILOGUE_2dc85f87cbe74188cf52",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "epilogue：EPILOGUE_2dc85f87cbe74188cf52 → EP-HIGH（控制锚点）、EP-LOW（控制锚点）。两结局均单身可按HIGH/LOW分派；FR-E2在两篇后日谈仅消息视角、不参加聚会或合照，FR-E1仍须按正文确认现场；LOW须已读事件。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_1ffdfa3a10ce0884",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "finish：END_1ffdfa3a10ce0884 → 结束。结束清姓名、角色、道具与CG，不以最后一帧作为下一轮开始的状态。；P4-07已按新控制图重核，来源与目标完整状态分别登记；不将词法后继作为固定跳转。",
+      "unresolved": []
+    }
+  ]
+}

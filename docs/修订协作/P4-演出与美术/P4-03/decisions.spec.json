@@ -1,0 +1,287 @@
+[
+  {
+    "key": "xiaoman-work-apron-empty-hands",
+    "title": "小满空手围裙立绘",
+    "decision": "new",
+    "assetIds": [
+      "char-xiaoman-work-apron-empty-hands"
+    ],
+    "reason": "保留已确认白T、深灰围裙与脸型；去除固定剪刀和梳子，避免与换物动作冲突。",
+    "guidance": [
+      "用于工作场合的讲话、等待和空手间隙。扫发、举镜、剪发、吃东西或打开本子的动作采用画外叙述或对应CG，不把静态合手画成正在操作。",
+      "共通与XM共享同一资源；不追加另一套衣装或逐句表情。"
+    ]
+  },
+  {
+    "key": "old-netcafe-yard-door-closed-night",
+    "title": "旧网吧后院关门夜景",
+    "decision": "repair",
+    "assetIds": [
+      "bg-old-netcafe-yard-door-closed-night"
+    ],
+    "reason": "既有夜图门半开，不能表示拒绝见面；保留后院布局，改为严闭门扉的夜间空镜。",
+    "guidance": [
+      "COMMON与HQ共享；不画黄球球、门内人影或公开人群。",
+      "T-HQ-000277_1同段从傍晚留纸跨到次晨读纸，建议整段画外叙述，不固定使用夜景，也不另造可读纸条图。单独晨间闭门镜头可复用既有晨图。"
+    ],
+    "offscreenNodeIds": [
+      "T-HQ-000277_1"
+    ]
+  },
+  {
+    "key": "old-netcafe-yard-door-closed-afternoon",
+    "title": "后院闭门下午复用",
+    "decision": "reuse",
+    "assetIds": [
+      "bg-old-netcafe-yard-door-closed-morning"
+    ],
+    "reason": "完整图为正常日照，未见朝阳、晨雾或精确钟点限定；同一闭门后院可用于该2个下午敲门节点。",
+    "scopeExtension": true,
+    "guidance": [
+      "这是对该2节点的复用范围扩展候选；原HQ来源批准不改写。",
+      "保留隐藏线门禁；闭门不代表允许人物出院。"
+    ]
+  },
+  {
+    "key": "noodle-shop-front-day-seated",
+    "title": "面馆门口日景复用",
+    "decision": "reuse",
+    "assetIds": [
+      "bg-noodle-shop-day"
+    ],
+    "reason": "完整图含门外木凳、门槛和开敞门框，足以承担门口坐谈；COMMON已据本批目视将该need记为resolved。",
+    "guidance": [
+      "不需另造面馆前景。坐姿层需避开背景凳子误叠；空间不延伸为新的店名或产权。",
+      "该need已由COMMON关闭不等于资源通过P4-05。"
+    ]
+  },
+  {
+    "key": "piao-seated-base-common-d36",
+    "title": "飘白衬衫空手坐姿",
+    "decision": "new",
+    "assetIds": [
+      "piao-seated-base"
+    ],
+    "reason": "现有相机与包带打结图均为站姿；补与既定外观一致的空手坐姿，保持低马尾、白衬衫、黑裤与浅酒窝。",
+    "guidance": [
+      "只用于第36天门口坐谈范围；无相机包带或盒带，不用piao-action-knot冒充盒带打结。",
+      "不补孕肚、孕周或身体变化；起身后清除坐姿。凳坐面随立绘，合成需避开背景凳子误叠，底部裁切置于文字框或舞台外。"
+    ]
+  },
+  {
+    "key": "bridge-shaobing-dusk",
+    "title": "桥头烧饼店暮色",
+    "decision": "repair",
+    "assetIds": [
+      "bg-bridge-shaobing-dusk"
+    ],
+    "reason": "现有day图有明显日照，不能直接覆盖正文六点四十七至七点十分的傍晚会面；制作同店暮色版。",
+    "guidance": [
+      "保持炉台、店面和河岸空间；不在新图上标精确时钟。"
+    ]
+  },
+  {
+    "key": "xiaoman-day40-packing-interior",
+    "title": "小满收拾行李的室内局部",
+    "decision": "new",
+    "assetIds": [
+      "bg-xiaoman-packing-interior"
+    ],
+    "reason": "使用墙面、地面和桌脚局部承担已写室内场景，不借用文文出租屋，不补完整房型或产权。",
+    "guidance": [
+      "选v002；v001左缘固定竖放箱子已移除，原件保留弃选。",
+      "箱子在打包、开箱、坐箱等段落会变状态，因此不固定烘焙箱子、车票或发夹；细节由正文画外或已登记CG承接。"
+    ]
+  },
+  {
+    "key": "xiaoman-helmets-day53-continuity",
+    "title": "小满头盔顺序交总协调",
+    "decision": "escalated",
+    "assetIds": [],
+    "reason": "用户否定预叙解释，要求总协调调整前后顺序；不靠补造取回头盔的新事件解决正文矛盾。",
+    "guidance": [
+      "总协调已准备T-XM-000296整段移位补丁与独立预览；见P4-02/approved-text-amendment.json。",
+      "该need仍open。由总协调另建冻结版本并更新映射/来源指纹后，XM闭合头盔进退场；本包不改P3/P4-01原件。"
+    ]
+  },
+  {
+    "key": "huisheng-306-operating-daylight",
+    "title": "回声306营业下午版",
+    "decision": "repair",
+    "assetIds": [
+      "bg-huisheng-306-operating-day"
+    ],
+    "reason": "营业夜底窗外明确为夜晚；改为白昼窗光，保留沙发、桌麦克风、杯子、电视及停钟，不用搬空房。",
+    "guidance": [
+      "用于第15天与第22天下午营业场景；停钟位置和指针朝向保留。",
+      "普通远景不承担精确读到11:47的功能；读钟特写仍由既有道具/演出安排处理，P4-05继续复核。"
+    ]
+  },
+  {
+    "key": "huisheng-corridor-night",
+    "title": "回声营业夜楼道",
+    "decision": "repair",
+    "assetIds": [
+      "bg-huisheng-corridor-operating-night"
+    ],
+    "reason": "原白昼走廊有明显窗光；补同地点蓝夜窗景和室内照明，保留楼梯、前台和纸箱。",
+    "guidance": [
+      "ZZ第30天20:30后与MY接21:25上班前的楼道共用。",
+      "营业状态，不采用停业锁闭走廊；电话或消息不让远程人物进场。"
+    ]
+  },
+  {
+    "key": "zhouzhi-day30-work-skirt",
+    "title": "周栀第30天工作裙复用",
+    "decision": "reuse",
+    "assetIds": [
+      "char-zhouzhi-human-work-neutral",
+      "char-zhouzhi-human-work-serious"
+    ],
+    "reason": "T-ZZ-000176_1明确裙摆，未指定另一色款；既有工作形象确为朴素裙装，可同装复用，不再造新衣。",
+    "scopeExtension": true,
+    "guidance": [
+      "既有批准针对第46天；本记录仅新增第30天该50节点的适用范围候选，保留原批准原文与证据。",
+      "neutral/serious按对白选择，职业礼貌不等于恋人承诺。P4-05复验并由P4-07采用扩展范围。"
+    ]
+  },
+  {
+    "key": "my-restaurant-eaves-rain",
+    "title": "孟遥匿名饭店雨檐",
+    "decision": "new",
+    "assetIds": [
+      "bg-my-restaurant-eaves-rain"
+    ],
+    "reason": "从CG039保留檐口、木门、暖灯和雨势，去两人、伞及烧饼陈列，作为匿名饭店空镜。",
+    "guidance": [
+      "不把正文无名饭店指定为桥头烧饼店；不加入店名。",
+      "伞与人物独立进出，背景不烘焙亲密；原CG039未改。"
+    ]
+  },
+  {
+    "key": "my-riverside-day",
+    "title": "孟遥河岸参考复用",
+    "decision": "reuse-source",
+    "assetIds": [
+      "bg-my-riverside-afternoon"
+    ],
+    "reason": "找到CG044制作前冻结的无人河岸原件，逐字节复制；与CG044的河水、树、石栏和路口空间一致，无需重生。",
+    "guidance": [
+      "仅MY07=A的第44天下午河边节点；AB前史真实发生，不按未来MY09结果抹掉。",
+      "原批准只属CG制作参考；本次作为背景候选交P4-05，不宣称已有运行采用批准。"
+    ]
+  },
+  {
+    "key": "my-guiyang-elevator",
+    "title": "孟遥电梯独白画外",
+    "decision": "offscreen",
+    "assetIds": [],
+    "reason": "T-MY-000296_1是电梯内的内心独白，没有需可见的动作或楼层细节；可保持画外叙述。",
+    "guidance": [
+      "建议MY将action改为offscreen，resolution.assetId设null并引用本决定。",
+      "背景、人物、道具、CG均清空；不延续文文旧房走廊或孟遥房内立绘，不新增电梯结构。"
+    ],
+    "offscreenNodeIds": [
+      "T-MY-000296_1"
+    ]
+  },
+  {
+    "key": "my-rental-afternoon-light",
+    "title": "文文出租屋下午复用",
+    "decision": "reuse",
+    "assetIds": [
+      "bg-wenwen-bijie-rental-day"
+    ],
+    "reason": "现有白昼图为正常窗光，没有日出、早餐或精确时钟限定，可以覆盖下午电话。",
+    "guidance": [
+      "仅确认光照适用；不把这间毕节出租屋当作孟遥贵阳独居住处。",
+      "远程电话中孟遥不在屋内；白昼人物衣装和现场持物不能机械继承。"
+    ]
+  },
+  {
+    "key": "guiyang-bus-stop-day",
+    "title": "贵阳站台日间／晚间",
+    "decision": "new",
+    "assetIds": [
+      "bg-guiyang-bus-stop-day",
+      "bg-guiyang-bus-stop-evening"
+    ],
+    "reason": "现行目录仅有明确毕节站台，不能代贵阳。另因T-PI-000393_1明确“那个晚上没见成”，为AA候车补同站晚间版。",
+    "guidance": [
+      "AA候车793～796用晚间版，电话里的飘不现场出镜。",
+      "398～399的断开支未定时，可用日版；上车、交钥匙、取消置顶、删消息等其余7节点采用画外或清空状态，不把站台当车内。",
+      "仅画站棚边缘与道路；正文人多可在画外，不能叙称站台无人。不添加站名、路号或贵阳地标。"
+    ],
+    "assetNodeScopes": {
+      "bg-guiyang-bus-stop-evening": [
+        "T-PI-000793_1",
+        "T-PI-000794_1",
+        "T-PI-000795_1",
+        "T-PI-000796_1"
+      ],
+      "bg-guiyang-bus-stop-day": [
+        "T-PI-000398_1",
+        "T-PI-000399_1"
+      ]
+    },
+    "offscreenNodeIds": [
+      "T-PI-000391_1",
+      "T-PI-000393_1",
+      "T-PI-000394_1",
+      "T-PI-000395_1",
+      "T-PI-000396_1",
+      "T-PI-000397_1",
+      "T-PI-000400_1"
+    ]
+  },
+  {
+    "key": "old-netcafe-yard-door-open-morning",
+    "title": "旧网吧后院开门晨景",
+    "decision": "repair",
+    "assetIds": [
+      "bg-old-netcafe-yard-door-open-morning"
+    ],
+    "reason": "第60天早晨扶门框退回屋内需开门，原晨图关门；保留晨光和后院，打开门扉。",
+    "guidance": [
+      "黄球球仍在门槛以内，透明人形只用已有获准上身截幅；不补未确认下装。",
+      "背景内不画黄球球或额外人影。"
+    ]
+  },
+  {
+    "key": "performance-mall-side-stage-evening",
+    "title": "商场演出侧台晚间",
+    "decision": "repair",
+    "assetIds": [
+      "bg-performance-mall-side-stage-evening"
+    ],
+    "reason": "正文七点开场，原侧台是显著日景；保留商场、台侧和设备，改蓝夜与工作灯。",
+    "guidance": [
+      "人物西装由FR原绑定决定；负责人画外，不添加舞台演出人群。"
+    ]
+  },
+  {
+    "key": "noodle-shop-evening",
+    "title": "散场后面馆晚景",
+    "decision": "repair",
+    "assetIds": [
+      "bg-noodle-shop-evening"
+    ],
+    "reason": "七点演出结束后吃面，去白昼窗光与门外阳光，保留同店桌凳、锅台及暖灯。",
+    "guidance": [
+      "不换成朋友聚餐店，不改变散场西装。"
+    ]
+  },
+  {
+    "key": "old-netcafe-backroom-neutral-day",
+    "title": "旧网吧后间中性日光",
+    "decision": "repair",
+    "assetIds": [
+      "bg-old-netcafe-backroom-neutral-day"
+    ],
+    "reason": "第34天取班饭未定夜间；原图门外深夜明显，改漫射日光且保留后间电脑、饭具、桌与门。",
+    "guidance": [
+      "这是不强调具体钟点的白昼候选，不反向给正文补日期或饭点。",
+      "人物到场及饭盒拿走状态由FR按节点处理；不把道具固定层当操作动画。"
+    ]
+  }
+]

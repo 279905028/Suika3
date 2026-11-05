@@ -1,0 +1,62 @@
+{
+  "version": "dialogue-v1",
+  "status": "compiler-contract-p1",
+  "marker": "TEXT",
+  "encoding": "single-line-strict-json",
+  "requiredFields": [
+    "id",
+    "kind",
+    "speaker",
+    "name",
+    "channel",
+    "group"
+  ],
+  "allowUnknownFields": false,
+  "idPattern": "^T-(C01|C02|C03|XM|ZZ|MY|PI|HQ|FR|D36|EPH|EPL)-[0-9]{6}$",
+  "groupPattern": "^G-(C01|C02|C03|XM|ZZ|MY|PI|HQ|FR|D36|EPH|EPL)-[0-9]{6}$",
+  "channelsByKind": {
+    "dialogue": [
+      "face",
+      "phone",
+      "video",
+      "voice",
+      "offscreen"
+    ],
+    "message": [
+      "text"
+    ],
+    "thought": [
+      "inner"
+    ],
+    "narration": [
+      "none"
+    ],
+    "action": [
+      "none"
+    ]
+  },
+  "channelSuffix": {
+    "face": "",
+    "phone": "（电话）",
+    "video": "（视频）",
+    "voice": "（语音）",
+    "offscreen": "",
+    "text": "（消息）",
+    "inner": "（心声）",
+    "none": ""
+  },
+  "silentKinds": [
+    "narration",
+    "action"
+  ],
+  "thoughtSpeakers": [
+    "wenwen"
+  ],
+  "speakerRegistry": "speakers.json",
+  "oneMarkerOneParagraph": true,
+  "textMarkerChangesControlScope": false,
+  "unknownSpeakerPolicy": "register-context-specific-identity-before-use",
+  "revealPolicy": "explicit-name-per-paragraph-reviewed-against-source",
+  "legacyPolicy": "legacy rejects TEXT; mixed is for independent samples; required rejects missing TEXT",
+  "savePolicy": "new-build-fingerprint-and-new-start; keep-existing-saves"
+}

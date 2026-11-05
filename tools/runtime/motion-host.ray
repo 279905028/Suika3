@@ -1,0 +1,41 @@
+// Web bridge is opt-in; desktop keeps the adopted static presentation.
+var mEnabled=false;var mHold=false;var mGallery=false;var mPending=false;var mRestored=false;
+var mKey="";var mNode="";var mToken=0;var mMenu=false;var mDrain=0;var mBindings={};
+func mEligible(b) {
+    if(b.route!="" && b.route!=sc_get("route")) return false;
+    if(b.relation!="" && b.relation!=sc_get("relation")) return false;
+    for(k,v in b.choices) if(sc_get("c_"+k)!=v) return false;
+    if(b.meeting && !sc_hq_eligible()) return false;
+    if(Array.size(b.condition)>0 && !sc_condition(b.condition)) return false;
+    return true;
+}
+func mAt(node,restore) {
+    if(!mEnabled) return;
+    var key="";
+    if(Dict.hasKey(mBindings,node) && mEligible(mBindings[node])) key=mBindings[node].key;
+    if(key=="" && mKey=="") return;
+    mToken=mToken+1;mKey=key;mNode=node;mRestored=restore;mPending=key!="";mHold=key!="" && !restore;
+    if(key!="") {Suika.stopAutoMode();Suika.stopSkipMode();Suika.clearInputState();}
+    else print("SUI_M|context||enter|"+mToken);
+}
+func mReset() {
+    mHold=false;mGallery=false;mPending=false;mKey="";mNode="";mToken=mToken+1;
+    if(mEnabled) print("SUI_M|exit");
+}
+func mBeforeUpdate() {
+    if(Engine.isYKeyPressed) {mEnabled=true;mHold=true;print("SUI_M|held|1");Suika.stopAutoMode();Suika.stopSkipMode();Suika.clearInputState();return true;}
+    if(Engine.isQKeyPressed) {if(!mEnabled) print("SUI_M|ready");mEnabled=true;mHold=false;print("SUI_M|held|0");mDrain=Engine.millisec+180;Suika.clearInputState();return true;}
+    if(!mEnabled) return false;
+    var menu=Suika.isGUIRunning() && eMode=="reading";
+    if(menu!=mMenu) {mMenu=menu;if(menu) print("SUI_M|menu|1");else print("SUI_M|menu|0");}
+    if(mHold && !menu && (Engine.isEscapeKeyPressed || Suika.isMouseRightClicked())) {
+        eSet("action","M");eAction();Suika.clearInputState();return true;
+    }
+    if((mHold && !menu && (!mPending || eStable())) || Engine.millisec<mDrain) {Suika.stopAutoMode();Suika.stopSkipMode();Suika.clearInputState();return true;}
+    return false;
+}
+func mRender() {
+    if(!mEnabled || !mPending || eMode!="reading" || !eStable() || Suika.getTagName()!="text" || sc_get("cursor")!=mNode || Suika.isGUIRunning()) return;
+    mPending=false;var reason="enter";if(mRestored) reason="restore";
+    print("SUI_M|context|"+mKey+"|"+reason+"|"+mToken);
+}

@@ -1,0 +1,6418 @@
+{
+  "schemaVersion": "p4-03-decisions-v1",
+  "taskId": "P4-03",
+  "date": "2026-11-03",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "intake": {
+    "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+    "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+  },
+  "counts": {
+    "packages": 7,
+    "needs": 23,
+    "resourceKeys": 20,
+    "dispositionsDelivered": 19,
+    "upstreamTextDependency": 1,
+    "selectedImages": 15,
+    "newOrRepairedImages": 14,
+    "copiedReference": 1,
+    "reuseKeys": 5,
+    "offscreenKeys": 1
+  },
+  "decisions": [
+    {
+      "title": "小满空手围裙立绘",
+      "decision": "new",
+      "assetIds": [
+        "char-xiaoman-work-apron-empty-hands"
+      ],
+      "reason": "保留已确认白T、深灰围裙与脸型；去除固定剪刀和梳子，避免与换物动作冲突。",
+      "guidance": [
+        "用于工作场合的讲话、等待和空手间隙。扫发、举镜、剪发、吃东西或打开本子的动作采用画外叙述或对应CG，不把静态合手画成正在操作。",
+        "共通与XM共享同一资源；不追加另一套衣装或逐句表情。"
+      ],
+      "resourceKey": "xiaoman-work-apron-empty-hands",
+      "needIds": [
+        "P4-02-COMMON-N001",
+        "P4-02-XM-N003"
+      ],
+      "packageIds": [
+        "P4-02-COMMON",
+        "P4-02-XM"
+      ],
+      "requestNodeIds": [
+        "T-C01-000067_1",
+        "T-C01-000294_1",
+        "T-C01-000295_1",
+        "T-C01-000296_1",
+        "T-C01-000297_1",
+        "T-C01-000298_1",
+        "T-C01-000299_1",
+        "T-C01-000300_1",
+        "T-C01-000301_1",
+        "T-C01-000302_1",
+        "T-C01-000303_1",
+        "T-C01-000071_1",
+        "T-C01-000072_1",
+        "T-C01-000073_1",
+        "T-C01-000074_1",
+        "T-C01-000075_1",
+        "T-C01-000076_1",
+        "T-C01-000077_1",
+        "T-C01-000078_1",
+        "T-C01-000304_1",
+        "T-C01-000305_1",
+        "T-C01-000080_1",
+        "T-C01-000081_1",
+        "T-C01-000306_1",
+        "T-C01-000307_1",
+        "T-C01-000308_1",
+        "T-C01-000309_1",
+        "T-C01-000310_1",
+        "T-C01-000311_1",
+        "T-C01-000312_1",
+        "T-C01-000084_1",
+        "T-C01-000085_1",
+        "T-C01-000313_1",
+        "T-C01-000314_1",
+        "T-C01-000087_1",
+        "T-C01-000088_1",
+        "T-C01-000315_1",
+        "T-C01-000316_1",
+        "T-C01-000317_1",
+        "T-C01-000090_1",
+        "T-C01-000091_1",
+        "T-C01-000092_1",
+        "T-C01-000093_1",
+        "T-C01-000094_1",
+        "T-C01-000095_1",
+        "T-C01-000318_1",
+        "T-C01-000319_1",
+        "T-C01-000320_1",
+        "T-C01-000321_1",
+        "T-C01-000322_1",
+        "T-C01-000323_1",
+        "C01-03",
+        "T-XM-000001_1",
+        "T-XM-000435_1",
+        "T-XM-000436_1",
+        "T-XM-000437_1",
+        "T-XM-000438_1",
+        "T-XM-000439_1",
+        "T-XM-000004_1",
+        "T-XM-000005_1",
+        "T-XM-000440_1",
+        "T-XM-000441_1",
+        "T-XM-000007_1",
+        "T-XM-000008_1",
+        "T-XM-000009_1",
+        "T-XM-000010_1",
+        "T-XM-000011_1",
+        "T-XM-000012_1",
+        "T-XM-000442_1",
+        "T-XM-000443_1",
+        "T-XM-000444_1",
+        "T-XM-000445_1",
+        "T-XM-000015_1",
+        "T-XM-000016_1",
+        "T-XM-000017_1",
+        "T-XM-000018_1",
+        "T-XM-000019_1",
+        "T-XM-000020_1",
+        "T-XM-000021_1",
+        "T-XM-000022_1",
+        "T-XM-000023_1",
+        "T-XM-000024_1",
+        "T-XM-000446_1",
+        "T-XM-000447_1",
+        "T-XM-000026_1",
+        "T-XM-000448_1",
+        "T-XM-000449_1",
+        "T-XM-000450_1",
+        "T-XM-000451_1",
+        "T-XM-000029_1",
+        "T-XM-000030_1",
+        "T-XM-000031_1",
+        "T-XM-000032_1",
+        "T-XM-000033_1",
+        "T-XM-000034_1",
+        "T-XM-000048_1",
+        "T-XM-000049_1",
+        "T-XM-000477_1",
+        "T-XM-000478_1",
+        "T-XM-000051_1",
+        "T-XM-000052_1",
+        "T-XM-000053_1",
+        "T-XM-000054_1",
+        "T-XM-000055_1",
+        "T-XM-000056_1",
+        "T-XM-000057_1",
+        "T-XM-000479_1",
+        "T-XM-000480_1",
+        "T-XM-000059_1",
+        "T-XM-000060_1",
+        "T-XM-000061_1",
+        "T-XM-000062_1",
+        "T-XM-000481_1",
+        "T-XM-000482_1",
+        "T-XM-000064_1",
+        "T-XM-000065_1",
+        "T-XM-000066_1",
+        "T-XM-000067_1",
+        "T-XM-000068_1",
+        "T-XM-000069_1",
+        "T-XM-000070_1",
+        "T-XM-000071_1",
+        "T-XM-000072_1",
+        "T-XM-000073_1",
+        "T-XM-000483_1",
+        "T-XM-000484_1",
+        "T-XM-000075_1",
+        "T-XM-000076_1",
+        "T-XM-000077_1",
+        "T-XM-000078_1",
+        "T-XM-000485_1",
+        "T-XM-000080_1",
+        "T-XM-000081_1",
+        "T-XM-000082_1",
+        "T-XM-000083_1",
+        "T-XM-000084_1",
+        "T-XM-000085_1",
+        "T-XM-000086_1",
+        "T-XM-000486_1",
+        "T-XM-000487_1",
+        "T-XM-000488_1",
+        "T-XM-000489_1",
+        "T-XM-000490_1",
+        "T-XM-000089_1",
+        "T-XM-000090_1",
+        "T-XM-000601_1",
+        "T-XM-000602_1",
+        "T-XM-000603_1",
+        "T-XM-000604_1",
+        "T-XM-000605_1",
+        "T-XM-000606_1",
+        "XM03-01",
+        "XM04-01"
+      ],
+      "requestConstraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验",
+        "复用已确认白T/深灰围裙与脸，不新增服装设定。",
+        "制作无固定持物差分；动作段当前只保留背景并标阻塞，不能将静态工具图当正在接触剪发。",
+        "与COMMON同一resourceKey合并制作；闭本图不得代打开错误页或报名材料。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-COMMON-N001",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        },
+        {
+          "needId": "P4-02-XM-N003",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-C01-000067_1",
+          "paragraphId": "T-C01-000067",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000294_1",
+          "paragraphId": "T-C01-000294",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000295_1",
+          "paragraphId": "T-C01-000295",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000296_1",
+          "paragraphId": "T-C01-000296",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000297_1",
+          "paragraphId": "T-C01-000297",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000298_1",
+          "paragraphId": "T-C01-000298",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000299_1",
+          "paragraphId": "T-C01-000299",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000300_1",
+          "paragraphId": "T-C01-000300",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000301_1",
+          "paragraphId": "T-C01-000301",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000302_1",
+          "paragraphId": "T-C01-000302",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000303_1",
+          "paragraphId": "T-C01-000303",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000071_1",
+          "paragraphId": "T-C01-000071",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000072_1",
+          "paragraphId": "T-C01-000072",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000073_1",
+          "paragraphId": "T-C01-000073",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000074_1",
+          "paragraphId": "T-C01-000074",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000075_1",
+          "paragraphId": "T-C01-000075",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000076_1",
+          "paragraphId": "T-C01-000076",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000077_1",
+          "paragraphId": "T-C01-000077",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000078_1",
+          "paragraphId": "T-C01-000078",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000304_1",
+          "paragraphId": "T-C01-000304",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000305_1",
+          "paragraphId": "T-C01-000305",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000080_1",
+          "paragraphId": "T-C01-000080",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000081_1",
+          "paragraphId": "T-C01-000081",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000306_1",
+          "paragraphId": "T-C01-000306",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000307_1",
+          "paragraphId": "T-C01-000307",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000308_1",
+          "paragraphId": "T-C01-000308",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000309_1",
+          "paragraphId": "T-C01-000309",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000310_1",
+          "paragraphId": "T-C01-000310",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000311_1",
+          "paragraphId": "T-C01-000311",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000312_1",
+          "paragraphId": "T-C01-000312",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000084_1",
+          "paragraphId": "T-C01-000084",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000085_1",
+          "paragraphId": "T-C01-000085",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000313_1",
+          "paragraphId": "T-C01-000313",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000314_1",
+          "paragraphId": "T-C01-000314",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000087_1",
+          "paragraphId": "T-C01-000087",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000088_1",
+          "paragraphId": "T-C01-000088",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=A"
+        },
+        {
+          "nodeId": "T-C01-000315_1",
+          "paragraphId": "T-C01-000315",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=A"
+        },
+        {
+          "nodeId": "T-C01-000316_1",
+          "paragraphId": "T-C01-000316",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=A"
+        },
+        {
+          "nodeId": "T-C01-000317_1",
+          "paragraphId": "T-C01-000317",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=A"
+        },
+        {
+          "nodeId": "T-C01-000090_1",
+          "paragraphId": "T-C01-000090",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=A"
+        },
+        {
+          "nodeId": "T-C01-000091_1",
+          "paragraphId": "T-C01-000091",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=A"
+        },
+        {
+          "nodeId": "T-C01-000092_1",
+          "paragraphId": "T-C01-000092",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=B"
+        },
+        {
+          "nodeId": "T-C01-000093_1",
+          "paragraphId": "T-C01-000093",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=B"
+        },
+        {
+          "nodeId": "T-C01-000094_1",
+          "paragraphId": "T-C01-000094",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=B"
+        },
+        {
+          "nodeId": "T-C01-000095_1",
+          "paragraphId": "T-C01-000095",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-03=B"
+        },
+        {
+          "nodeId": "T-C01-000318_1",
+          "paragraphId": "T-C01-000318",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000319_1",
+          "paragraphId": "T-C01-000319",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000320_1",
+          "paragraphId": "T-C01-000320",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000321_1",
+          "paragraphId": "T-C01-000321",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000322_1",
+          "paragraphId": "T-C01-000322",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C01-000323_1",
+          "paragraphId": "T-C01-000323",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "C01-03",
+          "paragraphId": null,
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000001_1",
+          "paragraphId": "T-XM-000001",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000435_1",
+          "paragraphId": "T-XM-000435",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000436_1",
+          "paragraphId": "T-XM-000436",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000437_1",
+          "paragraphId": "T-XM-000437",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000438_1",
+          "paragraphId": "T-XM-000438",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000439_1",
+          "paragraphId": "T-XM-000439",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000004_1",
+          "paragraphId": "T-XM-000004",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000005_1",
+          "paragraphId": "T-XM-000005",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000440_1",
+          "paragraphId": "T-XM-000440",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000441_1",
+          "paragraphId": "T-XM-000441",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000007_1",
+          "paragraphId": "T-XM-000007",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000008_1",
+          "paragraphId": "T-XM-000008",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000009_1",
+          "paragraphId": "T-XM-000009",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000010_1",
+          "paragraphId": "T-XM-000010",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000011_1",
+          "paragraphId": "T-XM-000011",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000012_1",
+          "paragraphId": "T-XM-000012",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000442_1",
+          "paragraphId": "T-XM-000442",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000443_1",
+          "paragraphId": "T-XM-000443",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000444_1",
+          "paragraphId": "T-XM-000444",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000445_1",
+          "paragraphId": "T-XM-000445",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000015_1",
+          "paragraphId": "T-XM-000015",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000016_1",
+          "paragraphId": "T-XM-000016",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000017_1",
+          "paragraphId": "T-XM-000017",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000018_1",
+          "paragraphId": "T-XM-000018",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=A"
+        },
+        {
+          "nodeId": "T-XM-000019_1",
+          "paragraphId": "T-XM-000019",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=A"
+        },
+        {
+          "nodeId": "T-XM-000020_1",
+          "paragraphId": "T-XM-000020",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=A"
+        },
+        {
+          "nodeId": "T-XM-000021_1",
+          "paragraphId": "T-XM-000021",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=A"
+        },
+        {
+          "nodeId": "T-XM-000022_1",
+          "paragraphId": "T-XM-000022",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=A"
+        },
+        {
+          "nodeId": "T-XM-000023_1",
+          "paragraphId": "T-XM-000023",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=B"
+        },
+        {
+          "nodeId": "T-XM-000024_1",
+          "paragraphId": "T-XM-000024",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=B"
+        },
+        {
+          "nodeId": "T-XM-000446_1",
+          "paragraphId": "T-XM-000446",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=B"
+        },
+        {
+          "nodeId": "T-XM-000447_1",
+          "paragraphId": "T-XM-000447",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=B"
+        },
+        {
+          "nodeId": "T-XM-000026_1",
+          "paragraphId": "T-XM-000026",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=B"
+        },
+        {
+          "nodeId": "T-XM-000448_1",
+          "paragraphId": "T-XM-000448",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=B"
+        },
+        {
+          "nodeId": "T-XM-000449_1",
+          "paragraphId": "T-XM-000449",
+          "packageId": "P4-02-XM",
+          "condition": "XM03-01=B"
+        },
+        {
+          "nodeId": "T-XM-000450_1",
+          "paragraphId": "T-XM-000450",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000451_1",
+          "paragraphId": "T-XM-000451",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000029_1",
+          "paragraphId": "T-XM-000029",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000030_1",
+          "paragraphId": "T-XM-000030",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000031_1",
+          "paragraphId": "T-XM-000031",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000032_1",
+          "paragraphId": "T-XM-000032",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000033_1",
+          "paragraphId": "T-XM-000033",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000034_1",
+          "paragraphId": "T-XM-000034",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000048_1",
+          "paragraphId": "T-XM-000048",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000049_1",
+          "paragraphId": "T-XM-000049",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000477_1",
+          "paragraphId": "T-XM-000477",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000478_1",
+          "paragraphId": "T-XM-000478",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000051_1",
+          "paragraphId": "T-XM-000051",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000052_1",
+          "paragraphId": "T-XM-000052",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000053_1",
+          "paragraphId": "T-XM-000053",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000054_1",
+          "paragraphId": "T-XM-000054",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000055_1",
+          "paragraphId": "T-XM-000055",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000056_1",
+          "paragraphId": "T-XM-000056",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000057_1",
+          "paragraphId": "T-XM-000057",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=A"
+        },
+        {
+          "nodeId": "T-XM-000479_1",
+          "paragraphId": "T-XM-000479",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=A"
+        },
+        {
+          "nodeId": "T-XM-000480_1",
+          "paragraphId": "T-XM-000480",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=A"
+        },
+        {
+          "nodeId": "T-XM-000059_1",
+          "paragraphId": "T-XM-000059",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=A"
+        },
+        {
+          "nodeId": "T-XM-000060_1",
+          "paragraphId": "T-XM-000060",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=A"
+        },
+        {
+          "nodeId": "T-XM-000061_1",
+          "paragraphId": "T-XM-000061",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=A"
+        },
+        {
+          "nodeId": "T-XM-000062_1",
+          "paragraphId": "T-XM-000062",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=B"
+        },
+        {
+          "nodeId": "T-XM-000481_1",
+          "paragraphId": "T-XM-000481",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=B"
+        },
+        {
+          "nodeId": "T-XM-000482_1",
+          "paragraphId": "T-XM-000482",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=B"
+        },
+        {
+          "nodeId": "T-XM-000064_1",
+          "paragraphId": "T-XM-000064",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=B"
+        },
+        {
+          "nodeId": "T-XM-000065_1",
+          "paragraphId": "T-XM-000065",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=B"
+        },
+        {
+          "nodeId": "T-XM-000066_1",
+          "paragraphId": "T-XM-000066",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=B"
+        },
+        {
+          "nodeId": "T-XM-000067_1",
+          "paragraphId": "T-XM-000067",
+          "packageId": "P4-02-XM",
+          "condition": "XM04-01=B"
+        },
+        {
+          "nodeId": "T-XM-000068_1",
+          "paragraphId": "T-XM-000068",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000069_1",
+          "paragraphId": "T-XM-000069",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000070_1",
+          "paragraphId": "T-XM-000070",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000071_1",
+          "paragraphId": "T-XM-000071",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000072_1",
+          "paragraphId": "T-XM-000072",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000073_1",
+          "paragraphId": "T-XM-000073",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000483_1",
+          "paragraphId": "T-XM-000483",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000484_1",
+          "paragraphId": "T-XM-000484",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000075_1",
+          "paragraphId": "T-XM-000075",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000076_1",
+          "paragraphId": "T-XM-000076",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000077_1",
+          "paragraphId": "T-XM-000077",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000078_1",
+          "paragraphId": "T-XM-000078",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000485_1",
+          "paragraphId": "T-XM-000485",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000080_1",
+          "paragraphId": "T-XM-000080",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000081_1",
+          "paragraphId": "T-XM-000081",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000082_1",
+          "paragraphId": "T-XM-000082",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000083_1",
+          "paragraphId": "T-XM-000083",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000084_1",
+          "paragraphId": "T-XM-000084",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000085_1",
+          "paragraphId": "T-XM-000085",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000086_1",
+          "paragraphId": "T-XM-000086",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000486_1",
+          "paragraphId": "T-XM-000486",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000487_1",
+          "paragraphId": "T-XM-000487",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000488_1",
+          "paragraphId": "T-XM-000488",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000489_1",
+          "paragraphId": "T-XM-000489",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000490_1",
+          "paragraphId": "T-XM-000490",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000089_1",
+          "paragraphId": "T-XM-000089",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000090_1",
+          "paragraphId": "T-XM-000090",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000601_1",
+          "paragraphId": "T-XM-000601",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000602_1",
+          "paragraphId": "T-XM-000602",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000603_1",
+          "paragraphId": "T-XM-000603",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000604_1",
+          "paragraphId": "T-XM-000604",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000605_1",
+          "paragraphId": "T-XM-000605",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000606_1",
+          "paragraphId": "T-XM-000606",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "XM03-01",
+          "paragraphId": null,
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "XM04-01",
+          "paragraphId": null,
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "char-xiaoman-work-apron-empty-hands": [
+          "T-C01-000067_1",
+          "T-C01-000294_1",
+          "T-C01-000295_1",
+          "T-C01-000296_1",
+          "T-C01-000297_1",
+          "T-C01-000298_1",
+          "T-C01-000299_1",
+          "T-C01-000300_1",
+          "T-C01-000301_1",
+          "T-C01-000302_1",
+          "T-C01-000303_1",
+          "T-C01-000071_1",
+          "T-C01-000072_1",
+          "T-C01-000073_1",
+          "T-C01-000074_1",
+          "T-C01-000075_1",
+          "T-C01-000076_1",
+          "T-C01-000077_1",
+          "T-C01-000078_1",
+          "T-C01-000304_1",
+          "T-C01-000305_1",
+          "T-C01-000080_1",
+          "T-C01-000081_1",
+          "T-C01-000306_1",
+          "T-C01-000307_1",
+          "T-C01-000308_1",
+          "T-C01-000309_1",
+          "T-C01-000310_1",
+          "T-C01-000311_1",
+          "T-C01-000312_1",
+          "T-C01-000084_1",
+          "T-C01-000085_1",
+          "T-C01-000313_1",
+          "T-C01-000314_1",
+          "T-C01-000087_1",
+          "T-C01-000088_1",
+          "T-C01-000315_1",
+          "T-C01-000316_1",
+          "T-C01-000317_1",
+          "T-C01-000090_1",
+          "T-C01-000091_1",
+          "T-C01-000092_1",
+          "T-C01-000093_1",
+          "T-C01-000094_1",
+          "T-C01-000095_1",
+          "T-C01-000318_1",
+          "T-C01-000319_1",
+          "T-C01-000320_1",
+          "T-C01-000321_1",
+          "T-C01-000322_1",
+          "T-C01-000323_1",
+          "C01-03",
+          "T-XM-000001_1",
+          "T-XM-000435_1",
+          "T-XM-000436_1",
+          "T-XM-000437_1",
+          "T-XM-000438_1",
+          "T-XM-000439_1",
+          "T-XM-000004_1",
+          "T-XM-000005_1",
+          "T-XM-000440_1",
+          "T-XM-000441_1",
+          "T-XM-000007_1",
+          "T-XM-000008_1",
+          "T-XM-000009_1",
+          "T-XM-000010_1",
+          "T-XM-000011_1",
+          "T-XM-000012_1",
+          "T-XM-000442_1",
+          "T-XM-000443_1",
+          "T-XM-000444_1",
+          "T-XM-000445_1",
+          "T-XM-000015_1",
+          "T-XM-000016_1",
+          "T-XM-000017_1",
+          "T-XM-000018_1",
+          "T-XM-000019_1",
+          "T-XM-000020_1",
+          "T-XM-000021_1",
+          "T-XM-000022_1",
+          "T-XM-000023_1",
+          "T-XM-000024_1",
+          "T-XM-000446_1",
+          "T-XM-000447_1",
+          "T-XM-000026_1",
+          "T-XM-000448_1",
+          "T-XM-000449_1",
+          "T-XM-000450_1",
+          "T-XM-000451_1",
+          "T-XM-000029_1",
+          "T-XM-000030_1",
+          "T-XM-000031_1",
+          "T-XM-000032_1",
+          "T-XM-000033_1",
+          "T-XM-000034_1",
+          "T-XM-000048_1",
+          "T-XM-000049_1",
+          "T-XM-000477_1",
+          "T-XM-000478_1",
+          "T-XM-000051_1",
+          "T-XM-000052_1",
+          "T-XM-000053_1",
+          "T-XM-000054_1",
+          "T-XM-000055_1",
+          "T-XM-000056_1",
+          "T-XM-000057_1",
+          "T-XM-000479_1",
+          "T-XM-000480_1",
+          "T-XM-000059_1",
+          "T-XM-000060_1",
+          "T-XM-000061_1",
+          "T-XM-000062_1",
+          "T-XM-000481_1",
+          "T-XM-000482_1",
+          "T-XM-000064_1",
+          "T-XM-000065_1",
+          "T-XM-000066_1",
+          "T-XM-000067_1",
+          "T-XM-000068_1",
+          "T-XM-000069_1",
+          "T-XM-000070_1",
+          "T-XM-000071_1",
+          "T-XM-000072_1",
+          "T-XM-000073_1",
+          "T-XM-000483_1",
+          "T-XM-000484_1",
+          "T-XM-000075_1",
+          "T-XM-000076_1",
+          "T-XM-000077_1",
+          "T-XM-000078_1",
+          "T-XM-000485_1",
+          "T-XM-000080_1",
+          "T-XM-000081_1",
+          "T-XM-000082_1",
+          "T-XM-000083_1",
+          "T-XM-000084_1",
+          "T-XM-000085_1",
+          "T-XM-000086_1",
+          "T-XM-000486_1",
+          "T-XM-000487_1",
+          "T-XM-000488_1",
+          "T-XM-000489_1",
+          "T-XM-000490_1",
+          "T-XM-000089_1",
+          "T-XM-000090_1",
+          "T-XM-000601_1",
+          "T-XM-000602_1",
+          "T-XM-000603_1",
+          "T-XM-000604_1",
+          "T-XM-000605_1",
+          "T-XM-000606_1",
+          "XM03-01",
+          "XM04-01"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/xiaoman-work-apron-empty-hands/generation.json",
+          "sha256": "ef3f2a90e206474608ff08c74c11e44f51c1494a4e6f421e9aa8630f769c13b4"
+        }
+      ]
+    },
+    {
+      "title": "旧网吧后院关门夜景",
+      "decision": "repair",
+      "assetIds": [
+        "bg-old-netcafe-yard-door-closed-night"
+      ],
+      "reason": "既有夜图门半开，不能表示拒绝见面；保留后院布局，改为严闭门扉的夜间空镜。",
+      "guidance": [
+        "COMMON与HQ共享；不画黄球球、门内人影或公开人群。",
+        "T-HQ-000277_1同段从傍晚留纸跨到次晨读纸，建议整段画外叙述，不固定使用夜景，也不另造可读纸条图。单独晨间闭门镜头可复用既有晨图。"
+      ],
+      "offscreenNodeIds": [
+        "T-HQ-000277_1"
+      ],
+      "resourceKey": "old-netcafe-yard-door-closed-night",
+      "needIds": [
+        "P4-02-COMMON-N002",
+        "P4-02-HQ-N001"
+      ],
+      "packageIds": [
+        "P4-02-COMMON",
+        "P4-02-HQ"
+      ],
+      "requestNodeIds": [
+        "T-C02-000001_1",
+        "T-C02-000002_1",
+        "T-C02-000003_1",
+        "T-C02-000004_1",
+        "T-C02-000005_1",
+        "T-C02-000006_1",
+        "T-C02-000007_1",
+        "T-C02-000261_1",
+        "T-C02-000009_1",
+        "T-C02-000010_1",
+        "T-C02-000262_1",
+        "T-C02-000263_1",
+        "T-C02-000264_1",
+        "T-C02-000265_1",
+        "T-C02-000013_1",
+        "T-C02-000014_1",
+        "T-C02-000015_1",
+        "T-C02-000016_1",
+        "T-C02-000484_1",
+        "T-C02-000485_1",
+        "T-C02-000486_1",
+        "T-C02-000217_1",
+        "T-C02-000218_1",
+        "T-C02-000219_1",
+        "T-C02-000220_1",
+        "T-C02-000221_1",
+        "T-C02-000244_1",
+        "C02-01",
+        "T-HQ-000125_1",
+        "T-HQ-000409_1",
+        "T-HQ-000410_1",
+        "T-HQ-000411_1",
+        "T-HQ-000127_1",
+        "T-HQ-000128_1",
+        "T-HQ-000129_1",
+        "T-HQ-000412_1",
+        "T-HQ-000413_1",
+        "T-HQ-000131_1",
+        "T-HQ-000132_1",
+        "T-HQ-000133_1",
+        "T-HQ-000134_1",
+        "T-HQ-000135_1",
+        "T-HQ-000136_1",
+        "T-HQ-000414_1",
+        "T-HQ-000415_1",
+        "T-HQ-000416_1",
+        "T-HQ-000417_1",
+        "T-HQ-000138_1",
+        "T-HQ-000418_1",
+        "T-HQ-000419_1",
+        "T-HQ-000420_1",
+        "T-HQ-000421_1",
+        "T-HQ-000141_1",
+        "T-HQ-000181_1",
+        "T-HQ-000456_1",
+        "T-HQ-000457_1",
+        "T-HQ-000458_1",
+        "T-HQ-000459_1",
+        "T-HQ-000460_1",
+        "T-HQ-000461_1",
+        "T-HQ-000462_1",
+        "T-HQ-000184_1",
+        "T-HQ-000463_1",
+        "T-HQ-000464_1",
+        "T-HQ-000186_1",
+        "T-HQ-000187_1",
+        "T-HQ-000277_1"
+      ],
+      "requestConstraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验",
+        "保持原后院布局与关闭的门；按夜间及清晨纸条近景分时段输出；不画球球或门内人物；与COMMON共享此资源键。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-COMMON-N002",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        },
+        {
+          "needId": "P4-02-HQ-N001",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "repair"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-C02-000001_1",
+          "paragraphId": "T-C02-000001",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A"
+        },
+        {
+          "nodeId": "T-C02-000002_1",
+          "paragraphId": "T-C02-000002",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A"
+        },
+        {
+          "nodeId": "T-C02-000003_1",
+          "paragraphId": "T-C02-000003",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A"
+        },
+        {
+          "nodeId": "T-C02-000004_1",
+          "paragraphId": "T-C02-000004",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A"
+        },
+        {
+          "nodeId": "T-C02-000005_1",
+          "paragraphId": "T-C02-000005",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A"
+        },
+        {
+          "nodeId": "T-C02-000006_1",
+          "paragraphId": "T-C02-000006",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000007_1",
+          "paragraphId": "T-C02-000007",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000261_1",
+          "paragraphId": "T-C02-000261",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000009_1",
+          "paragraphId": "T-C02-000009",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000010_1",
+          "paragraphId": "T-C02-000010",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000262_1",
+          "paragraphId": "T-C02-000262",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000263_1",
+          "paragraphId": "T-C02-000263",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000264_1",
+          "paragraphId": "T-C02-000264",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000265_1",
+          "paragraphId": "T-C02-000265",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000013_1",
+          "paragraphId": "T-C02-000013",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000014_1",
+          "paragraphId": "T-C02-000014",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000015_1",
+          "paragraphId": "T-C02-000015",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=B"
+        },
+        {
+          "nodeId": "T-C02-000016_1",
+          "paragraphId": "T-C02-000016",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=B"
+        },
+        {
+          "nodeId": "T-C02-000484_1",
+          "paragraphId": "T-C02-000484",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000485_1",
+          "paragraphId": "T-C02-000485",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000486_1",
+          "paragraphId": "T-C02-000486",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000217_1",
+          "paragraphId": "T-C02-000217",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000218_1",
+          "paragraphId": "T-C02-000218",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000219_1",
+          "paragraphId": "T-C02-000219",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000220_1",
+          "paragraphId": "T-C02-000220",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000221_1",
+          "paragraphId": "T-C02-000221",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "T-C02-000244_1",
+          "paragraphId": "T-C02-000244",
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A&C02-01=A"
+        },
+        {
+          "nodeId": "C02-01",
+          "paragraphId": null,
+          "packageId": "P4-02-COMMON",
+          "condition": "C01-02=A"
+        },
+        {
+          "nodeId": "T-HQ-000125_1",
+          "paragraphId": "T-HQ-000125",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000409_1",
+          "paragraphId": "T-HQ-000409",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000410_1",
+          "paragraphId": "T-HQ-000410",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000411_1",
+          "paragraphId": "T-HQ-000411",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000127_1",
+          "paragraphId": "T-HQ-000127",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000128_1",
+          "paragraphId": "T-HQ-000128",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000129_1",
+          "paragraphId": "T-HQ-000129",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000412_1",
+          "paragraphId": "T-HQ-000412",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000413_1",
+          "paragraphId": "T-HQ-000413",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000131_1",
+          "paragraphId": "T-HQ-000131",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000132_1",
+          "paragraphId": "T-HQ-000132",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000133_1",
+          "paragraphId": "T-HQ-000133",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000134_1",
+          "paragraphId": "T-HQ-000134",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000135_1",
+          "paragraphId": "T-HQ-000135",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000136_1",
+          "paragraphId": "T-HQ-000136",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000414_1",
+          "paragraphId": "T-HQ-000414",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000415_1",
+          "paragraphId": "T-HQ-000415",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000416_1",
+          "paragraphId": "T-HQ-000416",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000417_1",
+          "paragraphId": "T-HQ-000417",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000138_1",
+          "paragraphId": "T-HQ-000138",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000418_1",
+          "paragraphId": "T-HQ-000418",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000419_1",
+          "paragraphId": "T-HQ-000419",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000420_1",
+          "paragraphId": "T-HQ-000420",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000421_1",
+          "paragraphId": "T-HQ-000421",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000141_1",
+          "paragraphId": "T-HQ-000141",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000181_1",
+          "paragraphId": "T-HQ-000181",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000456_1",
+          "paragraphId": "T-HQ-000456",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000457_1",
+          "paragraphId": "T-HQ-000457",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000458_1",
+          "paragraphId": "T-HQ-000458",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000459_1",
+          "paragraphId": "T-HQ-000459",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000460_1",
+          "paragraphId": "T-HQ-000460",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000461_1",
+          "paragraphId": "T-HQ-000461",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000462_1",
+          "paragraphId": "T-HQ-000462",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000184_1",
+          "paragraphId": "T-HQ-000184",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000463_1",
+          "paragraphId": "T-HQ-000463",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000464_1",
+          "paragraphId": "T-HQ-000464",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000186_1",
+          "paragraphId": "T-HQ-000186",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000187_1",
+          "paragraphId": "T-HQ-000187",
+          "packageId": "P4-02-HQ",
+          "condition": "HQ07-01=B"
+        },
+        {
+          "nodeId": "T-HQ-000277_1",
+          "paragraphId": "T-HQ-000277",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-old-netcafe-yard-door-closed-night": [
+          "T-C02-000001_1",
+          "T-C02-000002_1",
+          "T-C02-000003_1",
+          "T-C02-000004_1",
+          "T-C02-000005_1",
+          "T-C02-000006_1",
+          "T-C02-000007_1",
+          "T-C02-000261_1",
+          "T-C02-000009_1",
+          "T-C02-000010_1",
+          "T-C02-000262_1",
+          "T-C02-000263_1",
+          "T-C02-000264_1",
+          "T-C02-000265_1",
+          "T-C02-000013_1",
+          "T-C02-000014_1",
+          "T-C02-000015_1",
+          "T-C02-000016_1",
+          "T-C02-000484_1",
+          "T-C02-000485_1",
+          "T-C02-000486_1",
+          "T-C02-000217_1",
+          "T-C02-000218_1",
+          "T-C02-000219_1",
+          "T-C02-000220_1",
+          "T-C02-000221_1",
+          "T-C02-000244_1",
+          "C02-01",
+          "T-HQ-000125_1",
+          "T-HQ-000409_1",
+          "T-HQ-000410_1",
+          "T-HQ-000411_1",
+          "T-HQ-000127_1",
+          "T-HQ-000128_1",
+          "T-HQ-000129_1",
+          "T-HQ-000412_1",
+          "T-HQ-000413_1",
+          "T-HQ-000131_1",
+          "T-HQ-000132_1",
+          "T-HQ-000133_1",
+          "T-HQ-000134_1",
+          "T-HQ-000135_1",
+          "T-HQ-000136_1",
+          "T-HQ-000414_1",
+          "T-HQ-000415_1",
+          "T-HQ-000416_1",
+          "T-HQ-000417_1",
+          "T-HQ-000138_1",
+          "T-HQ-000418_1",
+          "T-HQ-000419_1",
+          "T-HQ-000420_1",
+          "T-HQ-000421_1",
+          "T-HQ-000141_1",
+          "T-HQ-000181_1",
+          "T-HQ-000456_1",
+          "T-HQ-000457_1",
+          "T-HQ-000458_1",
+          "T-HQ-000459_1",
+          "T-HQ-000460_1",
+          "T-HQ-000461_1",
+          "T-HQ-000462_1",
+          "T-HQ-000184_1",
+          "T-HQ-000463_1",
+          "T-HQ-000464_1",
+          "T-HQ-000186_1",
+          "T-HQ-000187_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/old-netcafe-yard-door-closed-night/generation.json",
+          "sha256": "9ce075c6fb96c58d3eac0eb9953043bec5b0a5f9fad8920741b72d52fd11662b"
+        }
+      ]
+    },
+    {
+      "title": "后院闭门下午复用",
+      "decision": "reuse",
+      "assetIds": [
+        "bg-old-netcafe-yard-door-closed-morning"
+      ],
+      "reason": "完整图为正常日照，未见朝阳、晨雾或精确钟点限定；同一闭门后院可用于该2个下午敲门节点。",
+      "scopeExtension": true,
+      "guidance": [
+        "这是对该2节点的复用范围扩展候选；原HQ来源批准不改写。",
+        "保留隐藏线门禁；闭门不代表允许人物出院。"
+      ],
+      "resourceKey": "old-netcafe-yard-door-closed-afternoon",
+      "needIds": [
+        "P4-02-COMMON-N003"
+      ],
+      "packageIds": [
+        "P4-02-COMMON"
+      ],
+      "requestNodeIds": [
+        "T-C03-000017_1",
+        "T-C03-000018_1"
+      ],
+      "requestConstraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-COMMON-N003",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "reuse"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-C03-000017_1",
+          "paragraphId": "T-C03-000017",
+          "packageId": "P4-02-COMMON",
+          "condition": "ROUTE-01=huangqiuqiu"
+        },
+        {
+          "nodeId": "T-C03-000018_1",
+          "paragraphId": "T-C03-000018",
+          "packageId": "P4-02-COMMON",
+          "condition": "ROUTE-01=huangqiuqiu"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-old-netcafe-yard-door-closed-morning": [
+          "T-C03-000017_1",
+          "T-C03-000018_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-old-netcafe-yard-door-closed-morning.webp",
+          "sha256": "67efd015362f224a75032d9d44bfc2c984dbf62d5cbbddafd6f5f12816e76145"
+        },
+        {
+          "path": "qa/sui-i01-20261029/approval.json",
+          "sha256": "f0ebe5c9d8eca01642e29e09a2e61f00c50cefcf379e5b19cce1b72884ded10d"
+        }
+      ],
+      "originalApprovedScopes": {
+        "bg-old-netcafe-yard-door-closed-morning": [
+          "bg-old-netcafe-yard-door-closed-morning",
+          "只引用HQ已获准短出院分支；无公开人群。透明角色另层进入退出，不增加公开通行。",
+          "黄球球通行限制、私密视线；不得画公开人群；只引用HQ已获准短出院分支；无公开人群。透明角色另层进入退出，不增加公开通行。；只引用HQ已获准短出院分支；无公开人群。透明角色另层进入退出，不增加公开通行。",
+          "由E/I恢复背景键、状态、道具层与分支；本包未运行验证",
+          "精确读钟、水印、猫画和文字层限制见qa/SUI-A08-20261029/视觉复核.md。道具参考不等于独立可用透明层。",
+          "原尺寸保留；横图用等比contain，完整16:9舞台常为1279×720＋1像素余边，不能拉伸。"
+        ]
+      },
+      "scopeExtensionStatus": "P4-03依据冻结正文提出扩展候选；原批准不改写，P4-05复验与P4-07采用仍待。"
+    },
+    {
+      "title": "面馆门口日景复用",
+      "decision": "reuse",
+      "assetIds": [
+        "bg-noodle-shop-day"
+      ],
+      "reason": "完整图含门外木凳、门槛和开敞门框，足以承担门口坐谈；COMMON已据本批目视将该need记为resolved。",
+      "guidance": [
+        "不需另造面馆前景。坐姿层需避开背景凳子误叠；空间不延伸为新的店名或产权。",
+        "该need已由COMMON关闭不等于资源通过P4-05。"
+      ],
+      "resourceKey": "noodle-shop-front-day-seated",
+      "needIds": [
+        "P4-02-COMMON-N004"
+      ],
+      "packageIds": [
+        "P4-02-COMMON"
+      ],
+      "requestNodeIds": [
+        "T-D36-000001_1",
+        "T-D36-000012_1",
+        "T-D36-000013_1",
+        "T-D36-000014_1",
+        "T-D36-000015_1",
+        "T-D36-000016_1",
+        "T-D36-000017_1",
+        "T-D36-000018_1",
+        "T-D36-000019_1",
+        "T-D36-000020_1",
+        "T-D36-000021_1",
+        "T-D36-000022_1",
+        "T-D36-000023_1",
+        "T-D36-000024_1",
+        "T-D36-000025_1",
+        "T-D36-000026_1",
+        "T-D36-000027_1",
+        "T-D36-000028_1",
+        "T-D36-000029_1",
+        "T-D36-000030_1",
+        "T-D36-000031_1",
+        "T-D36-000032_1",
+        "T-D36-000033_1",
+        "T-D36-000034_1",
+        "T-D36-000035_1",
+        "T-D36-000036_1",
+        "T-D36-000037_1",
+        "T-D36-000038_1",
+        "T-D36-000039_1",
+        "T-D36-000040_1"
+      ],
+      "requestConstraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-COMMON-N004",
+          "statusAtReceipt": "resolved",
+          "actionAtReceipt": "reuse"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-D36-000001_1",
+          "paragraphId": "T-D36-000001",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000012_1",
+          "paragraphId": "T-D36-000012",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000013_1",
+          "paragraphId": "T-D36-000013",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000014_1",
+          "paragraphId": "T-D36-000014",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000015_1",
+          "paragraphId": "T-D36-000015",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000016_1",
+          "paragraphId": "T-D36-000016",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000017_1",
+          "paragraphId": "T-D36-000017",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000018_1",
+          "paragraphId": "T-D36-000018",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000019_1",
+          "paragraphId": "T-D36-000019",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000020_1",
+          "paragraphId": "T-D36-000020",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000021_1",
+          "paragraphId": "T-D36-000021",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000022_1",
+          "paragraphId": "T-D36-000022",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000023_1",
+          "paragraphId": "T-D36-000023",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000024_1",
+          "paragraphId": "T-D36-000024",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000025_1",
+          "paragraphId": "T-D36-000025",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000026_1",
+          "paragraphId": "T-D36-000026",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000027_1",
+          "paragraphId": "T-D36-000027",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000028_1",
+          "paragraphId": "T-D36-000028",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000029_1",
+          "paragraphId": "T-D36-000029",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000030_1",
+          "paragraphId": "T-D36-000030",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000031_1",
+          "paragraphId": "T-D36-000031",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000032_1",
+          "paragraphId": "T-D36-000032",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000033_1",
+          "paragraphId": "T-D36-000033",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000034_1",
+          "paragraphId": "T-D36-000034",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000035_1",
+          "paragraphId": "T-D36-000035",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000036_1",
+          "paragraphId": "T-D36-000036",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000037_1",
+          "paragraphId": "T-D36-000037",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000038_1",
+          "paragraphId": "T-D36-000038",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000039_1",
+          "paragraphId": "T-D36-000039",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000040_1",
+          "paragraphId": "T-D36-000040",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-noodle-shop-day": [
+          "T-D36-000001_1",
+          "T-D36-000012_1",
+          "T-D36-000013_1",
+          "T-D36-000014_1",
+          "T-D36-000015_1",
+          "T-D36-000016_1",
+          "T-D36-000017_1",
+          "T-D36-000018_1",
+          "T-D36-000019_1",
+          "T-D36-000020_1",
+          "T-D36-000021_1",
+          "T-D36-000022_1",
+          "T-D36-000023_1",
+          "T-D36-000024_1",
+          "T-D36-000025_1",
+          "T-D36-000026_1",
+          "T-D36-000027_1",
+          "T-D36-000028_1",
+          "T-D36-000029_1",
+          "T-D36-000030_1",
+          "T-D36-000031_1",
+          "T-D36-000032_1",
+          "T-D36-000033_1",
+          "T-D36-000034_1",
+          "T-D36-000035_1",
+          "T-D36-000036_1",
+          "T-D36-000037_1",
+          "T-D36-000038_1",
+          "T-D36-000039_1",
+          "T-D36-000040_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-noodle-shop-day.webp",
+          "sha256": "4f20a589dd2095626da10f12540cb42ad0dadf03022e79ebd671bc20b187b737"
+        },
+        {
+          "path": "qa/sui-i01-20261029/approval.json",
+          "sha256": "f0ebe5c9d8eca01642e29e09a2e61f00c50cefcf379e5b19cce1b72884ded10d"
+        }
+      ]
+    },
+    {
+      "title": "飘白衬衫空手坐姿",
+      "decision": "new",
+      "assetIds": [
+        "piao-seated-base"
+      ],
+      "reason": "现有相机与包带打结图均为站姿；补与既定外观一致的空手坐姿，保持低马尾、白衬衫、黑裤与浅酒窝。",
+      "guidance": [
+        "只用于第36天门口坐谈范围；无相机包带或盒带，不用piao-action-knot冒充盒带打结。",
+        "不补孕肚、孕周或身体变化；起身后清除坐姿。凳坐面随立绘，合成需避开背景凳子误叠，底部裁切置于文字框或舞台外。"
+      ],
+      "resourceKey": "piao-seated-base-common-d36",
+      "needIds": [
+        "P4-02-COMMON-N005"
+      ],
+      "packageIds": [
+        "P4-02-COMMON"
+      ],
+      "requestNodeIds": [
+        "T-D36-000001_1",
+        "T-D36-000012_1",
+        "T-D36-000013_1",
+        "T-D36-000014_1",
+        "T-D36-000015_1",
+        "T-D36-000016_1",
+        "T-D36-000017_1",
+        "T-D36-000018_1",
+        "T-D36-000019_1",
+        "T-D36-000020_1",
+        "T-D36-000021_1",
+        "T-D36-000022_1",
+        "T-D36-000023_1",
+        "T-D36-000024_1",
+        "T-D36-000025_1",
+        "T-D36-000026_1",
+        "T-D36-000027_1",
+        "T-D36-000028_1",
+        "T-D36-000029_1",
+        "T-D36-000030_1",
+        "T-D36-000031_1",
+        "T-D36-000032_1",
+        "T-D36-000033_1",
+        "T-D36-000034_1",
+        "T-D36-000035_1",
+        "T-D36-000036_1",
+        "T-D36-000037_1"
+      ],
+      "requestConstraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-COMMON-N005",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-D36-000001_1",
+          "paragraphId": "T-D36-000001",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000012_1",
+          "paragraphId": "T-D36-000012",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000013_1",
+          "paragraphId": "T-D36-000013",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000014_1",
+          "paragraphId": "T-D36-000014",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000015_1",
+          "paragraphId": "T-D36-000015",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000016_1",
+          "paragraphId": "T-D36-000016",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000017_1",
+          "paragraphId": "T-D36-000017",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000018_1",
+          "paragraphId": "T-D36-000018",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000019_1",
+          "paragraphId": "T-D36-000019",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000020_1",
+          "paragraphId": "T-D36-000020",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000021_1",
+          "paragraphId": "T-D36-000021",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000022_1",
+          "paragraphId": "T-D36-000022",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000023_1",
+          "paragraphId": "T-D36-000023",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000024_1",
+          "paragraphId": "T-D36-000024",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000025_1",
+          "paragraphId": "T-D36-000025",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000026_1",
+          "paragraphId": "T-D36-000026",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000027_1",
+          "paragraphId": "T-D36-000027",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000028_1",
+          "paragraphId": "T-D36-000028",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000029_1",
+          "paragraphId": "T-D36-000029",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000030_1",
+          "paragraphId": "T-D36-000030",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000031_1",
+          "paragraphId": "T-D36-000031",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000032_1",
+          "paragraphId": "T-D36-000032",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000033_1",
+          "paragraphId": "T-D36-000033",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000034_1",
+          "paragraphId": "T-D36-000034",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000035_1",
+          "paragraphId": "T-D36-000035",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000036_1",
+          "paragraphId": "T-D36-000036",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-D36-000037_1",
+          "paragraphId": "T-D36-000037",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "piao-seated-base": [
+          "T-D36-000001_1",
+          "T-D36-000012_1",
+          "T-D36-000013_1",
+          "T-D36-000014_1",
+          "T-D36-000015_1",
+          "T-D36-000016_1",
+          "T-D36-000017_1",
+          "T-D36-000018_1",
+          "T-D36-000019_1",
+          "T-D36-000020_1",
+          "T-D36-000021_1",
+          "T-D36-000022_1",
+          "T-D36-000023_1",
+          "T-D36-000024_1",
+          "T-D36-000025_1",
+          "T-D36-000026_1",
+          "T-D36-000027_1",
+          "T-D36-000028_1",
+          "T-D36-000029_1",
+          "T-D36-000030_1",
+          "T-D36-000031_1",
+          "T-D36-000032_1",
+          "T-D36-000033_1",
+          "T-D36-000034_1",
+          "T-D36-000035_1",
+          "T-D36-000036_1",
+          "T-D36-000037_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/piao-seated-base-common-d36/generation.json",
+          "sha256": "cbe5cc13178fbe02213fcade8e20bb9998307230f364fe77fdb48807e45a5f3b"
+        }
+      ]
+    },
+    {
+      "title": "桥头烧饼店暮色",
+      "decision": "repair",
+      "assetIds": [
+        "bg-bridge-shaobing-dusk"
+      ],
+      "reason": "现有day图有明显日照，不能直接覆盖正文六点四十七至七点十分的傍晚会面；制作同店暮色版。",
+      "guidance": [
+        "保持炉台、店面和河岸空间；不在新图上标精确时钟。"
+      ],
+      "resourceKey": "bridge-shaobing-dusk",
+      "needIds": [
+        "P4-02-COMMON-N008"
+      ],
+      "packageIds": [
+        "P4-02-COMMON"
+      ],
+      "requestNodeIds": [
+        "T-C02-000044_1",
+        "T-C02-000290_1",
+        "T-C02-000291_1",
+        "T-C02-000292_1",
+        "T-C02-000293_1",
+        "T-C02-000294_1",
+        "T-C02-000295_1",
+        "T-C02-000296_1",
+        "T-C02-000297_1",
+        "T-C02-000048_1",
+        "T-C02-000049_1",
+        "T-C02-000050_1",
+        "T-C02-000298_1",
+        "T-C02-000299_1",
+        "T-C02-000300_1",
+        "T-C02-000052_1",
+        "T-C02-000053_1",
+        "T-C02-000054_1",
+        "T-C02-000055_1",
+        "T-C02-000301_1",
+        "T-C02-000302_1",
+        "T-C02-000303_1",
+        "T-C02-000057_1",
+        "T-C02-000058_1",
+        "T-C02-000059_1",
+        "T-C02-000304_1",
+        "T-C02-000305_1",
+        "T-C02-000061_1",
+        "T-C02-000062_1",
+        "T-C02-000063_1",
+        "T-C02-000064_1",
+        "T-C02-000306_1",
+        "T-C02-000307_1",
+        "T-C02-000308_1",
+        "T-C02-000309_1",
+        "T-C02-000310_1",
+        "T-C02-000067_1",
+        "T-C02-000311_1",
+        "T-C02-000312_1",
+        "T-C02-000069_1",
+        "T-C02-000070_1",
+        "T-C02-000071_1",
+        "T-C02-000072_1",
+        "T-C02-000073_1",
+        "T-C02-000313_1",
+        "T-C02-000314_1",
+        "T-C02-000075_1",
+        "T-C02-000076_1",
+        "T-C02-000315_1",
+        "T-C02-000316_1",
+        "T-C02-000078_1",
+        "T-C02-000079_1",
+        "T-C02-000317_1",
+        "T-C02-000318_1",
+        "C02-03"
+      ],
+      "requestConstraints": [
+        "按列出的P3稳定段落及其冻结条件制作；不得改台词迁就图片",
+        "检查实际站坐、衣装、持物及显示时段；资源回交后由P4-05复验"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-COMMON-N008",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "reuse"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-C02-000044_1",
+          "paragraphId": "T-C02-000044",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000290_1",
+          "paragraphId": "T-C02-000290",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000291_1",
+          "paragraphId": "T-C02-000291",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000292_1",
+          "paragraphId": "T-C02-000292",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000293_1",
+          "paragraphId": "T-C02-000293",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000294_1",
+          "paragraphId": "T-C02-000294",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000295_1",
+          "paragraphId": "T-C02-000295",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000296_1",
+          "paragraphId": "T-C02-000296",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000297_1",
+          "paragraphId": "T-C02-000297",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000048_1",
+          "paragraphId": "T-C02-000048",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000049_1",
+          "paragraphId": "T-C02-000049",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000050_1",
+          "paragraphId": "T-C02-000050",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000298_1",
+          "paragraphId": "T-C02-000298",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000299_1",
+          "paragraphId": "T-C02-000299",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000300_1",
+          "paragraphId": "T-C02-000300",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000052_1",
+          "paragraphId": "T-C02-000052",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000053_1",
+          "paragraphId": "T-C02-000053",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=A"
+        },
+        {
+          "nodeId": "T-C02-000054_1",
+          "paragraphId": "T-C02-000054",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=A"
+        },
+        {
+          "nodeId": "T-C02-000055_1",
+          "paragraphId": "T-C02-000055",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=A"
+        },
+        {
+          "nodeId": "T-C02-000301_1",
+          "paragraphId": "T-C02-000301",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=A"
+        },
+        {
+          "nodeId": "T-C02-000302_1",
+          "paragraphId": "T-C02-000302",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=A"
+        },
+        {
+          "nodeId": "T-C02-000303_1",
+          "paragraphId": "T-C02-000303",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=A"
+        },
+        {
+          "nodeId": "T-C02-000057_1",
+          "paragraphId": "T-C02-000057",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=B"
+        },
+        {
+          "nodeId": "T-C02-000058_1",
+          "paragraphId": "T-C02-000058",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=B"
+        },
+        {
+          "nodeId": "T-C02-000059_1",
+          "paragraphId": "T-C02-000059",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=B"
+        },
+        {
+          "nodeId": "T-C02-000304_1",
+          "paragraphId": "T-C02-000304",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=B"
+        },
+        {
+          "nodeId": "T-C02-000305_1",
+          "paragraphId": "T-C02-000305",
+          "packageId": "P4-02-COMMON",
+          "condition": "C02-03=B"
+        },
+        {
+          "nodeId": "T-C02-000061_1",
+          "paragraphId": "T-C02-000061",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000062_1",
+          "paragraphId": "T-C02-000062",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000063_1",
+          "paragraphId": "T-C02-000063",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000064_1",
+          "paragraphId": "T-C02-000064",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000306_1",
+          "paragraphId": "T-C02-000306",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000307_1",
+          "paragraphId": "T-C02-000307",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000308_1",
+          "paragraphId": "T-C02-000308",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000309_1",
+          "paragraphId": "T-C02-000309",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000310_1",
+          "paragraphId": "T-C02-000310",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000067_1",
+          "paragraphId": "T-C02-000067",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000311_1",
+          "paragraphId": "T-C02-000311",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000312_1",
+          "paragraphId": "T-C02-000312",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000069_1",
+          "paragraphId": "T-C02-000069",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000070_1",
+          "paragraphId": "T-C02-000070",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000071_1",
+          "paragraphId": "T-C02-000071",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000072_1",
+          "paragraphId": "T-C02-000072",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000073_1",
+          "paragraphId": "T-C02-000073",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000313_1",
+          "paragraphId": "T-C02-000313",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000314_1",
+          "paragraphId": "T-C02-000314",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000075_1",
+          "paragraphId": "T-C02-000075",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000076_1",
+          "paragraphId": "T-C02-000076",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000315_1",
+          "paragraphId": "T-C02-000315",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000316_1",
+          "paragraphId": "T-C02-000316",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000078_1",
+          "paragraphId": "T-C02-000078",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000079_1",
+          "paragraphId": "T-C02-000079",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000317_1",
+          "paragraphId": "T-C02-000317",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-C02-000318_1",
+          "paragraphId": "T-C02-000318",
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "C02-03",
+          "paragraphId": null,
+          "packageId": "P4-02-COMMON",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-bridge-shaobing-dusk": [
+          "T-C02-000044_1",
+          "T-C02-000290_1",
+          "T-C02-000291_1",
+          "T-C02-000292_1",
+          "T-C02-000293_1",
+          "T-C02-000294_1",
+          "T-C02-000295_1",
+          "T-C02-000296_1",
+          "T-C02-000297_1",
+          "T-C02-000048_1",
+          "T-C02-000049_1",
+          "T-C02-000050_1",
+          "T-C02-000298_1",
+          "T-C02-000299_1",
+          "T-C02-000300_1",
+          "T-C02-000052_1",
+          "T-C02-000053_1",
+          "T-C02-000054_1",
+          "T-C02-000055_1",
+          "T-C02-000301_1",
+          "T-C02-000302_1",
+          "T-C02-000303_1",
+          "T-C02-000057_1",
+          "T-C02-000058_1",
+          "T-C02-000059_1",
+          "T-C02-000304_1",
+          "T-C02-000305_1",
+          "T-C02-000061_1",
+          "T-C02-000062_1",
+          "T-C02-000063_1",
+          "T-C02-000064_1",
+          "T-C02-000306_1",
+          "T-C02-000307_1",
+          "T-C02-000308_1",
+          "T-C02-000309_1",
+          "T-C02-000310_1",
+          "T-C02-000067_1",
+          "T-C02-000311_1",
+          "T-C02-000312_1",
+          "T-C02-000069_1",
+          "T-C02-000070_1",
+          "T-C02-000071_1",
+          "T-C02-000072_1",
+          "T-C02-000073_1",
+          "T-C02-000313_1",
+          "T-C02-000314_1",
+          "T-C02-000075_1",
+          "T-C02-000076_1",
+          "T-C02-000315_1",
+          "T-C02-000316_1",
+          "T-C02-000078_1",
+          "T-C02-000079_1",
+          "T-C02-000317_1",
+          "T-C02-000318_1",
+          "C02-03"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/bridge-shaobing-dusk/generation.json",
+          "sha256": "7fa8c0ca86bb2d9129f8b55868c8aea204e6675db35006c5023d81cbc032b53c"
+        }
+      ]
+    },
+    {
+      "title": "小满收拾行李的室内局部",
+      "decision": "new",
+      "assetIds": [
+        "bg-xiaoman-packing-interior"
+      ],
+      "reason": "使用墙面、地面和桌脚局部承担已写室内场景，不借用文文出租屋，不补完整房型或产权。",
+      "guidance": [
+        "选v002；v001左缘固定竖放箱子已移除，原件保留弃选。",
+        "箱子在打包、开箱、坐箱等段落会变状态，因此不固定烘焙箱子、车票或发夹；细节由正文画外或已登记CG承接。"
+      ],
+      "resourceKey": "xiaoman-day40-packing-interior",
+      "needIds": [
+        "P4-02-XM-N001"
+      ],
+      "packageIds": [
+        "P4-02-XM"
+      ],
+      "requestNodeIds": [
+        "T-XM-000212_1",
+        "T-XM-000213_1",
+        "T-XM-000214_1",
+        "T-XM-000215_1",
+        "T-XM-000216_1",
+        "T-XM-000217_1",
+        "T-XM-000218_1",
+        "T-XM-000219_1",
+        "T-XM-000220_1",
+        "T-XM-000221_1",
+        "T-XM-000222_1",
+        "T-XM-000621_1",
+        "T-XM-000622_1",
+        "T-XM-000623_1",
+        "T-XM-000624_1",
+        "T-XM-000625_1",
+        "T-XM-000626_1",
+        "T-XM-000627_1",
+        "T-XM-000628_1",
+        "T-XM-000629_1",
+        "T-XM-000226_1",
+        "T-XM-000227_1",
+        "T-XM-000228_1",
+        "T-XM-000630_1",
+        "T-XM-000631_1",
+        "T-XM-000632_1",
+        "T-XM-000230_1",
+        "T-XM-000231_1",
+        "T-XM-000232_1",
+        "T-XM-000233_1",
+        "T-XM-000234_1",
+        "T-XM-000235_1",
+        "T-XM-000633_1",
+        "XM07-01"
+      ],
+      "requestConstraints": [
+        "仅据行李箱、桌脚、发夹、车票等已写细节设计中性局部，完整房型/产权不补设。",
+        "若P4-03确认局部留白足以承担镜头，可提交有证据的画外处置，不强制补整屋。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-XM-N001",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-XM-000212_1",
+          "paragraphId": "T-XM-000212",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000213_1",
+          "paragraphId": "T-XM-000213",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000214_1",
+          "paragraphId": "T-XM-000214",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000215_1",
+          "paragraphId": "T-XM-000215",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000216_1",
+          "paragraphId": "T-XM-000216",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000217_1",
+          "paragraphId": "T-XM-000217",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000218_1",
+          "paragraphId": "T-XM-000218",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000219_1",
+          "paragraphId": "T-XM-000219",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000220_1",
+          "paragraphId": "T-XM-000220",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000221_1",
+          "paragraphId": "T-XM-000221",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000222_1",
+          "paragraphId": "T-XM-000222",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000621_1",
+          "paragraphId": "T-XM-000621",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000622_1",
+          "paragraphId": "T-XM-000622",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000623_1",
+          "paragraphId": "T-XM-000623",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000624_1",
+          "paragraphId": "T-XM-000624",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000625_1",
+          "paragraphId": "T-XM-000625",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000626_1",
+          "paragraphId": "T-XM-000626",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000627_1",
+          "paragraphId": "T-XM-000627",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000628_1",
+          "paragraphId": "T-XM-000628",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000629_1",
+          "paragraphId": "T-XM-000629",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000226_1",
+          "paragraphId": "T-XM-000226",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000227_1",
+          "paragraphId": "T-XM-000227",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000228_1",
+          "paragraphId": "T-XM-000228",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000630_1",
+          "paragraphId": "T-XM-000630",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000631_1",
+          "paragraphId": "T-XM-000631",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000632_1",
+          "paragraphId": "T-XM-000632",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000230_1",
+          "paragraphId": "T-XM-000230",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000231_1",
+          "paragraphId": "T-XM-000231",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000232_1",
+          "paragraphId": "T-XM-000232",
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-XM-000233_1",
+          "paragraphId": "T-XM-000233",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=A"
+        },
+        {
+          "nodeId": "T-XM-000234_1",
+          "paragraphId": "T-XM-000234",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=A"
+        },
+        {
+          "nodeId": "T-XM-000235_1",
+          "paragraphId": "T-XM-000235",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=A"
+        },
+        {
+          "nodeId": "T-XM-000633_1",
+          "paragraphId": "T-XM-000633",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=A"
+        },
+        {
+          "nodeId": "XM07-01",
+          "paragraphId": null,
+          "packageId": "P4-02-XM",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-xiaoman-packing-interior": [
+          "T-XM-000212_1",
+          "T-XM-000213_1",
+          "T-XM-000214_1",
+          "T-XM-000215_1",
+          "T-XM-000216_1",
+          "T-XM-000217_1",
+          "T-XM-000218_1",
+          "T-XM-000219_1",
+          "T-XM-000220_1",
+          "T-XM-000221_1",
+          "T-XM-000222_1",
+          "T-XM-000621_1",
+          "T-XM-000622_1",
+          "T-XM-000623_1",
+          "T-XM-000624_1",
+          "T-XM-000625_1",
+          "T-XM-000626_1",
+          "T-XM-000627_1",
+          "T-XM-000628_1",
+          "T-XM-000629_1",
+          "T-XM-000226_1",
+          "T-XM-000227_1",
+          "T-XM-000228_1",
+          "T-XM-000630_1",
+          "T-XM-000631_1",
+          "T-XM-000632_1",
+          "T-XM-000230_1",
+          "T-XM-000231_1",
+          "T-XM-000232_1",
+          "T-XM-000233_1",
+          "T-XM-000234_1",
+          "T-XM-000235_1",
+          "T-XM-000633_1",
+          "XM07-01"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/xiaoman-day40-packing-interior/generation-v002.json",
+          "sha256": "ee3976ab1d60e8cd0341e7983e1d2f5b8f58d382e19c41528802df2856a0f0ff"
+        }
+      ]
+    },
+    {
+      "title": "小满头盔顺序交总协调",
+      "decision": "escalated",
+      "assetIds": [],
+      "reason": "用户否定预叙解释，要求总协调调整前后顺序；不靠补造取回头盔的新事件解决正文矛盾。",
+      "guidance": [
+        "总协调已准备T-XM-000296整段移位补丁与独立预览；见P4-02/approved-text-amendment.json。",
+        "该need仍open。由总协调另建冻结版本并更新映射/来源指纹后，XM闭合头盔进退场；本包不改P3/P4-01原件。"
+      ],
+      "resourceKey": "xiaoman-helmets-day53-continuity",
+      "needIds": [
+        "P4-02-XM-N002"
+      ],
+      "packageIds": [
+        "P4-02-XM"
+      ],
+      "requestNodeIds": [
+        "T-XM-000706_1",
+        "T-XM-000707_1",
+        "T-XM-000708_1",
+        "T-XM-000709_1",
+        "T-XM-000301_1",
+        "T-XM-000302_1"
+      ],
+      "requestConstraints": [
+        "总协调已取得用户决定：先等车告别，之后再寄放；将T-XM-000296移至两支站台段后、T-XM-000710第59天电话前，保留ID。",
+        "在独立候选应用修订并重冻结后，更新节点/条件/输入指纹和头盔进退场；当前need仍open，不将决定冒充已采用。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-XM-N002",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "offscreen"
+        }
+      ],
+      "producerStatus": "escalated-to-coordinator",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-XM-000706_1",
+          "paragraphId": "T-XM-000706",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=B"
+        },
+        {
+          "nodeId": "T-XM-000707_1",
+          "paragraphId": "T-XM-000707",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=B"
+        },
+        {
+          "nodeId": "T-XM-000708_1",
+          "paragraphId": "T-XM-000708",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=B"
+        },
+        {
+          "nodeId": "T-XM-000709_1",
+          "paragraphId": "T-XM-000709",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=B"
+        },
+        {
+          "nodeId": "T-XM-000301_1",
+          "paragraphId": "T-XM-000301",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=B"
+        },
+        {
+          "nodeId": "T-XM-000302_1",
+          "paragraphId": "T-XM-000302",
+          "packageId": "P4-02-XM",
+          "condition": "XM07-01=B"
+        }
+      ],
+      "assetNodeScopes": {},
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-02/approved-text-amendment.json",
+          "sha256": "e9e9547cd6c8a2839cca3ee252201518215239e5a546c817cb03bacba4828588"
+        }
+      ]
+    },
+    {
+      "title": "回声306营业下午版",
+      "decision": "repair",
+      "assetIds": [
+        "bg-huisheng-306-operating-day"
+      ],
+      "reason": "营业夜底窗外明确为夜晚；改为白昼窗光，保留沙发、桌麦克风、杯子、电视及停钟，不用搬空房。",
+      "guidance": [
+        "用于第15天与第22天下午营业场景；停钟位置和指针朝向保留。",
+        "普通远景不承担精确读到11:47的功能；读钟特写仍由既有道具/演出安排处理，P4-05继续复核。"
+      ],
+      "resourceKey": "huisheng-306-operating-daylight",
+      "needIds": [
+        "P4-02-ZZ-N002"
+      ],
+      "packageIds": [
+        "P4-02-ZZ"
+      ],
+      "requestNodeIds": [
+        "T-ZZ-000013_1",
+        "T-ZZ-000506_1",
+        "T-ZZ-000507_1",
+        "T-ZZ-000508_1",
+        "T-ZZ-000509_1",
+        "T-ZZ-000510_1",
+        "T-ZZ-000016_1",
+        "T-ZZ-000017_1",
+        "T-ZZ-000018_1",
+        "T-ZZ-000511_1",
+        "T-ZZ-000512_1",
+        "T-ZZ-000020_1",
+        "T-ZZ-000021_1",
+        "T-ZZ-000513_1",
+        "T-ZZ-000514_1",
+        "T-ZZ-000023_1",
+        "T-ZZ-000024_1",
+        "T-ZZ-000025_1",
+        "T-ZZ-000026_1",
+        "T-ZZ-000027_1",
+        "T-ZZ-000515_1",
+        "T-ZZ-000516_1",
+        "T-ZZ-000517_1",
+        "T-ZZ-000030_1",
+        "T-ZZ-000031_1",
+        "T-ZZ-000032_1",
+        "T-ZZ-000033_1",
+        "T-ZZ-000034_1",
+        "T-ZZ-000035_1",
+        "T-ZZ-000036_1",
+        "T-ZZ-000037_1",
+        "T-ZZ-000038_1",
+        "T-ZZ-000518_1",
+        "T-ZZ-000519_1",
+        "T-ZZ-000520_1",
+        "T-ZZ-000521_1",
+        "T-ZZ-000041_1",
+        "T-ZZ-000052_1",
+        "T-ZZ-000053_1",
+        "T-ZZ-000054_1",
+        "T-ZZ-000529_1",
+        "T-ZZ-000530_1",
+        "T-ZZ-000531_1",
+        "ZZ03-01"
+      ],
+      "requestConstraints": [
+        "室内灯光可以复用，但不能出现不符时段的窗外夜景；需实际目视判定。",
+        "保留旧场所布局与停钟，不用清空306替营业场景。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-ZZ-N002",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "repair"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-ZZ-000013_1",
+          "paragraphId": "T-ZZ-000013",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000506_1",
+          "paragraphId": "T-ZZ-000506",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000507_1",
+          "paragraphId": "T-ZZ-000507",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000508_1",
+          "paragraphId": "T-ZZ-000508",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000509_1",
+          "paragraphId": "T-ZZ-000509",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000510_1",
+          "paragraphId": "T-ZZ-000510",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000016_1",
+          "paragraphId": "T-ZZ-000016",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000017_1",
+          "paragraphId": "T-ZZ-000017",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000018_1",
+          "paragraphId": "T-ZZ-000018",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000511_1",
+          "paragraphId": "T-ZZ-000511",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000512_1",
+          "paragraphId": "T-ZZ-000512",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000020_1",
+          "paragraphId": "T-ZZ-000020",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000021_1",
+          "paragraphId": "T-ZZ-000021",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000513_1",
+          "paragraphId": "T-ZZ-000513",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000514_1",
+          "paragraphId": "T-ZZ-000514",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000023_1",
+          "paragraphId": "T-ZZ-000023",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000024_1",
+          "paragraphId": "T-ZZ-000024",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000025_1",
+          "paragraphId": "T-ZZ-000025",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000026_1",
+          "paragraphId": "T-ZZ-000026",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000027_1",
+          "paragraphId": "T-ZZ-000027",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000515_1",
+          "paragraphId": "T-ZZ-000515",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000516_1",
+          "paragraphId": "T-ZZ-000516",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000517_1",
+          "paragraphId": "T-ZZ-000517",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000030_1",
+          "paragraphId": "T-ZZ-000030",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000031_1",
+          "paragraphId": "T-ZZ-000031",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000032_1",
+          "paragraphId": "T-ZZ-000032",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ03-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000033_1",
+          "paragraphId": "T-ZZ-000033",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000034_1",
+          "paragraphId": "T-ZZ-000034",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000035_1",
+          "paragraphId": "T-ZZ-000035",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000036_1",
+          "paragraphId": "T-ZZ-000036",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000037_1",
+          "paragraphId": "T-ZZ-000037",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000038_1",
+          "paragraphId": "T-ZZ-000038",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000518_1",
+          "paragraphId": "T-ZZ-000518",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000519_1",
+          "paragraphId": "T-ZZ-000519",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000520_1",
+          "paragraphId": "T-ZZ-000520",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000521_1",
+          "paragraphId": "T-ZZ-000521",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000041_1",
+          "paragraphId": "T-ZZ-000041",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000052_1",
+          "paragraphId": "T-ZZ-000052",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000053_1",
+          "paragraphId": "T-ZZ-000053",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000054_1",
+          "paragraphId": "T-ZZ-000054",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000529_1",
+          "paragraphId": "T-ZZ-000529",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000530_1",
+          "paragraphId": "T-ZZ-000530",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000531_1",
+          "paragraphId": "T-ZZ-000531",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "ZZ03-01",
+          "paragraphId": null,
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-huisheng-306-operating-day": [
+          "T-ZZ-000013_1",
+          "T-ZZ-000506_1",
+          "T-ZZ-000507_1",
+          "T-ZZ-000508_1",
+          "T-ZZ-000509_1",
+          "T-ZZ-000510_1",
+          "T-ZZ-000016_1",
+          "T-ZZ-000017_1",
+          "T-ZZ-000018_1",
+          "T-ZZ-000511_1",
+          "T-ZZ-000512_1",
+          "T-ZZ-000020_1",
+          "T-ZZ-000021_1",
+          "T-ZZ-000513_1",
+          "T-ZZ-000514_1",
+          "T-ZZ-000023_1",
+          "T-ZZ-000024_1",
+          "T-ZZ-000025_1",
+          "T-ZZ-000026_1",
+          "T-ZZ-000027_1",
+          "T-ZZ-000515_1",
+          "T-ZZ-000516_1",
+          "T-ZZ-000517_1",
+          "T-ZZ-000030_1",
+          "T-ZZ-000031_1",
+          "T-ZZ-000032_1",
+          "T-ZZ-000033_1",
+          "T-ZZ-000034_1",
+          "T-ZZ-000035_1",
+          "T-ZZ-000036_1",
+          "T-ZZ-000037_1",
+          "T-ZZ-000038_1",
+          "T-ZZ-000518_1",
+          "T-ZZ-000519_1",
+          "T-ZZ-000520_1",
+          "T-ZZ-000521_1",
+          "T-ZZ-000041_1",
+          "T-ZZ-000052_1",
+          "T-ZZ-000053_1",
+          "T-ZZ-000054_1",
+          "T-ZZ-000529_1",
+          "T-ZZ-000530_1",
+          "T-ZZ-000531_1",
+          "ZZ03-01"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/huisheng-306-operating-daylight/generation.json",
+          "sha256": "3b45de9f039c583712b9a92aecca3f6eb62f56b4975460ed6550c41d1a443e90"
+        }
+      ]
+    },
+    {
+      "title": "回声营业夜楼道",
+      "decision": "repair",
+      "assetIds": [
+        "bg-huisheng-corridor-operating-night"
+      ],
+      "reason": "原白昼走廊有明显窗光；补同地点蓝夜窗景和室内照明，保留楼梯、前台和纸箱。",
+      "guidance": [
+        "ZZ第30天20:30后与MY接21:25上班前的楼道共用。",
+        "营业状态，不采用停业锁闭走廊；电话或消息不让远程人物进场。"
+      ],
+      "resourceKey": "huisheng-corridor-night",
+      "needIds": [
+        "P4-02-ZZ-N003",
+        "P4-02-MY-N005"
+      ],
+      "packageIds": [
+        "P4-02-ZZ",
+        "P4-02-MY"
+      ],
+      "requestNodeIds": [
+        "T-ZZ-000166_1",
+        "T-ZZ-000629_1",
+        "T-ZZ-000630_1",
+        "T-ZZ-000631_1",
+        "T-ZZ-000632_1",
+        "T-ZZ-000633_1",
+        "T-ZZ-000634_1",
+        "T-ZZ-000169_1",
+        "T-ZZ-000635_1",
+        "T-ZZ-000636_1",
+        "T-ZZ-000637_1",
+        "T-ZZ-000638_1",
+        "T-ZZ-000639_1",
+        "T-ZZ-000662_1",
+        "T-MY-000159_1",
+        "T-MY-000617_1",
+        "T-MY-000618_1",
+        "T-MY-000619_1",
+        "T-MY-000161_1",
+        "T-MY-000162_1",
+        "T-MY-000163_1",
+        "T-MY-000164_1",
+        "T-MY-000165_1",
+        "T-MY-000166_1",
+        "T-MY-000167_1",
+        "T-MY-000568_1",
+        "T-MY-000569_1",
+        "T-MY-000570_1",
+        "T-MY-000169_1",
+        "T-MY-000170_1",
+        "T-MY-000171_1",
+        "T-MY-000571_1",
+        "T-MY-000572_1",
+        "T-MY-000573_1",
+        "T-MY-000620_1",
+        "T-MY-000621_1",
+        "T-MY-000622_1",
+        "T-MY-000174_1",
+        "MY06-01"
+      ],
+      "requestConstraints": [
+        "不得用已停业锁闭走廊提前表示关门。",
+        "若图为无窗通用内景，复核可复用后有证据关闭，无需机械补图。",
+        "沿用回声同一楼道空间与纸箱位置，补夜间照明",
+        "MY06选择及A/B分支均用同一夜景",
+        "新原件另存，不改现有白昼图"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-ZZ-N003",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "repair"
+        },
+        {
+          "needId": "P4-02-MY-N005",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-ZZ-000166_1",
+          "paragraphId": "T-ZZ-000166",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000629_1",
+          "paragraphId": "T-ZZ-000629",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000630_1",
+          "paragraphId": "T-ZZ-000630",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000631_1",
+          "paragraphId": "T-ZZ-000631",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000632_1",
+          "paragraphId": "T-ZZ-000632",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000633_1",
+          "paragraphId": "T-ZZ-000633",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000634_1",
+          "paragraphId": "T-ZZ-000634",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000169_1",
+          "paragraphId": "T-ZZ-000169",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000635_1",
+          "paragraphId": "T-ZZ-000635",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000636_1",
+          "paragraphId": "T-ZZ-000636",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000637_1",
+          "paragraphId": "T-ZZ-000637",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000638_1",
+          "paragraphId": "T-ZZ-000638",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000639_1",
+          "paragraphId": "T-ZZ-000639",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000662_1",
+          "paragraphId": "T-ZZ-000662",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=A"
+        },
+        {
+          "nodeId": "T-MY-000159_1",
+          "paragraphId": "T-MY-000159",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000617_1",
+          "paragraphId": "T-MY-000617",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000618_1",
+          "paragraphId": "T-MY-000618",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000619_1",
+          "paragraphId": "T-MY-000619",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000161_1",
+          "paragraphId": "T-MY-000161",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000162_1",
+          "paragraphId": "T-MY-000162",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000163_1",
+          "paragraphId": "T-MY-000163",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000164_1",
+          "paragraphId": "T-MY-000164",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000165_1",
+          "paragraphId": "T-MY-000165",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000166_1",
+          "paragraphId": "T-MY-000166",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000167_1",
+          "paragraphId": "T-MY-000167",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000568_1",
+          "paragraphId": "T-MY-000568",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=A"
+        },
+        {
+          "nodeId": "T-MY-000569_1",
+          "paragraphId": "T-MY-000569",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=A"
+        },
+        {
+          "nodeId": "T-MY-000570_1",
+          "paragraphId": "T-MY-000570",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=A"
+        },
+        {
+          "nodeId": "T-MY-000169_1",
+          "paragraphId": "T-MY-000169",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=A"
+        },
+        {
+          "nodeId": "T-MY-000170_1",
+          "paragraphId": "T-MY-000170",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=A"
+        },
+        {
+          "nodeId": "T-MY-000171_1",
+          "paragraphId": "T-MY-000171",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=A"
+        },
+        {
+          "nodeId": "T-MY-000571_1",
+          "paragraphId": "T-MY-000571",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=B"
+        },
+        {
+          "nodeId": "T-MY-000572_1",
+          "paragraphId": "T-MY-000572",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=B"
+        },
+        {
+          "nodeId": "T-MY-000573_1",
+          "paragraphId": "T-MY-000573",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=B"
+        },
+        {
+          "nodeId": "T-MY-000620_1",
+          "paragraphId": "T-MY-000620",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=B"
+        },
+        {
+          "nodeId": "T-MY-000621_1",
+          "paragraphId": "T-MY-000621",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=B"
+        },
+        {
+          "nodeId": "T-MY-000622_1",
+          "paragraphId": "T-MY-000622",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=B"
+        },
+        {
+          "nodeId": "T-MY-000174_1",
+          "paragraphId": "T-MY-000174",
+          "packageId": "P4-02-MY",
+          "condition": "MY06-01=B"
+        },
+        {
+          "nodeId": "MY06-01",
+          "paragraphId": null,
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-huisheng-corridor-operating-night": [
+          "T-ZZ-000166_1",
+          "T-ZZ-000629_1",
+          "T-ZZ-000630_1",
+          "T-ZZ-000631_1",
+          "T-ZZ-000632_1",
+          "T-ZZ-000633_1",
+          "T-ZZ-000634_1",
+          "T-ZZ-000169_1",
+          "T-ZZ-000635_1",
+          "T-ZZ-000636_1",
+          "T-ZZ-000637_1",
+          "T-ZZ-000638_1",
+          "T-ZZ-000639_1",
+          "T-ZZ-000662_1",
+          "T-MY-000159_1",
+          "T-MY-000617_1",
+          "T-MY-000618_1",
+          "T-MY-000619_1",
+          "T-MY-000161_1",
+          "T-MY-000162_1",
+          "T-MY-000163_1",
+          "T-MY-000164_1",
+          "T-MY-000165_1",
+          "T-MY-000166_1",
+          "T-MY-000167_1",
+          "T-MY-000568_1",
+          "T-MY-000569_1",
+          "T-MY-000570_1",
+          "T-MY-000169_1",
+          "T-MY-000170_1",
+          "T-MY-000171_1",
+          "T-MY-000571_1",
+          "T-MY-000572_1",
+          "T-MY-000573_1",
+          "T-MY-000620_1",
+          "T-MY-000621_1",
+          "T-MY-000622_1",
+          "T-MY-000174_1",
+          "MY06-01"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/huisheng-corridor-night/generation.json",
+          "sha256": "08f24098d54f4a7a47493e201ee2c0f66210ac2db85c3edd30b5860621c4a0e3"
+        }
+      ]
+    },
+    {
+      "title": "周栀第30天工作裙复用",
+      "decision": "reuse",
+      "assetIds": [
+        "char-zhouzhi-human-work-neutral",
+        "char-zhouzhi-human-work-serious"
+      ],
+      "reason": "T-ZZ-000176_1明确裙摆，未指定另一色款；既有工作形象确为朴素裙装，可同装复用，不再造新衣。",
+      "scopeExtension": true,
+      "guidance": [
+        "既有批准针对第46天；本记录仅新增第30天该50节点的适用范围候选，保留原批准原文与证据。",
+        "neutral/serious按对白选择，职业礼貌不等于恋人承诺。P4-05复验并由P4-07采用扩展范围。"
+      ],
+      "resourceKey": "zhouzhi-day30-work-skirt",
+      "needIds": [
+        "P4-02-ZZ-N004"
+      ],
+      "packageIds": [
+        "P4-02-ZZ"
+      ],
+      "requestNodeIds": [
+        "T-ZZ-000640_1",
+        "T-ZZ-000641_1",
+        "T-ZZ-000642_1",
+        "T-ZZ-000173_1",
+        "T-ZZ-000174_1",
+        "T-ZZ-000643_1",
+        "T-ZZ-000176_1",
+        "T-ZZ-000644_1",
+        "T-ZZ-000645_1",
+        "T-ZZ-000646_1",
+        "T-ZZ-000647_1",
+        "T-ZZ-000648_1",
+        "T-ZZ-000178_1",
+        "T-ZZ-000179_1",
+        "T-ZZ-000649_1",
+        "T-ZZ-000650_1",
+        "T-ZZ-000651_1",
+        "T-ZZ-000181_1",
+        "T-ZZ-000182_1",
+        "T-ZZ-000183_1",
+        "T-ZZ-000184_1",
+        "T-ZZ-000652_1",
+        "T-ZZ-000653_1",
+        "T-ZZ-000654_1",
+        "T-ZZ-000655_1",
+        "T-ZZ-000656_1",
+        "T-ZZ-000188_1",
+        "T-ZZ-000189_1",
+        "T-ZZ-000657_1",
+        "T-ZZ-000658_1",
+        "T-ZZ-000659_1",
+        "T-ZZ-000191_1",
+        "T-ZZ-000192_1",
+        "T-ZZ-000660_1",
+        "T-ZZ-000194_1",
+        "T-ZZ-000661_1",
+        "T-ZZ-000667_1",
+        "T-ZZ-000668_1",
+        "T-ZZ-000199_1",
+        "T-ZZ-000669_1",
+        "T-ZZ-000670_1",
+        "T-ZZ-000671_1",
+        "T-ZZ-000201_1",
+        "T-ZZ-000672_1",
+        "T-ZZ-000673_1",
+        "T-ZZ-000674_1",
+        "T-ZZ-000675_1",
+        "T-ZZ-000203_1",
+        "T-ZZ-000204_1",
+        "ZZ06-01"
+      ],
+      "requestConstraints": [
+        "先由P4-03核可否同装复用并补适用范围证据，再决定是否补图；本包不新定色款。",
+        "第30天营业与私人关系冲突分开，不能用职业礼貌当恋人承诺。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-ZZ-N004",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-ZZ-000640_1",
+          "paragraphId": "T-ZZ-000640",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000641_1",
+          "paragraphId": "T-ZZ-000641",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000642_1",
+          "paragraphId": "T-ZZ-000642",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000173_1",
+          "paragraphId": "T-ZZ-000173",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000174_1",
+          "paragraphId": "T-ZZ-000174",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000643_1",
+          "paragraphId": "T-ZZ-000643",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000176_1",
+          "paragraphId": "T-ZZ-000176",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000644_1",
+          "paragraphId": "T-ZZ-000644",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000645_1",
+          "paragraphId": "T-ZZ-000645",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000646_1",
+          "paragraphId": "T-ZZ-000646",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000647_1",
+          "paragraphId": "T-ZZ-000647",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000648_1",
+          "paragraphId": "T-ZZ-000648",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000178_1",
+          "paragraphId": "T-ZZ-000178",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000179_1",
+          "paragraphId": "T-ZZ-000179",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000649_1",
+          "paragraphId": "T-ZZ-000649",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000650_1",
+          "paragraphId": "T-ZZ-000650",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000651_1",
+          "paragraphId": "T-ZZ-000651",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000181_1",
+          "paragraphId": "T-ZZ-000181",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000182_1",
+          "paragraphId": "T-ZZ-000182",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000183_1",
+          "paragraphId": "T-ZZ-000183",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000184_1",
+          "paragraphId": "T-ZZ-000184",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000652_1",
+          "paragraphId": "T-ZZ-000652",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000653_1",
+          "paragraphId": "T-ZZ-000653",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000654_1",
+          "paragraphId": "T-ZZ-000654",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000655_1",
+          "paragraphId": "T-ZZ-000655",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000656_1",
+          "paragraphId": "T-ZZ-000656",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000188_1",
+          "paragraphId": "T-ZZ-000188",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000189_1",
+          "paragraphId": "T-ZZ-000189",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000657_1",
+          "paragraphId": "T-ZZ-000657",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000658_1",
+          "paragraphId": "T-ZZ-000658",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000659_1",
+          "paragraphId": "T-ZZ-000659",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000191_1",
+          "paragraphId": "T-ZZ-000191",
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-ZZ-000192_1",
+          "paragraphId": "T-ZZ-000192",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000660_1",
+          "paragraphId": "T-ZZ-000660",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000194_1",
+          "paragraphId": "T-ZZ-000194",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000661_1",
+          "paragraphId": "T-ZZ-000661",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=A"
+        },
+        {
+          "nodeId": "T-ZZ-000667_1",
+          "paragraphId": "T-ZZ-000667",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000668_1",
+          "paragraphId": "T-ZZ-000668",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000199_1",
+          "paragraphId": "T-ZZ-000199",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000669_1",
+          "paragraphId": "T-ZZ-000669",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000670_1",
+          "paragraphId": "T-ZZ-000670",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000671_1",
+          "paragraphId": "T-ZZ-000671",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000201_1",
+          "paragraphId": "T-ZZ-000201",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000672_1",
+          "paragraphId": "T-ZZ-000672",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000673_1",
+          "paragraphId": "T-ZZ-000673",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000674_1",
+          "paragraphId": "T-ZZ-000674",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000675_1",
+          "paragraphId": "T-ZZ-000675",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000203_1",
+          "paragraphId": "T-ZZ-000203",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "T-ZZ-000204_1",
+          "paragraphId": "T-ZZ-000204",
+          "packageId": "P4-02-ZZ",
+          "condition": "ZZ06-01=B"
+        },
+        {
+          "nodeId": "ZZ06-01",
+          "paragraphId": null,
+          "packageId": "P4-02-ZZ",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "char-zhouzhi-human-work-neutral": [
+          "T-ZZ-000640_1",
+          "T-ZZ-000641_1",
+          "T-ZZ-000642_1",
+          "T-ZZ-000173_1",
+          "T-ZZ-000174_1",
+          "T-ZZ-000643_1",
+          "T-ZZ-000176_1",
+          "T-ZZ-000644_1",
+          "T-ZZ-000645_1",
+          "T-ZZ-000646_1",
+          "T-ZZ-000647_1",
+          "T-ZZ-000648_1",
+          "T-ZZ-000178_1",
+          "T-ZZ-000179_1",
+          "T-ZZ-000649_1",
+          "T-ZZ-000650_1",
+          "T-ZZ-000651_1",
+          "T-ZZ-000181_1",
+          "T-ZZ-000182_1",
+          "T-ZZ-000183_1",
+          "T-ZZ-000184_1",
+          "T-ZZ-000652_1",
+          "T-ZZ-000653_1",
+          "T-ZZ-000654_1",
+          "T-ZZ-000655_1",
+          "T-ZZ-000656_1",
+          "T-ZZ-000188_1",
+          "T-ZZ-000189_1",
+          "T-ZZ-000657_1",
+          "T-ZZ-000658_1",
+          "T-ZZ-000659_1",
+          "T-ZZ-000191_1",
+          "T-ZZ-000192_1",
+          "T-ZZ-000660_1",
+          "T-ZZ-000194_1",
+          "T-ZZ-000661_1",
+          "T-ZZ-000667_1",
+          "T-ZZ-000668_1",
+          "T-ZZ-000199_1",
+          "T-ZZ-000669_1",
+          "T-ZZ-000670_1",
+          "T-ZZ-000671_1",
+          "T-ZZ-000201_1",
+          "T-ZZ-000672_1",
+          "T-ZZ-000673_1",
+          "T-ZZ-000674_1",
+          "T-ZZ-000675_1",
+          "T-ZZ-000203_1",
+          "T-ZZ-000204_1",
+          "ZZ06-01"
+        ],
+        "char-zhouzhi-human-work-serious": [
+          "T-ZZ-000640_1",
+          "T-ZZ-000641_1",
+          "T-ZZ-000642_1",
+          "T-ZZ-000173_1",
+          "T-ZZ-000174_1",
+          "T-ZZ-000643_1",
+          "T-ZZ-000176_1",
+          "T-ZZ-000644_1",
+          "T-ZZ-000645_1",
+          "T-ZZ-000646_1",
+          "T-ZZ-000647_1",
+          "T-ZZ-000648_1",
+          "T-ZZ-000178_1",
+          "T-ZZ-000179_1",
+          "T-ZZ-000649_1",
+          "T-ZZ-000650_1",
+          "T-ZZ-000651_1",
+          "T-ZZ-000181_1",
+          "T-ZZ-000182_1",
+          "T-ZZ-000183_1",
+          "T-ZZ-000184_1",
+          "T-ZZ-000652_1",
+          "T-ZZ-000653_1",
+          "T-ZZ-000654_1",
+          "T-ZZ-000655_1",
+          "T-ZZ-000656_1",
+          "T-ZZ-000188_1",
+          "T-ZZ-000189_1",
+          "T-ZZ-000657_1",
+          "T-ZZ-000658_1",
+          "T-ZZ-000659_1",
+          "T-ZZ-000191_1",
+          "T-ZZ-000192_1",
+          "T-ZZ-000660_1",
+          "T-ZZ-000194_1",
+          "T-ZZ-000661_1",
+          "T-ZZ-000667_1",
+          "T-ZZ-000668_1",
+          "T-ZZ-000199_1",
+          "T-ZZ-000669_1",
+          "T-ZZ-000670_1",
+          "T-ZZ-000671_1",
+          "T-ZZ-000201_1",
+          "T-ZZ-000672_1",
+          "T-ZZ-000673_1",
+          "T-ZZ-000674_1",
+          "T-ZZ-000675_1",
+          "T-ZZ-000203_1",
+          "T-ZZ-000204_1",
+          "ZZ06-01"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/current/SUI-A03/char-zhouzhi-human-work-neutral.webp",
+          "sha256": "f992aefc7429519f78c9e823c57c1ae74fc4281243313fc7cb0bb2fdc24a30cf"
+        },
+        {
+          "path": "qa/sui-i01-20261029/approval.json",
+          "sha256": "f0ebe5c9d8eca01642e29e09a2e61f00c50cefcf379e5b19cce1b72884ded10d"
+        },
+        {
+          "path": "assets/current/SUI-A03/char-zhouzhi-human-work-serious.webp",
+          "sha256": "c3a90d770bd41eb796ff4f1d52d42a151efecbcec7cfee360c565d6e5c775a4f"
+        }
+      ],
+      "originalApprovedScopes": {
+        "char-zhouzhi-human-work-neutral": [
+          "char-zhouzhi-human-work-neutral",
+          "第46天另接短班；朴素裙装为本批视觉设计，不新增正文服装色款设定；职业礼貌不是恋人承诺",
+          "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+        ],
+        "char-zhouzhi-human-work-serious": [
+          "char-zhouzhi-human-work-serious",
+          "第46天接班解释，回声停业不表示职业停止；由work-neutral单独派生",
+          "道具/衣装场景结束即退出；CG进出、回退和读档由E/I/Q恢复相应快照；A03未执行运行绑定"
+        ]
+      },
+      "scopeExtensionStatus": "P4-03依据冻结正文提出扩展候选；原批准不改写，P4-05复验与P4-07采用仍待。"
+    },
+    {
+      "title": "孟遥匿名饭店雨檐",
+      "decision": "new",
+      "assetIds": [
+        "bg-my-restaurant-eaves-rain"
+      ],
+      "reason": "从CG039保留檐口、木门、暖灯和雨势，去两人、伞及烧饼陈列，作为匿名饭店空镜。",
+      "guidance": [
+        "不把正文无名饭店指定为桥头烧饼店；不加入店名。",
+        "伞与人物独立进出，背景不烘焙亲密；原CG039未改。"
+      ],
+      "resourceKey": "my-restaurant-eaves-rain",
+      "needIds": [
+        "P4-02-MY-N001"
+      ],
+      "packageIds": [
+        "P4-02-MY"
+      ],
+      "requestNodeIds": [
+        "T-MY-000077_1",
+        "T-MY-000078_1",
+        "T-MY-000079_1",
+        "T-MY-000080_1",
+        "T-MY-000081_1",
+        "T-MY-000082_1",
+        "T-MY-000083_1",
+        "T-MY-000084_1",
+        "T-MY-000085_1",
+        "T-MY-000086_1",
+        "T-MY-000087_1",
+        "T-MY-000088_1"
+      ],
+      "requestConstraints": [
+        "与CG039饭店檐下雨景核对",
+        "不新增地点身份或店名",
+        "新图先制作/检查再补引用"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-MY-N001",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-MY-000077_1",
+          "paragraphId": "T-MY-000077",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000078_1",
+          "paragraphId": "T-MY-000078",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000079_1",
+          "paragraphId": "T-MY-000079",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000080_1",
+          "paragraphId": "T-MY-000080",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000081_1",
+          "paragraphId": "T-MY-000081",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000082_1",
+          "paragraphId": "T-MY-000082",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000083_1",
+          "paragraphId": "T-MY-000083",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000084_1",
+          "paragraphId": "T-MY-000084",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000085_1",
+          "paragraphId": "T-MY-000085",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000086_1",
+          "paragraphId": "T-MY-000086",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000087_1",
+          "paragraphId": "T-MY-000087",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000088_1",
+          "paragraphId": "T-MY-000088",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-my-restaurant-eaves-rain": [
+          "T-MY-000077_1",
+          "T-MY-000078_1",
+          "T-MY-000079_1",
+          "T-MY-000080_1",
+          "T-MY-000081_1",
+          "T-MY-000082_1",
+          "T-MY-000083_1",
+          "T-MY-000084_1",
+          "T-MY-000085_1",
+          "T-MY-000086_1",
+          "T-MY-000087_1",
+          "T-MY-000088_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/my-restaurant-eaves-rain/generation.json",
+          "sha256": "26de2aa87241d4ab5be1efa4b2cc7973b14664d70320d9209fe2a4b091185b28"
+        }
+      ]
+    },
+    {
+      "title": "孟遥河岸参考复用",
+      "decision": "reuse-source",
+      "assetIds": [
+        "bg-my-riverside-afternoon"
+      ],
+      "reason": "找到CG044制作前冻结的无人河岸原件，逐字节复制；与CG044的河水、树、石栏和路口空间一致，无需重生。",
+      "guidance": [
+        "仅MY07=A的第44天下午河边节点；AB前史真实发生，不按未来MY09结果抹掉。",
+        "原批准只属CG制作参考；本次作为背景候选交P4-05，不宣称已有运行采用批准。"
+      ],
+      "resourceKey": "my-riverside-day",
+      "needIds": [
+        "P4-02-MY-N002"
+      ],
+      "packageIds": [
+        "P4-02-MY"
+      ],
+      "requestNodeIds": [
+        "T-MY-000399_1",
+        "T-MY-000400_1",
+        "T-MY-000401_1",
+        "T-MY-000402_1",
+        "T-MY-000403_1",
+        "T-MY-000224_1",
+        "T-MY-000225_1",
+        "T-MY-000404_1",
+        "T-MY-000405_1",
+        "T-MY-000227_1",
+        "T-MY-000228_1"
+      ],
+      "requestConstraints": [
+        "仅MY07=A；AB前史真实发生，不能按未来MY09过滤",
+        "与CG044保持河岸空间一致"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-MY-N002",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-MY-000399_1",
+          "paragraphId": "T-MY-000399",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000400_1",
+          "paragraphId": "T-MY-000400",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000401_1",
+          "paragraphId": "T-MY-000401",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000402_1",
+          "paragraphId": "T-MY-000402",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000403_1",
+          "paragraphId": "T-MY-000403",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000224_1",
+          "paragraphId": "T-MY-000224",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000225_1",
+          "paragraphId": "T-MY-000225",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000404_1",
+          "paragraphId": "T-MY-000404",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000405_1",
+          "paragraphId": "T-MY-000405",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000227_1",
+          "paragraphId": "T-MY-000227",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        },
+        {
+          "nodeId": "T-MY-000228_1",
+          "paragraphId": "T-MY-000228",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-my-riverside-afternoon": [
+          "T-MY-000399_1",
+          "T-MY-000400_1",
+          "T-MY-000401_1",
+          "T-MY-000402_1",
+          "T-MY-000403_1",
+          "T-MY-000224_1",
+          "T-MY-000225_1",
+          "T-MY-000404_1",
+          "T-MY-000405_1",
+          "T-MY-000227_1",
+          "T-MY-000228_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/my-riverside-day/origin.json",
+          "sha256": "0be923f7500f3eb073ce0f58a4e4162ae99b9b396795cb49adcc489c1cb9666f"
+        }
+      ]
+    },
+    {
+      "title": "孟遥电梯独白画外",
+      "decision": "offscreen",
+      "assetIds": [],
+      "reason": "T-MY-000296_1是电梯内的内心独白，没有需可见的动作或楼层细节；可保持画外叙述。",
+      "guidance": [
+        "建议MY将action改为offscreen，resolution.assetId设null并引用本决定。",
+        "背景、人物、道具、CG均清空；不延续文文旧房走廊或孟遥房内立绘，不新增电梯结构。"
+      ],
+      "offscreenNodeIds": [
+        "T-MY-000296_1"
+      ],
+      "resourceKey": "my-guiyang-elevator",
+      "needIds": [
+        "P4-02-MY-N003"
+      ],
+      "packageIds": [
+        "P4-02-MY"
+      ],
+      "requestNodeIds": [
+        "T-MY-000296_1"
+      ],
+      "requestConstraints": [
+        "候选背景暂空且明确blocked，正式采用前补准确电梯或有依据的画外处置，不使用占位图",
+        "不改剧情地点"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-MY-N003",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-MY-000296_1",
+          "paragraphId": "T-MY-000296",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A"
+        }
+      ],
+      "assetNodeScopes": {},
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        }
+      ]
+    },
+    {
+      "title": "文文出租屋下午复用",
+      "decision": "reuse",
+      "assetIds": [
+        "bg-wenwen-bijie-rental-day"
+      ],
+      "reason": "现有白昼图为正常窗光，没有日出、早餐或精确时钟限定，可以覆盖下午电话。",
+      "guidance": [
+        "仅确认光照适用；不把这间毕节出租屋当作孟遥贵阳独居住处。",
+        "远程电话中孟遥不在屋内；白昼人物衣装和现场持物不能机械继承。"
+      ],
+      "resourceKey": "my-rental-afternoon-light",
+      "needIds": [
+        "P4-02-MY-N004"
+      ],
+      "packageIds": [
+        "P4-02-MY"
+      ],
+      "requestNodeIds": [
+        "T-MY-000636_1",
+        "T-MY-000637_1",
+        "T-MY-000559_1",
+        "T-MY-000560_1",
+        "T-MY-000561_1",
+        "T-MY-000638_1",
+        "T-MY-000639_1",
+        "T-MY-000640_1",
+        "T-MY-000332_1",
+        "T-MY-000333_1",
+        "T-MY-000641_1",
+        "T-MY-000642_1",
+        "T-MY-000643_1",
+        "T-MY-000644_1",
+        "T-MY-000335_1",
+        "T-MY-000336_1",
+        "T-MY-000645_1",
+        "T-MY-000646_1",
+        "T-MY-000338_1",
+        "T-MY-000339_1",
+        "T-MY-000340_1",
+        "T-MY-000341_1",
+        "T-MY-000647_1",
+        "T-MY-000648_1",
+        "T-MY-000343_1",
+        "T-MY-000344_1",
+        "T-MY-000345_1",
+        "T-MY-000649_1",
+        "T-MY-000650_1",
+        "T-MY-000651_1",
+        "T-MY-000347_1",
+        "T-MY-000652_1",
+        "T-MY-000653_1",
+        "T-MY-000349_1",
+        "T-MY-000654_1",
+        "T-MY-000655_1",
+        "T-MY-000656_1",
+        "T-MY-000657_1",
+        "T-MY-000658_1",
+        "T-MY-000351_1",
+        "T-MY-000659_1",
+        "T-MY-000660_1",
+        "T-MY-000353_1",
+        "T-MY-000354_1",
+        "T-MY-000355_1",
+        "T-MY-000661_1",
+        "T-MY-000662_1",
+        "T-MY-000663_1",
+        "T-MY-000357_1",
+        "T-MY-000664_1",
+        "T-MY-000665_1",
+        "T-MY-000562_1",
+        "T-MY-000563_1",
+        "T-MY-000564_1",
+        "T-MY-000360_1",
+        "T-MY-000361_1",
+        "T-MY-000362_1",
+        "T-MY-000666_1",
+        "T-MY-000667_1",
+        "T-MY-000668_1",
+        "T-MY-000669_1",
+        "T-MY-000670_1",
+        "T-MY-000671_1",
+        "T-MY-000672_1",
+        "T-MY-000673_1",
+        "T-MY-000366_1",
+        "T-MY-000367_1",
+        "T-MY-000368_1",
+        "T-MY-000674_1",
+        "T-MY-000675_1",
+        "T-MY-000676_1",
+        "T-MY-000677_1",
+        "T-MY-000370_1",
+        "MY10-01"
+      ],
+      "requestConstraints": [
+        "P4-03给出复用或返修理由",
+        "不把天亮衣装场景继承到下午"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-MY-N004",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "reuse"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-MY-000636_1",
+          "paragraphId": "T-MY-000636",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000637_1",
+          "paragraphId": "T-MY-000637",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000559_1",
+          "paragraphId": "T-MY-000559",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=A"
+        },
+        {
+          "nodeId": "T-MY-000560_1",
+          "paragraphId": "T-MY-000560",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=A"
+        },
+        {
+          "nodeId": "T-MY-000561_1",
+          "paragraphId": "T-MY-000561",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=A"
+        },
+        {
+          "nodeId": "T-MY-000638_1",
+          "paragraphId": "T-MY-000638",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=A"
+        },
+        {
+          "nodeId": "T-MY-000639_1",
+          "paragraphId": "T-MY-000639",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=A"
+        },
+        {
+          "nodeId": "T-MY-000640_1",
+          "paragraphId": "T-MY-000640",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=A"
+        },
+        {
+          "nodeId": "T-MY-000332_1",
+          "paragraphId": "T-MY-000332",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=A"
+        },
+        {
+          "nodeId": "T-MY-000333_1",
+          "paragraphId": "T-MY-000333",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=B"
+        },
+        {
+          "nodeId": "T-MY-000641_1",
+          "paragraphId": "T-MY-000641",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=B"
+        },
+        {
+          "nodeId": "T-MY-000642_1",
+          "paragraphId": "T-MY-000642",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=B"
+        },
+        {
+          "nodeId": "T-MY-000643_1",
+          "paragraphId": "T-MY-000643",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=B"
+        },
+        {
+          "nodeId": "T-MY-000644_1",
+          "paragraphId": "T-MY-000644",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=B"
+        },
+        {
+          "nodeId": "T-MY-000335_1",
+          "paragraphId": "T-MY-000335",
+          "packageId": "P4-02-MY",
+          "condition": "MY10-01=B"
+        },
+        {
+          "nodeId": "T-MY-000336_1",
+          "paragraphId": "T-MY-000336",
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-MY-000645_1",
+          "paragraphId": "T-MY-000645",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000646_1",
+          "paragraphId": "T-MY-000646",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000338_1",
+          "paragraphId": "T-MY-000338",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000339_1",
+          "paragraphId": "T-MY-000339",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000340_1",
+          "paragraphId": "T-MY-000340",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000341_1",
+          "paragraphId": "T-MY-000341",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000647_1",
+          "paragraphId": "T-MY-000647",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000648_1",
+          "paragraphId": "T-MY-000648",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000343_1",
+          "paragraphId": "T-MY-000343",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000344_1",
+          "paragraphId": "T-MY-000344",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000345_1",
+          "paragraphId": "T-MY-000345",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000649_1",
+          "paragraphId": "T-MY-000649",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000650_1",
+          "paragraphId": "T-MY-000650",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000651_1",
+          "paragraphId": "T-MY-000651",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000347_1",
+          "paragraphId": "T-MY-000347",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000652_1",
+          "paragraphId": "T-MY-000652",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000653_1",
+          "paragraphId": "T-MY-000653",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000349_1",
+          "paragraphId": "T-MY-000349",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000654_1",
+          "paragraphId": "T-MY-000654",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000655_1",
+          "paragraphId": "T-MY-000655",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000656_1",
+          "paragraphId": "T-MY-000656",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000657_1",
+          "paragraphId": "T-MY-000657",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000658_1",
+          "paragraphId": "T-MY-000658",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000351_1",
+          "paragraphId": "T-MY-000351",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=A&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000659_1",
+          "paragraphId": "T-MY-000659",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000660_1",
+          "paragraphId": "T-MY-000660",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000353_1",
+          "paragraphId": "T-MY-000353",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000354_1",
+          "paragraphId": "T-MY-000354",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000355_1",
+          "paragraphId": "T-MY-000355",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000661_1",
+          "paragraphId": "T-MY-000661",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000662_1",
+          "paragraphId": "T-MY-000662",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000663_1",
+          "paragraphId": "T-MY-000663",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000357_1",
+          "paragraphId": "T-MY-000357",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=A&MY09-01=B|MY09-01=B&MY07-01=A&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000664_1",
+          "paragraphId": "T-MY-000664",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=A|MY09-01=B&MY07-01=B&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000665_1",
+          "paragraphId": "T-MY-000665",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=A|MY09-01=B&MY07-01=B&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000562_1",
+          "paragraphId": "T-MY-000562",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=A|MY09-01=B&MY07-01=B&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000563_1",
+          "paragraphId": "T-MY-000563",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=A|MY09-01=B&MY07-01=B&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000564_1",
+          "paragraphId": "T-MY-000564",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=A|MY09-01=B&MY07-01=B&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000360_1",
+          "paragraphId": "T-MY-000360",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=A|MY09-01=B&MY07-01=B&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000361_1",
+          "paragraphId": "T-MY-000361",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=A|MY09-01=B&MY07-01=B&MY09-01=A"
+        },
+        {
+          "nodeId": "T-MY-000362_1",
+          "paragraphId": "T-MY-000362",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=B|MY09-01=B&MY07-01=B&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000666_1",
+          "paragraphId": "T-MY-000666",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=B|MY09-01=B&MY07-01=B&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000667_1",
+          "paragraphId": "T-MY-000667",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=B|MY09-01=B&MY07-01=B&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000668_1",
+          "paragraphId": "T-MY-000668",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=B|MY09-01=B&MY07-01=B&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000669_1",
+          "paragraphId": "T-MY-000669",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=B|MY09-01=B&MY07-01=B&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000670_1",
+          "paragraphId": "T-MY-000670",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B&MY07-01=B&MY09-01=B|MY09-01=B&MY07-01=B&MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000671_1",
+          "paragraphId": "T-MY-000671",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000672_1",
+          "paragraphId": "T-MY-000672",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000673_1",
+          "paragraphId": "T-MY-000673",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000366_1",
+          "paragraphId": "T-MY-000366",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000367_1",
+          "paragraphId": "T-MY-000367",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000368_1",
+          "paragraphId": "T-MY-000368",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000674_1",
+          "paragraphId": "T-MY-000674",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000675_1",
+          "paragraphId": "T-MY-000675",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000676_1",
+          "paragraphId": "T-MY-000676",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000677_1",
+          "paragraphId": "T-MY-000677",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "T-MY-000370_1",
+          "paragraphId": "T-MY-000370",
+          "packageId": "P4-02-MY",
+          "condition": "MY07-01=B|MY09-01=B"
+        },
+        {
+          "nodeId": "MY10-01",
+          "paragraphId": null,
+          "packageId": "P4-02-MY",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-wenwen-bijie-rental-day": [
+          "T-MY-000636_1",
+          "T-MY-000637_1",
+          "T-MY-000559_1",
+          "T-MY-000560_1",
+          "T-MY-000561_1",
+          "T-MY-000638_1",
+          "T-MY-000639_1",
+          "T-MY-000640_1",
+          "T-MY-000332_1",
+          "T-MY-000333_1",
+          "T-MY-000641_1",
+          "T-MY-000642_1",
+          "T-MY-000643_1",
+          "T-MY-000644_1",
+          "T-MY-000335_1",
+          "T-MY-000336_1",
+          "T-MY-000645_1",
+          "T-MY-000646_1",
+          "T-MY-000338_1",
+          "T-MY-000339_1",
+          "T-MY-000340_1",
+          "T-MY-000341_1",
+          "T-MY-000647_1",
+          "T-MY-000648_1",
+          "T-MY-000343_1",
+          "T-MY-000344_1",
+          "T-MY-000345_1",
+          "T-MY-000649_1",
+          "T-MY-000650_1",
+          "T-MY-000651_1",
+          "T-MY-000347_1",
+          "T-MY-000652_1",
+          "T-MY-000653_1",
+          "T-MY-000349_1",
+          "T-MY-000654_1",
+          "T-MY-000655_1",
+          "T-MY-000656_1",
+          "T-MY-000657_1",
+          "T-MY-000658_1",
+          "T-MY-000351_1",
+          "T-MY-000659_1",
+          "T-MY-000660_1",
+          "T-MY-000353_1",
+          "T-MY-000354_1",
+          "T-MY-000355_1",
+          "T-MY-000661_1",
+          "T-MY-000662_1",
+          "T-MY-000663_1",
+          "T-MY-000357_1",
+          "T-MY-000664_1",
+          "T-MY-000665_1",
+          "T-MY-000562_1",
+          "T-MY-000563_1",
+          "T-MY-000564_1",
+          "T-MY-000360_1",
+          "T-MY-000361_1",
+          "T-MY-000362_1",
+          "T-MY-000666_1",
+          "T-MY-000667_1",
+          "T-MY-000668_1",
+          "T-MY-000669_1",
+          "T-MY-000670_1",
+          "T-MY-000671_1",
+          "T-MY-000672_1",
+          "T-MY-000673_1",
+          "T-MY-000366_1",
+          "T-MY-000367_1",
+          "T-MY-000368_1",
+          "T-MY-000674_1",
+          "T-MY-000675_1",
+          "T-MY-000676_1",
+          "T-MY-000677_1",
+          "T-MY-000370_1",
+          "MY10-01"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/current/SUI-A08/bg-wenwen-bijie-rental-day.webp",
+          "sha256": "e1941067743593c0ba1a4202486909e53cf90e0db419747e1ee9a3797cecbbff"
+        },
+        {
+          "path": "qa/sui-i01-20261029/approval.json",
+          "sha256": "f0ebe5c9d8eca01642e29e09a2e61f00c50cefcf379e5b19cce1b72884ded10d"
+        }
+      ]
+    },
+    {
+      "title": "贵阳站台日间／晚间",
+      "decision": "new",
+      "assetIds": [
+        "bg-guiyang-bus-stop-day",
+        "bg-guiyang-bus-stop-evening"
+      ],
+      "reason": "现行目录仅有明确毕节站台，不能代贵阳。另因T-PI-000393_1明确“那个晚上没见成”，为AA候车补同站晚间版。",
+      "guidance": [
+        "AA候车793～796用晚间版，电话里的飘不现场出镜。",
+        "398～399的断开支未定时，可用日版；上车、交钥匙、取消置顶、删消息等其余7节点采用画外或清空状态，不把站台当车内。",
+        "仅画站棚边缘与道路；正文人多可在画外，不能叙称站台无人。不添加站名、路号或贵阳地标。"
+      ],
+      "assetNodeScopes": {
+        "bg-guiyang-bus-stop-evening": [
+          "T-PI-000793_1",
+          "T-PI-000794_1",
+          "T-PI-000795_1",
+          "T-PI-000796_1"
+        ],
+        "bg-guiyang-bus-stop-day": [
+          "T-PI-000398_1",
+          "T-PI-000399_1"
+        ]
+      },
+      "offscreenNodeIds": [
+        "T-PI-000391_1",
+        "T-PI-000393_1",
+        "T-PI-000394_1",
+        "T-PI-000395_1",
+        "T-PI-000396_1",
+        "T-PI-000397_1",
+        "T-PI-000400_1"
+      ],
+      "resourceKey": "guiyang-bus-stop-day",
+      "needIds": [
+        "P4-02-PI-N003"
+      ],
+      "packageIds": [
+        "P4-02-PI"
+      ],
+      "requestNodeIds": [
+        "T-PI-000391_1",
+        "T-PI-000793_1",
+        "T-PI-000794_1",
+        "T-PI-000795_1",
+        "T-PI-000796_1",
+        "T-PI-000393_1",
+        "T-PI-000394_1",
+        "T-PI-000395_1",
+        "T-PI-000396_1",
+        "T-PI-000397_1",
+        "T-PI-000398_1",
+        "T-PI-000399_1",
+        "T-PI-000400_1"
+      ],
+      "requestConstraints": [
+        "候车与车内分别确认可复用范围",
+        "HIGH AA电话与E2不联系共用地点，不生成飘到场",
+        "不补具体站名/新地标"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-PI-N003",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "new"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-PI-000391_1",
+          "paragraphId": "T-PI-000391",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A"
+        },
+        {
+          "nodeId": "T-PI-000793_1",
+          "paragraphId": "T-PI-000793",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A"
+        },
+        {
+          "nodeId": "T-PI-000794_1",
+          "paragraphId": "T-PI-000794",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A"
+        },
+        {
+          "nodeId": "T-PI-000795_1",
+          "paragraphId": "T-PI-000795",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A"
+        },
+        {
+          "nodeId": "T-PI-000796_1",
+          "paragraphId": "T-PI-000796",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A"
+        },
+        {
+          "nodeId": "T-PI-000393_1",
+          "paragraphId": "T-PI-000393",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A"
+        },
+        {
+          "nodeId": "T-PI-000394_1",
+          "paragraphId": "T-PI-000394",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=B|PIAO_RELATION=HIGH&PI08-01=B"
+        },
+        {
+          "nodeId": "T-PI-000395_1",
+          "paragraphId": "T-PI-000395",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=B|PIAO_RELATION=HIGH&PI08-01=B"
+        },
+        {
+          "nodeId": "T-PI-000396_1",
+          "paragraphId": "T-PI-000396",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=B&PI06-01=B&PI08-01=A|PIAO_RELATION=HIGH&PI08-01=B&PI06-01=B&PI08-01=A"
+        },
+        {
+          "nodeId": "T-PI-000397_1",
+          "paragraphId": "T-PI-000397",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=B&PI06-01=B&PI08-01=A|PIAO_RELATION=HIGH&PI08-01=B&PI06-01=B&PI08-01=A"
+        },
+        {
+          "nodeId": "T-PI-000398_1",
+          "paragraphId": "T-PI-000398",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=B&PI08-01=B|PIAO_RELATION=HIGH&PI08-01=B&PI08-01=B"
+        },
+        {
+          "nodeId": "T-PI-000399_1",
+          "paragraphId": "T-PI-000399",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=B&PI08-01=B|PIAO_RELATION=HIGH&PI08-01=B&PI08-01=B"
+        },
+        {
+          "nodeId": "T-PI-000400_1",
+          "paragraphId": "T-PI-000400",
+          "packageId": "P4-02-PI",
+          "condition": "PIAO_RELATION=HIGH&PI06-01=B|PIAO_RELATION=HIGH&PI08-01=B"
+        }
+      ],
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/generation.json",
+          "sha256": "e25e21e90413c4847114e56ec8dc0ba2c92d3b1c29a947099208ee0a0204692d"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/guiyang-bus-stop-day/generation-evening.json",
+          "sha256": "3bd9641fde9a87b994dd4e147de82c30dea81a66329e690c2f7fa00ed2995879"
+        }
+      ]
+    },
+    {
+      "title": "旧网吧后院开门晨景",
+      "decision": "repair",
+      "assetIds": [
+        "bg-old-netcafe-yard-door-open-morning"
+      ],
+      "reason": "第60天早晨扶门框退回屋内需开门，原晨图关门；保留晨光和后院，打开门扉。",
+      "guidance": [
+        "黄球球仍在门槛以内，透明人形只用已有获准上身截幅；不补未确认下装。",
+        "背景内不画黄球球或额外人影。"
+      ],
+      "resourceKey": "old-netcafe-yard-door-open-morning",
+      "needIds": [
+        "P4-02-HQ-N002"
+      ],
+      "packageIds": [
+        "P4-02-HQ"
+      ],
+      "requestNodeIds": [
+        "T-HQ-000225_1",
+        "T-HQ-000496_1",
+        "T-HQ-000497_1",
+        "T-HQ-000498_1",
+        "T-HQ-000499_1",
+        "T-HQ-000500_1"
+      ],
+      "requestConstraints": [
+        "晨光、门打开可扶门框；人物不离门槛，维持人形上身裁切；不补下装。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-HQ-N002",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "repair"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-HQ-000225_1",
+          "paragraphId": "T-HQ-000225",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000496_1",
+          "paragraphId": "T-HQ-000496",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000497_1",
+          "paragraphId": "T-HQ-000497",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000498_1",
+          "paragraphId": "T-HQ-000498",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000499_1",
+          "paragraphId": "T-HQ-000499",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-HQ-000500_1",
+          "paragraphId": "T-HQ-000500",
+          "packageId": "P4-02-HQ",
+          "condition": "ALL"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-old-netcafe-yard-door-open-morning": [
+          "T-HQ-000225_1",
+          "T-HQ-000496_1",
+          "T-HQ-000497_1",
+          "T-HQ-000498_1",
+          "T-HQ-000499_1",
+          "T-HQ-000500_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/old-netcafe-yard-door-open-morning/generation.json",
+          "sha256": "a1cb80298dcd781f0c1b91ecb6acf41f525bee36deeb1a1c152e88b168a650d3"
+        }
+      ]
+    },
+    {
+      "title": "商场演出侧台晚间",
+      "decision": "repair",
+      "assetIds": [
+        "bg-performance-mall-side-stage-evening"
+      ],
+      "reason": "正文七点开场，原侧台是显著日景；保留商场、台侧和设备，改蓝夜与工作灯。",
+      "guidance": [
+        "人物西装由FR原绑定决定；负责人画外，不添加舞台演出人群。"
+      ],
+      "resourceKey": "performance-mall-side-stage-evening",
+      "needIds": [
+        "P4-02-FR-N001"
+      ],
+      "packageIds": [
+        "P4-02-FR"
+      ],
+      "requestNodeIds": [
+        "T-FR-000050_1",
+        "T-FR-000344_1",
+        "T-FR-000345_1",
+        "T-FR-000346_1",
+        "T-FR-000347_1",
+        "T-FR-000052_1",
+        "T-FR-000348_1",
+        "T-FR-000349_1",
+        "T-FR-000054_1",
+        "T-FR-000055_1",
+        "T-FR-000056_1",
+        "T-FR-000350_1",
+        "T-FR-000351_1"
+      ],
+      "requestConstraints": [
+        "确认既有舞台室内光可用于晚间则交复用证据，否则交同地点晚间版本；不改变人物西装和负责人画外。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-FR-N001",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "repair"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-FR-000050_1",
+          "paragraphId": "T-FR-000050",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000344_1",
+          "paragraphId": "T-FR-000344",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000345_1",
+          "paragraphId": "T-FR-000345",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000346_1",
+          "paragraphId": "T-FR-000346",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000347_1",
+          "paragraphId": "T-FR-000347",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000052_1",
+          "paragraphId": "T-FR-000052",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000348_1",
+          "paragraphId": "T-FR-000348",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000349_1",
+          "paragraphId": "T-FR-000349",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000054_1",
+          "paragraphId": "T-FR-000054",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000055_1",
+          "paragraphId": "T-FR-000055",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000056_1",
+          "paragraphId": "T-FR-000056",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000350_1",
+          "paragraphId": "T-FR-000350",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000351_1",
+          "paragraphId": "T-FR-000351",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-performance-mall-side-stage-evening": [
+          "T-FR-000050_1",
+          "T-FR-000344_1",
+          "T-FR-000345_1",
+          "T-FR-000346_1",
+          "T-FR-000347_1",
+          "T-FR-000052_1",
+          "T-FR-000348_1",
+          "T-FR-000349_1",
+          "T-FR-000054_1",
+          "T-FR-000055_1",
+          "T-FR-000056_1",
+          "T-FR-000350_1",
+          "T-FR-000351_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/performance-mall-side-stage-evening/generation.json",
+          "sha256": "f979479b93ab9e6ac5f1ba8a170792aa97531d843379de0d866476684678cf8e"
+        }
+      ]
+    },
+    {
+      "title": "散场后面馆晚景",
+      "decision": "repair",
+      "assetIds": [
+        "bg-noodle-shop-evening"
+      ],
+      "reason": "七点演出结束后吃面，去白昼窗光与门外阳光，保留同店桌凳、锅台及暖灯。",
+      "guidance": [
+        "不换成朋友聚餐店，不改变散场西装。"
+      ],
+      "resourceKey": "noodle-shop-evening",
+      "needIds": [
+        "P4-02-FR-N002"
+      ],
+      "packageIds": [
+        "P4-02-FR"
+      ],
+      "requestNodeIds": [
+        "T-FR-000352_1",
+        "T-FR-000353_1"
+      ],
+      "requestConstraints": [
+        "保持同一面馆布局与散场西装，不替换成朋友聚餐店；若复用需说明窗外与光线适用。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-FR-N002",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "repair"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-FR-000352_1",
+          "paragraphId": "T-FR-000352",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        },
+        {
+          "nodeId": "T-FR-000353_1",
+          "paragraphId": "T-FR-000353",
+          "packageId": "P4-02-FR",
+          "condition": "FR04-01=A"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-noodle-shop-evening": [
+          "T-FR-000352_1",
+          "T-FR-000353_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/noodle-shop-evening/generation.json",
+          "sha256": "31d59eb938f4e4e7deca18ddb461797f5b15b1a34fa142823cc43853ffbff3f1"
+        }
+      ]
+    },
+    {
+      "title": "旧网吧后间中性日光",
+      "decision": "repair",
+      "assetIds": [
+        "bg-old-netcafe-backroom-neutral-day"
+      ],
+      "reason": "第34天取班饭未定夜间；原图门外深夜明显，改漫射日光且保留后间电脑、饭具、桌与门。",
+      "guidance": [
+        "这是不强调具体钟点的白昼候选，不反向给正文补日期或饭点。",
+        "人物到场及饭盒拿走状态由FR按节点处理；不把道具固定层当操作动画。"
+      ],
+      "resourceKey": "old-netcafe-backroom-neutral-day",
+      "needIds": [
+        "P4-02-FR-N003"
+      ],
+      "packageIds": [
+        "P4-02-FR"
+      ],
+      "requestNodeIds": [
+        "T-FR-000159_1",
+        "T-FR-000430_1",
+        "T-FR-000431_1",
+        "T-FR-000432_1",
+        "T-FR-000433_1",
+        "T-FR-000434_1",
+        "T-FR-000435_1",
+        "T-FR-000161_1"
+      ],
+      "requestConstraints": [
+        "沿用后间布局及饭盒位置，不改正文补夜晚；人物到场时点按节点。"
+      ],
+      "sourceNeeds": [
+        {
+          "needId": "P4-02-FR-N003",
+          "statusAtReceipt": "open",
+          "actionAtReceipt": "repair"
+        }
+      ],
+      "producerStatus": "disposition-delivered",
+      "finalAdoptionStatus": "pending-P4-05-P4-02-P4-07",
+      "nodeScopes": [
+        {
+          "nodeId": "T-FR-000159_1",
+          "paragraphId": "T-FR-000159",
+          "packageId": "P4-02-FR",
+          "condition": "ALL"
+        },
+        {
+          "nodeId": "T-FR-000430_1",
+          "paragraphId": "T-FR-000430",
+          "packageId": "P4-02-FR",
+          "condition": "FR06-01=A"
+        },
+        {
+          "nodeId": "T-FR-000431_1",
+          "paragraphId": "T-FR-000431",
+          "packageId": "P4-02-FR",
+          "condition": "FR06-01=A"
+        },
+        {
+          "nodeId": "T-FR-000432_1",
+          "paragraphId": "T-FR-000432",
+          "packageId": "P4-02-FR",
+          "condition": "FR06-01=A"
+        },
+        {
+          "nodeId": "T-FR-000433_1",
+          "paragraphId": "T-FR-000433",
+          "packageId": "P4-02-FR",
+          "condition": "FR06-01=A"
+        },
+        {
+          "nodeId": "T-FR-000434_1",
+          "paragraphId": "T-FR-000434",
+          "packageId": "P4-02-FR",
+          "condition": "FR06-01=A"
+        },
+        {
+          "nodeId": "T-FR-000435_1",
+          "paragraphId": "T-FR-000435",
+          "packageId": "P4-02-FR",
+          "condition": "FR06-01=A"
+        },
+        {
+          "nodeId": "T-FR-000161_1",
+          "paragraphId": "T-FR-000161",
+          "packageId": "P4-02-FR",
+          "condition": "FR06-01=B"
+        }
+      ],
+      "assetNodeScopes": {
+        "bg-old-netcafe-backroom-neutral-day": [
+          "T-FR-000159_1",
+          "T-FR-000430_1",
+          "T-FR-000431_1",
+          "T-FR-000432_1",
+          "T-FR-000433_1",
+          "T-FR-000434_1",
+          "T-FR-000435_1",
+          "T-FR-000161_1"
+        ]
+      },
+      "scopeMeaning": "仅限定候选使用上界，不是自动绑定；具体进退场、分页、媒介、动作和恢复由所属P4-02包闭合。",
+      "evidence": [
+        {
+          "path": "qa/dialogue-p4-P4-03-20261103/intake-final.json",
+          "sha256": "64af37fb37242654dcadf6112828af20027efbea5a9477fa0a6f7e549b2e8a1d"
+        },
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-01/node-map.json",
+          "sha256": "289f731ccf5e651a5a07e19814ba33a3b2ba6a5285ceaaa50751d86ab437aed6"
+        },
+        {
+          "path": "assets/sources/20261103/P4-03/old-netcafe-backroom-neutral-day/generation.json",
+          "sha256": "ebd99e7b90dfb986e3c9c1db91dee0b3584c2f8838f4192d00026233f6027a08"
+        }
+      ]
+    }
+  ]
+}

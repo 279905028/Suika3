@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "scope": "本批发布源码候选及1248项冻结输入；非全量历史素材盘点",
+  "baseCommit": "6b2e7029452a817f3ac41adf89b9e9164fe29318",
+  "selectedCount": 775,
+  "selectedBytes": 117944932,
+  "groups": {
+    "qa": 263,
+    "tools": 150,
+    "docs": 289,
+    "scenario": 16,
+    "assets": 51,
+    "README.md": 1,
+    "system": 3,
+    "dist": 1,
+    "TODO-v1.1.md": 1
+  },
+  "credentialPatternHits": [],
+  "filesAtLeast50MiB": [],
+  "frozenInputCoverage": {
+    "frozen-archive": 890,
+    "git": 358
+  },
+  "missingOrChangedFrozenInputs": [],
+  "remainingUntrackedCount": 1299,
+  "note": "部署操作原始回执、重复构建和未采用候选不随源码发布；本机原位保留。常见凭证扫描不等同于所有敏感信息人工审查。"
+}

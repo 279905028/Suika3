@@ -1,0 +1,43 @@
+[
+  {
+    "key": "xiaoman-work-apron-empty-hands",
+    "assetId": "char-xiaoman-work-apron-empty-hands",
+    "type": "character",
+    "transparent": true,
+    "needIds": [
+      "P4-02-XM-N003",
+      "P4-02-COMMON-N001"
+    ],
+    "refs": [
+      "assets/current/SUI-A02/char-xiaoman-work-apron.webp"
+    ],
+    "prompt": "Use case: identity-preserve. Asset: a transparent visual novel character sprite, same 1024×1536 portrait canvas as reference. Input image 1 is the approved adult woman Xiaoman in her working apron. Preserve her EXACT face, pale ash-blonde short hair, brown eyes, small earrings, white short-sleeved T-shirt, charcoal-grey work apron with waist knot, dark jeans, head size, head position, thigh crop, skin tone, illustration style and soft front lighting. Change only her arm/hand pose and remove all tools: both arms relaxed comfortably downward, empty hands loosely resting together just below the apron waist. No scissors, comb, pen, notebook, phone, food, or any other held object. Calm attentive neutral expression, same face identity. Do not show any active haircutting, touching a customer, or sweeping. Transparent background with real alpha, clean hair strands and clothing edges. Do not paint a black/white/grey backdrop, glow, shadow vignette, checkerboard, floor, text, logo or watermark. This must be a clean isolated single character, no extra limbs, keep original scale and framing."
+  },
+  {
+    "key": "huisheng-306-operating-daylight",
+    "assetId": "bg-huisheng-306-operating-day",
+    "type": "background",
+    "transparent": false,
+    "needIds": [
+      "P4-02-ZZ-N002"
+    ],
+    "refs": [
+      "assets/current/SUI-A08/bg-huisheng-306-operating-night.webp",
+      "assets/current/SUI-A08/bg-huisheng-306-cleared-day.webp"
+    ],
+    "prompt": "Use case: lighting-weather. Asset: full-bleed 16:9 visual novel empty background. Edit target is IMAGE 1, the OPERATING karaoke room. IMAGE 2 is only the exact same location's daylight/exterior reference, not its empty furniture state. Change IMAGE 1 from night to overcast AFTERNOON daylight visible through the same windows. Keep ALL of image 1's operating furniture and objects: burgundy L-shaped sofa, dark marble low table, microphones, cups, small bottles, tissues, small round stool, TV turned on with abstract blue-purple karaoke light, installed dark wall panels, warm room lamps. Do not clear the table, remove furniture, add moving boxes or exposed stripped wall, do not copy the closed-down state from image 2. The exterior must have daylight sky and muted daytime buildings rather than night lights. Retain camera, geometry, original room layout, detailed realistic painterly style. Keep the wall clock at the same position; it is a STOPPED clock showing 11:47 (hour hand slightly before 12, minute hand between 9 and 10, not 12:00). No people, no silhouettes/reflections of people, no new signage or readable screen text, no UI, no watermark. Moderate bright afternoon interior; not sunrise, golden sunset, or nightclub darkness."
+  },
+  {
+    "key": "huisheng-corridor-night",
+    "assetId": "bg-huisheng-corridor-operating-night",
+    "type": "background",
+    "transparent": false,
+    "needIds": [
+      "P4-02-ZZ-N003"
+    ],
+    "refs": [
+      "assets/current/SUI-A08/bg-huisheng-corridor-operating-day.webp"
+    ],
+    "prompt": "Use case: lighting-weather. Create an evening/night variant of this exact existing operating venue corridor background, full-bleed 16:9. Change ONLY time of day and illumination. The left exterior through glass and the small far window must be dark blue NIGHT; remove the strong sunlight patches on the floor. Switch on the existing ceiling lights and reception downlights to provide believable warm-neutral indoor light. Preserve the curved burgundy reception counter, staircase on the right, lockers, cardboard boxes near the stairs and hallway, plants, wall textures, camera, perspective, same doors and all spatial geometry. The establishment is still operating; no chain, padlock, closure sign, empty stripped interior, or locked exterior doors. Background entirely without people or character reflections. Maintain the original detailed realistic painterly visual-novel style, readable midtones suitable behind separate character sprites, not a horror scene. No new written text, logos, watermarks, UI or border."
+  }
+]

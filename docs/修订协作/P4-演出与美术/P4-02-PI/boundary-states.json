@@ -1,0 +1,872 @@
+{
+  "schemaVersion": "p4-package-v1",
+  "packageId": "P4-02-PI",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "boundaries": [
+    {
+      "boundaryId": "entry:BRANCH_0a5e73eb914f1ce5e648",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对file-entry 文件入口 → BRANCH_0a5e73eb914f1ce5e648；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_0a5e73eb914f1ce5e648",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_0a5e73eb914f1ce5e648 → PI-HIGH-START、BRANCH_be5bcc29923001d5d446；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_0a5e73eb914f1ce5e648",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_0a5e73eb914f1ce5e648 → BRANCH_be5bcc29923001d5d446；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI03-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI03-01 → BRANCH_d923bdf82a72c6081789；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d923bdf82a72c6081789",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_d923bdf82a72c6081789 → T-PI-000017_1、BRANCH_98a965216ff7a830e343；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d923bdf82a72c6081789",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_d923bdf82a72c6081789 → BRANCH_98a965216ff7a830e343；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_98a965216ff7a830e343",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_98a965216ff7a830e343 → T-PI-000654_1、T-PI-000026_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_98a965216ff7a830e343",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_98a965216ff7a830e343 → T-PI-000026_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI04-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI04-01 → BRANCH_753e2781678ff4c67b16；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_753e2781678ff4c67b16",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_753e2781678ff4c67b16 → T-PI-000081_1、BRANCH_60629dc5cb31890258cc；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_753e2781678ff4c67b16",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_753e2781678ff4c67b16 → BRANCH_60629dc5cb31890258cc；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_60629dc5cb31890258cc",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_60629dc5cb31890258cc → T-PI-000089_1、T-PI-000097_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_60629dc5cb31890258cc",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_60629dc5cb31890258cc → T-PI-000097_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI05-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI05-01 → BRANCH_456357fa4f6d467b4022；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_456357fa4f6d467b4022",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_456357fa4f6d467b4022 → T-PI-000155_1、BRANCH_734967b7602f0dea97d8；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_456357fa4f6d467b4022",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_456357fa4f6d467b4022 → BRANCH_734967b7602f0dea97d8；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_734967b7602f0dea97d8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_734967b7602f0dea97d8 → T-PI-000159_1、T-PI-000162_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_734967b7602f0dea97d8",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_734967b7602f0dea97d8 → T-PI-000162_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI06-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI06-01 → BRANCH_867d4041a42f3fac7a58；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_867d4041a42f3fac7a58",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_867d4041a42f3fac7a58 → T-PI-000705_1、BRANCH_6fd002bdadd61f76da75；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_867d4041a42f3fac7a58",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_867d4041a42f3fac7a58 → BRANCH_6fd002bdadd61f76da75；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6fd002bdadd61f76da75",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_6fd002bdadd61f76da75 → T-PI-000722_1、T-PI-000219_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6fd002bdadd61f76da75",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_6fd002bdadd61f76da75 → T-PI-000219_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3884ae0b652b726a200c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_3884ae0b652b726a200c → T-PI-000240_1、BRANCH_b1a29e44022a3cbff603；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3884ae0b652b726a200c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_3884ae0b652b726a200c → BRANCH_b1a29e44022a3cbff603；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b1a29e44022a3cbff603",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_b1a29e44022a3cbff603 → T-PI-000245_1、T-PI-000250_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b1a29e44022a3cbff603",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_b1a29e44022a3cbff603 → T-PI-000250_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI07-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI07-01 → BRANCH_cfc3ae601a46692012cd；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_cfc3ae601a46692012cd",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_cfc3ae601a46692012cd → T-PI-000255_1、BRANCH_c99eb409152e81ebd1a2；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_cfc3ae601a46692012cd",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_cfc3ae601a46692012cd → BRANCH_c99eb409152e81ebd1a2；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c99eb409152e81ebd1a2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_c99eb409152e81ebd1a2 → T-PI-000744_1、T-PI-000263_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c99eb409152e81ebd1a2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_c99eb409152e81ebd1a2 → T-PI-000263_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI08-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI08-01 → BRANCH_7a616369913d9a70e264；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_7a616369913d9a70e264",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_7a616369913d9a70e264 → T-PI-000758_1、BRANCH_e0f52f90ddb9c7a2a39b；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_7a616369913d9a70e264",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_7a616369913d9a70e264 → BRANCH_e0f52f90ddb9c7a2a39b；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_fc945f6b2e9f1df3ba97",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_fc945f6b2e9f1df3ba97 → T-PI-000341_1、BRANCH_dc37716072260734abd3；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_fc945f6b2e9f1df3ba97",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_fc945f6b2e9f1df3ba97 → BRANCH_dc37716072260734abd3；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_dc37716072260734abd3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_dc37716072260734abd3 → T-PI-000766_1、BRANCH_e0f52f90ddb9c7a2a39b；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_dc37716072260734abd3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_dc37716072260734abd3 → BRANCH_e0f52f90ddb9c7a2a39b；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_e0f52f90ddb9c7a2a39b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_e0f52f90ddb9c7a2a39b → T-PI-000356_1、T-PI-000371_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_e0f52f90ddb9c7a2a39b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_e0f52f90ddb9c7a2a39b → T-PI-000371_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a16401c4019521b5a6d4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_a16401c4019521b5a6d4 → T-PI-000362_1、BRANCH_a3b2811c42adc333f8e7；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a16401c4019521b5a6d4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_a16401c4019521b5a6d4 → BRANCH_a3b2811c42adc333f8e7；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a3b2811c42adc333f8e7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_a3b2811c42adc333f8e7 → T-PI-000366_1、T-PI-000371_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a3b2811c42adc333f8e7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_a3b2811c42adc333f8e7 → T-PI-000371_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_4265be05b8f642616a4e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_4265be05b8f642616a4e → T-PI-000384_1、BRANCH_0b56d6000f93375dfa09；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_4265be05b8f642616a4e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_4265be05b8f642616a4e → BRANCH_0b56d6000f93375dfa09；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_0b56d6000f93375dfa09",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_0b56d6000f93375dfa09 → T-PI-000394_1、T-PI-000402_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_0b56d6000f93375dfa09",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_0b56d6000f93375dfa09 → T-PI-000402_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_f727232888fcc9d1d174",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_f727232888fcc9d1d174 → T-PI-000396_1、BRANCH_791c959fa8b4c4293bc3；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_f727232888fcc9d1d174",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_f727232888fcc9d1d174 → BRANCH_791c959fa8b4c4293bc3；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_791c959fa8b4c4293bc3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_791c959fa8b4c4293bc3 → T-PI-000398_1、T-PI-000400_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_791c959fa8b4c4293bc3",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_791c959fa8b4c4293bc3 → T-PI-000400_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI09-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI09-01 → BRANCH_b2737b276e3a70f056c7；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b2737b276e3a70f056c7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_b2737b276e3a70f056c7 → T-PI-000403_1、BRANCH_093ab938c108e3f5a0b4；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b2737b276e3a70f056c7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_b2737b276e3a70f056c7 → BRANCH_093ab938c108e3f5a0b4；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_093ab938c108e3f5a0b4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_093ab938c108e3f5a0b4 → T-PI-000405_1、T-PI-000407_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_093ab938c108e3f5a0b4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_093ab938c108e3f5a0b4 → T-PI-000407_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI10-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI10-01 → BRANCH_9f7d3afac0d7d81e657a；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_9f7d3afac0d7d81e657a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_9f7d3afac0d7d81e657a → T-PI-000418_1、BRANCH_6059f292756da6173940；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_9f7d3afac0d7d81e657a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_9f7d3afac0d7d81e657a → BRANCH_6059f292756da6173940；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6059f292756da6173940",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_6059f292756da6173940 → T-PI-000420_1、T-PI-000422_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6059f292756da6173940",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_6059f292756da6173940 → T-PI-000422_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c4b439b1bd75046977ac",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_c4b439b1bd75046977ac → PI-E1、BRANCH_ce03993177494384fbca；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c4b439b1bd75046977ac",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_c4b439b1bd75046977ac → BRANCH_ce03993177494384fbca；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:PI-E1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对ending PI-E1 → T-PI-000423_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_ce03993177494384fbca",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_ce03993177494384fbca → PI-E2、BRANCH_be5bcc29923001d5d446；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_ce03993177494384fbca",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_ce03993177494384fbca → BRANCH_be5bcc29923001d5d446；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:PI-E2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对ending PI-E2 → T-PI-000445_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c6cb206279d010eec17a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_c6cb206279d010eec17a → T-PI-000816_1、BRANCH_21af73b05ac82c1e92fe；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c6cb206279d010eec17a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_c6cb206279d010eec17a → BRANCH_21af73b05ac82c1e92fe；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_21af73b05ac82c1e92fe",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_21af73b05ac82c1e92fe → T-PI-000823_1、BRANCH_3ced7f8cde5f3c5d878e；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_21af73b05ac82c1e92fe",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_21af73b05ac82c1e92fe → BRANCH_3ced7f8cde5f3c5d878e；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3ced7f8cde5f3c5d878e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_3ced7f8cde5f3c5d878e → T-PI-000454_1、T-PI-000457_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3ced7f8cde5f3c5d878e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_3ced7f8cde5f3c5d878e → T-PI-000457_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "epilogue:EPILOGUE_a4ab9d270b1612ab11cf",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对epilogue EPILOGUE_a4ab9d270b1612ab11cf → EP-HIGH、EP-LOW；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-COMMON；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_be5bcc29923001d5d446",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_be5bcc29923001d5d446 → PI-LOW-START、END_715d4d4b203e06f4；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_be5bcc29923001d5d446",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_be5bcc29923001d5d446 → END_715d4d4b203e06f4；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:PI-L06-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对choice PI-L06-01 → BRANCH_fed658a650c20dd01f7f；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_fed658a650c20dd01f7f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_fed658a650c20dd01f7f → BRANCH_eda44623a9304d66e9b7、BRANCH_f28f1b3ea455a32e3894；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_fed658a650c20dd01f7f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_fed658a650c20dd01f7f → BRANCH_f28f1b3ea455a32e3894；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_eda44623a9304d66e9b7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_eda44623a9304d66e9b7 → T-PI-000480_1、BRANCH_f28f1b3ea455a32e3894；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_eda44623a9304d66e9b7",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_eda44623a9304d66e9b7 → BRANCH_f28f1b3ea455a32e3894；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_f28f1b3ea455a32e3894",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_f28f1b3ea455a32e3894 → BRANCH_84bdb31daa8b701cd760、PI-LOW-D36-COMPLETE；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_f28f1b3ea455a32e3894",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_f28f1b3ea455a32e3894 → PI-LOW-D36-COMPLETE；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_84bdb31daa8b701cd760",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_84bdb31daa8b701cd760 → T-PI-000561_1、PI-LOW-D36-COMPLETE；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_84bdb31daa8b701cd760",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_84bdb31daa8b701cd760 → PI-LOW-D36-COMPLETE；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "event:EVENT_b0d1120e8a9fd64d99b2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对event EVENT_b0d1120e8a9fd64d99b2 → T-PI-000569_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_8cc44edefadd98812e84",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_8cc44edefadd98812e84 → T-PI-000576_1、BRANCH_d5c8ad1f06914f351173；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_8cc44edefadd98812e84",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_8cc44edefadd98812e84 → BRANCH_d5c8ad1f06914f351173；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d5c8ad1f06914f351173",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_d5c8ad1f06914f351173 → T-PI-000581_1、T-PI-000588_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d5c8ad1f06914f351173",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_d5c8ad1f06914f351173 → T-PI-000588_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_fa1fcbe99bf15fc95985",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_fa1fcbe99bf15fc95985 → T-PI-000592_1、BRANCH_e4523d01c08c589c0b6c；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_fa1fcbe99bf15fc95985",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_fa1fcbe99bf15fc95985 → BRANCH_e4523d01c08c589c0b6c；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_e4523d01c08c589c0b6c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_e4523d01c08c589c0b6c → T-PI-000598_1、T-PI-000493_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_e4523d01c08c589c0b6c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_e4523d01c08c589c0b6c → T-PI-000493_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_4820c318c8ad327097b9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_4820c318c8ad327097b9 → T-PI-000613_1、BRANCH_3749214fc549e6aa52d1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_4820c318c8ad327097b9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_4820c318c8ad327097b9 → BRANCH_3749214fc549e6aa52d1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3749214fc549e6aa52d1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_3749214fc549e6aa52d1 → T-PI-000619_1、T-PI-000500_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3749214fc549e6aa52d1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_3749214fc549e6aa52d1 → T-PI-000500_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_355d7a977a4cd759190b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_355d7a977a4cd759190b → PI-LE1、BRANCH_2dad272e82aa9610ebe9；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_355d7a977a4cd759190b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_355d7a977a4cd759190b → BRANCH_2dad272e82aa9610ebe9；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:PI-LE1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对ending PI-LE1 → T-PI-000623_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_2dad272e82aa9610ebe9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch BRANCH_2dad272e82aa9610ebe9 → PI-LE2、EPILOGUE_64f096a7bdf2c9d41e31；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_2dad272e82aa9610ebe9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对branch-merge BRANCH_2dad272e82aa9610ebe9 → EPILOGUE_64f096a7bdf2c9d41e31；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:PI-LE2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对ending PI-LE2 → T-PI-000645_1；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-PI；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "epilogue:EPILOGUE_64f096a7bdf2c9d41e31",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对epilogue EPILOGUE_64f096a7bdf2c9d41e31 → EP-HIGH、EP-LOW；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=P4-02-COMMON；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_715d4d4b203e06f4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "核对finish END_715d4d4b203e06f4 → ；HIGH/LOW入口互斥，HIGH仅PI06/PI08均A继续，LOW按PI-L06收束；第36天已在本线发生，不再CALL公共事件。目标包=；跨包不保存源人物、道具或CG，由目的节点重建；结局仅单身者按规则进公共后日谈。",
+      "unresolved": []
+    }
+  ]
+}

@@ -1,0 +1,2723 @@
+{
+  "schemaVersion": "cg-expansion-plan-v1",
+  "batch": "CG-expansion-20-20261103",
+  "completedOn": "2026-11-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "status": "produced-planned-binding",
+  "runtimeAdoptedCount": 0,
+  "records": [
+    {
+      "cgId": "CG110",
+      "assetId": "cg-common-cg110",
+      "title": "三把钥匙，各自归位",
+      "packageId": "P4-02-COMMON",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-C03-000003_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C03-000003_1",
+        "paragraphId": "T-C03-000003",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "source": {
+          "file": "scenario/第三章-选一条路.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第三章-选一条路.md",
+          "lineHint": 24,
+          "context": "## 剧情简介",
+          "sha256": "b1f71210fa2f917cea2830648617dc33d2dfead865e889fccf864b01bf49aa1c"
+        },
+        "textMeta": {
+          "id": "T-C03-000003",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "窗台上摆着三把钥匙：贵阳房子的、出租屋的、网吧侧门的。我把出租屋和侧门钥匙收进口袋，剩下那一把放进装通知的袋子，拉好拉链。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-common-cg110",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-C03-000019_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-C03-000003_1",
+        "anchor": {
+          "nodeId": "T-C03-000003_1",
+          "file": "scenario/第三章-选一条路.md",
+          "sha256": "b1f71210fa2f917cea2830648617dc33d2dfead865e889fccf864b01bf49aa1c"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-wenwen-bijie-rental-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-wenwen-bijie-rental-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "选线前在出租屋看钥匙和手机；六个远程邀请无现场女主，选择本身不改变好感或关系。个别出门段另切街景。",
+          "按本段经审定的基础形象与完整画面。",
+          "进入、回退、读档、改选都按目标节点完整重建；CG退出先去CG，不继承另一分支画面"
+        ]
+      },
+      "restrictions": [
+        "三把钥匙与通知袋；底部两把钥匙需查看全图。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG111",
+      "assetId": "cg-common-cg111",
+      "title": "拆开的通知",
+      "packageId": "P4-02-COMMON",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-C01-000455_1"
+      ],
+      "anchor": {
+        "nodeId": "T-C01-000455_1",
+        "paragraphId": "T-C01-000455",
+        "condition": "ALL",
+        "routeIds": [],
+        "entryGate": null,
+        "source": {
+          "file": "scenario/第一章-回到毕节.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/第一章-回到毕节.md",
+          "lineHint": 1226,
+          "context": "### 第7天深夜｜信封里的日期",
+          "sha256": "9b5bbf1a7ef01dffdfef471597d85ba0deaa8a52ebf992df70d23902aaf4df8e"
+        },
+        "textMeta": {
+          "id": "T-C01-000455",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "我早就知道这个日子，却一直把信塞着，好像封口没拆，事情就还在路上。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-common-cg111",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-C01-000456_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-C01-000455_1",
+        "anchor": {
+          "nodeId": "T-C01-000455_1",
+          "file": "scenario/第一章-回到毕节.md",
+          "sha256": "9b5bbf1a7ef01dffdfef471597d85ba0deaa8a52ebf992df70d23902aaf4df8e"
+        },
+        "condition": "ALL",
+        "routeIds": [],
+        "enter": {
+          "background": {
+            "assetId": "bg-old-netcafe-counter-night",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-old-netcafe-counter-night",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "柜台拆通知并看小满消息，远端小满不在场。",
+          "按本段经审定的基础形象与完整画面。",
+          "进入、回退、读档、改选都按目标节点完整重建；CG退出先去CG，不继承另一分支画面"
+        ]
+      },
+      "restrictions": [
+        "独自读通知，纸面朝向角色，无虚构日期金额；纸张下部需全图。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG112",
+      "assetId": "cg-xm-cg112",
+      "title": "没笑端正的合照",
+      "packageId": "P4-02-XM",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-XM-000160_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000160_1",
+        "paragraphId": "T-XM-000160",
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 873,
+          "context": "### 剧情简介",
+          "sha256": "85e5b5bb3c95d1e8f459afcc5e1aa496062668ecab4005da3f2f69537080d3c9"
+        },
+        "textMeta": {
+          "id": "T-XM-000160",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "我说本来就是。她把手伸到我背后掐了一下，倒计时正好响。照片拍出来，我们两个都笑得不太端正。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-xm-cg112",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-XM-000557_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-XM-000160_1",
+        "anchor": {
+          "nodeId": "T-XM-000160_1",
+          "file": "scenario/罗小满-练习本.md",
+          "sha256": "85e5b5bb3c95d1e8f459afcc5e1aa496062668ecab4005da3f2f69537080d3c9"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-huisheng-306-operating-night",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-xiaoman-skirt",
+              "layer": "left",
+              "x": 80,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "char-xiaoman-skirt"
+            },
+            {
+              "assetId": "maolang-base",
+              "layer": "right",
+              "x": 810,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "maolang-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-huisheng-306-operating-night",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-xiaoman-skirt",
+                "layer": "left",
+                "x": 80,
+                "y": 50,
+                "scale": 0.37,
+                "form": "human",
+                "costume": "char-xiaoman-skirt"
+              },
+              {
+                "assetId": "maolang-base",
+                "layer": "right",
+                "x": 810,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "maolang-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "第30天回声合照，小满明确穿裙子，毛狼拍照；拒绝蹲下不改画面为蹲姿。",
+          "站位按已登记资源几何重排，图像/遮挡须P4-05与P5另验；文文保持第一视角。",
+          "退出去CG后按下一目标全量重建；回退/改选/读档不可继承源页人物、衣装、道具。",
+          "图片仅候选引用，全部资源尚待P4-05本批复验；全图不推进文字、可见帧才解锁。"
+        ]
+      },
+      "restrictions": [
+        "小满裙装与文文合照；拍摄者在画外，未变成自拍。背后轻掐细节由正文补足。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG113",
+      "assetId": "cg-xm-cg113",
+      "title": "箱子里没有退掉的车票",
+      "packageId": "P4-02-XM",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-XM-000228_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000228_1",
+        "paragraphId": "T-XM-000228",
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 1274,
+          "context": "### 剧情简介",
+          "sha256": "de374db602212b7ea4ae9887a410ad560ab5b70de850540a324fe27cc1d5d7a2"
+        },
+        "textMeta": {
+          "id": "T-XM-000228",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "过了一会儿，她让开一点地方，我看见箱子里压着已经打印的车票。第60天，成都。她没有退，也没跟学校说不去了。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-xm-cg113",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-XM-000630_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-XM-000228_1",
+        "anchor": {
+          "nodeId": "T-XM-000228_1",
+          "file": "scenario/罗小满-练习本.md",
+          "sha256": "de374db602212b7ea4ae9887a410ad560ab5b70de850540a324fe27cc1d5d7a2"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "enter": {
+          "background": null,
+          "characters": [
+            {
+              "assetId": "char-xiaoman-downcast",
+              "layer": "center",
+              "x": 445,
+              "y": 50,
+              "scale": 0.37,
+              "form": "human",
+              "costume": "char-xiaoman-downcast"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": null,
+            "characters": [
+              {
+                "assetId": "char-xiaoman-downcast",
+                "layer": "center",
+                "x": 445,
+                "y": 50,
+                "scale": 0.37,
+                "form": "human",
+                "costume": "char-xiaoman-downcast"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "文文去找小满打包行李：原文未给可复用具体室内，暂用阅读底和小满；不借用文文出租屋冒充她住处。",
+          "站位按已登记资源几何重排，图像/遮挡须P4-05与P5另验；文文保持第一视角。",
+          "退出去CG后按下一目标全量重建；回退/改选/读档不可继承源页人物、衣装、道具。",
+          "图片仅候选引用，全部资源尚待P4-05本批复验；全图不推进文字、可见帧才解锁。"
+        ]
+      },
+      "restrictions": [
+        "小满与行李箱；车票仅露一角，不承担文字阅读；须查看全图确认票与剪刀包。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG114",
+      "assetId": "cg-xm-cg114",
+      "title": "镜子里的新一次",
+      "packageId": "P4-02-XM",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-XM-000387_1"
+      ],
+      "anchor": {
+        "nodeId": "T-XM-000387_1",
+        "paragraphId": "T-XM-000387",
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "xiaoman"
+        },
+        "source": {
+          "file": "scenario/罗小满-练习本.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/罗小满-练习本.md",
+          "lineHint": 2281,
+          "context": "### 剧情简介",
+          "sha256": "7cb239e9d9ad01d780b735713a4e1bb4144c5487eff5163c4d35ed2ec648c3c4"
+        },
+        "textMeta": {
+          "id": "T-XM-000387",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "我看着镜子，没有要求头发一定留成第22天那个样子。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-xm-cg114",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "XM10-01"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-XM-000387_1",
+        "anchor": {
+          "nodeId": "T-XM-000387_1",
+          "file": "scenario/罗小满-练习本.md",
+          "sha256": "7cb239e9d9ad01d780b735713a4e1bb4144c5487eff5163c4d35ed2ec648c3c4"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "xiaoman"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-salon-bijie-day91-mirror",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "npc-salon-newcomer-base",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "npc-salon-newcomer-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-salon-bijie-day91-mirror",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "npc-salon-newcomer-base",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "npc-salon-newcomer-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "第91天新人剪发，小满已赴成都；头盔仅柜顶防尘袋内，不显示她持盔。",
+          "站位按已登记资源几何重排，图像/遮挡须P4-05与P5另验；文文保持第一视角。",
+          "退出去CG后按下一目标全量重建；回退/改选/读档不可继承源页人物、衣装、道具。",
+          "图片仅候选引用，全部资源尚待P4-05本批复验；全图不推进文字、可见帧才解锁。"
+        ]
+      },
+      "restrictions": [
+        "文文与新人理发师，镜中反射合理，小满不在场。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG115",
+      "assetId": "cg-zz-cg115",
+      "title": "大的那半块给你",
+      "packageId": "P4-02-ZZ",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-ZZ-000610_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000610_1",
+        "paragraphId": "T-ZZ-000610",
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 829,
+          "context": "ZZ05-01/COMMON",
+          "sha256": "3d312a5423688214ba59bc2fd1b10923042eaca984572151b758b18ee7d7c1d1"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000610",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "她掰得不均，一块大一块小，直接把大的给我。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-zz-cg115",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-ZZ-000153_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-ZZ-000610_1",
+        "anchor": {
+          "nodeId": "T-ZZ-000610_1",
+          "file": "scenario/周栀-十一点四十七分.md",
+          "sha256": "3d312a5423688214ba59bc2fd1b10923042eaca984572151b758b18ee7d7c1d1"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-noodle-shop-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7655502392344498,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-zhouzhi-human-base",
+              "layer": "center",
+              "x": 445,
+              "y": 64,
+              "scale": 0.4,
+              "form": "human",
+              "costume": "char-zhouzhi-human-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-noodle-shop-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7655502392344498,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-zhouzhi-human-base",
+                "layer": "center",
+                "x": 445,
+                "y": 64,
+                "scale": 0.4,
+                "form": "human",
+                "costume": "char-zhouzhi-human-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "同日各付面钱分烧饼，正常相处，动作与纸袋由文本。",
+          "站位按已登记资源几何重排，图像/遮挡须P4-05与P5另验；文文保持第一视角。",
+          "退出去CG后按下一目标全量重建；回退/改选/读档不可继承源页人物、衣装、道具。",
+          "图片仅候选引用，全部资源尚待P4-05本批复验；全图不推进文字、可见帧才解锁。"
+        ]
+      },
+      "restrictions": [
+        "两半大小不同的烧饼，两个面碗，递饼动作清楚。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG116",
+      "assetId": "cg-zz-cg116",
+      "title": "最后一箱搬上车",
+      "packageId": "P4-02-ZZ",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-ZZ-000240_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000240_1",
+        "paragraphId": "T-ZZ-000240",
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 1347,
+          "context": "ZZ06-01/COMMON",
+          "sha256": "293d3e20752e2ac7ab5e8efd9f07a64c50d6c7150fc99409d9e0758a4652883a"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000240",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "我陪她坐到阿英叫第二遍。她们一起把箱子搬上车，回声在第30天营业结束后关了门。我们的事没有跟着结清。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-zz-cg116",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-ZZ-000708_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-ZZ-000240_1",
+        "anchor": {
+          "nodeId": "T-ZZ-000240_1",
+          "file": "scenario/周栀-十一点四十七分.md",
+          "sha256": "293d3e20752e2ac7ab5e8efd9f07a64c50d6c7150fc99409d9e0758a4652883a"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-bijie-slope-street-day-overcast",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-zhouzhi-human-base",
+              "layer": "left",
+              "x": 80,
+              "y": 64,
+              "scale": 0.4,
+              "form": "human",
+              "costume": "char-zhouzhi-human-base"
+            },
+            {
+              "assetId": "npc-aying-base",
+              "layer": "right",
+              "x": 810,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "npc-aying-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-bijie-slope-street-day-overcast",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-zhouzhi-human-base",
+                "layer": "left",
+                "x": 80,
+                "y": 64,
+                "scale": 0.4,
+                "form": "human",
+                "costume": "char-zhouzhi-human-base"
+              },
+              {
+                "assetId": "npc-aying-base",
+                "layer": "right",
+                "x": 810,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "npc-aying-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "阿英再叫，一起搬箱上车；不恢复营业包房。",
+          "站位按已登记资源几何重排，图像/遮挡须P4-05与P5另验；文文保持第一视角。",
+          "退出去CG后按下一目标全量重建；回退/改选/读档不可继承源页人物、衣装、道具。",
+          "图片仅候选引用，全部资源尚待P4-05本批复验；全图不推进文字、可见帧才解锁。"
+        ]
+      },
+      "restrictions": [
+        "周栀与阿英搬箱，关闭卷帘门；按正文营业结束后的夜景。02旧候选底图为阴天街道，接入时须一起核准退出底层时段。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG117",
+      "assetId": "cg-zz-cg117",
+      "title": "台阶上的豆浆",
+      "packageId": "P4-02-ZZ",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-ZZ-000345_1"
+      ],
+      "anchor": {
+        "nodeId": "T-ZZ-000345_1",
+        "paragraphId": "T-ZZ-000345",
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "zhouzhi"
+        },
+        "source": {
+          "file": "scenario/周栀-十一点四十七分.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/周栀-十一点四十七分.md",
+          "lineHint": 2035,
+          "context": "### 剧情简介",
+          "sha256": "5ac15af5b2c638854de6048b06d04ad1d50bfb059781628f08f2396b26ee6e1c"
+        },
+        "textMeta": {
+          "id": "T-ZZ-000345",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "她把豆浆放到台阶上，手撑着膝盖。我们谁都没找到一个只算对方的问题。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-zz-cg117",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-ZZ-000858_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-ZZ-000345_1",
+        "anchor": {
+          "nodeId": "T-ZZ-000345_1",
+          "file": "scenario/周栀-十一点四十七分.md",
+          "sha256": "5ac15af5b2c638854de6048b06d04ad1d50bfb059781628f08f2396b26ee6e1c"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "zhouzhi"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-noodle-shop-front-dawn",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-zhouzhi-human-serious",
+              "layer": "center",
+              "x": 445,
+              "y": 64,
+              "scale": 0.4,
+              "form": "human",
+              "costume": "char-zhouzhi-human-serious"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-noodle-shop-front-dawn",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-zhouzhi-human-serious",
+                "layer": "center",
+                "x": 445,
+                "y": 64,
+                "scale": 0.4,
+                "form": "human",
+                "costume": "char-zhouzhi-human-serious"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "次日网吧门口早餐摊，豆浆及辞职未发送；B明确不是重新答应，禁止亲密CG。",
+          "站位按已登记资源几何重排，图像/遮挡须P4-05与P5另验；文文保持第一视角。",
+          "退出去CG后按下一目标全量重建；回退/改选/读档不可继承源页人物、衣装、道具。",
+          "图片仅候选引用，全部资源尚待P4-05本批复验；全图不推进文字、可见帧才解锁。"
+        ]
+      },
+      "restrictions": [
+        "清晨台阶、豆浆与保持距离的两人；没有把普通对话画成复合。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG118",
+      "assetId": "cg-my-cg118",
+      "title": "先讲今天的课时",
+      "packageId": "P4-02-MY",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-MY-000057_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000057_1",
+        "paragraphId": "T-MY-000057",
+        "condition": "ALL",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 291,
+          "context": "### 剧情简介",
+          "sha256": "fc8a077b266a5238da3be8dbc29be2845f55754d786d95b0f0f4fd48f5172e02"
+        },
+        "textMeta": {
+          "id": "T-MY-000057",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "她把一份入职材料摊开，底薪和课时收入分在两处。页面后面有新机构联系人发来的说明，她逐条核过，把不确定的地方折了角。我问贵阳工资是不是高很多，她说要看实际上多少课，不能把排满的算法当成每月到手。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-my-cg118",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-MY-000058_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-MY-000057_1",
+        "anchor": {
+          "nodeId": "T-MY-000057_1",
+          "file": "scenario/孟遥-旧题.md",
+          "sha256": "fc8a077b266a5238da3be8dbc29be2845f55754d786d95b0f0f4fd48f5172e02"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "mengyao"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-mengyao-bijie-school-classroom-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-mengyao-human-base-expression-tired",
+              "layer": "center",
+              "x": 179,
+              "y": 25,
+              "scale": 0.9,
+              "form": "human",
+              "costume": "char-mengyao-human-base-expression-tired"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-mengyao-bijie-school-classroom-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-mengyao-human-base-expression-tired",
+                "layer": "center",
+                "x": 179,
+                "y": 25,
+                "scale": 0.9,
+                "form": "human",
+                "costume": "char-mengyao-human-base-expression-tired"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "本段按P3冻结正文重新审定；旧绑定不作为状态来源",
+          "每次进入/回退/读档按目标节点重建完整状态，跨路线与分支清除源状态",
+          "CG仅当前正文节点可见，下一节点恢复完整底层；选择清姓名/CG；可见帧解锁留P4-06/P5验证",
+          "当前为未通过P4-05资源复验的候选，不得直接正式采用"
+        ]
+      },
+      "restrictions": [
+        "教室讨论入职材料；两项收入区与折角，文字不作可读承诺。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG119",
+      "assetId": "cg-my-cg119",
+      "title": "留给书箱的空隙",
+      "packageId": "P4-02-MY",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-MY-000236_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000236_1",
+        "paragraphId": "T-MY-000236",
+        "condition": "ALL",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 1181,
+          "context": "## 第八章｜那一把钥匙",
+          "sha256": "069422bcace4e6bc45200cb597985eea33296549c97eccb7bdc450496372e509"
+        },
+        "textMeta": {
+          "id": "T-MY-000236",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "教室门开着，里面还有同事在收桌面。我们把箱角垫好，她贴快递单。我看见地址终于只剩一行，不再是第10天吃烧饼时那几个候选。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-my-cg119",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-MY-000237_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-MY-000236_1",
+        "anchor": {
+          "nodeId": "T-MY-000236_1",
+          "file": "scenario/孟遥-旧题.md",
+          "sha256": "069422bcace4e6bc45200cb597985eea33296549c97eccb7bdc450496372e509"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "mengyao"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-mengyao-bijie-school-classroom-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-mengyao-human-book-box",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.3802083333333333,
+              "form": "human",
+              "costume": "char-mengyao-human-book-box"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-mengyao-bijie-school-classroom-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-mengyao-human-book-box",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.3802083333333333,
+                "form": "human",
+                "costume": "char-mengyao-human-book-box"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "本段按P3冻结正文重新审定；旧绑定不作为状态来源",
+          "每次进入/回退/读档按目标节点重建完整状态，跨路线与分支清除源状态",
+          "CG仅当前正文节点可见，下一节点恢复完整底层；选择清姓名/CG；可见帧解锁留P4-06/P5验证",
+          "当前为未通过P4-05资源复验的候选，不得直接正式采用"
+        ]
+      },
+      "restrictions": [
+        "贴单和垫箱角，书箱与虚化同事；未加入相机或亲密动作。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG120",
+      "assetId": "cg-my-cg120",
+      "title": "借书归还前台",
+      "packageId": "P4-02-MY",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-MY-000508_1"
+      ],
+      "anchor": {
+        "nodeId": "T-MY-000508_1",
+        "paragraphId": "T-MY-000508",
+        "condition": "MY07-01=B",
+        "routeIds": [
+          "mengyao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "mengyao"
+        },
+        "source": {
+          "file": "scenario/孟遥-旧题.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/孟遥-旧题.md",
+          "lineHint": 1602,
+          "context": "## 第九章｜名字该放在哪里",
+          "sha256": "56d706774cdd174b827a3575282f7253f162c703946980427291411cd163691e"
+        },
+        "textMeta": {
+          "id": "T-MY-000508",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "我把书交到机构前台，写下孟遥的名字。她刚好下课，看见我。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-my-cg120",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-MY-000509_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-MY-000508_1",
+        "anchor": {
+          "nodeId": "T-MY-000508_1",
+          "file": "scenario/孟遥-旧题.md",
+          "sha256": "56d706774cdd174b827a3575282f7253f162c703946980427291411cd163691e"
+        },
+        "condition": "MY07-01=B",
+        "routeIds": [
+          "mengyao"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-mengyao-guiyang-school-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "char-mengyao-human-base-neutral",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.3802083333333333,
+              "form": "human",
+              "costume": "char-mengyao-human-base-neutral"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-mengyao-guiyang-school-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "char-mengyao-human-base-neutral",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.3802083333333333,
+                "form": "human",
+                "costume": "char-mengyao-human-base-neutral"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "本段按P3冻结正文重新审定；旧绑定不作为状态来源",
+          "每次进入/回退/读档按目标节点重建完整状态，跨路线与分支清除源状态",
+          "CG仅当前正文节点可见，下一节点恢复完整底层；选择清姓名/CG；可见帧解锁留P4-06/P5验证",
+          "当前为未通过P4-05资源复验的候选，不得直接正式采用"
+        ]
+      },
+      "restrictions": [
+        "借书放前台，两人保持距离；MY07=B，BA也不重启亲密。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG121",
+      "assetId": "cg-pi-cg121",
+      "title": "到站那晚有了地址",
+      "packageId": "P4-02-PI",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-PI-000327_1"
+      ],
+      "anchor": {
+        "nodeId": "T-PI-000327_1",
+        "paragraphId": "T-PI-000327",
+        "condition": "PIAO_RELATION=HIGH",
+        "routeIds": [
+          "piao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "piao"
+        },
+        "source": {
+          "file": "scenario/飘-空白页.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/飘-空白页.md",
+          "lineHint": 1582,
+          "context": "### 剧情简介",
+          "sha256": "a39a9364aa2a730be7407de6ebc5e29bc4b8aad29db5bad75148d44596168cd2"
+        },
+        "textMeta": {
+          "id": "T-PI-000327",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "最后她选了一处能先住几天的房间，朋友答应陪她现场看。没有一下子把往后都安排妥当，只是把到站那晚从一个空白变成了一个地址。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-pi-cg121",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-PI-000328_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-PI-000327_1",
+        "anchor": {
+          "nodeId": "T-PI-000327_1",
+          "file": "scenario/飘-空白页.md",
+          "sha256": "a39a9364aa2a730be7407de6ebc5e29bc4b8aad29db5bad75148d44596168cd2"
+        },
+        "condition": "PIAO_RELATION=HIGH",
+        "routeIds": [
+          "piao"
+        ],
+        "enter": {
+          "background": null,
+          "characters": [],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": null,
+            "characters": [],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "本段按P3冻结正文重新审定；旧绑定不作为状态来源",
+          "每次进入/回退/读档按目标节点重建完整状态，跨路线与分支清除源状态",
+          "CG仅当前正文节点可见，下一节点恢复完整底层；选择清姓名/CG；可见帧解锁留P4-06/P5验证",
+          "当前为未通过P4-05资源复验的候选，不得直接正式采用"
+        ]
+      },
+      "restrictions": [
+        "HIGH短住房安排，文文记录、飘确认；未把地址具体化为新剧情。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG122",
+      "assetId": "cg-pi-cg122",
+      "title": "窗台上压住的两本册子",
+      "packageId": "P4-02-PI",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-PI-000436_1"
+      ],
+      "anchor": {
+        "nodeId": "T-PI-000436_1",
+        "paragraphId": "T-PI-000436",
+        "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A",
+        "routeIds": [
+          "piao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "piao"
+        },
+        "source": {
+          "file": "scenario/飘-空白页.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/飘-空白页.md",
+          "lineHint": 2183,
+          "context": "PI-E1",
+          "sha256": "ec3717d27e87c3e0af719d670888f85f867569adf8b811152de1e75138b83a79"
+        },
+        "textMeta": {
+          "id": "T-PI-000436",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "我趁通话还在，把那页也拍给她。她看过后发来窗台的照片，两本册子被杯子压着，一张写有见面时间的纸放在旁边。",
+      "depictionMode": "received-photo",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-pi-cg122",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-PI-000437_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-PI-000436_1",
+        "anchor": {
+          "nodeId": "T-PI-000436_1",
+          "file": "scenario/飘-空白页.md",
+          "sha256": "ec3717d27e87c3e0af719d670888f85f867569adf8b811152de1e75138b83a79"
+        },
+        "condition": "PIAO_RELATION=HIGH&PI06-01=A&PI08-01=A",
+        "routeIds": [
+          "piao"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-oldstreet-shops-grocery-changed-day67",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-oldstreet-shops-grocery-changed-day67",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "本段按P3冻结正文重新审定；旧绑定不作为状态来源",
+          "每次进入/回退/读档按目标节点重建完整状态，跨路线与分支清除源状态",
+          "CG仅当前正文节点可见，下一节点恢复完整底层；选择清姓名/CG；可见帧解锁留P4-06/P5验证",
+          "当前为未通过P4-05资源复验的候选，不得直接正式采用"
+        ]
+      },
+      "restrictions": [
+        "作为收到的照片显示，两本册子、一杯、一纸片；无现场人物。见面时间由正文解释，不从模糊纸片读数。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG123",
+      "assetId": "cg-pi-cg123",
+      "title": "各自空着的日程",
+      "packageId": "P4-02-PI",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-PI-000641_1"
+      ],
+      "anchor": {
+        "nodeId": "T-PI-000641_1",
+        "paragraphId": "T-PI-000641",
+        "condition": "PIAO_RELATION=LOW&PI-L06-01=B",
+        "routeIds": [
+          "piao"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "piao"
+        },
+        "source": {
+          "file": "scenario/飘-空白页.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/飘-空白页.md",
+          "lineHint": 2856,
+          "context": "PI-LE2",
+          "sha256": "dbfd4f0e8bba715e2e5fe64a6ccb9bcb0c75be2211314f1bb9c4f34f9cfb5a1d"
+        },
+        "textMeta": {
+          "id": "T-PI-000641",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "毛狼翻开日程，和飘核下一次能商量事情的时间。两个人各自说了能腾出的空档，没有把空白填满。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-pi-cg123",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-PI-000642_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-PI-000641_1",
+        "anchor": {
+          "nodeId": "T-PI-000641_1",
+          "file": "scenario/飘-空白页.md",
+          "sha256": "dbfd4f0e8bba715e2e5fe64a6ccb9bcb0c75be2211314f1bb9c4f34f9cfb5a1d"
+        },
+        "condition": "PIAO_RELATION=LOW&PI-L06-01=B",
+        "routeIds": [
+          "piao"
+        ],
+        "enter": {
+          "background": null,
+          "characters": [
+            {
+              "assetId": "piao-base",
+              "layer": "center",
+              "x": 179,
+              "y": 25,
+              "scale": 0.9,
+              "form": "human",
+              "costume": "piao-base"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": null,
+            "characters": [
+              {
+                "assetId": "piao-base",
+                "layer": "center",
+                "x": 179,
+                "y": 25,
+                "scale": 0.9,
+                "form": "human",
+                "costume": "piao-base"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "本段按P3冻结正文重新审定；旧绑定不作为状态来源",
+          "每次进入/回退/读档按目标节点重建完整状态，跨路线与分支清除源状态",
+          "CG仅当前正文节点可见，下一节点恢复完整底层；选择清姓名/CG；可见帧解锁留P4-06/P5验证",
+          "当前为未通过P4-05资源复验的候选，不得直接正式采用"
+        ]
+      },
+      "restrictions": [
+        "LOW朋友结局，毛狼与飘对日程，大片空白；文文未被画成恋人。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG124",
+      "assetId": "cg-hq-cg124",
+      "title": "护住半个橘子",
+      "packageId": "P4-02-HQ",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-HQ-000351_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000351_1",
+        "paragraphId": "T-HQ-000351",
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 138,
+          "context": "HQ03-01/COMMON",
+          "sha256": "edc3de9ae0b68949a1b9f1cc756500edf957df7396d0b56d3718f8ad44979d6d"
+        },
+        "textMeta": {
+          "id": "T-HQ-000351",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "她护住手里的一半，又把收音机声音调大了一点。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-hq-cg124",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-HQ-000375_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-HQ-000351_1",
+        "anchor": {
+          "nodeId": "T-HQ-000351_1",
+          "file": "scenario/黄球球-门后.md",
+          "sha256": "edc3de9ae0b68949a1b9f1cc756500edf957df7396d0b56d3718f8ad44979d6d"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-huangqiuqiu-room-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "sui-a06-orb-amused-v001",
+              "layer": "center",
+              "x": 490,
+              "y": 210,
+              "scale": 0.24,
+              "form": "orb",
+              "costume": "sui-a06-orb-amused-v001"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-huangqiuqiu-room-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "sui-a06-orb-amused-v001",
+                "layer": "center",
+                "x": 490,
+                "y": 210,
+                "scale": 0.24,
+                "form": "orb",
+                "costume": "sui-a06-orb-amused-v001"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "橘子与收音机让气氛缓和；球形笑意只从剥橘子这拍开始，手中橘子留在叙述。",
+          "姓名与媒介只读冻结TEXT；角色肖像不是动作全景，道具未独立登记时不伪造道具层。",
+          "回退、读档、改选先清旧画面，再按目标节点完整重建；同名远程发言不自动进现场。",
+          "所有引用图片仍待P4-05本批复验；本候选不代表正式采用或运行通过。"
+        ]
+      },
+      "restrictions": [
+        "采用v002，刀切面已换成剥开的橘瓣；球形、蓝凳与调收音机动作保留。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG125",
+      "assetId": "cg-hq-cg125",
+      "title": "门合上以前",
+      "packageId": "P4-02-HQ",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-HQ-000194_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000194_1",
+        "paragraphId": "T-HQ-000194",
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 1061,
+          "context": "HQ07-01/COMMON",
+          "sha256": "2a1c7f81ddc281cfb481363fcf1bd6b2d410d6a8b5ed0d9b3c5c9b9b630024da"
+        },
+        "textMeta": {
+          "id": "T-HQ-000194",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "我走到外面，门没马上关。回头时，她还在门边看我。我冲她抬了一下手，她把自己的手也抬起来。门终于合上，下午的光留在那块掉漆的木头上。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-hq-cg125",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-HQ-000195_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-HQ-000194_1",
+        "anchor": {
+          "nodeId": "T-HQ-000194_1",
+          "file": "scenario/黄球球-门后.md",
+          "sha256": "2a1c7f81ddc281cfb481363fcf1bd6b2d410d6a8b5ed0d9b3c5c9b9b630024da"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-old-netcafe-yard-door-open-afternoon",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "sui-a06-orb-wave-v001",
+              "layer": "center",
+              "x": 490,
+              "y": 210,
+              "scale": 0.24,
+              "form": "orb",
+              "costume": "sui-a06-orb-wave-v001"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-old-netcafe-yard-door-open-afternoon",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "sui-a06-orb-wave-v001",
+                "layer": "center",
+                "x": 490,
+                "y": 210,
+                "scale": 0.24,
+                "form": "orb",
+                "costume": "sui-a06-orb-wave-v001"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "离开时她在门边抬小手，镜头只在未关门的挥手这一拍；结束后清球形。",
+          "姓名与媒介只读冻结TEXT；角色肖像不是动作全景，道具未独立登记时不伪造道具层。",
+          "回退、读档、改选先清旧画面，再按目标节点完整重建；同名远程发言不自动进现场。",
+          "所有引用图片仍待P4-05本批复验；本候选不代表正式采用或运行通过。"
+        ]
+      },
+      "restrictions": [
+        "采用v002，门内电脑已移除并恢复生活房间；黄球球仍为球形，位于门槛内。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG126",
+      "assetId": "cg-hq-cg126",
+      "title": "包好交还的杯子",
+      "packageId": "P4-02-HQ",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-HQ-000342_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000342_1",
+        "paragraphId": "T-HQ-000342",
+        "condition": "HQ07-01=B|HQ08-01=B",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 1967,
+          "context": "HQ-E2",
+          "sha256": "74dca32f3b68b323defa4d9e45e9cf498e7246670ad3d8b00cbc88a119f29d6e"
+        },
+        "textMeta": {
+          "id": "T-HQ-000342",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "她仍在那里，有自己的下午。最后见面时她仍是人形，亲手把杯子包好，交回我手里。我们已经说过再见。",
+      "depictionMode": "recollection",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-hq-cg126",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-HQ-000343_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-HQ-000342_1",
+        "anchor": {
+          "nodeId": "T-HQ-000342_1",
+          "file": "scenario/黄球球-门后.md",
+          "sha256": "74dca32f3b68b323defa4d9e45e9cf498e7246670ad3d8b00cbc88a119f29d6e"
+        },
+        "condition": "HQ07-01=B|HQ08-01=B",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-old-netcafe-counter-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-old-netcafe-counter-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "E2从前门走向工作，远处电台和最后一次人形是回忆，不进入后院或摆球球立绘。",
+          "姓名与媒介只读冻结TEXT；角色肖像不是动作全景，道具未独立登记时不伪造道具层。",
+          "回退、读档、改选先清旧画面，再按目标节点完整重建；同名远程发言不自动进现场。",
+          "所有引用图片仍待P4-05本批复验；本候选不代表正式采用或运行通过。"
+        ]
+      },
+      "restrictions": [
+        "仅作最后告别的回忆CG；人形眼贴、项圈、外套保留，杯子包好交还；不把当前电台声变成再次见面。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG127",
+      "assetId": "cg-fr-cg127",
+      "title": "拨回快了十分钟的钟",
+      "packageId": "P4-02-FR",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-FR-000010_1"
+      ],
+      "anchor": {
+        "nodeId": "T-FR-000010_1",
+        "paragraphId": "T-FR-000010",
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "friends"
+        },
+        "source": {
+          "file": "scenario/朋友与职业-夜班.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/朋友与职业-夜班.md",
+          "lineHint": 69,
+          "context": "#### 第15—21天",
+          "sha256": "c0ec990ec258e6ccd4e3e60710dee07f91bce04fe17724b83bde81b9f745a1e6"
+        },
+        "textMeta": {
+          "id": "T-FR-000010",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "墙上的打卡钟快十分钟。他伸手拨回去，塑料壳磕着墙，咚的一声。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-fr-cg127",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-FR-000011_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-FR-000010_1",
+        "anchor": {
+          "nodeId": "T-FR-000010_1",
+          "file": "scenario/朋友与职业-夜班.md",
+          "sha256": "c0ec990ec258e6ccd4e3e60710dee07f91bce04fe17724b83bde81b9f745a1e6"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-old-netcafe-counter-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "shijiang-serious",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "shijiang-serious"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-old-netcafe-counter-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "shijiang-serious",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "shijiang-serious"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "买家离开后师匠和文文谈是否留任，换认真态；她不继续留在画面。",
+          "姓名与媒介只读冻结TEXT；角色肖像不是动作全景，道具未独立登记时不伪造道具层。",
+          "回退、读档、改选先清旧画面，再按目标节点完整重建；同名远程发言不自动进现场。",
+          "所有引用图片仍待P4-05本批复验；本候选不代表正式采用或运行通过。"
+        ]
+      },
+      "restrictions": [
+        "师匠拨钟，文文旁观，人物身份正确；不是回声那只停钟。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG128",
+      "assetId": "cg-fr-cg128",
+      "title": "柜子里的三张点卡",
+      "packageId": "P4-02-FR",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-FR-000442_1"
+      ],
+      "anchor": {
+        "nodeId": "T-FR-000442_1",
+        "paragraphId": "T-FR-000442",
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "friends"
+        },
+        "source": {
+          "file": "scenario/朋友与职业-夜班.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/朋友与职业-夜班.md",
+          "lineHint": 976,
+          "context": "FR-D36-RETURN",
+          "sha256": "e8a7c7f42ce84df32f040f8ac28511a6d1d880ca9e7ca31033630e1ffdf1ddf7"
+        },
+        "textMeta": {
+          "id": "T-FR-000442",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "那天晚上，我在自己的柜子里翻到三张旧点卡，都是毛狼留下的。背面写着我们以前抢过的机位，字跟现在的演出单一样潦草。我拍给他。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-fr-cg128",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-FR-000443_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-FR-000442_1",
+        "anchor": {
+          "nodeId": "T-FR-000442_1",
+          "file": "scenario/朋友与职业-夜班.md",
+          "sha256": "e8a7c7f42ce84df32f040f8ac28511a6d1d880ca9e7ca31033630e1ffdf1ddf7"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-old-netcafe-counter-night",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-old-netcafe-counter-night",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "当晚翻点卡给毛狼发图；他通过文字说资产，非现场。",
+          "姓名与媒介只读冻结TEXT；角色肖像不是动作全景，道具未独立登记时不伪造道具层。",
+          "回退、读档、改选先清旧画面，再按目标节点完整重建；同名远程发言不自动进现场。",
+          "所有引用图片仍待P4-05本批复验；本候选不代表正式采用或运行通过。"
+        ]
+      },
+      "restrictions": [
+        "三张点卡与拍照手机，毛狼不在场；手机反射中的三卡不是额外实物。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    },
+    {
+      "cgId": "CG129",
+      "assetId": "cg-fr-cg129",
+      "title": "最后一颗螺丝",
+      "packageId": "P4-02-FR",
+      "status": "planned-not-applied",
+      "readyForBinding": false,
+      "proposedNodeIds": [
+        "T-FR-000220_1"
+      ],
+      "anchor": {
+        "nodeId": "T-FR-000220_1",
+        "paragraphId": "T-FR-000220",
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "friends"
+        },
+        "source": {
+          "file": "scenario/朋友与职业-夜班.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/朋友与职业-夜班.md",
+          "lineHint": 1273,
+          "context": "#### 第59—60天",
+          "sha256": "728b49688c520c3ff82ed6799835fcf7455b303103cfab8f70d9eafff6cf3d6c"
+        },
+        "textMeta": {
+          "id": "T-FR-000220",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        }
+      },
+      "text": "我替他扶住那块板。他低头拆最后一颗螺丝，拧了几次才松，手指弄黑了，也没再说留不留。",
+      "depictionMode": "scene",
+      "plannedEnter": {
+        "cg": {
+          "assetId": "cg-fr-cg129",
+          "layer": "cg",
+          "x": 0,
+          "y": 0,
+          "scale": 0.7655502392344498
+        },
+        "fullView": true
+      },
+      "plannedExit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "destination": "recompute-actual-target",
+        "lexicalNextNodeId": "T-FR-000221_1"
+      },
+      "unlock": "on-actual-first-visible-frame",
+      "baseBinding": {
+        "bindingId": "p4-T-FR-000220_1",
+        "anchor": {
+          "nodeId": "T-FR-000220_1",
+          "file": "scenario/朋友与职业-夜班.md",
+          "sha256": "728b49688c520c3ff82ed6799835fcf7455b303103cfab8f70d9eafff6cf3d6c"
+        },
+        "condition": "ALL",
+        "routeIds": [
+          "friends"
+        ],
+        "enter": {
+          "background": {
+            "assetId": "bg-old-netcafe-counter-fr-handover-day",
+            "layer": "bg",
+            "x": 0,
+            "y": 0,
+            "scale": 0.7651434643995749,
+            "form": null,
+            "costume": null
+          },
+          "characters": [
+            {
+              "assetId": "shijiang-serious",
+              "layer": "center",
+              "x": 445,
+              "y": 42,
+              "scale": 0.38,
+              "form": "human",
+              "costume": "shijiang-serious"
+            }
+          ],
+          "props": [],
+          "cg": null
+        },
+        "exit": {
+          "at": "next-node",
+          "restore": {
+            "background": {
+              "assetId": "bg-old-netcafe-counter-fr-handover-day",
+              "layer": "bg",
+              "x": 0,
+              "y": 0,
+              "scale": 0.7651434643995749,
+              "form": null,
+              "costume": null
+            },
+            "characters": [
+              {
+                "assetId": "shijiang-serious",
+                "layer": "center",
+                "x": 445,
+                "y": 42,
+                "scale": 0.38,
+                "form": "human",
+                "costume": "shijiang-serious"
+              }
+            ],
+            "props": [],
+            "cg": null
+          }
+        },
+        "cgId": null,
+        "fullView": false,
+        "restrictions": [
+          "第60天柜台挪开露出猫画、施工板盖住；师匠拍照后拆线，工人留画外，避免人物画遮挡猫画关键位置。",
+          "姓名与媒介只读冻结TEXT；角色肖像不是动作全景，道具未独立登记时不伪造道具层。",
+          "回退、读档、改选先清旧画面，再按目标节点完整重建；同名远程发言不自动进现场。",
+          "所有引用图片仍待P4-05本批复验；本候选不代表正式采用或运行通过。"
+        ]
+      },
+      "restrictions": [
+        "文文扶板、师匠拆螺丝，墙上猫图案被遮住；未加毛狼或真猫。文文一手扶板一手搭肩，属于画面演绎，最终采用时复核。",
+        "仅本节点一拍显示；不跨页延续，不改正文、选择或结局。",
+        "进入、读档、回退均重验本节点条件和路线入口，先清除旧CG。",
+        "下一目标由控制流决定，清除CG和全图状态后重建目标页完整画面。"
+      ],
+      "dependencies": [
+        "P4-02接受锚点及进入退出底层",
+        "P4-05独立资源复验",
+        "P4-06图鉴扩至81项及提示/解锁/存档检查",
+        "P4-07统一正式采用",
+        "P5运行验收"
+      ]
+    }
+  ]
+}

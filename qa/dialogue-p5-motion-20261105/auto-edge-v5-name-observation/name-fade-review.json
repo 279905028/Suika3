@@ -1,0 +1,75 @@
+{
+  "createdAt": "2026-11-05T02:19:01.638Z",
+  "status": "pass-transient-fade-confirmed",
+  "runtimeBuildId": "df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+  "sourceReportSha256": "5f451b302371b647dfc27beaa853f4b6ef621d533d14124059f2e394fcb5594c",
+  "scope": "只读代码复核、冻结正式包正常输入重现、实际打开截图目视；不改变任何产品代码。此结论只针对事件返回页姓名残留疑点。",
+  "expected": {
+    "node": "T-XM-000611_1",
+    "name": "",
+    "displayName": "",
+    "kind": "action",
+    "novel": "[text text=\"第40天，阿俊在网吧门口停下。\"]"
+  },
+  "cause": {
+    "animation": "system/sui-u/anime/namebox-hide.anime",
+    "configuredSeconds": 0.12,
+    "alphaFrom": 255,
+    "alphaTo": 0,
+    "generatedTextNameOmitted": true
+  },
+  "observations": [
+    {
+      "file": "event-returned-to-route.png",
+      "result": "首帧可见上一段文文（消息），新旁白仅显示第4，重现原疑点。"
+    },
+    {
+      "file": "event-returned-after-250ms.png",
+      "result": "等待250毫秒再截，姓名框已隐藏，旁白显示完整。"
+    },
+    {
+      "file": "event-returned-after-1000ms.png",
+      "result": "等待至至少1000毫秒再截，姓名框保持隐藏，节点不变。"
+    },
+    {
+      "file": "event-returned-after-3000ms.png",
+      "result": "等待至至少3000毫秒再截，姓名框保持隐藏，节点不变。"
+    },
+    {
+      "file": "d36-piao-seated-maolang.png",
+      "result": "T-D36-000016_1：飘左侧坐姿、毛狼右侧站位，旁白无姓名框。"
+    },
+    {
+      "file": "d36-after-conversation.png",
+      "result": "T-D36-000038_1：事件人物已退出，消息姓名与TEXT登记一致。"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "event-returned-to-route.png",
+      "sha256": "764e0caeffaf6576324ebac401c996b51d97c73c20a22448360fa297c97d3e30"
+    },
+    {
+      "file": "event-returned-after-250ms.png",
+      "sha256": "58f424908fbcf673812bd86cebe92f3b87cd6c75f4e073ec4ea1cad15b83248d"
+    },
+    {
+      "file": "event-returned-after-1000ms.png",
+      "sha256": "58f424908fbcf673812bd86cebe92f3b87cd6c75f4e073ec4ea1cad15b83248d"
+    },
+    {
+      "file": "event-returned-after-3000ms.png",
+      "sha256": "a57b0c76fac7db6c8e213d61a6a01c45eabe689dd7c6073bb2fc5cafd7a7022a"
+    },
+    {
+      "file": "d36-piao-seated-maolang.png",
+      "sha256": "b79ffea3b5fb4da78f4b189dc7ace6ad963a9484ae5d075a95cf3d4c2d2ab0fc"
+    },
+    {
+      "file": "d36-after-conversation.png",
+      "sha256": "3bab3acad8fd087ea8c4002fb8afd3f24bdcb3b223cc8bb6a06dcee85e91e66d"
+    }
+  ],
+  "timingLimit": "等待值为程序等待的累计下界，截图自身耗时另计；没有声称测得精确120毫秒消失时间。",
+  "conclusion": "观察到配置的短暂淡出；未观察到正文完整显示后的持续姓名残留。原疑点截图与新复测首帧均保留。"
+}

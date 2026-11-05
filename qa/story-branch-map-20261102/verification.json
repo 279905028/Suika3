@@ -1,0 +1,423 @@
+{
+  "routes": 6,
+  "endingCount": 14,
+  "keyChoiceCount": 13,
+  "sourceCount": 16,
+  "endings": [
+    {
+      "id": "XM-E1",
+      "title": "出了这个圈，也来找我",
+      "source": "scenario/罗小满-练习本.md"
+    },
+    {
+      "id": "XM-E2",
+      "title": "认过，也能分开",
+      "source": "scenario/罗小满-练习本.md"
+    },
+    {
+      "id": "ZZ-E1",
+      "title": "不用哄我，也别骗我",
+      "source": "scenario/周栀-十一点四十七分.md"
+    },
+    {
+      "id": "ZZ-E2",
+      "title": "这句是真的，可惜晚了",
+      "source": "scenario/周栀-十一点四十七分.md"
+    },
+    {
+      "id": "MY-E1",
+      "title": "还没有写出的名字",
+      "source": "scenario/孟遥-旧题.md"
+    },
+    {
+      "id": "MY-E2",
+      "title": "旧题到这里",
+      "source": "scenario/孟遥-旧题.md"
+    },
+    {
+      "id": "PI-E1",
+      "title": "这句不改",
+      "source": "scenario/飘-空白页.md"
+    },
+    {
+      "id": "PI-E2",
+      "title": "空白页归还",
+      "source": "scenario/飘-空白页.md"
+    },
+    {
+      "id": "PI-LE1",
+      "title": "慢慢对焦",
+      "source": "scenario/飘-空白页.md"
+    },
+    {
+      "id": "PI-LE2",
+      "title": "留一张给朋友",
+      "source": "scenario/飘-空白页.md"
+    },
+    {
+      "id": "HQ-E1",
+      "title": "门里也有明天",
+      "source": "scenario/黄球球-门后.md"
+    },
+    {
+      "id": "HQ-E2",
+      "title": "最后一次三下",
+      "source": "scenario/黄球球-门后.md"
+    },
+    {
+      "id": "FR-E1",
+      "title": "换个地方，照样吃饭",
+      "source": "scenario/朋友与职业-夜班.md"
+    },
+    {
+      "id": "FR-E2",
+      "title": "清账以后",
+      "source": "scenario/朋友与职业-夜班.md"
+    }
+  ],
+  "keyChoices": [
+    "XM07-01",
+    "XM08-01",
+    "ZZ06-01",
+    "ZZ08-01",
+    "MY07-01",
+    "MY09-01",
+    "PI06-01",
+    "PI08-01",
+    "PI-L06-01",
+    "HQ07-01",
+    "HQ08-01",
+    "FR06-01",
+    "FR08-01"
+  ],
+  "endingCases": [
+    {
+      "route": "xiaoman",
+      "choices": "AA",
+      "ending": "XM-E1"
+    },
+    {
+      "route": "xiaoman",
+      "choices": "AB",
+      "ending": "XM-E2"
+    },
+    {
+      "route": "xiaoman",
+      "choices": "BA",
+      "ending": "XM-E2"
+    },
+    {
+      "route": "xiaoman",
+      "choices": "BB",
+      "ending": "XM-E2"
+    },
+    {
+      "route": "zhouzhi",
+      "choices": "AA",
+      "ending": "ZZ-E1"
+    },
+    {
+      "route": "zhouzhi",
+      "choices": "AB",
+      "ending": "ZZ-E2"
+    },
+    {
+      "route": "zhouzhi",
+      "choices": "BA",
+      "ending": "ZZ-E2"
+    },
+    {
+      "route": "zhouzhi",
+      "choices": "BB",
+      "ending": "ZZ-E2"
+    },
+    {
+      "route": "mengyao",
+      "choices": "AA",
+      "ending": "MY-E1"
+    },
+    {
+      "route": "mengyao",
+      "choices": "AB",
+      "ending": "MY-E2"
+    },
+    {
+      "route": "mengyao",
+      "choices": "BA",
+      "ending": "MY-E2"
+    },
+    {
+      "route": "mengyao",
+      "choices": "BB",
+      "ending": "MY-E2"
+    },
+    {
+      "route": "piao",
+      "choices": "AA",
+      "ending": "PI-E1"
+    },
+    {
+      "route": "piao",
+      "choices": "AB",
+      "ending": "PI-E2"
+    },
+    {
+      "route": "piao",
+      "choices": "BA",
+      "ending": "PI-E2"
+    },
+    {
+      "route": "piao",
+      "choices": "BB",
+      "ending": "PI-E2"
+    },
+    {
+      "route": "piao",
+      "choices": "A",
+      "path": "LOW",
+      "ending": "PI-LE1"
+    },
+    {
+      "route": "piao",
+      "choices": "B",
+      "path": "LOW",
+      "ending": "PI-LE2"
+    },
+    {
+      "route": "huangqiuqiu",
+      "choices": "AA",
+      "ending": "HQ-E1"
+    },
+    {
+      "route": "huangqiuqiu",
+      "choices": "AB",
+      "ending": "HQ-E2"
+    },
+    {
+      "route": "huangqiuqiu",
+      "choices": "BA",
+      "ending": "HQ-E2"
+    },
+    {
+      "route": "huangqiuqiu",
+      "choices": "BB",
+      "ending": "HQ-E2"
+    },
+    {
+      "route": "friends",
+      "choices": "AA",
+      "ending": "FR-E1"
+    },
+    {
+      "route": "friends",
+      "choices": "AB",
+      "ending": "FR-E2"
+    },
+    {
+      "route": "friends",
+      "choices": "BA",
+      "ending": "FR-E2"
+    },
+    {
+      "route": "friends",
+      "choices": "BB",
+      "ending": "FR-E2"
+    }
+  ],
+  "relationCases": [
+    {
+      "choices": "AAA",
+      "score": 50,
+      "relation": "HIGH"
+    },
+    {
+      "choices": "AAB",
+      "score": 35,
+      "relation": "HIGH"
+    },
+    {
+      "choices": "ABA",
+      "score": 35,
+      "relation": "HIGH"
+    },
+    {
+      "choices": "ABB",
+      "score": 20,
+      "relation": "LOW"
+    },
+    {
+      "choices": "BAA",
+      "score": 35,
+      "relation": "HIGH"
+    },
+    {
+      "choices": "BAB",
+      "score": 20,
+      "relation": "LOW"
+    },
+    {
+      "choices": "BBA",
+      "score": 20,
+      "relation": "LOW"
+    },
+    {
+      "choices": "BBB",
+      "score": 5,
+      "relation": "LOW"
+    }
+  ],
+  "epilogueCases": [
+    {
+      "relation": "HIGH",
+      "ending": "FR-E1",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "FR-E2",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "HQ-E1",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "HQ-E2",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "MY-E1",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "MY-E2",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "PI-E1",
+      "target": null
+    },
+    {
+      "relation": "HIGH",
+      "ending": "PI-E2",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "XM-E1",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "XM-E2",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "ZZ-E1",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "HIGH",
+      "ending": "ZZ-E2",
+      "target": "后日谈-他们的日子.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "FR-E1",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "FR-E2",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "HQ-E1",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "HQ-E2",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "MY-E1",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "MY-E2",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "PI-LE1",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "PI-LE2",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "XM-E1",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "XM-E2",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "ZZ-E1",
+      "target": "后日谈-未写完的安排.md"
+    },
+    {
+      "relation": "LOW",
+      "ending": "ZZ-E2",
+      "target": "后日谈-未写完的安排.md"
+    }
+  ],
+  "sourceSha256": {
+    "scenario/README.md": "bebaa12b9d3ae5c125159ebdcf5479b265ed8d950e5a46f2f3f4d9f3760080f0",
+    "scenario/routes.json": "21ee8f439e511b86f6c56174a86c68ee292abb076abbd777ab672e19cf235d32",
+    "scenario/后日谈-他们的日子.md": "c3f1cc5c9cb02ba5c586230a6814090dcd6504cc207939a11c2f7dd362287f8f",
+    "scenario/后日谈-未写完的安排.md": "91054a0b6e524359fa245d54a51dfb7edb037323026dca952a24ddbbfd8d82eb",
+    "scenario/周栀-十一点四十七分.md": "699d53e89ab2bb93b5fd9c30091dc13ab424cbebb96294f787668cb7efa2b18c",
+    "scenario/孟遥-旧题.md": "4d9ae33ae22d63f332f9e160bd8e03256cf6576424c7318554ef673cb7c76083",
+    "scenario/朋友与职业-夜班.md": "fb5502e108b9ad407762845f9073533c3d12a0183eee15cf71f5105bf5968b28",
+    "scenario/第一章-回到毕节.md": "597b2de2695ee550476e7b9015cd3dd2a10d430efbeeb44dff007c2734d1855d",
+    "scenario/第三章-选一条路.md": "024e385bb038daf37305074e87bd5916f61e23f78e05d638628aabd40c2835b8",
+    "scenario/第二章-十四天.md": "bfb8be05cfc4503309dbb34fe6e2eae32e4f98ae6a585949bf55887c23aac0d9",
+    "scenario/罗小满-练习本.md": "2a85aa79a300b8a6e1350c0568e7ff34dd3241c47a13fe1a10df9b28594b5555",
+    "scenario/规则契约.md": "dc66fffa0599d7cc21bf64f94a0f50c3091a04adfa7a3bfb076ae8535c773035",
+    "scenario/跨路线-第36天的消息.md": "83e1842fdd6b72797b98a44f30ae1bc1eebb072e7c170560d75f3ce1ff7705c8",
+    "scenario/选择设计.md": "e09748b3a853d0e62e6a15fe7aba9d2f8f13aa84c9cefe88d473ba19fb9981ce",
+    "scenario/飘-空白页.md": "a89ffdc33ac1fb2cc75a078a793ab3864592b49bf9aeab9ac8126b36cd4b1bea",
+    "scenario/黄球球-门后.md": "48646cd3117a96b8c6706873da8e1d57bf7fe4fb54163fd84c905189d0dbdab5"
+  },
+  "diagramCount": 4,
+  "checks": {
+    "registeredEndingsAndSourceTitles": true,
+    "keyChoicesPresentInManuscripts": true,
+    "endingConditionsMatchRegistry": true,
+    "relationThresholdEightCases": true,
+    "hiddenEntryAndC0207Neutral": true,
+    "mengyaoMarriageAndNoRestart": true,
+    "yelanSupportingOnly": true,
+    "day36FiveCallsAndLowOnly": true,
+    "epiloguesUniqueAndPreserveMainEnding": true,
+    "sourceSha256Unchanged": true
+  },
+  "date": "2026-11-02"
+}

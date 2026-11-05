@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-03",
+  "scope": "任务拆分与离线资料核对，未实施P4",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "P3冻结输入",
+      "passed": true,
+      "details": {
+        "buildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+        "files": 12
+      }
+    },
+    {
+      "name": "正文分包无重漏",
+      "passed": true,
+      "details": {
+        "COMMON": [
+          "第一章-回到毕节.md",
+          "第二章-十四天.md",
+          "第三章-选一条路.md",
+          "跨路线-第36天的消息.md",
+          "后日谈-他们的日子.md",
+          "后日谈-未写完的安排.md"
+        ],
+        "XM": [
+          "罗小满-练习本.md"
+        ],
+        "ZZ": [
+          "周栀-十一点四十七分.md"
+        ],
+        "MY": [
+          "孟遥-旧题.md"
+        ],
+        "PI": [
+          "飘-空白页.md"
+        ],
+        "HQ": [
+          "黄球球-门后.md"
+        ],
+        "FR": [
+          "朋友与职业-夜班.md"
+        ]
+      }
+    },
+    {
+      "name": "稳定ID与来源全覆盖",
+      "passed": true,
+      "details": [
+        {
+          "package": "P4-02-COMMON",
+          "files": [
+            "第一章-回到毕节.md",
+            "第二章-十四天.md",
+            "第三章-选一条路.md",
+            "跨路线-第36天的消息.md",
+            "后日谈-他们的日子.md",
+            "后日谈-未写完的安排.md"
+          ],
+          "paragraphs": 997
+        },
+        {
+          "package": "P4-02-XM",
+          "files": [
+            "罗小满-练习本.md"
+          ],
+          "paragraphs": 681
+        },
+        {
+          "package": "P4-02-ZZ",
+          "files": [
+            "周栀-十一点四十七分.md"
+          ],
+          "paragraphs": 803
+        },
+        {
+          "package": "P4-02-MY",
+          "files": [
+            "孟遥-旧题.md"
+          ],
+          "paragraphs": 566
+        },
+        {
+          "package": "P4-02-PI",
+          "files": [
+            "飘-空白页.md"
+          ],
+          "paragraphs": 721
+        },
+        {
+          "package": "P4-02-HQ",
+          "files": [
+            "黄球球-门后.md"
+          ],
+          "paragraphs": 500
+        },
+        {
+          "package": "P4-02-FR",
+          "files": [
+            "朋友与职业-夜班.md"
+          ],
+          "paragraphs": 480
+        }
+      ]
+    },
+    {
+      "name": "现行资源和绑定基线",
+      "passed": true,
+      "details": {
+        "bindings": 3085,
+        "assets": 226,
+        "cg": 60
+      }
+    },
+    {
+      "name": "计划主任务和分包数",
+      "passed": true,
+      "details": {
+        "mainTasks": 7,
+        "presentationPackages": 7
+      }
+    },
+    {
+      "name": "新增文档链接与入口",
+      "passed": true,
+      "details": {
+        "localLinks": 11,
+        "entryDocuments": 3
+      }
+    },
+    {
+      "name": "受保护输入未变",
+      "passed": true,
+      "details": {
+        "files": 817,
+        "changed": []
+      }
+    }
+  ],
+  "notPerformed": [
+    "正文新增审校",
+    "美术制作与解码/目视",
+    "正式演出绑定",
+    "引擎运行",
+    "浏览器/手机真机/电脑原生",
+    "发布",
+    "玩家旧档访问"
+  ]
+}

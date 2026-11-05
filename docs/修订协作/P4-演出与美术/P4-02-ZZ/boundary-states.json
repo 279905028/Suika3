@@ -1,0 +1,664 @@
+{
+  "schemaVersion": "p4-package-v1",
+  "packageId": "P4-02-ZZ",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "boundaries": [
+    {
+      "boundaryId": "entry:T-ZZ-000001_1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核file-entry边界 文件入口 → T-ZZ-000001_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ZZ03-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核choice边界 ZZ03-01 → BRANCH_d806e514c47b00120ab0；选择清姓名和CG，保持本选择审定底层；各选项条件不变。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_d806e514c47b00120ab0",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_d806e514c47b00120ab0 → T-ZZ-000025_1、BRANCH_762fc091c07cb207c162；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ03-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_d806e514c47b00120ab0",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_d806e514c47b00120ab0 → BRANCH_762fc091c07cb207c162；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_762fc091c07cb207c162",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_762fc091c07cb207c162 → T-ZZ-000517_1、T-ZZ-000033_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ03-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_762fc091c07cb207c162",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_762fc091c07cb207c162 → T-ZZ-000033_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ZZ04-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核choice边界 ZZ04-01 → BRANCH_ffc7972165ce317cdb5d；选择清姓名和CG，保持本选择审定底层；各选项条件不变。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_ffc7972165ce317cdb5d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_ffc7972165ce317cdb5d → T-ZZ-000081_1、BRANCH_37a093ae3c2777e36280；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ04-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_ffc7972165ce317cdb5d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_ffc7972165ce317cdb5d → BRANCH_37a093ae3c2777e36280；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_37a093ae3c2777e36280",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_37a093ae3c2777e36280 → T-ZZ-000087_1、T-ZZ-000093_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ04-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_37a093ae3c2777e36280",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_37a093ae3c2777e36280 → T-ZZ-000093_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ZZ05-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核choice边界 ZZ05-01 → BRANCH_a90e0603d44f31269f8e；选择清姓名和CG，保持本选择审定底层；各选项条件不变。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a90e0603d44f31269f8e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_a90e0603d44f31269f8e → T-ZZ-000140_1、BRANCH_c2e713ff16d9f649eca4；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ05-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a90e0603d44f31269f8e",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_a90e0603d44f31269f8e → BRANCH_c2e713ff16d9f649eca4；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c2e713ff16d9f649eca4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_c2e713ff16d9f649eca4 → T-ZZ-000146_1、T-ZZ-000151_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ05-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c2e713ff16d9f649eca4",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_c2e713ff16d9f649eca4 → T-ZZ-000151_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ZZ06-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核choice边界 ZZ06-01 → BRANCH_3e4216bb7e8f09f3fc89；选择清姓名和CG，保持本选择审定底层；各选项条件不变。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_3e4216bb7e8f09f3fc89",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_3e4216bb7e8f09f3fc89 → T-ZZ-000192_1、BRANCH_6f20baee2ceb09c57768；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_3e4216bb7e8f09f3fc89",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_3e4216bb7e8f09f3fc89 → BRANCH_6f20baee2ceb09c57768；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6f20baee2ceb09c57768",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_6f20baee2ceb09c57768 → T-ZZ-000667_1、T-ZZ-000208_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6f20baee2ceb09c57768",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_6f20baee2ceb09c57768 → T-ZZ-000208_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c1b4440b6757949b9faf",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_c1b4440b6757949b9faf → T-ZZ-000684_1、BRANCH_a87aeb6b748b4d6856b6；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c1b4440b6757949b9faf",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_c1b4440b6757949b9faf → BRANCH_a87aeb6b748b4d6856b6；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_a87aeb6b748b4d6856b6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_a87aeb6b748b4d6856b6 → T-ZZ-000692_1、T-ZZ-000237_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_a87aeb6b748b4d6856b6",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_a87aeb6b748b4d6856b6 → T-ZZ-000237_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_66528e6c98c989b66abd",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_66528e6c98c989b66abd → CALL_ba470e634d3f84005d13、ZZ-D36-RETURN；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"PIAO_RELATION\",\"operator\":\"=\",\"value\":\"LOW\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_66528e6c98c989b66abd",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_66528e6c98c989b66abd → ZZ-D36-RETURN；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "call:CALL_ba470e634d3f84005d13",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核call边界 CALL_ba470e634d3f84005d13 → PIAO-D36；第36天仅LOW调用COMMON；返回从冻结RETURN继续，不把公共人物带回本线。 规则依据：{\"route\":\"zhouzhi\",\"returnTo\":\"ZZ-D36-RETURN\"}；跨包目标 P4-02-COMMON 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ZZ07-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核choice边界 ZZ07-01 → BRANCH_4cea1c73a85a7181e882；选择清姓名和CG，保持本选择审定底层；各选项条件不变。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_4cea1c73a85a7181e882",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_4cea1c73a85a7181e882 → T-ZZ-000261_1、BRANCH_ae9d29be18f5c0b8019c；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ07-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_4cea1c73a85a7181e882",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_4cea1c73a85a7181e882 → BRANCH_ae9d29be18f5c0b8019c；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_ae9d29be18f5c0b8019c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_ae9d29be18f5c0b8019c → T-ZZ-000265_1、T-ZZ-000744_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ07-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_ae9d29be18f5c0b8019c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_ae9d29be18f5c0b8019c → T-ZZ-000744_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_2fa02fd8187e486f8c00",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_2fa02fd8187e486f8c00 → T-ZZ-000272_1、BRANCH_c2f688ad0590741563d9；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_2fa02fd8187e486f8c00",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_2fa02fd8187e486f8c00 → BRANCH_c2f688ad0590741563d9；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_c2f688ad0590741563d9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_c2f688ad0590741563d9 → T-ZZ-000282_1、T-ZZ-000787_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_c2f688ad0590741563d9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_c2f688ad0590741563d9 → T-ZZ-000787_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_bc1a9d92caaa1fa3aa38",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_bc1a9d92caaa1fa3aa38 → T-ZZ-000325_1、T-ZZ-000832_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_bc1a9d92caaa1fa3aa38",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_bc1a9d92caaa1fa3aa38 → T-ZZ-000832_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_bc1a9d92caaa1fa3aa38_2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_bc1a9d92caaa1fa3aa38_2 → T-ZZ-000854_1、T-ZZ-000344_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_bc1a9d92caaa1fa3aa38_2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_bc1a9d92caaa1fa3aa38_2 → T-ZZ-000344_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ZZ08-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核choice边界 ZZ08-01 → BRANCH_78d490c08f76d6be62de；选择清姓名和CG，保持本选择审定底层；各选项条件不变。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_78d490c08f76d6be62de",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_78d490c08f76d6be62de → T-ZZ-000352_1、BRANCH_ca5328a16d26cf300a0d；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_78d490c08f76d6be62de",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_78d490c08f76d6be62de → BRANCH_ca5328a16d26cf300a0d；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_ca5328a16d26cf300a0d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_ca5328a16d26cf300a0d → T-ZZ-000356_1、T-ZZ-000360_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_ca5328a16d26cf300a0d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_ca5328a16d26cf300a0d → T-ZZ-000360_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b23543a5d9000b3a493b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_b23543a5d9000b3a493b → T-ZZ-000869_1、BRANCH_6924c4d67d6248c20bbe；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"A\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b23543a5d9000b3a493b",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_b23543a5d9000b3a493b → BRANCH_6924c4d67d6248c20bbe；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_6924c4d67d6248c20bbe",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_6924c4d67d6248c20bbe → T-ZZ-000368_1、BRANCH_98a096eb470b055687a2；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"A\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_6924c4d67d6248c20bbe",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_6924c4d67d6248c20bbe → BRANCH_98a096eb470b055687a2；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_98a096eb470b055687a2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_98a096eb470b055687a2 → T-ZZ-000373_1、BRANCH_0ba38126a5d58cca5f7a；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_98a096eb470b055687a2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_98a096eb470b055687a2 → BRANCH_0ba38126a5d58cca5f7a；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_0ba38126a5d58cca5f7a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_0ba38126a5d58cca5f7a → T-ZZ-000883_1、T-ZZ-000382_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_0ba38126a5d58cca5f7a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_0ba38126a5d58cca5f7a → T-ZZ-000382_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ZZ09-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核choice边界 ZZ09-01 → BRANCH_bf3e56f651babf625ffd；选择清姓名和CG，保持本选择审定底层；各选项条件不变。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_bf3e56f651babf625ffd",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_bf3e56f651babf625ffd → T-ZZ-000900_1、BRANCH_9b9b44a63ea3f62ce82f；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ09-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_bf3e56f651babf625ffd",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_bf3e56f651babf625ffd → BRANCH_9b9b44a63ea3f62ce82f；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_9b9b44a63ea3f62ce82f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_9b9b44a63ea3f62ce82f → T-ZZ-000401_1、T-ZZ-000905_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ09-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_9b9b44a63ea3f62ce82f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_9b9b44a63ea3f62ce82f → T-ZZ-000905_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_4f53327a4b7a12010c7c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_4f53327a4b7a12010c7c → T-ZZ-000405_1、BRANCH_f0b62012a4c1ee19803c；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"A\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_4f53327a4b7a12010c7c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_4f53327a4b7a12010c7c → BRANCH_f0b62012a4c1ee19803c；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_f0b62012a4c1ee19803c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_f0b62012a4c1ee19803c → T-ZZ-000432_1、T-ZZ-000444_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"}],[{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_f0b62012a4c1ee19803c",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_f0b62012a4c1ee19803c → T-ZZ-000444_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "choice:ZZ10-01",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核choice边界 ZZ10-01 → BRANCH_85869a30d1a07d97a032；选择清姓名和CG，保持本选择审定底层；各选项条件不变。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_85869a30d1a07d97a032",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_85869a30d1a07d97a032 → T-ZZ-000450_1、BRANCH_4bd96d4b140fa393e3a9；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ10-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_85869a30d1a07d97a032",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_85869a30d1a07d97a032 → BRANCH_4bd96d4b140fa393e3a9；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_4bd96d4b140fa393e3a9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_4bd96d4b140fa393e3a9 → T-ZZ-000452_1、T-ZZ-000455_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ10-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_4bd96d4b140fa393e3a9",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_4bd96d4b140fa393e3a9 → T-ZZ-000455_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_966bde4aecaec9b0725a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_966bde4aecaec9b0725a → ZZ-E1、BRANCH_8c8ab199349bbae2509d；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"A\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_966bde4aecaec9b0725a",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_966bde4aecaec9b0725a → BRANCH_8c8ab199349bbae2509d；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:ZZ-E1",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核ending边界 ZZ-E1 → T-ZZ-000965_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_8c8ab199349bbae2509d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_8c8ab199349bbae2509d → ZZ-E2、EPILOGUE_7ae84f33fe9716385ea5；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"}],[{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_8c8ab199349bbae2509d",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_8c8ab199349bbae2509d → EPILOGUE_7ae84f33fe9716385ea5；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "ending:ZZ-E2",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核ending边界 ZZ-E2 → T-ZZ-000479_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_b697b09cedd2aa14800f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_b697b09cedd2aa14800f → T-ZZ-000482_1、BRANCH_251ed16b5fd0e26fc4dc；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"A\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_b697b09cedd2aa14800f",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_b697b09cedd2aa14800f → BRANCH_251ed16b5fd0e26fc4dc；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_251ed16b5fd0e26fc4dc",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_251ed16b5fd0e26fc4dc → T-ZZ-000484_1、BRANCH_655ae4a4963b72361719；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"A\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_251ed16b5fd0e26fc4dc",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_251ed16b5fd0e26fc4dc → BRANCH_655ae4a4963b72361719；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "branch:BRANCH_655ae4a4963b72361719",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch边界 BRANCH_655ae4a4963b72361719 → T-ZZ-000486_1、T-ZZ-001006_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{\"condition\":[[{\"field\":\"ZZ06-01\",\"operator\":\"=\",\"value\":\"B\"},{\"field\":\"ZZ08-01\",\"operator\":\"=\",\"value\":\"B\"}]],\"meanings\":[\"true\",\"false\"]}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "merge:BRANCH_655ae4a4963b72361719",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核branch-merge边界 BRANCH_655ae4a4963b72361719 → T-ZZ-001006_1；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标 P4-02-ZZ 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "epilogue:EPILOGUE_7ae84f33fe9716385ea5",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核epilogue边界 EPILOGUE_7ae84f33fe9716385ea5 → EP-HIGH、EP-LOW；ZZ-E1仍在恋爱直接结束；ZZ-E2按HIGH/LOW进入COMMON对应后日谈，LOW须事件已读；源人物/CG全清。 规则依据：{\"rules\":[{\"relation\":\"HIGH\",\"endings\":[\"XM-E1\",\"ZZ-E1\",\"MY-E1\",\"PI-E1\",\"HQ-E1\"],\"target\":null},{\"relation\":\"HIGH\",\"endings\":[\"XM-E2\",\"ZZ-E2\",\"MY-E2\",\"PI-E2\",\"HQ-E2\",\"FR-E1\",\"FR-E2\"],\"target\":{\"file\":\"后日谈-他们的日子.md\",\"anchor\":\"EP-HIGH\"}},{\"relation\":\"LOW\",\"endings\":[\"XM-E1\",\"ZZ-E1\",\"MY-E1\",\"HQ-E1\",\"PI-LE1\"],\"target\":null},{\"relation\":\"LOW\",\"endings\":[\"XM-E2\",\"ZZ-E2\",\"MY-E2\",\"HQ-E2\",\"FR-E1\",\"FR-E2\",\"PI-LE2\"],\"requiresEvent\":\"PIAO-PREGNANCY-READ\",\"target\":{\"file\":\"后日谈-未写完的安排.md\",\"anchor\":\"EP-LOW\"}}],\"includesFinish\":true}；跨包目标 P4-02-COMMON 由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    },
+    {
+      "boundaryId": "finish:END_610b9386c94f6c65",
+      "status": "reviewed",
+      "exitPolicy": "clear-before-target",
+      "restorePolicy": "recompute-destination",
+      "basis": "已核finish边界 END_610b9386c94f6c65 → 结束；按真实控制流只进入可达目标，分支条件保持冻结；目标每页完整状态，不保存源场景为恢复画面。 规则依据：{}；跨包目标  由对方维护，P4-07逐侧核对。",
+      "unresolved": []
+    }
+  ]
+}

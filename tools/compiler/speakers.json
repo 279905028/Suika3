@@ -1,0 +1,332 @@
+{
+  "version": "dialogue-speakers-v1",
+  "source": "docs/修订协作/P0-基线与规则-20261102/speakers.json",
+  "speakers": [
+    {
+      "id": "wenwen",
+      "canonical": "文文",
+      "allowedNames": [
+        "文文"
+      ],
+      "knowledge": "文文开口显示姓名；明确心声另加媒介后缀。第一人称旁白不挂文文姓名。"
+    },
+    {
+      "id": "xiaoman",
+      "canonical": "罗小满",
+      "allowedNames": [
+        "罗小满",
+        "小满"
+      ],
+      "knowledge": "姓名框统一罗小满；正文对话可沿用小满，不新造昵称。"
+    },
+    {
+      "id": "zhouzhi",
+      "canonical": "周栀",
+      "allowedNames": [
+        "周栀"
+      ],
+      "knowledge": "区分工作招呼与私人回应，不把营业亲近都当成恋爱确认。"
+    },
+    {
+      "id": "mengyao",
+      "canonical": "孟遥",
+      "allowedNames": [
+        "孟遥"
+      ],
+      "knowledge": "共通只知前女友和英语老师；第27天本线才揭示婚姻。朋友不自动知道秘密关系。"
+    },
+    {
+      "id": "piao",
+      "canonical": "飘",
+      "allowedNames": [
+        "飘"
+      ],
+      "knowledge": "HIGH／LOW同一人物；各自路径独立，不混用另一条经历或关系称呼。"
+    },
+    {
+      "id": "huangqiuqiu",
+      "canonical": "黄球球",
+      "allowedNames": [
+        "门内的声音",
+        "黄球球"
+      ],
+      "knowledge": "自报姓名这一句仍显示门内的声音；该句之后才显示黄球球。形态不改人物键和姓名，不用“球球”作默认称呼。"
+    },
+    {
+      "id": "maolang",
+      "canonical": "毛狼",
+      "allowedNames": [
+        "毛狼"
+      ],
+      "knowledge": "沿用已有称呼，不补真实姓名；工作与孩子事务由本人承诺。"
+    },
+    {
+      "id": "shijiang",
+      "canonical": "师匠",
+      "allowedNames": [
+        "师匠"
+      ],
+      "knowledge": "称呼不是师徒身世；仍是雇主。"
+    },
+    {
+      "id": "yelan",
+      "canonical": "叶岚",
+      "allowedNames": [
+        "叶岚"
+      ],
+      "knowledge": "普通游戏队友；游戏麦用voice，不把远程队友画成现场人物。"
+    },
+    {
+      "id": "chensheng",
+      "canonical": "陈晟",
+      "allowedNames": [
+        "陈晟"
+      ],
+      "knowledge": "MY第15天手机出现姓名；第27天门口段旁白已点名，可随原文显示陈晟。丈夫身份直到孟遥正式介绍才揭示，不能提前写进姓名框。"
+    },
+    {
+      "id": "chenniang",
+      "canonical": "陈孃",
+      "allowedNames": [
+        "陈孃"
+      ],
+      "knowledge": "原稿写“陈孃”，资源台账另写“陈嬢”，不自动带入正文。"
+    },
+    {
+      "id": "ajun",
+      "canonical": "阿俊",
+      "allowedNames": [
+        "阿俊"
+      ],
+      "knowledge": "只采用原有熟人身份。"
+    },
+    {
+      "id": "echo-owner-zz",
+      "canonical": "回声老板",
+      "allowedNames": ["回声老板"],
+      "knowledge": "仅用于周栀线回声停业清点中的老板，不补姓名或场外关系。"
+    },
+    {
+      "id": "street-vendor-zz",
+      "canonical": "摊主",
+      "allowedNames": ["摊主"],
+      "knowledge": "仅用于周栀线原稿已有的现场摊老板，不合并不同摊位或推断知情。"
+    },
+    {
+      "id": "salon-customer-xm",
+      "canonical": "理发客人",
+      "allowedNames": ["理发客人"],
+      "knowledge": "仅用于罗小满线第15天补剪的阿姨；不补姓名或额外经历。"
+    },
+    {
+      "id": "car-buyer-xm",
+      "canonical": "买车的人",
+      "allowedNames": ["买车的人"],
+      "knowledge": "仅用于罗小满线买二手电动车的女人；不知道两人的关系细节。"
+    },
+    {
+      "id": "housing-clerk-xm",
+      "canonical": "办事的人",
+      "allowedNames": [
+        "办事的人"
+      ],
+      "knowledge": "正文未给职业细分，不显示资源名“租房办事员”。"
+    },
+    {
+      "id": "salon-newcomer",
+      "canonical": "理发店新人",
+      "allowedNames": [
+        "理发店新人"
+      ],
+      "knowledge": "不补姓名、年龄或与小满的竞争经历。"
+    },
+    {
+      "id": "aying",
+      "canonical": "阿英",
+      "allowedNames": [
+        "阿英"
+      ],
+      "knowledge": "与周栀的相处和夜宵摊安排以原稿为准。"
+    },
+    {
+      "id": "key-handover-zz",
+      "canonical": "交接的人",
+      "allowedNames": [
+        "交接的人"
+      ],
+      "knowledge": "不擅称买家、中介或银行职员。"
+    },
+    {
+      "id": "training-parent-my",
+      "canonical": "退费家长",
+      "allowedNames": ["退费家长"],
+      "knowledge": "仅用于孟遥线机构退费争执的家长；不知道两人的旧关系与婚姻。"
+    },
+    {
+      "id": "dessert-customer-pi",
+      "canonical": "旁桌的人",
+      "allowedNames": ["旁桌的人"],
+      "knowledge": "仅用于飘线凉糕店发问的人；不补姓名或与飘的旧工作关系。"
+    },
+    {
+      "id": "print-shop-pi",
+      "canonical": "打印店老板",
+      "allowedNames": ["打印店老板"],
+      "knowledge": "仅负责小册子的打样、费用与停印沟通，不了解私人关系。"
+    },
+    {
+      "id": "grocery-owner",
+      "canonical": "杂货店大姐",
+      "allowedNames": [
+        "杂货店大姐"
+      ],
+      "knowledge": "与后来接手的新店主分开。"
+    },
+    {
+      "id": "shoe-repairer",
+      "canonical": "修鞋师傅",
+      "allowedNames": [
+        "修鞋师傅"
+      ],
+      "knowledge": "不借作品受访关系补家庭经历。"
+    },
+    {
+      "id": "new-grocery-owner",
+      "canonical": "新店主",
+      "allowedNames": [
+        "新店主"
+      ],
+      "knowledge": "来源女性代词保留，不编姓名或接店缘由。"
+    },
+    {
+      "id": "sign-repairer",
+      "canonical": "修招牌的人",
+      "allowedNames": [
+        "修招牌的人"
+      ],
+      "knowledge": "只知道门外当场信息，不知黄球球身份。"
+    },
+    {
+      "id": "classmate-fr",
+      "canonical": "老同学",
+      "allowedNames": [
+        "老同学"
+      ],
+      "knowledge": "与孟遥被对外称作老同学的语境不同。"
+    },
+    {
+      "id": "boss-li",
+      "canonical": "新老板",
+      "allowedNames": [
+        "新老板",
+        "李老板"
+      ],
+      "knowledge": "第63天明确姓李后可用李老板；前文来看旧店的买家不自动并成此人。"
+    },
+    {
+      "id": "cafe-customer-fr",
+      "canonical": "顾客",
+      "allowedNames": [
+        "顾客"
+      ],
+      "knowledge": "仅指FR退费场景该顾客，别处顾客另登记场景限定键。"
+    },
+    {
+      "id": "cafe-colleague-fr",
+      "canonical": "同事",
+      "allowedNames": [
+        "同事"
+      ],
+      "knowledge": "仅指FR新柜台同事，不能合并其他路线同事。"
+    },
+    {
+      "id": "shop-buyer-fr",
+      "canonical": "来看店的人",
+      "allowedNames": ["来看店的人"],
+      "knowledge": "仅指FR准备接手旧店、询问装修零活的买家；不合并新店李老板，不知道私交细节。"
+    },
+    {
+      "id": "event-organizer-fr",
+      "canonical": "演出负责人",
+      "allowedNames": ["演出负责人"],
+      "knowledge": "仅用于FR商场演出结算与改稿沟通，不补姓名或场外关系。"
+    },
+    {
+      "id": "old-customer-fr",
+      "canonical": "老客户",
+      "allowedNames": ["老客户"],
+      "knowledge": "仅用于FR第42天领取寄放键盘的人，不补比赛经历之外的资料。"
+    },
+    {
+      "id": "qiaoge",
+      "canonical": "乔哥",
+      "allowedNames": [
+        "熟客",
+        "乔哥"
+      ],
+      "knowledge": "ZZ正文已介绍“叫乔哥的熟客”后使用乔哥，不补真实姓名或幕后关系。"
+    },
+    {
+      "id": "phone-c01-001",
+      "canonical": "电话那头的人",
+      "allowedNames": [
+        "电话那头的人"
+      ],
+      "knowledge": "开场电话仅知道问姓名与逾期，不擅自命名银行或联系人；只限本场。"
+    },
+    {
+      "id": "salon-customer-c01",
+      "canonical": "店里客人",
+      "allowedNames": ["店里客人"],
+      "knowledge": "只用于第一章理发店客人；不补姓名、职业或与店长的关系。"
+    },
+    {
+      "id": "salon-manager-c01",
+      "canonical": "店长",
+      "allowedNames": ["店长"],
+      "knowledge": "只用于第一章理发店内的现场回应；不补人物经历。"
+    },
+    {
+      "id": "friend-xm",
+      "canonical": "小满的朋友",
+      "allowedNames": ["小满的朋友"],
+      "knowledge": "沿用店门口短发姑娘的朋友身份，不补姓名或与文文的旧识关系。"
+    },
+    {
+      "id": "cashier-c01",
+      "canonical": "收银员",
+      "allowedNames": ["收银员"],
+      "knowledge": "只用于第一章便利店收银台，不知道文文与孟遥的过去。"
+    },
+    {
+      "id": "shopkeeper-c01",
+      "canonical": "店老板",
+      "allowedNames": ["店老板"],
+      "knowledge": "只用于第一章烧饼店现场，不补姓名。"
+    },
+    {
+      "id": "night-customer-c01",
+      "canonical": "夜班客人",
+      "allowedNames": ["夜班客人"],
+      "knowledge": "只用于第一章凌晨泡面与前台买水场景，不合并其他场景顾客。"
+    },
+    {
+      "id": "shop-staff-c02",
+      "canonical": "店员",
+      "allowedNames": ["店员"],
+      "knowledge": "只用于第二章聚餐与面馆的当场服务，不补姓名。"
+    },
+    {
+      "id": "group-friend",
+      "canonical": "群里的朋友",
+      "allowedNames": ["群里的朋友"],
+      "knowledge": "只用于原稿中未具名的群消息或同桌提问；不据此增加新角色经历。"
+    },
+    {
+      "id": "table-friend-ep",
+      "canonical": "同桌的人",
+      "allowedNames": ["同桌的人"],
+      "knowledge": "只用于低好感后日谈同桌提问；不推断其知情范围之外的信息。"
+    }
+  ]
+}

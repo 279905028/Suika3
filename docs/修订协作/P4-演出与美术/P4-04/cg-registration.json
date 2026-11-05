@@ -1,0 +1,515 @@
+{
+  "schemaVersion": "p4-cg-review-v1",
+  "taskId": "P4-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "status": "production-complete-awaiting-P4-05",
+  "scope": "CG图文复核建议；不是02完整绑定或05资源通过目录",
+  "existing": [
+    {
+      "cgId": "CG001",
+      "assetId": "cg-common-cg001",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG004",
+      "assetId": "cg-common-cg004",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG005",
+      "assetId": "cg-common-cg005",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG006",
+      "assetId": "cg-common-cg006",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG007",
+      "assetId": "cg-common-cg007",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG008",
+      "assetId": "cg-common-cg008",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG010",
+      "assetId": "cg-common-cg010",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG011",
+      "assetId": "cg-common-cg011",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG012",
+      "assetId": "cg-common-cg012",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG014",
+      "assetId": "cg-xm-cg014",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG015",
+      "assetId": "cg-xm-cg015",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG016",
+      "assetId": "cg-xm-cg016",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG019",
+      "assetId": "cg-xm-cg019",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG020",
+      "assetId": "cg-xm-cg020",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG022",
+      "assetId": "cg-xm-cg022",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG023",
+      "assetId": "cg-xm-cg023",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG102",
+      "assetId": "cg-xm-cg102",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG025",
+      "assetId": "cg-zz-cg025",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG026",
+      "assetId": "cg-zz-cg026",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG027",
+      "assetId": "cg-zz-cg027",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG029",
+      "assetId": "cg-zz-cg029",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG031",
+      "assetId": "cg-zz-cg031",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG032",
+      "assetId": "cg-zz-cg032",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG034",
+      "assetId": "cg-zz-cg034",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG035",
+      "assetId": "cg-zz-cg035",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG103",
+      "assetId": "cg-zz-cg103",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG038",
+      "assetId": "cg-my-cg038",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG039",
+      "assetId": "cg-my-cg039",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG040",
+      "assetId": "cg-my-cg040",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG041",
+      "assetId": "cg-my-cg041",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG044",
+      "assetId": "cg-my-cg044",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG104",
+      "assetId": "cg-my-cg104",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG105",
+      "assetId": "cg-my-cg105",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG062",
+      "assetId": "cg-pi-cg062",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG063",
+      "assetId": "cg-pi-cg063",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG066",
+      "assetId": "cg-pi-cg066",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG069",
+      "assetId": "cg-pi-cg069",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG106",
+      "assetId": "cg-pi-cg106",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG061",
+      "assetId": "cg-pi-cg061",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG067",
+      "assetId": "cg-pi-cg067",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG068",
+      "assetId": "cg-pi-cg068",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG070",
+      "assetId": "cg-pi-cg070",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG073",
+      "assetId": "cg-hq-cg073",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG075",
+      "assetId": "cg-hq-cg075",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG077",
+      "assetId": "cg-hq-cg077",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG078",
+      "assetId": "cg-hq-cg078",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG079",
+      "assetId": "cg-hq-cg079",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG082",
+      "assetId": "cg-hq-cg082",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG107",
+      "assetId": "cg-hq-cg107",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG086",
+      "assetId": "cg-fr-cg086",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG090",
+      "assetId": "cg-fr-cg090",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG091",
+      "assetId": "cg-fr-cg091",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG108",
+      "assetId": "cg-fr-cg108",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG094",
+      "assetId": "cg-fr-cg094",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG101",
+      "assetId": "cg-common-cg101",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG095",
+      "assetId": "cg-common-cg095",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG099",
+      "assetId": "cg-common-cg099",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG100",
+      "assetId": "cg-common-cg100",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG096",
+      "assetId": "cg-common-cg096",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    },
+    {
+      "cgId": "CG098",
+      "assetId": "cg-common-cg098",
+      "registrationEvidence": {
+        "path": "docs/CG当前选择.json",
+        "sha256": "2c20bf811b3562078a90cb6dab00cd844a2b40bf69e6ee534dac3ee92e88f02d"
+      }
+    }
+  ],
+  "retiredIds": [
+    "CG049",
+    "CG050",
+    "CG052",
+    "CG053",
+    "CG055",
+    "CG057",
+    "CG058",
+    "CG060"
+  ],
+  "newRegistrations": [
+    {
+      "cgId": "CG109",
+      "assetId": "cg-hq-cg109",
+      "registrationEvidence": {
+        "path": "docs/修订协作/P4-演出与美术/P4-04/CG109登记.json",
+        "sha256": "d4be0d067ef16101f6339fabde0f1737b15671cf39a7ff492709c17d15d79a8f",
+        "bytes": 725
+      }
+    }
+  ],
+  "reservedIds": [],
+  "nextUnallocatedId": "CG110",
+  "rule": "新增CG109；退役编号禁用，07统一采用前不改全局登记，06须处理61项容量。"
+}

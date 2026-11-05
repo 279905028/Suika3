@@ -1,0 +1,186 @@
+{
+  "status": "pass",
+  "date": "2026-11-02",
+  "scope": "P0离线基线、规则与交接资料检查",
+  "contentBuildId": "bafc873cdc8b681b64ec83115e3a0bc8108e4fca470d53fea89492742ff4915c",
+  "inputsUnchanged": 1395,
+  "counts": {
+    "files": 12,
+    "choices": 65,
+    "options": 134,
+    "endings": 14,
+    "pages": 3020,
+    "nodes": 3413,
+    "paragraphs": 3018,
+    "bindings": 3085,
+    "assets": 226,
+    "cg": 60,
+    "protectedMarkers": 579,
+    "fingerprintedFiles": 1395
+  },
+  "issues": 18,
+  "speakers": 26,
+  "sourceEvidenceVerified": true,
+  "controlsUnchanged": true,
+  "deterministicMemoryCompile": true,
+  "ruleCheck": {
+    "routeAssignments": 2818,
+    "entered": 2241,
+    "skipped": 577,
+    "dispatchConfigurations": 24,
+    "scoreConfigurations": 8,
+    "hiddenEntryConfigurations": 8
+  },
+  "formatCheck": {
+    "status": "pass",
+    "scope": "约定字段与原句夹具的离线检查，不验证正式解析器／姓名显示",
+    "fixtures": 6,
+    "invalidCasesRejected": [
+      "未知字段",
+      "缺字段",
+      "重复ID",
+      "旧哈希ID",
+      "多人猜测",
+      "串姓名",
+      "旁白残名",
+      "消息媒介错",
+      "他人心声",
+      "一标记两段",
+      "空正文",
+      "非法分组"
+    ],
+    "legacyCompilerRejectsNewFormat": true,
+    "runtimeSupport": "pending-P1"
+  },
+  "linkCheck": {
+    "files": 5,
+    "links": 94
+  },
+  "authored": [
+    {
+      "path": "docs/修订协作/P0-基线与规则-20261102/README.md",
+      "bytes": 4696,
+      "sha256": "19d9747ec34611a9575e50c6458af2905b364519063e9293acefda0bb260f326"
+    },
+    {
+      "path": "docs/修订协作/P0-基线与规则-20261102/format-contract.json",
+      "bytes": 1303,
+      "sha256": "ade2bcf067a4628313b9cb9d84bb4452578d479f7e13d3989f3c2b6bd6008986"
+    },
+    {
+      "path": "docs/修订协作/P0-基线与规则-20261102/issues.json",
+      "bytes": 17833,
+      "sha256": "c718010d4f791db27af07cafc923a2887d1e954af3c8cd425f5eaa50a11df3b4"
+    },
+    {
+      "path": "docs/修订协作/P0-基线与规则-20261102/speakers.json",
+      "bytes": 19639,
+      "sha256": "de44216c711beabbbfe7292f6bc46e14bfd488131bbdf3cb774ffc638d6148a5"
+    },
+    {
+      "path": "docs/修订协作/P0-基线与规则-20261102/规则与格式.md",
+      "bytes": 9004,
+      "sha256": "687102dcd8bce9b117b668ec7f7dbb465d049a5f791b58b30c0d94f5c450512e"
+    },
+    {
+      "path": "docs/修订协作/P0-基线与规则-20261102/角色称呼表.md",
+      "bytes": 7777,
+      "sha256": "441746d6facc457624504672e6d2b8b814e25f249f313aa7e26c9c814c6f4eef"
+    },
+    {
+      "path": "docs/修订协作/P0-基线与规则-20261102/问题台账.md",
+      "bytes": 8353,
+      "sha256": "6f653e65e580c14b3db77c39feac0a1bb9381093a9a5a085bec30c371b34f92d"
+    },
+    {
+      "path": "tools/story-revision/p0-baseline.cjs",
+      "bytes": 9750,
+      "sha256": "79cea996bd491ec630b4563629c88fdbf3210ff63bf6a891fd0377a21e78dfed"
+    },
+    {
+      "path": "tools/story-revision/p0-materials.cjs",
+      "bytes": 19496,
+      "sha256": "2a5f3684ba1b99b79d570a0c17c1c537b6f2c2d213a9a4f17d152b05cebbde8b"
+    },
+    {
+      "path": "tools/story-revision/verify-p0.cjs",
+      "bytes": 11710,
+      "sha256": "ce6a78ae0c2b4bc590735a5fdc64c4631fdf2f5d519023c8204430f466ff072b"
+    },
+    {
+      "path": "qa/dialogue-p0-20261102/交接.md",
+      "bytes": 3318,
+      "sha256": "6f44e69c3b7cc13ffc41515f367d12047155b8ba0df9be14620bceb74c4c0b9d"
+    },
+    {
+      "path": "TODO-v1.1.md",
+      "bytes": 52612,
+      "sha256": "f7913d3e4b80e3e374b0d4e373e3c3280b87a0a28d3d854c0df3313f1c39f5ae"
+    },
+    {
+      "path": "docs/对白化与结尾过渡修订计划-20261102.md",
+      "bytes": 23553,
+      "sha256": "ca5908ec65214c6681ef5556ae67fc7b282483c922c3ed80d40afdc2a6a0b569"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "path": "qa/dialogue-p0-20261102/baseline.json",
+      "bytes": 264189,
+      "sha256": "83f7de6ebe4d885e0bbc67907820397d27714d0ce0f652ba567cc9a3f7d7fa64"
+    },
+    {
+      "path": "qa/dialogue-p0-20261102/paragraph-registry.json",
+      "bytes": 1943270,
+      "sha256": "459349f7d20ad41f424953daa712a9606f66acdebc864085cce7b736bdafbc53"
+    },
+    {
+      "path": "qa/dialogue-p0-20261102/protected-controls.json",
+      "bytes": 110341,
+      "sha256": "c0da057278cf421bc6ec8f92b250d90d0c58731dfb1711315bd3d235919ee7b4"
+    },
+    {
+      "path": "qa/dialogue-p0-20261102/asset-fingerprints.json",
+      "bytes": 119780,
+      "sha256": "ffd530b8d3af81c03f04b29456af1cf427796db71512cea503ba4bb229ece0cf"
+    },
+    {
+      "path": "qa/dialogue-p0-20261102/capture-verification.json",
+      "bytes": 930,
+      "sha256": "1c77f89ea9730c33a8b6de31d83bc6a175a96aaff18e98c249663303478707d2"
+    },
+    {
+      "path": "qa/dialogue-p0-20261102/format-fixtures.json",
+      "bytes": 3886,
+      "sha256": "f36ab44473b9e01f09b1bb1bb65e8947d8144e73dc9f240f370ea8347db7358b"
+    },
+    {
+      "path": "qa/dialogue-p0-20261102/rule-matrix.json",
+      "bytes": 6197,
+      "sha256": "a2640b6d6eef6a9708d4a6d148991cc55b488d0624b0a7dbe145c03cf8ab92ab"
+    }
+  ],
+  "additionalReferences": [
+    {
+      "path": "qa/sui-q-20261030/验收报告.md",
+      "bytes": 6735,
+      "sha256": "558dc4dbbd870cf00f36cb1eeada740516699690b154fcd37a938d78dd97cc31"
+    },
+    {
+      "path": "qa/ui-cinema-20261030/验收记录.md",
+      "bytes": 3909,
+      "sha256": "1801cd74d59c7926caec5eda8893288c198dbb3e54d456aebc987fca280166a0"
+    }
+  ],
+  "notPerformed": [
+    "全稿人工审校",
+    "P1中文模型试写",
+    "正式TEXT解析和姓名显示",
+    "逐段演出重绑",
+    "图片解码或目视复验",
+    "新候选构建",
+    "引擎与浏览器运行",
+    "存读档和手机真机",
+    "发布"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "独立Suika Wasm合成技术夹具；81张实图逐帧、图鉴、全图与原生存读档；不验证剧情路径",
+  "status": "fail",
+  "results": [],
+  "errors": [],
+  "contentBuildId": "c67359530b44934453acaeebb965d20d19311795e95d215e1f058a080b1bab3a",
+  "browser": "156.0.8078.80",
+  "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(ev.includes('SUI_I|full-view|opened'))\n\n    at verify (/Users/yipin/Desktop/Suika3/tools/story-revision/p4-integration/verify-engine.cjs:63:43)",
+  "events": [
+    "P4E|registered|count=81",
+    "SUI_I|enter|binding=probe-P4_CG001|node=P4_CG001",
+    "P4E|entered|id=P4_CG001|unlocked=0",
+    "SUI_I|unlock|cg=CG001|phase=first-visible-frame"
+  ]
+}

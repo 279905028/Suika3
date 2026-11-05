@@ -1,0 +1,923 @@
+{
+  "schemaVersion": "p4-cg-review-v1",
+  "taskId": "P4-04",
+  "inputFingerprint": "128fe1f84236657a467b0ab0f58de5d6cc1c58a06848a4472518a9f38ad3f8c9",
+  "contentBuildId": "b673eebf2a587ad557c97e56aea67859888c94862c8dcb6869a40579a3510353",
+  "interfaceFingerprint": "e39d78740a7687ee74608eb784ccb6d0c71a68e401512fe3fb8115ccb62337cc",
+  "status": "production-complete-awaiting-P4-05",
+  "scope": "CG图文复核建议；不是02完整绑定或05资源通过目录",
+  "packageId": "P4-02-HQ",
+  "records": [
+    {
+      "cgId": "CG073",
+      "assetId": "cg-hq-cg073",
+      "title": "杯底写两个文",
+      "packageId": "P4-02-HQ",
+      "decision": "reuse",
+      "basis": "两只写名字的杯子与球形黄球球成立；下部杯底文字需全图，不将此球形图复用到人形结尾重写名字。",
+      "legacyParagraphIds": [
+        "T-HQ-000034"
+      ],
+      "proposedNodeIds": [
+        "T-HQ-000034_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000034_1",
+        "paragraphId": "T-HQ-000034",
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "textMeta": {
+          "id": "T-HQ-000034",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 184,
+          "context": "HQ03-01/COMMON",
+          "sha256": "a5da203e401daab3f03297efbbc72234090bb4df8590256ba41dbc3d7be7115c"
+        }
+      },
+      "text": "她把铅笔递过来。我握着杯把，写下两个文，吹了吹笔迹才放稳。她往两只杯子里各倒一点水，拿走写着自己名字的那只，剩下一只留在我手边。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-HQ-000035_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg073-v001.png",
+          "sha256": "d542030aae1a6053c7a6684c302d95be7d33e12206311c2c9dddad6f34dedbbe",
+          "bytes": 2229750,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-HQ/cg-hq-cg073.webp",
+          "sha256": "8a81c8caa2378880d76c470a75da4ba8bc2a0bfa3796594756e1450dbb605d4d",
+          "bytes": 1529716,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG073-full.webp",
+          "sha256": "bead69ce272a0ce746929ba2dd897766b1482df8a2aa1e7d01b01cf05ac56999",
+          "bytes": 1005068
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG073-overlay.webp",
+          "sha256": "bec1fa37cba23df8ec27b161d7615ac58ab2a43272c303818006131e480ec4df",
+          "bytes": 847500
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG075",
+      "assetId": "cg-hq-cg075",
+      "title": "糊掉一半的小白花",
+      "packageId": "P4-02-HQ",
+      "decision": "reuse",
+      "basis": "黄球球用文文手机看白花照片，仍球形；设备归文文，不登记她拥有手机。",
+      "legacyParagraphIds": [
+        "T-HQ-000058"
+      ],
+      "proposedNodeIds": [
+        "T-HQ-000058_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000058_1",
+        "paragraphId": "T-HQ-000058",
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "textMeta": {
+          "id": "T-HQ-000058",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 307,
+          "context": "HQ04-01/COMMON",
+          "sha256": "db4bdfa599bfdf65fb74557a04e46cfb14c34c9d8ee520a7a29c3533de7c413d"
+        }
+      },
+      "text": "第24天，我拍到了那簇白花。照片糊了一半，她拿着我的手机看，想放大，又被自己的小手挡住。我按她说的位置放大，她嫌我放太大，两个人折腾了一会儿才看清。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-HQ-000059_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg075-v001.png",
+          "sha256": "ad9d8122078dec1a821ec79b9ee321f0e643b3538936993ecfe1cf154fc38c94",
+          "bytes": 2321212,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-HQ/cg-hq-cg075.webp",
+          "sha256": "d0368e04c5c79359a3e1619fad2d63af3a77a0a54046d7c5ef0e8ff6878666a8",
+          "bytes": 1585190,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG075-full.webp",
+          "sha256": "5766e7f84c917c277c98d4e7c13e30b94f2e146c04115bdd9482ca946033face",
+          "bytes": 1038044
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG075-overlay.webp",
+          "sha256": "b3a1da80d9887607aeb2291c0acfc169f1be0bedd56f362b9db665751585d886",
+          "bytes": 901246
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG077",
+      "assetId": "cg-hq-cg077",
+      "title": "五点的那只手",
+      "packageId": "P4-02-HQ",
+      "decision": "reuse",
+      "basis": "球形小手搭在桌边文文手上，HQ07选A；不是第55天后的形态。",
+      "legacyParagraphIds": [
+        "T-HQ-000176"
+      ],
+      "proposedNodeIds": [
+        "T-HQ-000176_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000176_1",
+        "paragraphId": "T-HQ-000176",
+        "condition": "HQ07-01=A",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "textMeta": {
+          "id": "T-HQ-000176",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 959,
+          "context": "HQ07-01/A",
+          "sha256": "e7de39a8179d3d9bf3dceaa76bd19d32e3fb87e1c2f4ee8d4c14584a76693912"
+        }
+      },
+      "text": "快吃完时，她把手伸到我这边。不是拿筷子，也没让我帮忙，就在桌沿放着。我把手挪过去，她的小手搭上来，停了一会儿。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-HQ-000177_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg077-v002.png",
+          "sha256": "c8e8687acf260c19aec21230039550ea764f6320fa028ac8d6e98bb80c95fa15",
+          "bytes": 2253806,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-HQ/cg-hq-cg077.webp",
+          "sha256": "c72834c237069e66ba03c9821cb22b9c06b26f3a6c8062e2d5a5bd29f43ac3e0",
+          "bytes": 1557700,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG077-full.webp",
+          "sha256": "af3f5f1a770fe84d9fd80c13d84cacd6978bdb57bfdaab299ae7b765bfd7ecfa",
+          "bytes": 1034024
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG077-overlay.webp",
+          "sha256": "7e3a2813ac348433609bcff3b285740ac2f1d514a2eb3be641384b724ca84352",
+          "bytes": 887492
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG078",
+      "assetId": "cg-hq-cg078",
+      "title": "她自己的另一种样子",
+      "packageId": "P4-02-HQ",
+      "decision": "reuse",
+      "basis": "门内自主变成人形，眼部遮片、颈饰、外套和玩偶棒吻合；裁切止于已确认上身，不扩下装。",
+      "legacyParagraphIds": [
+        "T-HQ-000197"
+      ],
+      "proposedNodeIds": [
+        "T-HQ-000197_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000197_1",
+        "paragraphId": "T-HQ-000197",
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "textMeta": {
+          "id": "T-HQ-000197",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 1081,
+          "context": "### 剧情简介",
+          "sha256": "fd3aeb522edbf39c5cf0b24129522d60ac0fe8397b5007fbb5c35899834a617c"
+        }
+      },
+      "text": "棕色齐刘海中长发，浅米灰的拉链外套，白色印花上衣。黑色颈饰贴着脖颈，右侧眼睛上是白色遮片，手里握着那根浅色的圆脸玩偶棒。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-HQ-000198_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg078-v002.png",
+          "sha256": "a03f7691d0dbd62e6f9a3b7cf67bbefa1907ac56d23b19a4e34ffdc30700db11",
+          "bytes": 2246927,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-HQ/cg-hq-cg078.webp",
+          "sha256": "e99d33f4b4eb0d14a8aef5d56ced997e8a5d7c9140117515b4cb70a119cc6c9f",
+          "bytes": 1522456,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG078-full.webp",
+          "sha256": "4da61ee49b61f2a4c3102db2a6da034a6a124bbd29c64bb96d9b308fea020b85",
+          "bytes": 981412
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG078-overlay.webp",
+          "sha256": "e35f2c6551349fed1f181e1f5e46b9357e7e00f169b1d4c7c16f438b00df0650",
+          "bytes": 842418
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG079",
+      "assetId": "cg-hq-cg079",
+      "title": "第二次由她靠近",
+      "packageId": "P4-02-HQ",
+      "decision": "rebind",
+      "basis": "人形黄球球主动额头相抵，室内裁切可用；仅第55天后的既有亲密，不能用于已分开结局。",
+      "legacyParagraphIds": [
+        "T-HQ-000476",
+        "T-HQ-000477"
+      ],
+      "proposedNodeIds": [
+        "T-HQ-000476_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000476_1",
+        "paragraphId": "T-HQ-000476",
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "textMeta": {
+          "id": "T-HQ-000476",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 1159,
+          "context": "### 剧情简介",
+          "sha256": "daae76649090222a4bc3aea33493eac82785daa59cbb2a2f38b443cffad54e06"
+        }
+      },
+      "text": "第二次是她靠过来。我原本撑在沙发边的手被她牵到肩侧，她把额头抵着我。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-HQ-000477_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg079-v002.png",
+          "sha256": "3fe27bd07061509acdbb624c5952d30584a4e57768b00c2cd60317d286fd7fce",
+          "bytes": 2406827,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-HQ/cg-hq-cg079.webp",
+          "sha256": "eb3480a89f529ce3669d8963790b3798c50fd47aaeef00f5056a3f16fcab1f76",
+          "bytes": 1591626,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG079-full.webp",
+          "sha256": "41333427184fb54e7ee90aa5001291e1c8977f8d6da19dd1bf9516d825d2a4e2",
+          "bytes": 1043638
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG079-overlay.webp",
+          "sha256": "754d73c077e95a242c56a3430260b3e4b0a9a500f13bd844a34954143688df28",
+          "bytes": 897616
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "缩略对照已看：正文框内文字可辨；人物面部/主要构图保留。底部桌沿和身体局部由全图补看；本项不是全分辨率像素终审。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG082",
+      "assetId": "cg-hq-cg082",
+      "title": "那把租屋钥匙仍能用",
+      "packageId": "P4-02-HQ",
+      "decision": "rebind",
+      "basis": "室内指出租屋钥匙，两人并坐的画面可用；钥匙的求助含义不自动表示同居或恋爱恢复。",
+      "legacyParagraphIds": [
+        "T-HQ-000562",
+        "T-HQ-000563",
+        "T-HQ-000564"
+      ],
+      "proposedNodeIds": [
+        "T-HQ-000563_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000563_1",
+        "paragraphId": "T-HQ-000563",
+        "condition": "ALL",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "textMeta": {
+          "id": "T-HQ-000563",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 1678,
+          "context": "HQ09-01/COMMON",
+          "sha256": "ed0182ecaebcd81a916e88a230e116ea9bba687be33b48de02e8ef9bfc6aa3f1"
+        }
+      },
+      "text": "她指了指还挂在钥匙圈上的出租屋钥匙。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-HQ-000564_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg082-v001.png",
+          "sha256": "0dc5683395ab72ab8e34bf9140e2b1b88f993254b8bc34713c1f60b17076e780",
+          "bytes": 2483128,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-HQ/cg-hq-cg082.webp",
+          "sha256": "6dbff10ed5fa6deb50080536eec1c47fe4ee845a9ac4af980b293a646026628a",
+          "bytes": 1677370,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG082-full.webp",
+          "sha256": "6168e4d09eeae55848062fce586aa04b36be7e8e500a6deafb5d35e039fba02b",
+          "bytes": 1086002
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG082-overlay.webp",
+          "sha256": "95e42ca2f08b0bde99a29f3ca73db360c41fccb6695f75d887a28b74a113d777",
+          "bytes": 916666
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "文字框遮挡关键下部手势或道具，不能单靠阅读画面审查该动作；须保留全图入口，02核定出现时点，06核定提示可见性。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG107",
+      "assetId": "cg-hq-cg107",
+      "title": "五点不再等的提醒",
+      "packageId": "P4-02-HQ",
+      "decision": "reuse",
+      "basis": "文文取消五点旧提醒，黄球球不在网吧公开出现；断开后各自生活，无重新球形。",
+      "legacyParagraphIds": [
+        "T-HQ-000343"
+      ],
+      "proposedNodeIds": [
+        "T-HQ-000343_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000343_1",
+        "paragraphId": "T-HQ-000343",
+        "condition": "HQ07-01=B|HQ08-01=B",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "textMeta": {
+          "id": "T-HQ-000343",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 1971,
+          "context": "HQ-E2",
+          "sha256": "68a853cb275a9d75f37f8e0643454b050fda3e5b193803051ebe1d61e7d3b416"
+        }
+      },
+      "text": "柜台有人叫我，我把自己的杯子放进柜子，帮白班递了瓶水，就回去吃饭。走到门口，手机五点的旧提醒响了。我看了一会儿，把它取消，留下今晚真正要用的那一个。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-HQ-000344_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261029/SUI-A10-HQ/cg-hq-cg107-v001.png",
+          "sha256": "7c4b7fabb0640962b44dbad4266123e56dbda4587af620e3217342404ec69e48",
+          "bytes": 2075177,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/current/SUI-A10-HQ/cg-hq-cg107.webp",
+          "sha256": "84726689d74887118da3ba125f60968078c35b1e03f89c8a952cf45aa9e2d324",
+          "bytes": 1440470,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": null,
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG107-full.webp",
+          "sha256": "9275be08c183ab624024eac6a66158311f20c3e62668f463df756ff71755faa3",
+          "bytes": 946146
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG107-overlay.webp",
+          "sha256": "0bda82ab900dc6db466e9f2230024c9ee59fab9b07c3e31837610c0490dea8f5",
+          "bytes": 805800
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-contact-sheet",
+        "overlayNote": "屏幕主体仍可辨，但手机下部/发送键或最后消息接近文字框；完整图补看。只能按冻结的通话/消息时点出现。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    },
+    {
+      "cgId": "CG109",
+      "assetId": "cg-hq-cg109",
+      "title": "自己的名字自己写",
+      "packageId": "P4-02-HQ",
+      "decision": "new",
+      "basis": "依据HQ-N010新增人形结尾：文文重写杯底名字，黄球球下巴靠肩，双手不碰他的写字手。只这一拍，不提前显示亲吻，不延用到选下次吃什么；上身裁切不补下装。",
+      "legacyParagraphIds": [],
+      "proposedNodeIds": [
+        "T-HQ-000586_1"
+      ],
+      "anchor": {
+        "nodeId": "T-HQ-000586_1",
+        "paragraphId": "T-HQ-000586",
+        "condition": "HQ07-01=A&HQ08-01=A",
+        "routeIds": [
+          "huangqiuqiu"
+        ],
+        "entryGate": {
+          "type": "route",
+          "value": "huangqiuqiu"
+        },
+        "textMeta": {
+          "id": "T-HQ-000586",
+          "kind": "action",
+          "speaker": null,
+          "name": "",
+          "channel": "none",
+          "group": null,
+          "displayName": ""
+        },
+        "source": {
+          "file": "scenario/黄球球-门后.md",
+          "candidateFile": "docs/修订协作/P3-独立审读-20261103/正文/黄球球-门后.md",
+          "lineHint": 1850,
+          "context": "HQ-E1",
+          "sha256": "80703fa218fb281fe309fde7de9e70ee577f007054c54b895f1c8d9eb71e8b0d"
+        }
+      },
+      "text": "写到一半，她靠过来，下巴贴在我肩边。我的字歪了一点。",
+      "exit": {
+        "at": "next-node",
+        "clearCg": true,
+        "fullView": false,
+        "underlay": "由P4-02按本页enter去掉CG给出完整状态；本表不复制旧人物/背景",
+        "destination": "clear-before-target / recompute-destination",
+        "lexicalNextNodeId": "T-HQ-000587_1",
+        "note": "lexicalNext仅定位，条件/调用/结局后的实际目标依控制流，不当作无条件跳转"
+      },
+      "fullView": true,
+      "unlock": "on-actual-first-visible-frame",
+      "technical": {
+        "source": {
+          "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.png",
+          "sha256": "671a5f07f67e7386d9e2fa1e8a8bd0dd57f2463b913258f32ced261552cdf70f",
+          "bytes": 2440691,
+          "format": "PNG",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        },
+        "runtime": {
+          "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.webp",
+          "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380",
+          "bytes": 1658610,
+          "format": "WEBP",
+          "size": [
+            1672,
+            941
+          ],
+          "mode": "RGB",
+          "alpha": false,
+          "exifOrientation": null
+        }
+      },
+      "production": {
+        "cgId": "CG109",
+        "assetId": "cg-hq-cg109",
+        "needId": "P4-02-HQ-N010",
+        "type": "cg",
+        "source": {
+          "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.png",
+          "sha256": "671a5f07f67e7386d9e2fa1e8a8bd0dd57f2463b913258f32ced261552cdf70f",
+          "bytes": 2440691
+        },
+        "runtime": {
+          "path": "assets/sources/20261103/P4-04/CG109/cg109-v002.webp",
+          "sha256": "b9f329bf900cb8b961d7c7626fe4dc5da9e66cdd89930c454f594ff0a0a49380",
+          "bytes": 1658610
+        },
+        "width": 1672,
+        "height": 941,
+        "format": "WEBP",
+        "alpha": false,
+        "encoding": {
+          "lossless": true,
+          "quality": 100,
+          "method": 6,
+          "libwebp": "1.5.0",
+          "pixelEquality": "passed"
+        },
+        "productionStatus": "complete",
+        "visualStatus": "reviewed-full-image",
+        "P4-05": "pending",
+        "adoptionStatus": "not-adopted"
+      },
+      "previousAsset": null,
+      "previews": {
+        "full": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG109-full.webp",
+          "sha256": "8cc022f4d918cfdf554083dfb5713743c8247488a87232291650dac31ff115f8",
+          "bytes": 1087058
+        },
+        "overlay": {
+          "path": "qa/dialogue-p4-P4-04-20261103/previews/CG109-overlay.webp",
+          "sha256": "e0641c4796c7b888795a2546c39d0b0f65af31fcc81dae68a55cd9eeae85e158",
+          "bytes": 919004
+        }
+      },
+      "review": {
+        "content": "reviewed",
+        "contactSheetVisual": "reviewed",
+        "overlayVisual": "reviewed-full-image-and-overlay",
+        "overlayNote": "v001叠框遮住杯名，v002已上移写字动作；杯底文字和笔尖位于框上方，靠肩与人形特征清楚，无下装扩展。",
+        "P4-05": "pending",
+        "runtime": "not-tested"
+      },
+      "readyForBinding": false,
+      "dependencies": [
+        "P4-02正式镜头需求/锚点接受与底层退出状态",
+        "P4-05独立资源检查",
+        "P4-07统一采用"
+      ]
+    }
+  ]
+}

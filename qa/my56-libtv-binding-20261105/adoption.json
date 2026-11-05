@@ -1,0 +1,52 @@
+{
+  "key": "KCG-MY-03",
+  "node": "T-MY-000431_1",
+  "route": "mengyao",
+  "condition": "MY07-01=A",
+  "instruction": "用户2026-11-05要求绑定libTV方案01接吻CG",
+  "media": {
+    "path": "assets/sources/20261105/留宿动态CG/OV-MY56/libTV-方案01/孟遥-方案01-libTV-静音.mp4",
+    "sha256": "b78590dbd6f46739a7d5ebafa2e4410a95f6e063e7ed9d9b3d6b0c9d45094583",
+    "bytes": 2103213
+  },
+  "fallback": {
+    "path": "assets/sources/20261105/留宿动态CG/OV-MY56/libTV-方案01/first-binding-v001.webp",
+    "sha256": "98407e6872b5592c447ac17e50b9f9217e7f319747d2b9fd94d44668d65f99a7",
+    "bytes": 516358
+  },
+  "prior": {
+    "key": "KCG-MY-03",
+    "title": "第56天·文文住处",
+    "group": "kiss",
+    "src": "assets/current/motion/KCG-MY-03.mp4",
+    "srcSha256": "79b40d9fcb9a2e26cdeec0723a4ce8a271027e2df8b84e404a7f24a69652fecb",
+    "fallback": "assets/current/motion/KCG-MY-03.webp",
+    "fallbackSha256": "8accadf69c8b0b4b94c085ff2c16aad9e453eed0da410788d43b01a339991a94",
+    "version": "v001",
+    "sourceRecord": "docs/美术/亲吻动态CG-20261104/成片与绑定.json",
+    "sourceMedia": {
+      "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/runtime-v001.mp4",
+      "bytes": 1250333,
+      "sha256": "79b40d9fcb9a2e26cdeec0723a4ce8a271027e2df8b84e404a7f24a69652fecb",
+      "durationSeconds": 5,
+      "codec": "h264",
+      "pixelFormat": "yuv420p",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "audio": false,
+      "decodedFrames": 120
+    },
+    "sourceFallback": {
+      "path": "assets/sources/20261104/亲吻动态CG/KCG-MY-03/first-v001.webp",
+      "bytes": 538658,
+      "sha256": "8accadf69c8b0b4b94c085ff2c16aad9e453eed0da410788d43b01a339991a94"
+    },
+    "presentation": "full-frame-then-restore-text",
+    "approval": "用户2026-11-04要求绑定所有动态CG；确认29段夜间方案，孟遥夜间静态回退",
+    "independentReview": "qa/dialogue-p5-motion-20261104/media-review/report.json"
+  },
+  "review": "qa/my56-libtv-20261105/media-review.json",
+  "presentation": "full-frame-stop-at-source-node",
+  "playback": "采用libTV原片静音版本，GIF的倒放循环仅用于预览"
+}

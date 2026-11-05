@@ -1,0 +1,598 @@
+{
+  "schemaVersion": "p4-cg-need-responses-v1",
+  "taskId": "P4-04",
+  "inputs": [
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-02-COMMON/needs.json",
+      "sha256": "5374f57692bb3bea2fc8cdcb219be90000e02a8b0633cf8037261b226c49881b"
+    },
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-02-FR/needs.json",
+      "sha256": "558345a3b54d31f362476fac463060f1ff4e7dade5903ea7e3d400fa1ae554e0"
+    },
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-02-HQ/needs.json",
+      "sha256": "f5a9e5fd2c055a6f2ea876ffb42e5fea6cda421387935e91ee45477f6fba0157"
+    },
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-02-MY/needs.json",
+      "sha256": "91ea75ffb2fc048b1ea2c83a49a0f9d1f031579ddbc97f5c5be7cd9bc335f0d2"
+    },
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-02-PI/needs.json",
+      "sha256": "9fab125ad3696210d7416c7f3fa456eb162eb6881f3ceb9f1094101137550b0b"
+    },
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-02-XM/needs.json",
+      "sha256": "49b7f11cd2a8b9df69609bee27f9183e91cdbb6215878892c94dcfa5cdd607d5"
+    },
+    {
+      "path": "docs/修订协作/P4-演出与美术/P4-02-ZZ/needs.json",
+      "sha256": "e3f0a0cc082a646024a9ea601d547a6ce07566533ff63bf2bbb654f2ad9692a3"
+    }
+  ],
+  "responses": [
+    {
+      "needId": "P4-02-COMMON-N006",
+      "resourceKey": "CG101",
+      "packageId": "P4-02-COMMON",
+      "requestedNodeIds": [
+        "T-D36-000034_1"
+      ],
+      "cgId": "CG101",
+      "assetId": "cg-common-cg101",
+      "recommendedNodeIds": [
+        "T-D36-000034_1"
+      ],
+      "disposition": "produced",
+      "basis": "已按COMMON-N006返修为文文与飘并坐台阶、毛狼稍远接电话，写本子和包带仍保留；v003恢复文文黑帆布鞋。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "assets/sources/20261103/P4-04/production-assets.json",
+          "sha256": "fdc3ce50a1a4d7ec612bf0becfdaf81249a2764c782c672681274efd6871a46d"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-COMMON-N007",
+      "resourceKey": "CG001-reading-contrast",
+      "packageId": "P4-02-COMMON",
+      "requestedNodeIds": [
+        "T-C01-000004_1"
+      ],
+      "cgId": "CG001",
+      "assetId": "cg-common-cg001",
+      "recommendedNodeIds": [
+        "T-C01-000004_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "毛狼递回坏轮子，车站、雨棚与文文接物手势吻合；底部接物手会被正文框遮挡，完整图保留。亮天空上的浅色全图提示交06加深底板，不以修图改变天空。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-FR-N004",
+      "resourceKey": "cg086-p4-review",
+      "packageId": "P4-02-FR",
+      "requestedNodeIds": [
+        "T-FR-000040_1"
+      ],
+      "cgId": "CG086",
+      "assetId": "cg-fr-cg086",
+      "recommendedNodeIds": [
+        "T-FR-000040_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "搬箱现场文文、师匠、毛狼三人在场，要求先询问本人；不作恋爱镜头。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-FR-N005",
+      "resourceKey": "cg090-p4-review",
+      "packageId": "P4-02-FR",
+      "requestedNodeIds": [
+        "T-FR-000440_1"
+      ],
+      "cgId": "CG090",
+      "assetId": "cg-fr-cg090",
+      "recommendedNodeIds": [
+        "T-FR-000440_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "师匠擦去游戏机留下的灰印，文文在旁；不显示机器尚未卖出的状态。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-FR-N006",
+      "resourceKey": "cg091-p4-review",
+      "packageId": "P4-02-FR",
+      "requestedNodeIds": [
+        "T-FR-000475_1"
+      ],
+      "cgId": "CG091",
+      "assetId": "cg-fr-cg091",
+      "recommendedNodeIds": [
+        "T-FR-000475_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "毛狼在电脑前删除朋友笑料，文文坐旁边；不能把删除文稿扩成已解决全部友情。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-FR-N007",
+      "resourceKey": "cg108-p4-review",
+      "packageId": "P4-02-FR",
+      "requestedNodeIds": [
+        "T-FR-000264_1"
+      ],
+      "cgId": "CG108",
+      "assetId": "cg-fr-cg108",
+      "recommendedNodeIds": [
+        "T-FR-000264_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "早饭确实只有文文和师匠两份，毛狼未到场；AA平等往来，不挪用到疏远结局。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-FR-N008",
+      "resourceKey": "cg094-p4-review",
+      "packageId": "P4-02-FR",
+      "requestedNodeIds": [
+        "T-FR-000603_1"
+      ],
+      "cgId": "CG094",
+      "assetId": "cg-fr-cg094",
+      "recommendedNodeIds": [
+        "T-FR-000603_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "文文独自在新柜台持笔，回话是过去式；不让师匠或毛狼入镜恢复亲密。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-HQ-N003",
+      "resourceKey": "cg073-p4-review",
+      "packageId": "P4-02-HQ",
+      "requestedNodeIds": [
+        "T-HQ-000034_1"
+      ],
+      "cgId": "CG073",
+      "assetId": "cg-hq-cg073",
+      "recommendedNodeIds": [
+        "T-HQ-000034_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "两只写名字的杯子与球形黄球球成立；下部杯底文字需全图，不将此球形图复用到人形结尾重写名字。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-HQ-N004",
+      "resourceKey": "cg075-p4-review",
+      "packageId": "P4-02-HQ",
+      "requestedNodeIds": [
+        "T-HQ-000058_1"
+      ],
+      "cgId": "CG075",
+      "assetId": "cg-hq-cg075",
+      "recommendedNodeIds": [
+        "T-HQ-000058_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "黄球球用文文手机看白花照片，仍球形；设备归文文，不登记她拥有手机。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-HQ-N005",
+      "resourceKey": "cg077-p4-review",
+      "packageId": "P4-02-HQ",
+      "requestedNodeIds": [
+        "T-HQ-000176_1"
+      ],
+      "cgId": "CG077",
+      "assetId": "cg-hq-cg077",
+      "recommendedNodeIds": [
+        "T-HQ-000176_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "球形小手搭在桌边文文手上，HQ07选A；不是第55天后的形态。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-HQ-N006",
+      "resourceKey": "cg078-p4-review",
+      "packageId": "P4-02-HQ",
+      "requestedNodeIds": [
+        "T-HQ-000197_1"
+      ],
+      "cgId": "CG078",
+      "assetId": "cg-hq-cg078",
+      "recommendedNodeIds": [
+        "T-HQ-000197_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "门内自主变成人形，眼部遮片、颈饰、外套和玩偶棒吻合；裁切止于已确认上身，不扩下装。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-HQ-N007",
+      "resourceKey": "cg079-p4-review",
+      "packageId": "P4-02-HQ",
+      "requestedNodeIds": [
+        "T-HQ-000476_1"
+      ],
+      "cgId": "CG079",
+      "assetId": "cg-hq-cg079",
+      "recommendedNodeIds": [
+        "T-HQ-000476_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "人形黄球球主动额头相抵，室内裁切可用；仅第55天后的既有亲密，不能用于已分开结局。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-HQ-N008",
+      "resourceKey": "cg082-p4-review",
+      "packageId": "P4-02-HQ",
+      "requestedNodeIds": [
+        "T-HQ-000563_1"
+      ],
+      "cgId": "CG082",
+      "assetId": "cg-hq-cg082",
+      "recommendedNodeIds": [
+        "T-HQ-000563_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "室内指出租屋钥匙，两人并坐的画面可用；钥匙的求助含义不自动表示同居或恋爱恢复。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-HQ-N009",
+      "resourceKey": "cg107-p4-review",
+      "packageId": "P4-02-HQ",
+      "requestedNodeIds": [
+        "T-HQ-000343_1"
+      ],
+      "cgId": "CG107",
+      "assetId": "cg-hq-cg107",
+      "recommendedNodeIds": [
+        "T-HQ-000343_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "文文取消五点旧提醒，黄球球不在网吧公开出现；断开后各自生活，无重新球形。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-HQ-N010",
+      "resourceKey": "hq-e1-cup-name-close",
+      "packageId": "P4-02-HQ",
+      "requestedNodeIds": [
+        "T-HQ-000586_1",
+        "T-HQ-000588_1",
+        "T-HQ-000598_1"
+      ],
+      "cgId": "CG109",
+      "assetId": "cg-hq-cg109",
+      "recommendedNodeIds": [
+        "T-HQ-000586_1"
+      ],
+      "disposition": "produced",
+      "basis": "依据HQ-N010新增人形结尾：文文重写杯底名字，黄球球下巴靠肩，双手不碰他的写字手。只这一拍，不提前显示亲吻，不延用到选下次吃什么；上身裁切不补下装。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "assets/sources/20261103/P4-04/production-assets.json",
+          "sha256": "fdc3ce50a1a4d7ec612bf0becfdaf81249a2764c782c672681274efd6871a46d"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-MY-N006",
+      "resourceKey": "my-cg040-post-kiss",
+      "packageId": "P4-02-MY",
+      "requestedNodeIds": [
+        "T-MY-000105_1"
+      ],
+      "cgId": "CG040",
+      "assetId": "cg-my-cg040",
+      "recommendedNodeIds": [
+        "T-MY-000105_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "试讲结束、额头相抵、手机和教学桌吻合；这是揭示丈夫前的既有亲密，不据此推导单身。完整图见手机支架、桌边发夹与额头相抵；窗外尚有低角度日光，可与第27天五点半试讲后的傍晚相容。镜头定格在坐直拾夹前，不铺满整段动作。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-PI-N001",
+      "resourceKey": "CG066",
+      "packageId": "P4-02-PI",
+      "requestedNodeIds": [
+        "T-PI-000272_1"
+      ],
+      "cgId": "CG066",
+      "assetId": "cg-pi-cg066",
+      "recommendedNodeIds": [
+        "T-PI-000272_1"
+      ],
+      "disposition": "produced",
+      "basis": "已按PI-N001返修为文文坐床沿、飘坐矮凳、纸已落地；v003同时恢复黑帆布鞋和细红绳。原图保留。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "assets/sources/20261103/P4-04/production-assets.json",
+          "sha256": "fdc3ce50a1a4d7ec612bf0becfdaf81249a2764c782c672681274efd6871a46d"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-PI-N002",
+      "resourceKey": "CG069-morning-station",
+      "packageId": "P4-02-PI",
+      "requestedNodeIds": [
+        "T-PI-000343_1"
+      ],
+      "cgId": "CG069",
+      "assetId": "cg-pi-cg069",
+      "recommendedNodeIds": [
+        "T-PI-000343_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "车站放包、主动拥抱符合HIGH继续；不可搬到第91天远程电话里。完整图复核：山体、雨云与建筑可见漫射天光，天空不是黑夜，屋檐暖灯与阴雨清晨不冲突；只认第60天早上，不拿此图证明具体钟点。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-PI-N004",
+      "resourceKey": "piao-low-ending-camera-rope",
+      "packageId": "P4-02-PI",
+      "requestedNodeIds": [
+        "T-PI-000630_1"
+      ],
+      "cgId": "CG068",
+      "assetId": "cg-pi-cg068",
+      "recommendedNodeIds": [
+        "T-PI-000630_1"
+      ],
+      "disposition": "reuse-reviewed",
+      "basis": "只复用递交相机瞬间：人物、红绳、黑色相机和下午街巷吻合。不能从000627打结起铺满000634，也不能在000632第二张已拍时继续递相机。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "qa/dialogue-p4-P4-04-20261103/index.html",
+          "sha256": "16b4db04d1a49efd82c589e7b5749c96cade8326aac0c5385b1d3e05d6b228a2"
+        }
+      ]
+    },
+    {
+      "needId": "P4-02-ZZ-N001",
+      "resourceKey": "CG025-daytime",
+      "packageId": "P4-02-ZZ",
+      "requestedNodeIds": [
+        "T-ZZ-000034_1"
+      ],
+      "cgId": "CG025",
+      "assetId": "cg-zz-cg025",
+      "recommendedNodeIds": [
+        "T-ZZ-000034_1"
+      ],
+      "disposition": "produced",
+      "basis": "收到ZZ-N001正式白天镜头需求，按该演出口径改为阴天下午，保留人物、双麦与笑场动作。P3该页无直接钟点，此处记录02场景选择，不能把旧QA当本轮时段实证。",
+      "productionStatus": "complete",
+      "P4-05": "pending",
+      "upstreamNeedMutation": "none;由02在05通过后关闭自己的needs",
+      "evidence": [
+        {
+          "path": "docs/修订协作/P4-演出与美术/P4-04/cg-review.json",
+          "sha256": "9aa6f7592564d9afc9d9ac5b8e7ab301d504010ef2c61a2cd92bf67b17ef2423"
+        },
+        {
+          "path": "assets/sources/20261103/P4-04/production-assets.json",
+          "sha256": "fdc3ce50a1a4d7ec612bf0becfdaf81249a2764c782c672681274efd6871a46d"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "status": "fail",
+  "date": "2026-11-04",
+  "runtimeBuildId": "227cd41d3c5c4f675f6aac11b01a6af0fa6e810394c53d42b297d4a3d20f00aa",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "webHashes": {
+    "assets.arc": "f1c5ed39169c5a1a2a8b477d8b5ccccb00fbca9f8b1807fbc31eb7f105856ab8",
+    "index.html": "38be50b5946ecd19b37022e3e5dd4e45a8b3f87d36607646c0771bf1d3758a90",
+    "motion-bridge.js": "2e7e84e31e73b5151f8840f9173fc152d43b9db4ad8197a068e752d73ab3a6ac",
+    "motion-controller.css": "9fa847306f84568ffbd6c1ccbd4b36744e027c8ae926251500ec4e62e86b12c1",
+    "motion-controller.js": "9e2f2cd08ed160447649e0d114b4dae59debf7a604ae50b7fdd9724d5f9ec066",
+    "shell.css": "37bcee09c5cb379aef41b26b84dbfd9711995d10b8743f2ba5fa4bad208422da",
+    "shell.js": "46d4d9714a13991a51a94224b3ce057758225e6430b184e778ba995cb516ec19",
+    "title-motion.js": "b199001cebaeeb4cb831d58e298043fe3a7e517c19271720857c300f417cc749",
+    "title-motion.mp4": "d9159cfbcbc3fc5439d13ecbee89f17f6fd4606ee1cba9b06e906b7414e148c3"
+  },
+  "scope": "正式完整构建，独立浏览器上下文，从标题开始，普通键盘鼠标逐页对照；不注入引擎状态，不代替人工全稿审读或真机",
+  "plannedCases": [
+    "01-xiaoman-HIGH-XM-E1"
+  ],
+  "results": [
+    {
+      "name": "01-xiaoman-HIGH-XM-E1",
+      "status": "fail",
+      "answers": {
+        "C01-01": "A",
+        "C01-02": "A",
+        "C01-03": "A",
+        "C01-04": "A",
+        "C01-05": "A",
+        "C01-06": "A",
+        "C02-01": "A",
+        "C02-02": "A",
+        "C02-03": "A",
+        "C02-04": "A",
+        "C02-08": "A",
+        "C02-05": "A",
+        "C02-06": "A",
+        "C02-07": "A",
+        "C02-09": "A",
+        "ROUTE-01": "xiaoman",
+        "XM03-01": "A",
+        "XM04-01": "A",
+        "XM05-01": "A",
+        "XM06-01": "A",
+        "XM07-01": "A",
+        "XM08-01": "A",
+        "XM09-01": "A",
+        "XM10-01": "A"
+      },
+      "clicks": [
+        {
+          "id": "C01-01",
+          "value": "A"
+        },
+        {
+          "id": "C01-02",
+          "value": "A"
+        },
+        {
+          "id": "C01-03",
+          "value": "A"
+        },
+        {
+          "id": "C01-04",
+          "value": "A"
+        },
+        {
+          "id": "C01-05",
+          "value": "A"
+        },
+        {
+          "id": "C01-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-01",
+          "value": "A"
+        },
+        {
+          "id": "C02-02",
+          "value": "A"
+        },
+        {
+          "id": "C02-03",
+          "value": "A"
+        },
+        {
+          "id": "C02-04",
+          "value": "A"
+        },
+        {
+          "id": "C02-08",
+          "value": "A"
+        },
+        {
+          "id": "C02-05",
+          "value": "A"
+        },
+        {
+          "id": "C02-06",
+          "value": "A"
+        },
+        {
+          "id": "C02-07",
+          "value": "A"
+        },
+        {
+          "id": "C02-09",
+          "value": "A"
+        },
+        {
+          "id": "ROUTE-01",
+          "value": "xiaoman"
+        },
+        {
+          "id": "XM03-01",
+          "value": "A"
+        },
+        {
+          "id": "XM04-01",
+          "value": "A"
+        },
+        {
+          "id": "XM05-01",
+          "value": "A"
+        }
+      ],
+      "expected": {
+        "route": "xiaoman",
+        "relation": "HIGH",
+        "score": "50",
+        "ending": "XM-E1",
+        "epilogue": "",
+        "event": "0",
+        "return": ""
+      },
+      "errors": [],
+      "coldLoadMs": 1908,
+      "loadMetrics": {
+        "wasmHeapBytes": 536870912,
+        "resources": [
+          {
+            "duration": 449.29999999701977,
+            "transferSize": 431425439,
+            "decodedBodySize": 431425139
+          }
+        ]
+      },
+      "screenshots": [
+        "01-xiaoman-HIGH-XM-E1-CG001.png",
+        "01-xiaoman-HIGH-XM-E1-CG004.png",
+        "01-xiaoman-HIGH-XM-E1-CG005.png",
+        "01-xiaoman-HIGH-XM-E1-CG006.png",
+        "01-xiaoman-HIGH-XM-E1-CG007.png",
+        "01-xiaoman-HIGH-XM-E1-CG008.png",
+        "01-xiaoman-HIGH-XM-E1-CG111.png",
+        "01-xiaoman-HIGH-XM-E1-CG010.png",
+        "01-xiaoman-HIGH-XM-E1-CG011.png",
+        "01-xiaoman-HIGH-XM-E1-CG012.png",
+        "01-xiaoman-HIGH-XM-E1-CG110.png",
+        "01-xiaoman-HIGH-XM-E1-route-options.png",
+        "01-xiaoman-HIGH-XM-E1-CG014.png",
+        "01-xiaoman-HIGH-XM-E1-CG015.png",
+        "01-xiaoman-HIGH-XM-E1-CG016.png",
+        "01-xiaoman-HIGH-XM-E1-failure.png"
+      ],
+      "lastChoice": "XM05-01",
+      "elapsedMs": 1171742,
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:57:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:97:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:98:3"
+    }
+  ],
+  "errors": [
+    {
+      "case": "01-xiaoman-HIGH-XM-E1",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded."
+    }
+  ],
+  "browser": "chrome 156.0.8078.80",
+  "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert(report.results.every(r=>r.status==='pass'))\n\n    at /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:99:63",
+  "finishedAt": "2026-11-04T09:39:43.972Z"
+}

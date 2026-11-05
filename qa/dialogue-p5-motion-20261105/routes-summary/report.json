@@ -1,0 +1,877 @@
+{
+  "date": "2026-11-05",
+  "status": "pass",
+  "runtimeBuildId": "df34bb78f96bae705f30250f79a65a37793de0a3382f8a3c1d1d5b769220bcfd",
+  "sourceReports": [
+    "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+    "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+    "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+    "qa/dialogue-p5-motion-20261105/routes-v5-hq-recheck/report.json"
+  ],
+  "plannedCases": 28,
+  "passedCases": 28,
+  "missingCases": [],
+  "scope": "同v5完整包的真实Chrome从标题起步路线；仅采纳通过记录，旧超时仍保留于来源报告。",
+  "coverage": {
+    "visitedTextNodes": 4348,
+    "totalTextNodes": 4749,
+    "visitedParagraphs": 4347,
+    "totalParagraphs": 4748,
+    "unvisitedParagraphs": 401,
+    "uncoveredFile": "qa/dialogue-p5-motion-20261105/routes-summary/uncovered-text.json"
+  },
+  "metrics": {
+    "scope": "桌面本机回环、4个隔离Chrome上下文并行，另有专项验收进程并发；冷启动指新的浏览器上下文，未清空操作系统磁盘缓存。非外网、手机、GPU峰值或长期负载承诺",
+    "coldStartMs": {
+      "min": 1254,
+      "max": 7279,
+      "mean": 3304
+    },
+    "routeElapsedMs": {
+      "min": 164140,
+      "max": 1283003,
+      "mean": 290847
+    }
+  },
+  "pages": 32885,
+  "endings": [
+    "FR-E1",
+    "FR-E2",
+    "HQ-E1",
+    "HQ-E2",
+    "MY-E1",
+    "MY-E2",
+    "PI-E1",
+    "PI-E2",
+    "PI-LE1",
+    "PI-LE2",
+    "XM-E1",
+    "XM-E2",
+    "ZZ-E1",
+    "ZZ-E2"
+  ],
+  "staticCG": [
+    "CG001",
+    "CG004",
+    "CG005",
+    "CG006",
+    "CG007",
+    "CG008",
+    "CG010",
+    "CG011",
+    "CG012",
+    "CG014",
+    "CG015",
+    "CG016",
+    "CG019",
+    "CG020",
+    "CG022",
+    "CG023",
+    "CG025",
+    "CG026",
+    "CG027",
+    "CG029",
+    "CG031",
+    "CG032",
+    "CG034",
+    "CG035",
+    "CG038",
+    "CG039",
+    "CG040",
+    "CG041",
+    "CG044",
+    "CG061",
+    "CG062",
+    "CG063",
+    "CG066",
+    "CG067",
+    "CG068",
+    "CG069",
+    "CG070",
+    "CG073",
+    "CG075",
+    "CG077",
+    "CG078",
+    "CG079",
+    "CG082",
+    "CG086",
+    "CG090",
+    "CG091",
+    "CG094",
+    "CG095",
+    "CG096",
+    "CG098",
+    "CG099",
+    "CG100",
+    "CG101",
+    "CG102",
+    "CG103",
+    "CG104",
+    "CG105",
+    "CG106",
+    "CG107",
+    "CG108",
+    "CG109",
+    "CG110",
+    "CG111",
+    "CG112",
+    "CG113",
+    "CG114",
+    "CG115",
+    "CG116",
+    "CG117",
+    "CG118",
+    "CG119",
+    "CG120",
+    "CG121",
+    "CG122",
+    "CG123",
+    "CG124",
+    "CG125",
+    "CG126",
+    "CG127",
+    "CG128",
+    "CG129"
+  ],
+  "motionCG": [
+    "KCG-HQ-01",
+    "KCG-HQ-02",
+    "KCG-HQ-03",
+    "KCG-MY-01",
+    "KCG-MY-02",
+    "KCG-MY-03",
+    "KCG-MY-04",
+    "KCG-PI-01",
+    "KCG-PI-02",
+    "KCG-XM-01",
+    "KCG-XM-02",
+    "KCG-XM-03",
+    "KCG-XM-04",
+    "KCG-ZZ-01",
+    "KCG-ZZ-02",
+    "KCG-ZZ-03",
+    "KCG-ZZ-04",
+    "KCG-ZZ-05",
+    "MCG-HQ-E1",
+    "MCG-MY-E1",
+    "MCG-PI-E1",
+    "MCG-PI-LE1",
+    "MCG-XM-E1",
+    "MCG-ZZ-E1",
+    "OV-HQ57",
+    "OV-PI39",
+    "OV-XM45",
+    "OV-ZZ-BJ",
+    "OV-ZZ-GY"
+  ],
+  "restorationCount": 40,
+  "restorationNodes": [
+    "T-XM-000296_1",
+    "T-XM-000794_1",
+    "T-D36-000001_1",
+    "T-PI-000646_1",
+    "T-PI-000647_1",
+    "T-PI-000467_1",
+    "T-C01-000115_1",
+    "T-C02-000487_1",
+    "T-HQ-000278_1",
+    "T-HQ-000196_1",
+    "T-HQ-000342_1"
+  ],
+  "cases": [
+    {
+      "name": "01-xiaoman-HIGH-XM-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "pages": 1225,
+      "ending": "XM-E1",
+      "epilogue": "",
+      "event": "0",
+      "motion": [
+        "KCG-XM-01",
+        "KCG-XM-02",
+        "KCG-XM-03",
+        "KCG-XM-04",
+        "MCG-XM-E1",
+        "OV-XM45"
+      ],
+      "restorations": [
+        {
+          "label": "helmet-T-XM-000296_1",
+          "node": "T-XM-000296_1",
+          "pass": true
+        },
+        {
+          "label": "helmet-T-XM-000794_1",
+          "node": "T-XM-000794_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 341250
+    },
+    {
+      "name": "02-xiaoman-HIGH-XM-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "pages": 1276,
+      "ending": "XM-E2",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [
+        "KCG-XM-01",
+        "KCG-XM-02"
+      ],
+      "restorations": [
+        {
+          "label": "helmet-T-XM-000296_1",
+          "node": "T-XM-000296_1",
+          "pass": true
+        },
+        {
+          "label": "helmet-T-XM-000794_1",
+          "node": "T-XM-000794_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 330493
+    },
+    {
+      "name": "03-xiaoman-LOW-XM-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "pages": 1255,
+      "ending": "XM-E1",
+      "epilogue": "",
+      "event": "1",
+      "motion": [
+        "KCG-XM-01",
+        "KCG-XM-02",
+        "KCG-XM-03",
+        "KCG-XM-04",
+        "MCG-XM-E1",
+        "OV-XM45"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        },
+        {
+          "label": "helmet-T-XM-000296_1",
+          "node": "T-XM-000296_1",
+          "pass": true
+        },
+        {
+          "label": "helmet-T-XM-000794_1",
+          "node": "T-XM-000794_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 364526
+    },
+    {
+      "name": "04-xiaoman-LOW-XM-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "pages": 1259,
+      "ending": "XM-E2",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [
+        "KCG-XM-01",
+        "KCG-XM-02"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        },
+        {
+          "label": "helmet-T-XM-000296_1",
+          "node": "T-XM-000296_1",
+          "pass": true
+        },
+        {
+          "label": "helmet-T-XM-000794_1",
+          "node": "T-XM-000794_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 344468
+    },
+    {
+      "name": "06-zhouzhi-HIGH-ZZ-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "pages": 1369,
+      "ending": "ZZ-E2",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [
+        "KCG-ZZ-01"
+      ],
+      "restorations": [],
+      "elapsedMs": 1283003
+    },
+    {
+      "name": "05-zhouzhi-HIGH-ZZ-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+      "pages": 1353,
+      "ending": "ZZ-E1",
+      "epilogue": "",
+      "event": "0",
+      "motion": [
+        "KCG-ZZ-01",
+        "KCG-ZZ-02",
+        "KCG-ZZ-03",
+        "KCG-ZZ-04",
+        "KCG-ZZ-05",
+        "MCG-ZZ-E1",
+        "OV-ZZ-BJ",
+        "OV-ZZ-GY"
+      ],
+      "restorations": [],
+      "elapsedMs": 268023
+    },
+    {
+      "name": "07-zhouzhi-LOW-ZZ-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+      "pages": 1383,
+      "ending": "ZZ-E1",
+      "epilogue": "",
+      "event": "1",
+      "motion": [
+        "KCG-ZZ-01",
+        "KCG-ZZ-02",
+        "KCG-ZZ-03",
+        "KCG-ZZ-04",
+        "KCG-ZZ-05",
+        "MCG-ZZ-E1",
+        "OV-ZZ-BJ",
+        "OV-ZZ-GY"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 282521
+    },
+    {
+      "name": "08-zhouzhi-LOW-ZZ-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+      "pages": 1352,
+      "ending": "ZZ-E2",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [
+        "KCG-ZZ-01"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 247439
+    },
+    {
+      "name": "09-mengyao-HIGH-MY-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+      "pages": 1140,
+      "ending": "MY-E1",
+      "epilogue": "",
+      "event": "0",
+      "motion": [
+        "KCG-MY-01",
+        "KCG-MY-02",
+        "KCG-MY-03",
+        "KCG-MY-04",
+        "MCG-MY-E1"
+      ],
+      "restorations": [],
+      "elapsedMs": 225015
+    },
+    {
+      "name": "10-mengyao-HIGH-MY-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+      "pages": 1160,
+      "ending": "MY-E2",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [
+        "KCG-MY-01"
+      ],
+      "restorations": [],
+      "elapsedMs": 202058
+    },
+    {
+      "name": "11-mengyao-LOW-MY-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+      "pages": 1170,
+      "ending": "MY-E1",
+      "epilogue": "",
+      "event": "1",
+      "motion": [
+        "KCG-MY-01",
+        "KCG-MY-02",
+        "KCG-MY-03",
+        "KCG-MY-04",
+        "MCG-MY-E1"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 230463
+    },
+    {
+      "name": "12-mengyao-LOW-MY-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+      "pages": 1143,
+      "ending": "MY-E2",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [
+        "KCG-MY-01"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 210826
+    },
+    {
+      "name": "13-piao-HIGH-PI-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-resume/report.json",
+      "pages": 1170,
+      "ending": "PI-E1",
+      "epilogue": "",
+      "event": "0",
+      "motion": [
+        "KCG-PI-01",
+        "KCG-PI-02",
+        "MCG-PI-E1",
+        "OV-PI39"
+      ],
+      "restorations": [
+        {
+          "label": "piao-prop",
+          "node": "T-PI-000646_1",
+          "pass": true
+        },
+        {
+          "label": "piao-portrait",
+          "node": "T-PI-000647_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 232391
+    },
+    {
+      "name": "14-piao-HIGH-PI-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1214,
+      "ending": "PI-E2",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [
+        "KCG-PI-01",
+        "OV-PI39"
+      ],
+      "restorations": [
+        {
+          "label": "piao-prop",
+          "node": "T-PI-000646_1",
+          "pass": true
+        },
+        {
+          "label": "piao-portrait",
+          "node": "T-PI-000647_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 241564
+    },
+    {
+      "name": "15-piao-LOW-PI-LE1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 825,
+      "ending": "PI-LE1",
+      "epilogue": "",
+      "event": "1",
+      "motion": [
+        "MCG-PI-LE1"
+      ],
+      "restorations": [
+        {
+          "label": "piao-portrait",
+          "node": "T-PI-000467_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 164140
+    },
+    {
+      "name": "16-piao-LOW-PI-LE2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 854,
+      "ending": "PI-LE2",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [],
+      "restorations": [
+        {
+          "label": "piao-portrait",
+          "node": "T-PI-000467_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 169437
+    },
+    {
+      "name": "17-huangqiuqiu-HIGH-HQ-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1104,
+      "ending": "HQ-E1",
+      "epilogue": "",
+      "event": "0",
+      "motion": [
+        "KCG-HQ-01",
+        "KCG-HQ-02",
+        "KCG-HQ-03",
+        "MCG-HQ-E1",
+        "OV-HQ57"
+      ],
+      "restorations": [
+        {
+          "label": "generic-human-portrait",
+          "node": "T-C01-000115_1",
+          "pass": true
+        },
+        {
+          "label": "hq-orb",
+          "node": "T-C02-000487_1",
+          "pass": true
+        },
+        {
+          "label": "hq-late-human-T-HQ-000278_1",
+          "node": "T-HQ-000278_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 257301
+    },
+    {
+      "name": "19-huangqiuqiu-LOW-HQ-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1134,
+      "ending": "HQ-E1",
+      "epilogue": "",
+      "event": "1",
+      "motion": [
+        "KCG-HQ-01",
+        "KCG-HQ-02",
+        "KCG-HQ-03",
+        "MCG-HQ-E1",
+        "OV-HQ57"
+      ],
+      "restorations": [
+        {
+          "label": "generic-human-portrait",
+          "node": "T-C01-000115_1",
+          "pass": true
+        },
+        {
+          "label": "hq-orb",
+          "node": "T-C02-000487_1",
+          "pass": true
+        },
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        },
+        {
+          "label": "hq-late-human-T-HQ-000278_1",
+          "node": "T-HQ-000278_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 275037
+    },
+    {
+      "name": "21-friends-HIGH-FR-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1148,
+      "ending": "FR-E1",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [],
+      "restorations": [],
+      "elapsedMs": 209880
+    },
+    {
+      "name": "22-friends-HIGH-FR-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1102,
+      "ending": "FR-E2",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [],
+      "restorations": [],
+      "elapsedMs": 209082
+    },
+    {
+      "name": "23-friends-LOW-FR-E1",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1131,
+      "ending": "FR-E1",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 242959
+    },
+    {
+      "name": "24-friends-LOW-FR-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1107,
+      "ending": "FR-E2",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 228321
+    },
+    {
+      "name": "mengyao-HIGH-AB",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1213,
+      "ending": "MY-E2",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [
+        "KCG-MY-01",
+        "KCG-MY-02",
+        "KCG-MY-03",
+        "KCG-MY-04"
+      ],
+      "restorations": [],
+      "elapsedMs": 253387
+    },
+    {
+      "name": "mengyao-HIGH-BB",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1157,
+      "ending": "MY-E2",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [
+        "KCG-MY-01"
+      ],
+      "restorations": [],
+      "elapsedMs": 216744
+    },
+    {
+      "name": "mengyao-LOW-AB",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1196,
+      "ending": "MY-E2",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [
+        "KCG-MY-01",
+        "KCG-MY-02",
+        "KCG-MY-03",
+        "KCG-MY-04"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 243937
+    },
+    {
+      "name": "mengyao-LOW-BB",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "pages": 1140,
+      "ending": "MY-E2",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [
+        "KCG-MY-01"
+      ],
+      "restorations": [
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 216657
+    },
+    {
+      "name": "18-huangqiuqiu-HIGH-HQ-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-hq-recheck/report.json",
+      "pages": 1161,
+      "ending": "HQ-E2",
+      "epilogue": "EP-HIGH",
+      "event": "0",
+      "motion": [
+        "KCG-HQ-01",
+        "OV-HQ57"
+      ],
+      "restorations": [
+        {
+          "label": "hq-orb",
+          "node": "T-C02-000487_1",
+          "pass": true
+        },
+        {
+          "label": "hq-human",
+          "node": "T-HQ-000196_1",
+          "pass": true
+        },
+        {
+          "label": "hq-late-human-T-HQ-000278_1",
+          "node": "T-HQ-000278_1",
+          "pass": true
+        },
+        {
+          "label": "hq-late-human-T-HQ-000342_1",
+          "node": "T-HQ-000342_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 322518
+    },
+    {
+      "name": "20-huangqiuqiu-LOW-HQ-E2",
+      "status": "pass",
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-hq-recheck/report.json",
+      "pages": 1144,
+      "ending": "HQ-E2",
+      "epilogue": "EP-LOW",
+      "event": "1",
+      "motion": [
+        "KCG-HQ-01",
+        "OV-HQ57"
+      ],
+      "restorations": [
+        {
+          "label": "hq-orb",
+          "node": "T-C02-000487_1",
+          "pass": true
+        },
+        {
+          "label": "day36-event",
+          "node": "T-D36-000001_1",
+          "pass": true
+        },
+        {
+          "label": "hq-human",
+          "node": "T-HQ-000196_1",
+          "pass": true
+        },
+        {
+          "label": "hq-late-human-T-HQ-000278_1",
+          "node": "T-HQ-000278_1",
+          "pass": true
+        },
+        {
+          "label": "hq-late-human-T-HQ-000342_1",
+          "node": "T-HQ-000342_1",
+          "pass": true
+        }
+      ],
+      "elapsedMs": 330284
+    }
+  ],
+  "excludedFailures": [
+    {
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "name": "05-zhouzhi-HIGH-ZZ-E1",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:68:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "subsequentlyPassed": true
+    },
+    {
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "name": "07-zhouzhi-LOW-ZZ-E1",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:68:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "subsequentlyPassed": true
+    },
+    {
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "name": "08-zhouzhi-LOW-ZZ-E2",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:68:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "subsequentlyPassed": true
+    },
+    {
+      "sourceReport": "qa/dialogue-p5-motion-20261104/routes-v5-full/report.json",
+      "name": "09-mengyao-HIGH-MY-E1",
+      "error": "page.waitForFunction: Timeout 180000ms exceeded.\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:68:12)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "subsequentlyPassed": true
+    },
+    {
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "name": "18-huangqiuqiu-HIGH-HQ-E2",
+      "error": "AssertionError [ERR_ASSERTION]: 实际CG解锁\n+ actual - expected\n... Skipped lines\n\n  [\n    'CG001',\n    'CG004',\n    'CG005',\n    'CG006',\n...\n    'CG099',\n-   'CG107',\n    'CG110',\n    'CG111',\n    'CG124',\n    'CG125',\n    'CG126'\n\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:105:114)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async Promise.all (index 1)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "subsequentlyPassed": true
+    },
+    {
+      "sourceReport": "qa/dialogue-p5-motion-20261105/routes-v5-remaining/report.json",
+      "name": "20-huangqiuqiu-LOW-HQ-E2",
+      "error": "AssertionError [ERR_ASSERTION]: 实际CG解锁\n+ actual - expected\n... Skipped lines\n\n  [\n    'CG001',\n    'CG004',\n    'CG005',\n    'CG006',\n...\n    'CG101',\n-   'CG107',\n    'CG110',\n    'CG111',\n    'CG124',\n    'CG125',\n    'CG126'\n\n    at runCase (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:105:114)\n    at async worker (/Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:122:89)\n    at async Promise.all (index 0)\n    at async /Users/yipin/Desktop/Suika3/tools/story-revision/p5/verify-routes.cjs:123:3",
+      "subsequentlyPassed": true
+    }
+  ]
+}
