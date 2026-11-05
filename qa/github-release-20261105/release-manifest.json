@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-05",
+  "repository": "https://github.com/279905028/Suika3",
+  "tag": "v1.1.0-beta.2",
+  "prerelease": true,
+  "sourceCommit": "45416fbff66d383da3999ca118b3a829fa1a1314",
+  "sourceBranch": "codex/release-v1.1.0-beta.2",
+  "remoteMainPreserved": "c6f83dae7dfa932766400f959066fd4a429933de",
+  "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf",
+  "runtimeBuildIds": {
+    "web": "af83aacf3be43901b4dce67a42b59e1c145058c3eb15f037695f9421517742d8",
+    "native": "49aa385f6badbb2cd6cd41c2bf69976dbee697b470cad19047c293502b455f75"
+  },
+  "webInputFingerprint": "1d12ecf12971e76b9fc6fd136702adcace5557b8ce2ec34f57fb0d93fbe5f8c5",
+  "sourceVerification": {
+    "pass": true,
+    "trackedFrozenInputsMatchedIndex": 358,
+    "allInputsInFrozenArchive": 1248,
+    "mismatches": [],
+    "runtimeBuildId": "af83aacf3be43901b4dce67a42b59e1c145058c3eb15f037695f9421517742d8",
+    "contentBuildId": "544a142e7bd029c34e82e6a0dc6b9a8a6de099cc62affc852a389dab83d69ebf"
+  },
+  "validation": {
+    "zipFiles": 1436,
+    "chromeRestorationChecks": 10,
+    "motionClipsPlayed": 29,
+    "httpChecks": 9,
+    "frozenFilesRestored": 2703,
+    "webAndNativeRepackMatched": true,
+    "native": "文件与架构核验；macOS v3限定冒烟为既有同字节证据，Windows运行未验",
+    "fullRoutes": "最新孟遥四条Chrome完整路线为同版本既有证据，本次未重跑全路线",
+    "playerSavesAccessed": false
+  },
+  "packages": [
+    {
+      "path": "v1.1.0-beta.2-web.zip",
+      "bytes": 510771194,
+      "sha256": "2c012982b1f856bdde06dc704b26d173b95e7e30948214d2c38853d5cde48752",
+      "mode": 420,
+      "platform": "web",
+      "filesVerified": 76
+    },
+    {
+      "path": "v1.1.0-beta.2-macos.zip",
+      "bytes": 430395980,
+      "sha256": "f700e66954699791d8f32a5777832b8e641f6227150fd4ee1bedd84bcfd329fb",
+      "mode": 420,
+      "platform": "macos",
+      "filesVerified": 9
+    },
+    {
+      "path": "v1.1.0-beta.2-windows-x64.zip",
+      "bytes": 428762540,
+      "sha256": "0927fccf4739722f4350b4810b3b523f00337fb1908da14755efdb6e8b86ef72",
+      "mode": 420,
+      "platform": "windows-x64",
+      "filesVerified": 9
+    },
+    {
+      "path": "v1.1.0-beta.2-windows-arm64.zip",
+      "bytes": 428655426,
+      "sha256": "247b2b604b7a536d73a960895d688de70ebf2f6dad648e573a57647bda45a3e4",
+      "mode": 420,
+      "platform": "windows-arm64",
+      "filesVerified": 9
+    },
+    {
+      "path": "v1.1.0-beta.2-build-inputs.zip",
+      "bytes": 621747352,
+      "sha256": "fe286ba8ad7ff86eb3ce514773ce667d725d30c21dc33387cd470f879560d1ac",
+      "mode": 420,
+      "platform": "build-inputs",
+      "filesVerified": 1333
+    }
+  ]
+}
